@@ -25,6 +25,7 @@
 			"author": "Mike Mearls",
 			"published": "2015-02-02",
 			"group": "prerelease",
+			"coverUrl": "img/covers/blank.png",
 			"contents": [
 				{
 					"name": "When Armies Clash",
@@ -178,7 +179,7 @@
 															"items": [
 																"All stands in the unit have advantage on Dexterity saving throws.",
 																"A skirmisher unit uses the highest Dexterity modifier from among its component stands to determine initiative.",
-																"The unit can take the {@action Hide} action (see \"Battle Actions\" below).",
+																"The unit can take the Hide action (see \"Battle Actions\" below).",
 																"An allied stand can move through the space of a stand of skirmishers but can't end its turn in that location.",
 																"An allied solo can move through the space of a stand of skirmishers but can't end its turn in that location unless it uses its action to join that stand.",
 																"A skirmisher stand can use part of its move, take an action, and then complete its move.",
@@ -445,7 +446,7 @@
 											"page": 4,
 											"entries": [
 												"Attacks between units work the same as in the standard combat rules, except as described here.",
-												"A unit that takes the {@action Attack} action fights one or more other units, with each stand attacking individually. Each stand in a unit directs its attack against another target stand. A stand attacks just like its component creatures. For instance, if a creature has the Multiattack ability, a stand composed of those creatures has that ability as well. Different stands can choose different forms of attack, according to their capabilities. For instance, one stand of orcs can make a melee attack with greataxes, while another stand of orcs in the same unit makes ranged attacks with javelins.",
+												"A unit that takes the Attack action fights one or more other units, with each stand attacking individually. Each stand in a unit directs its attack against another target stand. A stand attacks just like its component creatures. For instance, if a creature has the Multiattack ability, a stand composed of those creatures has that ability as well. Different stands can choose different forms of attack, according to their capabilities. For instance, one stand of orcs can make a melee attack with greataxes, while another stand of orcs in the same unit makes ranged attacks with javelins.",
 												"For monster abilities that create a distance effect measured in feet, convert that distance to squares by dividing by 5, using the same rules for calculating the speed of a stand. For example, a minotaur's charge allows it to push a target up to 10 feet. A stand of minotaurs would thus be able to push an enemy stand 2 squares.",
 												"Roll the stand's attack and damage as in the standard combat rules, applying damage against the target stand's hit points.",
 												{
@@ -461,7 +462,7 @@
 													"name": "Reach",
 													"page": 5,
 													"entries": [
-														"A stand that has a reach of 10 feet or greater with its melee attack makes a bonus attack as part of its {@action Attack} action. This benefit represents the stand's ability to bring more of its members to bear when making an attack."
+														"A stand that has a reach of 10 feet or greater with its melee attack makes a bonus attack as part of its Attack action. This benefit represents the stand's ability to bring more of its members to bear when making an attack."
 													]
 												},
 												{
@@ -547,7 +548,7 @@
 													"name": "Aid",
 													"page": 6,
 													"entries": [
-														"When a unit in the aid configuration uses the {@action Attack} action to make a melee attack, individual stands in the unit can forgo their attacks to support the melee attacks of other stands. A stand that does so grants advantage on melee attack rolls made by an adjacent stand in its unit. A stand can grant advantage in this manner even if it has no legal target for an attack of its own (representing soldiers pushing forward to replace casualties, covering an exposed flank against a counterattack, or distracting the enemy with ranged fire).",
+														"When a unit in the aid configuration uses the Attack action to make a melee attack, individual stands in the unit can forgo their attacks to support the melee attacks of other stands. A stand that does so grants advantage on melee attack rolls made by an adjacent stand in its unit. A stand can grant advantage in this manner even if it has no legal target for an attack of its own (representing soldiers pushing forward to replace casualties, covering an exposed flank against a counterattack, or distracting the enemy with ranged fire).",
 														"A unit in the aid configuration moves at half speed (rounding down if necessary) to reflect the fact that some of its members are moving around within the ranks instead of pressing forward."
 													]
 												},
@@ -556,7 +557,7 @@
 													"name": "Defend",
 													"page": 6,
 													"entries": [
-														"When a unit is in the defend configuration, all stands in the regiment gain a +2 bonus to AC. The unit can't use the {@action Attack} action while it remains in this configuration.",
+														"When a unit is in the defend configuration, all stands in the regiment gain a +2 bonus to AC. The unit can't use the Attack action while it remains in this configuration.",
 														"A unit in the defend configuration moves at half speed (rounding down if necessary) to reflect the fact that its members are focusing on protecting themselves instead of pressing forward."
 													]
 												},
@@ -575,8 +576,8 @@
 											"name": "Dash",
 											"page": 6,
 											"entries": [
-												"A unit that takes the {@action Dash} action gains a bonus to its speed equal to its normal speed.",
-												"A regiment that is configured to aid or defend and takes the {@action Dash} action can move at its full speed (not half speed) on that turn."
+												"A unit that takes the Dash action gains a bonus to its speed equal to its normal speed.",
+												"A regiment that is configured to aid or defend and takes the Dash action can move at its full speed (not half speed) on that turn."
 											]
 										},
 										{
