@@ -1,0 +1,878 @@
+{
+	"_meta": {
+		"sources": [
+			{
+				"json": "UAQuickCharacters",
+				"abbreviation": "UAQCh",
+				"full": "Unearthed Arcana: Quick Characters",
+				"authors": [
+					"Wizards of the Coast"
+				],
+				"version": "1.0.0",
+				"url": "https://media.wizards.com/2016/downloads/DND/UA_Quick_PCs_SFG.PDF",
+				"dateReleased": "2016-07-25"
+			}
+		],
+		"dateAdded": 1672604449
+	},
+	"book": [
+		{
+			"name": "Unearthed Arcana: Quick Characters",
+			"source": "UAQuickCharacters",
+			"id": "UAQCh",
+			"author": "Mike Mearls",
+			"published": "2016-07-25",
+			"group": "prerelease",
+			"coverUrl": "img/covers/blank.png",
+			"contents": [
+				{
+					"name": "Quick Characters",
+					"headers": [
+						"Alignment",
+						"Background",
+						"Class and Abilites",
+						"Equipment",
+						"Race"
+					]
+				}
+			]
+		}
+	],
+	"bookData": [
+		{
+			"id": "UAQCh",
+			"source": "UAQuickCharacters",
+			"data": [
+				{
+					"type": "section",
+					"name": "Quick Characters",
+					"page": 1,
+					"entries": [
+						"Sometimes you need quick characters for a D&D session. Whether you're running an impromptu game with limited time for character creation, you want to get a new player into an established game quickly, or you need a new PC to replace a dead adventurer, these optional rules are for you. These rules can be used instead of the normal process of character creation, replacing the choice and creativity of that process with a series of tables that quickly generate a 1st-level character.",
+						"With the exception of backgrounds, these rules focus on the character options available in the D&D Basic Rules as a means of keeping things simple.",
+						{
+							"type": "entries",
+							"name": "Alignment",
+							"page": 1,
+							"entries": [
+								"Roll a {@dice d6} to determine your character's alignment.",
+								{
+									"type": "table",
+									"colLabels": [
+										"d6",
+										"Alignment"
+									],
+									"colStyles": [
+										"col-1 text-center",
+										"col-11"
+									],
+									"rows": [
+										[
+											"1",
+											"Lawful Good"
+										],
+										[
+											"2",
+											"Neutral Good"
+										],
+										[
+											"3",
+											"Chaotic Good"
+										],
+										[
+											"4",
+											"Lawful Neutral"
+										],
+										[
+											"5",
+											"Neutral"
+										],
+										[
+											"6",
+											"Chaotic Neutral"
+										]
+									]
+								}
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Background",
+							"page": 1,
+							"entries": [
+								"Backgrounds already make use of random tables to flesh out your character, and are easy to apply. You can roll a {@dice d6} to determine your character's background if you're using the Basic Rules, or roll a {@dice d20} to use the full list of backgrounds from the Player's Handbook.",
+								{
+									"type": "table",
+									"colLabels": [
+										"d6",
+										"Background (Basic Rules)"
+									],
+									"colStyles": [
+										"col-1 text-center",
+										"col-11"
+									],
+									"rows": [
+										[
+											"1",
+											"{@background Acolyte}"
+										],
+										[
+											"2",
+											"{@background Criminal}"
+										],
+										[
+											"3",
+											"{@background Folk Hero}"
+										],
+										[
+											"4",
+											"{@background Noble}"
+										],
+										[
+											"5",
+											"{@background Sage}"
+										],
+										[
+											"6",
+											"{@background Soldier}"
+										]
+									]
+								},
+								{
+									"type": "table",
+									"colLabels": [
+										"d20",
+										"Background (Player's Handbook)"
+									],
+									"colStyles": [
+										"col-1 text-center",
+										"col-11"
+									],
+									"rows": [
+										[
+											"1-2",
+											"{@background Acolyte}"
+										],
+										[
+											"3",
+											"{@background Charlatan}"
+										],
+										[
+											"4-5",
+											"{@background Criminal}"
+										],
+										[
+											"6",
+											"{@background Entertainer}"
+										],
+										[
+											"7-8",
+											"{@background Folk Hero}"
+										],
+										[
+											"9-10",
+											"{@background Guild Artisan}"
+										],
+										[
+											"11",
+											"{@background Hermit}"
+										],
+										[
+											"12",
+											"{@background Noble}"
+										],
+										[
+											"13-14",
+											"{@background Outlander}"
+										],
+										[
+											"15",
+											"{@background Sage}"
+										],
+										[
+											"16-17",
+											"{@background Sailor}"
+										],
+										[
+											"18-19",
+											"{@background Soldier}"
+										],
+										[
+											"20",
+											"{@background Urchin}"
+										]
+									]
+								},
+								"Alternatively, for players who are comfortable defining a character's personality traits, ideals, bonds, and flaws through roleplaying, the quick character generation process can be made even quicker by foregoing a background, instead rolling for the skill and tool proficiencies normally provided by a background. Roll four times on the following table, rerolling any duplicate results.",
+								{
+									"type": "table",
+									"colLabels": [
+										"d20",
+										"Proficiency"
+									],
+									"colStyles": [
+										"col-1 text-center",
+										"col-11"
+									],
+									"rows": [
+										[
+											"1",
+											"{@skill Acrobatics}"
+										],
+										[
+											"2",
+											"{@skill Animal Handling}"
+										],
+										[
+											"3",
+											"{@skill Arcana}"
+										],
+										[
+											"4",
+											"{@skill Athletics}"
+										],
+										[
+											"5",
+											"{@skill Deception}"
+										],
+										[
+											"6",
+											"{@skill History}"
+										],
+										[
+											"7",
+											"{@skill Insight}"
+										],
+										[
+											"8",
+											"{@skill Intimidation}"
+										],
+										[
+											"9",
+											"{@skill Investigation}"
+										],
+										[
+											"10",
+											"{@skill Medicine}"
+										],
+										[
+											"11",
+											"{@skill Nature}"
+										],
+										[
+											"12",
+											"{@skill Perception}"
+										],
+										[
+											"13",
+											"{@skill Performance}"
+										],
+										[
+											"14",
+											"{@skill Persuasion}"
+										],
+										[
+											"15",
+											"{@skill Religion}"
+										],
+										[
+											"16",
+											"{@skill Sleight of Hand}"
+										],
+										[
+											"17",
+											"{@skill Stealth}"
+										],
+										[
+											"18",
+											"{@skill Survival}"
+										],
+										[
+											"19",
+											"{@item Carpenter's tools|PHB}"
+										],
+										[
+											"20",
+											"{@item Thieves' tools|PHB}"
+										]
+									]
+								},
+								"In place of a background feature, once during any game session, you can pick a nonplayer character you meet and declare that your character knows that NPC. The relationship is respectful but not necessarily friendly. The DM determines the exact nature of your relationship."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Class and Abilities",
+							"page": 2,
+							"entries": [
+								"Roll a {@dice d6} to determine your class from the following table, which is more likely to generate a fighter or cleric than a rogue or wizard. Especially if you're randomly generating an entire party, tilting the odds in favor of fighters and clerics can help shore up a group's ability to survive in combat. Alternatively (or if you're generating a single character joining an already balanced party), you can roll a {@dice d4} and give each class an equal chance of being generated.",
+								{
+									"type": "table",
+									"colLabels": [
+										"d6",
+										"{@dice d4}",
+										"Class"
+									],
+									"colStyles": [
+										"col-1 text-center",
+										"col-1 text-center",
+										"col-10"
+									],
+									"rows": [
+										[
+											"1-2",
+											"1",
+											"{@class Cleric}"
+										],
+										[
+											"3-4",
+											"2",
+											"{@class Fighter}"
+										],
+										[
+											"5",
+											"3",
+											"{@class Rogue}"
+										],
+										[
+											"6",
+											"4",
+											"{@class Wizard}"
+										]
+									]
+								},
+								"When determining your ability scores, your choice of class shapes which abilities are of most use to your character. Roll a {@dice d6} to determine the ability score array your character uses. Then assign those numbers to your abilities in an order determined by your class.",
+								{
+									"type": "table",
+									"colLabels": [
+										"d6",
+										"Score Array"
+									],
+									"colStyles": [
+										"col-1 text-center",
+										"col-11"
+									],
+									"rows": [
+										[
+											"1",
+											"18, 14, 12, 8, 8, 6"
+										],
+										[
+											"2",
+											"16, 14, 14, 10, 10, 8"
+										],
+										[
+											"3",
+											"16, 16, 12, 10, 8, 8"
+										],
+										[
+											"4",
+											"16, 12, 12, 12, 10, 8"
+										],
+										[
+											"5",
+											"14, 14, 12, 12, 12, 12"
+										],
+										[
+											"6",
+											"14, 14, 14, 12, 12, 10"
+										]
+									]
+								},
+								{
+									"type": "entries",
+									"entries": [
+										{
+											"type": "entries",
+											"name": "Cleric",
+											"page": 2,
+											"entries": [
+												"Wisdom, Strength, Constitution, Charisma, Dexterity, Intelligence."
+											]
+										},
+										{
+											"type": "entries",
+											"name": "Fighter",
+											"page": 2,
+											"entries": [
+												"Strength, Constitution, Dexterity, Wisdom, Intelligence, Charisma."
+											]
+										},
+										{
+											"type": "entries",
+											"name": "Rogue",
+											"page": 2,
+											"entries": [
+												"Dexterity, Charisma, Intelligence, Constitution, Strength, Wisdom."
+											]
+										},
+										{
+											"type": "entries",
+											"name": "Wizard",
+											"page": 2,
+											"entries": [
+												"Intelligence, Dexterity, Wisdom, Charisma, Constitution, Strength.",
+												"For example, a player creating a cleric rolls a 4 for the character's ability score array\u201416, 12, 12, 12, 10, and 8. Those numbers are assigned in that order to the ability scores listed for clerics, yielding a character with Strength 12, Dexterity 10, Constitution 12, Intelligence 8, Wisdom 16, and Charisma 12.",
+												"After you assign your character's ability scores, but before applying any modifiers for your race (see below), you can swap any two scores."
+											]
+										}
+									]
+								}
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Equipment",
+							"page": 2,
+							"entries": [
+								"Your class also determines your equipment. Select gear from your class's quick equipment choices, except for any of the prebuilt packs such as the explorer's pack or the priest's pack (see below). Alternatively, you can select one of the following default equipment packages:",
+								{
+									"type": "list",
+									"items": [
+										{
+											"type": "item",
+											"name": "Cleric:",
+											"entry": "{@item Mace|phb}, {@item scale mail|phb}, {@item light crossbow|phb} and 20 {@item Crossbow Bolts (20)|PHB|bolts}, {@item shield|phb}, {@item holy symbol|phb}"
+										},
+										{
+											"type": "item",
+											"name": "Fighter:",
+											"entry": "{@item Chain mail|phb}, {@item longsword|phb}, {@item shield|phb}, {@item light crossbow|phb} and 20 {@item Crossbow Bolts (20)|PHB|bolts}"
+										},
+										{
+											"type": "item",
+											"name": "Rogue:",
+											"entry": "{@item Shortsword|phb}, {@item shortbow|phb} and 20 {@item Arrows (20)|PHB|arrows}, {@item leather armor|phb}, two {@item dagger|phb|daggers}, {@item thieves' tools|phb}"
+										},
+										{
+											"type": "item",
+											"name": "Wizard:",
+											"entry": "{@item Dagger|phb}, {@item component pouch|phb}, {@item spellbook|phb}"
+										}
+									]
+								},
+								"Then select one of the following standard equipment packs for your character:",
+								{
+									"type": "list",
+									"items": [
+										"{@item Backpack|phb}, {@item sack|phb}, {@item bullseye lantern|phb|lantern}, 2 {@item oil (flask)|phb|oil flasks}, {@item tinderbox|phb}, 12 {@item piton|phb|pitons}, {@item hammer|phb}, {@item waterskin|phb}, {@item rations (1 day)|phb|rations} (4 days), 5 gp",
+										"{@item Backpack|phb}, 2 {@item sack|phb|sacks}, 6 {@item torch|phb|torches}, 3 {@item oil (flask)|phb|oil flasks}, {@item tinderbox|phb}, {@item Pole (10-foot)|phb|10-foot-pole}, 50 feet of {@item Hempen Rope (50 feet)|phb|rope}, {@item waterskin|phb}, {@item rations (1 day)|phb|rations} (4 days), {@item steel mirror|phb}",
+										"{@item Backpack|phb}, 4 {@item sack|phb|sacks}, {@item holy symbol|phb} or {@item thieves' tools|phb}, 12 {@item piton|phb|pitons}, 50 feet of {@item Hempen Rope (50 feet)|phb|rope}, {@item waterskin|phb}, {@item rations (1 day)|phb|rations} (4 days)"
+									]
+								},
+								"All characters also gain a dagger and either a {@item light crossbow|phb} and 10 {@item Crossbow Bolts (20)|PHB|bolts}, or a set of 5 {@item javelin|phb|javelins}.",
+								{
+									"type": "entries",
+									"name": "Cleric Spells",
+									"page": 2,
+									"entries": [
+										"Randomly determining spells can speed up the process of creating a 1st-level cleric.",
+										{
+											"type": "entries",
+											"name": "Cantrips",
+											"page": 2,
+											"entries": [
+												"Roll a {@dice d6} three times to determine your cleric cantrips, rerolling any duplicate results.",
+												{
+													"type": "table",
+													"colLabels": [
+														"d6",
+														"Cantrip"
+													],
+													"colStyles": [
+														"col-1 text-center",
+														"col-11"
+													],
+													"rows": [
+														[
+															"1",
+															"{@spell Guidance}"
+														],
+														[
+															"2",
+															"{@spell Light}"
+														],
+														[
+															"3",
+															"{@spell Resistance}"
+														],
+														[
+															"4",
+															"{@spell Sacred Flame}"
+														],
+														[
+															"5",
+															"{@spell Spare the Dying}"
+														],
+														[
+															"6",
+															"{@spell Thaumaturgy}"
+														]
+													]
+												}
+											]
+										},
+										{
+											"type": "entries",
+											"name": "Spells",
+											"page": 2,
+											"entries": [
+												"Roll a {@dice d10} for each cleric spell you can prepare, rerolling any duplicate results.",
+												{
+													"type": "table",
+													"colLabels": [
+														"d10",
+														"Spell"
+													],
+													"colStyles": [
+														"col-1 text-center",
+														"col-11"
+													],
+													"rows": [
+														[
+															"1",
+															"{@spell Bless}"
+														],
+														[
+															"2",
+															"{@spell Command}"
+														],
+														[
+															"3-4",
+															"{@spell Cure Wounds}"
+														],
+														[
+															"5",
+															"{@spell Detect Magic}"
+														],
+														[
+															"6",
+															"{@spell Guiding Bolt}"
+														],
+														[
+															"7",
+															"{@spell Healing Word}"
+														],
+														[
+															"8",
+															"{@spell Inflict Wounds}"
+														],
+														[
+															"9",
+															"{@spell Sanctuary}"
+														],
+														[
+															"10",
+															"{@spell Shield of Faith}"
+														]
+													]
+												}
+											]
+										}
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Fighter Fighting Style",
+									"page": 3,
+									"entries": [
+										"Roll a {@dice d6} to determine your fighting style, and make the indicated adjustments if you selected the default equipment package.",
+										{
+											"type": "table",
+											"colLabels": [
+												"d6",
+												"Fighting Style"
+											],
+											"colStyles": [
+												"col-1 text-center",
+												"col-11"
+											],
+											"rows": [
+												[
+													"1",
+													"{@optfeature Archery} (swap {@item light crossbow|phb} and {@item Crossbow Bolts (20)|PHB|20 bolts} for a {@item longbow|phb} and {@item Arrows (20)|PHB|20 arrows}; at your option, also swap {@item chain mail|phb} for {@item leather armor|phb})"
+												],
+												[
+													"2",
+													"{@optfeature Defense}"
+												],
+												[
+													"3",
+													"{@optfeature Dueling}"
+												],
+												[
+													"4",
+													"{@optfeature Great Weapon Fighting} (swap {@item longsword|phb} and {@item shield|phb} for a {@item greataxe|phb})"
+												],
+												[
+													"5",
+													"{@optfeature Protection}"
+												],
+												[
+													"6",
+													"{@optfeature Two-Weapon Fighting} (swap {@item longsword|phb} for two {@item shortsword|PHB|short swords})"
+												]
+											]
+										}
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Rogue Proficiencies",
+									"page": 3,
+									"entries": [
+										"Roll a {@dice d12} four times to determine your skills, rerolling any duplicate results. In addition, reroll any results that duplicate skills granted by your background.",
+										{
+											"type": "table",
+											"colLabels": [
+												"d12",
+												"Skills"
+											],
+											"colStyles": [
+												"col-1 text-center",
+												"col-11"
+											],
+											"rows": [
+												[
+													"1",
+													"{@skill Acrobatics}"
+												],
+												[
+													"2",
+													"{@skill Athletics}"
+												],
+												[
+													"3",
+													"{@skill Deception}"
+												],
+												[
+													"4",
+													"{@skill Insight}"
+												],
+												[
+													"5",
+													"{@skill Intimidation}"
+												],
+												[
+													"6",
+													"{@skill Investigation}"
+												],
+												[
+													"7",
+													"{@skill Perception}"
+												],
+												[
+													"8",
+													"{@skill Performance}"
+												],
+												[
+													"9",
+													"{@skill Persuasion}"
+												],
+												[
+													"10",
+													"{@skill Sleight of Hand}"
+												],
+												[
+													"11-12",
+													"{@skill Stealth}"
+												]
+											]
+										}
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Wizard Spells",
+									"page": 3,
+									"entries": [
+										"Randomly determining spells can speed up the process of creating a 1st-level wizard.",
+										{
+											"type": "entries",
+											"name": "Cantrips",
+											"page": 3,
+											"entries": [
+												"Roll a {@dice d10} three times to determine your wizard cantrips, rerolling any duplicate results.",
+												{
+													"type": "table",
+													"colLabels": [
+														"d10",
+														"Cantrip"
+													],
+													"colStyles": [
+														"col-1 text-center",
+														"col-11"
+													],
+													"rows": [
+														[
+															"1",
+															"{@spell Acid splash}"
+														],
+														[
+															"2",
+															"{@spell Dancing lights}"
+														],
+														[
+															"3",
+															"{@spell Fire bolt}"
+														],
+														[
+															"4",
+															"{@spell Light}"
+														],
+														[
+															"5",
+															"{@spell Mage hand}"
+														],
+														[
+															"6",
+															"{@spell Minor illusion}"
+														],
+														[
+															"7",
+															"{@spell Poison spray}"
+														],
+														[
+															"8",
+															"{@spell Prestidigitation}"
+														],
+														[
+															"9",
+															"{@spell Ray of frost}"
+														],
+														[
+															"10",
+															"{@spell Shocking grasp}"
+														]
+													]
+												}
+											]
+										},
+										{
+											"type": "entries",
+											"name": "Spells",
+											"page": 3,
+											"entries": [
+												"Roll a {@dice d12} six times to determine the contents of your wizard spellbook, rerolling any duplicate results.",
+												{
+													"type": "table",
+													"colLabels": [
+														"d12",
+														"Spell"
+													],
+													"colStyles": [
+														"col-1 text-center",
+														"col-11"
+													],
+													"rows": [
+														[
+															"1",
+															"{@spell Burning hands}"
+														],
+														[
+															"2",
+															"{@spell Charm person}"
+														],
+														[
+															"3",
+															"{@spell Comprehend languages}"
+														],
+														[
+															"4",
+															"{@spell Detect magic}"
+														],
+														[
+															"5",
+															"{@spell Disguise self}"
+														],
+														[
+															"6",
+															"{@spell Identify}"
+														],
+														[
+															"7",
+															"{@spell Mage armor}"
+														],
+														[
+															"8",
+															"{@spell Magic missile}"
+														],
+														[
+															"9",
+															"{@spell Shield}"
+														],
+														[
+															"10",
+															"{@spell Silent image}"
+														],
+														[
+															"11",
+															"{@spell Sleep}"
+														],
+														[
+															"12",
+															"{@spell Thunderwave}"
+														]
+													]
+												}
+											]
+										}
+									]
+								}
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Race",
+							"page": 3,
+							"entries": [
+								"Finally, roll a {@dice d12} to determine your character's race. The following table is weighted heavily toward humans, both to reflect typical D&D demographics and to push players toward the easiest option.",
+								{
+									"type": "table",
+									"colLabels": [
+										"d12",
+										"Skills"
+									],
+									"colStyles": [
+										"col-1 text-center",
+										"col-11"
+									],
+									"rows": [
+										[
+											"1",
+											"{@race Dwarf (hill)||Hill Dwarf}"
+										],
+										[
+											"2",
+											"{@race Dwarf (mountain)||Mountain Dwarf}"
+										],
+										[
+											"3",
+											"{@race Elf (high)||High Elf}"
+										],
+										[
+											"4",
+											"{@race Elf (wood)||Wood Elf}"
+										],
+										[
+											"9",
+											"{@race halfling (lightfoot)||Lightfoot Halfling}"
+										],
+										[
+											"6",
+											"{@race halfling (stout)||Stout Halfling}"
+										],
+										[
+											"7-12",
+											"{@race Human}"
+										]
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	]
+}

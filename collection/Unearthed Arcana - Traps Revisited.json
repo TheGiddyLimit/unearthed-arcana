@@ -1,0 +1,1098 @@
+{
+	"_meta": {
+		"sources": [
+			{
+				"json": "UATrapsRevisited",
+				"abbreviation": "UATpR",
+				"full": "Unearthed Arcana: Traps Revisited",
+				"authors": [
+					"Wizards of the Coast"
+				],
+				"version": "1.0.0",
+				"url": "https://media.wizards.com/2017/dnd/downloads/0227_UATraps.pdf",
+				"dateReleased": "2017-02-27"
+			}
+		],
+		"dateAdded": 1672604449
+	},
+	"book": [
+		{
+			"name": "Unearthed Arcana: Traps Revisited",
+			"source": "UATrapsRevisited",
+			"id": "UATpR",
+			"author": "Mike Mearls",
+			"published": "2017-02-27",
+			"group": "prerelease",
+			"coverUrl": "img/covers/blank.png",
+			"contents": [
+				{
+					"name": "Traps Revisited",
+					"headers": [
+						"Simple Traps",
+						"Example Simple Traps",
+						"Designing Simple Traps",
+						"Complex Traps",
+						"Example Complex Traps",
+						"Designing Complex Traps"
+					]
+				}
+			]
+		}
+	],
+	"bookData": [
+		{
+			"id": "UATpR",
+			"source": "UATrapsRevisited",
+			"data": [
+				{
+					"type": "section",
+					"name": "Traps Revisited",
+					"page": 1,
+					"entries": [
+						"The rules for traps in the Dungeon Master's Guide provide the basic information you need to manage traps at the game table. The material here builds on the DMG rules and provides more guidance on creating traps of your own.",
+						"Rather than focus on traps as mechanical or magical, these rules separate traps into two categories: simple traps and complex traps.",
+						{
+							"type": "entries",
+							"name": "Simple Traps",
+							"page": 1,
+							"entries": [
+								"A simple trap activates and is then harmless. A hidden pit dug at the entrance of a goblin lair, a poison needle that pops from a lock, and a crossbow rigged to fire when an intruder steps on a pressure plate are all simple traps.",
+								{
+									"type": "entries",
+									"name": "Describing a Simple Trap",
+									"page": 1,
+									"entries": [
+										"Simple traps require three elements to function: a trigger, an effect they have once triggered, and the measures that can defeat them. In addition, a trap is given a level and an overall description of the threat it poses.",
+										{
+											"type": "entries",
+											"name": "Level and Threat",
+											"page": 1,
+											"entries": [
+												"A trap's level is expressed as a range of levels to give you an idea of its relative strength (levels 1\u20134, 5\u201310, 11\u201316, and 17\u201320). It is then labeled as a moderate, dangerous, or deadly threat. The trap's label tells you how powerful the trap is compared to others of its level range."
+											]
+										},
+										{
+											"type": "entries",
+											"name": "Trigger",
+											"page": 1,
+											"entries": [
+												"A simple trap has a trigger that describes what causes the trap to activate. The trigger's description includes its location and the action that causes it to activate."
+											]
+										},
+										{
+											"type": "entries",
+											"name": "Effect",
+											"page": 1,
+											"entries": [
+												"A trap's effect describes what happens when its trigger activates. The trap might fire a dart, unleash a cloud of poison gas, cause a hidden point to open, and so on. The effect specifies who the trap targets, its attack bonus or saving throw DC, and what happens on a hit or failed saving throw."
+											]
+										},
+										{
+											"type": "entries",
+											"name": "Countermeasures",
+											"page": 1,
+											"entries": [
+												"A trap can be defeated in a variety of ways. This section of a trap's description details the checks or spells that can detect and disable it. It also specifies what happens, if anything, on a failed attempt to disable it."
+											]
+										}
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Running a Simple Trap",
+									"page": 1,
+									"entries": [
+										"When managing a simple trap in play, start by making note of the characters' passive {@skill Perception} scores. Most traps allow Wisdom ({@skill Perception}) checks to detect their triggers or other elements that can tip off their presence. If you stop to ask for checks, the players might suspect a hidden danger.",
+										"When a trap triggers, apply its effects as specified in its description. Be sure of the players' intended actions before a trap activates so that it springs into action based on what the players want to do, rather than a course of action they're arguing about or merely considering. If the players discover a trap, be open to adjudicating their ideas for defeating it. The trap's description is a starting point for countermeasures, rather than a complete definition.",
+										"The players should be specific in how they want to defeat the trap. Simply stating the desire to make a check isn't enough. Ask the players where their characters are positioned and what they intend to do to defeat the trap. A player can't just say, \"I use thieves' tools to disable it.\" That's too murky. The player instead should describe something like, \"I use my thieves' tools to examine the lock and attempt to disable the poison needle inside it.\" The last thing you want is confusion over where the characters are located if a trap activates.",
+										"As a default, overcoming a simple trap offers no experience point reward. If the characters uncover the trap and avoid or disable it, their reward is dodging a threatening element of the dungeon. If they stumble into it, they must cope with the consequences of a more dangerous situation."
+									]
+								}
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Example Simple Traps",
+							"page": 2,
+							"entries": [
+								"Here are examples of simple traps that you can use to populate your adventures or as models for your own creations.",
+								{
+									"type": "list",
+									"columns": 3,
+									"items": [
+										"{@trap Bear Trap|UATrapsRevisited}",
+										"{@trap Crossbow Trap|UATrapsRevisited}",
+										"{@trap Falling Gate|UATrapsRevisited}",
+										"{@trap Fiery Blast Trap|UATrapsRevisited}",
+										"{@trap Net Trap|UATrapsRevisited}",
+										"{@trap Pit Trap|UATrapsRevisited}",
+										"{@trap Poison Needle|UATrapsRevisited}",
+										"{@trap Scything Blade|UATrapsRevisited}",
+										"{@trap Sleep of Ages|UATrapsRevisited}"
+									]
+								}
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Designing Simple Traps",
+							"page": 4,
+							"entries": [
+								"You can create a simple trap by using the following guidelines. You can also adapt the example traps by modifying DCs and damage values, based on the target level and threat for the trap.",
+								"Purpose Before diving into the details of your trap, think about its purpose. Why would someone build this trap? What is its purpose? Think of the trap's creator, the creator's purpose, and the location that the trap protects. Traps have context in the world, and that context drives the trap's nature and effects.",
+								"Described below are a few of the purposes a trap might have. Use them to inspire the creation of your own traps.",
+								{
+									"type": "entries",
+									"entries": [
+										{
+											"type": "entries",
+											"name": "Alarm",
+											"page": 4,
+											"entries": [
+												"An alarm trap is designed to alert an area's occupants of intruders. It might cause a bell or gong to sound. This type of trap rarely involves a saving throw."
+											]
+										},
+										{
+											"type": "entries",
+											"name": "Delay",
+											"page": 4,
+											"entries": [
+												"These traps serve to slow down intruders, giving a dungeon's inhabitants time to mount a defense or flee. A hidden pit is the classic example of this trap. A 10-foot-deep pit usually deals little damage and is easy to escape, but it slows down intruders. Other examples include collapsing walls, a portcullis that drops from the ceiling, and a locking mechanism that shuts and bars a door. These traps, when they directly threaten characters, usually require a Dexterity saving throw to avoid."
+											]
+										},
+										{
+											"type": "entries",
+											"name": "Restrain",
+											"page": 4,
+											"entries": [
+												"A restraining trap tries to keep its victims in place, leaving them unable to move. These traps are most useful when combined with a regular guard patrol, but in ancient dungeons the guards might be long gone. These traps usually require a Strength saving throw to avoid, but some don't allow saves. In addition to dealing damage, they also render a creature unable to move. A subsequent, successful Strength check (use the saving throw DC) or damage against the trap can break it and free the captive. Examples include a bear trap, a cage that drops from a ceiling, or a device that flings a net."
+											]
+										},
+										{
+											"type": "entries",
+											"name": "Slay",
+											"page": 4,
+											"entries": [
+												"These traps are designed to eliminate intruders. They include {@condition poisoned} needles that spring out when a lock is tampered with, blasts of fire that fill a room, poison gas, and so on. Saving throws\u2014usually Dexterity or Constitution\u2014allow creatures to avoid or mitigate the trap's effects."
+											]
+										}
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Level and Lethality",
+									"page": 4,
+									"entries": [
+										"Before creating a trap's effects, think about its level and its lethality.",
+										"Traps are divided into four level ranges, 1st\u2013 4th, 5th\u201310th, 11th\u201316th, and 17th\u201320th. A trap's level range gives you a starting point for its potency.",
+										"To further calibrate the trap's strength, pick whether it is a moderate, dangerous, or deadly threat within its level range. A moderate trap is unlikely to kill a character and is the weakest trap type. Dangerous traps deal enough damage that a character hit by one is eager for healing. A deadly trap might reduce a creature to 0 hit points in one shot, and leaves most creatures in need of a short or long rest.",
+										"Consult the following tables when nailing down a trap's effects. The Trap Save DCs and {@action Attack} Bonuses table provides guidelines for a trap's save DC, check DC, and attack bonus. The check DC is the default number used for any check used to interact with the trap.",
+										"The Damage Severity by Level table lists the typical damage a trap deals at certain character levels. The damage listed assumes the trap damages one creature. Use d6s for damage in place of d10s for traps that can affect more than one character at a time.",
+										"The Spell Equivalent by Level lists the spell slot level that is appropriate for the given character level and the danger posed by the trap. A spell is a great shortcut to use when designing a trap, whether the trap duplicates the spell (a mirror that throws charm person on whoever looks into it) or uses its effects (an alchemical device that explodes like fireball). Note that the Deadly entry for characters above 17th level suggests combining a 9th and 5th level spell into one effect. In this case, pick two spells, or combine the effects of a spell cast using a 9thlevel and a 5th-level slot.",
+										{
+											"type": "table",
+											"caption": "Trap Save DCs and Attack Bonuses",
+											"colLabels": [
+												"Trap Danger",
+												"Save/Check DC",
+												"Attack Bonus"
+											],
+											"colStyles": [
+												"col-4",
+												"col-4 text-center",
+												"col-4 text-center"
+											],
+											"rows": [
+												[
+													"Moderate",
+													"10",
+													"+5"
+												],
+												[
+													"Dangerous",
+													"15",
+													"+8"
+												],
+												[
+													"Deadly",
+													"20",
+													"+12"
+												]
+											]
+										},
+										{
+											"type": "table",
+											"caption": "Damage Severity by Level",
+											"colLabels": [
+												"Character Level",
+												"Moderate",
+												"Dangerous",
+												"Deadly"
+											],
+											"colStyles": [
+												"col-4 text-center",
+												"col-3 text-center",
+												"col-3 text-center",
+												"col-3 text-center"
+											],
+											"rows": [
+												[
+													"1st\u20134th",
+													"5 ({@dice 1d10})",
+													"11 ({@dice 2d10})",
+													"22 ({@dice 4d10})"
+												],
+												[
+													"5th\u201310th",
+													"11 ({@dice 2d10})",
+													"22 ({@dice 4d10})",
+													"55 ({@dice 10d10})"
+												],
+												[
+													"11th\u201316th",
+													"22 ({@dice 4d10})",
+													"55 ({@dice 10d10})",
+													"99 ({@dice 18d10})"
+												],
+												[
+													"17th\u201320th",
+													"55 ({@dice 10d10})",
+													"99 ({@dice 18d10})",
+													"132 ({@dice 24d10})"
+												]
+											]
+										},
+										{
+											"type": "table",
+											"caption": "Spell Equivalent by Level",
+											"colLabels": [
+												"Character Level",
+												"Moderate",
+												"Dangerous",
+												"Deadly"
+											],
+											"colStyles": [
+												"col-4 text-center",
+												"col-2 text-center",
+												"col-3 text-center",
+												"col-3 text-center"
+											],
+											"rows": [
+												[
+													"1st\u20134th",
+													"Cantrip",
+													"1st",
+													"2nd"
+												],
+												[
+													"5th\u201310th",
+													"1st",
+													"3rd",
+													"6th"
+												],
+												[
+													"11th\u201316th",
+													"3rd",
+													"6th",
+													"9th"
+												],
+												[
+													"17th\u201320th",
+													"6th",
+													"9th",
+													"9th + 5th"
+												]
+											]
+										}
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Triggers",
+									"page": 5,
+									"entries": [
+										"A trigger is the circumstance that needs to take place to activate the trap.",
+										"Decide what causes the trap to activate and determine how the characters can find the trigger. Here are some example triggers:",
+										{
+											"type": "list",
+											"items": [
+												"a pressure plate that, when stepped on, activates the trap",
+												"a tripwire that springs a trap when it is broken, usually when someone walks through it",
+												"a doorknob that activates a trap when it is turned the wrong way",
+												"a door or chest that triggers a trap when it is opened"
+											]
+										},
+										"A trigger usually needs to be hidden to be effective. Otherwise, avoiding the trap is trivially easy.",
+										"A trigger requires a Wisdom ({@skill Perception}) check if simply spotting it reveals its nature. The characters can foil a pit trap hidden by a leafcovered net if they spot the pit through a gap in the leaves. A tripwire is foiled if spotted, as is a pressure plate.",
+										"Other traps require careful inspection and deduction to notice. A doorknob opens a door when turned to the left, but activates a trap when turned to the right. Such a subtle trap requires a successful Intelligence ({@skill Investigation}) check to notice. The trigger is obvious. Understanding its nature is not.",
+										"The DC of the check, regardless of its type, depends on the skill and care taken to conceal the trap. Most traps require a {@dc 20} check to spot, but a poorly made or hastily built trap has a DC of 15. Exceptionally devious pitfalls might have a DC of 25.",
+										"You must then put some thought into what characters learn with a successful check. In most cases, the check reveals the trap. In other cases, it uncovers useful clues but still requires some deduction. The characters might succeed on the check but still trigger the trap if they fail to understand what they have learned.",
+										{
+											"type": "insetReadaloud",
+											"name": "Perception and Investigation",
+											"page": 5,
+											"entries": [
+												"A Wisdom ({@skill Perception}) check that reveals a tripwire doesn't tell the players what happens if they break the tripwire. They spot it before blundering into it, but must still decide what to do next. The nature of the item is not in question, but you might not spot it. A successful check reveals it.",
+												"An Intelligence ({@skill Investigation}) check reveals that the scuff marks and wear pattern show that a doorknob can turn both ways, but is most often turned clockwise. The players must still decide how to open the door. The item is obvious, but its true nature is obscured. A successful check reveals the clues that point to the item's purpose."
+											]
+										}
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Effects",
+									"page": 5,
+									"entries": [
+										"Designing a trap's effects is a straightforward process. The tables for save DCs, attack bonuses, damage, and the like give you a starting point for most simple traps that deal damage.",
+										"For traps with more complex effects, your best starting point is to use the Spell Equivalent by Level table to find the best match for your trap's intended effect. Spells are a good starting point because they are compact pieces of game design that deliver specific effects.",
+										"Once you have chosen the effect the trap delivers, choose its damage, attack bonus, and save DC. If you are using a spell as a starting point, check to see if you need to tweak its effects to fit the trap's nature. For instance, you can easily change the damage type a spell delivers or the saving throw it requires."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Disarming Simple Traps",
+									"page": 5,
+									"entries": [
+										"Simple traps require a single ability check to disarm. Imagine how the trap operates, and then think about how the characters can overcome it. Not all traps can be disarmed in a traditional way. A hidden pit trap is effectively disarmed when the characters notice it. The characters can simply walk around it or climb down one side, walk across it, and climb up the other side.",
+										"Once you determine how a trap can be disarmed, pick the appropriate ability and skill combinations that characters can use. In most cases, a Dexterity check made with thieves' tools, a Strength ({@skill Athletics}) check, or an Intelligence ({@skill Arcana}) check can overcome a trap.",
+										"A Dexterity check made with thieves' tools can apply to any trap with a mechanical element. Thieves' tools can be used to safely disable a tripwire or pressure plate, disassemble a poison needle mechanism, or stop up a valve that leaks poisonous gas into a room.",
+										"Strength checks are useful for traps that can be destroyed or held back through brute force. A scything blade can be broken, a collapsing roof held in place, a net torn apart.",
+										"Magical traps can be disabled by someone who can undermine the magic used to power them. An Intelligence ({@skill Arcana}) check allows a character to figure out how the trap functions and how to disable its magic. A statue that belches a jet of magical flame might be disabled when one of its glass eyes is shattered, disrupting the magic that powers it.",
+										"Finally, decide if there are any drawbacks to a failed attempt to disable the trap. If so, pick a threshold for the check result or decide that any failure activates the trap. If the result hits that threshold or lower, the trap activates. This option is a useful tool to make a trap feel dangerous even if the characters have discovered it. A trap that can be disabled without any danger is like a monster that can't fight back. Of course, use logic to guide your decisions. This element makes a trap interesting, but it shouldn't come at the cost of making your game feel illogical or arbitrary. For instance, let's say your trap is a section of floor that opens to send characters tumbling into a pit. If the rogue attempting to disarm the pit stands next to the trap, it makes no sense for the rogue to fall in if the trap activates. Of course, you can remedy this by specifying that the character must lean over the trap or have one foot on it to reach and disable the mechanism."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Placing Simple Traps",
+									"page": 6,
+									"entries": [
+										"Context is everything with traps. A log trap that knocks characters aside is an inconvenience on the typical forest path. It's a potentially deadly hazard on a narrow trail that hugs the side of a towering cliff face.",
+										"Chokepoints and narrow passages that lead to important places in a dungeon are a good spot for traps, especially those traps that serve as alarms or restraints. These traps foil intruders before they can reach a critical location, giving the dungeon's denizens a chance to mount a defense.",
+										"Treasure chests, doors to vaults, and any other barrier or container that holds a valuable treasure is the ideal location for a slaying trap. In this case, the trap is the final line of defense that can eliminate a thief or intruder.",
+										"Alarm traps, since they pose no direct physical threat, are ideal for areas that are used by a dungeon's denizens. If a stumbling goblin activates an alarm trap, there's no real harm done. The alarm sounds, the guards arrive, they berate the clumsy goblin, and then they reset the trap. Of course, an alarm trap that is triggered on accident too often might fail to generate a quick response from defenders.",
+										"Above all else, place traps logically and with consideration to the time and effort needed to make them. If your adventures are sown with too many traps, the game grinds to a halt as the players search every square inch of a dungeon for tripwires and pressure plates.",
+										"It's all right if the players correctly deduce a trap's presence. That means your trap was placed logically and the players are engaged with the game."
+									]
+								}
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Complex Traps",
+							"page": 6,
+							"entries": [
+								"A complex trap poses multiple dangers to adventurers. Once a complex trap activates, it remains dangerous round after round until the characters avoid it or disable it. Some complex traps grow more dangerous over time, as they gather power or gain speed.",
+								"Complex traps are also more difficult to disable than simple ones. A single check is not enough to disable one. Instead, a series of checks is required to slowly disable each component. The trap degrades with each ch eck until the characters finally deactivate it. Most complex traps are designed so that they can be disarmed only if you are willing to risk the trap's effects. For example, in a hallway filled with scything blades, the mechanism that controls them is on the opposite end from the entrance, or a statue that bathes an area in necrotic energy can only be disabled while standing in the zone of energy it emits.",
+								{
+									"type": "entries",
+									"name": "Describing a Complex Trap",
+									"page": 7,
+									"entries": [
+										"Complex traps build on the four parts of a simple trap, adding in elements that make the trap a more dynamic threat.",
+										{
+											"type": "entries",
+											"name": "Level and Threat",
+											"page": 7,
+											"entries": [
+												"A complex trap uses the same level bands and ratings for its lethality as a simple trap does."
+											]
+										},
+										{
+											"type": "entries",
+											"name": "Trigger",
+											"page": 7,
+											"entries": [
+												"Just like a simple trap, a complex one has a trigger. Some complex traps have multiple triggers."
+											]
+										},
+										{
+											"type": "entries",
+											"name": "Initiative",
+											"page": 7,
+											"entries": [
+												"A complex trap takes turns like a creature does. Complex traps are slow (initiative 10), fast (initiative 20), or very fast (initiative 20 and 10)."
+											]
+										},
+										{
+											"type": "entries",
+											"name": "Active Elements",
+											"page": 7,
+											"entries": [
+												"On a trap's turn, it activates specific effects that are detailed in its description. The trap might have multiple active elements, a table you roll on to determine its effect at random, or options for you to choose from."
+											]
+										},
+										{
+											"type": "entries",
+											"name": "Dynamic Elements",
+											"page": 7,
+											"entries": [
+												"Many complex traps feature a changing threat. The trap's description tells you how the trap changes over time. Usually, these changes take effect at the end of each of its turns or in response to the characters' actions."
+											]
+										},
+										{
+											"type": "entries",
+											"name": "Constant Elements",
+											"page": 7,
+											"entries": [
+												"A complex trap poses a threat even when it is not its turn. The constant elements describe how these parts of the trap function. Most make an attack or force a saving throw against creatures that end their turns within certain areas."
+											]
+										},
+										{
+											"type": "entries",
+											"name": "Countermeasures",
+											"page": 7,
+											"entries": [
+												"A trap can be defeated in a variety of ways. A trap's description details the checks or spells that can detect and disable it. It also specifies what happens, if anything, on a failed attempt to disable it.",
+												"Disabling a complex trap is like disarming a simple trap, except that a complex trap requires more checks. It typically takes three successful checks to disable one of a complex trap's elements. Many of these traps have multiple elements, requiring a lot of work to shut down every part of the trap. Usually, a successful check reduces a trap element's effectiveness if it doesn't disable it."
+											]
+										}
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Running a Complex Trap",
+									"page": 7,
+									"entries": [
+										"A complex trap functions in play like a legendary monster. When activated, the trap's active elements act on either initiative 20 or 10 (or both, for very fast traps). On that initiative count, after all creatures with that same initiative have acted, the trap's features activate. Apply the effects detailed in the trap's description.",
+										"After resolving the effects of the trap's active elements, check its dynamic elements to see if anything changes about the trap. Many complex traps have effects that vary over the course of an encounter. A magical aura might do more damage the longer it is active, or a swinging blade might shift which area of a chamber it attacks.",
+										"The trap's constant elements allow it to have effects when it isn't the trap's turn. At the end of each creature's turn, look at the trap's constant elements to see if any of its effects trigger."
+									]
+								}
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Example Complex Traps",
+							"page": 7,
+							"entries": [
+								"Here are examples of complex traps to inspire your own creations.",
+								{
+									"type": "list",
+									"columns": 3,
+									"items": [
+										"{@trap Path of Blades|UATrapsRevisited}",
+										"{@trap Sphere of Crushing Doom|UATrapsRevisited}",
+										"{@trap Poisoned Tempest|UATrapsRevisited}"
+									]
+								}
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Designing Complex Traps",
+							"page": 10,
+							"entries": [
+								"Creating a complex trap takes more work than building a simple one, but with some practice you can learn the process and make it move quickly.",
+								"Familiarize yourself with the guidelines on designing a simple trap before proceeding with these guidelines on complex ones.",
+								{
+									"type": "entries",
+									"name": "Purpose",
+									"page": 10,
+									"entries": [
+										"Complex traps are typically designed to protect an area by killing or disabling intruders. It is worth your time to consider who made the trap, the trap's purpose, and its desired result. Does the trap protect a treasure? Does it target only certain intruders? Use the advice given for simple traps as a starting point."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Level and Lethality",
+									"page": 10,
+									"entries": [
+										"Complex traps use the same level bands and lethality ratings as simple traps. Refer back to that section for a discussion of how level and lethality help determine save and check DCs, attacks bonuses, and other numerical elements of a complex trap."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Map",
+									"page": 10,
+									"entries": [
+										"A complex trap has multiple parts, typically relies on the characters' positions to resolve some of its effects, and can bring several effects to bear each round. The traps are called complex for a reason! To make design easier, draw a map of the area affected by the trap using 5 feet for each square on your graph paper. This level of detail allows you to develop a clear idea of what the trap can do and how each of its parts interact. Your map is the starting point and context for the rest of the trap-design process.",
+										"Don't limit yourself to one room. Look at the passages and rooms around the area of the trap and think about the role they can play. The trap might cause doors to lock and gates to fall into place to prevent escape. It could cause darts to fire from the walls in one area, forcing characters to enter rooms where other devices trigger and threaten them.",
+										"Consider how terrain and furniture can add to the trap's danger. A chasm or pit might create the distance that allows a trap to send bolts of magic at the characters while making it difficult or even impossible to reach the runes the party must deface to foil it.",
+										"Think of your map like a script. Where do the characters want to go? What does the trap protect? How can the characters get there? What are their likely escape routes? Answering those questions tells you where the trap's various elements should be placed."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Active Elements",
+									"page": 10,
+									"entries": [
+										"A complex trap's active elements work the same way as a simple trap's effects, except that a complex trap activates every round. Otherwise, the guidelines for picking save DCs, attack bonuses, and damage are the same. To make your trap logically consistent, make sure the elements you design can activate each round. For instance, crossbows rigged to fire at the characters need a mechanism to reload them.",
+										"In terms of lethality, it's better to have multiple dangerous effects in a trap than a single deadly one. As a rule of thumb, build your trap with two dangerous trap elements and one moderate one.",
+										"It's useful to create multiple active elements, each affecting a different area covered by the trap. It is also a good idea to use a variety of effects. Some parts of the trap might cause damage, and others might immobilize characters or isolate them from the rest of the party. Think about how the elements can work together. A bashing lever might knock characters into the area engulfed by jets of flame."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Constant Elements",
+									"page": 11,
+									"entries": [
+										"In addition to the active steps a complex trap takes, it should also present a continual hazard. Often, the active and constant effects are the same thing. Imagine a hallway filled with whirling saw blades. On the trap's turn, the blades attack anyone in the hall. In addition, anyone who lingers in the hallway takes damage at the end of each of their turns, representing the constant threat the blades pose.",
+										"A constant element should apply its effect to any character who ends their turn in that element's area. If an active element presents a threat when it isn't its turn, determine the threat it poses as a constant element. As a rule of thumb, keep the saving throw DC or attack bonus the same but reduce the damage by half.",
+										"Avoid filling the entire encounter area with constant elements. Part of the puzzle of a complex trap lies in figuring out which areas are safe. A moment's respite can help add an element of pacing to a complex trap and give the characters the feeling that they aren't in constant peril. For example, walls that slam together might need to reset between slams, leaving them harmless when it isn't their turn."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Dynamic Elements",
+									"page": 11,
+									"entries": [
+										"Just as a battle is more interesting if the monsters change their tactics or unveil new abilities in later rounds, so too are complex traps more fun if their nature changes in some way. The whirling blades that protect a treasure chest do more damage each round, as they speed up. The poison gas in a room grows thicker as more of it floods the chamber, dealing more damage and blocking line of sight. The necrotic aura around an idol of Demogorgon produces random effects each time it triggers its active effect. As water floods a chamber, the characters must swim across areas they could walk through just a round or two before.",
+										"Since complex traps remain active over the course of several rounds, they can pose an ongoing threat to intruders. However, if that threat becomes predictable its victims have a much better chance of thwarting it. Complex traps work best when they present multiple threats to intruders, ones that can change each round. The changes can include how a trap targets the characters (attack or even type of saving throw), the damage or effects it deals, the areas it covers, and so on. Some traps might have a random effect each round, while others follow a carefully programmed sequence of attacks designed to frustrate and slay intruders.",
+										"Dynamic elements can occur on schedule. For a room that floods, you can plan out how the rising water level affects the area each round. The water might be ankle deep at the end of the first round, knee deep the next, and so on. Not only does the water carry a drowning risk, but it also makes it harder to move across the area; however, the rising water level might allow characters to swim to the upper reaches of the chamber that they couldn't reach from the floor.",
+										"Dynamic elements can also come into play in reaction to the characters' actions. Disarming one element of the trap might make the others deadlier. Disabling a rune that triggers a firebreathing statue might cause the statue to explode, as the magic in it runs rampant. If a creature dies in the room, the idol to the god Nerull drains its soul and gains a new power.",
+										"A trap's dynamic elements also make for a good timer. For example, the damage dealt by poison gas in a room starts at 11, but doubles each time the trap takes its turn. Smart players see that they only have a few rounds to overcome the trap before they must flee or risk death.",
+										"Random dynamic elements are fun because they keep the players on their toes and make any plan made to foil it dependent on the luck of the dice. In this case, you create a table and roll on it to see how the trap changes. The players can never be sure what might happen next. As a rule of thumb, one random element for a complex trap is a good limit. A trap that is too random can feel arbitrary and frustrating. You want to make planning harder, not impossible.",
+										"The dynamic elements should change after the trap's turn. The water level rises after the trap's active element takes its turn. The blades speed up and deal an additional die of damage each time they miss a character, their damage returning to its starting point after the impact of a successful attack causes them to slow down."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Triggers",
+									"page": 12,
+									"entries": [
+										"The advice on triggers given for simple traps applies to complex ones, with one exception. Complex traps feature multiple triggers, or are designed such that avoiding a trigger prevents intruders from reaching the area the trap guards. Other complex traps use magical triggers that activate on specific cues, such as when a door opens or someone enters an area without wearing the correct badge, amulet, or robe.",
+										"Look at your map and consider when you want the trap to spring into action. It's best to have a complex trap trigger after the characters have committed to exploring an area. A simple trap might trigger when the characters open a door. A complex one that triggers that early leaves the PCs looking into the trapped room and perhaps opting to close the door and move on. A simple trap aims to keep intruders out. A complex trap wants to lure them in, so that when it activates, the intruders must deal with it to escape.",
+										"In general, the trigger for a complex trap should be as foolproof as you can make it. A complex trap represents a serious expenditure of effort and magical power. No one builds one and makes it easy to avoid. Wisdom ({@skill Perception}) and Intelligence ({@skill Investigation}) checks might be unable to spot a trigger, especially a magical one, but they can still give hints about the trap before it triggers. Blood stains, ashes, gouges in the floor, and so on can point to the trap's effects and give a warning."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Initiative",
+									"page": 12,
+									"entries": [
+										"A complex trap acts repeatedly, requiring you to note its initiative. Unlike characters and monsters, traps don't roll for initiative. As mechanical or magical devices, they operate in a predictable manner. When designing a complex trap, you must first decide how often it activates. Complex traps fall into three categories: slow, fast, and very fast.",
+										{
+											"type": "entries",
+											"name": "Slow",
+											"page": 12,
+											"entries": [
+												"These traps take time to build up their effects. Their active elements take place on initiative 10. This option is good for a trap that works alongside monsters or other guardians, as it can give guards the chance to move out of its active areas or force characters into them before triggering."
+											]
+										},
+										{
+											"type": "entries",
+											"name": "Fast",
+											"page": 12,
+											"entries": [
+												"These traps are designed to surprise intruders and hit them before they can react. Such a trap acts on initiative 20. This setting is your best option for a complex trap. Think of it as the default approach. It acts quickly enough to surprise slower characters, with fast characters like rogues, rangers, and monks having the best chance to move out of the trap before it activates."
+											]
+										},
+										{
+											"type": "entries",
+											"name": "Very Fast",
+											"page": 12,
+											"entries": [
+												"These traps are a blur of activity, laying waste to intruders in a few moments unless countered. They act on both initiative 20 and 10. These traps should feature multiple active elements, with different elements acting on different initiative counts. Use this option for a trap that can benefit by having its elements work in concert. For instance, on initiative 20 blades sweep across a treasure vault, driving the characters back into the hallway. On initiative 10, magical darts fire from statues in the hallway while a gate falls to trap the characters.",
+												{
+													"type": "insetReadaloud",
+													"name": "Complex Traps and Legendary Monsters",
+													"page": 12,
+													"entries": [
+														"A complex trap is like a legendary monster in some ways. It has several tricks it can use on its turn. It remains a threat throughout the round, not just on its turn. The trap's active elements are like a legendary creature's normal actions, and its constant elements are equivalent to legendary actions (except they are tied to specific areas in the trapped room).",
+														"While a legendary creature can move, improvise actions, and so forth, a trap is set to a specific script, with the potential to make a complex trap stale. That's where dynamic elements come in. They keep the players on their toes and make dealing with a complex trap feel like a challenging, evolving situation."
+													]
+												}
+											]
+										}
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Defeating Complex Traps",
+									"page": 12,
+									"entries": [
+										"A complex trap is never defeated with a single check. Instead, each successful check foils some part of it or degrades its performance. Each element of the trap must be overcome individually to foil the trap as a whole.",
+										"To start with, look at your map and consider where the characters must be located to attempt an action that can foil part of the trap. Most trap designers count on the trap to protect itself. A fighter might be able to break a whirling blade, but moving close enough to attack it requires giving the blade a chance to strike.",
+										"Consider how the trap can be overcome. Obvious candidates are the same sorts of checks used to defeat simple traps, but use your understanding of the trap's design to keep other options open, too. A valve leaking poison gas into a room can be stopped up. A statue emitting a deadly aura can be pushed over and smashed. Attacks, spells, and special abilities can all play a role in undermining a trap.",
+										"Leave room for improvisation. If you understand the mechanism behind how a trap works, it makes it much easier for you to handle the players' ideas. Don't create a few solutions and wait for the players to guess the exact, right approach. Like everything in D&D, pick an ability, assess the chance of success, and ask for a roll.",
+										"Aim at requiring three successful checks or actions to shut down one part of a trap. The first successful check might reduce the trap component's save DC or attack bonus by 4. The second successful one might halve its damage. The final successful check might shut it down.",
+										"For trap components that don't attack, allow each check to reduce that element's effectiveness by one-third. A lock's DC is reduced or a gate opens wide enough to allow a Small character to squeeze through it. A mechanism pumping poison gas into the room slows down, causing the gas's damage to increase slowly or not at all.",
+										"It takes time to work on a trap. Three characters can't make checks right after one another to disarm it in 6 seconds. They would get in each other's way and disrupt their efforts. Once a character succeeds on a check, another character can't attempt the same check to disable the same trap element until the end of the successful character's next turn.",
+										"Not all of the characters' options must be focused on stopping a trap. Think of what characters can do to mitigate or avoid a trap's effects. This approach is a good way to make characters who might be ill -suited to disarm a trap feel useful. An Intelligence ({@skill Investigation}) check might reveal the pattern a swinging blade follows, giving disadvantage on its attack rolls until the start of the character's next turn. A character with a shield can stand in front of a dart trap, making themself a target each time other characters trigger it."
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	],
+	"trap": [
+		{
+			"name": "Bear Trap",
+			"source": "UATrapsRevisited",
+			"page": 2,
+			"trapHazType": "SMPL",
+			"tier": 1,
+			"threat": "dangerous",
+			"effect": [
+				"The trap makes an attack against the triggering creature. The attack has a +8 attack bonus and deals 5 ({@damage 1d10}) piercing damage on a hit. This attack can't gain advantage or disadvantage. A creature hit by the trap has its speed reduced to 0. It can't move until it breaks free of the trap with a successful Strength check ({@dc 15}) made by it or another creature adjacent to the trap."
+			],
+			"trigger": [
+				"A creature that steps on the bear trap triggers it."
+			],
+			"countermeasures": [
+				"A successful DC 10 Wisdom ({@skill Perception}) check reveals the trap. A successful DC 10 Dexterity check using {@item thieves' tools|phb} disables it."
+			],
+			"entries": [
+				"A bear trap resembles a set of iron jaws that springs shut when stepped on, clamping down on a creature's leg. The trap is spiked in the ground, leaving the victim immobilized."
+			]
+		},
+		{
+			"name": "Crossbow Trap",
+			"source": "UATrapsRevisited",
+			"page": 2,
+			"trapHazType": "SMPL",
+			"tier": 1,
+			"threat": "dangerous",
+			"effect": [
+				"The trap makes two attacks against the triggering creature. Each attack has a +8 attack bonus and deals 5 ({@damage 1d10}) piercing damage on a hit. This attack can't gain advantage or disadvantage."
+			],
+			"trigger": [
+				"A creature that walks through the tripwire triggers the trap."
+			],
+			"countermeasures": [
+				"A {@dc 15} Wisdom ({@skill Perception}) check reveals the tripwire. A {@dc 15} Dexterity check made with thieves' tools disables the tripwire, but a check result of 5 or less triggers the trap."
+			],
+			"entries": [
+				"A crossbow trap is a favorite of kobolds and other creatures that rely on traps to defend their lairs. It consists of a tripwire run across a hallway and connected to a pair of carefully hidden heavy crossbows. The crossbows are aimed to fire down the hallway at anyone who triggers the tripwire."
+			]
+		},
+		{
+			"name": "Falling Gate",
+			"source": "UATrapsRevisited",
+			"page": 2,
+			"trapHazType": "SMPL",
+			"tier": 1,
+			"threat": "deadly",
+			"effect": [
+				"The trap causes an iron gate to drop from the ceiling, blocking the exit from the maze. Countermeasures. A {@dc 20} Wisdom ({@skill Perception}) check reveals the pressure plate. A {@dc 20} Dexterity check made with thieves' tools disables it, but a check result of 5 or less triggers the trap."
+			],
+			"trigger": [
+				"A creature that steps on the pressure plate triggers this trap."
+			],
+			"countermeasures": [
+				"A successful DC 20 Wisdom ({@skill Perception}) check reveals the pressure plate. A successful DC 20 Dexterity check using {@item thieves' tools|phb} disables it, but a check result of 5 or lower triggers the trap."
+			],
+			"entries": [
+				"Some folk who build dungeons, such as mad wizards in search of new victims, have no intention of allowing their visitors to make an easy escape. This trap is fiendish because it causes a gate to drop some distance away from the pressure plate. The gate might close off the dungeon entrance, which is hundreds of feet away. Adventurers don't know they are trapped until they decide to head back to town."
+			]
+		},
+		{
+			"name": "Fiery Blast Trap",
+			"source": "UATrapsRevisited",
+			"page": 2,
+			"trapHazType": "SMPL",
+			"tier": 2,
+			"threat": "dangerous",
+			"effect": [
+				"A 15-foot cone of fire erupts, covering the pressure plate and the area around it. Each creature in the cone must make a {@dc 15} Dexterity saving throw, taking 24 ({@damage 7d6}) fire damage on a failed save, or half as much damage on a successful one."
+			],
+			"trigger": [
+				"Anyone stepping on the mosaic causes fire to erupt from it. Those openly wearing holy symbols of Pyremius don't trigger this trap."
+			],
+			"countermeasures": [
+				"A {@dc 15} Intelligence ({@skill Investigation}) check reveals ash and faint burn marks in the shape of the fiery cone created by this trap. A {@dc 15} Intelligence ({@skill Religion}) check allows a creature to destroy the trap by defacing a key rune in the mosaic; failing this check causes the trap to activate. A successful {@spell dispel magic} ({@dc 15}) cast on the runes destroys the trap."
+			],
+			"entries": [
+				"The temple of Pyremius, a god of fire, is plagued by thieves who seek to steal the fire opals collected by the priests in tribute to their god. A mosaic on the floor of the entryway to the inner sanctum delivers a fiery rebuke to intruders."
+			]
+		},
+		{
+			"name": "Net Trap",
+			"source": "UATrapsRevisited",
+			"page": 3,
+			"trapHazType": "SMPL",
+			"tier": 1,
+			"threat": "dangerous",
+			"effect": [
+				"A net covering a 10-foot-by-10-foot area centered on the tripwire falls to the floor as a bell rings. Any creature fully within this area must succeed on a {@dc 15} Dexterity saving throw or be {@condition restrained}. A creature can use its action to make a {@dc 10} Strength check to try to free itself or another creature in the net. Dealing 5 slashing damage to the net (AC 10) also frees a creature without harming the creature."
+			],
+			"trigger": [
+				"A tripwire strung across a hallway is rigged to a large net. If the tripwire is broken, the net falls on intruders. An iron bell is also rigged to the tripwire. It rings when the trap activates, alerting nearby guards."
+			],
+			"countermeasures": [
+				"A {@dc 15} Wisdom ({@skill Perception}) check reveals the tripwire and the net. A {@dc 15} Dexterity check made with thieves' tools disables the tripwire without dropping the net or ringing the bell; failing the check causes the trap to activate."
+			],
+			"entries": [
+				"Goblins, with their propensity to enslave their enemies, prefer traps that leave intruders intact for work in the goblins' mines or elsewhere."
+			]
+		},
+		{
+			"name": "Pit Trap",
+			"source": "UATrapsRevisited",
+			"page": 3,
+			"trapHazType": "SMPL",
+			"tier": 1,
+			"threat": "moderate",
+			"effect": [
+				"The triggering creature must make a {@dc 10} Dexterity saving throw. On a successful save, the creature catches on the pit's edge or instinctively steps back. Otherwise, the creature falls into the pit and takes 3 ({@damage 1d6}) bludgeoning damage from the fall."
+			],
+			"trigger": [
+				"Anyone who steps on the canvas might fall into the pit."
+			],
+			"countermeasures": [
+				"A {@dc 10} Wisdom ({@skill Perception}) check reveals the canvass. A 1-foot wide ledge around the edge of the pit is safe to cross."
+			],
+			"entries": [
+				"This trap consists of a 10-foot deep pit, concealed by a tattered canvass covered with leaves and dirt. This type of trap is useful for blocking off the entrance to a monster lair and usually has narrow, safe ledges along its sides. Trigger. Anyone stepping on the canvass might fall into the pit."
+			]
+		},
+		{
+			"name": "Poison Needle",
+			"source": "UATrapsRevisited",
+			"page": 3,
+			"trapHazType": "SMPL",
+			"threat": "deadly",
+			"tier": 1,
+			"effect": [
+				"The triggering creature must make a {@dc 20} Constitution saving throw. On a failed save, the creature takes 14 ({@damage 4d6}) poison damage and is {@condition poisoned} for 10 minutes. While {@condition poisoned} in this way, the creature is {@condition paralyzed}. On a successful save, the creature takes half as much damage and isn't {@condition poisoned}."
+			],
+			"countermeasures": [
+				"A {@dc 20} Wisdom ({@skill Perception}) check reveals the needle, but only if a character inspects the lock. A {@dc 20} Dexterity check made with thieves' tools disables the needle, but a check result of 10 or less triggers the trap."
+			],
+			"trigger": [
+				"Anyone attempting to pick or open the lock triggers the trap."
+			],
+			"entries": [
+				"A tiny, {@condition poisoned} needle hidden in a lock is the perfect way to discourage thieves from plundering a hoard. Such a trap is usually put in a chest or in the door to a treasure chamber. Trigger. Anyone attempting to pick or open the lock triggers the trap."
+			]
+		},
+		{
+			"name": "Scything Blade",
+			"source": "UATrapsRevisited",
+			"page": 3,
+			"trapHazType": "SMPL",
+			"tier": 2,
+			"threat": "dangerous",
+			"effect": [
+				"Each Medium or larger creature in a 5foot-wide and 20-foot-long area must make a {@dc 15} Dexterity saving throw, taking 14 ({@damage 4d6}) slashing damage on a failed save, or half as much damage on a successful one."
+			],
+			"trigger": [
+				"When the lever is pulled, the trap activates."
+			],
+			"countermeasures": [
+				"The lever isn't hidden. A {@dc 15} Intelligence ({@skill Investigation}) check reveals scrape marks and blood stains in the trap's area of effect. A {@dc 15} Dexterity check made with thieves' tools disables the lever."
+			],
+			"entries": [
+				"These deadly blades sweep down through a chamber. A wooden lever activates this trap when it is pulled. Kobolds particularly love this style of trap, as it puts bigger creatures in danger."
+			]
+		},
+		{
+			"name": "Sleep of Ages",
+			"source": "UATrapsRevisited",
+			"page": 3,
+			"trapHazType": "SMPL",
+			"tier": 3,
+			"threat": "deadly",
+			"effect": [
+				"When activated, this trap casts a {@spell sleep} spell centered on the pressure plate using a 9thlevel spell slot."
+			],
+			"trigger": [
+				"Stepping on the pressure plate triggers this trap."
+			],
+			"countermeasures": [
+				"A {@dc 20} Wisdom ({@skill Perception}) check reveals the pressure plate. A {@dc 20} Intelligence ({@skill Arcana}) check made within 5 feet of the pressure plate disables the trap, but a check result of 10 or less triggers it. A successful {@spell dispel magic} ({@dc 19}) cast on the pressure plate destroys the trap."
+			],
+			"entries": [
+				"A pressure plate unleashes a spell that threatens to send intruders into a deep slumber. The dungeon's guardians can then dispose of the sleepers."
+			]
+		},
+		{
+			"name": "Path of Blades",
+			"source": "UATrapsRevisited",
+			"page": 7,
+			"trapHazType": "CMPX",
+			"tier": 1,
+			"threat": "dangerous",
+			"trigger": [
+				"This trap activates as soon as a nonundead creature enters the hallway, and it remains active while any non-undead creature is within it."
+			],
+			"initiative": 2,
+			"entries": [
+				"Hidden within a buried pyramid that marks the location of the Lost City of Cynidicea is the tomb of King Alexander and Queen Zenobia. The entrance to their tomb is a long hallway riddled with traps, accessible only by cunningly hidden secret doors. The hallway is 20 feet wide and 160 feet long. It is mostly clear. After 80 feet, the floor is broken and cracked and is {@quickref difficult terrain||3} until the 130-foot mark."
+			],
+			"eActive": [
+				"The Path of Blades includes a set of whirling blades along the first 80 feet of the trap, crushing pillars that slam down from the ceiling to the floor before rising back up to the ceiling in the next 50 feet, and a rune of fear in its final 30 feet.",
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"items": [
+						{
+							"type": "item",
+							"name": "Whirling Blades (Initiative 20)",
+							"entry": "The blades attack each creature in the first 80 feet of the hallway, with a +5 bonus to the attack roll and dealing 11 ({@damage 2d10}) slashing damage on a hit."
+						},
+						{
+							"type": "item",
+							"name": "Crushing Pillars (Initiative 10)",
+							"entry": "Each creature 81\u2013130 feet down the hallway must make a {@dc 15} Dexterity saving throw, taking 11 ({@damage 2d10}) bludgeoning damage and being knocked {@condition prone} on a failed save, or half as much damage on a successful one."
+						},
+						{
+							"type": "item",
+							"name": "Rune of Fear (Initiative 10)",
+							"entry": "Each creature in the final 30 feet of the corridor must make a {@dc 15} Wisdom saving throw. On a failed saving throw, the creature is {@condition frightened} of the rune, and the creature must immediately use its reaction to move its speed away from the end of the corridor. The {@condition frightened} creature can't move closer to the end of the hallway until it uses an action to succeed on a {@dc 15} Wisdom saving throw, which ends the {@condition frightened} condition on itself."
+						}
+					]
+				}
+			],
+			"eDynamic": [
+				"The blades and the rune become more dangerous the longer the trap remains active.",
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"items": [
+						{
+							"type": "item",
+							"name": "Blades Accelerate",
+							"entry": "The blades move with increasing speed, slowing only when they hit a target. Each time the blades miss with an attack, their next attack becomes harder to avoid. After each miss, the blades' attack bonus increases by 2, and their damage increases by 3 ({@dice 1d6}). These benefits apply until the blades hit a target, after which the values return to normal."
+						},
+						{
+							"type": "item",
+							"name": "Rune's Defense",
+							"entry": "Tampering with the Rune of Fear increases the trap's power. Each successful check on an attempt to disable the rune increases the damage of the blades and the crushing pillars by 5 ({@dice 1d10}) and increases the rune's saving throw DC by 1."
+						}
+					]
+				}
+			],
+			"eConstant": [
+				"The Whirling Blades and the Rune of Fear affect each creature that ends its turn in an area affected by these elements.",
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"items": [
+						{
+							"type": "item",
+							"name": "Whirling Blades",
+							"entry": "Any creature that ends its turn in the blades' area is targeted by an attack: +5 attack bonus; 5 (1d10) slashing damage on a hit."
+						},
+						{
+							"type": "item",
+							"name": "Rune of Fear",
+							"entries": [
+								"Characters can smash the blades, damage their components, or study their pattern to avoid them; the blades are disabled if their total attack bonus from attacks and attempts to disable them reaches \u22128:",
+								"Intelligence ({@skill Investigation}), {@dc 15}. This check reveals the blade's pattern. As an action, a creature that can see the blades can attempt this check. Success imposes disadvantage on the blades' attacks against the creature while it isn't {@condition incapacitated}."
+							]
+						}
+					]
+				}
+			],
+			"countermeasures": [
+				"Each of the trap's active elements offers potential countermeasures.",
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"items": [
+						{
+							"type": "item",
+							"name": "Whirling Blades",
+							"entries": [
+								"Characters can smash the blades, damage their components, or study their pattern to avoid them; the blades are disabled if their total attack bonus from attacks and attempts to disable them reaches \u22128:",
+								"Intelligence ({@skill Investigation}), {@dc 15}. This check reveals the blade's pattern. As an action, a creature that can see the blades can attempt this check. Success imposes disadvantage on the blades' attacks against the creature while it isn't {@condition incapacitated}."
+							]
+						},
+						{
+							"type": "itemSub",
+							"name": "Attack",
+							"entry": "A creature in the area can ready an attack to slash at a blade. The blade gains advantage on its attack against the creature. The creature then attacks. The blades have AC 15 and 15 hit points. Destroying a blade reduces its attack bonus by 2."
+						},
+						{
+							"type": "itemSub",
+							"name": "Dexterity check with thieves' tools, DC 15",
+							"entry": "Creatures can use thieves' tools in the area attacked by the blades to foil their mechanism. A successful check reduces the blades' attack bonus by 2."
+						},
+						{
+							"type": "item",
+							"name": "Crushing Pillars",
+							"entry": "The pillars have no effective countermeasure."
+						},
+						{
+							"type": "item",
+							"name": "Rune of Fear",
+							"entry": "The rune can be disabled with three successful {@dc 15} Intelligence ({@skill Arcana}) checks to disrupt the rune. Each check requires an action. A creature must be at the end of the hallway to attempt the check, and only one creature can work on this task at once. Once a creature attempts a check, no other character can make the same check until the end of that creature's next turn. Alternatively, the rune can be disabled with three successful castings of {@spell dispel magic} ({@dc 13}) targeting the rune."
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Sphere of Crushing Doom",
+			"source": "UATrapsRevisited",
+			"page": 8,
+			"trapHazType": "CMPX",
+			"tier": 2,
+			"threat": "deadly",
+			"entries": [
+				"The court jester devised a deadly trap to foil anyone who sought to steal his magical fool's cap. The jester's tomb is located at the end of a 10-foot wide, 150-foot long hallway that runs north\u2013south with a sharp slope down. The entrance to the tomb is a door at the bottom of the slope at the southern end of the hall. A door on the eastern wall allows access to the tomb."
+			],
+			"trigger": [
+				"This trap activates as soon as the lid to the jester's coffin is opened. A magical portal opens at the northern end of the hallway and disgorges a giant, steel sphere, which hurtles down the slope. When it reaches the bottom of the slope, a second portal briefly appears and teleports the sphere back to the top of the slope to begin the process again."
+			],
+			"initiative": 1,
+			"initiativeNote": "The trap acts on initiative 10 (but see the dynamic element below).",
+			"eActive": [
+				"Although the trap is complex in nature, it has a single active element. That's all it needs.",
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"items": [
+						{
+							"type": "item",
+							"name": "Sphere of Crushing Doom (Initiative 10)",
+							"entry": "The Sphere of Crushing Doom is a spherical boulder that almost fills the hallway. Each creature in the hallway must make a {@dc 20} Strength saving throw when the sphere activates. On a failed save, a creature takes 22 ({@damage 4d10}) bludgeoning damage and is knocked {@condition prone}. On a successful save, a creature takes half as much damage and isn't knocked {@condition prone}. Objects that block the sphere, such as a conjured wall, take maximum damage from the impact."
+						}
+					]
+				}
+			],
+			"eDynamic": [
+				"The longer it rolls, the more lethal the sphere becomes.",
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"items": [
+						{
+							"type": "item",
+							"name": "Dynamic Element\u2014Speed Kills",
+							"entry": "After its turn, the boulder gains speed, represented by its damage increasing by 11 ({@dice 2d10}). While its damage is 55 ({@dice 10d10}) or greater, it acts on both initiative 20 and 10."
+						}
+					]
+				}
+			],
+			"countermeasures": [
+				"There are a few ways that the trap can be disarmed.",
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"items": [
+						{
+							"type": "item",
+							"name": "Stop the Sphere",
+							"entry": "Stopping the sphere is the easiest way to disrupt the trap. A wall of force can stop it easily, and any object that has enough hit points to absorb damage from the sphere without being destroyed can stop it."
+						},
+						{
+							"type": "item",
+							"name": "Disrupt the Portals",
+							"entries": [
+								"Either portal can be neutralized with three successful {@dc 20} Intelligence ({@skill Arcana}) checks, but the process of analyzing a portal to disrupt it takes time. Faint runes in the ceiling and floor on both ends of the hallway open the portals. A creature must first use an action to examine a set of runes, then use a subsequent action to attempt to vandalize them. Each successful check reduces the sphere's damage by 11 ({@dice 2d10}), as the disrupted sphere loses speed moving through the failing gate.",
+								"Alternatively, a set of runes can be disabled with three successful castings of {@spell dispel magic} ({@dc 19}) targeting any of the runes in the set. If the southern portal is destroyed, the sphere slams into the wall and comes to a halt. It blocks the door to the tomb, but characters can escape."
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Poisoned Tempest",
+			"source": "UATrapsRevisited",
+			"page": 9,
+			"trapHazType": "CMPX",
+			"tier": 3,
+			"threat": "deadly",
+			"entries": [
+				"This fiendish trap was built to eliminate intruders who infiltrate a yuan-ti temple. The trap is a room, 60-foot square with 5-foot-wide stone doors in the middle of each wall. In each corner of the room stands a 10-foot-tall statue of a great serpent, coiled and ready to strike. The eyes in each statue are rubies worth 200 gp apiece."
+			],
+			"trigger": [
+				"This trap activates when a ruby is pried from one of the statues. Each statue's mouth slides open, revealing a 1-foot-wide pipe running down its throat."
+			],
+			"initiative": 3,
+			"eActive": [
+				"The Poisoned Tempest fills the room with poison and other deadly effects.",
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"items": [
+						{
+							"type": "item",
+							"name": "Locked Doors (Initiative 20)",
+							"entry": "The four doors to this room slam shut and are locked in place by magic. This effect activates once, the first time the trap activates."
+						},
+						{
+							"type": "item",
+							"name": "Poison Gas (Initiative 20)",
+							"entry": "Poison gas floods the room. Each creature inside must make a {@dc 20} Constitution saving throw, taking 33 ({@damage 6d10}) poison damage on a failed save, or half as much damage on a successful one."
+						},
+						{
+							"type": "item",
+							"name": "Tempest (Initiative 10)",
+							"entries": [
+								"A mixture of air and gas boils up from the trap. Roll a {@dice d6} and consult the Tempest Effects table.",
+								{
+									"type": "table",
+									"caption": "Tempest Effects",
+									"colLabels": [
+										"d6",
+										"Effect"
+									],
+									"colStyles": [
+										"col-2 text-center",
+										"col-10"
+									],
+									"rows": [
+										[
+											"1",
+											"Hallucinatory gas scrambles the mind and senses. All Intelligence and Wisdom checks made in the room suffer disadvantage until the Tempest element activates again."
+										],
+										[
+											"2",
+											"\"Explosive gas fills the area. If anyone holds an open flame, it explodes and deals 22 ({@damage 4d10}) fire damage to everyone in the room ({@dc 20} Dexterity save for half damage). The open flames are then extinguished.\""
+										],
+										[
+											"3",
+											"Weakening gas fills the room. All Strength and Dexterity checks made in the room suffer disadvantage until the Tempest element activates again."
+										],
+										[
+											"4",
+											"Buffeting winds force everyone in the room to succeed on a {@dc 20} Strength saving throw or be knocked {@condition prone}."
+										],
+										[
+											"5",
+											"Smoke fills the room. Visibility is reduced to 1 foot until the next time the Tempest element activates."
+										],
+										[
+											"6",
+											"Additional poison floods the room, as in the Poison Gas element."
+										]
+									]
+								}
+							]
+						}
+					]
+				}
+			],
+			"eDynamic": [
+				"The longer the poison gas remains in the room, the more lethal it becomes.",
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"items": [
+						{
+							"type": "item",
+							"name": "Dynamic Element\u2014Increased Potency",
+							"entry": "The damage from the Poison Gas element increases by 11 ({@dice 2d10}) after it activates, to a maximum of 55 ({@dice 10d10})."
+						}
+					]
+				}
+			],
+			"countermeasures": [
+				"There are a few ways that the trap can be overcome.",
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"items": [
+						{
+							"type": "item",
+							"name": "Open the Doors",
+							"entry": "Opening the doors is the quickest way to escape the trap, but they are warded with magic. To open the doors, the characters must first make a {@dc 20} Wisdom ({@skill Perception}) check to find the locking mechanism. A {@dc 20} Intelligence ({@skill Arcana}) check disables the sphere of force that surrounds the lock ({@spell dispel magic} is ineffective against it). Finally, a {@dc 20} Dexterity check made with thieves' tools picks the lock. Finally, a {@dc 20} Strength ({@skill Athletics}) check is needed to push the door open. Each check requires an action."
+						},
+						{
+							"type": "item",
+							"name": "Disable the Statues",
+							"entry": "A statue can be disabled by blocking the flow of gas from its mouth. Destroying the statue is a bad idea, for it leaves the gas vents open. A {@dc 20} Strength check or an attack that deals more than 20 damage to a statue cracks it and increases the Poison Gas damage by 5 ({@dice 1d10}). A successful {@dc 20} Dexterity check with thieves' tools, or a {@dc 15} Strength check made to block up the statue with a cloak or similar object, decreases the poison damage by 5 ({@dice 1d10}). Once a character succeeds at the check, someone must remain next to the statue to keep it blocked up. Once all four statues are blocked in this manner, the trap deactivates."
+						}
+					]
+				}
+			]
+		}
+	]
+}

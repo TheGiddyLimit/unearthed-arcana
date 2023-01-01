@@ -1,0 +1,2136 @@
+{
+	"_meta": {
+		"sources": [
+			{
+				"json": "UADowntime",
+				"abbreviation": "UAD",
+				"full": "Unearthed Arcana: Downtime",
+				"authors": [
+					"Wizards of the Coast"
+				],
+				"version": "1.0.0",
+				"url": "https://media.wizards.com/2017/dnd/downloads/UA_Downtime.pdf",
+				"dateReleased": "2017-04-10"
+			}
+		],
+		"dateAdded": 1672604449
+	},
+	"book": [
+		{
+			"name": "Unearthed Arcana: Downtime",
+			"source": "UADowntime",
+			"id": "UAD",
+			"author": "Mike Mearls",
+			"published": "2017-04-10",
+			"group": "prerelease",
+			"coverUrl": "img/covers/blank.png",
+			"contents": [
+				{
+					"name": "Downtime",
+					"headers": [
+						"Overview",
+						"The Basics",
+						"Foils",
+						"Sample Downtime Activities"
+					]
+				}
+			]
+		}
+	],
+	"bookData": [
+		{
+			"id": "UAD",
+			"source": "UADowntime",
+			"data": [
+				{
+					"type": "section",
+					"name": "Downtime",
+					"page": 1,
+					"entries": [
+						"In a typical campaign, it's possible for the characters to start at 1st level, dive into an epic story, and reach 10th level and beyond in a short amount of time. While that pace works fine for many campaigns, some DMs prefer a campaign with pauses built into it\u2014times when adventurers do things other than go on adventures.",
+						"By introducing downtime activities that take weeks, months, or even years of effort, you can give your campaign a longer timeline that allows events in the world to play out over the course of years. Wars begin and end, tyrants come and go, and royal lines rise and fall over the course of an entire lifetime of adventure.",
+						"The downtime rules also provide ways for characters to spend the monetary treasure they amass on their adventures.",
+						"The options given here can be used as alternatives to the downtime options in the Player's Handbook and Dungeon Master's Guide, or you can use the material here to inspire your creation of new options.",
+						{
+							"type": "entries",
+							"name": "Overview",
+							"page": 1,
+							"entries": [
+								"The downtime system presented here is built on two basic elements.",
+								"First, it offers short-term activities, ones that can usually be completed in a workweek (5 days) or longer. These activities cover what characters at levels 1\u201310 might do between adventures. It includes buying or creating magic items, pulling off heists, and working a job. Higher level characters can also use these activities, but they have the resources and power to take on greater ambitions beyond the scope of these rules.",
+								"Second, this downtime system introduces the concept of foils. Foils are NPCs who oppose the characters or whose goals put them against the party. A foil might be a villain who wishes to destroy the characters, or a good-aligned cleric who sees the characters as meddlers and troublemakers. Foils work their plots while the characters engage in downtime activities, introducing interesting complications to the campaign."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "The Basics",
+							"page": 1,
+							"entries": [
+								"The downtime system allows characters to pursue long-term activities between game sessions. A character selects a downtime activity and pays the cost of that activity in time and money. You, as DM, then follow the rules for the activity to resolve it, informing the player of the results and any complications that ensue.",
+								{
+									"type": "entries",
+									"name": "Choosing an Activity",
+									"page": 1,
+									"entries": [
+										"As DM, you should present the players with a list of activities they can pursue. These activities work for characters of any level.",
+										"The activities you allow depend on your campaign and the nature of the area where the characters are. For example, you might disallow the creation of magic items, or decide that the characters are in a town that is too isolated from major markets for them to buy such items. You decide which a ctivities are available, not the players. Consider handling downtime away from the game table. For example, you could have the players pick their activities at the end of a session, by email or text, or when you next see them in person."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Resolving Activities",
+									"page": 1,
+									"entries": [
+										"Each activity tells you how to resolve it. Many require a check, so be sure to note the character's bonuses as needed. Follow the steps in the activity and determine the results.",
+										"Most activities require a workweek (5 days) or more to complete. Some activities require days, weeks (7 days apiece), or months (30 days apiece). A character must spend 8 hours of each day engaged in the downtime activity for that day to count toward the activity's completion. The days don't need to be consecutive.",
+										"If you want multiple weeks to pass in the campaign world between sessions, report back the results of any downtime activities and ask for each character's next moves. Otherwise, you can send out the results to each player by text or email, or catch the players up at the start of the next session.",
+										"If an activity requires some decisions, you can have the players decide either before the next session or at the start of it. Some DMs like to focus on the activity, but for some groups it's a good idea to let the players talk things out, so long as it doesn't drag out and eat up too much time at the game table."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Complications",
+									"page": 2,
+									"entries": [
+										"Each activity includes complications you can throw at the characters. Complications are meant to add flavor, depth, and drama to the campaign. They might spawn entire adventures, introduce NPCs who vex the party, and give the characters headaches as they try to navigate the politics and social network of the community they're in.",
+										"In general, there is a {@chance 10|10 percent} chance that a given activity has a complication. You can use them more or less often, depending on what you feel is best for your campaign.",
+										"Complications can also come from the party's foils, as described below. In the complication table for an activity, the options that are most likely to involve a foil are marked."
+									]
+								}
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Foils",
+							"page": 2,
+							"entries": [
+								"Foils are NPCs who actively oppose the characters. They might be villains you have featured in past adventures or plan to use in the future. They can also include good or neutral folk who are at odds with the characters, whether because they are rivals, they have opposing goals, or they simply dislike one another.",
+								"The cultist of Orcus, whose plans the characters have foiled; the ambitious merchant prince who wants to rule the city with an iron fist; and the nosy high priest of Helm who is convinced the characters are up to no good are all examples of foils.",
+								"A foil is an NPC with an agenda that changes over time. As the characters take downtime between adventures, their foils rarely rest, continuing to spin plots and work against the characters.",
+								{
+									"type": "entries",
+									"name": "Creating a Foil",
+									"page": 2,
+									"entries": [
+										"The first step in creating a foil is building an NPC or picking one from your current cast of characters.",
+										"It's a good idea to have two or three foils at a time, each with an agenda. At least one should be a villain, and the others might be neutral or good. Their conflict with the characters might be social or political, rather than include direct attacks.",
+										"The best foils are personal. Find links in the characters' backstories or recent adventures that provide a good explanation for what sparked the foil's actions. The best trouble for the characters is trouble they created for themselves.",
+										{
+											"type": "table",
+											"caption": "Example Foils",
+											"colLabels": [
+												"d20",
+												"Foil"
+											],
+											"colStyles": [
+												"col-1 text-center",
+												"col-11"
+											],
+											"rows": [
+												[
+													"1",
+													"Tax collector who is convinced the characters are dodging fees"
+												],
+												[
+													"2",
+													"Politician who is concerned that the characters are causing more trouble than they solve"
+												],
+												[
+													"3",
+													"High priest who worries the characters are diminishing the temple's prestige"
+												],
+												[
+													"4",
+													"Wizard who blames the characters for some recent troubles"
+												],
+												[
+													"5",
+													"Rival adventuring party"
+												],
+												[
+													"6",
+													"Bard who loves a scandal enough to spark one"
+												],
+												[
+													"7",
+													"Childhood rival or member of a rival clan"
+												],
+												[
+													"8",
+													"Scorned sibling or parent"
+												],
+												[
+													"9",
+													"Merchant who blames the characters for any business woes"
+												],
+												[
+													"10",
+													"Newcomer out to make a mark on the world"
+												],
+												[
+													"11",
+													"Sibling or ally of defeated enemy"
+												],
+												[
+													"12",
+													"Official seeking to restore a tarnished reputation"
+												],
+												[
+													"13",
+													"Deadly foe disguised as a social rival"
+												],
+												[
+													"14",
+													"Fiend seeking to tempt the characters to evil"
+												],
+												[
+													"15",
+													"Spurned romantic interest"
+												],
+												[
+													"16",
+													"Political opportunist seeking a scapegoat"
+												],
+												[
+													"17",
+													"Traitorous noble looking to foment a revolution"
+												],
+												[
+													"18",
+													"Would-be tyrant who brooks no opposition"
+												],
+												[
+													"19",
+													"Exiled noble looking for revenge"
+												],
+												[
+													"20",
+													"Corrupt official paranoid that crimes will be revealed"
+												]
+											]
+										}
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Motivation",
+									"page": 2,
+									"entries": [
+										"An effective foil has a clear reason for interfering with the characters' plans. Think about what the foil wants, how and why the characters stand in the way, and how the conflict could be resolved.",
+										"Motivation is the why behind a foil's actions. It's the foundation for the NPC's role in the campaign. The Example Foils table offers some examples you can build from."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Goals",
+									"page": 3,
+									"entries": [
+										"Once you know a foil's motivation, consider possible goals. What outcome is the foil trying to create? Ideally, this outcome involves the characters or something they care about. The foil might want to take over the town, slay one or all of the characters, or help a certain temple become the center of the most powerful religion in the region."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Assets",
+									"page": 3,
+									"entries": [
+										"Think about the resources that the foil can call upon. Is there money for bribes? Is there a small army of obedient fanatics? Does the foil hold sway over any guilds, temples, or groups?",
+										"Make a list of the foil's assets, and consider how they can be used."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Actions",
+									"page": 3,
+									"entries": [
+										"With the what and why covered, the meat of a foil's presence in the campaign comes down to actions. Make a list of three or four actions the foil might take.",
+										"Each time you resolve one or more workweeks of downtime, pick one of the actions the foil might take and introduce it into play. An action might be a direct attack, such as an assassination attempt, that you play out during a session, or it might be a background activity that you describe as altering the campaign in some way. For example, a foil who wants to increase the prestige of the temple of a war god might hold a festival with drink, food, and gladiatorial games. Even if the characters aren't involved, the event becomes the talk of the town.",
+										"Actions should build a path toward achieving the NPC's goals. For each action, make note of NPCs who might change in response to it, what it might change in the town's politics, and so on. Of course, if the characters get involved, those outcomes might change.",
+										"The concept behind actions is simple. They show the characters that the campaign is a living world by making the foils participants in the campaign's action.",
+										"The examples of complications given for downtime activities are ideal plans for a foil to make against the characters. Use them as inspiration for plans of your own creation, or throw them, as written, at the characters when it seems appropriate. You can use a complication in place of a foil's actions, or in addition to one. Not every bad thing that happens to the characters is caused by a foil. Some events might just be due to bad luck."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Events",
+									"page": 3,
+									"entries": [
+										"In addition to actions, consider how the campaign setting might shift due to the foil's influence. What are the background events, changes in attitudes, and anything else that might occur to illustrate a foil's influence?",
+										"Imagine if the characters do nothing to oppose a foil. What happens next? How does the world change? Introduce such events along with the foil's actions to make your campaign feel alive. You can use an event in place of an action, especially if a session isn't going to involve a foil. Events are also a good way to show the influence of multiple foils, without having all of them take action against the characters at once. Events let foils have their time in the spotlight without causing the other ones to fade away completely."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Revise",
+									"page": 3,
+									"entries": [
+										"Remember that foils are characters who can change over time. If the characters thwart one plan, a foil might pursue another. A foil might also become an ally, or achieve all goals and thus become inactive. Between sessions, revise your foils as needed to account for how things have progressed in the campaign."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Example Foil: Myron Rodemus",
+									"page": 3,
+									"entries": [
+										"The Rodemus clan was once a small but powerful family of traders, but thirty years ago, they pulled up stakes and left town overnight. Now, Myron Rodemus, the family's youngest son, has returned to the city to reclaim his family's place of prestige.",
+										"In truth, the Rodemuses fled because they had contracted lycanthropy. Absorbed into a clan of wererats, they liquidated their assets and delved into smuggling in a distant city out of fear that their secret would be impossible to maintain in their home city. Myron fought his way to the topmost ranks of the wererat clans and, along with a small army of followers, has returned to claim his rightful place among the city's elite. If he doesn't succeed, he's vowed leave the city in ruins.",
+										{
+											"type": "entries",
+											"name": "Goals",
+											"page": 4,
+											"entries": [
+												"Myron wants to become the most respected, most important merchant in town, someone to whom even the prince must yield."
+											]
+										},
+										{
+											"type": "entries",
+											"name": "Assets",
+											"page": 4,
+											"entries": [
+												"He has a small fortune in gold; his own skills as a wererat, alchemist, and necromancer; a group of wererats that is dedicated to him; the service of twin dwarf sisters who are superb assassins; a shield guardian that protects him; and an alliance with a hobgoblin lord, who lives in the mountains outside of the city."
+											]
+										},
+										{
+											"type": "entries",
+											"name": "Actions",
+											"page": 4,
+											"entries": [
+												"Myron works to discredit and ruin other merchants. His wererats spy on his rivals and feed information to the hobgoblins, leading them to raid caravans. The wererats sneak into warehouses, unleashing hordes of rats to spoil goods. Myron even throws a few of his own caravans and warehouses away to throw off suspicion.",
+												"If Myron's plans fail, he has a terrible alternative. His knowledge of alchemy has allowed him to breed a deadly plague that he will unleash on the city via hordes of rats. If he can't rule, then no one will.",
+												{
+													"type": "table",
+													"caption": "Myron's Plans",
+													"colLabels": [
+														"Type",
+														"Description"
+													],
+													"colStyles": [
+														"col-1",
+														"col-11"
+													],
+													"rows": [
+														[
+															"Event",
+															"Rats become a noticeable problem in the streets, with swarms sighted in rundown neighborhoods. Folk demand action be taken."
+														],
+														[
+															"Action",
+															"Caravan raids become more common, and folk talk of gathering a small army to drive the goblinoids away. Myron contributes generously to the effort."
+														],
+														[
+															"Action",
+															"Warehouses are overrun with rats, ruining thousands of gold pieces worth of goods. Myron blames the city guard for a lax effort."
+														],
+														[
+															"Action",
+															"Should the characters interfere, Myron sends his assassins against them."
+														],
+														[
+															"Event",
+															"A sudden storm creates minor flooding, washing dozens of dead, bloated, diseased rats from the sewers. Terror about plague rips through town."
+														],
+														[
+															"Action",
+															"Myron fans the flames of panic, spreading rumors that the characters or other rivals in town are responsible for the disease."
+														]
+													]
+												}
+											]
+										},
+										{
+											"type": "entries",
+											"name": "Example Foil: Temple of Pholtus",
+											"page": 4,
+											"entries": [
+												"The temple of Pholtus, inflexible god of the sun, seeks to impose its strict rules. The high priest, Cheldar, wishes to bring as many folk as possible under the temple's sway. Though only in town for two years, the temple is already a powerful force due to Cheldar's brilliant oration."
+											]
+										},
+										{
+											"type": "entries",
+											"name": "Goals",
+											"page": 4,
+											"entries": [
+												"Cheldar wants to make the temple of Pholtus the most influential religion in town by bringing about peace and stability for all. He believes keeping adventurers in check or driving them out of town is an important step in that plan."
+											]
+										},
+										{
+											"type": "entries",
+											"name": "Assets",
+											"page": 4,
+											"entries": [
+												"The high priest Cheldar has his charismatic oration, divine spellcasting ability, and a few hundred common folk recently converted to the temple's cause."
+											]
+										},
+										{
+											"type": "entries",
+											"name": "Actions",
+											"page": 4,
+											"entries": [
+												"Cheldar is stern, but fundamentally a good person. He seeks to win support by providing charity, promoting peace, and working to enforce law and order. However, he is skeptical of the characters, convinced that adventurers are troublemakers who will ruin the peace. He wants only officials of the town or the temple to be involved in handling any crises that arise. He genuinely believes in his goals, but can be made an ally by sufficiently good-hearted characters.",
+												{
+													"type": "table",
+													"caption": "Cheldar's Plans",
+													"colLabels": [
+														"Type",
+														"Description"
+													],
+													"colStyles": [
+														"col-1",
+														"col-11"
+													],
+													"rows": [
+														[
+															"Event",
+															"The grand festival of Pholtus sees the streets filled with somber worshipers who maintain a 24-hour torchlit vigil during the winter solstice. They offer food, drink, and shelter to all in the temple of Pholtus."
+														],
+														[
+															"Action",
+															"Cheldar appears in a tavern frequented by adventurers, along with a small group of followers, seeking converts. A few NPC adventurers join his cause."
+														],
+														[
+															"Action",
+															"Cheldar rails against forces of chaos in a public address in the town square, laying blame for recent troubles on adventurers meddling in things best left alone."
+														],
+														[
+															"Event",
+															"The characters find that adventurers in town receive an, at best, icy reception, as the mood turns against them."
+														],
+														[
+															"Action",
+															"Cheldar demands that the city levy enormous taxes on adventurers, claiming that they must pay their fair share to keep the city safe. After all, such wanderers can simply leave if their actions bring the city trouble. The common folk don't have that option."
+														]
+													]
+												}
+											]
+										}
+									]
+								}
+							]
+						},
+						{
+							"type": "section",
+							"name": "Sample Downtime Activities",
+							"page": 5,
+							"entries": [
+								"The following activities are available for any character who can afford to pursue them. As DM, you have final say on which activities are available to the characters.",
+								{
+									"type": "list",
+									"columns": 3,
+									"items": [
+										"{@variantrule Buying a Magic Item|UADowntime}",
+										"{@variantrule Carousing|UADowntime}",
+										"{@variantrule Crafting an Item|UADowntime}",
+										"{@variantrule Crime|UADowntime}",
+										"{@variantrule Gambling|UADowntime}",
+										"{@variantrule Pit Fighting|UADowntime}",
+										"{@variantrule Relaxation|UADowntime}",
+										"{@variantrule Religious Service|UADowntime}",
+										"{@variantrule Research|UADowntime}",
+										"{@variantrule Scribing a Spell Scroll|UADowntime}",
+										"{@variantrule Sealing a Magic Item|UADowntime}",
+										"{@variantrule Training|UADowntime}",
+										"{@variantrule Work|UADowntime}"
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	],
+	"variantrule": [
+		{
+			"name": "Buying a Magic Item",
+			"page": 5,
+			"ruleType": "VO",
+			"type": "entries",
+			"source": "UADowntime",
+			"entries": [
+				"Purchasing a magic item requires time and money to contact people willing to sell items. Even then, there is no guarantee they will have the desired items.",
+				{
+					"type": "entries",
+					"name": "Resources",
+					"page": 5,
+					"entries": [
+						"Finding magic items to purchase requires one workweek of effort and 100 gp minimum in expenses. Spending more time and money increases your chance of finding a high-quality item."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Resolution",
+					"page": 5,
+					"entries": [
+						"A character seeking to buy a magic item makes a Charisma ({@skill Persuasion}) check to determine the quality of seller found. The character gains a +1 bonus for every workweek beyond the first spent seeking a seller and a +1 bonus for every 100 gp spent on the search. The total bonus for time and money spent can't be greater than +10.",
+						"As shown on the Buying Magic Items table, the total of the check dictates which table in the Dungeon Master's Guide to roll on to determine which items are on the market.",
+						"Using the Magic Item Price table, you then assign prices to the available items, based on their rarity. Halve the price of any consumable item\u2014such as a potion or a scroll\u2014when using the table to determine an asking price. You have final say in determining which items are for sale and their final price, no matter what the tables say.",
+						"If the characters seek a specific magic item, first decide if it's an item you want to allow in the game. If so, include the item among the offerings if it appears on a table that the result allows you to roll on.",
+						{
+							"type": "table",
+							"caption": "Buying Magic Items",
+							"colLabels": [
+								"Check",
+								"Total Result"
+							],
+							"colStyles": [
+								"col-1 text-center",
+								"col-11"
+							],
+							"rows": [
+								[
+									"1\u20135",
+									"Roll {@dice 1d6} times on Magic Item Table A."
+								],
+								[
+									"6\u201310",
+									"Roll {@dice 1d4} times on Magic Item Table B."
+								],
+								[
+									"11\u201315",
+									"Roll {@dice 1d4} times on Magic Item Table C."
+								],
+								[
+									"16\u201320",
+									"Roll {@dice 1d4} times on Magic Item Table D."
+								],
+								[
+									"21\u201325",
+									"Roll {@dice 1d4} times on Magic Item Table E."
+								],
+								[
+									"26\u201330",
+									"Roll {@dice 1d4} times on Magic Item Table F."
+								],
+								[
+									"31\u201335",
+									"Roll {@dice 1d4} times on Magic Item Table G."
+								],
+								[
+									"36\u201340",
+									"Roll {@dice 1d4} times on Magic Item Table H."
+								],
+								[
+									"41+",
+									"Roll {@dice 1d4} times on Magic Item Table I."
+								]
+							]
+						},
+						{
+							"type": "table",
+							"caption": "Magic Item Price",
+							"colLabels": [
+								"Rarity",
+								"Asking Price"
+							],
+							"colStyles": [
+								"col-4",
+								"col-8"
+							],
+							"rows": [
+								[
+									"Common",
+									"({@dice 1d6 + 1}) × 10 gp"
+								],
+								[
+									"Uncommon",
+									"{@dice 1d6 × 100} gp"
+								],
+								[
+									"Rare",
+									"{@dice 2d10 × 1,000} gp"
+								],
+								[
+									"Very rare",
+									"({@dice 1d4 + 1}) × 10,000 gp"
+								],
+								[
+									"Legendary",
+									"{@dice 2d6 × 25,000} gp"
+								]
+							]
+						}
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Complications",
+					"page": 5,
+					"entries": [
+						"The magic item trade is fraught with dangers. The large sums of money involved, and the power offered by a magic item, attract thieves, con artists, and other villains. If you want to make things more interesting for the characters, roll on the Magic Item Purchase Complications table or invent your own complication.",
+						{
+							"type": "table",
+							"caption": "Magic Item Purchase Complications",
+							"colLabels": [
+								"d12",
+								"Complication"
+							],
+							"colStyles": [
+								"col-1 text-center",
+								"col-11"
+							],
+							"rows": [
+								[
+									"1*",
+									"The item is a fake, planted by an enemy."
+								],
+								[
+									"2*",
+									"The item is stolen by the party's enemies."
+								],
+								[
+									"3",
+									"The item is cursed by a god."
+								],
+								[
+									"4*",
+									"The item's original owner will kill to reclaim it; the party's enemies spread news of its sale."
+								],
+								[
+									"5",
+									"The item is at the center of a dark prophecy."
+								],
+								[
+									"6*",
+									"The seller is murdered before the sale."
+								],
+								[
+									"7",
+									"The seller is a devil looking to make a bargain."
+								],
+								[
+									"8",
+									"The item is the key to freeing an evil entity."
+								],
+								[
+									"9*",
+									"A third party bids on the item, doubling its price."
+								],
+								[
+									"10",
+									"The item is an enslaved, intelligent entity."
+								],
+								[
+									"11",
+									"The item is tied to a cult."
+								],
+								[
+									"12*",
+									"The party's enemies spread rumors that the item is an artifact of evil."
+								]
+							],
+							"footnotes": [
+								"*Might involve a foil"
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Carousing",
+			"page": 5,
+			"ruleType": "VO",
+			"type": "entries",
+			"source": "UADowntime",
+			"entries": [
+				"Carousing is a good default downtime activity for most characters. Between adventures, who doesn't want to relax with a few drinks and a group of friends at the local pub?",
+				{
+					"type": "entries",
+					"name": "Resources",
+					"page": 5,
+					"entries": [
+						"Carousing covers a workweek of fine food, strong drink, and socializing. A character can attempt to carouse among lower-, middle-, or upper-class folk. A character can carouse with the lower class for 25 gp to cover expenses, or 100 gp for the middle class. Carousing with the upper class requires 500 gp for the workweek and access to the local nobility.",
+						"A character with the noble background can mingle with the upper class, but other characters can do so only if you, as DM, judge that the character has made sufficient contacts."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Resolution",
+					"page": 6,
+					"entries": [
+						"After a workweek of carousing, a character stands to make contacts within the selected social class. The character makes a Charisma ({@skill Persuasion}) check using the Carousing table.",
+						{
+							"type": "table",
+							"caption": "Carousing",
+							"colLabels": [
+								"Check",
+								"Total Result"
+							],
+							"colStyles": [
+								"col-6",
+								"col-6"
+							],
+							"rows": [
+								[
+									"1\u20135 Character has made a hostile contact.",
+									"6\u201310 No effect results."
+								],
+								[
+									"11\u201315 Character has made an allied contact.",
+									"16\u201320 Character has made two allied contacts."
+								],
+								[
+									"21+ Character has made three allied contacts.",
+									""
+								]
+							]
+						},
+						"Contacts are NPCs who now share a bond with the character. Each one owes the character a favor or has some reason to bear a grudge. A hostile one works against the character, placing obstacles but stopping short of committing a crime or violence. Allied contacts are friends who will render aid to the character, but will not risk their lives.",
+						"A harmful contact might point the town guard in the character's direction or argue with a character who tries to rally the town to a cause. Helpful contacts stand by the character and help in any way possible.",
+						"Low-class contacts include criminals, laborers, mercenaries, the town guard, and any other folk who would frequent the cheapest taverns in town.",
+						"Middle-class contacts include guild members, spellcasters, town officials, and other folk who would frequent more upscale establishments.",
+						"Upper-class contacts are nobles and their direct servants. Carousing in this case covers formal banquets, state dinners, and the like.",
+						"Once a contact has helped or hindered a character, the character needs to carouse again to get back into the NPC's good graces. A contact provides help once, not help for life. The contact remains friendly, and that can influence roleplay and how the characters interact with them, but it doesn't come with a guarantee of help.",
+						"You can assign specific NPCs as contacts. You might decide that the barkeep at the Wretched Gorgon and a guard stationed at the western gate are the character's allied contacts. Assigning specific NPCs gives the players concrete options. It brings the campaign to life and seeds the area with NPCs that the characters care about. On the other hand, it can prove difficult to track and might render a contact useless if it doesn't come into play.",
+						"Alternatively, you can allow the player to make an NPC a contact on the spot, after carousing. When the characters are in the area in which they caroused, a player can expend an allied contact and designate an NPC they meet as a contact, assuming the NPC is of the correct social class based on how the character caroused. The player should provide a reasonable explanation for this relationship and work it into the game.",
+						"Using a mix of the two approaches is a good idea, since it gives you the added depth of specific contacts while giving players the freedom to ensure that the contacts they accumulate are useful.",
+						"The same process can apply to hostile contacts. You can give the characters a specific NPC they should avoid, or you might introduce one at an inopportune or a dramatic moment.",
+						"A character can have a number of unspecified allied contacts at a time no higher than 1 + the character's Charisma modifier (minimum of 1). Specific, named contacts don't count toward this limit, only ones that can be used at any time to declare an NPC as a contact.",
+						"Characters who carouse risk bar brawls, accumulating a cloud of nasty rumors, and building a bad reputation around town. You can roll on the carousing complications tables to create a complication, pick one as you see fit, or make your own. As a rule of thumb, there is a {@chance 10|10 percent} chance that a character triggers a complication for each workweek of carousing.",
+						{
+							"type": "table",
+							"caption": "Low-Class Carousing Complications",
+							"colLabels": [
+								"d10",
+								"Complication"
+							],
+							"colStyles": [
+								"col-1 text-center",
+								"col-11"
+							],
+							"rows": [
+								[
+									"1*",
+									"A pickpocket lifts {@dice 1d10 × 10} gp from you."
+								],
+								[
+									"2*",
+									"A bar brawl leaves you with a scar."
+								],
+								[
+									"3",
+									"You have fuzzy memories of doing something very, very illegal, but can't remember exactly what."
+								],
+								[
+									"4*",
+									"You are banned from a tavern for obnoxious behavior."
+								],
+								[
+									"5",
+									"After a few drinks, you swore in the town square to pursue a dangerous quest."
+								],
+								[
+									"6",
+									"{@b Surprise!} You're married."
+								],
+								[
+									"7",
+									"Streaking naked through the streets seemed like a great idea at the time."
+								],
+								[
+									"8*",
+									"Everyone is calling you by some weird, embarrassing nickname, like Puddle Drinker or Bench Slayer, and no one will say why."
+								],
+								[
+									"9",
+									"Sure, you were drunk when you agreed to fund the orphanage, but a contract is a contract."
+								],
+								[
+									"10",
+									"You don't know how your hair turned blue, but you think it should grow out to its normal color. Maybe."
+								]
+							],
+							"footnotes": [
+								"*Might involve a foil"
+							]
+						},
+						{
+							"type": "table",
+							"caption": "Middle-Class Carousing Complications",
+							"colLabels": [
+								"d8",
+								"Complication"
+							],
+							"colStyles": [
+								"col-1 text-center",
+								"col-11"
+							],
+							"rows": [
+								[
+									"1*",
+									"You accidentally insult a guild master, and only a public apology will let you do business there again."
+								],
+								[
+									"2",
+									"You swore to complete some quest on behalf of a temple or guild."
+								],
+								[
+									"3*",
+									"A social gaffe has made you the talk of the town."
+								],
+								[
+									"4*",
+									"A particularly obnoxious person has taken an intense romantic interest in you."
+								],
+								[
+									"5*",
+									"You have made a rival out of a local spellcaster."
+								],
+								[
+									"6",
+									"You have been recruited to help run a local festival, play, or similar event."
+								],
+								[
+									"7",
+									"You made a drunken toast that scandalized the locals."
+								],
+								[
+									"8",
+									"You spent an additional 100 gp trying to impress people."
+								]
+							],
+							"footnotes": [
+								"*Might involve a foil"
+							]
+						},
+						{
+							"type": "table",
+							"caption": "Upper-Class Carousing Complications",
+							"colLabels": [
+								"d8",
+								"Complication"
+							],
+							"colStyles": [
+								"col-1 text-center",
+								"col-11"
+							],
+							"rows": [
+								[
+									"1*",
+									"A pushy noble family wants to marry off one of their scions to you."
+								],
+								[
+									"2",
+									"You tripped and fell during a dance, and people can't stop talking about it."
+								],
+								[
+									"3",
+									"You have agreed to take on a noble's debts."
+								],
+								[
+									"4*",
+									"You have been challenged to a joust by a knight."
+								],
+								[
+									"5*",
+									"You have made a rival out of a local noble."
+								],
+								[
+									"6",
+									"A boring noble insists you visit each day and listen to long, tedious theories of magic."
+								],
+								[
+									"7*",
+									"You have become the target of a variety of embarrassing rumors."
+								],
+								[
+									"8",
+									"You spent an additional 500 gp trying to impress people."
+								]
+							],
+							"footnotes": [
+								"*Might involve a foil"
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Crafting an Item",
+			"page": 7,
+			"ruleType": "VO",
+			"type": "entries",
+			"source": "UADowntime",
+			"entries": [
+				"If you can't buy or find the item you need, you can attempt to craft it.",
+				{
+					"type": "entries",
+					"name": "Resources",
+					"page": 7,
+					"entries": [
+						"A character needs the appropriate tools for the item to be crafted, and raw materials worth half of the item's selling cost. To determine how many workweeks it takes to create an item, divide its cost by 50. A character can complete multiple items in a workweek if their combined cost is 50 gp or less.",
+						"For items that cost more than 50 gp, a character can complete them over long periods of time, as long as the work in progress is stored in a safe location.",
+						"Multiple characters can combine their efforts. Divide the time needed to create an item by the number of characters working on it. As DM, use your judgement when determining how many characters can collaborate on an item. A particularly tiny item, like a ring, might allow only one or two workers, whereas a large, complex item might allow four or more workers.",
+						"A character needs to be proficient with the tools needed to craft an item and have access to the appropriate equipment. As DM, you need to make any judgment calls regarding whether a character has the correct equipment. The following table provides some examples.",
+						{
+							"type": "table",
+							"colLabels": [
+								"Proficiency",
+								"Items"
+							],
+							"colStyles": [
+								"col-5",
+								"col-7"
+							],
+							"rows": [
+								[
+									"{@item Herbalism kit|PHB}",
+									"Antitoxin, {@item potion of healing}"
+								],
+								[
+									"Leatherworker's tools",
+									"Leather armor, boots"
+								],
+								[
+									"Smith's tools",
+									"Armor, weapons"
+								],
+								[
+									"Weaver's tools",
+									"Cloaks, robes"
+								]
+							]
+						},
+						"Assume that a character can sell items crafted in this way at their listed price."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Crafting Magic Items",
+					"page": 7,
+					"entries": [
+						"Magic items require more than just time, effort, and materials to create. Creating a magic item is a long-term process that involves one or more adventures to track down rare materials and the lore needed to create the item.",
+						"Potions of healing and spell scrolls are exceptions to the following rules. For more information, see \"Brewing Potions of Healing\" in this section on crafting and \"Scribing a {@item Spell Scroll}\" on page 12.",
+						"To start with, a character needs a formula for a magic item in order to create it. The formula is like a recipe. It lists the materials needed and steps required to make the item.",
+						"An item invariably requires an exotic material to complete it. This material can range from the skin of a yeti to a vial of water taken from a whirlpool in the Elemental Plane of Water.",
+						"Finding that material should take place as part of an adventure.",
+						"The Magic Item Ingredients table suggests the challenge rating of a creature that the characters need to face to acquire the materials for an item. Note that facing a creature does not necessarily mean that the characters must collect items from its corpse. The creature might guard a place or resource that the characters need.",
+						{
+							"type": "table",
+							"caption": "Magic Item Ingredients",
+							"colLabels": [
+								"Item Rarity",
+								"CR Range"
+							],
+							"colStyles": [
+								"col-7 text-center",
+								"col-5 text-center"
+							],
+							"rows": [
+								[
+									"Common",
+									"1\u20133"
+								],
+								[
+									"Uncommon",
+									"4\u20138"
+								],
+								[
+									"Rare",
+									"9\u201312"
+								],
+								[
+									"Very rare",
+									"13\u201318"
+								],
+								[
+									"Legendary",
+									"19+"
+								]
+							]
+						},
+						"Pick a monster or location that is a thematic fit for the item. Ideally, the two should share a similar element or nature. For example, mariner's armor might require the essence of a water weird. A {@item staff of charming} might need the cooperation of a specific arcanaloth, who will help only if the characters complete a task for it. Creating a {@item staff of power} might rely on finding a piece of an ancient stone that was once touched by the god of magic\u2014a stone guarded by a suspicious androsphinx.",
+						"In addition to facing a specific creature, creating an item comes with a gold piece cost needed for other materials, tools, and so on, based on the item's rarity. Those values, as well as the time a character needs to work in order to complete the item, are shown on the Magic Item Crafting Time and Cost table. Halve the listed price and creation time for any consumable items.",
+						{
+							"type": "table",
+							"caption": "Magic Item Crafting Time and Cost",
+							"colLabels": [
+								"Item Rarity",
+								"Cost",
+								"Workweeks"
+							],
+							"colStyles": [
+								"col-4",
+								"col-4 text-right",
+								"col-4 text-right"
+							],
+							"rows": [
+								[
+									"Common",
+									"50 gp",
+									"1"
+								],
+								[
+									"Uncommon",
+									"200 gp",
+									"5"
+								],
+								[
+									"Rare",
+									"2,000 gp",
+									"50"
+								],
+								[
+									"Very rare",
+									"20,000 gp",
+									"100"
+								],
+								[
+									"Legendary",
+									"100,000 gp",
+									"500"
+								]
+							]
+						},
+						"To make a magic item, a character also needs whatever tool proficiency is appropriate, as is normal for crafting any object, or the character needs proficiency in the {@skill Arcana} skill."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Complications",
+					"page": 8,
+					"entries": [
+						"Most of the complications involved in creating an item, especially a magic one, are linked to the difficulty in finding rare items needed to complete the work. The complications a character might face as byproducts of the process of creation are most interesting when the characters are working on a magic item. It's unlikely that a suit of armor or a pair of boots can cause serious complications for a character's life.",
+						{
+							"type": "table",
+							"caption": "Craft an Item Complications",
+							"colLabels": [
+								"d8",
+								"Complication"
+							],
+							"colStyles": [
+								"col-1 text-center",
+								"col-11"
+							],
+							"rows": [
+								[
+									"1*",
+									"Rumors swirl that what you're working on is unstable and a threat to the entire community."
+								],
+								[
+									"2*",
+									"You have no idea why everyone thinks your work requires you to make blood sacrifices, but that's what folk are saying."
+								],
+								[
+									"3*",
+									"Your tools are stolen, forcing you to buy new ones."
+								],
+								[
+									"4",
+									"A local wizard shows keen interest in your work and insists on observing you."
+								],
+								[
+									"5*",
+									"A powerful noble offers a hefty price for your work and is not used to hearing no as an answer."
+								],
+								[
+									"6*",
+									"A dwarf clan accuses you of stealing their secret lore to fuel your work."
+								],
+								[
+									"7",
+									"A paladin approaches you and claims that the item you are working on is the key to completing a heroic quest."
+								],
+								[
+									"8*",
+									"A rival spreads rumors that your work is shoddy and prone to failure."
+								]
+							],
+							"footnotes": [
+								"*Might involve a foil"
+							]
+						}
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Brewing Potions of Healing",
+					"page": 8,
+					"entries": [
+						"Potions of healing fall into a special category for item crafting, separate from other magic items. A character proficient with the {@item herbalism kit|PHB} can create them. The time and money needed to create such a potion is summarized on the {@item Potion of Healing} Creation table.",
+						{
+							"type": "table",
+							"caption": "Potion of Healing Creation",
+							"colLabels": [
+								"Type",
+								"Time",
+								"Cost"
+							],
+							"colStyles": [
+								"col-5",
+								"col-4 text-center",
+								"col-3 text-right"
+							],
+							"rows": [
+								[
+									"Healing",
+									"1 day",
+									"25 gp"
+								],
+								[
+									"Greater healing",
+									"1 workweek",
+									"100 gp"
+								],
+								[
+									"Superior healing",
+									"3 workweeks",
+									"1,000 gp"
+								],
+								[
+									"Supreme healing",
+									"4 workweeks",
+									"10,000 gp"
+								]
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Crime",
+			"page": 8,
+			"ruleType": "VO",
+			"source": "UADowntime",
+			"type": "entries",
+			"entries": [
+				"Sometimes it pays to be bad. This activity gives a character the chance to make some extra cash, at the risk of arrest.",
+				{
+					"type": "entries",
+					"name": "Resources",
+					"page": 9,
+					"entries": [
+						"A crime spree requires a character to spend one week and at least 25 gp gathering information on potential targets, and then committing the crime."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Resolution",
+					"page": 9,
+					"entries": [
+						"The character must make a series of checks, with one DC for all the checks determined by the profit sought from the crime.",
+						"The chosen DC can be 10, 15, 20, or 25. Successful completion of the crime yields a number of gold pieces based on the chosen DC, as shown on the Loot Value table.",
+						"To attempt the crime, the character makes three checks: Dexterity ({@skill Stealth}), Dexterity with thieves' tools, and the player's choice of Intelligence ({@skill Investigation}), Wisdom ({@skill Perception}), or Charisma ({@skill Deception}).",
+						"If none of the checks succeed, the character is caught and jailed. The character must pay a fine equal to the potential payout and must spend one week in jail per 25 gp value.",
+						"If one check succeeds, the heist fails but the character escapes.",
+						"If two checks succeed, the heist is a partial success, netting the character half the payout. If all three succeed, the character earns the full payout.",
+						{
+							"type": "table",
+							"caption": "Loot Value",
+							"colLabels": [
+								"DC",
+								"Value"
+							],
+							"colStyles": [
+								"col-1 text-center",
+								"col-11"
+							],
+							"rows": [
+								[
+									"10",
+									"50 gp, robbery of a struggling merchant"
+								],
+								[
+									"15",
+									"100 gp, robbery of a prosperous merchant"
+								],
+								[
+									"20",
+									"200 gp, robbery of a noble"
+								],
+								[
+									"25",
+									"1,000 gp, robbery of one of the richest figures in town"
+								]
+							]
+						}
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Complications",
+					"page": 9,
+					"entries": [
+						"A life of crime is filled with complications. Roll on the Crime Complications table (or create a complication of your own) if the character succeeds at only one check. If the character's foil is involved in crime or law enforcement, roll if the character succeeds on only two checks.",
+						{
+							"type": "table",
+							"caption": "Crime Complications",
+							"colLabels": [
+								"d10",
+								"Complication"
+							],
+							"colStyles": [
+								"col-1 text-center",
+								"col-11"
+							],
+							"rows": [
+								[
+									"1*",
+									"A bounty equal to your earnings is offered for information about your crime."
+								],
+								[
+									"2*",
+									"An unknown person contacts you, threatening to reveal your crime if you don't render a service."
+								],
+								[
+									"3",
+									"Your victim is financially ruined by your crime."
+								],
+								[
+									"4*",
+									"Someone who knows of your crime has been arrested on an unrelated crime."
+								],
+								[
+									"5",
+									"Your loot is a single, easily identified item that you can't fence in this region."
+								],
+								[
+									"6",
+									"You robbed from someone who was under a local crime lord's protection, and who now wants revenge."
+								],
+								[
+									"7",
+									"Your victim calls in a favor from a guard, doubling the efforts to solve the case."
+								],
+								[
+									"8",
+									"Your victim approaches one of your adventuring companions to solve the crime."
+								],
+								[
+									"9*",
+									"A paladin or cleric of justice swears to avenge your robbery."
+								],
+								[
+									"10*",
+									"Your victim has a heart of gold; everyone in town is looking for you, the thieving scumbag."
+								]
+							],
+							"footnotes": [
+								"*Might involve a foil"
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Gambling",
+			"page": 9,
+			"ruleType": "VO",
+			"type": "entries",
+			"source": "UADowntime",
+			"entries": [
+				"Games of chance are a way to make a fortune, but perhaps a better way to lose one.",
+				{
+					"type": "entries",
+					"name": "Resources",
+					"page": 9,
+					"entries": [
+						"This activity requires one workweek of effort from a character, plus the character must risk at least 100 gp, to a maximum of 1,000 gp, unless you decide that gambling is a big enough business to support larger wagers."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Resolution",
+					"page": 9,
+					"entries": [
+						"The player must make a series of checks, with a DC determined at random based on the quality of the opposition that the character runs into. Part of the risk of gambling is that you never know who might end up sitting across the table from you.",
+						"The character makes three checks: Wisdom ({@skill Insight}), Charisma ({@skill Deception}), and Charisma ({@skill Intimidation}). The DC is 5{@dice  + 2d10}, generating a separate DC for each check. Consult the Gambling Results table to see how the character does.",
+						{
+							"type": "table",
+							"caption": "Gambling Results",
+							"colLabels": [
+								"Result",
+								"Value"
+							],
+							"colStyles": [
+								"col-2",
+								"col-10"
+							],
+							"rows": [
+								[
+									"0 successes",
+									"Lose all the money you bet, plus accrue a debt equal to that amount."
+								],
+								[
+									"1 success",
+									"Lose half the money you bet."
+								],
+								[
+									"2 successes",
+									"Gain one-and-a-half times the amount you bet."
+								],
+								[
+									"3 successes",
+									"Gain double the amount you bet."
+								]
+							]
+						}
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Complications",
+					"page": 9,
+					"entries": [
+						"Gambling tends to draw a variety of unsavory characters. The potential complications involved in it come from run-ins with the law and various criminals tied to it.",
+						{
+							"type": "table",
+							"caption": "Gambling Complications",
+							"colLabels": [
+								"d8",
+								"Complication"
+							],
+							"colStyles": [
+								"col-1 text-center",
+								"col-11"
+							],
+							"rows": [
+								[
+									"1*",
+									"You are accused of cheating. You decide whether you actually did or were framed."
+								],
+								[
+									"2*",
+									"The town guard raids the gambling hall and throws you in jail."
+								],
+								[
+									"3",
+									"You accrue a debt during the game, one that your opponent insists you pay by taking on a task."
+								],
+								[
+									"4*",
+									"A noble in town loses badly to you and loudly vows to get revenge."
+								],
+								[
+									"5",
+									"You won a sum from a low-ranking member of a thieves' guild, and the guild wants its money back."
+								],
+								[
+									"6",
+									"A local crime lord insists you start frequenting the lord's gambling parlor and no others."
+								],
+								[
+									"7",
+									"You have a reputation for good luck, leading other gamblers to hound you to team up."
+								],
+								[
+									"8",
+									"A high-stakes gambler comes to town and insists that you take part in a game."
+								]
+							],
+							"footnotes": [
+								"*Might involve a foil"
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Pit Fighting",
+			"page": 10,
+			"ruleType": "VO",
+			"type": "entries",
+			"source": "UADowntime",
+			"entries": [
+				"This downtime activity covers boxing, wrestling, and other nonlethal forms of combat. If you want to introduce an arena with battles to the death, use standard combat rules.",
+				{
+					"type": "entries",
+					"name": "Resources",
+					"page": 10,
+					"entries": [
+						"This activity requires one workweek of effort from a character.",
+						"Resolution The character must make a series of checks, with a DC determined at random based on the quality of the opposition that the character runs into. The challenge in pit fighting lies in the mystery of your opponents.",
+						"The character makes three checks: Strength ({@skill Athletics}), Dexterity ({@skill Acrobatics}), and Wisdom ({@skill Insight}). The DC is 5{@dice  + 2d10}, generating a separate DC for each check. Consult the Pit Fighting Results table to see how the character does.",
+						{
+							"type": "table",
+							"caption": "Pit Fighting Results",
+							"colLabels": [
+								"Result",
+								"Value"
+							],
+							"colStyles": [
+								"col-3",
+								"col-9"
+							],
+							"rows": [
+								[
+									"0 successes",
+									"Lose your bouts, earning nothing."
+								],
+								[
+									"1 success",
+									"Win 50 gp."
+								],
+								[
+									"2 successes",
+									"Win 100 gp."
+								],
+								[
+									"3 successes",
+									"Win 200 gp."
+								]
+							]
+						}
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Complications",
+					"page": 10,
+					"entries": [
+						"Characters involved in pit fighting must deal with their opponents, the folk who bet on matches, and with the matches' promoters.",
+						{
+							"type": "table",
+							"caption": "Pit Fighting Complications",
+							"colLabels": [
+								"d8",
+								"Complication"
+							],
+							"colStyles": [
+								"col-1 text-center",
+								"col-11"
+							],
+							"rows": [
+								[
+									"1*",
+									"A rival fighter swears to take revenge on you."
+								],
+								[
+									"2*",
+									"A crime boss approaches you and offers to pay you to intentionally lose a few matches."
+								],
+								[
+									"3",
+									"You defeat a popular local champion, drawing the crowd's ire."
+								],
+								[
+									"4*",
+									"You defeat a noble's servant, drawing the wrath of the noble's house."
+								],
+								[
+									"5*",
+									"You are accused of cheating. Whether the allegation is true or not, your reputation is tarnished."
+								],
+								[
+									"6",
+									"You accidentally deliver a near-fatal wound to a foe."
+								],
+								[
+									"7",
+									"A noble approaches you with an offer to join a stable of pit fighters."
+								],
+								[
+									"8",
+									"A new fighter in town feuds with you, calling you out in public and demanding a match."
+								]
+							],
+							"footnotes": [
+								"*Might involve a foil"
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Relaxation",
+			"page": 10,
+			"ruleType": "VO",
+			"type": "entries",
+			"source": "UADowntime",
+			"entries": [
+				"Sometimes, the best thing a character can do between adventures is relax. Whether a character wants a hard-earned vacation or needs to recover from injuries, this is the ideal option for adventurers who need a break.",
+				{
+					"type": "entries",
+					"name": "Resources",
+					"page": 10,
+					"entries": [
+						"Relaxation requires one week. You need to maintain at least a modest lifestyle while relaxing to gain the benefits. You also need to stay at home, at an inn, or in some other location that affords rest."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Resolution",
+					"page": 10,
+					"entries": [
+						"While relaxing, you gain advantage on saving throws to recover from long-term diseases and poisons. In addition, at the end of the week, you can end one effect that prevents you from regaining hit points or restore one ability score that has been reduced to below its normal value, unless the harmful effect is caused by a spell or other magical effect with an ongoing duration."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Complications",
+					"page": 10,
+					"entries": [
+						"Relaxation rarely comes with complications. If you want to make life interesting for the characters, introduce an action or event connected to a foil."
+					]
+				}
+			]
+		},
+		{
+			"name": "Religious Service",
+			"page": 11,
+			"ruleType": "VO",
+			"type": "entries",
+			"source": "UADowntime",
+			"entries": [
+				"Characters with a religious bent might wish to spend their downtime in service to a temple. This activity has the chance of winning the favor of the temple's leaders.",
+				{
+					"type": "entries",
+					"name": "Resources",
+					"page": 11,
+					"entries": [
+						"Religious service requires one workweek of time and no gold piece cost."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Resolution",
+					"page": 11,
+					"entries": [
+						"The character chooses to make either an Intelligence ({@skill Religion}) or a Charisma ({@skill Persuasion}) check. The result of the check determines the benefits of service, as shown on the Religious Service table.",
+						{
+							"type": "table",
+							"caption": "Religious Service",
+							"colLabels": [
+								"Check Total",
+								"Result"
+							],
+							"colStyles": [
+								"col-1 text-center",
+								"col-11"
+							],
+							"rows": [
+								[
+									"1\u201310",
+									"No effect. You leave no lasting impression."
+								],
+								[
+									"11\u201320",
+									"You earn one favor."
+								],
+								[
+									"21+",
+									"You earn two favors."
+								]
+							]
+						},
+						"A favor is a promise for future assistance. It can be expended to ask the temple for help in dealing with a problem, for political or social support, or to reduce the cost of cleric spellcasting by 50 percent.",
+						"At one time, a character can have a number of unexpended favors no higher than 1 + their Charisma modifier (minimum of one favor)."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Complications",
+					"page": 11,
+					"entries": [
+						"Temples can be labyrinths of political and social scheming. Even the best-intentioned sect can fall prone to rivalries. Serving a temple risks a character's becoming embroiled in such struggles.",
+						{
+							"type": "table",
+							"caption": "Religious Service Complications",
+							"colLabels": [
+								"d6",
+								"Complication"
+							],
+							"colStyles": [
+								"col-1 text-center",
+								"col-11"
+							],
+							"rows": [
+								[
+									"1*",
+									"You have offended a priest through your words or actions."
+								],
+								[
+									"2",
+									"Blasphemy is still blasphemy even if you did it by accident."
+								],
+								[
+									"3",
+									"A secret sect in the temple offers you membership."
+								],
+								[
+									"4*",
+									"A rival temple tries to recruit you as a spy."
+								],
+								[
+									"5",
+									"The temple elders implore you to take up a holy quest."
+								],
+								[
+									"6",
+									"You accidentally discover that an important person in the temple is a fiend worshiper."
+								]
+							],
+							"footnotes": [
+								"*Might involve a foil"
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Research",
+			"page": 11,
+			"ruleType": "VO",
+			"type": "entries",
+			"source": "UADowntime",
+			"entries": [
+				"Forewarned is forearmed. The research activity allows a character to delve into lore concerning a monster, location, magic item, or some other topic.",
+				{
+					"type": "entries",
+					"name": "Resources",
+					"page": 11,
+					"entries": [
+						"Research requires one workweek of work and at least 100 gp spent on materials, bribes, gifts, and other expenses. Typically, a character needs access to a library or sage to conduct research."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Resolution",
+					"page": 11,
+					"entries": [
+						"The character declares the focus of the research\u2014a specific person, place, or thing. After a workweek of research, a character makes an Intelligence check with a +1 bonus per 100 gp spent beyond the initial 100 gp, to a maximum of +6. In addition, a character with access to a particularly well-stocked library or knowledgeable sages gains advantage on this check. Determine how much lore a character learns using the Research table.",
+						{
+							"type": "table",
+							"caption": "Research",
+							"colLabels": [
+								"Check Total",
+								"Result"
+							],
+							"colStyles": [
+								"col-1 text-center",
+								"col-11"
+							],
+							"rows": [
+								[
+									"1\u20135",
+									"No effect."
+								],
+								[
+									"6\u201310",
+									"You learn one piece of useful lore."
+								],
+								[
+									"11\u201320",
+									"You learn two pieces of useful lore."
+								],
+								[
+									"21+",
+									"You learn three pieces of useful lore."
+								]
+							]
+						},
+						"Each piece of useful lore is the equivalent of one true statement about a person, place, or thing. Examples include knowledge of a creature's resistances, the password needed to enter a sealed dungeon level, the spells commonly prepared by an order of wizards, and so on.",
+						"For a monster or an NPC, you can reveal elements of stats or personality. For a place, you can reveal secrets about it, such as a hidden entrance, the answer to a riddle, or the nature of a creature that guards the place.",
+						"You can also give out specific pieces of information with research, especially if the players want to know about a specific thing.",
+						"Alternatively, a player can track how many nonspecific pieces of lore have been accumulated by their character. At any time during play, the player can expend a piece of lore to learn about a monster, a place, a person, and so on; the character has a sudden insight or recalls the relevant information.",
+						"At one time, a character can have a number of unexpended nonspecific pieces of lore no higher than 1 + their Intelligence modifier (minimum of one piece of lore)."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Complications",
+					"page": 12,
+					"entries": [
+						"The greatest danger in research is uncovering false information. Not all lore is truthful, and a foil with a scholarly bent might try to lead the characters astray, especially if the object of the research is known to the foil. The foil might plant false information, bribe sages to give bad advice, or steal key tomes needed to find the truth.",
+						"In addition, a character might run into other complications during research. If you want to introduce a complication, use the Research Complications table, or create an incident.",
+						{
+							"type": "table",
+							"caption": "Research Complications",
+							"colLabels": [
+								"d6",
+								"Complication"
+							],
+							"colStyles": [
+								"col-1 text-center",
+								"col-11"
+							],
+							"rows": [
+								[
+									"1",
+									"You accidentally damage a rare book."
+								],
+								[
+									"2*",
+									"You offend a sage, who demands an extravagant gift."
+								],
+								[
+									"3",
+									"If you had known that book was cursed, you never would have opened it."
+								],
+								[
+									"4*",
+									"A sage with strange theories on reality becomes obsessed with convincing you."
+								],
+								[
+									"5*",
+									"Your actions cause you to be banned from a library until you make reparations."
+								],
+								[
+									"6",
+									"You uncovered useful lore, but only by promising to complete a dangerous task in return."
+								]
+							],
+							"footnotes": [
+								"*Might involve a foil"
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Scribing a Spell Scroll",
+			"page": 12,
+			"ruleType": "VO",
+			"type": "entries",
+			"source": "UADowntime",
+			"entries": [
+				"With time and patience, a spellcaster can transfer a spell to a scroll, creating a {@item spell scroll}. This activity represents the time and effort it takes to produce such an item.",
+				{
+					"type": "entries",
+					"name": "Resources",
+					"page": 12,
+					"entries": [
+						"Scribing a {@item spell scroll} takes time and money based on the level of the spell you wish to scribe, as shown in the {@item Spell Scroll} Costs table. You must also provide any material components required by the spell. Moreover, you must have the spell prepared or among your known spells in order to scribe a scroll of it, and you must have proficiency in the {@skill Arcana} skill.",
+						"If you scribe a cantrip, the version on the scroll works as if the caster is 1st level.",
+						{
+							"type": "table",
+							"caption": "Spell Scroll Costs",
+							"colLabels": [
+								"Level",
+								"Cost",
+								"Time"
+							],
+							"colStyles": [
+								"col-3",
+								"col-4 text-right",
+								"col-5 text-center"
+							],
+							"rows": [
+								[
+									"Cantrip",
+									"15 gp",
+									"1 day"
+								],
+								[
+									"1st",
+									"25 gp",
+									"2 days"
+								],
+								[
+									"2nd",
+									"250 gp",
+									"2 workweeks"
+								],
+								[
+									"3rd",
+									"500 gp",
+									"4 workweeks"
+								],
+								[
+									"4th",
+									"2,500 gp",
+									"6 workweeks"
+								],
+								[
+									"5th",
+									"5,000 gp",
+									"8 workweeks"
+								],
+								[
+									"6th",
+									"15,000 gp",
+									"12 workweeks"
+								],
+								[
+									"7th",
+									"25,000 gp",
+									"24 workweeks"
+								],
+								[
+									"8th",
+									"50,000 gp",
+									"48 workweeks"
+								],
+								[
+									"9th",
+									"250,000 gp",
+									"96 workweeks"
+								]
+							]
+						}
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Complications",
+					"page": 12,
+					"entries": [
+						"Crafting a scroll is a solitary task, unlikely to attract much attention. The complications that arise are more likely to involve the preparation needed to scribe a scroll.",
+						{
+							"type": "table",
+							"caption": "Scribe a Scroll Complications",
+							"colLabels": [
+								"d6",
+								"Complication"
+							],
+							"colStyles": [
+								"col-1 text-center",
+								"col-11"
+							],
+							"rows": [
+								[
+									"1",
+									"You buy up the last of the rare ink used to craft scrolls, angering a wizard in town."
+								],
+								[
+									"2*",
+									"The priest of a temple of good accuses you of trafficking in dark magic."
+								],
+								[
+									"3",
+									"A wizard eager to collect one of your spells in a book presses you to sell the scroll."
+								],
+								[
+									"4",
+									"Due to a strange error in creating the scroll, it is instead a random spell of the same level."
+								],
+								[
+									"5",
+									"The rare parchment you bought for your scroll has a barely visible map on it."
+								],
+								[
+									"6*",
+									"A thief attempts to break into your workroom."
+								]
+							],
+							"footnotes": [
+								"*Might involve a foil"
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Sealing a Magic Item",
+			"page": 12,
+			"ruleType": "VO",
+			"type": "entries",
+			"source": "UADowntime",
+			"entries": [
+				"Selling a magic item is by no means an easy task. Con artists and thieves are always looking out for an easy score, and there's no guarantee that a character will receive a good offer even if a legitimate buyer is found.",
+				{
+					"type": "entries",
+					"name": "Resources",
+					"page": 12,
+					"entries": [
+						"Finding a buyer for one of your magic items requires one workweek of work and 100 gp in expenses, spent to spread word of the sale. You must pick one item at a time to sell."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Resolution",
+					"page": 12,
+					"entries": [
+						"A character who wants to sell an item must make a Charisma ({@skill Persuasion}) check to determine what kind of offer comes in. The character can always opt to not sell, instead wasting the workweek and trying again later. Use the Magic Item Base Prices and Magic Item Offer tables to determine the sale price.",
+						{
+							"type": "table",
+							"caption": "Magic Item Base Prices",
+							"colLabels": [
+								"Rarity",
+								"Base Price"
+							],
+							"colStyles": [
+								"col-6",
+								"col-6 text-right"
+							],
+							"rows": [
+								[
+									"Common",
+									"50 gp"
+								],
+								[
+									"Uncommon",
+									"200 gp"
+								],
+								[
+									"Rare",
+									"2,000 gp"
+								],
+								[
+									"Very rare",
+									"10,000 gp"
+								],
+								[
+									"Legendary",
+									"25,000 gp"
+								]
+							]
+						},
+						{
+							"type": "table",
+							"caption": "Magic Item Offer",
+							"colLabels": [
+								"Check Total",
+								"Result"
+							],
+							"colStyles": [
+								"col-1 text-center",
+								"col-11"
+							],
+							"rows": [
+								[
+									"1\u201310",
+									"50% of base price"
+								],
+								[
+									"11\u201320",
+									"100% of base price"
+								],
+								[
+									"21+",
+									"150% of base price"
+								]
+							]
+						}
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Complications",
+					"page": 13,
+					"entries": [
+						"The greatest risk in selling a magic item lies in attracting thieves, tricksters, and anyone else who wants the item but doesn't want to pay for it. Other folk might try to undermine a deal in order to bolster their own business or seek to discredit the characters as legitimate sellers.",
+						{
+							"type": "table",
+							"caption": "Magic Item Sale Complications",
+							"colLabels": [
+								"d8",
+								"Complication"
+							],
+							"colStyles": [
+								"col-1 text-center",
+								"col-11"
+							],
+							"rows": [
+								[
+									"1*",
+									"The characters' enemies secretly arrange to buy the item to use it against them."
+								],
+								[
+									"2*",
+									"The item is stolen."
+								],
+								[
+									"3*",
+									"A rival circulates rumors that the item is a fake."
+								],
+								[
+									"4",
+									"A sorcerer claims the item as birthright and demands the characters hand it over."
+								],
+								[
+									"5",
+									"The item's previous owner, or surviving allies, vow to retake it by force."
+								],
+								[
+									"6*",
+									"The buyer is murdered before the sale."
+								],
+								[
+									"7",
+									"The buyer's sinister reputation makes it clear the item will be used to commit evil."
+								],
+								[
+									"8",
+									"The item is a lost relic belonging to a holy order."
+								]
+							],
+							"footnotes": [
+								"*Might involve a foil"
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Training",
+			"page": 13,
+			"ruleType": "VO",
+			"type": "entries",
+			"source": "UADowntime",
+			"entries": [
+				"Given enough free time and the services of an instructor, a character can learn a language or pick up proficiency with a tool.",
+				{
+					"type": "entries",
+					"name": "Resources",
+					"page": 13,
+					"entries": [
+						"Training in a language or tool takes at least 10 workweeks, but reduce this time by a number of workweeks equal to the character's Intelligence modifier (an Intelligence penalty doesn't increase the time needed). Training costs 100 gp per workweek."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Complications",
+					"page": 13,
+					"entries": [
+						"Complications that arise while training typically involve the teacher.",
+						{
+							"type": "table",
+							"caption": "Training Complications",
+							"colLabels": [
+								"d6",
+								"Complication"
+							],
+							"colStyles": [
+								"col-1 text-center",
+								"col-11"
+							],
+							"rows": [
+								[
+									"1*",
+									"Your instructor disappears, forcing you to spend a workweek finding a new one"
+								],
+								[
+									"2",
+									"Your teacher instructs you in rare, archaic methods, which draw comment from others."
+								],
+								[
+									"3*",
+									"Your teacher is a spy sent to learn your plans for the near future."
+								],
+								[
+									"4",
+									"Your teacher is a wanted criminal."
+								],
+								[
+									"5",
+									"Your teacher is a cruel taskmaster."
+								],
+								[
+									"6",
+									"Your teacher comes to you asking for help dealing with some threat."
+								]
+							],
+							"footnotes": [
+								"*Might involve a foil"
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Work",
+			"page": 13,
+			"ruleType": "VO",
+			"type": "entries",
+			"source": "UADowntime",
+			"entries": [
+				"When all else fails, an adventurer can turn to an honest trade to earn a living.",
+				{
+					"type": "entries",
+					"name": "Resources",
+					"page": 13,
+					"entries": [
+						"Taking on a job requires one workweek of work."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Resolution",
+					"page": 13,
+					"entries": [
+						"To determine how much money a character earns, the character makes an ability check: Strength ({@skill Athletics}), Intelligence with a set of tools, Charisma ({@skill Performance}), or Charisma with a {@item musical instrument|SCAG}. Consult the Wages table to see how much money is generated by the check's total.",
+						{
+							"type": "table",
+							"caption": "Wages",
+							"colLabels": [
+								"Check Total",
+								"Value"
+							],
+							"colStyles": [
+								"col-2",
+								"col-10"
+							],
+							"rows": [
+								[
+									"9 or less",
+									"Poor lifestyle for the week"
+								],
+								[
+									"10 \u2013 14",
+									"Modest lifestyle for the week"
+								],
+								[
+									"15 \u2013 20",
+									"Comfortable lifestyle for the week"
+								],
+								[
+									"21+",
+									"Comfortable lifestyle for the week, +25 gp"
+								]
+							]
+						}
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Complications",
+					"page": 13,
+					"entries": [
+						"Work is rarely filled with enough complications to alter a character's life significantly. Still, the Work Complications table can add some difficulties to a worker's life. There is a {@chance 10|10 percent} chance per workweek that a character encounters a complication.",
+						{
+							"type": "table",
+							"caption": "Work Complications",
+							"colLabels": [
+								"d6",
+								"Complication"
+							],
+							"colStyles": [
+								"col-1 text-center",
+								"col-11"
+							],
+							"rows": [
+								[
+									"1*",
+									"A difficult customer or a fight with a coworker reduces the lifestyle you earn by one category."
+								],
+								[
+									"2*",
+									"Your employer's financial difficulties result in your not being paid."
+								],
+								[
+									"3*",
+									"A coworker with ties to an important family in town takes a dislike to you."
+								],
+								[
+									"4",
+									"Your employer is involved with a dark cult or a criminal enterprise."
+								],
+								[
+									"5*",
+									"The local crime ring targets your business for a shakedown."
+								],
+								[
+									"6*",
+									"You gain a reputation for laziness (unjust or not, your choice), giving you disadvantage on checks made for this downtime activity for 30 days."
+								]
+							],
+							"footnotes": [
+								"*Might involve a foil"
+							]
+						}
+					]
+				}
+			]
+		}
+	]
+}

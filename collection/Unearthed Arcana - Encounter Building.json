@@ -1,0 +1,879 @@
+{
+	"_meta": {
+		"sources": [
+			{
+				"json": "UAEncounterBuilding",
+				"abbreviation": "UAEB",
+				"full": "Unearthed Arcana: Encounter Building",
+				"authors": [
+					"Wizards of the Coast"
+				],
+				"version": "1.0.0",
+				"url": "https://media.wizards.com/2016/dnd/downloads/Encounter_Building.pdf",
+				"dateReleased": "2016-10-10"
+			}
+		],
+		"dateAdded": 1672604449
+	},
+	"book": [
+		{
+			"name": "Unearthed Arcana: Encounter Building",
+			"source": "UAEncounterBuilding",
+			"id": "UAEB",
+			"author": "Mike Mearls",
+			"published": "2016-10-10",
+			"group": "prerelease",
+			"coverUrl": "img/covers/blank.png",
+			"contents": [
+				{
+					"name": "Encounter Building",
+					"headers": [
+						"Step 1: Assess the Characters",
+						"Step 2: Encounter Size",
+						"Step 3: Determine Numbers and Challenge Ratings",
+						"Step 4: Select Monsters",
+						"Step 5: Add Complications"
+					]
+				}
+			]
+		}
+	],
+	"bookData": [
+		{
+			"id": "UAEB",
+			"source": "UAEncounterBuilding",
+			"data": [
+				{
+					"type": "section",
+					"name": "Encounter Building",
+					"page": 1,
+					"entries": [
+						"This edition of Unearthed {@skill Arcana} introduces an alternative set of encounter-building guidelines for D&D. Though this approach uses the same basic math underlying the encounter system presented in the Dungeon Master's Guide, it makes a few adjustments to how it presents that math to produce a more flexible system.",
+						"This encounter-building system assumes that, as a Dungeon Master, you want to have a clear understanding of the threat posed by a group of monsters. It'll be of interest to any DMs who want to emphasize combat in their games, who want to ensure that a foe isn't too deadly for a specific group of characters, and who want to understand the relationship between a character's level and a monster's challenge rating.",
+						"Building an encounter using these new guidelines breaks down into a series of simple steps.",
+						{
+							"type": "entries",
+							"name": "Step 1: Assess the Characters",
+							"page": 1,
+							"entries": [
+								"To build an encounter using this system, first take stock of the player characters. This system uses the characters' levels to determine the number and challenge rating of creatures you can pit them against without making a fight too hard or too easy. But though character level is important, you should also take note of each characters' hit point maximum and saving throw modifiers, as well as how much damage the strongest combatants or spellcasters can inflict with a single attack. Even though character level and challenge rating are useful tools for defining the difficulty of an encounter, they don't tell the whole story, and you'll make use of these additional character statistics when you select monsters for an encounter in step 4."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Step 2: Encounter Size",
+							"page": 1,
+							"entries": [
+								"Determine if you want to create a battle that pits one legendary creature against the characters, or if you want to use multiple monsters. If you want to use a single monster, you're typically best off using a legendary monster, all of which are specifically designed to make life interesting for a group."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Step 3: Determine Numbers and Challenge Ratings",
+							"page": 1,
+							"entries": [
+								"The process for building fights that feature only a single legendary monster is simple. The table below shows you which challenge rating to use for a legendary creature fighting a party of four to six characters, creating a satisfying but difficult battle. For example, for a party of five 9th-level characters, a CR 12 legendary creature makes an appropriate encounter.",
+								"For a deadly battle, match up the characters with a legendary creature whose challenge rating is 1 or 2 higher than optimal. For a fairly easy fight, use a legendary creature whose challenge rating is 3 or more below the challenge rating for an optimal encounter.",
+								{
+									"type": "table",
+									"caption": "1st to 20th Level (Solo Monsters)",
+									"colLabels": [
+										"Character Level",
+										"6 Characters",
+										"5 Characters",
+										"4 Characters"
+									],
+									"colStyles": [
+										"col-1 text-center",
+										"col-4 text-center",
+										"col-4 text-center",
+										"col-4 text-center"
+									],
+									"rows": [
+										[
+											"1st",
+											"2",
+											"2",
+											"1"
+										],
+										[
+											"2nd",
+											"4",
+											"3",
+											"2"
+										],
+										[
+											"3rd",
+											"5",
+											"4",
+											"3"
+										],
+										[
+											"4th",
+											"6",
+											"5",
+											"4"
+										],
+										[
+											"5th",
+											"9",
+											"8",
+											"7"
+										],
+										[
+											"6th",
+											"10",
+											"9",
+											"8"
+										],
+										[
+											"7th",
+											"11",
+											"10",
+											"9"
+										],
+										[
+											"8th",
+											"12",
+											"11",
+											"10"
+										],
+										[
+											"9th",
+											"13",
+											"12",
+											"11"
+										],
+										[
+											"10th",
+											"14",
+											"13",
+											"12"
+										],
+										[
+											"11th",
+											"15",
+											"14",
+											"13"
+										],
+										[
+											"12th",
+											"17",
+											"16",
+											"15"
+										],
+										[
+											"13th",
+											"18",
+											"17",
+											"16"
+										],
+										[
+											"14th",
+											"19",
+											"18",
+											"17"
+										],
+										[
+											"15th",
+											"20",
+											"19",
+											"18"
+										],
+										[
+											"16th",
+											"21",
+											"20",
+											"19"
+										],
+										[
+											"17th",
+											"22",
+											"21",
+											"20"
+										],
+										[
+											"18th",
+											"22",
+											"21",
+											"20"
+										],
+										[
+											"19th",
+											"23",
+											"22",
+											"21"
+										],
+										[
+											"20th",
+											"24",
+											"23",
+											"22"
+										]
+									]
+								},
+								"If your encounter features multiple creatures, balancing it takes a little more work. First, you need to determine how many creatures the party will face, along with the challenge rating for each creature. The following tables are broken up by level ranges, providing information for how to balance encounters for characters of 1st to 5th level, 6th to 10th level, 11th to 15th level, and 16th to 20th level.",
+								"To create your encounter, find the level of each character on the appropriate table. Each table shows you what a single character of a given level is equal to in terms of challenge rating\u2014a value represented by a proportion that compares numbers of characters to a single monster ranked by challenge rating.",
+								"The first number is the number of characters of that given level. The second number indicates how many monsters of the listed challenge rating those characters are worth.",
+								"Reading the row for 1st-level characters from the 1st to 5th Level table, we see that one 1st-level character is the equivalent of two CR 1/8 monsters or one CR 1/4 monster. The proportion reverses for higher challenge ratings, with creatures at CR 1/2 and higher becoming more powerful than one 1st-level character. Three 1st-level characters are equivalent to one CR 1/2 creature, while five are equivalent to a CR 1 opponent.",
+								{
+									"type": "table",
+									"caption": "1st to 5th Level (Multiple Monsters)",
+									"colLabels": [
+										"Character Level",
+										"CR1/8",
+										"CR1/4",
+										"CR1/2",
+										"CR1",
+										"CR2",
+										"CR3",
+										"CR4",
+										"CR5",
+										"CR6"
+									],
+									"colStyles": [
+										"col-1 text-center",
+										"col-2 text-center",
+										"col-1 text-center",
+										"col-1 text-center",
+										"col-1 text-center",
+										"col-1 text-center",
+										"col-1 text-center",
+										"col-1 text-center",
+										"col-1 text-center",
+										"col-1 text-center"
+									],
+									"rows": [
+										[
+											"1st",
+											"1:2",
+											"1:1",
+											"3:1",
+											"5:1",
+											"\u2013",
+											"\u2013",
+											"\u2013",
+											"\u2013",
+											"\u2013"
+										],
+										[
+											"2nd",
+											"1:3",
+											"1:2",
+											"1:1",
+											"3:1",
+											"6:1",
+											"\u2013",
+											"\u2013",
+											"\u2013",
+											"\u2013"
+										],
+										[
+											"3rd",
+											"1:5",
+											"1:2",
+											"1:1",
+											"2:1",
+											"4:1",
+											"6:1",
+											"\u2013",
+											"\u2013",
+											"\u2013"
+										],
+										[
+											"4th",
+											"1:8",
+											"1:4",
+											"1:2",
+											"1:1",
+											"2:1",
+											"4:1",
+											"6:1",
+											"\u2013",
+											"\u2013"
+										],
+										[
+											"5th",
+											"1:12",
+											"1:8",
+											"1:4",
+											"1:2",
+											"1:1",
+											"2:1",
+											"3:1",
+											"5:1",
+											"6:1"
+										]
+									]
+								},
+								{
+									"type": "table",
+									"caption": "6th to 10th Level (Multiple Monsters)",
+									"colLabels": [
+										"Character Level",
+										"CR1/8",
+										"CR1/4",
+										"CR1/2",
+										"CR1",
+										"CR2",
+										"CR3",
+										"CR4",
+										"CR5",
+										"CR6",
+										"CR7",
+										"CR8",
+										"CR9",
+										"CR10"
+									],
+									"colStyles": [
+										"col-1 text-center",
+										"col-1 text-center",
+										"col-1 text-center",
+										"col-1 text-center",
+										"col-1 text-center",
+										"col-1 text-center",
+										"col-1 text-center",
+										"col-1 text-center",
+										"col-1 text-center",
+										"col-1 text-center",
+										"col-1 text-center",
+										"col-1 text-center",
+										"col-1 text-center",
+										"col-1 text-center"
+									],
+									"rows": [
+										[
+											"6th",
+											"1:12",
+											"1:9",
+											"1:5",
+											"1:2",
+											"1:1",
+											"2:1",
+											"2:1",
+											"4:1",
+											"5:1",
+											"6:1",
+											"\u2013",
+											"\u2013",
+											"\u2013"
+										],
+										[
+											"7th",
+											"1:12",
+											"1:12",
+											"1:6",
+											"1:3",
+											"1:1",
+											"1:1",
+											"2:1",
+											"3:1",
+											"4:1",
+											"5:1",
+											"\u2013",
+											"\u2013",
+											"\u2013"
+										],
+										[
+											"8th",
+											"1:12",
+											"1:12",
+											"1:7",
+											"1:4",
+											"1:2",
+											"1:1",
+											"2:1",
+											"3:1",
+											"3:1",
+											"4:1",
+											"6:1",
+											"\u2013",
+											"\u2013"
+										],
+										[
+											"9th",
+											"1:12",
+											"1:12",
+											"1:8",
+											"1:4",
+											"1:2",
+											"1:1",
+											"1:1",
+											"2:1",
+											"3:1",
+											"4:1",
+											"5:1",
+											"6:1",
+											"\u2013"
+										],
+										[
+											"10th",
+											"1:12",
+											"1:12",
+											"1:10",
+											"1:5",
+											"1:2",
+											"1:1",
+											"1:1",
+											"2:1",
+											"2:1",
+											"3:1",
+											"4:1",
+											"5:1",
+											"6:1"
+										]
+									]
+								},
+								{
+									"type": "table",
+									"caption": "11th to 15th Level (Multiple Monsters)",
+									"colLabels": [
+										"Character Level",
+										"CR1",
+										"CR2",
+										"CR3",
+										"CR4",
+										"CR5",
+										"CR6",
+										"CR7",
+										"CR8",
+										"CR9",
+										"CR10",
+										"CR11",
+										"CR12",
+										"CR13",
+										"CR14",
+										"CR15"
+									],
+									"colStyles": [
+										"col-1 text-center",
+										"col-1 text-center",
+										"col-0 text-center",
+										"col-0 text-center",
+										"col-1 text-center",
+										"col-1 text-center",
+										"col-1 text-center",
+										"col-1 text-center",
+										"col-1 text-center",
+										"col-1 text-center",
+										"col-1 text-center",
+										"col-1 text-center",
+										"col-1 text-center",
+										"col-1 text-center",
+										"col-1 text-center",
+										"col-1 text-center"
+									],
+									"rows": [
+										[
+											"11th",
+											"1:6",
+											"1:3",
+											"1:2",
+											"1:1",
+											"2:1",
+											"2:1",
+											"2:1",
+											"3:1",
+											"4:1",
+											"5:1",
+											"6:1",
+											"\u2013",
+											"\u2013",
+											"\u2013",
+											"\u2013"
+										],
+										[
+											"12th",
+											"1:8",
+											"1:3",
+											"1:2",
+											"1:1",
+											"1:1",
+											"2:1",
+											"2:1",
+											"3:1",
+											"3:1",
+											"4:1",
+											"5:1",
+											"6:1",
+											"\u2013",
+											"\u2013",
+											"\u2013"
+										],
+										[
+											"13th",
+											"1:9",
+											"1:4",
+											"1:2",
+											"1:2",
+											"1:1",
+											"1:1",
+											"2:1",
+											"2:1",
+											"3:1",
+											"3:1",
+											"4:1",
+											"5:1",
+											"6:1",
+											"\u2013",
+											"\u2013"
+										],
+										[
+											"14th",
+											"1:10",
+											"1:4",
+											"1:3",
+											"1:2",
+											"1:1",
+											"1:1",
+											"2:1",
+											"2:1",
+											"3:1",
+											"3:1",
+											"4:1",
+											"4:1",
+											"5:1",
+											"6:1",
+											"\u2013"
+										],
+										[
+											"15th",
+											"1:12",
+											"1:5",
+											"1:3",
+											"1:2",
+											"1:1",
+											"1:1",
+											"1:1",
+											"2:1",
+											"2:1",
+											"3:1",
+											"3:1",
+											"4:1",
+											"5:1",
+											"5:1",
+											"6:1"
+										]
+									]
+								},
+								{
+									"type": "table",
+									"caption": "16th to 20th Level (Multiple Monsters)",
+									"colLabels": [
+										"Character Level",
+										"CR2",
+										"CR3",
+										"CR4",
+										"CR5",
+										"CR6",
+										"CR7",
+										"CR8",
+										"CR9",
+										"CR10",
+										"CR11",
+										"CR12",
+										"CR13",
+										"CR14",
+										"CR15",
+										"CR16",
+										"CR17",
+										"CR18",
+										"CR19",
+										"CR20"
+									],
+									"colStyles": [
+										"col-1 text-center",
+										"col-0 text-center",
+										"col-0 text-center",
+										"col-1 text-center",
+										"col-1 text-center",
+										"col-1 text-center",
+										"col-1 text-center",
+										"col-1 text-center",
+										"col-1 text-center",
+										"col-1 text-center",
+										"col-1 text-center",
+										"col-1 text-center",
+										"col-1 text-center",
+										"col-1 text-center",
+										"col-1 text-center",
+										"col-1 text-center",
+										"col-1 text-center",
+										"col-1 text-center",
+										"col-1 text-center",
+										"col-1 text-center"
+									],
+									"rows": [
+										[
+											"16th",
+											"1:5",
+											"1:3",
+											"1:2",
+											"1:1",
+											"1:1",
+											"1:1",
+											"2:1",
+											"2:1",
+											"2:1",
+											"3:1",
+											"4:1",
+											"4:1",
+											"5:1",
+											"5:1",
+											"6:1",
+											"\u2013",
+											"\u2013",
+											"\u2013",
+											"\u2013"
+										],
+										[
+											"17th",
+											"1:7",
+											"1:4",
+											"1:3",
+											"1:2",
+											"1:1",
+											"1:1",
+											"1:1",
+											"2:1",
+											"2:1",
+											"2:1",
+											"3:1",
+											"3:1",
+											"4:1",
+											"4:1",
+											"5:1",
+											"6:1",
+											"\u2013",
+											"\u2013",
+											"\u2013"
+										],
+										[
+											"18th",
+											"1:7",
+											"1:5",
+											"1:3",
+											"1:2",
+											"1:1",
+											"1:1",
+											"1:1",
+											"2:1",
+											"2:1",
+											"2:1",
+											"3:1",
+											"3:1",
+											"4:1",
+											"4:1",
+											"5:1",
+											"6:1",
+											"6:1",
+											"\u2013",
+											"\u2013"
+										],
+										[
+											"19th",
+											"1:8",
+											"1:5",
+											"1:3",
+											"1:2",
+											"1:2",
+											"1:1",
+											"1:1",
+											"1:1",
+											"2:1",
+											"2:1",
+											"2:1",
+											"3:1",
+											"3:1",
+											"4:1",
+											"4:1",
+											"5:1",
+											"6:1",
+											"6:1",
+											"\u2013"
+										],
+										[
+											"20th",
+											"1:9",
+											"1:6",
+											"1:4",
+											"1:2",
+											"1:2",
+											"1:1",
+											"1:1",
+											"1:1",
+											"1:1",
+											"2:1",
+											"2:1",
+											"2:1",
+											"3:1",
+											"3:1",
+											"4:1",
+											"4:1",
+											"5:1",
+											"5:1",
+											"6:1"
+										]
+									]
+								},
+								"Let's say you have a party of four 3rd-level characters. Using the table, you can see that one CR 2 foe is a good match for the entire party, but that the characters will likely have a hard time handling a CR 3 creature.",
+								"Using the same guidelines, you can mix and match challenge ratings to put together a group of creatures worth four 3rd-level characters. For example, you could select one CR 1 creature. That's worth two 3rd-level characters, leaving you with two characters' worth of monsters to allocate. You could then add two CR 1/4 monsters to account for one other character, and one CR 1/2 monster to account for the final character. In total, your encounter has one CR 1, one CR 1/2, and two CR 1/4 creatures.",
+								"For groups with a variety of levels, you have two options. You can group all characters of the same level together, match them with monsters, and then combine all the creatures into one encounter. Alternatively, you can determine the group's average level and treat each character as being that level.",
+								"The above guidelines are designed to create a fight that will challenge a party, but which is still winnable. If you want to create an encounter that will challenge characters with little threat of defeat, you can treat the party as if it had roughly twothirds of its members. For example, a party of five characters would have an easy time of an encounter designed for three characters. Likewise, you can treat the party as up to fifty percent larger to build battles that are potentially deadly, though still not likely to yield an automatic defeat. A party of four characters facing an encounter designed for six characters would fall into this category.",
+								{
+									"type": "entries",
+									"entries": [
+										{
+											"type": "entries",
+											"name": "Weak Monsters and High-Level Characters",
+											"page": 3,
+											"entries": [
+												"To save space on the tables and keep them simple, some of the lower challenge ratings are missing from the higher-level tables. For low challenge ratings not appearing on the table, assume a 1:12 ratio, indicating that twelve creatures of those challenge ratings are worth one character of a specific level."
+											]
+										}
+									]
+								}
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Step 4: Select Monsters",
+							"page": 3,
+							"entries": [
+								"Having used the tables above to determine the challenge ratings of the monsters in your encounter, you're ready to pick individual monsters. However, this process is more of an art than a science.",
+								"In addition to assessing monsters by challenge rating, it's important to look at how specific monsters might stack up against your group. Hit points, attacks, and saving throws are all useful indicators. Compare the damage a monster can deal to the hit point maximum of each character. Be wary of any monster capable of dropping a character with a single att ack, unless you intend the fight to be deadly. In the same way, consider the monsters' hit points as compared to the damage output of the party's strongest combatants and spellcasters. Having a significant number of foes drop in the first rounds of combat can make an encounter too easy. Likewise, look at whether a monster's best attacks are made against saving throws that most of the party members are weak with, and compare the characters' attacks to the monsters' saving throws in the same way.",
+								"If the only creatures you can choose from at the desired challenge rating aren't a good match for the characters' statistics, don't be afraid to go back to step 3. By altering your challenge rating targets and adjusting the number of creatures in the encounter, you can come up with different options for building the encounter."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Step 5: Add Complications",
+							"page": 3,
+							"entries": [
+								"While many D&D groups are content to look at encounters simply in terms of combat, the reality is that any situation offers the potential for problem solving and roleplaying. The fun of D&D is that you never know what the players might try next. If you account for the chance that the characters might try to talk to the monsters, you're setting yourself up for a more interesting game.",
+								{
+									"type": "entries",
+									"name": "Monster Personality",
+									"page": 3,
+									"entries": [
+										"If you have the time, create names and personalities for a few of the monsters involved in the encounter. You can use the tables from chapter 4, \"Creating Nonplayer Characters,\" of the Dungeon Master's Guide, use the quick table below, or simply jot down a few points of your own based on a creature's Monster Manual write-up. During the battle, you can use these ideas to inform how you portray individual monsters and their actions. To keep things simple, you can also assign traits to a group of monsters to capture how the mob as a whole acts. For example, one bandit gang might be an unruly mob of braggarts, while another is always on edge and ready to break at the first sign of danger.",
+										{
+											"type": "table",
+											"caption": "Monster Personality",
+											"colLabels": [
+												"d8",
+												"Trait"
+											],
+											"colStyles": [
+												"col-1 text-center",
+												"col-11"
+											],
+											"rows": [
+												[
+													"1",
+													"Cowardly; looking to surrender"
+												],
+												[
+													"2",
+													"Greedy; wants treasure"
+												],
+												[
+													"3",
+													"Braggart; makes a show of bravery but runs if in danger"
+												],
+												[
+													"4",
+													"Fanatic; ready to die fighting"
+												],
+												[
+													"5",
+													"Rabble; poorly trained and easily rattled"
+												],
+												[
+													"6",
+													"Brave; stands its ground"
+												],
+												[
+													"7",
+													"Joker; taunts enemies"
+												],
+												[
+													"8",
+													"Bully; refuses to think it can lose"
+												]
+											]
+										}
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Monster Relationships",
+									"page": 4,
+									"entries": [
+										"Are there rivalries, hatreds, or friendships among the monsters in an encounter? Even if the characters don't try to talk to their foes, you can use such relationships to inform the monsters' actions and reactions during combat. The death of a much-revered leader might throw its followers into a frenzy. A bitter rival could slink away as soon as its enemy falls, or a mistreated toady might be eager to surrender and betray its master.",
+										{
+											"type": "table",
+											"caption": "Monster Relationship",
+											"colLabels": [
+												"d6",
+												"Trait"
+											],
+											"colStyles": [
+												"col-1 text-center",
+												"col-11"
+											],
+											"rows": [
+												[
+													"1",
+													"Rival; wants one random ally to suffer"
+												],
+												[
+													"2",
+													"Abused; hangs back, betrays at first chance"
+												],
+												[
+													"3",
+													"Worshipped; others will die for it"
+												],
+												[
+													"4",
+													"Outcast; others ignore it"
+												],
+												[
+													"5",
+													"Mercenary; cares only for self"
+												],
+												[
+													"6",
+													"Bully; allies want to see it defeated"
+												]
+											]
+										}
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Terrain and Traps",
+									"page": 4,
+									"entries": [
+										"A few elements that make the battlefield interesting can go a long way toward making an encounter more memorable. As a good rule of thumb, try to set up the area of the battle so that it would be challenging even without a fight taking place there. What things might draw the characters' attention? Why are monsters lurking here? Interesting area features can help prompt improvisation and keep things fresh.",
+										"To add details to an encounter area at random, look to the tables in appendix A, \"Random Dungeons,\" of the Dungeon Master's Guide to determine room and area features, potential hazards, obstacles, traps, and more."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Random Events",
+									"page": 4,
+									"entries": [
+										"Consider what might happen in an encounter area if the characters were to never enter it. Do the guards rotate in shifts? What other characters or monsters might visit? Do creatures gather there to eat or gossip? Are there any natural phenomena such as strong winds, earth tremors, or rain squalls that sometimes take place in the area? Random events are fun because they add an element of the unexpected to an encounter. Just when you think a fight's outcome is clear, an unexpected event can make things more interesting.",
+										"A number of the tables in the Dungeon Master's Guide can suggest random events to be added to a location, depending on the nature of the encounter setup. The tables used for encounter location, weird locales, and wilderness weather in chapter 5, \"Adventure Environments,\" of the Dungeon Master's Guide are a good starting point for outdoor encounters. The tables in appendix A, \"Random Dungeons,\" can be useful for indoor and outdoor encounters\u2014especially the tables for obstacles, traps, and tricks."
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	]
+}
