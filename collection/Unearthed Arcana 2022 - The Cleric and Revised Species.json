@@ -1,0 +1,6463 @@
+{
+	"_meta": {
+		"sources": [
+			{
+				"json": "XUA2022ClericAndRevisedSpecies",
+				"abbreviation": "XUA2022CRS",
+				"full": "Unearthed Arcana 2022: The Cleric and Revised Species",
+				"authors": [
+					"Wizards of the Coast"
+				],
+				"version": "1.0.0",
+				"url": "https://media.dndbeyond.com/compendium-images/one-dnd/cleric-and-revised-species/tr8jAj5cc33uQixi/UA-2022-ClericandSpecies.pdf",
+				"dateReleased": "2022-12-01"
+			}
+		],
+		"dateAdded": 1672604449
+	},
+	"class": [
+		{
+			"name": "Cleric",
+			"source": "XUA2022ClericAndRevisedSpecies",
+			"page": 3,
+			"classGroup": [
+				"priest"
+			],
+			"hd": {
+				"number": 1,
+				"faces": 8
+			},
+			"proficiency": [
+				"wis",
+				"cha"
+			],
+			"spellcastingAbility": "wis",
+			"casterProgression": "full",
+			"cantripProgression": [
+				3,
+				3,
+				3,
+				4,
+				4,
+				4,
+				4,
+				4,
+				4,
+				5,
+				5,
+				5,
+				5,
+				5,
+				5,
+				5,
+				5,
+				5,
+				5,
+				5
+			],
+			"startingProficiencies": {
+				"armor": [
+					"light",
+					"medium",
+					"{@item shield|phb|shields}"
+				],
+				"weapons": [
+					"simple"
+				],
+				"skills": [
+					{
+						"choose": {
+							"from": [
+								"persuasion",
+								"religion",
+								"history",
+								"insight",
+								"medicine"
+							],
+							"count": 2
+						}
+					}
+				]
+			},
+			"startingEquipment": {
+				"additionalFromBackground": false,
+				"default": [
+					"{@item Chain shirt|phb}",
+					"{@item Priest's Pack|XUA2022ClericAndRevisedSpecies}",
+					"{@item Holy symbol|phb}",
+					"{@item Shield|phb}",
+					"{@item Mace|phb}",
+					"7 GP"
+				],
+				"goldAlternative": "110 GP"
+			},
+			"multiclassing": {
+				"requirements": {
+					"wis": 13
+				},
+				"proficienciesGained": {
+					"armor": [
+						"light",
+						"medium",
+						"{@item shield|phb|shields}"
+					]
+				}
+			},
+			"classTableGroups": [
+				{
+					"colLabels": [
+						"{@filter Cantrips Known|spells|level=0|class=Cleric}"
+					],
+					"rows": [
+						[
+							3
+						],
+						[
+							3
+						],
+						[
+							3
+						],
+						[
+							4
+						],
+						[
+							4
+						],
+						[
+							4
+						],
+						[
+							4
+						],
+						[
+							4
+						],
+						[
+							4
+						],
+						[
+							5
+						],
+						[
+							5
+						],
+						[
+							5
+						],
+						[
+							5
+						],
+						[
+							5
+						],
+						[
+							5
+						],
+						[
+							5
+						],
+						[
+							5
+						],
+						[
+							5
+						],
+						[
+							5
+						],
+						[
+							5
+						]
+					]
+				},
+				{
+					"title": "Prepared Spells per Spell Level",
+					"colLabels": [
+						"{@filter 1st|spells|level=1|class=Cleric}",
+						"{@filter 2nd|spells|level=2|class=Cleric}",
+						"{@filter 3rd|spells|level=3|class=Cleric}",
+						"{@filter 4th|spells|level=4|class=Cleric}",
+						"{@filter 5th|spells|level=5|class=Cleric}",
+						"{@filter 6th|spells|level=6|class=Cleric}",
+						"{@filter 7th|spells|level=7|class=Cleric}",
+						"{@filter 8th|spells|level=8|class=Cleric}",
+						"{@filter 9th|spells|level=9|class=Cleric}"
+					],
+					"rowsSpellProgression": [
+						[
+							2,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0
+						],
+						[
+							3,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0
+						],
+						[
+							4,
+							2,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0
+						],
+						[
+							4,
+							3,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0
+						],
+						[
+							4,
+							3,
+							2,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0
+						],
+						[
+							4,
+							3,
+							3,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0
+						],
+						[
+							4,
+							3,
+							3,
+							1,
+							0,
+							0,
+							0,
+							0,
+							0
+						],
+						[
+							4,
+							3,
+							3,
+							2,
+							0,
+							0,
+							0,
+							0,
+							0
+						],
+						[
+							4,
+							3,
+							3,
+							3,
+							1,
+							0,
+							0,
+							0,
+							0
+						],
+						[
+							4,
+							3,
+							3,
+							3,
+							2,
+							0,
+							0,
+							0,
+							0
+						],
+						[
+							4,
+							3,
+							3,
+							3,
+							2,
+							1,
+							0,
+							0,
+							0
+						],
+						[
+							4,
+							3,
+							3,
+							3,
+							2,
+							1,
+							0,
+							0,
+							0
+						],
+						[
+							4,
+							3,
+							3,
+							3,
+							2,
+							1,
+							1,
+							0,
+							0
+						],
+						[
+							4,
+							3,
+							3,
+							3,
+							2,
+							1,
+							1,
+							0,
+							0
+						],
+						[
+							4,
+							3,
+							3,
+							3,
+							2,
+							1,
+							1,
+							1,
+							0
+						],
+						[
+							4,
+							3,
+							3,
+							3,
+							2,
+							1,
+							1,
+							1,
+							0
+						],
+						[
+							4,
+							3,
+							3,
+							3,
+							2,
+							1,
+							1,
+							1,
+							1
+						],
+						[
+							4,
+							3,
+							3,
+							3,
+							3,
+							1,
+							1,
+							1,
+							1
+						],
+						[
+							4,
+							3,
+							3,
+							3,
+							3,
+							2,
+							1,
+							1,
+							1
+						],
+						[
+							4,
+							3,
+							3,
+							3,
+							3,
+							2,
+							2,
+							1,
+							1
+						]
+					]
+				}
+			],
+			"classFeatures": [
+				"Channel Divinity|Cleric|XUA2022ClericAndRevisedSpecies|1",
+				"Spellcasting|Cleric|XUA2022ClericAndRevisedSpecies|1",
+				"Holy Order|Cleric|XUA2022ClericAndRevisedSpecies|2",
+				{
+					"classFeature": "Cleric Subclass|Cleric|XUA2022ClericAndRevisedSpecies|3",
+					"gainSubclassFeature": true
+				},
+				"Feat|Cleric|XUA2022ClericAndRevisedSpecies|4",
+				"Smite Undead|Cleric|XUA2022ClericAndRevisedSpecies|5",
+				{
+					"classFeature": "Subclass Feature|Cleric|XUA2022ClericAndRevisedSpecies|6",
+					"gainSubclassFeature": true
+				},
+				"Blessed Strikes|Cleric|XUA2022ClericAndRevisedSpecies|7",
+				"Feat|Cleric|XUA2022ClericAndRevisedSpecies|8",
+				"Holy Order|Cleric|XUA2022ClericAndRevisedSpecies|9",
+				{
+					"classFeature": "Subclass Feature|Cleric|XUA2022ClericAndRevisedSpecies|10",
+					"gainSubclassFeature": true
+				},
+				"Divine Intervention|Cleric|XUA2022ClericAndRevisedSpecies|11",
+				"Feat|Cleric|XUA2022ClericAndRevisedSpecies|12",
+				{
+					"classFeature": "Subclass Feature|Cleric|XUA2022ClericAndRevisedSpecies|14",
+					"gainSubclassFeature": true
+				},
+				"Feat|Cleric|XUA2022ClericAndRevisedSpecies|16",
+				"Great Divine Intervention|Cleric|XUA2022ClericAndRevisedSpecies|18",
+				"Feat|Cleric|XUA2022ClericAndRevisedSpecies|19",
+				"Epic Boon|Cleric|XUA2022ClericAndRevisedSpecies|20"
+			],
+			"subclassTitle": "Life Domain",
+			"fluff": [
+				{
+					"type": "section",
+					"source": "XUA2022ClericAndRevisedSpecies",
+					"entries": [
+						"Clerics draw power from the realms of the gods and harness it to work miracles. Blessed by a deity, a pantheon, or another immortal entity, a Cleric can reach out to the divine magic of the Outer Planes\u2014where gods dwell\u2014and channel that energy to bolster people and to battle foes.",
+						"Because their power is a divine gift, Clerics typically associate themselves with temples or shrines dedicated to whatever deity or other immortal force unlocked their magical ability. Harnessing divine magic doesn't rely on study or training, yet a Cleric might learn formulaic prayers and ancient rites that help them focus their minds and spirits on drawing power from the Outer Planes. Even a Cleric who declines to worship their divine benefactor might perform their benefactor's rites if doing so helps the Cleric feel connected to the immortal realms.",
+						"Not every acolyte or officiant at a temple or shrine is a Cleric. Some priests are called to a simple life of temple service, carrying out their devotion through prayer and rituals, not through magic. Some of the most influential high priests are incapable of harnessing divine magic, and a few of them feel threatened when a Cleric appears. Many can pray, and some mortals claim to speak for the gods. But few can marshal the power of those gods the way a Cleric can."
+					]
+				}
+			]
+		}
+	],
+	"subclass": [
+		{
+			"name": "Life Domain",
+			"shortName": "Life",
+			"source": "XUA2022ClericAndRevisedSpecies",
+			"className": "Cleric",
+			"classSource": "XUA2022ClericAndRevisedSpecies",
+			"page": 7,
+			"subclassFeatures": [
+				"Life Domain|Cleric|XUA2022ClericAndRevisedSpecies|Life|XUA2022ClericAndRevisedSpecies|3",
+				"Preserve Life|Cleric|XUA2022ClericAndRevisedSpecies|Life|XUA2022ClericAndRevisedSpecies|6",
+				"Blessed Healer|Cleric|XUA2022ClericAndRevisedSpecies|Life|XUA2022ClericAndRevisedSpecies|10",
+				"Supreme Healing|Cleric|XUA2022ClericAndRevisedSpecies|Life|XUA2022ClericAndRevisedSpecies|14"
+			]
+		}
+	],
+	"classFeature": [
+		{
+			"name": "Channel Divinity",
+			"source": "XUA2022ClericAndRevisedSpecies",
+			"page": 4,
+			"className": "Cleric",
+			"classSource": "XUA2022ClericAndRevisedSpecies",
+			"level": 1,
+			"header": 2,
+			"entries": [
+				"You gain the ability to channel divine energy directly from the Outer Planes, using that energy to fuel magical effects. You start with two such effects: Divine Spark and Turn Undead, each of which is described below. Each time you use your Channel Divinity, you choose which effect to create, and you gain additional effect options at higher levels in this Class.",
+				"You can use your Channel Divinity a number of times equal to your Proficiency Bonus, and you regain all expended uses when you finish a {@variantrule Long Rest|XUA2022ClericAndRevisedSpecies}.",
+				"Some Channel Divinity effects require Saving Throws. When you use such an effect from this Class, the DC equals the Spell Save DC from this Class's Spellcasting feature.",
+				{
+					"type": "entries",
+					"name": "Divine Spark",
+					"entries": [
+						"As a {@action Magic|XUA2022ClericAndRevisedSpecies} Action, you point your Holy Symbol at another creature you can see within 30 feet of yourself and focus divine energy at them. Roll a number of d8s equal to your Proficiency Bonus and add the rolls together. You either restore Hit Points to the creature equal to that total or force the creature to make a Constitution Saving Throw. On a failed save, the creature takes Radiant Damage equal to the total, and on a successful save, the creature takes half as much damage (rounded down)."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Turn Undead",
+					"entries": [
+						"As a {@action Magic|XUA2022ClericAndRevisedSpecies} Action, you present your Holy Symbol and speak a prayer censuring Undead creatures. Each Undead within 30 feet of you must make a Wisdom Saving Throw. If the creature fails its Saving Throw, it is Dazed for 1 minute or until it takes any damage or you are {@condition Incapacitated|XUA2022ClericAndRevisedSpecies} or die. While Dazed in this way, the only Action the creature can take is the {@action Dash|XUA2022ClericAndRevisedSpecies} Action, and if it Moves, it must end that {@variantrule Move|XUA2022ClericAndRevisedSpecies} farther from you than where it started."
+					]
+				}
+			]
+		},
+		{
+			"name": "Spellcasting",
+			"source": "XUA2022ClericAndRevisedSpecies",
+			"page": 4,
+			"className": "Cleric",
+			"classSource": "XUA2022ClericAndRevisedSpecies",
+			"level": 1,
+			"header": 2,
+			"entries": [
+				"You have learned to cast Spells through prayer, meditation, and devotion. See the Player's Handbook for the rules on spellcasting. The information below details how you use those rules as a Cleric.",
+				{
+					"type": "entries",
+					"name": "Prepared Spells",
+					"entries": [
+						"You have the following Spells prepared: {@spell Cure Wounds}, {@spell Sacred Flame}, {@spell Shield} of Faith, {@spell Spare the Dying}, and {@spell Thaumaturgy}. Alternatively, you can prepare three 0-level Spells (also known as cantrips) and two 1st-level Spells of your choice. Any Spell you prepare for this Class must be a Divine Spell.",
+						"Whenever you finish a {@variantrule Long Rest|XUA2022ClericAndRevisedSpecies}, you can pray or meditate and replace any Spell you have prepared for this Class with another Divine Spell of the same level.",
+						"At higher levels in this Class, you can prepare more Spells, as shown on the Cleric table. The numbers there determine the number of different Spells you can prepare of each level. For example, as a 4th-level Cleric, you can prepare four different 0-level Spells, four different 1st-level Spells, and three different 2nd-level Spells.",
+						"Consult the \"Prepared Cleric Spells\" section for recommendations on which spells to prepare at higher levels."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Spell Slots",
+					"entries": [
+						"The Cleric table shows how many Spell Slots you have at each level to cast your Cleric Spells of 1st level and higher; the number of different Spells you can prepare of each level equals the number of Spell Slots you have at that level. For example, as a 5th-level Cleric, you have four 1st-level Spell Slots, three 2nd-level Spell Slots, and two 3rd-level Spell Slots."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Spellcasting Ability",
+					"entries": [
+						"Wisdom is your Spellcasting Ability for your Cleric Spells."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Spellcasting Focus",
+					"entries": [
+						"You can use a Holy Symbol as a Spellcasting Focus for the Spells you prepare for this Class."
+					]
+				}
+			]
+		},
+		{
+			"name": "Holy Order",
+			"source": "XUA2022ClericAndRevisedSpecies",
+			"page": 5,
+			"className": "Cleric",
+			"classSource": "XUA2022ClericAndRevisedSpecies",
+			"level": 2,
+			"entries": [
+				"You have dedicated yourself to one of the following sacred roles, either on your own or as part of a religious order. Choose one of the following options:",
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"items": [
+						{
+							"type": "item",
+							"name": "Protector",
+							"entries": [
+								"Trained for battle, you gain Martial Weapon Proficiency and Heavy {@variantrule Armor Training|XUA2022ClericAndRevisedSpecies}."
+							]
+						},
+						{
+							"type": "item",
+							"name": "Scholar",
+							"entries": [
+								"Studying and teaching about lore of the gods and the multiverse, you gain Proficiency in two of the following Skills of your choice: {@skill Arcana}, {@skill History}, {@skill Nature}, {@skill Persuasion}, and {@skill Religion}. Whenever you make an {@variantrule Ability Check|XUA2022ClericAndRevisedSpecies} using either Skill, you gain a bonus to the check equal to your Wisdom Modifier."
+							]
+						},
+						{
+							"type": "item",
+							"name": "Thaumaturge",
+							"entries": [
+								"Delving deeper into your divine magical abilities, you can prepare one extra 0level Spell from the Divine Spell list. See your Spellcasting feature for more information on preparing Spells. In addition, you regain one expended use of your Channel Divinity whenever you finish a Short Rest."
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Cleric Subclass",
+			"source": "XUA2022ClericAndRevisedSpecies",
+			"page": 5,
+			"className": "Cleric",
+			"classSource": "XUA2022ClericAndRevisedSpecies",
+			"level": 3,
+			"entries": [
+				"You gain the Life Domain Subclass or another Cleric Subclass of your choice. The Life Domain is detailed after the Cleric's Class description, and other Subclasses will appear in future Unearthed {@skill Arcana} articles.",
+				"A Subclass is a specialization that grants you special abilities at certain Cleric levels. For the rest of your career, you gain each of your Subclass's features that are of your Cleric level and lower. This Class's description tells you the levels when your Subclass provides features."
+			]
+		},
+		{
+			"name": "Feat",
+			"source": "XUA2022ClericAndRevisedSpecies",
+			"page": 5,
+			"className": "Cleric",
+			"classSource": "XUA2022ClericAndRevisedSpecies",
+			"level": 4,
+			"entries": [
+				"You gain the Ability Score Improvement Feat or another Feat of your choice for which you qualify."
+			]
+		},
+		{
+			"name": "Smite Undead",
+			"source": "XUA2022ClericAndRevisedSpecies",
+			"page": 5,
+			"className": "Cleric",
+			"classSource": "XUA2022ClericAndRevisedSpecies",
+			"level": 5,
+			"entries": [
+				"You can cause your Turn Undead feature to smite the undying; whenever you use Turn Undead, you can roll a number of d8s equal to your Proficiency Bonus and add the rolls together. Each Undead that fails its Saving Throw against that use of Turn Undead takes Radiant Damage equal to the roll's total."
+			]
+		},
+		{
+			"name": "Subclass Feature",
+			"source": "XUA2022ClericAndRevisedSpecies",
+			"page": 5,
+			"className": "Cleric",
+			"classSource": "XUA2022ClericAndRevisedSpecies",
+			"level": 6,
+			"entries": [
+				"You gain a feature from your Cleric Subclass."
+			]
+		},
+		{
+			"name": "Blessed Strikes",
+			"source": "XUA2022ClericAndRevisedSpecies",
+			"page": 5,
+			"className": "Cleric",
+			"classSource": "XUA2022ClericAndRevisedSpecies",
+			"level": 7,
+			"entries": [
+				"Divine power infuses you in battle. When a creature takes damage from one of your 0-level Spells or your attacks with Weapons, you can also deal {@damage 1d8} Radiant Damage to that creature. Once you deal this damage, you can't use this feature again until the start of your next turn."
+			]
+		},
+		{
+			"name": "Feat",
+			"source": "XUA2022ClericAndRevisedSpecies",
+			"page": 6,
+			"className": "Cleric",
+			"classSource": "XUA2022ClericAndRevisedSpecies",
+			"level": 8,
+			"entries": [
+				"You gain the Ability Score Improvement Feat or another Feat of your choice for which you qualify."
+			]
+		},
+		{
+			"name": "Holy Order",
+			"source": "XUA2022ClericAndRevisedSpecies",
+			"page": 6,
+			"className": "Cleric",
+			"classSource": "XUA2022ClericAndRevisedSpecies",
+			"level": 9,
+			"entries": [
+				"Your sacred duties have expanded, allowing you to choose a second option from the Holy Order feature."
+			]
+		},
+		{
+			"name": "Subclass Feature",
+			"source": "XUA2022ClericAndRevisedSpecies",
+			"page": 6,
+			"className": "Cleric",
+			"classSource": "XUA2022ClericAndRevisedSpecies",
+			"level": 10,
+			"entries": [
+				"You gain a feature from your Cleric Subclass."
+			]
+		},
+		{
+			"name": "Divine Intervention",
+			"source": "XUA2022ClericAndRevisedSpecies",
+			"page": 6,
+			"className": "Cleric",
+			"classSource": "XUA2022ClericAndRevisedSpecies",
+			"level": 11,
+			"entries": [
+				"You can call on your deity or pantheon to intervene on your behalf when your need is great.",
+				"As an Action, describe the assistance you seek, and roll percentile dice. If you roll a number equal to or lower than your Cleric level, the divine power intervenes. The DM chooses the nature of the intervention; the effect of any Divine Spell is appropriate.",
+				"If the intervention occurs, you can't use this feature again for {@dice 2d6} days. Otherwise, you can use it again after you finish a {@variantrule Long Rest|XUA2022ClericAndRevisedSpecies}."
+			]
+		},
+		{
+			"name": "Feat",
+			"source": "XUA2022ClericAndRevisedSpecies",
+			"page": 6,
+			"className": "Cleric",
+			"classSource": "XUA2022ClericAndRevisedSpecies",
+			"level": 12,
+			"entries": [
+				"You gain the Ability Score Improvement Feat or another Feat of your choice for which you qualify."
+			]
+		},
+		{
+			"name": "Subclass Feature",
+			"source": "XUA2022ClericAndRevisedSpecies",
+			"page": 6,
+			"className": "Cleric",
+			"classSource": "XUA2022ClericAndRevisedSpecies",
+			"level": 14,
+			"entries": [
+				"You gain a feature from your Cleric Subclass."
+			]
+		},
+		{
+			"name": "Feat",
+			"source": "XUA2022ClericAndRevisedSpecies",
+			"page": 6,
+			"className": "Cleric",
+			"classSource": "XUA2022ClericAndRevisedSpecies",
+			"level": 16,
+			"entries": [
+				"You gain the Ability Score Improvement Feat or another Feat of your choice for which you qualify."
+			]
+		},
+		{
+			"name": "Great Divine Intervention",
+			"source": "XUA2022ClericAndRevisedSpecies",
+			"page": 6,
+			"className": "Cleric",
+			"classSource": "XUA2022ClericAndRevisedSpecies",
+			"level": 18,
+			"entries": [
+				"When you use your Divine Intervention feature, it succeeds automatically\u2014no roll required\u2014and you can use it again after {@dice 2d4} days."
+			]
+		},
+		{
+			"name": "Feat",
+			"source": "XUA2022ClericAndRevisedSpecies",
+			"page": 6,
+			"className": "Cleric",
+			"classSource": "XUA2022ClericAndRevisedSpecies",
+			"level": 19,
+			"entries": [
+				"You gain the Ability Score Improvement Feat or another Feat of your choice for which you qualify."
+			]
+		},
+		{
+			"name": "Epic Boon",
+			"source": "XUA2022ClericAndRevisedSpecies",
+			"page": 6,
+			"className": "Cleric",
+			"classSource": "XUA2022ClericAndRevisedSpecies",
+			"level": 20,
+			"entries": [
+				"You gain the {@feat Epic Boon of Fate|XUA2022ClericAndRevisedSpecies} or another Epic Boon Feat of your choice."
+			]
+		}
+	],
+	"subclassFeature": [
+		{
+			"name": "Life Domain",
+			"source": "XUA2022ClericAndRevisedSpecies",
+			"page": 7,
+			"className": "Cleric",
+			"classSource": "XUA2022ClericAndRevisedSpecies",
+			"subclassShortName": "Life",
+			"subclassSource": "XUA2022ClericAndRevisedSpecies",
+			"level": 3,
+			"entries": [
+				"The Life Domain focuses on the vibrant positive energy\u2014one of the fundamental forces of the universe\u2014that sustains all life. The Clerics who tap into this domain are masters of healing, using that force of life to cure many hurts.",
+				"Existence itself relies on the positive energy associated with this domain, so a Cleric of any religious tradition might choose it. This domain is associated with agricultural deities, sun gods, gods of healing or endurance, and gods of home and community. Religious orders of healing also seek the powers of this domain.",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Domain Spells|Cleric|XUA2022ClericAndRevisedSpecies|Life|XUA2022ClericAndRevisedSpecies|3"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Disciple of Life|Cleric|XUA2022ClericAndRevisedSpecies|Life|XUA2022ClericAndRevisedSpecies|3"
+				}
+			]
+		},
+		{
+			"name": "Domain Spells",
+			"source": "XUA2022ClericAndRevisedSpecies",
+			"page": 7,
+			"className": "Cleric",
+			"classSource": "XUA2022ClericAndRevisedSpecies",
+			"subclassShortName": "Life",
+			"subclassSource": "XUA2022ClericAndRevisedSpecies",
+			"level": 3,
+			"header": 1,
+			"entries": [
+				"Your connection to this divine domain ensures you always have certain Spells ready. When you reach a Cleric level specified in the Life Domain Spells table, you thereafter always have the listed Spells prepared. These Spells don't count against the number of Spells you can prepare, and they follow the rules of this Class's Spellcasting feature.",
+				{
+					"type": "table",
+					"caption": "Life Domain Spells",
+					"colLabels": [
+						"Cleric Level",
+						"Prepared Spells"
+					],
+					"colStyles": [
+						"col-1 text-center",
+						"col-11"
+					],
+					"rows": [
+						[
+							"3rd",
+							"{@spell Lesser Restoration}, {@spell Prayer of Healing|XUA2022ClericAndRevisedSpecies}"
+						],
+						[
+							"5th",
+							"{@spell Mass Healing Word}, {@spell Revivify}"
+						],
+						[
+							"7th",
+							"{@spell Aura of Life}, {@spell Death Ward}"
+						],
+						[
+							"9th",
+							"{@spell Greater Restoration}, {@spell Mass Cure Wounds}"
+						]
+					]
+				}
+			]
+		},
+		{
+			"name": "Disciple of Life",
+			"source": "XUA2022ClericAndRevisedSpecies",
+			"page": 7,
+			"className": "Cleric",
+			"classSource": "XUA2022ClericAndRevisedSpecies",
+			"subclassShortName": "Life",
+			"subclassSource": "XUA2022ClericAndRevisedSpecies",
+			"level": 3,
+			"header": 1,
+			"entries": [
+				"Your healing Spells are empowered by life itself. When a Spell you cast with a Spell Slot restores Hit Points to a creature, that creature regains additional Hit Points on the turn you cast the Spell. The additional Hit Points equal 2 plus the Spell's level."
+			]
+		},
+		{
+			"name": "Preserve Life",
+			"source": "XUA2022ClericAndRevisedSpecies",
+			"page": 7,
+			"className": "Cleric",
+			"classSource": "XUA2022ClericAndRevisedSpecies",
+			"subclassShortName": "Life",
+			"subclassSource": "XUA2022ClericAndRevisedSpecies",
+			"level": 6,
+			"header": 2,
+			"entries": [
+				"You can use your Channel Divinity to heal a group of the critically injured. As an Action, you expend one use of your Channel Divinity and present your Holy Symbol, restoring a number of Hit Points equal to 5 times your Cleric level.",
+				"Choose any creatures within 30 feet of yourself (you can choose yourself), and divide those Hit Points among the chosen creatures. This feature can bring a creature's current Hit Points to no more than half its Hit Point Maximum."
+			]
+		},
+		{
+			"name": "Blessed Healer",
+			"source": "XUA2022ClericAndRevisedSpecies",
+			"page": 7,
+			"className": "Cleric",
+			"classSource": "XUA2022ClericAndRevisedSpecies",
+			"subclassShortName": "Life",
+			"subclassSource": "XUA2022ClericAndRevisedSpecies",
+			"level": 10,
+			"header": 2,
+			"entries": [
+				"The healing spells you cast on others heal you as well. When you cast a spell with a Spell Slot on another creature that restores Hit Points to it, you regain Hit Points equal to 2 plus the Spell's level on the turn you cast the Spell."
+			]
+		},
+		{
+			"name": "Supreme Healing",
+			"source": "XUA2022ClericAndRevisedSpecies",
+			"page": 7,
+			"className": "Cleric",
+			"classSource": "XUA2022ClericAndRevisedSpecies",
+			"subclassShortName": "Life",
+			"subclassSource": "XUA2022ClericAndRevisedSpecies",
+			"level": 14,
+			"header": 2,
+			"entries": [
+				"When you would normally roll one or more dice to restore Hit Points to a creature with a Spell that you cast with a Spell Slot, don't roll those dice for the healing; instead use the highest number possible for each die. For example, instead of restoring {@dice 2d6} Hit Points to a creature with a Spell, you restore 12."
+			]
+		}
+	],
+	"race": [
+		{
+			"name": "Ardling",
+			"source": "XUA2022ClericAndRevisedSpecies",
+			"page": 8,
+			"_versions": [
+				{
+					"name": "Ardling; Climber",
+					"source": "XUA2022ClericAndRevisedSpecies",
+					"_mod": {
+						"entries": [
+							{
+								"mode": "replaceArr",
+								"replace": "Animal Ancestry",
+								"items": {
+									"name": "Animal Ancestry",
+									"entries": [
+										"You are descended from a climber Celestial animal, such as a bear, cat, lizard or squirrel. Your head resembles the head of the chosen animal.",
+										"You have hooked claws, sharp nails, or a serpentine tail. As a result, you have a {@variantrule Climb Speed|XUA2022ClericAndRevisedSpecies} equal to your Speed, and once per turn when you deal damage with your {@variantrule Unarmed Strike|XUA2022ClericAndRevisedSpecies} to a target, you can increase the damage to that target by an amount equal to your Proficiency Bonus."
+									]
+								}
+							}
+						]
+					}
+				},
+				{
+					"name": "Ardling; Flyer",
+					"source": "XUA2022ClericAndRevisedSpecies",
+					"_mod": {
+						"entries": [
+							{
+								"mode": "replaceArr",
+								"replace": "Animal Ancestry",
+								"items": {
+									"name": "Animal Ancestry",
+									"entries": [
+										"You are descended from a flyer Celestial animal, such as a bat, eagle, owl or raven. Your head resembles the head of the chosen animal.",
+										"You have vestigial wings. As a result, when you fall at least 10 feet, you can use your Reaction to safely glide downward, taking no damage from the fall. In addition, when you take the {@action Jump|XUA2022ClericAndRevisedSpecies} Action, you can flap your wings to gain Advantage on that Action's {@variantrule Ability Check|XUA2022ClericAndRevisedSpecies}."
+									]
+								}
+							}
+						]
+					}
+				},
+				{
+					"name": "Ardling; Racer",
+					"source": "XUA2022ClericAndRevisedSpecies",
+					"_mod": {
+						"entries": [
+							{
+								"mode": "replaceArr",
+								"replace": "Animal Ancestry",
+								"items": {
+									"name": "Animal Ancestry",
+									"entries": [
+										"You are descended from a racer Celestial animal, such as a deer, dog, horse or triceratops. Your head resembles the head of the chosen animal.",
+										"When you take the {@action Dash|XUA2022ClericAndRevisedSpecies} Action, your Speed increases for that Action. The increase equals ten times your Proficiency Bonus."
+									]
+								}
+							}
+						]
+					}
+				},
+				{
+					"name": "Ardling; Swimmer",
+					"source": "XUA2022ClericAndRevisedSpecies",
+					"_mod": {
+						"entries": [
+							{
+								"mode": "replaceArr",
+								"replace": "Animal Ancestry",
+								"items": {
+									"name": "Animal Ancestry",
+									"entries": [
+										"You are descended from a swimmer Celestial animal, such as a crocodile, dolphin, frog or shark. Your head resembles the head of the chosen animal.",
+										"You can hold your breath for up to an hour at a time, and you have a {@variantrule Swim Speed|XUA2022ClericAndRevisedSpecies} equal to your Speed. In addition, you have Resistance to Cold Damage."
+									]
+								}
+							}
+						]
+					}
+				}
+			],
+			"skillProficiencies": [
+				{
+					"perception": true
+				}
+			],
+			"creatureTypes": [
+				"humanoid"
+			],
+			"size": [
+				"M",
+				"S"
+			],
+			"speed": 30,
+			"age": {
+				"average": 200
+			},
+			"entries": [
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"items": [
+						{
+							"type": "item",
+							"name": "Creature Type:",
+							"entries": [
+								"Humanoid"
+							]
+						},
+						{
+							"type": "item",
+							"name": "Size:",
+							"entries": [
+								"Medium (about 4\u20137 feet tall) or Small (about 3\u20134 feet tall), chosen when you select this Race"
+							]
+						},
+						{
+							"type": "item",
+							"name": "Speed:",
+							"entries": [
+								"30 feet"
+							]
+						},
+						{
+							"name": "Life Span:",
+							"type": "item",
+							"entries": [
+								"200 years on average"
+							]
+						}
+					]
+				},
+				"As an Ardling adventurer, you have the following special traits.",
+				{
+					"type": "entries",
+					"name": "Animal Ancestry",
+					"page": 8,
+					"entries": [
+						"You are descended from a Celestial animal. Choose one of the ancestry types below, then choose one of the example animals listed for that ancestry (or a similar animal); you gain the benefits of that ancestry, and your head resembles the head of the chosen animal:",
+						{
+							"type": "list",
+							"style": "list-hang-notitle",
+							"items": [
+								{
+									"type": "item",
+									"name": "Climber (Bear, Cat, Lizard, Squirrel)",
+									"page": 8,
+									"entries": [
+										"You have hooked claws, sharp nails, or a serpentine tail. As a result, you have a {@variantrule Climb Speed|XUA2022ClericAndRevisedSpecies} equal to your Speed, and once per turn when you deal damage with your {@variantrule Unarmed Strike|XUA2022ClericAndRevisedSpecies} to a target, you can increase the damage to that target by an amount equal to your Proficiency Bonus."
+									]
+								},
+								{
+									"type": "item",
+									"name": "Flyer (Bat, Eagle, Owl, Raven)",
+									"page": 8,
+									"entries": [
+										"You have vestigial wings. As a result, when you fall at least 10 feet, you can use your Reaction to safely glide downward, taking no damage from the fall. In addition, when you take the {@action Jump|XUA2022ClericAndRevisedSpecies} Action, you can flap your wings to gain Advantage on that Action's {@variantrule Ability Check|XUA2022ClericAndRevisedSpecies}."
+									]
+								},
+								{
+									"type": "item",
+									"name": "Racer (Deer, Dog, Horse, Triceratops)",
+									"page": 8,
+									"entries": [
+										"When you take the {@action Dash|XUA2022ClericAndRevisedSpecies} Action, your Speed increases for that Action. The increase equals ten times your Proficiency Bonus."
+									]
+								},
+								{
+									"type": "item",
+									"name": "Swimmer (Crocodile, Dolphin, Frog, Shark)",
+									"page": 8,
+									"entries": [
+										"You can hold your breath for up to an hour at a time, and you have a {@variantrule Swim Speed|XUA2022ClericAndRevisedSpecies} equal to your Speed. In addition, you have Resistance to Cold Damage."
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Divine Magic",
+					"page": 8,
+					"entries": [
+						"You can innately channel minor divine magic; you know the {@spell Thaumaturgy} Spell. Whenever you finish a {@variantrule Long Rest|XUA2022ClericAndRevisedSpecies}, you can replace that Spell with a different 0-level Spell from the Divine Spell list.",
+						"Intelligence, Wisdom, or Charisma is your spellcasting ability for any Spell you cast with this trait (choose the ability when you select the Species)."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Keen Senses",
+					"page": 8,
+					"entries": [
+						"You have Proficiency in the {@skill Perception} Skill."
+					]
+				}
+			],
+			"fluff": {
+				"_raceFluff": {
+					"name": "Ardling",
+					"source": "XUA2022ClericAndRevisedSpecies"
+				}
+			}
+		},
+		{
+			"name": "Dragonborn",
+			"source": "XUA2022ClericAndRevisedSpecies",
+			"page": 9,
+			"darkvision": 60,
+			"_versions": [
+				{
+					"_template": {
+						"name": "Dragonborn; {{color}}",
+						"source": "XUA2022ClericAndRevisedSpecies",
+						"_mod": {
+							"entries": [
+								{
+									"mode": "removeArr",
+									"names": "Draconic Ancestry"
+								},
+								{
+									"mode": "replaceArr",
+									"replace": "Breath Weapon",
+									"items": {
+										"type": "entries",
+										"name": "Breath Weapon",
+										"entries": [
+											"As an Action, you exhale destructive energy in a 15-foot cone. Each creature in that area must make a Dexterity saving throw against a DC equal to 8 + your Constitution modifier + your Proficiency Bonus. On a failed save, a creature takes {@damage 1d10} + your character level in {{damage type}} damage. On a successful save, a creature takes half as much damage.",
+											"You can use this Breath Weapon a number of times equal to your Proficiency Bonus, and you regain all expended uses when you finish a {@variantrule Long Rest|XUA2022ClericAndRevisedSpecies}."
+										]
+									}
+								},
+								{
+									"mode": "replaceArr",
+									"replace": "Damage Resistance",
+									"items": {
+										"type": "entries",
+										"name": "Damage Resistance",
+										"entries": [
+											"You have Resistance to {{damageType}} damage."
+										]
+									}
+								}
+							]
+						}
+					},
+					"_implementations": [
+						{
+							"_variables": {
+								"color": "Black",
+								"damageType": "acid"
+							}
+						},
+						{
+							"_variables": {
+								"color": "Blue",
+								"damageType": "lightning"
+							}
+						},
+						{
+							"_variables": {
+								"color": "Brass",
+								"damageType": "fire"
+							}
+						},
+						{
+							"_variables": {
+								"color": "Bronze",
+								"damageType": "Lightning"
+							}
+						},
+						{
+							"_variables": {
+								"color": "Copper",
+								"damageType": "acid"
+							}
+						},
+						{
+							"_variables": {
+								"color": "Gold",
+								"damageType": "fire"
+							}
+						},
+						{
+							"_variables": {
+								"color": "Green",
+								"damageType": "poison"
+							}
+						},
+						{
+							"_variables": {
+								"color": "Red",
+								"damageType": "fire"
+							}
+						},
+						{
+							"_variables": {
+								"color": "Silver",
+								"damageType": "cold"
+							}
+						},
+						{
+							"_variables": {
+								"color": "White",
+								"damageType": "cold"
+							}
+						}
+					]
+				}
+			],
+			"creatureTypes": [
+				"humanoid"
+			],
+			"size": [
+				"M"
+			],
+			"speed": 30,
+			"age": {
+				"average": 80
+			},
+			"soundClip": {
+				"type": "internal",
+				"path": "races/dragonborn.mp3"
+			},
+			"entries": [
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"items": [
+						{
+							"type": "item",
+							"name": "Creature Type:",
+							"entries": [
+								"Humanoid"
+							]
+						},
+						{
+							"type": "item",
+							"name": "Size:",
+							"entries": [
+								"Medium (about 5-7 feet tall)"
+							]
+						},
+						{
+							"type": "item",
+							"name": "Speed:",
+							"entries": [
+								"30 feet"
+							]
+						},
+						{
+							"name": "Life Span:",
+							"type": "item",
+							"entries": [
+								"80 years on average"
+							]
+						}
+					]
+				},
+				"As a Dragonborn adventurer, you have the following special traits.",
+				{
+					"type": "entries",
+					"name": "Draconic Ancestry",
+					"page": 9,
+					"entries": [
+						"Your lineage stems from a dragon progenitor. Choose the kind of dragon from the Draconic Ancestor table. Your choice affects your Breath Weapon and Damage Resistance traits, as well as the look of your Draconic Flight. The chosen dragon also affects your appearance, with you displaying coloration and other features reminiscent of that dragon.",
+						{
+							"type": "table",
+							"caption": "Draconic Ancestor",
+							"colLabels": [
+								"Dragon",
+								"Damage Type"
+							],
+							"colStyles": [
+								"col-6",
+								"col-6"
+							],
+							"rows": [
+								[
+									"Black",
+									"Acid"
+								],
+								[
+									"Blue",
+									"Lightning"
+								],
+								[
+									"Brass",
+									"Fire"
+								],
+								[
+									"Bronze",
+									"Lightning"
+								],
+								[
+									"Copper",
+									"Acid"
+								],
+								[
+									"Gold",
+									"Fire"
+								],
+								[
+									"Green",
+									"Poison"
+								],
+								[
+									"Red",
+									"Fire"
+								],
+								[
+									"Silver",
+									"Cold"
+								],
+								[
+									"White",
+									"Cold"
+								]
+							]
+						}
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Breath Weapon",
+					"page": 9,
+					"entries": [
+						"When you take the {@action Attack|XUA2022ClericAndRevisedSpecies} Action on your turn, you can replace one of your attacks with an exhalation of magical energy in either a 15-foot cone or a 30-foot line that is 5 feet wide. Each creature in that area must make a Dexterity Saving Throw against a DC equal to 8 + your Constitution modifier + your Proficiency Bonus. On a failed save, a creature takes {@damage 1d10} damage of the type determined by your Draconic Ancestry trait. On a successful save, a creature takes half as much damage. This damage increases by {@dice 1d10} when you reach the following character levels: 5th level ({@dice 2d10}), 11th level ({@dice 3d10}), and 17th level ({@dice 4d10}).",
+						"You can use this Breath Weapon a number of times equal to your Proficiency Bonus, and you regain all expended uses when you finish a {@variantrule Long Rest|XUA2022ClericAndRevisedSpecies}."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Damage Resistance",
+					"page": 9,
+					"entries": [
+						"You have Resistance to the damage type determined by your Draconic Ancestry trait."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Darkvision",
+					"page": 9,
+					"entries": [
+						"You have {@sense Darkvision} with a range of 60 feet."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Draconic Flight",
+					"page": 9,
+					"entries": [
+						"When you reach 5th level, you learn how to channel the magical energy of your Draconic Ancestry to give yourself temporary flight. As a Bonus Action, you sprout spectral wings on your back that last for 10 minutes or until you are {@condition Incapacitated|XUA2022ClericAndRevisedSpecies} or you retract the wings as a Bonus Action. During that time, you have a {@variantrule Fly Speed|XUA2022ClericAndRevisedSpecies} equal to your Speed. Your wings appear to be made of the energy used by your Breath Weapon. Once you use this trait, you can't use it again until you finish a {@variantrule Long Rest|XUA2022ClericAndRevisedSpecies}."
+					]
+				}
+			],
+			"fluff": {
+				"_raceFluff": {
+					"name": "Dragonborn",
+					"source": "XUA2022ClericAndRevisedSpecies"
+				}
+			}
+		},
+		{
+			"name": "Goliath",
+			"source": "XUA2022ClericAndRevisedSpecies",
+			"page": 9,
+			"_versions": [
+				{
+					"name": "Goliath; Cloud's Jaunt",
+					"source": "XUA2022ClericAndRevisedSpecies",
+					"_mod": {
+						"entries": [
+							{
+								"mode": "replaceArr",
+								"replace": "Giant Ancestry",
+								"items": {
+									"name": "Giant Ancestry",
+									"entries": [
+										"You are descended from Cloud Giants. You can use this benefit a number of times equal to your Proficiency Bonus, and you regain all expended uses when you finish a {@variantrule Long Rest|XUA2022ClericAndRevisedSpecies}.",
+										"As a Bonus Action, you magically Teleport up to 30 feet to an unoccupied space you can see."
+									]
+								}
+							}
+						]
+					}
+				},
+				{
+					"name": "Goliath; Fire's Burn",
+					"source": "XUA2022ClericAndRevisedSpecies",
+					"_mod": {
+						"entries": [
+							{
+								"mode": "replaceArr",
+								"replace": "Giant Ancestry",
+								"items": {
+									"name": "Giant Ancestry",
+									"entries": [
+										"You are descended from Fire Giants. You can use this benefit a number of times equal to your Proficiency Bonus, and you regain all expended uses when you finish a {@variantrule Long Rest|XUA2022ClericAndRevisedSpecies}.",
+										"When you hit a target with an {@variantrule Attack Roll|XUA2022ClericAndRevisedSpecies} and deal damage to it, you can also deal {@damage 1d10} Fire Damage to that target."
+									]
+								}
+							}
+						]
+					}
+				},
+				{
+					"name": "Goliath; Frost's Chill",
+					"source": "XUA2022ClericAndRevisedSpecies",
+					"_mod": {
+						"entries": [
+							{
+								"mode": "replaceArr",
+								"replace": "Giant Ancestry",
+								"items": {
+									"name": "Giant Ancestry",
+									"entries": [
+										"You are descended from Frost Giants. You can use this benefit a number of times equal to your Proficiency Bonus, and you regain all expended uses when you finish a {@variantrule Long Rest|XUA2022ClericAndRevisedSpecies}.",
+										"When you hit a target with an {@variantrule Attack Roll|XUA2022ClericAndRevisedSpecies} and deal damage to it, you can also deal {@damage 1d6} Cold Damage to that target and reduce its Speed by 10 feet until the start of your next turn."
+									]
+								}
+							}
+						]
+					}
+				},
+				{
+					"name": "Goliath; Hill's Tumble",
+					"source": "XUA2022ClericAndRevisedSpecies",
+					"_mod": {
+						"entries": [
+							{
+								"mode": "replaceArr",
+								"replace": "Giant Ancestry",
+								"items": {
+									"name": "Giant Ancestry",
+									"entries": [
+										"You are descended from Hill Giants. You can use this benefit a number of times equal to your Proficiency Bonus, and you regain all expended uses when you finish a {@variantrule Long Rest|XUA2022ClericAndRevisedSpecies}.",
+										"When you hit a Large or smaller creature with an {@variantrule Attack Roll|XUA2022ClericAndRevisedSpecies} and deal damage to it, you can knock that target Prone."
+									]
+								}
+							}
+						]
+					}
+				},
+				{
+					"name": "Goliath; Stone's Endurance",
+					"source": "XUA2022ClericAndRevisedSpecies",
+					"_mod": {
+						"entries": [
+							{
+								"mode": "replaceArr",
+								"replace": "Giant Ancestry",
+								"items": {
+									"name": "Giant Ancestry",
+									"entries": [
+										"You are descended from Stone Giants. You can use this benefit a number of times equal to your Proficiency Bonus, and you regain all expended uses when you finish a {@variantrule Long Rest|XUA2022ClericAndRevisedSpecies}.",
+										"When you take damage, you can use your Reaction to roll a {@dice d12}. Add your Constitution modifier to the number rolled and reduce the damage by that total."
+									]
+								}
+							}
+						]
+					}
+				},
+				{
+					"name": "Goliath; Storm's Thunder",
+					"source": "XUA2022ClericAndRevisedSpecies",
+					"_mod": {
+						"entries": [
+							{
+								"mode": "replaceArr",
+								"replace": "Giant Ancestry",
+								"items": {
+									"name": "Giant Ancestry",
+									"entries": [
+										"You are descended from Storm Giants. You can use this benefit a number of times equal to your Proficiency Bonus, and you regain all expended uses when you finish a {@variantrule Long Rest|XUA2022ClericAndRevisedSpecies}.",
+										"When you take damage from a creature within 60 feet of you, you can use your Reaction to deal {@damage 1d8} Thunder Damage to that creature."
+									]
+								}
+							}
+						]
+					}
+				}
+			],
+			"creatureTypes": [
+				"humanoid"
+			],
+			"size": [
+				"M"
+			],
+			"speed": 35,
+			"age": {
+				"average": 80
+			},
+			"soundClip": {
+				"type": "internal",
+				"path": "races/goliath.mp3"
+			},
+			"entries": [
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"items": [
+						{
+							"type": "item",
+							"name": "Creature Type:",
+							"entries": [
+								"Humanoid"
+							]
+						},
+						{
+							"type": "item",
+							"name": "Size:",
+							"entries": [
+								"Medium (about 7-8 feet tall)"
+							]
+						},
+						{
+							"type": "item",
+							"name": "Speed:",
+							"entries": [
+								"35 feet"
+							]
+						},
+						{
+							"name": "Life Span:",
+							"type": "item",
+							"entries": [
+								"80 years on average"
+							]
+						}
+					]
+				},
+				"As a Goliath adventurer, you have the following special traits.",
+				{
+					"type": "entries",
+					"name": "Giant Ancestry",
+					"page": 9,
+					"entries": [
+						"You are descended from Giants. Choose one of the following benefits\u2014a supernatural boon from your ancestry; you can use the chosen benefit a number of times equal to your Proficiency Bonus, and you regain all expended uses when you finish a {@variantrule Long Rest|XUA2022ClericAndRevisedSpecies}:",
+						{
+							"type": "list",
+							"style": "list-hang-notitle",
+							"items": [
+								{
+									"type": "item",
+									"name": "Cloud's Jaunt (Cloud Giant)",
+									"page": 9,
+									"entries": [
+										"As a Bonus Action, you magically Teleport up to 30 feet to an unoccupied space you can see."
+									]
+								},
+								{
+									"type": "item",
+									"name": "Fire's Burn (Fire Giant)",
+									"page": 9,
+									"entries": [
+										"When you hit a target with an {@variantrule Attack Roll|XUA2022ClericAndRevisedSpecies} and deal damage to it, you can also deal {@damage 1d10} Fire Damage to that target ."
+									]
+								},
+								{
+									"type": "item",
+									"name": "Frost's Chill (Frost Giant)",
+									"page": 9,
+									"entries": [
+										"When you hit a target with an {@variantrule Attack Roll|XUA2022ClericAndRevisedSpecies} and deal damage to it, you can also deal {@damage 1d6} Cold Damage to that target and reduce its Speed by 10 feet until the start of your next turn."
+									]
+								},
+								{
+									"type": "item",
+									"name": "Hill's Tumble (Hill Giant)",
+									"page": 9,
+									"entries": [
+										"When you hit a Large or smaller creature with an {@variantrule Attack Roll|XUA2022ClericAndRevisedSpecies} and deal damage to it, you can knock that target Prone ."
+									]
+								},
+								{
+									"type": "item",
+									"name": "Stone's Endurance (Stone Giant)",
+									"page": 9,
+									"entries": [
+										"When you take damage, you can use your Reaction to roll a {@dice d12}. Add your Constitution modifier to the number rolled and reduce the damage by that total."
+									]
+								},
+								{
+									"type": "item",
+									"name": "Storm's Thunder (Storm Giant)",
+									"page": 9,
+									"entries": [
+										"When you take damage from a creature within 60 feet of you, you can use your Reaction to deal {@damage 1d8} Thunder Damage to that creature"
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Large Form",
+					"page": 9,
+					"entries": [
+						"Starting at 5th level, you gain the ability to supernaturally grow. As a Bonus Action, you change your Size to Large, provided you're in a big enough space. This transformation lasts for 10 minutes or until you end it as a Bonus Action. During that duration, you have Advantage on Strength Checks, and your Speed increases by 10 feet. Once you use this trait, you can't use it again until you finish a {@variantrule Long Rest|XUA2022ClericAndRevisedSpecies}."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Powerful Build",
+					"page": 9,
+					"entries": [
+						"You have Advantage on any Saving Throw you make to end the {@condition Grappled|XUA2022ClericAndRevisedSpecies} condition on yourself. You also count as one Size larger when determining your carrying capacity and the weight you can push, drag, or lift."
+					]
+				}
+			],
+			"fluff": {
+				"_raceFluff": {
+					"name": "Goliath",
+					"source": "XUA2022ClericAndRevisedSpecies"
+				}
+			}
+		}
+	],
+	"raceFluff": [
+		{
+			"name": "Ardling",
+			"source": "XUA2022ClericAndRevisedSpecies",
+			"entries": [
+				"Celestial animals roam the Beastlands, a plane of untamed beauty and wild nature. Many of those otherworldly animals serve the Beast Lords, and in the early days of the multiverse, some of the animals evolved into bipedal forms. Among their number are Ardlings, people with beastlike heads, keen senses, and an innate connection to divine magic. Long ago, the ancestors of Ardlings migrated to the Material Plane, and Ardlings can now be found on many worlds.",
+				"An Ardling has a head resembling that of an animal. Depending on the animal, the Ardling might also have fur, feathers, or scales. Some little and others hulking, Ardlings are as varied as the animals they resemble."
+			]
+		},
+		{
+			"name": "Dragonborn",
+			"source": "XUA2022ClericAndRevisedSpecies",
+			"entries": [
+				"The ancestors of Dragonborn hatched from the eggs of chromatic and metallic dragons. One story holds that these eggs were blessed by the dragon gods Bahamut and Tiamat, who wanted to populate the worlds of the multiverse with people created in their image. Another story holds that dragons created the Dragonborns' progenitors without the gods' blessings. Whatever their origin, Dragonborn have made homes for themselves on the worlds of the Material Plane.",
+				"Dragonborn look like wingless, bipedal dragons\u2014scaly, bright-eyed, and thick-boned, with horns on their heads. Dragonborn of chromatic ancestry have scales that are black, blue, green, red, or white, whereas Dragonborn of metallic ancestry have scales that are the color of brass, bronze, copper, gold, or silver.",
+				"Like their draconic ancestors, Dragonborn can exhale acid, cold, fire, lightning, or poison. One can tell the type of energy a Dragonborn breathes by the color of the Dragonborn's scales."
+			]
+		},
+		{
+			"name": "Goliath",
+			"source": "XUA2022ClericAndRevisedSpecies",
+			"entries": [
+				"Towering over most folk, Goliaths are distant descendants of giants. Each Goliath bears the blessings of the first giants\u2014blessings that manifest in various supernatural boons, including the ability to quickly grow and temporarily approach the height of the Goliaths' gigantic kin.",
+				"Goliaths have physical characteristics that are reminiscent of the giants in their family lines. For example, some Goliaths look like stone giants, while others resemble fire giants. Whatever giants they count as kin, Goliaths have forged their own path in the multiverse\u2014unencumbered by the internecine conflicts that have ravaged giant-kind for ages\u2014and seek heights above those reached by their ancestors."
+			]
+		}
+	],
+	"variantrule": [
+		{
+			"source": "XUA2022ClericAndRevisedSpecies",
+			"name": "Rules Glossary",
+			"page": 11,
+			"entries": [
+				"This glossary includes game terms that have new or revised meaning in this playtest document, as well as terms, such as {@variantrule Creature Type|XUA2022ClericAndRevisedSpecies}, that aren't defined in the 2014 Player's Handbook. The terms are organized alphabetically.",
+				"If a term doesn't appear here, use its definition in the 2014 Player's Handbook, and when playtesting this document, do not use the rules glossary of any other Unearthed {@skill Arcana} article.",
+				{
+					"type": "list",
+					"columns": 3,
+					"items": [
+						"{@variantrule Ability Check|XUA2022ClericAndRevisedSpecies}",
+						"{@variantrule Armor Training|XUA2022ClericAndRevisedSpecies}",
+						"{@variantrule Attack Roll|XUA2022ClericAndRevisedSpecies}",
+						"{@variantrule Blindsight|XUA2022ClericAndRevisedSpecies}",
+						"{@variantrule Climb Speed|XUA2022ClericAndRevisedSpecies}",
+						"{@variantrule Creature Type|XUA2022ClericAndRevisedSpecies}",
+						"{@variantrule D20 Tests|XUA2022ClericAndRevisedSpecies}",
+						"{@variantrule Difficult Terrain|XUA2022ClericAndRevisedSpecies}",
+						"{@variantrule Expertise|XUA2022ClericAndRevisedSpecies}",
+						"{@variantrule Fly Speed|XUA2022ClericAndRevisedSpecies}",
+						"{@variantrule Heroic Inspiration|XUA2022ClericAndRevisedSpecies}",
+						"{@variantrule Long Rest|XUA2022ClericAndRevisedSpecies}",
+						"{@variantrule Move|XUA2022ClericAndRevisedSpecies}",
+						"{@variantrule Ritual Casting|XUA2022ClericAndRevisedSpecies}",
+						"{@variantrule Swim Speed|XUA2022ClericAndRevisedSpecies}",
+						"{@variantrule Tool Proficiency|XUA2022ClericAndRevisedSpecies}",
+						"{@variantrule Teleportation|XUA2022ClericAndRevisedSpecies}",
+						"{@variantrule Tremorsense|XUA2022ClericAndRevisedSpecies}",
+						"{@variantrule Truesight|XUA2022ClericAndRevisedSpecies}",
+						"{@variantrule Unarmed Strike|XUA2022ClericAndRevisedSpecies}",
+						"{@variantrule Artisan's Tools|XUA2022ClericAndRevisedSpecies}",
+						"{@variantrule Gaming Set|XUA2022ClericAndRevisedSpecies}",
+						"{@variantrule Musical Instrument|XUA2022ClericAndRevisedSpecies}"
+					]
+				}
+			]
+		},
+		{
+			"type": "entries",
+			"source": "XUA2022ClericAndRevisedSpecies",
+			"name": "Spell Lists",
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Arcane Spells",
+					"entries": [
+						"An Arcane Spell draws on the ambient magic of the multiverse. Bards, Sorcerers, Warlocks, and Wizards harness this magic, as do Artificers.",
+						"The Arcane Spells table is a partial list of Arcane Spells. The table provides a Spell's level, name, and School of Magic. The list also indicates whether a Spell has the Ritual tag.",
+						"If a Spell's School of Magic is different from what appears in the 2014 Player's Handbook, an asterisk (*) appears after the school.",
+						{
+							"type": "table",
+							"colLabels": [
+								"Lvl",
+								"Spell",
+								"School",
+								"Ritual"
+							],
+							"colStyles": [
+								"col-1 text-center",
+								"col-5",
+								"col-4",
+								"col-2 text-center"
+							],
+							"rows": [
+								[
+									"0",
+									"{@spell Acid Splash}",
+									"Conjuration",
+									"No"
+								],
+								[
+									"0",
+									"{@spell Blade Ward}",
+									"Abjuration",
+									"No"
+								],
+								[
+									"0",
+									"{@spell Chill Touch}",
+									"Necromancy",
+									"No"
+								],
+								[
+									"0",
+									"{@spell Dancing Lights}",
+									"Illusion*",
+									"No"
+								],
+								[
+									"0",
+									"{@spell Fire Bolt}",
+									"Evocation",
+									"No"
+								],
+								[
+									"0",
+									"{@spell Friends}",
+									"Enchantment",
+									"No"
+								],
+								[
+									"0",
+									"{@spell Light}",
+									"Evocation",
+									"No"
+								],
+								[
+									"0",
+									"{@spell Mage Hand}",
+									"Conjuration",
+									"No"
+								],
+								[
+									"0",
+									"{@spell Mending}",
+									"Transmut.",
+									"No"
+								],
+								[
+									"0",
+									"{@spell Message}",
+									"Transmut.",
+									"No"
+								],
+								[
+									"0",
+									"{@spell Minor Illusion}",
+									"Illusion",
+									"No"
+								],
+								[
+									"0",
+									"{@spell Poison Spray}",
+									"Conjuration",
+									"No"
+								],
+								[
+									"0",
+									"{@spell Prestidigitation}",
+									"Transmut.",
+									"No"
+								],
+								[
+									"0",
+									"{@spell Ray of Frost}",
+									"Evocation",
+									"No"
+								],
+								[
+									"0",
+									"{@spell Shocking Grasp}",
+									"Evocation",
+									"No"
+								],
+								[
+									"0",
+									"{@spell True Strike}",
+									"Divination",
+									"No"
+								],
+								[
+									"0",
+									"{@spell Vicious Mockery}",
+									"Enchantment",
+									"No"
+								],
+								[
+									"1",
+									"{@spell Alarm}",
+									"Abjuration",
+									"Yes"
+								],
+								[
+									"1",
+									"{@spell Armor of Agathys}",
+									"Abjuration",
+									"No"
+								],
+								[
+									"1",
+									"{@spell Arms of Hadar}",
+									"Conjuration",
+									"No"
+								],
+								[
+									"1",
+									"{@spell Burning Hands}",
+									"Evocation",
+									"No"
+								],
+								[
+									"1",
+									"{@spell Charm Person}",
+									"Enchantment",
+									"No"
+								],
+								[
+									"1",
+									"{@spell Chromatic Orb}",
+									"Evocation",
+									"No"
+								],
+								[
+									"1",
+									"{@spell Color Spray}",
+									"Illusion",
+									"No"
+								],
+								[
+									"1",
+									"{@spell Comprehend Languages}",
+									"Divination",
+									"Yes"
+								],
+								[
+									"1",
+									"{@spell Detect Magic}",
+									"Divination",
+									"Yes"
+								],
+								[
+									"1",
+									"{@spell Disguise Self}",
+									"Illusion",
+									"No"
+								],
+								[
+									"1",
+									"{@spell Dissonant Whispers}",
+									"Enchantment",
+									"No"
+								],
+								[
+									"1",
+									"{@spell Expeditious Retreat}",
+									"Transmut.",
+									"No"
+								],
+								[
+									"1",
+									"{@spell False Life}",
+									"Necromancy",
+									"No"
+								],
+								[
+									"1",
+									"{@spell Feather Fall}",
+									"Transmut.",
+									"No"
+								],
+								[
+									"1",
+									"{@spell Find Familiar}",
+									"Conjuration",
+									"Yes"
+								],
+								[
+									"1",
+									"{@spell Fog Cloud}",
+									"Conjuration",
+									"No"
+								],
+								[
+									"1",
+									"{@spell Grease}",
+									"Conjuration",
+									"No"
+								],
+								[
+									"1",
+									"{@spell Hellish Rebuke}",
+									"Evocation",
+									"No"
+								],
+								[
+									"1",
+									"{@spell Hex}",
+									"Enchantment",
+									"No"
+								],
+								[
+									"1",
+									"{@spell Identify}",
+									"Divination",
+									"Yes"
+								],
+								[
+									"1",
+									"{@spell Illusory Script}",
+									"Illusion",
+									"Yes"
+								],
+								[
+									"1",
+									"{@spell Jump}",
+									"Transmut.",
+									"No"
+								],
+								[
+									"1",
+									"{@spell Longstrider}",
+									"Transmut.",
+									"No"
+								],
+								[
+									"1",
+									"{@spell Mage Armor}",
+									"Abjuration",
+									"No"
+								],
+								[
+									"1",
+									"{@spell Magic Missile}",
+									"Evocation",
+									"No"
+								],
+								[
+									"1",
+									"{@spell Protection from Evil and Good}",
+									"Abjuration",
+									"No"
+								],
+								[
+									"1",
+									"{@spell Ray of Sickness}",
+									"Necromancy",
+									"No"
+								],
+								[
+									"1",
+									"{@spell Shield}",
+									"Abjuration",
+									"No"
+								],
+								[
+									"1",
+									"{@spell Silent Image}",
+									"Illusion",
+									"No"
+								],
+								[
+									"1",
+									"{@spell Sleep}",
+									"Enchantment",
+									"No"
+								],
+								[
+									"1",
+									"{@spell Tasha's Hideous Laughter}",
+									"Enchantment",
+									"No"
+								],
+								[
+									"1",
+									"{@spell Tenser 's Floating Disk}",
+									"Conjuration",
+									"Yes"
+								],
+								[
+									"1",
+									"{@spell Thunderwave}",
+									"Transmut.*",
+									"No"
+								],
+								[
+									"1",
+									"{@spell Unseen Servant}",
+									"Conjuration",
+									"Yes"
+								],
+								[
+									"1",
+									"{@spell Witch Bolt}",
+									"Evocation",
+									"No"
+								],
+								[
+									"2",
+									"{@spell Alter Self}",
+									"Transmut.",
+									"No"
+								],
+								[
+									"2",
+									"{@spell Arcane Lock}",
+									"Abjuration",
+									"No"
+								],
+								[
+									"2",
+									"{@spell Blindness/ Deafness}",
+									"Transmut.*",
+									"No"
+								],
+								[
+									"2",
+									"{@spell Blur}",
+									"Illusion",
+									"No"
+								],
+								[
+									"2",
+									"{@spell Calm Emotions}",
+									"Enchantment",
+									"No"
+								],
+								[
+									"2",
+									"{@spell Cloud of Daggers}",
+									"Conjuration",
+									"No"
+								],
+								[
+									"2",
+									"{@spell Continual Flame}",
+									"Evocation",
+									"No"
+								],
+								[
+									"2",
+									"{@spell Crown of Madness}",
+									"Enchantment",
+									"No"
+								],
+								[
+									"2",
+									"{@spell Darkness}",
+									"Evocation",
+									"No"
+								],
+								[
+									"2",
+									"{@spell Darkvision}",
+									"Transmut.",
+									"No"
+								],
+								[
+									"2",
+									"{@spell Detect Thoughts}",
+									"Divination",
+									"No"
+								],
+								[
+									"2",
+									"{@spell Enlarge/Reduce}",
+									"Transmut.",
+									"No"
+								],
+								[
+									"2",
+									"{@spell Enthrall}",
+									"Enchantment",
+									"No"
+								],
+								[
+									"2",
+									"{@spell Flaming Sphere}",
+									"Evocation*",
+									"No"
+								],
+								[
+									"2",
+									"{@spell Gust of Wind}",
+									"Evocation",
+									"No"
+								],
+								[
+									"2",
+									"{@spell Hold Person}",
+									"Enchantment",
+									"No"
+								],
+								[
+									"2",
+									"{@spell Invisibility}",
+									"Illusion",
+									"No"
+								],
+								[
+									"2",
+									"{@spell Knock}",
+									"Transmut.",
+									"No"
+								],
+								[
+									"2",
+									"{@spell Levitate}",
+									"Transmut.",
+									"No"
+								],
+								[
+									"2",
+									"{@spell Locate Object}",
+									"Divination",
+									"No"
+								],
+								[
+									"2",
+									"{@spell Magic Aura}",
+									"Illusion",
+									"No"
+								],
+								[
+									"2",
+									"{@spell Magic Mouth}",
+									"Illusion",
+									"Yes"
+								],
+								[
+									"2",
+									"{@spell Magic Weapon}",
+									"Transmut.",
+									"No"
+								],
+								[
+									"2",
+									"{@spell Melf's Acid Arrow}",
+									"Evocation",
+									"No"
+								],
+								[
+									"2",
+									"{@spell Mirror Image}",
+									"Illusion",
+									"No"
+								],
+								[
+									"2",
+									"{@spell Misty Step}",
+									"Conjuration",
+									"No"
+								],
+								[
+									"2",
+									"{@spell Phantasmal Force}",
+									"Illusion",
+									"No"
+								],
+								[
+									"2",
+									"{@spell Ray of Enfeeblemen t}",
+									"Necromancy",
+									"No"
+								],
+								[
+									"2",
+									"{@spell Rope Trick}",
+									"Transmut.",
+									"No"
+								],
+								[
+									"2",
+									"{@spell Scorching Ray}",
+									"Evocation",
+									"No"
+								],
+								[
+									"2",
+									"{@spell See Invisibility}",
+									"Divination",
+									"No"
+								],
+								[
+									"2",
+									"{@spell Shatter}",
+									"Transmut.*",
+									"No"
+								],
+								[
+									"2",
+									"{@spell Spider Climb}",
+									"Transmut.",
+									"No"
+								],
+								[
+									"2",
+									"{@spell Suggestion}",
+									"Enchantment",
+									"No"
+								],
+								[
+									"2",
+									"{@spell Web}",
+									"Conjuration",
+									"No"
+								],
+								[
+									"3",
+									"{@spell Animate Dead}",
+									"Necromancy",
+									"No"
+								],
+								[
+									"3",
+									"{@spell Bestow Curse}",
+									"Necromancy",
+									"No"
+								],
+								[
+									"3",
+									"{@spell Blink}",
+									"Transmut.",
+									"No"
+								],
+								[
+									"3",
+									"{@spell Clairvoyance}",
+									"Divination",
+									"No"
+								],
+								[
+									"3",
+									"{@spell Counterspell}",
+									"Abjuration",
+									"No"
+								],
+								[
+									"3",
+									"{@spell Dispel Magic}",
+									"Abjuration",
+									"No"
+								],
+								[
+									"3",
+									"{@spell Fear}",
+									"Illusion",
+									"No"
+								],
+								[
+									"3",
+									"{@spell Fireball}",
+									"Evocation",
+									"No"
+								],
+								[
+									"3",
+									"{@spell Fly}",
+									"Transmut.",
+									"No"
+								],
+								[
+									"3",
+									"{@spell Gaseous Form}",
+									"Transmut.",
+									"No"
+								],
+								[
+									"3",
+									"{@spell Glyph of Warding}",
+									"Abjuration",
+									"No"
+								],
+								[
+									"3",
+									"{@spell Haste}",
+									"Transmut.",
+									"No"
+								],
+								[
+									"3",
+									"{@spell Hunger of Hadar}",
+									"Conjuration",
+									"No"
+								],
+								[
+									"3",
+									"{@spell Hypnotic Pattern}",
+									"Illusion",
+									"No"
+								],
+								[
+									"3",
+									"{@spell Leomund's Tiny Hut}",
+									"Evocation",
+									"Yes"
+								],
+								[
+									"3",
+									"{@spell Lightning Bolt}",
+									"Evocation",
+									"No"
+								],
+								[
+									"3",
+									"{@spell Magic Circle}",
+									"Abjuration",
+									"No"
+								],
+								[
+									"3",
+									"{@spell Major Image}",
+									"Illusion",
+									"No"
+								],
+								[
+									"3",
+									"{@spell Nondetection}",
+									"Abjuration",
+									"No"
+								],
+								[
+									"3",
+									"{@spell Phantom Steed}",
+									"Illusion",
+									"Yes"
+								],
+								[
+									"3",
+									"{@spell Protection from Energy}",
+									"Abjuration",
+									"No"
+								],
+								[
+									"3",
+									"{@spell Remove Curse}",
+									"Abjuration",
+									"No"
+								],
+								[
+									"3",
+									"{@spell Sending}",
+									"Divination*",
+									"No"
+								],
+								[
+									"3",
+									"{@spell Sleet Storm}",
+									"Conjuration",
+									"No"
+								],
+								[
+									"3",
+									"{@spell Slow}",
+									"Transmut.",
+									"No"
+								],
+								[
+									"3",
+									"{@spell Stinking Cloud}",
+									"Conjuration",
+									"No"
+								],
+								[
+									"3",
+									"{@spell Tongues}",
+									"Divination",
+									"No"
+								],
+								[
+									"3",
+									"{@spell Vampiric Touch}",
+									"Necromancy",
+									"No"
+								],
+								[
+									"3",
+									"{@spell Water Breathing}",
+									"Transmut.",
+									"Yes"
+								],
+								[
+									"4",
+									"{@spell Arcane Eye}",
+									"Divination",
+									"No"
+								],
+								[
+									"4",
+									"{@u {@spell Banishment|XUA2022ClericAndRevisedSpecies}}",
+									"Abjuration",
+									"No"
+								],
+								[
+									"4",
+									"{@spell Blight}",
+									"Necromancy",
+									"No"
+								],
+								[
+									"4",
+									"{@spell Compulsion}",
+									"Enchantment",
+									"No"
+								],
+								[
+									"4",
+									"{@spell Confusion}",
+									"Enchantment",
+									"No"
+								],
+								[
+									"4",
+									"{@spell Conjure Minor Elementals}",
+									"Conjuration",
+									"No"
+								],
+								[
+									"4",
+									"{@spell Control Water}",
+									"Transmut.",
+									"No"
+								],
+								[
+									"4",
+									"{@spell Dimension Door}",
+									"Conjuration",
+									"No"
+								],
+								[
+									"4",
+									"{@spell Evard's Black Tentacles}",
+									"Conjuration",
+									"No"
+								],
+								[
+									"4",
+									"{@spell Fabricate}",
+									"Transmut.",
+									"No"
+								],
+								[
+									"4",
+									"{@spell Fire Shield}",
+									"Evocation",
+									"No"
+								],
+								[
+									"4",
+									"{@spell Greater Invisibility}",
+									"Illusion",
+									"No"
+								],
+								[
+									"4",
+									"{@spell Hallucinatory Terrain}",
+									"Illusion",
+									"No"
+								],
+								[
+									"4",
+									"{@spell Ice Storm}",
+									"Evocation",
+									"No"
+								],
+								[
+									"4",
+									"{@spell Leomund's Secret Chest}",
+									"Conjuration",
+									"No"
+								],
+								[
+									"4",
+									"{@spell Locate Creature}",
+									"Divination",
+									"No"
+								],
+								[
+									"4",
+									"{@spell Mordenkainen's Faithful Hound}",
+									"Conjuration",
+									"No"
+								],
+								[
+									"4",
+									"{@spell Mordenkainen's Private Sanctum}",
+									"Abjuration",
+									"No"
+								],
+								[
+									"4",
+									"{@spell Otiluke's Resilient Sphere}",
+									"Evocation",
+									"No"
+								],
+								[
+									"4",
+									"{@spell Phantasmal Killer}",
+									"Illusion",
+									"No"
+								],
+								[
+									"4",
+									"{@spell Polymorph}",
+									"Transmut.",
+									"No"
+								],
+								[
+									"4",
+									"{@spell Stone Shape}",
+									"Transmut.",
+									"No"
+								],
+								[
+									"4",
+									"{@spell Stoneskin}",
+									"Transmut.*",
+									"No"
+								],
+								[
+									"4",
+									"{@spell Wall of Fire}",
+									"Evocation",
+									"No"
+								],
+								[
+									"5",
+									"{@spell Animate Objects}",
+									"Transmut.",
+									"No"
+								],
+								[
+									"5",
+									"{@spell Bigby's Hand}",
+									"Evocation",
+									"No"
+								],
+								[
+									"5",
+									"{@spell Cloudkill}",
+									"Conjuration",
+									"No"
+								],
+								[
+									"5",
+									"{@spell Cone of Cold}",
+									"Evocation",
+									"No"
+								],
+								[
+									"5",
+									"{@spell Conjure Elemental}",
+									"Conjuration",
+									"No"
+								],
+								[
+									"5",
+									"{@spell Contact Other Plane}",
+									"Divination",
+									"Yes"
+								],
+								[
+									"5",
+									"{@spell Creation}",
+									"Illusion",
+									"No"
+								],
+								[
+									"5",
+									"{@spell Dominate Person}",
+									"Enchantment",
+									"No"
+								],
+								[
+									"5",
+									"{@spell Dream}",
+									"Illusion",
+									"No"
+								],
+								[
+									"5",
+									"{@spell Geas}",
+									"Enchantment",
+									"No"
+								],
+								[
+									"5",
+									"{@spell Hold Monster}",
+									"Enchantment",
+									"No"
+								],
+								[
+									"5",
+									"{@spell Legend Lore}",
+									"Divination",
+									"No"
+								],
+								[
+									"5",
+									"{@spell Mislead}",
+									"Illusion",
+									"No"
+								],
+								[
+									"5",
+									"{@spell Modify Memory}",
+									"Enchantment",
+									"No"
+								],
+								[
+									"5",
+									"{@spell Passwall}",
+									"Transmut.",
+									"No"
+								],
+								[
+									"5",
+									"{@spell Planar Binding}",
+									"Abjuration",
+									"No"
+								],
+								[
+									"5",
+									"{@spell Rary's Telepathic Bond}",
+									"Divination",
+									"Yes"
+								],
+								[
+									"5",
+									"{@spell Scrying}",
+									"Divination",
+									"No"
+								],
+								[
+									"5",
+									"{@spell Seeming}",
+									"Illusion",
+									"No"
+								],
+								[
+									"5",
+									"{@spell Telekinesis}",
+									"Transmut.",
+									"No"
+								],
+								[
+									"5",
+									"{@spell Teleportation Circle}",
+									"Conjuration",
+									"No"
+								],
+								[
+									"5",
+									"{@spell Wall of Force}",
+									"Evocation",
+									"No"
+								],
+								[
+									"5",
+									"{@spell Wall of Stone}",
+									"Evocation",
+									"No"
+								],
+								[
+									"6",
+									"{@spell Arcane Gate}",
+									"Conjuration",
+									"No"
+								],
+								[
+									"6",
+									"{@spell Chain Lightning}",
+									"Evocation",
+									"No"
+								],
+								[
+									"6",
+									"{@spell Circle of Death}",
+									"Necromancy",
+									"No"
+								],
+								[
+									"6",
+									"{@spell Contingency}",
+									"Abjuration*",
+									"No"
+								],
+								[
+									"6",
+									"{@spell Create Undead}",
+									"Necromancy",
+									"No"
+								],
+								[
+									"6",
+									"{@spell Disintegrate}",
+									"Transmut.",
+									"No"
+								],
+								[
+									"6",
+									"{@spell Eyebite}",
+									"Necromancy",
+									"No"
+								],
+								[
+									"6",
+									"{@spell Flesh to Stone}",
+									"Transmut.",
+									"No"
+								],
+								[
+									"6",
+									"{@spell Globe of Invulnerability}",
+									"Abjuration",
+									"No"
+								],
+								[
+									"6",
+									"{@spell Guards and Wards}",
+									"Abjuration",
+									"No"
+								],
+								[
+									"6",
+									"{@spell Instant Summons}",
+									"Conjuration",
+									"Yes"
+								],
+								[
+									"6",
+									"{@spell Magic Jar}",
+									"Necromancy",
+									"No"
+								],
+								[
+									"6",
+									"{@spell Mass Suggestion}",
+									"Enchantment",
+									"No"
+								],
+								[
+									"6",
+									"{@spell Move Earth}",
+									"Transmut.",
+									"No"
+								],
+								[
+									"6",
+									"{@spell Otiluke's Freezing Sphere}",
+									"Evocation",
+									"No"
+								],
+								[
+									"6",
+									"{@spell Otto's Irresistible Dance}",
+									"Enchantment",
+									"No"
+								],
+								[
+									"6",
+									"{@spell Programmed Illusion}",
+									"Illusion",
+									"No"
+								],
+								[
+									"6",
+									"{@spell Sunbeam}",
+									"Evocation",
+									"No"
+								],
+								[
+									"6",
+									"{@spell True Seeing}",
+									"Divination",
+									"No"
+								],
+								[
+									"6",
+									"{@spell Wall of Ice}",
+									"Evocation",
+									"No"
+								],
+								[
+									"7",
+									"{@spell Delayed Blast Fireball}",
+									"Evocation",
+									"No"
+								],
+								[
+									"7",
+									"{@spell Etherealness}",
+									"Transmut.",
+									"No"
+								],
+								[
+									"7",
+									"{@spell Finger of Death}",
+									"Necromancy",
+									"No"
+								],
+								[
+									"7",
+									"{@spell Forcecage}",
+									"Evocation",
+									"No"
+								],
+								[
+									"7",
+									"{@spell Mirage Arcane}",
+									"Illusion",
+									"No"
+								],
+								[
+									"7",
+									"{@spell Mordenkainen's Magnificent Mansion}",
+									"Conjuration",
+									"No"
+								],
+								[
+									"7",
+									"{@spell Mordenkainen's Sword}",
+									"Evocation",
+									"No"
+								],
+								[
+									"7",
+									"{@spell Plane Shift}",
+									"Conjuration",
+									"No"
+								],
+								[
+									"7",
+									"{@spell Prismatic Spray}",
+									"Evocation",
+									"No"
+								],
+								[
+									"7",
+									"{@spell Project Image}",
+									"Illusion",
+									"No"
+								],
+								[
+									"7",
+									"{@spell Reverse Gravity}",
+									"Transmut.",
+									"No"
+								],
+								[
+									"7",
+									"{@spell Sequester}",
+									"Transmut.",
+									"No"
+								],
+								[
+									"7",
+									"{@spell Simulacrum}",
+									"Illusion",
+									"No"
+								],
+								[
+									"7",
+									"{@spell Symbol}",
+									"Abjuration",
+									"No"
+								],
+								[
+									"7",
+									"{@spell Teleport}",
+									"Conjuration",
+									"No"
+								],
+								[
+									"8",
+									"{@spell Antimagic Field}",
+									"Abjuration",
+									"No"
+								],
+								[
+									"8",
+									"{@spell Antipathy/ Sympathy}",
+									"Enchantment",
+									"No"
+								],
+								[
+									"8",
+									"{@spell Clone}",
+									"Necromancy",
+									"No"
+								],
+								[
+									"8",
+									"{@spell Control Weather}",
+									"Transmut.",
+									"No"
+								],
+								[
+									"8",
+									"{@spell Demiplane}",
+									"Conjuration",
+									"No"
+								],
+								[
+									"8",
+									"{@spell Dominate Monster}",
+									"Enchantment",
+									"No"
+								],
+								[
+									"8",
+									"{@spell Feeblemind}",
+									"Enchantment",
+									"No"
+								],
+								[
+									"8",
+									"{@spell Glibness}",
+									"Enchantment*",
+									"No"
+								],
+								[
+									"8",
+									"{@spell Incendiary Cloud}",
+									"Conjuration",
+									"No"
+								],
+								[
+									"8",
+									"{@spell Maze}",
+									"Conjuration",
+									"No"
+								],
+								[
+									"8",
+									"{@spell Mind Blank}",
+									"Abjuration",
+									"No"
+								],
+								[
+									"8",
+									"{@spell Power Word Stun}",
+									"Enchantment",
+									"No"
+								],
+								[
+									"8",
+									"{@spell Sunburst}",
+									"Evocation",
+									"No"
+								],
+								[
+									"8",
+									"{@spell Telepathy}",
+									"Divination*",
+									"No"
+								],
+								[
+									"9",
+									"{@spell Astral Projection}",
+									"Necromancy",
+									"No"
+								],
+								[
+									"9",
+									"{@spell Foresight}",
+									"Divination",
+									"No"
+								],
+								[
+									"9",
+									"{@spell Gate}",
+									"Conjuration",
+									"No"
+								],
+								[
+									"9",
+									"{@spell Imprisonment}",
+									"Abjuration",
+									"No"
+								],
+								[
+									"9",
+									"{@spell Meteor Swarm}",
+									"Evocation",
+									"No"
+								],
+								[
+									"9",
+									"{@spell Power Word Kill}",
+									"Enchantment",
+									"No"
+								],
+								[
+									"9",
+									"{@spell Prismatic Wall}",
+									"Abjuration",
+									"No"
+								],
+								[
+									"9",
+									"{@spell Shapechange}",
+									"Transmut.",
+									"No"
+								],
+								[
+									"9",
+									"{@spell Time Stop}",
+									"Transmut.",
+									"No"
+								],
+								[
+									"9",
+									"{@spell True Polymorph}",
+									"Transmut.",
+									"No"
+								],
+								[
+									"9",
+									"{@spell Weird}",
+									"Illusion",
+									"No"
+								],
+								[
+									"9",
+									"{@spell Wish}",
+									"Conjuration",
+									"No"
+								]
+							]
+						}
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Divine Spells",
+					"entries": [
+						"A Divine Spell draws on the power of gods and the Outer Planes. Clerics and Paladins harness this magic.",
+						"The Divine Spells table is a partial list of Divine Spells. The table provides a Spell's level, name, and School of Magic. The list also indicates whether a Spell has the Ritual tag.",
+						"If a Spell's School of Magic is different from what appears in the 2014 Player's Handbook, an asterisk (*) appears after the school.",
+						{
+							"type": "table",
+							"colLabels": [
+								"Lvl",
+								"Spell",
+								"School",
+								"Ritual"
+							],
+							"colStyles": [
+								"col-1 text-center",
+								"col-5",
+								"col-4",
+								"col-2 text-center"
+							],
+							"rows": [
+								[
+									"0",
+									"{@u {@spell Guidance|XUA2022ClericAndRevisedSpecies}}",
+									"Divination",
+									"No"
+								],
+								[
+									"0",
+									"{@spell Light}",
+									"Evocation",
+									"No"
+								],
+								[
+									"0",
+									"{@u {@spell Resistance|XUA2022ClericAndRevisedSpecies}}",
+									"Abjuration",
+									"No"
+								],
+								[
+									"0",
+									"{@spell Sacred Flame}",
+									"Evocation",
+									"No"
+								],
+								[
+									"0",
+									"{@spell Spare the Dying}",
+									"Necromancy",
+									"No"
+								],
+								[
+									"0",
+									"{@spell Thaumaturgy}",
+									"Transmut.",
+									"No"
+								],
+								[
+									"1",
+									"{@spell Bane}",
+									"Enchantment",
+									"No"
+								],
+								[
+									"1",
+									"{@spell Bless}",
+									"Enchantment",
+									"No"
+								],
+								[
+									"1",
+									"{@spell Command}",
+									"Enchantment",
+									"No"
+								],
+								[
+									"1",
+									"{@spell Compelled Duel}",
+									"Enchantment",
+									"No"
+								],
+								[
+									"1",
+									"{@spell Cure Wounds}",
+									"Abjuration*",
+									"No"
+								],
+								[
+									"1",
+									"{@spell Detect Evil and Good}",
+									"Divination",
+									"No"
+								],
+								[
+									"1",
+									"{@spell Detect Magic}",
+									"Divination",
+									"Yes"
+								],
+								[
+									"1",
+									"{@spell Detect Poison and Disease}",
+									"Divination",
+									"Yes"
+								],
+								[
+									"1",
+									"{@spell Divine Favor}",
+									"Evocation",
+									"No"
+								],
+								[
+									"1",
+									"{@spell Guiding Bolt}",
+									"Evocation",
+									"No"
+								],
+								[
+									"1",
+									"{@spell Healing Word}",
+									"Abjuration*",
+									"No"
+								],
+								[
+									"1",
+									"{@spell Heroism}",
+									"Enchantment",
+									"No"
+								],
+								[
+									"1",
+									"{@spell Inflict Wounds}",
+									"Necromancy",
+									"No"
+								],
+								[
+									"1",
+									"{@spell Protection from Evil and Good}",
+									"Abjuration",
+									"No"
+								],
+								[
+									"1",
+									"{@spell Purify Food and Drink}",
+									"Transmut.",
+									"Yes"
+								],
+								[
+									"1",
+									"{@spell Sanctuary}",
+									"Abjuration",
+									"No"
+								],
+								[
+									"1",
+									"{@spell Searing Smite}",
+									"Evocation",
+									"No"
+								],
+								[
+									"1",
+									"{@spell Shield of Faith}",
+									"Abjuration",
+									"No"
+								],
+								[
+									"1",
+									"{@spell Thunderous Smite}",
+									"Evocation",
+									"No"
+								],
+								[
+									"1",
+									"{@spell Wrathful Smite}",
+									"Evocation",
+									"No"
+								],
+								[
+									"2",
+									"{@spell Aid|XUA2022ClericAndRevisedSpecies}",
+									"Abjuration",
+									"No"
+								],
+								[
+									"2",
+									"{@spell Augury}",
+									"Divination",
+									"Yes"
+								],
+								[
+									"2",
+									"{@spell Blindness/Deafness}",
+									"Transmut.*",
+									"No"
+								],
+								[
+									"2",
+									"{@spell Branding Smite}",
+									"Evocation",
+									"No"
+								],
+								[
+									"2",
+									"{@spell Calm Emotions}",
+									"Enchantment",
+									"No"
+								],
+								[
+									"2",
+									"{@spell Find Steed}",
+									"Conjuration",
+									"No"
+								],
+								[
+									"2",
+									"{@spell Find Traps}",
+									"Divination",
+									"No"
+								],
+								[
+									"2",
+									"{@spell Gentle Repose}",
+									"Necromancy",
+									"Yes"
+								],
+								[
+									"2",
+									"{@spell Hold Person}",
+									"Enchantment",
+									"No"
+								],
+								[
+									"2",
+									"{@spell Lesser Restoration}",
+									"Abjuration",
+									"No"
+								],
+								[
+									"2",
+									"{@spell Locate Object}",
+									"Divination",
+									"No"
+								],
+								[
+									"2",
+									"{@spell Magic Weapon}",
+									"Transmut.",
+									"No"
+								],
+								[
+									"2",
+									"{@u {@spell Prayer of Healing|XUA2022ClericAndRevisedSpecies}}",
+									"Abjuration*",
+									"No"
+								],
+								[
+									"2",
+									"{@spell Protection from Poison}",
+									"Abjuration",
+									"No"
+								],
+								[
+									"2",
+									"{@spell Silence}",
+									"Illusion",
+									"Yes"
+								],
+								[
+									"2",
+									"{@spell Spiritual Weapon}",
+									"Evocation",
+									"No"
+								],
+								[
+									"2",
+									"{@spell Warding Bond}",
+									"Abjuration",
+									"No"
+								],
+								[
+									"2",
+									"{@spell Zone of Truth}",
+									"Enchantment",
+									"No"
+								],
+								[
+									"3",
+									"{@spell Aura of Vitality}",
+									"Abjuration*",
+									"No"
+								],
+								[
+									"3",
+									"{@spell Beacon of Hope}",
+									"Abjuration",
+									"No"
+								],
+								[
+									"3",
+									"{@spell Blinding Smite}",
+									"Evocation",
+									"No"
+								],
+								[
+									"3",
+									"{@spell Clairvoyance}",
+									"Divination",
+									"No"
+								],
+								[
+									"3",
+									"{@spell Create Food and Water}",
+									"Conjuration",
+									"No"
+								],
+								[
+									"3",
+									"{@spell Crusader's Mantle}",
+									"Evocation",
+									"No"
+								],
+								[
+									"3",
+									"{@spell Daylight}",
+									"Evocation",
+									"No"
+								],
+								[
+									"3",
+									"{@spell Dispel Magic}",
+									"Abjuration",
+									"No"
+								],
+								[
+									"3",
+									"{@spell Feign Death}",
+									"Necromancy",
+									"Yes"
+								],
+								[
+									"3",
+									"{@spell Glyph of Warding}",
+									"Abjuration",
+									"No"
+								],
+								[
+									"3",
+									"{@spell Magic Circle}",
+									"Abjuration",
+									"No"
+								],
+								[
+									"3",
+									"{@spell Mass Healing Word}",
+									"Abjuration*",
+									"No"
+								],
+								[
+									"3",
+									"{@spell Remove Curse}",
+									"Abjuration",
+									"No"
+								],
+								[
+									"3",
+									"{@spell Revivify}",
+									"Necromancy",
+									"No"
+								],
+								[
+									"3",
+									"{@spell Speak with Dead}",
+									"Necromancy",
+									"No"
+								],
+								[
+									"3",
+									"{@spell Spirit Guardians}",
+									"Conjuration",
+									"No"
+								],
+								[
+									"3",
+									"{@spell Tongues}",
+									"Divination",
+									"No"
+								],
+								[
+									"4",
+									"{@spell Aura of Life}",
+									"Abjuration",
+									"No"
+								],
+								[
+									"4",
+									"{@spell Aura of Purity}",
+									"Abjuration",
+									"No"
+								],
+								[
+									"4",
+									"{@u {@spell Banishment|XUA2022ClericAndRevisedSpecies}}",
+									"Abjuration",
+									"No"
+								],
+								[
+									"4",
+									"{@spell Death Ward}",
+									"Abjuration",
+									"No"
+								],
+								[
+									"4",
+									"{@spell Divination}",
+									"Divination",
+									"Yes"
+								],
+								[
+									"4",
+									"{@spell Freedom of Movement}",
+									"Abjuration",
+									"No"
+								],
+								[
+									"4",
+									"{@spell Guardian of Faith}",
+									"Abjuration",
+									"No"
+								],
+								[
+									"4",
+									"{@spell Locate Creature}",
+									"Divination",
+									"No"
+								],
+								[
+									"4",
+									"{@spell Staggering Smite}",
+									"Evocation",
+									"No"
+								],
+								[
+									"5",
+									"{@spell Banishing Smite}",
+									"Abjuration",
+									"No"
+								],
+								[
+									"5",
+									"{@spell Circle of Power}",
+									"Abjuration",
+									"No"
+								],
+								[
+									"5",
+									"{@spell Commune}",
+									"Divination",
+									"Yes"
+								],
+								[
+									"5",
+									"{@spell Contagion}",
+									"Necromancy",
+									"No"
+								],
+								[
+									"5",
+									"{@spell Destructive Wave}",
+									"Evocation",
+									"No"
+								],
+								[
+									"5",
+									"{@spell Dispel Evil and Good}",
+									"Abjuration",
+									"No"
+								],
+								[
+									"5",
+									"{@spell Flame Strike}",
+									"Evocation",
+									"No"
+								],
+								[
+									"5",
+									"{@spell Geas}",
+									"Enchantment",
+									"No"
+								],
+								[
+									"5",
+									"{@spell Greater Restoration}",
+									"Abjuration",
+									"No"
+								],
+								[
+									"5",
+									"{@spell Hallow}",
+									"Abjuration*",
+									"No"
+								],
+								[
+									"5",
+									"{@spell Legend Lore}",
+									"Divination",
+									"No"
+								],
+								[
+									"5",
+									"{@spell Mass Cure Wounds}",
+									"Abjuration*",
+									"No"
+								],
+								[
+									"5",
+									"{@spell Planar Binding}",
+									"Abjuration",
+									"No"
+								],
+								[
+									"5",
+									"{@spell Raise Dead}",
+									"Necromancy",
+									"No"
+								],
+								[
+									"5",
+									"{@spell Scrying}",
+									"Divination",
+									"No"
+								],
+								[
+									"6",
+									"{@spell Blade Barrier}",
+									"Evocation",
+									"No"
+								],
+								[
+									"6",
+									"{@spell Find the Path}",
+									"Divination",
+									"No"
+								],
+								[
+									"6",
+									"{@spell Forbiddance}",
+									"Abjuration",
+									"Yes"
+								],
+								[
+									"6",
+									"{@spell Harm}",
+									"Necromancy",
+									"No"
+								],
+								[
+									"6",
+									"{@spell Heal}",
+									"Abjuration",
+									"No"
+								],
+								[
+									"6",
+									"{@spell Heroes' Feast}",
+									"Conjuration",
+									"No"
+								],
+								[
+									"6",
+									"{@spell Planar Ally}",
+									"Conjuration",
+									"No"
+								],
+								[
+									"6",
+									"{@spell Sunbeam}",
+									"Evocation",
+									"No"
+								],
+								[
+									"6",
+									"{@spell True Seeing}",
+									"Divination",
+									"No"
+								],
+								[
+									"6",
+									"{@spell Word of Recall}",
+									"Conjuration",
+									"No"
+								],
+								[
+									"7",
+									"{@spell Conjure Celestial}",
+									"Conjuration",
+									"No"
+								],
+								[
+									"7",
+									"{@spell Divine Word}",
+									"Evocation",
+									"No"
+								],
+								[
+									"7",
+									"{@spell Etherealness}",
+									"Transmut.",
+									"No"
+								],
+								[
+									"7",
+									"{@spell Plane Shift}",
+									"Conjuration",
+									"No"
+								],
+								[
+									"7",
+									"{@spell Regenerate}",
+									"Transmut.",
+									"No"
+								],
+								[
+									"7",
+									"{@spell Resurrection}",
+									"Necromancy",
+									"No"
+								],
+								[
+									"7",
+									"{@spell Symbol}",
+									"Abjuration",
+									"No"
+								],
+								[
+									"8",
+									"{@spell Antimagic Field}",
+									"Abjuration",
+									"No"
+								],
+								[
+									"8",
+									"{@spell Antipathy/ Sympathy Enchantment 8 Holy Aura}",
+									"Abjuration",
+									"No"
+								],
+								[
+									"8",
+									"{@spell Sunburst}",
+									"Evocation",
+									"No"
+								],
+								[
+									"9",
+									"{@spell Astral Projection}",
+									"Necromancy",
+									"No"
+								],
+								[
+									"9",
+									"{@spell Foresight}",
+									"Divination",
+									"No"
+								],
+								[
+									"9",
+									"{@spell Gate}",
+									"Conjuration",
+									"No"
+								],
+								[
+									"9",
+									"{@spell Mass Heal}",
+									"Abjuration*",
+									"No"
+								],
+								[
+									"9",
+									"{@spell Power Word Heal}",
+									"Abjuration*",
+									"No"
+								],
+								[
+									"9",
+									"{@spell True Resurrection}",
+									"Necromancy",
+									"No"
+								]
+							]
+						}
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Primal Spells",
+					"entries": [
+						"A Primal Spell draws on the forces of nature and the Inner Planes. Druids and Rangers harness this magic.",
+						"The Primal Spells table is a partial list of Primal Spells. The table provides a Spell's level, name, and School of Magic. The list also indicates whether a Spell has the Ritual tag.",
+						"If a Spell's School of Magic is different from what appears in the 2014 Player's Handbook, an asterisk (*) appears after the school.",
+						{
+							"type": "table",
+							"colLabels": [
+								"Lvl",
+								"Spell",
+								"School",
+								"Ritual"
+							],
+							"colStyles": [
+								"col-1 text-center",
+								"col-5",
+								"col-4",
+								"col-2 text-center"
+							],
+							"rows": [
+								[
+									"0",
+									"{@spell Druidcraft}",
+									"Transmut.",
+									"No"
+								],
+								[
+									"0",
+									"{@u {@spell Guidance|XUA2022ClericAndRevisedSpecies}}",
+									"Divination",
+									"No"
+								],
+								[
+									"0",
+									"{@spell Mending}",
+									"Transmut.",
+									"No"
+								],
+								[
+									"0",
+									"{@spell Message}",
+									"Transmut.",
+									"No"
+								],
+								[
+									"0",
+									"{@spell Poison Spray}",
+									"Conjuration",
+									"No"
+								],
+								[
+									"0",
+									"{@spell Produce Flame}",
+									"Evocation*",
+									"No"
+								],
+								[
+									"0",
+									"{@u {@spell Resistance|XUA2022ClericAndRevisedSpecies}}",
+									"Abjuration",
+									"No"
+								],
+								[
+									"0",
+									"{@spell Shillelagh}",
+									"Transmut.",
+									"No"
+								],
+								[
+									"0",
+									"{@spell Spare the Dying}",
+									"Necromancy",
+									"No"
+								],
+								[
+									"0",
+									"{@spell Thorn Whip}",
+									"Transmut.",
+									"No"
+								],
+								[
+									"1",
+									"{@spell Animal Friendship}",
+									"Enchantment",
+									"No"
+								],
+								[
+									"1",
+									"{@spell Create or Destroy Water}",
+									"Transmut.",
+									"No"
+								],
+								[
+									"1",
+									"{@spell Cure Wounds}",
+									"Abjuration*",
+									"No"
+								],
+								[
+									"1",
+									"{@spell Detect Magic}",
+									"Divination",
+									"Yes"
+								],
+								[
+									"1",
+									"{@spell Detect Poison and Disease}",
+									"Divination",
+									"Yes"
+								],
+								[
+									"1",
+									"{@spell Ensnaring Strike}",
+									"Conjuration",
+									"No"
+								],
+								[
+									"1",
+									"{@spell Entangle}",
+									"Conjuration",
+									"No"
+								],
+								[
+									"1",
+									"{@spell Faerie Fire}",
+									"Evocation",
+									"No"
+								],
+								[
+									"1",
+									"{@spell Fog Cloud}",
+									"Conjuration",
+									"No"
+								],
+								[
+									"1",
+									"{@spell Goodberry}",
+									"Transmut.",
+									"No"
+								],
+								[
+									"1",
+									"{@spell Hail of Thorns}",
+									"Conjuration",
+									"No"
+								],
+								[
+									"1",
+									"{@spell Healing Word}",
+									"Abjuration*",
+									"No"
+								],
+								[
+									"1",
+									"{@spell Hunter's Mark}",
+									"Divination",
+									"No"
+								],
+								[
+									"1",
+									"{@spell Jump}",
+									"Transmut.",
+									"No"
+								],
+								[
+									"1",
+									"{@spell Longstrider}",
+									"Transmut.",
+									"No"
+								],
+								[
+									"1",
+									"{@spell Purify Food and Drink}",
+									"Transmut.",
+									"Yes"
+								],
+								[
+									"1",
+									"{@spell Speak with Animals}",
+									"Divination",
+									"Yes"
+								],
+								[
+									"1",
+									"{@spell Thunderwave}",
+									"Transmut.",
+									"No"
+								],
+								[
+									"2",
+									"{@spell Animal Messenger}",
+									"Enchantment",
+									"Yes"
+								],
+								[
+									"2",
+									"{@spell Augury}",
+									"Divination",
+									"Yes"
+								],
+								[
+									"2",
+									"{@u {@spell Barkskin|XUA2022ClericAndRevisedSpecies}}",
+									"Transmut.",
+									"No"
+								],
+								[
+									"2",
+									"{@spell Beast Sense}",
+									"Divination",
+									"Yes"
+								],
+								[
+									"2",
+									"{@spell Cordon of Arrows}",
+									"Transmut.",
+									"No"
+								],
+								[
+									"2",
+									"{@spell Darkvision}",
+									"Transmut.",
+									"No"
+								],
+								[
+									"2",
+									"{@spell Enhance Ability}",
+									"Transmut.",
+									"No"
+								],
+								[
+									"2",
+									"{@spell Enlarge/Reduce}",
+									"Transmut.",
+									"No"
+								],
+								[
+									"2",
+									"{@spell Find Traps}",
+									"Divination",
+									"No"
+								],
+								[
+									"2",
+									"{@spell Flame Blade}",
+									"Evocation",
+									"No"
+								],
+								[
+									"2",
+									"{@spell Flaming Sphere}",
+									"Evocation*",
+									"No"
+								],
+								[
+									"2",
+									"{@spell Gentle Repose}",
+									"Necromancy",
+									"Yes"
+								],
+								[
+									"2",
+									"{@spell Gust of Wind}",
+									"Evocation",
+									"No"
+								],
+								[
+									"2",
+									"{@spell Heat Metal}",
+									"Transmut.",
+									"No"
+								],
+								[
+									"2",
+									"{@spell Lesser Restoration}",
+									"Abjuration",
+									"No"
+								],
+								[
+									"2",
+									"{@spell Locate Animals or Plants}",
+									"Divination",
+									"Yes"
+								],
+								[
+									"2",
+									"{@spell Locate Object}",
+									"Divination",
+									"No"
+								],
+								[
+									"2",
+									"{@spell Moonbeam}",
+									"Evocation",
+									"No"
+								],
+								[
+									"2",
+									"{@spell Pass without Trace}",
+									"Abjuration",
+									"No"
+								],
+								[
+									"2",
+									"{@spell Protection from Poison}",
+									"Abjuration",
+									"No"
+								],
+								[
+									"2",
+									"{@spell Silence}",
+									"Illusion",
+									"Yes"
+								],
+								[
+									"2",
+									"{@spell Spike Growth}",
+									"Transmut.",
+									"No"
+								],
+								[
+									"3",
+									"{@spell Call Lightning}",
+									"Conjuration",
+									"No"
+								],
+								[
+									"3",
+									"{@spell Conjure Animals}",
+									"Conjuration",
+									"No"
+								],
+								[
+									"3",
+									"{@spell Conjure Barrage}",
+									"Conjuration",
+									"No"
+								],
+								[
+									"3",
+									"{@spell Daylight}",
+									"Evocation",
+									"No"
+								],
+								[
+									"3",
+									"{@spell Dispel Magic}",
+									"Abjuration",
+									"No"
+								],
+								[
+									"3",
+									"{@spell Elemental Weapon}",
+									"Transmut.",
+									"No"
+								],
+								[
+									"3",
+									"{@spell Feign Death}",
+									"Necromancy",
+									"Yes"
+								],
+								[
+									"3",
+									"{@spell Lightning Arrow}",
+									"Transmut.",
+									"No"
+								],
+								[
+									"3",
+									"{@spell Mass Healing Word}",
+									"Abjuration*",
+									"No"
+								],
+								[
+									"3",
+									"{@spell Meld into Stone}",
+									"Transmut.",
+									"Yes"
+								],
+								[
+									"3",
+									"{@spell Nondetection}",
+									"Abjuration",
+									"No"
+								],
+								[
+									"3",
+									"{@spell Plant Growth}",
+									"Transmut.",
+									"No"
+								],
+								[
+									"3",
+									"{@spell Protection from Energy}",
+									"Abjuration",
+									"No"
+								],
+								[
+									"3",
+									"{@spell Revivify}",
+									"Necromancy",
+									"No"
+								],
+								[
+									"3",
+									"{@spell Sleet Storm}",
+									"Conjuration",
+									"No"
+								],
+								[
+									"3",
+									"{@spell Speak with Plants}",
+									"Transmut.",
+									"No"
+								],
+								[
+									"3",
+									"{@spell Water Breathing}",
+									"Transmut.",
+									"Yes"
+								],
+								[
+									"3",
+									"{@spell Water Walk}",
+									"Transmut.",
+									"Yes"
+								],
+								[
+									"3",
+									"{@spell Wind Wall}",
+									"Evocation",
+									"No"
+								],
+								[
+									"4",
+									"{@spell Conjure Minor Elementals}",
+									"Conjuration",
+									"No"
+								],
+								[
+									"4",
+									"{@spell Conjure Woodland Beings}",
+									"Conjuration",
+									"No"
+								],
+								[
+									"4",
+									"{@spell Control Water}",
+									"Transmut.",
+									"No"
+								],
+								[
+									"4",
+									"{@spell Dominate Beast}",
+									"Enchantment",
+									"No"
+								],
+								[
+									"4",
+									"{@spell Freedom of Movement}",
+									"Abjuration",
+									"No"
+								],
+								[
+									"4",
+									"{@spell Giant Insect}",
+									"Transmut.",
+									"No"
+								],
+								[
+									"4",
+									"{@spell Grasping Vine}",
+									"Conjuration",
+									"No"
+								],
+								[
+									"4",
+									"{@spell Ice Storm}",
+									"Evocation",
+									"No"
+								],
+								[
+									"4",
+									"{@spell Locate Creature}",
+									"Divination",
+									"No"
+								],
+								[
+									"4",
+									"{@spell Polymorph}",
+									"Transmut.",
+									"No"
+								],
+								[
+									"4",
+									"{@spell Stone Shape}",
+									"Transmut.",
+									"No"
+								],
+								[
+									"4",
+									"{@spell Stoneskin}",
+									"Transmut.*",
+									"No"
+								],
+								[
+									"4",
+									"{@spell Wall of Fire}",
+									"Evocation",
+									"No"
+								],
+								[
+									"5",
+									"{@spell Antilife Shell}",
+									"Abjuration",
+									"No"
+								],
+								[
+									"5",
+									"{@spell Awaken}",
+									"Transmut.",
+									"No"
+								],
+								[
+									"5",
+									"{@spell Commune with Nature}",
+									"Divination",
+									"Yes"
+								],
+								[
+									"5",
+									"{@spell Conjure Elemental}",
+									"Conjuration",
+									"No"
+								],
+								[
+									"5",
+									"{@spell Conjure Volley}",
+									"Conjuration",
+									"No"
+								],
+								[
+									"5",
+									"{@spell Greater Restoration}",
+									"Abjuration",
+									"No"
+								],
+								[
+									"5",
+									"{@spell Insect Plague}",
+									"Conjuration",
+									"No"
+								],
+								[
+									"5",
+									"{@spell Mass Cure Wounds}",
+									"Abjuration*",
+									"No"
+								],
+								[
+									"5",
+									"{@spell Reincarnate}",
+									"Necromancy*",
+									"No"
+								],
+								[
+									"5",
+									"{@spell Scrying}",
+									"Divination",
+									"No"
+								],
+								[
+									"5",
+									"{@spell Swift Quiver}",
+									"Transmut.",
+									"No"
+								],
+								[
+									"5",
+									"{@spell Tree Stride}",
+									"Conjuration",
+									"No"
+								],
+								[
+									"5",
+									"{@spell Wall of Stone}",
+									"Evocation",
+									"No"
+								],
+								[
+									"6",
+									"{@spell Conjure Fey}",
+									"Conjuration",
+									"No"
+								],
+								[
+									"6",
+									"{@spell Find the Path}",
+									"Divination",
+									"No"
+								],
+								[
+									"6",
+									"{@spell Heal}",
+									"Abjuration",
+									"No"
+								],
+								[
+									"6",
+									"{@spell Move Earth}",
+									"Transmut.",
+									"No"
+								],
+								[
+									"6",
+									"{@spell Sunbeam}",
+									"Evocation",
+									"No"
+								],
+								[
+									"6",
+									"{@spell Transport via Plants}",
+									"Conjuration",
+									"No"
+								],
+								[
+									"6",
+									"{@spell Wall of Ice}",
+									"Evocation",
+									"No"
+								],
+								[
+									"6",
+									"{@spell Wall of Thorns}",
+									"Conjuration",
+									"No"
+								],
+								[
+									"6",
+									"{@spell Wind Walk}",
+									"Transmut.",
+									"No"
+								],
+								[
+									"7",
+									"{@spell Fire Storm}",
+									"Evocation",
+									"No"
+								],
+								[
+									"7",
+									"{@spell Regenerate}",
+									"Transmut.",
+									"No"
+								],
+								[
+									"7",
+									"{@spell Reverse Gravity}",
+									"Transmut.",
+									"No"
+								],
+								[
+									"8",
+									"{@spell Animal Shapes}",
+									"Transmut.",
+									"No"
+								],
+								[
+									"8",
+									"{@spell Control Weather}",
+									"Transmut.",
+									"No"
+								],
+								[
+									"8",
+									"{@spell Earthquake}",
+									"Transmut.*",
+									"No"
+								],
+								[
+									"8",
+									"{@spell Sunburst}",
+									"Evocation",
+									"No"
+								],
+								[
+									"8",
+									"{@spell Tsunami}",
+									"Conjuration",
+									"No"
+								],
+								[
+									"9",
+									"{@spell Power Word Heal}",
+									"Abjuration*",
+									"No"
+								],
+								[
+									"9",
+									"{@spell Shapechange}",
+									"Transmut.",
+									"No"
+								],
+								[
+									"9",
+									"{@spell Storm of Vengeance}",
+									"Conjuration",
+									"No"
+								],
+								[
+									"9",
+									"{@spell True Resurrection}",
+									"Necromancy",
+									"No"
+								]
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"source": "XUA2022ClericAndRevisedSpecies",
+			"page": 12,
+			"name": "Ability Check",
+			"entries": [
+				"The Ability Check is one of three types of {@dice d20} Tests. The rules often call for an Ability Check, and the DM can also call for an Ability Check, determining which ability to use when a creature attempts something (other than an {@variantrule Attack Roll|XUA2022ClericAndRevisedSpecies} or a Saving Throw) that has a chance of meaningful failure. When the outcome is uncertain and narratively interesting, the dice determine the results.",
+				"The Ability Check has the following special rules.",
+				{
+					"type": "entries",
+					"name": "Skills",
+					"entries": [
+						"When you make an Ability Check, the rules or the DM determines whether a Skill Proficiency is relevant to the check. If you have a relevant Skill Proficiency, you can add your Proficiency Bonus to the roll. For example, if a rule refers to a Strength Check ({@skill Acrobatics} or {@skill Athletics}), you can add your Proficiency Bonus to the check if you have {@skill Acrobatics} or {@skill Athletics} Proficiency."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Action Required",
+					"entries": [
+						"Making an Ability Check requires you to take an Action unless a rule says otherwise. Several of the named Actions\u2014such as {@action Hide|XUA2022ClericAndRevisedSpecies} and {@action Influence|XUA2022ClericAndRevisedSpecies}\u2014include Ability Checks. The DM may override this requirement and allow a particular Ability Check to be made as part of a Bonus Action or as no Action at all."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Difficulty Class",
+					"entries": [
+						"The DM determines the Difficulty Class of an Ability Check and can override a DC specified in the rules. The Typical Difficulty Class table shows the most common DCs. The default DC for a check is 15, and it is rarely worth calling for an Ability Check if the DC is as low as 5, unless the potential failure is narratively interesting."
+					]
+				},
+				{
+					"type": "table",
+					"caption": "Typical Difficulty Class",
+					"colLabels": [
+						"Task Difficulty",
+						"DC"
+					],
+					"colStyles": [
+						"col-11",
+						"col-1 text-right"
+					],
+					"rows": [
+						[
+							"Very Easy",
+							"5"
+						],
+						[
+							"Easy",
+							"10"
+						],
+						[
+							"Medium",
+							"15"
+						],
+						[
+							"Hard",
+							"20"
+						],
+						[
+							"Very Hard",
+							"25"
+						],
+						[
+							"Nearly Impossible",
+							"30"
+						]
+					]
+				}
+			]
+		},
+		{
+			"source": "XUA2022ClericAndRevisedSpecies",
+			"page": 15,
+			"name": "Armor Training",
+			"entries": [
+				"Armor Training is the new name for Armor Proficiency. Any existing rule that involves Armor Proficiency now applies to Armor Training.",
+				"If you wear Light, Medium, or Heavy Armor and lack Armor Training with that type of Armor, you have Disadvantage on any {@dice d20} Test you make that involves Strength or Dexterity, and you can't cast Spells.",
+				"If you equip a Shield and lack Armor Training with Shields, you don't gain the Armor Class bonus of the Shield."
+			]
+		},
+		{
+			"source": "XUA2022ClericAndRevisedSpecies",
+			"page": 15,
+			"name": "Attack Roll",
+			"entries": [
+				"The Attack Roll is one of three types of {@dice d20} Tests. This Unearthed Arcana article uses the rules for attack rolls and critical hits found in the 2014 {@book Player's Handbook|PHB|9|Attack Rolls}."
+			]
+		},
+		{
+			"source": "XUA2022ClericAndRevisedSpecies",
+			"page": 16,
+			"name": "Blindsight",
+			"entries": [
+				"If you have Blindsight, you can effectively see within a specific range without relying on physical sight. Within that range, you can effectively see anything that isn't behind Total Cover, even if you're Blinded or in Darkness. Moreover, you can effectively see a {@condition Hidden|XUA2022ClericAndRevisedSpecies} or an {@condition Invisible|XUA2022ClericAndRevisedSpecies} creature in that range."
+			]
+		},
+		{
+			"source": "XUA2022ClericAndRevisedSpecies",
+			"page": 16,
+			"name": "Climb Speed",
+			"entries": [
+				"A Climb Speed can be used to move on a vertical surface without expending the extra movement normally associated with climbing. A Climb Speed can also be used in any situation in which your Speed is usable.",
+				"Some creatures have the Spider Climb trait, which allows their Climb Speed to work even on the underside of horizontal surfaces."
+			]
+		},
+		{
+			"source": "XUA2022ClericAndRevisedSpecies",
+			"page": 16,
+			"name": "Creature Type",
+			"entries": [
+				"All creatures in D&D, including every player character, has a special tag in the rules that identifies the type of creature they are. Most player characters are of the Humanoid type.",
+				"Here's a list of the game's Creature Types in alphabetical order:",
+				{
+					"type": "table",
+					"colStyles": [
+						"col-6 text-center",
+						"col-6 text-center"
+					],
+					"rows": [
+						[
+							"Aberration",
+							"Fiend"
+						],
+						[
+							"Beast",
+							"Giant"
+						],
+						[
+							"Celestial",
+							"Humanoid"
+						],
+						[
+							"Construct",
+							"Monstrosity"
+						],
+						[
+							"Dragon",
+							"Ooze"
+						],
+						[
+							"Elemental",
+							"Plant"
+						],
+						[
+							"Fey",
+							"Undead"
+						]
+					]
+				},
+				"These types don't have rules themselves, but some rules in the game affect creatures of certain types in different ways. For example, the description of the {@spell Cure Wounds} Spell specifies the healing doesn't work on a Construct."
+			]
+		},
+		{
+			"source": "XUA2022ClericAndRevisedSpecies",
+			"page": 16,
+			"name": "D20 Tests",
+			"entries": [
+				"The term {@dice d20} Test encompasses the three main {@dice d20} rolls of the game: Ability Checks, Attack Rolls, and Saving Throws. If something in the game affects {@dice d20} Tests, it affects all three of these rolls.",
+				"Whenever a player character rolls a 1 for a {@dice d20} Test, that character gains {@variantrule Heroic Inspiration|XUA2022ClericAndRevisedSpecies}.",
+				"The DM determines whether a {@dice d20} Test is warranted in any given circumstance."
+			]
+		},
+		{
+			"source": "XUA2022ClericAndRevisedSpecies",
+			"page": 17,
+			"name": "Difficult Terrain",
+			"entries": [
+				"If a space is Difficult Terrain, every foot of movement in that space costs 1 extra foot. For example, moving 5 feet through Difficult Terrain costs 10 feet of movement. Difficult Terrain isn't cumulative; either a space is Difficult Terrain or it isn't.",
+				"A space is Difficult Terrain for a creature if the space contains any of the following:",
+				{
+					"type": "list",
+					"style": "list-no-bullets",
+					"items": [
+						"Creature that isn't Tiny",
+						"Furniture that is Small or larger",
+						"Heavy snow",
+						"Heavy undergrowth",
+						"Liquid that's between shin- and waist-deep (any deeper and you need to Swim)",
+						"Narrow opening that is sized for a creature one",
+						"Size smaller",
+						"Pit or another gap of 2\u20135 feet",
+						"Rubble",
+						"Slope of 20 degrees or more"
+					]
+				},
+				"The DM may determine that other things count as Difficult Terrain based on the examples here."
+			]
+		},
+		{
+			"source": "XUA2022ClericAndRevisedSpecies",
+			"page": 19,
+			"name": "Expertise",
+			"entries": [
+				"Expertise is a special feature that enhances your use of a particular Skill Proficiency. If you gain Expertise, you gain it in one Skill in which you have Proficiency. You can never have Expertise in the same Skill Proficiency more than once.",
+				"When you make an {@variantrule {@variantrule Ability Check|XUA2022ClericAndRevisedSpecies}|XUA2022ClericAndRevisedSpecies} with a Skill Proficiency in which you have Expertise, your Proficiency Bonus is doubled for that check."
+			]
+		},
+		{
+			"source": "XUA2022ClericAndRevisedSpecies",
+			"page": 19,
+			"name": "Fly Speed",
+			"entries": [
+				"A Fly Speed can be used to move through the air. While you have a Fly Speed, you can stay aloft until you land, fall, or die.",
+				"While flying, you fall if you are {@condition Incapacitated|XUA2022ClericAndRevisedSpecies} or Restrained. If you have the Hover trait, you can stay aloft even while Incapacitated or Restrained."
+			]
+		},
+		{
+			"source": "XUA2022ClericAndRevisedSpecies",
+			"page": 19,
+			"name": "Heroic Inspiration",
+			"entries": [
+				"When you have Heroic Inspiration (also called Inspiration), you can expend it to give yourself Advantage on a {@dice d20} Test. You decide to do so immediately after rolling the {@dice d20}.",
+				{
+					"type": "entries",
+					"name": "Gaining Heroic Inspiration",
+					"entries": [
+						"A player character gains Heroic Inspiration if the character rolls a 1 for a {@dice d20} Test. That 1 must be on the {@dice d20} used for the test's total, not on a {@dice d20} that was rerolled or discarded. This Heroic Inspiration represents a character's resolve to do better after fumbling an attempt.",
+						"The DM can also award Heroic Inspiration to a player character who's done something that is particularly heroic or in character."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Only One at a Time",
+					"entries": [
+						"You can never have more than one instance of Heroic Inspiration. If something gives you Heroic Inspiration and you already have it, you can give Heroic Inspiration to a player character in your group who lacks it"
+					]
+				}
+			]
+		},
+		{
+			"source": "XUA2022ClericAndRevisedSpecies",
+			"page": 22,
+			"name": "Long Rest",
+			"entries": [
+				"A Long Rest is a period of extended downtime\u2014at least 8 hours long\u2014available to any creature. During a Long Rest, you sleep for at least 6 hours and perform no more than 2 hours of light activity, such as reading, talking, eating, or standing watch.",
+				{
+					"type": "entries",
+					"name": "Benefits of the Rest",
+					"entries": [
+						"To start a Long Rest, you must have at least 1 Hit Point. When you finish the rest, you gain the following benefits:",
+						"Regain All HP. You regain all lost Hit Points.",
+						"Regain All HD. You regain all spent Hit Dice.",
+						"HP Max Restored. If your Hit Point Maximum was reduced, it returns to normal."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Ability Scores Restored",
+					"entries": [
+						"If any of your Ability Scores were reduced, they return to normal."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Exhaustion Reduced",
+					"entries": [
+						"If you are {@condition Exhausted|XUA2022ClericAndRevisedSpecies}, your level of {@condition exhaustion} decreases by 1.",
+						"After you finish a Long Rest, you must wait at least 16 hours before starting another one."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Interrupting the Rest",
+					"entries": [
+						"A Long Rest is stopped by the following interruptions:"
+					]
+				},
+				{
+					"type": "list",
+					"items": [
+						"Combat",
+						"Casting a spell other than a 0-level spell • 1 hour of walking or other physical exertion If the rest was at least 1 hour long before the interruption, you gain the benefits of a Short Rest."
+					]
+				},
+				"You can resume a Long Rest immediately after an interruption. If you do so, the rest requires 1 additional hour to finish per interruption."
+			]
+		},
+		{
+			"source": "XUA2022ClericAndRevisedSpecies",
+			"page": 22,
+			"name": "Move",
+			"entries": [
+				"When you Move, you can go a distance equal to your Speed or less. For example, if you have a Speed of 30 feet, you can go up to 30 feet when you Move. {@variantrule Difficult Terrain|XUA2022ClericAndRevisedSpecies} can slow you down.",
+				{
+					"type": "entries",
+					"name": "Breaking Up Your Move",
+					"entries": [
+						"You can break up your Move, using some of its movement before and after any Action you take on the same turn. For example, if you have a Speed of 30 feet, you could go 10 feet, take an Action, and then go 20 feet."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Moving Around Other Creatures",
+					"entries": [
+						"During your Move, you can pass through the space of an ally, an {@condition Incapacitated|XUA2022ClericAndRevisedSpecies} creature, a Tiny creature, or a creature who is two Sizes larger or smaller than you.",
+						"Another creature's space is {@variantrule Difficult Terrain|XUA2022ClericAndRevisedSpecies} for you, unless that creature is Tiny. You can't willingly end your Move in a space occupied by another creature."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Climbing and Swimming",
+					"entries": [
+						"You can use your Speed to climb or swim. Some creatures also have a {@variantrule Climb Speed|XUA2022ClericAndRevisedSpecies} or a {@variantrule Swim Speed|XUA2022ClericAndRevisedSpecies}.",
+						"If you use your Speed to climb or swim, each foot of movement costs 1 extra foot. For example, if you swim or climb 5 feet, you must spend 10 feet of movement to do so with your Speed. If you're swimming or climbing through {@variantrule Difficult Terrain|XUA2022ClericAndRevisedSpecies}, that 5 feet of movement costs 15 feet!"
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Special Speeds",
+					"entries": [
+						"Some creatures have special speeds, such as a {@variantrule Climb Speed|XUA2022ClericAndRevisedSpecies}, a {@variantrule Fly Speed|XUA2022ClericAndRevisedSpecies}, or a {@variantrule Swim Speed|XUA2022ClericAndRevisedSpecies}. If you have more than one speed, you must choose which one to use each time you take your Move. For example, if you have a Speed and a {@variantrule Climb Speed|XUA2022ClericAndRevisedSpecies}, you can use one of those speeds when you Move, not both during the same Move.",
+						"If you take more than one Move on a turn and have more than one speed, each Move can use the same speed or a different one. For example, if you have both a Speed and a {@variantrule Fly Speed|XUA2022ClericAndRevisedSpecies} and you take the {@action Dash|XUA2022ClericAndRevisedSpecies} Action on your turn, you could use your Speed for the Move and your {@variantrule Fly Speed|XUA2022ClericAndRevisedSpecies} for the {@action Dash|XUA2022ClericAndRevisedSpecies} or vice versa."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Speed of 0",
+					"entries": [
+						"If an effect zeroes your Speed for a time, any special speed you have is also zeroed for the same duration. For example, if you have a Speed and a {@variantrule Climb Speed|XUA2022ClericAndRevisedSpecies}, both speeds are zeroed if you're subjected to the {@condition Grappled|XUA2022ClericAndRevisedSpecies} Condition."
+					]
+				}
+			]
+		},
+		{
+			"source": "XUA2022ClericAndRevisedSpecies",
+			"page": 25,
+			"name": "Ritual Casting",
+			"entries": [
+				"If you have a Spell prepared that has the Ritual tag, you can cast that Spell as a Ritual. A special feature is no longer required for Ritual casting. All the other rules on Rituals in the 2014 Player's Handbook still apply."
+			]
+		},
+		{
+			"source": "XUA2022ClericAndRevisedSpecies",
+			"page": 26,
+			"name": "Swim Speed",
+			"entries": [
+				"A Swim Speed can be used to move through a liquid without expending the extra movement normally associated with swimming."
+			]
+		},
+		{
+			"source": "XUA2022ClericAndRevisedSpecies",
+			"page": 26,
+			"name": "Tool Proficiency",
+			"entries": [
+				"If you have Proficiency with a tool, you can add your Proficiency Bonus to any {@variantrule Ability Check|XUA2022ClericAndRevisedSpecies} you make that uses that tool. If you have Proficiency in the Skill that's also used with that check, you have Advantage on the check too. This means you can benefit from both Skill Proficiency and Tool Proficiency on the same {@variantrule Ability Check|XUA2022ClericAndRevisedSpecies}"
+			]
+		},
+		{
+			"source": "XUA2022ClericAndRevisedSpecies",
+			"page": 26,
+			"name": "Teleportation",
+			"entries": [
+				"Teleportation is a special kind of magical transportation. If you teleport, you disappear and reappear elsewhere instantly, without moving through the intervening space. This transportation doesn't expend movement, unless a rule tells you otherwise, and teleportation never provokes Opportunity Attacks.",
+				"When you teleport, all the equipment you are wearing and carrying teleports with you. If you are touching another creature when you teleport, that creature doesn't teleport with you, unless the teleportation effect says otherwise.",
+				"If the destination space of your teleportation is occupied by another creature or blocked by a solid obstacle, you instead appear in the nearest unoccupied space of your choice.",
+				"The description of a teleportation effect tells you if you must see the teleportation's destination."
+			]
+		},
+		{
+			"source": "XUA2022ClericAndRevisedSpecies",
+			"page": 26,
+			"name": "Tremorsense",
+			"entries": [
+				"A creature with Tremorsense can pinpoint the location of creatures and moving objects within a specific range, provided that the creature with Tremorsense and anything it's detecting are both in contact with the same surface (such as the ground, a wall, or a ceiling) or the same liquid.",
+				"Tremorsense can't detect creatures or objects in the air, and Tremorsense doesn't count as a form of sight."
+			]
+		},
+		{
+			"source": "XUA2022ClericAndRevisedSpecies",
+			"page": 26,
+			"name": "Truesight",
+			"entries": [
+				"A creature with Truesight has enhanced vision within a specified range. Within that range, the creature's vision pierces through the following: Darkness. The creature can see in normal and magical darkness.",
+				{
+					"type": "entries",
+					"name": "Invisibility",
+					"entries": [
+						"The creature can see {@condition Invisible|XUA2022ClericAndRevisedSpecies} creatures and objects."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Visual Illusions",
+					"entries": [
+						"The creature notices visual illusions and automatically succeeds on Saving Throws against them."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Transformations",
+					"entries": [
+						"The creature discerns the true form of any creature or object it sees that has been transformed by magic."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Ethereal Plane",
+					"entries": [
+						"The creature can see into the Ethereal Plane"
+					]
+				}
+			]
+		},
+		{
+			"source": "XUA2022ClericAndRevisedSpecies",
+			"page": 26,
+			"name": "Unarmed Strike",
+			"entries": [
+				"An Unarmed Strike is a melee attack that involves you using your body to damage, grapple, or shove a target within your Reach.",
+				"Your bonus to hit with an Unarmed Strike equals your Strength modifier plus your Proficiency Bonus. On a hit, your Unarmed Strike causes one of the following effects of your choice:",
+				{
+					"type": "entries",
+					"name": "Damage",
+					"entries": [
+						"The target takes Bludgeoning Damage equal to 1 + your Strength modifier."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Grapple",
+					"entries": [
+						"The target is {@condition Grappled|XUA2022ClericAndRevisedSpecies}, and the grapple's escape DC equals 8 + your Strength modifier + your Proficiency Bonus. This grapple is possible only if the target is no more than one Size larger than you and if you have a hand free to grab the target."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Shove",
+					"entries": [
+						"You either push the target 5 feet away or knock the target Prone. This shove is possible only if the target is no more than one Size larger than you."
+					]
+				}
+			]
+		},
+		{
+			"source": "XUA2022ClericAndRevisedSpecies",
+			"page": 15,
+			"name": "Artisan's Tools",
+			"entries": [
+				"Artisan's Tools are a category of tool with which a character can gain {@variantrule Tool Proficiency|XUA2022ClericAndRevisedSpecies}. For a list of Artisan's Tools, see the 2014 Player's Handbook, but ignore the prices there; those tools now cost 15 GP apiece."
+			]
+		},
+		{
+			"source": "XUA2022ClericAndRevisedSpecies",
+			"page": 19,
+			"name": "Gaming Set",
+			"entries": [
+				"Gaming Sets are a category of tool with which a character can gain {@variantrule Tool Proficiency|XUA2022ClericAndRevisedSpecies}. For a list of Gaming Sets, see the 2014 Player's Handbook, but ignore the prices there; those sets now cost 1 GP apiece."
+			]
+		},
+		{
+			"source": "XUA2022ClericAndRevisedSpecies",
+			"page": 23,
+			"name": "Musical Instrument",
+			"entries": [
+				"Musical Instruments are a category of tool with which a character can gain {@variantrule Tool Proficiency|XUA2022ClericAndRevisedSpecies}. For a list of Musical Instruments, see the 2014 Player's Handbook, but ignore the prices there; those instruments now cost 20 GP apiece."
+			]
+		}
+	],
+	"item": [
+		{
+			"name": "Priest's Pack",
+			"source": "XUA2022ClericAndRevisedSpecies",
+			"page": 23,
+			"type": "G",
+			"rarity": "none",
+			"weight": 24,
+			"value": 3300,
+			"entries": [
+				"Includes:",
+				{
+					"type": "list",
+					"items": [
+						"{@item Backpack|phb}",
+						"{@item Blanket|phb}",
+						"{@item Lamp|phb}",
+						"{@item Holy Water (flask)|phb|Holy Water}",
+						"{@item Rations (1 day)|phb|Rations} (7 days)",
+						"{@item Robes|phb|Robe}",
+						"{@item Tinderbox|phb}"
+					]
+				}
+			],
+			"packContents": [
+				"backpack|phb",
+				"blanket|phb",
+				"lamp|phb",
+				"tinderbox|phb",
+				{
+					"item": "rations (1 day)|phb",
+					"quantity": 7
+				},
+				"robes|phb"
+			]
+		}
+	],
+	"feat": [
+		{
+			"name": "Ability Score Improvement",
+			"source": "XUA2022ClericAndRevisedSpecies",
+			"page": 16,
+			"prerequisite": [
+				{
+					"level": 4
+				}
+			],
+			"ability": [
+				{
+					"choose": {
+						"from": [
+							"str",
+							"dex",
+							"con",
+							"int",
+							"wis",
+							"cha"
+						],
+						"amount": 2
+					},
+					"hidden": true
+				},
+				{
+					"choose": {
+						"from": [
+							"str",
+							"dex",
+							"con",
+							"int",
+							"wis",
+							"cha"
+						],
+						"count": 2
+					},
+					"hidden": true
+				}
+			],
+			"repeatable": true,
+			"entries": [
+				"You increase one Ability Score of your choice by 2, or you increase two Ability Scores of your choice by 1. You can't increase an Ability Score above 20."
+			]
+		},
+		{
+			"name": "Epic Boon of Fate",
+			"source": "XUA2022ClericAndRevisedSpecies",
+			"page": 11,
+			"prerequisite": [
+				{
+					"level": 20,
+					"group": [
+						"mage",
+						"priest"
+					]
+				}
+			],
+			"entries": [
+				"When another creature that you can see within 60 feet of you makes a {@dice d20} Test, you can roll a {@dice d10} and apply the number rolled as a bonus or a penalty to the {@dice d20} roll. Once you use this benefit, you can't use it again until you roll Initiative or finish a Short Rest or a {@variantrule Long Rest|XUA2022ClericAndRevisedSpecies}."
+			]
+		},
+		{
+			"name": "Epic Boon of Spell Recall",
+			"source": "XUA2022ClericAndRevisedSpecies",
+			"page": 11,
+			"prerequisite": [
+				{
+					"level": 20,
+					"group": [
+						"mage",
+						"priest"
+					]
+				}
+			],
+			"entries": [
+				"You can cast any spell you have prepared without expending a spell slot, provided the spell is 5th level or lower. Once you do so, you can't use this benefit again until you finish a {@variantrule Long Rest|XUA2022ClericAndRevisedSpecies}."
+			]
+		},
+		{
+			"name": "Epic Boon of Truesight",
+			"source": "XUA2022ClericAndRevisedSpecies",
+			"page": 11,
+			"prerequisite": [
+				{
+					"level": 20,
+					"group": [
+						"mage",
+						"priest"
+					]
+				}
+			],
+			"entries": [
+				"You have {@variantrule Truesight|XUA2022ClericAndRevisedSpecies} out to a range of 60 feet."
+			]
+		}
+	],
+	"spell": [
+		{
+			"name": "Aid",
+			"source": "XUA2022ClericAndRevisedSpecies",
+			"page": 12,
+			"level": 2,
+			"school": "D",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 30
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": "a tiny strip of white cloth"
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"entries": [
+				"Your spell bolsters creatures, filling them with resolve. Choose up to six creatures within range. Each target gains 5 Temporary Hit Points.",
+				{
+					"type": "entries",
+					"name": "At Higher Levels",
+					"entries": [
+						"When you cast this spell using a spell slot of 3rd level or higher, the number of Temporary Hit Points increases by 5 for each slot level above 2nd."
+					]
+				}
+			],
+			"groups": [
+				{
+					"name": "Divine",
+					"source": "XUA2022ClericAndRevisedSpecies"
+				}
+			]
+		},
+		{
+			"name": "Banishment",
+			"source": "XUA2022ClericAndRevisedSpecies",
+			"page": 15,
+			"level": 4,
+			"school": "A",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 30
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": "an item distasteful to the target"
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 1
+					},
+					"concentration": true
+				}
+			],
+			"entries": [
+				"You attempt to send one creature that you can see within range to another plane of existence. The target must succeed on a Charisma Saving Throw or be transported to a harmless demiplane for the duration. The target can willingly fail the save.",
+				"While in the demiplane, the target is {@condition Incapacitated|XUA2022ClericAndRevisedSpecies}. At the end of each of its turns, the target can repeat the save, ending the Spell on itself on a success. When the Spell ends on the target, it reappears in the space it left or in the nearest unoccupied space if that space is occupied.",
+				"If the Spell lasts on the target for 1 minute and the target is an Aberration, a Celestial, an Elemental, a Fey, or a Fiend, the target doesn't return. It is instead transported to a random location on a plane associated with its {@variantrule Creature Type|XUA2022ClericAndRevisedSpecies}.",
+				{
+					"type": "entries",
+					"name": "At Higher Levels",
+					"entries": [
+						"When you cast this Spell using a Spell Slot of 5th level or higher, you can target one additional creature for each slot level above 4th."
+					]
+				}
+			],
+			"groups": [
+				{
+					"name": "Arcane",
+					"source": "XUA2022ClericAndRevisedSpecies"
+				},
+				{
+					"name": "Divine",
+					"source": "XUA2022ClericAndRevisedSpecies"
+				}
+			]
+		},
+		{
+			"name": "Barkskin",
+			"source": "XUA2022ClericAndRevisedSpecies",
+			"page": 16,
+			"level": 2,
+			"school": "T",
+			"time": [
+				{
+					"number": 1,
+					"unit": "bonus"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "touch"
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": "a handful of bark"
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "hour",
+						"amount": 1
+					},
+					"concentration": true
+				}
+			],
+			"entries": [
+				"You touch one willing creature to protect it with regenerating bark. Until the Spell ends, the target's skin assumes a bark-like appearance, and at the start of each of the target's turns, the target gains a number of Temporary Hit Points equal to your spellcasting ability modifier plus your Proficiency Bonus.",
+				{
+					"type": "entries",
+					"name": "At Higher Levels",
+					"entries": [
+						"When you cast this Spell using a Spell Slot of 3rd level or higher, you can target one additional willing creature for each slot level above 2nd."
+					]
+				}
+			],
+			"groups": [
+				{
+					"name": "Primal",
+					"source": "XUA2022ClericAndRevisedSpecies"
+				}
+			]
+		},
+		{
+			"name": "Guidance",
+			"source": "XUA2022ClericAndRevisedSpecies",
+			"page": 19,
+			"level": 0,
+			"school": "D",
+			"time": [
+				{
+					"number": 1,
+					"unit": "reaction",
+					"condition": "which you take in response to you or an ally within 10 feet of you failing an {@variantrule Ability Check|XUA2022ClericAndRevisedSpecies}"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 10
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"entries": [
+				"You channel magical insight to the creature who failed the {@variantrule Ability Check|XUA2022ClericAndRevisedSpecies}. That creature can roll a {@dice d4} and add the number rolled to the check, potentially turning it into a success."
+			],
+			"groups": [
+				{
+					"name": "Divine",
+					"source": "XUA2022ClericAndRevisedSpecies"
+				},
+				{
+					"name": "Primal",
+					"source": "XUA2022ClericAndRevisedSpecies"
+				}
+			]
+		},
+		{
+			"name": "Prayer of Healing",
+			"source": "XUA2022ClericAndRevisedSpecies",
+			"page": 23,
+			"level": 2,
+			"school": "A",
+			"time": [
+				{
+					"number": 10,
+					"unit": "minute"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 30
+				}
+			},
+			"components": {
+				"v": true
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"entries": [
+				"You utter an extended prayer of restoration. Choose a number of willing creatures equal to your Spellcasting Ability Modifier (minimum of 1). Each of those creatures who remains within range for the Spell's entire casting gains the benefits of a Short Rest and also regains {@dice 2d8} Hit Points, and a creature can't be affected by this Spell again until that creature finishes a {@variantrule Long Rest|XUA2022ClericAndRevisedSpecies}.",
+				{
+					"type": "entries",
+					"name": "At Higher Levels",
+					"entries": [
+						"When you cast this Spell using a Spell Slot of 3rd level or higher, the healing increases by {@scaledice 2d8|2-9|1d8} for each slot above 2nd."
+					]
+				}
+			],
+			"groups": [
+				{
+					"name": "Divine",
+					"source": "XUA2022ClericAndRevisedSpecies"
+				}
+			]
+		},
+		{
+			"name": "Resistance",
+			"source": "XUA2022ClericAndRevisedSpecies",
+			"page": 25,
+			"level": 0,
+			"school": "A",
+			"time": [
+				{
+					"number": 1,
+					"unit": "reaction",
+					"condition": "which you take in response to you or an ally within 10 feet of you failing a Saving Throw"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 10
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"entries": [
+				"You channel magical protection to the creature who failed the Saving Throw. That creature can roll a {@dice d4} and add the number rolled to the save, potentially turning it into a success."
+			],
+			"groups": [
+				{
+					"name": "Divine",
+					"source": "XUA2022ClericAndRevisedSpecies"
+				},
+				{
+					"name": "Primal",
+					"source": "XUA2022ClericAndRevisedSpecies"
+				}
+			]
+		},
+		{
+			"name": "Spiritual Weapon",
+			"source": "XUA2022ClericAndRevisedSpecies",
+			"page": 25,
+			"level": 2,
+			"school": "V",
+			"time": [
+				{
+					"number": 1,
+					"unit": "bonus"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 60
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 1
+					},
+					"concentration": true
+				}
+			],
+			"entries": [
+				"You create a floating, spectral force that resembles a weapon of your choice and that lasts for the duration. The force appears within range in a space of your choice, and you can immediately make one melee spell attack against a creature within 5 feet of the force. On a hit, the target takes Force Damage equal to {@dice 1d8} + your spellcasting ability modifier.",
+				"As a Bonus Action on your later turns, you can move the force up to 20 feet and repeat the attack against a creature within 5 feet of it.",
+				{
+					"type": "entries",
+					"name": "At Higher Levels",
+					"entries": [
+						"When you cast this Spell using a Spell Slot of 3rd level or higher, the damage increases by {@scaledamage 1d8|2-9|1d8} for every slot level above 2nd."
+					]
+				}
+			],
+			"groups": [
+				{
+					"name": "Divine",
+					"source": "XUA2022ClericAndRevisedSpecies"
+				}
+			]
+		}
+	],
+	"action": [
+		{
+			"name": "Attack",
+			"page": 15,
+			"source": "XUA2022ClericAndRevisedSpecies",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"entries": [
+				"When you take the Attack Action, you can make one attack with a Weapon or an {@variantrule Unarmed Strike|XUA2022ClericAndRevisedSpecies}.",
+				{
+					"type": "entries",
+					"name": "Equipping Weapons",
+					"entries": [
+						"You can equip or unequip one Weapon before or after any attack you make as part of this Action, even if the attack is with an {@variantrule Unarmed Strike|XUA2022ClericAndRevisedSpecies}."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Moving Between Attacks",
+					"entries": [
+						"If you {@variantrule Move|XUA2022ClericAndRevisedSpecies} on your turn, you can use some or all of that movement to move between the attacks of this Action if you have a feature, such as Extra Attack, that gives you more than one attack as part of the Attack Action."
+					]
+				}
+			]
+		},
+		{
+			"name": "Dash",
+			"page": 16,
+			"source": "XUA2022ClericAndRevisedSpecies",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"entries": [
+				"Taking the Dash Action allows you to make a bonus {@variantrule Move|XUA2022ClericAndRevisedSpecies} during the current turn."
+			]
+		},
+		{
+			"name": "Help",
+			"page": 19,
+			"source": "XUA2022ClericAndRevisedSpecies",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"entries": [
+				"When you take the Help Action, you do one of the following:",
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"items": [
+						{
+							"type": "item",
+							"name": "Assist Ability Check",
+							"entries": [
+								"Choose one of your Skill Proficiencies and one ally who can see or hear you. You give Advantage to the next {@variantrule Ability Check|XUA2022ClericAndRevisedSpecies} that ally makes with the chosen Skill. This benefit expires if the ally doesn't use it before the start of your next turn. To give this assistance, you must be near enough to the ally to assist verbally or physically when the ally makes the check. The DM has final say on whether your assistance is possible."
+							]
+						},
+						{
+							"type": "item",
+							"name": "Assist Attack Roll",
+							"entries": [
+								"You momentarily distract an enemy within 5 feet of you, granting Advantage to the next {@variantrule Attack Roll|XUA2022ClericAndRevisedSpecies} by one of your allies against that enemy. This benefit expires at the start of your next turn."
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Hide",
+			"page": 20,
+			"source": "XUA2022ClericAndRevisedSpecies",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"entries": [
+				"With the Hide Action, you try to conceal yourself. To do so, you must make a {@dc 15} Dexterity Check ({@skill Stealth}) while you're Heavily Obscured or behind Three-Quarters Cover or Total Cover, and you must be out of any visible enemy's line of sight; if you can see a creature, you can discern whether it can see you.",
+				"On a successful check, you are {@condition Hidden|XUA2022ClericAndRevisedSpecies}. Make note of your check's total, which becomes the DC for a creature to find you with a Wisdom Check ({@skill Perception})."
+			]
+		},
+		{
+			"name": "Influence",
+			"page": 20,
+			"source": "XUA2022ClericAndRevisedSpecies",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"entries": [
+				"With the Influence Action, you can try to influence another creature to do something you request or demand. This Action can be used only on creatures controlled by the DM, and it isn't mind control; it can't force a creature to do something that is counter to the creature's alignment or that is otherwise repugnant to the creature.",
+				"This Action has three main parts: Attitude, interaction, and a Charisma Check.",
+				{
+					"type": "entries",
+					"name": "Attitude",
+					"entries": [
+						"A creature's Attitude determines how a character can influence that creature. Each DM controlled creature has one of the following Attitudes toward the player characters:",
+						{
+							"type": "list",
+							"style": "list-hang-notitle",
+							"items": [
+								{
+									"type": "item",
+									"name": "Indifferent",
+									"entries": [
+										"This is the default Attitude for DMcontrolled creatures. An Indifferent creature might help or hinder the party, depending on what the creature sees as most beneficial. A creature's indifference doesn't necessarily make it standoffish or disinterested. Indifferent creatures might be polite and genial, surly and irritable, or anything in between. A successful Charisma Check is often necessary when the adventurers try to persuade an Indifferent creature to do something."
+									]
+								},
+								{
+									"type": "item",
+									"name": "Friendly",
+									"entries": [
+										"A Friendly creature wants to help the adventurers and wishes for them to succeed. For tasks or actions that require no particular risk, effort, or cost, Friendly creatures often help happily. If an element of personal risk is involved, a successful Charisma Check might be required to convince a Friendly creature to take that risk."
+									]
+								},
+								{
+									"type": "item",
+									"name": "Hostile",
+									"entries": [
+										"A Hostile creature opposes the adventurers and their goals but doesn't necessarily attack them on sight. The adventurers need to succeed on one or more challenging Charisma Checks to convince a Hostile creature to do anything on the party's behalf; however, the DM might determine that the Hostile creature is so ill-disposed toward the characters that no Charisma Check can sway it, in which case the first check fails automatically and no further Influence attempts can be made on the creature unless its Attitude shifts."
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Interaction",
+					"entries": [
+						"When you take the Influence Action, either roleplay how your character interacts with the creature or describe your character's behavior\u2014focusing on your character's request or demand. If the interaction is especially suited to the creature's desires and outlook, the DM might grant Advantage to your subsequent check or might temporarily shift a Hostile creature to Indifferent or an Indifferent creature to Friendly.",
+						"Similarly, if the interaction is particularly irksome to the creature, the DM might impose Disadvantage on your subsequent check or might temporarily shift a Friendly creature to Indifferent or an Indifferent creature to Hostile."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Ability Check",
+					"entries": [
+						"To determine whether your request or demand is successful, you make a Charisma Check. You have Advantage on the check if the creature is Friendly, and you have Disadvantage if the creature is Hostile.",
+						{
+							"type": "entries",
+							"name": "Choosing a Skill",
+							"entries": [
+								"The Influence Skills table suggests which Skills are applicable when you make the Charisma Check, depending on the interaction that precedes the roll."
+							]
+						},
+						{
+							"type": "table",
+							"caption": "Influence Skills",
+							"colLabels": [
+								"Skill",
+								"Interaction"
+							],
+							"colStyles": [
+								"col-3",
+								"col-9"
+							],
+							"rows": [
+								[
+									"{@skill Animal Handling}",
+									"Gently coaxing a Beast or a Monstrosity"
+								],
+								[
+									"{@skill Deception}",
+									"Deceiving a creature that can understand you"
+								],
+								[
+									"{@skill Intimidation}",
+									"Intimidating a creature"
+								],
+								[
+									"{@skill Persuasion}",
+									"Persuading a creature that can understand you"
+								]
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Setting the DC",
+							"entries": [
+								"The minimum DC for the check is 15 or the creature's Intelligence score, whichever is higher. Outcome. If your check succeeds, the creature does as asked. If your check fails, you must wait to make the same request again. The default wait time is 24 hours, which the DM may shorten or extend depending on the circumstances."
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Jump",
+			"page": 21,
+			"source": "XUA2022ClericAndRevisedSpecies",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"entries": [
+				"With the Jump Action, you attempt to leap more than 5 feet (a jump of 5 feet or less is treated as Difficult Terrain). When you take this Action, your Speed must be greater than 0, and you must make a {@dc 10} Strength Check ({@skill Acrobatics} or {@skill Athletics}). If you don't {@variantrule Move|XUA2022ClericAndRevisedSpecies} at least 10 feet immediately before this Action, you have Disadvantage on the check.",
+				"On a failed check, you leap 5 feet horizontally or vertically.",
+				"On a successful check, the check's total determines the distance in feet that you can clear horizontally, or half that total if you're jumping vertically (round down). This jump doesn't expend your movement, but the distance you clear can't exceed your Speed."
+			]
+		},
+		{
+			"name": "Magic",
+			"page": 35,
+			"source": "XUA2022ClericAndRevisedSpecies",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"entries": [
+				"When you take the Magic Action, you cast a Spell that has a casting time of an Action, or you use a Magic Item that requires an Action to be activated.",
+				"If you cast a Spell that has a casting time of 1 minute or longer, you must take the Magic Action on each turn of that casting, and you must maintain Concentration while you do so. If your Concentration is broken, the Spell fails, but you don't expend a Spell Slot."
+			]
+		},
+		{
+			"name": "Search",
+			"page": 25,
+			"source": "XUA2022ClericAndRevisedSpecies",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"entries": [
+				"When you take the Search Action, you make a Wisdom Check to discern something that isn't obvious. The Search table suggests which Skills are applicable when you take this Action, depending on what you're trying to detect.",
+				{
+					"type": "table",
+					"caption": "Search",
+					"colLabels": [
+						"Skill",
+						"Thing to Detect"
+					],
+					"colStyles": [
+						"col-3",
+						"col-9"
+					],
+					"rows": [
+						[
+							"{@skill Insight}",
+							"Creature's state of mind"
+						],
+						[
+							"{@skill Medicine}",
+							"Creature's ailment"
+						],
+						[
+							"{@skill Perception}",
+							"Concealed creature or object"
+						],
+						[
+							"{@skill Survival}",
+							"Tracks or food"
+						]
+					]
+				}
+			]
+		},
+		{
+			"name": "Study",
+			"page": 25,
+			"source": "XUA2022ClericAndRevisedSpecies",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"entries": [
+				"When you take the Study Action, you make an Intelligence Check to study your memory, a book, a creature, a clue, an object, or another source of knowledge and call to mind an important piece of information about it.",
+				"The Areas of Knowledge table suggests which Skills are applicable when you take this Action, depending on the area of knowledge the Intelligence Check is about.",
+				{
+					"type": "table",
+					"caption": "Areas of Knowledge",
+					"colLabels": [
+						"Skill",
+						"Areas"
+					],
+					"colStyles": [
+						"col-1",
+						"col-11"
+					],
+					"rows": [
+						[
+							"{@skill Arcana}",
+							"Spells, magic items, eldritch symbols, magical traditions, planes of existence, and certain creatures (Aberrations, Constructs, Elementals, Fey, and Monstrosities)"
+						],
+						[
+							"{@skill History}",
+							"Historic events and people, ancient civilizations, wars, and certain creatures (Giants and Humanoids)"
+						],
+						[
+							"{@skill Investigation}",
+							"Traps, ciphers, riddles, and gadgetry"
+						],
+						[
+							"{@skill Nature}",
+							"Terrain, flora, weather, and certain creatures (Beasts, Dragons, Oozes, and Plants)"
+						],
+						[
+							"{@skill Religion}",
+							"Deities, religious hierarchies and rites, holy symbols, cults, and certain creatures (Celestials, Fiends, and Undead)"
+						]
+					]
+				}
+			]
+		}
+	],
+	"condition": [
+		{
+			"source": "XUA2022ClericAndRevisedSpecies",
+			"page": 17,
+			"name": "Dazed",
+			"entries": [
+				"While Dazed, you experience the following effect:",
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"items": [
+						{
+							"type": "item",
+							"name": "Limited Activity",
+							"entries": [
+								"You can {@variantrule Move|XUA2022ClericAndRevisedSpecies} or take one Action on your turn, not both. You also can't take a Bonus Action or a Reaction."
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Exhausted",
+			"source": "XUA2022ClericAndRevisedSpecies",
+			"page": 18,
+			"entries": [
+				"While Exhausted (known in older books as Exhaustion), you experience the following effects:",
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"items": [
+						{
+							"type": "item",
+							"name": "Levels of Exhaustion",
+							"entry": "This Condition is cumulative. Each time you receive it, you gain 1 level of {@condition exhaustion}. You die if your {@condition exhaustion} level exceeds 10."
+						},
+						{
+							"type": "item",
+							"name": "d20 Rolls Affected",
+							"entry": "When you make a {@dice d20} Test, you subtract your {@condition exhaustion} level from the {@dice d20} roll."
+						},
+						{
+							"type": "item",
+							"name": "Spell Save DCs Affected",
+							"entry": "Subtract your {@condition exhaustion} level from the Spell save DC of any Spell you cast."
+						},
+						{
+							"type": "item",
+							"name": "Ending the Condition",
+							"entry": "Finishing a {@variantrule Long Rest|XUA2022ClericAndRevisedSpecies} removes 1 of your levels of {@condition exhaustion}. When your {@condition exhaustion} level reaches 0, you are no longer Exhausted."
+						}
+					]
+				}
+			]
+		},
+		{
+			"source": "XUA2022ClericAndRevisedSpecies",
+			"page": 19,
+			"name": "Grappled",
+			"entries": [
+				"While you are Grappled, you experience the following effects:",
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"items": [
+						{
+							"type": "item",
+							"name": "Speed 0",
+							"entries": [
+								"Your Speed is 0 and can't change."
+							]
+						},
+						{
+							"type": "item",
+							"name": "Attacks Affected",
+							"entries": [
+								"You have Disadvantage on Attack Rolls against any target other than the grappler."
+							]
+						},
+						{
+							"type": "item",
+							"name": "Movable",
+							"entries": [
+								"The grappler can drag or carry you when it Moves, but the grappler suffers the {@condition Slowed|XUA2022ClericAndRevisedSpecies} Condition while moving, unless you are Tiny or two or more Sizes smaller than the grappler."
+							]
+						},
+						{
+							"type": "item",
+							"name": "Escape",
+							"entries": [
+								"While Grappled, you can make a Dexterity or Strength Saving Throw against the grapple's escape DC at the end of each of your turns, ending the Condition on yourself on a success. The Condition also ends if the grappler is {@condition Incapacitated|XUA2022ClericAndRevisedSpecies} or if something removes you from the grapple's range."
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"source": "XUA2022ClericAndRevisedSpecies",
+			"page": 20,
+			"name": "Hidden",
+			"entries": [
+				"While you are Hidden, you experience the following effects:",
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"items": [
+						{
+							"type": "item",
+							"name": "Concealed",
+							"entries": [
+								"You aren't affected by any effect that requires its target to be seen."
+							]
+						},
+						{
+							"type": "item",
+							"name": "Surprise",
+							"entries": [
+								"If you are Hidden when you roll Initiative, you have Advantage on the roll."
+							]
+						},
+						{
+							"type": "item",
+							"name": "Attacks Affected",
+							"entries": [
+								"Attack Rolls against you have Disadvantage, and your Attack Rolls have Advantage."
+							]
+						},
+						{
+							"type": "item",
+							"name": "Ending the Condition",
+							"entries": [
+								"The Condition ends on you immediately after any of the following occurrences: you make a sound louder than a whisper, an enemy finds you, you make an Attack Roll, you cast a Spell with a verbal component, or you aren't Heavily Obscured or behind any Cover."
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Incapacitated",
+			"source": "XUA2022ClericAndRevisedSpecies",
+			"page": 20,
+			"entries": [
+				"While you are Incapacitated, you experience the following effects:",
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"items": [
+						{
+							"type": "item",
+							"name": "Inactive",
+							"entries": [
+								"You can't take Actions or Reactions. No Concentration. Your Concentration is broken."
+							]
+						},
+						{
+							"type": "item",
+							"name": "No Concentration",
+							"entries": [
+								"Your Concentration is broken."
+							]
+						},
+						{
+							"type": "item",
+							"name": "Speechless",
+							"entries": [
+								"You can't speak."
+							]
+						},
+						{
+							"type": "item",
+							"name": "Surprised",
+							"entries": [
+								"If you are Incapacitated when you roll Initiative, you have Disadvantage on the roll."
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Invisible",
+			"page": 21,
+			"source": "XUA2022ClericAndRevisedSpecies",
+			"entries": [
+				"While you are Invisible, you experience the following effects:",
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"items": [
+						{
+							"type": "item",
+							"name": "Unseeable",
+							"entries": [
+								"You can't be seen, so you aren't affected by any effect that requires its target to be seen. Any equipment you are wearing or carrying also can't be seen."
+							]
+						},
+						{
+							"type": "item",
+							"name": "Surprise",
+							"entries": [
+								"If you are Invisible when you roll initiative, you have Advantage on the roll. Attacks Affected. Attack Rolls against you have Disadvantage, and your Attack Rolls have Advantage."
+							]
+						},
+						{
+							"type": "item",
+							"name": "Attacks Affected",
+							"entries": [
+								"Attack Rolls against you have Disadvantage, and your Attack Rolls have Advantage. If a creature can somehow see you, as with {@variantrule Blindsight|XUA2022ClericAndRevisedSpecies}, you don't gain this benefit against that creature."
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Slowed",
+			"source": "XUA2022ClericAndRevisedSpecies",
+			"page": 25,
+			"entries": [
+				"While you are Slowed, you experience the following effects:",
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"items": [
+						{
+							"type": "item",
+							"name": "Limited Movement",
+							"entries": [
+								"You must spend 1 extra foot of movement for every foot you move using your Speed."
+							]
+						},
+						{
+							"type": "item",
+							"name": "Attacks Affected",
+							"entries": [
+								"Attack Rolls against you have Advantage."
+							]
+						},
+						{
+							"type": "item",
+							"name": "Dexterity Saves Affected",
+							"entries": [
+								"You have Disadvantage on Dexterity Saving Throws."
+							]
+						}
+					]
+				}
+			]
+		}
+	],
+	"baseitem": [
+		{
+			"name": "Shortsword",
+			"source": "XUA2022ClericAndRevisedSpecies",
+			"page": 25,
+			"type": "M",
+			"rarity": "none",
+			"weight": 2,
+			"value": 1000,
+			"weaponCategory": "simple",
+			"property": [
+				"F",
+				"XUA2022ClericAndRevisedSpecies-L"
+			],
+			"dmg1": "1d6",
+			"dmgType": "P",
+			"sword": true,
+			"weapon": true
+		}
+	],
+	"itemProperty": [
+		{
+			"abbreviation": "XUA2022ClericAndRevisedSpecies-L",
+			"source": "XUA2022ClericAndRevisedSpecies",
+			"page": 21,
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Light",
+					"entries": [
+						"When you take the {@action Attack|XUA2022ClericAndRevisedSpecies} Action on your turn and attack with a Light weapon in one hand and have a Light weapon in the other hand, you can make one extra attack as part of the same Action. That extra attack must be made with the Light weapon in the other hand, and you don't add your ability modifier to the extra attack's damage. You can make this extra attack only once on each of your turns.",
+						"For example, if you take the {@action Attack|XUA2022ClericAndRevisedSpecies} Action on your turn and have a Shortsword in one hand and a Dagger in the other\u2014each of which has the Light property\u2014you can make one attack with each weapon, but you don't add your Strength or Dexterity modifier to the damage roll of the second weapon."
+					]
+				}
+			]
+		}
+	],
+	"spellList": [
+		{
+			"name": "Arcane",
+			"source": "XUA2022ClericAndRevisedSpecies",
+			"spellListType": "groups",
+			"spells": [
+				"acid splash",
+				"blade ward",
+				"chill touch",
+				"dancing lights",
+				"fire bolt",
+				"friends",
+				"light",
+				"mage hand",
+				"mending",
+				"message",
+				"minor illusion",
+				"poison spray",
+				"prestidigitation",
+				"ray of frost",
+				"shocking grasp",
+				"true strike",
+				"vicious mockery",
+				"alarm",
+				"armor of agathys",
+				"arms of hadar",
+				"burning hands",
+				"charm person",
+				"chromatic orb",
+				"color spray",
+				"comprehend languages",
+				"detect magic",
+				"disguise self",
+				"dissonant whispers",
+				"expeditious retreat",
+				"false life",
+				"feather fall",
+				"find familiar",
+				"fog cloud",
+				"grease",
+				"hellish rebuke",
+				"hex",
+				"identify",
+				"illusory script",
+				"jump",
+				"longstrider",
+				"mage armor",
+				"magic missile",
+				"protection from evil and good",
+				"ray of sickness",
+				"shield",
+				"silent image",
+				"sleep",
+				"tasha's hideous laughter",
+				"tenser 's floating disk",
+				"thunderwave",
+				"unseen servant",
+				"witch bolt",
+				"alter self",
+				"arcane lock",
+				"blindness/ deafness",
+				"blur",
+				"calm emotions",
+				"cloud of daggers",
+				"continual flame",
+				"crown of madness",
+				"darkness",
+				"darkvision",
+				"detect thoughts",
+				"enlarge/reduce",
+				"enthrall",
+				"flaming sphere",
+				"gust of wind",
+				"hold person",
+				"invisibility",
+				"knock",
+				"levitate",
+				"locate object",
+				"magic aura",
+				"magic mouth",
+				"magic weapon",
+				"melf's acid arrow",
+				"mirror image",
+				"misty step",
+				"phantasmal force",
+				"ray of enfeeblemen t",
+				"rope trick",
+				"scorching ray",
+				"see invisibility",
+				"shatter",
+				"spider climb",
+				"suggestion",
+				"web",
+				"animate dead",
+				"bestow curse",
+				"blink",
+				"clairvoyance",
+				"counterspell",
+				"dispel magic",
+				"fear",
+				"fireball",
+				"fly",
+				"gaseous form",
+				"glyph of warding",
+				"haste",
+				"hunger of hadar",
+				"hypnotic pattern",
+				"leomund's tiny hut",
+				"lightning bolt",
+				"magic circle",
+				"major image",
+				"nondetection",
+				"phantom steed",
+				"protection from energy",
+				"remove curse",
+				"sending",
+				"sleet storm",
+				"slow",
+				"stinking cloud",
+				"tongues",
+				"vampiric touch",
+				"water breathing",
+				"arcane eye",
+				"blight",
+				"compulsion",
+				"confusion",
+				"conjure minor elementals",
+				"control water",
+				"dimension door",
+				"evard's black tentacles",
+				"fabricate",
+				"fire shield",
+				"greater invisibility",
+				"hallucinatory terrain",
+				"ice storm",
+				"leomund's secret chest",
+				"locate creature",
+				"mordenkainen's faithful hound",
+				"mordenkainen's private sanctum",
+				"otiluke's resilient sphere",
+				"phantasmal killer",
+				"polymorph",
+				"stone shape",
+				"stoneskin",
+				"wall of fire",
+				"animate objects",
+				"bigby's hand",
+				"cloudkill",
+				"cone of cold",
+				"conjure elemental",
+				"contact other plane",
+				"creation",
+				"dominate person",
+				"dream",
+				"geas",
+				"hold monster",
+				"legend lore",
+				"mislead",
+				"modify memory",
+				"passwall",
+				"planar binding",
+				"rary's telepathic bond",
+				"scrying",
+				"seeming",
+				"telekinesis",
+				"teleportation circle",
+				"wall of force",
+				"wall of stone",
+				"arcane gate",
+				"chain lightning",
+				"circle of death",
+				"contingency",
+				"create undead",
+				"disintegrate",
+				"eyebite",
+				"flesh to stone",
+				"globe of invulnerability",
+				"guards and wards",
+				"instant summons",
+				"magic jar",
+				"mass suggestion",
+				"move earth",
+				"otiluke's freezing sphere",
+				"otto's irresistible dance",
+				"programmed illusion",
+				"sunbeam",
+				"true seeing",
+				"wall of ice",
+				"delayed blast fireball",
+				"etherealness",
+				"finger of death",
+				"forcecage",
+				"mirage arcane",
+				"mordenkainen's magnificent mansion",
+				"mordenkainen's sword",
+				"plane shift",
+				"prismatic spray",
+				"project image",
+				"reverse gravity",
+				"sequester",
+				"simulacrum",
+				"symbol",
+				"teleport",
+				"antimagic field",
+				"antipathy/ sympathy",
+				"clone",
+				"control weather",
+				"demiplane",
+				"dominate monster",
+				"feeblemind",
+				"glibness",
+				"incendiary cloud",
+				"maze",
+				"mind blank",
+				"power word stun",
+				"sunburst",
+				"telepathy",
+				"astral projection",
+				"foresight",
+				"gate",
+				"imprisonment",
+				"meteor swarm",
+				"power word kill",
+				"prismatic wall",
+				"shapechange",
+				"time stop",
+				"true polymorph",
+				"weird",
+				"wish"
+			]
+		},
+		{
+			"name": "Divine",
+			"source": "XUA2022ClericAndRevisedSpecies",
+			"spellListType": "groups",
+			"spells": [
+				"light",
+				"sacred flame",
+				"spare the dying",
+				"thaumaturgy",
+				"bane",
+				"bless",
+				"command",
+				"compelled duel",
+				"cure wounds",
+				"detect evil and good",
+				"detect magic",
+				"detect poison and disease",
+				"divine favor",
+				"guiding bolt",
+				"healing word",
+				"heroism",
+				"inflict wounds",
+				"protection from evil and good",
+				"purify food and drink",
+				"sanctuary",
+				"searing smite",
+				"shield of faith",
+				"thunderous smite",
+				"wrathful smite",
+				"aid",
+				"augury",
+				"blindness/ deafness",
+				"branding smite",
+				"calm emotions",
+				"find steed",
+				"find traps",
+				"gentle repose",
+				"hold person",
+				"lesser restoration",
+				"locate object",
+				"magic weapon",
+				"protection from poison",
+				"silence",
+				"spiritual weapon",
+				"warding bond",
+				"zone of truth",
+				"aura of vitality",
+				"beacon of hope",
+				"blinding smite",
+				"clairvoyance",
+				"create food and water",
+				"crusader's mantle",
+				"daylight",
+				"dispel magic",
+				"feign death",
+				"glyph of warding",
+				"magic circle",
+				"mass healing word",
+				"remove curse",
+				"revivify",
+				"speak with dead",
+				"spirit guardians",
+				"tongues",
+				"aura of life",
+				"aura of purity",
+				"death ward",
+				"divination",
+				"freedom of movement",
+				"guardian of faith",
+				"locate creature",
+				"staggering smite",
+				"banishing smite",
+				"circle of power",
+				"commune",
+				"contagion",
+				"destructive wave",
+				"dispel evil and good",
+				"flame strike",
+				"geas",
+				"greater restoration",
+				"hallow",
+				"legend lore",
+				"mass cure wounds",
+				"planar binding",
+				"raise dead",
+				"scrying",
+				"blade barrier",
+				"find the path",
+				"forbiddance",
+				"harm",
+				"heal",
+				"heroes' feast",
+				"planar ally",
+				"sunbeam",
+				"true seeing",
+				"word of recall",
+				"conjure celestial",
+				"divine word",
+				"etherealness",
+				"plane shift",
+				"regenerate",
+				"resurrection",
+				"symbol",
+				"antimagic field",
+				"antipathy/ sympathy enchantment 8 holy aura",
+				"sunburst",
+				"astral projection",
+				"foresight",
+				"gate",
+				"mass heal",
+				"power word heal",
+				"true resurrection"
+			]
+		},
+		{
+			"name": "Primal",
+			"source": "XUA2022ClericAndRevisedSpecies",
+			"spellListType": "groups",
+			"spells": [
+				"druidcraft",
+				"mending",
+				"message",
+				"poison spray",
+				"produce flame",
+				"shillelagh",
+				"spare the dying",
+				"thorn whip",
+				"animal friendship",
+				"create or destroy water",
+				"cure wounds",
+				"detect magic",
+				"detect poison and disease",
+				"ensnaring strike",
+				"entangle",
+				"faerie fire",
+				"fog cloud",
+				"goodberry",
+				"hail of thorns",
+				"healing word",
+				"hunter's mark",
+				"jump",
+				"longstrider",
+				"purify food and drink",
+				"speak with animals",
+				"thunderwave",
+				"animal messenger",
+				"augury",
+				"beast sense",
+				"cordon of arrows",
+				"darkvision",
+				"enhance ability",
+				"enlarge/reduce",
+				"find traps",
+				"flame blade",
+				"flaming sphere",
+				"gentle repose",
+				"gust of wind",
+				"heat metal",
+				"lesser restoration",
+				"locate animals or plants",
+				"locate object",
+				"moonbeam",
+				"pass without trace",
+				"protection from poison",
+				"silence",
+				"spike growth",
+				"call lightning",
+				"conjure animals",
+				"conjure barrage",
+				"daylight",
+				"dispel magic",
+				"elemental weapon",
+				"feign death",
+				"lightning arrow",
+				"mass healing word",
+				"meld into stone",
+				"nondetection",
+				"plant growth",
+				"protection from energy",
+				"revivify",
+				"sleet storm",
+				"speak with plants",
+				"water breathing",
+				"water walk",
+				"wind wall",
+				"conjure minor elementals",
+				"conjure woodland beings",
+				"control water",
+				"dominate beast",
+				"freedom of movement",
+				"giant insect",
+				"grasping vine",
+				"ice storm",
+				"locate creature",
+				"polymorph",
+				"stone shape",
+				"stoneskin",
+				"wall of fire",
+				"antilife shell",
+				"awaken",
+				"commune with nature",
+				"conjure elemental",
+				"conjure volley",
+				"greater restoration",
+				"insect plague",
+				"mass cure wounds",
+				"reincarnate",
+				"scrying",
+				"swift quiver",
+				"tree stride",
+				"wall of stone",
+				"conjure fey",
+				"find the path",
+				"heal",
+				"move earth",
+				"sunbeam",
+				"transport via plants",
+				"wall of ice",
+				"wall of thorns",
+				"wind walk",
+				"fire storm",
+				"regenerate",
+				"reverse gravity",
+				"animal shapes",
+				"control weather",
+				"earthquake",
+				"sunburst",
+				"tsunami",
+				"power word heal",
+				"shapechange",
+				"storm of vengeance",
+				"true resurrection"
+			]
+		}
+	]
+}
