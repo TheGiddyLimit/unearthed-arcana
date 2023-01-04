@@ -3,7 +3,7 @@
 		"sources": [
 			{
 				"json": "XUA2022ClericAndRevisedSpecies",
-				"abbreviation": "XUA2022CRS",
+				"abbreviation": "XUA22CRS",
 				"full": "Unearthed Arcana 2022: The Cleric and Revised Species",
 				"authors": [
 					"Wizards of the Coast"
@@ -480,23 +480,27 @@
 			"className": "Cleric",
 			"classSource": "XUA2022ClericAndRevisedSpecies",
 			"level": 1,
-			"header": 2,
 			"entries": [
 				"You gain the ability to channel divine energy directly from the Outer Planes, using that energy to fuel magical effects. You start with two such effects: Divine Spark and Turn Undead, each of which is described below. Each time you use your Channel Divinity, you choose which effect to create, and you gain additional effect options at higher levels in this Class.",
 				"You can use your Channel Divinity a number of times equal to your Proficiency Bonus, and you regain all expended uses when you finish a {@variantrule Long Rest|XUA2022ClericAndRevisedSpecies}.",
 				"Some Channel Divinity effects require Saving Throws. When you use such an effect from this Class, the DC equals the Spell Save DC from this Class's Spellcasting feature.",
 				{
 					"type": "entries",
-					"name": "Divine Spark",
 					"entries": [
-						"As a {@action Magic|XUA2022ClericAndRevisedSpecies} Action, you point your Holy Symbol at another creature you can see within 30 feet of yourself and focus divine energy at them. Roll a number of d8s equal to your Proficiency Bonus and add the rolls together. You either restore Hit Points to the creature equal to that total or force the creature to make a Constitution Saving Throw. On a failed save, the creature takes Radiant Damage equal to the total, and on a successful save, the creature takes half as much damage (rounded down)."
-					]
-				},
-				{
-					"type": "entries",
-					"name": "Turn Undead",
-					"entries": [
-						"As a {@action Magic|XUA2022ClericAndRevisedSpecies} Action, you present your Holy Symbol and speak a prayer censuring Undead creatures. Each Undead within 30 feet of you must make a Wisdom Saving Throw. If the creature fails its Saving Throw, it is Dazed for 1 minute or until it takes any damage or you are {@condition Incapacitated|XUA2022ClericAndRevisedSpecies} or die. While Dazed in this way, the only Action the creature can take is the {@action Dash|XUA2022ClericAndRevisedSpecies} Action, and if it Moves, it must end that {@variantrule Move|XUA2022ClericAndRevisedSpecies} farther from you than where it started."
+						{
+							"type": "entries",
+							"name": "Divine Spark",
+							"entries": [
+								"As a {@action Magic|XUA2022ClericAndRevisedSpecies} Action, you point your Holy Symbol at another creature you can see within 30 feet of yourself and focus divine energy at them. Roll a number of d8s equal to your Proficiency Bonus and add the rolls together. You either restore Hit Points to the creature equal to that total or force the creature to make a Constitution Saving Throw. On a failed save, the creature takes Radiant Damage equal to the total, and on a successful save, the creature takes half as much damage (rounded down)."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Turn Undead",
+							"entries": [
+								"As a {@action Magic|XUA2022ClericAndRevisedSpecies} Action, you present your Holy Symbol and speak a prayer censuring Undead creatures. Each Undead within 30 feet of you must make a Wisdom Saving Throw. If the creature fails its Saving Throw, it is Dazed for 1 minute or until it takes any damage or you are {@condition Incapacitated|XUA2022ClericAndRevisedSpecies} or die. While Dazed in this way, the only Action the creature can take is the {@action Dash|XUA2022ClericAndRevisedSpecies} Action, and if it Moves, it must end that {@variantrule Move|XUA2022ClericAndRevisedSpecies} farther from you than where it started."
+							]
+						}
 					]
 				}
 			]
@@ -508,38 +512,42 @@
 			"className": "Cleric",
 			"classSource": "XUA2022ClericAndRevisedSpecies",
 			"level": 1,
-			"header": 2,
 			"entries": [
 				"You have learned to cast Spells through prayer, meditation, and devotion. See the Player's Handbook for the rules on spellcasting. The information below details how you use those rules as a Cleric.",
 				{
 					"type": "entries",
-					"name": "Prepared Spells",
 					"entries": [
-						"You have the following Spells prepared: {@spell Cure Wounds}, {@spell Sacred Flame}, {@spell Shield} of Faith, {@spell Spare the Dying}, and {@spell Thaumaturgy}. Alternatively, you can prepare three 0-level Spells (also known as cantrips) and two 1st-level Spells of your choice. Any Spell you prepare for this Class must be a Divine Spell.",
-						"Whenever you finish a {@variantrule Long Rest|XUA2022ClericAndRevisedSpecies}, you can pray or meditate and replace any Spell you have prepared for this Class with another Divine Spell of the same level.",
-						"At higher levels in this Class, you can prepare more Spells, as shown on the Cleric table. The numbers there determine the number of different Spells you can prepare of each level. For example, as a 4th-level Cleric, you can prepare four different 0-level Spells, four different 1st-level Spells, and three different 2nd-level Spells.",
-						"Consult the \"Prepared Cleric Spells\" section for recommendations on which spells to prepare at higher levels."
-					]
-				},
-				{
-					"type": "entries",
-					"name": "Spell Slots",
-					"entries": [
-						"The Cleric table shows how many Spell Slots you have at each level to cast your Cleric Spells of 1st level and higher; the number of different Spells you can prepare of each level equals the number of Spell Slots you have at that level. For example, as a 5th-level Cleric, you have four 1st-level Spell Slots, three 2nd-level Spell Slots, and two 3rd-level Spell Slots."
-					]
-				},
-				{
-					"type": "entries",
-					"name": "Spellcasting Ability",
-					"entries": [
-						"Wisdom is your Spellcasting Ability for your Cleric Spells."
-					]
-				},
-				{
-					"type": "entries",
-					"name": "Spellcasting Focus",
-					"entries": [
-						"You can use a Holy Symbol as a Spellcasting Focus for the Spells you prepare for this Class."
+						{
+							"type": "entries",
+							"name": "Prepared Spells",
+							"entries": [
+								"You have the following Spells prepared: {@spell Cure Wounds}, {@spell Sacred Flame}, {@spell Shield} of Faith, {@spell Spare the Dying}, and {@spell Thaumaturgy}. Alternatively, you can prepare three 0-level Spells (also known as cantrips) and two 1st-level Spells of your choice. Any Spell you prepare for this Class must be a Divine Spell.",
+								"Whenever you finish a {@variantrule Long Rest|XUA2022ClericAndRevisedSpecies}, you can pray or meditate and replace any Spell you have prepared for this Class with another Divine Spell of the same level.",
+								"At higher levels in this Class, you can prepare more Spells, as shown on the Cleric table. The numbers there determine the number of different Spells you can prepare of each level. For example, as a 4th-level Cleric, you can prepare four different 0-level Spells, four different 1st-level Spells, and three different 2nd-level Spells.",
+								"Consult the \"Prepared Cleric Spells\" section for recommendations on which spells to prepare at higher levels."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Spell Slots",
+							"entries": [
+								"The Cleric table shows how many Spell Slots you have at each level to cast your Cleric Spells of 1st level and higher; the number of different Spells you can prepare of each level equals the number of Spell Slots you have at that level. For example, as a 5th-level Cleric, you have four 1st-level Spell Slots, three 2nd-level Spell Slots, and two 3rd-level Spell Slots."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Spellcasting Ability",
+							"entries": [
+								"Wisdom is your Spellcasting Ability for your Cleric Spells."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Spellcasting Focus",
+							"entries": [
+								"You can use a Holy Symbol as a Spellcasting Focus for the Spells you prepare for this Class."
+							]
+						}
 					]
 				}
 			]
@@ -4610,7 +4618,7 @@
 			"page": 16,
 			"name": "D20 Tests",
 			"entries": [
-				"The term {@dice d20} Test encompasses the three main {@dice d20} rolls of the game: Ability Checks, Attack Rolls, and Saving Throws. If something in the game affects {@dice d20} Tests, it affects all three of these rolls.",
+				"The term {@dice d20} Test encompasses the three main {@dice d20} rolls of the game: Ability Checks, {@variantrule Attack Roll|XUA2022ClericAndRevisedSpecies|Attack Rolls}, and Saving Throws. If something in the game affects {@dice d20} Tests, it affects all three of these rolls.",
 				"Whenever a player character rolls a 1 for a {@dice d20} Test, that character gains {@variantrule Heroic Inspiration|XUA2022ClericAndRevisedSpecies}.",
 				"The DM determines whether a {@dice d20} Test is warranted in any given circumstance."
 			]
@@ -5783,7 +5791,7 @@
 							"type": "item",
 							"name": "Attacks Affected",
 							"entries": [
-								"You have Disadvantage on Attack Rolls against any target other than the grappler."
+								"You have Disadvantage on {@variantrule Attack Roll|XUA2022ClericAndRevisedSpecies|Attack Rolls} against any target other than the grappler."
 							]
 						},
 						{
@@ -5832,7 +5840,7 @@
 							"type": "item",
 							"name": "Attacks Affected",
 							"entries": [
-								"Attack Rolls against you have Disadvantage, and your Attack Rolls have Advantage."
+								"{@variantrule Attack Roll|XUA2022ClericAndRevisedSpecies|Attack Rolls} against you have Disadvantage, and your {@variantrule Attack Roll|XUA2022ClericAndRevisedSpecies|Attack Rolls} have Advantage."
 							]
 						},
 						{
@@ -5860,7 +5868,14 @@
 							"type": "item",
 							"name": "Inactive",
 							"entries": [
-								"You can't take Actions or Reactions. No Concentration. Your Concentration is broken."
+								"You can't take Actions or Reactions."
+							]
+						},
+						{
+							"type": "item",
+							"name": "No Concentration",
+							"entries": [
+								"Your Concentration is broken."
 							]
 						},
 						{
@@ -5909,14 +5924,14 @@
 							"type": "item",
 							"name": "Surprise",
 							"entries": [
-								"If you are Invisible when you roll initiative, you have Advantage on the roll. Attacks Affected. Attack Rolls against you have Disadvantage, and your Attack Rolls have Advantage."
+								"If you are Invisible when you roll initiative, you have Advantage on the roll. Attacks Affected. {@variantrule Attack Roll|XUA2022ClericAndRevisedSpecies|Attack Rolls} against you have Disadvantage, and your {@variantrule Attack Roll|XUA2022ClericAndRevisedSpecies|Attack Rolls} have Advantage."
 							]
 						},
 						{
 							"type": "item",
 							"name": "Attacks Affected",
 							"entries": [
-								"Attack Rolls against you have Disadvantage, and your Attack Rolls have Advantage. If a creature can somehow see you, as with {@variantrule Blindsight|XUA2022ClericAndRevisedSpecies}, you don't gain this benefit against that creature."
+								"{@variantrule Attack Roll|XUA2022ClericAndRevisedSpecies|Attack Rolls} against you have Disadvantage, and your {@variantrule Attack Roll|XUA2022ClericAndRevisedSpecies|Attack Rolls} have Advantage. If a creature can somehow see you, as with {@variantrule Blindsight|XUA2022ClericAndRevisedSpecies}, you don't gain this benefit against that creature."
 							]
 						}
 					]
@@ -5944,7 +5959,7 @@
 							"type": "item",
 							"name": "Attacks Affected",
 							"entries": [
-								"Attack Rolls against you have Advantage."
+								"{@variantrule Attack Roll|XUA2022ClericAndRevisedSpecies|Attack Rolls} against you have Advantage."
 							]
 						},
 						{

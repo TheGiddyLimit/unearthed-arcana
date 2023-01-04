@@ -3,7 +3,7 @@
 		"sources": [
 			{
 				"json": "XUA2022ExpertClasses",
-				"abbreviation": "XUA2022EC",
+				"abbreviation": "XUA22EC",
 				"full": "Unearthed Arcana 2022: Expert Classes",
 				"authors": [
 					"Wizards of the Coast"
@@ -1706,8 +1706,7 @@
 							"str",
 							"dex",
 							"con"
-						],
-						"amount": 2
+						]
 					}
 				}
 			],
@@ -1752,8 +1751,7 @@
 						"from": [
 							"str",
 							"dex"
-						],
-						"amount": 2
+						]
 					}
 				}
 			],
@@ -1878,8 +1876,7 @@
 						"from": [
 							"str",
 							"dex"
-						],
-						"amount": 2
+						]
 					}
 				}
 			],
@@ -2979,7 +2976,7 @@
 						{
 							"type": "item",
 							"name": "Ritual Spells",
-							"entry": "Choose two 1st-level Spells that have the Ritual tag from the {@variantrule Arcane|XUA2022ExpertClasses}, {@variantrule Divine|XUA2022ExpertClasses}, and {@variantrule Primal|XUA2022ExpertClasses} Spell Lists. You always have those two Spells prepared, and you can cast them with any Spell Slots you have. The Spells' Spellcasting Ability is the ability increased by this Feat."
+							"entry": "Choose two 1st-level Spells that have the Ritual tag from the {@variantrule Arcane Spells|XUA2022ExpertClasses|Arcane}, {@variantrule Divine Spells|XUA2022ExpertClasses|Divine}, and {@variantrule Primal Spells|XUA2022ExpertClasses|Primal} {@variantrule Spell Lists|XUA2022ExpertClasses}. You always have those two Spells prepared, and you can cast them with any Spell Slots you have. The Spells' Spellcasting Ability is the ability increased by this Feat."
 						},
 						{
 							"type": "item",
@@ -3826,7 +3823,7 @@
 			"source": "XUA2022ExpertClasses",
 			"name": "Arcane Spells",
 			"entries": [
-				"An Arcane Spell draws on the ambient magic of the multiverse. Bards, Sorcerers, Warlocks, and Wizards harness this magic, as do Artificers. For a partial list of Arcane Spells, see the \"Spell Lists\" section elsewhere in this document."
+				"An Arcane Spell draws on the ambient magic of the multiverse. Bards, Sorcerers, Warlocks, and Wizards harness this magic, as do Artificers. For a partial list of Arcane Spells, see the \"{@variantrule Spell Lists|XUA2022ExpertClasses}\" section elsewhere in this document."
 			]
 		},
 		{
@@ -3890,7 +3887,7 @@
 			"source": "XUA2022ExpertClasses",
 			"name": "D20 Tests",
 			"entries": [
-				"The term {@dice d20} Test encompasses the three main {@dice d20} rolls of the game: {@variantrule Ability Check|XUA2022ExpertClasses}s, Attack Rolls, and Saving Throws. If something in the game affects {@dice d20} Tests, it affects all three of these rolls.",
+				"The term {@dice d20} Test encompasses the three main {@dice d20} rolls of the game: {@variantrule Ability Check|XUA2022ExpertClasses}s, {@variantrule Attack Roll|XUA2022ExpertClasses|Attack Rolls}, and Saving Throws. If something in the game affects {@dice d20} Tests, it affects all three of these rolls.",
 				"Whenever a player character rolls a 1 for a {@dice d20} Test, that character gains {@variantrule Heroic Inspiration|XUA2022ExpertClasses}. The DM determines whether a {@dice d20} Test is warranted in any given circumstance"
 			]
 		},
@@ -3923,7 +3920,7 @@
 			"source": "XUA2022ExpertClasses",
 			"name": "Divine Spells",
 			"entries": [
-				"A Divine Spell draws on the power of gods and the Outer Planes. Clerics and Paladins harness this magic. For a partial list of Divine Spells, see the \"Spell Lists\" section elsewhere in this document."
+				"A Divine Spell draws on the power of gods and the Outer Planes. Clerics and Paladins harness this magic. For a partial list of Divine Spells, see the \"{@variantrule Spell Lists|XUA2022ExpertClasses}\" section elsewhere in this document."
 			]
 		},
 		{
@@ -4034,7 +4031,7 @@
 			"source": "XUA2022ExpertClasses",
 			"name": "Primal Spells",
 			"entries": [
-				"A Primal Spell draws on the forces of nature and the Inner Planes. Druids and Rangers harness this magic. For a partial list of Primal Spells, see the \"Spell Lists\" section elsewhere in this document."
+				"A Primal Spell draws on the forces of nature and the Inner Planes. Druids and Rangers harness this magic. For a partial list of Primal Spells, see the \"{@variantrule Spell Lists|XUA2022ExpertClasses}\" section elsewhere in this document."
 			]
 		},
 		{
@@ -6987,7 +6984,14 @@
 							"type": "item",
 							"name": "Speed 0",
 							"entries": [
-								"Your Speed is 0 and can't change. Attacks Affected. You have Disadvantage on Attack Rolls against any target other than the grappler."
+								"Your Speed is 0 and can't change."
+							]
+						},
+						{
+							"type": "item",
+							"name": "Attacks Affected",
+							"entries": [
+								"You have Disadvantage on {@variantrule Attack Roll|XUA2022ExpertClasses|Attack Rolls} against any target other than the grappler."
 							]
 						},
 						{
@@ -7036,7 +7040,7 @@
 							"type": "item",
 							"name": "Attacks Affected",
 							"entries": [
-								"Attack Rolls against you have Disadvantage, and your Attack Rolls have Advantage."
+								"{@variantrule Attack Roll|XUA2022ExpertClasses|Attack Rolls} against you have Disadvantage, and your {@variantrule Attack Roll|XUA2022ExpertClasses|Attack Rolls} have Advantage."
 							]
 						},
 						{
@@ -7071,7 +7075,7 @@
 							"type": "item",
 							"name": "Surprise",
 							"entries": [
-								"If you are Invisible when you roll initiative, you have Advantage on the roll. Attacks Affected. Attack Rolls against you have Disadvantage, and your Attack Rolls have Advantage."
+								"If you are Invisible when you roll initiative, you have Advantage on the roll. Attacks Affected. {@variantrule Attack Roll|XUA2022ExpertClasses|Attack Rolls} against you have Disadvantage, and your {@variantrule Attack Roll|XUA2022ExpertClasses|Attack Rolls} have Advantage."
 							]
 						}
 					]
@@ -7099,7 +7103,7 @@
 							"type": "item",
 							"name": "Attacks Affected",
 							"entries": [
-								"Attack Rolls against you have Advantage."
+								"{@variantrule Attack Roll|XUA2022ExpertClasses|Attack Rolls} against you have Advantage."
 							]
 						},
 						{
@@ -7127,7 +7131,14 @@
 							"type": "item",
 							"name": "Inactive",
 							"entries": [
-								"You can't take Actions or Reactions. No Concentration. Your Concentration is broken."
+								"Your Concentration is broken."
+							]
+						},
+						{
+							"type": "item",
+							"name": "No Concentration",
+							"entries": [
+								"Your Concentration is broken."
 							]
 						},
 						{
@@ -7191,44 +7202,48 @@
 			"className": "Bard",
 			"classSource": "XUA2022ExpertClasses",
 			"level": 1,
-			"header": 2,
 			"entries": [
 				"You can supernaturally inspire others through words, music, or dance. This inspiration is represented by your Bardic Inspiration die, which is a {@dice d6}.",
 				{
 					"type": "entries",
-					"name": "Using Bardic Inspiration",
 					"entries": [
-						"You can use your Bardic Inspiration die in the following ways:",
 						{
-							"type": "list",
-							"style": "list-hang-notitle",
-							"items": [
+							"type": "entries",
+							"name": "Using Bardic Inspiration",
+							"entries": [
+								"You can use your Bardic Inspiration die in the following ways:",
 								{
-									"type": "item",
-									"name": "Boost a Dice Test",
-									"entry": "When another creature within 60 feet of you that you can see or hear fails a {@dice d20} Test, you can use your Reaction to give the creature a Bardic Inspiration die. The creature rolls that die and adds the number rolled to the {@dice d20}, potentially turning the failure into a success."
-								},
-								{
-									"type": "item",
-									"name": "Heal",
-									"entry": "Immediately after another creature within 60 feet of you that you can see or hear takes damage, you can use your Reaction to roll your Bardic Inspiration die and restore a number of Hit Points to the creature equal to the number rolled."
+									"type": "list",
+									"style": "list-hang-notitle",
+									"items": [
+										{
+											"type": "item",
+											"name": "Boost a Dice Test",
+											"entry": "When another creature within 60 feet of you that you can see or hear fails a {@dice d20} Test, you can use your Reaction to give the creature a Bardic Inspiration die. The creature rolls that die and adds the number rolled to the {@dice d20}, potentially turning the failure into a success."
+										},
+										{
+											"type": "item",
+											"name": "Heal",
+											"entry": "Immediately after another creature within 60 feet of you that you can see or hear takes damage, you can use your Reaction to roll your Bardic Inspiration die and restore a number of Hit Points to the creature equal to the number rolled."
+										}
+									]
 								}
 							]
+						},
+						{
+							"type": "entries",
+							"name": "Number of Uses",
+							"entries": [
+								"A Bardic Inspiration die is expended when it's rolled. You can confer a Bardic Inspiration die a number of times equal to your Proficiency Bonus, and you regain all expended uses when you finish a {@variantrule Long Rest|XUA2022ExpertClasses}."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "At Higher Levels",
+							"entries": [
+								"Your Bardic Inspiration die changes when you reach certain levels in this Class, as shown in the Bardic Die column of the Bard table. The die becomes a {@dice d8} at 5th level, a {@dice d10} at 10th level, and a {@dice d12} at 15th level."
+							]
 						}
-					]
-				},
-				{
-					"type": "entries",
-					"name": "Number of Uses",
-					"entries": [
-						"A Bardic Inspiration die is expended when it's rolled. You can confer a Bardic Inspiration die a number of times equal to your Proficiency Bonus, and you regain all expended uses when you finish a {@variantrule Long Rest|XUA2022ExpertClasses}."
-					]
-				},
-				{
-					"type": "entries",
-					"name": "At Higher Levels",
-					"entries": [
-						"Your Bardic Inspiration die changes when you reach certain levels in this Class, as shown in the Bardic Die column of the Bard table. The die becomes a {@dice d8} at 5th level, a {@dice d10} at 10th level, and a {@dice d12} at 15th level."
 					]
 				}
 			]
@@ -7240,39 +7255,43 @@
 			"className": "Bard",
 			"classSource": "XUA2022ExpertClasses",
 			"level": 1,
-			"header": 2,
 			"entries": [
 				"You have learned to cast Spells through your bardic arts. See the Player's Handbook for the rules on spellcasting. The information below details how you use those rules as a Bard.",
 				{
 					"type": "entries",
-					"name": "Prepared Spells",
 					"entries": [
-						"You have the following Spells prepared: {@spell Color Spray}, {@spell Disguise Self}, {@spell Prestidigitation}, and {@spell Vicious Mockery}.",
-						"Alternatively, you can prepare two 0-level Spells and two 1st-level Spells of your choice. Any Spell you prepare for this Class must be an {@variantrule |Arcane Spells|XUA2022ExpertClasses|Arcane Spell}, and it must be from one of the following Schools of Magic: Divination, Enchantment, Illusion, or Transmutation.",
-						"Whenever you finish a {@variantrule Long Rest|XUA2022ExpertClasses}, you can practice your bardic arts and replace any Spell you have prepared for this Class with another {@variantrule Arcane Spells|XUA2022ExpertClasses|Arcane Spell} of the same level, abiding by the school restriction above.",
-						"At higher levels in this Class, you can prepare more Spells, as shown on the Bard table. The numbers there determine the number of different Spells you can prepare of each level. For example, as a 3rd-level Bard, you can prepare two different 0-level Spells, four different 1st-level Spells, and two different 2ndlevel Spells.",
-						"Consult the \"Prepared Bard Spells\" section for recommendations on which spells to prepare at higher levels. A Spell marked with a dagger (†) in that section is always prepared and can't be replaced when you prepare Spells."
-					]
-				},
-				{
-					"type": "entries",
-					"name": "Spell Slots",
-					"entries": [
-						"The Bard table shows how many Spell Slots you have at each level to cast your Bard Spells of 1st level and higher; the number of different Spells you can prepare of each level equals the number of Spell Slots you have at that level. For example, as a 5th-level Bard, you have four 1st-level Spell Slots, three 2nd-level Spell Slots, and two 3rd-level Spell Slots."
-					]
-				},
-				{
-					"type": "entries",
-					"name": "Spellcasting Ability",
-					"entries": [
-						"Charisma is your Spellcasting Ability for your Bard Spells."
-					]
-				},
-				{
-					"type": "entries",
-					"name": "Spellcasting Focus",
-					"entries": [
-						"You can use a {@item Musical Instrument|SCAG} as a Spellcasting Focus for the Spells you prepare for this Class."
+						{
+							"type": "entries",
+							"name": "Prepared Spells",
+							"entries": [
+								"You have the following Spells prepared: {@spell Color Spray}, {@spell Disguise Self}, {@spell Prestidigitation}, and {@spell Vicious Mockery}.",
+								"Alternatively, you can prepare two 0-level Spells and two 1st-level Spells of your choice. Any Spell you prepare for this Class must be an {@variantrule Arcane Spells|XUA2022ExpertClasses|Arcane Spell}, and it must be from one of the following Schools of Magic: Divination, Enchantment, Illusion, or Transmutation.",
+								"Whenever you finish a {@variantrule Long Rest|XUA2022ExpertClasses}, you can practice your bardic arts and replace any Spell you have prepared for this Class with another {@variantrule Arcane Spells|XUA2022ExpertClasses|Arcane Spell} of the same level, abiding by the school restriction above.",
+								"At higher levels in this Class, you can prepare more Spells, as shown on the Bard table. The numbers there determine the number of different Spells you can prepare of each level. For example, as a 3rd-level Bard, you can prepare two different 0-level Spells, four different 1st-level Spells, and two different 2ndlevel Spells.",
+								"Consult the \"Prepared Bard Spells\" section for recommendations on which spells to prepare at higher levels. A Spell marked with a dagger (†) in that section is always prepared and can't be replaced when you prepare Spells."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Spell Slots",
+							"entries": [
+								"The Bard table shows how many Spell Slots you have at each level to cast your Bard Spells of 1st level and higher; the number of different Spells you can prepare of each level equals the number of Spell Slots you have at that level. For example, as a 5th-level Bard, you have four 1st-level Spell Slots, three 2nd-level Spell Slots, and two 3rd-level Spell Slots."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Spellcasting Ability",
+							"entries": [
+								"Charisma is your Spellcasting Ability for your Bard Spells."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Spellcasting Focus",
+							"entries": [
+								"You can use a {@item Musical Instrument|SCAG} as a Spellcasting Focus for the Spells you prepare for this Class."
+							]
+						}
 					]
 				}
 			]
@@ -7432,7 +7451,7 @@
 			"classSource": "XUA2022ExpertClasses",
 			"level": 11,
 			"entries": [
-				"You have collected magical knowledge from a wide spectrum of disciplines. Choose a Spell List: {@variantrule Arcane|XUA2022ExpertClasses}, {@variantrule Divine|XUA2022ExpertClasses}, or {@variantrule Primal|XUA2022ExpertClasses}. Whenever you prepare Spells for this Class, up to two of the Spells you prepare can be from the chosen list and from any School of Magic. The prepared Spells otherwise follow the rules of your Bard Spellcasting feature."
+				"You have collected magical knowledge from a wide spectrum of disciplines. Choose a Spell List: {@variantrule Arcane Spells|XUA2022ExpertClasses|Arcane}, {@variantrule Divine Spells|XUA2022ExpertClasses|Divine}, or {@variantrule Primal Spells|XUA2022ExpertClasses|Primal}. Whenever you prepare Spells for this Class, up to two of the Spells you prepare can be from the chosen list and from any School of Magic. The prepared Spells otherwise follow the rules of your Bard Spellcasting feature."
 			]
 		},
 		{
@@ -7465,7 +7484,7 @@
 			"classSource": "XUA2022ExpertClasses",
 			"level": 15,
 			"entries": [
-				"Your understanding of magic has grown even broader. Choose a Spell List\u2014{@variantrule Arcane|XUA2022ExpertClasses}, {@variantrule Divine|XUA2022ExpertClasses}, or {@variantrule Primal|XUA2022ExpertClasses}\u2014that you didn't choose for your Magical Secrets feature. Whenever you prepare your Bard Spells, two of the Spells you prepare can be from the chosen list and from any School of Magic. The prepared Spells otherwise follow the rules of your Bard Spellcasting feature."
+				"Your understanding of magic has grown even broader. Choose a Spell List\u2014{@variantrule Arcane Spells|XUA2022ExpertClasses|Arcane}, {@variantrule Divine Spells|XUA2022ExpertClasses|Divine}, and {@variantrule Primal Spells|XUA2022ExpertClasses|Primal}\u2014that you didn't choose for your Magical Secrets feature. Whenever you prepare your Bard Spells, two of the Spells you prepare can be from the chosen list and from any School of Magic. The prepared Spells otherwise follow the rules of your Bard Spellcasting feature."
 			]
 		},
 		{
@@ -8192,7 +8211,7 @@
 			"level": 3,
 			"header": 2,
 			"entries": [
-				"Your tenacity can wear down even the most resilient foes. When you hit a creature with a Weapon or an {@variantrule Unarmed Strike|XUA2022ExpertClasses} as part of the {@action Attack|XUA2022ExpertClasses|Attack Action} on your turn, the Weapon or {@variantrule Unarmed Strike|XUA2022ExpertClasses deals an extra {@damage 1d8} damage to the target if it's missing any of its Hit Points. You can deal this extra damage only once per turn."
+				"Your tenacity can wear down even the most resilient foes. When you hit a creature with a Weapon or an {@variantrule Unarmed Strike|XUA2022ExpertClasses} as part of the {@action Attack|XUA2022ExpertClasses|Attack Action} on your turn, the Weapon or {@variantrule Unarmed Strike|XUA2022ExpertClasses} deals an extra {@damage 1d8} damage to the target if it's missing any of its Hit Points. You can deal this extra damage only once per turn."
 			]
 		},
 		{

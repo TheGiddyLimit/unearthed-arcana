@@ -3,7 +3,7 @@
 		"sources": [
 			{
 				"json": "XUA2022CharacterOptions",
-				"abbreviation": "XUA2022CO",
+				"abbreviation": "XUA22CO",
 				"full": "Unearthed Arcana 2022: Character Origins",
 				"authors": [
 					"Wizards of the Coast"
@@ -3943,7 +3943,14 @@
 							"type": "item",
 							"name": "Discount",
 							"entries": [
-								"Whenever you buy a nonmagical item, you receive a 20 percent discount on it. Faster Crafting. When you craft an item using a tool with which you have  {@variantrule Tool Proficiency|XUA2022CharacterOptions}, the required crafting time is reduced by 20 percent."
+								"Whenever you buy a nonmagical item, you receive a 20 percent discount on it."
+							]
+						},
+						{
+							"type": "item",
+							"name": "Faster Crafting",
+							"entries": [
+								"When you craft an item using a tool with which you have  {@variantrule Tool Proficiency|XUA2022CharacterOptions}, the required crafting time is reduced by 20 percent."
 							]
 						}
 					]
