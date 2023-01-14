@@ -15,6 +15,6 @@
 	"author": "Giddy",
 	"license": "MIT",
 	"dependencies": {
-		"5etools-utils": "^0.5.1"
+		"5etools-utils": "^0.5.5"
 	}
 }

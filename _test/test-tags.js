@@ -9,13 +9,20 @@ async function main () {
 		BraceCheck,
 		EscapeCharacterCheck,
 	];
+	DataTester.register({ClazzDataTesters});
 
-	await Uf.pRunOnDirs(async (dir) => {
-		await DataTester.pRun(
-			dir,
-			ClazzDataTesters,
-		);
-	});
+	await Uf.pRunOnDirs(
+		async (dir) => {
+			console.log(`Running on directory "${dir}"...`);
+			await DataTester.pRun(
+				dir,
+				ClazzDataTesters,
+			);
+		},
+		{
+			isSerial: true,
+		},
+	);
 
 	const outMessage = DataTester.getLogReport(ClazzDataTesters);
 
