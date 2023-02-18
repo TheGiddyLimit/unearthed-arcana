@@ -2025,7 +2025,7 @@
 								],
 								[
 									"2",
-									"{@spell Blindness/ Deafness}",
+									"{@spell Blindness/Deafness}",
 									"Transmut.*",
 									"No"
 								],
@@ -2895,7 +2895,7 @@
 								],
 								[
 									"8",
-									"{@spell Antipathy/ Sympathy}",
+									"{@spell Antipathy/Sympathy}",
 									"Enchantment",
 									"No"
 								],
@@ -3689,7 +3689,7 @@
 								],
 								[
 									"8",
-									"{@spell Antipathy/ Sympathy Enchantment 8 Holy Aura}",
+									"{@spell Antipathy/Sympathy Enchantment 8 Holy Aura}",
 									"Abjuration",
 									"No"
 								],
@@ -5387,6 +5387,195 @@
 					"source": "XUA2022ClericAndRevisedSpecies"
 				}
 			]
+		},
+		{
+			"name": "Aura of Vitality",
+			"source": "XUA2022ClericAndRevisedSpecies",
+			"_copy": {
+				"name": "Aura of Vitality",
+				"source": "PHB"
+			},
+			"school": "A"
+		},
+		{
+			"name": "Blindness/Deafness",
+			"source": "XUA2022ClericAndRevisedSpecies",
+			"_copy": {
+				"name": "Blindness/Deafness",
+				"source": "PHB"
+			},
+			"school": "T"
+		},
+		{
+			"name": "Contingency",
+			"source": "XUA2022ClericAndRevisedSpecies",
+			"_copy": {
+				"name": "Contingency",
+				"source": "PHB"
+			},
+			"school": "A"
+		},
+		{
+			"name": "Cure Wounds",
+			"source": "XUA2022ClericAndRevisedSpecies",
+			"_copy": {
+				"name": "Cure Wounds",
+				"source": "PHB"
+			},
+			"school": "A"
+		},
+		{
+			"name": "Dancing Lights",
+			"source": "XUA2022ClericAndRevisedSpecies",
+			"_copy": {
+				"name": "Dancing Lights",
+				"source": "PHB"
+			},
+			"school": "I"
+		},
+		{
+			"name": "Earthquake",
+			"source": "XUA2022ClericAndRevisedSpecies",
+			"_copy": {
+				"name": "Earthquake",
+				"source": "PHB"
+			},
+			"school": "T"
+		},
+		{
+			"name": "Flaming Sphere",
+			"source": "XUA2022ClericAndRevisedSpecies",
+			"_copy": {
+				"name": "Flaming Sphere",
+				"source": "PHB"
+			},
+			"school": "V"
+		},
+		{
+			"name": "Glibness",
+			"source": "XUA2022ClericAndRevisedSpecies",
+			"_copy": {
+				"name": "Glibness",
+				"source": "PHB"
+			},
+			"school": "E"
+		},
+		{
+			"name": "Hallow",
+			"source": "XUA2022ClericAndRevisedSpecies",
+			"_copy": {
+				"name": "Hallow",
+				"source": "PHB"
+			},
+			"school": "A"
+		},
+		{
+			"name": "Healing Word",
+			"source": "XUA2022ClericAndRevisedSpecies",
+			"_copy": {
+				"name": "Healing Word",
+				"source": "PHB"
+			},
+			"school": "A"
+		},
+		{
+			"name": "Mass Cure Wounds",
+			"source": "XUA2022ClericAndRevisedSpecies",
+			"_copy": {
+				"name": "Mass Cure Wounds",
+				"source": "PHB"
+			},
+			"school": "A"
+		},
+		{
+			"name": "Mass Heal",
+			"source": "XUA2022ClericAndRevisedSpecies",
+			"_copy": {
+				"name": "Mass Heal",
+				"source": "PHB"
+			},
+			"school": "A"
+		},
+		{
+			"name": "Mass Healing Word",
+			"source": "XUA2022ClericAndRevisedSpecies",
+			"_copy": {
+				"name": "Mass Healing Word",
+				"source": "PHB"
+			},
+			"school": "A"
+		},
+		{
+			"name": "Power Word Heal",
+			"source": "XUA2022ClericAndRevisedSpecies",
+			"_copy": {
+				"name": "Power Word Heal",
+				"source": "PHB"
+			},
+			"school": "A"
+		},
+		{
+			"name": "Produce Flame",
+			"source": "XUA2022ClericAndRevisedSpecies",
+			"_copy": {
+				"name": "Produce Flame",
+				"source": "PHB"
+			},
+			"school": "V"
+		},
+		{
+			"name": "Reincarnate",
+			"source": "XUA2022ClericAndRevisedSpecies",
+			"_copy": {
+				"name": "Reincarnate",
+				"source": "PHB"
+			},
+			"school": "N"
+		},
+		{
+			"name": "Sending",
+			"source": "XUA2022ClericAndRevisedSpecies",
+			"_copy": {
+				"name": "Sending",
+				"source": "PHB"
+			},
+			"school": "D"
+		},
+		{
+			"name": "Shatter",
+			"source": "XUA2022ClericAndRevisedSpecies",
+			"_copy": {
+				"name": "Shatter",
+				"source": "PHB"
+			},
+			"school": "T"
+		},
+		{
+			"name": "Stoneskin",
+			"source": "XUA2022ClericAndRevisedSpecies",
+			"_copy": {
+				"name": "Stoneskin",
+				"source": "PHB"
+			},
+			"school": "T"
+		},
+		{
+			"name": "Telepathy",
+			"source": "XUA2022ClericAndRevisedSpecies",
+			"_copy": {
+				"name": "Telepathy",
+				"source": "PHB"
+			},
+			"school": "D"
+		},
+		{
+			"name": "Thunderwave",
+			"source": "XUA2022ClericAndRevisedSpecies",
+			"_copy": {
+				"name": "Thunderwave",
+				"source": "PHB"
+			},
+			"school": "T"
 		}
 	],
 	"action": [
@@ -6071,7 +6260,7 @@
 				"witch bolt",
 				"alter self",
 				"arcane lock",
-				"blindness/ deafness",
+				"blindness/deafness",
 				"blur",
 				"calm emotions",
 				"cloud of daggers",
@@ -6215,7 +6404,7 @@
 				"symbol",
 				"teleport",
 				"antimagic field",
-				"antipathy/ sympathy",
+				"antipathy/sympathy",
 				"clone",
 				"control weather",
 				"demiplane",
@@ -6273,7 +6462,7 @@
 				"wrathful smite",
 				"aid",
 				"augury",
-				"blindness/ deafness",
+				"blindness/deafness",
 				"branding smite",
 				"calm emotions",
 				"find steed",
@@ -6346,7 +6535,8 @@
 				"resurrection",
 				"symbol",
 				"antimagic field",
-				"antipathy/ sympathy enchantment 8 holy aura",
+				"antipathy/sympathy",
+				"holy aura",
 				"sunburst",
 				"astral projection",
 				"foresight",

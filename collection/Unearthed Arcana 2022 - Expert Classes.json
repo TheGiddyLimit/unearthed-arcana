@@ -3315,6 +3315,16 @@
 					"level": 4
 				}
 			],
+			"ability": [
+				{
+					"choose": {
+						"from": [
+							"str",
+							"dex"
+						]
+					}
+				}
+			],
 			"repeatable": false,
 			"weaponProficiencies": [
 				{
@@ -6967,6 +6977,186 @@
 				"You channel magical insight to the creature who failed the {@variantrule Ability Check|XUA2022ExpertClasses}. That creature can roll a {@dice d4} and add the number rolled to the check, potentially turning it into a success.",
 				"Once a creature rolls the die for this Spell, that creature can't benefit from the Spell again until the creature finishes a {@variantrule Long Rest|XUA2022ExpertClasses}."
 			]
+		},
+		{
+			"name": "Aura of Vitality",
+			"source": "XUA2022ExpertClasses",
+			"_copy": {
+				"name": "Aura of Vitality",
+				"source": "PHB"
+			},
+			"school": "A"
+		},
+		{
+			"name": "Blindness/Deafness",
+			"source": "XUA2022ExpertClasses",
+			"_copy": {
+				"name": "Blindness/Deafness",
+				"source": "PHB"
+			},
+			"school": "T"
+		},
+		{
+			"name": "Contingency",
+			"source": "XUA2022ExpertClasses",
+			"_copy": {
+				"name": "Contingency",
+				"source": "PHB"
+			},
+			"school": "A"
+		},
+		{
+			"name": "Cure Wounds",
+			"source": "XUA2022ExpertClasses",
+			"_copy": {
+				"name": "Cure Wounds",
+				"source": "PHB"
+			},
+			"school": "A"
+		},
+		{
+			"name": "Earthquake",
+			"source": "XUA2022ExpertClasses",
+			"_copy": {
+				"name": "Earthquake",
+				"source": "PHB"
+			},
+			"school": "T"
+		},
+		{
+			"name": "Flaming Sphere",
+			"source": "XUA2022ExpertClasses",
+			"_copy": {
+				"name": "Flaming Sphere",
+				"source": "PHB"
+			},
+			"school": "V"
+		},
+		{
+			"name": "Glibness",
+			"source": "XUA2022ExpertClasses",
+			"_copy": {
+				"name": "Glibness",
+				"source": "PHB"
+			},
+			"school": "E"
+		},
+		{
+			"name": "Hallow",
+			"source": "XUA2022ExpertClasses",
+			"_copy": {
+				"name": "Hallow",
+				"source": "PHB"
+			},
+			"school": "A"
+		},
+		{
+			"name": "Healing Word",
+			"source": "XUA2022ExpertClasses",
+			"_copy": {
+				"name": "Healing Word",
+				"source": "PHB"
+			},
+			"school": "A"
+		},
+		{
+			"name": "Mass Cure Wounds",
+			"source": "XUA2022ExpertClasses",
+			"_copy": {
+				"name": "Mass Cure Wounds",
+				"source": "PHB"
+			},
+			"school": "A"
+		},
+		{
+			"name": "Mass Heal",
+			"source": "XUA2022ExpertClasses",
+			"_copy": {
+				"name": "Mass Heal",
+				"source": "PHB"
+			},
+			"school": "A"
+		},
+		{
+			"name": "Mass Healing Word",
+			"source": "XUA2022ExpertClasses",
+			"_copy": {
+				"name": "Mass Healing Word",
+				"source": "PHB"
+			},
+			"school": "A"
+		},
+		{
+			"name": "Power Word Heal",
+			"source": "XUA2022ExpertClasses",
+			"_copy": {
+				"name": "Power Word Heal",
+				"source": "PHB"
+			},
+			"school": "A"
+		},
+		{
+			"name": "Prayer of Healing",
+			"source": "XUA2022ExpertClasses",
+			"_copy": {
+				"name": "Prayer of Healing",
+				"source": "PHB"
+			},
+			"school": "A"
+		},
+		{
+			"name": "Produce Flame",
+			"source": "XUA2022ExpertClasses",
+			"_copy": {
+				"name": "Produce Flame",
+				"source": "PHB"
+			},
+			"school": "V"
+		},
+		{
+			"name": "Reincarnate",
+			"source": "XUA2022ExpertClasses",
+			"_copy": {
+				"name": "Reincarnate",
+				"source": "PHB"
+			},
+			"school": "N"
+		},
+		{
+			"name": "Sending",
+			"source": "XUA2022ExpertClasses",
+			"_copy": {
+				"name": "Sending",
+				"source": "PHB"
+			},
+			"school": "D"
+		},
+		{
+			"name": "Shatter",
+			"source": "XUA2022ExpertClasses",
+			"_copy": {
+				"name": "Shatter",
+				"source": "PHB"
+			},
+			"school": "T"
+		},
+		{
+			"name": "Stoneskin",
+			"source": "XUA2022ExpertClasses",
+			"_copy": {
+				"name": "Stoneskin",
+				"source": "PHB"
+			},
+			"school": "T"
+		},
+		{
+			"name": "Telepathy",
+			"source": "XUA2022ExpertClasses",
+			"_copy": {
+				"name": "Telepathy",
+				"source": "PHB"
+			},
+			"school": "D"
 		}
 	],
 	"condition": [

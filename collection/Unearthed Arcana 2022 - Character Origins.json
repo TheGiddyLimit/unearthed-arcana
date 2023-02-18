@@ -36,6 +36,7 @@
 				"humanoid"
 			],
 			"size": [
+				"S",
 				"M"
 			],
 			"speed": 30,
@@ -325,6 +326,7 @@
 				"humanoid"
 			],
 			"size": [
+				"S",
 				"M"
 			],
 			"speed": 30,
@@ -1773,6 +1775,7 @@
 				"humanoid"
 			],
 			"size": [
+				"S",
 				"M"
 			],
 			"speed": 30,
@@ -2119,7 +2122,7 @@
 					"entries": [
 						{
 							"type": "entries",
-							"name": "Humans of Many Worlds",
+							"name": "Orcs of Many Worlds",
 							"entries": [
 								"On many worlds, orcs occupy territory claimed by their ancestors. Their settlements and strongholds can be found almost anywhere, above ground and below.",
 								"Orcs sometimes flock to the banners of powerful monarchs. King Obould Many-Arrows of Toril (the world of the Forgotten Realms setting) is one such figure, his strength tempered by a willingness to make peace with his enemies.",
@@ -2177,7 +2180,7 @@
 					"entries": [
 						{
 							"type": "entries",
-							"name": "Humans of Many Worlds",
+							"name": "Tieflings of Many Worlds",
 							"entries": [
 								"Tieflings born in the Lower Planes often migrate to other planes of existence and never look back. Their descendants are scattered across many worlds and are especially prevalent in Sigil, the torus-shaped city at the center of the multiverse.",
 								"The earliest tieflings joined ranks with nontieflings to repel fiendish incursions on many worlds, earning the trust of those who might otherwise have mistaken them for Fiends. Thanks to the victories and sacrifices of these legends, tieflings throughout the multiverse enjoy widespread acceptance."
