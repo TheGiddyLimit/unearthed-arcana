@@ -15,7 +15,12 @@
 		],
 		"dateAdded": 1672604449,
 		"dateLastModified": 1676741954,
-		"_dateLastModifiedHash": "337ecf0670"
+		"_dateLastModifiedHash": "337ecf0670",
+		"dependencies": {
+			"spell": [
+				"PHB"
+			]
+		}
 	},
 	"race": [
 		{
