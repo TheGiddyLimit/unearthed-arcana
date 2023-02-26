@@ -7056,6 +7056,15 @@
 			"school": "A"
 		},
 		{
+			"name": "Heal",
+			"source": "XUA2022ExpertClasses",
+			"_copy": {
+				"name": "Healing Word",
+				"source": "PHB"
+			},
+			"school": "A"
+		},
+		{
 			"name": "Healing Word",
 			"source": "XUA2022ExpertClasses",
 			"_copy": {
@@ -7756,7 +7765,6 @@
 			"className": "Ranger",
 			"classSource": "XUA2022ExpertClasses",
 			"level": 1,
-			"header": 2,
 			"entries": [
 				"You have learned to channel the magical essence of nature to cast Spells. See the Player's Handbook for the rules on spellcasting. The information below details how you use those rules as a Ranger.",
 				{

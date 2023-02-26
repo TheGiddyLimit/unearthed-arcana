@@ -3901,6 +3901,11 @@
 						}
 					]
 				}
+			],
+			"prerequisite": [
+				{
+					"level": 1
+				}
 			]
 		},
 		{
@@ -3963,6 +3968,11 @@
 						}
 					]
 				}
+			],
+			"prerequisite": [
+				{
+					"level": 1
+				}
 			]
 		},
 		{
@@ -3991,6 +4001,11 @@
 							]
 						}
 					]
+				}
+			],
+			"prerequisite": [
+				{
+					"level": 1
 				}
 			]
 		},
@@ -4027,6 +4042,11 @@
 							]
 						}
 					]
+				}
+			],
+			"prerequisite": [
+				{
+					"level": 1
 				}
 			]
 		},
@@ -4148,6 +4168,11 @@
 						}
 					]
 				}
+			],
+			"prerequisite": [
+				{
+					"level": 1
+				}
 			]
 		},
 		{
@@ -4196,6 +4221,11 @@
 						}
 					]
 				}
+			],
+			"prerequisite": [
+				{
+					"level": 1
+				}
 			]
 		},
 		{
@@ -4205,6 +4235,11 @@
 			"repeatable": false,
 			"entries": [
 				"You have trained to deal particularly damaging strikes. When you take the {@action Attack} Action and hit a target with a Weapon as part of that Action, you can roll the Weapon's damage dice twice and use either roll against the target. You can use this benefit only once per turn."
+			],
+			"prerequisite": [
+				{
+					"level": 1
+				}
 			]
 		},
 		{
@@ -4234,6 +4269,11 @@
 			],
 			"entries": [
 				"You have exceptionally broad learning. Choose three Skills in which you lack Proficiency. You gain Proficiency in those Skills."
+			],
+			"prerequisite": [
+				{
+					"level": 1
+				}
 			]
 		},
 		{
@@ -4277,6 +4317,11 @@
 						}
 					]
 				}
+			],
+			"prerequisite": [
+				{
+					"level": 1
+				}
 			]
 		},
 		{
@@ -4286,6 +4331,11 @@
 			"repeatable": true,
 			"entries": [
 				"Your Hit Point Maximum increases by an amount equal to twice your character level when you gain this Feat. Whenever you gain a level thereafter, your Hit Point Maximum increases by an additional 2 Hit Points."
+			],
+			"prerequisite": [
+				{
+					"level": 1
+				}
 			]
 		}
 	],
