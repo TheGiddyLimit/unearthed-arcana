@@ -7,7 +7,7 @@
 		"build": "npm run build:clean && npm run build:index",
 		"build:index": "node _node/generate-index.js",
 		"build:clean": "node _node/clean-and-test.js",
-		"test:json": "node _test/test-json.js",
+		"test:json": "npx test-json-brew",
 		"test:tags": "node _test/test-tags.js",
 		"test:file-locations": "node _test/test-file-locations.js",
 		"test:js": "eslint . --ext .js,.cjs,.mjs",
@@ -18,7 +18,7 @@
 	"author": "Giddy",
 	"license": "MIT",
 	"devDependencies": {
-		"5etools-utils": "^0.6.4",
+		"5etools-utils": "^0.7.2",
 		"eslint": "^8.34.0"
 	}
 }
