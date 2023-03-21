@@ -1,0 +1,5971 @@
+{
+	"_meta": {
+		"sources": [
+			{
+				"json": "XUA2023DruidAndPaladin",
+				"abbreviation": "XUA23DP",
+				"full": "Unearthed Arcana 2023: Player's Handbook: Druid & Paladin",
+				"authors": [
+					"Wizards of the Coast"
+				],
+				"version": "1.0.0",
+				"url": "https://media.dndbeyond.com/compendium-images/one-dnd/druid-paladin/PXoa3UgywnZbwc9U/UA-2023-DruidandPaladin.pdf",
+				"dateReleased": "2023-02-23"
+			}
+		],
+		"dateAdded": 1663844222,
+		"dateLastModified": 1672603541,
+		"_dateLastModifiedHash": "a32b81d0b6",
+		"dependencies": {
+			"spell": [
+				"PHB"
+			]
+		}
+	},
+	"class": [
+		{
+			"name": "Druid",
+			"source": "XUA2023DruidAndPaladin",
+			"page": 3,
+			"classGroup": [
+				"priest"
+			],
+			"hd": {
+				"number": 1,
+				"faces": 8
+			},
+			"proficiency": [
+				"int",
+				"wis"
+			],
+			"spellcastingAbility": "wis",
+			"casterProgression": "full",
+			"preparedSpells": "<$level$> + <$wis_mod$>",
+			"cantripProgression": [
+				2,
+				2,
+				2,
+				3,
+				3,
+				3,
+				3,
+				3,
+				3,
+				4,
+				4,
+				4,
+				4,
+				4,
+				4,
+				4,
+				4,
+				4,
+				4,
+				4
+			],
+			"startingProficiencies": {
+				"armor": [
+					"light",
+					"{@item shield|phb|shields}"
+				],
+				"weapons": [
+					"simple"
+				],
+				"tools": [
+					"{@item Herbalism kit|PHB}"
+				],
+				"skills": [
+					{
+						"choose": {
+							"from": [
+								"arcana",
+								"animal handling",
+								"insight",
+								"medicine",
+								"nature",
+								"perception",
+								"religion",
+								"survival"
+							],
+							"count": 2
+						}
+					}
+				]
+			},
+			"startingEquipment": {
+				"additionalFromBackground": false,
+				"default": [
+					"{@item Druidic Focus|phb|Druidic Focus (Quarterstaff)}",
+					"{@item Leather Armor|phb}",
+					"{@item Shield|phb}",
+					"{@item Explorer's Pack|phb}",
+					"{@item Sickle|phb}",
+					"{@item Herbalism kit|PHB}",
+					"9 GP"
+				],
+				"goldAlternative": "50 GP"
+			},
+			"multiclassing": {
+				"requirements": {
+					"wis": 13
+				},
+				"proficienciesGained": {
+					"armor": [
+						"light",
+						"{@item shield|phb|shields}"
+					]
+				}
+			},
+			"classTableGroups": [
+				{
+					"colLabels": [
+						"Channel Nature"
+					],
+					"rows": [
+						[
+							2
+						],
+						[
+							2
+						],
+						[
+							2
+						],
+						[
+							2
+						],
+						[
+							3
+						],
+						[
+							3
+						],
+						[
+							3
+						],
+						[
+							3
+						],
+						[
+							4
+						],
+						[
+							4
+						],
+						[
+							4
+						],
+						[
+							4
+						],
+						[
+							4
+						],
+						[
+							4
+						],
+						[
+							4
+						],
+						[
+							4
+						],
+						[
+							4
+						],
+						[
+							4
+						],
+						[
+							4
+						],
+						[
+							4
+						]
+					]
+				},
+				{
+					"colLabels": [
+						"{@filter Cantrips Known|spells|level=0|class=Druid}"
+					],
+					"rows": [
+						[
+							2
+						],
+						[
+							2
+						],
+						[
+							2
+						],
+						[
+							3
+						],
+						[
+							3
+						],
+						[
+							3
+						],
+						[
+							3
+						],
+						[
+							3
+						],
+						[
+							3
+						],
+						[
+							4
+						],
+						[
+							4
+						],
+						[
+							4
+						],
+						[
+							4
+						],
+						[
+							4
+						],
+						[
+							4
+						],
+						[
+							4
+						],
+						[
+							4
+						],
+						[
+							4
+						],
+						[
+							4
+						],
+						[
+							4
+						]
+					]
+				},
+				{
+					"title": "Spell Slots per Spell Level",
+					"colLabels": [
+						"{@filter 1st|spells|level=1|class=Druid}",
+						"{@filter 2nd|spells|level=2|class=Druid}",
+						"{@filter 3rd|spells|level=3|class=Druid}",
+						"{@filter 4th|spells|level=4|class=Druid}",
+						"{@filter 5th|spells|level=5|class=Druid}",
+						"{@filter 6th|spells|level=6|class=Druid}",
+						"{@filter 7th|spells|level=7|class=Druid}",
+						"{@filter 8th|spells|level=8|class=Druid}",
+						"{@filter 9th|spells|level=9|class=Druid}"
+					],
+					"rowsSpellProgression": [
+						[
+							2,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0
+						],
+						[
+							3,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0
+						],
+						[
+							4,
+							2,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0
+						],
+						[
+							4,
+							3,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0
+						],
+						[
+							4,
+							3,
+							2,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0
+						],
+						[
+							4,
+							3,
+							3,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0
+						],
+						[
+							4,
+							3,
+							3,
+							1,
+							0,
+							0,
+							0,
+							0,
+							0
+						],
+						[
+							4,
+							3,
+							3,
+							2,
+							0,
+							0,
+							0,
+							0,
+							0
+						],
+						[
+							4,
+							3,
+							3,
+							3,
+							1,
+							0,
+							0,
+							0,
+							0
+						],
+						[
+							4,
+							3,
+							3,
+							3,
+							2,
+							0,
+							0,
+							0,
+							0
+						],
+						[
+							4,
+							3,
+							3,
+							3,
+							2,
+							1,
+							0,
+							0,
+							0
+						],
+						[
+							4,
+							3,
+							3,
+							3,
+							2,
+							1,
+							0,
+							0,
+							0
+						],
+						[
+							4,
+							3,
+							3,
+							3,
+							2,
+							1,
+							1,
+							0,
+							0
+						],
+						[
+							4,
+							3,
+							3,
+							3,
+							2,
+							1,
+							1,
+							0,
+							0
+						],
+						[
+							4,
+							3,
+							3,
+							3,
+							2,
+							1,
+							1,
+							1,
+							0
+						],
+						[
+							4,
+							3,
+							3,
+							3,
+							2,
+							1,
+							1,
+							1,
+							0
+						],
+						[
+							4,
+							3,
+							3,
+							3,
+							2,
+							1,
+							1,
+							1,
+							1
+						],
+						[
+							4,
+							3,
+							3,
+							3,
+							3,
+							1,
+							1,
+							1,
+							1
+						],
+						[
+							4,
+							3,
+							3,
+							3,
+							3,
+							2,
+							1,
+							1,
+							1
+						],
+						[
+							4,
+							3,
+							3,
+							3,
+							3,
+							2,
+							2,
+							1,
+							1
+						]
+					]
+				}
+			],
+			"classFeatures": [
+				"Channel Nature|Druid|XUA2023DruidAndPaladin|1",
+				"Druidic|Druid|XUA2023DruidAndPaladin|1",
+				"Spellcasting|Druid|XUA2023DruidAndPaladin|1",
+				"Nature's Aid|Druid|XUA2023DruidAndPaladin|2",
+				{
+					"classFeature": "Druid Subclass|Druid|XUA2023DruidAndPaladin|3",
+					"gainSubclassFeature": true
+				},
+				"Feat|Druid|XUA2023DruidAndPaladin|4",
+				"Might of the Land|Druid|XUA2023DruidAndPaladin|5",
+				{
+					"classFeature": "Subclass Feature|Druid|XUA2023DruidAndPaladin|6",
+					"gainSubclassFeature": true
+				},
+				"Aquatic Form|Druid|XUA2023DruidAndPaladin|7",
+				"Feat|Druid|XUA2023DruidAndPaladin|8",
+				"Aerial Form|Druid|XUA2023DruidAndPaladin|9",
+				{
+					"classFeature": "Subclass Feature|Druid|XUA2023DruidAndPaladin|10",
+					"gainSubclassFeature": true
+				},
+				"Tiny Critter|Druid|XUA2023DruidAndPaladin|11",
+				"Feat|Druid|XUA2023DruidAndPaladin|12",
+				"Alternating Forms|Druid|XUA2023DruidAndPaladin|13",
+				{
+					"classFeature": "Subclass Feature|Druid|XUA2023DruidAndPaladin|14",
+					"gainSubclassFeature": true
+				},
+				"Wild Resurgence|Druid|XUA2023DruidAndPaladin|15",
+				"Feat|Druid|XUA2023DruidAndPaladin|16",
+				"Beast Spells|Druid|XUA2023DruidAndPaladin|17",
+				"Archdruid|Druid|XUA2023DruidAndPaladin|18",
+				"Feat|Druid|XUA2023DruidAndPaladin|19",
+				"Epic Boon|Druid|XUA2023DruidAndPaladin|20"
+			],
+			"subclassTitle": "Circle of the Moon",
+			"fluff": [
+				{
+					"type": "section",
+					"source": "XUA2023DruidAndPaladin",
+					"entries": [
+						"Druids belong to ancient orders that call on the forces of nature. Harnessing the magic of animals, plants, weather, and the four elements, Druids can heal, transform themselves, and wield elemental destruction.",
+						"Revering nature above all, individual Druids gain their magic from a nature deity, from nature itself, or both, and they typically unite with other Druids in performing rites to mark the passage of the seasons and other natural cycles. The ancient druidic traditions are sometimes called the Old Faith, in contrast to the worship of gods in temples and shrines.",
+						"Druids master Primal magic, which is oriented toward nature and animals\u2014the power of tooth and claw, of sun and moon, of fire and storm. Druids also gain the ability to take on animal forms, and some Druids focus on this practice, even to the point where they feel more natural in an animal form.",
+						"For Druids, nature exists in a precarious balance. The four elements that make up a world\u2014air, earth, fire, and water\u2014must remain in equilibrium. If one element were to gain power over the others, the world could be destroyed, drawn into one of the elemental planes and broken apart into its component elements. Thus, Druids oppose cults of Elemental Evil and others who promote one element to the exclusion of others.",
+						"Druids are also concerned with the delicate ecological balance that sustains plant and animal life and with the need for people to live in harmony with nature, not in opposition to it. Druids are often found guarding sacred sites or watching over regions of unspoiled nature. But when a significant danger arises, threatening nature's balance or the lands they protect, Druids take a more active role as adventurers who combat the threat."
+					]
+				}
+			]
+		},
+		{
+			"name": "Paladin",
+			"source": "XUA2023DruidAndPaladin",
+			"page": 9,
+			"classGroup": [
+				"priest"
+			],
+			"hd": {
+				"number": 1,
+				"faces": 10
+			},
+			"proficiency": [
+				"wis",
+				"cha"
+			],
+			"spellcastingAbility": "cha",
+			"casterProgression": "artificer",
+			"preparedSpells": "<$level$> / 2 + <$cha_mod$>",
+			"cantripProgression": [
+				2,
+				2,
+				2,
+				2,
+				2,
+				2,
+				2,
+				2,
+				2,
+				3,
+				3,
+				3,
+				3,
+				3,
+				3,
+				3,
+				3,
+				3,
+				3,
+				3
+			],
+			"startingProficiencies": {
+				"armor": [
+					"light",
+					"medium",
+					"heavy",
+					"{@item shield|phb|shields}"
+				],
+				"weapons": [
+					"simple",
+					"martial"
+				],
+				"skills": [
+					{
+						"choose": {
+							"from": [
+								"athletics",
+								"insight",
+								"intimidation",
+								"medicine",
+								"persuasion",
+								"religion"
+							],
+							"count": 2
+						}
+					}
+				]
+			},
+			"startingEquipment": {
+				"additionalFromBackground": false,
+				"default": [
+					"{@item Chain Mail|phb}",
+					"{@item Priest's Pack|XUA2023DruidAndPaladin}",
+					"{@item Holy symbol|phb}",
+					"{@item Shield|phb}",
+					"6 {@item javelin|phb|Javelins}",
+					"{@item Longsword|phb}",
+					"9 GP"
+				],
+				"goldAlternative": "150 GP"
+			},
+			"multiclassing": {
+				"requirements": {
+					"str": 13,
+					"cha": 13
+				},
+				"proficienciesGained": {
+					"armor": [
+						"light",
+						"medium",
+						"{@item shield|phb|shields}"
+					],
+					"weapons": [
+						"martial"
+					]
+				}
+			},
+			"classTableGroups": [
+				{
+					"colLabels": [
+						"Channel Divinity",
+						"{@filter Cantrips Known|spells|level=0|class=paladin (XUA23DP)}"
+					],
+					"rows": [
+						[
+							0,
+							2
+						],
+						[
+							0,
+							2
+						],
+						[
+							2,
+							2
+						],
+						[
+							2,
+							2
+						],
+						[
+							3,
+							2
+						],
+						[
+							3,
+							2
+						],
+						[
+							3,
+							2
+						],
+						[
+							3,
+							2
+						],
+						[
+							4,
+							2
+						],
+						[
+							4,
+							3
+						],
+						[
+							4,
+							3
+						],
+						[
+							4,
+							3
+						],
+						[
+							4,
+							3
+						],
+						[
+							4,
+							3
+						],
+						[
+							4,
+							3
+						],
+						[
+							4,
+							3
+						],
+						[
+							4,
+							3
+						],
+						[
+							4,
+							3
+						],
+						[
+							4,
+							3
+						],
+						[
+							4,
+							3
+						]
+					]
+				},
+				{
+					"title": "Spell Slots per Spell Level",
+					"colLabels": [
+						"{@filter 1st|spells|level=1|class=Paladin}",
+						"{@filter 2nd|spells|level=2|class=Paladin}",
+						"{@filter 3rd|spells|level=3|class=Paladin}",
+						"{@filter 4th|spells|level=4|class=Paladin}",
+						"{@filter 5th|spells|level=5|class=Paladin}"
+					],
+					"rowsSpellProgression": [
+						[
+							2,
+							0,
+							0,
+							0,
+							0
+						],
+						[
+							2,
+							0,
+							0,
+							0,
+							0
+						],
+						[
+							3,
+							0,
+							0,
+							0,
+							0
+						],
+						[
+							3,
+							0,
+							0,
+							0,
+							0
+						],
+						[
+							4,
+							2,
+							0,
+							0,
+							0
+						],
+						[
+							4,
+							2,
+							0,
+							0,
+							0
+						],
+						[
+							4,
+							3,
+							0,
+							0,
+							0
+						],
+						[
+							4,
+							3,
+							0,
+							0,
+							0
+						],
+						[
+							4,
+							3,
+							2,
+							0,
+							0
+						],
+						[
+							4,
+							3,
+							2,
+							0,
+							0
+						],
+						[
+							4,
+							3,
+							3,
+							0,
+							0
+						],
+						[
+							4,
+							3,
+							3,
+							0,
+							0
+						],
+						[
+							4,
+							3,
+							3,
+							1,
+							0
+						],
+						[
+							4,
+							3,
+							3,
+							1,
+							0
+						],
+						[
+							4,
+							3,
+							3,
+							2,
+							0
+						],
+						[
+							4,
+							3,
+							3,
+							2,
+							0
+						],
+						[
+							4,
+							3,
+							3,
+							3,
+							1
+						],
+						[
+							4,
+							3,
+							3,
+							3,
+							1
+						],
+						[
+							4,
+							3,
+							3,
+							3,
+							2
+						],
+						[
+							4,
+							3,
+							3,
+							3,
+							2
+						]
+					]
+				}
+			],
+			"classFeatures": [
+				"Lay on Hands|Paladin|XUA2023DruidAndPaladin|1",
+				"Spellcasting|Paladin|XUA2023DruidAndPaladin|1",
+				"Divine Smite|Paladin|XUA2023DruidAndPaladin|2",
+				"Fighting Style|Paladin|XUA2023DruidAndPaladin|2",
+				"Channel Divinity|Paladin|XUA2023DruidAndPaladin|3",
+				{
+					"classFeature": "Paladin Subclass|Paladin|XUA2023DruidAndPaladin|3",
+					"gainSubclassFeature": true
+				},
+				"Feat|Paladin|XUA2023DruidAndPaladin|4",
+				"Extra Attack|Paladin|XUA2023DruidAndPaladin|5",
+				"Faithful Steed|Paladin|XUA2023DruidAndPaladin|5",
+				{
+					"classFeature": "Subclass Feature|Paladin|XUA2023DruidAndPaladin|6",
+					"gainSubclassFeature": true
+				},
+				"Aura of Protection|Paladin|XUA2023DruidAndPaladin|7",
+				"Feat|Paladin|XUA2023DruidAndPaladin|8",
+				"Abjure Foes|Paladin|XUA2023DruidAndPaladin|9",
+				{
+					"classFeature": "Subclass Feature|Paladin|XUA2023DruidAndPaladin|10",
+					"gainSubclassFeature": true
+				},
+				"Radiant Strikes|Paladin|XUA2023DruidAndPaladin|11",
+				"Feat|Paladin|XUA2023DruidAndPaladin|12",
+				"Aura of Courage|Paladin|XUA2023DruidAndPaladin|13",
+				{
+					"classFeature": "Subclass Feature|Paladin|XUA2023DruidAndPaladin|14",
+					"gainSubclassFeature": true
+				},
+				"Restoring Touch|Paladin|XUA2023DruidAndPaladin|15",
+				"Feat|Paladin|XUA2023DruidAndPaladin|16",
+				"Aura Expansion|Paladin|XUA2023DruidAndPaladin|17",
+				"Divine Conduit|Paladin|XUA2023DruidAndPaladin|18",
+				"Feat|Paladin|XUA2023DruidAndPaladin|19",
+				"Epic Boon|Paladin|XUA2023DruidAndPaladin|20"
+			],
+			"subclassTitle": "Oath of Devotion",
+			"fluff": [
+				{
+					"type": "section",
+					"source": "XUA2023DruidAndPaladin",
+					"entries": [
+						"Paladins are united by their oaths to stand against the forces of annihilation and corruption. Whether sworn before a god's altar, in a sacred glade before nature spirits and fey beings, or in a moment of desperation and grief with the dead as the only witnesses, a Paladin's oath is a powerful bond. It is a source of power that turns a devout warrior into a blessed champion.",
+						"A Paladin swears to stand against corrupting influences and to hunt the forces of ruin wherever they lurk. Different Paladins focus on various aspects of these causes, but all are bound by the oaths that grant them power to do their sacred work.",
+						"Paladins train to learn the skills of combat, mastering a variety of weapons and armor. Even so, their martial skills are secondary to the magical power they wield\u2014power to heal the sick and injured, to smite their foes, and to protect the helpless and those who fight at their side.",
+						"Almost by definition, the life of a Paladin is an adventuring life, for every Paladin lives on the front lines of the cosmic struggle against annihilation. Fighters are rare enough among the ranks of a world's armies, but even fewer people can claim the calling of a Paladin. When they do receive the call, these blessed folk turn from their former occupations and take up arms and magic. Sometimes their oaths lead them into the service of the crown as leaders of elite groups of knights, but even then, their loyalty is first to their sacred oaths, not to crown and country.",
+						"Adventuring Paladins take their work seriously. A delve into an ancient ruin or a dusty crypt can be a quest driven by a higher purpose than the acquisition of treasure. Malign forces lurk in dungeons, and even the smallest victory against them can tilt the cosmic balance away from oblivion."
+					]
+				}
+			]
+		}
+	],
+	"subclass": [
+		{
+			"name": "Circle of the Moon",
+			"shortName": "Moon",
+			"source": "XUA2023DruidAndPaladin",
+			"className": "Druid",
+			"classSource": "XUA2023DruidAndPaladin",
+			"page": 8,
+			"subclassFeatures": [
+				"Circle of the Moon|Druid|XUA2023DruidAndPaladin|Moon|XUA2023DruidAndPaladin|3",
+				"Elemental Wild Shape|Druid|XUA2023DruidAndPaladin|Moon|XUA2023DruidAndPaladin|6",
+				"Elemental Strike|Druid|XUA2023DruidAndPaladin|Moon|XUA2023DruidAndPaladin|10",
+				"Thousand Forms|Druid|XUA2023DruidAndPaladin|Moon|XUA2023DruidAndPaladin|14"
+			]
+		},
+		{
+			"name": "Oath of Devotion",
+			"shortName": "Devotion",
+			"source": "XUA2023DruidAndPaladin",
+			"className": "Paladin",
+			"classSource": "XUA2023DruidAndPaladin",
+			"page": 13,
+			"subclassFeatures": [
+				"Oath of Devotion|Paladin|XUA2023DruidAndPaladin|Devotion|XUA2023DruidAndPaladin|3",
+				"Sacred Weapon|Paladin|XUA2023DruidAndPaladin|Devotion|XUA2023DruidAndPaladin|3",
+				"Smite of Protection|Paladin|XUA2023DruidAndPaladin|Devotion|XUA2023DruidAndPaladin|6",
+				"Aura of Devotion|Paladin|XUA2023DruidAndPaladin|Devotion|XUA2023DruidAndPaladin|10",
+				"Holy Nimbus|Paladin|XUA2023DruidAndPaladin|Devotion|XUA2023DruidAndPaladin|14"
+			]
+		}
+	],
+	"classFeature": [
+		{
+			"name": "Channel Nature",
+			"source": "XUA2023DruidAndPaladin",
+			"page": 4,
+			"className": "Druid",
+			"classSource": "XUA2023DruidAndPaladin",
+			"header": 2,
+			"level": 1,
+			"entries": [
+				"As a Druid, you gain the following class features when you reach the specified levels in this class. These features are listed on the Druid table.",
+				{
+					"type": "entries",
+					"name": "1st Level: Channel Nature",
+					"entries": [
+						"The magic of nature infuses you. Tapping into that power, you can create various magical effects. You start with one such effect: Wild Shape, which is described below. Other Druid features give additional Channel Nature effect options. Each time you use this Channel Nature, you choose which effect to create from among those you have from this class.",
+						"You can use Channel Nature twice. You regain one expended use when you finish a {@variantrule Short Rest|XUA2023DruidAndPaladin}, and you regain all expended uses when you finish a {@variantrule Long Rest|XUA2023DruidAndPaladin}. You gain additional uses when you reach certain Druid levels, as shown in the Channel Nature column of the Druid table.",
+						"If a Channel Nature effect requires a saving throw, the DC equals the Spell Save DC from this class's Spellcasting feature."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Wild Shape",
+					"entries": [
+						"As a {@action Magic|XUA2023DruidAndPaladin} action, you transform into a form that you have learned for this feature. You start knowing one form, Animal of the Land, which is detailed in the \"Wild Shapes\" section later in this class's description. You stay in that form for a number of hours equal to half your Druid level or until you use Wild Shape again, have the {@condition Incapacitated|XUA2023DruidAndPaladin} condition, or die. You can also end Wild Shape early as a Bonus Action.",
+						"While in a form, its game statistics replace yours, and your ability to handle objects is determined by the form's limbs, rather than your own. You retain your personality, memories, ability to speak, and Wild Shape. You lose access to all your other features, such as the ability to cast spells (you can continue to concentrate on one).",
+						"When you transform, you choose whether your equipment falls to the ground in your space or merges into your new form. Equipment that merges with the form has no effect until you leave the form."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Wild Shapes",
+					"entries": [
+						"When you use your Wild Shape, you transform into a form you've learned for this feature. This section includes three forms: {@creature Animal of the Land|XUA2023DruidAndPaladin}, {@creature Animal of the Sea|XUA2023DruidAndPaladin}, and {@creature Animal of the Sky|XUA2023DruidAndPaladin}.",
+						"As you assume a form, you determine its appearance, selecting an example animal from the form's description, selecting another appropriate animal, or choosing a hybrid form that incorporates visual characteristics from two or more animals. The appearance you choose has no effect on the form's capabilities.",
+						"When choosing an animal's appearance for a form, that animal needn't be the same size as the form. For example, you could choose elephant for the appearance and Small for the size\u2014creating a form that resembles a little elephant."
+					]
+				}
+			]
+		},
+		{
+			"name": "Druidic",
+			"source": "XUA2023DruidAndPaladin",
+			"page": 5,
+			"className": "Druid",
+			"classSource": "XUA2023DruidAndPaladin",
+			"header": 2,
+			"level": 1,
+			"entries": [
+				"You know Druidic, the secret language of Druids. You can speak the language and use it to leave hidden messages.",
+				"You and others who know this language automatically spot such a message. Others spot the message's presence with a successful {@dc 15} Intelligence ({@skill Investigation}) check but can't decipher it without magic."
+			]
+		},
+		{
+			"name": "Spellcasting",
+			"source": "XUA2023DruidAndPaladin",
+			"page": 5,
+			"className": "Druid",
+			"classSource": "XUA2023DruidAndPaladin",
+			"header": 2,
+			"level": 1,
+			"entries": [
+				"You have learned to cast spells through studying the mystical forces of nature. See the Player's Handbook for the rules on spellcasting. The information below details how you use those rules as a Druid.",
+				{
+					"type": "entries",
+					"name": "Prepared Spells",
+					"entries": [
+						"You have the following spells prepared: {@spell Cure Wounds}, {@spell Druidcraft}, {@spell Produce Flame}, and {@spell Thunderwave}. Alternatively, you can prepare two 0-level spells (also known as cantrips) and two 1st-level spells of your choice from the Primal spell list.",
+						"Whenever you finish a {@variantrule Long Rest|XUA2023DruidAndPaladin}, you can meditate and replace any spell you have prepared for this class with another Primal spell of the same level.",
+						"At higher levels in this class, you can prepare more spells, as shown on the Druid table. The numbers there determine the number of different spells you can prepare of each level. For example, as a 4th-level Druid, you can prepare three different 0-level spells, four different 1stlevel spells, and three different 2nd-level spells."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Spell Slots",
+					"entries": [
+						"When you cast a prepared Druid spell, you expend a Spell Slot. The number of Spell Slots you have of 1st-level and higher is the same as the number of different spells you can prepare of each level, as shown on the Druid table. For example, as a 5th-level Druid, you have four 1st-level Spell Slots, three 2nd-level Spell Slots, and two 3rd-level Spell Slots."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Spellcasting Ability",
+					"entries": [
+						"Wisdom is your Spellcasting Ability for your Druid Spells."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Spellcasting Focus",
+					"entries": [
+						"You can use a Druidic Focus as a Spellcasting Focus for the spells you prepare for this class."
+					]
+				}
+			]
+		},
+		{
+			"name": "Nature's Aid",
+			"source": "XUA2023DruidAndPaladin",
+			"page": 5,
+			"className": "Druid",
+			"classSource": "XUA2023DruidAndPaladin",
+			"header": 2,
+			"level": 2,
+			"entries": [
+				"You learn two more ways to use your Channel Nature\u2014Healing Blossoms and Wild Companion\u2014each of which is described below.",
+				{
+					"type": "entries",
+					"name": "Healing Blossoms",
+					"entries": [
+						"As a {@action Magic|XUA2023DruidAndPaladin} action, you channel healing energy that appears as blooming flowers. Choose a point within 30 feet of yourself, and spectral flowers appear for a moment in a 10-foot-radius sphere centered on that point. Then roll a number of d4s equal to your Wisdom modifier (minimum of one die), and add the dice together. The total is the number of Hit Points you can distribute to creatures in that sphere. You decide the number of Hit Points that are restored to each of those creatures, deducting the healing from the total."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Wild Companion",
+					"entries": [
+						"You can summon a nature spirit that assumes an animal form to aid you. As a {@action Magic|XUA2023DruidAndPaladin} action, you can expend a use of your Channel Nature and cast the {@spell Find Familiar} spell without material components.",
+						"When you cast the spell in this way, the familiar is a Fey, and it disappears when you finish a {@variantrule Long Rest|XUA2023DruidAndPaladin}."
+					]
+				}
+			]
+		},
+		{
+			"name": "Druid Subclass",
+			"source": "XUA2023DruidAndPaladin",
+			"page": 5,
+			"className": "Druid",
+			"classSource": "XUA2023DruidAndPaladin",
+			"header": 2,
+			"level": 3,
+			"entries": [
+				"You gain the Circle of the Moon subclass or another Druid subclass of your choice. The Circle of the Moon is detailed after the Druid's class description, and other subclasses will appear in future Unearthed Arcana articles.",
+				"A subclass is a specialization that grants you special abilities at certain Druid levels. For the rest of your career, you gain each of your subclass's features that are of your Druid level and lower. This class's description tells you the levels when your subclass provides features."
+			]
+		},
+		{
+			"name": "Feat",
+			"source": "XUA2023DruidAndPaladin",
+			"page": 6,
+			"className": "Druid",
+			"classSource": "XUA2023DruidAndPaladin",
+			"header": 2,
+			"level": 4,
+			"entries": [
+				"You gain the {@feat Ability Score Improvement|XUA2022ClericAndRevisedSpecies} Feat or another Feat of your choice for which you qualify."
+			]
+		},
+		{
+			"name": "Might of the Land",
+			"source": "XUA2023DruidAndPaladin",
+			"page": 6,
+			"className": "Druid",
+			"classSource": "XUA2023DruidAndPaladin",
+			"header": 2,
+			"level": 5,
+			"entries": [
+				"Your connection to the land deepens, empowering the {@creature Animal of the Land|XUA2023DruidAndPaladin} form of your Wild Shape; you unlock that form's {@variantrule Climb Speed|XUA2023DruidAndPaladin} and Multiattack."
+			]
+		},
+		{
+			"name": "Subclass Feature",
+			"source": "XUA2023DruidAndPaladin",
+			"page": 6,
+			"className": "Druid",
+			"classSource": "XUA2023DruidAndPaladin",
+			"header": 2,
+			"level": 6,
+			"entries": [
+				"You gain a feature from your Druid Subclass."
+			]
+		},
+		{
+			"name": "Aquatic Form",
+			"source": "XUA2023DruidAndPaladin",
+			"page": 6,
+			"className": "Druid",
+			"classSource": "XUA2023DruidAndPaladin",
+			"header": 2,
+			"level": 7,
+			"entries": [
+				"You learn a new form for your Wild Shape: {@creature Animal of the Sea|XUA2023DruidAndPaladin}, which is described in the \"Wild Shapes\" section later in this class's description."
+			]
+		},
+		{
+			"name": "Feat",
+			"source": "XUA2023DruidAndPaladin",
+			"page": 6,
+			"className": "Druid",
+			"classSource": "XUA2023DruidAndPaladin",
+			"header": 2,
+			"level": 8,
+			"entries": [
+				"You gain the {@feat Ability Score Improvement|XUA2022ClericAndRevisedSpecies} Feat or another Feat of your choice for which you qualify."
+			]
+		},
+		{
+			"name": "Aerial Form",
+			"source": "XUA2023DruidAndPaladin",
+			"page": 6,
+			"className": "Druid",
+			"classSource": "XUA2023DruidAndPaladin",
+			"header": 2,
+			"level": 9,
+			"entries": [
+				"You learn a new form for your Wild Shape: {@creature Animal of the Sky|XUA2023DruidAndPaladin}, which is described in the \"Wild Shapes\" section later in this class's description."
+			]
+		},
+		{
+			"name": "Subclass Feature",
+			"source": "XUA2023DruidAndPaladin",
+			"page": 6,
+			"className": "Druid",
+			"classSource": "XUA2023DruidAndPaladin",
+			"header": 2,
+			"level": 10,
+			"entries": [
+				"You gain a feature from your Druid Subclass."
+			]
+		},
+		{
+			"name": "Tiny Critter",
+			"source": "XUA2023DruidAndPaladin",
+			"page": 6,
+			"className": "Druid",
+			"classSource": "XUA2023DruidAndPaladin",
+			"header": 2,
+			"level": 11,
+			"entries": [
+				"You gain the ability to become a Tiny creature. When you transform into a Wild Shape form, you can make it Tiny. If you do so, you can stay in that form no longer than 10 minutes, and the damage you deal in that form is halved."
+			]
+		},
+		{
+			"name": "Feat",
+			"source": "XUA2023DruidAndPaladin",
+			"page": 6,
+			"className": "Druid",
+			"classSource": "XUA2023DruidAndPaladin",
+			"header": 2,
+			"level": 12,
+			"entries": [
+				"You gain the {@feat Ability Score Improvement|XUA2022ClericAndRevisedSpecies} Feat or another Feat of your choice for which you qualify."
+			]
+		},
+		{
+			"name": "Alternating Forms",
+			"source": "XUA2023DruidAndPaladin",
+			"page": 6,
+			"className": "Druid",
+			"classSource": "XUA2023DruidAndPaladin",
+			"header": 2,
+			"level": 13,
+			"entries": [
+				"You can now rapidly shift between a Wild Shape form and your normal form. If you're in a Wild Shape form, you can switch to your normal form as a Bonus Action, and you can then switch back into that Wild Shape form within the next minute as a Bonus Action. Neither switch expends a use of Wild Shape."
+			]
+		},
+		{
+			"name": "Subclass Feature",
+			"source": "XUA2023DruidAndPaladin",
+			"page": 6,
+			"className": "Druid",
+			"classSource": "XUA2023DruidAndPaladin",
+			"header": 2,
+			"level": 14,
+			"entries": [
+				"You gain a feature from your Druid Subclass."
+			]
+		},
+		{
+			"name": "Wild Resurgence",
+			"source": "XUA2023DruidAndPaladin",
+			"page": 6,
+			"className": "Druid",
+			"classSource": "XUA2023DruidAndPaladin",
+			"header": 2,
+			"level": 15,
+			"entries": [
+				"When you use your Wild Shape, primal magic radiates from you, allowing you to use Healing Blossoms as part of the same use of Channel Nature."
+			]
+		},
+		{
+			"name": "Feat",
+			"source": "XUA2023DruidAndPaladin",
+			"page": 6,
+			"className": "Druid",
+			"classSource": "XUA2023DruidAndPaladin",
+			"header": 2,
+			"level": 16,
+			"entries": [
+				"You gain the {@feat Ability Score Improvement|XUA2022ClericAndRevisedSpecies} Feat or another Feat of your choice for which you qualify."
+			]
+		},
+		{
+			"name": "Beast Spells",
+			"source": "XUA2023DruidAndPaladin",
+			"page": 6,
+			"className": "Druid",
+			"classSource": "XUA2023DruidAndPaladin",
+			"header": 2,
+			"level": 17,
+			"entries": [
+				"You can cast spells in any Wild Shape form. While in such a form, you can perform Somatic and Verbal Components, and you don't need to provide free Material Components. If a spell consumes its Material Component, you can't cast that spell while in a Wild Shape form."
+			]
+		},
+		{
+			"name": "Archdruid",
+			"source": "XUA2023DruidAndPaladin",
+			"page": 6,
+			"className": "Druid",
+			"classSource": "XUA2023DruidAndPaladin",
+			"header": 2,
+			"level": 18,
+			"entries": [
+				"Whenever you roll Initiative, you regain one use of your Channel Nature.",
+				"In addition, the primal magic that you wield causes you to age more slowly. For every 10 years that pass, your body ages only 1 year."
+			]
+		},
+		{
+			"name": "Feat",
+			"source": "XUA2023DruidAndPaladin",
+			"page": 6,
+			"className": "Druid",
+			"classSource": "XUA2023DruidAndPaladin",
+			"header": 2,
+			"level": 19,
+			"entries": [
+				"You gain the {@feat Ability Score Improvement|XUA2022ClericAndRevisedSpecies} Feat or another Feat of your choice for which you qualify."
+			]
+		},
+		{
+			"name": "Epic Boon",
+			"source": "XUA2023DruidAndPaladin",
+			"page": 6,
+			"className": "Druid",
+			"classSource": "XUA2023DruidAndPaladin",
+			"header": 2,
+			"level": 20,
+			"entries": [
+				"You gain the following benefits:",
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"items": [
+						{
+							"type": "item",
+							"name": "Ability Score Increase",
+							"entries": [
+								"Choose one of your ability scores. That score increases by 2, and this increase can raise the score above 20 but not above 30."
+							]
+						},
+						{
+							"type": "item",
+							"name": "Epic Boon Feat",
+							"entries": [
+								"You gain the Epic Boon of Spell Recall or another Epic Boon feat of your choice."
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Lay on Hands",
+			"source": "XUA2023DruidAndPaladin",
+			"page": 10,
+			"className": "Paladin",
+			"classSource": "XUA2023DruidAndPaladin",
+			"header": 2,
+			"level": 1,
+			"entries": [
+				"Your blessed touch can heal wounds. You have a pool of healing power that replenishes when you take a {@variantrule Long Rest|XUA2023DruidAndPaladin}. With that pool, you can restore a total number of Hit Points equal to five times your Paladin level.",
+				"As a {@action Magic|XUA2023DruidAndPaladin} action, you can touch a creature (which could be yourself) and draw power from the pool of healing to restore a number of Hit Points to that creature, up to the maximum amount remaining in the pool.",
+				"In addition, you can expend 5 Hit Points from the pool of healing to remove the Poisoned condition from the creature, rather than using those points to restore Hit Points."
+			]
+		},
+		{
+			"name": "Spellcasting",
+			"source": "XUA2023DruidAndPaladin",
+			"page": 10,
+			"className": "Paladin",
+			"classSource": "XUA2023DruidAndPaladin",
+			"header": 2,
+			"level": 1,
+			"entries": [
+				"You have learned to cast spells through prayer, meditation, and devotion. See the Player's Handbook for the rules on spellcasting. The information below details how you use those rules as a Paladin.",
+				{
+					"type": "entries",
+					"name": "Prepared Spells",
+					"entries": [
+						"You have the following spells prepared: {@spell Heroism}, {@spell Resistance}, {@spell Spare the Dying}, and {@spell Thunderous Smite}. Alternatively, you can prepare two 0-level spells (also known as cantrips) and two 1st-level spells of your choice from the Divine spell list.",
+						"Whenever you finish a {@variantrule Long Rest|XUA2023DruidAndPaladin}, you can meditate and replace any spell you have prepared for this class with another Divine spell of the same level.",
+						"At higher levels in this class, you can prepare more spells, as shown on the Paladin table. The numbers there determine the number of different spells you can prepare of each level. For example, as a 4th-level Paladin, you can prepare two different 0-level spells and three different 1st-level spells."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Spell Slots",
+					"entries": [
+						"When you cast a prepared Paladin spell, you expend a Spell Slot. The number of Spell Slots you have of 1st-level and higher is the same as the number of different spells you can prepare of each level, as shown on the Paladin table. For example, as a 5th-level Paladin, you have four 1st-level Spell Slots and two 2nd-level Spell Slots."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Spellcasting Ability",
+					"entries": [
+						"Charisma is your Spellcasting Ability for your Paladin spells."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Spellcasting Focus",
+					"entries": [
+						"You can use a Holy Symbol as a Spellcasting Focus for the spells you prepare for this class."
+					]
+				}
+			]
+		},
+		{
+			"name": "Divine Smite",
+			"source": "XUA2023DruidAndPaladin",
+			"page": 11,
+			"className": "Paladin",
+			"classSource": "XUA2023DruidAndPaladin",
+			"header": 2,
+			"level": 2,
+			"entries": [
+				"When you strike a target, you can channel divine energy to smite it. Immediately after you hit a target with an attack roll using a weapon or an {@variantrule Unarmed Strike|XUA2023DruidAndPaladin}, you can expend one Spell Slot to deal Radiant damage to the target. The damage is {@dice 2d8} for a 1st-level Spell Slot, plus {@dice 1d8} for each slot level higher than 1st.",
+				"You can use Divine Smite no more than once during a turn, and you can't use it on the same turn that you cast a spell."
+			]
+		},
+		{
+			"name": "Fighting Style",
+			"source": "XUA2023DruidAndPaladin",
+			"page": 11,
+			"className": "Paladin",
+			"classSource": "XUA2023DruidAndPaladin",
+			"header": 2,
+			"level": 2,
+			"entries": [
+				"You have honed your martial prowess and gain the {@feat Fighting Style: Defense|XUA2022ExpertClasses} feat, or you gain another Fighting Style feat of your choice.",
+				"Whenever you gain a feat at later levels, Fighting Style feats are among your options, even though you aren't a member of the Warrior group."
+			]
+		},
+		{
+			"name": "Channel Divinity",
+			"source": "XUA2023DruidAndPaladin",
+			"page": 11,
+			"className": "Paladin",
+			"classSource": "XUA2023DruidAndPaladin",
+			"header": 2,
+			"level": 3,
+			"entries": [
+				"You can channel divine energy directly from the Outer Planes, using that energy to fuel magical effects. You start with one such effect: Divine Sense, which is described below. Other Paladin features give additional Channel Divinity effect options. Each time you use this Channel Divinity, you choose which effect to create from among those you have from this class.",
+				"You can use Channel Divinity twice. You regain one expended use when you finish a {@variantrule Short Rest|XUA2023DruidAndPaladin}, and you regain all expended uses when you finish a {@variantrule Long Rest|XUA2023DruidAndPaladin}. You gain additional uses when you reach certain Paladin levels, as shown in the Channel Divinity column of the Paladin table. If a Channel Divinity effect requires a saving throw, the DC equals the Spell Save DC from this class's Spellcasting feature.",
+				{
+					"type": "entries",
+					"name": "Divine Sense",
+					"entries": [
+						"As a Bonus Action, you can open your awareness to detect Celestials, Fiends, and Undead. For the next 10 minutes or until you have the {@condition Incapacitated|XUA2023DruidAndPaladin} condition, you know the location of any creature of those types within 60 feet of yourself, and you know its creature type. Within the same radius, you also detect the presence of any place or object that has been consecrated or desecrated, as with the {@spell Hallow} spell."
+					]
+				}
+			]
+		},
+		{
+			"name": "Paladin Subclass",
+			"source": "XUA2023DruidAndPaladin",
+			"page": 11,
+			"className": "Paladin",
+			"classSource": "XUA2023DruidAndPaladin",
+			"header": 2,
+			"level": 3,
+			"entries": [
+				"You gain the Oath of Devotion subclass or another Paladin subclass of your choice. The Oath of Devotion is detailed after the Paladin's class description, and other subclasses will appear in future Unearthed Arcana articles.",
+				"A subclass is a specialization that grants you special abilities at certain Paladin levels. For the rest of your career, you gain each of your subclass's features that are of your Paladin level and lower. This class's description tells you the levels when your subclass provides features."
+			]
+		},
+		{
+			"name": "Feat",
+			"source": "XUA2023DruidAndPaladin",
+			"page": 11,
+			"className": "Paladin",
+			"classSource": "XUA2023DruidAndPaladin",
+			"header": 2,
+			"level": 4,
+			"entries": [
+				"You gain the {@feat Ability Score Improvement|XUA2022ClericAndRevisedSpecies} Feat or another Feat of your choice for which you qualify."
+			]
+		},
+		{
+			"name": "Extra Attack",
+			"source": "XUA2023DruidAndPaladin",
+			"page": 11,
+			"className": "Paladin",
+			"classSource": "XUA2023DruidAndPaladin",
+			"header": 2,
+			"level": 5,
+			"entries": [
+				"You can attack twice, instead of once, whenever you take the {@action Attack|XUA2023DruidAndPaladin} action on your turn."
+			]
+		},
+		{
+			"name": "Faithful Steed",
+			"source": "XUA2023DruidAndPaladin",
+			"page": 11,
+			"className": "Paladin",
+			"classSource": "XUA2023DruidAndPaladin",
+			"header": 2,
+			"level": 5,
+			"entries": [
+				"You can easily call on the aid of an otherworldly steed. You always have the {@spell Find Steed} spell prepared, and it doesn't count against the number of spells you can prepare.",
+				"When you cast this spell, its casting time is an action. You can also cast the spell once without expending a Spell Slot, and you regain the ability to do so when you finish a {@variantrule Long Rest|XUA2023DruidAndPaladin}."
+			]
+		},
+		{
+			"name": "Subclass Feature",
+			"source": "XUA2023DruidAndPaladin",
+			"page": 11,
+			"className": "Paladin",
+			"classSource": "XUA2023DruidAndPaladin",
+			"header": 2,
+			"level": 6,
+			"entries": [
+				"You gain a feature from your Druid Subclass."
+			]
+		},
+		{
+			"name": "Aura of Protection",
+			"source": "XUA2023DruidAndPaladin",
+			"page": 12,
+			"className": "Paladin",
+			"classSource": "XUA2023DruidAndPaladin",
+			"header": 2,
+			"level": 7,
+			"entries": [
+				"You radiate a protective, invisible aura that extends 10 feet from you in every direction, but it doesn't extend through Total Cover.",
+				"You and your allies in the aura gain a bonus to saving throws equal to your Charisma modifier (minimum bonus of +1).",
+				"If another Paladin is present, a creature can benefit from only one Aura of Protection at a time; the creature chooses which one when entering the auras."
+			]
+		},
+		{
+			"name": "Feat",
+			"source": "XUA2023DruidAndPaladin",
+			"page": 12,
+			"className": "Paladin",
+			"classSource": "XUA2023DruidAndPaladin",
+			"header": 2,
+			"level": 8,
+			"entries": [
+				"You gain the {@feat Ability Score Improvement|XUA2022ClericAndRevisedSpecies} Feat or another Feat of your choice for which you qualify."
+			]
+		},
+		{
+			"name": "Abjure Foes",
+			"source": "XUA2023DruidAndPaladin",
+			"page": 12,
+			"className": "Paladin",
+			"classSource": "XUA2023DruidAndPaladin",
+			"header": 2,
+			"level": 9,
+			"entries": [
+				"As a {@action Magic|XUA2023DruidAndPaladin} action, you can expend one use of your Channel Divinity to overwhelm foes with divine awe. As you present your Holy Symbol or weapon, you can target a number of creatures equal to your Charisma modifier (minimum of one creature) that you can see within 60 feet of yourself.",
+				"Each target must make a Wisdom saving throw. On a failed save, the target has the {@condition Dazed|XUA2023DruidAndPaladin} and {@condition Frightened} conditions for 1 minute or until it takes any damage. On a successful save, the target has the {@condition Dazed|XUA2023DruidAndPaladin} condition for 1 minute or until it takes any damage."
+			]
+		},
+		{
+			"name": "Subclass Feature",
+			"source": "XUA2023DruidAndPaladin",
+			"page": 12,
+			"className": "Paladin",
+			"classSource": "XUA2023DruidAndPaladin",
+			"header": 2,
+			"level": 10,
+			"entries": [
+				"You gain a feature from your Paladin Subclass."
+			]
+		},
+		{
+			"name": "Radiant Strikes",
+			"source": "XUA2023DruidAndPaladin",
+			"page": 12,
+			"className": "Paladin",
+			"classSource": "XUA2023DruidAndPaladin",
+			"header": 2,
+			"level": 11,
+			"entries": [
+				"You are so suffused with divine might that your weapon strikes carry supernatural power with them. When you hit a target with an attack roll using a Simple or Martial weapon, the target takes an extra {@damage 1d8} Radiant damage."
+			]
+		},
+		{
+			"name": "Feat",
+			"source": "XUA2023DruidAndPaladin",
+			"page": 12,
+			"className": "Paladin",
+			"classSource": "XUA2023DruidAndPaladin",
+			"header": 2,
+			"level": 12,
+			"entries": [
+				"You gain the {@feat Ability Score Improvement|XUA2022ClericAndRevisedSpecies} Feat or another Feat of your choice for which you qualify."
+			]
+		},
+		{
+			"name": "Aura of Courage",
+			"source": "XUA2023DruidAndPaladin",
+			"page": 12,
+			"className": "Paladin",
+			"classSource": "XUA2023DruidAndPaladin",
+			"header": 2,
+			"level": 13,
+			"entries": [
+				"You and your allies are immune to the Frightened condition while in your Aura of Protection. If a Frightened ally enters the aura, that condition is suppressed while the ally is there."
+			]
+		},
+		{
+			"name": "Subclass Feature",
+			"source": "XUA2023DruidAndPaladin",
+			"page": 12,
+			"className": "Paladin",
+			"classSource": "XUA2023DruidAndPaladin",
+			"header": 2,
+			"level": 14,
+			"entries": [
+				"You gain a feature from your Paladin Subclass."
+			]
+		},
+		{
+			"name": "Restoring Touch",
+			"source": "XUA2023DruidAndPaladin",
+			"page": 12,
+			"className": "Paladin",
+			"classSource": "XUA2023DruidAndPaladin",
+			"header": 2,
+			"level": 15,
+			"entries": [
+				"When you use Lay on Hands on a creature, you can also remove one or more of the following conditions from the creature: {@condition Blinded}, {@condition Charmed}, {@condition Dazed|XUA2023DruidAndPaladin}, {@condition Deafened}, {@condition Frightened}, {@condition Paralyzed}, or {@condition Stunned}. You must expend 5 Hit Points from the healing pool of Lay on Hands for each of these conditions you remove; those points don't also restore Hit Points to the creature."
+			]
+		},
+		{
+			"name": "Feat",
+			"source": "XUA2023DruidAndPaladin",
+			"page": 12,
+			"className": "Paladin",
+			"classSource": "XUA2023DruidAndPaladin",
+			"header": 2,
+			"level": 16,
+			"entries": [
+				"You gain the {@feat Ability Score Improvement|XUA2022ClericAndRevisedSpecies} Feat or another Feat of your choice for which you qualify."
+			]
+		},
+		{
+			"name": "Aura Expansion",
+			"source": "XUA2023DruidAndPaladin",
+			"page": 12,
+			"className": "Paladin",
+			"classSource": "XUA2023DruidAndPaladin",
+			"header": 2,
+			"level": 17,
+			"entries": [
+				"Your Aura of Protection now extends 30 feet from you rather than 10 feet."
+			]
+		},
+		{
+			"name": "Divine Conduit",
+			"source": "XUA2023DruidAndPaladin",
+			"page": 12,
+			"className": "Paladin",
+			"classSource": "XUA2023DruidAndPaladin",
+			"header": 2,
+			"level": 18,
+			"entries": [
+				"Whenever you roll Initiative, you regain one use of this class's Channel Divinity."
+			]
+		},
+		{
+			"name": "Feat",
+			"source": "XUA2023DruidAndPaladin",
+			"page": 12,
+			"className": "Paladin",
+			"classSource": "XUA2023DruidAndPaladin",
+			"header": 2,
+			"level": 19,
+			"entries": [
+				"You gain the {@feat Ability Score Improvement|XUA2022ClericAndRevisedSpecies} Feat or another Feat of your choice for which you qualify."
+			]
+		},
+		{
+			"name": "Epic Boon",
+			"source": "XUA2023DruidAndPaladin",
+			"page": 12,
+			"className": "Paladin",
+			"classSource": "XUA2023DruidAndPaladin",
+			"header": 2,
+			"level": 20,
+			"entries": [
+				"You gain the following benefits:",
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"items": [
+						{
+							"type": "item",
+							"name": "Ability Score Increase",
+							"entries": [
+								"Choose one of your ability scores. That score increases by 2, and this increase can raise the score above 20 but not above 30."
+							]
+						},
+						{
+							"type": "item",
+							"name": "Epic Boon Feat",
+							"entries": [
+								"You gain the Epic Boon of Truesight or another Epic Boon feat of your choice."
+							]
+						}
+					]
+				}
+			]
+		}
+	],
+	"subclassFeature": [
+		{
+			"name": "Circle of the Moon",
+			"source": "XUA2023DruidAndPaladin",
+			"page": 8,
+			"className": "Druid",
+			"classSource": "XUA2023DruidAndPaladin",
+			"header": 1,
+			"subclassShortName": "Moon",
+			"subclassSource": "XUA2023DruidAndPaladin",
+			"level": 3,
+			"entries": [
+				"Druids of the Circle of the Moon draw on the magic of the moon to transform themselves and to guard the wilds. Their order gathers under the full moon to share news and perform rituals. They wander the deepest parts of the wilderness, where they might go for weeks on end before crossing paths with another person, let alone another Druid.",
+				"Changeable as the moon, a Druid of this circle might prowl as a great cat one night, soar over the treetops as an eagle the next day, and crash through the undergrowth in bear form to drive off a trespassing monster. The wild is in the Druid's blood.",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Combat Wild Shape|Druid|XUA2023DruidAndPaladin|Moon|XUA2023DruidAndPaladin|3"
+				}
+			]
+		},
+		{
+			"name": "Combat Wild Shape",
+			"source": "XUA2023DruidAndPaladin",
+			"page": 8,
+			"className": "Druid",
+			"classSource": "XUA2023DruidAndPaladin",
+			"subclassShortName": "Moon",
+			"subclassSource": "XUA2023DruidAndPaladin",
+			"level": 3,
+			"header": 2,
+			"entries": [
+				"You have learned magical techniques that allow you to transform quickly and to channel magical protection while transformed, giving you these benefits:",
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"items": [
+						{
+							"type": "item",
+							"name": "Abjuration Spells",
+							"entries": [
+								"While you're in a Wild Shape form, you can cast any spell you currently have prepared from the Abjuration School, provided the spell doesn't require a material component."
+							]
+						},
+						{
+							"type": "item",
+							"name": "Quick Attack",
+							"entries": [
+								"You can use {@variantrule Unarmed Strike|XUA2023DruidAndPaladin} as a Bonus Action."
+							]
+						},
+						{
+							"type": "item",
+							"name": "Swift Transformation",
+							"entries": [
+								"You can use your Wild Shape as a Bonus Action or {@action Magic|XUA2023DruidAndPaladin} action, but no more than once on a turn."
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Elemental Wild Shape",
+			"source": "XUA2023DruidAndPaladin",
+			"page": 8,
+			"className": "Druid",
+			"classSource": "XUA2023DruidAndPaladin",
+			"subclassShortName": "Moon",
+			"subclassSource": "XUA2023DruidAndPaladin",
+			"level": 6,
+			"header": 2,
+			"entries": [
+				"Channeling ancient lunar magic, you imbue your Wild Shape forms with power from the Elemental Planes. Whenever you assume a Wild Shape form, choose one of the following damage types: Acid, Cold, Fire, Lightning, or Thunder.",
+				"While in that form, you have Resistance to the chosen damage type, and the form's Bestial Strike can deal damage of that type rather than its normal type\u2014with you choosing between the types when you hit.",
+				"Your form also displays signs of the chosen damage type. For example, if you choose Fire, your fur in Wild Shape might flicker with harmless flames. You choose the details."
+			]
+		},
+		{
+			"name": "Elemental Strike",
+			"source": "XUA2023DruidAndPaladin",
+			"page": 8,
+			"className": "Druid",
+			"classSource": "XUA2023DruidAndPaladin",
+			"subclassShortName": "Moon",
+			"subclassSource": "XUA2023DruidAndPaladin",
+			"level": 10,
+			"header": 2,
+			"entries": [
+				"Elemental forces imbue your attacks. When you deal damage with your Bestial Strike, the target takes an extra {@damage 1d6} damage of the type you chose from Elemental Wild Shape. This extra damage increases to {@dice 2d6} when you reach 17th level in this class."
+			]
+		},
+		{
+			"name": "Thousand Forms",
+			"source": "XUA2023DruidAndPaladin",
+			"page": 8,
+			"className": "Druid",
+			"classSource": "XUA2023DruidAndPaladin",
+			"subclassShortName": "Moon",
+			"subclassSource": "XUA2023DruidAndPaladin",
+			"level": 14,
+			"header": 2,
+			"entries": [
+				"You have learned to use lunar magic to alter your physical form in innumerable ways. You always have the {@spell Alter Self} spell prepared, and you can cast it without expending a Spell Slot. It also doesn't count against the number of spells you have prepared."
+			]
+		},
+		{
+			"name": "Oath of Devotion",
+			"source": "XUA2023DruidAndPaladin",
+			"page": 13,
+			"className": "Paladin",
+			"classSource": "XUA2023DruidAndPaladin",
+			"header": 1,
+			"subclassShortName": "Devotion",
+			"subclassSource": "XUA2023DruidAndPaladin",
+			"level": 3,
+			"entries": [
+				"The Oath of Devotion binds a Paladin to the loftiest ideals of justice and order. These Paladins meet the ideal of the knight in shining armor. They hold themselves to the highest standards of conduct, and some, for better or worse, hold the rest of the world to the same standards. Many who swear this oath are devoted to gods of law and good and use their gods' tenets as the measure of their devotion. They hold angels as their ideals and incorporate images of angelic wings into their helmets or coats of arms.",
+				{
+					"type": "inset",
+					"name": "Tenets of Devotion",
+					"entries": [
+						"Though the exact words and strictures of the Oath of Devotion vary, Paladins of this oath share these tenets.",
+						{
+							"type": "entries",
+							"name": "Honesty",
+							"entries": [
+								"Don't lie or cheat. Let your word be your promise."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Courage",
+							"entries": [
+								"Never fear to act, though caution is wise."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Compassion",
+							"entries": [
+								"Aid others, protect the weak, and punish those who threaten them. Show mercy to your foes, but temper it with wisdom. Honor. Treat others with fairness, and let your honorable deeds be an example to them."
+							]
+						}
+					]
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Oath Spells|Paladin|XUA2023DruidAndPaladin|Devotion|XUA2023DruidAndPaladin|3"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Sacred Weapon|Paladin|XUA2023DruidAndPaladin|Devotion|XUA2023DruidAndPaladin|3"
+				}
+			]
+		},
+		{
+			"name": "Oath Spells",
+			"source": "XUA2023DruidAndPaladin",
+			"page": 13,
+			"className": "Paladin",
+			"classSource": "XUA2023DruidAndPaladin",
+			"subclassShortName": "Devotion",
+			"subclassSource": "XUA2023DruidAndPaladin",
+			"level": 3,
+			"header": 2,
+			"entries": [
+				"The magic of your oath gives you the following benefits:",
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"items": [
+						{
+							"type": "item",
+							"name": "Prepared Spells",
+							"entries": [
+								"You always have certain spells ready; when you reach a Paladin level specified in the Oath of Devotion Spells table, you thereafter always have the listed spells prepared. These spells don't count against the number of spells you can prepare, and they follow the rules of this class's Spellcasting feature."
+							]
+						},
+						{
+							"type": "item",
+							"name": "Free Casting",
+							"entries": [
+								"You can cast one of your prepared spells from this feature without expending a Spell Slot, and you must finish a {@variantrule Long Rest|XUA2023DruidAndPaladin} before you use this benefit again."
+							]
+						}
+					]
+				},
+				{
+					"type": "table",
+					"caption": "Oath of Devotion Spells",
+					"colLabels": [
+						"Paladin Level",
+						"Spells"
+					],
+					"colStyles": [
+						"col-2 text-center",
+						"col-10"
+					],
+					"rows": [
+						[
+							"3rd",
+							"{@spell Protection from Evil And Good}, {@spell Shield of Faith}"
+						],
+						[
+							"5th",
+							"{@spell Aid}, {@spell Zone of Truth}"
+						],
+						[
+							"9th",
+							"{@spell Aura of Vitality}, {@spell Blinding Smite}"
+						],
+						[
+							"13th",
+							"{@spell Guardian of Faith}, {@spell Staggering Smite}"
+						],
+						[
+							"17th",
+							"{@spell Commune}, {@spell Flame Strike}"
+						]
+					]
+				}
+			]
+		},
+		{
+			"name": "Sacred Weapon",
+			"source": "XUA2023DruidAndPaladin",
+			"page": 13,
+			"className": "Paladin",
+			"classSource": "XUA2023DruidAndPaladin",
+			"subclassShortName": "Devotion",
+			"subclassSource": "XUA2023DruidAndPaladin",
+			"level": 3,
+			"header": 2,
+			"entries": [
+				"As a Bonus Action, you can expend one use of your Channel Divinity to imbue one Simple or Martial weapon that you are holding with positive energy. For 1 minute, you add your Charisma modifier to attack rolls you make with that weapon (minimum bonus of +1), and each time you hit with it, you cause it to deal its normal damage type or Radiant damage.",
+				"The weapon also emits {@quickref Vision and Light||2||bright light} in a 20-foot radius and {@quickref Vision and Light||2||dim light} 20 feet beyond that.",
+				"You can end this effect as a Bonus Action. This effect also ends if you aren't holding or carrying the weapon or if you have the {@condition Incapacitated|XUA2023DruidAndPaladin} condition."
+			]
+		},
+		{
+			"name": "Smite of Protection",
+			"source": "XUA2023DruidAndPaladin",
+			"page": 13,
+			"className": "Paladin",
+			"classSource": "XUA2023DruidAndPaladin",
+			"subclassShortName": "Devotion",
+			"subclassSource": "XUA2023DruidAndPaladin",
+			"level": 6,
+			"header": 2,
+			"entries": [
+				"Your Divine Smite now radiates protective energy that allows you and your allies to stay in the fight. Whenever you use your Divine Smite, choose yourself or an ally within 30 feet of yourself. The chosen creature gains Temporary Hit Points equal to {@dice 1d8} plus the level of the Spell Slot used for the Divine Smite."
+			]
+		},
+		{
+			"name": "Aura of Devotion",
+			"source": "XUA2023DruidAndPaladin",
+			"page": 14,
+			"className": "Paladin",
+			"classSource": "XUA2023DruidAndPaladin",
+			"subclassShortName": "Devotion",
+			"subclassSource": "XUA2023DruidAndPaladin",
+			"level": 10,
+			"header": 2,
+			"entries": [
+				"You and your allies are immune to the Charmed condition while in your Aura of Protection. If a Charmed ally enters the aura, that condition is suppressed while the ally is there."
+			]
+		},
+		{
+			"name": "Holy Nimbus",
+			"source": "XUA2023DruidAndPaladin",
+			"page": 14,
+			"className": "Paladin",
+			"classSource": "XUA2023DruidAndPaladin",
+			"subclassShortName": "Devotion",
+			"subclassSource": "XUA2023DruidAndPaladin",
+			"level": 14,
+			"header": 2,
+			"entries": [
+				"As a Bonus Action, you can imbue your Aura of Protection with holy power. The aura gains the following benefits for 1 minute or until you end them as a Bonus Action:",
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"items": [
+						{
+							"type": "item",
+							"name": "Radiant Damage",
+							"entries": [
+								"Whenever an enemy starts its turn in the aura, that creature takes Radiant damage equal to your Proficiency Bonus plus your Charisma modifier."
+							]
+						},
+						{
+							"type": "item",
+							"name": "Sunlight",
+							"entries": [
+								"The aura is filled with {@quickref Vision and Light||2||bright light} that is sunlight.",
+								"Once you use this feature, you can't use it again until you finish a {@variantrule Long Rest|XUA2023DruidAndPaladin} unless you expend a Spell Slot of at least 4th level when you use it again."
+							]
+						}
+					]
+				}
+			]
+		}
+	],
+	"variantrule": [
+		{
+			"source": "XUA2023DruidAndPaladin",
+			"name": "Rules Glossary",
+			"page": 11,
+			"entries": [
+				"This glossary includes game terms that have new meaning in this playtest document, as well as terms, such as {@variantrule Creature Type|XUA2023DruidAndPaladin}, that aren't defined in the 2014 Player's Handbook. The terms are organized alphabetically.",
+				"If a term doesn't appear here, use its definition in the 2014 Player's Handbook, and when playtesting this document, don't use the rules glossary of any other Unearthed Arcana article.",
+				{
+					"type": "list",
+					"columns": 3,
+					"items": [
+						"{@variantrule Armor Training|XUA2023DruidAndPaladin}",
+						"{@variantrule Blindsight|XUA2023DruidAndPaladin}",
+						"{@variantrule Climb Speed|XUA2023DruidAndPaladin}",
+						"{@variantrule Creature Type|XUA2023DruidAndPaladin}",
+						"{@variantrule D20 Tests|XUA2023DruidAndPaladin}",
+						"{@variantrule Difficult Terrain|XUA2023DruidAndPaladin}",
+						"{@variantrule Expertise|XUA2023DruidAndPaladin}",
+						"{@variantrule Fly Speed|XUA2023DruidAndPaladin}",
+						"{@variantrule Heroic Advantage|XUA2023DruidAndPaladin}",
+						"{@variantrule Knocking a Creature Out|XUA2023DruidAndPaladin}",
+						"{@variantrule Long Rest|XUA2023DruidAndPaladin}",
+						"{@variantrule Move|XUA2023DruidAndPaladin}",
+						"{@variantrule Ritual Casting|XUA2023DruidAndPaladin}",
+						"{@variantrule Short Rest|XUA2023DruidAndPaladin}",
+						"{@variantrule Swim Speed|XUA2023DruidAndPaladin}",
+						"{@variantrule Telepathy|XUA2023DruidAndPaladin}",
+						"{@variantrule Teleportation|XUA2023DruidAndPaladin}",
+						"{@variantrule Tool Proficiency|XUA2023DruidAndPaladin}",
+						"{@variantrule Tremorsense|XUA2023DruidAndPaladin}",
+						"{@variantrule Truesight|XUA2023DruidAndPaladin}",
+						"{@variantrule Unarmed Strike|XUA2023DruidAndPaladin}",
+						"{@variantrule Artisan's Tools|XUA2023DruidAndPaladin}",
+						"{@variantrule Gaming Set|XUA2023DruidAndPaladin}",
+						"{@variantrule Musical Instrument|XUA2023DruidAndPaladin}"
+					]
+				}
+			]
+		},
+		{
+			"type": "entries",
+			"source": "XUA2023DruidAndPaladin",
+			"name": "Spell Lists",
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Divine Spells",
+					"entries": [
+						"A Divine spell draws on the power of gods and the Outer Planes. Clerics and Paladins harness this magic.",
+						"The Divine Spells table is a partial list of Divine spells. The table provides a spell's level, name, and School of {@action Magic|XUA2023DruidAndPaladin}. The list also indicates whether a spell has the Ritual tag.",
+						"If a spell's School of {@action Magic|XUA2023DruidAndPaladin} is different from what appears in the 2014 Player's Handbook, an asterisk (*) appears after the school.",
+						{
+							"type": "table",
+							"colLabels": [
+								"Lvl",
+								"Spell",
+								"School",
+								"Ritual"
+							],
+							"colStyles": [
+								"col-1 text-center",
+								"col-5",
+								"col-4",
+								"col-2 text-center"
+							],
+							"rows": [
+								[
+									"0",
+									"{@u {@spell Guidance|XUA2022ClericAndRevisedSpecies}}",
+									"Divination",
+									"No"
+								],
+								[
+									"0",
+									"{@spell Light}",
+									"Evocation",
+									"No"
+								],
+								[
+									"0",
+									"{@u {@spell Resistance|XUA2022ClericAndRevisedSpecies}}",
+									"Abjuration",
+									"No"
+								],
+								[
+									"0",
+									"{@spell Sacred Flame}",
+									"Evocation",
+									"No"
+								],
+								[
+									"0",
+									"{@spell Spare the Dying}",
+									"Necromancy",
+									"No"
+								],
+								[
+									"0",
+									"{@spell Thaumaturgy}",
+									"Transmut.",
+									"No"
+								],
+								[
+									"1",
+									"{@spell Bane}",
+									"Enchantment",
+									"No"
+								],
+								[
+									"1",
+									"{@spell Bless}",
+									"Enchantment",
+									"No"
+								],
+								[
+									"1",
+									"{@spell Command}",
+									"Enchantment",
+									"No"
+								],
+								[
+									"1",
+									"{@spell Commpelled Duel}",
+									"Enchantment",
+									"No"
+								],
+								[
+									"1",
+									"{@spell Cure Wounds}",
+									"Abjuration*",
+									"No"
+								],
+								[
+									"1",
+									"{@spell Detect Evil and Good}",
+									"Divination",
+									"No"
+								],
+								[
+									"1",
+									"{@spell Detect Magic}",
+									"Divination",
+									"Yes"
+								],
+								[
+									"0",
+									"{@spell Ray of Frost}",
+									"Evocation",
+									"No"
+								],
+								[
+									"1",
+									"{@spell Detect Poison and Disease}",
+									"Divination",
+									"Yes"
+								],
+								[
+									"1",
+									"{@spell Divine Favor}",
+									"Transmut.*",
+									"No"
+								],
+								[
+									"1",
+									"{@spell Guiding Bolt}",
+									"Evocation",
+									"No"
+								],
+								[
+									"1",
+									"{@spell Healing Word}",
+									"Abjuration*",
+									"No"
+								],
+								[
+									"1",
+									"{@spell Heroism}",
+									"Enchantment",
+									"No"
+								],
+								[
+									"1",
+									"{@spell Inflict Wounds}",
+									"Necromancy",
+									"No"
+								],
+								[
+									"1",
+									"{@spell Protection from Evil and Good}",
+									"Abjuration",
+									"No"
+								],
+								[
+									"1",
+									"{@spell Purify Food and Drink}",
+									"Transmut.",
+									"Yes"
+								],
+								[
+									"1",
+									"{@spell Sanctuary}",
+									"Abjuration",
+									"No"
+								],
+								[
+									"1",
+									"{@u {@spell Searing Smite|XUA2023DruidAndPaladin}}",
+									"Evocation",
+									"No"
+								],
+								[
+									"1",
+									"{@spell Shield of Faith}",
+									"Abjuration",
+									"Yes"
+								],
+								[
+									"1",
+									"{@u {@spell Thunderous Smite|XUA2023DruidAndPaladin}}",
+									"Transmut.*",
+									"No"
+								],
+								[
+									"1",
+									"{@u {@spell Wrathful Smite|XUA2023DruidAndPaladin}}",
+									"Enchantment*",
+									"No"
+								],
+								[
+									"2",
+									"{@spell Aid}",
+									"Abjuration",
+									"No"
+								],
+								[
+									"2",
+									"{@spell Augury}",
+									"Divination",
+									"Yes"
+								],
+								[
+									"2",
+									"{@spell Blindness/Deafness}",
+									"Transmut.*",
+									"No"
+								],
+								[
+									"2",
+									"{@spell Calm Emotions}",
+									"Enchantment",
+									"No"
+								],
+								[
+									"2",
+									"{@spell Find Steed}",
+									"Conjuration",
+									"No"
+								],
+								[
+									"2",
+									"{@spell Find Traps}",
+									"Divination",
+									"No"
+								],
+								[
+									"2",
+									"{@spell Gentle Repose}",
+									"Necromancy",
+									"Yes"
+								],
+								[
+									"2",
+									"{@u {@spell Glimmering Smite|XUA2023DruidAndPaladin|Glimmering Smite (formerly Branding Smite}}",
+									"Transmut.*",
+									"No"
+								],
+								[
+									"2",
+									"{@spell Hold Person}",
+									"Enchantment",
+									"No"
+								],
+								[
+									"2",
+									"{@spell Lesser Restoration}",
+									"Abjuration",
+									"No"
+								],
+								[
+									"2",
+									"{@spell Locate Object}",
+									"Divination",
+									"No"
+								],
+								[
+									"2",
+									"{@spell Magic Weapon}",
+									"Transmut.",
+									"No"
+								],
+								[
+									"2",
+									"{@u {@spell Prayer of Healing|XUA2022ClericAndRevisedSpecies}}",
+									"Abjuration*",
+									"No"
+								],
+								[
+									"2",
+									"{@spell Protection from Poison}",
+									"Abjuration",
+									"No"
+								],
+								[
+									"2",
+									"{@spell Silence}",
+									"Illusion",
+									"Yes"
+								],
+								[
+									"2",
+									"{@spell Spiritual Weapon}",
+									"Evocation",
+									"No"
+								],
+								[
+									"2",
+									"{@spell Warding Bond}",
+									"Abjuration",
+									"No"
+								],
+								[
+									"2",
+									"{@spell Zone of Truth}",
+									"Enchantment",
+									"No"
+								],
+								[
+									"3",
+									"{@spell Aura of Vitality}",
+									"Abjuration*",
+									"No"
+								],
+								[
+									"3",
+									"{@spell Beacon of Hope}",
+									"Abjuration",
+									"No"
+								],
+								[
+									"3",
+									"{@u {@spell Blinding Smite|XUA2023DruidAndPaladin}}",
+									"Transmut.*",
+									"No"
+								],
+								[
+									"3",
+									"{@spell Clairvoyance}",
+									"Divination",
+									"No"
+								],
+								[
+									"3",
+									"{@spell Create Food and Water}",
+									"Conjuration",
+									"No"
+								],
+								[
+									"3",
+									"{@spell Crusader's Mantle}",
+									"Transmut.*",
+									"No"
+								],
+								[
+									"3",
+									"{@spell Daylight}",
+									"Evocation",
+									"No"
+								],
+								[
+									"3",
+									"{@spell Dispel Magic}",
+									"Abjuration",
+									"No"
+								],
+								[
+									"3",
+									"{@spell Feign Death}",
+									"Necromancy",
+									"Yes"
+								],
+								[
+									"3",
+									"{@spell Glyph of Warding}",
+									"Abjuration",
+									"No"
+								],
+								[
+									"3",
+									"{@spell Magic Circle}",
+									"Abjuration",
+									"No"
+								],
+								[
+									"3",
+									"{@spell Mass Healing Word}",
+									"Abjuration*",
+									"No"
+								],
+								[
+									"3",
+									"{@spell Remove Curse}",
+									"Abjuration",
+									"No"
+								],
+								[
+									"3",
+									"{@spell Revivify}",
+									"Necromancy",
+									"No"
+								],
+								[
+									"3",
+									"{@spell Speak with Dead}",
+									"Necromancy",
+									"No"
+								],
+								[
+									"3",
+									"{@spell Spirit Guardians}",
+									"Conjuration",
+									"No"
+								],
+								[
+									"3",
+									"{@spell Tongues}",
+									"Divination",
+									"No"
+								],
+								[
+									"4",
+									"{@spell Aura of Life}",
+									"Abjuration",
+									"No"
+								],
+								[
+									"4",
+									"{@spell Aura of Purity}",
+									"Abjuration",
+									"No"
+								],
+								[
+									"4",
+									"{@u {@spell Banishment|XUA2022ClericAndRevisedSpecies}}",
+									"Conjuration*",
+									"No"
+								],
+								[
+									"4",
+									"{@spell Death Ward}",
+									"Abjuration",
+									"No"
+								],
+								[
+									"4",
+									"{@spell Divination}",
+									"Divination",
+									"Yes"
+								],
+								[
+									"4",
+									"{@spell Freedom of Movement}",
+									"Abjuration",
+									"No"
+								],
+								[
+									"4",
+									"{@spell Guardian of Faith}",
+									"Conjuration",
+									"No"
+								],
+								[
+									"4",
+									"{@spell Locate Creature}",
+									"Divination",
+									"No"
+								],
+								[
+									"4",
+									"{@u {@spell Staggering Smite|XUA2023DruidAndPaladin}}",
+									"Enchantment*",
+									"No"
+								],
+								[
+									"5",
+									"{@u {@spell Banishing Smite|XUA2023DruidAndPaladin}}",
+									"Conjuration*",
+									"No"
+								],
+								[
+									"5",
+									"{@spell Circle of Power}",
+									"Abjuration",
+									"No"
+								],
+								[
+									"5",
+									"{@spell Commune}",
+									"Divination",
+									"Yes"
+								],
+								[
+									"5",
+									"{@spell Contagion}",
+									"Necromancy",
+									"No"
+								],
+								[
+									"5",
+									"{@spell Destructive Wave}",
+									"Evocation",
+									"No"
+								],
+								[
+									"5",
+									"{@spell Dispel Evil and Good}",
+									"Abjuration",
+									"No"
+								],
+								[
+									"5",
+									"{@spell Flame Strike}",
+									"Evocation",
+									"No"
+								],
+								[
+									"5",
+									"{@spell Geas}",
+									"Enchantment",
+									"No"
+								],
+								[
+									"5",
+									"{@spell Greater Restoration}",
+									"Abjuration",
+									"Yes"
+								],
+								[
+									"5",
+									"{@spell Hallow}",
+									"Abjuration*",
+									"No"
+								],
+								[
+									"5",
+									"{@spell Legend Lore}",
+									"Divination",
+									"No"
+								],
+								[
+									"5",
+									"{@spell Mass Cure Wounds}",
+									"Abjuration",
+									"No"
+								],
+								[
+									"5",
+									"{@spell Planar Binding}",
+									"Abjuration",
+									"No"
+								],
+								[
+									"5",
+									"{@spell Raise Dead}",
+									"Necromancy",
+									"No"
+								],
+								[
+									"5",
+									"{@spell Scrying}",
+									"Divination",
+									"No"
+								],
+								[
+									"6",
+									"{@spell Arcane Gate}",
+									"Conjuration",
+									"No"
+								],
+								[
+									"6",
+									"{@spell Blade Barrier}",
+									"Evocation",
+									"No"
+								],
+								[
+									"6",
+									"{@spell Find the Path}",
+									"Divination",
+									"No"
+								],
+								[
+									"6",
+									"{@spell Forbiddance}",
+									"Abjuration",
+									"Yes"
+								],
+								[
+									"6",
+									"{@spell Harm}",
+									"Necromancy",
+									"No"
+								],
+								[
+									"6",
+									"{@spell Heal}",
+									"Abjuration*",
+									"No"
+								],
+								[
+									"6",
+									"{@spell Heroes' Feast}",
+									"Conjuration",
+									"No"
+								],
+								[
+									"6",
+									"{@spell Planar Ally}",
+									"Conjuration",
+									"No"
+								],
+								[
+									"6",
+									"{@spell Sunbeam}",
+									"Evocation",
+									"No"
+								],
+								[
+									"6",
+									"{@spell True Seeing}",
+									"Divination",
+									"No"
+								],
+								[
+									"6",
+									"{@spell Word of Recall}",
+									"Conjuration",
+									"No"
+								],
+								[
+									"7",
+									"{@spell Conjure Celestial}",
+									"Conjuration",
+									"No"
+								],
+								[
+									"7",
+									"{@spell Divine Word}",
+									"Evocation",
+									"No"
+								],
+								[
+									"7",
+									"{@spell Etherealness}",
+									"Transmut.",
+									"No"
+								],
+								[
+									"7",
+									"{@spell Plane Shift}",
+									"Conjuration",
+									"No"
+								],
+								[
+									"7",
+									"{@spell Regenerate}",
+									"Transmut.",
+									"No"
+								],
+								[
+									"7",
+									"{@spell Resurrection}",
+									"Necromancy",
+									"No"
+								],
+								[
+									"7",
+									"{@spell Symbol}",
+									"Abjuration",
+									"No"
+								],
+								[
+									"8",
+									"{@spell Antimagic Field}",
+									"Abjuration",
+									"No"
+								],
+								[
+									"8",
+									"{@spell Antipathy/Sympathy}",
+									"Enchantment",
+									"No"
+								],
+								[
+									"8",
+									"{@spell Holy Aura}",
+									"Abjuration",
+									"No"
+								],
+								[
+									"8",
+									"{@spell Sunburst}",
+									"Evocation",
+									"No"
+								],
+								[
+									"8",
+									"{@spell Astral Projection}",
+									"Necromancy",
+									"No"
+								],
+								[
+									"8",
+									"{@spell Foresight}",
+									"Divination",
+									"No"
+								],
+								[
+									"8",
+									"{@spell Gate}",
+									"Conjuration",
+									"No"
+								],
+								[
+									"8",
+									"{@spell Mass Heal}",
+									"Abjuration*",
+									"No"
+								],
+								[
+									"8",
+									"{@spell Power Word Heal}",
+									"Abjuration*",
+									"No"
+								],
+								[
+									"8",
+									"{@spell True Resurrection}",
+									"Necromancy",
+									"No"
+								]
+							]
+						}
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Primal Spells",
+					"entries": [
+						"A Primal Spell draws on the forces of nature and the Inner Planes. Druids and Rangers harness this magic.",
+						"The Primal Spells table is a partial list of Primal Spells. The table provides a Spell's level, name, and School of Magic. The list also indicates whether a Spell has the Ritual tag.",
+						"If a Spell's School of Magic is different from what appears in the 2014 Player's Handbook, an asterisk (*) appears after the school.",
+						{
+							"type": "table",
+							"colLabels": [
+								"Lvl",
+								"Spell",
+								"School",
+								"Ritual"
+							],
+							"colStyles": [
+								"col-1 text-center",
+								"col-5",
+								"col-4",
+								"col-2 text-center"
+							],
+							"rows": [
+								[
+									"0",
+									"{@spell Druidcraft}",
+									"Transmut.",
+									"No"
+								],
+								[
+									"0",
+									"{@u {@spell Guidance|XUA2022ClericAndRevisedSpecies}}",
+									"Divination",
+									"No"
+								],
+								[
+									"0",
+									"{@spell Mending}",
+									"Transmut.",
+									"No"
+								],
+								[
+									"0",
+									"{@spell Message}",
+									"Transmut.",
+									"No"
+								],
+								[
+									"0",
+									"{@spell Poison Spray}",
+									"Conjuration",
+									"No"
+								],
+								[
+									"0",
+									"{@spell Produce Flame}",
+									"Evocation*",
+									"No"
+								],
+								[
+									"0",
+									"{@u {@spell Resistance|XUA2022ClericAndRevisedSpecies}}",
+									"Abjuration",
+									"No"
+								],
+								[
+									"0",
+									"{@spell Shillelagh}",
+									"Transmut.",
+									"No"
+								],
+								[
+									"0",
+									"{@spell Spare the Dying}",
+									"Necromancy",
+									"No"
+								],
+								[
+									"0",
+									"{@spell Thorn Whip}",
+									"Transmut.",
+									"No"
+								],
+								[
+									"1",
+									"{@spell Animal Friendship}",
+									"Enchantment",
+									"No"
+								],
+								[
+									"1",
+									"{@spell Create or Destroy Water}",
+									"Transmut.",
+									"No"
+								],
+								[
+									"1",
+									"{@spell Cure Wounds}",
+									"Abjuration*",
+									"No"
+								],
+								[
+									"1",
+									"{@spell Detect Magic}",
+									"Divination",
+									"Yes"
+								],
+								[
+									"1",
+									"{@spell Detect Poison and Disease}",
+									"Divination",
+									"Yes"
+								],
+								[
+									"1",
+									"{@spell Ensnaring Strike}",
+									"Conjuration",
+									"No"
+								],
+								[
+									"1",
+									"{@spell Entangle}",
+									"Conjuration",
+									"No"
+								],
+								[
+									"1",
+									"{@spell Faerie Fire}",
+									"Evocation",
+									"No"
+								],
+								[
+									"1",
+									"{@spell Fog Cloud}",
+									"Conjuration",
+									"No"
+								],
+								[
+									"1",
+									"{@spell Goodberry}",
+									"Transmut.",
+									"No"
+								],
+								[
+									"1",
+									"{@spell Hail of Thorns}",
+									"Conjuration",
+									"No"
+								],
+								[
+									"1",
+									"{@spell Healing Word}",
+									"Abjuration*",
+									"No"
+								],
+								[
+									"1",
+									"{@spell Hunter's Mark}",
+									"Divination",
+									"No"
+								],
+								[
+									"1",
+									"{@spell Jump}",
+									"Transmut.",
+									"No"
+								],
+								[
+									"1",
+									"{@spell Longstrider}",
+									"Transmut.",
+									"No"
+								],
+								[
+									"1",
+									"{@spell Purify Food and Drink}",
+									"Transmut.",
+									"Yes"
+								],
+								[
+									"1",
+									"{@spell Speak with Animals}",
+									"Divination",
+									"Yes"
+								],
+								[
+									"1",
+									"{@spell Thunderwave}",
+									"Transmut.",
+									"No"
+								],
+								[
+									"2",
+									"{@spell Animal Messenger}",
+									"Enchantment",
+									"Yes"
+								],
+								[
+									"2",
+									"{@spell Augury}",
+									"Divination",
+									"Yes"
+								],
+								[
+									"2",
+									"{@u {@spell Barkskin|XUA2022ClericAndRevisedSpecies}}",
+									"Transmut.",
+									"No"
+								],
+								[
+									"2",
+									"{@spell Beast Sense}",
+									"Divination",
+									"Yes"
+								],
+								[
+									"2",
+									"{@spell Cordon of Arrows}",
+									"Transmut.",
+									"No"
+								],
+								[
+									"2",
+									"{@spell Darkvision}",
+									"Transmut.",
+									"No"
+								],
+								[
+									"2",
+									"{@spell Enhance Ability}",
+									"Transmut.",
+									"No"
+								],
+								[
+									"2",
+									"{@spell Enlarge/Reduce}",
+									"Transmut.",
+									"No"
+								],
+								[
+									"2",
+									"{@spell Find Traps}",
+									"Divination",
+									"No"
+								],
+								[
+									"2",
+									"{@spell Flame Blade}",
+									"Evocation",
+									"No"
+								],
+								[
+									"2",
+									"{@spell Flaming Sphere}",
+									"Evocation*",
+									"No"
+								],
+								[
+									"2",
+									"{@spell Gentle Repose}",
+									"Necromancy",
+									"Yes"
+								],
+								[
+									"2",
+									"{@spell Gust of Wind}",
+									"Evocation",
+									"No"
+								],
+								[
+									"2",
+									"{@spell Heat Metal}",
+									"Transmut.",
+									"No"
+								],
+								[
+									"2",
+									"{@spell Lesser Restoration}",
+									"Abjuration",
+									"No"
+								],
+								[
+									"2",
+									"{@spell Locate Animals or Plants}",
+									"Divination",
+									"Yes"
+								],
+								[
+									"2",
+									"{@spell Locate Object}",
+									"Divination",
+									"No"
+								],
+								[
+									"2",
+									"{@spell Moonbeam}",
+									"Evocation",
+									"No"
+								],
+								[
+									"2",
+									"{@spell Pass without Trace}",
+									"Abjuration",
+									"No"
+								],
+								[
+									"2",
+									"{@spell Protection from Poison}",
+									"Abjuration",
+									"No"
+								],
+								[
+									"2",
+									"{@spell Silence}",
+									"Illusion",
+									"Yes"
+								],
+								[
+									"2",
+									"{@spell Spike Growth}",
+									"Transmut.",
+									"No"
+								],
+								[
+									"3",
+									"{@spell Call Lightning}",
+									"Conjuration",
+									"No"
+								],
+								[
+									"3",
+									"{@spell Conjure Animals}",
+									"Conjuration",
+									"No"
+								],
+								[
+									"3",
+									"{@spell Conjure Barrage}",
+									"Conjuration",
+									"No"
+								],
+								[
+									"3",
+									"{@spell Daylight}",
+									"Evocation",
+									"No"
+								],
+								[
+									"3",
+									"{@spell Dispel Magic}",
+									"Abjuration",
+									"No"
+								],
+								[
+									"3",
+									"{@spell Elemental Weapon}",
+									"Transmut.",
+									"No"
+								],
+								[
+									"3",
+									"{@spell Feign Death}",
+									"Necromancy",
+									"Yes"
+								],
+								[
+									"3",
+									"{@spell Lightning Arrow}",
+									"Transmut.",
+									"No"
+								],
+								[
+									"3",
+									"{@spell Mass Healing Word}",
+									"Abjuration*",
+									"No"
+								],
+								[
+									"3",
+									"{@spell Meld into Stone}",
+									"Transmut.",
+									"Yes"
+								],
+								[
+									"3",
+									"{@spell Nondetection}",
+									"Abjuration",
+									"No"
+								],
+								[
+									"3",
+									"{@spell Plant Growth}",
+									"Transmut.",
+									"No"
+								],
+								[
+									"3",
+									"{@spell Protection from Energy}",
+									"Abjuration",
+									"No"
+								],
+								[
+									"3",
+									"{@spell Revivify}",
+									"Necromancy",
+									"No"
+								],
+								[
+									"3",
+									"{@spell Sleet Storm}",
+									"Conjuration",
+									"No"
+								],
+								[
+									"3",
+									"{@spell Speak with Plants}",
+									"Transmut.",
+									"No"
+								],
+								[
+									"3",
+									"{@spell Water Breathing}",
+									"Transmut.",
+									"Yes"
+								],
+								[
+									"3",
+									"{@spell Water Walk}",
+									"Transmut.",
+									"Yes"
+								],
+								[
+									"3",
+									"{@spell Wind Wall}",
+									"Evocation",
+									"No"
+								],
+								[
+									"4",
+									"{@spell Conjure Minor Elementals}",
+									"Conjuration",
+									"No"
+								],
+								[
+									"4",
+									"{@spell Conjure Woodland Beings}",
+									"Conjuration",
+									"No"
+								],
+								[
+									"4",
+									"{@spell Control Water}",
+									"Transmut.",
+									"No"
+								],
+								[
+									"4",
+									"{@spell Dominate Beast}",
+									"Enchantment",
+									"No"
+								],
+								[
+									"4",
+									"{@spell Freedom of Movement}",
+									"Abjuration",
+									"No"
+								],
+								[
+									"4",
+									"{@spell Giant Insect}",
+									"Transmut.",
+									"No"
+								],
+								[
+									"4",
+									"{@spell Grasping Vine}",
+									"Conjuration",
+									"No"
+								],
+								[
+									"4",
+									"{@spell Ice Storm}",
+									"Evocation",
+									"No"
+								],
+								[
+									"4",
+									"{@spell Locate Creature}",
+									"Divination",
+									"No"
+								],
+								[
+									"4",
+									"{@spell Polymorph}",
+									"Transmut.",
+									"No"
+								],
+								[
+									"4",
+									"{@spell Stone Shape}",
+									"Transmut.",
+									"No"
+								],
+								[
+									"4",
+									"{@spell Stoneskin}",
+									"Transmut.*",
+									"No"
+								],
+								[
+									"4",
+									"{@spell Wall of Fire}",
+									"Evocation",
+									"No"
+								],
+								[
+									"5",
+									"{@spell Antilife Shell}",
+									"Abjuration",
+									"No"
+								],
+								[
+									"5",
+									"{@spell Awaken}",
+									"Transmut.",
+									"No"
+								],
+								[
+									"5",
+									"{@spell Commune with Nature}",
+									"Divination",
+									"Yes"
+								],
+								[
+									"5",
+									"{@spell Conjure Elemental}",
+									"Conjuration",
+									"No"
+								],
+								[
+									"5",
+									"{@spell Conjure Volley}",
+									"Conjuration",
+									"No"
+								],
+								[
+									"5",
+									"{@spell Greater Restoration}",
+									"Abjuration",
+									"No"
+								],
+								[
+									"5",
+									"{@spell Insect Plague}",
+									"Conjuration",
+									"No"
+								],
+								[
+									"5",
+									"{@spell Mass Cure Wounds}",
+									"Abjuration*",
+									"No"
+								],
+								[
+									"5",
+									"{@spell Reincarnate}",
+									"Necromancy*",
+									"No"
+								],
+								[
+									"5",
+									"{@spell Scrying}",
+									"Divination",
+									"No"
+								],
+								[
+									"5",
+									"{@spell Swift Quiver}",
+									"Transmut.",
+									"No"
+								],
+								[
+									"5",
+									"{@spell Tree Stride}",
+									"Conjuration",
+									"No"
+								],
+								[
+									"5",
+									"{@spell Wall of Stone}",
+									"Evocation",
+									"No"
+								],
+								[
+									"6",
+									"{@spell Conjure Fey}",
+									"Conjuration",
+									"No"
+								],
+								[
+									"6",
+									"{@spell Find the Path}",
+									"Divination",
+									"No"
+								],
+								[
+									"6",
+									"{@spell Heal}",
+									"Abjuration",
+									"No"
+								],
+								[
+									"6",
+									"{@spell Move Earth}",
+									"Transmut.",
+									"No"
+								],
+								[
+									"6",
+									"{@spell Sunbeam}",
+									"Evocation",
+									"No"
+								],
+								[
+									"6",
+									"{@spell Transport via Plants}",
+									"Conjuration",
+									"No"
+								],
+								[
+									"6",
+									"{@spell Wall of Ice}",
+									"Evocation",
+									"No"
+								],
+								[
+									"6",
+									"{@spell Wall of Thorns}",
+									"Conjuration",
+									"No"
+								],
+								[
+									"6",
+									"{@spell Wind Walk}",
+									"Transmut.",
+									"No"
+								],
+								[
+									"7",
+									"{@spell Fire Storm}",
+									"Evocation",
+									"No"
+								],
+								[
+									"7",
+									"{@spell Regenerate}",
+									"Transmut.",
+									"No"
+								],
+								[
+									"7",
+									"{@spell Reverse Gravity}",
+									"Transmut.",
+									"No"
+								],
+								[
+									"8",
+									"{@spell Animal Shapes}",
+									"Transmut.",
+									"No"
+								],
+								[
+									"8",
+									"{@spell Control Weather}",
+									"Transmut.",
+									"No"
+								],
+								[
+									"8",
+									"{@spell Earthquake}",
+									"Transmut.*",
+									"No"
+								],
+								[
+									"8",
+									"{@spell Sunburst}",
+									"Evocation",
+									"No"
+								],
+								[
+									"8",
+									"{@spell Tsunami}",
+									"Conjuration",
+									"No"
+								],
+								[
+									"9",
+									"{@spell Power Word Heal}",
+									"Abjuration*",
+									"No"
+								],
+								[
+									"9",
+									"{@spell Shapechange}",
+									"Transmut.",
+									"No"
+								],
+								[
+									"9",
+									"{@spell Storm of Vengeance}",
+									"Conjuration",
+									"No"
+								],
+								[
+									"9",
+									"{@spell True Resurrection}",
+									"Necromancy",
+									"No"
+								]
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"source": "XUA2023DruidAndPaladin",
+			"page": 22,
+			"name": "Armor Training",
+			"entries": [
+				"Armor Training is the new name for Armor Proficiency. Any existing rule that involves Armor Proficiency now applies to Armor Training.",
+				"If you wear Light, Medium, or Heavy Armor and lack Armor Training with that type of Armor, you have Disadvantage on any {@dice d20} Test you make that involves Strength or Dexterity, and you can't cast Spells.",
+				"If you equip a Shield and lack Armor Training with Shields, you don't gain the Armor Class bonus of the Shield."
+			]
+		},
+		{
+			"source": "XUA2023DruidAndPaladin",
+			"page": 22,
+			"name": "Blindsight",
+			"entries": [
+				"If you have Blindsight, you can see within a specific range without relying on physical sight. Within that range, you can effectively see anything that isn't behind Total Cover, even if you have the Blinded condition or are in Darkness. Moreover, in that range, you can effectively see a creature that has {@condition Invisible|XUA2023DruidAndPaladin} condition."
+			]
+		},
+		{
+			"source": "XUA2023DruidAndPaladin",
+			"page": 16,
+			"name": "Climb Speed",
+			"entries": [
+				"A Climb Speed can be used to traverse a vertical surface without expending the extra movement normally associated with climbing.",
+				"Some creatures have the Spider Climb trait, which allows their Climb Speed to work even on the underside of horizontal surfaces."
+			]
+		},
+		{
+			"source": "XUA2023DruidAndPaladin",
+			"page": 22,
+			"name": "Creature Type",
+			"entries": [
+				"Every creature in D&D, including every player character, has a special tag in the rules that identifies the type of creature it is. Most player characters are of the Humanoid type.",
+				"Here's a list of the game's Creature Types in alphabetical order:",
+				{
+					"type": "table",
+					"colStyles": [
+						"col-6 text-center",
+						"col-6 text-center"
+					],
+					"rows": [
+						[
+							"Aberration",
+							"Fiend"
+						],
+						[
+							"Beast",
+							"Giant"
+						],
+						[
+							"Celestial",
+							"Humanoid"
+						],
+						[
+							"Construct",
+							"Monstrosity"
+						],
+						[
+							"Dragon",
+							"Ooze"
+						],
+						[
+							"Elemental",
+							"Plant"
+						],
+						[
+							"Fey",
+							"Undead"
+						]
+					]
+				},
+				"These types don't have rules themselves, but some rules in the game affect creatures of certain types in different ways. For example, the description of the {@spell Charm Person} spell specifies that its target must be a Humanoid."
+			]
+		},
+		{
+			"source": "XUA2023DruidAndPaladin",
+			"page": 22,
+			"name": "D20 Tests",
+			"entries": [
+				"The term {@dice d20} Test encompasses the three main {@dice d20} rolls of the game: ability checks, attack rolls, and saving throws. If something in the game affects {@dice d20} Tests, it affects all three of these rolls.",
+				"The DM determines whether a {@dice d20} Test is warranted in any given circumstance"
+			]
+		},
+		{
+			"source": "XUA2023DruidAndPaladin",
+			"page": 22,
+			"name": "Difficult Terrain",
+			"entries": [
+				"If a space is Difficult Terrain, every foot of movement in that space costs 1 extra foot. For example, moving 5 feet through Difficult Terrain costs 10 feet of movement. Difficult Terrain isn't cumulative; either a space is Difficult Terrain or it isn't.",
+				"A space is Difficult Terrain for a creature if the space contains any of the following:",
+				{
+					"type": "list",
+					"style": "list-no-bullets",
+					"items": [
+						"Creature that isn't Tiny",
+						"Furniture that is Small or larger",
+						"Heavy snow",
+						"Heavy undergrowth",
+						"Liquid that's between shin- and waist-deep (any deeper and you need to Swim)",
+						"Narrow opening that is sized for a creature one",
+						"Size smaller",
+						"Pit or another gap of 2\u20135 feet",
+						"Rubble",
+						"Slope of 20 degrees or more"
+					]
+				},
+				"The DM may determine that other things count as Difficult Terrain based on the examples here."
+			]
+		},
+		{
+			"source": "XUA2023DruidAndPaladin",
+			"page": 23,
+			"name": "Expertise",
+			"entries": [
+				"Expertise is a special feature that enhances your use of a particular Skill Proficiency. If you gain Expertise, you gain it in one Skill in which you have Proficiency. You can never have Expertise in the same Skill Proficiency more than once.",
+				"When you make an ability check with a Skill Proficiency in which you have Expertise, your Proficiency Bonus is doubled for that check."
+			]
+		},
+		{
+			"source": "XUA2023DruidAndPaladin",
+			"page": 23,
+			"name": "Fly Speed",
+			"entries": [
+				"A Fly Speed can be used to move through the air. While you have a Fly Speed, you can stay aloft until you land, fall, or die.",
+				"While flying, you fall if you lack the Hover trait and have the {@condition Incapacitated|XUA2023DruidAndPaladin} or Prone condition or your Fly Speed is reduced to 0."
+			]
+		},
+		{
+			"source": "XUA2023DruidAndPaladin",
+			"page": 24,
+			"name": "Heroic Advantage",
+			"entries": [
+				"When you have Heroic Advantage (also called Inspiration), you can expend it to give yourself Advantage on a {@variantrule D20 Tests|XUA2023DruidAndPaladin|d20 Test}. You decide to do so immediately after rolling the {@dice d20}.",
+				{
+					"type": "entries",
+					"name": "Gaining Heroic Advantage",
+					"entries": [
+						"The DM can award Heroic Advantage to a player character who's done something that is particularly heroic or in character.",
+						"Some game features, such as the Human, also award Heroic Advantage."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Only One at a Time",
+					"entries": [
+						"You can never have more than one instance of Heroic Advantage. If something gives it to you and you already have it, you can give it to a player character in your group who lacks it."
+					]
+				}
+			]
+		},
+		{
+			"source": "XUA2023DruidAndPaladin",
+			"page": 26,
+			"name": "Knocking a Creature Out",
+			"entries": [
+				"Sometimes an attacker wants to knock out a foe rather than deal a killing blow. When an attacker would reduce a creature to 0 Hit Points with a Melee {@action Attack|XUA2023DruidAndPaladin}, the attacker can instead reduce the creature to 1 Hit Point. The creature then has the {@condition Unconscious|XUA2023DruidAndPaladin} condition and starts a {@variantrule Short Rest|XUA2023DruidAndPaladin}.",
+				"The creature remains {@condition Unconscious|XUA2023DruidAndPaladin} until it regains any Hit Points or until someone uses an action to administer first aid to it, which requires a successful {@dc 10} Wisdom ({@skill Medicine}) check."
+			]
+		},
+		{
+			"source": "XUA2023DruidAndPaladin",
+			"page": 26,
+			"name": "Long Rest",
+			"entries": [
+				"A Long Rest is a period of extended downtime\u2014at least 8 hours long\u2014available to any creature. During a Long Rest, you sleep for at least 6 hours and perform no more than 2 hours of light activity, such as reading, talking, eating, or standing watch.",
+				"During the sleep, you have the {@condition Unconscious|XUA2023DruidAndPaladin} condition.",
+				{
+					"type": "entries",
+					"name": "Benefits of the Rest",
+					"entries": [
+						"To start a Long Rest, you must have at least 1 Hit Point. When you finish the rest, you gain the following benefits:",
+						{
+							"type": "list",
+							"style": "list-hang-notitle",
+							"items": [
+								{
+									"type": "item",
+									"name": "Regain All HP",
+									"entries": [
+										"You regain all lost Hit Points."
+									]
+								},
+								{
+									"type": "item",
+									"name": "Regain All HD",
+									"entries": [
+										"You regain all spent Hit Dice."
+									]
+								},
+								{
+									"type": "item",
+									"name": "HP Max Restored",
+									"entries": [
+										"If your Hit Point Maximum was reduced, it returns to normal."
+									]
+								},
+								{
+									"type": "item",
+									"name": "Ability Scores Restored",
+									"entries": [
+										"If any of your Ability Scores were reduced, they return to normal."
+									]
+								},
+								{
+									"type": "item",
+									"name": "Exhaustion Reduced",
+									"entries": [
+										"If you are {@condition Exhausted|XUA2023DruidAndPaladin}, your level of exhaustion decreases by 1."
+									]
+								},
+								{
+									"type": "item",
+									"name": "Special Feature",
+									"entries": [
+										"Some features are recharged by a Long Rest. If you have such a feature, it recharges in the way specified in its description."
+									]
+								}
+							]
+						}
+					]
+				},
+				"After you finish a Long Rest, you must wait at least 16 hours before starting another one.",
+				{
+					"type": "entries",
+					"name": "Interrupting the Rest",
+					"entries": [
+						"A Long Rest is stopped by the following interruptions:"
+					]
+				},
+				{
+					"type": "list",
+					"items": [
+						"Rolling initiative",
+						"Casting a spell other than a 0-level spell • Taking any damage",
+						"1 hour of walking or other physical exertion If the rest was at least 1 hour long before the interruption, you gain the benefits of a {@variantrule Short Rest|XUA2023DruidAndPaladin}."
+					]
+				},
+				"You can resume a Long Rest immediately after an interruption. If you do so, the rest requires 1 additional hour to finish per interruption."
+			]
+		},
+		{
+			"source": "XUA2023DruidAndPaladin",
+			"page": 26,
+			"name": "Move",
+			"entries": [
+				"When you Move, you can go a distance equal to your Speed or less. For example, if you have a Speed of 30 feet, you can go up to 30 feet when you Move. {@variantrule Difficult Terrain|XUA2023DruidAndPaladin} can slow you down.",
+				{
+					"type": "entries",
+					"name": "Breaking Up Your Move",
+					"entries": [
+						"You can break up your Move, using some of its movement before and after any Action you take on the same turn. For example, if you have a Speed of 30 feet, you could go 10 feet, take an Action, and then go 20 feet."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Moving Around Other Creatures",
+					"entries": [
+						"During your Move, you can pass through the space of an ally, an {@condition Incapacitated|XUA2023DruidAndPaladin} creature, a Tiny creature, or a creature who is two Sizes larger or smaller than you.",
+						"Another creature's space is {@variantrule Difficult Terrain|XUA2023DruidAndPaladin} for you, unless that creature is Tiny.",
+						"You can't willingly end your {@variantrule Move|XUA2023DruidAndPaladin} in a space occupied by another creature."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Changes to Your Speeds",
+					"entries": [
+						"If an effect increases or decreases your Speed for a time, any special speed you have increases or decreases by an equal amount for the same duration. For example, if your Speed is reduced to 0 and you have a {@variantrule Climb Speed|XUA2023DruidAndPaladin}, your {@variantrule Climb Speed|XUA2023DruidAndPaladin} is also reduced to 0. Similarly, if your Speed is halved and you have a {@variantrule Fly Speed|XUA2023DruidAndPaladin}, your {@variantrule Fly Speed|XUA2023DruidAndPaladin} is also halved."
+					]
+				}
+			]
+		},
+		{
+			"source": "XUA2023DruidAndPaladin",
+			"page": 27,
+			"name": "Ritual Casting",
+			"entries": [
+				"If you have a Spell prepared that has the Ritual tag, you can cast that Spell as a Ritual. A special feature is no longer required for Ritual casting. All the other rules on Rituals in the 2014 Player's Handbook still apply."
+			]
+		},
+		{
+			"source": "XUA2023DruidAndPaladin",
+			"page": 27,
+			"name": "Short Rest",
+			"entries": [
+				"A Short Rest is a 1-hour period of downtime, during which a creature does nothing more strenuous than eating, drinking, reading, dozing, and standing watch.",
+				{
+					"type": "entries",
+					"name": "Benefits of the Rest",
+					"entries": [
+						"To start a Short Rest, you must have at least 1 Hit Point. When you finish the rest, you gain the following benefits:",
+						{
+							"type": "list",
+							"style": "list-hang-notitle",
+							"items": [
+								{
+									"type": "item",
+									"name": "Spend Hit Dice",
+									"entries": [
+										"You can spend one or more of your Hit Dice to regain Hit Points. For each Hit Die you spend in this way, roll the die, and add your Constitution modifier to it. You regain Hit Points equal to the total (minimum of 1 Hit Point). You can decide to spend an additional Hit Die after each roll."
+									]
+								},
+								{
+									"type": "item",
+									"name": "Special Feature",
+									"entries": [
+										"Some features are recharged by a Short Rest. If you have such a feature, it recharges in the way specified in its description."
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Interrupting the Rest",
+					"entries": [
+						"A Short Rest is stopped by the following interruptions:"
+					]
+				},
+				{
+					"type": "list",
+					"items": [
+						"Rolling initiative",
+						"Casting a spell other than a 0-level spell",
+						"Taking any damage"
+					]
+				},
+				"An interrupted Short Rest confers no benefits, and it must be started over to confer any"
+			]
+		},
+		{
+			"source": "XUA2023DruidAndPaladin",
+			"page": 28,
+			"name": "Swim Speed",
+			"entries": [
+				"A Swim Speed can be used to travel through a liquid without expending the extra movement normally associated with swimming."
+			]
+		},
+		{
+			"source": "XUA2023DruidAndPaladin",
+			"page": 28,
+			"name": "Telepathy",
+			"entries": [
+				"Telepathy is a magical ability that allows a creature to communicate mentally with another creature within a specified range. The contacted creature doesn't need to share a language with the telepath to understand this communication, but the contacted creature must be able to understand at least one language or be telepathic itself to understand.",
+				"A telepath doesn't need to see a contacted creature, and the telepath can start or end the telepathic contact at any time (no action required). Telepathic contact is broken as soon as the contacted creature is no longer within the telepathy's range, if the telepath contacts a different creature within range, or if the telepath has the {@condition Incapacitated|XUA2023DruidAndPaladin} condition.",
+				"A creature without telepathy can receive telepathic messages but can't initiate a telepathic conversation. Once a telepathic conversation starts, the nontelepath can communicate mentally to the telepath until the telepathic connection ends."
+			]
+		},
+		{
+			"source": "XUA2023DruidAndPaladin",
+			"page": 28,
+			"name": "Teleportation",
+			"entries": [
+				"Teleportation is a special kind of magical transportation. If you teleport, you disappear and reappear elsewhere instantly, without moving through the intervening space. This transportation doesn't expend movement, unless a rule tells you otherwise, and teleportation never provokes Opportunity Attacks.",
+				"When you teleport, all the equipment you are wearing and carrying teleports with you. If you are touching another creature when you teleport, that creature doesn't teleport with you, unless the teleportation effect says otherwise.",
+				"If the destination space of your teleportation is occupied by another creature or blocked by a solid obstacle, you instead appear in the nearest unoccupied space of your choice.",
+				"The description of a teleportation effect tells you if you must see the teleportation's destination."
+			]
+		},
+		{
+			"source": "XUA2023DruidAndPaladin",
+			"page": 28,
+			"name": "Tool Proficiency",
+			"entries": [
+				"If you have proficiency with a tool, you can add your Proficiency Bonus to any ability check you make that uses that tool.",
+				"If you have proficiency in the skill that's also used with that check, you have Advantage on the check too. This means you can benefit from both a skill and a tool proficiency on the same ability check."
+			]
+		},
+		{
+			"source": "XUA2023DruidAndPaladin",
+			"page": 28,
+			"name": "Tremorsense",
+			"entries": [
+				"A creature with Tremorsense can pinpoint the location of creatures and moving objects within a specific range, provided that the creature with Tremorsense and anything it's detecting are both in contact with the same surface (such as the ground, a wall, or a ceiling) or the same liquid.",
+				"Tremorsense can't detect creatures or objects in the air, and Tremorsense doesn't count as a form of sight."
+			]
+		},
+		{
+			"source": "XUA2023DruidAndPaladin",
+			"page": 29,
+			"name": "Truesight",
+			"entries": [
+				"A creature with Truesight has enhanced vision within a specified range. Within that range, the creature's vision pierces through the following:",
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"items": [
+						{
+							"type": "item",
+							"name": "Darkness",
+							"entries": [
+								"The creature can see in normal and magical darkness."
+							]
+						},
+						{
+							"type": "item",
+							"name": "Invisibility",
+							"entries": [
+								"The creature can see creatures that have the {@condition Invisible|XUA2023DruidAndPaladin} condition and objects that are obscured by magic."
+							]
+						},
+						{
+							"type": "item",
+							"name": "Visual Illusions",
+							"entries": [
+								"The creature notices visual illusions and automatically succeeds on saving throws against them."
+							]
+						},
+						{
+							"type": "item",
+							"name": "Transformations",
+							"entries": [
+								"The creature discerns the true form of any creature or object it sees that has been transformed by magic."
+							]
+						},
+						{
+							"type": "item",
+							"name": "Ethereal Plane",
+							"entries": [
+								"The creature can see into the Ethereal Plane."
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"source": "XUA2023DruidAndPaladin",
+			"page": 29,
+			"name": "Unarmed Strike",
+			"entries": [
+				"An Unarmed Strike is a Melee {@action Attack|XUA2023DruidAndPaladin} that involves you using your body to damage, grapple, or shove a target within 5 feet of you.",
+				"Whenever you use your Unarmed Strike, choose one of the following options for its effect:",
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"items": [
+						{
+							"type": "item",
+							"name": "Damage",
+							"entries": [
+								"You make an attack roll against the target. Your bonus to hit equals your Strength modifier plus your Proficiency Bonus. On a hit, the target takes Bludgeoning damage equal to 1 + your Strength modifier."
+							]
+						},
+						{
+							"type": "item",
+							"name": "Grapple",
+							"entries": [
+								"The target must succeed on a Strength or Dexterity saving throw (it chooses which), or it has the {@condition Grappled|XUA2023DruidAndPaladin} condition. The DC for the saving throw and any escape attempts equals 8 + your Strength modifier + your Proficiency Bonus. This grapple is possible only if the target is no more than one size larger than you and if you have a hand free to grab it."
+							]
+						},
+						{
+							"type": "item",
+							"name": "Shove",
+							"entries": [
+								"The target must succeed on a Strength or Dexterity saving throw (it chooses which), or you either push the target 5 feet away or cause it to have the Prone condition. The DC for the saving throw equals 8 + your Strength modifier + your Proficiency Bonus. This shove is possible only if the target is no more than one size larger than you."
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"source": "XUA2023DruidAndPaladin",
+			"page": 22,
+			"name": "Artisan's Tools",
+			"entries": [
+				"Artisan's Tools are a category of tool with which a character can gain {@variantrule Tool Proficiency|XUA2023DruidAndPaladin}. For a list of Artisan's Tools, see the 2014 Player's Handbook, but ignore the prices there; those tools now cost 15 GP apiece."
+			]
+		},
+		{
+			"source": "XUA2023DruidAndPaladin",
+			"page": 24,
+			"name": "Gaming Set",
+			"entries": [
+				"Gaming Sets are a category of tool with which a character can gain {@variantrule Tool Proficiency|XUA2023DruidAndPaladin}. For a list of Gaming Sets, see the 2014 Player's Handbook, but ignore the prices there; those sets now cost 1 GP apiece."
+			]
+		},
+		{
+			"source": "XUA2023DruidAndPaladin",
+			"page": 27,
+			"name": "Musical Instrument",
+			"entries": [
+				"Musical Instruments are a category of tool with which a character can gain {@variantrule Tool Proficiency|XUA2023DruidAndPaladin}. For a list of Musical Instruments, see the 2014 Player's Handbook, but ignore the prices there; those instruments now cost 20 GP apiece."
+			]
+		}
+	],
+	"feat": [
+		{
+			"name": "Epic Boon of Fate",
+			"source": "XUA2023DruidAndPaladin",
+			"page": 14,
+			"prerequisite": [
+				{
+					"level": 20,
+					"group": [
+						"mage",
+						"priest"
+					]
+				}
+			],
+			"ability": [
+				{
+					"choose": {
+						"from": [
+							"int",
+							"wis",
+							"cha"
+						]
+					}
+				}
+			],
+			"entries": [
+				"You gain the following benefits:",
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"items": [
+						{
+							"type": "item",
+							"name": "Ability Score Increase",
+							"entries": [
+								"Increase your Intelligence, Wisdom, or Charisma score by 1, to a maximum of 30."
+							]
+						},
+						{
+							"type": "item",
+							"name": "Improve Fate",
+							"entries": [
+								"When another creature within 60 feet of you fails a {@dice d20} Test, you can roll {@dice 2d4} and apply the total rolled as a bonus or penalty to the {@dice d20} roll. You can use this benefit no more than once per turn. You have 8 uses of this benefit, and whenever you finish a {@variantrule Long Rest|XUA2023DruidAndPaladin}, you regain {@dice 2d4} expended uses."
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Epic Boon of Spell Recall",
+			"source": "XUA2023DruidAndPaladin",
+			"page": 14,
+			"prerequisite": [
+				{
+					"level": 20,
+					"group": [
+						"mage",
+						"priest"
+					]
+				}
+			],
+			"ability": [
+				{
+					"choose": {
+						"from": [
+							"int",
+							"wis",
+							"cha"
+						]
+					}
+				}
+			],
+			"entries": [
+				"You gain the following benefits:",
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"items": [
+						{
+							"type": "item",
+							"name": "Ability Score Increase",
+							"entries": [
+								"Increase your Intelligence, Wisdom, or Charisma score by 1, to a maximum of 30."
+							]
+						},
+						{
+							"type": "item",
+							"name": "Free Casting",
+							"entries": [
+								"Whenever you cast a spell with a Spell Slot of 1st, 2nd, 3rd, or 4th level, roll a {@dice d4}. If the number you roll equals the slot's level, the slot isn't expended."
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Epic Boon of Truesight",
+			"source": "XUA2023DruidAndPaladin",
+			"page": 15,
+			"prerequisite": [
+				{
+					"level": 20,
+					"group": [
+						"priest"
+					]
+				}
+			],
+			"ability": [
+				{
+					"choose": {
+						"from": [
+							"int",
+							"wis",
+							"cha"
+						]
+					}
+				}
+			],
+			"entries": [
+				"You gain the following benefits:",
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"items": [
+						{
+							"type": "item",
+							"name": "Ability Score Increase",
+							"entries": [
+								"Increase your Intelligence, Wisdom, or Charisma score by 1, to a maximum of 30."
+							]
+						},
+						{
+							"type": "item",
+							"name": "Truesight",
+							"entries": [
+								"You have {@variantrule Truesight|XUA2023DruidAndPaladin} within a range of 60 feet."
+							]
+						}
+					]
+				}
+			]
+		}
+	],
+	"spell": [
+		{
+			"name": "Banishing Smite",
+			"source": "XUA2023DruidAndPaladin",
+			"page": 18,
+			"level": 5,
+			"school": "C",
+			"time": [
+				{
+					"number": 1,
+					"unit": "bonus",
+					"condition": "which you take immediately after hitting a creature with a weapon or an {@variantrule Unarmed Strike|XUA2023DruidAndPaladin}"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "self"
+				}
+			},
+			"components": {
+				"v": true
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 1
+					}
+				}
+			],
+			"entries": [
+				"The target hit by the strike takes an extra {@damage 5d10} Force damage, and the target must succeed on a Charisma saving throw or be transported to a harmless demiplane for the duration.",
+				"While in the demiplane, the target has the {@condition Incapacitated|XUA2023DruidAndPaladin} condition. At the end of each of its turns, the target repeats the save, ending the spell on itself on a success. When the spell ends on the target, it reappears in the space it left or in the nearest unoccupied space if that space is occupied.",
+				"If the spell lasts on the target for 1 minute and the target is an Aberration, a Celestial, an Elemental, a Fey, or a Fiend, the target doesn't return. It is instead transported to a random location on a plane associated with its creature type."
+			],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "At Higher Levels",
+					"entries": [
+						"When you cast this spell using a Spell Slot of 6th level or higher, the extra damage increases by {@dice 1d10} for each slot level above 5th."
+					]
+				}
+			],
+			"damageInflict": [
+				"force"
+			],
+			"savingThrow": [
+				"charisma"
+			]
+		},
+		{
+			"name": "Blinding Smite",
+			"source": "XUA2023DruidAndPaladin",
+			"page": 18,
+			"level": 3,
+			"school": "T",
+			"time": [
+				{
+					"number": 1,
+					"unit": "bonus",
+					"condition": "which you take immediately after hitting a creature with a weapon or an {@variantrule Unarmed Strike|XUA2023DruidAndPaladin}"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "self"
+				}
+			},
+			"components": {
+				"v": true
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 1
+					}
+				}
+			],
+			"entries": [
+				"The target hit by the strike takes an extra {@damage 3d8} Radiant damage, and the target must succeed on a Constitution saving throw or have the Blinded condition until the spell ends. At the end of each of its turns, the Blinded target repeats the saving throw, ending the spell on itself on a success."
+			],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "At Higher Levels",
+					"entries": [
+						"When you cast this spell using a Spell Slot of 4th level or higher, the extra damage increases by {@dice 1d8} for each slot level above 3rd."
+					]
+				}
+			],
+			"damageInflict": [
+				"radiant"
+			],
+			"savingThrow": [
+				"constitution"
+			]
+		},
+		{
+			"name": "Find Familiar",
+			"source": "XUA2023DruidAndPaladin",
+			"page": 18,
+			"level": 1,
+			"school": "C",
+			"time": [
+				{
+					"number": 1,
+					"unit": "hour"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 10
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": {
+					"text": "10 GP worth of charcoal, incense, and herbs that must be consumed by fire in a brass brazier",
+					"cost": 1000,
+					"consume": true
+				}
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"meta": {
+				"ritual": true
+			},
+			"entries": [
+				"You gain the service of an otherworldly spirit, which manifests as a little animal in an unoccupied space of your choice within range.",
+				"This creature uses the {@creature Otherworldly Familiar|XUA2023DruidAndPaladin} stat block. If you already have a familiar from this spell, that familiar transforms into the new one but retains its memories; you don't get a second familiar.",
+				"Whenever you cast the spell, choose the familiar's creature type: Celestial, Fey, or Fiend.",
+				"Also choose an environment: Air, Land, or Water.",
+				"The familiar resembles a Tiny animal of your choice\u2014such as an owl, a cat, or a frog\u2014that is native to the chosen environment. Both choices\u2014creature type and environment\u2014determine certain traits in the stat block.",
+				{
+					"type": "entries",
+					"name": "Combat",
+					"entries": [
+						"The familiar is an ally to you and your companions. In combat, it shares your initiative count, but it takes its turn immediately after yours. It obeys your commands (no action required by you), but the familiar can't attack unless you use your Reaction on its turn to command it do so.",
+						"If you don't issue any commands, the familiar takes the {@action Dodge} action and uses its {@variantrule Move|XUA2023DruidAndPaladin} to avoid danger."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Disappearance of the Familiar",
+					"entries": [
+						"The familiar disappears if it drops to 0 Hit Points, if you dismiss it as a Bonus Action, or if you die. When it disappears, it leaves behind anything it was wearing or carrying. If you cast this spell again, you decide whether you summon the familiar that disappeared or a different one."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Remote Viewing",
+					"entries": [
+						"As a {@action Magic|XUA2023DruidAndPaladin} action, you can see what your familiar sees and hear what it hears until the end of your next turn."
+					]
+				}
+			],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "At Higher Levels",
+					"entries": [
+						"When you cast this spell using a Spell Slot of 2nd level or higher, use the higher level wherever the spell's level appears in the stat block."
+					]
+				}
+			],
+			"miscTags": [
+				"SGT",
+				"SMN",
+				"UBA"
+			]
+		},
+		{
+			"name": "Find Steed",
+			"source": "XUA2023DruidAndPaladin",
+			"page": 19,
+			"level": 2,
+			"school": "C",
+			"time": [
+				{
+					"number": 10,
+					"unit": "minute"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 30
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"entries": [
+				"You gain the service of an otherworldly being, which manifests as a loyal steed in an unoccupied space of your choice within range.",
+				"This creature uses the {@creature Otherworldly Steed|XUA2023DruidAndPaladin} stat block. If you already have a steed from this spell, your steed is replaced by the new one.",
+				"The steed resembles a Large, rideable animal of your choice, such as a horse, a camel, a dire wolf, or an elk. Whenever you cast the spell, choose the steed's creature type\u2014Celestial, Fey, or Fiend\u2014which determines certain traits in the stat block.",
+				{
+					"type": "entries",
+					"name": "Combat",
+					"entries": [
+						"The steed is an ally to you and your companions. In combat, it shares your initiative count, and it functions as a controlled mount (as defined in the rules on mounted combat). If you have the {@condition Incapacitated|XUA2023DruidAndPaladin} condition,  it takes its turn immediately after yours and acts independently, focusing on protecting you."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Disappearance of the Steed",
+					"entries": [
+						"The steed disappears if it drops to 0 Hit Points, if you dismiss it as a Bonus Action, or if you die. When it disappears, it leaves behind anything it was wearing or carrying. If you cast this spell again, you decide whether you summon the steed that disappeared or a different one."
+					]
+				}
+			],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "At Higher Levels",
+					"entries": [
+						"When you cast this spell using a Spell Slot of 3rd level or higher, use the higher level wherever the spell's level appears in the stat block."
+					]
+				}
+			],
+			"miscTags": [
+				"SMN",
+				"UBA"
+			]
+		},
+		{
+			"name": "Glimmering Smite",
+			"source": "XUA2023DruidAndPaladin",
+			"page": 20,
+			"level": 2,
+			"school": "T",
+			"time": [
+				{
+					"number": 1,
+					"unit": "bonus",
+					"condition": "which you take immediately after hitting a creature with a weapon or an {@variantrule Unarmed Strike|XUA2023DruidAndPaladin}"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "self"
+				}
+			},
+			"components": {
+				"v": true
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 1
+					},
+					"concentration": true
+				}
+			],
+			"entries": [
+				"The target hit by the strike takes an extra {@damage 2d6} Radiant damage, and if has the {@condition Invisible|XUA2023DruidAndPaladin} condition, that condition ends on it. In addition, until the spell ends, the target sheds bright light in a 5-foot radius, and attack rolls against it have Advantage."
+			],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "At Higher Levels",
+					"entries": [
+						"When you cast this spell using a Spell Slot of 3rd level or higher, the extra damage increases by {@dice 1d6} for each slot level above 2nd."
+					]
+				}
+			],
+			"damageInflict": [
+				"radiant"
+			],
+			"miscTags": [
+				"LGT"
+			]
+		},
+		{
+			"name": "Searing Smite",
+			"source": "XUA2023DruidAndPaladin",
+			"page": 20,
+			"level": 1,
+			"school": "V",
+			"time": [
+				{
+					"number": 1,
+					"unit": "bonus",
+					"condition": "which you take immediately after hitting a target with a weapon or an {@variantrule Unarmed Strike|XUA2023DruidAndPaladin}"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "self"
+				}
+			},
+			"components": {
+				"v": true
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 1
+					},
+					"concentration": true
+				}
+			],
+			"entries": [
+				"As you hit the target, your strike flares with white-hot intensity, and the target takes an extra {@damage 1d6} Fire damage and ignites with magical fire. At the start of each of its turns until the spell ends, the target must make a Constitution saving throw. On a failed save, it takes {@damage 1d6} Fire damage.",
+				"On a successful save, the spell ends."
+			],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "At Higher Levels",
+					"entries": [
+						"When you cast this spell using a Spell Slot of 2nd level or higher, the damage increases by {@dice 1d6} for each slot level above 1st."
+					]
+				}
+			],
+			"damageInflict": [
+				"fire"
+			],
+			"savingThrow": [
+				"constitution"
+			]
+		},
+		{
+			"name": "Spare the Dying",
+			"source": "XUA2023DruidAndPaladin",
+			"page": 20,
+			"level": 0,
+			"school": "N",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "touch"
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"entries": [
+				"You touch a creature that has the Dying condition. The creature regains 1 Hit Point."
+			],
+			"miscTags": [
+				"HL"
+			]
+		},
+		{
+			"name": "Staggering Smite",
+			"source": "XUA2023DruidAndPaladin",
+			"page": 20,
+			"level": 4,
+			"school": "E",
+			"time": [
+				{
+					"number": 1,
+					"unit": "bonus",
+					"condition": "which you take immediately after hitting a creature with a weapon or an {@variantrule Unarmed Strike|XUA2023DruidAndPaladin}"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "self"
+				}
+			},
+			"components": {
+				"v": true
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"entries": [
+				"As you hit the creature, your strike pierces both body and mind. The target takes an extra {@damage 4d6} Psychic damage, and the target must succeed on a Wisdom saving throw or have the Stunned condition until the end of your next turn."
+			],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "At Higher Levels",
+					"entries": [
+						"When you cast this spell using a Spell Slot of 5th level or higher, the extra damage increases by {@dice 1d6} for each slot level above 4th."
+					]
+				}
+			],
+			"damageInflict": [
+				"psychic"
+			],
+			"savingThrow": [
+				"wisdom"
+			]
+		},
+		{
+			"name": "Thunderous Smite",
+			"source": "XUA2023DruidAndPaladin",
+			"page": 21,
+			"level": 1,
+			"school": "T",
+			"time": [
+				{
+					"number": 1,
+					"unit": "bonus",
+					"condition": "which you take immediately after hitting a target with a weapon or an {@variantrule Unarmed Strike|XUA2023DruidAndPaladin}"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "self"
+				}
+			},
+			"components": {
+				"v": true
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"entries": [
+				"As you hit the target, your strike rings with thunder that is audible within 300 feet of you, and the target takes an extra {@damage 2d6} Thunder damage. Additionally, if the target is a creature, it must succeed on a Strength saving throw or be pushed 10 feet away from you and have the Prone condition."
+			],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "At Higher Levels",
+					"entries": [
+						"When you cast this spell using a Spell Slot of 2nd level or higher, the damage increases by {@dice 1d6} for each slot level above 1st."
+					]
+				}
+			],
+			"damageInflict": [
+				"thunder"
+			],
+			"savingThrow": [
+				"strength"
+			],
+			"miscTags": [
+				"FMV"
+			]
+		},
+		{
+			"name": "Wrathful Smite",
+			"source": "XUA2023DruidAndPaladin",
+			"page": 21,
+			"level": 1,
+			"school": "E",
+			"time": [
+				{
+					"number": 1,
+					"unit": "bonus",
+					"condition": "which you take immediately after hitting a creature with a weapon or an {@variantrule Unarmed Strike|XUA2023DruidAndPaladin}"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "self"
+				}
+			},
+			"components": {
+				"v": true
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 1
+					},
+					"concentration": true
+				}
+			],
+			"entries": [
+				"As you hit the creature, it takes an extra {@damage 1d6} Psychic damage, and it must succeed on a Wisdom saving throw or have the Frightened condition until the spell ends. At the end of each of its turns, the Frightened target repeats the saving throw, ending the spell on itself on a success."
+			],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "At Higher Levels",
+					"entries": [
+						"When you cast this spell using a Spell Slot of 2nd level or higher, the damage increases by {@dice 1d6} for each slot level above 1st."
+					]
+				}
+			],
+			"damageInflict": [
+				"psychic"
+			],
+			"savingThrow": [
+				"wisdom"
+			]
+		}
+	],
+	"action": [
+		{
+			"name": "Attack",
+			"page": 22,
+			"source": "XUA2023DruidAndPaladin",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"entries": [
+				"When you take the Attack Action, you can make one attack with a Weapon or an {@variantrule Unarmed Strike|XUA2023DruidAndPaladin}.",
+				{
+					"type": "entries",
+					"name": "Equipping Weapons",
+					"entries": [
+						"You can equip or unequip one weapon before or after each attack you make as part of this action. If you equip a weapon before an attack, you don't need to use it for that attack.",
+						"Equipping a weapon includes drawing it from a sheathe, picking it up, or retrieving it from a container. Unequipping a weapon includes sheathing, stowing, or dropping it."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Moving Between Attacks",
+					"entries": [
+						"If you {@variantrule Move|XUA2023DruidAndPaladin} on your turn, you can use some or all of that movement to move between the attacks of this Action if you have a feature, such as Extra Attack, that gives you more than one attack as part of the Attack Action."
+					]
+				}
+			]
+		},
+		{
+			"name": "Help",
+			"page": 24,
+			"source": "XUA2023DruidAndPaladin",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"entries": [
+				"When you take the Help Action, you do one of the following:",
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"items": [
+						{
+							"type": "item",
+							"name": "Assist Ability Check",
+							"entries": [
+								"Choose one of your skill or tool proficiencies and one ally who can perceive you. You give Advantage to the next ability check that ally makes with the chosen skill or tool. This benefit expires if the ally doesn't use it before the start of your next turn. To give this assistance, you must be near enough to the ally to assist verbally or physically when the ally makes the check. The DM has final say on whether your assistance is possible."
+							]
+						},
+						{
+							"type": "item",
+							"name": "Assist Attack Roll",
+							"entries": [
+								"You momentarily distract an enemy within 5 feet of you, granting Advantage to the next attack roll by one of your allies against that enemy. This benefit expires at the start of your next turn."
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Hide",
+			"page": 24,
+			"source": "XUA2023DruidAndPaladin",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"entries": [
+				"With the Hide Action, you try to conceal yourself. To do so, you must make a {@dc 15} Dexterity Check ({@skill Stealth}) while you're Heavily Obscured or behind Three-Quarters Cover or Total Cover, and you must be out of any visible enemy's line of sight; if you can see a creature, you can discern whether it can see you.",
+				"On a successful check, you are {@condition Hidden|XUA2023DruidAndPaladin}. Make note of your check's total, which becomes the DC for a creature to find you with a Wisdom Check ({@skill Perception}).",
+				"The condition ends on you immediately after any of the following occurrences: you make a sound louder than a whisper, an enemy finds you, you make an attack roll, or you cast a spell with a verbal component."
+			]
+		},
+		{
+			"name": "Influence",
+			"page": 25,
+			"source": "XUA2023DruidAndPaladin",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"entries": [
+				"With the Influence action, you can try to influence another creature to do one thing that you request or demand.",
+				"This action can be used only on creatures controlled by the DM, and it isn't mind control; it can't force a creature to do something that is counter to the creature's alignment or that is otherwise repugnant to the creature.",
+				"This action has three main parts: Attitude, interaction, and a Charisma check.",
+				{
+					"type": "entries",
+					"name": "Attitude",
+					"entries": [
+						"A creature's Attitude determines how a character can influence that creature. Each DM controlled creature has one of the following Attitudes toward the player characters:",
+						{
+							"type": "list",
+							"style": "list-hang-notitle",
+							"items": [
+								{
+									"type": "item",
+									"name": "Indifferent",
+									"entries": [
+										"This is the default Attitude for DMcontrolled creatures. An Indifferent creature might help or hinder the party, depending on what the creature sees as most beneficial. A creature's indifference doesn't necessarily make it standoffish or disinterested. Indifferent creatures might be polite and genial, surly and irritable, or anything in between. A successful Charisma Check is often necessary when the adventurers try to persuade an Indifferent creature to do something."
+									]
+								},
+								{
+									"type": "item",
+									"name": "Friendly",
+									"entries": [
+										"A Friendly creature wants to help the adventurers and wishes for them to succeed. For tasks or actions that require no particular risk, effort, or cost, Friendly creatures often help happily. If an element of personal risk is involved, a successful Charisma Check might be required to convince a Friendly creature to take that risk."
+									]
+								},
+								{
+									"type": "item",
+									"name": "Hostile",
+									"entries": [
+										"A Hostile creature opposes the adventurers and their goals but doesn't necessarily attack them on sight. The adventurers need to succeed on one or more challenging Charisma Checks to convince a Hostile creature to do anything on the party's behalf; however, the DM might determine that the Hostile creature is so ill-disposed toward the characters that no Charisma Check can sway it, in which case the first check fails automatically and no further Influence attempts can be made on the creature unless its Attitude shifts."
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Interaction",
+					"entries": [
+						"When you take the Influence Action, either roleplay how your character interacts with the creature or describe your character's behavior\u2014focusing on your character's request or demand. If the interaction is especially suited to the creature's desires and outlook, the DM might grant Advantage to your subsequent check or might temporarily shift a Hostile creature to Indifferent or an Indifferent creature to Friendly.",
+						"Similarly, if the interaction is particularly irksome to the creature, the DM might impose Disadvantage on your subsequent check or might temporarily shift a Friendly creature to Indifferent or an Indifferent creature to Hostile."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Ability Check",
+					"entries": [
+						"To determine whether your request or demand is successful, you make a Charisma Check. You have Advantage on the check if the creature is Friendly, and you have Disadvantage if the creature is Hostile.",
+						{
+							"type": "entries",
+							"name": "Choosing a Skill",
+							"entries": [
+								"The Influence Skills table suggests which Skills are applicable when you make the Charisma Check, depending on the interaction that precedes the roll."
+							]
+						},
+						{
+							"type": "table",
+							"caption": "Influence Skills",
+							"colLabels": [
+								"Skill",
+								"Interaction"
+							],
+							"colStyles": [
+								"col-3",
+								"col-9"
+							],
+							"rows": [
+								[
+									"{@skill Animal Handling}",
+									"Gently coaxing a Beast or a Monstrosity"
+								],
+								[
+									"{@skill Deception}",
+									"Deceiving a creature that can understand you"
+								],
+								[
+									"{@skill Intimidation}",
+									"Intimidating a creature"
+								],
+								[
+									"{@skill Persuasion}",
+									"Persuading a creature that can understand you"
+								]
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Setting the DC",
+							"entries": [
+								"The minimum DC for the check is 15 or the creature's Intelligence score, whichever is higher."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Outcome",
+							"entries": [
+								"If your check succeeds, the creature does as asked. If your check fails, you must wait to make the same request again. The default wait time is 24 hours, which the DM may shorten or extend depending on the circumstances."
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Magic",
+			"page": 26,
+			"source": "XUA2023DruidAndPaladin",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"entries": [
+				"When you take the Magic Action, you cast a Spell that has a casting time of an Action, or you use a Magic Item that requires an Action to be activated.",
+				"If you cast a Spell that has a casting time of 1 minute or longer, you must take the Magic Action on each turn of that casting, and you must maintain Concentration while you do so. If your Concentration is broken, the Spell fails, but you don't expend a Spell Slot."
+			]
+		},
+		{
+			"name": "Search",
+			"page": 27,
+			"source": "XUA2023DruidAndPaladin",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"entries": [
+				"When you take the Search Action, you make a Wisdom Check to discern something that isn't obvious. The Search table suggests which Skills are applicable when you take this Action, depending on what you're trying to detect.",
+				{
+					"type": "table",
+					"caption": "Search",
+					"colLabels": [
+						"Skill",
+						"Thing to Detect"
+					],
+					"colStyles": [
+						"col-3",
+						"col-9"
+					],
+					"rows": [
+						[
+							"{@skill Insight}",
+							"Creature's state of mind"
+						],
+						[
+							"{@skill Medicine}",
+							"Creature's ailment"
+						],
+						[
+							"{@skill Perception}",
+							"Concealed creature or object"
+						],
+						[
+							"{@skill Survival}",
+							"Tracks or food"
+						]
+					]
+				}
+			]
+		},
+		{
+			"name": "Study",
+			"page": 28,
+			"source": "XUA2023DruidAndPaladin",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"entries": [
+				"When you take the Study Action, you make an Intelligence Check to study your memory, a book, a creature, a clue, an object, or another source of knowledge and call to mind an important piece of information about it.",
+				"The Areas of Knowledge table suggests which Skills are applicable when you take this Action, depending on the area of knowledge the Intelligence Check is about.",
+				{
+					"type": "table",
+					"caption": "Areas of Knowledge",
+					"colLabels": [
+						"Skill",
+						"Areas"
+					],
+					"colStyles": [
+						"col-1",
+						"col-11"
+					],
+					"rows": [
+						[
+							"{@skill Arcana}",
+							"Spells, magic items, eldritch symbols, magical traditions, planes of existence, and certain creatures (Aberrations, Constructs, Elementals, Fey, and Monstrosities)"
+						],
+						[
+							"{@skill History}",
+							"Historic events and people, ancient civilizations, wars, and certain creatures (Giants and Humanoids)"
+						],
+						[
+							"{@skill Investigation}",
+							"Traps, ciphers, riddles, and gadgetry"
+						],
+						[
+							"{@skill Nature}",
+							"Terrain, flora, weather, and certain creatures (Beasts, Dragons, Oozes, and Plants)"
+						],
+						[
+							"{@skill Religion}",
+							"Deities, religious hierarchies and rites, holy symbols, cults, and certain creatures (Celestials, Fiends, and Undead)"
+						]
+					]
+				}
+			]
+		}
+	],
+	"condition": [
+		{
+			"source": "XUA2023DruidAndPaladin",
+			"page": 22,
+			"name": "Dazed",
+			"entries": [
+				"While Dazed, you experience the following effect:",
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"items": [
+						{
+							"type": "item",
+							"name": "Limited Activity",
+							"entries": [
+								"You can {@variantrule Move|XUA2023DruidAndPaladin} or take one Action on your turn, not both. You also can't take a Bonus Action or a Reaction."
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"source": "XUA2023DruidAndPaladin",
+			"page": 23,
+			"name": "Dying",
+			"entries": [
+				"{@note When a player character drops to 0 Hit Points, that character has the Dying condition, which replaces the following rules in the 2014 Player's Handbook (page 197): \"Falling {@condition Unconscious|XUA2023DruidAndPaladin},\" \"Death Saving Throws,\" and \"Stabilizing a Creature.\"}",
+				"While Dying, you experience the following effects:",
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"items": [
+						{
+							"type": "item",
+							"name": "0 Hit Points",
+							"entries": [
+								"You have 0 Hit Points. If you regain any Hit Points while Dying, this condition ends on you."
+							]
+						},
+						{
+							"type": "item",
+							"name": "Knocked Out",
+							"entries": [
+								"You have the {@condition Unconscious|XUA2023DruidAndPaladin} condition."
+							]
+						},
+						{
+							"type": "item",
+							"name": "Death Saving Throws",
+							"entries": [
+								"At the start of each of your turns, you must make a death saving throw, a special save that isn't tied to any ability score. You're in the hands of fate now; roll a {@dice d20}. If the roll is 10 or higher, you succeed. Otherwise, you fail. A success or failure has no effect by itself. The successes and failures also don't need to be consecutive; keep track of both until you collect three of a kind, the effects of which are described below. When this condition ends on you, reset the number of success and failures to zero."
+							]
+						},
+						{
+							"type": "item",
+							"name": "Rolling a 1 or 20",
+							"entries": [
+								"When you make a death save and roll a 1 on the {@dice d20}, it counts as two failures. If you roll a 20, you regain 1 Hit Point."
+							]
+						},
+						{
+							"type": "item",
+							"name": "Three Failures",
+							"entries": [
+								"On your third failure, you die."
+							]
+						},
+						{
+							"type": "item",
+							"name": "Three Successes",
+							"entries": [
+								"On your third success, you regain 1 Hit Point. This condition ends on you as normal, but you are still {@condition Unconscious|XUA2023DruidAndPaladin} and start a {@variantrule Short Rest|XUA2023DruidAndPaladin}. You remain {@condition Unconscious|XUA2023DruidAndPaladin} until you regain any Hit Points or until another creature uses an action to administer first aid to you, which requires a successful {@dc 10} Wisdom ({@skill Medicine}) check."
+							]
+						},
+						{
+							"type": "item",
+							"name": "Damage",
+							"entries": [
+								"If you take any damage, you suffer one death saving throw failure. If you suffer a critical hit, you instead suffer two death saving throw failures."
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Exhausted",
+			"source": "XUA2023DruidAndPaladin",
+			"page": 23,
+			"entries": [
+				"While Exhausted (known in older books as Exhaustion), you experience the following effects:",
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"items": [
+						{
+							"type": "item",
+							"name": "Levels of Exhaustion",
+							"entry": "This Condition is cumulative. Each time you receive it, you gain 1 level of {@condition exhaustion}. You die if your {@condition exhaustion} level exceeds 10."
+						},
+						{
+							"type": "item",
+							"name": "d20 Rolls Affected",
+							"entry": "When you make a {@dice d20} Test, you subtract your {@condition exhaustion} level from the {@dice d20} roll."
+						},
+						{
+							"type": "item",
+							"name": "Spell Save DCs Affected",
+							"entry": "Subtract your {@condition exhaustion} level from the Spell save DC of any Spell you cast."
+						},
+						{
+							"type": "item",
+							"name": "Ending the Condition",
+							"entry": "Finishing a {@variantrule Long Rest|XUA2023DruidAndPaladin} removes 1 of your levels of {@condition exhaustion}. When your {@condition exhaustion} level reaches 0, you are no longer Exhausted."
+						}
+					]
+				}
+			]
+		},
+		{
+			"source": "XUA2023DruidAndPaladin",
+			"page": 24,
+			"name": "Grappled",
+			"entries": [
+				"While you are Grappled, you experience the following effects:",
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"items": [
+						{
+							"type": "item",
+							"name": "Speed 0",
+							"entries": [
+								"Your Speed is 0 and can't change."
+							]
+						},
+						{
+							"type": "item",
+							"name": "Attacks Affected",
+							"entries": [
+								"You have Disadvantage on attack rolls against any target other than the grappler."
+							]
+						},
+						{
+							"type": "item",
+							"name": "Movable",
+							"entries": [
+								"The grappler can drag or carry you when it Moves, but every foot of movement costs it 1 extra foot, unless you are Tiny or two or more sizes smaller than the grappler."
+							]
+						},
+						{
+							"type": "item",
+							"name": "Escape",
+							"entries": [
+								"While Grappled, you can use your action to make a Strength ({@skill Athletics}) or Dexterity ({@skill Acrobatics}) check against the grapple's escape DC, ending the condition on yourself on a success. The condition also ends if the grappler has the {@condition Incapacitated|XUA2023DruidAndPaladin} condition or if the distance between you and the grappler exceeds the grapple's range."
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Incapacitated",
+			"source": "XUA2023DruidAndPaladin",
+			"page": 24,
+			"entries": [
+				"While you are Incapacitated, you experience the following effects:",
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"items": [
+						{
+							"type": "item",
+							"name": "Inactive",
+							"entries": [
+								"You can't take any action, Bonus Action, or Reaction."
+							]
+						},
+						{
+							"type": "item",
+							"name": "No Concentration",
+							"entries": [
+								"Your Concentration is broken."
+							]
+						},
+						{
+							"type": "item",
+							"name": "No Concentration",
+							"entries": [
+								"Your Concentration is broken."
+							]
+						},
+						{
+							"type": "item",
+							"name": "Speechless",
+							"entries": [
+								"You can't speak."
+							]
+						},
+						{
+							"type": "item",
+							"name": "Surprised",
+							"entries": [
+								"If you are Incapacitated when you roll Initiative, you have Disadvantage on the roll."
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Invisible",
+			"page": 25,
+			"source": "XUA2023DruidAndPaladin",
+			"entries": [
+				"While you are Invisible, you experience the following effects:",
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"items": [
+						{
+							"type": "item",
+							"name": "Concealed",
+							"entries": [
+								"You aren't affected by any effect that requires its target to be seen."
+							]
+						},
+						{
+							"type": "item",
+							"name": "Surprise",
+							"entries": [
+								"If you are Invisible when you roll initiative, you have Advantage on the roll."
+							]
+						},
+						{
+							"type": "item",
+							"name": "Attacks Affected",
+							"entries": [
+								"{@action Attack|XUA2023DruidAndPaladin} rolls against you have Disadvantage, and your attack rolls have Advantage. If a creature can somehow see you, as with magic or {@variantrule Blindsight|XUA2023DruidAndPaladin}, you don't gain this benefit against that creature."
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"source": "XUA2023DruidAndPaladin",
+			"page": 29,
+			"name": "Unconscious",
+			"entries": [
+				"While Unconscious, you experience the following effects:",
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"items": [
+						{
+							"type": "item",
+							"name": "Inert",
+							"entries": [
+								"You have the {@condition Incapacitated|XUA2023DruidAndPaladin} and Prone conditions, and you drop whatever you are holding. When this condition ends, you remain Prone."
+							]
+						},
+						{
+							"type": "item",
+							"name": "Speed 0",
+							"entries": [
+								"Your Speed is 0 and can't change. Attacks Affected. {@action Attack|XUA2023DruidAndPaladin} rolls against you have Advantage."
+							]
+						},
+						{
+							"type": "item",
+							"name": "Fail Str. and Dex. Saves.",
+							"entries": [
+								"You automatically fail Strength and Dexterity saving throws."
+							]
+						},
+						{
+							"type": "item",
+							"name": "Critical Hits",
+							"entries": [
+								"Any attack roll that hits you is a critical hit if the attacker is within 5 feet of you."
+							]
+						},
+						{
+							"type": "item",
+							"name": "Unaware",
+							"entries": [
+								"You are unaware of your surroundings."
+							]
+						}
+					]
+				}
+			]
+		}
+	],
+	"baseitem": [
+		{
+			"name": "Shortsword",
+			"source": "XUA2023DruidAndPaladin",
+			"page": 25,
+			"type": "M",
+			"rarity": "none",
+			"weight": 2,
+			"value": 1000,
+			"weaponCategory": "simple",
+			"property": [
+				"F",
+				"XUA2023DruidAndPaladin-L"
+			],
+			"dmg1": "1d6",
+			"dmgType": "P",
+			"sword": true,
+			"weapon": true
+		}
+	],
+	"itemProperty": [
+		{
+			"abbreviation": "XUA2023DruidAndPaladin-L",
+			"source": "XUA2023DruidAndPaladin",
+			"page": 26,
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Light",
+					"entries": [
+						"When you take the {@action Attack|XUA2023DruidAndPaladin} Action on your turn and attack with a Light weapon in one hand and have a Light weapon in the other hand, you can make one extra attack as part of the same Action. That extra attack must be made with the Light weapon in the other hand, and you don't add your ability modifier to the extra attack's damage. You can make this extra attack only once on each of your turns.",
+						"For example, if you take the {@action Attack|XUA2023DruidAndPaladin} Action on your turn and have a Shortsword in one hand and a Dagger in the other\u2014each of which has the Light property\u2014you can make one attack with each weapon, but you don't add your Strength or Dexterity modifier to the damage roll of the second weapon."
+					]
+				}
+			]
+		}
+	],
+	"spellList": [
+		{
+			"name": "Divine",
+			"source": "XUA2023DruidAndPaladin",
+			"spellListType": "groups",
+			"spells": [
+				"light",
+				"sacred flame",
+				"spare the dying|xua2023druidandpaladin",
+				"thaumaturgy",
+				"bane",
+				"bless",
+				"command",
+				"compelled duel",
+				"cure wounds",
+				"detect evil and good",
+				"detect magic",
+				"detect poison and disease",
+				"divine favor",
+				"guiding bolt",
+				"healing word",
+				"heroism",
+				"inflict wounds",
+				"protection from evil and good",
+				"purify food and drink",
+				"sanctuary",
+				"searing smite|xua2023druidandpaladin",
+				"shield of faith",
+				"thunderous smite|xua2023druidandpaladin",
+				"wrathful smite|xua2023druidandpaladin",
+				"aid",
+				"augury",
+				"blindness/deafness",
+				"glimmering smite|xua2023druidandpaladin",
+				"calm emotions",
+				"find steed|xua2023druidandpaladin",
+				"find traps",
+				"gentle repose",
+				"hold person",
+				"lesser restoration",
+				"locate object",
+				"magic weapon",
+				"protection from poison",
+				"silence",
+				"spiritual weapon",
+				"warding bond",
+				"zone of truth",
+				"aura of vitality",
+				"beacon of hope",
+				"blinding smite|xua2023druidandpaladin",
+				"clairvoyance",
+				"create food and water",
+				"crusader's mantle",
+				"daylight",
+				"dispel magic",
+				"feign death",
+				"glyph of warding",
+				"magic circle",
+				"mass healing word",
+				"remove curse",
+				"revivify",
+				"speak with dead",
+				"spirit guardians",
+				"tongues",
+				"aura of life",
+				"aura of purity",
+				"death ward",
+				"divination",
+				"freedom of movement",
+				"guardian of faith",
+				"locate creature",
+				"staggering smite|xua2023druidandpaladin",
+				"banishing smite|xua2023druidandpaladin",
+				"circle of power",
+				"commune",
+				"contagion",
+				"destructive wave",
+				"dispel evil and good",
+				"flame strike",
+				"geas",
+				"greater restoration",
+				"hallow",
+				"legend lore",
+				"mass cure wounds",
+				"planar binding",
+				"raise dead",
+				"scrying",
+				"blade barrier",
+				"find the path",
+				"forbiddance",
+				"harm",
+				"heal",
+				"heroes' feast",
+				"planar ally",
+				"sunbeam",
+				"true seeing",
+				"word of recall",
+				"conjure celestial",
+				"divine word",
+				"etherealness",
+				"plane shift",
+				"regenerate",
+				"resurrection",
+				"symbol",
+				"antimagic field",
+				"antipathy/sympathy",
+				"holy aura",
+				"sunburst",
+				"astral projection",
+				"foresight",
+				"gate",
+				"mass heal",
+				"power word heal",
+				"true resurrection"
+			]
+		},
+		{
+			"name": "Primal",
+			"source": "XUA2023DruidAndPaladin",
+			"spellListType": "groups",
+			"spells": [
+				"druidcraft",
+				"mending",
+				"message",
+				"poison spray",
+				"produce flame",
+				"shillelagh",
+				"spare the dying|xua2023druidandpaladin",
+				"thorn whip",
+				"animal friendship",
+				"create or destroy water",
+				"cure wounds",
+				"detect magic",
+				"detect poison and disease",
+				"ensnaring strike",
+				"entangle",
+				"faerie fire",
+				"fog cloud",
+				"goodberry",
+				"hail of thorns",
+				"healing word",
+				"hunter's mark",
+				"jump",
+				"longstrider",
+				"purify food and drink",
+				"speak with animals",
+				"thunderwave",
+				"animal messenger",
+				"augury",
+				"beast sense",
+				"cordon of arrows",
+				"darkvision",
+				"enhance ability",
+				"enlarge/reduce",
+				"find traps",
+				"flame blade",
+				"flaming sphere",
+				"gentle repose",
+				"gust of wind",
+				"heat metal",
+				"lesser restoration",
+				"locate animals or plants",
+				"locate object",
+				"moonbeam",
+				"pass without trace",
+				"protection from poison",
+				"silence",
+				"spike growth",
+				"call lightning",
+				"conjure animals",
+				"conjure barrage",
+				"daylight",
+				"dispel magic",
+				"elemental weapon",
+				"feign death",
+				"lightning arrow",
+				"mass healing word",
+				"meld into stone",
+				"nondetection",
+				"plant growth",
+				"protection from energy",
+				"revivify",
+				"sleet storm",
+				"speak with plants",
+				"water breathing",
+				"water walk",
+				"wind wall",
+				"conjure minor elementals",
+				"conjure woodland beings",
+				"control water",
+				"dominate beast",
+				"freedom of movement",
+				"giant insect",
+				"grasping vine",
+				"ice storm",
+				"locate creature",
+				"polymorph",
+				"stone shape",
+				"stoneskin",
+				"wall of fire",
+				"antilife shell",
+				"awaken",
+				"commune with nature",
+				"conjure elemental",
+				"conjure volley",
+				"greater restoration",
+				"insect plague",
+				"mass cure wounds",
+				"reincarnate",
+				"scrying",
+				"swift quiver",
+				"tree stride",
+				"wall of stone",
+				"conjure fey",
+				"find the path",
+				"heal",
+				"move earth",
+				"sunbeam",
+				"transport via plants",
+				"wall of ice",
+				"wall of thorns",
+				"wind walk",
+				"fire storm",
+				"regenerate",
+				"reverse gravity",
+				"animal shapes",
+				"control weather",
+				"earthquake",
+				"sunburst",
+				"tsunami",
+				"power word heal",
+				"shapechange",
+				"storm of vengeance",
+				"true resurrection"
+			]
+		}
+	],
+	"item": [
+		{
+			"name": "Priest's Pack",
+			"source": "XUA2023DruidAndPaladin",
+			"page": 27,
+			"type": "G",
+			"rarity": "none",
+			"weight": 24,
+			"value": 3300,
+			"entries": [
+				"Includes:",
+				{
+					"type": "list",
+					"items": [
+						"{@item Backpack|phb}",
+						"{@item Blanket|phb}",
+						"{@item Lamp|phb}",
+						"{@item Holy Water (flask)|phb|Holy Water}",
+						"{@item Rations (1 day)|phb|Rations} (7 days)",
+						"{@item Robes|phb|Robe}",
+						"{@item Tinderbox|phb}"
+					]
+				}
+			],
+			"packContents": [
+				"backpack|phb",
+				"blanket|phb",
+				"lamp|phb",
+				"tinderbox|phb",
+				{
+					"item": "rations (1 day)|phb",
+					"quantity": 7
+				},
+				"robes|phb"
+			]
+		}
+	],
+	"monster": [
+		{
+			"name": "Otherworldly Familiar",
+			"source": "XUA2023DruidAndPaladin",
+			"page": 19,
+			"size": [
+				"T"
+			],
+			"type": {
+				"type": {
+					"choose": [
+						"celestial",
+						"fey",
+						"fiend"
+					]
+				},
+				"note": "(Choose When Casting the Spell)"
+			},
+			"alignment": [
+				"N"
+			],
+			"ac": [
+				{
+					"special": "10 + 2 (Land only) + 1 per spell level (natural armor)"
+				}
+			],
+			"hp": {
+				"special": "2 + 2 per spell level (the familiar has a number of Hit Dice [d4s] equal to the spell's level)"
+			},
+			"speed": {
+				"walk": 30,
+				"climb": {
+					"number": 30,
+					"condition": "(land only)"
+				},
+				"fly": {
+					"number": 30,
+					"condition": "(air only)"
+				},
+				"swim": {
+					"number": 30,
+					"condition": "(water only)"
+				}
+			},
+			"str": 3,
+			"dex": 14,
+			"con": 10,
+			"int": 10,
+			"wis": 14,
+			"cha": 8,
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"passive": 12,
+			"languages": [
+				"{@variantrule Telepathy|XUA2023DruidAndPaladin} 120 ft. (only between you and the familiar)"
+			],
+			"pbNote": "equals your bonus",
+			"trait": [
+				{
+					"name": "Amphibious (Water Only)",
+					"entries": [
+						"The familiar can breathe air and water."
+					]
+				},
+				{
+					"name": "Extradimensional Escape (Recharges after a {@variantrule Long Rest|XUA2023DruidAndPaladin})",
+					"entries": [
+						"When the familiar would drop to 0 Hit Points, it instead drops to 1 Hit Point and vanishes into an extradimensional space, leaving behind anything it was wearing or carrying. It remains there for 1 hour or until you summon it as a {@action Magic|XUA2023DruidAndPaladin} action, and then it reappears in your space."
+					]
+				}
+			],
+			"traitTags": [
+				"Amphibious"
+			],
+			"senseTags": [
+				"D"
+			],
+			"languageTags": [
+				"TP"
+			]
+		},
+		{
+			"name": "Otherworldly Steed",
+			"source": "XUA2023DruidAndPaladin",
+			"page": 19,
+			"size": [
+				"L"
+			],
+			"type": {
+				"type": {
+					"choose": [
+						"celestial",
+						"fey",
+						"fiend"
+					]
+				},
+				"note": "(Choose When Casting the Spell)"
+			},
+			"alignment": [
+				"N"
+			],
+			"ac": [
+				{
+					"special": "10 + 1 per spell level (natural armor)"
+				}
+			],
+			"hp": {
+				"special": "5 + 10 per spell level (the steed has a number of Hit Dice [d10s] equal to the spell's level)"
+			},
+			"speed": {
+				"walk": 60,
+				"fly": {
+					"number": 60,
+					"condition": "(requires 4th-level spell or higher)"
+				}
+			},
+			"str": 18,
+			"dex": 12,
+			"con": 14,
+			"int": 6,
+			"wis": 12,
+			"cha": 8,
+			"passive": 11,
+			"languages": [
+				"{@variantrule Telepathy|XUA2023DruidAndPaladin} 1 mile (only between you and the steed)"
+			],
+			"pbNote": "equals your bonus",
+			"trait": [
+				{
+					"name": "Life Bond",
+					"entries": [
+						"When you regain Hit Points from a spell of 1st level or higher, the steed regains the same number of Hit Points if you're within 5 feet of it."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Otherworldly Maul",
+					"entries": [
+						"{@atk ms} your Spell Attack Modifier to hit, reach 5 ft., one target. {@h}{@dice 1d8} + the spell's level of Radiant damage (Celestial), Psychic damage (Fey), or Necrotic damage (Fiend)."
+					]
+				}
+			],
+			"bonus": [
+				{
+					"name": "Fey Step (Fey Only; Recharges after a {@variantrule Long Rest|XUA2023DruidAndPaladin})",
+					"entries": [
+						"The steed teleports, along with its rider, to an unoccupied space of your choice up to 60 feet away."
+					]
+				},
+				{
+					"name": "Fell Glare (Fiend Only; Recharges after a {@variantrule Long Rest|XUA2023DruidAndPaladin})",
+					"entries": [
+						"The steed's eyes gleam with fiendish light as it targets one creature it can perceive up to 60 feet away. The target must succeed on a Wisdom saving throw against your Spell Save DC or have the Frightened condition until the end of your next turn."
+					]
+				},
+				{
+					"name": "Healing Touch (Celestial Only; Recharges after a {@variantrule Long Rest|XUA2023DruidAndPaladin})",
+					"entries": [
+						"The steed touches another creature and restores a number of Hit Points to it equal to {@dice 2d8} + the spell's level."
+					]
+				}
+			],
+			"languageTags": [
+				"TP"
+			]
+		},
+		{
+			"name": "Animal of the Land",
+			"source": "XUA2023DruidAndPaladin",
+			"page": 7,
+			"size": [
+				"S",
+				"M",
+				"L"
+			],
+			"type": {
+				"type": "Terrestrial Animal",
+				"note": "(Your Creature Type Doesn't Change)"
+			},
+			"ac": [
+				{
+					"special": "10 + your Wisdom modifier"
+				}
+			],
+			"hp": {
+				"special": "you continue to use your Hit Points and Hit Dice"
+			},
+			"speed": {
+				"walk": 40,
+				"climb": {
+					"number": 40,
+					"condition": "(requires 5th+ level)"
+				}
+			},
+			"str": {
+				"special": "equal your Wisdom score"
+			},
+			"dex": {
+				"special": "equal your Wisdom score"
+			},
+			"con": {
+				"special": "use your scores"
+			},
+			"int": {
+				"special": "use your scores"
+			},
+			"wis": {
+				"special": "use your scores"
+			},
+			"cha": {
+				"special": "use your scores"
+			},
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"languages": [
+				"the languages you know"
+			],
+			"pbNote": "equals your Proficiency Bonus",
+			"trait": [
+				{
+					"name": "Keen Senses",
+					"entries": [
+						"You have Advantage on Wisdom (Perception) checks."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Bestial Strike",
+					"entries": [
+						"{@atk m} your Spell Attack Modifier to hit, reach 5 ft., one target. {@h}{@damage 1d8} + your Wisdom modifier Bludgeoning, Piercing, or Slashing damage."
+					]
+				},
+				{
+					"name": "Multiattack (Requires 5th+ Level)",
+					"entries": [
+						"You make two Bestial Strike attacks."
+					]
+				}
+			],
+			"traitTags": [
+				"Keen Senses"
+			],
+			"senseTags": [
+				"D"
+			],
+			"actionTags": [
+				"Multiattack"
+			]
+		},
+		{
+			"name": "Animal of the Sea",
+			"source": "XUA2023DruidAndPaladin",
+			"page": 7,
+			"size": [
+				"S",
+				"M",
+				"L"
+			],
+			"type": {
+				"type": {
+					"choose": [
+						"Aquatic Animal",
+						"Semiaquatic Animal"
+					]
+				},
+				"note": "(Your Creature Type Doesn't Change)"
+			},
+			"ac": [
+				{
+					"special": "10 + your Wisdom modifier"
+				}
+			],
+			"hp": {
+				"special": "you continue to use your Hit Points and Hit Dice"
+			},
+			"speed": {
+				"walk": 20,
+				"swim": {
+					"number": 40,
+					"condition": "(requires 5th+ level)"
+				}
+			},
+			"str": {
+				"special": "equal your Wisdom score"
+			},
+			"dex": {
+				"special": "equal your Wisdom score"
+			},
+			"con": {
+				"special": "use your scores"
+			},
+			"int": {
+				"special": "use your scores"
+			},
+			"wis": {
+				"special": "use your scores"
+			},
+			"cha": {
+				"special": "use your scores"
+			},
+			"senses": [
+				"darkvision 90 ft."
+			],
+			"languages": [
+				"the languages you know"
+			],
+			"pbNote": "equals your Proficiency Bonus",
+			"trait": [
+				{
+					"name": "Amphibious",
+					"entries": [
+						"You can breathe air and water."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Bestial Strike",
+					"entries": [
+						"{@atk m} your Spell Attack Modifier to hit, reach 5 ft., one target. {@h}{@damage 1d8} + your Wisdom modifier Bludgeoning, Piercing, or Slashing damage."
+					]
+				},
+				{
+					"name": "Multiattack (Requires 5th+ Level)",
+					"entries": [
+						"You make two Bestial Strike attacks."
+					]
+				}
+			],
+			"traitTags": [
+				"Amphibious"
+			],
+			"senseTags": [
+				"D"
+			],
+			"actionTags": [
+				"Multiattack"
+			]
+		},
+		{
+			"name": "Animal of the Sky",
+			"source": "XUA2023DruidAndPaladin",
+			"page": 7,
+			"size": [
+				"S",
+				"M",
+				"L"
+			],
+			"type": {
+				"type": "Winged Animal",
+				"note": "(Your Creature Type Doesn't Change)"
+			},
+			"ac": [
+				{
+					"special": "10 + your Wisdom modifier"
+				}
+			],
+			"hp": {
+				"special": "you continue to use your Hit Points and Hit Dice"
+			},
+			"speed": {
+				"walk": 20,
+				"fly": {
+					"number": 40,
+					"condition": "(requires 5th+ level)"
+				}
+			},
+			"str": {
+				"special": "equal your Wisdom score"
+			},
+			"dex": {
+				"special": "equal your Wisdom score"
+			},
+			"con": {
+				"special": "use your scores"
+			},
+			"int": {
+				"special": "use your scores"
+			},
+			"wis": {
+				"special": "use your scores"
+			},
+			"cha": {
+				"special": "use your scores"
+			},
+			"senses": [
+				"darkvision 120 ft."
+			],
+			"languages": [
+				"the languages you know"
+			],
+			"pbNote": "equals your Proficiency Bonus",
+			"trait": [
+				{
+					"name": "Flyby",
+					"entries": [
+						"You don't provoke Opportunity Attacks when you fly out of an enemy's reach."
+					]
+				},
+				{
+					"name": "Keen Senses",
+					"entries": [
+						"You have Advantage on Wisdom (Perception) checks."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Bestial Strike",
+					"entries": [
+						"{@atk m} your Spell Attack Modifier to hit, reach 5 ft., one target. {@h}{@damage 1d8} + your Wisdom modifier Bludgeoning, Piercing, or Slashing damage."
+					]
+				},
+				{
+					"name": "Multiattack (Requires 5th+ Level)",
+					"entries": [
+						"You make two Bestial Strike attacks."
+					]
+				}
+			],
+			"traitTags": [
+				"Flyby",
+				"Keen Senses"
+			],
+			"senseTags": [
+				"SD"
+			],
+			"actionTags": [
+				"Multiattack"
+			]
+		}
+	]
+}

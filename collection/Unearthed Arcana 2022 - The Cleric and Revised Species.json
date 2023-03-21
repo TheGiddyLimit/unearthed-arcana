@@ -4705,10 +4705,28 @@
 					"type": "entries",
 					"name": "Benefits of the Rest",
 					"entries": [
-						"To start a Long Rest, you must have at least 1 Hit Point. When you finish the rest, you gain the following benefits:",
-						"Regain All HP. You regain all lost Hit Points.",
-						"Regain All HD. You regain all spent Hit Dice.",
-						"HP Max Restored. If your Hit Point Maximum was reduced, it returns to normal."
+						"To start a Long Rest, you must have at least 1 Hit Point. When you finish the rest, you gain the following benefits:"
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Regain All HP",
+					"entries": [
+						"You regain all lost Hit Points."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Regain All HD",
+					"entries": [
+						"You regain all spent Hit Dice."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "HP Max Restored",
+					"entries": [
+						"If your Hit Point Maximum was reduced, it returns to normal."
 					]
 				},
 				{
