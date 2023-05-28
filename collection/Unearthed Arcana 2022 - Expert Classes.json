@@ -72,6 +72,11 @@
 				"tools": [
 					"three {@variantrule musical instrument|XUA2022ExpertClasses|musical instruments} of your choice"
 				],
+				"toolProficiencies": [
+					{
+						"anyMusicalInstrument": 3
+					}
+				],
 				"skills": [
 					{
 						"any": 3
@@ -100,6 +105,11 @@
 					],
 					"tools": [
 						"one {@item musical instrument|PHB} of your choice"
+					],
+					"toolProficiencies": [
+						{
+							"anyMusicalInstrument": 1
+						}
 					],
 					"skills": [
 						{
@@ -667,7 +677,19 @@
 				"Feat|Bard|XUA2022ExpertClasses|19",
 				"Epic Boon|Bard|XUA2022ExpertClasses|20"
 			],
-			"subclassTitle": "Bard College",
+			"classSpells": [
+				{
+					"groupName": "Arcane",
+					"groupSource": "XUA2022ExpertClasses",
+					"spellSchools": [
+						"D",
+						"E",
+						"I",
+						"T"
+					]
+				}
+			],
+			"subclassTitle": "Bard Subclass",
 			"fluff": [
 				{
 					"type": "section",
@@ -728,9 +750,6 @@
 				"weapons": [
 					"simple",
 					"martial"
-				],
-				"tools": [
-					"None"
 				],
 				"skills": [
 					{
@@ -1143,7 +1162,23 @@
 				"Feat|Ranger|XUA2022ExpertClasses|19",
 				"Epic Boon|Ranger|XUA2022ExpertClasses|20"
 			],
-			"subclassTitle": "Hunter",
+			"classSpells": [
+				{
+					"groupName": "Primal",
+					"groupSource": "XUA2022ExpertClasses",
+					"spellSchools": [
+						"A",
+						"E",
+						"I",
+						"D",
+						"N",
+						"T",
+						"C",
+						"P"
+					]
+				}
+			],
+			"subclassTitle": "Ranger Subclass",
 			"fluff": [
 				{
 					"type": "section",
@@ -1183,6 +1218,11 @@
 				],
 				"tools": [
 					"{@item thieves' tools|PHB}"
+				],
+				"toolProficiencies": [
+					{
+						"thieves' tools": true
+					}
 				],
 				"skills": [
 					{
@@ -1232,6 +1272,11 @@
 					],
 					"tools": [
 						"{@item thieves' tools|PHB}"
+					],
+					"toolProficiencies": [
+						{
+							"thieves' tools": true
+						}
 					],
 					"skills": [
 						{
@@ -1540,7 +1585,7 @@
 				"Feat|Rogue|XUA2022ExpertClasses|19",
 				"Epic Boon|Rogue|XUA2022ExpertClasses|20"
 			],
-			"subclassTitle": "Thief",
+			"subclassTitle": "Rogue Subclass",
 			"fluff": [
 				{
 					"type": "section",
@@ -7471,7 +7516,7 @@
 								"You have the following Spells prepared: {@spell Color Spray}, {@spell Disguise Self}, {@spell Prestidigitation}, and {@spell Vicious Mockery}.",
 								"Alternatively, you can prepare two 0-level Spells and two 1st-level Spells of your choice. Any Spell you prepare for this Class must be an {@variantrule Arcane Spells|XUA2022ExpertClasses|Arcane Spell}, and it must be from one of the following Schools of Magic: Divination, Enchantment, Illusion, or Transmutation.",
 								"Whenever you finish a {@variantrule Long Rest|XUA2022ExpertClasses}, you can practice your bardic arts and replace any Spell you have prepared for this Class with another {@variantrule Arcane Spells|XUA2022ExpertClasses|Arcane Spell} of the same level, abiding by the school restriction above.",
-								"At higher levels in this Class, you can prepare more Spells, as shown on the Bard table. The numbers there determine the number of different Spells you can prepare of each level. For example, as a 3rd-level Bard, you can prepare two different 0-level Spells, four different 1st-level Spells, and two different 2ndlevel Spells.",
+								"At higher levels in this Class, you can prepare more Spells, as shown on the Bard table. The numbers there determine the number of different Spells you can prepare of each level. For example, as a 3rd-level Bard, you can prepare two different 0-level Spells, four different 1st-level Spells, and two different 2nd-level Spells.",
 								"Consult the \"Prepared Bard Spells\" section for recommendations on which spells to prepare at higher levels. A Spell marked with a dagger (†) in that section is always prepared and can't be replaced when you prepare Spells."
 							]
 						},
@@ -7771,7 +7816,7 @@
 					"type": "entries",
 					"name": "Spell Preparation",
 					"entries": [
-						"You have the following Spells prepared: {@spell Cure Wounds}, {@spell Guidance|XUA2022ExpertClasses}, Hunter's Mark, and {@spell Thorn Whip}. Alternatively, you can prepare two 0-level Spells and two 1stlevel Spells of your choice. Any Spell you prepare for this Class must be a {@variantrule Primal Spells|XUA2022ExpertClasses|Primal Spell}, and it can be from any School of Magic except Evocation.",
+						"You have the following Spells prepared: {@spell Cure Wounds}, {@spell Guidance|XUA2022ExpertClasses}, Hunter's Mark, and {@spell Thorn Whip}. Alternatively, you can prepare two 0-level Spells and two 1st-level Spells of your choice. Any Spell you prepare for this Class must be a {@variantrule Primal Spells|XUA2022ExpertClasses|Primal Spell}, and it can be from any School of Magic except Evocation.",
 						"Whenever you finish a {@variantrule Long Rest|XUA2022ExpertClasses}, you can commune with nature and replace any Spell you have prepared for this Class with another {@variantrule Primal Spells|XUA2022ExpertClasses|Primal Spell} of the same level that isn't an Evocation.",
 						"At higher levels in this Class, you can prepare more Spells, as shown on the Ranger table. The numbers there determine the number of different Spells you can prepare of each level. For example, as a 3rd-level Ranger, you can prepare two different 0-level Spells and three different 1st-level Spells.",
 						"Consult the \"Prepared Ranger Spells\" section for recommendations on which spells to prepare at higher levels. A Spell marked with a dagger (†) in that section is always prepared and can't be replaced when you prepare Spells."

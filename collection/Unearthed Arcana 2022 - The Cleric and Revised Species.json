@@ -447,7 +447,13 @@
 				"Feat|Cleric|XUA2022ClericAndRevisedSpecies|19",
 				"Epic Boon|Cleric|XUA2022ClericAndRevisedSpecies|20"
 			],
-			"subclassTitle": "Life Domain",
+			"classSpells": [
+				{
+					"groupName": "Divine",
+					"groupSource": "XUA2022ClericAndRevisedSpecies"
+				}
+			],
+			"subclassTitle": "Cleric Subclass",
 			"fluff": [
 				{
 					"type": "section",

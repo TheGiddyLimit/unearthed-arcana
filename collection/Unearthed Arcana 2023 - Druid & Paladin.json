@@ -74,6 +74,11 @@
 				"tools": [
 					"{@item Herbalism kit|PHB}"
 				],
+				"toolProficiencies": [
+					{
+						"herbalism kit": true
+					}
+				],
 				"skills": [
 					{
 						"choose": {
@@ -524,7 +529,13 @@
 				"Feat|Druid|XUA2023DruidAndPaladin|19",
 				"Epic Boon|Druid|XUA2023DruidAndPaladin|20"
 			],
-			"subclassTitle": "Circle of the Moon",
+			"classSpells": [
+				{
+					"groupName": "Primal",
+					"groupSource": "XUA2023DruidAndPaladin"
+				}
+			],
+			"subclassTitle": "Druid Subclass",
 			"fluff": [
 				{
 					"type": "section",
@@ -915,7 +926,13 @@
 				"Feat|Paladin|XUA2023DruidAndPaladin|19",
 				"Epic Boon|Paladin|XUA2023DruidAndPaladin|20"
 			],
-			"subclassTitle": "Oath of Devotion",
+			"classSpells": [
+				{
+					"groupName": "Divine",
+					"groupSource": "XUA2023DruidAndPaladin"
+				}
+			],
+			"subclassTitle": "Paladin Subclass",
 			"fluff": [
 				{
 					"type": "section",
@@ -1031,7 +1048,7 @@
 					"entries": [
 						"You have the following spells prepared: {@spell Cure Wounds}, {@spell Druidcraft}, {@spell Produce Flame}, and {@spell Thunderwave}. Alternatively, you can prepare two 0-level spells (also known as cantrips) and two 1st-level spells of your choice from the Primal spell list.",
 						"Whenever you finish a {@variantrule Long Rest|XUA2023DruidAndPaladin}, you can meditate and replace any spell you have prepared for this class with another Primal spell of the same level.",
-						"At higher levels in this class, you can prepare more spells, as shown on the Druid table. The numbers there determine the number of different spells you can prepare of each level. For example, as a 4th-level Druid, you can prepare three different 0-level spells, four different 1stlevel spells, and three different 2nd-level spells."
+						"At higher levels in this class, you can prepare more spells, as shown on the Druid table. The numbers there determine the number of different spells you can prepare of each level. For example, as a 4th-level Druid, you can prepare three different 0-level spells, four different 1st-level spells, and three different 2nd-level spells."
 					]
 				},
 				{

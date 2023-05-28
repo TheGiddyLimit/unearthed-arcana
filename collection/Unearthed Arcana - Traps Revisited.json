@@ -190,7 +190,7 @@
 										"To further calibrate the trap's strength, pick whether it is a moderate, dangerous, or deadly threat within its level range. A moderate trap is unlikely to kill a character and is the weakest trap type. Dangerous traps deal enough damage that a character hit by one is eager for healing. A deadly trap might reduce a creature to 0 hit points in one shot, and leaves most creatures in need of a short or long rest.",
 										"Consult the following tables when nailing down a trap's effects. The Trap Save DCs and {@action Attack} Bonuses table provides guidelines for a trap's save DC, check DC, and attack bonus. The check DC is the default number used for any check used to interact with the trap.",
 										"The Damage Severity by Level table lists the typical damage a trap deals at certain character levels. The damage listed assumes the trap damages one creature. Use d6s for damage in place of d10s for traps that can affect more than one character at a time.",
-										"The Spell Equivalent by Level lists the spell slot level that is appropriate for the given character level and the danger posed by the trap. A spell is a great shortcut to use when designing a trap, whether the trap duplicates the spell (a mirror that throws charm person on whoever looks into it) or uses its effects (an alchemical device that explodes like fireball). Note that the Deadly entry for characters above 17th level suggests combining a 9th and 5th level spell into one effect. In this case, pick two spells, or combine the effects of a spell cast using a 9thlevel and a 5th-level slot.",
+										"The Spell Equivalent by Level lists the spell slot level that is appropriate for the given character level and the danger posed by the trap. A spell is a great shortcut to use when designing a trap, whether the trap duplicates the spell (a mirror that throws charm person on whoever looks into it) or uses its effects (an alchemical device that explodes like fireball). Note that the Deadly entry for characters above 17th level suggests combining a 9th and 5th level spell into one effect. In this case, pick two spells, or combine the effects of a spell cast using a 9th-level and a 5th-level slot.",
 										{
 											"type": "table",
 											"caption": "Trap Save DCs and Attack Bonuses",
@@ -789,7 +789,7 @@
 			"tier": 3,
 			"threat": "deadly",
 			"effect": [
-				"When activated, this trap casts a {@spell sleep} spell centered on the pressure plate using a 9thlevel spell slot."
+				"When activated, this trap casts a {@spell sleep} spell centered on the pressure plate using a 9th-level spell slot."
 			],
 			"trigger": [
 				"Stepping on the pressure plate triggers this trap."
