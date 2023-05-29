@@ -3,6 +3,7 @@
 	"version": "1.0.0",
 	"description": "Unearthed Arcana",
 	"type": "module",
+	"private": true,
 	"scripts": {
 		"build": "npm run build:clean && npm run build:index",
 		"build:index": "node _node/generate-index.js",
