@@ -3159,7 +3159,7 @@
 			],
 			"toolProficiencies": [
 				{
-					"mason's tool": true
+					"mason's tools": true
 				}
 			],
 			"feats": [
@@ -3237,18 +3237,18 @@
 			"page": 14,
 			"skillProficiencies": [
 				{
-					"History": true,
-					"Persuasion": true
+					"history": true,
+					"persuasion": true
 				}
 			],
 			"languageProficiencies": [
 				{
-					"Draconoic": true
+					"draconic": true
 				}
 			],
 			"toolProficiencies": [
 				{
-					"Gaming Set": true
+					"gaming set": true
 				}
 			],
 			"feats": [
@@ -3919,7 +3919,7 @@
 						"from": [
 							"alchemist's supplies",
 							"brewer's supplies",
-							"calligrapher's tools",
+							"calligrapher's supplies",
 							"carpenter's tools",
 							"cartographer's tools",
 							"cobbler's tools",

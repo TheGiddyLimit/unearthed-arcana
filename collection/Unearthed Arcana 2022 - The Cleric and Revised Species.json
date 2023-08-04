@@ -2144,7 +2144,7 @@
 								],
 								[
 									"2",
-									"{@spell Magic Aura}",
+									"{@spell Nystul's Magic Aura}",
 									"Illusion",
 									"No"
 								],
@@ -2750,7 +2750,7 @@
 								],
 								[
 									"6",
-									"{@spell Instant Summons}",
+									"{@spell Drawmij's Instant Summons}",
 									"Conjuration",
 									"Yes"
 								],
@@ -6316,7 +6316,7 @@
 				"knock",
 				"levitate",
 				"locate object",
-				"magic aura",
+				"nystul's magic aura",
 				"magic mouth",
 				"magic weapon",
 				"melf's acid arrow",
@@ -6416,7 +6416,7 @@
 				"flesh to stone",
 				"globe of invulnerability",
 				"guards and wards",
-				"instant summons",
+				"drawmij's instant summons",
 				"magic jar",
 				"mass suggestion",
 				"move earth",

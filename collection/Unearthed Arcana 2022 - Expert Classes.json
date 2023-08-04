@@ -909,7 +909,10 @@
 							0,
 							0,
 							0,
-							0,
+							0
+						],
+						[
+							2,
 							0,
 							0,
 							0,
@@ -920,7 +923,10 @@
 							0,
 							0,
 							0,
-							0,
+							0
+						],
+						[
+							3,
 							0,
 							0,
 							0,
@@ -931,8 +937,11 @@
 							2,
 							0,
 							0,
-							0,
-							0,
+							0
+						],
+						[
+							4,
+							2,
 							0,
 							0,
 							0
@@ -942,8 +951,11 @@
 							3,
 							0,
 							0,
-							0,
-							0,
+							0
+						],
+						[
+							4,
+							3,
 							0,
 							0,
 							0
@@ -953,9 +965,12 @@
 							3,
 							2,
 							0,
-							0,
-							0,
-							0,
+							0
+						],
+						[
+							4,
+							3,
+							2,
 							0,
 							0
 						],
@@ -964,9 +979,12 @@
 							3,
 							3,
 							0,
-							0,
-							0,
-							0,
+							0
+						],
+						[
+							4,
+							3,
+							3,
 							0,
 							0
 						],
@@ -975,10 +993,13 @@
 							3,
 							3,
 							1,
-							0,
-							0,
-							0,
-							0,
+							0
+						],
+						[
+							4,
+							3,
+							3,
+							1,
 							0
 						],
 						[
@@ -986,32 +1007,13 @@
 							3,
 							3,
 							2,
-							0,
-							0,
-							0,
-							0,
 							0
 						],
 						[
 							4,
-							3,
-							3,
-							3,
-							1,
-							0,
-							0,
-							0,
-							0
-						],
-						[
-							4,
-							3,
 							3,
 							3,
 							2,
-							0,
-							0,
-							0,
 							0
 						],
 						[
@@ -1019,76 +1021,6 @@
 							3,
 							3,
 							3,
-							2,
-							1,
-							0,
-							0,
-							0
-						],
-						[
-							4,
-							3,
-							3,
-							3,
-							2,
-							1,
-							0,
-							0,
-							0
-						],
-						[
-							4,
-							3,
-							3,
-							3,
-							2,
-							1,
-							1,
-							0,
-							0
-						],
-						[
-							4,
-							3,
-							3,
-							3,
-							2,
-							1,
-							1,
-							0,
-							0
-						],
-						[
-							4,
-							3,
-							3,
-							3,
-							2,
-							1,
-							1,
-							1,
-							0
-						],
-						[
-							4,
-							3,
-							3,
-							3,
-							2,
-							1,
-							1,
-							1,
-							0
-						],
-						[
-							4,
-							3,
-							3,
-							3,
-							2,
-							1,
-							1,
-							1,
 							1
 						],
 						[
@@ -1096,10 +1028,6 @@
 							3,
 							3,
 							3,
-							3,
-							1,
-							1,
-							1,
 							1
 						],
 						[
@@ -1107,22 +1035,14 @@
 							3,
 							3,
 							3,
-							3,
-							2,
-							1,
-							1,
-							1
+							2
 						],
 						[
 							4,
 							3,
 							3,
 							3,
-							3,
-							2,
-							2,
-							1,
-							1
+							2
 						]
 					]
 				}
@@ -3862,7 +3782,7 @@
 			"entries": [
 				"Armor Training is the new name for Armor Proficiency. Any existing rule that involves Armor Proficiency now applies to Armor Training.",
 				"If you wear Light, Medium, or Heavy Armor and lack Armor Training with that type of Armor, you have Disadvantage on any {@dice d20} Test you make that involves Strength or Dexterity, and you can't cast Spells.",
-				"If you equip a Shield and lack Armor Training with Shields, you don't g"
+				"If you equip a Shield and lack Armor Training with Shields, you don't gain the Armor Class bonus of the Shield."
 			]
 		},
 		{
@@ -4619,7 +4539,7 @@
 								],
 								[
 									"2",
-									"{@spell Magic Aura}",
+									"{@spell Nystul's Magic Aura}",
 									"Illusion",
 									"No"
 								],
@@ -5225,7 +5145,7 @@
 								],
 								[
 									"6",
-									"{@spell Instant Summons}",
+									"{@spell Drawmij's Instant Summons}",
 									"Conjuration",
 									"Yes"
 								],
@@ -8781,7 +8701,7 @@
 				"knock",
 				"levitate",
 				"locate object",
-				"magic aura",
+				"nystul's magic aura",
 				"magic mouth",
 				"magic weapon",
 				"melf's acid arrow",
@@ -8882,7 +8802,7 @@
 				"flesh to stone",
 				"globe of invulnerability",
 				"guards and wards",
-				"instant summons",
+				"drawmij's instant summons",
 				"magic jar",
 				"mass suggestion",
 				"move earth",

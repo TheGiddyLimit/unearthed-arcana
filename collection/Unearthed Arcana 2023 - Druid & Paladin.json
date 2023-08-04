@@ -986,35 +986,39 @@
 			"page": 4,
 			"className": "Druid",
 			"classSource": "XUA2023DruidAndPaladin",
-			"header": 2,
 			"level": 1,
 			"entries": [
 				"As a Druid, you gain the following class features when you reach the specified levels in this class. These features are listed on the Druid table.",
 				{
 					"type": "entries",
-					"name": "1st Level: Channel Nature",
 					"entries": [
-						"The magic of nature infuses you. Tapping into that power, you can create various magical effects. You start with one such effect: Wild Shape, which is described below. Other Druid features give additional Channel Nature effect options. Each time you use this Channel Nature, you choose which effect to create from among those you have from this class.",
-						"You can use Channel Nature twice. You regain one expended use when you finish a {@variantrule Short Rest|XUA2023DruidAndPaladin}, and you regain all expended uses when you finish a {@variantrule Long Rest|XUA2023DruidAndPaladin}. You gain additional uses when you reach certain Druid levels, as shown in the Channel Nature column of the Druid table.",
-						"If a Channel Nature effect requires a saving throw, the DC equals the Spell Save DC from this class's Spellcasting feature."
-					]
-				},
-				{
-					"type": "entries",
-					"name": "Wild Shape",
-					"entries": [
-						"As a {@action Magic|XUA2023DruidAndPaladin} action, you transform into a form that you have learned for this feature. You start knowing one form, Animal of the Land, which is detailed in the \"Wild Shapes\" section later in this class's description. You stay in that form for a number of hours equal to half your Druid level or until you use Wild Shape again, have the {@condition Incapacitated|XUA2023DruidAndPaladin} condition, or die. You can also end Wild Shape early as a Bonus Action.",
-						"While in a form, its game statistics replace yours, and your ability to handle objects is determined by the form's limbs, rather than your own. You retain your personality, memories, ability to speak, and Wild Shape. You lose access to all your other features, such as the ability to cast spells (you can continue to concentrate on one).",
-						"When you transform, you choose whether your equipment falls to the ground in your space or merges into your new form. Equipment that merges with the form has no effect until you leave the form."
-					]
-				},
-				{
-					"type": "entries",
-					"name": "Wild Shapes",
-					"entries": [
-						"When you use your Wild Shape, you transform into a form you've learned for this feature. This section includes three forms: {@creature Animal of the Land|XUA2023DruidAndPaladin}, {@creature Animal of the Sea|XUA2023DruidAndPaladin}, and {@creature Animal of the Sky|XUA2023DruidAndPaladin}.",
-						"As you assume a form, you determine its appearance, selecting an example animal from the form's description, selecting another appropriate animal, or choosing a hybrid form that incorporates visual characteristics from two or more animals. The appearance you choose has no effect on the form's capabilities.",
-						"When choosing an animal's appearance for a form, that animal needn't be the same size as the form. For example, you could choose elephant for the appearance and Small for the size\u2014creating a form that resembles a little elephant."
+						{
+							"type": "entries",
+							"name": "1st Level: Channel Nature",
+							"entries": [
+								"The magic of nature infuses you. Tapping into that power, you can create various magical effects. You start with one such effect: Wild Shape, which is described below. Other Druid features give additional Channel Nature effect options. Each time you use this Channel Nature, you choose which effect to create from among those you have from this class.",
+								"You can use Channel Nature twice. You regain one expended use when you finish a {@variantrule Short Rest|XUA2023DruidAndPaladin}, and you regain all expended uses when you finish a {@variantrule Long Rest|XUA2023DruidAndPaladin}. You gain additional uses when you reach certain Druid levels, as shown in the Channel Nature column of the Druid table.",
+								"If a Channel Nature effect requires a saving throw, the DC equals the Spell Save DC from this class's Spellcasting feature."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Wild Shape",
+							"entries": [
+								"As a {@action Magic|XUA2023DruidAndPaladin} action, you transform into a form that you have learned for this feature. You start knowing one form, Animal of the Land, which is detailed in the \"Wild Shapes\" section later in this class's description. You stay in that form for a number of hours equal to half your Druid level or until you use Wild Shape again, have the {@condition Incapacitated|XUA2023DruidAndPaladin} condition, or die. You can also end Wild Shape early as a Bonus Action.",
+								"While in a form, its game statistics replace yours, and your ability to handle objects is determined by the form's limbs, rather than your own. You retain your personality, memories, ability to speak, and Wild Shape. You lose access to all your other features, such as the ability to cast spells (you can continue to concentrate on one).",
+								"When you transform, you choose whether your equipment falls to the ground in your space or merges into your new form. Equipment that merges with the form has no effect until you leave the form."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Wild Shapes",
+							"entries": [
+								"When you use your Wild Shape, you transform into a form you've learned for this feature. This section includes three forms: {@creature Animal of the Land|XUA2023DruidAndPaladin}, {@creature Animal of the Sea|XUA2023DruidAndPaladin}, and {@creature Animal of the Sky|XUA2023DruidAndPaladin}.",
+								"As you assume a form, you determine its appearance, selecting an example animal from the form's description, selecting another appropriate animal, or choosing a hybrid form that incorporates visual characteristics from two or more animals. The appearance you choose has no effect on the form's capabilities.",
+								"When choosing an animal's appearance for a form, that animal needn't be the same size as the form. For example, you could choose elephant for the appearance and Small for the size\u2014creating a form that resembles a little elephant."
+							]
+						}
 					]
 				}
 			]
@@ -1025,7 +1029,6 @@
 			"page": 5,
 			"className": "Druid",
 			"classSource": "XUA2023DruidAndPaladin",
-			"header": 2,
 			"level": 1,
 			"entries": [
 				"You know Druidic, the secret language of Druids. You can speak the language and use it to leave hidden messages.",
@@ -1038,38 +1041,42 @@
 			"page": 5,
 			"className": "Druid",
 			"classSource": "XUA2023DruidAndPaladin",
-			"header": 2,
 			"level": 1,
 			"entries": [
 				"You have learned to cast spells through studying the mystical forces of nature. See the Player's Handbook for the rules on spellcasting. The information below details how you use those rules as a Druid.",
 				{
 					"type": "entries",
-					"name": "Prepared Spells",
 					"entries": [
-						"You have the following spells prepared: {@spell Cure Wounds}, {@spell Druidcraft}, {@spell Produce Flame}, and {@spell Thunderwave}. Alternatively, you can prepare two 0-level spells (also known as cantrips) and two 1st-level spells of your choice from the Primal spell list.",
-						"Whenever you finish a {@variantrule Long Rest|XUA2023DruidAndPaladin}, you can meditate and replace any spell you have prepared for this class with another Primal spell of the same level.",
-						"At higher levels in this class, you can prepare more spells, as shown on the Druid table. The numbers there determine the number of different spells you can prepare of each level. For example, as a 4th-level Druid, you can prepare three different 0-level spells, four different 1st-level spells, and three different 2nd-level spells."
-					]
-				},
-				{
-					"type": "entries",
-					"name": "Spell Slots",
-					"entries": [
-						"When you cast a prepared Druid spell, you expend a Spell Slot. The number of Spell Slots you have of 1st-level and higher is the same as the number of different spells you can prepare of each level, as shown on the Druid table. For example, as a 5th-level Druid, you have four 1st-level Spell Slots, three 2nd-level Spell Slots, and two 3rd-level Spell Slots."
-					]
-				},
-				{
-					"type": "entries",
-					"name": "Spellcasting Ability",
-					"entries": [
-						"Wisdom is your Spellcasting Ability for your Druid Spells."
-					]
-				},
-				{
-					"type": "entries",
-					"name": "Spellcasting Focus",
-					"entries": [
-						"You can use a Druidic Focus as a Spellcasting Focus for the spells you prepare for this class."
+						{
+							"type": "entries",
+							"name": "Prepared Spells",
+							"entries": [
+								"You have the following spells prepared: {@spell Cure Wounds}, {@spell Druidcraft}, {@spell Produce Flame}, and {@spell Thunderwave}. Alternatively, you can prepare two 0-level spells (also known as cantrips) and two 1st-level spells of your choice from the Primal spell list.",
+								"Whenever you finish a {@variantrule Long Rest|XUA2023DruidAndPaladin}, you can meditate and replace any spell you have prepared for this class with another Primal spell of the same level.",
+								"At higher levels in this class, you can prepare more spells, as shown on the Druid table. The numbers there determine the number of different spells you can prepare of each level. For example, as a 4th-level Druid, you can prepare three different 0-level spells, four different 1st-level spells, and three different 2nd-level spells."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Spell Slots",
+							"entries": [
+								"When you cast a prepared Druid spell, you expend a Spell Slot. The number of Spell Slots you have of 1st-level and higher is the same as the number of different spells you can prepare of each level, as shown on the Druid table. For example, as a 5th-level Druid, you have four 1st-level Spell Slots, three 2nd-level Spell Slots, and two 3rd-level Spell Slots."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Spellcasting Ability",
+							"entries": [
+								"Wisdom is your Spellcasting Ability for your Druid Spells."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Spellcasting Focus",
+							"entries": [
+								"You can use a Druidic Focus as a Spellcasting Focus for the spells you prepare for this class."
+							]
+						}
 					]
 				}
 			]
@@ -1080,23 +1087,27 @@
 			"page": 5,
 			"className": "Druid",
 			"classSource": "XUA2023DruidAndPaladin",
-			"header": 2,
 			"level": 2,
 			"entries": [
 				"You learn two more ways to use your Channel Nature\u2014Healing Blossoms and Wild Companion\u2014each of which is described below.",
 				{
 					"type": "entries",
-					"name": "Healing Blossoms",
 					"entries": [
-						"As a {@action Magic|XUA2023DruidAndPaladin} action, you channel healing energy that appears as blooming flowers. Choose a point within 30 feet of yourself, and spectral flowers appear for a moment in a 10-foot-radius sphere centered on that point. Then roll a number of d4s equal to your Wisdom modifier (minimum of one die), and add the dice together. The total is the number of Hit Points you can distribute to creatures in that sphere. You decide the number of Hit Points that are restored to each of those creatures, deducting the healing from the total."
-					]
-				},
-				{
-					"type": "entries",
-					"name": "Wild Companion",
-					"entries": [
-						"You can summon a nature spirit that assumes an animal form to aid you. As a {@action Magic|XUA2023DruidAndPaladin} action, you can expend a use of your Channel Nature and cast the {@spell Find Familiar} spell without material components.",
-						"When you cast the spell in this way, the familiar is a Fey, and it disappears when you finish a {@variantrule Long Rest|XUA2023DruidAndPaladin}."
+						{
+							"type": "entries",
+							"name": "Healing Blossoms",
+							"entries": [
+								"As a {@action Magic|XUA2023DruidAndPaladin} action, you channel healing energy that appears as blooming flowers. Choose a point within 30 feet of yourself, and spectral flowers appear for a moment in a 10-foot-radius sphere centered on that point. Then roll a number of d4s equal to your Wisdom modifier (minimum of one die), and add the dice together. The total is the number of Hit Points you can distribute to creatures in that sphere. You decide the number of Hit Points that are restored to each of those creatures, deducting the healing from the total."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Wild Companion",
+							"entries": [
+								"You can summon a nature spirit that assumes an animal form to aid you. As a {@action Magic|XUA2023DruidAndPaladin} action, you can expend a use of your Channel Nature and cast the {@spell Find Familiar} spell without material components.",
+								"When you cast the spell in this way, the familiar is a Fey, and it disappears when you finish a {@variantrule Long Rest|XUA2023DruidAndPaladin}."
+							]
+						}
 					]
 				}
 			]
@@ -1107,7 +1118,6 @@
 			"page": 5,
 			"className": "Druid",
 			"classSource": "XUA2023DruidAndPaladin",
-			"header": 2,
 			"level": 3,
 			"entries": [
 				"You gain the Circle of the Moon subclass or another Druid subclass of your choice. The Circle of the Moon is detailed after the Druid's class description, and other subclasses will appear in future Unearthed Arcana articles.",
@@ -1120,7 +1130,6 @@
 			"page": 6,
 			"className": "Druid",
 			"classSource": "XUA2023DruidAndPaladin",
-			"header": 2,
 			"level": 4,
 			"entries": [
 				"You gain the {@feat Ability Score Improvement|XUA2022ClericAndRevisedSpecies} Feat or another Feat of your choice for which you qualify."
@@ -1132,7 +1141,6 @@
 			"page": 6,
 			"className": "Druid",
 			"classSource": "XUA2023DruidAndPaladin",
-			"header": 2,
 			"level": 5,
 			"entries": [
 				"Your connection to the land deepens, empowering the {@creature Animal of the Land|XUA2023DruidAndPaladin} form of your Wild Shape; you unlock that form's {@variantrule Climb Speed|XUA2023DruidAndPaladin} and Multiattack."
@@ -1144,7 +1152,6 @@
 			"page": 6,
 			"className": "Druid",
 			"classSource": "XUA2023DruidAndPaladin",
-			"header": 2,
 			"level": 6,
 			"entries": [
 				"You gain a feature from your Druid Subclass."
@@ -1156,7 +1163,6 @@
 			"page": 6,
 			"className": "Druid",
 			"classSource": "XUA2023DruidAndPaladin",
-			"header": 2,
 			"level": 7,
 			"entries": [
 				"You learn a new form for your Wild Shape: {@creature Animal of the Sea|XUA2023DruidAndPaladin}, which is described in the \"Wild Shapes\" section later in this class's description."
@@ -1168,7 +1174,6 @@
 			"page": 6,
 			"className": "Druid",
 			"classSource": "XUA2023DruidAndPaladin",
-			"header": 2,
 			"level": 8,
 			"entries": [
 				"You gain the {@feat Ability Score Improvement|XUA2022ClericAndRevisedSpecies} Feat or another Feat of your choice for which you qualify."
@@ -1180,7 +1185,6 @@
 			"page": 6,
 			"className": "Druid",
 			"classSource": "XUA2023DruidAndPaladin",
-			"header": 2,
 			"level": 9,
 			"entries": [
 				"You learn a new form for your Wild Shape: {@creature Animal of the Sky|XUA2023DruidAndPaladin}, which is described in the \"Wild Shapes\" section later in this class's description."
@@ -1192,7 +1196,6 @@
 			"page": 6,
 			"className": "Druid",
 			"classSource": "XUA2023DruidAndPaladin",
-			"header": 2,
 			"level": 10,
 			"entries": [
 				"You gain a feature from your Druid Subclass."
@@ -1204,7 +1207,6 @@
 			"page": 6,
 			"className": "Druid",
 			"classSource": "XUA2023DruidAndPaladin",
-			"header": 2,
 			"level": 11,
 			"entries": [
 				"You gain the ability to become a Tiny creature. When you transform into a Wild Shape form, you can make it Tiny. If you do so, you can stay in that form no longer than 10 minutes, and the damage you deal in that form is halved."
@@ -1216,7 +1218,6 @@
 			"page": 6,
 			"className": "Druid",
 			"classSource": "XUA2023DruidAndPaladin",
-			"header": 2,
 			"level": 12,
 			"entries": [
 				"You gain the {@feat Ability Score Improvement|XUA2022ClericAndRevisedSpecies} Feat or another Feat of your choice for which you qualify."
@@ -1228,7 +1229,6 @@
 			"page": 6,
 			"className": "Druid",
 			"classSource": "XUA2023DruidAndPaladin",
-			"header": 2,
 			"level": 13,
 			"entries": [
 				"You can now rapidly shift between a Wild Shape form and your normal form. If you're in a Wild Shape form, you can switch to your normal form as a Bonus Action, and you can then switch back into that Wild Shape form within the next minute as a Bonus Action. Neither switch expends a use of Wild Shape."
@@ -1240,7 +1240,6 @@
 			"page": 6,
 			"className": "Druid",
 			"classSource": "XUA2023DruidAndPaladin",
-			"header": 2,
 			"level": 14,
 			"entries": [
 				"You gain a feature from your Druid Subclass."
@@ -1252,7 +1251,6 @@
 			"page": 6,
 			"className": "Druid",
 			"classSource": "XUA2023DruidAndPaladin",
-			"header": 2,
 			"level": 15,
 			"entries": [
 				"When you use your Wild Shape, primal magic radiates from you, allowing you to use Healing Blossoms as part of the same use of Channel Nature."
@@ -1264,7 +1262,6 @@
 			"page": 6,
 			"className": "Druid",
 			"classSource": "XUA2023DruidAndPaladin",
-			"header": 2,
 			"level": 16,
 			"entries": [
 				"You gain the {@feat Ability Score Improvement|XUA2022ClericAndRevisedSpecies} Feat or another Feat of your choice for which you qualify."
@@ -1276,7 +1273,6 @@
 			"page": 6,
 			"className": "Druid",
 			"classSource": "XUA2023DruidAndPaladin",
-			"header": 2,
 			"level": 17,
 			"entries": [
 				"You can cast spells in any Wild Shape form. While in such a form, you can perform Somatic and Verbal Components, and you don't need to provide free Material Components. If a spell consumes its Material Component, you can't cast that spell while in a Wild Shape form."
@@ -1288,7 +1284,6 @@
 			"page": 6,
 			"className": "Druid",
 			"classSource": "XUA2023DruidAndPaladin",
-			"header": 2,
 			"level": 18,
 			"entries": [
 				"Whenever you roll Initiative, you regain one use of your Channel Nature.",
@@ -1301,7 +1296,6 @@
 			"page": 6,
 			"className": "Druid",
 			"classSource": "XUA2023DruidAndPaladin",
-			"header": 2,
 			"level": 19,
 			"entries": [
 				"You gain the {@feat Ability Score Improvement|XUA2022ClericAndRevisedSpecies} Feat or another Feat of your choice for which you qualify."
@@ -1313,7 +1307,6 @@
 			"page": 6,
 			"className": "Druid",
 			"classSource": "XUA2023DruidAndPaladin",
-			"header": 2,
 			"level": 20,
 			"entries": [
 				"You gain the following benefits:",
@@ -1345,7 +1338,6 @@
 			"page": 10,
 			"className": "Paladin",
 			"classSource": "XUA2023DruidAndPaladin",
-			"header": 2,
 			"level": 1,
 			"entries": [
 				"Your blessed touch can heal wounds. You have a pool of healing power that replenishes when you take a {@variantrule Long Rest|XUA2023DruidAndPaladin}. With that pool, you can restore a total number of Hit Points equal to five times your Paladin level.",
@@ -1359,38 +1351,42 @@
 			"page": 10,
 			"className": "Paladin",
 			"classSource": "XUA2023DruidAndPaladin",
-			"header": 2,
 			"level": 1,
 			"entries": [
 				"You have learned to cast spells through prayer, meditation, and devotion. See the Player's Handbook for the rules on spellcasting. The information below details how you use those rules as a Paladin.",
 				{
 					"type": "entries",
-					"name": "Prepared Spells",
 					"entries": [
-						"You have the following spells prepared: {@spell Heroism}, {@spell Resistance}, {@spell Spare the Dying}, and {@spell Thunderous Smite}. Alternatively, you can prepare two 0-level spells (also known as cantrips) and two 1st-level spells of your choice from the Divine spell list.",
-						"Whenever you finish a {@variantrule Long Rest|XUA2023DruidAndPaladin}, you can meditate and replace any spell you have prepared for this class with another Divine spell of the same level.",
-						"At higher levels in this class, you can prepare more spells, as shown on the Paladin table. The numbers there determine the number of different spells you can prepare of each level. For example, as a 4th-level Paladin, you can prepare two different 0-level spells and three different 1st-level spells."
-					]
-				},
-				{
-					"type": "entries",
-					"name": "Spell Slots",
-					"entries": [
-						"When you cast a prepared Paladin spell, you expend a Spell Slot. The number of Spell Slots you have of 1st-level and higher is the same as the number of different spells you can prepare of each level, as shown on the Paladin table. For example, as a 5th-level Paladin, you have four 1st-level Spell Slots and two 2nd-level Spell Slots."
-					]
-				},
-				{
-					"type": "entries",
-					"name": "Spellcasting Ability",
-					"entries": [
-						"Charisma is your Spellcasting Ability for your Paladin spells."
-					]
-				},
-				{
-					"type": "entries",
-					"name": "Spellcasting Focus",
-					"entries": [
-						"You can use a Holy Symbol as a Spellcasting Focus for the spells you prepare for this class."
+						{
+							"type": "entries",
+							"name": "Prepared Spells",
+							"entries": [
+								"You have the following spells prepared: {@spell Heroism}, {@spell Resistance}, {@spell Spare the Dying}, and {@spell Thunderous Smite}. Alternatively, you can prepare two 0-level spells (also known as cantrips) and two 1st-level spells of your choice from the Divine spell list.",
+								"Whenever you finish a {@variantrule Long Rest|XUA2023DruidAndPaladin}, you can meditate and replace any spell you have prepared for this class with another Divine spell of the same level.",
+								"At higher levels in this class, you can prepare more spells, as shown on the Paladin table. The numbers there determine the number of different spells you can prepare of each level. For example, as a 4th-level Paladin, you can prepare two different 0-level spells and three different 1st-level spells."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Spell Slots",
+							"entries": [
+								"When you cast a prepared Paladin spell, you expend a Spell Slot. The number of Spell Slots you have of 1st-level and higher is the same as the number of different spells you can prepare of each level, as shown on the Paladin table. For example, as a 5th-level Paladin, you have four 1st-level Spell Slots and two 2nd-level Spell Slots."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Spellcasting Ability",
+							"entries": [
+								"Charisma is your Spellcasting Ability for your Paladin spells."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Spellcasting Focus",
+							"entries": [
+								"You can use a Holy Symbol as a Spellcasting Focus for the spells you prepare for this class."
+							]
+						}
 					]
 				}
 			]
@@ -1401,7 +1397,6 @@
 			"page": 11,
 			"className": "Paladin",
 			"classSource": "XUA2023DruidAndPaladin",
-			"header": 2,
 			"level": 2,
 			"entries": [
 				"When you strike a target, you can channel divine energy to smite it. Immediately after you hit a target with an attack roll using a weapon or an {@variantrule Unarmed Strike|XUA2023DruidAndPaladin}, you can expend one Spell Slot to deal Radiant damage to the target. The damage is {@dice 2d8} for a 1st-level Spell Slot, plus {@dice 1d8} for each slot level higher than 1st.",
@@ -1414,7 +1409,6 @@
 			"page": 11,
 			"className": "Paladin",
 			"classSource": "XUA2023DruidAndPaladin",
-			"header": 2,
 			"level": 2,
 			"entries": [
 				"You have honed your martial prowess and gain the {@feat Fighting Style: Defense|XUA2022ExpertClasses} feat, or you gain another Fighting Style feat of your choice.",
@@ -1427,7 +1421,6 @@
 			"page": 11,
 			"className": "Paladin",
 			"classSource": "XUA2023DruidAndPaladin",
-			"header": 2,
 			"level": 3,
 			"entries": [
 				"You can channel divine energy directly from the Outer Planes, using that energy to fuel magical effects. You start with one such effect: Divine Sense, which is described below. Other Paladin features give additional Channel Divinity effect options. Each time you use this Channel Divinity, you choose which effect to create from among those you have from this class.",
@@ -1447,7 +1440,6 @@
 			"page": 11,
 			"className": "Paladin",
 			"classSource": "XUA2023DruidAndPaladin",
-			"header": 2,
 			"level": 3,
 			"entries": [
 				"You gain the Oath of Devotion subclass or another Paladin subclass of your choice. The Oath of Devotion is detailed after the Paladin's class description, and other subclasses will appear in future Unearthed Arcana articles.",
@@ -1460,7 +1452,6 @@
 			"page": 11,
 			"className": "Paladin",
 			"classSource": "XUA2023DruidAndPaladin",
-			"header": 2,
 			"level": 4,
 			"entries": [
 				"You gain the {@feat Ability Score Improvement|XUA2022ClericAndRevisedSpecies} Feat or another Feat of your choice for which you qualify."
@@ -1472,7 +1463,6 @@
 			"page": 11,
 			"className": "Paladin",
 			"classSource": "XUA2023DruidAndPaladin",
-			"header": 2,
 			"level": 5,
 			"entries": [
 				"You can attack twice, instead of once, whenever you take the {@action Attack|XUA2023DruidAndPaladin} action on your turn."
@@ -1484,7 +1474,6 @@
 			"page": 11,
 			"className": "Paladin",
 			"classSource": "XUA2023DruidAndPaladin",
-			"header": 2,
 			"level": 5,
 			"entries": [
 				"You can easily call on the aid of an otherworldly steed. You always have the {@spell Find Steed} spell prepared, and it doesn't count against the number of spells you can prepare.",
@@ -1497,7 +1486,6 @@
 			"page": 11,
 			"className": "Paladin",
 			"classSource": "XUA2023DruidAndPaladin",
-			"header": 2,
 			"level": 6,
 			"entries": [
 				"You gain a feature from your Druid Subclass."
@@ -1509,7 +1497,6 @@
 			"page": 12,
 			"className": "Paladin",
 			"classSource": "XUA2023DruidAndPaladin",
-			"header": 2,
 			"level": 7,
 			"entries": [
 				"You radiate a protective, invisible aura that extends 10 feet from you in every direction, but it doesn't extend through Total Cover.",
@@ -1523,7 +1510,6 @@
 			"page": 12,
 			"className": "Paladin",
 			"classSource": "XUA2023DruidAndPaladin",
-			"header": 2,
 			"level": 8,
 			"entries": [
 				"You gain the {@feat Ability Score Improvement|XUA2022ClericAndRevisedSpecies} Feat or another Feat of your choice for which you qualify."
@@ -1535,7 +1521,6 @@
 			"page": 12,
 			"className": "Paladin",
 			"classSource": "XUA2023DruidAndPaladin",
-			"header": 2,
 			"level": 9,
 			"entries": [
 				"As a {@action Magic|XUA2023DruidAndPaladin} action, you can expend one use of your Channel Divinity to overwhelm foes with divine awe. As you present your Holy Symbol or weapon, you can target a number of creatures equal to your Charisma modifier (minimum of one creature) that you can see within 60 feet of yourself.",
@@ -1548,7 +1533,6 @@
 			"page": 12,
 			"className": "Paladin",
 			"classSource": "XUA2023DruidAndPaladin",
-			"header": 2,
 			"level": 10,
 			"entries": [
 				"You gain a feature from your Paladin Subclass."
@@ -1560,7 +1544,6 @@
 			"page": 12,
 			"className": "Paladin",
 			"classSource": "XUA2023DruidAndPaladin",
-			"header": 2,
 			"level": 11,
 			"entries": [
 				"You are so suffused with divine might that your weapon strikes carry supernatural power with them. When you hit a target with an attack roll using a Simple or Martial weapon, the target takes an extra {@damage 1d8} Radiant damage."
@@ -1572,7 +1555,6 @@
 			"page": 12,
 			"className": "Paladin",
 			"classSource": "XUA2023DruidAndPaladin",
-			"header": 2,
 			"level": 12,
 			"entries": [
 				"You gain the {@feat Ability Score Improvement|XUA2022ClericAndRevisedSpecies} Feat or another Feat of your choice for which you qualify."
@@ -1584,7 +1566,6 @@
 			"page": 12,
 			"className": "Paladin",
 			"classSource": "XUA2023DruidAndPaladin",
-			"header": 2,
 			"level": 13,
 			"entries": [
 				"You and your allies are immune to the Frightened condition while in your Aura of Protection. If a Frightened ally enters the aura, that condition is suppressed while the ally is there."
@@ -1596,7 +1577,6 @@
 			"page": 12,
 			"className": "Paladin",
 			"classSource": "XUA2023DruidAndPaladin",
-			"header": 2,
 			"level": 14,
 			"entries": [
 				"You gain a feature from your Paladin Subclass."
@@ -1608,7 +1588,6 @@
 			"page": 12,
 			"className": "Paladin",
 			"classSource": "XUA2023DruidAndPaladin",
-			"header": 2,
 			"level": 15,
 			"entries": [
 				"When you use Lay on Hands on a creature, you can also remove one or more of the following conditions from the creature: {@condition Blinded}, {@condition Charmed}, {@condition Dazed|XUA2023DruidAndPaladin}, {@condition Deafened}, {@condition Frightened}, {@condition Paralyzed}, or {@condition Stunned}. You must expend 5 Hit Points from the healing pool of Lay on Hands for each of these conditions you remove; those points don't also restore Hit Points to the creature."
@@ -1620,7 +1599,6 @@
 			"page": 12,
 			"className": "Paladin",
 			"classSource": "XUA2023DruidAndPaladin",
-			"header": 2,
 			"level": 16,
 			"entries": [
 				"You gain the {@feat Ability Score Improvement|XUA2022ClericAndRevisedSpecies} Feat or another Feat of your choice for which you qualify."
@@ -1632,7 +1610,6 @@
 			"page": 12,
 			"className": "Paladin",
 			"classSource": "XUA2023DruidAndPaladin",
-			"header": 2,
 			"level": 17,
 			"entries": [
 				"Your Aura of Protection now extends 30 feet from you rather than 10 feet."
@@ -1644,7 +1621,6 @@
 			"page": 12,
 			"className": "Paladin",
 			"classSource": "XUA2023DruidAndPaladin",
-			"header": 2,
 			"level": 18,
 			"entries": [
 				"Whenever you roll Initiative, you regain one use of this class's Channel Divinity."
@@ -1656,7 +1632,6 @@
 			"page": 12,
 			"className": "Paladin",
 			"classSource": "XUA2023DruidAndPaladin",
-			"header": 2,
 			"level": 19,
 			"entries": [
 				"You gain the {@feat Ability Score Improvement|XUA2022ClericAndRevisedSpecies} Feat or another Feat of your choice for which you qualify."
@@ -1668,7 +1643,6 @@
 			"page": 12,
 			"className": "Paladin",
 			"classSource": "XUA2023DruidAndPaladin",
-			"header": 2,
 			"level": 20,
 			"entries": [
 				"You gain the following benefits:",
@@ -5618,6 +5592,23 @@
 					"name": "Extradimensional Escape (Recharges after a {@variantrule Long Rest|XUA2023DruidAndPaladin})",
 					"entries": [
 						"When the familiar would drop to 0 Hit Points, it instead drops to 1 Hit Point and vanishes into an extradimensional space, leaving behind anything it was wearing or carrying. It remains there for 1 hour or until you summon it as a {@action Magic|XUA2023DruidAndPaladin} action, and then it reappears in your space."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Otherworldly Scratch",
+					"entries": [
+						"{@atk ms} your Spell Attack Modifier to hit, reach 5 ft., one target. {@h}1 + the spell's level of Radiant damage (Celestial), Psychic damage (Fey), or Necrotic damage (Fiend)."
+					]
+				}
+			],
+			"reaction": [
+				{
+					"name": "Deliver Spell",
+					"entries": [
+						"When you cast a spell with a range of touch, the familiar can deliver the spell with its touch.",
+						"To do so, the familiar must be within 120 feet of you."
 					]
 				}
 			],

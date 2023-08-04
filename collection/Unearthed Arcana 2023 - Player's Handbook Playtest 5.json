@@ -5214,7 +5214,7 @@
 								],
 								[
 									"2",
-									"{@spell Magic Aura}",
+									"{@spell Nystul's Magic Aura}",
 									"Illusion",
 									"No"
 								],
@@ -5820,7 +5820,7 @@
 								],
 								[
 									"6",
-									"{@spell Instant Summons}",
+									"{@spell Drawmij's Instant Summons}",
 									"Conjuration",
 									"Yes"
 								],
@@ -9283,7 +9283,7 @@
 				"knock",
 				"levitate",
 				"locate object",
-				"magic aura",
+				"nystul's magic aura",
 				"magic mouth",
 				"magic weapon",
 				"melf's acid arrow",
@@ -9383,7 +9383,7 @@
 				"flesh to stone",
 				"globe of invulnerability",
 				"guards and wards",
-				"instant summons",
+				"drawmij's instant summons",
 				"magic jar",
 				"mass suggestion",
 				"move earth",
@@ -9486,7 +9486,6 @@
 			"value": 100,
 			"weaponCategory": "martial",
 			"range": "5/15",
-			"net": true,
 			"weapon": true,
 			"entries": [
 				{
@@ -9723,7 +9722,7 @@
 				"MM"
 			],
 			"consumes": {
-				"name": "Sorcery Points",
+				"name": "Sorcery Point",
 				"amount": 2
 			},
 			"entries": [
@@ -9738,7 +9737,7 @@
 				"MM"
 			],
 			"consumes": {
-				"name": "Sorcery Points",
+				"name": "Sorcery Point",
 				"amount": 2
 			},
 			"entries": [
@@ -9753,7 +9752,7 @@
 				"MM"
 			],
 			"consumes": {
-				"name": "Sorcery Points",
+				"name": "Sorcery Point",
 				"amount": 2
 			},
 			"entries": [
@@ -9797,7 +9796,7 @@
 				"MM"
 			],
 			"consumes": {
-				"name": "Sorcery Points",
+				"name": "Sorcery Point",
 				"amountMin": 1,
 				"amountMax": 5
 			},
@@ -9922,7 +9921,7 @@
 					}
 				},
 				{
-					"pact": "The Chain"
+					"pact": "Chain"
 				}
 			],
 			"entries": [
@@ -10022,7 +10021,7 @@
 					}
 				},
 				{
-					"pact": "The Tome"
+					"pact": "Tome"
 				}
 			],
 			"entries": [
@@ -10071,7 +10070,7 @@
 					}
 				},
 				{
-					"pact": "The Blade"
+					"pact": "Blade"
 				}
 			],
 			"entries": [
