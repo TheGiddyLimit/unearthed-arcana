@@ -104,6 +104,152 @@
 			"savingThrow": [
 				"dexterity"
 			]
+		},
+		{
+			"name": "Counterspell",
+			"source": "XUA2023PlayersHandbookP7",
+			"page": 43,
+			"level": 3,
+			"school": "A",
+			"groups": [
+				{
+					"name": "Sorcerer",
+					"source": "XUA2023PlayersHandbookP7"
+				},
+				{
+					"name": "Warlock",
+					"source": "XUA2023PlayersHandbookP7"
+				},
+				{
+					"name": "Wizard",
+					"source": "XUA2023PlayersHandbookP7"
+				}
+			],
+			"time": [
+				{
+					"number": 1,
+					"unit": "reaction",
+					"condition": "which you take when you see a creature within 60 feet of yourself casting a spell with Verbal, Somatic, or Material components"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 60
+				}
+			},
+			"components": {
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"entries": [
+				"You attempt to interrupt a creature in the process of casting a spell. The creature must make a Constitution saving throw. On a failed save, the spell dissipates with no effect, and the action, Bonus Action, or Reaction used to cast it is wasted. If that spell was cast with a spell slot, the slot isn't expended."
+			]
+		},
+		{
+			"name": "Jump",
+			"source": "XUA2023PlayersHandbookP7",
+			"page": 43,
+			"level": 1,
+			"school": "T",
+			"time": [
+				{
+					"number": 1,
+					"unit": "bonus"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "touch"
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": "a grasshopper's hind leg"
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 1
+					}
+				}
+			],
+			"entries": [
+				"You touch a willing creature. Once on each of its turns until the spell ends, that creature can jump up to 30 feet by spending only 10 feet of movement."
+			],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "At Higher Levels",
+					"entries": [
+						"When you cast this spell using a spell slot of level 2 or higher, you can target one additional creature for each slot level above 1."
+					]
+				}
+			],
+			"areaTags": [
+				"ST",
+				"MT"
+			]
+		},
+		{
+			"name": "Sorcerous Burst",
+			"source": "XUA2023PlayersHandbookP7",
+			"page": 44,
+			"level": 0,
+			"school": "V",
+			"groups": [
+				{
+					"name": "Sorcerer",
+					"source": "XUA2023PlayersHandbookP7"
+				}
+			],
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 120
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"entries": [
+				"You cast sorcerous energy at one creature or object within range. Make a ranged attack roll against the target. On a hit, the target takes {@damage 1d8} damage. If you roll an 8 on a {@dice d8} for this spell, you can roll another {@dice d8}, and add it to the damage. Whenever you cast this spell, the maximum number of these {@dice d8|d8s} you can add to the spell's damage equals your spellcasting ability modifier.",
+				"You choose the damage type each time you cast this spell: Acid, Cold, Fire, Lightning, Poison, Psychic, or Thunder."
+			],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "Cantrip Upgrade",
+					"entries": [
+						"This spell's damage increases by {@dice 1d8} when you reach level 5 ({@dice 2d8}), 11 ({@dice 3d8}), and 17 ({@dice 4d8})."
+					]
+				}
+			],
+			"miscTags": [
+				"SCL"
+			]
 		}
 	]
 }
