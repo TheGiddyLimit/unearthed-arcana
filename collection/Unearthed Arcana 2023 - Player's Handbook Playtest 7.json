@@ -1,0 +1,109 @@
+{
+	"_meta": {
+		"sources": [
+			{
+				"json": "XUA2023PlayersHandbookP7",
+				"abbreviation": "XUA23P7",
+				"full": "Unearthed Arcana 2023: Player's Handbook Playtest 7",
+				"authors": [
+					"Wizards of the Coast"
+				],
+				"version": "1.0.0",
+				"url": "https://media.dndbeyond.com/compendium-images/ua/ph-playtest7/tsgOb3llF22AL0nU/UA2023-PH-Playtest7.pdf",
+				"dateReleased": "2023-09-07"
+			}
+		],
+		"dateAdded": 1691158917,
+		"dateLastModified": 1691158917
+	},
+	"spell": [
+		{
+			"name": "Arcane Eruption",
+			"source": "XUA2023PlayersHandbookP7",
+			"page": 43,
+			"level": 4,
+			"school": "V",
+			"groups": [
+				{
+					"name": "Sorcerer",
+					"source": "XUA2023PlayersHandbookP7"
+				}
+			],
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 120
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"entries": [
+				"Churning magical energy explodes in a 20-foot-radius sphere centered on a point you choose within range. When you cast the spell, you select the type of damage dealt by the explosion: Acid, Cold, Fire, Lightning, Poison, Psychic, or Thunder. Each creature in the sphere must make a Dexterity saving throw. On a failed save, a creature takes {@damage 6d6} damage of the chosen type. On a successful save, a creature takes half as much damage.",
+				"Choose one of those d6s. The number rolled on that die determines a condition that's applied to each creature that failed the save, as shown below. A creature has the condition until the end of your next turn.",
+				{
+					"type": "table",
+					"colLabels": [
+						"d6",
+						"Additional Effect"
+					],
+					"colStyles": [
+						"col-1 text-center",
+						"col-11"
+					],
+					"rows": [
+						[
+							"1",
+							"{@condition Incapacitated|XUA2023PlayersHandbookP7}"
+						],
+						[
+							"2",
+							"{@condition Blinded}"
+						],
+						[
+							"3",
+							"{@condition Frightened}"
+						],
+						[
+							"4",
+							"{@condition Poisoned}"
+						],
+						[
+							"5",
+							"{@condition Charmed}"
+						],
+						[
+							"6",
+							"{@condition Deafened}"
+						]
+					]
+				}
+			],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "At Higher Levels",
+					"entries": [
+						"When you cast this spell using a spell slot of level 5 or higher, the damage increases by {@scaledamage 6d6|4-9|1d6} for each slot level above 4."
+					]
+				}
+			],
+			"savingThrow": [
+				"dexterity"
+			]
+		}
+	]
+}
