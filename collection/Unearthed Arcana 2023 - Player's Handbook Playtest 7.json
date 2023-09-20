@@ -1389,12 +1389,418 @@
 	],
 	"variantrule": [
 		{
+			"name": "Armor Training",
+			"source": "XUA2023PlayersHandbookP7",
+			"page": 48,
+			"ruleType": "P",
+			"entries": [
+				"Armor training is the new name for armor proficiency. Any existing rule that involves armor proficiency now applies to armor training.",
+				"If you wear Light, Medium, or Heavy Armor and lack armor training with that type of armor, you have Disadvantage on any {@variantrule D20 Tests|XUA2023PlayersHandbookP7|d20 Test} you make that involves Strength or Dexterity, and you can't cast spells.",
+				"If you equip a Shield and lack armor training with it, you don't gain the Armor Class bonus of the Shield."
+			]
+		},
+		{
 			"name": "Bonus Feats at Level 20",
 			"source": "XUA2023PlayersHandbookP7",
 			"page": 44,
 			"ruleType": "P",
 			"entries": [
 				"A DM can use bonus feats as a form of advancement after characters reach level 20 to provide greater power to characters who have no more levels to gain. With this approach, each character gains one feat of their choice for every 30,000 XP the character earns above 355,000 XP. Epic Boon feats are especially appropriate for these bonus feats, but a player can choose any feat for which their level 20 character qualifies."
+			]
+		},
+		{
+			"name": "Climb Speed",
+			"source": "XUA2023PlayersHandbookP7",
+			"page": 48,
+			"ruleType": "P",
+			"entries": [
+				"A Climb Speed can be used to traverse a vertical surface without expending the extra movement normally associated with climbing.",
+				"Some creatures have the Spider Climb trait, which allows their Climb Speed to work even on the underside of horizontal surfaces."
+			]
+		},
+		{
+			"name": "Creature Type",
+			"source": "XUA2023PlayersHandbookP7",
+			"page": 48,
+			"ruleType": "P",
+			"entries": [
+				"Every creature in D&D, including every player character, has a special tag in the rules that identifies the type of creature it is. Most player characters are of the Humanoid type.",
+				"Here's a list of the game's creature types in alphabetical order:",
+				{
+					"type": "list",
+					"style": "list-no-bullets",
+					"columns": 2,
+					"page": 48,
+					"items": [
+						"Aberration",
+						"Fiend",
+						"Beast",
+						"Giant",
+						"Celestial",
+						"Humanoid",
+						"Construct",
+						"Monstrosity",
+						"Dragon",
+						"Ooze",
+						"Elemental",
+						"Plant",
+						"Fey",
+						"Undead"
+					]
+				},
+				"These types don't have rules themselves, but some rules in the game affect creatures of certain types in different ways. For example, the description of the {@spell Charm Person} spell specifies that its target must be a Humanoid."
+			]
+		},
+		{
+			"name": "D20 Tests",
+			"source": "XUA2023PlayersHandbookP7",
+			"page": 48,
+			"ruleType": "P",
+			"entries": [
+				"The term d20 Test encompasses the three main {@dice d20} rolls of the game: ability checks, attack rolls, and saving throws. If something in the game affects d20 Tests, it affects all three of these rolls.",
+				"The DM determines whether a d20 Test is warranted in any given circumstance."
+			]
+		},
+		{
+			"name": "Difficult Terrain",
+			"source": "XUA2023PlayersHandbookP7",
+			"page": 48,
+			"ruleType": "P",
+			"entries": [
+				"If a space is Difficult Terrain, every foot of movement in that space costs 1 extra foot. For example, moving 5 feet through Difficult Terrain costs 10 feet of movement. Difficult Terrain isn't cumulative; either a space is Difficult Terrain or it isn't.",
+				"A space is Difficult Terrain for a creature if the space contains any of the following:",
+				{
+					"type": "list",
+					"style": "list-no-bullets",
+					"items": [
+						"Creature that isn't Tiny or your ally",
+						"Furniture that is one size smaller than you or larger",
+						"Heavy snow",
+						"Heavy undergrowth",
+						"Liquid that's between shin- and waist-deep (any deeper and you need to swim)",
+						"Narrow opening that is sized for a creature one size smaller",
+						"Size smaller",
+						"Pit or another gap of 2\u20135 feet",
+						"Rubble",
+						"Slope of 20 degrees or more"
+					]
+				},
+				"The DM may determine that other things make a space count as Difficult Terrain, based on the examples here."
+			]
+		},
+		{
+			"name": "Expertise",
+			"source": "XUA2023PlayersHandbookP7",
+			"page": 49,
+			"ruleType": "P",
+			"entries": [
+				"Expertise is a special feature that enhances your use of a particular skill proficiency. If you gain Expertise, you gain it in one skill in which you have proficiency. You can never have Expertise in the same skill proficiency more than once.",
+				"When you make an ability check with a skill proficiency in which you have Expertise, your Proficiency Bonus is doubled for that check."
+			]
+		},
+		{
+			"name": "Fly Speed",
+			"source": "XUA2023PlayersHandbookP7",
+			"page": 49,
+			"ruleType": "P",
+			"entries": [
+				"A Fly Speed can be used to travel through the air. While you have a Fly Speed, you can stay aloft until you land, fall, or die.",
+				"While flying, you fall if you lack the Hover trait and have the {@condition Incapacitated|XUA2023PlayersHandbookP7} or {@condition Prone} condition or your Fly Speed is reduced to 0."
+			]
+		},
+		{
+			"name": "Heroic Advantage",
+			"source": "XUA2023PlayersHandbookP7",
+			"page": 49,
+			"ruleType": "P",
+			"entries": [
+				"When you have Heroic Advantage (also called Inspiration), you can expend it to give yourself Advantage on a {@variantrule D20 Tests|XUA2023PlayersHandbookP7|d20 Test}. You decide to do so immediately after rolling the {@dice d20}.",
+				{
+					"type": "entries",
+					"name": "Gaining Heroic Advantage",
+					"entries": [
+						"The DM can award Heroic Advantage to a player character who's done something that is particularly heroic or in character.",
+						"Some game features, such as the Human, also award Heroic Advantage."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Only One at a Time",
+					"entries": [
+						"You can never have more than one instance of Heroic Advantage. If something gives it to you and you already have it, you can give it to a player character in your group who lacks it."
+					]
+				}
+			]
+		},
+		{
+			"name": "Knocking Out a Creature",
+			"source": "XUA2023PlayersHandbookP7",
+			"page": 51,
+			"ruleType": "P",
+			"entries": [
+				"Sometimes an attacker wants to knock out a foe rather than deal a killing blow. When an attacker would reduce a creature to 0 Hit Points with a Melee Attack, the attacker can instead reduce the creature to 1 Hit Point. The creature then has the {@condition Unconscious|XUA2023PlayersHandbookP7} condition and starts a {@variantrule Short Rest|XUA2023PlayersHandbookP7}.",
+				"The creature remains {@condition Unconscious|XUA2023PlayersHandbookP7} until it regains any Hit Points or until someone uses an action to administer first aid to it, which requires a successful {@dc 10} Wisdom ({@skill Medicine}) check."
+			]
+		},
+		{
+			"name": "Long Rest",
+			"source": "XUA2023PlayersHandbookP7",
+			"page": 51,
+			"ruleType": "P",
+			"entries": [
+				"A Long Rest is a period of extended downtime\u2014at least 8 hours long\u2014available to any creature. During a Long Rest, you sleep for at least 6 hours and perform no more than 2 hours of light activity, such as reading, talking, eating, or standing watch.",
+				"During the sleep, you have the {@condition Unconscious|XUA2023PlayersHandbookP7} condition.",
+				{
+					"type": "entries",
+					"entries": [
+						{
+							"type": "entries",
+							"name": "Benefits of the Rest",
+							"entries": [
+								"To start a Long Rest, you must have at least 1 Hit Point. When you finish the rest, you gain the following benefits:",
+								{
+									"type": "list",
+									"style": "list-hang-notitle",
+									"items": [
+										{
+											"type": "item",
+											"name": "Regain All HP",
+											"entries": [
+												"You regain all lost Hit Points."
+											]
+										},
+										{
+											"type": "item",
+											"name": "Regain All HD",
+											"entries": [
+												"You regain all spent Hit Dice."
+											]
+										},
+										{
+											"type": "item",
+											"name": "HP Max Restored",
+											"entries": [
+												"If your Hit Point Maximum was reduced, it returns to normal."
+											]
+										},
+										{
+											"type": "item",
+											"name": "Ability Scores Restored",
+											"entries": [
+												"If any of your Ability Scores were reduced, they return to normal."
+											]
+										},
+										{
+											"type": "item",
+											"name": "Exhaustion Reduced",
+											"entries": [
+												"If you have the {@condition Exhaustion} condition, your level of exhaustion decreases by 1."
+											]
+										},
+										{
+											"type": "item",
+											"name": "Special Feature",
+											"entries": [
+												"Some features are recharged by a Long Rest. If you have such a feature, it recharges in the way specified in its description."
+											]
+										}
+									]
+								},
+								"After you finish a Long Rest, you must wait at least 16 hours before starting another one."
+							]
+						}
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Interrupting the Rest",
+					"entries": [
+						"A Long Rest is stopped by the following interruptions:",
+						{
+							"type": "list",
+							"items": [
+								"Rolling Initiative",
+								"Casting a spell other than a cantrip",
+								"Taking any damage",
+								"1 hour of walking or other physical exertion"
+							]
+						}
+					]
+				},
+				"If the rest was at least 1 hour long before the interruption, you gain the benefits of a {@variantrule Short Rest|XUA2023PlayersHandbookP7}.",
+				"You can resume a Long Rest immediately after an interruption. If you do so, the rest requires 1 additional hour to finish per interruption."
+			]
+		},
+		{
+			"name": "Move",
+			"source": "XUA2023PlayersHandbookP7",
+			"page": 51,
+			"ruleType": "P",
+			"entries": [
+				"When you Move, you can go a distance equal to your Speed or less. For example, if you have a Speed of 30 feet, you can go up to 30 feet when you Move. {@variantrule Difficult Terrain|XUA2023PlayersHandbookP7} can slow you down.",
+				{
+					"type": "entries",
+					"name": "Breaking Up Your Move",
+					"entries": [
+						"You can break up your Move, using some of its movement before and after any action you take on the same turn. For example, if you have a Speed of 30 feet, you could go 10 feet, take an action, and then go 20 feet."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Moving Around Other Creatures",
+					"entries": [
+						"During your Move, you can pass through the space of an ally, a creature that has the {@condition Incapacitated|XUA2023PlayersHandbookP7} condition, a Tiny creature, or a creature who is two sizes larger or smaller than you.",
+						"Another creature's space is {@variantrule Difficult Terrain|XUA2023PlayersHandbookP7} for you, unless that creature is Tiny or your ally.",
+						"You can't willingly end your Move in a space occupied by another creature."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Changes to Your Speeds",
+					"entries": [
+						"If an effect increases or decreases your Speed for a time, any special speed you have increases or decreases by an equal amount for the same duration. For example, if your Speed is reduced to 0 and you have a {@variantrule Climb Speed|XUA2023PlayersHandbookP7}, your {@variantrule Climb Speed|XUA2023PlayersHandbookP7} is also reduced to 0. Similarly, if your Speed is halved and you have a {@variantrule Fly Speed|XUA2023PlayersHandbookP7}, your {@variantrule Fly Speed|XUA2023PlayersHandbookP7} is also halved."
+					]
+				}
+			]
+		},
+		{
+			"name": "Ritual Casting",
+			"source": "XUA2023PlayersHandbookP7",
+			"page": 52,
+			"ruleType": "P",
+			"entries": [
+				"If you have a spell prepared that has the Ritual tag, you can cast that spell as a Ritual. A special feature is no longer required for Ritual casting. All the other rules on Rituals in the 2014 {@book Player's Handbook|PHB} still apply."
+			]
+		},
+		{
+			"name": "Short Rest",
+			"source": "XUA2023PlayersHandbookP7",
+			"page": 52,
+			"ruleType": "P",
+			"entries": [
+				"To start a Short Rest, you must have at least 1 Hit Point. When you finish the rest, you gain the following benefits:",
+				{
+					"type": "entries",
+					"name": "Benefits of the Rest",
+					"entries": [
+						"To start a Short Rest, you must have at least 1 Hit Point. When you finish the rest, you gain the following benefits:",
+						{
+							"type": "list",
+							"style": "list-hang-notitle",
+							"items": [
+								{
+									"type": "item",
+									"name": "Spend Hit Dice",
+									"entries": [
+										"You can spend one or more of your Hit Dice to regain Hit Points. For each Hit Die you spend in this way, roll the die, and add your Constitution modifier to it. You regain Hit Points equal to the total (minimum of 1 Hit Point). You can decide to spend an additional Hit Die after each roll."
+									]
+								},
+								{
+									"type": "item",
+									"name": "Special Feature",
+									"entries": [
+										"Some features are recharged by a Short Rest. If you have such a feature, it recharges in the way specified in its description."
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Interrupting the Rest",
+					"entries": [
+						"A Short Rest is stopped by the following interruptions:",
+						{
+							"type": "list",
+							"items": [
+								"Rolling initiative",
+								"Casting a spell other than a cantrip",
+								"Taking any damage"
+							]
+						}
+					]
+				},
+				"An interrupted Short Rest confers no benefits, and it must be started over to confer any."
+			]
+		},
+		{
+			"name": "Swim Speed",
+			"source": "XUA2023PlayersHandbookP7",
+			"page": 53,
+			"ruleType": "P",
+			"entries": [
+				"A Swim Speed can be used to travel through a liquid without expending the extra movement normally associated with swimming."
+			]
+		},
+		{
+			"name": "Telepathy",
+			"source": "XUA2023PlayersHandbookP7",
+			"page": 53,
+			"ruleType": "P",
+			"entries": [
+				"Telepathy is a magical ability that allows a creature to communicate mentally with another creature within a specified range. The contacted creature doesn't need to share a language with the telepath to understand this communication, but the contacted creature must be able to understand at least one language or be telepathic itself to understand.",
+				"A telepath doesn't need to see a contacted creature, and the telepath can start or end the telepathic contact at any time (no action required). Telepathic contact is broken as soon as the contacted creature is no longer within the telepathy's range, if the telepath contacts a different creature within range, or if the telepath has the {@condition Incapacitated|XUA2023PlayersHandbookP7} condition.",
+				"A creature without telepathy can receive telepathic messages but can't initiate a telepathic conversation. Once a telepathic conversation starts, the nontelepath can communicate mentally to the telepath until the telepathic connection ends."
+			]
+		},
+		{
+			"name": "Teleportation",
+			"source": "XUA2023PlayersHandbookP7",
+			"page": 53,
+			"ruleType": "P",
+			"entries": [
+				"Teleportation is a special kind of magical transportation. If you teleport, you disappear and reappear elsewhere instantly, without moving through the intervening space. This transportation doesn't expend movement, unless a rule tells you otherwise, and teleportation never provokes Opportunity Attacks.",
+				"When you teleport, all the equipment you're wearing and carrying teleports with you. If you're touching another creature when you teleport, that creature doesn't teleport with you unless the teleportation effect says otherwise.",
+				"If the destination space of your teleportation is occupied by another creature or blocked by a solid obstacle, you instead appear in the nearest unoccupied space of your choice.",
+				"The description of a teleportation effect tells you if you must see the teleportation's destination."
+			]
+		},
+		{
+			"name": "Tool Proficiency",
+			"source": "XUA2023PlayersHandbookP7",
+			"page": 53,
+			"ruleType": "P",
+			"entries": [
+				"If you have proficiency with a tool, you can add your Proficiency Bonus to any ability check you make that uses that tool.",
+				"If you have proficiency in the skill that's also used with that check, you have Advantage on the check too. This means you can benefit from both a skill and a tool proficiency on the same ability check."
+			]
+		},
+		{
+			"name": "Unarmed Strike",
+			"source": "XUA2023PlayersHandbookP7",
+			"page": 54,
+			"ruleType": "P",
+			"entries": [
+				"An Unarmed Strike is a Melee attack that involves you using your body to damage, grapple, or shove a target within 5 feet of you.",
+				"Whenever you use your Unarmed Strike, choose one of the following options for its effect:",
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"items": [
+						{
+							"type": "item",
+							"name": "Damage",
+							"entries": [
+								"You make an attack roll against the target. Your bonus to hit equals your Strength modifier + your Proficiency Bonus. On a hit, the target takes Bludgeoning damage equal to 1 + your Strength modifier."
+							]
+						},
+						{
+							"type": "item",
+							"name": "Grapple",
+							"entries": [
+								"The target must succeed on a Strength or Dexterity saving throw (it chooses which), or it has the {@condition Grappled|XUA2023PlayersHandbookP7} condition. The DC for the saving throw and any escape attempts equals 8 + your Strength modifier + your Proficiency Bonus. This grapple is possible only if the target is no more than one size larger than you and if you have a hand free to grab it."
+							]
+						},
+						{
+							"type": "item",
+							"name": "Shove",
+							"entries": [
+								"The target must succeed on a Strength or Dexterity saving throw (it chooses which), or you either push the target 5 feet away or cause it to have the {@condition Prone} condition. The DC for the saving throw equals 8 + your Strength modifier + your Proficiency Bonus. This shove is possible only if the target is no more than one size larger than you."
+							]
+						}
+					]
+				}
 			]
 		}
 	],
@@ -1793,6 +2199,577 @@
 					"\u2014",
 					"1 SP"
 				]
+			]
+		}
+	],
+	"condition": [
+		{
+			"name": "Dazed",
+			"source": "XUA2023PlayersHandbookP7",
+			"page": 48,
+			"entries": [
+				"While Dazed, you experience the following effect:",
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"items": [
+						{
+							"type": "item",
+							"name": "Limited Activity",
+							"entries": [
+								"You can {@variantrule Move|XUA2023PlayersHandbookP7} or take one action on your turn, not both. You also can't take a Bonus Action or a Reaction."
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Grappled",
+			"source": "XUA2023PlayersHandbookP7",
+			"page": 49,
+			"entries": [
+				"While Grappled, you experience the following effects:",
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"items": [
+						{
+							"type": "item",
+							"name": "Speed 0",
+							"entries": [
+								"Your Speed is 0 and can't change."
+							]
+						},
+						{
+							"type": "item",
+							"name": "Attacks Affected",
+							"entries": [
+								"You have Disadvantage on attack rolls against any target other than the grappler."
+							]
+						},
+						{
+							"type": "item",
+							"name": "Movable",
+							"entries": [
+								"The grappler can drag or carry you when it {@variantrule Move|XUA2023PlayersHandbookP7|Moves}, but every foot of movement costs it 1 extra foot, unless you are Tiny or two or more sizes smaller than the grappler."
+							]
+						},
+						{
+							"type": "item",
+							"name": "Escape",
+							"entries": [
+								"While Grappled, you can use your action to make a Strength ({@skill Athletics}) or Dexterity ({@skill Acrobatics}) check against the grapple's escape DC, ending the condition on yourself on a success. The condition also ends if the grappler has the {@condition Incapacitated|XUA2023PlayersHandbookP7} condition or if the distance between you and the grappler exceeds the grapple's range."
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Incapacitated",
+			"source": "XUA2023PlayersHandbookP7",
+			"page": 50,
+			"entries": [
+				"While Incapacitated, you experience the following effects:",
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"items": [
+						{
+							"type": "item",
+							"name": "Inactive",
+							"entries": [
+								"You can't take any action, Bonus Action, or Reaction."
+							]
+						},
+						{
+							"type": "item",
+							"name": "No Concentration",
+							"entries": [
+								"Your {@status Concentration} is broken."
+							]
+						},
+						{
+							"type": "item",
+							"name": "Speechless",
+							"entries": [
+								"You can't speak."
+							]
+						},
+						{
+							"type": "item",
+							"name": "Surprised",
+							"entries": [
+								"If you're Incapacitated when you roll Initiative, you have Disadvantage on the roll."
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Invisible",
+			"source": "XUA2023PlayersHandbookP7",
+			"page": 51,
+			"entries": [
+				"While Invisible, you experience the following effects:",
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"items": [
+						{
+							"type": "item",
+							"name": "Concealed",
+							"entries": [
+								"You aren't affected by any effect that requires its target to be seen."
+							]
+						},
+						{
+							"type": "item",
+							"name": "Surprise",
+							"entries": [
+								"If you're Invisible when you roll Initiative, you have Advantage on the roll."
+							]
+						},
+						{
+							"type": "item",
+							"name": "Attacks Affected",
+							"entries": [
+								"Attack rolls against you have Disadvantage, and your attack rolls have Advantage. If a creature can somehow see you, as with magic or {@sense Blindsight|XUA2023PlayersHandbookP7}, you don't gain this benefit against that creature."
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Unconscious",
+			"source": "XUA2023PlayersHandbookP7",
+			"page": 54,
+			"entries": [
+				"While Unconscious, you experience the following effects:",
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"items": [
+						{
+							"type": "item",
+							"name": "Inert",
+							"entries": [
+								"You have the {@condition Incapacitated|XUA2023PlayersHandbookP7} and {@condition Prone} conditions, and you drop whatever you're holding. When this condition ends, you remain {@condition Prone}."
+							]
+						},
+						{
+							"type": "item",
+							"name": "Speed 0",
+							"entries": [
+								"Your Speed is 0 and can't change."
+							]
+						},
+						{
+							"type": "item",
+							"name": "Attacks Affected",
+							"entries": [
+								"Attack rolls against you have Advantage."
+							]
+						},
+						{
+							"type": "item",
+							"name": "Fail Str. and Dex. Saves.",
+							"entries": [
+								"You automatically fail Strength and Dexterity saving throws."
+							]
+						},
+						{
+							"type": "item",
+							"name": "Critical Hits",
+							"entries": [
+								"Any attack roll that hits you is a critical hit if the attacker is within 5 feet of you."
+							]
+						},
+						{
+							"type": "item",
+							"name": "Unaware",
+							"entries": [
+								"You're unaware of your surroundings."
+							]
+						}
+					]
+				}
+			]
+		}
+	],
+	"action": [
+		{
+			"name": "Attack",
+			"source": "XUA2023PlayersHandbookP7",
+			"page": 48,
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"entries": [
+				"When you take the Attack action, you can make one attack with a weapon or an {@variantrule Unarmed Strike|XUA2023PlayersHandbookP7}.",
+				{
+					"type": "entries",
+					"name": "Equipping and Unequipping Weapons",
+					"entries": [
+						"You can either equip or unequip one weapon when you make an attack as part of this action. You do so either before or after the attack. If you equip a weapon before an attack, you don't need to use it for that attack.",
+						"Equipping a weapon includes drawing it from a sheath, picking it up, or retrieving it from a container. Unequipping a weapon includes sheathing, stowing, or dropping it."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Moving Between Attacks",
+					"entries": [
+						"If you {@variantrule Move|XUA2023PlayersHandbookP7} on your turn, you can use some or all of that movement to move between the attacks of this action if you have a feature, such as Extra Attack, that gives you more than one attack as part of the Attack action."
+					]
+				}
+			]
+		},
+		{
+			"name": "Help",
+			"source": "XUA2023PlayersHandbookP7",
+			"page": 49,
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"entries": [
+				"When you take the Help action, you do one of the following:",
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"items": [
+						{
+							"type": "item",
+							"name": "Assist Ability Check",
+							"entries": [
+								"Choose one of your skill or {@variantrule tool proficiency|XUA2023PlayersHandbookP7|tool proficiencies} and one ally who can perceive you. You give Advantage to the next ability check that ally makes with the chosen skill or tool. This benefit expires if the ally doesn't use it before the start of your next turn. To give this assistance, you must be near enough to the ally to assist verbally or physically when the ally makes the check. The DM has final say on whether your assistance is possible."
+							]
+						},
+						{
+							"type": "item",
+							"name": "Assist Attack Roll",
+							"entries": [
+								"You momentarily distract an enemy within 5 feet of you, giving Advantage to the next attack roll by one of your allies against that enemy. This benefit expires at the start of your next turn."
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Hide",
+			"source": "XUA2023PlayersHandbookP7",
+			"page": 49,
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"entries": [
+				"With the Hide action, you try to conceal yourself. To do so stealthily, you must succeed on a {@dc 15} Dexterity ({@skill Stealth}) check while you're Heavily Obscured or behind Three-Quarters Cover or Total Cover, and you must be out of any visible enemy's line of sight; if you can see a creature, you can discern whether it can see you.",
+				"On a successful check, you have the {@condition Invisible|XUA2023PlayersHandbookP7} condition. Make note of your check's total, which becomes the DC for a creature to find you with a Wisdom ({@skill Perception}) check.",
+				"The condition ends on you immediately after any of the following occurrences: you make a sound louder than a whisper, an enemy finds you, you make an attack roll, or you cast a spell with a verbal component."
+			]
+		},
+		{
+			"name": "Influence",
+			"source": "XUA2023PlayersHandbookP7",
+			"page": 50,
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"entries": [
+				"With the Influence action, you can try to influence another creature to do one thing that you request or demand.",
+				"The DM determines when this action is available, and it can be used only on creatures controlled by the DM. It isn't mind control; it can't force a creature to do something that is counter to the creature's alignment or that is otherwise repugnant to the creature.",
+				"This action has three main parts: Attitude, interaction, and a Charisma check.",
+				{
+					"type": "entries",
+					"name": "Attitude",
+					"entries": [
+						"A creature's Attitude determines how a character can influence that creature. Each DMcontrolled creature has one of the following Attitudes toward player characters:",
+						{
+							"type": "list",
+							"style": "list-hang-notitle",
+							"items": [
+								{
+									"type": "item",
+									"name": "Indifferent",
+									"entries": [
+										"This is the default Attitude for DMcontrolled creatures. An Indifferent creature might help or hinder the party, depending on what the creature sees as most beneficial. A creature's indifference doesn't necessarily make it standoffish or disinterested. Indifferent creatures might be polite and genial, surly and irritable, or anything in between. A successful Charisma check is usually necessary when the adventurers try to influence an Indifferent creature to do something."
+									]
+								},
+								{
+									"type": "item",
+									"name": "Friendly",
+									"entries": [
+										"A Friendly creature wants to help the adventurers and wishes for them to succeed. For tasks or actions that require no particular risk, effort, or cost, Friendly creatures often help happily, with the Charisma check succeeding automatically. If an element of personal risk is involved, a successful Charisma check is usually required to convince a Friendly creature to take that risk."
+									]
+								},
+								{
+									"type": "item",
+									"name": "Hostile",
+									"entries": [
+										"A Hostile creature opposes the adventurers and their goals but doesn't necessarily attack them on sight. The adventurers need to succeed on one or more Charisma checks to convince a Hostile creature to do anything on the party's behalf; however, the DM might determine that the Hostile creature is so ill-disposed toward the characters that no Charisma check can sway it. In which case, the first check fails automatically and no further Influence attempts can be made on the creature unless its Attitude shifts."
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Interaction",
+					"entries": [
+						"When you take the Influence action, either roleplay how your character interacts with the creature or describe your character's behavior, focusing on your character's request or demand. If the interaction is especially suited to the creature's desires and outlook, the DM might temporarily shift a Hostile creature to Indifferent or an Indifferent creature to Friendly.",
+						"Similarly, if the interaction is particularly irksome to the creature, the DM might temporarily shift a Friendly creature to Indifferent or an Indifferent creature to Hostile."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Charisma Check",
+					"entries": [
+						"To determine whether your request or demand is successful, make a Charisma check. You have Advantage on the check if the creature is Friendly, and you have Disadvantage if the creature is Hostile.",
+						{
+							"type": "entries",
+							"name": "Choosing a Skill",
+							"entries": [
+								"The Influence Skills table suggests which skills are applicable when you make the Charisma check, depending on the interaction that precedes the roll."
+							]
+						},
+						{
+							"type": "table",
+							"caption": "Influence Skills",
+							"colLabels": [
+								"Skill",
+								"Interaction"
+							],
+							"colStyles": [
+								"col-3",
+								"col-9"
+							],
+							"rows": [
+								[
+									"{@skill Animal Handling}",
+									"Gently coaxing a Beast or a Monstrosity"
+								],
+								[
+									"{@skill Deception}",
+									"Deceiving a creature that can understand you"
+								],
+								[
+									"{@skill Intimidation}",
+									"Intimidating a creature"
+								],
+								[
+									"{@skill Persuasion}",
+									"Persuading a creature that can understand you"
+								]
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Setting the DC",
+							"entries": [
+								"The DM sets the check's DC. A good guideline is to set the DC at 15 or at the creature's Intelligence or Wisdom score, whichever of those three numbers is highest."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Outcome",
+							"entries": [
+								"If your check succeeds, the creature does as you requested or demanded, based on its understanding and driven by its alignment; it won't do anything that it finds repugnant. If your check fails, you must wait to make the same request again. The default wait time is 24 hours, which the DM may shorten or extend depending on the circumstances."
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Magic",
+			"source": "XUA2023PlayersHandbookP7",
+			"page": 51,
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"entries": [
+				"When you take the Magic action, you magic something by casting a spell that has a casting time of an action or by using a feature or Magic Item that requires a Magic action to be activated.",
+				"If you cast a spell that has a casting time of 1 minute or longer, you must take the Magic action on each turn of that casting, and you must maintain {@status Concentration} while you do so. If your {@status Concentration} is broken, the spell fails, but you don't expend a spell slot."
+			]
+		},
+		{
+			"name": "Search",
+			"source": "XUA2023PlayersHandbookP7",
+			"page": 52,
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"entries": [
+				"When you take the Search action, you make a Wisdom check to discern something that isn't obvious. The Search table suggests which skills are applicable when you take this action, depending on what you're trying to detect.",
+				{
+					"type": "table",
+					"caption": "Search",
+					"colLabels": [
+						"Skill",
+						"Thing to Detect"
+					],
+					"colStyles": [
+						"col-3",
+						"col-9"
+					],
+					"rows": [
+						[
+							"{@skill Insight}",
+							"Creature's state of mind"
+						],
+						[
+							"{@skill Medicine}",
+							"Creature's ailment"
+						],
+						[
+							"{@skill Perception}",
+							"Concealed creature or object"
+						],
+						[
+							"{@skill Survival}",
+							"Tracks or food"
+						]
+					]
+				}
+			]
+		},
+		{
+			"name": "Study",
+			"source": "XUA2023PlayersHandbookP7",
+			"page": 52,
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"entries": [
+				"When you take the Study action, you make an Intelligence check to study your memory, a book, a creature, a clue, an object, or another source of knowledge and call to mind an important piece of information about it.",
+				"The Areas of Knowledge table suggests which skills are applicable when you take this action, depending on the area of knowledge the Intelligence check is about.",
+				{
+					"type": "table",
+					"caption": "Areas of Knowledge",
+					"colLabels": [
+						"Skill",
+						"Areas"
+					],
+					"colStyles": [
+						"col-1",
+						"col-11"
+					],
+					"rows": [
+						[
+							"{@skill Arcana}",
+							"Spells, magic items, eldritch symbols, magical traditions, planes of existence, and certain creatures (Aberrations, Constructs, Elementals, Fey, and Monstrosities)"
+						],
+						[
+							"{@skill History}",
+							"Historic events and people, ancient civilizations, wars, and certain creatures (Giants and Humanoids)"
+						],
+						[
+							"{@skill Investigation}",
+							"Traps, ciphers, riddles, and gadgetry"
+						],
+						[
+							"{@skill Nature}",
+							"Terrain, flora, weather, and certain creatures (Beasts, Dragons, Oozes, and Plants)"
+						],
+						[
+							"{@skill Religion}",
+							"Deities, religious hierarchies and rites, holy symbols, cults, and certain creatures (Celestials, Fiends, and Undead)"
+						]
+					]
+				}
+			]
+		}
+	],
+	"sense": [
+		{
+			"name": "Blindsight",
+			"source": "XUA2023PlayersHandbookP7",
+			"page": 48,
+			"entries": [
+				"If you have Blindsight, you can see within a specific range without relying on physical sight. Within that range, you can effectively see anything that isn't behind Total Cover, even if you have the {@condition Blinded} condition or are in Darkness. Moreover, in that range, you can effectively see a creature that has the {@condition Invisible|XUA2023PlayersHandbookP7} condition."
+			]
+		},
+		{
+			"name": "Tremorsense",
+			"source": "XUA2023PlayersHandbookP7",
+			"page": 53,
+			"entries": [
+				"A creature with Tremorsense can pinpoint the location of creatures and moving objects within a specific range, provided that the creature with Tremorsense and anything it's detecting are both in contact with the same surface (such as the ground, a wall, or a ceiling) or the same liquid.",
+				"Tremorsense can't detect creatures or objects in the air, and Tremorsense doesn't count as a form of sight."
+			]
+		},
+		{
+			"name": "Truesight",
+			"source": "XUA2023PlayersHandbookP7",
+			"page": 53,
+			"entries": [
+				"A creature with Truesight has enhanced vision within a specified range. Within that range, the creature's vision pierces through the following:",
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"items": [
+						{
+							"type": "item",
+							"name": "Darkness",
+							"entries": [
+								"The creature can see in normal and magical darkness."
+							]
+						},
+						{
+							"type": "item",
+							"name": "Invisibility",
+							"entries": [
+								"The creature can see creatures that have the {@condition Invisible|XUA2023PlayersHandbookP7} condition and objects that are obscured by magic."
+							]
+						},
+						{
+							"type": "item",
+							"name": "Visual Illusions",
+							"entries": [
+								"Visual illusions appear transparent to the creature, and the creature automatically succeeds on saving throws against them."
+							]
+						},
+						{
+							"type": "item",
+							"name": "Transformations",
+							"entries": [
+								"The creature discerns the true form of any creature or object it sees that has been transformed by magic."
+							]
+						},
+						{
+							"type": "item",
+							"name": "Ethereal Plane",
+							"entries": [
+								"The creature can see into the Ethereal Plane."
+							]
+						}
+					]
+				}
 			]
 		}
 	],
