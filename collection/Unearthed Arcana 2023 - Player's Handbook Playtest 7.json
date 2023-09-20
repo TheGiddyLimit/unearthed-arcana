@@ -335,14 +335,1464 @@
 			]
 		}
 	],
+	"baseitem": [
+		{
+			"name": "Battleaxe",
+			"source": "XUA2023PlayersHandbookP7",
+			"page": 45,
+			"type": "M",
+			"rarity": "none",
+			"weight": 4,
+			"value": 1000,
+			"weaponCategory": "martial",
+			"property": [
+				"V"
+			],
+			"mastery": [
+				"Topple|XUA2023PlayersHandbookP7"
+			],
+			"dmg1": "1d8",
+			"dmgType": "S",
+			"dmg2": "1d10",
+			"axe": true,
+			"weapon": true
+		},
+		{
+			"name": "Blowgun",
+			"source": "XUA2023PlayersHandbookP7",
+			"page": 45,
+			"type": "R",
+			"rarity": "none",
+			"weight": 1,
+			"value": 1000,
+			"weaponCategory": "martial",
+			"property": [
+				"A",
+				"LD"
+			],
+			"mastery": [
+				"Vex|XUA2023PlayersHandbookP7"
+			],
+			"range": "25/100",
+			"dmg1": "1",
+			"dmgType": "P",
+			"weapon": true,
+			"ammoType": "blowgun needle|phb"
+		},
+		{
+			"name": "Club",
+			"source": "XUA2023PlayersHandbookP7",
+			"page": 45,
+			"type": "M",
+			"rarity": "none",
+			"weight": 2,
+			"value": 10,
+			"weaponCategory": "simple",
+			"property": [
+				"XUA2023PlayersHandbookP7-L"
+			],
+			"mastery": [
+				"Slow|XUA2023PlayersHandbookP7"
+			],
+			"dmg1": "1d4",
+			"dmgType": "B",
+			"club": true,
+			"weapon": true
+		},
+		{
+			"name": "Crossbow, Hand",
+			"source": "XUA2023PlayersHandbookP7",
+			"page": 45,
+			"type": "R",
+			"rarity": "none",
+			"weight": 3,
+			"value": 7500,
+			"weaponCategory": "martial",
+			"property": [
+				"A",
+				"XUA2023PlayersHandbookP7-L",
+				"LD"
+			],
+			"mastery": [
+				"Vex|XUA2023PlayersHandbookP7"
+			],
+			"range": "30/120",
+			"dmg1": "1d6",
+			"dmgType": "P",
+			"crossbow": true,
+			"weapon": true,
+			"ammoType": "crossbow bolt|phb"
+		},
+		{
+			"name": "Crossbow, Heavy",
+			"source": "XUA2023PlayersHandbookP7",
+			"page": 45,
+			"type": "R",
+			"rarity": "none",
+			"weight": 18,
+			"value": 5000,
+			"weaponCategory": "martial",
+			"property": [
+				"A",
+				"XUA2023PlayersHandbookP7-H",
+				"LD",
+				"2H"
+			],
+			"mastery": [
+				"Push|XUA2023PlayersHandbookP7"
+			],
+			"range": "100/400",
+			"dmg1": "1d10",
+			"dmgType": "P",
+			"crossbow": true,
+			"weapon": true,
+			"ammoType": "crossbow bolt|phb"
+		},
+		{
+			"name": "Crossbow, Light",
+			"source": "XUA2023PlayersHandbookP7",
+			"page": 45,
+			"type": "R",
+			"rarity": "none",
+			"weight": 5,
+			"value": 2500,
+			"weaponCategory": "simple",
+			"property": [
+				"A",
+				"LD",
+				"2H"
+			],
+			"mastery": [
+				"Slow|XUA2023PlayersHandbookP7"
+			],
+			"range": "80/320",
+			"dmg1": "1d8",
+			"dmgType": "P",
+			"crossbow": true,
+			"weapon": true,
+			"ammoType": "crossbow bolt|phb"
+		},
+		{
+			"name": "Dagger",
+			"source": "XUA2023PlayersHandbookP7",
+			"page": 45,
+			"type": "M",
+			"rarity": "none",
+			"weight": 1,
+			"value": 200,
+			"weaponCategory": "simple",
+			"property": [
+				"F",
+				"XUA2023PlayersHandbookP7-L",
+				"XUA2023PlayersHandbookP7-T"
+			],
+			"mastery": [
+				"Nick|XUA2023PlayersHandbookP7"
+			],
+			"range": "20/60",
+			"dmg1": "1d4",
+			"dmgType": "P",
+			"dagger": true,
+			"weapon": true
+		},
+		{
+			"name": "Dart",
+			"source": "XUA2023PlayersHandbookP7",
+			"page": 45,
+			"type": "R",
+			"rarity": "none",
+			"weight": 0.25,
+			"value": 5,
+			"weaponCategory": "simple",
+			"property": [
+				"F",
+				"XUA2023PlayersHandbookP7-T"
+			],
+			"mastery": [
+				"Vex|XUA2023PlayersHandbookP7"
+			],
+			"range": "20/60",
+			"dmg1": "1d4",
+			"dmgType": "P",
+			"weapon": true
+		},
+		{
+			"name": "Flail",
+			"source": "XUA2023PlayersHandbookP7",
+			"page": 45,
+			"type": "M",
+			"rarity": "none",
+			"weight": 2,
+			"value": 1000,
+			"weaponCategory": "martial",
+			"mastery": [
+				"Sap|XUA2023PlayersHandbookP7"
+			],
+			"dmg1": "1d8",
+			"dmgType": "B",
+			"weapon": true
+		},
+		{
+			"name": "Glaive",
+			"source": "XUA2023PlayersHandbookP7",
+			"page": 45,
+			"type": "M",
+			"rarity": "none",
+			"weight": 6,
+			"value": 2000,
+			"weaponCategory": "martial",
+			"property": [
+				"XUA2023PlayersHandbookP7-H",
+				"R",
+				"2H"
+			],
+			"mastery": [
+				"Graze|XUA2023PlayersHandbookP7"
+			],
+			"dmg1": "1d10",
+			"dmgType": "S",
+			"weapon": true
+		},
+		{
+			"name": "Greataxe",
+			"source": "XUA2023PlayersHandbookP7",
+			"page": 45,
+			"type": "M",
+			"rarity": "none",
+			"weight": 7,
+			"value": 3000,
+			"weaponCategory": "martial",
+			"property": [
+				"XUA2023PlayersHandbookP7-H",
+				"2H"
+			],
+			"mastery": [
+				"Cleave|XUA2023PlayersHandbookP7"
+			],
+			"dmg1": "1d12",
+			"dmgType": "S",
+			"axe": true,
+			"weapon": true
+		},
+		{
+			"name": "Greatclub",
+			"source": "XUA2023PlayersHandbookP7",
+			"page": 45,
+			"type": "M",
+			"rarity": "none",
+			"weight": 10,
+			"value": 20,
+			"weaponCategory": "simple",
+			"property": [
+				"2H"
+			],
+			"mastery": [
+				"Push|XUA2023PlayersHandbookP7"
+			],
+			"dmg1": "1d8",
+			"dmgType": "B",
+			"club": true,
+			"weapon": true
+		},
+		{
+			"name": "Greatsword",
+			"source": "XUA2023PlayersHandbookP7",
+			"page": 45,
+			"type": "M",
+			"rarity": "none",
+			"weight": 6,
+			"value": 5000,
+			"weaponCategory": "martial",
+			"property": [
+				"XUA2023PlayersHandbookP7-H",
+				"2H"
+			],
+			"mastery": [
+				"Graze|XUA2023PlayersHandbookP7"
+			],
+			"dmg1": "2d6",
+			"dmgType": "S",
+			"sword": true,
+			"weapon": true
+		},
+		{
+			"name": "Halberd",
+			"source": "XUA2023PlayersHandbookP7",
+			"page": 45,
+			"type": "M",
+			"rarity": "none",
+			"weight": 6,
+			"value": 2000,
+			"weaponCategory": "martial",
+			"property": [
+				"XUA2023PlayersHandbookP7-H",
+				"R",
+				"2H"
+			],
+			"mastery": [
+				"Cleave|XUA2023PlayersHandbookP7"
+			],
+			"dmg1": "1d10",
+			"dmgType": "S",
+			"weapon": true
+		},
+		{
+			"name": "Handaxe",
+			"source": "XUA2023PlayersHandbookP7",
+			"page": 45,
+			"type": "M",
+			"rarity": "none",
+			"weight": 2,
+			"value": 500,
+			"weaponCategory": "simple",
+			"property": [
+				"XUA2023PlayersHandbookP7-L",
+				"XUA2023PlayersHandbookP7-T"
+			],
+			"mastery": [
+				"Vex|XUA2023PlayersHandbookP7"
+			],
+			"range": "20/60",
+			"dmg1": "1d6",
+			"dmgType": "S",
+			"axe": true,
+			"weapon": true
+		},
+		{
+			"name": "Javelin",
+			"source": "XUA2023PlayersHandbookP7",
+			"page": 45,
+			"type": "M",
+			"rarity": "none",
+			"weight": 2,
+			"value": 50,
+			"weaponCategory": "simple",
+			"property": [
+				"XUA2023PlayersHandbookP7-T"
+			],
+			"mastery": [
+				"Slow|XUA2023PlayersHandbookP7"
+			],
+			"range": "30/120",
+			"dmg1": "1d6",
+			"dmgType": "P",
+			"spear": true,
+			"weapon": true
+		},
+		{
+			"name": "Lance",
+			"source": "XUA2023PlayersHandbookP7",
+			"page": 45,
+			"type": "M",
+			"rarity": "none",
+			"weight": 6,
+			"value": 1000,
+			"weaponCategory": "martial",
+			"property": [
+				"XUA2023PlayersHandbookP7-H",
+				"R",
+				"2H"
+			],
+			"mastery": [
+				"Topple|XUA2023PlayersHandbookP7"
+			],
+			"dmg1": "1d10",
+			"dmgType": "P",
+			"weapon": true,
+			"entries": [
+				"{@note The lance does not have the Two-Handed property when mounted.}"
+			]
+		},
+		{
+			"name": "Light Hammer",
+			"source": "XUA2023PlayersHandbookP7",
+			"page": 45,
+			"type": "M",
+			"rarity": "none",
+			"weight": 2,
+			"value": 200,
+			"weaponCategory": "simple",
+			"property": [
+				"XUA2023PlayersHandbookP7-L",
+				"XUA2023PlayersHandbookP7-T"
+			],
+			"mastery": [
+				"Nick|XUA2023PlayersHandbookP7"
+			],
+			"range": "20/60",
+			"dmg1": "1d4",
+			"dmgType": "B",
+			"hammer": true,
+			"weapon": true
+		},
+		{
+			"name": "Longbow",
+			"source": "XUA2023PlayersHandbookP7",
+			"page": 46,
+			"type": "R",
+			"rarity": "none",
+			"weight": 2,
+			"value": 5000,
+			"weaponCategory": "martial",
+			"property": [
+				"A",
+				"XUA2023PlayersHandbookP7-H",
+				"2H"
+			],
+			"mastery": [
+				"Slow|XUA2023PlayersHandbookP7"
+			],
+			"range": "150/600",
+			"dmg1": "1d8",
+			"dmgType": "P",
+			"bow": true,
+			"weapon": true,
+			"ammoType": "arrow|phb"
+		},
+		{
+			"name": "Longsword",
+			"source": "XUA2023PlayersHandbookP7",
+			"page": 45,
+			"type": "M",
+			"rarity": "none",
+			"weight": 3,
+			"value": 1500,
+			"weaponCategory": "martial",
+			"property": [
+				"V"
+			],
+			"mastery": [
+				"Sap|XUA2023PlayersHandbookP7"
+			],
+			"dmg1": "1d8",
+			"dmgType": "S",
+			"dmg2": "1d10",
+			"sword": true,
+			"weapon": true
+		},
+		{
+			"name": "Mace",
+			"source": "XUA2023PlayersHandbookP7",
+			"page": 45,
+			"type": "M",
+			"rarity": "none",
+			"weight": 4,
+			"value": 500,
+			"weaponCategory": "simple",
+			"mastery": [
+				"Sap|XUA2023PlayersHandbookP7"
+			],
+			"dmg1": "1d6",
+			"dmgType": "B",
+			"mace": true,
+			"weapon": true
+		},
+		{
+			"name": "Maul",
+			"source": "XUA2023PlayersHandbookP7",
+			"page": 45,
+			"type": "M",
+			"rarity": "none",
+			"weight": 10,
+			"value": 1000,
+			"weaponCategory": "martial",
+			"property": [
+				"XUA2023PlayersHandbookP7-H",
+				"2H"
+			],
+			"mastery": [
+				"Topple|XUA2023PlayersHandbookP7"
+			],
+			"dmg1": "2d6",
+			"dmgType": "B",
+			"hammer": true,
+			"weapon": true
+		},
+		{
+			"name": "Morningstar",
+			"source": "XUA2023PlayersHandbookP7",
+			"page": 45,
+			"type": "M",
+			"rarity": "none",
+			"weight": 4,
+			"value": 1500,
+			"weaponCategory": "martial",
+			"mastery": [
+				"Sap|XUA2023PlayersHandbookP7"
+			],
+			"dmg1": "1d8",
+			"dmgType": "P",
+			"mace": true,
+			"weapon": true
+		},
+		{
+			"name": "Musket",
+			"source": "XUA2023PlayersHandbookP7",
+			"page": 46,
+			"type": "R",
+			"rarity": "none",
+			"weight": 10,
+			"value": 50000,
+			"weaponCategory": "martial",
+			"property": [
+				"AF",
+				"LD",
+				"2H"
+			],
+			"mastery": [
+				"Slow|XUA2023PlayersHandbookP7"
+			],
+			"range": "40/120",
+			"dmg1": "1d12",
+			"dmgType": "P",
+			"firearm": true,
+			"weapon": true,
+			"ammoType": "renaissance bullet"
+		},
+		{
+			"name": "Pike",
+			"source": "XUA2023PlayersHandbookP7",
+			"page": 45,
+			"type": "M",
+			"rarity": "none",
+			"weight": 18,
+			"value": 500,
+			"weaponCategory": "martial",
+			"property": [
+				"XUA2023PlayersHandbookP7-H",
+				"R",
+				"2H"
+			],
+			"mastery": [
+				"Push|XUA2023PlayersHandbookP7"
+			],
+			"dmg1": "1d10",
+			"dmgType": "P",
+			"weapon": true
+		},
+		{
+			"name": "Pistol",
+			"source": "XUA2023PlayersHandbookP7",
+			"page": 46,
+			"type": "R",
+			"rarity": "none",
+			"weight": 3,
+			"value": 25000,
+			"weaponCategory": "martial",
+			"property": [
+				"AF",
+				"LD"
+			],
+			"mastery": [
+				"Vex|XUA2023PlayersHandbookP7"
+			],
+			"range": "30/90",
+			"dmg1": "1d10",
+			"dmgType": "P",
+			"firearm": true,
+			"weapon": true,
+			"ammoType": "renaissance bullet"
+		},
+		{
+			"name": "Quarterstaff",
+			"source": "XUA2023PlayersHandbookP7",
+			"page": 45,
+			"type": "M",
+			"rarity": "none",
+			"weight": 4,
+			"value": 20,
+			"weaponCategory": "simple",
+			"property": [
+				"V"
+			],
+			"mastery": [
+				"Topple|XUA2023PlayersHandbookP7"
+			],
+			"dmg1": "1d6",
+			"dmgType": "B",
+			"dmg2": "1d8",
+			"weapon": true
+		},
+		{
+			"name": "Rapier",
+			"source": "XUA2023PlayersHandbookP7",
+			"page": 45,
+			"type": "M",
+			"rarity": "none",
+			"weight": 2,
+			"value": 2500,
+			"weaponCategory": "martial",
+			"property": [
+				"F"
+			],
+			"mastery": [
+				"Vex|XUA2023PlayersHandbookP7"
+			],
+			"dmg1": "1d8",
+			"dmgType": "P",
+			"sword": true,
+			"weapon": true
+		},
+		{
+			"name": "Scimitar",
+			"source": "XUA2023PlayersHandbookP7",
+			"page": 45,
+			"type": "M",
+			"rarity": "none",
+			"weight": 3,
+			"value": 2500,
+			"weaponCategory": "martial",
+			"property": [
+				"F",
+				"XUA2023PlayersHandbookP7-L"
+			],
+			"mastery": [
+				"Nick|XUA2023PlayersHandbookP7"
+			],
+			"dmg1": "1d6",
+			"dmgType": "S",
+			"sword": true,
+			"weapon": true
+		},
+		{
+			"name": "Shortbow",
+			"source": "XUA2023PlayersHandbookP7",
+			"page": 45,
+			"type": "R",
+			"rarity": "none",
+			"weight": 2,
+			"value": 2500,
+			"weaponCategory": "simple",
+			"property": [
+				"A",
+				"2H"
+			],
+			"mastery": [
+				"Vex|XUA2023PlayersHandbookP7"
+			],
+			"range": "80/320",
+			"dmg1": "1d6",
+			"dmgType": "P",
+			"bow": true,
+			"weapon": true,
+			"ammoType": "arrow|phb"
+		},
+		{
+			"name": "Shortsword",
+			"source": "XUA2023PlayersHandbookP7",
+			"page": 45,
+			"type": "M",
+			"rarity": "none",
+			"weight": 2,
+			"value": 1000,
+			"weaponCategory": "martial",
+			"property": [
+				"F",
+				"XUA2023PlayersHandbookP7-L"
+			],
+			"mastery": [
+				"Vex|XUA2023PlayersHandbookP7"
+			],
+			"dmg1": "1d6",
+			"dmgType": "P",
+			"sword": true,
+			"weapon": true
+		},
+		{
+			"name": "Sickle",
+			"source": "XUA2023PlayersHandbookP7",
+			"page": 45,
+			"type": "M",
+			"rarity": "none",
+			"weight": 2,
+			"value": 100,
+			"weaponCategory": "simple",
+			"property": [
+				"XUA2023PlayersHandbookP7-L"
+			],
+			"mastery": [
+				"Nick|XUA2023PlayersHandbookP7"
+			],
+			"dmg1": "1d4",
+			"dmgType": "S",
+			"weapon": true
+		},
+		{
+			"name": "Sling",
+			"source": "XUA2023PlayersHandbookP7",
+			"page": 45,
+			"type": "R",
+			"rarity": "none",
+			"value": 10,
+			"weaponCategory": "simple",
+			"property": [
+				"A"
+			],
+			"mastery": [
+				"Slow|XUA2023PlayersHandbookP7"
+			],
+			"range": "30/120",
+			"dmg1": "1d4",
+			"dmgType": "B",
+			"weapon": true,
+			"ammoType": "sling bullet|phb"
+		},
+		{
+			"name": "Spear",
+			"source": "XUA2023PlayersHandbookP7",
+			"page": 45,
+			"type": "M",
+			"rarity": "none",
+			"weight": 3,
+			"value": 100,
+			"weaponCategory": "simple",
+			"property": [
+				"XUA2023PlayersHandbookP7-T",
+				"V"
+			],
+			"mastery": [
+				"Sap|XUA2023PlayersHandbookP7"
+			],
+			"range": "20/60",
+			"dmg1": "1d6",
+			"dmgType": "P",
+			"dmg2": "1d8",
+			"spear": true,
+			"weapon": true
+		},
+		{
+			"name": "Trident",
+			"source": "XUA2023PlayersHandbookP7",
+			"page": 45,
+			"type": "M",
+			"rarity": "none",
+			"weight": 4,
+			"value": 500,
+			"weaponCategory": "martial",
+			"property": [
+				"XUA2023PlayersHandbookP7-T",
+				"V"
+			],
+			"mastery": [
+				"Topple|XUA2023PlayersHandbookP7"
+			],
+			"range": "20/60",
+			"dmg1": "1d8",
+			"dmgType": "P",
+			"dmg2": "1d10",
+			"weapon": true
+		},
+		{
+			"name": "War Pick",
+			"source": "XUA2023PlayersHandbookP7",
+			"page": 45,
+			"type": "M",
+			"rarity": "none",
+			"weight": 2,
+			"value": 500,
+			"weaponCategory": "martial",
+			"property": [
+				"V"
+			],
+			"mastery": [
+				"Sap|XUA2023PlayersHandbookP7"
+			],
+			"dmg1": "1d8",
+			"dmgType": "P",
+			"dmg2": "1d10",
+			"weapon": true
+		},
+		{
+			"name": "Warhammer",
+			"source": "XUA2023PlayersHandbookP7",
+			"page": 45,
+			"type": "M",
+			"rarity": "none",
+			"weight": 2,
+			"value": 1500,
+			"weaponCategory": "martial",
+			"property": [
+				"V"
+			],
+			"mastery": [
+				"Push|XUA2023PlayersHandbookP7"
+			],
+			"dmg1": "1d8",
+			"dmgType": "B",
+			"dmg2": "1d10",
+			"hammer": true,
+			"weapon": true
+		},
+		{
+			"name": "Whip",
+			"source": "XUA2023PlayersHandbookP7",
+			"page": 45,
+			"type": "M",
+			"rarity": "none",
+			"weight": 3,
+			"value": 200,
+			"weaponCategory": "martial",
+			"property": [
+				"F",
+				"R"
+			],
+			"mastery": [
+				"Slow|XUA2023PlayersHandbookP7"
+			],
+			"dmg1": "1d4",
+			"dmgType": "S",
+			"weapon": true
+		}
+	],
+	"item": [
+		{
+			"name": "Net",
+			"source": "XUA2023PlayersHandbookP7",
+			"page": 47,
+			"type": "G",
+			"rarity": "none",
+			"weight": 3,
+			"value": 100,
+			"entries": [
+				"When you take the {@action Attack|XUA2023PlayersHandbookP7} action on your turn, you can replace one of your attacks with a throw of the net at a creature within 15 feet of yourself. The target must make a Dexterity saving throw against a DC equal to 8 + your Proficiency Bonus + your Dexterity modifier. The target succeeds automatically if it's Huge or larger.",
+				"On a failed save, the target has the {@condition Restrained} condition until it escapes the net. To escape, the target must use its action to make a {@dc 10} Strength ({@skill Athletics}) check, escaping on a success. A creature within 5 feet of the target can use its action to attempt the same thing. Destroying the net (AC 10; 5 HP; immunity to Bludgeoning, Poison, and Psychic damage) also frees the target, ending the effect."
+			]
+		},
+		{
+			"name": "Priest's Pack",
+			"source": "XUA2023PlayersHandbookP7",
+			"page": 47,
+			"type": "G",
+			"rarity": "none",
+			"weight": 29,
+			"value": 3300,
+			"entries": [
+				"A Priest's Pack contains the following items:",
+				{
+					"type": "list",
+					"items": [
+						"{@item Backpack|PHB} (5 lb.)",
+						"{@item Blanket|PHB} (3 lb.)",
+						"{@item Holy Water (flask)|PHB|Holy Water} (1 lb.)",
+						"{@item Lamp|PHB} (1 lb.)",
+						"{@item Rations (1 day)|PHB|Rations} (7 days; 14 lbs)",
+						"{@item Robes|PHB|Robe} (4 lb.)",
+						"{@item Tinderbox|PHB} (1 lb.)"
+					]
+				}
+			],
+			"packContents": [
+				"backpack|PHB",
+				"blanket|PHB",
+				"holy water (flask)|PHB",
+				"lamp|PHB",
+				{
+					"item": "rations (1 day)|PHB",
+					"quantity": 7
+				},
+				"robes|PHB",
+				"tinderbox|PHB"
+			]
+		}
+	],
+	"itemProperty": [
+		{
+			"abbreviation": "XUA2023PlayersHandbookP7-H",
+			"source": "XUA2023PlayersHandbookP7",
+			"page": 46,
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Heavy",
+					"entries": [
+						"A Heavy weapon is unwieldy compared to other weapons. You have Disadvantage on your attack rolls with a Heavy weapon if it's a melee weapon and your Strength score isn't at least 13 and if it's a ranged weapon and your Dexterity score isn't at least 13."
+					]
+				}
+			]
+		},
+		{
+			"abbreviation": "XUA2023PlayersHandbookP7-L",
+			"source": "XUA2023PlayersHandbookP7",
+			"page": 46,
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Light",
+					"entries": [
+						"When you take the {@action Attack|XUA2023PlayersHandbookP7} action on your turn and attack with a Light weapon, you can make one extra attack as a Bonus Action later on the same turn. That extra attack must be made with a different Light weapon, and you don't add your ability modifier to the extra attack's damage, unless that modifier is negative.",
+						"For example, if you take the {@action Attack|XUA2023PlayersHandbookP7} action on your turn and have a Shortsword in one hand and a Dagger in the other\u2014each of which has the Light property\u2014you can make one attack with each weapon, using your action and a Bonus Action, but you don't add your Strength or Dexterity modifier to the damage roll of the Bonus Action, unless that modifier is negative."
+					]
+				}
+			]
+		},
+		{
+			"abbreviation": "XUA2023PlayersHandbookP7-T",
+			"source": "XUA2023PlayersHandbookP7",
+			"page": 46,
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Thrown",
+					"entries": [
+						"If a weapon has the Thrown property, you can throw the weapon to make a ranged attack, and you can draw that weapon as part of the attack.",
+						"If the weapon is a melee weapon, you use the same ability modifier for that attack roll and damage roll that you would use for a melee attack with the weapon. For example, if you throw a Handaxe, you use your Strength, but if you throw a Dagger, you can use either your Strength or your Dexterity, since the Dagger has the Finesse property."
+					]
+				}
+			]
+		}
+	],
+	"itemMastery": [
+		{
+			"name": "Cleave",
+			"source": "XUA2023PlayersHandbookP7",
+			"prerequisite": [
+				{
+					"itemType": [
+						"M"
+					],
+					"itemProperty": [
+						"XUA2023PlayersHandbookP7-H"
+					]
+				}
+			],
+			"entries": [
+				"If you hit a creature with a melee attack using this weapon, you can make an attack roll with the weapon against a second creature within 5 feet of the first that is also within your reach. On a hit, the second creature takes the weapon's damage, but don't add your ability modifier to that damage, unless that modifier is negative. You can make this extra attack only once per turn."
+			]
+		},
+		{
+			"name": "Graze",
+			"source": "XUA2023PlayersHandbookP7",
+			"prerequisite": [
+				{
+					"itemType": [
+						"M"
+					],
+					"itemProperty": [
+						"XUA2023PlayersHandbookP7-H"
+					]
+				}
+			],
+			"entries": [
+				"If your attack roll with this weapon misses a creature, you can deal damage to that creature equal to the ability modifier you used to make the attack roll. This damage is the same type dealt by the weapon, and the damage can't be increased in any way, other than increasing the ability modifier."
+			]
+		},
+		{
+			"name": "Nick",
+			"source": "XUA2023PlayersHandbookP7",
+			"prerequisite": [
+				{
+					"itemProperty": [
+						"XUA2023PlayersHandbookP7-L"
+					]
+				}
+			],
+			"entries": [
+				"When you make the extra attack of the Light property, you can make it as part of the {@action Attack|XUA2023PlayersHandbookP7} action, instead of as a Bonus Action. You can still make this extra attack only once per turn."
+			]
+		},
+		{
+			"name": "Push",
+			"source": "XUA2023PlayersHandbookP7",
+			"prerequisite": [
+				{
+					"itemProperty": [
+						"XUA2023PlayersHandbookP7-H"
+					]
+				},
+				{
+					"itemProperty": [
+						"2H"
+					]
+				},
+				{
+					"itemProperty": [
+						"V"
+					]
+				}
+			],
+			"entries": [
+				"If you hit a creature with this weapon, you can push the creature up to 10 feet straight away from yourself if it is Large or smaller."
+			]
+		},
+		{
+			"name": "Sap",
+			"source": "XUA2023PlayersHandbookP7",
+			"prerequisite": [
+				{
+					"itemProperty": [
+						"V"
+					]
+				},
+				{
+					"itemProperty": null
+				}
+			],
+			"entries": [
+				"If you hit a creature with this weapon, that creature has Disadvantage on its next attack roll before the start of your next turn."
+			]
+		},
+		{
+			"name": "Slow",
+			"source": "XUA2023PlayersHandbookP7",
+			"entries": [
+				"If you hit a creature with this weapon and deal damage to the creature, you can reduce its Speed by 10 feet until the start of your next turn. If you hit the creature more than once with this property, the Speed reduction doesn't exceed 10 feet."
+			]
+		},
+		{
+			"name": "Topple",
+			"source": "XUA2023PlayersHandbookP7",
+			"prerequisite": [
+				{
+					"itemProperty": [
+						"XUA2023PlayersHandbookP7-H"
+					]
+				},
+				{
+					"itemProperty": [
+						"R"
+					]
+				},
+				{
+					"itemProperty": [
+						"V"
+					]
+				}
+			],
+			"entries": [
+				"If you hit a creature with this weapon, you can force the creature to make a Constitution saving throw with a DC equal to 8 + your Proficiency Bonus + the ability modifier used to make the attack roll. On a failed save, the creature has the {@condition Prone} condition."
+			]
+		},
+		{
+			"name": "Vex",
+			"source": "XUA2023PlayersHandbookP7",
+			"prerequisite": [
+				{
+					"itemProperty": [
+						"A"
+					]
+				},
+				{
+					"itemProperty": [
+						"F"
+					]
+				},
+				{
+					"itemProperty": [
+						"XUA2023PlayersHandbookP7-L"
+					]
+				}
+			],
+			"entries": [
+				"If you hit a creature with this weapon and deal damage to the creature, you have Advantage on your next attack roll against that creature before the end of your next turn."
+			]
+		}
+	],
 	"variantrule": [
 		{
 			"name": "Bonus Feats at Level 20",
 			"source": "XUA2023PlayersHandbookP7",
 			"page": 44,
-			"ruleType": "O",
+			"ruleType": "P",
 			"entries": [
 				"A DM can use bonus feats as a form of advancement after characters reach level 20 to provide greater power to characters who have no more levels to gain. With this approach, each character gains one feat of their choice for every 30,000 XP the character earns above 355,000 XP. Epic Boon feats are especially appropriate for these bonus feats, but a player can choose any feat for which their level 20 character qualifies."
+			]
+		}
+	],
+	"table": [
+		{
+			"name": "Martial Weapons: Melee",
+			"source": "XUA2023PlayersHandbookP7",
+			"page": 45,
+			"colLabels": [
+				"Weapon",
+				"Damage",
+				"Properties",
+				"Mastery",
+				"Weight",
+				"Cost"
+			],
+			"colStyles": [
+				"col-2",
+				"col-2",
+				"col-5",
+				"col-1",
+				"col-1 text-right",
+				"col-1 text-right"
+			],
+			"rows": [
+				[
+					"{@item Battleaxe|XUA2023PlayersHandbookP7}",
+					"{@damage 1d8} Slashing",
+					"Versatile ({@damage 1d10})",
+					"{@itemMastery Topple|XUA2023PlayersHandbookP7}",
+					"4 lb.",
+					"10 GP"
+				],
+				[
+					"{@item Flail|XUA2023PlayersHandbookP7}",
+					"{@damage 1d8} Bludgeoning",
+					"\u2014",
+					"{@itemMastery Sap|XUA2023PlayersHandbookP7}",
+					"2 lb.",
+					"10 GP"
+				],
+				[
+					"{@item Glaive|XUA2023PlayersHandbookP7}",
+					"{@damage 1d10} Slashing",
+					"Heavy, Reach, Two-Handed",
+					"{@itemMastery Graze|XUA2023PlayersHandbookP7}",
+					"6 lb.",
+					"20 GP"
+				],
+				[
+					"{@item Greataxe|XUA2023PlayersHandbookP7}",
+					"{@damage 1d12} Slashing",
+					"Heavy, Two-Handed",
+					"{@itemMastery Cleave|XUA2023PlayersHandbookP7}",
+					"7 lb.",
+					"30 GP"
+				],
+				[
+					"{@item Greatsword|XUA2023PlayersHandbookP7}",
+					"{@damage 2d6} Slashing",
+					"Heavy, Two-Handed",
+					"{@itemMastery Graze|XUA2023PlayersHandbookP7}",
+					"6 lb.",
+					"50 GP"
+				],
+				[
+					"{@item Halberd|XUA2023PlayersHandbookP7}",
+					"{@damage 1d10} Slashing",
+					"Heavy, Reach, Two-Handed",
+					"{@itemMastery Cleave|XUA2023PlayersHandbookP7}",
+					"6 lb.",
+					"20 GP"
+				],
+				[
+					"{@item Lance|XUA2023PlayersHandbookP7}",
+					"{@damage 1d10} Piercing",
+					"Heavy, Reach, Two-Handed (unless mounted)",
+					"{@itemMastery Topple|XUA2023PlayersHandbookP7}",
+					"6 lb.",
+					"10 GP"
+				],
+				[
+					"{@item Longsword|XUA2023PlayersHandbookP7}",
+					"{@damage 1d8} Slashing",
+					"Versatile ({@damage 1d10})",
+					"{@itemMastery Sap|XUA2023PlayersHandbookP7}",
+					"3 lb.",
+					"15 GP"
+				],
+				[
+					"{@item Maul|XUA2023PlayersHandbookP7}",
+					"{@damage 2d6} Bludgeoning",
+					"Heavy, Two-Handed",
+					"{@itemMastery Topple|XUA2023PlayersHandbookP7}",
+					"10 lb.",
+					"10 GP"
+				],
+				[
+					"{@item Morningstar|XUA2023PlayersHandbookP7}",
+					"{@damage 1d8} Piercing",
+					"\u2014",
+					"{@itemMastery Sap|XUA2023PlayersHandbookP7}",
+					"4 lb.",
+					"15 GP"
+				],
+				[
+					"{@item Pike|XUA2023PlayersHandbookP7}",
+					"{@damage 1d10} Piercing",
+					"Heavy, Reach, Two-Handed",
+					"{@itemMastery Push|XUA2023PlayersHandbookP7}",
+					"18 lb.",
+					"5 GP"
+				],
+				[
+					"{@item Rapier|XUA2023PlayersHandbookP7}",
+					"{@damage 1d8} Piercing",
+					"Finesse",
+					"{@itemMastery Vex|XUA2023PlayersHandbookP7}",
+					"2 lb.",
+					"25 GP"
+				],
+				[
+					"{@item Scimitar|XUA2023PlayersHandbookP7}",
+					"{@damage 1d6} Slashing",
+					"Finesse, Light",
+					"{@itemMastery Nick|XUA2023PlayersHandbookP7}",
+					"3 lb.",
+					"25 GP"
+				],
+				[
+					"{@item Shortsword|XUA2023PlayersHandbookP7}",
+					"{@damage 1d6} Piercing",
+					"Finesse, Light",
+					"{@itemMastery Vex|XUA2023PlayersHandbookP7}",
+					"2 lb.",
+					"10 GP"
+				],
+				[
+					"{@item Trident|XUA2023PlayersHandbookP7}",
+					"{@damage 1d8} Piercing",
+					"Thrown (Range 20/60), Versatile ({@damage 1d10})",
+					"{@itemMastery Topple|XUA2023PlayersHandbookP7}",
+					"4 lb.",
+					"5 GP"
+				],
+				[
+					"{@item Warhammer|XUA2023PlayersHandbookP7}",
+					"{@damage 1d8} Bludgeoning",
+					"Versatile ({@damage 1d10})",
+					"{@itemMastery Push|XUA2023PlayersHandbookP7}",
+					"2 lb.",
+					"15 GP"
+				],
+				[
+					"{@item War Pick|XUA2023PlayersHandbookP7}",
+					"{@damage 1d8} Piercing",
+					"Versatile ({@damage 1d10})",
+					"{@itemMastery Sap|XUA2023PlayersHandbookP7}",
+					"2 lb.",
+					"5 GP"
+				],
+				[
+					"{@item Whip|XUA2023PlayersHandbookP7}",
+					"{@damage 1d4} Slashing",
+					"Finesse, Reach",
+					"{@itemMastery Slow|XUA2023PlayersHandbookP7}",
+					"3 lb.",
+					"2 GP"
+				]
+			]
+		},
+		{
+			"name": "Martial Weapons: Ranged",
+			"source": "XUA2023PlayersHandbookP7",
+			"page": 45,
+			"colLabels": [
+				"Weapon",
+				"Damage",
+				"Properties",
+				"Mastery",
+				"Weight",
+				"Cost"
+			],
+			"colStyles": [
+				"col-2",
+				"col-2",
+				"col-5",
+				"col-1",
+				"col-1 text-right",
+				"col-1 text-right"
+			],
+			"rows": [
+				[
+					"{@item Blowgun|XUA2023PlayersHandbookP7}",
+					"{@damage 1} Piercing",
+					"Ammunition (Range 25/100), Loading",
+					"{@itemMastery Vex|XUA2023PlayersHandbookP7}",
+					"1 lb.",
+					"10 GP"
+				],
+				[
+					"{@item Crossbow, Hand|XUA2023PlayersHandbookP7}",
+					"{@damage 1d6} Piercing",
+					"Ammunition (Range 30/120), Light, Loading",
+					"{@itemMastery Vex|XUA2023PlayersHandbookP7}",
+					"3 lb.",
+					"75 GP"
+				],
+				[
+					"{@item Crossbow, Heavy|XUA2023PlayersHandbookP7}",
+					"{@damage 1d10} Piercing",
+					"Ammunition (Range 100/400), Heavy, Loading, Two-Handed",
+					"{@itemMastery Push|XUA2023PlayersHandbookP7}",
+					"18 lb.",
+					"50 GP"
+				],
+				[
+					"{@item Longbow|XUA2023PlayersHandbookP7}",
+					"{@damage 1d8} Piercing",
+					"Ammunition (Range 150/600), Heavy, Two-Handed",
+					"{@itemMastery Slow|XUA2023PlayersHandbookP7}",
+					"2 lb.",
+					"50 GP"
+				],
+				[
+					"{@item Musket|XUA2023PlayersHandbookP7}",
+					"{@damage 1d12} Piercing",
+					"Ammunition (Range 40/120), Loading, Two-Handed",
+					"{@itemMastery Slow|XUA2023PlayersHandbookP7}",
+					"10 lb.",
+					"500 GP"
+				],
+				[
+					"{@item Pistol|XUA2023PlayersHandbookP7}",
+					"{@damage 1d10} Piercing",
+					"Ammunition (Range 30/90), Loading",
+					"{@itemMastery Vex|XUA2023PlayersHandbookP7}",
+					"3 lb.",
+					"250 GP"
+				]
+			]
+		},
+		{
+			"name": "Simple Weapons: Melee",
+			"source": "XUA2023PlayersHandbookP7",
+			"page": 45,
+			"colLabels": [
+				"Weapon",
+				"Damage",
+				"Properties",
+				"Mastery",
+				"Weight",
+				"Cost"
+			],
+			"colStyles": [
+				"col-2",
+				"col-2",
+				"col-5",
+				"col-1",
+				"col-1 text-right",
+				"col-1 text-right"
+			],
+			"rows": [
+				[
+					"{@item Club|XUA2023PlayersHandbookP7}",
+					"{@damage 1d4} Bludgeoning",
+					"Light",
+					"{@itemMastery Slow|XUA2023PlayersHandbookP7}",
+					"2 lb.",
+					"1 SP"
+				],
+				[
+					"{@item Dagger|XUA2023PlayersHandbookP7}",
+					"{@damage 1d4} Piercing",
+					"Finesse, Light, Thrown (Range 20/60)",
+					"{@itemMastery Nick|XUA2023PlayersHandbookP7}",
+					"1 lb.",
+					"2 GP"
+				],
+				[
+					"{@item Greatclub|XUA2023PlayersHandbookP7}",
+					"{@damage 1d8} Bludgeoning",
+					"Two-Handed",
+					"{@itemMastery Push|XUA2023PlayersHandbookP7}",
+					"10 lb.",
+					"2 SP"
+				],
+				[
+					"{@item Handaxe|XUA2023PlayersHandbookP7}",
+					"{@damage 1d6} Slashing",
+					"Light, Thrown (Range 20/60)",
+					"{@itemMastery Vex|XUA2023PlayersHandbookP7}",
+					"2 lb.",
+					"5 GP"
+				],
+				[
+					"{@item Javelin|XUA2023PlayersHandbookP7}",
+					"{@damage 1d6} Piercing",
+					"Thrown (Range 30/120)",
+					"{@itemMastery Slow|XUA2023PlayersHandbookP7}",
+					"2 lb.",
+					"5 SP"
+				],
+				[
+					"{@item Light Hammer|XUA2023PlayersHandbookP7}",
+					"{@damage 1d4} Bludgeoning",
+					"Light, Thrown (Range 20/60)",
+					"{@itemMastery Nick|XUA2023PlayersHandbookP7}",
+					"2 lb.",
+					"2 GP"
+				],
+				[
+					"{@item Mace|XUA2023PlayersHandbookP7}",
+					"{@damage 1d6} Bludgeoning",
+					"\u2014",
+					"{@itemMastery Sap|XUA2023PlayersHandbookP7}",
+					"4 lb.",
+					"5 GP"
+				],
+				[
+					"{@item Quarterstaff|XUA2023PlayersHandbookP7}",
+					"{@damage 1d6} Bludgeoning",
+					"Versatile ({@damage 1d8})",
+					"{@itemMastery Topple|XUA2023PlayersHandbookP7}",
+					"4 lb.",
+					"2 SP"
+				],
+				[
+					"{@item Sickle|XUA2023PlayersHandbookP7}",
+					"{@damage 1d4} Slashing",
+					"Light",
+					"{@itemMastery Nick|XUA2023PlayersHandbookP7}",
+					"2 lb.",
+					"1 GP"
+				],
+				[
+					"{@item Spear|XUA2023PlayersHandbookP7}",
+					"{@damage 1d6} Piercing",
+					"Thrown (Range 20/60), Versatile ({@damage 1d8})",
+					"{@itemMastery Sap|XUA2023PlayersHandbookP7}",
+					"3 lb.",
+					"1 GP"
+				]
+			]
+		},
+		{
+			"name": "Simple Weapons: Ranged",
+			"source": "XUA2023PlayersHandbookP7",
+			"page": 45,
+			"colLabels": [
+				"Weapon",
+				"Damage",
+				"Properties",
+				"Mastery",
+				"Weight",
+				"Cost"
+			],
+			"colStyles": [
+				"col-2",
+				"col-2",
+				"col-5",
+				"col-1",
+				"col-1 text-right",
+				"col-1 text-right"
+			],
+			"rows": [
+				[
+					"{@item Crossbow, Light|XUA2023PlayersHandbookP7}",
+					"{@damage 1d8} Piercing",
+					"Ammunition (Range 80/320), Loading, Two-Handed",
+					"{@itemMastery Slow|XUA2023PlayersHandbookP7}",
+					"5 lb.",
+					"25 GP"
+				],
+				[
+					"{@item Dart|XUA2023PlayersHandbookP7}",
+					"{@damage 1d4} Piercing",
+					"Finesse, Thrown (Range 20/60)",
+					"{@itemMastery Vex|XUA2023PlayersHandbookP7}",
+					"1/4 lb.",
+					"5 CP"
+				],
+				[
+					"{@item Shortbow|XUA2023PlayersHandbookP7}",
+					"{@damage 1d6} Piercing",
+					"Ammunition (Range 80/320), Two-Handed",
+					"{@itemMastery Vex|XUA2023PlayersHandbookP7}",
+					"2 lb.",
+					"25 GP"
+				],
+				[
+					"{@item Sling|XUA2023PlayersHandbookP7}",
+					"{@damage 1d4} Bludgeoning",
+					"Ammunition (Range 30/120)",
+					"{@itemMastery Slow|XUA2023PlayersHandbookP7}",
+					"\u2014",
+					"1 SP"
+				]
 			]
 		}
 	],
