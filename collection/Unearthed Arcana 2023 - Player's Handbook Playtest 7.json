@@ -13,9 +13,46 @@
 				"dateReleased": "2023-09-07"
 			}
 		],
+		"dependencies": {
+			"subclass": [
+				"sorcerer"
+			]
+		},
 		"dateAdded": 1691158917,
 		"dateLastModified": 1691158917
 	},
+	"subclass": [
+		{
+			"name": "Aberrant Sorcery",
+			"shortName": "Aberrant",
+			"source": "XUA2023PlayersHandbookP7",
+			"className": "Sorcerer",
+			"classSource": "XUA2023PlayersHandbookP7",
+			"page": 22,
+			"_copy": {
+				"name": "Aberrant Mind",
+				"shortName": "Aberrant Mind",
+				"source": "TCE",
+				"className": "Sorcerer",
+				"classSource": "PHB"
+			}
+		},
+		{
+			"name": "Clockwork Sorcery",
+			"shortName": "Clockwork",
+			"source": "XUA2023PlayersHandbookP7",
+			"className": "Sorcerer",
+			"classSource": "XUA2023PlayersHandbookP7",
+			"page": 22,
+			"_copy": {
+				"name": "Clockwork Soul",
+				"shortName": "Clockwork Soul",
+				"source": "TCE",
+				"className": "Sorcerer",
+				"classSource": "PHB"
+			}
+		}
+	],
 	"spell": [
 		{
 			"name": "Arcane Eruption",
