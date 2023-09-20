@@ -53,6 +53,52 @@
 			}
 		}
 	],
+	"feat": [
+		{
+			"name": "Ability Score Improvement",
+			"source": "XUA2023PlayersHandbookP7",
+			"page": 44,
+			"prerequisite": [
+				{
+					"level": 4
+				}
+			],
+			"repeatable": true,
+			"ability": [
+				{
+					"choose": {
+						"from": [
+							"str",
+							"dex",
+							"con",
+							"int",
+							"wis",
+							"cha"
+						],
+						"amount": 2
+					},
+					"hidden": true
+				},
+				{
+					"choose": {
+						"from": [
+							"str",
+							"dex",
+							"con",
+							"int",
+							"wis",
+							"cha"
+						],
+						"count": 2
+					},
+					"hidden": true
+				}
+			],
+			"entries": [
+				"Increase one ability score of your choice by 2, or increase two ability scores of your choice by 1. You can't increase an ability score above 20 using this feat. However, if you're at least level 19, that maximum increases to 22."
+			]
+		}
+	],
 	"spell": [
 		{
 			"name": "Arcane Eruption",
@@ -286,6 +332,3253 @@
 			],
 			"miscTags": [
 				"SCL"
+			]
+		}
+	],
+	"variantrule": [
+		{
+			"name": "Bonus Feats at Level 20",
+			"source": "XUA2023PlayersHandbookP7",
+			"page": 44,
+			"ruleType": "O",
+			"entries": [
+				"A DM can use bonus feats as a form of advancement after characters reach level 20 to provide greater power to characters who have no more levels to gain. With this approach, each character gains one feat of their choice for every 30,000 XP the character earns above 355,000 XP. Epic Boon feats are especially appropriate for these bonus feats, but a player can choose any feat for which their level 20 character qualifies."
+			]
+		}
+	],
+	"book": [
+		{
+			"name": "Unearthed Arcana 2023: Player's Handbook Playtest 7",
+			"id": "XUA2023PlayersHandbookP7",
+			"source": "XUA2023PlayersHandbookP7",
+			"group": "prerelease",
+			"coverUrl": "img/covers/blank.png",
+			"published": "2023-09-07",
+			"author": "Wizards of the Coast",
+			"contents": [
+				{
+					"name": "Unearthed Arcana 2023 Player'S Handbook Playtest 7",
+					"headers": [
+						"What's Inside"
+					]
+				},
+				{
+					"name": "Classes",
+					"headers": [
+						"Barbarian",
+						{
+							"header": "Barbarian Subclasses",
+							"depth": 1
+						},
+						"Fighter",
+						{
+							"header": "Fighter Subclasses",
+							"depth": 1
+						},
+						"Sorcerer",
+						{
+							"header": "Sorcerer Subclasses",
+							"depth": 1
+						},
+						"Warlock",
+						{
+							"header": "Warlock Subclasses",
+							"depth": 1
+						},
+						"Wizard",
+						{
+							"header": "Wizard Subclasses",
+							"depth": 1
+						}
+					]
+				},
+				{
+					"name": "Spells"
+				},
+				{
+					"name": "Feats"
+				},
+				{
+					"name": "Weapons"
+				},
+				{
+					"name": "Adventuring Gear"
+				},
+				{
+					"name": "Rules Glossary"
+				}
+			]
+		}
+	],
+	"bookData": [
+		{
+			"id": "XUA2023PlayersHandbookP7",
+			"source": "XUA2023PlayersHandbookP7",
+			"data": [
+				{
+					"type": "section",
+					"name": "Unearthed Arcana 2023 Player's Handbook Playtest 7",
+					"page": 1,
+					"entries": [
+						"This playtest document is part of a series of {@i Unearthed Arcana} articles that present material designed for the 2024 version of the {@i Player's Handbook}. The material here uses the rules in the 2014 {@book Player's Handbook|PHB}, except where noted.",
+						"After we conclude the public playtest for the {@i Player's Handbook}, {@i Unearthed Arcana} will explore material for the {@i Dungeon Master's Guide} and {@i Monster Manual}.",
+						{
+							"type": "inset",
+							"page": 1,
+							"name": "Learn More on YouTube",
+							"entries": [
+								"To learn more about the design in this article, we invite you to view the videos about it on YouTube ({@link www.youtube.com/DNDWizards})."
+							]
+						},
+						{
+							"type": "section",
+							"name": "What's Inside",
+							"page": 1,
+							"entries": [
+								"Here are the new and revised elements in this article:",
+								{
+									"type": "list",
+									"style": "list-hang-notitle",
+									"page": 1,
+									"items": [
+										{
+											"type": "item",
+											"name": "Classes",
+											"entries": [
+												"Five classes are here: {@class Barbarian|XUA2023PlayersHandbookP7}, {@class Fighter|XUA2023PlayersHandbookP7}, {@class Sorcerer|XUA2023PlayersHandbookP7}, {@class Warlock|XUA2023PlayersHandbookP7}, and {@class Wizard|XUA2023PlayersHandbookP7}. Each of those classes includes multiple subclasses, two of which are entirely new: the {@class Barbarian|XUA2023PlayersHandbookP7|Path of the World Tree|World Tree|XUA2023PlayersHandbookP7} in the Barbarian and the {@class Fighter|XUA2023PlayersHandbookP7|Brawler|Brawler|XUA2023PlayersHandbookP7} in the Fighter."
+											]
+										},
+										{
+											"type": "item",
+											"name": "Spells",
+											"entries": [
+												"Revised spells are included."
+											]
+										},
+										{
+											"type": "item",
+											"name": "Weapons",
+											"entries": [
+												"Weapon revisions are included."
+											]
+										},
+										"The following sections were introduced in a previous article and are provided here for reference:",
+										{
+											"type": "item",
+											"name": "Feats",
+											"entries": [
+												"This includes a revised version of {@feat Ability Score Improvement|XUA2023PlayersHandbookP7}."
+											]
+										},
+										{
+											"type": "item",
+											"name": "Rules Glossary",
+											"entries": [
+												"The rules glossary includes the few rules that have revised definitions in the playtest. In this document, any underlined term in the body text appears in the glossary."
+											]
+										}
+									]
+								},
+								{
+									"type": "inset",
+									"page": 1,
+									"name": "This Is Playtest Material",
+									"entries": [
+										"This article is presented for playtesting and feedback. The options here are experimental and in draft form. They aren't officially part of the game. Your feedback will help determine whether we adopt it as official.",
+										{
+											"type": "entries",
+											"name": "How to Playtest This UA",
+											"page": 1,
+											"entries": [
+												"We invite you to try out this material in play. When you do so, you're welcome to combine this article with the other articles in this series, starting with \"{@loader Character Origins.|collection/Unearthed Arcana 2022 - Character Origins.json|prerelease}\"",
+												"If you do combine this article with any previous one, use only the rules glossary found here. In this {@i Unearthed Arcana} series, the rules glossary of each article supersedes the glossary of any previous article.",
+												"To play with this material, you may either incorporate it into your campaign or run one or more special playtest sessions. For such a session, you may create an adventure of your own or use a short adventure from a source like {@adventure Keys from the Golden Vault|KftGV}, {@adventure Journeys through the Radiant Citadel|JttRC}, or {@adventure Candlekeep Mysteries|CM}."
+											]
+										},
+										{
+											"type": "entries",
+											"name": "Power Level",
+											"page": 1,
+											"entries": [
+												"The character options you read here might be more or less powerful than options in the 2014 {@book Player's Handbook|PHB}. If a design survives playtesting, we adjust its power to the desirable level before publication. This means an option could be more or less powerful in its final form."
+											]
+										},
+										{
+											"type": "entries",
+											"name": "Feedback",
+											"page": 1,
+											"entries": [
+												"The best way for you to give us feedback on this material is in the survey we'll release on D&D Beyond. If we make this material official, it will be refined based on your feedback, and then it will appear in a D&D book.",
+												"Providing feedback on this document is one way you can help shape the next generation of D&D!"
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"type": "section",
+					"name": "Classes",
+					"page": 1,
+					"entries": [
+						"{@note For full details of all classes including tables, multiclassing, equipment, core stats and fluff, please see {@filter the classes page|classes|source=XUA2023PlayersHandbookP7}.}",
+						{
+							"type": "section",
+							"name": "Barbarian",
+							"page": 1,
+							"entries": [
+								{
+									"type": "inset",
+									"page": 2,
+									"name": "Design Note: Barbarian Updates",
+									"entries": [
+										"Here are the main updates in this class since its last playtest version:",
+										{
+											"type": "list",
+											"page": 2,
+											"items": [
+												{
+													"type": "item",
+													"name": "Danger Sense",
+													"nameDot": false,
+													"entries": [
+														"returns to level 2. It now works even if you have the Blinded or Deafened condition."
+													]
+												},
+												{
+													"type": "item",
+													"name": "Reckless Attack",
+													"nameDot": false,
+													"entries": [
+														"now grants Advantage to your Strength-based attack rolls until the start of your next turn, which means an Opportunity Attack can benefit, as can subclass features like Retaliation."
+													]
+												},
+												{
+													"type": "item",
+													"name": "Primal Knowledge",
+													"nameDot": false,
+													"entries": [
+														"has moved to level 3 from 2, matching the level of Primal Knowledge in {@book Tasha's Cauldron of Everything|TCE}."
+													]
+												},
+												{
+													"type": "item",
+													"name": "Instinctive Pounce",
+													"nameDot": false,
+													"entries": [
+														"has been imported from {@book Tasha's Cauldron of Everything|TCE}."
+													]
+												},
+												{
+													"type": "item",
+													"name": "Brutal Critical",
+													"nameDot": false,
+													"entries": [
+														"returns to level 9, and now it deals {@damage 1d12} extra damage on a crit. This damage increases at higher levels."
+													]
+												},
+												{
+													"type": "item",
+													"name": "Relentless Rage",
+													"nameDot": false,
+													"entries": [
+														"returns to level 11."
+													]
+												},
+												{
+													"type": "item",
+													"name": "Persistent Rage",
+													"nameDot": false,
+													"entries": [
+														"returns to level 15, and the {@condition Unconscious|XUA2023PlayersHandbookP7} condition, not {@condition Incapacitated|XUA2023PlayersHandbookP7}, shuts off your Rage. In addition, the feature incorporates the function of Rage Resurgence (regain a Rage on Initiative)."
+													]
+												},
+												{
+													"type": "item",
+													"name": "Indomitable Might",
+													"nameDot": false,
+													"entries": [
+														"returns to level 18, and it now applies to Strength saving throws and Strength checks."
+													]
+												},
+												{
+													"type": "item",
+													"name": "Primal Champion",
+													"nameDot": false,
+													"entries": [
+														"returns to level 20 and once again increases the scores by 4."
+													]
+												}
+											]
+										}
+									]
+								},
+								{
+									"type": "statblock",
+									"tag": "class",
+									"source": "XUA2023PlayersHandbookP7",
+									"name": "Barbarian",
+									"page": 1,
+									"collapsed": true
+								},
+								{
+									"type": "entries",
+									"name": "Barbarian Subclasses",
+									"page": 5,
+									"entries": [
+										"A Barbarian subclass is a specialization that grants you special abilities at certain levels, as specified in the subclass. This section presents the following subclasses: {@class Barbarian|XUA2023PlayersHandbookP7|Path of the Berserker|Berserker|XUA2023PlayersHandbookP7}, {@class Barbarian|XUA2023PlayersHandbookP7|Path of the Wild Heart|Wild Heart|XUA2023PlayersHandbookP7}, {@class Barbarian|XUA2023PlayersHandbookP7|Path of the World Tree|World Tree|XUA2023PlayersHandbookP7}, and {@class Barbarian|XUA2023PlayersHandbookP7|Path of the Zealot|Zealot|XUA2023PlayersHandbookP7}.",
+										{
+											"type": "entries",
+											"name": "Path of the Berserker",
+											"page": 5,
+											"entries": [
+												{
+													"type": "inset",
+													"page": 5,
+													"name": "Design Note: Path of the Berserker Updates",
+													"entries": [
+														"Here are the main updates in this subclass since its last playtest version:",
+														{
+															"type": "list",
+															"page": 5,
+															"items": [
+																{
+																	"type": "item",
+																	"name": "Intimidating Presence",
+																	"nameDot": false,
+																	"entries": [
+																		"is now a Bonus Action rather than an action."
+																	]
+																}
+															]
+														}
+													]
+												},
+												{
+													"type": "statblock",
+													"prop": "subclass",
+													"source": "XUA2023PlayersHandbookP7",
+													"name": "Berserker",
+													"className": "Barbarian",
+													"classSource": "XUA2023PlayersHandbookP7",
+													"page": 5,
+													"collapsed": true
+												}
+											]
+										},
+										{
+											"type": "entries",
+											"name": "Path of the Wild Heart",
+											"page": 5,
+											"entries": [
+												{
+													"type": "inset",
+													"page": 6,
+													"name": "Design Note: Path of the Wild Heart Updates",
+													"entries": [
+														"Here are the main updates to the Path of the Wild Heart, formerly called the Path of the Totem Warrior, since the 2014 {@book Player's Handbook|PHB}:",
+														{
+															"type": "list",
+															"page": 6,
+															"items": [
+																{
+																	"type": "item",
+																	"name": "Animal Speaker,",
+																	"entries": [
+																		"formerly called Spirit Seeker, now has its spellcasting ability specified."
+																	]
+																},
+																{
+																	"type": "item",
+																	"name": "Rage of the Wilds,",
+																	"entries": [
+																		"formerly called Totem Spirit, contains revisions to each option. {@b Bear} no longer grants Resistance to all but one damage type. The former design was too powerful. It now allows you to gain Resistance to two damage types of your choice. {@b Eagle} lets you take both the Dash and the Disengage action when you activate your Rage and as a Bonus Action. The range of {@b Wolf} increases to 10 feet."
+																	]
+																},
+																{
+																	"type": "item",
+																	"name": "Aspect of the Wilds,",
+																	"entries": [
+																		"formerly called Aspect of the Beast, contains revisions to each option. {@b Elephant} (formerly Bear) now grants proficiency in the Athletics or Insight skill, granting {@variantrule Expertise|XUA2023PlayersHandbookP7} if you already have proficiency. {@b Owl} (formerly Eagle) now grants proficiency in the Investigation or Perception skill, granting {@variantrule Expertise|XUA2023PlayersHandbookP7} if you already have proficiency. {@b Spider} (formerly Wolf) now grants proficiency in the Stealth or Survival skill, granting {@variantrule Expertise|XUA2023PlayersHandbookP7} if you already have proficiency."
+																	]
+																},
+																{
+																	"type": "item",
+																	"name": "Nature Speaker,",
+																	"entries": [
+																		"formerly called Spirit Walker, now has its spellcasting ability specified."
+																	]
+																},
+																{
+																	"type": "item",
+																	"name": "Power of the Wilds,",
+																	"entries": [
+																		"formerly called Totemic Attunement, contains revisions to each option. {@b Lion} (formerly Bear) is no longer stopped by immunity to the Frightened condition. {@b Falcon} (formerly Eagle) now allows a persistent {@variantrule Fly Speed|XUA2023PlayersHandbookP7} while your Rage is active, provided you aren't wearing any armor. {@b Ram} (formerly Wolf) no longer uses your Bonus Action but requires a saving throw."
+																	]
+																}
+															]
+														}
+													]
+												},
+												{
+													"type": "statblock",
+													"prop": "subclass",
+													"source": "XUA2023PlayersHandbookP7",
+													"name": "Wild Heart",
+													"className": "Barbarian",
+													"classSource": "XUA2023PlayersHandbookP7",
+													"page": 5,
+													"collapsed": true
+												}
+											]
+										},
+										{
+											"type": "entries",
+											"name": "Path of the World Tree",
+											"page": 6,
+											"entries": [
+												{
+													"type": "statblock",
+													"prop": "subclass",
+													"source": "XUA2023PlayersHandbookP7",
+													"name": "World Tree",
+													"className": "Barbarian",
+													"classSource": "XUA2023PlayersHandbookP7",
+													"page": 6,
+													"collapsed": true
+												},
+												{
+													"type": "inset",
+													"page": 7,
+													"name": "Design Note: Voluntarily Failing s Save",
+													"entries": [
+														"The 2024 {@i Player's Handbook} will clarify that any creature can voluntarily fail any saving throw."
+													]
+												}
+											]
+										},
+										{
+											"type": "entries",
+											"name": "Path of the Zealot",
+											"page": 7,
+											"entries": [
+												{
+													"type": "inset",
+													"page": 7,
+													"name": "Design Note: Path of the Zealot Updates",
+													"entries": [
+														"Here are the main updates in this subclass since its appearance in {@book Xanathar's Guide to Everything|XGE}:",
+														{
+															"type": "list",
+															"page": 7,
+															"items": [
+																{
+																	"type": "item",
+																	"name": "Divine Fury",
+																	"nameDot": false,
+																	"entries": [
+																		"now allows you to determine the damage type each time you deal the damage."
+																	]
+																},
+																{
+																	"type": "item",
+																	"name": "Warrior of the Gods",
+																	"nameDot": false,
+																	"entries": [
+																		"now includes the ability to regain additional HP when healed by a spell or magic item."
+																	]
+																},
+																{
+																	"type": "item",
+																	"name": "Zealous Presence",
+																	"nameDot": false,
+																	"entries": [
+																		"now allows you to use it multiple times between {@variantrule Long Rest|XUA2023PlayersHandbookP7|Long Rests} by expending uses of your Rage."
+																	]
+																},
+																{
+																	"type": "item",
+																	"name": "Rage Beyond Death",
+																	"nameDot": false,
+																	"entries": [
+																		"now turns you into a warrior spirit after you successfully use your Relentless Rage."
+																	]
+																}
+															]
+														}
+													]
+												},
+												{
+													"type": "statblock",
+													"prop": "subclass",
+													"source": "XUA2023PlayersHandbookP7",
+													"name": "Zealot",
+													"className": "Barbarian",
+													"classSource": "XUA2023PlayersHandbookP7",
+													"page": 7,
+													"collapsed": true
+												}
+											]
+										}
+									]
+								}
+							]
+						},
+						{
+							"type": "section",
+							"name": "Fighter",
+							"page": 9,
+							"entries": [
+								{
+									"type": "inset",
+									"page": 9,
+									"name": "Design Note: Fighter Updates",
+									"entries": [
+										"Here are the main updates in this class since its last playtest version:",
+										{
+											"type": "list",
+											"page": 9,
+											"items": [
+												{
+													"type": "item",
+													"name": "Fighting Style",
+													"nameDot": false,
+													"entries": [
+														"now lets you replace the feat you chose whenever you gain a Fighter level. This is inspired by Martial Versatility in {@book Tasha's Cauldron of Everything|TCE}."
+													]
+												},
+												{
+													"type": "item",
+													"name": "Second Wind",
+													"nameDot": false,
+													"entries": [
+														"now also restores one expended use on a {@variantrule Short Rest|XUA2023PlayersHandbookP7}."
+													]
+												},
+												{
+													"type": "item",
+													"name": "Weapon Mastery",
+													"nameDot": false,
+													"entries": [
+														"now maxes out at 6 Mastery options instead of 5."
+													]
+												},
+												{
+													"type": "item",
+													"name": "Action Surge",
+													"nameDot": false,
+													"entries": [
+														"now allows any action, except the {@action Magic|XUA2023PlayersHandbookP7} action, and it once again improves at level 17."
+													]
+												},
+												{
+													"type": "item",
+													"name": "Tactical Mind",
+													"nameDot": false,
+													"entries": [
+														"is a new level 2 feature, which allows the Fighter to excel in or out of combat."
+													]
+												},
+												{
+													"type": "item",
+													"name": "Fighter Subclass",
+													"nameDot": false,
+													"entries": [
+														"and {@feat Ability Score Improvement|XUA2023PlayersHandbookP7} return to their 2014 levels."
+													]
+												},
+												{
+													"type": "item",
+													"name": "Tactical Shift",
+													"nameDot": false,
+													"entries": [
+														"is a new level 5 feature that lets you move without provoking Opportunity Attacks when you activate your Second Wind."
+													]
+												},
+												{
+													"type": "item",
+													"name": "Master of Armaments",
+													"nameDot": false,
+													"entries": [
+														"replaces {@b Weapon Expert} and {@b Weapon Adept} at level 9. This new feature lets you change the Mastery properties of all your Mastery weapons."
+													]
+												},
+												{
+													"type": "item",
+													"name": "Indomitable",
+													"nameDot": false,
+													"entries": [
+														"once again confers more uses at higher levels."
+													]
+												},
+												{
+													"type": "item",
+													"name": "Studied Attacks",
+													"nameDot": false,
+													"entries": [
+														"is a new level 13 feature that increases the likelihood you'll hit after you miss."
+													]
+												},
+												{
+													"type": "item",
+													"name": "Unconquerable",
+													"nameDot": false,
+													"entries": [
+														"has been cut in favor of Indomitable improving at higher levels."
+													]
+												},
+												{
+													"type": "item",
+													"name": "Three Extra Attacks",
+													"nameDot": false,
+													"entries": [
+														"returns to level 20."
+													]
+												}
+											]
+										}
+									]
+								},
+								{
+									"type": "statblock",
+									"tag": "class",
+									"source": "XUA2023PlayersHandbookP7",
+									"name": "Fighter",
+									"page": 9,
+									"collapsed": true
+								},
+								{
+									"type": "entries",
+									"name": "Fighter Subclasses",
+									"page": 11,
+									"entries": [
+										"A Fighter subclass is a specialization that grants you special abilities at certain levels, as specified in the subclass. This section presents the following subclasses: {@class Fighter|XUA2023PlayersHandbookP7|Battle Master|Battle Master|XUA2023PlayersHandbookP7}, {@class Fighter|XUA2023PlayersHandbookP7|Brawler|Brawler|XUA2023PlayersHandbookP7}, {@class Fighter|XUA2023PlayersHandbookP7|Champion|Champion|XUA2023PlayersHandbookP7}, and {@class Fighter|XUA2023PlayersHandbookP7|Eldritch Knight|Eldritch Knight|XUA2023PlayersHandbookP7}.",
+										{
+											"type": "entries",
+											"name": "Battle Master",
+											"page": 12,
+											"entries": [
+												{
+													"type": "inset",
+													"page": 11,
+													"name": "Design Note: Battle Master Updates",
+													"entries": [
+														"Here are the main updates in this subclass since the 2014 {@book Player's Handbook|PHB}:",
+														{
+															"type": "list",
+															"page": 11,
+															"items": [
+																{
+																	"type": "item",
+																	"name": "Student of War",
+																	"nameDot": false,
+																	"entries": [
+																		"now also gives you proficiency in a skill."
+																	]
+																},
+																{
+																	"type": "item",
+																	"name": "Know Your Enemy",
+																	"nameDot": false,
+																	"entries": [
+																		"now allows you to know a creature's damage resistances, immunities, and vulnerabilities as a Bonus Action."
+																	]
+																},
+																{
+																	"type": "item",
+																	"name": "Relentless",
+																	"nameDot": false,
+																	"entries": [
+																		"now allows you to use a Maneuver once per turn without expending a Superiority Die, but that free Maneuver uses a {@dice d8}."
+																	]
+																}
+															]
+														}
+													]
+												},
+												{
+													"type": "statblock",
+													"prop": "subclass",
+													"source": "XUA2023PlayersHandbookP7",
+													"name": "Battle Master",
+													"className": "Fighter",
+													"classSource": "XUA2023PlayersHandbookP7",
+													"page": 12,
+													"collapsed": true
+												}
+											]
+										},
+										{
+											"type": "entries",
+											"name": "Maneuvers Options",
+											"page": 12,
+											"entries": [
+												"The Maneuvers are presented here in alphabetical order.",
+												{
+													"type": "inset",
+													"page": 12,
+													"name": "Design Note: Maneuver Updates",
+													"entries": [
+														"Here are the main updates to the Maneuvers:",
+														{
+															"type": "list",
+															"page": 12,
+															"items": [
+																{
+																	"type": "item",
+																	"name": "Ambush",
+																	"nameDot": false,
+																	"entries": [
+																		"from {@book Tasha's Cauldron of Everything|TCE} is included."
+																	]
+																},
+																{
+																	"type": "item",
+																	"name": "Bait and Switch",
+																	"nameDot": false,
+																	"entries": [
+																		"from {@book Tasha's Cauldron of Everything|TCE} is included."
+																	]
+																},
+																{
+																	"type": "item",
+																	"name": "Commander's Strike",
+																	"nameDot": false,
+																	"entries": [
+																		"no longer uses your Bonus Action."
+																	]
+																},
+																{
+																	"type": "item",
+																	"name": "Commanding Presence",
+																	"nameDot": false,
+																	"entries": [
+																		"from {@book Tasha's Cauldron of Everything|TCE} is included."
+																	]
+																},
+																{
+																	"type": "item",
+																	"name": "Disarming Attack, Distracting Strike, Goading Attack, Maneuvering Attack, Menacing Attack,",
+																	"nameDot": false,
+																	"entries": [
+																		"and {@b Precision Attack} now work with any type of attack roll."
+																	]
+																},
+																{
+																	"type": "item",
+																	"name": "Evasive Footwork",
+																	"nameDot": false,
+																	"entries": [
+																		"now lasts until the end of your turn, not when you stop moving."
+																	]
+																},
+																{
+																	"type": "item",
+																	"name": "Lunging Attack",
+																	"nameDot": false,
+																	"entries": [
+																		"now lets you take the Dash action as a Bonus Action and adds the Superiority Die if you hit a creature after moving at least 10 feet in a straight line."
+																	]
+																},
+																{
+																	"type": "item",
+																	"name": "Parry",
+																	"nameDot": false,
+																	"entries": [
+																		"now allows you to add your Strength or Dexterity modifier to the damage reduction."
+																	]
+																},
+																{
+																	"type": "item",
+																	"name": "Precision Attack",
+																	"nameDot": false,
+																	"entries": [
+																		"now triggers from missing an attack roll, not before you know if the attack hit or not."
+																	]
+																},
+																{
+																	"type": "item",
+																	"name": "Rally",
+																	"nameDot": false,
+																	"entries": [
+																		"now uses your choice of Intelligence, Wisdom, or Charisma when determining the amount of Temporary Hit Points gained."
+																	]
+																},
+																{
+																	"type": "item",
+																	"name": "Tactical Assessment",
+																	"nameDot": false,
+																	"entries": [
+																		"from {@book Tasha's Cauldron of Everything|TCE} is included."
+																	]
+																}
+															]
+														}
+													]
+												},
+												{
+													"type": "statblock",
+													"tag": "optfeature",
+													"source": "XUA2023PlayersHandbookP7",
+													"name": "Ambush",
+													"page": 13,
+													"collapsed": true
+												},
+												{
+													"type": "statblock",
+													"tag": "optfeature",
+													"source": "XUA2023PlayersHandbookP7",
+													"name": "Bait and Switch",
+													"page": 13,
+													"collapsed": true
+												},
+												{
+													"type": "statblock",
+													"tag": "optfeature",
+													"source": "XUA2023PlayersHandbookP7",
+													"name": "Commander's Strike",
+													"page": 13,
+													"collapsed": true
+												},
+												{
+													"type": "statblock",
+													"tag": "optfeature",
+													"source": "XUA2023PlayersHandbookP7",
+													"name": "Commanding Presence",
+													"page": 13,
+													"collapsed": true
+												},
+												{
+													"type": "statblock",
+													"tag": "optfeature",
+													"source": "XUA2023PlayersHandbookP7",
+													"name": "Disarming Attack",
+													"page": 13,
+													"collapsed": true
+												},
+												{
+													"type": "statblock",
+													"tag": "optfeature",
+													"source": "XUA2023PlayersHandbookP7",
+													"name": "Distracting Strike",
+													"page": 13,
+													"collapsed": true
+												},
+												{
+													"type": "statblock",
+													"tag": "optfeature",
+													"source": "XUA2023PlayersHandbookP7",
+													"name": "Evasive Footwork",
+													"page": 13,
+													"collapsed": true
+												},
+												{
+													"type": "statblock",
+													"tag": "optfeature",
+													"source": "XUA2023PlayersHandbookP7",
+													"name": "Feinting Attack",
+													"page": 13,
+													"collapsed": true
+												},
+												{
+													"type": "statblock",
+													"tag": "optfeature",
+													"source": "XUA2023PlayersHandbookP7",
+													"name": "Goading Attack",
+													"page": 13,
+													"collapsed": true
+												},
+												{
+													"type": "statblock",
+													"tag": "optfeature",
+													"source": "XUA2023PlayersHandbookP7",
+													"name": "Lunging Attack",
+													"page": 13,
+													"collapsed": true
+												},
+												{
+													"type": "statblock",
+													"tag": "optfeature",
+													"source": "XUA2023PlayersHandbookP7",
+													"name": "Maneuvering Attack",
+													"page": 13,
+													"collapsed": true
+												},
+												{
+													"type": "statblock",
+													"tag": "optfeature",
+													"source": "XUA2023PlayersHandbookP7",
+													"name": "Menacing Attack",
+													"page": 13,
+													"collapsed": true
+												},
+												{
+													"type": "statblock",
+													"tag": "optfeature",
+													"source": "XUA2023PlayersHandbookP7",
+													"name": "Parry",
+													"page": 13,
+													"collapsed": true
+												},
+												{
+													"type": "statblock",
+													"tag": "optfeature",
+													"source": "XUA2023PlayersHandbookP7",
+													"name": "Precision Attack",
+													"page": 14,
+													"collapsed": true
+												},
+												{
+													"type": "statblock",
+													"tag": "optfeature",
+													"source": "XUA2023PlayersHandbookP7",
+													"name": "Pushing Attack",
+													"page": 14,
+													"collapsed": true
+												},
+												{
+													"type": "statblock",
+													"tag": "optfeature",
+													"source": "XUA2023PlayersHandbookP7",
+													"name": "Rally",
+													"page": 14,
+													"collapsed": true
+												},
+												{
+													"type": "statblock",
+													"tag": "optfeature",
+													"source": "XUA2023PlayersHandbookP7",
+													"name": "Riposte",
+													"page": 14,
+													"collapsed": true
+												},
+												{
+													"type": "statblock",
+													"tag": "optfeature",
+													"source": "XUA2023PlayersHandbookP7",
+													"name": "Sweeping Attack",
+													"page": 14,
+													"collapsed": true
+												},
+												{
+													"type": "statblock",
+													"tag": "optfeature",
+													"source": "XUA2023PlayersHandbookP7",
+													"name": "Tactical Assessment",
+													"page": 14,
+													"collapsed": true
+												},
+												{
+													"type": "statblock",
+													"tag": "optfeature",
+													"source": "XUA2023PlayersHandbookP7",
+													"name": "Trip Attack",
+													"page": 14,
+													"collapsed": true
+												}
+											]
+										},
+										{
+											"type": "entries",
+											"name": "Brawler",
+											"page": 14,
+											"entries": [
+												{
+													"type": "inset",
+													"page": 14,
+													"name": "Design Note: Magic Items for Unarmed Strikes and Improvised Weapons",
+													"entries": [
+														"The 2024 Dungeon Master's Guide will include magic items that enhance {@variantrule Unarmed Strike|XUA2023PlayersHandbookP7|Unarmed Strikes} and Improvised Weapons. These items will support the Monk, Brawler Fighter, and College of Dance Bard, along with other characters who rely on {@variantrule Unarmed Strike|XUA2023PlayersHandbookP7|Unarmed Strikes} or Improvised Weapons."
+													]
+												},
+												{
+													"type": "statblock",
+													"prop": "subclass",
+													"source": "XUA2023PlayersHandbookP7",
+													"name": "Brawler",
+													"className": "Fighter",
+													"classSource": "XUA2023PlayersHandbookP7",
+													"page": 14,
+													"collapsed": true
+												}
+											]
+										},
+										{
+											"type": "entries",
+											"name": "Champion",
+											"page": 15,
+											"entries": [
+												{
+													"type": "inset",
+													"page": 15,
+													"name": "Design Note: Champion Updates",
+													"entries": [
+														"Here are the main updates in this subclass since its last playtest version:",
+														{
+															"type": "list",
+															"page": 15,
+															"items": [
+																{
+																	"type": "item",
+																	"name": "Remarkable Athlete",
+																	"nameDot": false,
+																	"entries": [
+																		"replaces Adaptable Victor and moves to level 3. It now grants Advantage on Initiative rolls and Strength (Athletics) checks, in addition to increasing long-jump distance."
+																	]
+																},
+																{
+																	"type": "item",
+																	"name": "Heroic Warrior",
+																	"nameDot": false,
+																	"entries": [
+																		"now gives you {@variantrule Heroic Advantage|XUA2023PlayersHandbookP7} at the start of each of your turns in combat."
+																	]
+																}
+															]
+														}
+													]
+												},
+												{
+													"type": "statblock",
+													"prop": "subclass",
+													"source": "XUA2023PlayersHandbookP7",
+													"name": "Champion",
+													"className": "Fighter",
+													"classSource": "XUA2023PlayersHandbookP7",
+													"page": 15,
+													"collapsed": true
+												}
+											]
+										},
+										{
+											"type": "entries",
+											"name": "Eldritch Knight",
+											"page": 15,
+											"entries": [
+												{
+													"type": "inset",
+													"page": 15,
+													"name": "Design Note: Eldritch Knight Updates",
+													"entries": [
+														"Here are the main updates in this subclass since the 2014 {@book Player's Handbook|PHB}:",
+														{
+															"type": "list",
+															"page": 15,
+															"items": [
+																{
+																	"type": "item",
+																	"name": "Spellcasting",
+																	"nameDot": false,
+																	"entries": [
+																		"contains no school-of-magic restrictions after level 3 in the subclass. Moreover, the Fighter can now change one cantrip when gaining a level, and the Fighter can use an Arcane Focus."
+																	]
+																},
+																{
+																	"type": "item",
+																	"name": "War Magic",
+																	"nameDot": false,
+																	"entries": [
+																		"now allows you to replace one of your attacks with casting a cantrip, allowing the Eldritch Knight to weave magic into their attacks."
+																	]
+																},
+																{
+																	"type": "item",
+																	"name": "Improved War Magic",
+																	"nameDot": false,
+																	"entries": [
+																		"now allows you to replace two of your attacks with casting a level 1 or 2 spell, allowing the Eldritch Knight to further weave magic into their attacks."
+																	]
+																}
+															]
+														}
+													]
+												},
+												{
+													"type": "statblock",
+													"prop": "subclass",
+													"source": "XUA2023PlayersHandbookP7",
+													"name": "Eldritch Knight",
+													"className": "Fighter",
+													"classSource": "XUA2023PlayersHandbookP7",
+													"page": 15,
+													"collapsed": true
+												}
+											]
+										}
+									]
+								}
+							]
+						},
+						{
+							"type": "section",
+							"name": "Sorcerer",
+							"page": 18,
+							"entries": [
+								{
+									"type": "inset",
+									"page": 18,
+									"name": "Design Note: Sorcerer Updates",
+									"entries": [
+										"Here are the main updates in this class since its last playtest version:",
+										{
+											"type": "list",
+											"page": 18,
+											"items": [
+												{
+													"type": "item",
+													"name": "Innate Sorcery",
+													"nameDot": false,
+													"entries": [
+														"empowers your spells' attack rolls and save DCs for a limited time."
+													]
+												},
+												{
+													"type": "item",
+													"name": "Spellcasting",
+													"nameDot": false,
+													"entries": [
+														"returns to using the Sorcerer spell list rather than the Arcane spell list. The Sorcerer list now includes {@spell Sorcerous Burst|XUA2023PlayersHandbookP7} and {@spell Arcane Eruption|XUA2023PlayersHandbookP7}, both of which appear in this document."
+													]
+												},
+												{
+													"type": "item",
+													"name": "Font of Magic",
+													"nameDot": false,
+													"entries": [
+														"no longer requires a Bonus Action to convert spell slots into Sorcery Points."
+													]
+												},
+												{
+													"type": "item",
+													"name": "Metamagic",
+													"nameDot": false,
+													"entries": [
+														"gives you two options at level 2 and two more at levels 10 and 17 each, and you can now change one of your options whenever you gain a Sorcerer level."
+													]
+												},
+												{
+													"type": "item",
+													"name": "Sorcerer Subclass",
+													"nameDot": false,
+													"entries": [
+														"returns to the 2014 level progression for Sorcerer subclasses, with the exception of the level 1 feature being at level 3."
+													]
+												},
+												{
+													"type": "item",
+													"name": "Sorcerous Vitality",
+													"nameDot": false,
+													"entries": [
+														"is gone."
+													]
+												},
+												{
+													"type": "item",
+													"name": "Sorcerous Restoration",
+													"nameDot": false,
+													"entries": [
+														"has moved from level 15 to 5. If you have no Sorcery Points when you roll Initiative, this feature restores a certain number."
+													]
+												},
+												{
+													"type": "item",
+													"name": "Sorcery Incarnate",
+													"nameDot": false,
+													"entries": [
+														"has moved from level 9 to 7 and has been redesigned to enhance Innate Sorcery."
+													]
+												},
+												{
+													"type": "item",
+													"name": "Arcane Apotheosis",
+													"nameDot": false,
+													"entries": [
+														"has moved to level 20 and has been redesigned to enhance Innate Sorcery."
+													]
+												}
+											]
+										}
+									]
+								},
+								{
+									"type": "statblock",
+									"tag": "class",
+									"source": "XUA2023PlayersHandbookP7",
+									"name": "Sorcerer",
+									"page": 18,
+									"collapsed": true
+								},
+								{
+									"type": "entries",
+									"entries": [
+										{
+											"type": "entries",
+											"name": "Metamagic Options",
+											"page": 21,
+											"entries": [
+												"The following options are available to your Metamagic features. The options are presented in alphabetical order.",
+												{
+													"type": "inset",
+													"page": 21,
+													"name": "Design Note: Metamagic Updates",
+													"entries": [
+														"Here are the main updates in the Metamagic options since their last playtest version.",
+														{
+															"type": "list",
+															"page": 21,
+															"items": [
+																{
+																	"type": "item",
+																	"name": "Distant Spell",
+																	"nameDot": false,
+																	"entries": [
+																		"returns to doubling range."
+																	]
+																},
+																{
+																	"type": "item",
+																	"name": "Seeking Spell",
+																	"nameDot": false,
+																	"entries": [
+																		"now costs 1 point rather than 2."
+																	]
+																},
+																{
+																	"type": "item",
+																	"name": "Subtle Spell",
+																	"nameDot": false,
+																	"entries": [
+																		"now clarifies that it doesn't remove Material components that have a cost specified in the affected spell."
+																	]
+																},
+																{
+																	"type": "item",
+																	"name": "Twinned Spell",
+																	"nameDot": false,
+																	"entries": [
+																		"has some of its previous multitargeting functionality but now within appropriate limits."
+																	]
+																}
+															]
+														}
+													]
+												},
+												{
+													"type": "statblock",
+													"tag": "optfeature",
+													"source": "XUA2023PlayersHandbookP7",
+													"name": "Careful Spell",
+													"page": 21,
+													"collapsed": true
+												},
+												{
+													"type": "statblock",
+													"tag": "optfeature",
+													"source": "XUA2023PlayersHandbookP7",
+													"name": "Distant Spell",
+													"page": 21,
+													"collapsed": true
+												},
+												{
+													"type": "statblock",
+													"tag": "optfeature",
+													"source": "XUA2023PlayersHandbookP7",
+													"name": "Empowered Spell",
+													"page": 21,
+													"collapsed": true
+												},
+												{
+													"type": "statblock",
+													"tag": "optfeature",
+													"source": "XUA2023PlayersHandbookP7",
+													"name": "Extended Spell",
+													"page": 22,
+													"collapsed": true
+												},
+												{
+													"type": "statblock",
+													"tag": "optfeature",
+													"source": "XUA2023PlayersHandbookP7",
+													"name": "Heightened Spell",
+													"page": 22,
+													"collapsed": true
+												},
+												{
+													"type": "statblock",
+													"tag": "optfeature",
+													"source": "XUA2023PlayersHandbookP7",
+													"name": "Quickened Spell",
+													"page": 22,
+													"collapsed": true
+												},
+												{
+													"type": "statblock",
+													"tag": "optfeature",
+													"source": "XUA2023PlayersHandbookP7",
+													"name": "Seeking Spell",
+													"page": 22,
+													"collapsed": true
+												},
+												{
+													"type": "statblock",
+													"tag": "optfeature",
+													"source": "XUA2023PlayersHandbookP7",
+													"name": "Subtle Spell",
+													"page": 22,
+													"collapsed": true
+												},
+												{
+													"type": "statblock",
+													"tag": "optfeature",
+													"source": "XUA2023PlayersHandbookP7",
+													"name": "Transmuted Spell",
+													"page": 22,
+													"collapsed": true
+												},
+												{
+													"type": "statblock",
+													"tag": "optfeature",
+													"source": "XUA2023PlayersHandbookP7",
+													"name": "Twinned Spell",
+													"page": 22,
+													"collapsed": true
+												}
+											]
+										}
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Sorcerer Subclasses",
+									"page": 22,
+									"entries": [
+										"A Sorcerer subclass is a specialization that grants you special abilities at certain Sorcerer levels, as specified in the subclass. This section presents the following subclasses: {@class Sorcerer|XUA2023PlayersHandbookP7|Draconic Sorcery|Draconic|XUA2023PlayersHandbookP7} and {@class Sorcerer|XUA2023PlayersHandbookP7|Wild Magic Sorcery|Wild Magic|XUA2023PlayersHandbookP7}. See {@book Tasha's Cauldron of Everything|TCE} for {@class Sorcerer|XUA2023PlayersHandbookP7|Aberrant Sorcery|Aberrant|XUA2023PlayersHandbookP7} (aka {@class Sorcerer|PHB|Aberrant Mind|Aberrant Mind|TCE}) and {@class Sorcerer|XUA2023PlayersHandbookP7|Clockwork Sorcery|Clockwork|XUA2023PlayersHandbookP7} (aka {@class Sorcerer|PHB|Clockwork Soul|Clockwork Soul|TCE}).",
+										{
+											"type": "entries",
+											"name": "Draconic Sorcery",
+											"page": 22,
+											"entries": [
+												{
+													"type": "inset",
+													"page": 22,
+													"name": "Design Note: Draconic Sorcery Updates",
+													"entries": [
+														"Here are the main updates in this subclass since its last playtest appearance:",
+														{
+															"type": "list",
+															"page": 22,
+															"items": [
+																{
+																	"type": "item",
+																	"name": "Dragon Speech",
+																	"nameDot": false,
+																	"entries": [
+																		"now gives you the Draconic language, and while creatures of the Dragon type understand your speech, you don't necessarily understand them."
+																	]
+																},
+																{
+																	"type": "item",
+																	"name": "Dragon Wings",
+																	"nameDot": false,
+																	"entries": [
+																		"once again allows you to sprout wings without relying on a spell."
+																	]
+																},
+																{
+																	"type": "item",
+																	"name": "Draconic Presence",
+																	"nameDot": false,
+																	"entries": [
+																		"replaces Draconic Exhalation. The feature is now a Bonus Action, and it doesn't require Concentration."
+																	]
+																}
+															]
+														}
+													]
+												},
+												{
+													"type": "statblock",
+													"prop": "subclass",
+													"source": "XUA2023PlayersHandbookP7",
+													"name": "Draconic",
+													"className": "Sorcerer",
+													"classSource": "XUA2023PlayersHandbookP7",
+													"page": 22,
+													"collapsed": true,
+													"displayName": "Draconic Sorcery"
+												}
+											]
+										},
+										{
+											"type": "entries",
+											"name": "Wild Magic Sorcery",
+											"page": 23,
+											"entries": [
+												{
+													"type": "inset",
+													"page": 23,
+													"name": "Design Note: Wild Magic Sorcery Updates",
+													"entries": [
+														"Here are the main updates in this subclass since the 2014 {@book Player's Handbook|PHB}:",
+														{
+															"type": "list",
+															"page": 23,
+															"items": [
+																{
+																	"type": "item",
+																	"name": "Wild Magic Surge",
+																	"nameDot": false,
+																	"entries": [
+																		"no longer requires DM permission."
+																	]
+																},
+																{
+																	"type": "item",
+																	"name": "Tides of Chaos",
+																	"nameDot": false,
+																	"entries": [
+																		"is now guaranteed to give you a roll on the Wild Magic Surge table."
+																	]
+																},
+																{
+																	"type": "item",
+																	"name": "Bend Luck",
+																	"nameDot": false,
+																	"entries": [
+																		"now costs 1 Sorcery Point instead of 2."
+																	]
+																},
+																{
+																	"type": "item",
+																	"name": "Wild Bombardment",
+																	"nameDot": false,
+																	"entries": [
+																		"(formerly Spell Bombardment) now allows you to use a Wild Magic Surge effect that casts a spell or that replenishes your expended Sorcery Points."
+																	]
+																}
+															]
+														}
+													]
+												},
+												{
+													"type": "statblock",
+													"prop": "subclass",
+													"source": "XUA2023PlayersHandbookP7",
+													"name": "Wild Magic",
+													"className": "Sorcerer",
+													"classSource": "XUA2023PlayersHandbookP7",
+													"page": 23,
+													"collapsed": true,
+													"displayName": "Wild Magic Sorcery"
+												}
+											]
+										},
+										{
+											"type": "entries",
+											"name": "Aberrant & Clockwork Sorcery",
+											"entries": [
+												"{@note See {@book Tasha's Cauldron of Everything|TCE} for {@class Sorcerer|XUA2023PlayersHandbookP7|Aberrant Sorcery|Aberrant|XUA2023PlayersHandbookP7} (aka {@class Sorcerer|PHB|Aberrant Mind|Aberrant Mind|TCE}) and {@class Sorcerer|XUA2023PlayersHandbookP7|Clockwork Sorcery|Clockwork|XUA2023PlayersHandbookP7} (aka {@class Sorcerer|PHB|Clockwork Soul|Clockwork Soul|TCE}).}",
+												{
+													"type": "statblock",
+													"prop": "subclass",
+													"source": "XUA2023PlayersHandbookP7",
+													"name": "Aberrant",
+													"className": "Sorcerer",
+													"classSource": "XUA2023PlayersHandbookP7",
+													"collapsed": true,
+													"displayName": "Aberrant Sorcery"
+												},
+												{
+													"type": "statblock",
+													"prop": "subclass",
+													"source": "XUA2023PlayersHandbookP7",
+													"name": "Clockwork",
+													"className": "Sorcerer",
+													"classSource": "XUA2023PlayersHandbookP7",
+													"collapsed": true,
+													"displayName": "Clockwork Sorcery"
+												}
+											]
+										}
+									]
+								}
+							]
+						},
+						{
+							"type": "section",
+							"name": "Warlock",
+							"page": 25,
+							"entries": [
+								{
+									"type": "inset",
+									"page": 25,
+									"name": "Design Note: Warlock Updates",
+									"entries": [
+										"Here are the main updates in this class since its last playtest version:",
+										{
+											"type": "list",
+											"page": 25,
+											"items": [
+												"The class's {@b Armor Training} entry returns to including only Light Armor.",
+												{
+													"type": "item",
+													"name": "Pact Magic",
+													"nameDot": false,
+													"entries": [
+														"returns."
+													]
+												},
+												{
+													"type": "item",
+													"name": "Eldritch Invocations",
+													"nameDot": false,
+													"entries": [
+														"moves to level 1, and at level 20, you have 10 invocations rather than 8. Many of the invocations are revised, as detailed in their section."
+													]
+												},
+												{
+													"type": "item",
+													"name": "Pact Boon",
+													"nameDot": false,
+													"entries": [
+														"is integrated into the Eldritch Invocations feature. Over time, you're now able to choose more than one of the former Pact Boon options."
+													]
+												},
+												{
+													"type": "item",
+													"name": "Magical Cunning",
+													"nameDot": false,
+													"entries": [
+														"is a new level 2 feature that allows a Warlock to quickly regain a certain number of spell slots."
+													]
+												},
+												{
+													"type": "item",
+													"name": "Contact Patron",
+													"nameDot": false,
+													"entries": [
+														"moves to level 9."
+													]
+												},
+												{
+													"type": "item",
+													"name": "Mystic Arcanum",
+													"nameDot": false,
+													"entries": [
+														"returns to being a core feature, and it now allows you to replace one of its spells whenever you gain a level in this class."
+													]
+												},
+												{
+													"type": "item",
+													"name": "Hex Master",
+													"nameDot": false,
+													"entries": [
+														"is gone."
+													]
+												},
+												{
+													"type": "item",
+													"name": "Eldritch Master",
+													"nameDot": false,
+													"entries": [
+														"returns to level 20."
+													]
+												}
+											]
+										}
+									]
+								},
+								{
+									"type": "statblock",
+									"tag": "class",
+									"source": "XUA2023PlayersHandbookP7",
+									"name": "Warlock",
+									"page": 25,
+									"collapsed": true
+								},
+								{
+									"type": "entries",
+									"entries": [
+										{
+											"type": "entries",
+											"name": "Eldritch Invocation Options",
+											"page": 28,
+											"entries": [
+												"The following options are available to your Eldritch Invocations feature. The options are presented in alphabetical order.",
+												{
+													"type": "inset",
+													"page": 28,
+													"name": "Design Note: Eldritch Invocation Updates",
+													"entries": [
+														"Here's a summary of the main changes to the invocation options since they appeared in \"{@loader Player's Handbook Playtest 5|collection/Unearthed Arcana 2023 - Player's Handbook Playtest 5.json|prerelease}\":",
+														{
+															"type": "list",
+															"page": 28,
+															"items": [
+																{
+																	"type": "item",
+																	"name": "Agonizing Blast",
+																	"nameDot": false,
+																	"entries": [
+																		"now lets you choose which Warlock cantrip benefits from the invocation."
+																	]
+																},
+																{
+																	"type": "item",
+																	"name": "Ascendent Step",
+																	"nameDot": false,
+																	"entries": [
+																		"now requires level 5+ rather than level 9+."
+																	]
+																},
+																{
+																	"type": "item",
+																	"name": "Beast Speech",
+																	"nameDot": false,
+																	"entries": [
+																		"is gone, since {@spell Speak with Animals} is now on the Warlock spell list and can be cast as a Ritual."
+																	]
+																},
+																{
+																	"type": "item",
+																	"name": "Devil's Sight",
+																	"nameDot": false,
+																	"entries": [
+																		"now works in Dim Light as well as in Darkness."
+																	]
+																},
+																{
+																	"type": "item",
+																	"name": "Eldritch Mind",
+																	"nameDot": false,
+																	"entries": [
+																		"has been imported from {@book Tasha's Cauldron of Everything|TCE}."
+																	]
+																},
+																{
+																	"type": "item",
+																	"name": "Eldritch Sight",
+																	"nameDot": false,
+																	"entries": [
+																		"is gone, since {@spell Detect Magic} is now on the Warlock spell list and can be cast as a ritual."
+																	]
+																},
+																{
+																	"type": "item",
+																	"name": "Eldritch Smite",
+																	"nameDot": false,
+																	"entries": [
+																		"has been imported from {@book Xanathar's Guide to Everything|XGE}."
+																	]
+																},
+																{
+																	"type": "item",
+																	"name": "Eldritch Spear",
+																	"nameDot": false,
+																	"entries": [
+																		"now lets you choose which Warlock cantrip benefits from the invocation."
+																	]
+																},
+																{
+																	"type": "item",
+																	"name": "Eyes of the Rune Keeper",
+																	"nameDot": false,
+																	"entries": [
+																		"has been removed, since {@spell Comprehend Languages} is on the Warlock spell list and can be cast as a ritual."
+																	]
+																},
+																{
+																	"type": "item",
+																	"name": "Favor of the Chain Master",
+																	"nameDot": false,
+																	"entries": [
+																		"has been cut in favor of importing Investment of the Chain Master from {@book Tasha's Cauldron of Everything|TCE}."
+																	]
+																},
+																{
+																	"type": "item",
+																	"name": "Fiendish Vigor",
+																	"nameDot": false,
+																	"entries": [
+																		"no longer requires you to roll a die when casting {@spell False Life}; you instead gain the maximum number of Temporary Hit Points."
+																	]
+																},
+																{
+																	"type": "item",
+																	"name": "Gaze of Two Minds",
+																	"nameDot": false,
+																	"entries": [
+																		"now works on any willing creature, not just Humanoids, and to cast spells from the other creature's space, you must be within 60 feet of each other."
+																	]
+																},
+																{
+																	"type": "item",
+																	"name": "Gift of the Depths",
+																	"nameDot": false,
+																	"entries": [
+																		"has been imported from {@book Xanathar's Guide to Everything|XGE}."
+																	]
+																},
+																{
+																	"type": "item",
+																	"name": "Eldritch Mind",
+																	"nameDot": false,
+																	"entries": [
+																		"from {@book Tasha's Cauldron of Everything|TCE} replaces Hexer."
+																	]
+																},
+																{
+																	"type": "item",
+																	"name": "Investment of the Chain Master",
+																	"nameDot": false,
+																	"entries": [
+																		"has been imported from {@book Tasha's Cauldron of Everything|TCE}."
+																	]
+																},
+																{
+																	"type": "item",
+																	"name": "Lessons of the First Ones",
+																	"nameDot": false,
+																	"entries": [
+																		"can now be taken more than once."
+																	]
+																},
+																{
+																	"type": "item",
+																	"name": "Lifedrinker",
+																	"nameDot": false,
+																	"entries": [
+																		"now lets you choose to deal Necrotic, Psychic, or Radiant damage, and its healing is connected to your Hit Dice."
+																	]
+																},
+																{
+																	"type": "item",
+																	"name": "Master of Myriad Forms",
+																	"nameDot": false,
+																	"entries": [
+																		"now requires level 5+ rather than level 15+."
+																	]
+																},
+																{
+																	"type": "item",
+																	"name": "One with Shadows",
+																	"nameDot": false,
+																	"entries": [
+																		"now lets you cast {@spell Invisibility} without a spell slot while you're in Dim Light or Darkness."
+																	]
+																},
+																{
+																	"type": "item",
+																	"name": "Otherworldly Leap",
+																	"nameDot": false,
+																	"entries": [
+																		"now requires level 2+ rather than level 9+."
+																	]
+																},
+																{
+																	"type": "item",
+																	"name": "Pact of the Blade, Pact of the Chain,",
+																	"nameDot": false,
+																	"entries": [
+																		"and {@b Pact of the Tome} are now invocations. Pact of the Chain includes additional familiar options, and Pact of the Tome now gives you a level 1 spell slot."
+																	]
+																},
+																{
+																	"type": "item",
+																	"name": "Thirsting Blade",
+																	"nameDot": false,
+																	"entries": [
+																		"returns, and it now improves at level 11."
+																	]
+																},
+																{
+																	"type": "item",
+																	"name": "Visions of Distant Realms",
+																	"nameDot": false,
+																	"entries": [
+																		"now requires level 9+ rather than level 15+."
+																	]
+																},
+																{
+																	"type": "item",
+																	"name": "Whispers of the Grave",
+																	"nameDot": false,
+																	"entries": [
+																		"now requires level 7+ rather than level 9+."
+																	]
+																}
+															]
+														}
+													]
+												},
+												{
+													"type": "statblock",
+													"tag": "optfeature",
+													"source": "XUA2023PlayersHandbookP7",
+													"name": "Agonizing Blast",
+													"page": 29,
+													"collapsed": true
+												},
+												{
+													"type": "statblock",
+													"tag": "optfeature",
+													"source": "XUA2023PlayersHandbookP7",
+													"name": "Armor of Shadows",
+													"page": 29,
+													"collapsed": true
+												},
+												{
+													"type": "statblock",
+													"tag": "optfeature",
+													"source": "XUA2023PlayersHandbookP7",
+													"name": "Ascendant Step",
+													"page": 29,
+													"collapsed": true
+												},
+												{
+													"type": "statblock",
+													"tag": "optfeature",
+													"source": "XUA2023PlayersHandbookP7",
+													"name": "Devil's Sight",
+													"page": 29,
+													"collapsed": true
+												},
+												{
+													"type": "statblock",
+													"tag": "optfeature",
+													"source": "XUA2023PlayersHandbookP7",
+													"name": "Eldritch Mind",
+													"page": 29,
+													"collapsed": true
+												},
+												{
+													"type": "statblock",
+													"tag": "optfeature",
+													"source": "XUA2023PlayersHandbookP7",
+													"name": "Eldritch Smite",
+													"page": 29,
+													"collapsed": true
+												},
+												{
+													"type": "statblock",
+													"tag": "optfeature",
+													"source": "XUA2023PlayersHandbookP7",
+													"name": "Eldritch Spear",
+													"page": 29,
+													"collapsed": true
+												},
+												{
+													"type": "statblock",
+													"tag": "optfeature",
+													"source": "XUA2023PlayersHandbookP7",
+													"name": "Fiendish Vigor",
+													"page": 29,
+													"collapsed": true
+												},
+												{
+													"type": "statblock",
+													"tag": "optfeature",
+													"source": "XUA2023PlayersHandbookP7",
+													"name": "Gaze of Two Minds",
+													"page": 29,
+													"collapsed": true
+												},
+												{
+													"type": "statblock",
+													"tag": "optfeature",
+													"source": "XUA2023PlayersHandbookP7",
+													"name": "Gift of the Depths",
+													"page": 29,
+													"collapsed": true
+												},
+												{
+													"type": "statblock",
+													"tag": "optfeature",
+													"source": "XUA2023PlayersHandbookP7",
+													"name": "Gift of the Protectors",
+													"page": 29,
+													"collapsed": true
+												},
+												{
+													"type": "statblock",
+													"tag": "optfeature",
+													"source": "XUA2023PlayersHandbookP7",
+													"name": "Investment of the Chain Master",
+													"page": 30,
+													"collapsed": true
+												},
+												{
+													"type": "statblock",
+													"tag": "optfeature",
+													"source": "XUA2023PlayersHandbookP7",
+													"name": "Lessons of the First Ones",
+													"page": 30,
+													"collapsed": true
+												},
+												{
+													"type": "statblock",
+													"tag": "optfeature",
+													"source": "XUA2023PlayersHandbookP7",
+													"name": "Lifedrinker",
+													"page": 30,
+													"collapsed": true
+												},
+												{
+													"type": "statblock",
+													"tag": "optfeature",
+													"source": "XUA2023PlayersHandbookP7",
+													"name": "Mask of Many Faces",
+													"page": 30,
+													"collapsed": true
+												},
+												{
+													"type": "statblock",
+													"tag": "optfeature",
+													"source": "XUA2023PlayersHandbookP7",
+													"name": "Master of Myriad Forms",
+													"page": 30,
+													"collapsed": true
+												},
+												{
+													"type": "statblock",
+													"tag": "optfeature",
+													"source": "XUA2023PlayersHandbookP7",
+													"name": "Misty Visions",
+													"page": 30,
+													"collapsed": true
+												},
+												{
+													"type": "statblock",
+													"tag": "optfeature",
+													"source": "XUA2023PlayersHandbookP7",
+													"name": "One With Shadows",
+													"page": 30,
+													"collapsed": true
+												},
+												{
+													"type": "statblock",
+													"tag": "optfeature",
+													"source": "XUA2023PlayersHandbookP7",
+													"name": "Otherworldly Leap",
+													"page": 30,
+													"collapsed": true
+												},
+												{
+													"type": "statblock",
+													"tag": "optfeature",
+													"source": "XUA2023PlayersHandbookP7",
+													"name": "Pact of the Blade",
+													"page": 30,
+													"collapsed": true
+												},
+												{
+													"type": "statblock",
+													"tag": "optfeature",
+													"source": "XUA2023PlayersHandbookP7",
+													"name": "Pact of the Chain",
+													"page": 31,
+													"collapsed": true
+												},
+												{
+													"type": "statblock",
+													"tag": "optfeature",
+													"source": "XUA2023PlayersHandbookP7",
+													"name": "Pact of the Tome",
+													"page": 31,
+													"collapsed": true
+												},
+												{
+													"type": "statblock",
+													"tag": "optfeature",
+													"source": "XUA2023PlayersHandbookP7",
+													"name": "Repelling Blast",
+													"page": 31,
+													"collapsed": true
+												},
+												{
+													"type": "statblock",
+													"tag": "optfeature",
+													"source": "XUA2023PlayersHandbookP7",
+													"name": "Thirsting Blade",
+													"page": 31,
+													"collapsed": true
+												},
+												{
+													"type": "statblock",
+													"tag": "optfeature",
+													"source": "XUA2023PlayersHandbookP7",
+													"name": "Visions of Distant Realms",
+													"page": 31,
+													"collapsed": true
+												},
+												{
+													"type": "statblock",
+													"tag": "optfeature",
+													"source": "XUA2023PlayersHandbookP7",
+													"name": "Whispers of the Grave",
+													"page": 31,
+													"collapsed": true
+												},
+												{
+													"type": "statblock",
+													"tag": "optfeature",
+													"source": "XUA2023PlayersHandbookP7",
+													"name": "Witch Sight",
+													"page": 31,
+													"collapsed": true
+												}
+											]
+										}
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Warlock Subclasses",
+									"page": 31,
+									"entries": [
+										"A Warlock subclass is a specialization that grants you special abilities at certain Warlock levels, as specified in the subclass. This section presents the following subclasses: {@class Warlock|XUA2023PlayersHandbookP7|Archfey Patron|Archfey|XUA2023PlayersHandbookP7}, {@class Warlock|XUA2023PlayersHandbookP7|Celestial Patron|Celestial|XUA2023PlayersHandbookP7}, {@class Warlock|XUA2023PlayersHandbookP7|Fiend Patron|Fiend|XUA2023PlayersHandbookP7}, and {@class Warlock|XUA2023PlayersHandbookP7|Great Old One Patron|Great Old One|XUA2023PlayersHandbookP7}.",
+										{
+											"type": "entries",
+											"name": "Archfey Patron",
+											"page": 31,
+											"entries": [
+												{
+													"type": "inset",
+													"page": 31,
+													"name": "Design Note: Archfey Patron Updates",
+													"entries": [
+														"Here are the main updates in this subclass since the 2014 {@book Player's Handbook|PHB}:",
+														{
+															"type": "list",
+															"page": 31,
+															"items": [
+																{
+																	"type": "item",
+																	"name": "Patron Spells",
+																	"nameDot": false,
+																	"entries": [
+																		"(formerly called Expanded Spell List) now lets you have its spells always prepared, and it includes {@spell Misty Step}."
+																	]
+																},
+																{
+																	"type": "item",
+																	"name": "Steps of the Fey",
+																	"nameDot": false,
+																	"entries": [
+																		"(formerly Fey Presence) now gives you the {@spell Misty Step} spell and ways to modify it."
+																	]
+																},
+																{
+																	"type": "item",
+																	"name": "Misty Escape",
+																	"nameDot": false,
+																	"entries": [
+																		"now modifies your {@spell Misty Step} spell and expands your choices from Steps of the Fey."
+																	]
+																},
+																{
+																	"type": "item",
+																	"name": "Beguiling Defenses",
+																	"nameDot": false,
+																	"entries": [
+																		"now reacts to you taking damage."
+																	]
+																},
+																{
+																	"type": "item",
+																	"name": "Bewitching Magic",
+																	"nameDot": false,
+																	"entries": [
+																		"(formerly Dark Delirium) allows you to cast {@spell Misty Step} whenever you cast an Enchantment or Illusion spell using a spell slot."
+																	]
+																}
+															]
+														}
+													]
+												},
+												{
+													"type": "statblock",
+													"prop": "subclass",
+													"source": "XUA2023PlayersHandbookP7",
+													"name": "Archfey",
+													"className": "Warlock",
+													"classSource": "XUA2023PlayersHandbookP7",
+													"page": 31,
+													"collapsed": true,
+													"displayName": "Archfey Patron"
+												}
+											]
+										},
+										{
+											"type": "entries",
+											"name": "Celestial Patron",
+											"page": 32,
+											"entries": [
+												{
+													"type": "inset",
+													"page": 32,
+													"name": "Design Note: Celestial Patron Updates",
+													"entries": [
+														"Here are the main updates in this subclass since its appearance in {@book Xanathar's Guide to Everything|XGE}:",
+														{
+															"type": "list",
+															"page": 32,
+															"items": [
+																{
+																	"type": "item",
+																	"name": "Patron Spells",
+																	"nameDot": false,
+																	"entries": [
+																		"(formerly called Expanded Spell List and Bonus Cantrips) now lets you have its spells always prepared."
+																	]
+																},
+																{
+																	"type": "item",
+																	"name": "Celestial Resilience",
+																	"nameDot": false,
+																	"entries": [
+																		"now works with Magical Cunning."
+																	]
+																}
+															]
+														}
+													]
+												},
+												{
+													"type": "statblock",
+													"prop": "subclass",
+													"source": "XUA2023PlayersHandbookP7",
+													"name": "Celestial",
+													"className": "Warlock",
+													"classSource": "XUA2023PlayersHandbookP7",
+													"page": 32,
+													"collapsed": true,
+													"displayName": "Celestial Patron"
+												}
+											]
+										},
+										{
+											"type": "entries",
+											"name": "Fiend Patron",
+											"page": 33,
+											"entries": [
+												{
+													"type": "inset",
+													"page": 33,
+													"name": "Design Note: Fiend Patron Updates",
+													"entries": [
+														"Here are the main updates in this subclass since its last playtest version:",
+														{
+															"type": "list",
+															"page": 33,
+															"items": [
+																{
+																	"type": "item",
+																	"name": "Patron Spells",
+																	"nameDot": false,
+																	"entries": [
+																		"is updated to reflect the return of Pact Magic. The list of spells is revised, and the free casting is gone in favor of the spell-slot recovery in Magical Cunning."
+																	]
+																},
+																{
+																	"type": "item",
+																	"name": "Dark One's Blessing",
+																	"nameDot": false,
+																	"entries": [
+																		"now works when someone else reduces an enemy within 10 feet of you to 0 Hit Points."
+																	]
+																},
+																{
+																	"type": "item",
+																	"name": "Dark One's Own Luck",
+																	"nameDot": false,
+																	"entries": [
+																		"can be used only once per roll."
+																	]
+																},
+																{
+																	"type": "item",
+																	"name": "Hurl Through Hell",
+																	"nameDot": false,
+																	"entries": [
+																		"requires a Charisma saving throw before affecting the target. The damage is now {@damage 8d10}, and the target has the {@condition Incapacitated|XUA2023PlayersHandbookP7} condition while hurtling through the Lower Planes."
+																	]
+																}
+															]
+														}
+													]
+												},
+												{
+													"type": "statblock",
+													"prop": "subclass",
+													"source": "XUA2023PlayersHandbookP7",
+													"name": "Fiend",
+													"className": "Warlock",
+													"classSource": "XUA2023PlayersHandbookP7",
+													"page": 33,
+													"collapsed": true,
+													"displayName": "Fiend Patron"
+												}
+											]
+										},
+										{
+											"type": "entries",
+											"name": "Great Old One Patron",
+											"page": 34,
+											"entries": [
+												{
+													"type": "inset",
+													"page": 34,
+													"name": "Design Note: Great Old One Patron Updates",
+													"entries": [
+														"Here are the main updates in this subclass since the 2014 {@book Player's Handbook|PHB}:",
+														{
+															"type": "list",
+															"page": 34,
+															"items": [
+																{
+																	"type": "item",
+																	"name": "Patron Spells",
+																	"nameDot": false,
+																	"entries": [
+																		"(formerly called Expanded Spell List) now lets you have its spells always prepared, and some of the spells have changed."
+																	]
+																},
+																{
+																	"type": "item",
+																	"name": "Awakened Mind",
+																	"nameDot": false,
+																	"entries": [
+																		"now lets you create a two-way telepathic connection with another creature."
+																	]
+																},
+																{
+																	"type": "item",
+																	"name": "Psychic Spells",
+																	"nameDot": false,
+																	"entries": [
+																		"is a new level 3 feature."
+																	]
+																},
+																{
+																	"type": "item",
+																	"name": "Clairvoyant Combatant",
+																	"nameDot": false,
+																	"entries": [
+																		"(formerly Entropic Ward) uses your telepathic bond to impose Disadvantage on attack rolls against you and grant you Advantage on attack rolls against the creature for the duration of the telepathic bond."
+																	]
+																},
+																{
+																	"type": "item",
+																	"name": "Eldritch Hex",
+																	"nameDot": false,
+																	"entries": [
+																		"is a new level 10 feature."
+																	]
+																},
+																{
+																	"type": "item",
+																	"name": "Create Thrall",
+																	"nameDot": false,
+																	"entries": [
+																		"now gives you the {@spell Summon Aberration|TCE} spell with additional properties."
+																	]
+																}
+															]
+														}
+													]
+												},
+												{
+													"type": "statblock",
+													"prop": "subclass",
+													"source": "XUA2023PlayersHandbookP7",
+													"name": "Great Old One",
+													"className": "Warlock",
+													"classSource": "XUA2023PlayersHandbookP7",
+													"page": 34,
+													"collapsed": true,
+													"displayName": "Great Old One Patron"
+												}
+											]
+										}
+									]
+								}
+							]
+						},
+						{
+							"type": "section",
+							"name": "Wizard",
+							"page": 36,
+							"entries": [
+								{
+									"type": "inset",
+									"page": 37,
+									"name": "Design Note: Wizard Updates",
+									"entries": [
+										"Here are the main updates in this class since its last playtest version:",
+										{
+											"type": "list",
+											"page": 37,
+											"items": [
+												{
+													"type": "item",
+													"name": "Arcane Recovery",
+													"nameDot": false,
+													"entries": [
+														"returns to level 1."
+													]
+												},
+												{
+													"type": "item",
+													"name": "Spellcasting",
+													"nameDot": false,
+													"entries": [
+														"now allows you to change a cantrip whenever you finish a {@variantrule Long Rest|XUA2023PlayersHandbookP7}, incorporating the functionality of the Cantrip Formulas feature in {@book Tasha's Cauldron of Everything|TCE}. This feature also returns to using the Wizard spell list, and the total number of spells prepared has increased since the last playtest."
+													]
+												},
+												{
+													"type": "item",
+													"name": "Wizard's Spellbook",
+													"nameDot": false,
+													"entries": [
+														"is absorbed into the Spellcasting feature."
+													]
+												},
+												{
+													"type": "item",
+													"name": "Scholar",
+													"nameDot": false,
+													"entries": [
+														"replaces Academic at level 2, and it offers {@variantrule Expertise|XUA2023PlayersHandbookP7} in one skill chosen from a list."
+													]
+												},
+												{
+													"type": "item",
+													"name": "Memorize Spell",
+													"nameDot": false,
+													"entries": [
+														"is now a feature rather than a spell. It allows you to prepare a spell that you didn't already have prepared."
+													]
+												},
+												{
+													"type": "item",
+													"name": "Modify Spell",
+													"nameDot": false,
+													"entries": [
+														"and Create Spell are gone."
+													]
+												},
+												{
+													"type": "item",
+													"name": "Spell Mastery",
+													"nameDot": false,
+													"entries": [
+														"returns to level 18. In addition, the chosen spells must have a casting time of an action, you always have them prepared, and you can change one of them whenever you finish a {@variantrule Long Rest|XUA2023PlayersHandbookP7}. Allowing at-will casting of non-action spells, such as {@spell Shield}, was too powerful."
+													]
+												},
+												{
+													"type": "item",
+													"name": "Signature Spells",
+													"nameDot": false,
+													"entries": [
+														"returns to level 20."
+													]
+												}
+											]
+										}
+									]
+								},
+								{
+									"type": "statblock",
+									"tag": "class",
+									"source": "XUA2023PlayersHandbookP7",
+									"name": "Wizard",
+									"page": 36,
+									"collapsed": true
+								},
+								{
+									"type": "entries",
+									"name": "Wizard Subclasses",
+									"page": 39,
+									"entries": [
+										"A Wizard subclass is a specialization that grants you special abilities at certain Wizard levels, as specified in the subclass. This section presents the following subclasses: {@class Wizard|XUA2023PlayersHandbookP7|Abjurer|Abjurer|XUA2023PlayersHandbookP7}, {@class Wizard|XUA2023PlayersHandbookP7|Diviner|Diviner|XUA2023PlayersHandbookP7}, {@class Wizard|XUA2023PlayersHandbookP7|Evoker|Evoker|XUA2023PlayersHandbookP7}, and {@class Wizard|XUA2023PlayersHandbookP7|Illusionist|Illusionist|XUA2023PlayersHandbookP7}.",
+										{
+											"type": "entries",
+											"name": "Abjurer",
+											"page": 39,
+											"entries": [
+												{
+													"type": "inset",
+													"page": 40,
+													"name": "Design Note: Abjurer Updates",
+													"entries": [
+														"Here are the main updates in this subclass since the 2014 {@book Player's Handbook|PHB}:",
+														{
+															"type": "list",
+															"page": 40,
+															"items": [
+																{
+																	"type": "item",
+																	"name": "Abjuration Savant",
+																	"nameDot": false,
+																	"entries": [
+																		"now adds one Abjuration spell to your spellbook whenever you gain access to a new level of spell slots in this class. This benefit replaces the rarely used discount."
+																	]
+																},
+																{
+																	"type": "item",
+																	"name": "Arcane Ward",
+																	"nameDot": false,
+																	"entries": [
+																		"now requires you to spend a spell slot to create it, and it allows you to expend a spell slot without casting a spell to restore it."
+																	]
+																},
+																{
+																	"type": "item",
+																	"name": "Spell Breaker",
+																	"nameDot": false,
+																	"entries": [
+																		"replaces Improved Abjuration."
+																	]
+																}
+															]
+														}
+													]
+												},
+												{
+													"type": "statblock",
+													"prop": "subclass",
+													"source": "XUA2023PlayersHandbookP7",
+													"name": "Abjurer",
+													"className": "Wizard",
+													"classSource": "XUA2023PlayersHandbookP7",
+													"page": 39,
+													"collapsed": true
+												}
+											]
+										},
+										{
+											"type": "entries",
+											"name": "Diviner",
+											"page": 40,
+											"entries": [
+												{
+													"type": "inset",
+													"page": 40,
+													"name": "Design Note: Diviner Updates",
+													"entries": [
+														"Here are the main updates in this subclass since the 2014 {@book Player's Handbook|PHB}:",
+														{
+															"type": "list",
+															"page": 40,
+															"items": [
+																{
+																	"type": "item",
+																	"name": "Divination Savant",
+																	"nameDot": false,
+																	"entries": [
+																		"now adds one Divination spell to your spellbook whenever you gain access to a new level of spell slots in this class. This benefit replaces the rarely used discount."
+																	]
+																},
+																{
+																	"type": "item",
+																	"name": "The Third Eye",
+																	"nameDot": false,
+																	"entries": [
+																		"is now a Bonus Action rather than an action, and it allows you to cast the {@spell See Invisibility} spell instead of having to choose between seeing the invisible or seeing into the Ethereal Plane. Finally, the {@condition Incapacitated|XUA2023PlayersHandbookP7} condition no longer shuts this feature off."
+																	]
+																}
+															]
+														}
+													]
+												},
+												{
+													"type": "statblock",
+													"prop": "subclass",
+													"source": "XUA2023PlayersHandbookP7",
+													"name": "Diviner",
+													"className": "Wizard",
+													"classSource": "XUA2023PlayersHandbookP7",
+													"page": 40,
+													"collapsed": true
+												}
+											]
+										},
+										{
+											"type": "entries",
+											"name": "Evoker",
+											"page": 41,
+											"entries": [
+												{
+													"type": "inset",
+													"page": 41,
+													"name": "Design Note: Evoker Updates",
+													"entries": [
+														"Here are the main updates in this subclass since its last playtest version:",
+														{
+															"type": "list",
+															"page": 41,
+															"items": [
+																{
+																	"type": "item",
+																	"name": "Evocation Savant",
+																	"nameDot": false,
+																	"entries": [
+																		"now adds one Evocation spell to your spellbook whenever you gain access to a new level of spell slots in this class. This benefit replaces the rarely used discount."
+																	]
+																},
+																{
+																	"type": "item",
+																	"name": "Potent Cantrip",
+																	"nameDot": false,
+																	"entries": [
+																		"moves to level 3. This change gives the Evoker a feature that can be enjoyed regularly."
+																	]
+																},
+																{
+																	"type": "item",
+																	"name": "Sculpt Spells",
+																	"nameDot": false,
+																	"entries": [
+																		"moves to level 6. Few spells at lower levels benefited from it. At level 6, it can benefit many iconic spells."
+																	]
+																}
+															]
+														}
+													]
+												},
+												{
+													"type": "statblock",
+													"prop": "subclass",
+													"source": "XUA2023PlayersHandbookP7",
+													"name": "Evoker",
+													"className": "Wizard",
+													"classSource": "XUA2023PlayersHandbookP7",
+													"page": 41,
+													"collapsed": true
+												}
+											]
+										},
+										{
+											"type": "entries",
+											"name": "Illusionist",
+											"page": 42,
+											"entries": [
+												{
+													"type": "inset",
+													"page": 42,
+													"name": "Design Note: Illusionist Updates",
+													"entries": [
+														"Here are the main updates in this subclass since the 2014 {@book Player's Handbook|PHB}:",
+														{
+															"type": "list",
+															"page": 42,
+															"items": [
+																{
+																	"type": "item",
+																	"name": "Illusion Savant",
+																	"nameDot": false,
+																	"entries": [
+																		"now adds one Illusion spell to your spellbook whenever you gain access to a new level of spell slots in this class. This benefit replaces the rarely used discount."
+																	]
+																},
+																{
+																	"type": "item",
+																	"name": "Malleable Illusions",
+																	"nameDot": false,
+																	"entries": [
+																		"is now a Bonus Action rather than an action."
+																	]
+																},
+																{
+																	"type": "item",
+																	"name": "Illusory Self",
+																	"nameDot": false,
+																	"entries": [
+																		"can be reused by expending a spell slot of level 2 or higher."
+																	]
+																},
+																{
+																	"type": "item",
+																	"name": "Illusory Reality",
+																	"nameDot": false,
+																	"entries": [
+																		"has been clarified, noting that it can't deal damage or give any conditions."
+																	]
+																}
+															]
+														}
+													]
+												},
+												{
+													"type": "statblock",
+													"prop": "subclass",
+													"source": "XUA2023PlayersHandbookP7",
+													"name": "Illusionist",
+													"className": "Wizard",
+													"classSource": "XUA2023PlayersHandbookP7",
+													"page": 42,
+													"collapsed": true
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"type": "section",
+					"name": "Spells",
+					"page": 43,
+					"entries": [
+						"This section presents new or revised spells for you to playtest.",
+						{
+							"type": "entries",
+							"name": "Class Tags",
+							"page": 43,
+							"entries": [
+								"A spell's description contains one or more tags indicating the class spell lists that contain the spell. For example, if a spell has the \"Wizard\" tag, the spell is on the Wizard spell list."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Spell Descriptions",
+							"page": 43,
+							"entries": [
+								"The following spells are presented in alphabetical order.",
+								{
+									"type": "inset",
+									"page": 43,
+									"name": "Design Note: Spell Updates",
+									"entries": [
+										"Here are the main updates in this section since its last playtest version:",
+										{
+											"type": "list",
+											"page": 43,
+											"items": [
+												"The {@b Arcane}, {@b Divine}, and {@b Primal} lists are gone. All spellcasting classes return to using their own lists.",
+												{
+													"type": "item",
+													"name": "Arcane Eruption",
+													"nameDot": false,
+													"entries": [
+														"now requires a Dexterity save rather than a Constitution save."
+													]
+												},
+												{
+													"type": "item",
+													"name": "Counterspell",
+													"nameDot": false,
+													"entries": [
+														"now requires the target to make a saving throw, instead of requiring the caster to make an ability check. The spell's previous design failed to account for the capabilities of the target, which is rectified by the new design. The new design also specifies that the countered spell must be cast with spell components, and if the countered spell used a spell slot, that slot isn't expended."
+													]
+												},
+												{
+													"type": "item",
+													"name": "Eldritch Blast",
+													"nameDot": false,
+													"entries": [
+														"and {@b Hex} revert to their 2014 versions."
+													]
+												},
+												{
+													"type": "item",
+													"name": "Jump",
+													"nameDot": false,
+													"entries": [
+														"is now a Bonus Action, its target must be willing, its benefit no longer relies on your Strength or Speed, and it can be improved at higher levels."
+													]
+												},
+												{
+													"type": "item",
+													"name": "Sorcerous Burst",
+													"nameDot": false,
+													"entries": [
+														"now uses a {@damage d8} for damage rather than a {@damage d6}."
+													]
+												}
+											]
+										}
+									]
+								},
+								{
+									"type": "statblock",
+									"tag": "spell",
+									"source": "XUA2023PlayersHandbookP7",
+									"name": "Arcane Eruption",
+									"page": 43,
+									"collapsed": true
+								},
+								{
+									"type": "statblock",
+									"tag": "spell",
+									"source": "XUA2023PlayersHandbookP7",
+									"name": "Counterspell",
+									"page": 43,
+									"collapsed": true
+								},
+								{
+									"type": "statblock",
+									"tag": "spell",
+									"source": "XUA2023PlayersHandbookP7",
+									"name": "Jump",
+									"page": 43,
+									"collapsed": true
+								},
+								{
+									"type": "statblock",
+									"tag": "spell",
+									"source": "XUA2023PlayersHandbookP7",
+									"name": "Sorcerous Burst",
+									"page": 44,
+									"collapsed": true
+								}
+							]
+						}
+					]
+				},
+				{
+					"type": "section",
+					"name": "Feats",
+					"page": 44,
+					"entries": [
+						"This section offers a collection of character feats, which are special features not tied to a single character class.",
+						{
+							"type": "entries",
+							"name": "Parts of a Feat",
+							"page": 44,
+							"entries": [
+								"The description of a feat contains the following parts, which are presented after the feat's name:",
+								{
+									"type": "list",
+									"style": "list-hang-notitle",
+									"page": 44,
+									"items": [
+										{
+											"type": "item",
+											"name": "Prerequisite",
+											"entries": [
+												"You must meet any prerequisite specified in a feat to take that feat unless a special feature allows you to take the feat without the prerequisite. If a prerequisite is a level, your character level must meet or exceed that level. If a prerequisite is a class, you must have at least one level in that class to qualify for the feat."
+											]
+										},
+										{
+											"type": "item",
+											"name": "Benefit",
+											"entries": [
+												"The benefit of the feat is then detailed. If you have a feat, you gain its benefit."
+											]
+										},
+										{
+											"type": "item",
+											"name": "Repeatable",
+											"entries": [
+												"A feat can be taken only once unless it states otherwise."
+											]
+										}
+									]
+								}
+							]
+						},
+						{
+							"type": "statblock",
+							"tag": "variantrule",
+							"source": "XUA2023PlayersHandbookP7",
+							"name": "Bonus Feats at Level 20",
+							"page": 44,
+							"style": "inset"
+						},
+						{
+							"type": "entries",
+							"name": "Feat Descriptions",
+							"page": 44,
+							"entries": [
+								"Here are descriptions of some feats that are available to characters using this playtest article. Playtest characters can also select feats from previous installments of the 2022 {@i Unearthed Arcana} series.",
+								"If a feat appears in this article and also in one of those earlier articles, use the version of the feat in this article.",
+								"The following feats are presented in alphabetical order.",
+								{
+									"type": "statblock",
+									"tag": "feat",
+									"source": "XUA2023PlayersHandbookP7",
+									"name": "Ability Score Improvement",
+									"page": 44
+								}
+							]
+						}
+					]
+				},
+				{
+					"type": "section",
+					"name": "Weapons",
+					"page": 44,
+					"entries": [
+						"This section contains playtest versions of weapons in the 2014 {@book Player's Handbook|PHB}. Here you'll find weapon tables, revised weapon properties, and a new type of property: Mastery properties.",
+						{
+							"type": "inset",
+							"page": 44,
+							"name": "Design Note: Weapon Updates",
+							"entries": [
+								"Here are the main changes to this section since its last playtest version:",
+								{
+									"type": "list",
+									"page": 44,
+									"items": [
+										"The {@b Heavy} property is redesigned. Rather than being based on size, it's based on your Strength or Dexterity score.",
+										"The {@b Flex} property is gone.",
+										"The {@b Push} property now works on any creature that is Large or smaller, and it requires you to push the target straight away from yourself.",
+										"The {@b Sap} property now works with weapons that have the Versatile property or no property.",
+										"The {@b Quarterstaff} now has the Topple property.",
+										"The {@b Spear} now has the Sap property.",
+										"The {@b Longsword} now has the Sap property.",
+										"The {@b Warhammer} now has the Push property.",
+										"The {@b War Pick} now has the Sap property."
+									]
+								}
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Weapon Tables",
+							"page": 45,
+							"entries": [
+								{
+									"type": "statblock",
+									"tag": "table",
+									"source": "XUA2023PlayersHandbookP7",
+									"name": "Simple Weapons: Melee",
+									"page": 45
+								},
+								{
+									"type": "statblock",
+									"tag": "table",
+									"source": "XUA2023PlayersHandbookP7",
+									"name": "Simple Weapons: Ranged",
+									"page": 45
+								},
+								{
+									"type": "statblock",
+									"tag": "table",
+									"source": "XUA2023PlayersHandbookP7",
+									"name": "Martial Weapons: Melee",
+									"page": 45
+								},
+								{
+									"type": "statblock",
+									"tag": "table",
+									"source": "XUA2023PlayersHandbookP7",
+									"name": "Martial Weapons: Ranged",
+									"page": 45
+								}
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Weapon Properties",
+							"page": 46,
+							"entries": [
+								"Here are properties whose definitions have changed for this playtest.",
+								{
+									"type": "entries",
+									"name": "Heavy",
+									"page": 46,
+									"entries": [
+										"A Heavy weapon is unwieldy compared to other weapons. You have Disadvantage on your attack rolls with a Heavy weapon if it's a melee weapon and your Strength score isn't at least 13 and if it's a ranged weapon and your Dexterity score isn't at least 13."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Light",
+									"page": 46,
+									"entries": [
+										"When you take the {@action Attack|XUA2023PlayersHandbookP7} action on your turn and attack with a Light weapon, you can make one extra attack as a Bonus Action later on the same turn. That extra attack must be made with a different Light weapon, and you don't add your ability modifier to the extra attack's damage, unless that modifier is negative.",
+										"For example, if you take the {@action Attack|XUA2023PlayersHandbookP7} action on your turn and have a Shortsword in one hand and a Dagger in the other\u2014each of which has the Light property\u2014you can make one attack with each weapon, using your action and a Bonus Action, but you don't add your Strength or Dexterity modifier to the damage roll of the Bonus Action, unless that modifier is negative."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Thrown",
+									"page": 46,
+									"entries": [
+										"If a weapon has the Thrown property, you can throw the weapon to make a ranged attack, and you can draw that weapon as part of the attack.",
+										"If the weapon is a melee weapon, you use the same ability modifier for that attack roll and damage roll that you would use for a melee attack with the weapon. For example, if you throw a Handaxe, you use your Strength, but if you throw a Dagger, you can use either your Strength or your Dexterity, since the Dagger has the Finesse property."
+									]
+								}
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Mastery Properties",
+							"page": 46,
+							"entries": [
+								"Each weapon now has a Mastery property, as shown in the weapon tables above. That property is usable only by a character who has a feature, such as Weapon Mastery, that unlocks the property for the character.",
+								"Here are descriptions of each Mastery property. The properties are provided in alphabetical order.",
+								"If a game feature lets you replace a weapon's Mastery property with another one, that weapon must meet any prerequisite specified for the new property.",
+								{
+									"type": "statblock",
+									"tag": "itemMastery",
+									"source": "XUA2023PlayersHandbookP7",
+									"name": "Cleave",
+									"page": 46
+								},
+								{
+									"type": "statblock",
+									"tag": "itemMastery",
+									"source": "XUA2023PlayersHandbookP7",
+									"name": "Graze",
+									"page": 46
+								},
+								{
+									"type": "statblock",
+									"tag": "itemMastery",
+									"source": "XUA2023PlayersHandbookP7",
+									"name": "Nick",
+									"page": 46
+								},
+								{
+									"type": "statblock",
+									"tag": "itemMastery",
+									"source": "XUA2023PlayersHandbookP7",
+									"name": "Push",
+									"page": 47
+								},
+								{
+									"type": "statblock",
+									"tag": "itemMastery",
+									"source": "XUA2023PlayersHandbookP7",
+									"name": "Sap",
+									"page": 47
+								},
+								{
+									"type": "statblock",
+									"tag": "itemMastery",
+									"source": "XUA2023PlayersHandbookP7",
+									"name": "Slow",
+									"page": 47
+								},
+								{
+									"type": "statblock",
+									"tag": "itemMastery",
+									"source": "XUA2023PlayersHandbookP7",
+									"name": "Topple",
+									"page": 47
+								},
+								{
+									"type": "statblock",
+									"tag": "itemMastery",
+									"source": "XUA2023PlayersHandbookP7",
+									"name": "Vex",
+									"page": 47
+								}
+							]
+						}
+					]
+				},
+				{
+					"type": "section",
+					"name": "Adventuring Gear",
+					"page": 47,
+					"entries": [
+						"Here are descriptions of miscellaneous items whose rules have changed for this playtest.",
+						{
+							"type": "statblock",
+							"tag": "item",
+							"source": "XUA2023PlayersHandbookP7",
+							"name": "Net",
+							"page": 47
+						},
+						{
+							"type": "statblock",
+							"tag": "item",
+							"source": "XUA2023PlayersHandbookP7",
+							"name": "Priest's Pack",
+							"page": 47
+						}
+					]
+				},
+				{
+					"type": "section",
+					"name": "Rules Glossary",
+					"page": 47,
+					"entries": [
+						"This glossary includes game terms that have new meaning in this playtest document, as well as terms, such as {@variantrule creature type|XUA2023PlayersHandbookP7}, that aren't defined in the 2014 {@book Player's Handbook|PHB}. The terms are organized alphabetically.",
+						"If a term doesn't appear here, use its definition in the 2014 {@book Player's Handbook|PHB}, and when playtesting this document, don't use the rules glossary of any other {@i Unearthed Arcana} article.",
+						{
+							"type": "inset",
+							"page": 47,
+							"name": "Design Note: Rules Glossary Update",
+							"entries": [
+								"The section on death saving throws has been removed."
+							]
+						},
+						{
+							"type": "statblock",
+							"tag": "variantrule",
+							"source": "XUA2023PlayersHandbookP7",
+							"name": "Armor Training",
+							"page": 47,
+							"collapsed": true
+						},
+						{
+							"type": "statblock",
+							"tag": "action",
+							"source": "XUA2023PlayersHandbookP7",
+							"name": "Attack",
+							"page": 48,
+							"collapsed": true
+						},
+						{
+							"type": "statblock",
+							"tag": "sense",
+							"source": "XUA2023PlayersHandbookP7",
+							"name": "Blindsight",
+							"page": 48,
+							"collapsed": true
+						},
+						{
+							"type": "statblock",
+							"tag": "variantrule",
+							"source": "XUA2023PlayersHandbookP7",
+							"name": "Climb Speed",
+							"page": 48,
+							"collapsed": true
+						},
+						{
+							"type": "statblock",
+							"tag": "variantrule",
+							"source": "XUA2023PlayersHandbookP7",
+							"name": "Creature Type",
+							"page": 48,
+							"collapsed": true
+						},
+						{
+							"type": "statblock",
+							"tag": "variantrule",
+							"source": "XUA2023PlayersHandbookP7",
+							"name": "D20 Tests",
+							"page": 48,
+							"collapsed": true
+						},
+						{
+							"type": "statblock",
+							"tag": "condition",
+							"source": "XUA2023PlayersHandbookP7",
+							"name": "Dazed",
+							"page": 48,
+							"collapsed": true
+						},
+						{
+							"type": "statblock",
+							"tag": "variantrule",
+							"source": "XUA2023PlayersHandbookP7",
+							"name": "Difficult Terrain",
+							"page": 48,
+							"collapsed": true
+						},
+						{
+							"type": "statblock",
+							"tag": "variantrule",
+							"source": "XUA2023PlayersHandbookP7",
+							"name": "Expertise",
+							"page": 49,
+							"collapsed": true
+						},
+						{
+							"type": "statblock",
+							"tag": "variantrule",
+							"source": "XUA2023PlayersHandbookP7",
+							"name": "Fly Speed",
+							"page": 49,
+							"collapsed": true
+						},
+						{
+							"type": "statblock",
+							"tag": "condition",
+							"source": "XUA2023PlayersHandbookP7",
+							"name": "Grappled",
+							"page": 49,
+							"collapsed": true
+						},
+						{
+							"type": "statblock",
+							"tag": "action",
+							"source": "XUA2023PlayersHandbookP7",
+							"name": "Help",
+							"page": 49,
+							"collapsed": true
+						},
+						{
+							"type": "statblock",
+							"tag": "variantrule",
+							"source": "XUA2023PlayersHandbookP7",
+							"name": "Heroic Advantage",
+							"page": 49,
+							"collapsed": true
+						},
+						{
+							"type": "statblock",
+							"tag": "action",
+							"source": "XUA2023PlayersHandbookP7",
+							"name": "Hide",
+							"page": 49,
+							"collapsed": true
+						},
+						{
+							"type": "statblock",
+							"tag": "condition",
+							"source": "XUA2023PlayersHandbookP7",
+							"name": "Incapacitated",
+							"page": 50,
+							"collapsed": true
+						},
+						{
+							"type": "statblock",
+							"tag": "action",
+							"source": "XUA2023PlayersHandbookP7",
+							"name": "Influence",
+							"page": 50,
+							"collapsed": true
+						},
+						{
+							"type": "statblock",
+							"tag": "condition",
+							"source": "XUA2023PlayersHandbookP7",
+							"name": "Invisible",
+							"page": 51,
+							"collapsed": true
+						},
+						{
+							"type": "statblock",
+							"tag": "variantrule",
+							"source": "XUA2023PlayersHandbookP7",
+							"name": "Knocking Out a Creature",
+							"page": 51,
+							"collapsed": true
+						},
+						{
+							"type": "statblock",
+							"tag": "variantrule",
+							"source": "XUA2023PlayersHandbookP7",
+							"name": "Long Rest",
+							"page": 51,
+							"collapsed": true
+						},
+						{
+							"type": "statblock",
+							"tag": "action",
+							"source": "XUA2023PlayersHandbookP7",
+							"name": "Magic",
+							"page": 51,
+							"collapsed": true
+						},
+						{
+							"type": "statblock",
+							"tag": "variantrule",
+							"source": "XUA2023PlayersHandbookP7",
+							"name": "Move",
+							"page": 51,
+							"collapsed": true
+						},
+						{
+							"type": "statblock",
+							"tag": "variantrule",
+							"source": "XUA2023PlayersHandbookP7",
+							"name": "Ritual Casting",
+							"page": 52,
+							"collapsed": true
+						},
+						{
+							"type": "statblock",
+							"tag": "action",
+							"source": "XUA2023PlayersHandbookP7",
+							"name": "Search",
+							"page": 52,
+							"collapsed": true
+						},
+						{
+							"type": "statblock",
+							"tag": "variantrule",
+							"source": "XUA2023PlayersHandbookP7",
+							"name": "Short Rest",
+							"page": 52,
+							"collapsed": true
+						},
+						{
+							"type": "statblock",
+							"tag": "action",
+							"source": "XUA2023PlayersHandbookP7",
+							"name": "Study",
+							"page": 52,
+							"collapsed": true
+						},
+						{
+							"type": "statblock",
+							"tag": "variantrule",
+							"source": "XUA2023PlayersHandbookP7",
+							"name": "Swim Speed",
+							"page": 53,
+							"collapsed": true
+						},
+						{
+							"type": "statblock",
+							"tag": "variantrule",
+							"source": "XUA2023PlayersHandbookP7",
+							"name": "Telepathy",
+							"page": 53,
+							"collapsed": true
+						},
+						{
+							"type": "statblock",
+							"tag": "variantrule",
+							"source": "XUA2023PlayersHandbookP7",
+							"name": "Teleportation",
+							"page": 53,
+							"collapsed": true
+						},
+						{
+							"type": "statblock",
+							"tag": "variantrule",
+							"source": "XUA2023PlayersHandbookP7",
+							"name": "Tool Proficiency",
+							"page": 53,
+							"collapsed": true
+						},
+						{
+							"type": "statblock",
+							"tag": "sense",
+							"source": "XUA2023PlayersHandbookP7",
+							"name": "Tremorsense",
+							"page": 53,
+							"collapsed": true
+						},
+						{
+							"type": "statblock",
+							"tag": "sense",
+							"source": "XUA2023PlayersHandbookP7",
+							"name": "Truesight",
+							"page": 53,
+							"collapsed": true
+						},
+						{
+							"type": "statblock",
+							"tag": "variantrule",
+							"source": "XUA2023PlayersHandbookP7",
+							"name": "Unarmed Strike",
+							"page": 54,
+							"collapsed": true
+						},
+						{
+							"type": "statblock",
+							"tag": "condition",
+							"source": "XUA2023PlayersHandbookP7",
+							"name": "Unconscious",
+							"page": 54,
+							"collapsed": true
+						}
+					]
+				}
 			]
 		}
 	]
