@@ -84,6 +84,20 @@
 			]
 		},
 		{
+			"name": "Careful Spell",
+			"source": "XUA2023PlayersHandbookP7",
+			"page": 21,
+			"featureType": [
+				"MM"
+			],
+			"consumes": {
+				"name": "Sorcery Point"
+			},
+			"entries": [
+				"When you cast a spell that forces other creatures to make a saving throw, you can protect some of those creatures from the spell's full force. To do so, you spend 1 Sorcery Point and choose a number of those creatures up to your Charisma modifier (minimum of one creature). A chosen creature automatically succeeds on its saving throw against the spell, and it takes no damage if it would normally take half damage on a successful save."
+			]
+		},
+		{
 			"name": "Commander's Strike",
 			"source": "XUA2023PlayersHandbookP7",
 			"page": 13,
@@ -126,6 +140,21 @@
 			]
 		},
 		{
+			"name": "Distant Spell",
+			"source": "XUA2023PlayersHandbookP7",
+			"page": 21,
+			"featureType": [
+				"MM"
+			],
+			"consumes": {
+				"name": "Sorcery Point"
+			},
+			"entries": [
+				"When you cast a spell that has a range of at least 5 feet, you can spend 1 Sorcery Point to double the spell's range.",
+				"When you cast a spell that has a range of Touch, you can spend 1 Sorcery Point to make the range of the spell 30 feet."
+			]
+		},
+		{
 			"name": "Distracting Strike",
 			"source": "XUA2023PlayersHandbookP7",
 			"page": 13,
@@ -140,6 +169,21 @@
 			]
 		},
 		{
+			"name": "Empowered Spell",
+			"source": "XUA2023PlayersHandbookP7",
+			"page": 21,
+			"featureType": [
+				"MM"
+			],
+			"consumes": {
+				"name": "Sorcery Point"
+			},
+			"entries": [
+				"When you roll damage for a spell, you can spend 1 Sorcery Point to reroll a number of the damage dice up to your Charisma modifier (minimum of one), and you must use the new rolls.",
+				"You can use Empowered Spell even if you have already used a different Metamagic option during the casting of the spell."
+			]
+		},
+		{
 			"name": "Evasive Footwork",
 			"source": "XUA2023PlayersHandbookP7",
 			"page": 13,
@@ -151,6 +195,22 @@
 			},
 			"entries": [
 				"When you move at least 5 feet on your turn, you can expend one Superiority Die, rolling the die and adding the number rolled to your AC until the end of the turn."
+			]
+		},
+		{
+			"name": "Extended Spell",
+			"source": "XUA2023PlayersHandbookP7",
+			"page": 22,
+			"featureType": [
+				"MM"
+			],
+			"consumes": {
+				"name": "Sorcery Point",
+				"amount": 1
+			},
+			"entries": [
+				"When you cast a spell that has a duration of 1 minute or longer, you can spend 1 Sorcery Point to double its duration, to a maximum duration of 24 hours.",
+				"If the affected spell requires {@status Concentration}, you have Advantage on any saving throw you make to maintain that {@status Concentration}."
 			]
 		},
 		{
@@ -179,6 +239,21 @@
 			},
 			"entries": [
 				"When you hit a creature with an attack roll, you can expend one Superiority Die to attempt to goad the target into attacking you. Add the Superiority Die to the attack's damage roll. The target must succeed on a Wisdom saving throw or the target has Disadvantage on attack rolls against targets other than you until the end of your next turn."
+			]
+		},
+		{
+			"name": "Heightened Spell",
+			"source": "XUA2023PlayersHandbookP7",
+			"page": 22,
+			"featureType": [
+				"MM"
+			],
+			"consumes": {
+				"name": "Sorcery Point",
+				"amount": 2
+			},
+			"entries": [
+				"When you cast a spell that forces a creature to make a saving throw to resist its effects, you can spend 2 Sorcery Points to give one target of the spell Disadvantage on its saving throws against the spell."
 			]
 		},
 		{
@@ -266,6 +341,21 @@
 			]
 		},
 		{
+			"name": "Quickened Spell",
+			"source": "XUA2023PlayersHandbookP7",
+			"page": 22,
+			"featureType": [
+				"MM"
+			],
+			"consumes": {
+				"name": "Sorcery Point",
+				"amount": 2
+			},
+			"entries": [
+				"When you cast a spell that has a casting time of an action, you can spend 2 Sorcery Points to change the casting time to a Bonus Action for this casting. You can't modify a spell in this way if you've already cast a spell of level 1 or higher on the current turn, nor can you cast a spell of level 1 or higher on this turn after modifying a spell in this way."
+			]
+		},
+		{
 			"name": "Rally",
 			"source": "XUA2023PlayersHandbookP7",
 			"page": 14,
@@ -291,6 +381,36 @@
 			},
 			"entries": [
 				"When a creature misses you with a melee attack, you can use your Reaction and expend one Superiority Die to make a melee attack with a weapon or an {@variantrule Unarmed Strike|XUA2023PlayersHandbookP7} against the creature. If you hit, add the Superiority Die to the attack's damage."
+			]
+		},
+		{
+			"name": "Seeking Spell",
+			"source": "XUA2023PlayersHandbookP7",
+			"page": 22,
+			"featureType": [
+				"MM"
+			],
+			"consumes": {
+				"name": "Sorcery Point",
+				"amount": 1
+			},
+			"entries": [
+				"If you make an attack roll for a spell and miss, you can spend 1 Sorcery Point to reroll the d20, and you must use the new roll.",
+				"You can use Seeking Spell even if you have already used a different Metamagic option during the casting of the spell."
+			]
+		},
+		{
+			"name": "Subtle Spell",
+			"source": "XUA2023PlayersHandbookP7",
+			"page": 22,
+			"featureType": [
+				"MM"
+			],
+			"consumes": {
+				"name": "Sorcery Point"
+			},
+			"entries": [
+				"When you cast a spell, you can spend 1 Sorcery Point to cast it without any Verbal, Somatic, or Material components, except Material components that are consumed by the spell or that have a cost specified in the spell."
 			]
 		},
 		{
@@ -322,6 +442,20 @@
 			]
 		},
 		{
+			"name": "Transmuted Spell",
+			"source": "XUA2023PlayersHandbookP7",
+			"page": 22,
+			"featureType": [
+				"MM"
+			],
+			"consumes": {
+				"name": "Sorcery Point"
+			},
+			"entries": [
+				"When you cast a spell that deals a type of damage from the following list, you can spend 1 Sorcery Point to change that damage type to one of the other listed types: Acid, Cold, Fire, Lightning, Poison, Thunder."
+			]
+		},
+		{
 			"name": "Trip Attack",
 			"source": "XUA2023PlayersHandbookP7",
 			"page": 14,
@@ -333,6 +467,20 @@
 			},
 			"entries": [
 				"When you hit a creature with an attack using a weapon or an {@variantrule Unarmed Strike|XUA2023PlayersHandbookP7}, you can expend one Superiority Die and add the die to the attack's damage roll. If the target is Large or smaller, it must succeed on a Strength saving throw or have the {@condition Prone} condition."
+			]
+		},
+		{
+			"name": "Twinned Spell",
+			"source": "XUA2023PlayersHandbookP7",
+			"page": 22,
+			"featureType": [
+				"MM"
+			],
+			"consumes": {
+				"name": "Sorcery Point"
+			},
+			"entries": [
+				"When you cast a spell, such as {@spell Charm Person} or {@spell Hold Person}, that can be cast with a higher-level spell slot to target an additional creature, you can spend 1 Sorcery Point to increase the spell's effective level by 1."
 			]
 		}
 	],
