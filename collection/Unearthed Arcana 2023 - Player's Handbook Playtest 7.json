@@ -55,6 +55,28 @@
 	],
 	"optionalfeature": [
 		{
+			"name": "Agonizing Blast",
+			"source": "XUA2023PlayersHandbookP7",
+			"page": 29,
+			"featureType": [
+				"EI"
+			],
+			"prerequisite": [
+				{
+					"spell": [
+						{
+							"choose": "level=0|class=Warlock",
+							"entry": "At Least One Warlock Cantrip"
+						}
+					]
+				}
+			],
+			"entries": [
+				"Choose one of your known Warlock cantrips that deals damage. You can add your spellcasting ability modifier to that spell's damage rolls.",
+				"Whenever you gain a Warlock level, you can change which of your damaging Warlock cantrips benefits from this invocation."
+			]
+		},
+		{
 			"name": "Ambush",
 			"source": "XUA2023PlayersHandbookP7",
 			"page": 13,
@@ -66,6 +88,57 @@
 			},
 			"entries": [
 				"When you make a Dexterity ({@skill Stealth}) check or an initiative roll, you can expend one Superiority Die and add the die to the roll, provided you don't have the {@condition Incapacitated|XUA2023PlayersHandbookP7} condition."
+			]
+		},
+		{
+			"name": "Armor of Shadows",
+			"source": "XUA2023PlayersHandbookP7",
+			"page": 29,
+			"featureType": [
+				"EI"
+			],
+			"additionalSpells": [
+				{
+					"innate": {
+						"_": [
+							"mage armor"
+						]
+					}
+				}
+			],
+			"entries": [
+				"You can cast {@spell Mage Armor} on yourself without expending a spell slot."
+			]
+		},
+		{
+			"name": "Ascendant Step",
+			"source": "XUA2023PlayersHandbookP7",
+			"page": 29,
+			"featureType": [
+				"EI"
+			],
+			"prerequisite": [
+				{
+					"level": {
+						"level": 5,
+						"class": {
+							"name": "Warlock",
+							"source": "XUA2023PlayersHandbookP7"
+						}
+					}
+				}
+			],
+			"additionalSpells": [
+				{
+					"innate": {
+						"_": [
+							"levitate"
+						]
+					}
+				}
+			],
+			"entries": [
+				"You can cast {@spell Levitate} on yourself without expending a Spell Slot."
 			]
 		},
 		{
@@ -126,6 +199,17 @@
 			]
 		},
 		{
+			"name": "Devil's Sight",
+			"source": "XUA2023PlayersHandbookP7",
+			"page": 29,
+			"featureType": [
+				"EI"
+			],
+			"entries": [
+				"You can see normally in Dim Light and Darkness\u2014both magical and nonmagical\u2014 within 120 feet."
+			]
+		},
+		{
 			"name": "Disarming Attack",
 			"source": "XUA2023PlayersHandbookP7",
 			"page": 13,
@@ -166,6 +250,62 @@
 			},
 			"entries": [
 				"When you hit a creature with an attack roll, you can expend one Superiority Die to distract the target. Add the Superiority Die roll to the attack's damage roll. The next attack roll against the target by an attacker other than you has Advantage if the attack is made before the start of your next turn."
+			]
+		},
+		{
+			"name": "Eldritch Mind",
+			"source": "XUA2023PlayersHandbookP7",
+			"page": 29,
+			"featureType": [
+				"EI"
+			],
+			"entries": [
+				"You have Advantage on Constitution saving throws that you make to maintain {@status Concentration} on a spell."
+			]
+		},
+		{
+			"name": "Eldritch Smite",
+			"source": "XUA2023PlayersHandbookP7",
+			"page": 29,
+			"featureType": [
+				"EI"
+			],
+			"prerequisite": [
+				{
+					"pact": "Blade",
+					"level": {
+						"level": 5,
+						"class": {
+							"name": "Warlock",
+							"source": "XUA2023PlayersHandbookP7"
+						}
+					}
+				}
+			],
+			"entries": [
+				"Once per turn when you hit a creature with your pact weapon, you can expend a Warlock spell slot to deal an extra {@damage 1d8} Force damage to the target, plus another {@damage 1d8} per level of the spell slot, and you can give the target the {@condition Prone} condition if it is Huge or smaller."
+			]
+		},
+		{
+			"name": "Eldritch Spear",
+			"source": "XUA2023PlayersHandbookP7",
+			"page": 29,
+			"featureType": [
+				"EI"
+			],
+			"prerequisite": [
+				{
+					"spell": [
+						{
+							"choose": "level=0|class=Warlock",
+							"entry": "At Least One Warlock Cantrip"
+						}
+					]
+				}
+			],
+			"entries": [
+				"Choose one of your known Warlock cantrips that deals damage and that has a range of at least 10 feet. When you cast that spell, its range increases by a number of feet equal to 30 times your Warlock level.",
+				"Whenever you gain a Warlock level, you can change which of your damaging Warlock cantrips benefits from this invocation."
 			]
 		},
 		{
@@ -228,6 +368,110 @@
 			]
 		},
 		{
+			"name": "Fiendish Vigor",
+			"source": "XUA2023PlayersHandbookP7",
+			"page": 29,
+			"featureType": [
+				"EI"
+			],
+			"additionalSpells": [
+				{
+					"innate": {
+						"_": [
+							"false life"
+						]
+					}
+				}
+			],
+			"entries": [
+				"You can cast {@spell False Life} on yourself without expending a spell slot. When you cast the spell with this feature, you don't roll the die for the Temporary Hit Points; you automatically get the highest number on the die."
+			]
+		},
+		{
+			"name": "Gaze of Two Minds",
+			"source": "XUA2023PlayersHandbookP7",
+			"page": 29,
+			"featureType": [
+				"EI"
+			],
+			"prerequisite": [
+				{
+					"level": {
+						"level": 5,
+						"class": {
+							"name": "Warlock",
+							"source": "XUA2023PlayersHandbookP7"
+						}
+					}
+				}
+			],
+			"entries": [
+				"You can use a Bonus Action to touch a willing creature and perceive through its senses until the end of your next turn. As long as the creature is on the same plane of existence as you, you can use a Bonus Action on subsequent turns to maintain this connection, extending the duration until the end of your next turn. The connection ends if you don't maintain it in this way.",
+				"While perceiving through the other creature's senses, you benefit from any special senses possessed by that creature, and you can cast spells as if you were in your space or the other creature's space if the two of you are within 60 feet of each other."
+			]
+		},
+		{
+			"name": "Gift of the Depths",
+			"source": "XUA2023PlayersHandbookP7",
+			"page": 29,
+			"featureType": [
+				"EI"
+			],
+			"prerequisite": [
+				{
+					"level": {
+						"level": 5,
+						"class": {
+							"name": "Warlock",
+							"source": "XUA2023PlayersHandbookP7"
+						}
+					}
+				}
+			],
+			"additionalSpells": [
+				{
+					"innate": {
+						"_": {
+							"daily": {
+								"1e": [
+									"water breathing"
+								]
+							}
+						}
+					}
+				}
+			],
+			"entries": [
+				"You can breathe underwater, and you gain a {@variantrule Swim Speed|XUA2023PlayersHandbookP7} equal to your Speed.",
+				"You can also cast {@spell Water Breathing} once without expending a spell slot. You regain the ability to do so when you finish a {@variantrule Long Rest|XUA2023PlayersHandbookP7}."
+			]
+		},
+		{
+			"name": "Gift of the Protectors",
+			"source": "XUA2023PlayersHandbookP7",
+			"page": 29,
+			"featureType": [
+				"EI"
+			],
+			"prerequisite": [
+				{
+					"level": {
+						"level": 9,
+						"class": {
+							"name": "Warlock",
+							"source": "XUA2023PlayersHandbookP7"
+						}
+					},
+					"pact": "Tome"
+				}
+			],
+			"entries": [
+				"A new page appears in your Book of Shadows when you conjure it. With your permission, a creature can use its action to write its name on that page, which can contain a number of names equal to your Proficiency Bonus.",
+				"When any creature whose name is on the page is reduced to 0 Hit Points but not killed outright, the creature magically drops to 1 Hit Point instead. Once this magic is triggered, no creature can benefit from it until you finish a {@variantrule Long Rest|XUA2023PlayersHandbookP7}.",
+				"As a {@action Magic|XUA2023PlayersHandbookP7} action, you can erase a name on the page by touching it."
+			]
+		},
+		{
 			"name": "Goading Attack",
 			"source": "XUA2023PlayersHandbookP7",
 			"page": 13,
@@ -254,6 +498,123 @@
 			},
 			"entries": [
 				"When you cast a spell that forces a creature to make a saving throw to resist its effects, you can spend 2 Sorcery Points to give one target of the spell Disadvantage on its saving throws against the spell."
+			]
+		},
+		{
+			"name": "Investment of the Chain Master",
+			"source": "XUA2023PlayersHandbookP7",
+			"page": 30,
+			"featureType": [
+				"EI"
+			],
+			"prerequisite": [
+				{
+					"level": {
+						"level": 5,
+						"class": {
+							"name": "Warlock",
+							"source": "XUA2023PlayersHandbookP7"
+						}
+					},
+					"pact": "Chain"
+				}
+			],
+			"entries": [
+				"When you cast {@spell Find Familiar}, you infuse the summoned familiar with a measure of your eldritch power, granting the creature the following benefits:",
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"items": [
+						{
+							"type": "item",
+							"name": "Aerial or Aquatic",
+							"entries": [
+								"The familiar gains either a {@variantrule Fly Speed|XUA2023PlayersHandbookP7} or a {@variantrule Swim Speed|XUA2023PlayersHandbookP7} (your choice) of 40 feet."
+							]
+						},
+						{
+							"type": "item",
+							"name": "Quick Attack",
+							"entries": [
+								"As a Bonus Action, you can command the familiar to take the {@action Attack|XUA2023PlayersHandbookP7} action."
+							]
+						},
+						{
+							"type": "item",
+							"name": "Necrotic or Radiant Damage",
+							"entries": [
+								"Whenever the familiar deals Bludgeoning, Piercing, or Slashing damage, you can make it deal Necrotic or Radiant damage instead."
+							]
+						},
+						{
+							"type": "item",
+							"name": "Your Save DC",
+							"entries": [
+								"If the familiar forces a creature to make a saving throw, it uses your spell save DC."
+							]
+						},
+						{
+							"type": "item",
+							"name": "Resistance",
+							"entries": [
+								"When the familiar takes damage, you can use your Reaction to grant it Resistance against that damage."
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Lessons of the First Ones",
+			"source": "XUA2023PlayersHandbookP7",
+			"page": 30,
+			"featureType": [
+				"EI"
+			],
+			"prerequisite": [
+				{
+					"level": {
+						"level": 2,
+						"class": {
+							"name": "Warlock",
+							"source": "XUA2023PlayersHandbookP7"
+						}
+					}
+				}
+			],
+			"entries": [
+				"You have received knowledge from an elder entity of the multiverse, allowing you to gain one feat of your choice, such as {@feat Skilled}, that lacks prerequisites.",
+				{
+					"type": "entries",
+					"name": "Repeatable",
+					"page": 30,
+					"entries": [
+						"You can gain this invocation more than once. Each time you do so, you must select a different eligible feat."
+					]
+				}
+			]
+		},
+		{
+			"name": "Lifedrinker",
+			"source": "XUA2023PlayersHandbookP7",
+			"page": 30,
+			"featureType": [
+				"EI"
+			],
+			"prerequisite": [
+				{
+					"level": {
+						"level": 9,
+						"class": {
+							"name": "Warlock",
+							"source": "XUA2023PlayersHandbookP7"
+						}
+					},
+					"pact": "Blade"
+				}
+			],
+			"entries": [
+				"Whenever you hit a creature with your pact weapon, the creature takes {@damage 1d6} extra Necrotic, Psychic, or Radiant damage (your choice), and you can expend one of your Hit Dice to roll it and regain a number of Hit Points equal to the roll plus your Constitution modifier (minimum of 1)."
 			]
 		},
 		{
@@ -285,6 +646,57 @@
 			]
 		},
 		{
+			"name": "Mask of Many Faces",
+			"source": "XUA2023PlayersHandbookP7",
+			"page": 30,
+			"featureType": [
+				"EI"
+			],
+			"additionalSpells": [
+				{
+					"innate": {
+						"_": [
+							"disguise self"
+						]
+					}
+				}
+			],
+			"entries": [
+				"You can cast {@spell Disguise Self} without expending a spell slot."
+			]
+		},
+		{
+			"name": "Master of Myriad Forms",
+			"source": "XUA2023PlayersHandbookP7",
+			"page": 30,
+			"featureType": [
+				"EI"
+			],
+			"prerequisite": [
+				{
+					"level": {
+						"level": 5,
+						"class": {
+							"name": "Warlock",
+							"source": "XUA2023PlayersHandbookP7"
+						}
+					}
+				}
+			],
+			"additionalSpells": [
+				{
+					"innate": {
+						"_": [
+							"alter self"
+						]
+					}
+				}
+			],
+			"entries": [
+				"You can cast {@spell Alter Self} without expending a spell slot."
+			]
+		},
+		{
 			"name": "Menacing Attack",
 			"source": "XUA2023PlayersHandbookP7",
 			"page": 13,
@@ -296,6 +708,197 @@
 			},
 			"entries": [
 				"When you hit a creature with an attack roll, you can expend one Superiority Die to attempt to frighten the target. Add the Superiority Die to the attack's damage roll. The target must succeed on a Wisdom saving throw or have the Frightened condition until the end of your next turn."
+			]
+		},
+		{
+			"name": "Misty Visions",
+			"source": "XUA2023PlayersHandbookP7",
+			"page": 30,
+			"featureType": [
+				"EI"
+			],
+			"additionalSpells": [
+				{
+					"innate": {
+						"_": [
+							"silent image"
+						]
+					}
+				}
+			],
+			"entries": [
+				"You can cast {@spell Silent Image} without expending a spell slot."
+			]
+		},
+		{
+			"name": "One with Shadows",
+			"source": "XUA2023PlayersHandbookP7",
+			"page": 30,
+			"featureType": [
+				"EI"
+			],
+			"prerequisite": [
+				{
+					"level": {
+						"level": 5,
+						"class": {
+							"name": "Warlock",
+							"source": "XUA2023PlayersHandbookP7"
+						}
+					}
+				}
+			],
+			"additionalSpells": [
+				{
+					"innate": {
+						"_": [
+							"invisibility"
+						]
+					}
+				}
+			],
+			"entries": [
+				"While you're in an area of Dim Light or Darkness, you can cast {@spell Invisibility} on yourself without expending a spell slot."
+			]
+		},
+		{
+			"name": "Otherworldly Leap",
+			"source": "XUA2023PlayersHandbookP7",
+			"page": 30,
+			"featureType": [
+				"EI"
+			],
+			"prerequisite": [
+				{
+					"level": {
+						"level": 2,
+						"class": {
+							"name": "Warlock",
+							"source": "XUA2023PlayersHandbookP7"
+						}
+					}
+				}
+			],
+			"additionalSpells": [
+				{
+					"innate": {
+						"_": [
+							"jump|XUA2023PlayersHandbookP7"
+						]
+					}
+				}
+			],
+			"entries": [
+				"You can cast {@spell Jump|XUA2023PlayersHandbookP7} on yourself without expending a spell slot."
+			]
+		},
+		{
+			"name": "Pact of the Blade",
+			"source": "XUA2023PlayersHandbookP7",
+			"page": 30,
+			"featureType": [
+				"EI"
+			],
+			"entries": [
+				"As a Bonus Action, you can trace arcane sigils in the air to conjure a pact weapon in your hand\u2014a Simple or Martial melee weapon of your choice with which you bond\u2014or create a bond with a magic weapon you touch. Until the bond ends, you have proficiency with the weapon, you can use its Mastery property, and you can use it as a spellcasting focus.",
+				"Whenever you attack with the bonded weapon, you can use your Charisma modifier for the attack and damage rolls, instead of using Strength or Dexterity, and you can cause the weapon to deal Necrotic, Psychic, or Radiant damage or its normal damage type.",
+				"Your bond with the weapon ends if you use this feature's Bonus Action again, if the weapon is more than 5 feet away from you for 1 minute or more, or if you die. A conjured weapon disappears when the bond ends."
+			]
+		},
+		{
+			"name": "Pact of the Chain",
+			"source": "XUA2023PlayersHandbookP7",
+			"page": 31,
+			"featureType": [
+				"EI"
+			],
+			"prerequisite": [
+				{
+					"level": {
+						"level": 2,
+						"class": {
+							"name": "Warlock",
+							"source": "XUA2023PlayersHandbookP7"
+						}
+					}
+				}
+			],
+			"additionalSpells": [
+				{
+					"ability": "cha",
+					"innate": {
+						"_": {
+							"ritual": [
+								"find familiar"
+							]
+						}
+					}
+				}
+			],
+			"entries": [
+				"You learn the {@spell Find Familiar} spell and can cast it as an action without expending a spell slot.",
+				"When you cast the spell, you choose one of the normal forms for your familiar or one of the following special forms: {@creature imp}, {@creature pseudodragon}, {@creature quasit}, {@creature skeleton}, {@creature slaad tadpole}, or {@creature sprite}.",
+				"Additionally, when you take the {@action Attack|XUA2023PlayersHandbookP7} action, you can forgo one of your own attacks to allow your familiar to make one attack of its own with its Reaction."
+			]
+		},
+		{
+			"name": "Pact of the Tome",
+			"source": "XUA2023PlayersHandbookP7",
+			"page": 31,
+			"featureType": [
+				"EI"
+			],
+			"additionalSpells": [
+				{
+					"ability": "cha",
+					"known": {
+						"_": [
+							{
+								"choose": "level=0",
+								"count": 3
+							}
+						]
+					},
+					"prepared": {
+						"_": [
+							{
+								"choose": "level=1|components & miscellaneous=ritual",
+								"count": 2
+							}
+						]
+					}
+				}
+			],
+			"entries": [
+				"Stitching together strands of shadow, you conjure forth a book in your hand at the end of a {@variantrule Short Rest|XUA2023PlayersHandbookP7} or {@variantrule Long Rest|XUA2023PlayersHandbookP7}. This Book of Shadows (you determine its appearance) contains eldritch magic that only you can access, granting you the following benefits:",
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"items": [
+						{
+							"type": "item",
+							"name": "Cantrips and Rituals",
+							"entries": [
+								"When the book appears, choose three cantrips, and choose two level 1 spells that have the Ritual tag. The spells can be from any class's spell list, and they must be spells you don't already have prepared. While the book is on your person, you have the chosen spells prepared, and they function as Warlock spells for you."
+							]
+						},
+						{
+							"type": "item",
+							"name": "Spell Slot",
+							"entries": [
+								"You gain a level 1 spell slot. Once you expend it, you can't gain another slot from this feature until you finish a {@variantrule Long Rest|XUA2023PlayersHandbookP7}."
+							]
+						},
+						{
+							"type": "item",
+							"name": "Spellcasting Focus",
+							"entries": [
+								"You can use the book as a Spellcasting Focus."
+							]
+						}
+					]
+				},
+				"The book disappears if you conjure another book with this feature or if you die."
 			]
 		},
 		{
@@ -367,6 +970,24 @@
 			},
 			"entries": [
 				"As a Bonus Action, you can expend one Superiority Die to bolster the resolve of a companion. Choose an ally of yours who can see or hear you. That creature gains Temporary Hit Points equal to the Superiority Die roll plus your Intelligence, Wisdom, or Charisma modifier (your choice)."
+			]
+		},
+		{
+			"name": "Repelling Blast",
+			"source": "XUA2023PlayersHandbookP7",
+			"page": 31,
+			"featureType": [
+				"EI"
+			],
+			"prerequisite": [
+				{
+					"spell": [
+						"eldritch blast#c"
+					]
+				}
+			],
+			"entries": [
+				"When you hit a Large or smaller creature with {@spell Eldritch Blast}, you can push that creature up to 10 feet straight away from you."
 			]
 		},
 		{
@@ -442,6 +1063,30 @@
 			]
 		},
 		{
+			"name": "Thirsting Blade",
+			"source": "XUA2023PlayersHandbookP7",
+			"page": 31,
+			"featureType": [
+				"EI"
+			],
+			"prerequisite": [
+				{
+					"pact": "Blade",
+					"level": {
+						"level": 5,
+						"class": {
+							"name": "Warlock",
+							"source": "XUA2023PlayersHandbookP7"
+						}
+					}
+				}
+			],
+			"entries": [
+				"You gain the Extra Attack feature for your pact weapon only. With that feature, you can attack twice with the weapon, instead of once, when you take the {@action Attack|XUA2023PlayersHandbookP7} action on your turn.",
+				"When you reach level 11 in this class, this Extra Attack confers two extra attacks rather than one."
+			]
+		},
+		{
 			"name": "Transmuted Spell",
 			"source": "XUA2023PlayersHandbookP7",
 			"page": 22,
@@ -481,6 +1126,90 @@
 			},
 			"entries": [
 				"When you cast a spell, such as {@spell Charm Person} or {@spell Hold Person}, that can be cast with a higher-level spell slot to target an additional creature, you can spend 1 Sorcery Point to increase the spell's effective level by 1."
+			]
+		},
+		{
+			"name": "Visions of Distant Realms",
+			"source": "XUA2023PlayersHandbookP7",
+			"page": 31,
+			"featureType": [
+				"EI"
+			],
+			"prerequisite": [
+				{
+					"level": {
+						"level": 9,
+						"class": {
+							"name": "Warlock",
+							"source": "XUA2023PlayersHandbookP7"
+						}
+					}
+				}
+			],
+			"additionalSpells": [
+				{
+					"innate": {
+						"_": [
+							"arcane eye"
+						]
+					}
+				}
+			],
+			"entries": [
+				"You can cast {@spell Arcane Eye} without expending a spell slot."
+			]
+		},
+		{
+			"name": "Whispers of the Grave",
+			"source": "XUA2023PlayersHandbookP7",
+			"page": 31,
+			"featureType": [
+				"EI"
+			],
+			"prerequisite": [
+				{
+					"level": {
+						"level": 7,
+						"class": {
+							"name": "Warlock",
+							"source": "XUA2023PlayersHandbookP7"
+						}
+					}
+				}
+			],
+			"additionalSpells": [
+				{
+					"innate": {
+						"_": [
+							"speak with dead"
+						]
+					}
+				}
+			],
+			"entries": [
+				"You can cast {@spell Speak with Dead} without expending a spell slot."
+			]
+		},
+		{
+			"name": "Witch Sight",
+			"source": "XUA2023PlayersHandbookP7",
+			"page": 31,
+			"featureType": [
+				"EI"
+			],
+			"prerequisite": [
+				{
+					"level": {
+						"level": 15,
+						"class": {
+							"name": "Warlock",
+							"source": "XUA2023PlayersHandbookP7"
+						}
+					}
+				}
+			],
+			"entries": [
+				"You have {@sense Truesight|XUA2023PlayersHandbookP7} with a range of 30 feet."
 			]
 		}
 	],
