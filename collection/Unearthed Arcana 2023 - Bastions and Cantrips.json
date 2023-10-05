@@ -1,0 +1,4225 @@
+{
+	"_meta": {
+		"sources": [
+			{
+				"json": "XUA2023BastionsAndCantrips",
+				"abbreviation": "XUA23BC",
+				"full": "Unearthed Arcana 2023: Bastions and Cantrips",
+				"authors": [
+					"Wizards of the Coast"
+				],
+				"version": "1.0.0",
+				"url": "https://media.dndbeyond.com/compendium-images/ua/bastions-cantrips/BRF3GSu0nTfNu8p4/UA2023-BastionsCantrips.pdf",
+				"dateReleased": "2023-10-05"
+			}
+		],
+		"optionalFeatureTypes": {
+			"BF": "Bastion Facility"
+		},
+		"dateAdded": 1696529407,
+		"dateLastModified": 1696529407
+	},
+	"optionalfeature": [
+		{
+			"name": "Arcane Study",
+			"source": "XUA2023BastionsAndCantrips",
+			"page": 7,
+			"featureType": [
+				"BF"
+			],
+			"prerequisite": [
+				{
+					"level": 5,
+					"other": "Ability to use an Arcane Focus as a Spellcasting Focus"
+				}
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Space:",
+					"entries": [
+						"Roomy"
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Hirelings:",
+					"entries": [
+						"1"
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Order:",
+					"entries": [
+						"Craft ({@dice 1d4} BP)"
+					]
+				},
+				"An Arcane Study is a place of quiet research that contains one or more desks and bookshelves.",
+				"When you issue the Craft order to this facility, choose one of the following options:",
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"items": [
+						{
+							"type": "item",
+							"name": "Craft: Arcane Focus",
+							"entries": [
+								"You commission the facility's hireling to craft an {@item Arcane Focus|PHB}. The work takes 7 days and costs no money. The {@item Arcane Focus|PHB} remains in your Bastion until you claim it, or you can have it sold for 10 GP."
+							]
+						},
+						{
+							"type": "item",
+							"name": "Craft: Book",
+							"entries": [
+								"You commission the facility's hireling to craft a blank {@item Book|PHB}. The work takes 7 days and costs you 10 GP. The {@item Book|PHB} remains in your Bastion until you claim it, or you can have it sold for 25 GP."
+							]
+						}
+					]
+				},
+				"The Arcane Study also imparts the following benefit:",
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"items": [
+						{
+							"type": "item",
+							"name": "Cast Identify",
+							"entries": [
+								"After spending a Long Rest in your Bastion, you can cast {@spell Identify} once within the next 7 days without expending a spell slot or using Material components."
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Archive",
+			"source": "XUA2023BastionsAndCantrips",
+			"page": 7,
+			"featureType": [
+				"BF"
+			],
+			"prerequisite": [
+				{
+					"level": 13
+				}
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Space:",
+					"entries": [
+						"Roomy"
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Hirelings:",
+					"entries": [
+						"1"
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Order:",
+					"entries": [
+						"Research ({@dice 1d8} BP)"
+					]
+				},
+				"An Archive is a repository of valuable books, scrolls, and maps. It is usually attached to a {@optfeature Library|XUA2023BastionsAndCantrips} behind a locked or secret door.",
+				"Your Archive contains one copy of a rare and valuable reference book, chosen from the options in the {@table Reference Books|XUA2023BastionsAndCantrips} table. While you and this book are in your Bastion, you gain the book's benefit, as noted in the table. (Your DM might make other reference books available.)",
+				"When you issue the Research order to this facility, you commission the facility's hireling to search the Archive for helpful lore. The work takes 7 days. Whoever does the work gains knowledge as if they had cast the {@spell Legend Lore} spell. A hireling who gains this knowledge shares it with you the next time you speak with them.",
+				{
+					"type": "statblock",
+					"tag": "table",
+					"source": "XUA2023BastionsAndCantrips",
+					"name": "Reference Books",
+					"page": 8
+				},
+				{
+					"type": "entries",
+					"name": "Enlarging an Archive",
+					"page": 8,
+					"entries": [
+						"You can enlarge your Archive to a Vast facility by spending 2,000 GP. If you do so, you gain two additional reference books chosen from the {@table Reference Books|XUA2023BastionsAndCantrips} table."
+					]
+				}
+			]
+		},
+		{
+			"name": "Armory",
+			"source": "XUA2023BastionsAndCantrips",
+			"page": 8,
+			"featureType": [
+				"BF"
+			],
+			"prerequisite": [
+				{
+					"level": 5
+				}
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Space:",
+					"entries": [
+						"Roomy"
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Hirelings:",
+					"entries": [
+						"1"
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Order:",
+					"entries": [
+						"Trade ({@dice 1d4} BP)"
+					]
+				},
+				"An Armory contains mannequins for displaying armor, hooks on the walls for holding shields, racks for storing weapons, and wooden chests for holding ammunition. It is often connected to (or situated near) a {@optfeature Barracks|XUA2023BastionsAndCantrips}.",
+				"When you issue the Trade order to this facility, you commission the facility's hireling to stock the Armory with armor, shields, weapons, and ammunition. This equipment costs you 100 GP plus an extra 100 GP for each Bastion Defender in your Bastion. If your Bastion has a {@optfeature Smithy|XUA2023BastionsAndCantrips}, the total cost is halved.",
+				"While your Armory is stocked, your Bastion Defenders are harder to kill. When any event causes you to roll dice to determine if your Bastion loses one or more of its defenders (see \"{@variantrule Bastion Events|XUA2023BastionsAndCantrips}\" at the end of this document), roll a {@dice d8} in place of each {@dice d6} you would normally roll. When the event is over, the equipment in your Armory is expended regardless of how many Bastion Defenders you have or how many you lost, leaving your Armory depleted until you issue another Trade order to the facility and pay the cost to restock it."
+			]
+		},
+		{
+			"name": "Barracks",
+			"source": "XUA2023BastionsAndCantrips",
+			"page": 8,
+			"featureType": [
+				"BF"
+			],
+			"prerequisite": [
+				{
+					"level": 5
+				}
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Space:",
+					"entries": [
+						"Roomy"
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Hirelings:",
+					"entries": [
+						"0"
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Order:",
+					"entries": [
+						"Recruit ({@dice 1d4} BP)"
+					]
+				},
+				"A Bastion can have more than one Barracks, each of which is furnished to serve as sleeping quarters for up to twelve Bastion Defenders.",
+				"Each time you issue the Recruit order to this facility, up to four Bastion Defenders are recruited to your Bastion and assigned quarters in this Barracks. The recruitment costs you nothing. You can't issue the Recruit order to this facility if it's fully occupied.",
+				"Keep track of the number of Bastion Defenders housed in each of your Barracks. If you lose Bastion Defenders, deduct them from your roster. Assign names and personalities to your Bastion Defenders as you see fit.",
+				{
+					"type": "entries",
+					"name": "Enlarging a Barracks",
+					"page": 9,
+					"entries": [
+						"You can enlarge your Barracks to a Vast facility by spending 2,000 GP. A Vast Barracks can accommodate up to 25 Bastion Defenders."
+					]
+				}
+			]
+		},
+		{
+			"name": "Demiplane",
+			"source": "XUA2023BastionsAndCantrips",
+			"page": 9,
+			"featureType": [
+				"BF"
+			],
+			"prerequisite": [
+				{
+					"level": 17,
+					"other": "Ability to use an Arcane Focus as a Spellcasting Focus"
+				}
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Space:",
+					"entries": [
+						"Vast"
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Hirelings:",
+					"entries": [
+						"0"
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Order:",
+					"entries": [
+						"Empower ({@dice 1d10} BP)"
+					]
+				},
+				"A shadowy door appears on a flat, solid surface in one of the other facilities in your Bastion. You choose the location. If you are in your Bastion during a Bastion turn, you can relocate this door to another facility in your Bastion. The door is large enough to allow Medium creatures to pass through it unhindered, and only you and your Bastion's hirelings can open it.",
+				"The door leads to a Demiplane that takes the form of a room made of otherworldly materials as resilient as stone. The Demiplane exists in an extradimensional space and therefore isn't attached physically to other locations in your Bastion. Neither the Demiplane nor its door can be dispelled.",
+				"When you issue the Empower order to this facility, magical runes appear on the Demiplane's walls, floor, and ceiling and last for 7 days. Until the runes disappear, you gain Temporary Hit Points equal to five times your level after spending an entire Long Rest in the Demiplane.",
+				"The Demiplane also imparts the following benefits:",
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"items": [
+						{
+							"type": "item",
+							"name": "Fabrication",
+							"entries": [
+								"While in the Demiplane, you can use a {@action Magic|XUA2023PlayersHandbookP6} action to magically create a nonmagical object of your choice from nothing, causing it to appear in an unoccupied space within the Demiplane. The object can be no bigger than a 5-foot cube in any dimension and must be made of wood, stone, clay, porcelain, glass, paper, nonprecious crystal, or nonprecious metal. You must finish a Long Rest before you can perform this action again."
+							]
+						},
+						{
+							"type": "item",
+							"name": "Scry-Proof",
+							"entries": [
+								"The Demiplane and its contents can't be scried upon using {@item Crystal Ball|DMG|Crystal Balls}, Divination spells, or similar magic."
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Gaming Hall",
+			"source": "XUA2023BastionsAndCantrips",
+			"page": 9,
+			"featureType": [
+				"BF"
+			],
+			"prerequisite": [
+				{
+					"level": 9
+				}
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Space:",
+					"entries": [
+						"Vast"
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Hirelings:",
+					"entries": [
+						"4"
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Order:",
+					"entries": [
+						"Trade ({@dice 1d6} BP)"
+					]
+				},
+				"A Gaming Hall offers recreational activities ranging from chessboards and darts to card games and dice.",
+				"When you issue the Trade order to this facility, you commission the facility's hirelings to turn the Gaming Hall into a gambling den for 7 days. At the end of the seventh day, roll percentile dice and consult the {@table Gambling Den Winnings|XUA2023BastionsAndCantrips} table to determine your portion of the house's winnings.",
+				{
+					"type": "statblock",
+					"tag": "table",
+					"source": "XUA2023BastionsAndCantrips",
+					"name": "Gambling Den Winnings",
+					"page": 9
+				}
+			]
+		},
+		{
+			"name": "Garden",
+			"source": "XUA2023BastionsAndCantrips",
+			"page": 9,
+			"featureType": [
+				"BF"
+			],
+			"prerequisite": [
+				{
+					"level": 5
+				}
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Space:",
+					"entries": [
+						"Roomy"
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Hirelings:",
+					"entries": [
+						"1"
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Order:",
+					"entries": [
+						"Harvest ({@dice 1d4} BP)"
+					]
+				},
+				"A Bastion can have more than one Garden. Each time you add a Garden to your Bastion, choose its type from the following options:",
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"items": [
+						{
+							"type": "item",
+							"name": "Decorative Garden",
+							"entries": [
+								"This aesthetically pleasing Garden is full of flowers and topiaries."
+							]
+						},
+						{
+							"type": "item",
+							"name": "Food Garden",
+							"entries": [
+								"Delicious mushrooms or vegetables are grown here."
+							]
+						},
+						{
+							"type": "item",
+							"name": "Herb Garden",
+							"entries": [
+								"This Garden contains rare herbs, some of which have medicinal uses."
+							]
+						},
+						{
+							"type": "item",
+							"name": "Poison Garden",
+							"entries": [
+								"This Garden is stocked with plants and fungi from which poisons and antitoxin can be extracted."
+							]
+						}
+					]
+				},
+				"While in your Bastion, you can instruct the facility's hireling to change the Garden from one type to another. This work takes 21 days, during which time no other activity can occur in this facility.",
+				"When you issue the Harvest order to this facility, you commission the facility's hireling to collect items of value from the Garden as noted in the {@table Garden Harvest|XUA2023BastionsAndCantrips} table. The work takes 7 days and costs you no money.",
+				{
+					"type": "statblock",
+					"tag": "table",
+					"source": "XUA2023BastionsAndCantrips",
+					"name": "Garden Harvest",
+					"page": 10
+				},
+				{
+					"type": "entries",
+					"name": "Enlarging a Garden",
+					"page": 10,
+					"entries": [
+						"You can enlarge your Garden to a Vast facility by spending 2,000 GP. A Vast Garden is equivalent to two Roomy Gardens, and can include two of the same type of garden or two different types. When you issue the Harvest order to a Vast Garden, each component garden produces its own harvest. A Vast Garden gains 1 additional hireling."
+					]
+				}
+			]
+		},
+		{
+			"name": "Greenhouse",
+			"source": "XUA2023BastionsAndCantrips",
+			"page": 10,
+			"featureType": [
+				"BF"
+			],
+			"prerequisite": [
+				{
+					"level": 9
+				}
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Space:",
+					"entries": [
+						"Roomy"
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Hirelings:",
+					"entries": [
+						"1"
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Order:",
+					"entries": [
+						"Harvest ({@dice 1d6} BP)"
+					]
+				},
+				"A Greenhouse is a spacious enclosure where rare plants and fungi are nurtured in a controlled climate.",
+				"One plant in your Greenhouse has three magical fruits growing on it. Any creature that eats one of these fruits gains the benefit of a {@spell Lesser Restoration} spell. Fruits that aren't eaten within 24 hours of being picked lose their magic. The plant replaces all picked fruits daily at dawn, and it can't be transplanted without killing it.",
+				"When you issue the Harvest order to this facility, choose one of the following options:",
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"items": [
+						{
+							"type": "item",
+							"name": "Harvest: Healing Herbs",
+							"entries": [
+								"You commission the facility's hireling to create a {@item Potion of Greater Healing|DMG|Potion of Healing (Greater)} made from healing herbs, or you do the work yourself. The work takes 7 days and costs nothing."
+							]
+						},
+						{
+							"type": "item",
+							"name": "Harvest: Poison",
+							"entries": [
+								"You commission the facility's hireling to extract one application of an ingested poison from rare plants or fungi, or you do the work yourself. Choose the type of poison from the following options: {@item Midnight Tears}, {@item Pale Tincture}, {@item Torpor}, or {@item Truth Serum}. See the \"{@book Poisons|DMG|8|Poisons}\" section in the {@book Dungeon Master's Guide|DMG} for each poison's effect. Once harvested, the poison can be contained in a vial. The work takes 7 days and costs nothing."
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Guildhall",
+			"source": "XUA2023BastionsAndCantrips",
+			"page": 10,
+			"featureType": [
+				"BF"
+			],
+			"prerequisite": [
+				{
+					"level": 17,
+					"other": "{@variantrule Expertise|XUA2023PlayersHandbookP6} in a skill"
+				}
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Space:",
+					"entries": [
+						"Vast"
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Hirelings:",
+					"entries": [
+						"0"
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Order:",
+					"entries": [
+						"Recruit ({@dice 1d10} BP)"
+					]
+				},
+				"A Guildhall comes with a guild, for which you are the guild master. Choose the type of guild from the options in the {@table Sample Guilds|XUA2023BastionsAndCantrips} table, or work with your DM to create a new guild. The facility is a meeting room where members of your guild can discuss important matters in your presence. Wall banners depict the guild's symbol.",
+				"Your guild has roughly fifty members made up of skilled folk who live and work outside your Bastion, usually in nearby settlements.",
+				"Each time you issue the Recruit order to this facility, you commission one or more members of your guild to perform a special assignment. Each guild in the {@table Sample Guilds|XUA2023BastionsAndCantrips} table specifies the nature of that assignment. With your DM's permission and help, you can create new assignments for guild members to complete.",
+				{
+					"type": "statblock",
+					"tag": "table",
+					"source": "XUA2023BastionsAndCantrips",
+					"name": "Sample Guilds",
+					"page": 11
+				}
+			]
+		},
+		{
+			"name": "Laboratory",
+			"source": "XUA2023BastionsAndCantrips",
+			"page": 11,
+			"featureType": [
+				"BF"
+			],
+			"prerequisite": [
+				{
+					"level": 9
+				}
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Space:",
+					"entries": [
+						"Roomy"
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Hirelings:",
+					"entries": [
+						"1"
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Order:",
+					"entries": [
+						"Craft ({@dice 1d6} BP)"
+					]
+				},
+				"A Laboratory contains storage space for alchemical supplies and workspaces for crafting potions and other concoctions.",
+				"When you issue the Craft order to this facility, choose one of the following options:",
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"items": [
+						{
+							"type": "item",
+							"name": "Craft: Liquid Concoction",
+							"entries": [
+								"You commission the facility's hireling to craft a {@item Acid (vial)|PHB|vial of Acid}, a {@item Alchemist's Fire (flask)|PHB|flask of Alchemist's Fire}, or a {@item Ink (1-ounce bottle)|PHB|bottle of Ink}. This work takes 7 days and costs you half the item's normal cost."
+							]
+						},
+						{
+							"type": "item",
+							"name": "Craft: Poison",
+							"entries": [
+								"You commission the facility's hireling to craft a {@item Basic Poison (vial)|PHB|vial of Basic Poison} or a vial containing one application of a rare poison. The rare poison must be one of the following: {@item Burnt Othur Fumes}, {@item Carrion Crawler Mucus}, {@item Essence of Ether}, or {@item Malice}. This work takes 7 days, and you must pay the poison's cost. See the \"{@book Poisons|DMG|8|Poisons}\" section in the {@book Dungeon Master's Guide|DMG} for descriptions and costs of rare poisons."
+							]
+						},
+						{
+							"type": "item",
+							"name": "Craft: Potion",
+							"entries": [
+								"You commission the facility's hireling to craft a magic potion (as described in the {@note 2024?} Dungeon Master's Guide), or you craft it yourself if you have the ability to use a Spellcasting Focus. The work takes 7 days. The {@table Craft Potion|XUA2023BastionsAndCantrips} table shows the minimum level one must be to craft a potion of a particular rarity and the cost you must pay for the supplies. For purposes of crafting potions, your hireling's level is half your level (rounded up).",
+								{
+									"type": "statblock",
+									"tag": "table",
+									"source": "XUA2023BastionsAndCantrips",
+									"name": "Craft Potion",
+									"page": 12
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Library",
+			"source": "XUA2023BastionsAndCantrips",
+			"page": 12,
+			"featureType": [
+				"BF"
+			],
+			"prerequisite": [
+				{
+					"level": 5
+				}
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Space:",
+					"entries": [
+						"Roomy"
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Hirelings:",
+					"entries": [
+						"1"
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Order:",
+					"entries": [
+						"Research ({@dice 1d4} BP)"
+					]
+				},
+				"This Library contains a collection of books plus one or more desks and reading chairs.",
+				"When you issue the Research order to this facility, you commission the facility's hireling to research a topic, or you do the research yourself. The topic can be a legend, a known event or location, a person of significance, a type of creature, or a famous object. The work takes 7 days. When the research concludes, you obtain up to three accurate pieces of information about the topic that were previously unknown to you. The DM determines what information you learn."
+			]
+		},
+		{
+			"name": "Meditation Chamber",
+			"source": "XUA2023BastionsAndCantrips",
+			"page": 7,
+			"featureType": [
+				"BF"
+			],
+			"prerequisite": [
+				{
+					"level": 13
+				}
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Space:",
+					"entries": [
+						"Cramped"
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Hirelings:",
+					"entries": [
+						"0"
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Order:",
+					"entries": [
+						"Empower ({@dice 1d8} BP)"
+					]
+				},
+				"A Meditation Chamber is a relaxing space that helps align one's mind, body, and spirit.",
+				"When you issue the Empower order to this facility, you enable all your Bastion's hirelings to use the Meditation Chamber to gain a measure of inner peace. You can immediately issue a Bastion order to one of your Bastion's other special facilities, even if that facility has already been issued an order on this Bastion turn.",
+				"The Meditation Chamber also imparts the following benefit:",
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"items": [
+						{
+							"type": "item",
+							"name": "Fortify Self",
+							"entries": [
+								"You can meditate in this facility over a period of 7 days to fortify your mind, body, and spirit. If you leave the Bastion during this time, you gain no benefit. Otherwise, at the end of the seventh day, you gain Advantage on two kinds of saving throws for the next 7 days, chosen randomly from the {@table Fortified Saves|XUA2023BastionsAndCantrips} table. (Reroll if you get a duplicate result.)",
+								{
+									"type": "statblock",
+									"tag": "table",
+									"source": "XUA2023BastionsAndCantrips",
+									"name": "Fortified Saves",
+									"page": 12
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Menagerie",
+			"source": "XUA2023BastionsAndCantrips",
+			"page": 12,
+			"featureType": [
+				"BF"
+			],
+			"prerequisite": [
+				{
+					"level": 13
+				}
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Space:",
+					"entries": [
+						"Vast"
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Hirelings:",
+					"entries": [
+						"2"
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Order:",
+					"entries": [
+						"Recruit ({@dice 1d8} BP)"
+					]
+				},
+				"A Menagerie keeps various creatures in enclosures. Multiple creatures can be contained in the same enclosure if those creatures would get along normally.",
+				"When you issue the Recruit order to this facility, you commission the facility's hirelings to add a creature from the {@table Menagerie Creatures|XUA2023BastionsAndCantrips} table to your Menagerie. The recruitment takes 7 days and costs you the amount listed in the table. The hirelings make sure the creature is properly looked after.",
+				"The Menagerie is big enough to contain four Large creatures. Four Small or Medium creatures occupy the same amount of space as one Large creature.",
+				"Keep track of the creatures housed in your Menagerie, as they count as Bastion Defenders. Deduct any you lose from your Bastion Defenders roster. You can choose not to count one or more of these creatures as Bastion Defenders, in which case they can't be called on to defend the Bastion. Instead, they act in accordance with their nature and use their stat blocks in the {@book Monster Manual|MM}.",
+				{
+					"type": "statblock",
+					"tag": "table",
+					"source": "XUA2023BastionsAndCantrips",
+					"name": "Menagerie Creatures",
+					"page": 13
+				},
+				"At the DM's option, you can add different creatures than those shown to your Menagerie. The cost of a creature depends on its Challenge Rating, as shown on the {@table Menagerie Creatures by Challenge Rating|XUA2023BastionsAndCantrips} table. Only Beasts and some Monstrosities (with the DM's approval) can be kept in a Menagerie.",
+				{
+					"type": "statblock",
+					"tag": "table",
+					"source": "XUA2023BastionsAndCantrips",
+					"name": "Menagerie Creatures By Challenge Rating",
+					"page": 13
+				}
+			]
+		},
+		{
+			"name": "Observatory",
+			"source": "XUA2023BastionsAndCantrips",
+			"page": 7,
+			"featureType": [
+				"BF"
+			],
+			"prerequisite": [
+				{
+					"level": 13,
+					"other": "Ability to use a Spellcasting Focus"
+				}
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Space:",
+					"entries": [
+						"Roomy"
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Hirelings:",
+					"entries": [
+						"1"
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Order:",
+					"entries": [
+						"Empower ({@dice 1d8} BP)"
+					]
+				},
+				"Situated atop your Bastion, your Observatory contains a powerful telescope aimed at the night sky.",
+				"You can use your Observatory to peer into the far corners of Wildspace and the Astral Plane, if not the heavens. Whenever you spend an entire Long Rest in your Observatory, you can cast {@spell Contact Other Plane} once within the next 7 days without expending a spell slot.",
+				"When you issue the Empower order to this facility, you enable yourself or the facility's hireling to explore the eldritch mysteries of the stars for 7 consecutive nights. At the end of that time, roll a die. If the number rolled is even, nothing is gained. If the number rolled is odd, an unknown power bestows one of the following supernatural charms on you or another creature of your choice that is on the same plane of existence as you: {@reward Charm of Darkvision}, {@reward Charm of Heroism}, or {@reward Charm of Vitality} (all described in the {@book Dungeon Master's Guide|DMG})."
+			]
+		},
+		{
+			"name": "Pub",
+			"source": "XUA2023BastionsAndCantrips",
+			"page": 13,
+			"featureType": [
+				"BF"
+			],
+			"prerequisite": [
+				{
+					"level": 13
+				}
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Space:",
+					"entries": [
+						"Roomy"
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Hirelings:",
+					"entries": [
+						"1"
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Order:",
+					"entries": [
+						"Research ({@dice 1d8} BP)"
+					]
+				},
+				"Folks come here to consume tasty beverages and socialize. Your Pub might be a bar, coffee shop, or tea room, and it might have a colorful name, such as the Rusty Flagon or the Dragon's Loft. The facility's hireling, who serves as the bartender, maintains a network of spies scattered throughout nearby communities. These spies are useful sources of information and frequent the Pub, often incognito.",
+				"When you issue the Research order to this facility, you commission the Pub's bartender to gather information from spies who are aware of all important events happening within 10 miles of your Bastion over the next 7 days. During that time, these spies can divulge the location of any creature that is familiar to you, provided the creature is within 50 miles of your Bastion and not hidden by magic or confined to a location that the DM deems is beyond the spy network's ability to locate. If the spies learn the target's location, they also learn where that creature has been for the previous 7 days.",
+				"In addition, the Pub has one magical beverage on tap, chosen from the options in the {@table Pub Special|XUA2023BastionsAndCantrips} table. Between Bastion turns, you can switch to one of the table's other options. Your DM may create new options and allow them to become available to you.",
+				{
+					"type": "statblock",
+					"tag": "table",
+					"source": "XUA2023BastionsAndCantrips",
+					"name": "Pub Special",
+					"page": 14
+				},
+				{
+					"type": "entries",
+					"name": "Enlarging a Pub",
+					"page": 14,
+					"entries": [
+						"You can enlarge your Pub to a Vast facility by spending 2,000 GP. If you do so, the Pub can have two magical beverages from the {@table Pub Special|XUA2023BastionsAndCantrips} table on tap at a time. A Vast Pub gains 3 additional hirelings, for a total of 4. These new hirelings are servers. Assign names and personalities to them."
+					]
+				}
+			]
+		},
+		{
+			"name": "Reliquary",
+			"source": "XUA2023BastionsAndCantrips",
+			"page": 14,
+			"featureType": [
+				"BF"
+			],
+			"prerequisite": [
+				{
+					"level": 13,
+					"other": "Ability to use a Holy Symbol or Druidic Focus as a Spellcasting Focus"
+				}
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Space:",
+					"entries": [
+						"Cramped"
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Hirelings:",
+					"entries": [
+						"1"
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Order:",
+					"entries": [
+						"Harvest ({@dice 1d8} BP)"
+					]
+				},
+				"This vault holds sacred objects that reinforce your religion. Whenever you spend a Long Rest in your Bastion, you can cast {@spell Greater Restoration} once within the next 7 days without expending a spell slot or using Material components.",
+				"When you issue the Harvest order to this facility, you commission the facility's hireling to produce a specially prepared talisman for your use. The talisman usually takes the form of an amulet, a rune-carved box, or a statuette, but it can be any Tiny, nonmagical object that has religious significance. The work takes 7 days and costs no money. You can use this talisman as a Spellcasting Focus, ignoring any of the spell's Material components, including ones that have a cost of 1,000 GP or less. The talisman can be used in this way only once, and then it must be returned to your Reliquary. Another Harvest order prepares it for use again."
+			]
+		},
+		{
+			"name": "Sacristy",
+			"source": "XUA2023BastionsAndCantrips",
+			"page": 14,
+			"featureType": [
+				"BF"
+			],
+			"prerequisite": [
+				{
+					"level": 9,
+					"other": "Ability to use a Holy Symbol or Druidic Focus as a Spellcasting Focus"
+				}
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Space:",
+					"entries": [
+						"Roomy"
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Hirelings:",
+					"entries": [
+						"1"
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Order:",
+					"entries": [
+						"Craft ({@dice 1d6} BP)"
+					]
+				},
+				"A Sacristy serves as a preparation and storage room for the sacred items and vestments of your religion. Having a Sacristy allows you to regain one expended spell slot of level 5 or lower after spending an entire Short Rest in your Bastion. You can't gain this benefit again until you finish a Long Rest.",
+				"When you issue the Craft order to this facility, choose one of the following options:",
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"items": [
+						{
+							"type": "item",
+							"name": "Craft: Holy Water",
+							"entries": [
+								"You commission the facility's hireling to craft a {@item Holy Water (flask)|PHB|flask of Holy Water}, or you do the work yourself. The work takes 7 days and costs nothing. You can spend Gold Pieces during the creation process to increase the potency of the Holy Water. For every 100 GP you spend, up to a maximum of 500 GP, the damage dealt by the Holy Water increases by {@dice 1d6}."
+							]
+						},
+						{
+							"type": "item",
+							"name": "Craft: Sacred Item",
+							"entries": [
+								"You commission the facility's hireling to craft a temporary magic item, the properties of which last for 7 days, or you do the work yourself. Choose the item from the following list: {@item Pearl of Power}, {@item Periapt of Wound Closure}, {@item Ring of Water Walking}, {@item Sending Stones} (pair), {@item Staff of the Adder}, {@item Staff of the Python}, or {@item Wand of Magic Detection}. The work takes 7 days and costs you 200 GP."
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Sanctuary",
+			"source": "XUA2023BastionsAndCantrips",
+			"page": 15,
+			"featureType": [
+				"BF"
+			],
+			"prerequisite": [
+				{
+					"level": 5,
+					"other": "Ability to use a Holy Symbol or Druidic Focus as a Spellcasting Focus"
+				}
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Space:",
+					"entries": [
+						"Roomy"
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Hirelings:",
+					"entries": [
+						"1"
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Order:",
+					"entries": [
+						"Craft ({@dice 1d4} BP)"
+					]
+				},
+				"Icons of your religion are displayed in this facility, which includes a quiet place for worship or spiritual practice.",
+				"The Sanctuary imparts the following benefit:",
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"items": [
+						{
+							"type": "item",
+							"name": "Cast Healing Word",
+							"entries": [
+								"You can draw on the power of your Sanctuary to heal yourself or another. After spending a Long Rest in your Bastion, you can cast {@spell Healing Word} once within the next 7 days without expending a spell slot. The spell's level is half your level, rounded down."
+							]
+						}
+					]
+				},
+				"When you issue the Craft order to this facility, it produces a sacred focus:",
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"items": [
+						{
+							"type": "item",
+							"name": "Craft: Sacred Focus",
+							"entries": [
+								"You commission the facility's hireling to craft a {@item Wooden Staff|PHB|Druidic Focus (Wooden Staff)} or a {@item Holy Symbol|PHB}. The work takes 7 days and costs no money. The item remains in your Bastion until you claim it, or you can have it sold for 5 GP."
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Sanctum",
+			"source": "XUA2023BastionsAndCantrips",
+			"page": 15,
+			"featureType": [
+				"BF"
+			],
+			"prerequisite": [
+				{
+					"level": 17,
+					"other": "Ability to use a Holy Symbol or Druidic Focus as a Spellcasting Focus"
+				}
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Space:",
+					"entries": [
+						"Roomy"
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Hirelings:",
+					"entries": [
+						"4"
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Order:",
+					"entries": [
+						"Empower ({@dice 1d10} BP)"
+					]
+				},
+				"A Sanctum is a place of solace and healing.",
+				"When you issue the Empower order to this facility, you inspire its hirelings to perform daily rites that benefit you or another player character of your choice. Each time the beneficiary finishes a Long Rest, they gain Temporary Hit Points equal to your level. This effect lasts for 7 days.",
+				"The Sanctum also imparts the following benefits:",
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"items": [
+						{
+							"type": "item",
+							"name": "Cast Heal",
+							"entries": [
+								"Whenever you spend a Long Rest in your Bastion, you can cast {@spell Heal} once within the next 7 days without expending a spell slot."
+							]
+						},
+						{
+							"type": "item",
+							"name": "Sanctum Recall",
+							"entries": [
+								"When you cast {@spell Word of Recall}, you can make your Sanctum the destination of the spell instead of another place you have previously designated. In addition, one creature of your choice that arrives in the Sanctum via this spell gains the benefit of a {@spell Heal} spell."
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Scriptorium",
+			"source": "XUA2023BastionsAndCantrips",
+			"page": 15,
+			"featureType": [
+				"BF"
+			],
+			"prerequisite": [
+				{
+					"level": 9
+				}
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Space:",
+					"entries": [
+						"Roomy"
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Hirelings:",
+					"entries": [
+						"1"
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Order:",
+					"entries": [
+						"Craft ({@dice 1d6} BP)"
+					]
+				},
+				"A Scriptorium contains desks and writing supplies.",
+				"When you issue the Craft order to this facility, choose one of the following options:",
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"items": [
+						{
+							"type": "item",
+							"name": "Craft: Book Replica",
+							"entries": [
+								"You commission the facility's hireling to make a copy of a nonmagical book. Doing so requires a blank {@item Book|PHB}. The work takes 7 days."
+							]
+						},
+						{
+							"type": "item",
+							"name": "Craft: Paperwork",
+							"entries": [
+								"You commission the facility's hireling to create up to fifty copies of a broadsheet, a pamphlet, or another looseleaf paper product. The work takes 7 days and costs you 1 GP per copy. At no additional cost in time or money, the facility's hireling can distribute the paperwork to one or more locations within 10 miles of your Bastion."
+							]
+						},
+						{
+							"type": "item",
+							"name": "Craft: Scroll",
+							"entries": [
+								"You commission the facility's hireling to craft a magic scroll (as described in the {@note 2024?} Dungeon Master's Guide), or you craft it yourself. In the case of a {@item Spell Scroll}, the spell on the scroll must be one you can prepare. The work takes 7 days. The {@table Craft Scroll|XUA2023BastionsAndCantrips} table shows the minimum level one must be to craft a scroll of a particular rarity and the cost of the supplies needed. For purposes of crafting scrolls, your hireling's level is half your level (rounded up).",
+								{
+									"type": "statblock",
+									"tag": "table",
+									"source": "XUA2023BastionsAndCantrips",
+									"name": "Craft Scroll",
+									"page": 16
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Smithy",
+			"source": "XUA2023BastionsAndCantrips",
+			"page": 16,
+			"featureType": [
+				"BF"
+			],
+			"prerequisite": [
+				{
+					"level": 5,
+					"other": "Fighting Style feature or Unarmored Defense feature"
+				}
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Space:",
+					"entries": [
+						"Roomy"
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Hirelings:",
+					"entries": [
+						"2"
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Order:",
+					"entries": [
+						"Craft ({@dice 1d4} BP)"
+					]
+				},
+				"This Smithy contains a forge, an anvil, and other tools needed to craft weapons and tools.",
+				"When you issue the Craft order to this facility, choose one of the following options:",
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"items": [
+						{
+							"type": "item",
+							"name": "Craft: Ammunition or Simple Weapon",
+							"entries": [
+								"You commission the facility's hirelings to craft up to twenty pieces of ammunition or one Simple Weapon, which takes 7 days and costs you half the normal price of the ammunition or weapon. Or you can commission a masterwork Simple Weapon, which takes 14 days and costs you 800 GP. A masterwork Simple weapon has no special properties until a {@spell Magic Weapon} spell is cast on it. When that spell ends, the masterwork weapon retains the magic permanently, becoming a {@item +1 Weapon}."
+							]
+						},
+						{
+							"type": "item",
+							"name": "Craft: Armor or Equipment",
+							"entries": [
+								"You commission the facility's hirelings to craft one of the following: a suit of Medium or Heavy armor (excluding {@item Hide Armor|PHB|Hide}), {@item Caltrops (bag of 20)|PHB|20 Caltrops}, a {@item Chain (10 feet)|PHB}, a {@item Crowbar|PHB}, a {@item Grappling Hook|PHB}, a {@item Hammer|PHB} (regular or {@item sledgehammer|PHB|sledge}), 4 horseshoes, a {@item Hunting Trap|PHB}, a set of {@item Manacles|PHB}, a {@item Miner's Pick|PHB}, {@item Iron Spikes (10)|PHB|10 Iron Spikes} or {@item Piton|PHB|Pitons}, an {@item Iron Pot|PHB}, a metal {@item Shield|PHB}, or a {@item Shovel|PHB}. The work takes 7 days, or 21 days for a suit of armor, and costs you half the item's normal cost."
+							]
+						},
+						{
+							"type": "item",
+							"name": "Craft: Martial Weapon",
+							"entries": [
+								"You commission the facility's hirelings to craft a Martial weapon, which takes 14 days and costs you half the weapon's normal cost, or a masterwork Martial weapon, which takes 21 days and costs you 800 GP. A masterwork Martial weapon has no special properties until a {@spell Magic Weapon} spell is cast on it. When that spell ends, the masterwork weapon retains the magic permanently, becoming a {@item +1 Weapon}."
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Stable",
+			"source": "XUA2023BastionsAndCantrips",
+			"page": 16,
+			"featureType": [
+				"BF"
+			],
+			"prerequisite": [
+				{
+					"level": 9
+				}
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Space:",
+					"entries": [
+						"Roomy"
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Hirelings:",
+					"entries": [
+						"1"
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Order:",
+					"entries": [
+						"Trade ({@dice 1d6} BP)"
+					]
+				},
+				"A Bastion can have more than one Stable. Each Stable comes with one {@item Riding Horse|PHB} (or {@item Camel|PHB}) and two {@item Pony|PHB|Ponies} (or two {@item Mule|PHB|Mules}). The facility is big enough to house three Large animals. Two Medium creatures occupy the same amount of space as one Large creature. The facility's hireling looks after these creatures.",
+				"After a Beast that can serve as a mount spends at least 14 days in this facility, all Wisdom ({@skill Animal Handling}) checks made with respect to it have Advantage, as the animal becomes easier to handle.",
+				"When you issue the Trade order to this facility, you commission the facility's hireling to buy or sell one or more mounts at normal cost, keeping the ones you buy in your Stable. The work takes 7 days, and the DM decides what types of animals are available for purchase\u2014horses, ponies, and mules being the most common. The {@table Mounts and Vehicles; Mounts and Other Animals|PHB|Mounts and Other Animals} table in the {@book Player's Handbook|PHB} gives standard prices for various mounts, including camels, horses, ponies, and mules. When you sell a mount from your Stable, the buyer pays you 20 percent more than the standard price; this profit increases to 50 percent when you reach level 13 and 100 percent when you reach level 17.",
+				{
+					"type": "entries",
+					"name": "Enlarging a Stable",
+					"page": 16,
+					"entries": [
+						"You can enlarge your Stable to a Vast facility by spending 2,000 GP. If you do so, the Stable is large enough to house six Large animals."
+					]
+				}
+			]
+		},
+		{
+			"name": "Storehouse",
+			"source": "XUA2023BastionsAndCantrips",
+			"page": 16,
+			"featureType": [
+				"BF"
+			],
+			"prerequisite": [
+				{
+					"level": 5
+				}
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Space:",
+					"entries": [
+						"Roomy"
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Hirelings:",
+					"entries": [
+						"1"
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Order:",
+					"entries": [
+						"Trade ({@dice 1d4} BP)"
+					]
+				},
+				"This cool, dark space is meant to contain trade goods (see the {@table Trade Goods|PHB} table in the {@book Player's Handbook|PHB}) but can hold almost anything.",
+				"When you issue the Trade order to this facility, its hireling spends the next 7 days procuring nonmagical items that have a total value of 500 GP or less and stores them in the Storehouse, or the hireling uses those 7 days to sell goods in the Storehouse. You bear the total cost of any purchases, and the maximum value of the items purchased increases to 2,000 GP when you reach level 9 and 5,000 GP when you reach level 13. The {@book Equipment chapter|PHB|5} of the {@book Player's Handbook|PHB} has tables of common goods that can be bought.",
+				"When you sell goods from your Storehouse, the buyer pays you 10 percent more than the standard price; this profit increases to 20 percent when you reach level 9, 50 percent when you reach level 13, and 100 percent when you reach level 17."
+			]
+		},
+		{
+			"name": "Teleportation Circle",
+			"source": "XUA2023BastionsAndCantrips",
+			"page": 17,
+			"featureType": [
+				"BF"
+			],
+			"prerequisite": [
+				{
+					"level": 9
+				}
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Space:",
+					"entries": [
+						"Roomy"
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Hirelings:",
+					"entries": [
+						"0"
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Order:",
+					"entries": [
+						"Recruit ({@dice 1d6} BP)"
+					]
+				},
+				"Inscribed on the floor of this room is a permanent teleportation circle created by a {@spell Teleportation Circle} spell.",
+				"Each time you issue the Recruit order to this facility, your Bastion extends an invitation to a friendly {@creature Mage|MM}, or a friendly {@creature Archmage|MM} if you are level 17 or higher (see the {@book Monster Manual|MM} for their stat blocks). Roll any die. If the number rolled is odd, the invitee declines the invitation, and you gain no benefit from having issued the order. If the number rolled is even, the invitee accepts the invitation and arrives in your Bastion via your {@spell Teleportation Circle}. This guest stays for 7 days. The guest won't help defend your Bastion and departs immediately if the Bastion is attacked (see \"{@variantrule Bastion Events|XUA2023BastionsAndCantrips}\" at the end of this document).",
+				"While you are in the Bastion, you can ask the visiting {@creature Mage|MM} or {@creature Archmage|MM} to cast one spell. In the case of the {@creature Mage|MM}, choose a Wizard spell of level 4 or lower; in the case of the {@creature Archmage|MM}, choose a Wizard spell of level 8 or lower. The spell might be one the visitor has prepared, or it might be written in a {@item spellbook|PHB}. If the spell has one or more Material components that cost money, you must pay for them before the spell can be cast."
+			]
+		},
+		{
+			"name": "Theater",
+			"source": "XUA2023BastionsAndCantrips",
+			"page": 17,
+			"featureType": [
+				"BF"
+			],
+			"prerequisite": [
+				{
+					"level": 9
+				}
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Space:",
+					"entries": [
+						"Vast"
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Hirelings:",
+					"entries": [
+						"4"
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Order:",
+					"entries": [
+						"Empower ({@dice 1d6} BP)"
+					]
+				},
+				"The Theater contains a stage, a backstage area where props and sets are kept, and a seating area for a small audience.",
+				"When you issue the Empower order to this facility, its hirelings begin work on a theatrical production or concert. Rehearsals and other preparations take 14 days, followed by at least 7 days of performances. The performances can continue indefinitely until a new production gets underway.",
+				"A player character can contribute to a production in the following ways:",
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"items": [
+						{
+							"type": "item",
+							"name": "Composer/Writer",
+							"entries": [
+								"A character can compose music or write a script for a concert or production that hasn't started rehearsals yet. This effort takes 14 days."
+							]
+						},
+						{
+							"type": "item",
+							"name": "Conductor/Director",
+							"entries": [
+								"A character who remains in the Bastion for the entirety of the production can serve as the concert's conductor or the production's director."
+							]
+						},
+						{
+							"type": "item",
+							"name": "Performer",
+							"entries": [
+								"A character who remains in the Bastion for the entirety of the rehearsal period can be a star performer in one or more of the performances; one of the Theater's hirelings can serve as an understudy for additional performances."
+							]
+						}
+					]
+				},
+				"At the end of a rehearsal period, each character who contributed to the concert or production can make a {@dc 15} Charisma ({@skill Performance}) check. If more of these checks succeed than fail, you and any other character who contributed to the concert or production each gain a Theater die, a {@dice d6}. This die increases to a {@dice d8} when you reach level 13 and a {@dice d10} when you reach level 17. At any point after the rehearsals end, a character can expend their Theater die to roll it and add the number rolled to one ability check, attack roll, or saving throw they make. If a character hasn't expended their Theater die before gaining another, their first die is lost."
+			]
+		},
+		{
+			"name": "Training Area",
+			"source": "XUA2023BastionsAndCantrips",
+			"page": 18,
+			"featureType": [
+				"BF"
+			],
+			"prerequisite": [
+				{
+					"level": 9,
+					"other": "{@variantrule Expertise|XUA2023PlayersHandbookP6} in a skill, Fighting Style feature, or Unarmored Defense feature"
+				}
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Space:",
+					"entries": [
+						"Vast"
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Hirelings:",
+					"entries": [
+						"4"
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Order:",
+					"entries": [
+						"Empower ({@dice 1d6} BP)"
+					]
+				},
+				"A Bastion can have more than one Training Area. A Training Area might be an open courtyard, a gymnasium, a music or dance hall, or a cleverly built gauntlet of traps and hazards. It might contain inanimate targets (for weapon practice), padded mats, and other equipment. One of the facility's hirelings is an expert trainer; the others serve as training partners.",
+				"When a Training Area becomes part of your Bastion, choose one trainer from the {@table Expert Trainers|XUA2023BastionsAndCantrips} table. On each Bastion turn, you can replace that trainer with another one from the table.",
+				"When you issue the Empower order to this facility, the facility's hirelings conduct training exercises for the next 7 days. Any character who trains here for at least 8 hours on each of those days gains a benefit at the end of the training period. The benefit depends on which trainer is present in the facility, as noted in the {@table Expert Trainers|XUA2023BastionsAndCantrips} table. The benefit lasts for 7 days.",
+				{
+					"type": "statblock",
+					"tag": "table",
+					"source": "XUA2023BastionsAndCantrips",
+					"name": "Expert Trainers",
+					"page": 18
+				}
+			]
+		},
+		{
+			"name": "Trophy Room",
+			"source": "XUA2023BastionsAndCantrips",
+			"page": 18,
+			"featureType": [
+				"BF"
+			],
+			"prerequisite": [
+				{
+					"level": 9
+				}
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Space:",
+					"entries": [
+						"Roomy"
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Hirelings:",
+					"entries": [
+						"1"
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Order:",
+					"entries": [
+						"Research ({@dice 1d6} BP)"
+					]
+				},
+				"This room houses a collection of mementos, such as weapons from old battles, gifts from benefactors, the mounted heads of slain creatures, trinkets plucked from dungeons and ruins, and trophies passed down from ancestors.",
+				"When you issue the Research order to this facility, choose one of the following options:",
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"items": [
+						{
+							"type": "item",
+							"name": "Research: Lore",
+							"entries": [
+								"You commission the facility's hireling to research a topic of your choice, or you do the research yourself. The topic can be a legend, any kind of creature, or a famous object. The topic need not be directly related to items on display in the room, as the trophies provide clues to research a wide variety of other subjects. The work takes 7 days. When the research concludes, you obtain up to three accurate pieces of information about the topic that were previously unknown to you. The DM determines what information is learned."
+							]
+						},
+						{
+							"type": "item",
+							"name": "Research: Trinket Trophy",
+							"entries": [
+								"You commission the facility's hireling to search for a trinket that might be of use to you. The work takes 7 days. When the research concludes, roll a die. If the number rolled is odd, the hireling finds nothing useful. If the number rolled is even, the hireling finds a trinket with a previously unknown magical property. You can decide what the trinket looks like or roll on the {@item Trinket|PHB|Trinkets} table in the {@book Player's Handbook|PHB} to determine its form. As a {@action Magic|XUA2023PlayersHandbookP6} action, a creature can use the trinket to cast a particular spell, requiring no spell components. Choose the spell from the following list: {@spell Clairvoyance}, {@spell Death Ward}, {@spell Find Traps}, {@spell Locate Creature}, {@spell Magic Weapon}, {@spell Remove Curse}, or {@spell Speak with Dead}. Once used in this way, the trinket loses its magic."
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "War Room",
+			"source": "XUA2023BastionsAndCantrips",
+			"page": 19,
+			"featureType": [
+				"BF"
+			],
+			"prerequisite": [
+				{
+					"level": 17,
+					"other": "Fighting Style feature or Unarmored Defense feature"
+				}
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Space:",
+					"entries": [
+						"Vast"
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Hirelings:",
+					"entries": [
+						"See below"
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Order:",
+					"entries": [
+						"Recruit ({@dice 1d10} BP)"
+					]
+				},
+				"The War Room is where you plan military actions in consultation with an inner circle of loyal Lieutenants, each one a battle-hardened {@creature Veteran|MM} (see the {@book Monster Manual|MM}) whose alignment matches yours. You start with two Lieutenants but can add more, as described below. If your Bastion lacks facilities to house your Lieutenants, they secure accommodations in the inn or settlement closest to your Bastion.",
+				"Lieutenants don't count as Bastion Defenders, but if your Bastion is attacked (see the \"{@variantrule Bastion Events|XUA2023BastionsAndCantrips}\" section at the end of this document), each Lieutenant housed in your Bastion reduces by 1 the number of dice you roll to determine how many Bastion Defenders are lost in the attack.",
+				"The War Room contains war memorabilia plus a large table surrounded by enough chairs for you and your Lieutenants.",
+				"When you issue the Recruit order to this facility, choose one of the following options:",
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"items": [
+						{
+							"type": "item",
+							"name": "Recruit: Lieutenants",
+							"entries": [
+								"You gain one new Lieutenant. You can have up to ten Lieutenants at any time. Assign names and personalities to them as you see fit."
+							]
+						},
+						{
+							"type": "item",
+							"name": "Recruit: Soldiers",
+							"entries": [
+								"You commission one or more of your Lieutenants to assemble a small army. Each Lieutenant can muster one hundred {@creature Guard|MM|Guards} (see the {@book Monster Manual|MM}) in 7 days to fight for your cause. Reduce that number to twenty Guards if you want them to be mounted on {@creature Riding Horse|MM|Riding Horses} (see the {@book Monster Manual|MM}). It costs you 1 GP per day to feed each {@creature Guard|MM} and each {@creature Riding Horse|MM|Horse} in your army. Wherever the army goes, it must be led by you or at least one of your Lieutenants, or else it disbands immediately. The army also disbands if it goes 1 day without being fed. Otherwise, the army remains until it is destroyed or you command it to disband. You can't issue this Recruit order again until your current army disbands or is destroyed."
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Workshop",
+			"source": "XUA2023BastionsAndCantrips",
+			"page": 19,
+			"featureType": [
+				"BF"
+			],
+			"prerequisite": [
+				{
+					"level": 5,
+					"other": "{@variantrule Expertise|XUA2023PlayersHandbookP6} in a skill"
+				}
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Space:",
+					"entries": [
+						"Roomy"
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Hirelings:",
+					"entries": [
+						"2"
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Order:",
+					"entries": [
+						"Craft ({@dice 1d4} BP)"
+					]
+				},
+				"This Workshop is a creative space where all manner of useful items can be crafted.",
+				"After spending an entire Short Rest in your Workshop, you gain {@variantrule Heroic Advantage|XUA2023PlayersHandbookP6}. You can't gain this benefit again until you finish a Long Rest.",
+				"When you issue the Craft order to this facility, you commission the facility's hirelings to craft one Tiny, nonmagical object that can be made using {@item Carpenter's Tools|PHB}, {@item Cobbler's Tools|PHB}, {@item Glassblower's Tools|PHB}, {@item Mason's Tools|PHB}, {@item Potter's Tools|PHB}, {@item Tinker's Tools|PHB}, {@item Weaver's Tools|PHB}, or {@item Woodcarver's Tools|PHB|Woodcutter's Tools}. Examples include a {@item Costume Clothes|PHB|Costume}, a {@item Gaming Set|PHB}, a {@item Musical Instrument|PHB}, a Spellcasting Focus, a {@item glass bottle|PHB|bottle}, a shoe, or a toy. The work takes 7 days and costs you nothing unless the item is worth 10 GP or more, in which case you pay half the item's cost."
+			]
+		}
+	],
+	"spell": [
+		{
+			"name": "Acid Splash",
+			"source": "XUA2023BastionsAndCantrips",
+			"page": 22,
+			"level": 0,
+			"school": "V",
+			"groups": [
+				{
+					"name": "Sorcerer",
+					"source": "XUA2023BastionsAndCantrips"
+				},
+				{
+					"name": "Wizard",
+					"source": "XUA2023BastionsAndCantrips"
+				}
+			],
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 60
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"entries": [
+				"You create an acidic bubble and hurl it at a point within range, where it explodes in a 5-foot-radius sphere. Each creature in that sphere must succeed on a Dexterity saving throw or take {@damage 1d6} Acid damage."
+			],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "Cantrip Upgrade",
+					"entries": [
+						"This spell's damage increases by {@dice 1d6} when you reach levels 5 ({@damage 2d6}), 11 ({@damage 3d6}), and 17 ({@damage 4d6})."
+					]
+				}
+			],
+			"scalingLevelDice": {
+				"label": "acid damage",
+				"scaling": {
+					"1": "1d6",
+					"5": "2d6",
+					"11": "3d6",
+					"17": "4d6"
+				}
+			},
+			"damageInflict": [
+				"acid"
+			],
+			"savingThrow": [
+				"dexterity"
+			],
+			"miscTags": [
+				"SCL"
+			],
+			"areaTags": [
+				"ST",
+				"MT"
+			]
+		},
+		{
+			"name": "Blade Ward",
+			"source": "XUA2023BastionsAndCantrips",
+			"page": 22,
+			"level": 0,
+			"school": "A",
+			"groups": [
+				{
+					"name": "Bard",
+					"source": "XUA2023BastionsAndCantrips"
+				},
+				{
+					"name": "Sorcerer",
+					"source": "XUA2023BastionsAndCantrips"
+				},
+				{
+					"name": "Warlock",
+					"source": "XUA2023BastionsAndCantrips"
+				},
+				{
+					"name": "Wizard",
+					"source": "XUA2023BastionsAndCantrips"
+				}
+			],
+			"time": [
+				{
+					"number": 1,
+					"unit": "reaction",
+					"condition": "which you take in response to a visible creature targeting you with a melee attack"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "self"
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"entries": [
+				"You trace a sigil of warding, imposing Disadvantage on the creature's attack roll against you."
+			]
+		},
+		{
+			"name": "Chill Touch",
+			"source": "XUA2023BastionsAndCantrips",
+			"page": 22,
+			"level": 0,
+			"school": "N",
+			"groups": [
+				{
+					"name": "Sorcerer",
+					"source": "XUA2023BastionsAndCantrips"
+				},
+				{
+					"name": "Warlock",
+					"source": "XUA2023BastionsAndCantrips"
+				},
+				{
+					"name": "Wizard",
+					"source": "XUA2023BastionsAndCantrips"
+				}
+			],
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "touch"
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"entries": [
+				"You channel the chill of the grave toward one creature you try to touch. Make a melee spell attack against the target. On a hit, the target takes {@damage 1d10} Necrotic damage, and it can't regain Hit Points until the end of your next turn."
+			],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "Cantrip Upgrade",
+					"entries": [
+						"This spell's damage increases by {@dice 1d10} when you reach levels 5 ({@dice 2d10}), 11 ({@dice 3d10}), and 17 ({@dice 4d10})."
+					]
+				}
+			],
+			"scalingLevelDice": {
+				"label": "necrotic damage",
+				"scaling": {
+					"1": "1d10",
+					"5": "2d10",
+					"11": "3d10",
+					"17": "4d10"
+				}
+			},
+			"damageInflict": [
+				"necrotic"
+			],
+			"spellAttack": [
+				"M"
+			],
+			"miscTags": [
+				"SCL"
+			]
+		},
+		{
+			"name": "Friends",
+			"source": "XUA2023BastionsAndCantrips",
+			"page": 22,
+			"level": 0,
+			"school": "E",
+			"groups": [
+				{
+					"name": "Bard",
+					"source": "XUA2023BastionsAndCantrips"
+				},
+				{
+					"name": "Sorcerer",
+					"source": "XUA2023BastionsAndCantrips"
+				},
+				{
+					"name": "Warlock",
+					"source": "XUA2023BastionsAndCantrips"
+				},
+				{
+					"name": "Wizard",
+					"source": "XUA2023BastionsAndCantrips"
+				}
+			],
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 10
+				}
+			},
+			"components": {
+				"s": true,
+				"m": "some makeup"
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 1
+					},
+					"concentration": true
+				}
+			],
+			"entries": [
+				"You magically emanate a sense of friendship toward one visible creature within range. The target must succeed on a Wisdom saving throw or have the {@condition Charmed} condition for the duration. The target succeeds automatically if it isn't a Humanoid, if you're fighting it, or if you have cast this spell on it within the past 24 hours. The spell ends early if the target takes damage or if you make an attack roll, deal damage, or force anyone to make a saving throw."
+			],
+			"conditionInflict": [
+				"charmed"
+			],
+			"savingThrow": [
+				"wisdom"
+			]
+		},
+		{
+			"name": "Poison Spray",
+			"source": "XUA2023BastionsAndCantrips",
+			"page": 23,
+			"level": 0,
+			"school": "N",
+			"groups": [
+				{
+					"name": "Druid",
+					"source": "XUA2023BastionsAndCantrips"
+				},
+				{
+					"name": "Sorcerer",
+					"source": "XUA2023BastionsAndCantrips"
+				},
+				{
+					"name": "Warlock",
+					"source": "XUA2023BastionsAndCantrips"
+				},
+				{
+					"name": "Wizard",
+					"source": "XUA2023BastionsAndCantrips"
+				}
+			],
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 30
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"entries": [
+				"You launch a mist of toxic energy at a creature within range. Make a ranged spell attack against the target. On a hit, the target takes {@damage 1d12} Poison damage."
+			],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "Cantrip Upgrade",
+					"entries": [
+						"This spell's damage increases by {@dice 1d12} when you reach levels 5 ({@dice 2d12}), 11 ({@dice 3d12}), and 17 ({@dice 4d12})."
+					]
+				}
+			],
+			"scalingLevelDice": {
+				"label": "Poison damage",
+				"scaling": {
+					"1": "1d12",
+					"5": "2d12",
+					"11": "3d12",
+					"17": "4d12"
+				}
+			},
+			"damageInflict": [
+				"poison"
+			],
+			"spellAttack": [
+				"R"
+			],
+			"miscTags": [
+				"SCL"
+			]
+		},
+		{
+			"name": "Produce Flame",
+			"source": "XUA2023BastionsAndCantrips",
+			"page": 23,
+			"level": 0,
+			"school": "C",
+			"groups": [
+				{
+					"name": "Druid",
+					"source": "XUA2023BastionsAndCantrips"
+				}
+			],
+			"time": [
+				{
+					"number": 1,
+					"unit": "bonus"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "self"
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 10
+					}
+				}
+			],
+			"entries": [
+				"A flickering flame appears in your hand and remains there for the duration. While there, the flame emits no heat and ignites nothing, and it sheds bright light in a 20-foot radius and dim light for an additional 20 feet. The spell ends if you dismiss it as a Bonus Action or if you cast it again.",
+				"Until the spell ends, you can take a {@action Magic|XUA2023PlayersHandbookP6} action to hurl fire at a creature or an object within 60 feet of you. Make a ranged spell attack. On a hit, the target takes {@damage 1d8} fire damage."
+			],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "Cantrip Upgrade",
+					"entries": [
+						"This spell's damage increases by {@dice 1d8} when you reach levels 5 ({@dice 2d8}), 11 ({@dice 3d8}), and 17 ({@dice 4d8})."
+					]
+				}
+			],
+			"scalingLevelDice": {
+				"label": "Fire damage",
+				"scaling": {
+					"1": "1d8",
+					"5": "2d8",
+					"11": "3d8",
+					"17": "4d8"
+				}
+			},
+			"damageInflict": [
+				"fire"
+			],
+			"spellAttack": [
+				"R"
+			],
+			"miscTags": [
+				"LGT",
+				"OBJ",
+				"SCL",
+				"UBA"
+			]
+		},
+		{
+			"name": "Shillelagh",
+			"source": "XUA2023BastionsAndCantrips",
+			"page": 23,
+			"level": 0,
+			"school": "T",
+			"groups": [
+				{
+					"name": "Druid",
+					"source": "XUA2023BastionsAndCantrips"
+				}
+			],
+			"time": [
+				{
+					"number": 1,
+					"unit": "bonus"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "touch"
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": "mistletoe, a shamrock leaf, and a Club or Quarterstaff"
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 1
+					}
+				}
+			],
+			"entries": [
+				"A Club or Quarterstaff you are holding is imbued with nature's power. For the duration, you can use your spellcasting ability instead of Strength for the attack and damage rolls of melee attacks using that weapon, and the weapon's damage die becomes a {@dice d8}. If the attack deals damage, it can be Force damage or the weapon's normal damage type (your choice).",
+				"The spell ends early if you cast it again or if you let go of the weapon."
+			],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "Cantrip Upgrade",
+					"entries": [
+						"The weapon's damage die changes when you reach levels 5 ({@dice d10}), 11 ({@dice d12}), and 17 ({@dice 2d6})."
+					]
+				}
+			],
+			"scalingLevelDice": {
+				"label": "Force damage",
+				"scaling": {
+					"1": "1d8",
+					"5": "1d10",
+					"11": "1d12",
+					"17": "2d6"
+				}
+			},
+			"miscTags": [
+				"SCL"
+			]
+		},
+		{
+			"name": "Shocking Grasp",
+			"source": "XUA2023BastionsAndCantrips",
+			"page": 23,
+			"level": 0,
+			"school": "V",
+			"groups": [
+				{
+					"name": "Sorcerer",
+					"source": "XUA2023BastionsAndCantrips"
+				},
+				{
+					"name": "Wizard",
+					"source": "XUA2023BastionsAndCantrips"
+				}
+			],
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "touch"
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"entries": [
+				"Lightning springs from your hand to deliver a shock to a creature you try to touch. Make a melee spell attack against the target. On a hit, the target takes {@damage 1d8} Lightning damage, and it can't make {@action Opportunity Attack|PHB|Opportunity Attacks} until the start of its next turn."
+			],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "Cantrip Upgrade",
+					"entries": [
+						"This spell's damage increases by {@dice 1d8} when you reach levels 5 ({@dice 2d8}), 11 ({@dice 3d8}), and 17 ({@dice 4d8})."
+					]
+				}
+			],
+			"scalingLevelDice": {
+				"label": "Lightning damage",
+				"scaling": {
+					"1": "1d8",
+					"5": "2d8",
+					"11": "3d8",
+					"17": "4d8"
+				}
+			},
+			"damageInflict": [
+				"lightning"
+			],
+			"spellAttack": [
+				"M"
+			],
+			"miscTags": [
+				"SCL"
+			]
+		},
+		{
+			"name": "Spare the Dying",
+			"source": "XUA2023BastionsAndCantrips",
+			"page": 23,
+			"level": 0,
+			"school": "N",
+			"groups": [
+				{
+					"name": "Cleric",
+					"source": "XUA2023BastionsAndCantrips"
+				},
+				{
+					"name": "Druid",
+					"source": "XUA2023BastionsAndCantrips"
+				}
+			],
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 15
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"entries": [
+				"Choose a creature within range that has 0 Hit Points yet is alive. The creature becomes Stable."
+			],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "Cantrip Upgrade",
+					"entries": [
+						"The spell's range doubles when you reach levels 5 (30 feet), 11 (60 feet), and 17 (120 feet)."
+					]
+				}
+			],
+			"miscTags": [
+				"SCL"
+			]
+		},
+		{
+			"name": "True Strike",
+			"source": "XUA2023BastionsAndCantrips",
+			"page": 23,
+			"level": 0,
+			"school": "D",
+			"groups": [
+				{
+					"name": "Bard",
+					"source": "XUA2023BastionsAndCantrips"
+				},
+				{
+					"name": "Sorcerer",
+					"source": "XUA2023BastionsAndCantrips"
+				},
+				{
+					"name": "Warlock",
+					"source": "XUA2023BastionsAndCantrips"
+				},
+				{
+					"name": "Wizard",
+					"source": "XUA2023BastionsAndCantrips"
+				}
+			],
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "self"
+				}
+			},
+			"components": {
+				"s": true,
+				"m": "a weapon with which you have proficiency"
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"entries": [
+				"Guided by a flash of magical insight, you make one attack with the weapon used in the spell's casting. The attack uses your spellcasting ability for the attack and damage rolls instead of using Strength or Dexterity. If the attack deals damage, it can be Radiant damage or the weapon's normal damage type (your choice)."
+			],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "Cantrip Upgrade",
+					"entries": [
+						"Whether you choose to deal Radiant damage or the weapon's normal damage type, the attack deals extra Radiant damage when you reach levels 5 ({@dice 1d6}), 11 ({@dice 2d6}), and 17 ({@dice 3d6})."
+					]
+				}
+			],
+			"scalingLevelDice": {
+				"label": "Radiant damage",
+				"scaling": {
+					"1": "0",
+					"5": "1d6",
+					"11": "2d6",
+					"17": "3d6"
+				}
+			},
+			"miscTags": [
+				"SCL"
+			]
+		}
+	],
+	"variantrule": [
+		{
+			"name": "Bastion Events",
+			"source": "XUA2023BastionsAndCantrips",
+			"page": 20,
+			"ruleType": "P",
+			"entries": [
+				{
+					"type": "section",
+					"entries": [
+						"At the end of any Bastion turn in which a character issues the Maintain order to their Bastion, the DM rolls once on the {@table Bastion Events|XUA2023BastionsAndCantrips} table. If an event occurs, the DM reads the event (described in the sections following the table) aloud to the player whose character controls that Bastion. The event is resolved immediately, with the player and DM working together to expand story details as needed.",
+						"Bastion events occur only when a Bastion is operating under the Maintain order, which often means that the Bastion's owner is not present in the Bastion at the time. That means these events can be opportunities for the player to take on the role of the Bastion's hirelings and roleplay their reactions to these events. The DM can even decide to turn a Bastion event into a sort of cut scene where each player takes on the role of one of the Bastion's hirelings (under the guidance of the player whose character owns the Bastion).",
+						{
+							"type": "statblock",
+							"tag": "table",
+							"source": "XUA2023BastionsAndCantrips",
+							"name": "Bastion Events",
+							"page": 20
+						},
+						{
+							"type": "entries",
+							"name": "Event Descriptions",
+							"page": 20,
+							"entries": [
+								"The events from the Bastion Events table are detailed here in alphabetical order.",
+								{
+									"type": "entries",
+									"name": "Attack",
+									"page": 20,
+									"entries": [
+										"A hostile force attacks your Bastion but is defeated. Roll {@dice 6d6}; for each die that rolls a 1, one Bastion Defender dies. Remove these Bastion Defenders from your Bastion's roster. In addition, one of the Bastion's special facilities (determined randomly) is damaged and forced to shut down. If the Bastion has no Bastion Defenders, or if no Bastion Defenders are left after the attack, a second special facility is also shut down. A special facility that shuts down can't be used on your next Bastion turn, after which it is repaired and made operational again at no cost to you. A special facility that is shut down generates no {@variantrule Bastion Points|XUA2023BastionsAndCantrips} when you issue the Maintain order."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Criminal Hireling",
+									"page": 20,
+									"entries": [
+										"One of your Bastion's hirelings has a criminal past that comes to light when officials or bounty hunters visit your Bastion with a warrant for the hireling's arrest. You can retain the hireling by paying a bribe of {@dice 1d6 × 100} GP. Otherwise, the hireling is arrested and taken away. If this loss leaves one of your facilities without any hirelings, that facility can't be used on your next Bastion turn. The hireling is then replaced at no cost to you."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Extraordinary Opportunity",
+									"page": 20,
+									"entries": [
+										"You gain an extra {@dice 2d4} Bastion Points if you spend 500 GP to host a festival, fund the research of a powerful spellcaster, or appease a domineering noble. Work with the DM to determine the details."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Friendly Visitors",
+									"page": 20,
+									"entries": [
+										"Friendly visitors come to your Bastion, seeking to use one of your special facilities. They offer {@dice 1d6 × 100} GP for the brief use of that facility. For example, a caravan might want to use your {@optfeature Workshop|XUA2023BastionsAndCantrips} to repair its wagons and traveling gear. Pilgrims might want to rest in your {@optfeature Sanctuary|XUA2023BastionsAndCantrips}. A knight might want your {@optfeature Smithy|XUA2023BastionsAndCantrips} to replace a horseshoe or damaged weapons or armor. Or sages might need your {@optfeature Arcane Study|XUA2023BastionsAndCantrips} to help them settle a dispute. Their use of the facility doesn't interrupt any orders you've issued to it."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Honored Guest",
+									"page": 20,
+									"entries": [
+										"A guest comes to stay at your Bastion. Work with your DM to determine the stranger's identity. Roll on the {@table Honored Guests|XUA2023BastionsAndCantrips} table or choose one of the options from that table.",
+										{
+											"type": "statblock",
+											"tag": "table",
+											"source": "XUA2023BastionsAndCantrips",
+											"name": "Honored Guests",
+											"page": 21
+										}
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Lost Hirelings",
+									"page": 21,
+									"entries": [
+										"One of your Bastion's special facilities (determined randomly) loses its hirelings. The cause of their departure is up to you. The facility can't be used on your next Bastion turn, but the hirelings are replaced at no cost to you at that point."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Magical Discovery",
+									"page": 21,
+									"entries": [
+										"Your hirelings accidentally discover or create an Uncommon magic item of your choice. The magic item can't be a suit of armor, a shield, or a weapon, and its magic is temporary; its properties start to function when you claim the item and last until the start of your next Bastion turn, after which the magic item turns to dust."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Refugees",
+									"page": 21,
+									"entries": [
+										"A group of {@dice 2d4} refugees fleeing from a monster attack, a natural disaster, or some other calamity seeks refuge in your Bastion. If your Bastion lacks a basic facility large enough to house them, the refugees camp right outside the Bastion. The refugees offer you {@dice 1d6 × 100} GP as payment for your hospitality and protection. They stay until you find them a new home or a hostile force attacks your Bastion."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Request for Aid",
+									"page": 21,
+									"entries": [
+										"Your Bastion is called on to help a local leader. Perhaps there's a search on for a missing person, or brigands are plaguing the area. If you choose to help, you must dispatch one or more Bastion Defenders. Roll a {@dice d6} for each Bastion Defender you send. If these die rolls total 10 or higher, the problem is solved, and you earn a reward of {@dice 1d6 × 100} GP. If the die rolls total less than 10, the problem is still solved, but the reward is halved and one of your Bastion Defenders is killed. Remove that Bastion Defender from your Bastion's roster."
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Bastion Facilities",
+			"source": "XUA2023BastionsAndCantrips",
+			"page": 3,
+			"ruleType": "P",
+			"entries": [
+				{
+					"type": "section",
+					"entries": [
+						"When a character gains a Bastion, it comes with two basic facilities and two special facilities. Both types of facilities are explained below.",
+						"The amount of space in a facility determines its maximum area in 5-foot squares, as shown in the {@table Facility Space|XUA2023BastionsAndCantrips} table. Players can configure the squares of a facility as they please on the Bastion's map. The squares can be stacked so that a facility's area is distributed over multiple levels or stories.",
+						{
+							"type": "statblock",
+							"tag": "table",
+							"source": "XUA2023BastionsAndCantrips",
+							"name": "Facility Space",
+							"page": 4
+						},
+						{
+							"type": "entries",
+							"name": "Bastion Map",
+							"page": 4,
+							"entries": [
+								"A player is encouraged to create a floor plan of their character's Bastion, configuring the Bastion's basic and special facilities as they see fit. In addition to those facilities (described below), the Bastion can have the following features:",
+								{
+									"type": "list",
+									"style": "list-hang-notitle",
+									"page": 4,
+									"items": [
+										{
+											"type": "item",
+											"name": "Closets",
+											"entries": [
+												"A basic or special facility can have one or more closet-sized enclosures within it, at no added cost. The closets must be inside the facility and can't increase the facility's area in squares."
+											]
+										},
+										{
+											"type": "item",
+											"name": "Doors and Windows",
+											"entries": [
+												"Each facility comes with one or more doors and shuttered windows, placed wherever the player sees fit. See \"{@book Doors|DMG|5|Doors}\" in {@book chapter 5|DMG|5} of the {@book Dungeon Master's Guide|DMG} for kinds of doors to choose from, including locked doors, secret doors, and portcullises. These features are free."
+											]
+										},
+										{
+											"type": "item",
+											"name": "Corridors, Ramps, and Staircases",
+											"entries": [
+												"A facility can contain one or more corridors, ramps, or staircases leading to other facilities in the Bastion. These features are free."
+											]
+										},
+										{
+											"type": "item",
+											"name": "Defensive Walls",
+											"entries": [
+												"A player character can add defensive walls around their Bastion. A defensive wall is 20 feet high and may include a walkway along the top of it, with a means to access it (such as a ladder or lift). Each 5-foot square of defensive wall takes 10 days to build and costs 250 GP. If your Bastion is completely enclosed by defensive walls and it comes under attack (see the \"{@variantrule Bastion Events|XUA2023BastionsAndCantrips}\" section at the end of this document), reduce by 2 the number of dice you roll to determine how many Bastion Defenders are lost in the attack."
+											]
+										}
+									]
+								}
+							]
+						},
+						{
+							"type": "entries",
+							"entries": [
+								{
+									"type": "entries",
+									"name": "Combining Bastions",
+									"page": 4,
+									"entries": [
+										"Two or more players have the option of combining their characters' Bastions into a single structure. Doing so doesn't change the number of special facilities each Bastion can have, how those special facilities work, or who gets to issue orders to each Bastion. Each Bastion retains its own hirelings, which can't be sent to or shared with another Bastion. Bastion Defenders are handled differently: if some event deprives one character's Bastion of defenders, another character can apply all or some of those losses to their Bastion instead, provided the two Bastions are combined."
+									]
+								}
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Basic Facilities",
+							"page": 4,
+							"entries": [
+								"Basic facilities don't generate Bastion Points, but they can inspire meaningful roleplaying opportunities and enhance a Bastion's verisimilitude. A Bastion with a kitchen is functionally the same as one without, but the former gives you and your players a fun setting to start game sessions, have in-character discussions, or introduce new NPCs.",
+								"A character's Bastion starts with two free basic facilities, which the character's player chooses from the Basic Facilities list below. One of the chosen facilities is Cramped, and the other is Roomy. A Bastion can have more than one of each basic facility.",
+								{
+									"type": "list",
+									"style": "list-no-bullets",
+									"page": 4,
+									"name": "Basic Facilities",
+									"items": [
+										"Bedroom",
+										"Courtyard",
+										"Dining Room",
+										"Kitchen",
+										"Parlor",
+										"Storage",
+										"Washroom"
+									]
+								},
+								"A basic facility comes with nonmagical furnishings and decor appropriate for that facility.",
+								"Basic facilities can be enlarged and new ones added by spending gold pieces and in-game time, as discussed in the sections that follow. Any number of basic facilities can be built or enlarged at the same time. A character doesn't need to be in their Bastion while new facilities are being added or enlarged.",
+								{
+									"type": "entries",
+									"name": "Adding Basic Facilities",
+									"page": 5,
+									"entries": [
+										"A character can add a basic facility to their Bastion by spending money and in-game time. The cost of adding a basic facility, and the in-game time required, depend on the facility's space, as shown on the {@table Adding Basic Facilities|XUA2023BastionsAndCantrips} table.",
+										{
+											"type": "statblock",
+											"tag": "table",
+											"source": "XUA2023BastionsAndCantrips",
+											"name": "Adding Basic Facilities",
+											"page": 5
+										}
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Enlarging Basic Facilities",
+									"page": 5,
+									"entries": [
+										"There is no in-game benefit to be gained by enlarging a basic facility, but a character might want to enlarge a facility for cosmetic reasons or to increase the overall size of their Bastion.",
+										"A character can spend money and in-game time to increase the space of a basic facility in their Bastion by one category, as shown on the {@table Enlarging Basic Facilities|XUA2023BastionsAndCantrips} table.",
+										{
+											"type": "statblock",
+											"tag": "table",
+											"source": "XUA2023BastionsAndCantrips",
+											"name": "Enlarging Basic Facilities",
+											"page": 5
+										}
+									]
+								}
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Special Facilities",
+							"page": 5,
+							"entries": [
+								"Special facilities are locations in a Bastion where the activities performed there can yield in-game benefits.",
+								"A character's Bastion initially has two special facilities of the character's choice for which they qualify. Each special facility can be chosen only once unless its description says otherwise.",
+								"Unlike basic facilities, special facilities can't be bought; a character gains them through level advancement. At level 9, a character gains two additional special facilities of their choice for which they qualify, then one additional facility at level 13 and another at level 17. The {@table Special Facility Acquisition|XUA2023BastionsAndCantrips} table shows the total number of special facilities in a character's Bastion. Assume that construction is ongoing in the time leading up to the character reaching the new level, so each new facility immediately becomes part of the character's Bastion when the character reaches the level.",
+								"Each time a character gains a level, that character can replace one of their Bastion's special facilities with another special facility for which the character qualifies. Again, assume that construction has been ongoing prior to the change.",
+								{
+									"type": "statblock",
+									"tag": "table",
+									"source": "XUA2023BastionsAndCantrips",
+									"name": "Special Facility Acquisition",
+									"page": 5
+								},
+								{
+									"type": "entries",
+									"name": "Requirements",
+									"page": 5,
+									"entries": [
+										"Each special facility has a level. A character must be that level or higher to gain that facility. A special facility might also have a prerequisite the character must meet to gain that facility. For example, only a character who can use an Arcane Focus as a Spellcasting Focus can have an Arcane Study special facility."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Space",
+									"page": 5,
+									"entries": [
+										"A special facility occupies a certain amount of space (see the {@table Facility Space|XUA2023BastionsAndCantrips} table). Just as with a basic facility, a player can configure the squares of a special facility as desired on the Bastion's map. A special facility can't be enlarged unless its description says otherwise."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Hirelings",
+									"page": 5,
+									"entries": [
+										"A special facility comes with one or more hirelings, who work in and maintain the facility. Hirelings also execute Bastion orders, as described in the following section.",
+										"A player can assign names and personalities to hirelings in their character's Bastion using the same tools DMs use to create nonplayer characters.",
+										"Each special facility in a Bastion is assumed to generate enough income to pay the salary of its hirelings. Hirelings follow the orders they're given and are assumed to be loyal to the Bastion's owner."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Orders",
+									"page": 5,
+									"entries": [
+										"On a Bastion turn, a character in their Bastion can issue special orders\u2014called Bastion orders\u2014to one or more of their Bastion's special facilities. A character needn't issue orders to all the special facilities in their Bastion on a given Bastion turn.",
+										"The Maintain order is unusual; it is issued to the whole Bastion rather than to one or more special facilities. If a character isn't in their Bastion on a given Bastion turn, the Bastion acts as though it was issued the Maintain order on that turn.",
+										"Each time a character issues a Bastion order, that character gains a number of Bastion Points (see \"{@variantrule Bastion Points|XUA2023BastionsAndCantrips}\" above) determined by a die roll, as noted on the Order line of the facility's description.",
+										"The orders are as follows:",
+										{
+											"type": "list",
+											"style": "list-hang-notitle",
+											"page": 6,
+											"items": [
+												{
+													"type": "item",
+													"name": "Craft",
+													"entries": [
+														"Hirelings in the special facility begin crafting an item that can be made in that facility. You can also do the work yourself, but if you do so, the work is suspended when you leave the Bastion until you return. During the time required to Craft an item, the facility can't be used to Craft anything else, even if a special ability allows the facility to carry out two orders at once."
+													]
+												},
+												{
+													"type": "item",
+													"name": "Empower",
+													"entries": [
+														"The special facility confers a temporary empowerment to the player character or someone else."
+													]
+												},
+												{
+													"type": "item",
+													"name": "Harvest",
+													"entries": [
+														"A resource is produced in the special facility, and hirelings gather it. You can also do the gathering yourself, but if you do so, the work is suspended when you leave the Bastion until you return. During the time required to Harvest a resource, the facility can't be used to Harvest anything else, even if a special ability allows the facility to carry out two orders at once."
+													]
+												},
+												{
+													"type": "item",
+													"name": "Maintain",
+													"entries": [
+														"All the Bastion's hirelings focus on maintaining the Bastion rather than executing orders in special facilities. Issuing this order prohibits other orders from being issued to the Bastion on the current Bastion turn. Each time the Maintain order is issued, the character who issued the order gains {@dice 1d4} Bastion Points for each special facility in their Bastion (in lieu of Bastion Points they would normally earn by issuing orders to their special facilities), and the DM rolls on the {@table Bastion Events|XUA2023BastionsAndCantrips} table (see \"{@variantrule Bastion Events|XUA2023BastionsAndCantrips}\" at the end of this document). Bastion events are resolved before the next Bastion turn."
+													]
+												},
+												{
+													"type": "item",
+													"name": "Recruit",
+													"entries": [
+														"Hirelings recruit creatures to your Bastion."
+													]
+												},
+												{
+													"type": "item",
+													"name": "Research",
+													"entries": [
+														"Hirelings in the special facility gather information. You can also do the research yourself, but if you do so, the work is suspended when you leave the Bastion until you return."
+													]
+												},
+												{
+													"type": "item",
+													"name": "Trade",
+													"entries": [
+														"Hirelings buy and sell goods or services stored or produced in this special facility."
+													]
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Bastion Points",
+			"source": "XUA2023BastionsAndCantrips",
+			"page": 3,
+			"ruleType": "P",
+			"entries": [
+				{
+					"type": "section",
+					"entries": [
+						"Each special facility in a Bastion generates Bastion Points (BP) during a Bastion turn, depending on the facility and the Bastion order issued to that facility. Players are responsible for tracking how many Bastion Points their character has, and Bastion Points can't be transferred between characters or their Bastions. A character can spend Bastion Points to acquire magic items from their Bastion or to receive certain other special rewards.",
+						"Bastion Points are an abstraction, reflecting the benefits characters accumulate when their Bastions are operating. Exactly how amassing and spending Bastion Points leads to a character acquiring a magic item is up to the player's imagination. Perhaps the Bastion hirelings spread the word that the character is looking for a particular item. With sufficient time and goodwill built up in the community, the item finds its way to the Bastion as a gift. Perhaps Bastion hirelings work tirelessly to create the item the character desires.",
+						{
+							"type": "entries",
+							"name": "Accumulating Bastion Points",
+							"page": 3,
+							"entries": [
+								"When characters issue orders to special facilities in their Bastions, those facilities generate Bastion Points. (Basic facilities don't generate Bastion Points.) Each special facility description indicates the number of Bastion Points the facility generates when it completes an order. If a character issues the Maintain order to the Bastion, each special facility instead generates {@dice 1d4} Bastion Points. Special facilities that have been shut down or lost their hirelings because of an event don't generate Bastion Points while they're out of commission.",
+								"Characters can use money to influence the rate at which facilities generate Bastion Points. Spending 25 GP when issuing a Bastion order to a facility allows the player to roll the die for that facility's Bastion Point generation twice and use the higher result. Characters can't use this option when issuing the Maintain order to the Bastion."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Acquiring Magic Items",
+							"page": 3,
+							"entries": [
+								"Each time a character gains a level, they can spend their Bastion Points to acquire a single magic item. Any magic item acquired in this fashion must be approved by the DM. The Bastion Point cost of each magic item is based on the item's rarity, as shown in the {@table Spending Bastion Points|XUA2023BastionsAndCantrips} table. If a rarity has a level prerequisite, the character must be that level or higher to get the item.",
+								"A character must be in their Bastion to claim a magic item acquired with Bastion Points. If the character is away from the Bastion, the magic item remains secure in the Bastion until the character arrives to claim it.",
+								{
+									"type": "statblock",
+									"tag": "table",
+									"source": "XUA2023BastionsAndCantrips",
+									"name": "Spending Bastion Points",
+									"page": 3
+								},
+								"Characters who have reached level 20 can use Bastion Points to acquire a magic item each time they earn a bonus feat (every 30,000 XP above 355,000 XP)."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Other Uses Of Bastion Points",
+							"page": 3,
+							"entries": [
+								"On gaining a level, a character can spend 10 Bastion Points to ensure that word of their heroic deeds spreads throughout the region around their Bastion. For the next 7 days, the character has Advantage on all Charisma checks while within 50 miles of their Bastion.",
+								"When a character dies, the character can spend 100 Bastion Points to return to life in their Bastion at the next dawn. After spending BP in this way, a character can't do so again until gaining at least 1 level."
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Bastion Turns",
+			"source": "XUA2023BastionsAndCantrips",
+			"page": 2,
+			"ruleType": "P",
+			"entries": [
+				{
+					"type": "section",
+					"entries": [
+						"As time passes in the campaign, characters take Bastion turns to reflect the activity occurring in their Bastions, whether or not the characters are present. A Bastion turn occurs every 7 days of in-game time, though the DM can alter the frequency of Bastion turns. (See \"How Bastion Turns Work\" for advice on doing so.)",
+						"On a Bastion turn, a character can issue orders to the special facilities in their Bastion or issue the Maintain order to the entire Bastion (see \"{@variantrule Bastion Facilities|XUA2023BastionsAndCantrips|Orders}\" below).",
+						{
+							"type": "entries",
+							"name": "How Bastion Turns Work",
+							"page": 2,
+							"entries": [
+								"By default, Bastion turns occur every 7 days, giving characters regular opportunities to issue orders to their Bastions and reap the benefits of doing so. Here are some typical situations:",
+								{
+									"type": "list",
+									"page": 2,
+									"items": [
+										"The characters are on a long journey away from their Bastions. After the characters have been away for 7 days, you might say, \"Time for a Bastion turn. Since you're not there, resolve the Maintain order for your Bastions.\" Then roll for {@variantrule Bastion Events|XUA2023BastionsAndCantrips}.",
+										"The characters spend 7 days or more in their Bastions between adventures. You might say, \"You have six weeks to spend in your Bastions. Go ahead and resolve six Bastion turns.\"",
+										"The characters return to their Bastions in the midst of an adventure. You might say, \"You have just enough time to issue a new order, if you like. Take a Bastion turn before you leave again in the morning.\"",
+										"The characters are adventuring near their Bastions and are spending every night in their Bastions. You might say, \"It's been a week since your last Bastion turn, so you can take a new one now.\""
+									]
+								},
+								"Sometimes, you might want to slow the pace of Bastion turns. If the characters have a long period of downtime between adventures, say six months or more, you might call for a Bastion turn every month instead of every 7 days.",
+								"Aim for about six to eight Bastion turns per level. If the characters are adventuring at a breakneck pace and gaining a level every week, they'll have no time to enjoy the benefits of their Bastions. On the other hand, if they're spending extended time between adventures (and levels gained), spacing out Bastion turns ensures that they won't amass more {@variantrule Bastion Points|XUA2023BastionsAndCantrips} than they can use."
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Bastions",
+			"source": "XUA2023BastionsAndCantrips",
+			"page": 3,
+			"ruleType": "P",
+			"entries": [
+				"A Bastion is a location that belongs to a player character: a home, a stronghold, and a place of power that the character nurtures and develops over the course of a campaign. A Bastion offers a character temporary refuge from the dangerous world of adventuring, and it provides opportunities for a character to craft magic items, conduct research, harvest poisons, build ships, and carry out a broad range of other activities.",
+				"It's up to the DM to decide whether Bastions are available in a campaign. Bastions are best suited to campaigns that allow characters to return to their Bastions during intervals when they're not actively adventuring.",
+				"There's no need to choose between going on adventures and commanding a Bastion; a character can do both at once. A Bastion has special facilities that generate in-game benefits, and these facilities can also undertake projects while the character is otherwise preoccupied.",
+				"Bastions are intended to be havens for the characters who own them. Although random events might test a Bastion from time to time (see the \"{@variantrule Bastion Events|XUA2023BastionsAndCantrips}\" section), the Bastion can be destroyed in only two ways (see \"{@variantrule Fall of a Bastion|XUA2023BastionsAndCantrips}\" section).",
+				"Most importantly, a Bastion is a creative playground for a player and a shared storytelling space in the campaign. DMs should be as permissive as possible with the stories players tell in their Bastions, but players should know their control goes only as far as the campaign's larger story, which the DM strives to make fun for everyone.",
+				{
+					"type": "inset",
+					"page": 2,
+					"name": "Design Notes",
+					"entries": [
+						"Keep the following notes in mind as you review this document.",
+						{
+							"type": "entries",
+							"name": "Defenders and Hirelings",
+							"entries": [
+								"To ease the burden on players, we don't present or require statistics for Bastion hirelings and defenders. All a player needs to track is the number of each in their Bastion. Players can assign names and personalities to their Bastions' occupants as they see fit."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "GP Expenditure",
+							"entries": [
+								"Bastions give characters new ways to spend their gold, but we want the gold they spend to make them happy (as opposed to feeling like mortgage payments)."
+							]
+						}
+					]
+				},
+				{
+					"type": "statblock",
+					"tag": "variantrule",
+					"source": "XUA2023BastionsAndCantrips",
+					"name": "Gaining a Bastion",
+					"page": 2,
+					"collapsed": true
+				},
+				{
+					"type": "statblock",
+					"tag": "variantrule",
+					"source": "XUA2023BastionsAndCantrips",
+					"name": "Bastion Turns",
+					"page": 2,
+					"collapsed": true
+				},
+				{
+					"type": "statblock",
+					"tag": "variantrule",
+					"source": "XUA2023BastionsAndCantrips",
+					"name": "Bastion Points",
+					"page": 3,
+					"collapsed": true
+				},
+				{
+					"type": "statblock",
+					"tag": "variantrule",
+					"source": "XUA2023BastionsAndCantrips",
+					"name": "Bastion Facilities",
+					"page": 3,
+					"collapsed": true
+				},
+				"Special facilities are presented in alphabetical order. The Special Facilities table lists all the special facilities presented in this section, along with their prerequisites and orders.",
+				{
+					"type": "statblock",
+					"tag": "table",
+					"source": "XUA2023BastionsAndCantrips",
+					"name": "Special Facilities",
+					"page": 6,
+					"collapsed": true
+				},
+				{
+					"type": "statblock",
+					"tag": "variantrule",
+					"source": "XUA2023BastionsAndCantrips",
+					"name": "Fall of a Bastion",
+					"page": 19,
+					"collapsed": true
+				},
+				{
+					"type": "statblock",
+					"tag": "variantrule",
+					"source": "XUA2023BastionsAndCantrips",
+					"name": "Bastion Events",
+					"page": 20,
+					"collapsed": true
+				}
+			]
+		},
+		{
+			"name": "Fall of a Bastion",
+			"source": "XUA2023BastionsAndCantrips",
+			"page": 19,
+			"ruleType": "P",
+			"entries": [
+				"If a character issues no orders to their Bastion for a number of consecutive Bastion turns equal to the character's level (typically because the character is dead or otherwise out of commission), the hirelings abandon the Bastion and the site is eventually looted. If the character returns later, they have the option to start a new Bastion, perhaps building it amid the ruins of the old one.",
+				"A character can give up their Bastion anytime, releasing the Bastion's hirelings and abandoning the location. The divested Bastion is quickly vacated, eventually looted, and might even be burned to the ground. The character has the option of starting a new Bastion elsewhere.",
+				"In either case, the player can work with the DM to establish a new Bastion and determine how it comes into being. Use the {@table Special Facility Acquisition|XUA2023BastionsAndCantrips} table to determine how many special facilities come with it. The new Bastion also starts with two basic facilities (one Cramped and one Roomy) of the character's choice."
+			]
+		},
+		{
+			"name": "Gaining a Bastion",
+			"source": "XUA2023BastionsAndCantrips",
+			"page": 2,
+			"ruleType": "P",
+			"entries": [
+				"If you allow Bastions in your campaign, characters acquire their Bastions when they reach level 5. You and the players can decide together how these Bastions come into being. A character might inherit or receive a parcel of land on which to build their Bastion, or they might take a preexisting structure and refurbish it. It's fair to assume that work has been going on behind the scenes of the campaign during a character's early adventuring career, so the Bastion is ready for use when the character reaches level 5.",
+				"The shape, style, and function of a character's Bastion are up to the player to determine. For example, a Wizard might build a tower, a Cleric might establish a shrine, a Fighter might build a fortified keep or similar stronghold, and a Rogue might establish a guild hall or lodge. Characters of other classes might choose one of these forms or combine them\u2014a Paladin's Bastion might be similar to a Cleric's shrine but as fortified as a Fighter's stronghold. And multiple characters can combine their Bastions to form a single large structure (see \"{@variantrule Bastion Facilities|XUA2023BastionsAndCantrips|Bastion Map}\" later in this document).",
+				"Not every character needs to have a Bastion. It's fine for some players in your campaign to opt in to Bastion ownership and others to opt out. Characters without Bastions of their own can still gain some benefits from their friends' Bastions.",
+				"Every Bastion contains basic and special facilities, which encompass everything from kitchens and bedrooms to fantastical menageries and magical laboratories (see \"{@variantrule Bastion Facilities|XUA2023BastionsAndCantrips|Bastion Facilities}\" below). A character can add basic facilities to their Bastion at any time, spending money and time depending on the facility. Each bastion begins with two special facilities, and a character adds additional special facilities on reaching levels 9, 13, and 17."
+			]
+		}
+	],
+	"table": [
+		{
+			"name": "Adding Basic Facilities",
+			"source": "XUA2023BastionsAndCantrips",
+			"page": 5,
+			"colLabels": [
+				"Facility Space",
+				"GP Cost",
+				"Time Required"
+			],
+			"colStyles": [
+				"col-4",
+				"col-4 text-right",
+				"col-4 text-right"
+			],
+			"rows": [
+				[
+					"Cramped",
+					"500 GP",
+					"20 days"
+				],
+				[
+					"Roomy",
+					"1,000 GP",
+					"45 days"
+				],
+				[
+					"Vast",
+					"3,000 GP",
+					"125 days"
+				]
+			]
+		},
+		{
+			"name": "Bastion Events",
+			"source": "XUA2023BastionsAndCantrips",
+			"page": 20,
+			"colLabels": [
+				"d20",
+				"Event"
+			],
+			"colStyles": [
+				"col-3 text-center",
+				"col-9"
+			],
+			"rows": [
+				[
+					"1\u20139",
+					"Nothing significant happens."
+				],
+				[
+					"10",
+					"Attack"
+				],
+				[
+					"11\u201312",
+					"Lost Hirelings"
+				],
+				[
+					"13\u201314",
+					"Refugees"
+				],
+				[
+					"15",
+					"Friendly Visitors"
+				],
+				[
+					"16",
+					"Request for Aid"
+				],
+				[
+					"17",
+					"Honored Guest"
+				],
+				[
+					"18",
+					"Extraordinary Opportunity"
+				],
+				[
+					"19",
+					"Criminal Hireling"
+				],
+				[
+					"20",
+					"Magical Discovery"
+				]
+			]
+		},
+		{
+			"name": "Craft Potion",
+			"source": "XUA2023BastionsAndCantrips",
+			"page": 12,
+			"colLabels": [
+				"Item's Rarity",
+				"Minimum Level",
+				"Cost"
+			],
+			"colStyles": [
+				"col-4",
+				"col-4 text-center",
+				"col-4 text-right"
+			],
+			"rows": [
+				[
+					"Common",
+					"\u2014",
+					"50 GP"
+				],
+				[
+					"Uncommon",
+					"5",
+					"200 GP"
+				],
+				[
+					"Rare",
+					"9",
+					"2,000 GP"
+				],
+				[
+					"Very rare",
+					"13",
+					"20,000 GP"
+				],
+				[
+					"Legendary",
+					"17",
+					"100,000 GP"
+				]
+			]
+		},
+		{
+			"name": "Craft Scroll",
+			"source": "XUA2023BastionsAndCantrips",
+			"page": 16,
+			"colLabels": [
+				"Item's Rarity",
+				"Minimum Level",
+				"Cost"
+			],
+			"colStyles": [
+				"col-4",
+				"col-4 text-center",
+				"col-4 text-right"
+			],
+			"rows": [
+				[
+					"Common",
+					"\u2014",
+					"50 GP"
+				],
+				[
+					"Uncommon",
+					"5",
+					"200 GP"
+				],
+				[
+					"Rare",
+					"9",
+					"2,000 GP"
+				],
+				[
+					"Very rare",
+					"13",
+					"20,000 GP"
+				],
+				[
+					"Legendary",
+					"17",
+					"100,000 GP"
+				]
+			]
+		},
+		{
+			"name": "Enlarging Basic Facilities",
+			"source": "XUA2023BastionsAndCantrips",
+			"page": 5,
+			"colLabels": [
+				"Space Increase",
+				"GP Cost",
+				"Time Required"
+			],
+			"colStyles": [
+				"col-6",
+				"col-3 text-right",
+				"col-3 text-right"
+			],
+			"rows": [
+				[
+					"Cramped to Roomy",
+					"500 GP",
+					"25 days"
+				],
+				[
+					"Roomy to Vast",
+					"2,000 GP",
+					"80 days"
+				]
+			]
+		},
+		{
+			"name": "Expert Trainers",
+			"source": "XUA2023BastionsAndCantrips",
+			"page": 18,
+			"colLabels": [
+				"Trainer",
+				"Training Benefit"
+			],
+			"colStyles": [
+				"col-4",
+				"col-8"
+			],
+			"rows": [
+				[
+					"Battle Expert",
+					"Once per turn, when you take damage from an attack made with an {@variantrule Unarmed Strike|XUA2023PlayersHandbookP6} or a weapon, you can reduce this damage by {@dice 1d4}, provided you don't have the {@condition Incapacitated} condition."
+				],
+				[
+					"Skills Expert",
+					"You gain proficiency in one of the following skills of your choice: {@skill Acrobatics}, {@skill Athletics}, {@skill Performance}, {@skill Sleight of Hand}, or {@skill Stealth}."
+				],
+				[
+					"Tools Expert",
+					"You gain proficiency with one Musical Instrument or Tool of your choice."
+				],
+				[
+					"Unarmed Combat Expert",
+					"When you use an {@variantrule Unarmed Strike|XUA2023PlayersHandbookP6} to damage a target, the attack deals an extra {@dice 1d4} Bludgeoning damage on a hit."
+				],
+				[
+					"Weapon Expert",
+					"Choose a type of Simple or Martial weapon, such as {@item Spear|PHB} or {@item Longbow|PHB}. If you aren't proficient with the weapon, you gain proficiency with it for the next 7 days. If you already have proficiency with the weapon, you can use its Mastery property for the next 7 days."
+				]
+			]
+		},
+		{
+			"name": "Facility Space",
+			"source": "XUA2023BastionsAndCantrips",
+			"page": 4,
+			"colLabels": [
+				"Space",
+				"Maximum Area"
+			],
+			"colStyles": [
+				"col-4",
+				"col-8"
+			],
+			"rows": [
+				[
+					"Cramped",
+					"4 squares"
+				],
+				[
+					"Roomy",
+					"16 squares"
+				],
+				[
+					"Vast",
+					"36 squares"
+				]
+			]
+		},
+		{
+			"name": "Fortified Saves",
+			"source": "XUA2023BastionsAndCantrips",
+			"page": 12,
+			"colLabels": [
+				"d6",
+				"Saving Throw"
+			],
+			"colStyles": [
+				"col-2 text-center",
+				"col-10"
+			],
+			"rows": [
+				[
+					"1",
+					"Strength"
+				],
+				[
+					"2",
+					"Dexterity"
+				],
+				[
+					"3",
+					"Constitution"
+				],
+				[
+					"4",
+					"Intelligence"
+				],
+				[
+					"5",
+					"Wisdom"
+				],
+				[
+					"6",
+					"Charisma"
+				]
+			]
+		},
+		{
+			"name": "Gambling Den Winnings",
+			"source": "XUA2023BastionsAndCantrips",
+			"page": 9,
+			"colLabels": [
+				"d100",
+				"Winnings"
+			],
+			"colStyles": [
+				"col-6 text-center",
+				"col-6 text-right"
+			],
+			"rows": [
+				[
+					"01\u201333",
+					"{@dice 3d6} GP"
+				],
+				[
+					"34\u201350",
+					"{@dice 1d6 × 10} GP"
+				],
+				[
+					"51\u201385",
+					"{@dice 2d6 × 10} GP"
+				],
+				[
+					"86\u201395",
+					"{@dice 4d6 × 10} GP"
+				],
+				[
+					"96\u201300",
+					"{@dice 10d6 × 10} GP"
+				]
+			]
+		},
+		{
+			"name": "Garden Harvest",
+			"source": "XUA2023BastionsAndCantrips",
+			"page": 10,
+			"colLabels": [
+				"Type",
+				"Harvest"
+			],
+			"colStyles": [
+				"col-4",
+				"col-8"
+			],
+			"rows": [
+				[
+					"Decorative",
+					"The Garden produces either ten exquisite floral bouquets or ten vials of Perfume. Each of these can be sold for 5 GP."
+				],
+				[
+					"Food",
+					"The Garden produces mushrooms and vegetables that are sold to earn you 50 GP."
+				],
+				[
+					"Herb",
+					"The Garden produces herbs that are used to create a {@item Potion of Healing|DMG}."
+				],
+				[
+					"Poison",
+					"The Garden produces plants that are used to create either two vials of {@item Antitoxin (vial)|PHB|Antitoxin} or one vial of {@item Basic Poison (vial)|PHB|Basic Poison}."
+				]
+			]
+		},
+		{
+			"name": "Honored Guests",
+			"source": "XUA2023BastionsAndCantrips",
+			"page": 21,
+			"colLabels": [
+				"d4",
+				"Event"
+			],
+			"colStyles": [
+				"col-2 text-center",
+				"col-10"
+			],
+			"rows": [
+				[
+					"1",
+					"The renowned guest is grateful to stay at your Bastion and gives you a letter of recommendation you can use to sway an important person to perform a service for you at no cost."
+				],
+				[
+					"2",
+					"The guest requests sanctuary while avoiding persecution for their beliefs or crimes. They leave before the next Bastion turn but give you a gift of {@dice 1d6 × 100} GP."
+				],
+				[
+					"3",
+					"The guests are a group of friendly mercenaries, giving you four additional Bastion Defenders. They don't require a facility to house them, and they stay until you send them away or they're killed."
+				],
+				[
+					"4",
+					"The guest is a dragon or some other flying monster that perches atop your Bastion until the next Bastion turn, unless it is killed or driven off. It is Indifferent toward others, but it turns Hostile if it's threatened or attacked. You might be able to bribe the creature not to leave on your next Bastion turn; work with the DM to determine what it considers a worthy bribe."
+				]
+			]
+		},
+		{
+			"name": "Menagerie Creatures",
+			"source": "XUA2023BastionsAndCantrips",
+			"page": 13,
+			"colLabels": [
+				"Creature",
+				"Size",
+				"Cost"
+			],
+			"colStyles": [
+				"col-4",
+				"col-4",
+				"col-4 text-right"
+			],
+			"rows": [
+				[
+					"{@creature Ape|MM}",
+					"Medium",
+					"500 GP"
+				],
+				[
+					"{@creature Black Bear|MM}",
+					"Medium",
+					"500 GP"
+				],
+				[
+					"{@creature Brown Bear|MM}",
+					"Large",
+					"1,000 GP"
+				],
+				[
+					"{@creature Constrictor Snake|MM}",
+					"Large",
+					"250 GP"
+				],
+				[
+					"{@creature Crocodile|MM}",
+					"Large",
+					"500 GP"
+				],
+				[
+					"{@creature Dire Wolf|MM}",
+					"Large",
+					"1,000 GP"
+				],
+				[
+					"{@creature Giant Scorpion|MM}",
+					"Large",
+					"3,500 GP"
+				],
+				[
+					"{@creature Giant Vulture|MM}",
+					"Large",
+					"1,000 GP"
+				],
+				[
+					"{@creature Hyena|MM}",
+					"Medium",
+					"50 GP"
+				],
+				[
+					"{@creature Jackal|MM}",
+					"Small",
+					"50 GP"
+				],
+				[
+					"{@creature Lion|MM}",
+					"Large",
+					"1,000 GP"
+				],
+				[
+					"{@creature Owlbear|MM}",
+					"Large",
+					"3,500 GP"
+				],
+				[
+					"{@creature Panther|MM}",
+					"Medium",
+					"250 GP"
+				],
+				[
+					"{@creature Tiger|MM}",
+					"Large",
+					"1,000 GP"
+				]
+			]
+		},
+		{
+			"name": "Menagerie Creatures By Challenge Rating",
+			"source": "XUA2023BastionsAndCantrips",
+			"page": 13,
+			"colLabels": [
+				"Challenge Rating",
+				"Cost"
+			],
+			"colStyles": [
+				"col-6 text-center",
+				"col-6 text-right"
+			],
+			"rows": [
+				[
+					"0",
+					"50 GP"
+				],
+				[
+					"1/4",
+					"250 GP"
+				],
+				[
+					"1/2",
+					"500 GP"
+				],
+				[
+					"1",
+					"1,000 GP"
+				],
+				[
+					"2",
+					"2,000 GP"
+				],
+				[
+					"3",
+					"3,500 GP"
+				]
+			]
+		},
+		{
+			"name": "Pub Special",
+			"source": "XUA2023BastionsAndCantrips",
+			"page": 14,
+			"colLabels": [
+				"Beverage",
+				"Effect"
+			],
+			"colStyles": [
+				"col-4",
+				"col-8"
+			],
+			"rows": [
+				[
+					"Bigby's Burden",
+					"Drinking this beverage grants you the enlarge effect of an {@spell Enlarge/Reduce} spell that has a duration of 24 hours, for which you get no saving throw."
+				],
+				[
+					"Kiss of the Spider Queen",
+					"Drinking this beverage grants you the effect of a {@spell Spider Climb} spell that has a duration of 24 hours."
+				],
+				[
+					"Moonlight Serenade",
+					"Drinking this beverage gives you {@sense Darkvision} within 60 feet for the next 24 hours. If you already have {@sense Darkvision}, its range is extended by 60 feet for the same duration."
+				],
+				[
+					"Positive Reinforcement",
+					"Drinking this beverage gives you Resistance to Necrotic damage for the next 24 hours."
+				],
+				[
+					"Sterner Stuff",
+					"Drinking this beverage makes you immune to the {@condition Frightened} condition for the next 24 hours."
+				]
+			]
+		},
+		{
+			"name": "Reference Books",
+			"source": "XUA2023BastionsAndCantrips",
+			"page": 8,
+			"colLabels": [
+				"Book Title",
+				"Benefit"
+			],
+			"colStyles": [
+				"col-5",
+				"col-7"
+			],
+			"rows": [
+				[
+					"{@i Bigby's Handy Arcana Codex}",
+					"You have Advantage on any Intelligence ({@skill Arcana}) check you make when you take the {@action Study|XUA2023PlayersHandbookP6} action to recall lore about spells, magic items, eldritch symbols, magical traditions, and planes of existence."
+				],
+				[
+					"{@i The Chronepsis Chronicles}",
+					"You have Advantage on any Intelligence ({@skill History}) check you make when you take the {@action Study|XUA2023PlayersHandbookP6} action to recall lore about historical events, legendary people, ancient kingdoms, past disputes, wars, and lost civilizations."
+				],
+				[
+					"{@i Investigations of the Inquisitive}",
+					"You have Advantage on any Intelligence ({@skill Investigation}) check you make when you take the {@action Study|XUA2023PlayersHandbookP6} action to make deductions based on clues or evidence or to recall lore about traps, ciphers, riddles, and gadgetry."
+				],
+				[
+					"{@i Material Musings on the Nature of Worldly Things}",
+					"You have Advantage on any Intelligence ({@skill Nature}) check you make when you take the {@action Study|XUA2023PlayersHandbookP6} action to recall lore about terrain, plants and animals, the weather, and natural cycles."
+				],
+				[
+					"{@i The Old Faith and Other Religions}",
+					"You have Advantage on any Intelligence ({@skill Religion}) check you make when you take the {@action Study|XUA2023PlayersHandbookP6} action to recall lore about deities, rites and prayers, religious hierarchies, holy symbols, and the practices of secret cults."
+				]
+			]
+		},
+		{
+			"name": "Sample Guilds",
+			"source": "XUA2023BastionsAndCantrips",
+			"page": 11,
+			"colLabels": [
+				"Guild",
+				"Symbol",
+				"Assignment"
+			],
+			"colStyles": [
+				"col-3",
+				"col-3",
+				"col-6"
+			],
+			"rows": [
+				[
+					"Adventurers' Guild",
+					"Lit torch",
+					"You send adventurers to track down a Beast that has a Challenge Rating of 2 or lower and is known to lair within 50 miles of your Bastion. The adventurers slay or capture the creature (your choice) in {@dice 1d6 + 1} days. If the creature is slain and your Bastion has a {@optfeature Trophy Room|XUA2023BastionsAndCantrips}, you can add a trophy taken from the creature to that facility. If the creature is captured and your Bastion has a {@optfeature Menagerie|XUA2023BastionsAndCantrips}, you can add the creature to that facility, provided the facility has space to house it."
+				],
+				[
+					"Bakers' Guild",
+					"Pastry",
+					"You assign bakers to create baked goods for a prestigious event that occurs within the next 7 days. You can receive payment in coin (500 GP) or in the form of a favor owed to you by the event's host, the details of which are left to you and your DM."
+				],
+				[
+					"Brewers' Guild",
+					"Foaming mug",
+					"You assign brewers to deliver fifty 40-gallon barrels of ale to your Bastion in 7 days. You can sell the barrels of ale for 10 GP apiece."
+				],
+				[
+					"Cartographers' Guild",
+					"Sextant",
+					"You assign cartographers to draw a map in 7 days. Alternatively, you can pay them 500 GP to procure a map of a known adventure location and deliver it to your Bastion in 7 days if the DM agrees that such a map exists."
+				],
+				[
+					"Entertainers' Guild",
+					"Silver lyre",
+					"You assign entertainers to create a work of art (such as a painting, a play, a ballad, a symphony, or a statue) in 7 days. The work gains recognition and high praise but has no monetary value. The DM can decide that the work accrues value after your death."
+				],
+				[
+					"Jewelers' Guild",
+					"Golden ring",
+					"You assign jewelers to craft a gemstone or piece of jewelry worth no more than 1,000 GP. The work takes 7 days, and you must pay half the item's cost in raw materials."
+				],
+				[
+					"Masons' Guild",
+					"Stone mask",
+					"You assign masons to add a defensive wall to your Bastion at no cost to you. Alternatively, you can have the masons perform this work for another player character's Bastion, provided their Bastion is within 1 mile of yours. Each 5-foot square of defensive wall takes 1 day to build instead of 10 (see \"{@variantrule Bastion Facilities|XUA2023BastionsAndCantrips|Bastion Map}\" earlier in this document)."
+				],
+				[
+					"Shipbuilders' Guild",
+					"Crossed oars",
+					"You assign shipbuilders to build one of the vehicles in the {@table Mounts and Vehicles; Waterborne Vehicles|PHB|Waterborne Vehicles} table of the {@book Player's Handbook|PHB}. You pay the full cost of the vehicle, and the work takes 1 day per 1,000 GP of the vehicle's cost (a {@item Rowboat|DMG} can be made in 1 day)"
+				],
+				[
+					"Thieves' Guild",
+					"White key",
+					"You assign thieves to infiltrate a location within 50 miles of your Bastion and steal a nonmagical object from it. The object can be no bigger than a 5-foot cube and is delivered to your Bastion in {@dice 1d6 + 1} days. A white key is left in its place. The DM may decide that this activity leaves you at risk of retaliation from law enforcement or the victim."
+				]
+			]
+		},
+		{
+			"name": "Special Facilities",
+			"source": "XUA2023BastionsAndCantrips",
+			"page": 6,
+			"colLabels": [
+				"Level",
+				"Special Facility",
+				"Prerequisite",
+				"Order"
+			],
+			"colStyles": [
+				"col-1 text-center",
+				"col-3",
+				"col-6",
+				"col-2"
+			],
+			"rows": [
+				[
+					"5",
+					"{@optfeature Arcane Study|XUA2023BastionsAndCantrips}",
+					"Ability to use an Arcane Focus as a Spellcasting Focus",
+					"Craft"
+				],
+				[
+					"5",
+					"{@optfeature Armory|XUA2023BastionsAndCantrips}",
+					"None",
+					"Trade"
+				],
+				[
+					"5",
+					"{@optfeature Barracks|XUA2023BastionsAndCantrips}",
+					"None",
+					"Recruit"
+				],
+				[
+					"5",
+					"{@optfeature Garden|XUA2023BastionsAndCantrips}",
+					"None",
+					"Harvest"
+				],
+				[
+					"5",
+					"{@optfeature Library|XUA2023BastionsAndCantrips}",
+					"None",
+					"Research"
+				],
+				[
+					"5",
+					"{@optfeature Sanctuary|XUA2023BastionsAndCantrips}",
+					"Ability to use a Holy Symbol or Druidic Focus as a Spellcasting Focus",
+					"Craft"
+				],
+				[
+					"5",
+					"{@optfeature Smithy|XUA2023BastionsAndCantrips}",
+					"Fighting Style feature or Unarmored Defense feature",
+					"Craft"
+				],
+				[
+					"5",
+					"{@optfeature Storehouse|XUA2023BastionsAndCantrips}",
+					"None",
+					"Trade"
+				],
+				[
+					"5",
+					"{@optfeature Workshop|XUA2023BastionsAndCantrips}",
+					"{@variantrule Expertise|XUA2023PlayersHandbookP6} in a skill",
+					"Craft"
+				],
+				[
+					"9",
+					"{@optfeature Gaming Hall|XUA2023BastionsAndCantrips}",
+					"None",
+					"Trade"
+				],
+				[
+					"9",
+					"{@optfeature Greenhouse|XUA2023BastionsAndCantrips}",
+					"None",
+					"Harvest"
+				],
+				[
+					"9",
+					"{@optfeature Laboratory|XUA2023BastionsAndCantrips}",
+					"None*",
+					"Craft"
+				],
+				[
+					"9",
+					"{@optfeature Sacristy|XUA2023BastionsAndCantrips}",
+					"Ability to use a Holy Symbol or Druidic Focus as a Spellcasting Focus",
+					"Craft"
+				],
+				[
+					"9",
+					"{@optfeature Scriptorium|XUA2023BastionsAndCantrips}",
+					"None*",
+					"Craft"
+				],
+				[
+					"9",
+					"{@optfeature Stable|XUA2023BastionsAndCantrips}",
+					"None",
+					"Trade"
+				],
+				[
+					"9",
+					"{@optfeature Teleportation Circle|XUA2023BastionsAndCantrips}",
+					"None",
+					"Recruit"
+				],
+				[
+					"9",
+					"{@optfeature Theater|XUA2023BastionsAndCantrips}",
+					"None",
+					"Empower"
+				],
+				[
+					"9",
+					"{@optfeature Training Area|XUA2023BastionsAndCantrips}",
+					"{@variantrule Expertise|XUA2023PlayersHandbookP6} in a skill, Fighting Style feature, or Unarmored Defense feature",
+					"Empower"
+				],
+				[
+					"9",
+					"{@optfeature Trophy Room|XUA2023BastionsAndCantrips}",
+					"None",
+					"Research"
+				],
+				[
+					"13",
+					"{@optfeature Archive|XUA2023BastionsAndCantrips}",
+					"None",
+					"Research"
+				],
+				[
+					"13",
+					"{@optfeature Meditation Chamber|XUA2023BastionsAndCantrips}",
+					"None",
+					"Empower"
+				],
+				[
+					"13",
+					"{@optfeature Menagerie|XUA2023BastionsAndCantrips}",
+					"None",
+					"Recruit"
+				],
+				[
+					"13",
+					"{@optfeature Observatory|XUA2023BastionsAndCantrips}",
+					"Ability to use a Spellcasting Focus",
+					"Empower"
+				],
+				[
+					"13",
+					"{@optfeature Pub|XUA2023BastionsAndCantrips}",
+					"None",
+					"Research"
+				],
+				[
+					"13",
+					"{@optfeature Reliquary|XUA2023BastionsAndCantrips}",
+					"Ability to use a Holy Symbol or Druidic Focus as a Spellcasting Focus",
+					"Harvest"
+				],
+				[
+					"17",
+					"{@optfeature Demiplane|XUA2023BastionsAndCantrips}",
+					"Ability to use an Arcane Focus as a Spellcasting Focus",
+					"Empower"
+				],
+				[
+					"17",
+					"{@optfeature Guildhall|XUA2023BastionsAndCantrips}",
+					"{@variantrule Expertise|XUA2023PlayersHandbookP6} in a skill",
+					"Recruit"
+				],
+				[
+					"17",
+					"{@optfeature Sanctum|XUA2023BastionsAndCantrips}",
+					"Ability to use a Holy Symbol or Druidic Focus as a Spellcasting Focus",
+					"Empower"
+				],
+				[
+					"17",
+					"{@optfeature War Room|XUA2023BastionsAndCantrips}",
+					"Fighting Style feature or Unarmored Defense feature",
+					"Recruit"
+				]
+			],
+			"footnotes": [
+				"* Certain orders that can be issued to these facilities have additional prerequisites."
+			]
+		},
+		{
+			"name": "Special Facility Acquisition",
+			"source": "XUA2023BastionsAndCantrips",
+			"page": 5,
+			"colLabels": [
+				"Level",
+				"Special Facilities"
+			],
+			"colStyles": [
+				"col-6 text-center",
+				"col-6 text-center"
+			],
+			"rows": [
+				[
+					"5",
+					"2"
+				],
+				[
+					"9",
+					"4"
+				],
+				[
+					"13",
+					"5"
+				],
+				[
+					"17",
+					"6"
+				]
+			]
+		},
+		{
+			"name": "Spending Bastion Points",
+			"source": "XUA2023BastionsAndCantrips",
+			"page": 3,
+			"colLabels": [
+				"Magic Item",
+				"Level Prerequisite",
+				"Cost"
+			],
+			"colStyles": [
+				"col-5",
+				"col-4 text-center",
+				"col-3 text-right"
+			],
+			"rows": [
+				[
+					"Common",
+					"\u2014",
+					"20 BP"
+				],
+				[
+					"Uncommon",
+					"\u2014",
+					"70 BP"
+				],
+				[
+					"Rare",
+					"9",
+					"250 BP"
+				],
+				[
+					"Very Rare",
+					"13",
+					"350 BP"
+				],
+				[
+					"Legendary",
+					"17",
+					"700 BP"
+				]
+			]
+		}
+	],
+	"book": [
+		{
+			"name": "Unearthed Arcana 2023: Bastions and Cantrips",
+			"id": "XUA2023BastionsAndCantrips",
+			"source": "XUA2023BastionsAndCantrips",
+			"group": "prerelease",
+			"coverUrl": "img/covers/blank.png",
+			"published": "2023-10-05",
+			"author": "Wizards of the Coast",
+			"contents": [
+				{
+					"name": "Unearthed Arcana 2023: Bastions And Cantrips",
+					"headers": [
+						"What's Inside"
+					]
+				},
+				{
+					"name": "Bastions",
+					"headers": [
+						"Gaining a Bastion",
+						"Bastion Turns",
+						"Bastion Points",
+						"Bastion Facilities",
+						{
+							"header": "Special Facility Descriptions",
+							"depth": 1
+						},
+						"Fall of a Bastion",
+						"Bastion Events"
+					]
+				},
+				{
+					"name": "Revised Cantrips",
+					"headers": [
+						{
+							"header": "Class Tags",
+							"depth": 1
+						},
+						{
+							"header": "Spell Descriptions",
+							"depth": 1
+						}
+					]
+				}
+			]
+		}
+	],
+	"bookData": [
+		{
+			"id": "XUA2023BastionsAndCantrips",
+			"source": "XUA2023BastionsAndCantrips",
+			"data": [
+				{
+					"type": "section",
+					"name": "Unearthed Arcana 2023: Bastions And Cantrips",
+					"page": 1,
+					"entries": [
+						"This playtest document presents material designed for the 2024 version of the core rulebooks. The material here uses the rules in the 2014 core rulebooks, except where noted.",
+						"While the public playtest for the {@i Player's Handbook} continues, we want to give you this early taste of material slated for the revised {@i Dungeon Master's Guide}.",
+						{
+							"type": "inset",
+							"page": 1,
+							"name": "Learn More on YouTube",
+							"entries": [
+								"To learn more about the design in this article, we invite you to view the videos about it on YouTube ({@link www.youtube.com/DNDWizards})."
+							]
+						},
+						{
+							"type": "section",
+							"name": "What's Inside",
+							"page": 1,
+							"entries": [
+								"This article has two sections:",
+								{
+									"type": "list",
+									"style": "list-hang-notitle",
+									"page": 1,
+									"items": [
+										{
+											"type": "item",
+											"name": "Bastions",
+											"entries": [
+												"The bulk of this article introduces a new subsystem for Bastions. It includes everything you need to introduce Bastions to your game."
+											]
+										},
+										{
+											"type": "item",
+											"name": "Cantrips",
+											"entries": [
+												"A section at the end of this article presents several revised cantrips."
+											]
+										}
+									]
+								},
+								{
+									"type": "inset",
+									"page": 1,
+									"name": "This Is Playtest Material",
+									"entries": [
+										"This article is presented for playtesting and feedback. The options here are experimental and in draft form. They aren't officially part of the game. Your feedback will help determine whether we adopt them as official.",
+										{
+											"type": "entries",
+											"name": "How to Playtest This UA",
+											"page": 1,
+											"entries": [
+												"We invite you to try out this material in play. When you do so, you can use characters created using the {@book 2014 Player's Handbook|PHB} or ones made with the \"Player's Handbook Playtest\" series, starting with \"{@loader Character Origins.|collection/Unearthed Arcana 2022 - Character Origins.json|prerelease}\"",
+												"To play with this material, you may either incorporate it into your campaign or run one or more special playtest sessions. For a session testing the Bastion rules, you don't need an adventure prepared; just focus on creating Bastions and resolving Bastion turns. For testing the cantrips, you may create an adventure of your own or use a short adventure from a source like {@adventure Keys from the Golden Vault|KftGV}, {@adventure Journeys through the Radiant Citadel|JttRC}, or {@adventure Candlekeep Mysteries|CM}."
+											]
+										},
+										{
+											"type": "entries",
+											"name": "Feedback",
+											"page": 1,
+											"entries": [
+												"The best way for you to give us feedback on this material is in the survey we'll release on D&D Beyond. If we make this material official, it will be refined based on your feedback, and then it will appear in a D&D book.",
+												"Providing feedback on this document is one way you can help shape the next generation of D&D!"
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"type": "section",
+					"name": "Bastions",
+					"page": 1,
+					"entries": [
+						"A Bastion is a location that belongs to a player character: a home, a stronghold, and a place of power that the character nurtures and develops over the course of a campaign. A Bastion offers a character temporary refuge from the dangerous world of adventuring, and it provides opportunities for a character to craft magic items, conduct research, harvest poisons, build ships, and carry out a broad range of other activities.",
+						"It's up to the DM to decide whether Bastions are available in a campaign. Bastions are best suited to campaigns that allow characters to return to their Bastions during intervals when they're not actively adventuring.",
+						"There's no need to choose between going on adventures and commanding a Bastion; a character can do both at once. A Bastion has special facilities that generate in-game benefits, and these facilities can also undertake projects while the character is otherwise preoccupied.",
+						"Bastions are intended to be havens for the characters who own them. Although random events might test a Bastion from time to time (see the \"{@variantrule Bastion Events|XUA2023BastionsAndCantrips}\" section), the Bastion can be destroyed in only two ways (see \"{@variantrule Fall of a Bastion|XUA2023BastionsAndCantrips}\" section).",
+						"Most importantly, a Bastion is a creative playground for a player and a shared storytelling space in the campaign. DMs should be as permissive as possible with the stories players tell in their Bastions, but players should know their control goes only as far as the campaign's larger story, which the DM strives to make fun for everyone.",
+						{
+							"type": "inset",
+							"page": 2,
+							"name": "Design Notes",
+							"entries": [
+								"Keep the following notes in mind as you review this document.",
+								{
+									"type": "entries",
+									"name": "Defenders and Hirelings",
+									"entries": [
+										"To ease the burden on players, we don't present or require statistics for Bastion hirelings and defenders. All a player needs to track is the number of each in their Bastion. Players can assign names and personalities to their Bastions' occupants as they see fit."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "GP Expenditure",
+									"entries": [
+										"Bastions give characters new ways to spend their gold, but we want the gold they spend to make them happy (as opposed to feeling like mortgage payments)."
+									]
+								}
+							]
+						},
+						{
+							"type": "section",
+							"name": "Gaining a Bastion",
+							"page": 2,
+							"entries": [
+								{
+									"type": "statblock",
+									"tag": "variantrule",
+									"source": "XUA2023BastionsAndCantrips",
+									"name": "Gaining a Bastion",
+									"page": 2,
+									"collapsed": true
+								}
+							]
+						},
+						{
+							"type": "section",
+							"name": "Bastion Turns",
+							"page": 2,
+							"entries": [
+								{
+									"type": "statblock",
+									"tag": "variantrule",
+									"source": "XUA2023BastionsAndCantrips",
+									"name": "Bastion Turns",
+									"page": 2,
+									"collapsed": true
+								}
+							]
+						},
+						{
+							"type": "section",
+							"name": "Bastion Points",
+							"page": 3,
+							"entries": [
+								{
+									"type": "statblock",
+									"tag": "variantrule",
+									"source": "XUA2023BastionsAndCantrips",
+									"name": "Bastion Points",
+									"page": 3,
+									"collapsed": true
+								}
+							]
+						},
+						{
+							"type": "section",
+							"name": "Bastion Facilities",
+							"page": 3,
+							"entries": [
+								{
+									"type": "statblock",
+									"tag": "variantrule",
+									"source": "XUA2023BastionsAndCantrips",
+									"name": "Bastion Facilities",
+									"page": 3,
+									"collapsed": true
+								},
+								{
+									"type": "entries",
+									"name": "Special Facility Descriptions",
+									"page": 6,
+									"entries": [
+										"Special facilities are presented in alphabetical order. The Special Facilities table lists all the special facilities presented in this section, along with their prerequisites and orders.",
+										"{@note You can also view these on the {@filter Other Options and Features|optionalfeatures|source=XUA2023BastionsAndCantrips} page.}",
+										{
+											"type": "statblock",
+											"tag": "table",
+											"source": "XUA2023BastionsAndCantrips",
+											"name": "Special Facilities",
+											"page": 6
+										}
+									]
+								}
+							]
+						},
+						{
+							"type": "section",
+							"name": "Fall of a Bastion",
+							"page": 19,
+							"entries": [
+								{
+									"type": "statblock",
+									"tag": "variantrule",
+									"source": "XUA2023BastionsAndCantrips",
+									"name": "Fall of a Bastion",
+									"page": 19,
+									"collapsed": true
+								}
+							]
+						},
+						{
+							"type": "section",
+							"name": "Bastion Events",
+							"page": 20,
+							"entries": [
+								{
+									"type": "statblock",
+									"tag": "variantrule",
+									"source": "XUA2023BastionsAndCantrips",
+									"name": "Bastion Events",
+									"page": 20,
+									"collapsed": true
+								}
+							]
+						}
+					]
+				},
+				{
+					"type": "section",
+					"name": "Revised Cantrips",
+					"page": 21,
+					"entries": [
+						"This section presents revised spells to playtest.",
+						{
+							"type": "entries",
+							"name": "Class Tags",
+							"page": 21,
+							"entries": [
+								"A spell's description contains one or more tags indicating the class spell lists that contain the spell. For example, if a spell has the \"Wizard\" tag, the spell is on the Wizard spell list."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Spell Descriptions",
+							"page": 21,
+							"entries": [
+								"The following spells are presented in alphabetical order.",
+								{
+									"type": "inset",
+									"page": 21,
+									"name": "Design Note: Spell Updates",
+									"entries": [
+										"Here are the main updates to the spells in this section:",
+										{
+											"type": "list",
+											"page": 21,
+											"items": [
+												{
+													"type": "item",
+													"name": "Acid Splash",
+													"nameDot": false,
+													"entries": [
+														"now creates a 5-foot-radius sphere that can affect any creature caught in it, and it is an Evocation instead of a Conjuration spell. The school change unites this spell with the Sorcerer and Wizard's other direct-damage Acid spells."
+													]
+												},
+												{
+													"type": "item",
+													"name": "Blade Ward",
+													"nameDot": false,
+													"entries": [
+														"is now a Reaction that imposes Disadvantage on a creature's melee attack roll."
+													]
+												},
+												{
+													"type": "item",
+													"name": "Chill Touch",
+													"nameDot": false,
+													"entries": [
+														"is now a touch spell that deals {@damage 1d10} damage rather than {@damage 1d8}, and it no longer has the rarely used Undead-specific effect."
+													]
+												},
+												{
+													"type": "item",
+													"name": "Friends",
+													"nameDot": false,
+													"entries": [
+														"now forces the target to make a save against being {@condition Charmed} briefly."
+													]
+												},
+												{
+													"type": "item",
+													"name": "Poison Spray",
+													"nameDot": false,
+													"entries": [
+														"now has a range of 30 feet rather than 10 feet, and it uses an attack roll rather than a saving throw. Also, it is now a Necromancy rather than a Conjuration spell."
+													]
+												},
+												{
+													"type": "item",
+													"name": "Produce Flame",
+													"nameDot": false,
+													"entries": [
+														"is now a Bonus Action, but the attack portion is still an action. The range of the light has increased to 20 feet, and the range of the attack has increased to 60 feet. Also, the attack can now target creatures or objects."
+													]
+												},
+												{
+													"type": "item",
+													"name": "Shillelagh",
+													"nameDot": false,
+													"entries": [
+														"now improves at higher levels, and it gives you the option of dealing Force damage or the weapon's normal type."
+													]
+												},
+												{
+													"type": "item",
+													"name": "Shocking Grasp",
+													"nameDot": false,
+													"entries": [
+														"now shuts down {@action Opportunity Attack|PHB|Opportunity Attacks} rather than all Reactions. Shutting down all Reactions is too powerful for a cantrip. This cantrip has always been meant to provide a partial {@action Disengage}, which it still does in this version. Like other Lightning spells, the spell also no longer makes distinctions about whether the target is wearing metal."
+													]
+												},
+												{
+													"type": "item",
+													"name": "Spare the Dying",
+													"nameDot": false,
+													"entries": [
+														"is now a ranged rather than a touch spell, and the range increases as you level up. The spell is now also on the Druid list."
+													]
+												},
+												{
+													"type": "item",
+													"name": "True Strike",
+													"nameDot": false,
+													"entries": [
+														"is now an attack with a weapon that uses your spellcasting ability rather than Strength or Dexterity."
+													]
+												}
+											]
+										}
+									]
+								},
+								{
+									"type": "statblock",
+									"tag": "spell",
+									"source": "XUA2023BastionsAndCantrips",
+									"name": "Acid Splash",
+									"page": 22,
+									"collapsed": true
+								},
+								{
+									"type": "statblock",
+									"tag": "spell",
+									"source": "XUA2023BastionsAndCantrips",
+									"name": "Blade Ward",
+									"page": 22,
+									"collapsed": true
+								},
+								{
+									"type": "statblock",
+									"tag": "spell",
+									"source": "XUA2023BastionsAndCantrips",
+									"name": "Chill Touch",
+									"page": 22,
+									"collapsed": true
+								},
+								{
+									"type": "statblock",
+									"tag": "spell",
+									"source": "XUA2023BastionsAndCantrips",
+									"name": "Friends",
+									"page": 22,
+									"collapsed": true
+								},
+								{
+									"type": "statblock",
+									"tag": "spell",
+									"source": "XUA2023BastionsAndCantrips",
+									"name": "Poison Spray",
+									"page": 22,
+									"collapsed": true
+								},
+								{
+									"type": "statblock",
+									"tag": "spell",
+									"source": "XUA2023BastionsAndCantrips",
+									"name": "Produce Flame",
+									"page": 23,
+									"collapsed": true
+								},
+								{
+									"type": "statblock",
+									"tag": "spell",
+									"source": "XUA2023BastionsAndCantrips",
+									"name": "Shillelagh",
+									"page": 23,
+									"collapsed": true
+								},
+								{
+									"type": "statblock",
+									"tag": "spell",
+									"source": "XUA2023BastionsAndCantrips",
+									"name": "Shocking Grasp",
+									"page": 23,
+									"collapsed": true
+								},
+								{
+									"type": "statblock",
+									"tag": "spell",
+									"source": "XUA2023BastionsAndCantrips",
+									"name": "Spare the Dying",
+									"page": 23,
+									"collapsed": true
+								},
+								{
+									"type": "statblock",
+									"tag": "spell",
+									"source": "XUA2023BastionsAndCantrips",
+									"name": "True Strike",
+									"page": 23,
+									"collapsed": true
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	]
+}
