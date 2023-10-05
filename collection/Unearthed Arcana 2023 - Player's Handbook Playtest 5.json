@@ -9486,7 +9486,6 @@
 			"value": 100,
 			"weaponCategory": "martial",
 			"range": "5/15",
-			"weapon": true,
 			"entries": [
 				{
 					"type": "entries",
