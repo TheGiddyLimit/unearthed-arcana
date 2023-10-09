@@ -16483,7 +16483,6 @@
 			"name": "Martial Weapons: Melee",
 			"source": "XUA2023PlayersHandbookP6",
 			"page": 2,
-			"type": "table",
 			"colLabels": [
 				"Name",
 				"Damage",
@@ -16651,7 +16650,6 @@
 			"name": "Martial Weapons: Ranged",
 			"source": "XUA2023PlayersHandbookP6",
 			"page": 3,
-			"type": "table",
 			"colLabels": [
 				"Name",
 				"Damage",
@@ -16715,7 +16713,6 @@
 			"name": "Simple Weapons: Melee",
 			"source": "XUA2023PlayersHandbookP6",
 			"page": 2,
-			"type": "table",
 			"colLabels": [
 				"Weapon",
 				"Damage",
@@ -16819,7 +16816,6 @@
 			"name": "Simple Weapons: Ranged",
 			"source": "XUA2023PlayersHandbookP6",
 			"page": 2,
-			"type": "table",
 			"colLabels": [
 				"Name",
 				"Damage",
