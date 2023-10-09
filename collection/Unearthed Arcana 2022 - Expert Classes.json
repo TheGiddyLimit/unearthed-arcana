@@ -62,6 +62,18 @@
 				4,
 				4
 			],
+			"classSpells": [
+				{
+					"groupName": "Arcane",
+					"groupSource": "XUA2022ExpertClasses",
+					"spellSchools": [
+						"D",
+						"E",
+						"I",
+						"T"
+					]
+				}
+			],
 			"startingProficiencies": {
 				"armor": [
 					"light"
@@ -677,18 +689,6 @@
 				"Feat|Bard|XUA2022ExpertClasses|19",
 				"Epic Boon|Bard|XUA2022ExpertClasses|20"
 			],
-			"classSpells": [
-				{
-					"groupName": "Arcane",
-					"groupSource": "XUA2022ExpertClasses",
-					"spellSchools": [
-						"D",
-						"E",
-						"I",
-						"T"
-					]
-				}
-			],
 			"subclassTitle": "Bard Subclass",
 			"fluff": [
 				{
@@ -741,6 +741,22 @@
 				3,
 				3,
 				3
+			],
+			"classSpells": [
+				{
+					"groupName": "Primal",
+					"groupSource": "XUA2022ExpertClasses",
+					"spellSchools": [
+						"A",
+						"E",
+						"I",
+						"D",
+						"N",
+						"T",
+						"C",
+						"P"
+					]
+				}
 			],
 			"startingProficiencies": {
 				"armor": [
@@ -1081,22 +1097,6 @@
 				"Foe Slayer|Ranger|XUA2022ExpertClasses|18",
 				"Feat|Ranger|XUA2022ExpertClasses|19",
 				"Epic Boon|Ranger|XUA2022ExpertClasses|20"
-			],
-			"classSpells": [
-				{
-					"groupName": "Primal",
-					"groupSource": "XUA2022ExpertClasses",
-					"spellSchools": [
-						"A",
-						"E",
-						"I",
-						"D",
-						"N",
-						"T",
-						"C",
-						"P"
-					]
-				}
 			],
 			"subclassTitle": "Ranger Subclass",
 			"fluff": [
@@ -1522,17 +1522,17 @@
 	],
 	"subclass": [
 		{
-			"name": "Thief",
-			"shortName": "Thief",
+			"name": "College of Lore",
+			"shortName": "Lore",
 			"source": "XUA2022ExpertClasses",
-			"className": "Rogue",
+			"className": "Bard",
 			"classSource": "XUA2022ExpertClasses",
-			"page": 15,
+			"page": 7,
 			"subclassFeatures": [
-				"Thief|Rogue|XUA2022ExpertClasses|Thief|XUA2022ExpertClasses|3",
-				"Supreme Sneak|Rogue|XUA2022ExpertClasses|Thief|XUA2022ExpertClasses|6",
-				"Use Magic Device|Rogue|XUA2022ExpertClasses|Thief|XUA2022ExpertClasses|10",
-				"Thief's Reflexes|Rogue|XUA2022ExpertClasses|Thief|XUA2022ExpertClasses|14"
+				"College of Lore|Bard|XUA2022ExpertClasses|Lore|XUA2022ExpertClasses|3",
+				"Cunning Inspiration|Bard|XUA2022ExpertClasses|Lore|XUA2022ExpertClasses|6",
+				"Improved Cutting Words|Bard|XUA2022ExpertClasses|Lore|XUA2022ExpertClasses|10",
+				"Peerless Skill|Bard|XUA2022ExpertClasses|Lore|XUA2022ExpertClasses|14"
 			]
 		},
 		{
@@ -1550,17 +1550,1240 @@
 			]
 		},
 		{
-			"name": "College of Lore",
-			"shortName": "Lore",
+			"name": "Thief",
+			"shortName": "Thief",
 			"source": "XUA2022ExpertClasses",
+			"className": "Rogue",
+			"classSource": "XUA2022ExpertClasses",
+			"page": 15,
+			"subclassFeatures": [
+				"Thief|Rogue|XUA2022ExpertClasses|Thief|XUA2022ExpertClasses|3",
+				"Supreme Sneak|Rogue|XUA2022ExpertClasses|Thief|XUA2022ExpertClasses|6",
+				"Use Magic Device|Rogue|XUA2022ExpertClasses|Thief|XUA2022ExpertClasses|10",
+				"Thief's Reflexes|Rogue|XUA2022ExpertClasses|Thief|XUA2022ExpertClasses|14"
+			]
+		}
+	],
+	"classFeature": [
+		{
+			"name": "Bardic Inspiration",
+			"source": "XUA2022ExpertClasses",
+			"page": 4,
 			"className": "Bard",
 			"classSource": "XUA2022ExpertClasses",
+			"level": 1,
+			"entries": [
+				"You can supernaturally inspire others through words, music, or dance. This inspiration is represented by your Bardic Inspiration die, which is a {@dice d6}.",
+				{
+					"type": "entries",
+					"entries": [
+						{
+							"type": "entries",
+							"name": "Using Bardic Inspiration",
+							"entries": [
+								"You can use your Bardic Inspiration die in the following ways:",
+								{
+									"type": "list",
+									"style": "list-hang-notitle",
+									"items": [
+										{
+											"type": "item",
+											"name": "Boost a Dice Test",
+											"entry": "When another creature within 60 feet of you that you can see or hear fails a {@dice d20} Test, you can use your Reaction to give the creature a Bardic Inspiration die. The creature rolls that die and adds the number rolled to the {@dice d20}, potentially turning the failure into a success."
+										},
+										{
+											"type": "item",
+											"name": "Heal",
+											"entry": "Immediately after another creature within 60 feet of you that you can see or hear takes damage, you can use your Reaction to roll your Bardic Inspiration die and restore a number of Hit Points to the creature equal to the number rolled."
+										}
+									]
+								}
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Number of Uses",
+							"entries": [
+								"A Bardic Inspiration die is expended when it's rolled. You can confer a Bardic Inspiration die a number of times equal to your Proficiency Bonus, and you regain all expended uses when you finish a {@variantrule Long Rest|XUA2022ExpertClasses}."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "At Higher Levels",
+							"entries": [
+								"Your Bardic Inspiration die changes when you reach certain levels in this Class, as shown in the Bardic Die column of the Bard table. The die becomes a {@dice d8} at 5th level, a {@dice d10} at 10th level, and a {@dice d12} at 15th level."
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Spellcasting",
+			"source": "XUA2022ExpertClasses",
+			"page": 51,
+			"className": "Bard",
+			"classSource": "XUA2022ExpertClasses",
+			"level": 1,
+			"entries": [
+				"You have learned to cast Spells through your bardic arts. See the Player's Handbook for the rules on spellcasting. The information below details how you use those rules as a Bard.",
+				{
+					"type": "entries",
+					"entries": [
+						{
+							"type": "entries",
+							"name": "Prepared Spells",
+							"entries": [
+								"You have the following Spells prepared: {@spell Color Spray}, {@spell Disguise Self}, {@spell Prestidigitation}, and {@spell Vicious Mockery}.",
+								"Alternatively, you can prepare two 0-level Spells and two 1st-level Spells of your choice. Any Spell you prepare for this Class must be an {@variantrule Arcane Spells|XUA2022ExpertClasses|Arcane Spell}, and it must be from one of the following Schools of Magic: Divination, Enchantment, Illusion, or Transmutation.",
+								"Whenever you finish a {@variantrule Long Rest|XUA2022ExpertClasses}, you can practice your bardic arts and replace any Spell you have prepared for this Class with another {@variantrule Arcane Spells|XUA2022ExpertClasses|Arcane Spell} of the same level, abiding by the school restriction above.",
+								"At higher levels in this Class, you can prepare more Spells, as shown on the Bard table. The numbers there determine the number of different Spells you can prepare of each level. For example, as a 3rd-level Bard, you can prepare two different 0-level Spells, four different 1st-level Spells, and two different 2nd-level Spells.",
+								"Consult the \"Prepared Bard Spells\" section for recommendations on which spells to prepare at higher levels. A Spell marked with a dagger (†) in that section is always prepared and can't be replaced when you prepare Spells."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Spell Slots",
+							"entries": [
+								"The Bard table shows how many Spell Slots you have at each level to cast your Bard Spells of 1st level and higher; the number of different Spells you can prepare of each level equals the number of Spell Slots you have at that level. For example, as a 5th-level Bard, you have four 1st-level Spell Slots, three 2nd-level Spell Slots, and two 3rd-level Spell Slots."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Spellcasting Ability",
+							"entries": [
+								"Charisma is your Spellcasting Ability for your Bard Spells."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Spellcasting Focus",
+							"entries": [
+								"You can use a {@item Musical Instrument|SCAG} as a Spellcasting Focus for the Spells you prepare for this Class."
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Expertise",
+			"source": "XUA2022ExpertClasses",
+			"page": 5,
+			"className": "Bard",
+			"classSource": "XUA2022ExpertClasses",
+			"level": 2,
+			"entries": [
+				"You gain {@variantrule Expertise|XUA2022ExpertClasses} in two of your Skill Proficiencies of your choice.",
+				"{@skill Performance} and {@skill Persuasion} are iconic choices for a Bard if you have Proficiency in them."
+			]
+		},
+		{
+			"name": "Songs of Restoration",
+			"source": "XUA2022ExpertClasses",
+			"page": 5,
+			"className": "Bard",
+			"classSource": "XUA2022ExpertClasses",
+			"level": 2,
+			"entries": [
+				"You have learned how to use music, poetry, and dance to heal wounds and maladies. When you reach certain levels in this Class, you add a specific Spell to your Songs of Restoration repertoire, as shown on the Songs of Restoration Repertoire table. You always have that Spell prepared, and it doesn't count against the number of Spells you can prepare.",
+				{
+					"type": "table",
+					"caption": "Songs of Restoration Repertoire",
+					"colLabels": [
+						"Bard",
+						"Level Spell"
+					],
+					"colStyles": [
+						"col-1 text-center",
+						"col-11"
+					],
+					"rows": [
+						[
+							"2nd",
+							"{@spell Healing Word|XUA2022ExpertClasses}"
+						],
+						[
+							"4th",
+							"{@spell Lesser Restoration|XUA2022ExpertClasses}"
+						],
+						[
+							"6th",
+							"{@spell Mass Healing Word|XUA2022ExpertClasses}"
+						],
+						[
+							"8th",
+							"{@spell Freedom of Movement|XUA2022ExpertClasses}"
+						],
+						[
+							"10th",
+							"{@spell Greater Restoration|XUA2022ExpertClasses}"
+						]
+					]
+				}
+			]
+		},
+		{
+			"name": "Bard Subclass",
+			"source": "XUA2022ExpertClasses",
+			"page": 5,
+			"className": "Bard",
+			"classSource": "XUA2022ExpertClasses",
+			"level": 3,
+			"entries": [
+				"You gain the College of Lore Subclass or another Bard Subclass of your choice. The College of Lore is detailed after the Bard's Class description, and other Subclasses will appear in future Unearthed {@skill Arcana} articles.",
+				"A Subclass is a specialization that grants you special abilities at certain Bard levels. For the rest of your career, you gain each of your Subclass's features that are of your Bard level and lower. This Class's description tells you the levels when your Subclass provides features."
+			]
+		},
+		{
+			"name": "Feat",
+			"source": "XUA2022ExpertClasses",
+			"page": 5,
+			"className": "Bard",
+			"classSource": "XUA2022ExpertClasses",
+			"level": 4,
+			"entries": [
+				"You gain the Ability Score Improvement Feat or another {@5etools Feat|feats.html} of your choice."
+			]
+		},
+		{
+			"name": "Jack of All Trades",
+			"source": "XUA2022ExpertClasses",
+			"page": 5,
+			"className": "Bard",
+			"classSource": "XUA2022ExpertClasses",
+			"level": 5,
+			"entries": [
+				"You can add half your Proficiency Bonus (round down) to any {@variantrule Ability Check|XUA2022ExpertClasses} you make that uses a Skill Proficiency you lack and that doesn't otherwise use your Proficiency Bonus. For example, if you make a Strength Check ({@skill Athletics}) and lack {@skill Athletics} Proficiency, you can add half your Proficiency Bonus to the check."
+			]
+		},
+		{
+			"name": "Subclass Feature",
+			"source": "XUA2022ExpertClasses",
+			"page": 5,
+			"className": "Bard",
+			"classSource": "XUA2022ExpertClasses",
+			"level": 6,
+			"entries": [
+				"You gain a feature from your Bard Subclass."
+			]
+		},
+		{
+			"name": "Font of Bardic Inspiration",
+			"source": "XUA2022ExpertClasses",
+			"page": 51,
+			"className": "Bard",
+			"classSource": "XUA2022ExpertClasses",
+			"level": 7,
+			"entries": [
+				"You now regain all your expended uses of Bardic Inspiration when you finish a Short Rest or a {@variantrule Long Rest|XUA2022ExpertClasses}.",
+				"In addition, if a creature rolls your Bardic Inspiration die and gets a 1 (after any rerolls you might have), that use of your Bardic Inspiration isn't expended."
+			]
+		},
+		{
+			"name": "Feat",
+			"source": "XUA2022ExpertClasses",
+			"page": 6,
+			"className": "Bard",
+			"classSource": "XUA2022ExpertClasses",
+			"level": 8,
+			"entries": [
+				"You gain the Ability Score Improvement Feat or another Feat of your choice."
+			]
+		},
+		{
+			"name": "Expertise",
+			"source": "XUA2022ExpertClasses",
+			"page": 6,
+			"className": "Bard",
+			"classSource": "XUA2022ExpertClasses",
+			"level": 9,
+			"entries": [
+				"You gain {@variantrule Expertise|XUA2022ExpertClasses} in two of your Skill Proficiencies of your choice."
+			]
+		},
+		{
+			"name": "Subclass Feature",
+			"source": "XUA2022ExpertClasses",
+			"page": 6,
+			"className": "Bard",
+			"classSource": "XUA2022ExpertClasses",
+			"level": 10,
+			"entries": [
+				"You gain a feature from your Bard Subclass."
+			]
+		},
+		{
+			"name": "Magical Secrets",
+			"source": "XUA2022ExpertClasses",
+			"page": 6,
+			"className": "Bard",
+			"classSource": "XUA2022ExpertClasses",
+			"level": 11,
+			"entries": [
+				"You have collected magical knowledge from a wide spectrum of disciplines. Choose a Spell List: {@variantrule Arcane Spells|XUA2022ExpertClasses|Arcane}, {@variantrule Divine Spells|XUA2022ExpertClasses|Divine}, or {@variantrule Primal Spells|XUA2022ExpertClasses|Primal}. Whenever you prepare Spells for this Class, up to two of the Spells you prepare can be from the chosen list and from any School of Magic. The prepared Spells otherwise follow the rules of your Bard Spellcasting feature."
+			]
+		},
+		{
+			"name": "Feat",
+			"source": "XUA2022ExpertClasses",
+			"page": 6,
+			"className": "Bard",
+			"classSource": "XUA2022ExpertClasses",
+			"level": 12,
+			"entries": [
+				"You gain the Ability Score Improvement Feat or another Feat of your choice."
+			]
+		},
+		{
+			"name": "Subclass Feature",
+			"source": "XUA2022ExpertClasses",
+			"page": 6,
+			"className": "Bard",
+			"classSource": "XUA2022ExpertClasses",
+			"level": 14,
+			"entries": [
+				"You gain a feature from your Bard Subclass."
+			]
+		},
+		{
+			"name": "Further Magical Secrets",
+			"source": "XUA2022ExpertClasses",
+			"page": 6,
+			"className": "Bard",
+			"classSource": "XUA2022ExpertClasses",
+			"level": 15,
+			"entries": [
+				"Your understanding of magic has grown even broader. Choose a Spell List\u2014{@variantrule Arcane Spells|XUA2022ExpertClasses|Arcane}, {@variantrule Divine Spells|XUA2022ExpertClasses|Divine}, and {@variantrule Primal Spells|XUA2022ExpertClasses|Primal}\u2014that you didn't choose for your Magical Secrets feature. Whenever you prepare your Bard Spells, two of the Spells you prepare can be from the chosen list and from any School of Magic. The prepared Spells otherwise follow the rules of your Bard Spellcasting feature."
+			]
+		},
+		{
+			"name": "Feat",
+			"source": "XUA2022ExpertClasses",
+			"page": 6,
+			"className": "Bard",
+			"classSource": "XUA2022ExpertClasses",
+			"level": 16,
+			"entries": [
+				"You gain the Ability Score Improvement Feat or another Feat of your choice."
+			]
+		},
+		{
+			"name": "Superior Bardic Inspiration",
+			"source": "XUA2022ExpertClasses",
+			"page": 6,
+			"className": "Bard",
+			"classSource": "XUA2022ExpertClasses",
+			"level": 18,
+			"entries": [
+				"When you roll Initiative, you regain two expended uses of your Bardic Inspiration."
+			]
+		},
+		{
+			"name": "Feat",
+			"source": "XUA2022ExpertClasses",
+			"page": 6,
+			"className": "Bard",
+			"classSource": "XUA2022ExpertClasses",
+			"level": 19,
+			"entries": [
+				"You gain the Ability Score Improvement Feat or another Feat of your choice."
+			]
+		},
+		{
+			"name": "Epic Boon",
+			"source": "XUA2022ExpertClasses",
+			"page": 6,
+			"className": "Bard",
+			"classSource": "XUA2022ExpertClasses",
+			"level": 20,
+			"entries": [
+				"You gain the {@feat Epic Boon of Luck|XUA2022ExpertClasses} Feat or another Epic Boon Feat of your choice."
+			]
+		},
+		{
+			"name": "Expertise",
+			"source": "XUA2022ExpertClasses",
+			"page": 9,
+			"className": "Ranger",
+			"classSource": "XUA2022ExpertClasses",
+			"level": 1,
+			"entries": [
+				"You gain {@variantrule Expertise|XUA2022ExpertClasses} in two of your Skill Proficiencies of your choice.",
+				"{@skill Stealth} and {@skill Survival} are iconic choices for a Ranger if you have Proficiency in them."
+			]
+		},
+		{
+			"name": "Favored Enemy",
+			"source": "XUA2022ExpertClasses",
+			"page": 9,
+			"className": "Ranger",
+			"classSource": "XUA2022ExpertClasses",
+			"level": 1,
+			"entries": [
+				"You are adept at focusing your ire on a single foe. You always have the Hunter's Mark Spell prepared, and it doesn't count against the number of Spells you can prepare. Moreover, you don't have to concentrate on the Spell once you cast it; it lasts for its full duration, until you end it as a Bonus Action, or until you are {@condition Incapacitated|XUA2022ExpertClasses}."
+			]
+		},
+		{
+			"name": "Spellcasting",
+			"source": "XUA2022ExpertClasses",
+			"page": 9,
+			"className": "Ranger",
+			"classSource": "XUA2022ExpertClasses",
+			"level": 1,
+			"entries": [
+				"You have learned to channel the magical essence of nature to cast Spells. See the Player's Handbook for the rules on spellcasting. The information below details how you use those rules as a Ranger.",
+				{
+					"type": "entries",
+					"name": "Spell Preparation",
+					"entries": [
+						"You have the following Spells prepared: {@spell Cure Wounds}, {@spell Guidance|XUA2022ExpertClasses}, Hunter's Mark, and {@spell Thorn Whip}. Alternatively, you can prepare two 0-level Spells and two 1st-level Spells of your choice. Any Spell you prepare for this Class must be a {@variantrule Primal Spells|XUA2022ExpertClasses|Primal Spell}, and it can be from any School of Magic except Evocation.",
+						"Whenever you finish a {@variantrule Long Rest|XUA2022ExpertClasses}, you can commune with nature and replace any Spell you have prepared for this Class with another {@variantrule Primal Spells|XUA2022ExpertClasses|Primal Spell} of the same level that isn't an Evocation.",
+						"At higher levels in this Class, you can prepare more Spells, as shown on the Ranger table. The numbers there determine the number of different Spells you can prepare of each level. For example, as a 3rd-level Ranger, you can prepare two different 0-level Spells and three different 1st-level Spells.",
+						"Consult the \"Prepared Ranger Spells\" section for recommendations on which spells to prepare at higher levels. A Spell marked with a dagger (†) in that section is always prepared and can't be replaced when you prepare Spells."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Spell Slots",
+					"entries": [
+						"The Ranger table shows how many Spell Slots you have at each level to cast your Ranger Spells of 1st level and higher; the number of different Spells you can prepare of each level equals the number of Spell Slots you have at that level. For example, as a 5th-level Ranger, you have four 1st-level Spell Slots and two 2nd-level Spell Slots."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Spellcasting Ability",
+					"entries": [
+						"Wisdom is your Spellcasting Ability for your Ranger Spells."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Spellcasting Focus",
+					"entries": [
+						"You can use a Druidic Focus as a Spellcasting Focus for the Spells you prepare for this Class."
+					]
+				}
+			]
+		},
+		{
+			"name": "Fighting Style",
+			"source": "XUA2022ExpertClasses",
+			"page": 10,
+			"className": "Ranger",
+			"classSource": "XUA2022ExpertClasses",
+			"level": 2,
+			"entries": [
+				"You have honed your martial prowess. You gain one of the following Fighting Style Feats of your choice: Archery, Defense, or Two-Weapon Fighting.",
+				"Whenever you gain a Feat at later levels, Fighting Style Feats are among your options, even though you aren't a member of the Warrior Group."
+			]
+		},
+		{
+			"name": "Ranger Subclass",
+			"source": "XUA2022ExpertClasses",
+			"page": 10,
+			"className": "Ranger",
+			"classSource": "XUA2022ExpertClasses",
+			"level": 3,
+			"entries": [
+				"You gain the Hunter Subclass or another Ranger Subclass of your choice. The Hunter is detailed after the Ranger's Class description, and other Subclasses will appear in future Unearthed Arcana articles.",
+				"A Subclass is a specialization that grants you special abilities at certain Ranger levels. For the rest of your career, you gain each of your Subclass's features that are of your Ranger level and lower. This Class's description tells you the levels when your Subclass provides features."
+			]
+		},
+		{
+			"name": "Feat",
+			"source": "XUA2022ExpertClasses",
+			"page": 10,
+			"className": "Ranger",
+			"classSource": "XUA2022ExpertClasses",
+			"level": 4,
+			"entries": [
+				"You gain the Ability Score Improvement Feat or another Feat of your choice."
+			]
+		},
+		{
+			"name": "Extra Attack",
+			"source": "XUA2022ExpertClasses",
+			"page": 10,
+			"className": "Ranger",
+			"classSource": "XUA2022ExpertClasses",
+			"level": 5,
+			"entries": [
+				"You can attack twice, instead of once, whenever you take the {@action Attack|XUA2022ExpertClasses} on your turn."
+			]
+		},
+		{
+			"name": "Subclass Feature",
+			"source": "XUA2022ExpertClasses",
+			"page": 10,
+			"className": "Ranger",
+			"classSource": "XUA2022ExpertClasses",
+			"level": 6,
+			"entries": [
+				"You gain a feature from your Ranger Subclass."
+			]
+		},
+		{
+			"name": "Roving",
+			"source": "XUA2022ExpertClasses",
+			"page": 10,
+			"className": "Ranger",
+			"classSource": "XUA2022ExpertClasses",
+			"level": 7,
+			"entries": [
+				"Your Speed increases by 10 feet while you aren't wearing Heavy Armor.",
+				"You also have a {@variantrule Climb Speed|XUA2022ExpertClasses} and a {@variantrule Swim Speed|XUA2022ExpertClasses} equal to your Speed."
+			]
+		},
+		{
+			"name": "Feat",
+			"source": "XUA2022ExpertClasses",
+			"page": 10,
+			"className": "Ranger",
+			"classSource": "XUA2022ExpertClasses",
+			"level": 8,
+			"entries": [
+				"You gain the Ability Score Improvement Feat or another Feat of your choice."
+			]
+		},
+		{
+			"name": "Expertise",
+			"source": "XUA2022ExpertClasses",
+			"page": 9,
+			"className": "Ranger",
+			"classSource": "XUA2022ExpertClasses",
+			"level": 9,
+			"entries": [
+				"You gain {@variantrule Expertise|XUA2022ExpertClasses} in two of your Skill Proficiencies of your choice."
+			]
+		},
+		{
+			"name": "Subclass Feature",
+			"source": "XUA2022ExpertClasses",
+			"page": 10,
+			"className": "Ranger",
+			"classSource": "XUA2022ExpertClasses",
+			"level": 10,
+			"entries": [
+				"You gain a feature from your Ranger Subclass."
+			]
+		},
+		{
+			"name": "Tireless",
+			"source": "XUA2022ExpertClasses",
+			"page": 10,
+			"className": "Ranger",
+			"classSource": "XUA2022ExpertClasses",
+			"level": 11,
+			"entries": [
+				"Primal forces now help fuel you on your journeys, granting you the following benefits:",
+				{
+					"type": "entries",
+					"name": "Temporary Hit Points",
+					"entries": [
+						"Whenever you finish a Short Rest or a Long Rest, you can give yourself a number of Temporary Hit Points equal to {@dice 1d8} plus your Proficiency Bonus."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Decrease Exhaustion",
+					"entries": [
+						"If you are {@condition Exhausted|XUA2022ExpertClasses} when you finish a Short Rest, your level of {@condition exhaustion} decreases by 1."
+					]
+				}
+			]
+		},
+		{
+			"name": "Feat",
+			"source": "XUA2022ExpertClasses",
+			"page": 10,
+			"className": "Ranger",
+			"classSource": "XUA2022ExpertClasses",
+			"level": 12,
+			"entries": [
+				"You gain the Ability Score Improvement Feat or another Feat of your choice."
+			]
+		},
+		{
+			"name": "Nature's Veil",
+			"source": "XUA2022ExpertClasses",
+			"page": 10,
+			"className": "Ranger",
+			"classSource": "XUA2022ExpertClasses",
+			"level": 13,
+			"entries": [
+				"You invoke spirits of nature to magically hide yourself from view. As a Bonus Action, you can expend a Spell Slot and become {@condition Invisible|XUA2022ExpertClasses} until the end of your next turn."
+			]
+		},
+		{
+			"name": "Subclass Feature",
+			"source": "XUA2022ExpertClasses",
+			"page": 10,
+			"className": "Ranger",
+			"classSource": "XUA2022ExpertClasses",
+			"level": 14,
+			"entries": [
+				"You gain a feature from your Ranger Subclass."
+			]
+		},
+		{
+			"name": "Feral Senses",
+			"source": "XUA2022ExpertClasses",
+			"page": 10,
+			"className": "Ranger",
+			"classSource": "XUA2022ExpertClasses",
+			"level": 15,
+			"entries": [
+				"Your connection to the forces of nature grants you {@feat Blindsight|XUA2022ExpertClasses} with a range of 30 feet."
+			]
+		},
+		{
+			"name": "Feat",
+			"source": "XUA2022ExpertClasses",
+			"page": 10,
+			"className": "Ranger",
+			"classSource": "XUA2022ExpertClasses",
+			"level": 16,
+			"entries": [
+				"You gain the Ability Score Improvement Feat or another Feat of your choice."
+			]
+		},
+		{
+			"name": "Foe Slayer",
+			"source": "XUA2022ExpertClasses",
+			"page": 10,
+			"className": "Ranger",
+			"classSource": "XUA2022ExpertClasses",
+			"level": 18,
+			"entries": [
+				"Your Hunter's Mark now deals an extra {@damage 1d10} damage to its target, rather than an extra {@dice 1d6}."
+			]
+		},
+		{
+			"name": "Feat",
+			"source": "XUA2022ExpertClasses",
+			"page": 10,
+			"className": "Ranger",
+			"classSource": "XUA2022ExpertClasses",
+			"level": 19,
+			"entries": [
+				"You gain the Ability Score Improvement Feat or another Feat of your choice."
+			]
+		},
+		{
+			"name": "Epic Boon",
+			"source": "XUA2022ExpertClasses",
+			"page": 10,
+			"className": "Ranger",
+			"classSource": "XUA2022ExpertClasses",
+			"level": 20,
+			"entries": [
+				"You gain the Epic Boon of Fortitude Feat or another Epic Boon Feat of your choice."
+			]
+		},
+		{
+			"name": "Expertise",
+			"source": "XUA2022ExpertClasses",
+			"page": 13,
+			"className": "Rogue",
+			"classSource": "XUA2022ExpertClasses",
+			"level": 1,
+			"entries": [
+				"You gain {@variantrule Expertise|XUA2022ExpertClasses} in two of your Skill Proficiencies of your choice.",
+				"{@skill Sleight of Hand} and {@skill Stealth} are iconic choices for a Rogue if you have Proficiency in them."
+			]
+		},
+		{
+			"name": "Sneak Attack",
+			"source": "XUA2022ExpertClasses",
+			"page": 13,
+			"className": "Rogue",
+			"classSource": "XUA2022ExpertClasses",
+			"level": 1,
+			"entries": [
+				"You know how to turn a subtle attack into a deadly one. Once on each of your turns when you take the {@action Attack|XUA2022ExpertClasses} Action, you can deal extra damage to one creature you hit with an {@variantrule Attack Roll|XUA2022ExpertClasses} if you're attacking with a Finesse Weapon or a Ranged Weapon and if at least one of the following requirements is met:",
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"items": [
+						{
+							"type": "item",
+							"name": "Advantage",
+							"entries": [
+								"You have Advantage on the {@variantrule Attack Roll|XUA2022ExpertClasses}."
+							]
+						},
+						{
+							"type": "item",
+							"name": "Ally Adjacent to Target",
+							"entries": [
+								"At least one of your allies is within 5 feet of the target, the ally isn't {@condition Incapacitated|XUA2022ExpertClasses}, and you don't have Disadvantage on the {@action Attack|XUA2022ExpertClasses|Attack Roll.}"
+							]
+						}
+					]
+				},
+				"To determine the extra damage, roll a number of d6s equal to half your Rogue level (round up), and add the dice together (the Rogue table shows the number of Sneak Attack dice you get at each Rogue level). The extra damage's type is the same as the weapon's Damage Type."
+			]
+		},
+		{
+			"name": "Thieves' Cant",
+			"source": "XUA2022ExpertClasses",
+			"page": 13,
+			"className": "Rogue",
+			"classSource": "XUA2022ExpertClasses",
+			"level": 1,
+			"entries": [
+				"You picked up various languages in the communities where you plied your roguish talents. You know Thieves' Cant and one other language of your choice, which you choose from the Standard Languages and Rare Languages tables."
+			]
+		},
+		{
+			"name": "Cunning Action",
+			"source": "XUA2022ExpertClasses",
+			"page": 13,
+			"className": "Rogue",
+			"classSource": "XUA2022ExpertClasses",
+			"level": 2,
+			"entries": [
+				"Your quick thinking and agility allow you to move and act quickly. On your turn, you can take one of the following Actions as a Bonus Action: {@action Dash|XUA2022ExpertClasses}, {@action Disengage}, or {@action Hide|XUA2022ExpertClasses}."
+			]
+		},
+		{
+			"name": "Rogue Subclass",
+			"source": "XUA2022ExpertClasses",
+			"page": 13,
+			"className": "Rogue",
+			"classSource": "XUA2022ExpertClasses",
+			"level": 3,
+			"entries": [
+				"You gain the Thief Subclass or another Rogue Subclass of your choice. The Thief is detailed after the Rogue's Class description, and other Subclasses will appear in future Unearthed {@skill Arcana} articles.",
+				"A Subclass is a specialization that grants you special abilities at certain Rogue levels. For the rest of your career, you gain each of your Subclass's features that are of your Rogue level and lower. This Class's description tells you the levels when your Subclass provides features."
+			]
+		},
+		{
+			"name": "Feat",
+			"source": "XUA2022ExpertClasses",
+			"page": 14,
+			"className": "Rogue",
+			"classSource": "XUA2022ExpertClasses",
+			"level": 4,
+			"entries": [
+				"You gain the Ability Score Improvement Feat or another Feat of your choice."
+			]
+		},
+		{
+			"name": "Uncanny Dodge",
+			"source": "XUA2022ExpertClasses",
+			"page": 14,
+			"className": "Rogue",
+			"classSource": "XUA2022ExpertClasses",
+			"level": 5,
+			"entries": [
+				"When an attacker that you can see hits you with an {@action Attack|XUA2022ExpertClasses|Attack Roll}, you can use your Reaction to halve the attack's damage against you (round down)."
+			]
+		},
+		{
+			"name": "Subclass Feature",
+			"source": "XUA2022ExpertClasses",
+			"page": 14,
+			"className": "Rogue",
+			"classSource": "XUA2022ExpertClasses",
+			"level": 6,
+			"entries": [
+				"You gain a feature from your Rogue Subclass."
+			]
+		},
+		{
+			"name": "Expertise",
+			"source": "XUA2022ExpertClasses",
+			"page": 14,
+			"className": "Rogue",
+			"classSource": "XUA2022ExpertClasses",
+			"level": 7,
+			"entries": [
+				"You gain {@variantrule Expertise|XUA2022ExpertClasses} in two of your Skill Proficiencies of your choice."
+			]
+		},
+		{
+			"name": "Feat",
+			"source": "XUA2022ExpertClasses",
+			"page": 14,
+			"className": "Rogue",
+			"classSource": "XUA2022ExpertClasses",
+			"level": 8,
+			"entries": [
+				"You gain the Ability Score Improvement Feat or another Feat of your choice."
+			]
+		},
+		{
+			"name": "Evasion",
+			"source": "XUA2022ExpertClasses",
+			"page": 14,
+			"className": "Rogue",
+			"classSource": "XUA2022ExpertClasses",
+			"level": 9,
+			"entries": [
+				"You can nimbly dodge out of the way of certain dangers. When you are subjected to an effect that allows you to make a Dexterity Saving Throw to take only half damage, you instead take no damage if you succeed on the Saving Throw and only half damage if you fail. You can't use this feature if you're {@condition Incapacitated|XUA2022ExpertClasses}."
+			]
+		},
+		{
+			"name": "Feat",
+			"source": "XUA2022ExpertClasses",
+			"page": 14,
+			"className": "Rogue",
+			"classSource": "XUA2022ExpertClasses",
+			"level": 10,
+			"entries": [
+				"You gain the Ability Score Improvement Feat or another Feat of your choice."
+			]
+		},
+		{
+			"name": "Subclass Feature",
+			"source": "XUA2022ExpertClasses",
+			"page": 14,
+			"className": "Rogue",
+			"classSource": "XUA2022ExpertClasses",
+			"level": 10,
+			"entries": [
+				"You gain a feature from your Rogue Subclass."
+			]
+		},
+		{
+			"name": "Reliable Talent",
+			"source": "XUA2022ExpertClasses",
+			"page": 14,
+			"className": "Rogue",
+			"classSource": "XUA2022ExpertClasses",
+			"level": 11,
+			"entries": [
+				"You have refined your talents until they approach perfection. Whenever you make an {@variantrule Ability Check|XUA2022ExpertClasses} that uses one of your Skill or Tool Proficiencies, you can treat a {@dice d20} roll of 9 or lower as a 10."
+			]
+		},
+		{
+			"name": "Feat",
+			"source": "XUA2022ExpertClasses",
+			"page": 14,
+			"className": "Rogue",
+			"classSource": "XUA2022ExpertClasses",
+			"level": 12,
+			"entries": [
+				"You gain the Ability Score Improvement Feat or another Feat of your choice."
+			]
+		},
+		{
+			"name": "Subtle Strikes",
+			"source": "XUA2022ExpertClasses",
+			"page": 14,
+			"className": "Rogue",
+			"classSource": "XUA2022ExpertClasses",
+			"level": 13,
+			"entries": [
+				"When you attack, you know how to exploit a target's distraction. You have Advantage on any {@action Attack|XUA2022ExpertClasses|Attack Roll} that targets a creature that is within 5 feet of at least one of your allies who isn't {@condition Incapacitated|XUA2022ExpertClasses}."
+			]
+		},
+		{
+			"name": "Subclass Feature",
+			"source": "XUA2022ExpertClasses",
+			"page": 14,
+			"className": "Rogue",
+			"classSource": "XUA2022ExpertClasses",
+			"level": 14,
+			"entries": [
+				"You gain a feature from your Rogue Subclass."
+			]
+		},
+		{
+			"name": "Slippery Mind",
+			"source": "XUA2022ExpertClasses",
+			"page": 14,
+			"className": "Rogue",
+			"classSource": "XUA2022ExpertClasses",
+			"level": 15,
+			"entries": [
+				"Your cunning mind is exceptionally difficult to control. You gain Proficiency in Wisdom and Charisma Saving Throws."
+			]
+		},
+		{
+			"name": "Feat",
+			"source": "XUA2022ExpertClasses",
+			"page": 14,
+			"className": "Rogue",
+			"classSource": "XUA2022ExpertClasses",
+			"level": 16,
+			"entries": [
+				"You gain the Ability Score Improvement Feat or another Feat of your choice."
+			]
+		},
+		{
+			"name": "Elusive",
+			"source": "XUA2022ExpertClasses",
+			"page": 14,
+			"className": "Rogue",
+			"classSource": "XUA2022ExpertClasses",
+			"level": 17,
+			"entries": [
+				"You are so evasive that attackers rarely gain the upper hand against you. No {@action Attack|XUA2022ExpertClasses|Attack Roll} has Advantage against you while you aren't {@condition Incapacitated|XUA2022ExpertClasses}."
+			]
+		},
+		{
+			"name": "Stroke of Luck",
+			"source": "XUA2022ExpertClasses",
+			"page": 14,
+			"className": "Rogue",
+			"classSource": "XUA2022ExpertClasses",
+			"level": 18,
+			"entries": [
+				"You have an uncanny knack for succeeding when you need to. If you fail a {@variantrule D20 Tests|XUA2022ExpertClasses|d20 Test}, you can turn the roll into a 20. Once you use this feature, you can't use it again until you finish a Short Rest or a {@variantrule Long Rest|XUA2022ExpertClasses}."
+			]
+		},
+		{
+			"name": "Feat",
+			"source": "XUA2022ExpertClasses",
+			"page": 14,
+			"className": "Rogue",
+			"classSource": "XUA2022ExpertClasses",
+			"level": 19,
+			"entries": [
+				"You gain the Ability Score Improvement Feat or another Feat of your choice."
+			]
+		},
+		{
+			"name": "Epic Boon",
+			"source": "XUA2022ExpertClasses",
+			"page": 14,
+			"className": "Rogue",
+			"classSource": "XUA2022ExpertClasses",
+			"level": 20,
+			"entries": [
+				"You gain the Epic Boon of Undetectability Feat or another Epic Boon Feat of your choice."
+			]
+		}
+	],
+	"subclassFeature": [
+		{
+			"name": "College of Lore",
+			"source": "XUA2022ExpertClasses",
 			"page": 7,
-			"subclassFeatures": [
-				"College of Lore|Bard|XUA2022ExpertClasses|Lore|XUA2022ExpertClasses|3",
-				"Cunning Inspiration|Bard|XUA2022ExpertClasses|Lore|XUA2022ExpertClasses|6",
-				"Improved Cutting Words|Bard|XUA2022ExpertClasses|Lore|XUA2022ExpertClasses|10",
-				"Peerless Skill|Bard|XUA2022ExpertClasses|Lore|XUA2022ExpertClasses|14"
+			"className": "Bard",
+			"classSource": "XUA2022ExpertClasses",
+			"subclassShortName": "Lore",
+			"subclassSource": "XUA2022ExpertClasses",
+			"level": 3,
+			"entries": [
+				"Bards of the College of Lore know something about most things, collecting bits of knowledge from sources as diverse as scholarly tomes and peasant tales. Whether singing folk ballads in taverns or performing elaborate compositions in royal courts, these Bards use their gifts to hold audiences spellbound.",
+				"The college's members gather in libraries and sometimes in actual colleges, complete with classrooms and dormitories, to share their lore with one another. They also meet at festivals or affairs of state, where they can expose corruption, unravel lies, and poke fun at selfimportant figures of authority.",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Bonus Proficiencies|Bard|XUA2022ExpertClasses|Lore|XUA2022ExpertClasses|3"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Cutting Words|Bard|XUA2022ExpertClasses|Lore|XUA2022ExpertClasses|3"
+				}
+			]
+		},
+		{
+			"name": "Bonus Proficiencies",
+			"source": "XUA2022ExpertClasses",
+			"page": 7,
+			"className": "Bard",
+			"classSource": "XUA2022ExpertClasses",
+			"subclassShortName": "Lore",
+			"subclassSource": "XUA2022ExpertClasses",
+			"level": 3,
+			"header": 2,
+			"entries": [
+				"You gain three Skill Proficiencies: {@skill Arcana}, {@skill History}, and {@skill Nature}. If you already have one of these Proficiencies, choose a Skill Proficiency you lack, and gain that Proficiency"
+			]
+		},
+		{
+			"name": "Cutting Words",
+			"source": "XUA2022ExpertClasses",
+			"page": 7,
+			"className": "Bard",
+			"classSource": "XUA2022ExpertClasses",
+			"subclassShortName": "Lore",
+			"subclassSource": "XUA2022ExpertClasses",
+			"level": 3,
+			"header": 2,
+			"entries": [
+				"You learn how to use your wit to supernaturally distract, confuse, and otherwise sap the confidence and competence of others. When a creature that you can see within 60 feet of yourself succeeds on an {@variantrule Ability Check|XUA2022ExpertClasses} or an {@variantrule Attack Roll|XUA2022ExpertClasses}, you can use your Reaction to expend one of your uses of Bardic Inspiration, rolling a Bardic Inspiration die and subtracting the number rolled from the creature's roll, potentially turning it into a failure."
+			]
+		},
+		{
+			"name": "Cunning Inspiration",
+			"source": "XUA2022ExpertClasses",
+			"page": 7,
+			"className": "Bard",
+			"classSource": "XUA2022ExpertClasses",
+			"subclassShortName": "Lore",
+			"subclassSource": "XUA2022ExpertClasses",
+			"level": 6,
+			"header": 2,
+			"entries": [
+				"Through your studies and your cunning, you've learned to inspire others exceptionally well. When any creature rolls your Bardic Inspiration die, that creature can roll the die twice and use the higher of the two rolls."
+			]
+		},
+		{
+			"name": "Improved Cutting Words",
+			"source": "XUA2022ExpertClasses",
+			"page": 7,
+			"className": "Bard",
+			"classSource": "XUA2022ExpertClasses",
+			"subclassShortName": "Lore",
+			"subclassSource": "XUA2022ExpertClasses",
+			"level": 10,
+			"header": 2,
+			"entries": [
+				"Whenever you use your Cutting Words feature on a creature, you can deal Psychic Damage to that creature equal to the number rolled on the Bardic Inspiration die plus your Charisma modifier."
+			]
+		},
+		{
+			"name": "Peerless Skill",
+			"source": "XUA2022ExpertClasses",
+			"page": 7,
+			"className": "Bard",
+			"classSource": "XUA2022ExpertClasses",
+			"subclassShortName": "Lore",
+			"subclassSource": "XUA2022ExpertClasses",
+			"level": 14,
+			"header": 2,
+			"entries": [
+				"When you make an {@variantrule Ability Check|XUA2022ExpertClasses} and fail, you can expend one use of Bardic Inspiration, roll the Bardic Inspiration die, and add the number rolled to the {@variantrule Ability Check|XUA2022ExpertClasses}, potentially turning it into a success. If the check still fails, the Bardic Inspiration isn't expended."
+			]
+		},
+		{
+			"name": "Hunter",
+			"source": "XUA2022ExpertClasses",
+			"page": 11,
+			"className": "Ranger",
+			"classSource": "XUA2022ExpertClasses",
+			"subclassShortName": "Hunter",
+			"subclassSource": "XUA2022ExpertClasses",
+			"level": 3,
+			"header": 2,
+			"entries": [
+				"You stalk prey in the wilds and elsewhere, using your abilities as a Hunter to protect nature and people everywhere from forces that would destroy them.",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Hunter's Prey|Ranger|XUA2022ExpertClasses|Hunter|XUA2022ExpertClasses|3"
+				}
+			]
+		},
+		{
+			"name": "Hunter's Prey",
+			"source": "XUA2022ExpertClasses",
+			"page": 11,
+			"className": "Ranger",
+			"classSource": "XUA2022ExpertClasses",
+			"subclassShortName": "Hunter",
+			"subclassSource": "XUA2022ExpertClasses",
+			"level": 3,
+			"header": 2,
+			"entries": [
+				"Your tenacity can wear down even the most resilient foes. When you hit a creature with a Weapon or an {@variantrule Unarmed Strike|XUA2022ExpertClasses} as part of the {@action Attack|XUA2022ExpertClasses|Attack Action} on your turn, the Weapon or {@variantrule Unarmed Strike|XUA2022ExpertClasses} deals an extra {@damage 1d8} damage to the target if it's missing any of its Hit Points. You can deal this extra damage only once per turn."
+			]
+		},
+		{
+			"name": "Hunter's Lore",
+			"source": "XUA2022ExpertClasses",
+			"page": 11,
+			"className": "Ranger",
+			"classSource": "XUA2022ExpertClasses",
+			"subclassShortName": "Hunter",
+			"subclassSource": "XUA2022ExpertClasses",
+			"level": 6,
+			"header": 2,
+			"entries": [
+				"You can call on the forces of nature to reveal certain strengths and weaknesses of your prey. While a creature is marked by your Hunter's Mark, you know whether that creature has any Immunities, Resistances, and Vulnerabilities, and if the creature has any, you know what they are."
+			]
+		},
+		{
+			"name": "Multiattack",
+			"source": "XUA2022ExpertClasses",
+			"page": 11,
+			"className": "Ranger",
+			"classSource": "XUA2022ExpertClasses",
+			"subclassShortName": "Hunter",
+			"subclassSource": "XUA2022ExpertClasses",
+			"level": 10,
+			"header": 2,
+			"entries": [
+				"You now always have Conjure Barrage prepared, and it doesn't count against the number of Spells you can prepare.",
+				"You can also cast the Spell with 1st- and 2nd level Spell Slots. When you do so, the Spell's damage is reduced by {@dice 1d8} for each slot level below 3rd."
+			]
+		},
+		{
+			"name": "Superior Hunter's Defense",
+			"source": "XUA2022ExpertClasses",
+			"page": 11,
+			"className": "Ranger",
+			"classSource": "XUA2022ExpertClasses",
+			"subclassShortName": "Hunter",
+			"subclassSource": "XUA2022ExpertClasses",
+			"level": 14,
+			"header": 2,
+			"entries": [
+				"When you are hit by an {@action Attack|XUA2022ExpertClasses|Attack Roll}, you can use your Reaction to halve the attack's damage against yourself, and you can redirect the other half of the damage to one creature (other than the attacker) that you can see within 5 feet of yourself."
+			]
+		},
+		{
+			"name": "Fast Hands",
+			"source": "XUA2022ExpertClasses",
+			"page": 15,
+			"className": "Rogue",
+			"classSource": "XUA2022ExpertClasses",
+			"subclassShortName": "Thief",
+			"subclassSource": "XUA2022ExpertClasses",
+			"level": 3,
+			"header": 2,
+			"entries": [
+				"You have additional options for the Bonus Action of your Cunning Action, with which you can do the following:",
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"items": [
+						{
+							"type": "item",
+							"name": "Search",
+							"entries": [
+								"Take the {@action Search Action|XUA2022ExpertClasses|Search Action}."
+							]
+						},
+						{
+							"type": "item",
+							"name": "Sleight of Hand",
+							"entries": [
+								"Make a Dexterity Check ({@skill Sleight of Hand}) to pick a lock or disarm a trap with Thieves' Tools or to pick a pocket"
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Second-Story Work",
+			"source": "XUA2022ExpertClasses",
+			"page": 15,
+			"className": "Rogue",
+			"classSource": "XUA2022ExpertClasses",
+			"subclassShortName": "Thief",
+			"subclassSource": "XUA2022ExpertClasses",
+			"level": 3,
+			"header": 2,
+			"entries": [
+				"You have trained to reach especially hard-toreach places, granting you these benefits:",
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"items": [
+						{
+							"type": "item",
+							"name": "Climb Speed",
+							"entries": [
+								"You gain a {@variantrule Climb Speed|XUA2022ExpertClasses} equal to your Speed."
+							]
+						},
+						{
+							"type": "item",
+							"name": "Jump Distance",
+							"entries": [
+								"When you take the {@action Jump|XUA2022ExpertClasses|Jump Action}, you can make a Dexterity Check, instead of a Strength Check."
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Thief",
+			"source": "XUA2022ExpertClasses",
+			"page": 15,
+			"className": "Rogue",
+			"classSource": "XUA2022ExpertClasses",
+			"subclassShortName": "Thief",
+			"subclassSource": "XUA2022ExpertClasses",
+			"level": 3,
+			"header": 2,
+			"entries": [
+				"You have honed your larcenous arts. Burglars, bandits, cutpurses, and other criminals typically adopt this Subclass, but so do Rogues who prefer to think of themselves as treasure seekers, explorers, delvers, and investigators.",
+				"In addition to improving your agility and stealthiness, you gain abilities useful for delving into ruins and getting maximum benefit from the magic items you find there.",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Fast Hands|Rogue|XUA2022ExpertClasses|Thief|XUA2022ExpertClasses|3"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Second-Story Work|Rogue|XUA2022ExpertClasses|Thief|XUA2022ExpertClasses|3"
+				}
+			]
+		},
+		{
+			"name": "Supreme Sneak",
+			"source": "XUA2022ExpertClasses",
+			"page": 15,
+			"className": "Rogue",
+			"classSource": "XUA2022ExpertClasses",
+			"subclassShortName": "Thief",
+			"subclassSource": "XUA2022ExpertClasses",
+			"level": 6,
+			"header": 2,
+			"entries": [
+				"You have Advantage on every Dexterity Check ({@skill Stealth}) you make, provided you aren't wearing Medium or Heavy Armor."
+			]
+		},
+		{
+			"name": "Use Magic Device",
+			"source": "XUA2022ExpertClasses",
+			"page": 15,
+			"className": "Rogue",
+			"classSource": "XUA2022ExpertClasses",
+			"subclassShortName": "Thief",
+			"subclassSource": "XUA2022ExpertClasses",
+			"level": 10,
+			"header": 2,
+			"entries": [
+				"In your treasure hunting, you have learned how to maximize use of magic items, granting you the following benefits:",
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"items": [
+						{
+							"type": "item",
+							"name": "Attunement",
+							"entries": [
+								"You can attune to up to four magic items at once."
+							]
+						},
+						{
+							"type": "item",
+							"name": "Charges",
+							"entries": [
+								"Whenever you use a magic item property that expends charges, roll a {@dice d6}. On a roll of 6, you use the property without expending the charges."
+							]
+						},
+						{
+							"type": "item",
+							"name": "Scrolls",
+							"entries": [
+								"You can use any {@item Spell Scroll} that bears a cantrip or a 1st-level Spell. You can also try to use any {@item Spell Scroll} that contains a higher-level Spell, but you must first succeed on an Intelligence Check (Arcana) with a DC equal to 10 + the Spell's level. On a successful check, you cast the Spell from the scroll, and you use Intelligence as your Spellcasting Ability for this casting. On a failed check, the scroll disintegrates."
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Thief's Reflexes",
+			"source": "XUA2022ExpertClasses",
+			"page": 15,
+			"className": "Rogue",
+			"classSource": "XUA2022ExpertClasses",
+			"subclassShortName": "Thief",
+			"subclassSource": "XUA2022ExpertClasses",
+			"level": 14,
+			"header": 2,
+			"entries": [
+				"You can now take a second Bonus Action on your turn, provided it is the Bonus Action from Cunning Action. You can use this feature on a number of turns equal to your Proficiency Bonus, and you regain all expended uses when you finish a {@variantrule Long Rest|XUA2022ExpertClasses}."
 			]
 		}
 	],
@@ -1574,6 +2797,7 @@
 					"level": 4
 				}
 			],
+			"repeatable": true,
 			"ability": [
 				{
 					"choose": {
@@ -1604,7 +2828,6 @@
 					"hidden": true
 				}
 			],
-			"repeatable": true,
 			"entries": [
 				"You increase one Ability Score of your choice by 2, or you increase two Ability Scores of your choice by 1. You can't increase an Ability Score above 20."
 			]
@@ -1623,12 +2846,12 @@
 					]
 				}
 			],
+			"repeatable": false,
 			"ability": [
 				{
 					"cha": 1
 				}
 			],
-			"repeatable": false,
 			"entries": [
 				"Skilled at mimicry and dramatics, you gain the following benefits:",
 				{
@@ -1669,6 +2892,7 @@
 					]
 				}
 			],
+			"repeatable": false,
 			"ability": [
 				{
 					"choose": {
@@ -1680,7 +2904,6 @@
 					}
 				}
 			],
-			"repeatable": false,
 			"entries": [
 				"You have undergone extensive physical training to gain the following benefits:",
 				{
@@ -1715,6 +2938,7 @@
 					]
 				}
 			],
+			"repeatable": false,
 			"ability": [
 				{
 					"choose": {
@@ -1725,7 +2949,6 @@
 					}
 				}
 			],
-			"repeatable": false,
 			"entries": [
 				"You have trained to charge headlong into battle, gaining the following benefits:",
 				{
@@ -1760,12 +2983,12 @@
 					]
 				}
 			],
+			"repeatable": false,
 			"ability": [
 				{
 					"dex": 1
 				}
 			],
-			"repeatable": false,
 			"entries": [
 				"Thanks to extensive practice with crossbows, you gain the following benefits:",
 				{
@@ -1805,12 +3028,12 @@
 					]
 				}
 			],
+			"repeatable": false,
 			"ability": [
 				{
 					"dex": 1
 				}
 			],
-			"repeatable": false,
 			"entries": [
 				"You've learned to deftly parry attacks, granting you the following benefits:",
 				{
@@ -1840,6 +3063,7 @@
 					]
 				}
 			],
+			"repeatable": false,
 			"ability": [
 				{
 					"choose": {
@@ -1850,7 +3074,6 @@
 					}
 				}
 			],
-			"repeatable": false,
 			"entries": [
 				"You master fighting with two weapons, gaining the following benefits:",
 				{
@@ -1921,6 +3144,8 @@
 					"spellcasting2020": true
 				}
 			],
+			"repeatable": true,
+			"repeatableNote": "Yes, but you must choose a different Damage Type each time for Energy Mastery",
 			"ability": [
 				{
 					"choose": {
@@ -1933,8 +3158,6 @@
 					}
 				}
 			],
-			"repeatable": true,
-			"repeatableNote": "Yes, but you must choose a different Damage Type each time for Energy Mastery",
 			"entries": [
 				"In your spellcasting, you can harness a particular form of energy with deadly mastery, granting you the following benefits:",
 				{
@@ -1981,6 +3204,7 @@
 					]
 				}
 			],
+			"repeatable": false,
 			"additionalSpells": [
 				{
 					"innate": {
@@ -1994,7 +3218,6 @@
 					}
 				}
 			],
-			"repeatable": false,
 			"entries": [
 				"You can cast the {@spell Misty Step} Spell without expending a Spell Slot. Once you use this benefit, you can't use it again until you roll Initiative or finish a Short Rest or a {@variantrule Long Rest|XUA2022ExpertClasses}."
 			]
@@ -2012,6 +3235,7 @@
 					]
 				}
 			],
+			"repeatable": false,
 			"resist": [
 				{
 					"choose": {
@@ -2029,7 +3253,6 @@
 					}
 				}
 			],
-			"repeatable": false,
 			"entries": [
 				"You gain Resistance to one of the following Damage Types of your choice: Acid, Cold, Fire, Lightning, Necrotic, Poison, Psychic, Radiant, or Thunder.",
 				"Whenever you finish a Short Rest or a {@variantrule Long Rest|XUA2022ExpertClasses}, you can meditate and change that Damage Type choice."
@@ -2086,24 +3309,6 @@
 			]
 		},
 		{
-			"name": "Epic Boon of the Night Spirit",
-			"source": "XUA2022ExpertClasses",
-			"page": 18,
-			"prerequisite": [
-				{
-					"level": 20,
-					"group": [
-						"expert",
-						"mage"
-					]
-				}
-			],
-			"repeatable": false,
-			"entries": [
-				"While within Dim Light or Darkness, you can become {@condition Invisible|XUA2022ExpertClasses} as an Action. You remain {@condition Invisible|XUA2022ExpertClasses} until immediately after you take an Action or a Reaction."
-			]
-		},
-		{
 			"name": "Epic Boon of Peerless Aim",
 			"source": "XUA2022ExpertClasses",
 			"page": 18,
@@ -2145,6 +3350,7 @@
 					"level": 20
 				}
 			],
+			"repeatable": false,
 			"skillProficiencies": [
 				{
 					"athletics": true,
@@ -2167,7 +3373,6 @@
 					"persuasion": true
 				}
 			],
-			"repeatable": false,
 			"entries": [
 				"You gain Proficiency in all Skills."
 			]
@@ -2191,20 +3396,21 @@
 			]
 		},
 		{
-			"name": "Epic Boon of Undetectability",
+			"name": "Epic Boon of the Night Spirit",
 			"source": "XUA2022ExpertClasses",
-			"page": 19,
+			"page": 18,
 			"prerequisite": [
 				{
 					"level": 20,
 					"group": [
-						"expert"
+						"expert",
+						"mage"
 					]
 				}
 			],
 			"repeatable": false,
 			"entries": [
-				"You can't be seen or heard by any means\u2014magical or nonmagical\u2014while you are {@condition Hidden|XUA2022ExpertClasses}."
+				"While within Dim Light or Darkness, you can become {@condition Invisible|XUA2022ExpertClasses} as an Action. You remain {@condition Invisible|XUA2022ExpertClasses} until immediately after you take an Action or a Reaction."
 			]
 		},
 		{
@@ -2223,6 +3429,23 @@
 			"repeatable": false,
 			"entries": [
 				"As a Bonus Action, you can take the {@action Disengage} Action, which also ends the {@condition Grappled|XUA2022ExpertClasses} and the Restrained Conditions on you."
+			]
+		},
+		{
+			"name": "Epic Boon of Undetectability",
+			"source": "XUA2022ExpertClasses",
+			"page": 19,
+			"prerequisite": [
+				{
+					"level": 20,
+					"group": [
+						"expert"
+					]
+				}
+			],
+			"repeatable": false,
+			"entries": [
+				"You can't be seen or heard by any means\u2014magical or nonmagical\u2014while you are {@condition Hidden|XUA2022ExpertClasses}."
 			]
 		},
 		{
@@ -2342,6 +3565,7 @@
 					]
 				}
 			],
+			"repeatable": false,
 			"ability": [
 				{
 					"choose": {
@@ -2353,7 +3577,6 @@
 					}
 				}
 			],
-			"repeatable": false,
 			"entries": [
 				"You're an accomplished wrestler, granting you the following benefits:",
 				{
@@ -2393,12 +3616,12 @@
 					]
 				}
 			],
+			"repeatable": false,
 			"ability": [
 				{
 					"str": 1
 				}
 			],
-			"repeatable": false,
 			"entries": [
 				"You've learned to use the weight of a weapon to your advantage, letting its momentum empower your strikes. You gain the following benefits:",
 				{
@@ -2428,6 +3651,7 @@
 					"level": 4
 				}
 			],
+			"repeatable": false,
 			"ability": [
 				{
 					"choose": {
@@ -2444,7 +3668,6 @@
 					"heavy": true
 				}
 			],
-			"repeatable": false,
 			"entries": [
 				"You have trained to use Heavy Armor effectively, gaining the following benefits:",
 				{
@@ -2474,6 +3697,7 @@
 					]
 				}
 			],
+			"repeatable": false,
 			"ability": [
 				{
 					"choose": {
@@ -2485,7 +3709,6 @@
 					}
 				}
 			],
-			"repeatable": false,
 			"entries": [
 				"You can use your Heavy Armor to deflect strikes, granting you the following benefits:",
 				{
@@ -2516,6 +3739,7 @@
 					]
 				}
 			],
+			"repeatable": false,
 			"ability": [
 				{
 					"choose": {
@@ -2527,7 +3751,6 @@
 					}
 				}
 			],
-			"repeatable": false,
 			"entries": [
 				"You are adept at encouraging others, granting you the following benefits:",
 				{
@@ -2557,12 +3780,12 @@
 					]
 				}
 			],
+			"repeatable": false,
 			"ability": [
 				{
 					"int": 1
 				}
 			],
-			"repeatable": false,
 			"entries": [
 				"You have trained to rapidly recall or discover vital details, granting you the following benefits:",
 				{
@@ -2592,6 +3815,7 @@
 					"level": 1
 				}
 			],
+			"repeatable": false,
 			"armorProficiencies": [
 				{
 					"light": true,
@@ -2599,7 +3823,6 @@
 					"shield|phb": true
 				}
 			],
-			"repeatable": false,
 			"entries": [
 				"You gain the following {@variantrule Armor Training|XUA2022ExpertClasses}: Light Armor, Medium Armor, and Shield."
 			]
@@ -2618,6 +3841,7 @@
 					]
 				}
 			],
+			"repeatable": false,
 			"ability": [
 				{
 					"choose": {
@@ -2629,7 +3853,6 @@
 					}
 				}
 			],
-			"repeatable": false,
 			"entries": [
 				"You have practiced techniques useful in battling magic-users, gaining the following benefits:",
 				{
@@ -2664,6 +3887,7 @@
 					]
 				}
 			],
+			"repeatable": false,
 			"ability": [
 				{
 					"choose": {
@@ -2675,7 +3899,6 @@
 					}
 				}
 			],
-			"repeatable": false,
 			"entries": [
 				"You have practiced moving in medium armor to gain the following benefits:",
 				{
@@ -2705,6 +3928,7 @@
 					]
 				}
 			],
+			"repeatable": false,
 			"ability": [
 				{
 					"choose": {
@@ -2717,7 +3941,6 @@
 					}
 				}
 			],
-			"repeatable": false,
 			"entries": [
 				"You have developed a bond with your mounts, granting you the following benefits:",
 				{
@@ -2763,6 +3986,7 @@
 					]
 				}
 			],
+			"repeatable": false,
 			"ability": [
 				{
 					"choose": {
@@ -2774,7 +3998,6 @@
 					}
 				}
 			],
-			"repeatable": false,
 			"entries": [
 				"Quick to notice details around you, you gain the following benefits:",
 				{
@@ -2809,12 +4032,12 @@
 					]
 				}
 			],
+			"repeatable": false,
 			"ability": [
 				{
 					"str": 1
 				}
 			],
-			"repeatable": false,
 			"entries": [
 				"You have trained extensively with pole weapons that have Reach, granting you the following benefits:",
 				{
@@ -2906,6 +4129,7 @@
 					]
 				}
 			],
+			"repeatable": false,
 			"ability": [
 				{
 					"choose": {
@@ -2936,7 +4160,6 @@
 					}
 				}
 			],
-			"repeatable": false,
 			"entries": [
 				"You have studied ritual magic, granting you the following benefits:",
 				{
@@ -2971,6 +4194,7 @@
 					]
 				}
 			],
+			"repeatable": false,
 			"ability": [
 				{
 					"choose": {
@@ -2982,7 +4206,6 @@
 					}
 				}
 			],
-			"repeatable": false,
 			"entries": [
 				"You have mastered techniques to take advantage of every drop in any enemy's guard, gaining the following benefits:",
 				{
@@ -3017,12 +4240,12 @@
 					]
 				}
 			],
+			"repeatable": false,
 			"ability": [
 				{
 					"dex": 1
 				}
 			],
-			"repeatable": false,
 			"entries": [
 				"You can make shots that others find impossible, granting you the following benefits:",
 				{
@@ -3062,12 +4285,12 @@
 					]
 				}
 			],
+			"repeatable": false,
 			"ability": [
 				{
 					"str": 1
 				}
 			],
-			"repeatable": false,
 			"entries": [
 				"You've trained to use shields not just for protection, but also for offense, granting you the following benefits:",
 				{
@@ -3102,12 +4325,12 @@
 					]
 				}
 			],
+			"repeatable": false,
 			"ability": [
 				{
 					"dex": 1
 				}
 			],
-			"repeatable": false,
 			"entries": [
 				"You are expert at slinking through shadows, granting you the following benefits:",
 				{
@@ -3190,6 +4413,7 @@
 					"spellcasting2020": true
 				}
 			],
+			"repeatable": false,
 			"ability": [
 				{
 					"choose": {
@@ -3202,7 +4426,6 @@
 					}
 				}
 			],
-			"repeatable": false,
 			"entries": [
 				"You have learned techniques to enhance your attacks with certain kinds of spells, gaining the following benefits:",
 				{
@@ -3285,6 +4508,7 @@
 					"level": 4
 				}
 			],
+			"repeatable": false,
 			"ability": [
 				{
 					"choose": {
@@ -3295,7 +4519,6 @@
 					}
 				}
 			],
-			"repeatable": false,
 			"weaponProficiencies": [
 				{
 					"martial": true
@@ -3317,353 +4540,786 @@
 			]
 		}
 	],
-	"action": [
+	"spell": [
 		{
-			"name": "Attack",
-			"page": 30,
+			"name": "Aura of Vitality",
 			"source": "XUA2022ExpertClasses",
-			"time": [
-				{
-					"number": 1,
-					"unit": "action"
-				}
-			],
-			"entries": [
-				"When you take the Attack Action, you can make one attack with a Weapon or an {@variantrule Unarmed Strike|XUA2022ExpertClasses}.",
-				{
-					"type": "entries",
-					"name": "Equipping Weapons",
-					"entries": [
-						"You can equip or unequip one Weapon before or after any attack you make as part of this Action, even if the attack is with an {@variantrule Unarmed Strike|XUA2022ExpertClasses}."
-					]
-				},
-				{
-					"type": "entries",
-					"name": "Moving Between Attacks",
-					"entries": [
-						"If you {@variantrule Move|XUA2022ExpertClasses} on your turn, you can use some or all of that movement to move between the attacks of this Action if you have a feature, such as Extra Attack, that gives you more than one attack as part of the Attack Action."
-					]
-				}
-			]
+			"_copy": {
+				"name": "Aura of Vitality",
+				"source": "PHB"
+			},
+			"school": "A"
 		},
 		{
-			"name": "Dash",
+			"name": "Barkskin",
+			"source": "XUA2022ExpertClasses",
 			"page": 31,
-			"source": "XUA2022ExpertClasses",
+			"level": 2,
+			"school": "T",
 			"time": [
 				{
 					"number": 1,
-					"unit": "action"
+					"unit": "bonus"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "touch"
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": "a handful of bark"
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "hour",
+						"amount": 1
+					},
+					"concentration": true
 				}
 			],
 			"entries": [
-				"Taking the Dash Action allows you to make a bonus {@variantrule Move|XUA2022ExpertClasses} during the current turn"
-			]
-		},
-		{
-			"name": "Help",
-			"page": 33,
-			"source": "XUA2022ExpertClasses",
-			"time": [
-				{
-					"number": 1,
-					"unit": "action"
-				}
+				"You touch one willing creature to protect it with regenerating bark. Until the Spell ends, the target's skin assumes a bark-like appearance, and at the start of each of the target's turns, the target gains a number of Temporary Hit Points equal to your Spellcasting Ability Modifier plus your Proficiency Bonus."
 			],
-			"entries": [
-				"When you take the Help Action, you do one of the following:",
-				{
-					"type": "list",
-					"style": "list-hang-notitle",
-					"items": [
-						{
-							"type": "item",
-							"name": "Assist Ability Check",
-							"entries": [
-								"Choose one of your Skill Proficiencies and one ally who can see or hear you. You give Advantage to the next {@variantrule Ability Check|XUA2022ExpertClasses} that ally makes with the chosen Skill. This benefit expires if the ally doesn't use it before the start of your next turn. To give this assistance, you must be near enough to the ally to assist verbally or physically when the ally makes the check. The DM has final say on whether your assistance is possible."
-							]
-						},
-						{
-							"type": "item",
-							"name": "Assist Attack Roll",
-							"entries": [
-								"You momentarily distract an enemy within 5 feet of you, granting Advantage to the next {@variantrule Attack Roll|XUA2022ExpertClasses} by one of your allies against that enemy. This benefit expires at the start of your next turn."
-							]
-						}
-					]
-				}
-			]
-		},
-		{
-			"name": "Hide",
-			"page": 33,
-			"source": "XUA2022ExpertClasses",
-			"time": [
-				{
-					"number": 1,
-					"unit": "action"
-				}
-			],
-			"entries": [
-				"With the Hide Action, you try to conceal yourself. To do so, you must make a {@dc 15} Dexterity Check ({@skill Stealth}) while you're Heavily Obscured or behind Three-Quarters Cover or Total Cover, and you must be out of any visible enemy's line of sight; if you can see a creature, you can discern whether it can see you.",
-				"On a successful check, you are {@condition Hidden|XUA2022ExpertClasses}. Make note of your check's total, which becomes the DC for a creature to find you with a Wisdom Check ({@skill Perception})."
-			]
-		},
-		{
-			"name": "Influence",
-			"page": 33,
-			"source": "XUA2022ExpertClasses",
-			"time": [
-				{
-					"number": 1,
-					"unit": "action"
-				}
-			],
-			"entries": [
-				"With the Influence Action, you can try to influence another creature to do something you request or demand. This Action can be used only on creatures controlled by the DM, and it isn't mind control; it can't force a creature to do something that is counter to the creature's alignment or that is otherwise repugnant to the creature.",
-				"This Action has three main parts: Attitude, interaction, and a Charisma Check.",
+			"entriesHigherLevel": [
 				{
 					"type": "entries",
-					"name": "Attitude",
+					"name": "At Higher Levels",
 					"entries": [
-						"A creature's Attitude determines how a character can influence that creature. Each DM-controlled creature has one of the following Attitudes toward the player characters:",
-						{
-							"type": "list",
-							"style": "list-hang-notitle",
-							"items": [
-								{
-									"type": "item",
-									"name": "Indifferent",
-									"entries": [
-										"This is the default Attitude for DMcontrolled creatures. An Indifferent creature might help or hinder the party, depending on what the creature sees as most beneficial. A creature's indifference doesn't necessarily make it standoffish or disinterested. Indifferent creatures might be polite and genial, surly and irritable, or anything in between. A successful Charisma Check is often necessary when the adventurers try to persuade an Indifferent creature to do something."
-									]
-								},
-								{
-									"type": "item",
-									"name": "Friendly",
-									"entries": [
-										"A Friendly creature wants to help the adventurers and wishes for them to succeed. For tasks or actions that require no particular risk, effort, or cost, Friendly creatures often help happily. If an element of personal risk is involved, a successful Charisma Check might be required to convince a Friendly creature to take that risk."
-									]
-								},
-								{
-									"type": "item",
-									"name": "Hostile",
-									"entries": [
-										"A Hostile creature opposes the adventurers and their goals but doesn't necessarily attack them on sight. The adventurers need to succeed on one or more challenging Charisma Checks to convince a Hostile creature to do anything on the party's behalf; however, the DM might determine that the Hostile creature is so ill-disposed toward the characters that no Charisma Check can sway it, in which case the first check fails automatically and no further Influence attempts can be made on the creature unless its Attitude shifts."
-									]
-								}
-							]
-						}
+						"When you cast this Spell using a Spell Slot of 3rd level or higher, you can target one additional willing creature for each slot level above 2nd."
 					]
-				},
+				}
+			],
+			"miscTags": [
+				"THP"
+			]
+		},
+		{
+			"name": "Blindness/Deafness",
+			"source": "XUA2022ExpertClasses",
+			"_copy": {
+				"name": "Blindness/Deafness",
+				"source": "PHB"
+			},
+			"school": "T"
+		},
+		{
+			"name": "Contingency",
+			"source": "XUA2022ExpertClasses",
+			"_copy": {
+				"name": "Contingency",
+				"source": "PHB"
+			},
+			"school": "A"
+		},
+		{
+			"name": "Cure Wounds",
+			"source": "XUA2022ExpertClasses",
+			"_copy": {
+				"name": "Cure Wounds",
+				"source": "PHB"
+			},
+			"school": "A"
+		},
+		{
+			"name": "Earthquake",
+			"source": "XUA2022ExpertClasses",
+			"_copy": {
+				"name": "Earthquake",
+				"source": "PHB"
+			},
+			"school": "T"
+		},
+		{
+			"name": "Flaming Sphere",
+			"source": "XUA2022ExpertClasses",
+			"_copy": {
+				"name": "Flaming Sphere",
+				"source": "PHB"
+			},
+			"school": "V"
+		},
+		{
+			"name": "Glibness",
+			"source": "XUA2022ExpertClasses",
+			"_copy": {
+				"name": "Glibness",
+				"source": "PHB"
+			},
+			"school": "E"
+		},
+		{
+			"name": "Guidance",
+			"source": "XUA2022ExpertClasses",
+			"page": 32,
+			"level": 0,
+			"school": "D",
+			"time": [
+				{
+					"number": 1,
+					"unit": "reaction",
+					"condition": "which you take in response to you or an ally within 30 feet of you failing an {@variantrule Ability Check|XUA2022ExpertClasses}"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 30
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"entries": [
+				"You channel magical insight to the creature who failed the {@variantrule Ability Check|XUA2022ExpertClasses}. That creature can roll a {@dice d4} and add the number rolled to the check, potentially turning it into a success.",
+				"Once a creature rolls the die for this Spell, that creature can't benefit from the Spell again until the creature finishes a {@variantrule Long Rest|XUA2022ExpertClasses}."
+			]
+		},
+		{
+			"name": "Hallow",
+			"source": "XUA2022ExpertClasses",
+			"_copy": {
+				"name": "Hallow",
+				"source": "PHB"
+			},
+			"school": "A"
+		},
+		{
+			"name": "Heal",
+			"source": "XUA2022ExpertClasses",
+			"_copy": {
+				"name": "Healing Word",
+				"source": "PHB"
+			},
+			"school": "A"
+		},
+		{
+			"name": "Healing Word",
+			"source": "XUA2022ExpertClasses",
+			"_copy": {
+				"name": "Healing Word",
+				"source": "PHB"
+			},
+			"school": "A"
+		},
+		{
+			"name": "Mass Cure Wounds",
+			"source": "XUA2022ExpertClasses",
+			"_copy": {
+				"name": "Mass Cure Wounds",
+				"source": "PHB"
+			},
+			"school": "A"
+		},
+		{
+			"name": "Mass Heal",
+			"source": "XUA2022ExpertClasses",
+			"_copy": {
+				"name": "Mass Heal",
+				"source": "PHB"
+			},
+			"school": "A"
+		},
+		{
+			"name": "Mass Healing Word",
+			"source": "XUA2022ExpertClasses",
+			"_copy": {
+				"name": "Mass Healing Word",
+				"source": "PHB"
+			},
+			"school": "A"
+		},
+		{
+			"name": "Power Word Heal",
+			"source": "XUA2022ExpertClasses",
+			"_copy": {
+				"name": "Power Word Heal",
+				"source": "PHB"
+			},
+			"school": "A"
+		},
+		{
+			"name": "Prayer of Healing",
+			"source": "XUA2022ExpertClasses",
+			"_copy": {
+				"name": "Prayer of Healing",
+				"source": "PHB"
+			},
+			"school": "A"
+		},
+		{
+			"name": "Produce Flame",
+			"source": "XUA2022ExpertClasses",
+			"_copy": {
+				"name": "Produce Flame",
+				"source": "PHB"
+			},
+			"school": "V"
+		},
+		{
+			"name": "Reincarnate",
+			"source": "XUA2022ExpertClasses",
+			"_copy": {
+				"name": "Reincarnate",
+				"source": "PHB"
+			},
+			"school": "N"
+		},
+		{
+			"name": "Sending",
+			"source": "XUA2022ExpertClasses",
+			"_copy": {
+				"name": "Sending",
+				"source": "PHB"
+			},
+			"school": "D"
+		},
+		{
+			"name": "Shatter",
+			"source": "XUA2022ExpertClasses",
+			"_copy": {
+				"name": "Shatter",
+				"source": "PHB"
+			},
+			"school": "T"
+		},
+		{
+			"name": "Stoneskin",
+			"source": "XUA2022ExpertClasses",
+			"_copy": {
+				"name": "Stoneskin",
+				"source": "PHB"
+			},
+			"school": "T"
+		},
+		{
+			"name": "Telepathy",
+			"source": "XUA2022ExpertClasses",
+			"_copy": {
+				"name": "Telepathy",
+				"source": "PHB"
+			},
+			"school": "D"
+		}
+	],
+	"spellList": [
+		{
+			"name": "Arcane",
+			"source": "XUA2022ExpertClasses",
+			"spellListType": "groups",
+			"spells": [
+				"acid splash",
+				"blade ward",
+				"chill touch",
+				"dancing lights",
+				"fire bolt",
+				"friends",
+				"light",
+				"mage hand",
+				"mending",
+				"message",
+				"minor illusion",
+				"poison spray",
+				"prestidigitation",
+				"ray of frost",
+				"shocking grasp",
+				"true strike",
+				"vicious mockery",
+				"alarm",
+				"armor of agathys",
+				"arms of hadar",
+				"burning hands",
+				"charm person",
+				"chromatic orb",
+				"color spray",
+				"comprehend languages",
+				"detect magic",
+				"disguise self",
+				"dissonant whispers",
+				"expeditious retreat",
+				"false life",
+				"feather fall",
+				"find familiar",
+				"fog cloud",
+				"grease",
+				"hellish rebuke",
+				"hex",
+				"identify",
+				"illusory script",
+				"jump",
+				"longstrider",
+				"mage armor",
+				"magic missile",
+				"protection from evil and good",
+				"ray of sickness",
+				"shield",
+				"silent image",
+				"sleep",
+				"tasha's hideous laughter",
+				"tenser's floating disk",
+				"thunderwave",
+				"unseen servant",
+				"witch bolt",
+				"alter self",
+				"arcane lock",
+				"blindness/deafness",
+				"blur",
+				"calm emotions",
+				"cloud of daggers",
+				"continual flame",
+				"crown of madness",
+				"darkness",
+				"darkvision",
+				"detect thoughts",
+				"enlarge/reduce",
+				"enthrall",
+				"flaming sphere",
+				"gust of wind",
+				"hold person",
+				"invisibility",
+				"knock",
+				"levitate",
+				"locate object",
+				"nystul's magic aura",
+				"magic mouth",
+				"magic weapon",
+				"melf's acid arrow",
+				"mirror image",
+				"misty step",
+				"phantasmal force",
+				"ray of enfeeblement",
+				"rope trick",
+				"scorching ray",
+				"see invisibility",
+				"shatter",
+				"spider climb",
+				"suggestion",
+				"web",
+				"animate dead",
+				"bestow curse",
+				"blink",
+				"clairvoyance",
+				"counterspell",
+				"dispel magic",
+				"fear",
+				"fireball",
+				"fly",
+				"gaseous form",
+				"glyph of warding",
+				"haste",
+				"hunger of hadar",
+				"hypnotic pattern",
+				"leomund's tiny hut",
+				"lightning bolt",
+				"magic circle",
+				"major image",
+				"nondetection",
+				"phantom steed",
+				"protection from energy",
+				"remove curse",
+				"sending",
+				"sleet storm",
+				"slow",
+				"stinking cloud",
+				"tongues",
+				"vampiric touch",
+				"water breathing",
+				"arcane eye",
+				"banishment",
+				"blight",
+				"compulsion",
+				"confusion",
+				"conjure minor elementals",
+				"control water",
+				"dimension door",
+				"evard's black tentacles",
+				"fabricate",
+				"fire shield",
+				"greater invisibility",
+				"hallucinatory terrain",
+				"ice storm",
+				"leomund's secret chest",
+				"locate creature",
+				"mordenkainen's faithful hound",
+				"mordenkainen's private sanctum",
+				"otiluke's resilient sphere",
+				"phantasmal killer",
+				"polymorph",
+				"stone shape",
+				"stoneskin",
+				"wall of fire",
+				"animate objects",
+				"bigby's hand",
+				"cloudkill",
+				"cone of cold",
+				"conjure elemental",
+				"contact other plane",
+				"creation",
+				"dominate person",
+				"dream",
+				"geas",
+				"hold monster",
+				"legend lore",
+				"mislead",
+				"modify memory",
+				"passwall",
+				"planar binding",
+				"rary's telepathic bond",
+				"scrying",
+				"seeming",
+				"telekinesis",
+				"teleportation circle",
+				"wall of force",
+				"wall of stone",
+				"arcane gate",
+				"chain lightning",
+				"circle of death",
+				"contingency",
+				"create undead",
+				"disintegrate",
+				"eyebite",
+				"flesh to stone",
+				"globe of invulnerability",
+				"guards and wards",
+				"drawmij's instant summons",
+				"magic jar",
+				"mass suggestion",
+				"move earth",
+				"otiluke's freezing sphere",
+				"otto's irresistible dance",
+				"programmed illusion",
+				"sunbeam",
+				"true seeing",
+				"wall of ice",
+				"delayed blast fireball",
+				"etherealness",
+				"finger of death",
+				"forcecage",
+				"mirage arcane",
+				"mordenkainen's magnificent mansion",
+				"mordenkainen's sword",
+				"plane shift",
+				"prismatic spray",
+				"project image",
+				"reverse gravity",
+				"sequester",
+				"simulacrum",
+				"symbol",
+				"teleport",
+				"antimagic field",
+				"antipathy/sympathy",
+				"clone",
+				"control weather",
+				"demiplane",
+				"dominate monster",
+				"feeblemind",
+				"glibness",
+				"incendiary cloud",
+				"maze",
+				"mind blank",
+				"power word stun",
+				"sunburst",
+				"telepathy",
+				"astral projection",
+				"foresight",
+				"gate",
+				"imprisonment",
+				"meteor swarm",
+				"power word kill",
+				"prismatic wall",
+				"shapechange",
+				"time stop",
+				"true polymorph",
+				"weird",
+				"wish"
+			]
+		},
+		{
+			"name": "Divine",
+			"source": "XUA2022ExpertClasses",
+			"spellListType": "groups",
+			"spells": [
+				"guidance",
+				"light",
+				"resistance",
+				"sacred flame",
+				"spare the dying",
+				"thaumaturgy",
+				"bane",
+				"bless",
+				"command",
+				"compelled duel",
+				"cure wounds",
+				"detect evil and good",
+				"detect magic",
+				"detect poison and disease",
+				"divine favor",
+				"guiding bolt",
+				"healing word",
+				"heroism",
+				"inflict wounds",
+				"protection from evil and good",
+				"purify food and drink",
+				"sanctuary",
+				"searing smite",
+				"shield of faith",
+				"thunderous smite",
+				"wrathful smite",
+				"aid",
+				"augury",
+				"blindness/deafness",
+				"branding smite",
+				"calm emotions",
+				"find steed",
+				"find traps",
+				"gentle repose",
+				"hold person",
+				"lesser restoration",
+				"locate object",
+				"magic weapon",
+				"prayer of healing",
+				"protection from poison",
+				"silence",
+				"spiritual weapon",
+				"warding bond",
+				"zone of truth",
+				"aura of vitality",
+				"beacon of hope",
+				"blinding smite",
+				"clairvoyance",
+				"create food and water",
+				"crusader's mantle",
+				"daylight",
+				"dispel magic",
+				"feign death",
+				"glyph of warding",
+				"magic circle",
+				"mass healing word",
+				"remove curse",
+				"revivify",
+				"speak with dead",
+				"spirit guardians",
+				"tongues",
+				"aura of life",
+				"aura of purity",
+				"banishment",
+				"death ward",
+				"divination",
+				"freedom of movement",
+				"guardian of faith",
+				"locate creature",
+				"staggering smite",
+				"banishing smite",
+				"circle of power",
+				"commune",
+				"contagion",
+				"destructive wave",
+				"dispel evil and good",
+				"flame strike",
+				"geas",
+				"greater restoration",
+				"hallow",
+				"legend lore",
+				"mass cure wounds",
+				"planar binding",
+				"raise dead",
+				"scrying",
+				"blade barrier",
+				"find the path",
+				"forbiddance",
+				"harm",
+				"heal",
+				"heroes' feast",
+				"planar ally",
+				"sunbeam",
+				"true seeing",
+				"word of recall",
+				"conjure celestial",
+				"divine word",
+				"etherealness",
+				"plane shift",
+				"regenerate",
+				"resurrection",
+				"symbol",
+				"antimagic field",
+				"antipathy/sympathy",
+				"holy aura",
+				"sunburst",
+				"astral projection",
+				"foresight",
+				"gate",
+				"mass heal",
+				"power word heal",
+				"true resurrection"
+			]
+		},
+		{
+			"name": "Primal",
+			"source": "XUA2022ExpertClasses",
+			"spellListType": "groups",
+			"spells": [
+				"druidcraft",
+				"guidance",
+				"mending",
+				"message",
+				"poison spray",
+				"produce flame",
+				"resistance",
+				"shillelagh",
+				"spare the dying",
+				"thorn whip",
+				"animal friendship",
+				"create or destroy water",
+				"cure wounds",
+				"detect magic",
+				"detect poison and disease",
+				"ensnaring strike",
+				"entangle",
+				"faerie fire",
+				"fog cloud",
+				"goodberry",
+				"hail of thorns",
+				"healing word",
+				"hunter's mark",
+				"jump",
+				"longstrider",
+				"purify food and drink",
+				"speak with animals",
+				"thunderwave",
+				"animal messenger",
+				"augury",
+				"barkskin",
+				"beast sense",
+				"cordon of arrows",
+				"darkvision",
+				"enhance ability",
+				"enlarge/reduce",
+				"find traps",
+				"flame blade",
+				"flaming sphere",
+				"gentle repose",
+				"gust of wind",
+				"heat metal",
+				"lesser restoration",
+				"locate animals or plants",
+				"locate object",
+				"moonbeam",
+				"pass without trace",
+				"protection from poison",
+				"silence",
+				"spike growth",
+				"call lightning",
+				"conjure animals",
+				"conjure barrage",
+				"daylight",
+				"dispel magic",
+				"elemental weapon",
+				"feign death",
+				"lightning arrow",
+				"meld into stone",
+				"nondetection",
+				"plant growth",
+				"protection from energy",
+				"revivify",
+				"sleet storm",
+				"speak with plants",
+				"water breathing",
+				"water walk",
+				"wind wall",
+				"conjure minor elementals",
+				"conjure woodland beings",
+				"control water",
+				"dominate beast",
+				"freedom of movement",
+				"giant insect",
+				"grasping vine",
+				"ice storm",
+				"locate creature",
+				"polymorph",
+				"stone shape",
+				"stoneskin",
+				"wall of fire",
+				"antilife shell",
+				"awaken",
+				"commune with nature",
+				"conjure elemental",
+				"conjure volley",
+				"greater restoration",
+				"insect plague",
+				"mass cure wounds",
+				"reincarnate",
+				"scrying",
+				"swift quiver",
+				"tree stride",
+				"wall of stone",
+				"conjure fey",
+				"find the path",
+				"heal",
+				"move earth",
+				"sunbeam",
+				"transport via plants",
+				"wall of ice",
+				"wall of thorns",
+				"wind walk",
+				"fire storm",
+				"regenerate",
+				"reverse gravity",
+				"animal shapes",
+				"control weather",
+				"earthquake",
+				"sunburst",
+				"tsunami",
+				"power word heal",
+				"shapechange",
+				"storm of vengeance",
+				"true resurrection"
+			]
+		}
+	],
+	"baseitem": [
+		{
+			"name": "Shortsword",
+			"source": "XUA2022ExpertClasses",
+			"page": 25,
+			"type": "M",
+			"rarity": "none",
+			"weight": 2,
+			"value": 1000,
+			"weaponCategory": "simple",
+			"property": [
+				"F",
+				"XUA2022ClericAndRevisedSpecies-L"
+			],
+			"dmg1": "1d6",
+			"dmgType": "P",
+			"sword": true,
+			"weapon": true
+		}
+	],
+	"itemProperty": [
+		{
+			"abbreviation": "XUA2022ClericAndRevisedSpecies-L",
+			"source": "XUA2022ExpertClasses",
+			"page": 21,
+			"entries": [
 				{
 					"type": "entries",
-					"name": "Interaction",
+					"name": "Light",
 					"entries": [
-						"When you take the Influence Action, either roleplay how your character interacts with the creature or describe your character's behavior\u2014focusing on your character's request or demand. If the interaction is especially suited to the creature's desires and outlook, the DM might grant Advantage to your subsequent check or might temporarily shift a Hostile creature to Indifferent or an Indifferent creature to Friendly.",
-						"Similarly, if the interaction is particularly irksome to the creature, the DM might impose Disadvantage on your subsequent check or might temporarily shift a Friendly creature to Indifferent or an Indifferent creature to Hostile."
-					]
-				},
-				{
-					"type": "entries",
-					"name": "Ability Check",
-					"entries": [
-						"To determine whether your request or demand is successful, you make a Charisma Check ({@skill Animal Handling}, {@skill Deception}, {@skill Intimidation}, or {@skill Persuasion}); the applicable Skill depends on the interaction, with {@skill Animal Handling} being reserved for Beasts and Monstrosities. Also, each request or demand requires a different check.",
-						"The creature's Attitude determines the DC required to achieve a specific response, as shown in the Influence Responses table."
-					]
-				},
-				{
-					"type": "tableGroup",
-					"name": "Influence Responses",
-					"tables": [
-						{
-							"type": "table",
-							"caption": "Influence Responses",
-							"colLabels": [
-								"DC",
-								"Indifferent Creature's Response"
-							],
-							"colStyles": [
-								"col-1 text-center",
-								"col-11"
-							],
-							"rows": [
-								[
-									"10",
-									"The creature does as asked, as long as no risks or sacrifices are involved."
-								],
-								[
-									"20",
-									"The creature accepts a minor risk or sacrifice to do as asked."
-								]
-							]
-						},
-						{
-							"type": "table",
-							"colLabels": [
-								"DC",
-								"Friendly Creature's Response"
-							],
-							"colStyles": [
-								"col-1 text-center",
-								"col-11"
-							],
-							"rows": [
-								[
-									"10",
-									"The creature accepts a minor risk or sacrifice to do as asked."
-								],
-								[
-									"20",
-									"The creature accepts a significant risk or sacrifice to do as asked."
-								]
-							]
-						},
-						{
-							"type": "table",
-							"colLabels": [
-								"DC",
-								"Hostile Creature's Response"
-							],
-							"colStyles": [
-								"col-1 text-center",
-								"col-11"
-							],
-							"rows": [
-								[
-									"10",
-									"The creature offers no help but does no harm."
-								],
-								[
-									"20",
-									"The creature does as asked, as long as no risks or sacrifices are involved."
-								]
-							]
-						}
-					]
-				}
-			]
-		},
-		{
-			"name": "Jump",
-			"page": 35,
-			"source": "XUA2022ExpertClasses",
-			"time": [
-				{
-					"number": 1,
-					"unit": "action"
-				}
-			],
-			"entries": [
-				"With the Jump Action, you attempt to leap more than 5 feet (a jump of 5 feet or less is treated as {@variantrule Difficult Terrain|XUA2022ExpertClasses}). When you take this Action, your Speed must be greater than 0, and you must make a {@dc 10} Strength Check ({@skill Acrobatics} or {@skill Athletics}). If you don't {@variantrule Move|XUA2022ExpertClasses} at least 10 feet immediately before this Action, you have Disadvantage on the check.",
-				"On a failed check, you leap 5 feet horizontally or vertically.",
-				"On a successful check, the check's total determines the distance in feet that you can clear horizontally, or half that total if you're jumping vertically (round down). This jump doesn't expend your movement, but the distance you clear can't exceed your Speed."
-			]
-		},
-		{
-			"name": "Magic",
-			"page": 35,
-			"source": "XUA2022ExpertClasses",
-			"time": [
-				{
-					"number": 1,
-					"unit": "action"
-				}
-			],
-			"entries": [
-				"When you take the Magic Action, you cast a Spell that has a casting time of an Action, or you use a Magic Item that requires an Action to be activated.",
-				"If you cast a Spell that has a casting time of 1 minute or longer, you must take the Magic Action on each turn of that casting, and you must maintain Concentration while you do so. If your Concentration is broken, the Spell fails, but you don't expend a Spell Slot."
-			]
-		},
-		{
-			"name": "Search",
-			"page": 36,
-			"source": "XUA2022ExpertClasses",
-			"time": [
-				{
-					"number": 1,
-					"unit": "action"
-				}
-			],
-			"entries": [
-				"When you take the Search Action, you make a Wisdom Check to discern something that isn't obvious. The Search table suggests which Skills are applicable when you take this Action, depending on what you're trying to detect.",
-				{
-					"type": "table",
-					"caption": "Search",
-					"colLabels": [
-						"Skill",
-						"Thing to Detect"
-					],
-					"colStyles": [
-						"col-3",
-						"col-9"
-					],
-					"rows": [
-						[
-							"{@skill Insight}",
-							"Creature's state of mind"
-						],
-						[
-							"{@skill Medicine}",
-							"Creature's ailment"
-						],
-						[
-							"{@skill Perception}",
-							"Concealed creature or object"
-						],
-						[
-							"{@skill Survival}",
-							"Tracks or food"
-						]
-					]
-				}
-			]
-		},
-		{
-			"name": "Study",
-			"page": 36,
-			"source": "XUA2022ExpertClasses",
-			"time": [
-				{
-					"number": 1,
-					"unit": "action"
-				}
-			],
-			"entries": [
-				"When you take the Study Action, you make an Intelligence Check to study your memory, a book, a creature, a clue, an object, or another source of knowledge and call to mind an important piece of information about it.",
-				"The Areas of Knowledge table suggests which Skills are applicable when you take this Action, depending on the area of knowledge the Intelligence Check is about.",
-				{
-					"type": "table",
-					"caption": "Areas of Knowledge",
-					"colLabels": [
-						"Skill",
-						"Areas"
-					],
-					"colStyles": [
-						"col-1",
-						"col-11"
-					],
-					"rows": [
-						[
-							"{@skill Arcana}",
-							"Spells, magic items, eldritch symbols, magical traditions, planes of existence, and certain creatures (Aberrations, Constructs, Elementals, Fey, and Monstrosities)"
-						],
-						[
-							"{@skill History}",
-							"Historic events and people, ancient civilizations, wars, and certain creatures (Giants and Humanoids)"
-						],
-						[
-							"{@skill Investigation}",
-							"Traps, ciphers, riddles, and gadgetry"
-						],
-						[
-							"{@skill Nature}",
-							"Terrain, flora, weather, and certain creatures (Beasts, Dragons, Oozes, and Plants)"
-						],
-						[
-							"{@skill Religion}",
-							"Deities, religious hierarchies and rites, holy symbols, cults, and certain creatures (Celestials, Fiends, and Undead)"
-						]
+						"When you take the Attack Action on your turn and attack with a Light weapon in one hand, you can make one extra attack as part of the same Action. That extra attack must be made with a different Light weapon in the other hand, and you don't add your Ability Modifier to the extra attack's damage. You can make this extra attack only once on each of your turns.",
+						"For example, if you take the Attack Action on your turn and have a Shortsword in one hand and a Dagger in the other\u2014each of which has the Light property\u2014you can make one attack with each weapon, but you don't add your Strength or Dexterity Modifier to the damage roll of the second weapon."
 					]
 				}
 			]
@@ -3671,45 +5327,8 @@
 	],
 	"variantrule": [
 		{
-			"source": "XUA2022ExpertClasses",
-			"name": "Rules Glossary",
-			"entries": [
-				{
-					"type": "list",
-					"columns": 3,
-					"items": [
-						"{@variantrule Ability Check|XUA2022ExpertClasses}",
-						"{@variantrule Armor Training|XUA2022ExpertClasses}",
-						"{@variantrule Artisan's Tools|XUA2022ExpertClasses}",
-						"{@variantrule Attack Roll|XUA2022ExpertClasses}",
-						"{@variantrule Arcane Spells|XUA2022ExpertClasses}",
-						"{@variantrule Blindsight|XUA2022ExpertClasses}",
-						"{@variantrule Climb Speed|XUA2022ExpertClasses}",
-						"{@variantrule Creature Type|XUA2022ExpertClasses}",
-						"{@variantrule D20 Tests|XUA2022ExpertClasses}",
-						"{@variantrule Difficult Terrain|XUA2022ExpertClasses}",
-						"{@variantrule Divine Spells|XUA2022ExpertClasses}",
-						"{@variantrule Expertise|XUA2022ExpertClasses}",
-						"{@variantrule Fly Speed|XUA2022ExpertClasses}",
-						"{@variantrule Gaming Set|XUA2022ExpertClasses}",
-						"{@variantrule Heroic Inspiration|XUA2022ExpertClasses}",
-						"{@variantrule Long Rest|XUA2022ExpertClasses}",
-						"{@variantrule Move|XUA2022ExpertClasses}",
-						"{@variantrule Musical Instrument|XUA2022ExpertClasses}",
-						"{@variantrule Primal Spells|XUA2022ExpertClasses}",
-						"{@variantrule Ritual Casting|XUA2022ExpertClasses}",
-						"{@variantrule Swim Speed|XUA2022ExpertClasses}",
-						"{@variantrule Tool Proficiency|XUA2022ExpertClasses}",
-						"{@variantrule Teleportation|XUA2022ExpertClasses}",
-						"{@variantrule Tremorsense|XUA2022ExpertClasses}",
-						"{@variantrule Unarmed Strike|XUA2022ExpertClasses}"
-					]
-				}
-			]
-		},
-		{
-			"source": "XUA2022ExpertClasses",
 			"name": "Ability Check",
+			"source": "XUA2022ExpertClasses",
 			"entries": [
 				"The Ability Check is one of three types of {@dice d20} Tests. The rules often call for an Ability Check, and the DM can also call for an Ability Check, determining which ability to use when a creature attempts something (other than an {@variantrule Attack Roll|XUA2022ExpertClasses} or a Saving Throw) that has a chance of meaningful failure. When the outcome is uncertain and narratively interesting, the dice determine the results.",
 				"The Ability Check has the following special rules.",
@@ -3777,8 +5396,15 @@
 			]
 		},
 		{
+			"name": "Arcane Spells",
 			"source": "XUA2022ExpertClasses",
+			"entries": [
+				"An Arcane Spell draws on the ambient magic of the multiverse. Bards, Sorcerers, Warlocks, and Wizards harness this magic, as do Artificers. For a partial list of Arcane Spells, see the \"{@variantrule Spell Lists|XUA2022ExpertClasses}\" section elsewhere in this document."
+			]
+		},
+		{
 			"name": "Armor Training",
+			"source": "XUA2022ExpertClasses",
 			"entries": [
 				"Armor Training is the new name for Armor Proficiency. Any existing rule that involves Armor Proficiency now applies to Armor Training.",
 				"If you wear Light, Medium, or Heavy Armor and lack Armor Training with that type of Armor, you have Disadvantage on any {@dice d20} Test you make that involves Strength or Dexterity, and you can't cast Spells.",
@@ -3786,44 +5412,37 @@
 			]
 		},
 		{
-			"source": "XUA2022ExpertClasses",
 			"name": "Artisan's Tools",
+			"source": "XUA2022ExpertClasses",
 			"entries": [
 				"Artisan's Tools are a category of tool with which a character can gain {@variantrule Tool Proficiency|XUA2022ExpertClasses}. For a list of Artisan's Tools, see the 2014 {@book Player's Handbook|PHB}, but ignore the prices there; those tools now cost 15 GP apiece."
 			]
 		},
 		{
-			"source": "XUA2022ExpertClasses",
 			"name": "Attack Roll",
+			"source": "XUA2022ExpertClasses",
 			"entries": [
 				"The Attack Roll is one of three types of {@dice d20} Tests. This Unearthed Arcana article uses the rules for attack rolls and critical hits found in the 2014 {@book Player's Handbook|PHB|9|Attack Rolls}."
 			]
 		},
 		{
-			"source": "XUA2022ExpertClasses",
-			"name": "Arcane Spells",
-			"entries": [
-				"An Arcane Spell draws on the ambient magic of the multiverse. Bards, Sorcerers, Warlocks, and Wizards harness this magic, as do Artificers. For a partial list of Arcane Spells, see the \"{@variantrule Spell Lists|XUA2022ExpertClasses}\" section elsewhere in this document."
-			]
-		},
-		{
-			"source": "XUA2022ExpertClasses",
 			"name": "Blindsight",
+			"source": "XUA2022ExpertClasses",
 			"entries": [
 				"If you have Blindsight, you can effectively see within a specific range without relying on physical sight. Within that range, you can effectively see anything that isn't behind Total Cover, even if you're Blinded or in Darkness. Moreover, you can effectively see a {@condition Hidden|XUA2022ExpertClasses} or an {@condition Invisible|XUA2022ExpertClasses} creature in that range."
 			]
 		},
 		{
-			"source": "XUA2022ExpertClasses",
 			"name": "Climb Speed",
+			"source": "XUA2022ExpertClasses",
 			"entries": [
 				"A Climb Speed can be used to move on a vertical surface without expending the extra movement normally associated with climbing. A Climb Speed can also be used in any situation in which your Speed is usable.",
 				"Some creatures have the Spider Climb trait, which allows their Climb Speed to work even on the underside of horizontal surfaces."
 			]
 		},
 		{
-			"source": "XUA2022ExpertClasses",
 			"name": "Creature Type",
+			"source": "XUA2022ExpertClasses",
 			"entries": [
 				"All creatures in D&D, including every player character, has a special tag in the rules that identifies the type of creature they are. Most player characters are of the Humanoid type.",
 				"Here's a list of the game's Creature Types in alphabetical order:",
@@ -3864,16 +5483,16 @@
 			]
 		},
 		{
-			"source": "XUA2022ExpertClasses",
 			"name": "D20 Tests",
+			"source": "XUA2022ExpertClasses",
 			"entries": [
 				"The term {@dice d20} Test encompasses the three main {@dice d20} rolls of the game: {@variantrule Ability Check|XUA2022ExpertClasses}s, {@variantrule Attack Roll|XUA2022ExpertClasses|Attack Rolls}, and Saving Throws. If something in the game affects {@dice d20} Tests, it affects all three of these rolls.",
 				"Whenever a player character rolls a 1 for a {@dice d20} Test, that character gains {@variantrule Heroic Inspiration|XUA2022ExpertClasses}. The DM determines whether a {@dice d20} Test is warranted in any given circumstance"
 			]
 		},
 		{
-			"source": "XUA2022ExpertClasses",
 			"name": "Difficult Terrain",
+			"source": "XUA2022ExpertClasses",
 			"entries": [
 				"If a space is Difficult Terrain, every foot of movement in that space costs 1 extra foot. For example, moving 5 feet through Difficult Terrain costs 10 feet of movement. Difficult Terrain isn't cumulative; either a space is Difficult Terrain or it isn't.",
 				"A space is Difficult Terrain for a creature if the space contains any of the following:",
@@ -3897,38 +5516,38 @@
 			]
 		},
 		{
-			"source": "XUA2022ExpertClasses",
 			"name": "Divine Spells",
+			"source": "XUA2022ExpertClasses",
 			"entries": [
 				"A Divine Spell draws on the power of gods and the Outer Planes. Clerics and Paladins harness this magic. For a partial list of Divine Spells, see the \"{@variantrule Spell Lists|XUA2022ExpertClasses}\" section elsewhere in this document."
 			]
 		},
 		{
-			"source": "XUA2022ExpertClasses",
 			"name": "Expertise",
+			"source": "XUA2022ExpertClasses",
 			"entries": [
 				"Expertise is a special feature that enhances your use of a particular Skill Proficiency. If you gain Expertise, you gain it in one Skill in which you have Proficiency. You can never have Expertise in the same Skill Proficiency more than once.",
 				"When you make an {@variantrule Ability Check|XUA2022ExpertClasses} with a Skill Proficiency in which you have Expertise, your Proficiency Bonus is doubled for that check."
 			]
 		},
 		{
-			"source": "XUA2022ExpertClasses",
 			"name": "Fly Speed",
+			"source": "XUA2022ExpertClasses",
 			"entries": [
 				"A Fly Speed can be used to move through the air. While you have a Fly Speed, you can stay aloft until you land, fall, or die.",
 				"While flying, you fall if you are {@condition Incapacitated|XUA2022ExpertClasses} or Restrained. If you have the Hover trait, you can stay aloft even while Incapacitated or Restrained"
 			]
 		},
 		{
-			"source": "XUA2022ExpertClasses",
 			"name": "Gaming Set",
+			"source": "XUA2022ExpertClasses",
 			"entries": [
 				"Gaming Sets are a category of tool with which a character can gain {@variantrule Tool Proficiency|XUA2022ExpertClasses}. For a list of Gaming Sets, see the 2014 {@book Player's Handbook|PHB}, but ignore the prices there; those sets now cost 1 GP apiece."
 			]
 		},
 		{
-			"source": "XUA2022ExpertClasses",
 			"name": "Heroic Inspiration",
+			"source": "XUA2022ExpertClasses",
 			"entries": [
 				"When you have Heroic Inspiration (also called Inspiration), you can expend it to give yourself Advantage on a {@dice d20} Test. You decide to do so immediately after rolling the {@dice d20}.",
 				"Gaining Heroic Inspiration",
@@ -3939,8 +5558,8 @@
 			]
 		},
 		{
-			"source": "XUA2022ExpertClasses",
 			"name": "Long Rest",
+			"source": "XUA2022ExpertClasses",
 			"entries": [
 				"A Long Rest is a period of extended downtime\u2014at least 8 hours long\u2014available to any creature. During a Long Rest, you sleep for at least 6 hours and perform no more than 2 hours of light activity, such as reading, talking, eating, or standing watch.",
 				"Benefits of the Rest",
@@ -3961,8 +5580,8 @@
 			]
 		},
 		{
-			"source": "XUA2022ExpertClasses",
 			"name": "Move",
+			"source": "XUA2022ExpertClasses",
 			"entries": [
 				"When you Move, you can go a distance equal to your Speed or less. For example, if you have a Speed of 30 feet, you can go up to 30 feet when you Move. {@variantrule Difficult Terrain|XUA2022ExpertClasses} can slow you down.",
 				"Breaking Up Your Move",
@@ -4001,90 +5620,67 @@
 			]
 		},
 		{
-			"source": "XUA2022ExpertClasses",
 			"name": "Musical Instrument",
+			"source": "XUA2022ExpertClasses",
 			"entries": [
 				"Musical Instruments are a category of tool with which a character can gain {@variantrule Tool Proficiency|XUA2022ExpertClasses}. For a list of Musical Instruments, see the 2014 {@book Player's Handbook|PHB}, but ignore the prices there; those instruments now cost 20 GP apiece."
 			]
 		},
 		{
-			"source": "XUA2022ExpertClasses",
 			"name": "Primal Spells",
+			"source": "XUA2022ExpertClasses",
 			"entries": [
 				"A Primal Spell draws on the forces of nature and the Inner Planes. Druids and Rangers harness this magic. For a partial list of Primal Spells, see the \"{@variantrule Spell Lists|XUA2022ExpertClasses}\" section elsewhere in this document."
 			]
 		},
 		{
-			"source": "XUA2022ExpertClasses",
 			"name": "Ritual Casting",
+			"source": "XUA2022ExpertClasses",
 			"entries": [
 				"If you have a Spell prepared that has the Ritual tag, you can cast that Spell as a Ritual. A special feature is no longer required for Ritual casting. All the other rules on Rituals in the 2014 Player's Handbook still apply."
 			]
 		},
 		{
+			"name": "Rules Glossary",
 			"source": "XUA2022ExpertClasses",
-			"name": "Swim Speed",
 			"entries": [
-				"A Swim Speed can be used to move through a liquid without expending the extra movement normally associated with swimming."
-			]
-		},
-		{
-			"source": "XUA2022ExpertClasses",
-			"name": "Tool Proficiency",
-			"entries": [
-				"If you have Proficiency with a tool, you can add your Proficiency Bonus to any {@variantrule Ability Check|XUA2022ExpertClasses} you make that uses that tool. If you have Proficiency in the Skill that's also used with that check, you have Advantage on the check too. This means you can benefit from both Skill Proficiency and Tool Proficiency on the same {@variantrule Ability Check|XUA2022ExpertClasses}"
-			]
-		},
-		{
-			"source": "XUA2022ExpertClasses",
-			"name": "Teleportation",
-			"entries": [
-				"Teleportation is a special kind of magical transportation. If you teleport, you disappear and reappear elsewhere instantly, without moving through the intervening space. This transportation doesn't expend movement, unless a rule tells you otherwise, and teleportation never provokes Opportunity Attacks.",
-				"When you teleport, all the equipment you are wearing and carrying teleports with you. If you are touching another creature when you teleport, that creature doesn't teleport with you, unless the teleportation effect says otherwise.",
-				"If the destination space of your teleportation is occupied by another creature or blocked by a solid obstacle, you instead appear in the nearest unoccupied space of your choice. The description of a teleportation effect tells you if you must see the teleportation's destination."
-			]
-		},
-		{
-			"source": "XUA2022ExpertClasses",
-			"name": "Tremorsense",
-			"entries": [
-				"A creature with Tremorsense can pinpoint the location of creatures and moving objects within a specific range, provided that the creature with Tremorsense and anything it's detecting are both in contact with the same surface (such as the ground, a wall, or a ceiling) or the same liquid.",
-				"Tremorsense can't detect creatures or objects in the air, and Tremorsense doesn't count as a form of sight."
-			]
-		},
-		{
-			"source": "XUA2022ExpertClasses",
-			"name": "Unarmed Strike",
-			"entries": [
-				"An Unarmed Strike is a melee attack that involves you using your body to damage, grapple, or shove a target within your Reach.",
-				"Your bonus to hit with an Unarmed Strike equals your Strength modifier plus your Proficiency Bonus. On a hit, your Unarmed Strike causes one of the following effects of your choice:",
 				{
-					"type": "entries",
-					"name": "Damage",
-					"entries": [
-						"The target takes Bludgeoning Damage equal to 1 + your Strength modifier."
-					]
-				},
-				{
-					"type": "entries",
-					"name": "Grapple",
-					"entries": [
-						"The target is {@condition Grappled|XUA2022ExpertClasses}, and the grapple's escape DC equals 8 + your Strength modifier + your Proficiency Bonus. This grapple is possible only if the target is no more than one Size larger than you and if you have a hand free to grab the target."
-					]
-				},
-				{
-					"type": "entries",
-					"name": "Shove",
-					"entries": [
-						"You either push the target 5 feet away or knock the target Prone. This shove is possible only if the target is no more than one Size larger than you."
+					"type": "list",
+					"columns": 3,
+					"items": [
+						"{@variantrule Ability Check|XUA2022ExpertClasses}",
+						"{@variantrule Armor Training|XUA2022ExpertClasses}",
+						"{@variantrule Artisan's Tools|XUA2022ExpertClasses}",
+						"{@variantrule Attack Roll|XUA2022ExpertClasses}",
+						"{@variantrule Arcane Spells|XUA2022ExpertClasses}",
+						"{@variantrule Blindsight|XUA2022ExpertClasses}",
+						"{@variantrule Climb Speed|XUA2022ExpertClasses}",
+						"{@variantrule Creature Type|XUA2022ExpertClasses}",
+						"{@variantrule D20 Tests|XUA2022ExpertClasses}",
+						"{@variantrule Difficult Terrain|XUA2022ExpertClasses}",
+						"{@variantrule Divine Spells|XUA2022ExpertClasses}",
+						"{@variantrule Expertise|XUA2022ExpertClasses}",
+						"{@variantrule Fly Speed|XUA2022ExpertClasses}",
+						"{@variantrule Gaming Set|XUA2022ExpertClasses}",
+						"{@variantrule Heroic Inspiration|XUA2022ExpertClasses}",
+						"{@variantrule Long Rest|XUA2022ExpertClasses}",
+						"{@variantrule Move|XUA2022ExpertClasses}",
+						"{@variantrule Musical Instrument|XUA2022ExpertClasses}",
+						"{@variantrule Primal Spells|XUA2022ExpertClasses}",
+						"{@variantrule Ritual Casting|XUA2022ExpertClasses}",
+						"{@variantrule Swim Speed|XUA2022ExpertClasses}",
+						"{@variantrule Tool Proficiency|XUA2022ExpertClasses}",
+						"{@variantrule Teleportation|XUA2022ExpertClasses}",
+						"{@variantrule Tremorsense|XUA2022ExpertClasses}",
+						"{@variantrule Unarmed Strike|XUA2022ExpertClasses}"
 					]
 				}
 			]
 		},
 		{
-			"type": "entries",
-			"source": "XUA2022ExpertClasses",
 			"name": "Spell Lists",
+			"source": "XUA2022ExpertClasses",
+			"type": "entries",
 			"entries": [
 				{
 					"type": "entries",
@@ -6862,287 +8458,107 @@
 					]
 				}
 			]
-		}
-	],
-	"spell": [
+		},
 		{
-			"name": "Barkskin",
+			"name": "Swim Speed",
 			"source": "XUA2022ExpertClasses",
-			"page": 31,
-			"level": 2,
-			"school": "T",
-			"time": [
-				{
-					"number": 1,
-					"unit": "bonus"
-				}
-			],
-			"range": {
-				"type": "point",
-				"distance": {
-					"type": "touch"
-				}
-			},
-			"components": {
-				"v": true,
-				"s": true,
-				"m": "a handful of bark"
-			},
-			"duration": [
-				{
-					"type": "timed",
-					"duration": {
-						"type": "hour",
-						"amount": 1
-					},
-					"concentration": true
-				}
-			],
 			"entries": [
-				"You touch one willing creature to protect it with regenerating bark. Until the Spell ends, the target's skin assumes a bark-like appearance, and at the start of each of the target's turns, the target gains a number of Temporary Hit Points equal to your Spellcasting Ability Modifier plus your Proficiency Bonus."
-			],
-			"entriesHigherLevel": [
+				"A Swim Speed can be used to move through a liquid without expending the extra movement normally associated with swimming."
+			]
+		},
+		{
+			"name": "Teleportation",
+			"source": "XUA2022ExpertClasses",
+			"entries": [
+				"Teleportation is a special kind of magical transportation. If you teleport, you disappear and reappear elsewhere instantly, without moving through the intervening space. This transportation doesn't expend movement, unless a rule tells you otherwise, and teleportation never provokes Opportunity Attacks.",
+				"When you teleport, all the equipment you are wearing and carrying teleports with you. If you are touching another creature when you teleport, that creature doesn't teleport with you, unless the teleportation effect says otherwise.",
+				"If the destination space of your teleportation is occupied by another creature or blocked by a solid obstacle, you instead appear in the nearest unoccupied space of your choice. The description of a teleportation effect tells you if you must see the teleportation's destination."
+			]
+		},
+		{
+			"name": "Tool Proficiency",
+			"source": "XUA2022ExpertClasses",
+			"entries": [
+				"If you have Proficiency with a tool, you can add your Proficiency Bonus to any {@variantrule Ability Check|XUA2022ExpertClasses} you make that uses that tool. If you have Proficiency in the Skill that's also used with that check, you have Advantage on the check too. This means you can benefit from both Skill Proficiency and Tool Proficiency on the same {@variantrule Ability Check|XUA2022ExpertClasses}"
+			]
+		},
+		{
+			"name": "Tremorsense",
+			"source": "XUA2022ExpertClasses",
+			"entries": [
+				"A creature with Tremorsense can pinpoint the location of creatures and moving objects within a specific range, provided that the creature with Tremorsense and anything it's detecting are both in contact with the same surface (such as the ground, a wall, or a ceiling) or the same liquid.",
+				"Tremorsense can't detect creatures or objects in the air, and Tremorsense doesn't count as a form of sight."
+			]
+		},
+		{
+			"name": "Unarmed Strike",
+			"source": "XUA2022ExpertClasses",
+			"entries": [
+				"An Unarmed Strike is a melee attack that involves you using your body to damage, grapple, or shove a target within your Reach.",
+				"Your bonus to hit with an Unarmed Strike equals your Strength modifier plus your Proficiency Bonus. On a hit, your Unarmed Strike causes one of the following effects of your choice:",
 				{
 					"type": "entries",
-					"name": "At Higher Levels",
+					"name": "Damage",
 					"entries": [
-						"When you cast this Spell using a Spell Slot of 3rd level or higher, you can target one additional willing creature for each slot level above 2nd."
+						"The target takes Bludgeoning Damage equal to 1 + your Strength modifier."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Grapple",
+					"entries": [
+						"The target is {@condition Grappled|XUA2022ExpertClasses}, and the grapple's escape DC equals 8 + your Strength modifier + your Proficiency Bonus. This grapple is possible only if the target is no more than one Size larger than you and if you have a hand free to grab the target."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Shove",
+					"entries": [
+						"You either push the target 5 feet away or knock the target Prone. This shove is possible only if the target is no more than one Size larger than you."
 					]
 				}
-			],
-			"miscTags": [
-				"THP"
 			]
-		},
-		{
-			"name": "Guidance",
-			"source": "XUA2022ExpertClasses",
-			"page": 32,
-			"level": 0,
-			"school": "D",
-			"time": [
-				{
-					"number": 1,
-					"unit": "reaction",
-					"condition": "which you take in response to you or an ally within 30 feet of you failing an {@variantrule Ability Check|XUA2022ExpertClasses}"
-				}
-			],
-			"range": {
-				"type": "point",
-				"distance": {
-					"type": "feet",
-					"amount": 30
-				}
-			},
-			"components": {
-				"v": true,
-				"s": true
-			},
-			"duration": [
-				{
-					"type": "instant"
-				}
-			],
-			"entries": [
-				"You channel magical insight to the creature who failed the {@variantrule Ability Check|XUA2022ExpertClasses}. That creature can roll a {@dice d4} and add the number rolled to the check, potentially turning it into a success.",
-				"Once a creature rolls the die for this Spell, that creature can't benefit from the Spell again until the creature finishes a {@variantrule Long Rest|XUA2022ExpertClasses}."
-			]
-		},
-		{
-			"name": "Aura of Vitality",
-			"source": "XUA2022ExpertClasses",
-			"_copy": {
-				"name": "Aura of Vitality",
-				"source": "PHB"
-			},
-			"school": "A"
-		},
-		{
-			"name": "Blindness/Deafness",
-			"source": "XUA2022ExpertClasses",
-			"_copy": {
-				"name": "Blindness/Deafness",
-				"source": "PHB"
-			},
-			"school": "T"
-		},
-		{
-			"name": "Contingency",
-			"source": "XUA2022ExpertClasses",
-			"_copy": {
-				"name": "Contingency",
-				"source": "PHB"
-			},
-			"school": "A"
-		},
-		{
-			"name": "Cure Wounds",
-			"source": "XUA2022ExpertClasses",
-			"_copy": {
-				"name": "Cure Wounds",
-				"source": "PHB"
-			},
-			"school": "A"
-		},
-		{
-			"name": "Earthquake",
-			"source": "XUA2022ExpertClasses",
-			"_copy": {
-				"name": "Earthquake",
-				"source": "PHB"
-			},
-			"school": "T"
-		},
-		{
-			"name": "Flaming Sphere",
-			"source": "XUA2022ExpertClasses",
-			"_copy": {
-				"name": "Flaming Sphere",
-				"source": "PHB"
-			},
-			"school": "V"
-		},
-		{
-			"name": "Glibness",
-			"source": "XUA2022ExpertClasses",
-			"_copy": {
-				"name": "Glibness",
-				"source": "PHB"
-			},
-			"school": "E"
-		},
-		{
-			"name": "Hallow",
-			"source": "XUA2022ExpertClasses",
-			"_copy": {
-				"name": "Hallow",
-				"source": "PHB"
-			},
-			"school": "A"
-		},
-		{
-			"name": "Heal",
-			"source": "XUA2022ExpertClasses",
-			"_copy": {
-				"name": "Healing Word",
-				"source": "PHB"
-			},
-			"school": "A"
-		},
-		{
-			"name": "Healing Word",
-			"source": "XUA2022ExpertClasses",
-			"_copy": {
-				"name": "Healing Word",
-				"source": "PHB"
-			},
-			"school": "A"
-		},
-		{
-			"name": "Mass Cure Wounds",
-			"source": "XUA2022ExpertClasses",
-			"_copy": {
-				"name": "Mass Cure Wounds",
-				"source": "PHB"
-			},
-			"school": "A"
-		},
-		{
-			"name": "Mass Heal",
-			"source": "XUA2022ExpertClasses",
-			"_copy": {
-				"name": "Mass Heal",
-				"source": "PHB"
-			},
-			"school": "A"
-		},
-		{
-			"name": "Mass Healing Word",
-			"source": "XUA2022ExpertClasses",
-			"_copy": {
-				"name": "Mass Healing Word",
-				"source": "PHB"
-			},
-			"school": "A"
-		},
-		{
-			"name": "Power Word Heal",
-			"source": "XUA2022ExpertClasses",
-			"_copy": {
-				"name": "Power Word Heal",
-				"source": "PHB"
-			},
-			"school": "A"
-		},
-		{
-			"name": "Prayer of Healing",
-			"source": "XUA2022ExpertClasses",
-			"_copy": {
-				"name": "Prayer of Healing",
-				"source": "PHB"
-			},
-			"school": "A"
-		},
-		{
-			"name": "Produce Flame",
-			"source": "XUA2022ExpertClasses",
-			"_copy": {
-				"name": "Produce Flame",
-				"source": "PHB"
-			},
-			"school": "V"
-		},
-		{
-			"name": "Reincarnate",
-			"source": "XUA2022ExpertClasses",
-			"_copy": {
-				"name": "Reincarnate",
-				"source": "PHB"
-			},
-			"school": "N"
-		},
-		{
-			"name": "Sending",
-			"source": "XUA2022ExpertClasses",
-			"_copy": {
-				"name": "Sending",
-				"source": "PHB"
-			},
-			"school": "D"
-		},
-		{
-			"name": "Shatter",
-			"source": "XUA2022ExpertClasses",
-			"_copy": {
-				"name": "Shatter",
-				"source": "PHB"
-			},
-			"school": "T"
-		},
-		{
-			"name": "Stoneskin",
-			"source": "XUA2022ExpertClasses",
-			"_copy": {
-				"name": "Stoneskin",
-				"source": "PHB"
-			},
-			"school": "T"
-		},
-		{
-			"name": "Telepathy",
-			"source": "XUA2022ExpertClasses",
-			"_copy": {
-				"name": "Telepathy",
-				"source": "PHB"
-			},
-			"school": "D"
 		}
 	],
 	"condition": [
 		{
+			"name": "Exhausted",
 			"source": "XUA2022ExpertClasses",
 			"page": 32,
+			"entries": [
+				"While you are subjected to the Exhausted Condition (known in older books as Exhaustion), you experience the following effects:",
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"items": [
+						{
+							"type": "item",
+							"name": "Levels of Exhaustion",
+							"entry": "This Condition is cumulative. Each time you receive it, you gain 1 level of {@condition exhaustion}. You die if your {@condition exhaustion} level exceeds 10."
+						},
+						{
+							"type": "item",
+							"name": "d20 Rolls Affected",
+							"entry": "When you make a {@dice d20} Test, you subtract your {@condition exhaustion} level from the {@dice d20} roll."
+						},
+						{
+							"type": "item",
+							"name": "Spell Save DCs Affected",
+							"entry": "Subtract your {@condition exhaustion} level from the Spell save DC of any Spell you cast."
+						},
+						{
+							"type": "item",
+							"name": "Ending the Condition",
+							"entry": "Finishing a {@variantrule Long Rest|XUA2022ExpertClasses} removes 1 of your levels of {@condition exhaustion}. When your {@condition exhaustion} level reaches 0, you are no longer Exhausted."
+						}
+					]
+				}
+			]
+		},
+		{
 			"name": "Grappled",
+			"source": "XUA2022ExpertClasses",
+			"page": 32,
 			"entries": [
 				"While you are Grappled, you experience the following effects:",
 				{
@@ -7182,9 +8598,9 @@
 			]
 		},
 		{
+			"name": "Hidden",
 			"source": "XUA2022ExpertClasses",
 			"page": 33,
-			"name": "Hidden",
 			"entries": [
 				"While you are Hidden, you experience the following effects:",
 				{
@@ -7224,9 +8640,51 @@
 			]
 		},
 		{
-			"name": "Invisible",
-			"page": 34,
+			"name": "Incapacitated",
 			"source": "XUA2022ExpertClasses",
+			"page": 33,
+			"entries": [
+				"While you are Incapacitated, you experience the following effects:",
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"items": [
+						{
+							"type": "item",
+							"name": "Inactive",
+							"entries": [
+								"Your Concentration is broken."
+							]
+						},
+						{
+							"type": "item",
+							"name": "No Concentration",
+							"entries": [
+								"Your Concentration is broken."
+							]
+						},
+						{
+							"type": "item",
+							"name": "Speechless",
+							"entries": [
+								"You can't speak."
+							]
+						},
+						{
+							"type": "item",
+							"name": "Surprised",
+							"entries": [
+								"If you are Incapacitated when you roll Initiative, you have Disadvantage on the roll."
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Invisible",
+			"source": "XUA2022ExpertClasses",
+			"page": 34,
 			"entries": [
 				"While you are Invisible, you experience the following effects:",
 				{
@@ -7285,180 +8743,229 @@
 					]
 				}
 			]
-		},
-		{
-			"name": "Incapacitated",
-			"source": "XUA2022ExpertClasses",
-			"page": 33,
-			"entries": [
-				"While you are Incapacitated, you experience the following effects:",
-				{
-					"type": "list",
-					"style": "list-hang-notitle",
-					"items": [
-						{
-							"type": "item",
-							"name": "Inactive",
-							"entries": [
-								"Your Concentration is broken."
-							]
-						},
-						{
-							"type": "item",
-							"name": "No Concentration",
-							"entries": [
-								"Your Concentration is broken."
-							]
-						},
-						{
-							"type": "item",
-							"name": "Speechless",
-							"entries": [
-								"You can't speak."
-							]
-						},
-						{
-							"type": "item",
-							"name": "Surprised",
-							"entries": [
-								"If you are Incapacitated when you roll Initiative, you have Disadvantage on the roll."
-							]
-						}
-					]
-				}
-			]
-		},
-		{
-			"name": "Exhausted",
-			"source": "XUA2022ExpertClasses",
-			"page": 32,
-			"entries": [
-				"While you are subjected to the Exhausted Condition (known in older books as Exhaustion), you experience the following effects:",
-				{
-					"type": "list",
-					"style": "list-hang-notitle",
-					"items": [
-						{
-							"type": "item",
-							"name": "Levels of Exhaustion",
-							"entry": "This Condition is cumulative. Each time you receive it, you gain 1 level of {@condition exhaustion}. You die if your {@condition exhaustion} level exceeds 10."
-						},
-						{
-							"type": "item",
-							"name": "d20 Rolls Affected",
-							"entry": "When you make a {@dice d20} Test, you subtract your {@condition exhaustion} level from the {@dice d20} roll."
-						},
-						{
-							"type": "item",
-							"name": "Spell Save DCs Affected",
-							"entry": "Subtract your {@condition exhaustion} level from the Spell save DC of any Spell you cast."
-						},
-						{
-							"type": "item",
-							"name": "Ending the Condition",
-							"entry": "Finishing a {@variantrule Long Rest|XUA2022ExpertClasses} removes 1 of your levels of {@condition exhaustion}. When your {@condition exhaustion} level reaches 0, you are no longer Exhausted."
-						}
-					]
-				}
-			]
 		}
 	],
-	"classFeature": [
+	"action": [
 		{
-			"name": "Bardic Inspiration",
+			"name": "Attack",
 			"source": "XUA2022ExpertClasses",
-			"page": 4,
-			"className": "Bard",
-			"classSource": "XUA2022ExpertClasses",
-			"level": 1,
+			"page": 30,
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
 			"entries": [
-				"You can supernaturally inspire others through words, music, or dance. This inspiration is represented by your Bardic Inspiration die, which is a {@dice d6}.",
+				"When you take the Attack Action, you can make one attack with a Weapon or an {@variantrule Unarmed Strike|XUA2022ExpertClasses}.",
 				{
 					"type": "entries",
+					"name": "Equipping Weapons",
 					"entries": [
+						"You can equip or unequip one Weapon before or after any attack you make as part of this Action, even if the attack is with an {@variantrule Unarmed Strike|XUA2022ExpertClasses}."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Moving Between Attacks",
+					"entries": [
+						"If you {@variantrule Move|XUA2022ExpertClasses} on your turn, you can use some or all of that movement to move between the attacks of this Action if you have a feature, such as Extra Attack, that gives you more than one attack as part of the Attack Action."
+					]
+				}
+			]
+		},
+		{
+			"name": "Dash",
+			"source": "XUA2022ExpertClasses",
+			"page": 31,
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"entries": [
+				"Taking the Dash Action allows you to make a bonus {@variantrule Move|XUA2022ExpertClasses} during the current turn"
+			]
+		},
+		{
+			"name": "Help",
+			"source": "XUA2022ExpertClasses",
+			"page": 33,
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"entries": [
+				"When you take the Help Action, you do one of the following:",
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"items": [
 						{
-							"type": "entries",
-							"name": "Using Bardic Inspiration",
+							"type": "item",
+							"name": "Assist Ability Check",
 							"entries": [
-								"You can use your Bardic Inspiration die in the following ways:",
+								"Choose one of your Skill Proficiencies and one ally who can see or hear you. You give Advantage to the next {@variantrule Ability Check|XUA2022ExpertClasses} that ally makes with the chosen Skill. This benefit expires if the ally doesn't use it before the start of your next turn. To give this assistance, you must be near enough to the ally to assist verbally or physically when the ally makes the check. The DM has final say on whether your assistance is possible."
+							]
+						},
+						{
+							"type": "item",
+							"name": "Assist Attack Roll",
+							"entries": [
+								"You momentarily distract an enemy within 5 feet of you, granting Advantage to the next {@variantrule Attack Roll|XUA2022ExpertClasses} by one of your allies against that enemy. This benefit expires at the start of your next turn."
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Hide",
+			"source": "XUA2022ExpertClasses",
+			"page": 33,
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"entries": [
+				"With the Hide Action, you try to conceal yourself. To do so, you must make a {@dc 15} Dexterity Check ({@skill Stealth}) while you're Heavily Obscured or behind Three-Quarters Cover or Total Cover, and you must be out of any visible enemy's line of sight; if you can see a creature, you can discern whether it can see you.",
+				"On a successful check, you are {@condition Hidden|XUA2022ExpertClasses}. Make note of your check's total, which becomes the DC for a creature to find you with a Wisdom Check ({@skill Perception})."
+			]
+		},
+		{
+			"name": "Influence",
+			"source": "XUA2022ExpertClasses",
+			"page": 33,
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"entries": [
+				"With the Influence Action, you can try to influence another creature to do something you request or demand. This Action can be used only on creatures controlled by the DM, and it isn't mind control; it can't force a creature to do something that is counter to the creature's alignment or that is otherwise repugnant to the creature.",
+				"This Action has three main parts: Attitude, interaction, and a Charisma Check.",
+				{
+					"type": "entries",
+					"name": "Attitude",
+					"entries": [
+						"A creature's Attitude determines how a character can influence that creature. Each DM-controlled creature has one of the following Attitudes toward the player characters:",
+						{
+							"type": "list",
+							"style": "list-hang-notitle",
+							"items": [
 								{
-									"type": "list",
-									"style": "list-hang-notitle",
-									"items": [
-										{
-											"type": "item",
-											"name": "Boost a Dice Test",
-											"entry": "When another creature within 60 feet of you that you can see or hear fails a {@dice d20} Test, you can use your Reaction to give the creature a Bardic Inspiration die. The creature rolls that die and adds the number rolled to the {@dice d20}, potentially turning the failure into a success."
-										},
-										{
-											"type": "item",
-											"name": "Heal",
-											"entry": "Immediately after another creature within 60 feet of you that you can see or hear takes damage, you can use your Reaction to roll your Bardic Inspiration die and restore a number of Hit Points to the creature equal to the number rolled."
-										}
+									"type": "item",
+									"name": "Indifferent",
+									"entries": [
+										"This is the default Attitude for DMcontrolled creatures. An Indifferent creature might help or hinder the party, depending on what the creature sees as most beneficial. A creature's indifference doesn't necessarily make it standoffish or disinterested. Indifferent creatures might be polite and genial, surly and irritable, or anything in between. A successful Charisma Check is often necessary when the adventurers try to persuade an Indifferent creature to do something."
+									]
+								},
+								{
+									"type": "item",
+									"name": "Friendly",
+									"entries": [
+										"A Friendly creature wants to help the adventurers and wishes for them to succeed. For tasks or actions that require no particular risk, effort, or cost, Friendly creatures often help happily. If an element of personal risk is involved, a successful Charisma Check might be required to convince a Friendly creature to take that risk."
+									]
+								},
+								{
+									"type": "item",
+									"name": "Hostile",
+									"entries": [
+										"A Hostile creature opposes the adventurers and their goals but doesn't necessarily attack them on sight. The adventurers need to succeed on one or more challenging Charisma Checks to convince a Hostile creature to do anything on the party's behalf; however, the DM might determine that the Hostile creature is so ill-disposed toward the characters that no Charisma Check can sway it, in which case the first check fails automatically and no further Influence attempts can be made on the creature unless its Attitude shifts."
 									]
 								}
 							]
-						},
-						{
-							"type": "entries",
-							"name": "Number of Uses",
-							"entries": [
-								"A Bardic Inspiration die is expended when it's rolled. You can confer a Bardic Inspiration die a number of times equal to your Proficiency Bonus, and you regain all expended uses when you finish a {@variantrule Long Rest|XUA2022ExpertClasses}."
-							]
-						},
-						{
-							"type": "entries",
-							"name": "At Higher Levels",
-							"entries": [
-								"Your Bardic Inspiration die changes when you reach certain levels in this Class, as shown in the Bardic Die column of the Bard table. The die becomes a {@dice d8} at 5th level, a {@dice d10} at 10th level, and a {@dice d12} at 15th level."
-							]
 						}
 					]
-				}
-			]
-		},
-		{
-			"name": "Spellcasting",
-			"source": "XUA2022ExpertClasses",
-			"page": 51,
-			"className": "Bard",
-			"classSource": "XUA2022ExpertClasses",
-			"level": 1,
-			"entries": [
-				"You have learned to cast Spells through your bardic arts. See the Player's Handbook for the rules on spellcasting. The information below details how you use those rules as a Bard.",
+				},
 				{
 					"type": "entries",
+					"name": "Interaction",
 					"entries": [
+						"When you take the Influence Action, either roleplay how your character interacts with the creature or describe your character's behavior\u2014focusing on your character's request or demand. If the interaction is especially suited to the creature's desires and outlook, the DM might grant Advantage to your subsequent check or might temporarily shift a Hostile creature to Indifferent or an Indifferent creature to Friendly.",
+						"Similarly, if the interaction is particularly irksome to the creature, the DM might impose Disadvantage on your subsequent check or might temporarily shift a Friendly creature to Indifferent or an Indifferent creature to Hostile."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Ability Check",
+					"entries": [
+						"To determine whether your request or demand is successful, you make a Charisma Check ({@skill Animal Handling}, {@skill Deception}, {@skill Intimidation}, or {@skill Persuasion}); the applicable Skill depends on the interaction, with {@skill Animal Handling} being reserved for Beasts and Monstrosities. Also, each request or demand requires a different check.",
+						"The creature's Attitude determines the DC required to achieve a specific response, as shown in the Influence Responses table."
+					]
+				},
+				{
+					"type": "tableGroup",
+					"name": "Influence Responses",
+					"tables": [
 						{
-							"type": "entries",
-							"name": "Prepared Spells",
-							"entries": [
-								"You have the following Spells prepared: {@spell Color Spray}, {@spell Disguise Self}, {@spell Prestidigitation}, and {@spell Vicious Mockery}.",
-								"Alternatively, you can prepare two 0-level Spells and two 1st-level Spells of your choice. Any Spell you prepare for this Class must be an {@variantrule Arcane Spells|XUA2022ExpertClasses|Arcane Spell}, and it must be from one of the following Schools of Magic: Divination, Enchantment, Illusion, or Transmutation.",
-								"Whenever you finish a {@variantrule Long Rest|XUA2022ExpertClasses}, you can practice your bardic arts and replace any Spell you have prepared for this Class with another {@variantrule Arcane Spells|XUA2022ExpertClasses|Arcane Spell} of the same level, abiding by the school restriction above.",
-								"At higher levels in this Class, you can prepare more Spells, as shown on the Bard table. The numbers there determine the number of different Spells you can prepare of each level. For example, as a 3rd-level Bard, you can prepare two different 0-level Spells, four different 1st-level Spells, and two different 2nd-level Spells.",
-								"Consult the \"Prepared Bard Spells\" section for recommendations on which spells to prepare at higher levels. A Spell marked with a dagger (†) in that section is always prepared and can't be replaced when you prepare Spells."
+							"type": "table",
+							"caption": "Influence Responses",
+							"colLabels": [
+								"DC",
+								"Indifferent Creature's Response"
+							],
+							"colStyles": [
+								"col-1 text-center",
+								"col-11"
+							],
+							"rows": [
+								[
+									"10",
+									"The creature does as asked, as long as no risks or sacrifices are involved."
+								],
+								[
+									"20",
+									"The creature accepts a minor risk or sacrifice to do as asked."
+								]
 							]
 						},
 						{
-							"type": "entries",
-							"name": "Spell Slots",
-							"entries": [
-								"The Bard table shows how many Spell Slots you have at each level to cast your Bard Spells of 1st level and higher; the number of different Spells you can prepare of each level equals the number of Spell Slots you have at that level. For example, as a 5th-level Bard, you have four 1st-level Spell Slots, three 2nd-level Spell Slots, and two 3rd-level Spell Slots."
+							"type": "table",
+							"colLabels": [
+								"DC",
+								"Friendly Creature's Response"
+							],
+							"colStyles": [
+								"col-1 text-center",
+								"col-11"
+							],
+							"rows": [
+								[
+									"10",
+									"The creature accepts a minor risk or sacrifice to do as asked."
+								],
+								[
+									"20",
+									"The creature accepts a significant risk or sacrifice to do as asked."
+								]
 							]
 						},
 						{
-							"type": "entries",
-							"name": "Spellcasting Ability",
-							"entries": [
-								"Charisma is your Spellcasting Ability for your Bard Spells."
-							]
-						},
-						{
-							"type": "entries",
-							"name": "Spellcasting Focus",
-							"entries": [
-								"You can use a {@item Musical Instrument|SCAG} as a Spellcasting Focus for the Spells you prepare for this Class."
+							"type": "table",
+							"colLabels": [
+								"DC",
+								"Hostile Creature's Response"
+							],
+							"colStyles": [
+								"col-1 text-center",
+								"col-11"
+							],
+							"rows": [
+								[
+									"10",
+									"The creature offers no help but does no harm."
+								],
+								[
+									"20",
+									"The creature does as asked, as long as no risks or sacrifices are involved."
+								]
 							]
 						}
 					]
@@ -7466,1634 +8973,127 @@
 			]
 		},
 		{
-			"name": "Songs of Restoration",
+			"name": "Jump",
 			"source": "XUA2022ExpertClasses",
-			"page": 5,
-			"className": "Bard",
-			"classSource": "XUA2022ExpertClasses",
-			"level": 2,
+			"page": 35,
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
 			"entries": [
-				"You have learned how to use music, poetry, and dance to heal wounds and maladies. When you reach certain levels in this Class, you add a specific Spell to your Songs of Restoration repertoire, as shown on the Songs of Restoration Repertoire table. You always have that Spell prepared, and it doesn't count against the number of Spells you can prepare.",
+				"With the Jump Action, you attempt to leap more than 5 feet (a jump of 5 feet or less is treated as {@variantrule Difficult Terrain|XUA2022ExpertClasses}). When you take this Action, your Speed must be greater than 0, and you must make a {@dc 10} Strength Check ({@skill Acrobatics} or {@skill Athletics}). If you don't {@variantrule Move|XUA2022ExpertClasses} at least 10 feet immediately before this Action, you have Disadvantage on the check.",
+				"On a failed check, you leap 5 feet horizontally or vertically.",
+				"On a successful check, the check's total determines the distance in feet that you can clear horizontally, or half that total if you're jumping vertically (round down). This jump doesn't expend your movement, but the distance you clear can't exceed your Speed."
+			]
+		},
+		{
+			"name": "Magic",
+			"source": "XUA2022ExpertClasses",
+			"page": 35,
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"entries": [
+				"When you take the Magic Action, you cast a Spell that has a casting time of an Action, or you use a Magic Item that requires an Action to be activated.",
+				"If you cast a Spell that has a casting time of 1 minute or longer, you must take the Magic Action on each turn of that casting, and you must maintain Concentration while you do so. If your Concentration is broken, the Spell fails, but you don't expend a Spell Slot."
+			]
+		},
+		{
+			"name": "Search",
+			"source": "XUA2022ExpertClasses",
+			"page": 36,
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"entries": [
+				"When you take the Search Action, you make a Wisdom Check to discern something that isn't obvious. The Search table suggests which Skills are applicable when you take this Action, depending on what you're trying to detect.",
 				{
 					"type": "table",
-					"caption": "Songs of Restoration Repertoire",
+					"caption": "Search",
 					"colLabels": [
-						"Bard",
-						"Level Spell"
+						"Skill",
+						"Thing to Detect"
 					],
 					"colStyles": [
-						"col-1 text-center",
-						"col-11"
+						"col-3",
+						"col-9"
 					],
 					"rows": [
 						[
-							"2nd",
-							"{@spell Healing Word|XUA2022ExpertClasses}"
+							"{@skill Insight}",
+							"Creature's state of mind"
 						],
 						[
-							"4th",
-							"{@spell Lesser Restoration|XUA2022ExpertClasses}"
+							"{@skill Medicine}",
+							"Creature's ailment"
 						],
 						[
-							"6th",
-							"{@spell Mass Healing Word|XUA2022ExpertClasses}"
+							"{@skill Perception}",
+							"Concealed creature or object"
 						],
 						[
-							"8th",
-							"{@spell Freedom of Movement|XUA2022ExpertClasses}"
-						],
-						[
-							"10th",
-							"{@spell Greater Restoration|XUA2022ExpertClasses}"
+							"{@skill Survival}",
+							"Tracks or food"
 						]
 					]
 				}
 			]
 		},
 		{
-			"name": "Bard Subclass",
+			"name": "Study",
 			"source": "XUA2022ExpertClasses",
-			"page": 5,
-			"className": "Bard",
-			"classSource": "XUA2022ExpertClasses",
-			"level": 3,
-			"entries": [
-				"You gain the College of Lore Subclass or another Bard Subclass of your choice. The College of Lore is detailed after the Bard's Class description, and other Subclasses will appear in future Unearthed {@skill Arcana} articles.",
-				"A Subclass is a specialization that grants you special abilities at certain Bard levels. For the rest of your career, you gain each of your Subclass's features that are of your Bard level and lower. This Class's description tells you the levels when your Subclass provides features."
-			]
-		},
-		{
-			"name": "Feat",
-			"source": "XUA2022ExpertClasses",
-			"page": 5,
-			"className": "Bard",
-			"classSource": "XUA2022ExpertClasses",
-			"level": 4,
-			"entries": [
-				"You gain the Ability Score Improvement Feat or another {@5etools Feat|feats.html} of your choice."
-			]
-		},
-		{
-			"name": "Jack of All Trades",
-			"source": "XUA2022ExpertClasses",
-			"page": 5,
-			"className": "Bard",
-			"classSource": "XUA2022ExpertClasses",
-			"level": 5,
-			"entries": [
-				"You can add half your Proficiency Bonus (round down) to any {@variantrule Ability Check|XUA2022ExpertClasses} you make that uses a Skill Proficiency you lack and that doesn't otherwise use your Proficiency Bonus. For example, if you make a Strength Check ({@skill Athletics}) and lack {@skill Athletics} Proficiency, you can add half your Proficiency Bonus to the check."
-			]
-		},
-		{
-			"name": "Subclass Feature",
-			"source": "XUA2022ExpertClasses",
-			"page": 5,
-			"className": "Bard",
-			"classSource": "XUA2022ExpertClasses",
-			"level": 6,
-			"entries": [
-				"You gain a feature from your Bard Subclass."
-			]
-		},
-		{
-			"name": "Font of Bardic Inspiration",
-			"source": "XUA2022ExpertClasses",
-			"page": 51,
-			"className": "Bard",
-			"classSource": "XUA2022ExpertClasses",
-			"level": 7,
-			"entries": [
-				"You now regain all your expended uses of Bardic Inspiration when you finish a Short Rest or a {@variantrule Long Rest|XUA2022ExpertClasses}.",
-				"In addition, if a creature rolls your Bardic Inspiration die and gets a 1 (after any rerolls you might have), that use of your Bardic Inspiration isn't expended."
-			]
-		},
-		{
-			"name": "Expertise",
-			"source": "XUA2022ExpertClasses",
-			"page": 5,
-			"className": "Bard",
-			"classSource": "XUA2022ExpertClasses",
-			"level": 2,
-			"entries": [
-				"You gain {@variantrule Expertise|XUA2022ExpertClasses} in two of your Skill Proficiencies of your choice.",
-				"{@skill Performance} and {@skill Persuasion} are iconic choices for a Bard if you have Proficiency in them."
-			]
-		},
-		{
-			"name": "Feat",
-			"source": "XUA2022ExpertClasses",
-			"page": 6,
-			"className": "Bard",
-			"classSource": "XUA2022ExpertClasses",
-			"level": 8,
-			"entries": [
-				"You gain the Ability Score Improvement Feat or another Feat of your choice."
-			]
-		},
-		{
-			"name": "Expertise",
-			"source": "XUA2022ExpertClasses",
-			"page": 6,
-			"className": "Bard",
-			"classSource": "XUA2022ExpertClasses",
-			"level": 9,
-			"entries": [
-				"You gain {@variantrule Expertise|XUA2022ExpertClasses} in two of your Skill Proficiencies of your choice."
-			]
-		},
-		{
-			"name": "Subclass Feature",
-			"source": "XUA2022ExpertClasses",
-			"page": 6,
-			"className": "Bard",
-			"classSource": "XUA2022ExpertClasses",
-			"level": 10,
-			"entries": [
-				"You gain a feature from your Bard Subclass."
-			]
-		},
-		{
-			"name": "Magical Secrets",
-			"source": "XUA2022ExpertClasses",
-			"page": 6,
-			"className": "Bard",
-			"classSource": "XUA2022ExpertClasses",
-			"level": 11,
-			"entries": [
-				"You have collected magical knowledge from a wide spectrum of disciplines. Choose a Spell List: {@variantrule Arcane Spells|XUA2022ExpertClasses|Arcane}, {@variantrule Divine Spells|XUA2022ExpertClasses|Divine}, or {@variantrule Primal Spells|XUA2022ExpertClasses|Primal}. Whenever you prepare Spells for this Class, up to two of the Spells you prepare can be from the chosen list and from any School of Magic. The prepared Spells otherwise follow the rules of your Bard Spellcasting feature."
-			]
-		},
-		{
-			"name": "Feat",
-			"source": "XUA2022ExpertClasses",
-			"page": 6,
-			"className": "Bard",
-			"classSource": "XUA2022ExpertClasses",
-			"level": 12,
-			"entries": [
-				"You gain the Ability Score Improvement Feat or another Feat of your choice."
-			]
-		},
-		{
-			"name": "Subclass Feature",
-			"source": "XUA2022ExpertClasses",
-			"page": 6,
-			"className": "Bard",
-			"classSource": "XUA2022ExpertClasses",
-			"level": 14,
-			"entries": [
-				"You gain a feature from your Bard Subclass."
-			]
-		},
-		{
-			"name": "Further Magical Secrets",
-			"source": "XUA2022ExpertClasses",
-			"page": 6,
-			"className": "Bard",
-			"classSource": "XUA2022ExpertClasses",
-			"level": 15,
-			"entries": [
-				"Your understanding of magic has grown even broader. Choose a Spell List\u2014{@variantrule Arcane Spells|XUA2022ExpertClasses|Arcane}, {@variantrule Divine Spells|XUA2022ExpertClasses|Divine}, and {@variantrule Primal Spells|XUA2022ExpertClasses|Primal}\u2014that you didn't choose for your Magical Secrets feature. Whenever you prepare your Bard Spells, two of the Spells you prepare can be from the chosen list and from any School of Magic. The prepared Spells otherwise follow the rules of your Bard Spellcasting feature."
-			]
-		},
-		{
-			"name": "Feat",
-			"source": "XUA2022ExpertClasses",
-			"page": 6,
-			"className": "Bard",
-			"classSource": "XUA2022ExpertClasses",
-			"level": 16,
-			"entries": [
-				"You gain the Ability Score Improvement Feat or another Feat of your choice."
-			]
-		},
-		{
-			"name": "Superior Bardic Inspiration",
-			"source": "XUA2022ExpertClasses",
-			"page": 6,
-			"className": "Bard",
-			"classSource": "XUA2022ExpertClasses",
-			"level": 18,
-			"entries": [
-				"When you roll Initiative, you regain two expended uses of your Bardic Inspiration."
-			]
-		},
-		{
-			"name": "Feat",
-			"source": "XUA2022ExpertClasses",
-			"page": 6,
-			"className": "Bard",
-			"classSource": "XUA2022ExpertClasses",
-			"level": 19,
-			"entries": [
-				"You gain the Ability Score Improvement Feat or another Feat of your choice."
-			]
-		},
-		{
-			"name": "Epic Boon",
-			"source": "XUA2022ExpertClasses",
-			"page": 6,
-			"className": "Bard",
-			"classSource": "XUA2022ExpertClasses",
-			"level": 20,
-			"entries": [
-				"You gain the {@feat Epic Boon of Luck|XUA2022ExpertClasses} Feat or another Epic Boon Feat of your choice."
-			]
-		},
-		{
-			"name": "Expertise",
-			"source": "XUA2022ExpertClasses",
-			"page": 9,
-			"className": "Ranger",
-			"classSource": "XUA2022ExpertClasses",
-			"level": 1,
-			"entries": [
-				"You gain {@variantrule Expertise|XUA2022ExpertClasses} in two of your Skill Proficiencies of your choice.",
-				"{@skill Stealth} and {@skill Survival} are iconic choices for a Ranger if you have Proficiency in them."
-			]
-		},
-		{
-			"name": "Favored Enemy",
-			"source": "XUA2022ExpertClasses",
-			"page": 9,
-			"className": "Ranger",
-			"classSource": "XUA2022ExpertClasses",
-			"level": 1,
-			"entries": [
-				"You are adept at focusing your ire on a single foe. You always have the Hunter's Mark Spell prepared, and it doesn't count against the number of Spells you can prepare. Moreover, you don't have to concentrate on the Spell once you cast it; it lasts for its full duration, until you end it as a Bonus Action, or until you are {@condition Incapacitated|XUA2022ExpertClasses}."
-			]
-		},
-		{
-			"name": "Spellcasting",
-			"source": "XUA2022ExpertClasses",
-			"page": 9,
-			"className": "Ranger",
-			"classSource": "XUA2022ExpertClasses",
-			"level": 1,
-			"entries": [
-				"You have learned to channel the magical essence of nature to cast Spells. See the Player's Handbook for the rules on spellcasting. The information below details how you use those rules as a Ranger.",
+			"page": 36,
+			"time": [
 				{
-					"type": "entries",
-					"name": "Spell Preparation",
-					"entries": [
-						"You have the following Spells prepared: {@spell Cure Wounds}, {@spell Guidance|XUA2022ExpertClasses}, Hunter's Mark, and {@spell Thorn Whip}. Alternatively, you can prepare two 0-level Spells and two 1st-level Spells of your choice. Any Spell you prepare for this Class must be a {@variantrule Primal Spells|XUA2022ExpertClasses|Primal Spell}, and it can be from any School of Magic except Evocation.",
-						"Whenever you finish a {@variantrule Long Rest|XUA2022ExpertClasses}, you can commune with nature and replace any Spell you have prepared for this Class with another {@variantrule Primal Spells|XUA2022ExpertClasses|Primal Spell} of the same level that isn't an Evocation.",
-						"At higher levels in this Class, you can prepare more Spells, as shown on the Ranger table. The numbers there determine the number of different Spells you can prepare of each level. For example, as a 3rd-level Ranger, you can prepare two different 0-level Spells and three different 1st-level Spells.",
-						"Consult the \"Prepared Ranger Spells\" section for recommendations on which spells to prepare at higher levels. A Spell marked with a dagger (†) in that section is always prepared and can't be replaced when you prepare Spells."
-					]
-				},
-				{
-					"type": "entries",
-					"name": "Spell Slots",
-					"entries": [
-						"The Ranger table shows how many Spell Slots you have at each level to cast your Ranger Spells of 1st level and higher; the number of different Spells you can prepare of each level equals the number of Spell Slots you have at that level. For example, as a 5th-level Ranger, you have four 1st-level Spell Slots and two 2nd-level Spell Slots."
-					]
-				},
-				{
-					"type": "entries",
-					"name": "Spellcasting Ability",
-					"entries": [
-						"Wisdom is your Spellcasting Ability for your Ranger Spells."
-					]
-				},
-				{
-					"type": "entries",
-					"name": "Spellcasting Focus",
-					"entries": [
-						"You can use a Druidic Focus as a Spellcasting Focus for the Spells you prepare for this Class."
-					]
+					"number": 1,
+					"unit": "action"
 				}
-			]
-		},
-		{
-			"name": "Fighting Style",
-			"source": "XUA2022ExpertClasses",
-			"page": 10,
-			"className": "Ranger",
-			"classSource": "XUA2022ExpertClasses",
-			"level": 2,
-			"entries": [
-				"You have honed your martial prowess. You gain one of the following Fighting Style Feats of your choice: Archery, Defense, or Two-Weapon Fighting.",
-				"Whenever you gain a Feat at later levels, Fighting Style Feats are among your options, even though you aren't a member of the Warrior Group."
-			]
-		},
-		{
-			"name": "Ranger Subclass",
-			"source": "XUA2022ExpertClasses",
-			"page": 10,
-			"className": "Ranger",
-			"classSource": "XUA2022ExpertClasses",
-			"level": 3,
-			"entries": [
-				"You gain the Hunter Subclass or another Ranger Subclass of your choice. The Hunter is detailed after the Ranger's Class description, and other Subclasses will appear in future Unearthed Arcana articles.",
-				"A Subclass is a specialization that grants you special abilities at certain Ranger levels. For the rest of your career, you gain each of your Subclass's features that are of your Ranger level and lower. This Class's description tells you the levels when your Subclass provides features."
-			]
-		},
-		{
-			"name": "Feat",
-			"source": "XUA2022ExpertClasses",
-			"page": 10,
-			"className": "Ranger",
-			"classSource": "XUA2022ExpertClasses",
-			"level": 4,
-			"entries": [
-				"You gain the Ability Score Improvement Feat or another Feat of your choice."
-			]
-		},
-		{
-			"name": "Extra Attack",
-			"source": "XUA2022ExpertClasses",
-			"page": 10,
-			"className": "Ranger",
-			"classSource": "XUA2022ExpertClasses",
-			"level": 5,
-			"entries": [
-				"You can attack twice, instead of once, whenever you take the {@action Attack|XUA2022ExpertClasses} on your turn."
-			]
-		},
-		{
-			"name": "Subclass Feature",
-			"source": "XUA2022ExpertClasses",
-			"page": 10,
-			"className": "Ranger",
-			"classSource": "XUA2022ExpertClasses",
-			"level": 6,
-			"entries": [
-				"You gain a feature from your Ranger Subclass."
-			]
-		},
-		{
-			"name": "Roving",
-			"source": "XUA2022ExpertClasses",
-			"page": 10,
-			"className": "Ranger",
-			"classSource": "XUA2022ExpertClasses",
-			"level": 7,
-			"entries": [
-				"Your Speed increases by 10 feet while you aren't wearing Heavy Armor.",
-				"You also have a {@variantrule Climb Speed|XUA2022ExpertClasses} and a {@variantrule Swim Speed|XUA2022ExpertClasses} equal to your Speed."
-			]
-		},
-		{
-			"name": "Feat",
-			"source": "XUA2022ExpertClasses",
-			"page": 10,
-			"className": "Ranger",
-			"classSource": "XUA2022ExpertClasses",
-			"level": 8,
-			"entries": [
-				"You gain the Ability Score Improvement Feat or another Feat of your choice."
-			]
-		},
-		{
-			"name": "Expertise",
-			"source": "XUA2022ExpertClasses",
-			"page": 9,
-			"className": "Ranger",
-			"classSource": "XUA2022ExpertClasses",
-			"level": 9,
-			"entries": [
-				"You gain {@variantrule Expertise|XUA2022ExpertClasses} in two of your Skill Proficiencies of your choice."
-			]
-		},
-		{
-			"name": "Subclass Feature",
-			"source": "XUA2022ExpertClasses",
-			"page": 10,
-			"className": "Ranger",
-			"classSource": "XUA2022ExpertClasses",
-			"level": 10,
-			"entries": [
-				"You gain a feature from your Ranger Subclass."
-			]
-		},
-		{
-			"name": "Tireless",
-			"source": "XUA2022ExpertClasses",
-			"page": 10,
-			"className": "Ranger",
-			"classSource": "XUA2022ExpertClasses",
-			"level": 11,
-			"entries": [
-				"Primal forces now help fuel you on your journeys, granting you the following benefits:",
-				{
-					"type": "entries",
-					"name": "Temporary Hit Points",
-					"entries": [
-						"Whenever you finish a Short Rest or a Long Rest, you can give yourself a number of Temporary Hit Points equal to {@dice 1d8} plus your Proficiency Bonus."
-					]
-				},
-				{
-					"type": "entries",
-					"name": "Decrease Exhaustion",
-					"entries": [
-						"If you are {@condition Exhausted|XUA2022ExpertClasses} when you finish a Short Rest, your level of {@condition exhaustion} decreases by 1."
-					]
-				}
-			]
-		},
-		{
-			"name": "Feat",
-			"source": "XUA2022ExpertClasses",
-			"page": 10,
-			"className": "Ranger",
-			"classSource": "XUA2022ExpertClasses",
-			"level": 12,
-			"entries": [
-				"You gain the Ability Score Improvement Feat or another Feat of your choice."
-			]
-		},
-		{
-			"name": "Nature's Veil",
-			"source": "XUA2022ExpertClasses",
-			"page": 10,
-			"className": "Ranger",
-			"classSource": "XUA2022ExpertClasses",
-			"level": 13,
-			"entries": [
-				"You invoke spirits of nature to magically hide yourself from view. As a Bonus Action, you can expend a Spell Slot and become {@condition Invisible|XUA2022ExpertClasses} until the end of your next turn."
-			]
-		},
-		{
-			"name": "Subclass Feature",
-			"source": "XUA2022ExpertClasses",
-			"page": 10,
-			"className": "Ranger",
-			"classSource": "XUA2022ExpertClasses",
-			"level": 14,
-			"entries": [
-				"You gain a feature from your Ranger Subclass."
-			]
-		},
-		{
-			"name": "Feral Senses",
-			"source": "XUA2022ExpertClasses",
-			"page": 10,
-			"className": "Ranger",
-			"classSource": "XUA2022ExpertClasses",
-			"level": 15,
-			"entries": [
-				"Your connection to the forces of nature grants you {@feat Blindsight|XUA2022ExpertClasses} with a range of 30 feet."
-			]
-		},
-		{
-			"name": "Feat",
-			"source": "XUA2022ExpertClasses",
-			"page": 10,
-			"className": "Ranger",
-			"classSource": "XUA2022ExpertClasses",
-			"level": 16,
-			"entries": [
-				"You gain the Ability Score Improvement Feat or another Feat of your choice."
-			]
-		},
-		{
-			"name": "Foe Slayer",
-			"source": "XUA2022ExpertClasses",
-			"page": 10,
-			"className": "Ranger",
-			"classSource": "XUA2022ExpertClasses",
-			"level": 18,
-			"entries": [
-				"Your Hunter's Mark now deals an extra {@damage 1d10} damage to its target, rather than an extra {@dice 1d6}."
-			]
-		},
-		{
-			"name": "Feat",
-			"source": "XUA2022ExpertClasses",
-			"page": 10,
-			"className": "Ranger",
-			"classSource": "XUA2022ExpertClasses",
-			"level": 19,
-			"entries": [
-				"You gain the Ability Score Improvement Feat or another Feat of your choice."
-			]
-		},
-		{
-			"name": "Epic Boon",
-			"source": "XUA2022ExpertClasses",
-			"page": 10,
-			"className": "Ranger",
-			"classSource": "XUA2022ExpertClasses",
-			"level": 20,
-			"entries": [
-				"You gain the Epic Boon of Fortitude Feat or another Epic Boon Feat of your choice."
-			]
-		},
-		{
-			"name": "Expertise",
-			"source": "XUA2022ExpertClasses",
-			"page": 13,
-			"className": "Rogue",
-			"classSource": "XUA2022ExpertClasses",
-			"level": 1,
-			"entries": [
-				"You gain {@variantrule Expertise|XUA2022ExpertClasses} in two of your Skill Proficiencies of your choice.",
-				"{@skill Sleight of Hand} and {@skill Stealth} are iconic choices for a Rogue if you have Proficiency in them."
-			]
-		},
-		{
-			"name": "Sneak Attack",
-			"source": "XUA2022ExpertClasses",
-			"page": 13,
-			"className": "Rogue",
-			"classSource": "XUA2022ExpertClasses",
-			"level": 1,
-			"entries": [
-				"You know how to turn a subtle attack into a deadly one. Once on each of your turns when you take the {@action Attack|XUA2022ExpertClasses} Action, you can deal extra damage to one creature you hit with an {@variantrule Attack Roll|XUA2022ExpertClasses} if you're attacking with a Finesse Weapon or a Ranged Weapon and if at least one of the following requirements is met:",
-				{
-					"type": "list",
-					"style": "list-hang-notitle",
-					"items": [
-						{
-							"type": "item",
-							"name": "Advantage",
-							"entries": [
-								"You have Advantage on the {@variantrule Attack Roll|XUA2022ExpertClasses}."
-							]
-						},
-						{
-							"type": "item",
-							"name": "Ally Adjacent to Target",
-							"entries": [
-								"At least one of your allies is within 5 feet of the target, the ally isn't {@condition Incapacitated|XUA2022ExpertClasses}, and you don't have Disadvantage on the {@action Attack|XUA2022ExpertClasses|Attack Roll.}"
-							]
-						}
-					]
-				},
-				"To determine the extra damage, roll a number of d6s equal to half your Rogue level (round up), and add the dice together (the Rogue table shows the number of Sneak Attack dice you get at each Rogue level). The extra damage's type is the same as the weapon's Damage Type."
-			]
-		},
-		{
-			"name": "Thieves' Cant",
-			"source": "XUA2022ExpertClasses",
-			"page": 13,
-			"className": "Rogue",
-			"classSource": "XUA2022ExpertClasses",
-			"level": 1,
-			"entries": [
-				"You picked up various languages in the communities where you plied your roguish talents. You know Thieves' Cant and one other language of your choice, which you choose from the Standard Languages and Rare Languages tables."
-			]
-		},
-		{
-			"name": "Cunning Action",
-			"source": "XUA2022ExpertClasses",
-			"page": 13,
-			"className": "Rogue",
-			"classSource": "XUA2022ExpertClasses",
-			"level": 2,
-			"entries": [
-				"Your quick thinking and agility allow you to move and act quickly. On your turn, you can take one of the following Actions as a Bonus Action: {@action Dash|XUA2022ExpertClasses}, {@action Disengage}, or {@action Hide|XUA2022ExpertClasses}."
-			]
-		},
-		{
-			"name": "Rogue Subclass",
-			"source": "XUA2022ExpertClasses",
-			"page": 13,
-			"className": "Rogue",
-			"classSource": "XUA2022ExpertClasses",
-			"level": 3,
-			"entries": [
-				"You gain the Thief Subclass or another Rogue Subclass of your choice. The Thief is detailed after the Rogue's Class description, and other Subclasses will appear in future Unearthed {@skill Arcana} articles.",
-				"A Subclass is a specialization that grants you special abilities at certain Rogue levels. For the rest of your career, you gain each of your Subclass's features that are of your Rogue level and lower. This Class's description tells you the levels when your Subclass provides features."
-			]
-		},
-		{
-			"name": "Feat",
-			"source": "XUA2022ExpertClasses",
-			"page": 14,
-			"className": "Rogue",
-			"classSource": "XUA2022ExpertClasses",
-			"level": 4,
-			"entries": [
-				"You gain the Ability Score Improvement Feat or another Feat of your choice."
-			]
-		},
-		{
-			"name": "Uncanny Dodge",
-			"source": "XUA2022ExpertClasses",
-			"page": 14,
-			"className": "Rogue",
-			"classSource": "XUA2022ExpertClasses",
-			"level": 5,
-			"entries": [
-				"When an attacker that you can see hits you with an {@action Attack|XUA2022ExpertClasses|Attack Roll}, you can use your Reaction to halve the attack's damage against you (round down)."
-			]
-		},
-		{
-			"name": "Subclass Feature",
-			"source": "XUA2022ExpertClasses",
-			"page": 14,
-			"className": "Rogue",
-			"classSource": "XUA2022ExpertClasses",
-			"level": 6,
-			"entries": [
-				"You gain a feature from your Rogue Subclass."
-			]
-		},
-		{
-			"name": "Expertise",
-			"source": "XUA2022ExpertClasses",
-			"page": 14,
-			"className": "Rogue",
-			"classSource": "XUA2022ExpertClasses",
-			"level": 7,
-			"entries": [
-				"You gain {@variantrule Expertise|XUA2022ExpertClasses} in two of your Skill Proficiencies of your choice."
-			]
-		},
-		{
-			"name": "Feat",
-			"source": "XUA2022ExpertClasses",
-			"page": 14,
-			"className": "Rogue",
-			"classSource": "XUA2022ExpertClasses",
-			"level": 8,
-			"entries": [
-				"You gain the Ability Score Improvement Feat or another Feat of your choice."
-			]
-		},
-		{
-			"name": "Evasion",
-			"source": "XUA2022ExpertClasses",
-			"page": 14,
-			"className": "Rogue",
-			"classSource": "XUA2022ExpertClasses",
-			"level": 9,
-			"entries": [
-				"You can nimbly dodge out of the way of certain dangers. When you are subjected to an effect that allows you to make a Dexterity Saving Throw to take only half damage, you instead take no damage if you succeed on the Saving Throw and only half damage if you fail. You can't use this feature if you're {@condition Incapacitated|XUA2022ExpertClasses}."
-			]
-		},
-		{
-			"name": "Feat",
-			"source": "XUA2022ExpertClasses",
-			"page": 14,
-			"className": "Rogue",
-			"classSource": "XUA2022ExpertClasses",
-			"level": 10,
-			"entries": [
-				"You gain the Ability Score Improvement Feat or another Feat of your choice."
-			]
-		},
-		{
-			"name": "Subclass Feature",
-			"source": "XUA2022ExpertClasses",
-			"page": 14,
-			"className": "Rogue",
-			"classSource": "XUA2022ExpertClasses",
-			"level": 10,
-			"entries": [
-				"You gain a feature from your Rogue Subclass."
-			]
-		},
-		{
-			"name": "Reliable Talent",
-			"source": "XUA2022ExpertClasses",
-			"page": 14,
-			"className": "Rogue",
-			"classSource": "XUA2022ExpertClasses",
-			"level": 11,
-			"entries": [
-				"You have refined your talents until they approach perfection. Whenever you make an {@variantrule Ability Check|XUA2022ExpertClasses} that uses one of your Skill or Tool Proficiencies, you can treat a {@dice d20} roll of 9 or lower as a 10."
-			]
-		},
-		{
-			"name": "Feat",
-			"source": "XUA2022ExpertClasses",
-			"page": 14,
-			"className": "Rogue",
-			"classSource": "XUA2022ExpertClasses",
-			"level": 12,
-			"entries": [
-				"You gain the Ability Score Improvement Feat or another Feat of your choice."
-			]
-		},
-		{
-			"name": "Subtle Strikes",
-			"source": "XUA2022ExpertClasses",
-			"page": 14,
-			"className": "Rogue",
-			"classSource": "XUA2022ExpertClasses",
-			"level": 13,
-			"entries": [
-				"When you attack, you know how to exploit a target's distraction. You have Advantage on any {@action Attack|XUA2022ExpertClasses|Attack Roll} that targets a creature that is within 5 feet of at least one of your allies who isn't {@condition Incapacitated|XUA2022ExpertClasses}."
-			]
-		},
-		{
-			"name": "Subclass Feature",
-			"source": "XUA2022ExpertClasses",
-			"page": 14,
-			"className": "Rogue",
-			"classSource": "XUA2022ExpertClasses",
-			"level": 14,
-			"entries": [
-				"You gain a feature from your Rogue Subclass."
-			]
-		},
-		{
-			"name": "Slippery Mind",
-			"source": "XUA2022ExpertClasses",
-			"page": 14,
-			"className": "Rogue",
-			"classSource": "XUA2022ExpertClasses",
-			"level": 15,
-			"entries": [
-				"Your cunning mind is exceptionally difficult to control. You gain Proficiency in Wisdom and Charisma Saving Throws."
-			]
-		},
-		{
-			"name": "Feat",
-			"source": "XUA2022ExpertClasses",
-			"page": 14,
-			"className": "Rogue",
-			"classSource": "XUA2022ExpertClasses",
-			"level": 16,
-			"entries": [
-				"You gain the Ability Score Improvement Feat or another Feat of your choice."
-			]
-		},
-		{
-			"name": "Elusive",
-			"source": "XUA2022ExpertClasses",
-			"page": 14,
-			"className": "Rogue",
-			"classSource": "XUA2022ExpertClasses",
-			"level": 17,
-			"entries": [
-				"You are so evasive that attackers rarely gain the upper hand against you. No {@action Attack|XUA2022ExpertClasses|Attack Roll} has Advantage against you while you aren't {@condition Incapacitated|XUA2022ExpertClasses}."
-			]
-		},
-		{
-			"name": "Stroke of Luck",
-			"source": "XUA2022ExpertClasses",
-			"page": 14,
-			"className": "Rogue",
-			"classSource": "XUA2022ExpertClasses",
-			"level": 18,
-			"entries": [
-				"You have an uncanny knack for succeeding when you need to. If you fail a {@variantrule D20 Tests|XUA2022ExpertClasses|d20 Test}, you can turn the roll into a 20. Once you use this feature, you can't use it again until you finish a Short Rest or a {@variantrule Long Rest|XUA2022ExpertClasses}."
-			]
-		},
-		{
-			"name": "Feat",
-			"source": "XUA2022ExpertClasses",
-			"page": 14,
-			"className": "Rogue",
-			"classSource": "XUA2022ExpertClasses",
-			"level": 19,
-			"entries": [
-				"You gain the Ability Score Improvement Feat or another Feat of your choice."
-			]
-		},
-		{
-			"name": "Epic Boon",
-			"source": "XUA2022ExpertClasses",
-			"page": 14,
-			"className": "Rogue",
-			"classSource": "XUA2022ExpertClasses",
-			"level": 20,
-			"entries": [
-				"You gain the Epic Boon of Undetectability Feat or another Epic Boon Feat of your choice."
-			]
-		}
-	],
-	"subclassFeature": [
-		{
-			"name": "College of Lore",
-			"source": "XUA2022ExpertClasses",
-			"page": 7,
-			"className": "Bard",
-			"classSource": "XUA2022ExpertClasses",
-			"subclassShortName": "Lore",
-			"subclassSource": "XUA2022ExpertClasses",
-			"level": 3,
-			"entries": [
-				"Bards of the College of Lore know something about most things, collecting bits of knowledge from sources as diverse as scholarly tomes and peasant tales. Whether singing folk ballads in taverns or performing elaborate compositions in royal courts, these Bards use their gifts to hold audiences spellbound.",
-				"The college's members gather in libraries and sometimes in actual colleges, complete with classrooms and dormitories, to share their lore with one another. They also meet at festivals or affairs of state, where they can expose corruption, unravel lies, and poke fun at selfimportant figures of authority.",
-				{
-					"type": "refSubclassFeature",
-					"subclassFeature": "Bonus Proficiencies|Bard|XUA2022ExpertClasses|Lore|XUA2022ExpertClasses|3"
-				},
-				{
-					"type": "refSubclassFeature",
-					"subclassFeature": "Cutting Words|Bard|XUA2022ExpertClasses|Lore|XUA2022ExpertClasses|3"
-				}
-			]
-		},
-		{
-			"name": "Bonus Proficiencies",
-			"source": "XUA2022ExpertClasses",
-			"page": 7,
-			"className": "Bard",
-			"classSource": "XUA2022ExpertClasses",
-			"subclassShortName": "Lore",
-			"subclassSource": "XUA2022ExpertClasses",
-			"level": 3,
-			"header": 2,
-			"entries": [
-				"You gain three Skill Proficiencies: {@skill Arcana}, {@skill History}, and {@skill Nature}. If you already have one of these Proficiencies, choose a Skill Proficiency you lack, and gain that Proficiency"
-			]
-		},
-		{
-			"name": "Cutting Words",
-			"source": "XUA2022ExpertClasses",
-			"page": 7,
-			"className": "Bard",
-			"classSource": "XUA2022ExpertClasses",
-			"subclassShortName": "Lore",
-			"subclassSource": "XUA2022ExpertClasses",
-			"level": 3,
-			"header": 2,
-			"entries": [
-				"You learn how to use your wit to supernaturally distract, confuse, and otherwise sap the confidence and competence of others. When a creature that you can see within 60 feet of yourself succeeds on an {@variantrule Ability Check|XUA2022ExpertClasses} or an {@variantrule Attack Roll|XUA2022ExpertClasses}, you can use your Reaction to expend one of your uses of Bardic Inspiration, rolling a Bardic Inspiration die and subtracting the number rolled from the creature's roll, potentially turning it into a failure."
-			]
-		},
-		{
-			"name": "Cunning Inspiration",
-			"source": "XUA2022ExpertClasses",
-			"page": 7,
-			"className": "Bard",
-			"classSource": "XUA2022ExpertClasses",
-			"subclassShortName": "Lore",
-			"subclassSource": "XUA2022ExpertClasses",
-			"level": 6,
-			"header": 2,
-			"entries": [
-				"Through your studies and your cunning, you've learned to inspire others exceptionally well. When any creature rolls your Bardic Inspiration die, that creature can roll the die twice and use the higher of the two rolls."
-			]
-		},
-		{
-			"name": "Improved Cutting Words",
-			"source": "XUA2022ExpertClasses",
-			"page": 7,
-			"className": "Bard",
-			"classSource": "XUA2022ExpertClasses",
-			"subclassShortName": "Lore",
-			"subclassSource": "XUA2022ExpertClasses",
-			"level": 10,
-			"header": 2,
-			"entries": [
-				"Whenever you use your Cutting Words feature on a creature, you can deal Psychic Damage to that creature equal to the number rolled on the Bardic Inspiration die plus your Charisma modifier."
-			]
-		},
-		{
-			"name": "Peerless Skill",
-			"source": "XUA2022ExpertClasses",
-			"page": 7,
-			"className": "Bard",
-			"classSource": "XUA2022ExpertClasses",
-			"subclassShortName": "Lore",
-			"subclassSource": "XUA2022ExpertClasses",
-			"level": 14,
-			"header": 2,
-			"entries": [
-				"When you make an {@variantrule Ability Check|XUA2022ExpertClasses} and fail, you can expend one use of Bardic Inspiration, roll the Bardic Inspiration die, and add the number rolled to the {@variantrule Ability Check|XUA2022ExpertClasses}, potentially turning it into a success. If the check still fails, the Bardic Inspiration isn't expended."
-			]
-		},
-		{
-			"name": "Hunter",
-			"source": "XUA2022ExpertClasses",
-			"page": 11,
-			"className": "Ranger",
-			"classSource": "XUA2022ExpertClasses",
-			"subclassShortName": "Hunter",
-			"subclassSource": "XUA2022ExpertClasses",
-			"level": 3,
-			"header": 2,
-			"entries": [
-				"You stalk prey in the wilds and elsewhere, using your abilities as a Hunter to protect nature and people everywhere from forces that would destroy them.",
-				{
-					"type": "refSubclassFeature",
-					"subclassFeature": "Hunter's Prey|Ranger|XUA2022ExpertClasses|Hunter|XUA2022ExpertClasses|3"
-				}
-			]
-		},
-		{
-			"name": "Hunter's Prey",
-			"source": "XUA2022ExpertClasses",
-			"page": 11,
-			"className": "Ranger",
-			"classSource": "XUA2022ExpertClasses",
-			"subclassShortName": "Hunter",
-			"subclassSource": "XUA2022ExpertClasses",
-			"level": 3,
-			"header": 2,
-			"entries": [
-				"Your tenacity can wear down even the most resilient foes. When you hit a creature with a Weapon or an {@variantrule Unarmed Strike|XUA2022ExpertClasses} as part of the {@action Attack|XUA2022ExpertClasses|Attack Action} on your turn, the Weapon or {@variantrule Unarmed Strike|XUA2022ExpertClasses} deals an extra {@damage 1d8} damage to the target if it's missing any of its Hit Points. You can deal this extra damage only once per turn."
-			]
-		},
-		{
-			"name": "Hunter's Lore",
-			"source": "XUA2022ExpertClasses",
-			"page": 11,
-			"className": "Ranger",
-			"classSource": "XUA2022ExpertClasses",
-			"subclassShortName": "Hunter",
-			"subclassSource": "XUA2022ExpertClasses",
-			"level": 6,
-			"header": 2,
-			"entries": [
-				"You can call on the forces of nature to reveal certain strengths and weaknesses of your prey. While a creature is marked by your Hunter's Mark, you know whether that creature has any Immunities, Resistances, and Vulnerabilities, and if the creature has any, you know what they are."
-			]
-		},
-		{
-			"name": "Multiattack",
-			"source": "XUA2022ExpertClasses",
-			"page": 11,
-			"className": "Ranger",
-			"classSource": "XUA2022ExpertClasses",
-			"subclassShortName": "Hunter",
-			"subclassSource": "XUA2022ExpertClasses",
-			"level": 10,
-			"header": 2,
-			"entries": [
-				"You now always have Conjure Barrage prepared, and it doesn't count against the number of Spells you can prepare.",
-				"You can also cast the Spell with 1st- and 2nd level Spell Slots. When you do so, the Spell's damage is reduced by {@dice 1d8} for each slot level below 3rd."
-			]
-		},
-		{
-			"name": "Superior Hunter's Defense",
-			"source": "XUA2022ExpertClasses",
-			"page": 11,
-			"className": "Ranger",
-			"classSource": "XUA2022ExpertClasses",
-			"subclassShortName": "Hunter",
-			"subclassSource": "XUA2022ExpertClasses",
-			"level": 14,
-			"header": 2,
-			"entries": [
-				"When you are hit by an {@action Attack|XUA2022ExpertClasses|Attack Roll}, you can use your Reaction to halve the attack's damage against yourself, and you can redirect the other half of the damage to one creature (other than the attacker) that you can see within 5 feet of yourself."
-			]
-		},
-		{
-			"name": "Thief",
-			"source": "XUA2022ExpertClasses",
-			"page": 15,
-			"className": "Rogue",
-			"classSource": "XUA2022ExpertClasses",
-			"subclassShortName": "Thief",
-			"subclassSource": "XUA2022ExpertClasses",
-			"level": 3,
-			"header": 2,
-			"entries": [
-				"You have honed your larcenous arts. Burglars, bandits, cutpurses, and other criminals typically adopt this Subclass, but so do Rogues who prefer to think of themselves as treasure seekers, explorers, delvers, and investigators.",
-				"In addition to improving your agility and stealthiness, you gain abilities useful for delving into ruins and getting maximum benefit from the magic items you find there.",
-				{
-					"type": "refSubclassFeature",
-					"subclassFeature": "Fast Hands|Rogue|XUA2022ExpertClasses|Thief|XUA2022ExpertClasses|3"
-				},
-				{
-					"type": "refSubclassFeature",
-					"subclassFeature": "Second-Story Work|Rogue|XUA2022ExpertClasses|Thief|XUA2022ExpertClasses|3"
-				}
-			]
-		},
-		{
-			"name": "Fast Hands",
-			"source": "XUA2022ExpertClasses",
-			"page": 15,
-			"className": "Rogue",
-			"classSource": "XUA2022ExpertClasses",
-			"subclassShortName": "Thief",
-			"subclassSource": "XUA2022ExpertClasses",
-			"level": 3,
-			"header": 2,
-			"entries": [
-				"You have additional options for the Bonus Action of your Cunning Action, with which you can do the following:",
-				{
-					"type": "list",
-					"style": "list-hang-notitle",
-					"items": [
-						{
-							"type": "item",
-							"name": "Search",
-							"entries": [
-								"Take the {@action Search Action|XUA2022ExpertClasses|Search Action}."
-							]
-						},
-						{
-							"type": "item",
-							"name": "Sleight of Hand",
-							"entries": [
-								"Make a Dexterity Check ({@skill Sleight of Hand}) to pick a lock or disarm a trap with Thieves' Tools or to pick a pocket"
-							]
-						}
-					]
-				}
-			]
-		},
-		{
-			"name": "Second-Story Work",
-			"source": "XUA2022ExpertClasses",
-			"page": 15,
-			"className": "Rogue",
-			"classSource": "XUA2022ExpertClasses",
-			"subclassShortName": "Thief",
-			"subclassSource": "XUA2022ExpertClasses",
-			"level": 3,
-			"header": 2,
-			"entries": [
-				"You have trained to reach especially hard-toreach places, granting you these benefits:",
-				{
-					"type": "list",
-					"style": "list-hang-notitle",
-					"items": [
-						{
-							"type": "item",
-							"name": "Climb Speed",
-							"entries": [
-								"You gain a {@variantrule Climb Speed|XUA2022ExpertClasses} equal to your Speed."
-							]
-						},
-						{
-							"type": "item",
-							"name": "Jump Distance",
-							"entries": [
-								"When you take the {@action Jump|XUA2022ExpertClasses|Jump Action}, you can make a Dexterity Check, instead of a Strength Check."
-							]
-						}
-					]
-				}
-			]
-		},
-		{
-			"name": "Supreme Sneak",
-			"source": "XUA2022ExpertClasses",
-			"page": 15,
-			"className": "Rogue",
-			"classSource": "XUA2022ExpertClasses",
-			"subclassShortName": "Thief",
-			"subclassSource": "XUA2022ExpertClasses",
-			"level": 6,
-			"header": 2,
-			"entries": [
-				"You have Advantage on every Dexterity Check ({@skill Stealth}) you make, provided you aren't wearing Medium or Heavy Armor."
-			]
-		},
-		{
-			"name": "Use Magic Device",
-			"source": "XUA2022ExpertClasses",
-			"page": 15,
-			"className": "Rogue",
-			"classSource": "XUA2022ExpertClasses",
-			"subclassShortName": "Thief",
-			"subclassSource": "XUA2022ExpertClasses",
-			"level": 10,
-			"header": 2,
-			"entries": [
-				"In your treasure hunting, you have learned how to maximize use of magic items, granting you the following benefits:",
-				{
-					"type": "list",
-					"style": "list-hang-notitle",
-					"items": [
-						{
-							"type": "item",
-							"name": "Attunement",
-							"entries": [
-								"You can attune to up to four magic items at once."
-							]
-						},
-						{
-							"type": "item",
-							"name": "Charges",
-							"entries": [
-								"Whenever you use a magic item property that expends charges, roll a {@dice d6}. On a roll of 6, you use the property without expending the charges."
-							]
-						},
-						{
-							"type": "item",
-							"name": "Scrolls",
-							"entries": [
-								"You can use any {@item Spell Scroll} that bears a cantrip or a 1st-level Spell. You can also try to use any {@item Spell Scroll} that contains a higher-level Spell, but you must first succeed on an Intelligence Check (Arcana) with a DC equal to 10 + the Spell's level. On a successful check, you cast the Spell from the scroll, and you use Intelligence as your Spellcasting Ability for this casting. On a failed check, the scroll disintegrates."
-							]
-						}
-					]
-				}
-			]
-		},
-		{
-			"name": "Thief's Reflexes",
-			"source": "XUA2022ExpertClasses",
-			"page": 15,
-			"className": "Rogue",
-			"classSource": "XUA2022ExpertClasses",
-			"subclassShortName": "Thief",
-			"subclassSource": "XUA2022ExpertClasses",
-			"level": 14,
-			"header": 2,
-			"entries": [
-				"You can now take a second Bonus Action on your turn, provided it is the Bonus Action from Cunning Action. You can use this feature on a number of turns equal to your Proficiency Bonus, and you regain all expended uses when you finish a {@variantrule Long Rest|XUA2022ExpertClasses}."
-			]
-		}
-	],
-	"baseitem": [
-		{
-			"name": "Shortsword",
-			"source": "XUA2022ExpertClasses",
-			"page": 25,
-			"type": "M",
-			"rarity": "none",
-			"weight": 2,
-			"value": 1000,
-			"weaponCategory": "simple",
-			"property": [
-				"F",
-				"XUA2022ClericAndRevisedSpecies-L"
 			],
-			"dmg1": "1d6",
-			"dmgType": "P",
-			"sword": true,
-			"weapon": true
-		}
-	],
-	"itemProperty": [
-		{
-			"abbreviation": "XUA2022ClericAndRevisedSpecies-L",
-			"source": "XUA2022ExpertClasses",
-			"page": 21,
 			"entries": [
+				"When you take the Study Action, you make an Intelligence Check to study your memory, a book, a creature, a clue, an object, or another source of knowledge and call to mind an important piece of information about it.",
+				"The Areas of Knowledge table suggests which Skills are applicable when you take this Action, depending on the area of knowledge the Intelligence Check is about.",
 				{
-					"type": "entries",
-					"name": "Light",
-					"entries": [
-						"When you take the Attack Action on your turn and attack with a Light weapon in one hand, you can make one extra attack as part of the same Action. That extra attack must be made with a different Light weapon in the other hand, and you don't add your Ability Modifier to the extra attack's damage. You can make this extra attack only once on each of your turns.",
-						"For example, if you take the Attack Action on your turn and have a Shortsword in one hand and a Dagger in the other\u2014each of which has the Light property\u2014you can make one attack with each weapon, but you don't add your Strength or Dexterity Modifier to the damage roll of the second weapon."
+					"type": "table",
+					"caption": "Areas of Knowledge",
+					"colLabels": [
+						"Skill",
+						"Areas"
+					],
+					"colStyles": [
+						"col-1",
+						"col-11"
+					],
+					"rows": [
+						[
+							"{@skill Arcana}",
+							"Spells, magic items, eldritch symbols, magical traditions, planes of existence, and certain creatures (Aberrations, Constructs, Elementals, Fey, and Monstrosities)"
+						],
+						[
+							"{@skill History}",
+							"Historic events and people, ancient civilizations, wars, and certain creatures (Giants and Humanoids)"
+						],
+						[
+							"{@skill Investigation}",
+							"Traps, ciphers, riddles, and gadgetry"
+						],
+						[
+							"{@skill Nature}",
+							"Terrain, flora, weather, and certain creatures (Beasts, Dragons, Oozes, and Plants)"
+						],
+						[
+							"{@skill Religion}",
+							"Deities, religious hierarchies and rites, holy symbols, cults, and certain creatures (Celestials, Fiends, and Undead)"
+						]
 					]
 				}
-			]
-		}
-	],
-	"spellList": [
-		{
-			"name": "Arcane",
-			"source": "XUA2022ExpertClasses",
-			"spellListType": "groups",
-			"spells": [
-				"acid splash",
-				"blade ward",
-				"chill touch",
-				"dancing lights",
-				"fire bolt",
-				"friends",
-				"light",
-				"mage hand",
-				"mending",
-				"message",
-				"minor illusion",
-				"poison spray",
-				"prestidigitation",
-				"ray of frost",
-				"shocking grasp",
-				"true strike",
-				"vicious mockery",
-				"alarm",
-				"armor of agathys",
-				"arms of hadar",
-				"burning hands",
-				"charm person",
-				"chromatic orb",
-				"color spray",
-				"comprehend languages",
-				"detect magic",
-				"disguise self",
-				"dissonant whispers",
-				"expeditious retreat",
-				"false life",
-				"feather fall",
-				"find familiar",
-				"fog cloud",
-				"grease",
-				"hellish rebuke",
-				"hex",
-				"identify",
-				"illusory script",
-				"jump",
-				"longstrider",
-				"mage armor",
-				"magic missile",
-				"protection from evil and good",
-				"ray of sickness",
-				"shield",
-				"silent image",
-				"sleep",
-				"tasha's hideous laughter",
-				"tenser's floating disk",
-				"thunderwave",
-				"unseen servant",
-				"witch bolt",
-				"alter self",
-				"arcane lock",
-				"blindness/deafness",
-				"blur",
-				"calm emotions",
-				"cloud of daggers",
-				"continual flame",
-				"crown of madness",
-				"darkness",
-				"darkvision",
-				"detect thoughts",
-				"enlarge/reduce",
-				"enthrall",
-				"flaming sphere",
-				"gust of wind",
-				"hold person",
-				"invisibility",
-				"knock",
-				"levitate",
-				"locate object",
-				"nystul's magic aura",
-				"magic mouth",
-				"magic weapon",
-				"melf's acid arrow",
-				"mirror image",
-				"misty step",
-				"phantasmal force",
-				"ray of enfeeblement",
-				"rope trick",
-				"scorching ray",
-				"see invisibility",
-				"shatter",
-				"spider climb",
-				"suggestion",
-				"web",
-				"animate dead",
-				"bestow curse",
-				"blink",
-				"clairvoyance",
-				"counterspell",
-				"dispel magic",
-				"fear",
-				"fireball",
-				"fly",
-				"gaseous form",
-				"glyph of warding",
-				"haste",
-				"hunger of hadar",
-				"hypnotic pattern",
-				"leomund's tiny hut",
-				"lightning bolt",
-				"magic circle",
-				"major image",
-				"nondetection",
-				"phantom steed",
-				"protection from energy",
-				"remove curse",
-				"sending",
-				"sleet storm",
-				"slow",
-				"stinking cloud",
-				"tongues",
-				"vampiric touch",
-				"water breathing",
-				"arcane eye",
-				"banishment",
-				"blight",
-				"compulsion",
-				"confusion",
-				"conjure minor elementals",
-				"control water",
-				"dimension door",
-				"evard's black tentacles",
-				"fabricate",
-				"fire shield",
-				"greater invisibility",
-				"hallucinatory terrain",
-				"ice storm",
-				"leomund's secret chest",
-				"locate creature",
-				"mordenkainen's faithful hound",
-				"mordenkainen's private sanctum",
-				"otiluke's resilient sphere",
-				"phantasmal killer",
-				"polymorph",
-				"stone shape",
-				"stoneskin",
-				"wall of fire",
-				"animate objects",
-				"bigby's hand",
-				"cloudkill",
-				"cone of cold",
-				"conjure elemental",
-				"contact other plane",
-				"creation",
-				"dominate person",
-				"dream",
-				"geas",
-				"hold monster",
-				"legend lore",
-				"mislead",
-				"modify memory",
-				"passwall",
-				"planar binding",
-				"rary's telepathic bond",
-				"scrying",
-				"seeming",
-				"telekinesis",
-				"teleportation circle",
-				"wall of force",
-				"wall of stone",
-				"arcane gate",
-				"chain lightning",
-				"circle of death",
-				"contingency",
-				"create undead",
-				"disintegrate",
-				"eyebite",
-				"flesh to stone",
-				"globe of invulnerability",
-				"guards and wards",
-				"drawmij's instant summons",
-				"magic jar",
-				"mass suggestion",
-				"move earth",
-				"otiluke's freezing sphere",
-				"otto's irresistible dance",
-				"programmed illusion",
-				"sunbeam",
-				"true seeing",
-				"wall of ice",
-				"delayed blast fireball",
-				"etherealness",
-				"finger of death",
-				"forcecage",
-				"mirage arcane",
-				"mordenkainen's magnificent mansion",
-				"mordenkainen's sword",
-				"plane shift",
-				"prismatic spray",
-				"project image",
-				"reverse gravity",
-				"sequester",
-				"simulacrum",
-				"symbol",
-				"teleport",
-				"antimagic field",
-				"antipathy/sympathy",
-				"clone",
-				"control weather",
-				"demiplane",
-				"dominate monster",
-				"feeblemind",
-				"glibness",
-				"incendiary cloud",
-				"maze",
-				"mind blank",
-				"power word stun",
-				"sunburst",
-				"telepathy",
-				"astral projection",
-				"foresight",
-				"gate",
-				"imprisonment",
-				"meteor swarm",
-				"power word kill",
-				"prismatic wall",
-				"shapechange",
-				"time stop",
-				"true polymorph",
-				"weird",
-				"wish"
-			]
-		},
-		{
-			"name": "Divine",
-			"source": "XUA2022ExpertClasses",
-			"spellListType": "groups",
-			"spells": [
-				"guidance",
-				"light",
-				"resistance",
-				"sacred flame",
-				"spare the dying",
-				"thaumaturgy",
-				"bane",
-				"bless",
-				"command",
-				"compelled duel",
-				"cure wounds",
-				"detect evil and good",
-				"detect magic",
-				"detect poison and disease",
-				"divine favor",
-				"guiding bolt",
-				"healing word",
-				"heroism",
-				"inflict wounds",
-				"protection from evil and good",
-				"purify food and drink",
-				"sanctuary",
-				"searing smite",
-				"shield of faith",
-				"thunderous smite",
-				"wrathful smite",
-				"aid",
-				"augury",
-				"blindness/deafness",
-				"branding smite",
-				"calm emotions",
-				"find steed",
-				"find traps",
-				"gentle repose",
-				"hold person",
-				"lesser restoration",
-				"locate object",
-				"magic weapon",
-				"prayer of healing",
-				"protection from poison",
-				"silence",
-				"spiritual weapon",
-				"warding bond",
-				"zone of truth",
-				"aura of vitality",
-				"beacon of hope",
-				"blinding smite",
-				"clairvoyance",
-				"create food and water",
-				"crusader's mantle",
-				"daylight",
-				"dispel magic",
-				"feign death",
-				"glyph of warding",
-				"magic circle",
-				"mass healing word",
-				"remove curse",
-				"revivify",
-				"speak with dead",
-				"spirit guardians",
-				"tongues",
-				"aura of life",
-				"aura of purity",
-				"banishment",
-				"death ward",
-				"divination",
-				"freedom of movement",
-				"guardian of faith",
-				"locate creature",
-				"staggering smite",
-				"banishing smite",
-				"circle of power",
-				"commune",
-				"contagion",
-				"destructive wave",
-				"dispel evil and good",
-				"flame strike",
-				"geas",
-				"greater restoration",
-				"hallow",
-				"legend lore",
-				"mass cure wounds",
-				"planar binding",
-				"raise dead",
-				"scrying",
-				"blade barrier",
-				"find the path",
-				"forbiddance",
-				"harm",
-				"heal",
-				"heroes' feast",
-				"planar ally",
-				"sunbeam",
-				"true seeing",
-				"word of recall",
-				"conjure celestial",
-				"divine word",
-				"etherealness",
-				"plane shift",
-				"regenerate",
-				"resurrection",
-				"symbol",
-				"antimagic field",
-				"antipathy/sympathy",
-				"holy aura",
-				"sunburst",
-				"astral projection",
-				"foresight",
-				"gate",
-				"mass heal",
-				"power word heal",
-				"true resurrection"
-			]
-		},
-		{
-			"name": "Primal",
-			"source": "XUA2022ExpertClasses",
-			"spellListType": "groups",
-			"spells": [
-				"druidcraft",
-				"guidance",
-				"mending",
-				"message",
-				"poison spray",
-				"produce flame",
-				"resistance",
-				"shillelagh",
-				"spare the dying",
-				"thorn whip",
-				"animal friendship",
-				"create or destroy water",
-				"cure wounds",
-				"detect magic",
-				"detect poison and disease",
-				"ensnaring strike",
-				"entangle",
-				"faerie fire",
-				"fog cloud",
-				"goodberry",
-				"hail of thorns",
-				"healing word",
-				"hunter's mark",
-				"jump",
-				"longstrider",
-				"purify food and drink",
-				"speak with animals",
-				"thunderwave",
-				"animal messenger",
-				"augury",
-				"barkskin",
-				"beast sense",
-				"cordon of arrows",
-				"darkvision",
-				"enhance ability",
-				"enlarge/reduce",
-				"find traps",
-				"flame blade",
-				"flaming sphere",
-				"gentle repose",
-				"gust of wind",
-				"heat metal",
-				"lesser restoration",
-				"locate animals or plants",
-				"locate object",
-				"moonbeam",
-				"pass without trace",
-				"protection from poison",
-				"silence",
-				"spike growth",
-				"call lightning",
-				"conjure animals",
-				"conjure barrage",
-				"daylight",
-				"dispel magic",
-				"elemental weapon",
-				"feign death",
-				"lightning arrow",
-				"meld into stone",
-				"nondetection",
-				"plant growth",
-				"protection from energy",
-				"revivify",
-				"sleet storm",
-				"speak with plants",
-				"water breathing",
-				"water walk",
-				"wind wall",
-				"conjure minor elementals",
-				"conjure woodland beings",
-				"control water",
-				"dominate beast",
-				"freedom of movement",
-				"giant insect",
-				"grasping vine",
-				"ice storm",
-				"locate creature",
-				"polymorph",
-				"stone shape",
-				"stoneskin",
-				"wall of fire",
-				"antilife shell",
-				"awaken",
-				"commune with nature",
-				"conjure elemental",
-				"conjure volley",
-				"greater restoration",
-				"insect plague",
-				"mass cure wounds",
-				"reincarnate",
-				"scrying",
-				"swift quiver",
-				"tree stride",
-				"wall of stone",
-				"conjure fey",
-				"find the path",
-				"heal",
-				"move earth",
-				"sunbeam",
-				"transport via plants",
-				"wall of ice",
-				"wall of thorns",
-				"wind walk",
-				"fire storm",
-				"regenerate",
-				"reverse gravity",
-				"animal shapes",
-				"control weather",
-				"earthquake",
-				"sunburst",
-				"tsunami",
-				"power word heal",
-				"shapechange",
-				"storm of vengeance",
-				"true resurrection"
 			]
 		}
 	]

@@ -62,6 +62,12 @@
 				5,
 				5
 			],
+			"classSpells": [
+				{
+					"groupName": "Divine",
+					"groupSource": "XUA2022ClericAndRevisedSpecies"
+				}
+			],
 			"startingProficiencies": {
 				"armor": [
 					"light",
@@ -447,12 +453,6 @@
 				"Feat|Cleric|XUA2022ClericAndRevisedSpecies|19",
 				"Epic Boon|Cleric|XUA2022ClericAndRevisedSpecies|20"
 			],
-			"classSpells": [
-				{
-					"groupName": "Divine",
-					"groupSource": "XUA2022ClericAndRevisedSpecies"
-				}
-			],
 			"subclassTitle": "Cleric Subclass",
 			"fluff": [
 				{
@@ -794,6 +794,20 @@
 			]
 		},
 		{
+			"name": "Disciple of Life",
+			"source": "XUA2022ClericAndRevisedSpecies",
+			"page": 7,
+			"className": "Cleric",
+			"classSource": "XUA2022ClericAndRevisedSpecies",
+			"subclassShortName": "Life",
+			"subclassSource": "XUA2022ClericAndRevisedSpecies",
+			"level": 3,
+			"header": 1,
+			"entries": [
+				"Your healing Spells are empowered by life itself. When a Spell you cast with a Spell Slot restores Hit Points to a creature, that creature regains additional Hit Points on the turn you cast the Spell. The additional Hit Points equal 2 plus the Spell's level."
+			]
+		},
+		{
 			"name": "Domain Spells",
 			"source": "XUA2022ClericAndRevisedSpecies",
 			"page": 7,
@@ -835,20 +849,6 @@
 						]
 					]
 				}
-			]
-		},
-		{
-			"name": "Disciple of Life",
-			"source": "XUA2022ClericAndRevisedSpecies",
-			"page": 7,
-			"className": "Cleric",
-			"classSource": "XUA2022ClericAndRevisedSpecies",
-			"subclassShortName": "Life",
-			"subclassSource": "XUA2022ClericAndRevisedSpecies",
-			"level": 3,
-			"header": 1,
-			"entries": [
-				"Your healing Spells are empowered by life itself. When a Spell you cast with a Spell Slot restores Hit Points to a creature, that creature regains additional Hit Points on the turn you cast the Spell. The additional Hit Points equal 2 plus the Spell's level."
 			]
 		},
 		{
@@ -900,100 +900,22 @@
 			"name": "Ardling",
 			"source": "XUA2022ClericAndRevisedSpecies",
 			"page": 8,
-			"_versions": [
-				{
-					"name": "Ardling; Climber",
-					"source": "XUA2022ClericAndRevisedSpecies",
-					"_mod": {
-						"entries": [
-							{
-								"mode": "replaceArr",
-								"replace": "Animal Ancestry",
-								"items": {
-									"name": "Animal Ancestry",
-									"entries": [
-										"You are descended from a climber Celestial animal, such as a bear, cat, lizard or squirrel. Your head resembles the head of the chosen animal.",
-										"You have hooked claws, sharp nails, or a serpentine tail. As a result, you have a {@variantrule Climb Speed|XUA2022ClericAndRevisedSpecies} equal to your Speed, and once per turn when you deal damage with your {@variantrule Unarmed Strike|XUA2022ClericAndRevisedSpecies} to a target, you can increase the damage to that target by an amount equal to your Proficiency Bonus."
-									]
-								}
-							}
-						]
-					}
-				},
-				{
-					"name": "Ardling; Flyer",
-					"source": "XUA2022ClericAndRevisedSpecies",
-					"_mod": {
-						"entries": [
-							{
-								"mode": "replaceArr",
-								"replace": "Animal Ancestry",
-								"items": {
-									"name": "Animal Ancestry",
-									"entries": [
-										"You are descended from a flyer Celestial animal, such as a bat, eagle, owl or raven. Your head resembles the head of the chosen animal.",
-										"You have vestigial wings. As a result, when you fall at least 10 feet, you can use your Reaction to safely glide downward, taking no damage from the fall. In addition, when you take the {@action Jump|XUA2022ClericAndRevisedSpecies} Action, you can flap your wings to gain Advantage on that Action's {@variantrule Ability Check|XUA2022ClericAndRevisedSpecies}."
-									]
-								}
-							}
-						]
-					}
-				},
-				{
-					"name": "Ardling; Racer",
-					"source": "XUA2022ClericAndRevisedSpecies",
-					"_mod": {
-						"entries": [
-							{
-								"mode": "replaceArr",
-								"replace": "Animal Ancestry",
-								"items": {
-									"name": "Animal Ancestry",
-									"entries": [
-										"You are descended from a racer Celestial animal, such as a deer, dog, horse or triceratops. Your head resembles the head of the chosen animal.",
-										"When you take the {@action Dash|XUA2022ClericAndRevisedSpecies} Action, your Speed increases for that Action. The increase equals ten times your Proficiency Bonus."
-									]
-								}
-							}
-						]
-					}
-				},
-				{
-					"name": "Ardling; Swimmer",
-					"source": "XUA2022ClericAndRevisedSpecies",
-					"_mod": {
-						"entries": [
-							{
-								"mode": "replaceArr",
-								"replace": "Animal Ancestry",
-								"items": {
-									"name": "Animal Ancestry",
-									"entries": [
-										"You are descended from a swimmer Celestial animal, such as a crocodile, dolphin, frog or shark. Your head resembles the head of the chosen animal.",
-										"You can hold your breath for up to an hour at a time, and you have a {@variantrule Swim Speed|XUA2022ClericAndRevisedSpecies} equal to your Speed. In addition, you have Resistance to Cold Damage."
-									]
-								}
-							}
-						]
-					}
-				}
-			],
-			"skillProficiencies": [
-				{
-					"perception": true
-				}
-			],
 			"creatureTypes": [
 				"humanoid"
 			],
 			"size": [
-				"M",
-				"S"
+				"S",
+				"M"
 			],
 			"speed": 30,
 			"age": {
 				"average": 200
 			},
+			"skillProficiencies": [
+				{
+					"perception": true
+				}
+			],
 			"entries": [
 				{
 					"type": "list",
@@ -1099,114 +1021,90 @@
 					"name": "Ardling",
 					"source": "XUA2022ClericAndRevisedSpecies"
 				}
-			}
+			},
+			"_versions": [
+				{
+					"name": "Ardling; Climber",
+					"source": "XUA2022ClericAndRevisedSpecies",
+					"_mod": {
+						"entries": [
+							{
+								"mode": "replaceArr",
+								"replace": "Animal Ancestry",
+								"items": {
+									"name": "Animal Ancestry",
+									"entries": [
+										"You are descended from a climber Celestial animal, such as a bear, cat, lizard or squirrel. Your head resembles the head of the chosen animal.",
+										"You have hooked claws, sharp nails, or a serpentine tail. As a result, you have a {@variantrule Climb Speed|XUA2022ClericAndRevisedSpecies} equal to your Speed, and once per turn when you deal damage with your {@variantrule Unarmed Strike|XUA2022ClericAndRevisedSpecies} to a target, you can increase the damage to that target by an amount equal to your Proficiency Bonus."
+									]
+								}
+							}
+						]
+					}
+				},
+				{
+					"name": "Ardling; Flyer",
+					"source": "XUA2022ClericAndRevisedSpecies",
+					"_mod": {
+						"entries": [
+							{
+								"mode": "replaceArr",
+								"replace": "Animal Ancestry",
+								"items": {
+									"name": "Animal Ancestry",
+									"entries": [
+										"You are descended from a flyer Celestial animal, such as a bat, eagle, owl or raven. Your head resembles the head of the chosen animal.",
+										"You have vestigial wings. As a result, when you fall at least 10 feet, you can use your Reaction to safely glide downward, taking no damage from the fall. In addition, when you take the {@action Jump|XUA2022ClericAndRevisedSpecies} Action, you can flap your wings to gain Advantage on that Action's {@variantrule Ability Check|XUA2022ClericAndRevisedSpecies}."
+									]
+								}
+							}
+						]
+					}
+				},
+				{
+					"name": "Ardling; Racer",
+					"source": "XUA2022ClericAndRevisedSpecies",
+					"_mod": {
+						"entries": [
+							{
+								"mode": "replaceArr",
+								"replace": "Animal Ancestry",
+								"items": {
+									"name": "Animal Ancestry",
+									"entries": [
+										"You are descended from a racer Celestial animal, such as a deer, dog, horse or triceratops. Your head resembles the head of the chosen animal.",
+										"When you take the {@action Dash|XUA2022ClericAndRevisedSpecies} Action, your Speed increases for that Action. The increase equals ten times your Proficiency Bonus."
+									]
+								}
+							}
+						]
+					}
+				},
+				{
+					"name": "Ardling; Swimmer",
+					"source": "XUA2022ClericAndRevisedSpecies",
+					"_mod": {
+						"entries": [
+							{
+								"mode": "replaceArr",
+								"replace": "Animal Ancestry",
+								"items": {
+									"name": "Animal Ancestry",
+									"entries": [
+										"You are descended from a swimmer Celestial animal, such as a crocodile, dolphin, frog or shark. Your head resembles the head of the chosen animal.",
+										"You can hold your breath for up to an hour at a time, and you have a {@variantrule Swim Speed|XUA2022ClericAndRevisedSpecies} equal to your Speed. In addition, you have Resistance to Cold Damage."
+									]
+								}
+							}
+						]
+					}
+				}
+			]
 		},
 		{
 			"name": "Dragonborn",
 			"source": "XUA2022ClericAndRevisedSpecies",
 			"page": 9,
-			"darkvision": 60,
-			"_versions": [
-				{
-					"_template": {
-						"name": "Dragonborn; {{color}}",
-						"source": "XUA2022ClericAndRevisedSpecies",
-						"_mod": {
-							"entries": [
-								{
-									"mode": "removeArr",
-									"names": "Draconic Ancestry"
-								},
-								{
-									"mode": "replaceArr",
-									"replace": "Breath Weapon",
-									"items": {
-										"type": "entries",
-										"name": "Breath Weapon",
-										"entries": [
-											"As an Action, you exhale destructive energy in a 15-foot cone. Each creature in that area must make a Dexterity saving throw against a DC equal to 8 + your Constitution modifier + your Proficiency Bonus. On a failed save, a creature takes {@damage 1d10} + your character level in {{damage type}} damage. On a successful save, a creature takes half as much damage.",
-											"You can use this Breath Weapon a number of times equal to your Proficiency Bonus, and you regain all expended uses when you finish a {@variantrule Long Rest|XUA2022ClericAndRevisedSpecies}."
-										]
-									}
-								},
-								{
-									"mode": "replaceArr",
-									"replace": "Damage Resistance",
-									"items": {
-										"type": "entries",
-										"name": "Damage Resistance",
-										"entries": [
-											"You have Resistance to {{damageType}} damage."
-										]
-									}
-								}
-							]
-						}
-					},
-					"_implementations": [
-						{
-							"_variables": {
-								"color": "Black",
-								"damageType": "acid"
-							}
-						},
-						{
-							"_variables": {
-								"color": "Blue",
-								"damageType": "lightning"
-							}
-						},
-						{
-							"_variables": {
-								"color": "Brass",
-								"damageType": "fire"
-							}
-						},
-						{
-							"_variables": {
-								"color": "Bronze",
-								"damageType": "Lightning"
-							}
-						},
-						{
-							"_variables": {
-								"color": "Copper",
-								"damageType": "acid"
-							}
-						},
-						{
-							"_variables": {
-								"color": "Gold",
-								"damageType": "fire"
-							}
-						},
-						{
-							"_variables": {
-								"color": "Green",
-								"damageType": "poison"
-							}
-						},
-						{
-							"_variables": {
-								"color": "Red",
-								"damageType": "fire"
-							}
-						},
-						{
-							"_variables": {
-								"color": "Silver",
-								"damageType": "cold"
-							}
-						},
-						{
-							"_variables": {
-								"color": "White",
-								"damageType": "cold"
-							}
-						}
-					]
-				}
-			],
 			"creatureTypes": [
 				"humanoid"
 			],
@@ -1217,6 +1115,7 @@
 			"age": {
 				"average": 80
 			},
+			"darkvision": 60,
 			"soundClip": {
 				"type": "internal",
 				"path": "races/dragonborn.mp3"
@@ -1358,128 +1257,113 @@
 					"name": "Dragonborn",
 					"source": "XUA2022ClericAndRevisedSpecies"
 				}
-			}
+			},
+			"_versions": [
+				{
+					"_template": {
+						"name": "Dragonborn; {{color}}",
+						"source": "XUA2022ClericAndRevisedSpecies",
+						"_mod": {
+							"entries": [
+								{
+									"mode": "removeArr",
+									"names": "Draconic Ancestry"
+								},
+								{
+									"mode": "replaceArr",
+									"replace": "Breath Weapon",
+									"items": {
+										"type": "entries",
+										"name": "Breath Weapon",
+										"entries": [
+											"As an Action, you exhale destructive energy in a 15-foot cone. Each creature in that area must make a Dexterity saving throw against a DC equal to 8 + your Constitution modifier + your Proficiency Bonus. On a failed save, a creature takes {@damage 1d10} + your character level in {{damage type}} damage. On a successful save, a creature takes half as much damage.",
+											"You can use this Breath Weapon a number of times equal to your Proficiency Bonus, and you regain all expended uses when you finish a {@variantrule Long Rest|XUA2022ClericAndRevisedSpecies}."
+										]
+									}
+								},
+								{
+									"mode": "replaceArr",
+									"replace": "Damage Resistance",
+									"items": {
+										"type": "entries",
+										"name": "Damage Resistance",
+										"entries": [
+											"You have Resistance to {{damageType}} damage."
+										]
+									}
+								}
+							]
+						}
+					},
+					"_implementations": [
+						{
+							"_variables": {
+								"color": "Black",
+								"damageType": "acid"
+							}
+						},
+						{
+							"_variables": {
+								"color": "Blue",
+								"damageType": "lightning"
+							}
+						},
+						{
+							"_variables": {
+								"color": "Brass",
+								"damageType": "fire"
+							}
+						},
+						{
+							"_variables": {
+								"color": "Bronze",
+								"damageType": "Lightning"
+							}
+						},
+						{
+							"_variables": {
+								"color": "Copper",
+								"damageType": "acid"
+							}
+						},
+						{
+							"_variables": {
+								"color": "Gold",
+								"damageType": "fire"
+							}
+						},
+						{
+							"_variables": {
+								"color": "Green",
+								"damageType": "poison"
+							}
+						},
+						{
+							"_variables": {
+								"color": "Red",
+								"damageType": "fire"
+							}
+						},
+						{
+							"_variables": {
+								"color": "Silver",
+								"damageType": "cold"
+							}
+						},
+						{
+							"_variables": {
+								"color": "White",
+								"damageType": "cold"
+							}
+						}
+					]
+				}
+			]
 		},
 		{
 			"name": "Goliath",
 			"source": "XUA2022ClericAndRevisedSpecies",
 			"page": 9,
-			"_versions": [
-				{
-					"name": "Goliath; Cloud's Jaunt",
-					"source": "XUA2022ClericAndRevisedSpecies",
-					"_mod": {
-						"entries": [
-							{
-								"mode": "replaceArr",
-								"replace": "Giant Ancestry",
-								"items": {
-									"name": "Giant Ancestry",
-									"entries": [
-										"You are descended from Cloud Giants. You can use this benefit a number of times equal to your Proficiency Bonus, and you regain all expended uses when you finish a {@variantrule Long Rest|XUA2022ClericAndRevisedSpecies}.",
-										"As a Bonus Action, you magically Teleport up to 30 feet to an unoccupied space you can see."
-									]
-								}
-							}
-						]
-					}
-				},
-				{
-					"name": "Goliath; Fire's Burn",
-					"source": "XUA2022ClericAndRevisedSpecies",
-					"_mod": {
-						"entries": [
-							{
-								"mode": "replaceArr",
-								"replace": "Giant Ancestry",
-								"items": {
-									"name": "Giant Ancestry",
-									"entries": [
-										"You are descended from Fire Giants. You can use this benefit a number of times equal to your Proficiency Bonus, and you regain all expended uses when you finish a {@variantrule Long Rest|XUA2022ClericAndRevisedSpecies}.",
-										"When you hit a target with an {@variantrule Attack Roll|XUA2022ClericAndRevisedSpecies} and deal damage to it, you can also deal {@damage 1d10} Fire Damage to that target."
-									]
-								}
-							}
-						]
-					}
-				},
-				{
-					"name": "Goliath; Frost's Chill",
-					"source": "XUA2022ClericAndRevisedSpecies",
-					"_mod": {
-						"entries": [
-							{
-								"mode": "replaceArr",
-								"replace": "Giant Ancestry",
-								"items": {
-									"name": "Giant Ancestry",
-									"entries": [
-										"You are descended from Frost Giants. You can use this benefit a number of times equal to your Proficiency Bonus, and you regain all expended uses when you finish a {@variantrule Long Rest|XUA2022ClericAndRevisedSpecies}.",
-										"When you hit a target with an {@variantrule Attack Roll|XUA2022ClericAndRevisedSpecies} and deal damage to it, you can also deal {@damage 1d6} Cold Damage to that target and reduce its Speed by 10 feet until the start of your next turn."
-									]
-								}
-							}
-						]
-					}
-				},
-				{
-					"name": "Goliath; Hill's Tumble",
-					"source": "XUA2022ClericAndRevisedSpecies",
-					"_mod": {
-						"entries": [
-							{
-								"mode": "replaceArr",
-								"replace": "Giant Ancestry",
-								"items": {
-									"name": "Giant Ancestry",
-									"entries": [
-										"You are descended from Hill Giants. You can use this benefit a number of times equal to your Proficiency Bonus, and you regain all expended uses when you finish a {@variantrule Long Rest|XUA2022ClericAndRevisedSpecies}.",
-										"When you hit a Large or smaller creature with an {@variantrule Attack Roll|XUA2022ClericAndRevisedSpecies} and deal damage to it, you can knock that target Prone."
-									]
-								}
-							}
-						]
-					}
-				},
-				{
-					"name": "Goliath; Stone's Endurance",
-					"source": "XUA2022ClericAndRevisedSpecies",
-					"_mod": {
-						"entries": [
-							{
-								"mode": "replaceArr",
-								"replace": "Giant Ancestry",
-								"items": {
-									"name": "Giant Ancestry",
-									"entries": [
-										"You are descended from Stone Giants. You can use this benefit a number of times equal to your Proficiency Bonus, and you regain all expended uses when you finish a {@variantrule Long Rest|XUA2022ClericAndRevisedSpecies}.",
-										"When you take damage, you can use your Reaction to roll a {@dice d12}. Add your Constitution modifier to the number rolled and reduce the damage by that total."
-									]
-								}
-							}
-						]
-					}
-				},
-				{
-					"name": "Goliath; Storm's Thunder",
-					"source": "XUA2022ClericAndRevisedSpecies",
-					"_mod": {
-						"entries": [
-							{
-								"mode": "replaceArr",
-								"replace": "Giant Ancestry",
-								"items": {
-									"name": "Giant Ancestry",
-									"entries": [
-										"You are descended from Storm Giants. You can use this benefit a number of times equal to your Proficiency Bonus, and you regain all expended uses when you finish a {@variantrule Long Rest|XUA2022ClericAndRevisedSpecies}.",
-										"When you take damage from a creature within 60 feet of you, you can use your Reaction to deal {@damage 1d8} Thunder Damage to that creature."
-									]
-								}
-							}
-						]
-					}
-				}
-			],
 			"creatureTypes": [
 				"humanoid"
 			],
@@ -1614,7 +1498,123 @@
 					"name": "Goliath",
 					"source": "XUA2022ClericAndRevisedSpecies"
 				}
-			}
+			},
+			"_versions": [
+				{
+					"name": "Goliath; Cloud's Jaunt",
+					"source": "XUA2022ClericAndRevisedSpecies",
+					"_mod": {
+						"entries": [
+							{
+								"mode": "replaceArr",
+								"replace": "Giant Ancestry",
+								"items": {
+									"name": "Giant Ancestry",
+									"entries": [
+										"You are descended from Cloud Giants. You can use this benefit a number of times equal to your Proficiency Bonus, and you regain all expended uses when you finish a {@variantrule Long Rest|XUA2022ClericAndRevisedSpecies}.",
+										"As a Bonus Action, you magically Teleport up to 30 feet to an unoccupied space you can see."
+									]
+								}
+							}
+						]
+					}
+				},
+				{
+					"name": "Goliath; Fire's Burn",
+					"source": "XUA2022ClericAndRevisedSpecies",
+					"_mod": {
+						"entries": [
+							{
+								"mode": "replaceArr",
+								"replace": "Giant Ancestry",
+								"items": {
+									"name": "Giant Ancestry",
+									"entries": [
+										"You are descended from Fire Giants. You can use this benefit a number of times equal to your Proficiency Bonus, and you regain all expended uses when you finish a {@variantrule Long Rest|XUA2022ClericAndRevisedSpecies}.",
+										"When you hit a target with an {@variantrule Attack Roll|XUA2022ClericAndRevisedSpecies} and deal damage to it, you can also deal {@damage 1d10} Fire Damage to that target."
+									]
+								}
+							}
+						]
+					}
+				},
+				{
+					"name": "Goliath; Frost's Chill",
+					"source": "XUA2022ClericAndRevisedSpecies",
+					"_mod": {
+						"entries": [
+							{
+								"mode": "replaceArr",
+								"replace": "Giant Ancestry",
+								"items": {
+									"name": "Giant Ancestry",
+									"entries": [
+										"You are descended from Frost Giants. You can use this benefit a number of times equal to your Proficiency Bonus, and you regain all expended uses when you finish a {@variantrule Long Rest|XUA2022ClericAndRevisedSpecies}.",
+										"When you hit a target with an {@variantrule Attack Roll|XUA2022ClericAndRevisedSpecies} and deal damage to it, you can also deal {@damage 1d6} Cold Damage to that target and reduce its Speed by 10 feet until the start of your next turn."
+									]
+								}
+							}
+						]
+					}
+				},
+				{
+					"name": "Goliath; Hill's Tumble",
+					"source": "XUA2022ClericAndRevisedSpecies",
+					"_mod": {
+						"entries": [
+							{
+								"mode": "replaceArr",
+								"replace": "Giant Ancestry",
+								"items": {
+									"name": "Giant Ancestry",
+									"entries": [
+										"You are descended from Hill Giants. You can use this benefit a number of times equal to your Proficiency Bonus, and you regain all expended uses when you finish a {@variantrule Long Rest|XUA2022ClericAndRevisedSpecies}.",
+										"When you hit a Large or smaller creature with an {@variantrule Attack Roll|XUA2022ClericAndRevisedSpecies} and deal damage to it, you can knock that target Prone."
+									]
+								}
+							}
+						]
+					}
+				},
+				{
+					"name": "Goliath; Stone's Endurance",
+					"source": "XUA2022ClericAndRevisedSpecies",
+					"_mod": {
+						"entries": [
+							{
+								"mode": "replaceArr",
+								"replace": "Giant Ancestry",
+								"items": {
+									"name": "Giant Ancestry",
+									"entries": [
+										"You are descended from Stone Giants. You can use this benefit a number of times equal to your Proficiency Bonus, and you regain all expended uses when you finish a {@variantrule Long Rest|XUA2022ClericAndRevisedSpecies}.",
+										"When you take damage, you can use your Reaction to roll a {@dice d12}. Add your Constitution modifier to the number rolled and reduce the damage by that total."
+									]
+								}
+							}
+						]
+					}
+				},
+				{
+					"name": "Goliath; Storm's Thunder",
+					"source": "XUA2022ClericAndRevisedSpecies",
+					"_mod": {
+						"entries": [
+							{
+								"mode": "replaceArr",
+								"replace": "Giant Ancestry",
+								"items": {
+									"name": "Giant Ancestry",
+									"entries": [
+										"You are descended from Storm Giants. You can use this benefit a number of times equal to your Proficiency Bonus, and you regain all expended uses when you finish a {@variantrule Long Rest|XUA2022ClericAndRevisedSpecies}.",
+										"When you take damage from a creature within 60 feet of you, you can use your Reaction to deal {@damage 1d8} Thunder Damage to that creature."
+									]
+								}
+							}
+						]
+					}
+				}
+			]
 		}
 	],
 	"raceFluff": [
@@ -1644,10 +1644,1553 @@
 			]
 		}
 	],
+	"feat": [
+		{
+			"name": "Ability Score Improvement",
+			"source": "XUA2022ClericAndRevisedSpecies",
+			"page": 16,
+			"prerequisite": [
+				{
+					"level": 4
+				}
+			],
+			"repeatable": true,
+			"ability": [
+				{
+					"choose": {
+						"from": [
+							"str",
+							"dex",
+							"con",
+							"int",
+							"wis",
+							"cha"
+						],
+						"amount": 2
+					},
+					"hidden": true
+				},
+				{
+					"choose": {
+						"from": [
+							"str",
+							"dex",
+							"con",
+							"int",
+							"wis",
+							"cha"
+						],
+						"count": 2
+					},
+					"hidden": true
+				}
+			],
+			"entries": [
+				"You increase one Ability Score of your choice by 2, or you increase two Ability Scores of your choice by 1. You can't increase an Ability Score above 20."
+			]
+		},
+		{
+			"name": "Epic Boon of Fate",
+			"source": "XUA2022ClericAndRevisedSpecies",
+			"page": 11,
+			"prerequisite": [
+				{
+					"level": 20,
+					"group": [
+						"mage",
+						"priest"
+					]
+				}
+			],
+			"entries": [
+				"When another creature that you can see within 60 feet of you makes a {@dice d20} Test, you can roll a {@dice d10} and apply the number rolled as a bonus or a penalty to the {@dice d20} roll. Once you use this benefit, you can't use it again until you roll Initiative or finish a Short Rest or a {@variantrule Long Rest|XUA2022ClericAndRevisedSpecies}."
+			]
+		},
+		{
+			"name": "Epic Boon of Spell Recall",
+			"source": "XUA2022ClericAndRevisedSpecies",
+			"page": 11,
+			"prerequisite": [
+				{
+					"level": 20,
+					"group": [
+						"mage",
+						"priest"
+					]
+				}
+			],
+			"entries": [
+				"You can cast any spell you have prepared without expending a spell slot, provided the spell is 5th level or lower. Once you do so, you can't use this benefit again until you finish a {@variantrule Long Rest|XUA2022ClericAndRevisedSpecies}."
+			]
+		},
+		{
+			"name": "Epic Boon of Truesight",
+			"source": "XUA2022ClericAndRevisedSpecies",
+			"page": 11,
+			"prerequisite": [
+				{
+					"level": 20,
+					"group": [
+						"mage",
+						"priest"
+					]
+				}
+			],
+			"entries": [
+				"You have {@variantrule Truesight|XUA2022ClericAndRevisedSpecies} out to a range of 60 feet."
+			]
+		}
+	],
+	"spell": [
+		{
+			"name": "Aid",
+			"source": "XUA2022ClericAndRevisedSpecies",
+			"page": 12,
+			"level": 2,
+			"school": "D",
+			"groups": [
+				{
+					"name": "Divine",
+					"source": "XUA2022ClericAndRevisedSpecies"
+				}
+			],
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 30
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": "a tiny strip of white cloth"
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"entries": [
+				"Your spell bolsters creatures, filling them with resolve. Choose up to six creatures within range. Each target gains 5 Temporary Hit Points.",
+				{
+					"type": "entries",
+					"name": "At Higher Levels",
+					"entries": [
+						"When you cast this spell using a spell slot of 3rd level or higher, the number of Temporary Hit Points increases by 5 for each slot level above 2nd."
+					]
+				}
+			]
+		},
+		{
+			"name": "Aura of Vitality",
+			"source": "XUA2022ClericAndRevisedSpecies",
+			"_copy": {
+				"name": "Aura of Vitality",
+				"source": "PHB"
+			},
+			"school": "A"
+		},
+		{
+			"name": "Banishment",
+			"source": "XUA2022ClericAndRevisedSpecies",
+			"page": 15,
+			"level": 4,
+			"school": "A",
+			"groups": [
+				{
+					"name": "Arcane",
+					"source": "XUA2022ClericAndRevisedSpecies"
+				},
+				{
+					"name": "Divine",
+					"source": "XUA2022ClericAndRevisedSpecies"
+				}
+			],
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 30
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": "an item distasteful to the target"
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 1
+					},
+					"concentration": true
+				}
+			],
+			"entries": [
+				"You attempt to send one creature that you can see within range to another plane of existence. The target must succeed on a Charisma Saving Throw or be transported to a harmless demiplane for the duration. The target can willingly fail the save.",
+				"While in the demiplane, the target is {@condition Incapacitated|XUA2022ClericAndRevisedSpecies}. At the end of each of its turns, the target can repeat the save, ending the Spell on itself on a success. When the Spell ends on the target, it reappears in the space it left or in the nearest unoccupied space if that space is occupied.",
+				"If the Spell lasts on the target for 1 minute and the target is an Aberration, a Celestial, an Elemental, a Fey, or a Fiend, the target doesn't return. It is instead transported to a random location on a plane associated with its {@variantrule Creature Type|XUA2022ClericAndRevisedSpecies}.",
+				{
+					"type": "entries",
+					"name": "At Higher Levels",
+					"entries": [
+						"When you cast this Spell using a Spell Slot of 5th level or higher, you can target one additional creature for each slot level above 4th."
+					]
+				}
+			]
+		},
+		{
+			"name": "Barkskin",
+			"source": "XUA2022ClericAndRevisedSpecies",
+			"page": 16,
+			"level": 2,
+			"school": "T",
+			"groups": [
+				{
+					"name": "Primal",
+					"source": "XUA2022ClericAndRevisedSpecies"
+				}
+			],
+			"time": [
+				{
+					"number": 1,
+					"unit": "bonus"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "touch"
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": "a handful of bark"
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "hour",
+						"amount": 1
+					},
+					"concentration": true
+				}
+			],
+			"entries": [
+				"You touch one willing creature to protect it with regenerating bark. Until the Spell ends, the target's skin assumes a bark-like appearance, and at the start of each of the target's turns, the target gains a number of Temporary Hit Points equal to your spellcasting ability modifier plus your Proficiency Bonus.",
+				{
+					"type": "entries",
+					"name": "At Higher Levels",
+					"entries": [
+						"When you cast this Spell using a Spell Slot of 3rd level or higher, you can target one additional willing creature for each slot level above 2nd."
+					]
+				}
+			]
+		},
+		{
+			"name": "Blindness/Deafness",
+			"source": "XUA2022ClericAndRevisedSpecies",
+			"_copy": {
+				"name": "Blindness/Deafness",
+				"source": "PHB"
+			},
+			"school": "T"
+		},
+		{
+			"name": "Contingency",
+			"source": "XUA2022ClericAndRevisedSpecies",
+			"_copy": {
+				"name": "Contingency",
+				"source": "PHB"
+			},
+			"school": "A"
+		},
+		{
+			"name": "Cure Wounds",
+			"source": "XUA2022ClericAndRevisedSpecies",
+			"_copy": {
+				"name": "Cure Wounds",
+				"source": "PHB"
+			},
+			"school": "A"
+		},
+		{
+			"name": "Dancing Lights",
+			"source": "XUA2022ClericAndRevisedSpecies",
+			"_copy": {
+				"name": "Dancing Lights",
+				"source": "PHB"
+			},
+			"school": "I"
+		},
+		{
+			"name": "Earthquake",
+			"source": "XUA2022ClericAndRevisedSpecies",
+			"_copy": {
+				"name": "Earthquake",
+				"source": "PHB"
+			},
+			"school": "T"
+		},
+		{
+			"name": "Flaming Sphere",
+			"source": "XUA2022ClericAndRevisedSpecies",
+			"_copy": {
+				"name": "Flaming Sphere",
+				"source": "PHB"
+			},
+			"school": "V"
+		},
+		{
+			"name": "Glibness",
+			"source": "XUA2022ClericAndRevisedSpecies",
+			"_copy": {
+				"name": "Glibness",
+				"source": "PHB"
+			},
+			"school": "E"
+		},
+		{
+			"name": "Guidance",
+			"source": "XUA2022ClericAndRevisedSpecies",
+			"page": 19,
+			"level": 0,
+			"school": "D",
+			"groups": [
+				{
+					"name": "Divine",
+					"source": "XUA2022ClericAndRevisedSpecies"
+				},
+				{
+					"name": "Primal",
+					"source": "XUA2022ClericAndRevisedSpecies"
+				}
+			],
+			"time": [
+				{
+					"number": 1,
+					"unit": "reaction",
+					"condition": "which you take in response to you or an ally within 10 feet of you failing an {@variantrule Ability Check|XUA2022ClericAndRevisedSpecies}"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 10
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"entries": [
+				"You channel magical insight to the creature who failed the {@variantrule Ability Check|XUA2022ClericAndRevisedSpecies}. That creature can roll a {@dice d4} and add the number rolled to the check, potentially turning it into a success."
+			]
+		},
+		{
+			"name": "Hallow",
+			"source": "XUA2022ClericAndRevisedSpecies",
+			"_copy": {
+				"name": "Hallow",
+				"source": "PHB"
+			},
+			"school": "A"
+		},
+		{
+			"name": "Heal",
+			"source": "XUA2022ClericAndRevisedSpecies",
+			"_copy": {
+				"name": "Healing Word",
+				"source": "PHB"
+			},
+			"school": "A"
+		},
+		{
+			"name": "Healing Word",
+			"source": "XUA2022ClericAndRevisedSpecies",
+			"_copy": {
+				"name": "Healing Word",
+				"source": "PHB"
+			},
+			"school": "A"
+		},
+		{
+			"name": "Mass Cure Wounds",
+			"source": "XUA2022ClericAndRevisedSpecies",
+			"_copy": {
+				"name": "Mass Cure Wounds",
+				"source": "PHB"
+			},
+			"school": "A"
+		},
+		{
+			"name": "Mass Heal",
+			"source": "XUA2022ClericAndRevisedSpecies",
+			"_copy": {
+				"name": "Mass Heal",
+				"source": "PHB"
+			},
+			"school": "A"
+		},
+		{
+			"name": "Mass Healing Word",
+			"source": "XUA2022ClericAndRevisedSpecies",
+			"_copy": {
+				"name": "Mass Healing Word",
+				"source": "PHB"
+			},
+			"school": "A"
+		},
+		{
+			"name": "Power Word Heal",
+			"source": "XUA2022ClericAndRevisedSpecies",
+			"_copy": {
+				"name": "Power Word Heal",
+				"source": "PHB"
+			},
+			"school": "A"
+		},
+		{
+			"name": "Prayer of Healing",
+			"source": "XUA2022ClericAndRevisedSpecies",
+			"page": 23,
+			"level": 2,
+			"school": "A",
+			"groups": [
+				{
+					"name": "Divine",
+					"source": "XUA2022ClericAndRevisedSpecies"
+				}
+			],
+			"time": [
+				{
+					"number": 10,
+					"unit": "minute"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 30
+				}
+			},
+			"components": {
+				"v": true
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"entries": [
+				"You utter an extended prayer of restoration. Choose a number of willing creatures equal to your Spellcasting Ability Modifier (minimum of 1). Each of those creatures who remains within range for the Spell's entire casting gains the benefits of a Short Rest and also regains {@dice 2d8} Hit Points, and a creature can't be affected by this Spell again until that creature finishes a {@variantrule Long Rest|XUA2022ClericAndRevisedSpecies}.",
+				{
+					"type": "entries",
+					"name": "At Higher Levels",
+					"entries": [
+						"When you cast this Spell using a Spell Slot of 3rd level or higher, the healing increases by {@scaledice 2d8|2-9|1d8} for each slot above 2nd."
+					]
+				}
+			]
+		},
+		{
+			"name": "Produce Flame",
+			"source": "XUA2022ClericAndRevisedSpecies",
+			"_copy": {
+				"name": "Produce Flame",
+				"source": "PHB"
+			},
+			"school": "V"
+		},
+		{
+			"name": "Reincarnate",
+			"source": "XUA2022ClericAndRevisedSpecies",
+			"_copy": {
+				"name": "Reincarnate",
+				"source": "PHB"
+			},
+			"school": "N"
+		},
+		{
+			"name": "Resistance",
+			"source": "XUA2022ClericAndRevisedSpecies",
+			"page": 25,
+			"level": 0,
+			"school": "A",
+			"groups": [
+				{
+					"name": "Divine",
+					"source": "XUA2022ClericAndRevisedSpecies"
+				},
+				{
+					"name": "Primal",
+					"source": "XUA2022ClericAndRevisedSpecies"
+				}
+			],
+			"time": [
+				{
+					"number": 1,
+					"unit": "reaction",
+					"condition": "which you take in response to you or an ally within 10 feet of you failing a Saving Throw"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 10
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"entries": [
+				"You channel magical protection to the creature who failed the Saving Throw. That creature can roll a {@dice d4} and add the number rolled to the save, potentially turning it into a success."
+			]
+		},
+		{
+			"name": "Sending",
+			"source": "XUA2022ClericAndRevisedSpecies",
+			"_copy": {
+				"name": "Sending",
+				"source": "PHB"
+			},
+			"school": "D"
+		},
+		{
+			"name": "Shatter",
+			"source": "XUA2022ClericAndRevisedSpecies",
+			"_copy": {
+				"name": "Shatter",
+				"source": "PHB"
+			},
+			"school": "T"
+		},
+		{
+			"name": "Spiritual Weapon",
+			"source": "XUA2022ClericAndRevisedSpecies",
+			"page": 25,
+			"level": 2,
+			"school": "V",
+			"groups": [
+				{
+					"name": "Divine",
+					"source": "XUA2022ClericAndRevisedSpecies"
+				}
+			],
+			"time": [
+				{
+					"number": 1,
+					"unit": "bonus"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 60
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 1
+					},
+					"concentration": true
+				}
+			],
+			"entries": [
+				"You create a floating, spectral force that resembles a weapon of your choice and that lasts for the duration. The force appears within range in a space of your choice, and you can immediately make one melee spell attack against a creature within 5 feet of the force. On a hit, the target takes Force Damage equal to {@dice 1d8} + your spellcasting ability modifier.",
+				"As a Bonus Action on your later turns, you can move the force up to 20 feet and repeat the attack against a creature within 5 feet of it.",
+				{
+					"type": "entries",
+					"name": "At Higher Levels",
+					"entries": [
+						"When you cast this Spell using a Spell Slot of 3rd level or higher, the damage increases by {@scaledamage 1d8|2-9|1d8} for every slot level above 2nd."
+					]
+				}
+			]
+		},
+		{
+			"name": "Stoneskin",
+			"source": "XUA2022ClericAndRevisedSpecies",
+			"_copy": {
+				"name": "Stoneskin",
+				"source": "PHB"
+			},
+			"school": "T"
+		},
+		{
+			"name": "Telepathy",
+			"source": "XUA2022ClericAndRevisedSpecies",
+			"_copy": {
+				"name": "Telepathy",
+				"source": "PHB"
+			},
+			"school": "D"
+		},
+		{
+			"name": "Thunderwave",
+			"source": "XUA2022ClericAndRevisedSpecies",
+			"_copy": {
+				"name": "Thunderwave",
+				"source": "PHB"
+			},
+			"school": "T"
+		}
+	],
+	"spellList": [
+		{
+			"name": "Arcane",
+			"source": "XUA2022ClericAndRevisedSpecies",
+			"spellListType": "groups",
+			"spells": [
+				"acid splash",
+				"blade ward",
+				"chill touch",
+				"dancing lights",
+				"fire bolt",
+				"friends",
+				"light",
+				"mage hand",
+				"mending",
+				"message",
+				"minor illusion",
+				"poison spray",
+				"prestidigitation",
+				"ray of frost",
+				"shocking grasp",
+				"true strike",
+				"vicious mockery",
+				"alarm",
+				"armor of agathys",
+				"arms of hadar",
+				"burning hands",
+				"charm person",
+				"chromatic orb",
+				"color spray",
+				"comprehend languages",
+				"detect magic",
+				"disguise self",
+				"dissonant whispers",
+				"expeditious retreat",
+				"false life",
+				"feather fall",
+				"find familiar",
+				"fog cloud",
+				"grease",
+				"hellish rebuke",
+				"hex",
+				"identify",
+				"illusory script",
+				"jump",
+				"longstrider",
+				"mage armor",
+				"magic missile",
+				"protection from evil and good",
+				"ray of sickness",
+				"shield",
+				"silent image",
+				"sleep",
+				"tasha's hideous laughter",
+				"tenser 's floating disk",
+				"thunderwave",
+				"unseen servant",
+				"witch bolt",
+				"alter self",
+				"arcane lock",
+				"blindness/deafness",
+				"blur",
+				"calm emotions",
+				"cloud of daggers",
+				"continual flame",
+				"crown of madness",
+				"darkness",
+				"darkvision",
+				"detect thoughts",
+				"enlarge/reduce",
+				"enthrall",
+				"flaming sphere",
+				"gust of wind",
+				"hold person",
+				"invisibility",
+				"knock",
+				"levitate",
+				"locate object",
+				"nystul's magic aura",
+				"magic mouth",
+				"magic weapon",
+				"melf's acid arrow",
+				"mirror image",
+				"misty step",
+				"phantasmal force",
+				"ray of enfeeblemen t",
+				"rope trick",
+				"scorching ray",
+				"see invisibility",
+				"shatter",
+				"spider climb",
+				"suggestion",
+				"web",
+				"animate dead",
+				"bestow curse",
+				"blink",
+				"clairvoyance",
+				"counterspell",
+				"dispel magic",
+				"fear",
+				"fireball",
+				"fly",
+				"gaseous form",
+				"glyph of warding",
+				"haste",
+				"hunger of hadar",
+				"hypnotic pattern",
+				"leomund's tiny hut",
+				"lightning bolt",
+				"magic circle",
+				"major image",
+				"nondetection",
+				"phantom steed",
+				"protection from energy",
+				"remove curse",
+				"sending",
+				"sleet storm",
+				"slow",
+				"stinking cloud",
+				"tongues",
+				"vampiric touch",
+				"water breathing",
+				"arcane eye",
+				"blight",
+				"compulsion",
+				"confusion",
+				"conjure minor elementals",
+				"control water",
+				"dimension door",
+				"evard's black tentacles",
+				"fabricate",
+				"fire shield",
+				"greater invisibility",
+				"hallucinatory terrain",
+				"ice storm",
+				"leomund's secret chest",
+				"locate creature",
+				"mordenkainen's faithful hound",
+				"mordenkainen's private sanctum",
+				"otiluke's resilient sphere",
+				"phantasmal killer",
+				"polymorph",
+				"stone shape",
+				"stoneskin",
+				"wall of fire",
+				"animate objects",
+				"bigby's hand",
+				"cloudkill",
+				"cone of cold",
+				"conjure elemental",
+				"contact other plane",
+				"creation",
+				"dominate person",
+				"dream",
+				"geas",
+				"hold monster",
+				"legend lore",
+				"mislead",
+				"modify memory",
+				"passwall",
+				"planar binding",
+				"rary's telepathic bond",
+				"scrying",
+				"seeming",
+				"telekinesis",
+				"teleportation circle",
+				"wall of force",
+				"wall of stone",
+				"arcane gate",
+				"chain lightning",
+				"circle of death",
+				"contingency",
+				"create undead",
+				"disintegrate",
+				"eyebite",
+				"flesh to stone",
+				"globe of invulnerability",
+				"guards and wards",
+				"drawmij's instant summons",
+				"magic jar",
+				"mass suggestion",
+				"move earth",
+				"otiluke's freezing sphere",
+				"otto's irresistible dance",
+				"programmed illusion",
+				"sunbeam",
+				"true seeing",
+				"wall of ice",
+				"delayed blast fireball",
+				"etherealness",
+				"finger of death",
+				"forcecage",
+				"mirage arcane",
+				"mordenkainen's magnificent mansion",
+				"mordenkainen's sword",
+				"plane shift",
+				"prismatic spray",
+				"project image",
+				"reverse gravity",
+				"sequester",
+				"simulacrum",
+				"symbol",
+				"teleport",
+				"antimagic field",
+				"antipathy/sympathy",
+				"clone",
+				"control weather",
+				"demiplane",
+				"dominate monster",
+				"feeblemind",
+				"glibness",
+				"incendiary cloud",
+				"maze",
+				"mind blank",
+				"power word stun",
+				"sunburst",
+				"telepathy",
+				"astral projection",
+				"foresight",
+				"gate",
+				"imprisonment",
+				"meteor swarm",
+				"power word kill",
+				"prismatic wall",
+				"shapechange",
+				"time stop",
+				"true polymorph",
+				"weird",
+				"wish"
+			]
+		},
+		{
+			"name": "Divine",
+			"source": "XUA2022ClericAndRevisedSpecies",
+			"spellListType": "groups",
+			"spells": [
+				"light",
+				"sacred flame",
+				"spare the dying",
+				"thaumaturgy",
+				"bane",
+				"bless",
+				"command",
+				"compelled duel",
+				"cure wounds",
+				"detect evil and good",
+				"detect magic",
+				"detect poison and disease",
+				"divine favor",
+				"guiding bolt",
+				"healing word",
+				"heroism",
+				"inflict wounds",
+				"protection from evil and good",
+				"purify food and drink",
+				"sanctuary",
+				"searing smite",
+				"shield of faith",
+				"thunderous smite",
+				"wrathful smite",
+				"aid",
+				"augury",
+				"blindness/deafness",
+				"branding smite",
+				"calm emotions",
+				"find steed",
+				"find traps",
+				"gentle repose",
+				"hold person",
+				"lesser restoration",
+				"locate object",
+				"magic weapon",
+				"protection from poison",
+				"silence",
+				"spiritual weapon",
+				"warding bond",
+				"zone of truth",
+				"aura of vitality",
+				"beacon of hope",
+				"blinding smite",
+				"clairvoyance",
+				"create food and water",
+				"crusader's mantle",
+				"daylight",
+				"dispel magic",
+				"feign death",
+				"glyph of warding",
+				"magic circle",
+				"mass healing word",
+				"remove curse",
+				"revivify",
+				"speak with dead",
+				"spirit guardians",
+				"tongues",
+				"aura of life",
+				"aura of purity",
+				"death ward",
+				"divination",
+				"freedom of movement",
+				"guardian of faith",
+				"locate creature",
+				"staggering smite",
+				"banishing smite",
+				"circle of power",
+				"commune",
+				"contagion",
+				"destructive wave",
+				"dispel evil and good",
+				"flame strike",
+				"geas",
+				"greater restoration",
+				"hallow",
+				"legend lore",
+				"mass cure wounds",
+				"planar binding",
+				"raise dead",
+				"scrying",
+				"blade barrier",
+				"find the path",
+				"forbiddance",
+				"harm",
+				"heal",
+				"heroes' feast",
+				"planar ally",
+				"sunbeam",
+				"true seeing",
+				"word of recall",
+				"conjure celestial",
+				"divine word",
+				"etherealness",
+				"plane shift",
+				"regenerate",
+				"resurrection",
+				"symbol",
+				"antimagic field",
+				"antipathy/sympathy",
+				"holy aura",
+				"sunburst",
+				"astral projection",
+				"foresight",
+				"gate",
+				"mass heal",
+				"power word heal",
+				"true resurrection"
+			]
+		},
+		{
+			"name": "Primal",
+			"source": "XUA2022ClericAndRevisedSpecies",
+			"spellListType": "groups",
+			"spells": [
+				"druidcraft",
+				"mending",
+				"message",
+				"poison spray",
+				"produce flame",
+				"shillelagh",
+				"spare the dying",
+				"thorn whip",
+				"animal friendship",
+				"create or destroy water",
+				"cure wounds",
+				"detect magic",
+				"detect poison and disease",
+				"ensnaring strike",
+				"entangle",
+				"faerie fire",
+				"fog cloud",
+				"goodberry",
+				"hail of thorns",
+				"healing word",
+				"hunter's mark",
+				"jump",
+				"longstrider",
+				"purify food and drink",
+				"speak with animals",
+				"thunderwave",
+				"animal messenger",
+				"augury",
+				"beast sense",
+				"cordon of arrows",
+				"darkvision",
+				"enhance ability",
+				"enlarge/reduce",
+				"find traps",
+				"flame blade",
+				"flaming sphere",
+				"gentle repose",
+				"gust of wind",
+				"heat metal",
+				"lesser restoration",
+				"locate animals or plants",
+				"locate object",
+				"moonbeam",
+				"pass without trace",
+				"protection from poison",
+				"silence",
+				"spike growth",
+				"call lightning",
+				"conjure animals",
+				"conjure barrage",
+				"daylight",
+				"dispel magic",
+				"elemental weapon",
+				"feign death",
+				"lightning arrow",
+				"mass healing word",
+				"meld into stone",
+				"nondetection",
+				"plant growth",
+				"protection from energy",
+				"revivify",
+				"sleet storm",
+				"speak with plants",
+				"water breathing",
+				"water walk",
+				"wind wall",
+				"conjure minor elementals",
+				"conjure woodland beings",
+				"control water",
+				"dominate beast",
+				"freedom of movement",
+				"giant insect",
+				"grasping vine",
+				"ice storm",
+				"locate creature",
+				"polymorph",
+				"stone shape",
+				"stoneskin",
+				"wall of fire",
+				"antilife shell",
+				"awaken",
+				"commune with nature",
+				"conjure elemental",
+				"conjure volley",
+				"greater restoration",
+				"insect plague",
+				"mass cure wounds",
+				"reincarnate",
+				"scrying",
+				"swift quiver",
+				"tree stride",
+				"wall of stone",
+				"conjure fey",
+				"find the path",
+				"heal",
+				"move earth",
+				"sunbeam",
+				"transport via plants",
+				"wall of ice",
+				"wall of thorns",
+				"wind walk",
+				"fire storm",
+				"regenerate",
+				"reverse gravity",
+				"animal shapes",
+				"control weather",
+				"earthquake",
+				"sunburst",
+				"tsunami",
+				"power word heal",
+				"shapechange",
+				"storm of vengeance",
+				"true resurrection"
+			]
+		}
+	],
+	"baseitem": [
+		{
+			"name": "Shortsword",
+			"source": "XUA2022ClericAndRevisedSpecies",
+			"page": 25,
+			"type": "M",
+			"rarity": "none",
+			"weight": 2,
+			"value": 1000,
+			"weaponCategory": "simple",
+			"property": [
+				"F",
+				"XUA2022ClericAndRevisedSpecies-L"
+			],
+			"dmg1": "1d6",
+			"dmgType": "P",
+			"sword": true,
+			"weapon": true
+		}
+	],
+	"item": [
+		{
+			"name": "Priest's Pack",
+			"source": "XUA2022ClericAndRevisedSpecies",
+			"page": 23,
+			"type": "G",
+			"rarity": "none",
+			"weight": 24,
+			"value": 3300,
+			"entries": [
+				"Includes:",
+				{
+					"type": "list",
+					"items": [
+						"{@item Backpack|phb}",
+						"{@item Blanket|phb}",
+						"{@item Lamp|phb}",
+						"{@item Holy Water (flask)|phb|Holy Water}",
+						"{@item Rations (1 day)|phb|Rations} (7 days)",
+						"{@item Robes|phb|Robe}",
+						"{@item Tinderbox|phb}"
+					]
+				}
+			],
+			"packContents": [
+				"backpack|phb",
+				"blanket|phb",
+				"lamp|phb",
+				"tinderbox|phb",
+				{
+					"item": "rations (1 day)|phb",
+					"quantity": 7
+				},
+				"robes|phb"
+			]
+		}
+	],
+	"itemProperty": [
+		{
+			"abbreviation": "XUA2022ClericAndRevisedSpecies-L",
+			"source": "XUA2022ClericAndRevisedSpecies",
+			"page": 21,
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Light",
+					"entries": [
+						"When you take the {@action Attack|XUA2022ClericAndRevisedSpecies} Action on your turn and attack with a Light weapon in one hand and have a Light weapon in the other hand, you can make one extra attack as part of the same Action. That extra attack must be made with the Light weapon in the other hand, and you don't add your ability modifier to the extra attack's damage. You can make this extra attack only once on each of your turns.",
+						"For example, if you take the {@action Attack|XUA2022ClericAndRevisedSpecies} Action on your turn and have a Shortsword in one hand and a Dagger in the other\u2014each of which has the Light property\u2014you can make one attack with each weapon, but you don't add your Strength or Dexterity modifier to the damage roll of the second weapon."
+					]
+				}
+			]
+		}
+	],
 	"variantrule": [
 		{
+			"name": "Ability Check",
 			"source": "XUA2022ClericAndRevisedSpecies",
+			"page": 12,
+			"entries": [
+				"The Ability Check is one of three types of {@dice d20} Tests. The rules often call for an Ability Check, and the DM can also call for an Ability Check, determining which ability to use when a creature attempts something (other than an {@variantrule Attack Roll|XUA2022ClericAndRevisedSpecies} or a Saving Throw) that has a chance of meaningful failure. When the outcome is uncertain and narratively interesting, the dice determine the results.",
+				"The Ability Check has the following special rules.",
+				{
+					"type": "entries",
+					"name": "Skills",
+					"entries": [
+						"When you make an Ability Check, the rules or the DM determines whether a Skill Proficiency is relevant to the check. If you have a relevant Skill Proficiency, you can add your Proficiency Bonus to the roll. For example, if a rule refers to a Strength Check ({@skill Acrobatics} or {@skill Athletics}), you can add your Proficiency Bonus to the check if you have {@skill Acrobatics} or {@skill Athletics} Proficiency."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Action Required",
+					"entries": [
+						"Making an Ability Check requires you to take an Action unless a rule says otherwise. Several of the named Actions\u2014such as {@action Hide|XUA2022ClericAndRevisedSpecies} and {@action Influence|XUA2022ClericAndRevisedSpecies}\u2014include Ability Checks. The DM may override this requirement and allow a particular Ability Check to be made as part of a Bonus Action or as no Action at all."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Difficulty Class",
+					"entries": [
+						"The DM determines the Difficulty Class of an Ability Check and can override a DC specified in the rules. The Typical Difficulty Class table shows the most common DCs. The default DC for a check is 15, and it is rarely worth calling for an Ability Check if the DC is as low as 5, unless the potential failure is narratively interesting."
+					]
+				},
+				{
+					"type": "table",
+					"caption": "Typical Difficulty Class",
+					"colLabels": [
+						"Task Difficulty",
+						"DC"
+					],
+					"colStyles": [
+						"col-11",
+						"col-1 text-right"
+					],
+					"rows": [
+						[
+							"Very Easy",
+							"5"
+						],
+						[
+							"Easy",
+							"10"
+						],
+						[
+							"Medium",
+							"15"
+						],
+						[
+							"Hard",
+							"20"
+						],
+						[
+							"Very Hard",
+							"25"
+						],
+						[
+							"Nearly Impossible",
+							"30"
+						]
+					]
+				}
+			]
+		},
+		{
+			"name": "Armor Training",
+			"source": "XUA2022ClericAndRevisedSpecies",
+			"page": 15,
+			"entries": [
+				"Armor Training is the new name for Armor Proficiency. Any existing rule that involves Armor Proficiency now applies to Armor Training.",
+				"If you wear Light, Medium, or Heavy Armor and lack Armor Training with that type of Armor, you have Disadvantage on any {@dice d20} Test you make that involves Strength or Dexterity, and you can't cast Spells.",
+				"If you equip a Shield and lack Armor Training with Shields, you don't gain the Armor Class bonus of the Shield."
+			]
+		},
+		{
+			"name": "Artisan's Tools",
+			"source": "XUA2022ClericAndRevisedSpecies",
+			"page": 15,
+			"entries": [
+				"Artisan's Tools are a category of tool with which a character can gain {@variantrule Tool Proficiency|XUA2022ClericAndRevisedSpecies}. For a list of Artisan's Tools, see the 2014 Player's Handbook, but ignore the prices there; those tools now cost 15 GP apiece."
+			]
+		},
+		{
+			"name": "Attack Roll",
+			"source": "XUA2022ClericAndRevisedSpecies",
+			"page": 15,
+			"entries": [
+				"The Attack Roll is one of three types of {@dice d20} Tests. This Unearthed Arcana article uses the rules for attack rolls and critical hits found in the 2014 {@book Player's Handbook|PHB|9|Attack Rolls}."
+			]
+		},
+		{
+			"name": "Blindsight",
+			"source": "XUA2022ClericAndRevisedSpecies",
+			"page": 16,
+			"entries": [
+				"If you have Blindsight, you can effectively see within a specific range without relying on physical sight. Within that range, you can effectively see anything that isn't behind Total Cover, even if you're Blinded or in Darkness. Moreover, you can effectively see a {@condition Hidden|XUA2022ClericAndRevisedSpecies} or an {@condition Invisible|XUA2022ClericAndRevisedSpecies} creature in that range."
+			]
+		},
+		{
+			"name": "Climb Speed",
+			"source": "XUA2022ClericAndRevisedSpecies",
+			"page": 16,
+			"entries": [
+				"A Climb Speed can be used to move on a vertical surface without expending the extra movement normally associated with climbing. A Climb Speed can also be used in any situation in which your Speed is usable.",
+				"Some creatures have the Spider Climb trait, which allows their Climb Speed to work even on the underside of horizontal surfaces."
+			]
+		},
+		{
+			"name": "Creature Type",
+			"source": "XUA2022ClericAndRevisedSpecies",
+			"page": 16,
+			"entries": [
+				"All creatures in D&D, including every player character, has a special tag in the rules that identifies the type of creature they are. Most player characters are of the Humanoid type.",
+				"Here's a list of the game's Creature Types in alphabetical order:",
+				{
+					"type": "table",
+					"colStyles": [
+						"col-6 text-center",
+						"col-6 text-center"
+					],
+					"rows": [
+						[
+							"Aberration",
+							"Fiend"
+						],
+						[
+							"Beast",
+							"Giant"
+						],
+						[
+							"Celestial",
+							"Humanoid"
+						],
+						[
+							"Construct",
+							"Monstrosity"
+						],
+						[
+							"Dragon",
+							"Ooze"
+						],
+						[
+							"Elemental",
+							"Plant"
+						],
+						[
+							"Fey",
+							"Undead"
+						]
+					]
+				},
+				"These types don't have rules themselves, but some rules in the game affect creatures of certain types in different ways. For example, the description of the {@spell Cure Wounds} Spell specifies the healing doesn't work on a Construct."
+			]
+		},
+		{
+			"name": "D20 Tests",
+			"source": "XUA2022ClericAndRevisedSpecies",
+			"page": 16,
+			"entries": [
+				"The term {@dice d20} Test encompasses the three main {@dice d20} rolls of the game: Ability Checks, {@variantrule Attack Roll|XUA2022ClericAndRevisedSpecies|Attack Rolls}, and Saving Throws. If something in the game affects {@dice d20} Tests, it affects all three of these rolls.",
+				"Whenever a player character rolls a 1 for a {@dice d20} Test, that character gains {@variantrule Heroic Inspiration|XUA2022ClericAndRevisedSpecies}.",
+				"The DM determines whether a {@dice d20} Test is warranted in any given circumstance."
+			]
+		},
+		{
+			"name": "Difficult Terrain",
+			"source": "XUA2022ClericAndRevisedSpecies",
+			"page": 17,
+			"entries": [
+				"If a space is Difficult Terrain, every foot of movement in that space costs 1 extra foot. For example, moving 5 feet through Difficult Terrain costs 10 feet of movement. Difficult Terrain isn't cumulative; either a space is Difficult Terrain or it isn't.",
+				"A space is Difficult Terrain for a creature if the space contains any of the following:",
+				{
+					"type": "list",
+					"style": "list-no-bullets",
+					"items": [
+						"Creature that isn't Tiny",
+						"Furniture that is Small or larger",
+						"Heavy snow",
+						"Heavy undergrowth",
+						"Liquid that's between shin- and waist-deep (any deeper and you need to Swim)",
+						"Narrow opening that is sized for a creature one",
+						"Size smaller",
+						"Pit or another gap of 2\u20135 feet",
+						"Rubble",
+						"Slope of 20 degrees or more"
+					]
+				},
+				"The DM may determine that other things count as Difficult Terrain based on the examples here."
+			]
+		},
+		{
+			"name": "Expertise",
+			"source": "XUA2022ClericAndRevisedSpecies",
+			"page": 19,
+			"entries": [
+				"Expertise is a special feature that enhances your use of a particular Skill Proficiency. If you gain Expertise, you gain it in one Skill in which you have Proficiency. You can never have Expertise in the same Skill Proficiency more than once.",
+				"When you make an {@variantrule {@variantrule Ability Check|XUA2022ClericAndRevisedSpecies}|XUA2022ClericAndRevisedSpecies} with a Skill Proficiency in which you have Expertise, your Proficiency Bonus is doubled for that check."
+			]
+		},
+		{
+			"name": "Fly Speed",
+			"source": "XUA2022ClericAndRevisedSpecies",
+			"page": 19,
+			"entries": [
+				"A Fly Speed can be used to move through the air. While you have a Fly Speed, you can stay aloft until you land, fall, or die.",
+				"While flying, you fall if you are {@condition Incapacitated|XUA2022ClericAndRevisedSpecies} or Restrained. If you have the Hover trait, you can stay aloft even while Incapacitated or Restrained."
+			]
+		},
+		{
+			"name": "Gaming Set",
+			"source": "XUA2022ClericAndRevisedSpecies",
+			"page": 19,
+			"entries": [
+				"Gaming Sets are a category of tool with which a character can gain {@variantrule Tool Proficiency|XUA2022ClericAndRevisedSpecies}. For a list of Gaming Sets, see the 2014 Player's Handbook, but ignore the prices there; those sets now cost 1 GP apiece."
+			]
+		},
+		{
+			"name": "Heroic Inspiration",
+			"source": "XUA2022ClericAndRevisedSpecies",
+			"page": 19,
+			"entries": [
+				"When you have Heroic Inspiration (also called Inspiration), you can expend it to give yourself Advantage on a {@dice d20} Test. You decide to do so immediately after rolling the {@dice d20}.",
+				{
+					"type": "entries",
+					"name": "Gaining Heroic Inspiration",
+					"entries": [
+						"A player character gains Heroic Inspiration if the character rolls a 1 for a {@dice d20} Test. That 1 must be on the {@dice d20} used for the test's total, not on a {@dice d20} that was rerolled or discarded. This Heroic Inspiration represents a character's resolve to do better after fumbling an attempt.",
+						"The DM can also award Heroic Inspiration to a player character who's done something that is particularly heroic or in character."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Only One at a Time",
+					"entries": [
+						"You can never have more than one instance of Heroic Inspiration. If something gives you Heroic Inspiration and you already have it, you can give Heroic Inspiration to a player character in your group who lacks it"
+					]
+				}
+			]
+		},
+		{
+			"name": "Long Rest",
+			"source": "XUA2022ClericAndRevisedSpecies",
+			"page": 22,
+			"entries": [
+				"A Long Rest is a period of extended downtime\u2014at least 8 hours long\u2014available to any creature. During a Long Rest, you sleep for at least 6 hours and perform no more than 2 hours of light activity, such as reading, talking, eating, or standing watch.",
+				{
+					"type": "entries",
+					"name": "Benefits of the Rest",
+					"entries": [
+						"To start a Long Rest, you must have at least 1 Hit Point. When you finish the rest, you gain the following benefits:"
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Regain All HP",
+					"entries": [
+						"You regain all lost Hit Points."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Regain All HD",
+					"entries": [
+						"You regain all spent Hit Dice."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "HP Max Restored",
+					"entries": [
+						"If your Hit Point Maximum was reduced, it returns to normal."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Ability Scores Restored",
+					"entries": [
+						"If any of your Ability Scores were reduced, they return to normal."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Exhaustion Reduced",
+					"entries": [
+						"If you are {@condition Exhausted|XUA2022ClericAndRevisedSpecies}, your level of {@condition exhaustion} decreases by 1.",
+						"After you finish a Long Rest, you must wait at least 16 hours before starting another one."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Interrupting the Rest",
+					"entries": [
+						"A Long Rest is stopped by the following interruptions:"
+					]
+				},
+				{
+					"type": "list",
+					"items": [
+						"Combat",
+						"Casting a spell other than a 0-level spell • 1 hour of walking or other physical exertion If the rest was at least 1 hour long before the interruption, you gain the benefits of a Short Rest."
+					]
+				},
+				"You can resume a Long Rest immediately after an interruption. If you do so, the rest requires 1 additional hour to finish per interruption."
+			]
+		},
+		{
+			"name": "Move",
+			"source": "XUA2022ClericAndRevisedSpecies",
+			"page": 22,
+			"entries": [
+				"When you Move, you can go a distance equal to your Speed or less. For example, if you have a Speed of 30 feet, you can go up to 30 feet when you Move. {@variantrule Difficult Terrain|XUA2022ClericAndRevisedSpecies} can slow you down.",
+				{
+					"type": "entries",
+					"name": "Breaking Up Your Move",
+					"entries": [
+						"You can break up your Move, using some of its movement before and after any Action you take on the same turn. For example, if you have a Speed of 30 feet, you could go 10 feet, take an Action, and then go 20 feet."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Moving Around Other Creatures",
+					"entries": [
+						"During your Move, you can pass through the space of an ally, an {@condition Incapacitated|XUA2022ClericAndRevisedSpecies} creature, a Tiny creature, or a creature who is two Sizes larger or smaller than you.",
+						"Another creature's space is {@variantrule Difficult Terrain|XUA2022ClericAndRevisedSpecies} for you, unless that creature is Tiny. You can't willingly end your Move in a space occupied by another creature."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Climbing and Swimming",
+					"entries": [
+						"You can use your Speed to climb or swim. Some creatures also have a {@variantrule Climb Speed|XUA2022ClericAndRevisedSpecies} or a {@variantrule Swim Speed|XUA2022ClericAndRevisedSpecies}.",
+						"If you use your Speed to climb or swim, each foot of movement costs 1 extra foot. For example, if you swim or climb 5 feet, you must spend 10 feet of movement to do so with your Speed. If you're swimming or climbing through {@variantrule Difficult Terrain|XUA2022ClericAndRevisedSpecies}, that 5 feet of movement costs 15 feet!"
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Special Speeds",
+					"entries": [
+						"Some creatures have special speeds, such as a {@variantrule Climb Speed|XUA2022ClericAndRevisedSpecies}, a {@variantrule Fly Speed|XUA2022ClericAndRevisedSpecies}, or a {@variantrule Swim Speed|XUA2022ClericAndRevisedSpecies}. If you have more than one speed, you must choose which one to use each time you take your Move. For example, if you have a Speed and a {@variantrule Climb Speed|XUA2022ClericAndRevisedSpecies}, you can use one of those speeds when you Move, not both during the same Move.",
+						"If you take more than one Move on a turn and have more than one speed, each Move can use the same speed or a different one. For example, if you have both a Speed and a {@variantrule Fly Speed|XUA2022ClericAndRevisedSpecies} and you take the {@action Dash|XUA2022ClericAndRevisedSpecies} Action on your turn, you could use your Speed for the Move and your {@variantrule Fly Speed|XUA2022ClericAndRevisedSpecies} for the {@action Dash|XUA2022ClericAndRevisedSpecies} or vice versa."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Speed of 0",
+					"entries": [
+						"If an effect zeroes your Speed for a time, any special speed you have is also zeroed for the same duration. For example, if you have a Speed and a {@variantrule Climb Speed|XUA2022ClericAndRevisedSpecies}, both speeds are zeroed if you're subjected to the {@condition Grappled|XUA2022ClericAndRevisedSpecies} Condition."
+					]
+				}
+			]
+		},
+		{
+			"name": "Musical Instrument",
+			"source": "XUA2022ClericAndRevisedSpecies",
+			"page": 23,
+			"entries": [
+				"Musical Instruments are a category of tool with which a character can gain {@variantrule Tool Proficiency|XUA2022ClericAndRevisedSpecies}. For a list of Musical Instruments, see the 2014 Player's Handbook, but ignore the prices there; those instruments now cost 20 GP apiece."
+			]
+		},
+		{
+			"name": "Ritual Casting",
+			"source": "XUA2022ClericAndRevisedSpecies",
+			"page": 25,
+			"entries": [
+				"If you have a Spell prepared that has the Ritual tag, you can cast that Spell as a Ritual. A special feature is no longer required for Ritual casting. All the other rules on Rituals in the 2014 Player's Handbook still apply."
+			]
+		},
+		{
 			"name": "Rules Glossary",
+			"source": "XUA2022ClericAndRevisedSpecies",
 			"page": 11,
 			"entries": [
 				"This glossary includes game terms that have new or revised meaning in this playtest document, as well as terms, such as {@variantrule Creature Type|XUA2022ClericAndRevisedSpecies}, that aren't defined in the 2014 Player's Handbook. The terms are organized alphabetically.",
@@ -1684,9 +3227,9 @@
 			]
 		},
 		{
-			"type": "entries",
-			"source": "XUA2022ClericAndRevisedSpecies",
 			"name": "Spell Lists",
+			"source": "XUA2022ClericAndRevisedSpecies",
+			"type": "entries",
 			"entries": [
 				{
 					"type": "entries",
@@ -4475,372 +6018,17 @@
 			]
 		},
 		{
-			"source": "XUA2022ClericAndRevisedSpecies",
-			"page": 12,
-			"name": "Ability Check",
-			"entries": [
-				"The Ability Check is one of three types of {@dice d20} Tests. The rules often call for an Ability Check, and the DM can also call for an Ability Check, determining which ability to use when a creature attempts something (other than an {@variantrule Attack Roll|XUA2022ClericAndRevisedSpecies} or a Saving Throw) that has a chance of meaningful failure. When the outcome is uncertain and narratively interesting, the dice determine the results.",
-				"The Ability Check has the following special rules.",
-				{
-					"type": "entries",
-					"name": "Skills",
-					"entries": [
-						"When you make an Ability Check, the rules or the DM determines whether a Skill Proficiency is relevant to the check. If you have a relevant Skill Proficiency, you can add your Proficiency Bonus to the roll. For example, if a rule refers to a Strength Check ({@skill Acrobatics} or {@skill Athletics}), you can add your Proficiency Bonus to the check if you have {@skill Acrobatics} or {@skill Athletics} Proficiency."
-					]
-				},
-				{
-					"type": "entries",
-					"name": "Action Required",
-					"entries": [
-						"Making an Ability Check requires you to take an Action unless a rule says otherwise. Several of the named Actions\u2014such as {@action Hide|XUA2022ClericAndRevisedSpecies} and {@action Influence|XUA2022ClericAndRevisedSpecies}\u2014include Ability Checks. The DM may override this requirement and allow a particular Ability Check to be made as part of a Bonus Action or as no Action at all."
-					]
-				},
-				{
-					"type": "entries",
-					"name": "Difficulty Class",
-					"entries": [
-						"The DM determines the Difficulty Class of an Ability Check and can override a DC specified in the rules. The Typical Difficulty Class table shows the most common DCs. The default DC for a check is 15, and it is rarely worth calling for an Ability Check if the DC is as low as 5, unless the potential failure is narratively interesting."
-					]
-				},
-				{
-					"type": "table",
-					"caption": "Typical Difficulty Class",
-					"colLabels": [
-						"Task Difficulty",
-						"DC"
-					],
-					"colStyles": [
-						"col-11",
-						"col-1 text-right"
-					],
-					"rows": [
-						[
-							"Very Easy",
-							"5"
-						],
-						[
-							"Easy",
-							"10"
-						],
-						[
-							"Medium",
-							"15"
-						],
-						[
-							"Hard",
-							"20"
-						],
-						[
-							"Very Hard",
-							"25"
-						],
-						[
-							"Nearly Impossible",
-							"30"
-						]
-					]
-				}
-			]
-		},
-		{
-			"source": "XUA2022ClericAndRevisedSpecies",
-			"page": 15,
-			"name": "Armor Training",
-			"entries": [
-				"Armor Training is the new name for Armor Proficiency. Any existing rule that involves Armor Proficiency now applies to Armor Training.",
-				"If you wear Light, Medium, or Heavy Armor and lack Armor Training with that type of Armor, you have Disadvantage on any {@dice d20} Test you make that involves Strength or Dexterity, and you can't cast Spells.",
-				"If you equip a Shield and lack Armor Training with Shields, you don't gain the Armor Class bonus of the Shield."
-			]
-		},
-		{
-			"source": "XUA2022ClericAndRevisedSpecies",
-			"page": 15,
-			"name": "Attack Roll",
-			"entries": [
-				"The Attack Roll is one of three types of {@dice d20} Tests. This Unearthed Arcana article uses the rules for attack rolls and critical hits found in the 2014 {@book Player's Handbook|PHB|9|Attack Rolls}."
-			]
-		},
-		{
-			"source": "XUA2022ClericAndRevisedSpecies",
-			"page": 16,
-			"name": "Blindsight",
-			"entries": [
-				"If you have Blindsight, you can effectively see within a specific range without relying on physical sight. Within that range, you can effectively see anything that isn't behind Total Cover, even if you're Blinded or in Darkness. Moreover, you can effectively see a {@condition Hidden|XUA2022ClericAndRevisedSpecies} or an {@condition Invisible|XUA2022ClericAndRevisedSpecies} creature in that range."
-			]
-		},
-		{
-			"source": "XUA2022ClericAndRevisedSpecies",
-			"page": 16,
-			"name": "Climb Speed",
-			"entries": [
-				"A Climb Speed can be used to move on a vertical surface without expending the extra movement normally associated with climbing. A Climb Speed can also be used in any situation in which your Speed is usable.",
-				"Some creatures have the Spider Climb trait, which allows their Climb Speed to work even on the underside of horizontal surfaces."
-			]
-		},
-		{
-			"source": "XUA2022ClericAndRevisedSpecies",
-			"page": 16,
-			"name": "Creature Type",
-			"entries": [
-				"All creatures in D&D, including every player character, has a special tag in the rules that identifies the type of creature they are. Most player characters are of the Humanoid type.",
-				"Here's a list of the game's Creature Types in alphabetical order:",
-				{
-					"type": "table",
-					"colStyles": [
-						"col-6 text-center",
-						"col-6 text-center"
-					],
-					"rows": [
-						[
-							"Aberration",
-							"Fiend"
-						],
-						[
-							"Beast",
-							"Giant"
-						],
-						[
-							"Celestial",
-							"Humanoid"
-						],
-						[
-							"Construct",
-							"Monstrosity"
-						],
-						[
-							"Dragon",
-							"Ooze"
-						],
-						[
-							"Elemental",
-							"Plant"
-						],
-						[
-							"Fey",
-							"Undead"
-						]
-					]
-				},
-				"These types don't have rules themselves, but some rules in the game affect creatures of certain types in different ways. For example, the description of the {@spell Cure Wounds} Spell specifies the healing doesn't work on a Construct."
-			]
-		},
-		{
-			"source": "XUA2022ClericAndRevisedSpecies",
-			"page": 16,
-			"name": "D20 Tests",
-			"entries": [
-				"The term {@dice d20} Test encompasses the three main {@dice d20} rolls of the game: Ability Checks, {@variantrule Attack Roll|XUA2022ClericAndRevisedSpecies|Attack Rolls}, and Saving Throws. If something in the game affects {@dice d20} Tests, it affects all three of these rolls.",
-				"Whenever a player character rolls a 1 for a {@dice d20} Test, that character gains {@variantrule Heroic Inspiration|XUA2022ClericAndRevisedSpecies}.",
-				"The DM determines whether a {@dice d20} Test is warranted in any given circumstance."
-			]
-		},
-		{
-			"source": "XUA2022ClericAndRevisedSpecies",
-			"page": 17,
-			"name": "Difficult Terrain",
-			"entries": [
-				"If a space is Difficult Terrain, every foot of movement in that space costs 1 extra foot. For example, moving 5 feet through Difficult Terrain costs 10 feet of movement. Difficult Terrain isn't cumulative; either a space is Difficult Terrain or it isn't.",
-				"A space is Difficult Terrain for a creature if the space contains any of the following:",
-				{
-					"type": "list",
-					"style": "list-no-bullets",
-					"items": [
-						"Creature that isn't Tiny",
-						"Furniture that is Small or larger",
-						"Heavy snow",
-						"Heavy undergrowth",
-						"Liquid that's between shin- and waist-deep (any deeper and you need to Swim)",
-						"Narrow opening that is sized for a creature one",
-						"Size smaller",
-						"Pit or another gap of 2\u20135 feet",
-						"Rubble",
-						"Slope of 20 degrees or more"
-					]
-				},
-				"The DM may determine that other things count as Difficult Terrain based on the examples here."
-			]
-		},
-		{
-			"source": "XUA2022ClericAndRevisedSpecies",
-			"page": 19,
-			"name": "Expertise",
-			"entries": [
-				"Expertise is a special feature that enhances your use of a particular Skill Proficiency. If you gain Expertise, you gain it in one Skill in which you have Proficiency. You can never have Expertise in the same Skill Proficiency more than once.",
-				"When you make an {@variantrule {@variantrule Ability Check|XUA2022ClericAndRevisedSpecies}|XUA2022ClericAndRevisedSpecies} with a Skill Proficiency in which you have Expertise, your Proficiency Bonus is doubled for that check."
-			]
-		},
-		{
-			"source": "XUA2022ClericAndRevisedSpecies",
-			"page": 19,
-			"name": "Fly Speed",
-			"entries": [
-				"A Fly Speed can be used to move through the air. While you have a Fly Speed, you can stay aloft until you land, fall, or die.",
-				"While flying, you fall if you are {@condition Incapacitated|XUA2022ClericAndRevisedSpecies} or Restrained. If you have the Hover trait, you can stay aloft even while Incapacitated or Restrained."
-			]
-		},
-		{
-			"source": "XUA2022ClericAndRevisedSpecies",
-			"page": 19,
-			"name": "Heroic Inspiration",
-			"entries": [
-				"When you have Heroic Inspiration (also called Inspiration), you can expend it to give yourself Advantage on a {@dice d20} Test. You decide to do so immediately after rolling the {@dice d20}.",
-				{
-					"type": "entries",
-					"name": "Gaining Heroic Inspiration",
-					"entries": [
-						"A player character gains Heroic Inspiration if the character rolls a 1 for a {@dice d20} Test. That 1 must be on the {@dice d20} used for the test's total, not on a {@dice d20} that was rerolled or discarded. This Heroic Inspiration represents a character's resolve to do better after fumbling an attempt.",
-						"The DM can also award Heroic Inspiration to a player character who's done something that is particularly heroic or in character."
-					]
-				},
-				{
-					"type": "entries",
-					"name": "Only One at a Time",
-					"entries": [
-						"You can never have more than one instance of Heroic Inspiration. If something gives you Heroic Inspiration and you already have it, you can give Heroic Inspiration to a player character in your group who lacks it"
-					]
-				}
-			]
-		},
-		{
-			"source": "XUA2022ClericAndRevisedSpecies",
-			"page": 22,
-			"name": "Long Rest",
-			"entries": [
-				"A Long Rest is a period of extended downtime\u2014at least 8 hours long\u2014available to any creature. During a Long Rest, you sleep for at least 6 hours and perform no more than 2 hours of light activity, such as reading, talking, eating, or standing watch.",
-				{
-					"type": "entries",
-					"name": "Benefits of the Rest",
-					"entries": [
-						"To start a Long Rest, you must have at least 1 Hit Point. When you finish the rest, you gain the following benefits:"
-					]
-				},
-				{
-					"type": "entries",
-					"name": "Regain All HP",
-					"entries": [
-						"You regain all lost Hit Points."
-					]
-				},
-				{
-					"type": "entries",
-					"name": "Regain All HD",
-					"entries": [
-						"You regain all spent Hit Dice."
-					]
-				},
-				{
-					"type": "entries",
-					"name": "HP Max Restored",
-					"entries": [
-						"If your Hit Point Maximum was reduced, it returns to normal."
-					]
-				},
-				{
-					"type": "entries",
-					"name": "Ability Scores Restored",
-					"entries": [
-						"If any of your Ability Scores were reduced, they return to normal."
-					]
-				},
-				{
-					"type": "entries",
-					"name": "Exhaustion Reduced",
-					"entries": [
-						"If you are {@condition Exhausted|XUA2022ClericAndRevisedSpecies}, your level of {@condition exhaustion} decreases by 1.",
-						"After you finish a Long Rest, you must wait at least 16 hours before starting another one."
-					]
-				},
-				{
-					"type": "entries",
-					"name": "Interrupting the Rest",
-					"entries": [
-						"A Long Rest is stopped by the following interruptions:"
-					]
-				},
-				{
-					"type": "list",
-					"items": [
-						"Combat",
-						"Casting a spell other than a 0-level spell • 1 hour of walking or other physical exertion If the rest was at least 1 hour long before the interruption, you gain the benefits of a Short Rest."
-					]
-				},
-				"You can resume a Long Rest immediately after an interruption. If you do so, the rest requires 1 additional hour to finish per interruption."
-			]
-		},
-		{
-			"source": "XUA2022ClericAndRevisedSpecies",
-			"page": 22,
-			"name": "Move",
-			"entries": [
-				"When you Move, you can go a distance equal to your Speed or less. For example, if you have a Speed of 30 feet, you can go up to 30 feet when you Move. {@variantrule Difficult Terrain|XUA2022ClericAndRevisedSpecies} can slow you down.",
-				{
-					"type": "entries",
-					"name": "Breaking Up Your Move",
-					"entries": [
-						"You can break up your Move, using some of its movement before and after any Action you take on the same turn. For example, if you have a Speed of 30 feet, you could go 10 feet, take an Action, and then go 20 feet."
-					]
-				},
-				{
-					"type": "entries",
-					"name": "Moving Around Other Creatures",
-					"entries": [
-						"During your Move, you can pass through the space of an ally, an {@condition Incapacitated|XUA2022ClericAndRevisedSpecies} creature, a Tiny creature, or a creature who is two Sizes larger or smaller than you.",
-						"Another creature's space is {@variantrule Difficult Terrain|XUA2022ClericAndRevisedSpecies} for you, unless that creature is Tiny. You can't willingly end your Move in a space occupied by another creature."
-					]
-				},
-				{
-					"type": "entries",
-					"name": "Climbing and Swimming",
-					"entries": [
-						"You can use your Speed to climb or swim. Some creatures also have a {@variantrule Climb Speed|XUA2022ClericAndRevisedSpecies} or a {@variantrule Swim Speed|XUA2022ClericAndRevisedSpecies}.",
-						"If you use your Speed to climb or swim, each foot of movement costs 1 extra foot. For example, if you swim or climb 5 feet, you must spend 10 feet of movement to do so with your Speed. If you're swimming or climbing through {@variantrule Difficult Terrain|XUA2022ClericAndRevisedSpecies}, that 5 feet of movement costs 15 feet!"
-					]
-				},
-				{
-					"type": "entries",
-					"name": "Special Speeds",
-					"entries": [
-						"Some creatures have special speeds, such as a {@variantrule Climb Speed|XUA2022ClericAndRevisedSpecies}, a {@variantrule Fly Speed|XUA2022ClericAndRevisedSpecies}, or a {@variantrule Swim Speed|XUA2022ClericAndRevisedSpecies}. If you have more than one speed, you must choose which one to use each time you take your Move. For example, if you have a Speed and a {@variantrule Climb Speed|XUA2022ClericAndRevisedSpecies}, you can use one of those speeds when you Move, not both during the same Move.",
-						"If you take more than one Move on a turn and have more than one speed, each Move can use the same speed or a different one. For example, if you have both a Speed and a {@variantrule Fly Speed|XUA2022ClericAndRevisedSpecies} and you take the {@action Dash|XUA2022ClericAndRevisedSpecies} Action on your turn, you could use your Speed for the Move and your {@variantrule Fly Speed|XUA2022ClericAndRevisedSpecies} for the {@action Dash|XUA2022ClericAndRevisedSpecies} or vice versa."
-					]
-				},
-				{
-					"type": "entries",
-					"name": "Speed of 0",
-					"entries": [
-						"If an effect zeroes your Speed for a time, any special speed you have is also zeroed for the same duration. For example, if you have a Speed and a {@variantrule Climb Speed|XUA2022ClericAndRevisedSpecies}, both speeds are zeroed if you're subjected to the {@condition Grappled|XUA2022ClericAndRevisedSpecies} Condition."
-					]
-				}
-			]
-		},
-		{
-			"source": "XUA2022ClericAndRevisedSpecies",
-			"page": 25,
-			"name": "Ritual Casting",
-			"entries": [
-				"If you have a Spell prepared that has the Ritual tag, you can cast that Spell as a Ritual. A special feature is no longer required for Ritual casting. All the other rules on Rituals in the 2014 Player's Handbook still apply."
-			]
-		},
-		{
+			"name": "Swim Speed",
 			"source": "XUA2022ClericAndRevisedSpecies",
 			"page": 26,
-			"name": "Swim Speed",
 			"entries": [
 				"A Swim Speed can be used to move through a liquid without expending the extra movement normally associated with swimming."
 			]
 		},
 		{
-			"source": "XUA2022ClericAndRevisedSpecies",
-			"page": 26,
-			"name": "Tool Proficiency",
-			"entries": [
-				"If you have Proficiency with a tool, you can add your Proficiency Bonus to any {@variantrule Ability Check|XUA2022ClericAndRevisedSpecies} you make that uses that tool. If you have Proficiency in the Skill that's also used with that check, you have Advantage on the check too. This means you can benefit from both Skill Proficiency and Tool Proficiency on the same {@variantrule Ability Check|XUA2022ClericAndRevisedSpecies}"
-			]
-		},
-		{
-			"source": "XUA2022ClericAndRevisedSpecies",
-			"page": 26,
 			"name": "Teleportation",
+			"source": "XUA2022ClericAndRevisedSpecies",
+			"page": 26,
 			"entries": [
 				"Teleportation is a special kind of magical transportation. If you teleport, you disappear and reappear elsewhere instantly, without moving through the intervening space. This transportation doesn't expend movement, unless a rule tells you otherwise, and teleportation never provokes Opportunity Attacks.",
 				"When you teleport, all the equipment you are wearing and carrying teleports with you. If you are touching another creature when you teleport, that creature doesn't teleport with you, unless the teleportation effect says otherwise.",
@@ -4849,18 +6037,26 @@
 			]
 		},
 		{
+			"name": "Tool Proficiency",
 			"source": "XUA2022ClericAndRevisedSpecies",
 			"page": 26,
+			"entries": [
+				"If you have Proficiency with a tool, you can add your Proficiency Bonus to any {@variantrule Ability Check|XUA2022ClericAndRevisedSpecies} you make that uses that tool. If you have Proficiency in the Skill that's also used with that check, you have Advantage on the check too. This means you can benefit from both Skill Proficiency and Tool Proficiency on the same {@variantrule Ability Check|XUA2022ClericAndRevisedSpecies}"
+			]
+		},
+		{
 			"name": "Tremorsense",
+			"source": "XUA2022ClericAndRevisedSpecies",
+			"page": 26,
 			"entries": [
 				"A creature with Tremorsense can pinpoint the location of creatures and moving objects within a specific range, provided that the creature with Tremorsense and anything it's detecting are both in contact with the same surface (such as the ground, a wall, or a ceiling) or the same liquid.",
 				"Tremorsense can't detect creatures or objects in the air, and Tremorsense doesn't count as a form of sight."
 			]
 		},
 		{
+			"name": "Truesight",
 			"source": "XUA2022ClericAndRevisedSpecies",
 			"page": 26,
-			"name": "Truesight",
 			"entries": [
 				"A creature with Truesight has enhanced vision within a specified range. Within that range, the creature's vision pierces through the following: Darkness. The creature can see in normal and magical darkness.",
 				{
@@ -4894,9 +6090,9 @@
 			]
 		},
 		{
+			"name": "Unarmed Strike",
 			"source": "XUA2022ClericAndRevisedSpecies",
 			"page": 26,
-			"name": "Unarmed Strike",
 			"entries": [
 				"An Unarmed Strike is a melee attack that involves you using your body to damage, grapple, or shove a target within your Reach.",
 				"Your bonus to hit with an Unarmed Strike equals your Strength modifier plus your Proficiency Bonus. On a hit, your Unarmed Strike causes one of the following effects of your choice:",
@@ -4922,705 +6118,273 @@
 					]
 				}
 			]
-		},
-		{
-			"source": "XUA2022ClericAndRevisedSpecies",
-			"page": 15,
-			"name": "Artisan's Tools",
-			"entries": [
-				"Artisan's Tools are a category of tool with which a character can gain {@variantrule Tool Proficiency|XUA2022ClericAndRevisedSpecies}. For a list of Artisan's Tools, see the 2014 Player's Handbook, but ignore the prices there; those tools now cost 15 GP apiece."
-			]
-		},
-		{
-			"source": "XUA2022ClericAndRevisedSpecies",
-			"page": 19,
-			"name": "Gaming Set",
-			"entries": [
-				"Gaming Sets are a category of tool with which a character can gain {@variantrule Tool Proficiency|XUA2022ClericAndRevisedSpecies}. For a list of Gaming Sets, see the 2014 Player's Handbook, but ignore the prices there; those sets now cost 1 GP apiece."
-			]
-		},
-		{
-			"source": "XUA2022ClericAndRevisedSpecies",
-			"page": 23,
-			"name": "Musical Instrument",
-			"entries": [
-				"Musical Instruments are a category of tool with which a character can gain {@variantrule Tool Proficiency|XUA2022ClericAndRevisedSpecies}. For a list of Musical Instruments, see the 2014 Player's Handbook, but ignore the prices there; those instruments now cost 20 GP apiece."
-			]
 		}
 	],
-	"item": [
+	"condition": [
 		{
-			"name": "Priest's Pack",
+			"name": "Dazed",
 			"source": "XUA2022ClericAndRevisedSpecies",
-			"page": 23,
-			"type": "G",
-			"rarity": "none",
-			"weight": 24,
-			"value": 3300,
+			"page": 17,
 			"entries": [
-				"Includes:",
+				"While Dazed, you experience the following effect:",
 				{
 					"type": "list",
+					"style": "list-hang-notitle",
 					"items": [
-						"{@item Backpack|phb}",
-						"{@item Blanket|phb}",
-						"{@item Lamp|phb}",
-						"{@item Holy Water (flask)|phb|Holy Water}",
-						"{@item Rations (1 day)|phb|Rations} (7 days)",
-						"{@item Robes|phb|Robe}",
-						"{@item Tinderbox|phb}"
+						{
+							"type": "item",
+							"name": "Limited Activity",
+							"entries": [
+								"You can {@variantrule Move|XUA2022ClericAndRevisedSpecies} or take one Action on your turn, not both. You also can't take a Bonus Action or a Reaction."
+							]
+						}
 					]
-				}
-			],
-			"packContents": [
-				"backpack|phb",
-				"blanket|phb",
-				"lamp|phb",
-				"tinderbox|phb",
-				{
-					"item": "rations (1 day)|phb",
-					"quantity": 7
-				},
-				"robes|phb"
-			]
-		}
-	],
-	"feat": [
-		{
-			"name": "Ability Score Improvement",
-			"source": "XUA2022ClericAndRevisedSpecies",
-			"page": 16,
-			"prerequisite": [
-				{
-					"level": 4
-				}
-			],
-			"ability": [
-				{
-					"choose": {
-						"from": [
-							"str",
-							"dex",
-							"con",
-							"int",
-							"wis",
-							"cha"
-						],
-						"amount": 2
-					},
-					"hidden": true
-				},
-				{
-					"choose": {
-						"from": [
-							"str",
-							"dex",
-							"con",
-							"int",
-							"wis",
-							"cha"
-						],
-						"count": 2
-					},
-					"hidden": true
-				}
-			],
-			"repeatable": true,
-			"entries": [
-				"You increase one Ability Score of your choice by 2, or you increase two Ability Scores of your choice by 1. You can't increase an Ability Score above 20."
-			]
-		},
-		{
-			"name": "Epic Boon of Fate",
-			"source": "XUA2022ClericAndRevisedSpecies",
-			"page": 11,
-			"prerequisite": [
-				{
-					"level": 20,
-					"group": [
-						"mage",
-						"priest"
-					]
-				}
-			],
-			"entries": [
-				"When another creature that you can see within 60 feet of you makes a {@dice d20} Test, you can roll a {@dice d10} and apply the number rolled as a bonus or a penalty to the {@dice d20} roll. Once you use this benefit, you can't use it again until you roll Initiative or finish a Short Rest or a {@variantrule Long Rest|XUA2022ClericAndRevisedSpecies}."
-			]
-		},
-		{
-			"name": "Epic Boon of Spell Recall",
-			"source": "XUA2022ClericAndRevisedSpecies",
-			"page": 11,
-			"prerequisite": [
-				{
-					"level": 20,
-					"group": [
-						"mage",
-						"priest"
-					]
-				}
-			],
-			"entries": [
-				"You can cast any spell you have prepared without expending a spell slot, provided the spell is 5th level or lower. Once you do so, you can't use this benefit again until you finish a {@variantrule Long Rest|XUA2022ClericAndRevisedSpecies}."
-			]
-		},
-		{
-			"name": "Epic Boon of Truesight",
-			"source": "XUA2022ClericAndRevisedSpecies",
-			"page": 11,
-			"prerequisite": [
-				{
-					"level": 20,
-					"group": [
-						"mage",
-						"priest"
-					]
-				}
-			],
-			"entries": [
-				"You have {@variantrule Truesight|XUA2022ClericAndRevisedSpecies} out to a range of 60 feet."
-			]
-		}
-	],
-	"spell": [
-		{
-			"name": "Aid",
-			"source": "XUA2022ClericAndRevisedSpecies",
-			"page": 12,
-			"level": 2,
-			"school": "D",
-			"time": [
-				{
-					"number": 1,
-					"unit": "action"
-				}
-			],
-			"range": {
-				"type": "point",
-				"distance": {
-					"type": "feet",
-					"amount": 30
-				}
-			},
-			"components": {
-				"v": true,
-				"s": true,
-				"m": "a tiny strip of white cloth"
-			},
-			"duration": [
-				{
-					"type": "instant"
-				}
-			],
-			"entries": [
-				"Your spell bolsters creatures, filling them with resolve. Choose up to six creatures within range. Each target gains 5 Temporary Hit Points.",
-				{
-					"type": "entries",
-					"name": "At Higher Levels",
-					"entries": [
-						"When you cast this spell using a spell slot of 3rd level or higher, the number of Temporary Hit Points increases by 5 for each slot level above 2nd."
-					]
-				}
-			],
-			"groups": [
-				{
-					"name": "Divine",
-					"source": "XUA2022ClericAndRevisedSpecies"
 				}
 			]
 		},
 		{
-			"name": "Banishment",
+			"name": "Exhausted",
 			"source": "XUA2022ClericAndRevisedSpecies",
-			"page": 15,
-			"level": 4,
-			"school": "A",
-			"time": [
-				{
-					"number": 1,
-					"unit": "action"
-				}
-			],
-			"range": {
-				"type": "point",
-				"distance": {
-					"type": "feet",
-					"amount": 30
-				}
-			},
-			"components": {
-				"v": true,
-				"s": true,
-				"m": "an item distasteful to the target"
-			},
-			"duration": [
-				{
-					"type": "timed",
-					"duration": {
-						"type": "minute",
-						"amount": 1
-					},
-					"concentration": true
-				}
-			],
+			"page": 18,
 			"entries": [
-				"You attempt to send one creature that you can see within range to another plane of existence. The target must succeed on a Charisma Saving Throw or be transported to a harmless demiplane for the duration. The target can willingly fail the save.",
-				"While in the demiplane, the target is {@condition Incapacitated|XUA2022ClericAndRevisedSpecies}. At the end of each of its turns, the target can repeat the save, ending the Spell on itself on a success. When the Spell ends on the target, it reappears in the space it left or in the nearest unoccupied space if that space is occupied.",
-				"If the Spell lasts on the target for 1 minute and the target is an Aberration, a Celestial, an Elemental, a Fey, or a Fiend, the target doesn't return. It is instead transported to a random location on a plane associated with its {@variantrule Creature Type|XUA2022ClericAndRevisedSpecies}.",
+				"While Exhausted (known in older books as Exhaustion), you experience the following effects:",
 				{
-					"type": "entries",
-					"name": "At Higher Levels",
-					"entries": [
-						"When you cast this Spell using a Spell Slot of 5th level or higher, you can target one additional creature for each slot level above 4th."
+					"type": "list",
+					"style": "list-hang-notitle",
+					"items": [
+						{
+							"type": "item",
+							"name": "Levels of Exhaustion",
+							"entry": "This Condition is cumulative. Each time you receive it, you gain 1 level of {@condition exhaustion}. You die if your {@condition exhaustion} level exceeds 10."
+						},
+						{
+							"type": "item",
+							"name": "d20 Rolls Affected",
+							"entry": "When you make a {@dice d20} Test, you subtract your {@condition exhaustion} level from the {@dice d20} roll."
+						},
+						{
+							"type": "item",
+							"name": "Spell Save DCs Affected",
+							"entry": "Subtract your {@condition exhaustion} level from the Spell save DC of any Spell you cast."
+						},
+						{
+							"type": "item",
+							"name": "Ending the Condition",
+							"entry": "Finishing a {@variantrule Long Rest|XUA2022ClericAndRevisedSpecies} removes 1 of your levels of {@condition exhaustion}. When your {@condition exhaustion} level reaches 0, you are no longer Exhausted."
+						}
 					]
-				}
-			],
-			"groups": [
-				{
-					"name": "Arcane",
-					"source": "XUA2022ClericAndRevisedSpecies"
-				},
-				{
-					"name": "Divine",
-					"source": "XUA2022ClericAndRevisedSpecies"
 				}
 			]
 		},
 		{
-			"name": "Barkskin",
-			"source": "XUA2022ClericAndRevisedSpecies",
-			"page": 16,
-			"level": 2,
-			"school": "T",
-			"time": [
-				{
-					"number": 1,
-					"unit": "bonus"
-				}
-			],
-			"range": {
-				"type": "point",
-				"distance": {
-					"type": "touch"
-				}
-			},
-			"components": {
-				"v": true,
-				"s": true,
-				"m": "a handful of bark"
-			},
-			"duration": [
-				{
-					"type": "timed",
-					"duration": {
-						"type": "hour",
-						"amount": 1
-					},
-					"concentration": true
-				}
-			],
-			"entries": [
-				"You touch one willing creature to protect it with regenerating bark. Until the Spell ends, the target's skin assumes a bark-like appearance, and at the start of each of the target's turns, the target gains a number of Temporary Hit Points equal to your spellcasting ability modifier plus your Proficiency Bonus.",
-				{
-					"type": "entries",
-					"name": "At Higher Levels",
-					"entries": [
-						"When you cast this Spell using a Spell Slot of 3rd level or higher, you can target one additional willing creature for each slot level above 2nd."
-					]
-				}
-			],
-			"groups": [
-				{
-					"name": "Primal",
-					"source": "XUA2022ClericAndRevisedSpecies"
-				}
-			]
-		},
-		{
-			"name": "Guidance",
+			"name": "Grappled",
 			"source": "XUA2022ClericAndRevisedSpecies",
 			"page": 19,
-			"level": 0,
-			"school": "D",
-			"time": [
-				{
-					"number": 1,
-					"unit": "reaction",
-					"condition": "which you take in response to you or an ally within 10 feet of you failing an {@variantrule Ability Check|XUA2022ClericAndRevisedSpecies}"
-				}
-			],
-			"range": {
-				"type": "point",
-				"distance": {
-					"type": "feet",
-					"amount": 10
-				}
-			},
-			"components": {
-				"v": true,
-				"s": true
-			},
-			"duration": [
-				{
-					"type": "instant"
-				}
-			],
 			"entries": [
-				"You channel magical insight to the creature who failed the {@variantrule Ability Check|XUA2022ClericAndRevisedSpecies}. That creature can roll a {@dice d4} and add the number rolled to the check, potentially turning it into a success."
-			],
-			"groups": [
+				"While you are Grappled, you experience the following effects:",
 				{
-					"name": "Divine",
-					"source": "XUA2022ClericAndRevisedSpecies"
-				},
-				{
-					"name": "Primal",
-					"source": "XUA2022ClericAndRevisedSpecies"
-				}
-			]
-		},
-		{
-			"name": "Prayer of Healing",
-			"source": "XUA2022ClericAndRevisedSpecies",
-			"page": 23,
-			"level": 2,
-			"school": "A",
-			"time": [
-				{
-					"number": 10,
-					"unit": "minute"
-				}
-			],
-			"range": {
-				"type": "point",
-				"distance": {
-					"type": "feet",
-					"amount": 30
-				}
-			},
-			"components": {
-				"v": true
-			},
-			"duration": [
-				{
-					"type": "instant"
-				}
-			],
-			"entries": [
-				"You utter an extended prayer of restoration. Choose a number of willing creatures equal to your Spellcasting Ability Modifier (minimum of 1). Each of those creatures who remains within range for the Spell's entire casting gains the benefits of a Short Rest and also regains {@dice 2d8} Hit Points, and a creature can't be affected by this Spell again until that creature finishes a {@variantrule Long Rest|XUA2022ClericAndRevisedSpecies}.",
-				{
-					"type": "entries",
-					"name": "At Higher Levels",
-					"entries": [
-						"When you cast this Spell using a Spell Slot of 3rd level or higher, the healing increases by {@scaledice 2d8|2-9|1d8} for each slot above 2nd."
+					"type": "list",
+					"style": "list-hang-notitle",
+					"items": [
+						{
+							"type": "item",
+							"name": "Speed 0",
+							"entries": [
+								"Your Speed is 0 and can't change."
+							]
+						},
+						{
+							"type": "item",
+							"name": "Attacks Affected",
+							"entries": [
+								"You have Disadvantage on {@variantrule Attack Roll|XUA2022ClericAndRevisedSpecies|Attack Rolls} against any target other than the grappler."
+							]
+						},
+						{
+							"type": "item",
+							"name": "Movable",
+							"entries": [
+								"The grappler can drag or carry you when it Moves, but the grappler suffers the {@condition Slowed|XUA2022ClericAndRevisedSpecies} Condition while moving, unless you are Tiny or two or more Sizes smaller than the grappler."
+							]
+						},
+						{
+							"type": "item",
+							"name": "Escape",
+							"entries": [
+								"While Grappled, you can make a Dexterity or Strength Saving Throw against the grapple's escape DC at the end of each of your turns, ending the Condition on yourself on a success. The Condition also ends if the grappler is {@condition Incapacitated|XUA2022ClericAndRevisedSpecies} or if something removes you from the grapple's range."
+							]
+						}
 					]
 				}
-			],
-			"groups": [
-				{
-					"name": "Divine",
-					"source": "XUA2022ClericAndRevisedSpecies"
-				}
 			]
 		},
 		{
-			"name": "Resistance",
+			"name": "Hidden",
 			"source": "XUA2022ClericAndRevisedSpecies",
-			"page": 25,
-			"level": 0,
-			"school": "A",
-			"time": [
-				{
-					"number": 1,
-					"unit": "reaction",
-					"condition": "which you take in response to you or an ally within 10 feet of you failing a Saving Throw"
-				}
-			],
-			"range": {
-				"type": "point",
-				"distance": {
-					"type": "feet",
-					"amount": 10
-				}
-			},
-			"components": {
-				"v": true,
-				"s": true
-			},
-			"duration": [
-				{
-					"type": "instant"
-				}
-			],
+			"page": 20,
 			"entries": [
-				"You channel magical protection to the creature who failed the Saving Throw. That creature can roll a {@dice d4} and add the number rolled to the save, potentially turning it into a success."
-			],
-			"groups": [
+				"While you are Hidden, you experience the following effects:",
 				{
-					"name": "Divine",
-					"source": "XUA2022ClericAndRevisedSpecies"
-				},
-				{
-					"name": "Primal",
-					"source": "XUA2022ClericAndRevisedSpecies"
-				}
-			]
-		},
-		{
-			"name": "Spiritual Weapon",
-			"source": "XUA2022ClericAndRevisedSpecies",
-			"page": 25,
-			"level": 2,
-			"school": "V",
-			"time": [
-				{
-					"number": 1,
-					"unit": "bonus"
-				}
-			],
-			"range": {
-				"type": "point",
-				"distance": {
-					"type": "feet",
-					"amount": 60
-				}
-			},
-			"components": {
-				"v": true,
-				"s": true
-			},
-			"duration": [
-				{
-					"type": "timed",
-					"duration": {
-						"type": "minute",
-						"amount": 1
-					},
-					"concentration": true
-				}
-			],
-			"entries": [
-				"You create a floating, spectral force that resembles a weapon of your choice and that lasts for the duration. The force appears within range in a space of your choice, and you can immediately make one melee spell attack against a creature within 5 feet of the force. On a hit, the target takes Force Damage equal to {@dice 1d8} + your spellcasting ability modifier.",
-				"As a Bonus Action on your later turns, you can move the force up to 20 feet and repeat the attack against a creature within 5 feet of it.",
-				{
-					"type": "entries",
-					"name": "At Higher Levels",
-					"entries": [
-						"When you cast this Spell using a Spell Slot of 3rd level or higher, the damage increases by {@scaledamage 1d8|2-9|1d8} for every slot level above 2nd."
+					"type": "list",
+					"style": "list-hang-notitle",
+					"items": [
+						{
+							"type": "item",
+							"name": "Concealed",
+							"entries": [
+								"You aren't affected by any effect that requires its target to be seen."
+							]
+						},
+						{
+							"type": "item",
+							"name": "Surprise",
+							"entries": [
+								"If you are Hidden when you roll Initiative, you have Advantage on the roll."
+							]
+						},
+						{
+							"type": "item",
+							"name": "Attacks Affected",
+							"entries": [
+								"{@variantrule Attack Roll|XUA2022ClericAndRevisedSpecies|Attack Rolls} against you have Disadvantage, and your {@variantrule Attack Roll|XUA2022ClericAndRevisedSpecies|Attack Rolls} have Advantage."
+							]
+						},
+						{
+							"type": "item",
+							"name": "Ending the Condition",
+							"entries": [
+								"The Condition ends on you immediately after any of the following occurrences: you make a sound louder than a whisper, an enemy finds you, you make an Attack Roll, you cast a Spell with a verbal component, or you aren't Heavily Obscured or behind any Cover."
+							]
+						}
 					]
 				}
-			],
-			"groups": [
+			]
+		},
+		{
+			"name": "Incapacitated",
+			"source": "XUA2022ClericAndRevisedSpecies",
+			"page": 20,
+			"entries": [
+				"While you are Incapacitated, you experience the following effects:",
 				{
-					"name": "Divine",
-					"source": "XUA2022ClericAndRevisedSpecies"
+					"type": "list",
+					"style": "list-hang-notitle",
+					"items": [
+						{
+							"type": "item",
+							"name": "Inactive",
+							"entries": [
+								"You can't take Actions or Reactions."
+							]
+						},
+						{
+							"type": "item",
+							"name": "No Concentration",
+							"entries": [
+								"Your Concentration is broken."
+							]
+						},
+						{
+							"type": "item",
+							"name": "No Concentration",
+							"entries": [
+								"Your Concentration is broken."
+							]
+						},
+						{
+							"type": "item",
+							"name": "Speechless",
+							"entries": [
+								"You can't speak."
+							]
+						},
+						{
+							"type": "item",
+							"name": "Surprised",
+							"entries": [
+								"If you are Incapacitated when you roll Initiative, you have Disadvantage on the roll."
+							]
+						}
+					]
 				}
 			]
 		},
 		{
-			"name": "Aura of Vitality",
+			"name": "Invisible",
 			"source": "XUA2022ClericAndRevisedSpecies",
-			"_copy": {
-				"name": "Aura of Vitality",
-				"source": "PHB"
-			},
-			"school": "A"
+			"page": 21,
+			"entries": [
+				"While you are Invisible, you experience the following effects:",
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"items": [
+						{
+							"type": "item",
+							"name": "Unseeable",
+							"entries": [
+								"You can't be seen, so you aren't affected by any effect that requires its target to be seen. Any equipment you are wearing or carrying also can't be seen."
+							]
+						},
+						{
+							"type": "item",
+							"name": "Surprise",
+							"entries": [
+								"If you are Invisible when you roll initiative, you have Advantage on the roll. Attacks Affected. {@variantrule Attack Roll|XUA2022ClericAndRevisedSpecies|Attack Rolls} against you have Disadvantage, and your {@variantrule Attack Roll|XUA2022ClericAndRevisedSpecies|Attack Rolls} have Advantage."
+							]
+						},
+						{
+							"type": "item",
+							"name": "Attacks Affected",
+							"entries": [
+								"{@variantrule Attack Roll|XUA2022ClericAndRevisedSpecies|Attack Rolls} against you have Disadvantage, and your {@variantrule Attack Roll|XUA2022ClericAndRevisedSpecies|Attack Rolls} have Advantage. If a creature can somehow see you, as with {@variantrule Blindsight|XUA2022ClericAndRevisedSpecies}, you don't gain this benefit against that creature."
+							]
+						}
+					]
+				}
+			]
 		},
 		{
-			"name": "Blindness/Deafness",
+			"name": "Slowed",
 			"source": "XUA2022ClericAndRevisedSpecies",
-			"_copy": {
-				"name": "Blindness/Deafness",
-				"source": "PHB"
-			},
-			"school": "T"
-		},
-		{
-			"name": "Contingency",
-			"source": "XUA2022ClericAndRevisedSpecies",
-			"_copy": {
-				"name": "Contingency",
-				"source": "PHB"
-			},
-			"school": "A"
-		},
-		{
-			"name": "Cure Wounds",
-			"source": "XUA2022ClericAndRevisedSpecies",
-			"_copy": {
-				"name": "Cure Wounds",
-				"source": "PHB"
-			},
-			"school": "A"
-		},
-		{
-			"name": "Dancing Lights",
-			"source": "XUA2022ClericAndRevisedSpecies",
-			"_copy": {
-				"name": "Dancing Lights",
-				"source": "PHB"
-			},
-			"school": "I"
-		},
-		{
-			"name": "Earthquake",
-			"source": "XUA2022ClericAndRevisedSpecies",
-			"_copy": {
-				"name": "Earthquake",
-				"source": "PHB"
-			},
-			"school": "T"
-		},
-		{
-			"name": "Flaming Sphere",
-			"source": "XUA2022ClericAndRevisedSpecies",
-			"_copy": {
-				"name": "Flaming Sphere",
-				"source": "PHB"
-			},
-			"school": "V"
-		},
-		{
-			"name": "Glibness",
-			"source": "XUA2022ClericAndRevisedSpecies",
-			"_copy": {
-				"name": "Glibness",
-				"source": "PHB"
-			},
-			"school": "E"
-		},
-		{
-			"name": "Hallow",
-			"source": "XUA2022ClericAndRevisedSpecies",
-			"_copy": {
-				"name": "Hallow",
-				"source": "PHB"
-			},
-			"school": "A"
-		},
-		{
-			"name": "Heal",
-			"source": "XUA2022ClericAndRevisedSpecies",
-			"_copy": {
-				"name": "Healing Word",
-				"source": "PHB"
-			},
-			"school": "A"
-		},
-		{
-			"name": "Healing Word",
-			"source": "XUA2022ClericAndRevisedSpecies",
-			"_copy": {
-				"name": "Healing Word",
-				"source": "PHB"
-			},
-			"school": "A"
-		},
-		{
-			"name": "Mass Cure Wounds",
-			"source": "XUA2022ClericAndRevisedSpecies",
-			"_copy": {
-				"name": "Mass Cure Wounds",
-				"source": "PHB"
-			},
-			"school": "A"
-		},
-		{
-			"name": "Mass Heal",
-			"source": "XUA2022ClericAndRevisedSpecies",
-			"_copy": {
-				"name": "Mass Heal",
-				"source": "PHB"
-			},
-			"school": "A"
-		},
-		{
-			"name": "Mass Healing Word",
-			"source": "XUA2022ClericAndRevisedSpecies",
-			"_copy": {
-				"name": "Mass Healing Word",
-				"source": "PHB"
-			},
-			"school": "A"
-		},
-		{
-			"name": "Power Word Heal",
-			"source": "XUA2022ClericAndRevisedSpecies",
-			"_copy": {
-				"name": "Power Word Heal",
-				"source": "PHB"
-			},
-			"school": "A"
-		},
-		{
-			"name": "Produce Flame",
-			"source": "XUA2022ClericAndRevisedSpecies",
-			"_copy": {
-				"name": "Produce Flame",
-				"source": "PHB"
-			},
-			"school": "V"
-		},
-		{
-			"name": "Reincarnate",
-			"source": "XUA2022ClericAndRevisedSpecies",
-			"_copy": {
-				"name": "Reincarnate",
-				"source": "PHB"
-			},
-			"school": "N"
-		},
-		{
-			"name": "Sending",
-			"source": "XUA2022ClericAndRevisedSpecies",
-			"_copy": {
-				"name": "Sending",
-				"source": "PHB"
-			},
-			"school": "D"
-		},
-		{
-			"name": "Shatter",
-			"source": "XUA2022ClericAndRevisedSpecies",
-			"_copy": {
-				"name": "Shatter",
-				"source": "PHB"
-			},
-			"school": "T"
-		},
-		{
-			"name": "Stoneskin",
-			"source": "XUA2022ClericAndRevisedSpecies",
-			"_copy": {
-				"name": "Stoneskin",
-				"source": "PHB"
-			},
-			"school": "T"
-		},
-		{
-			"name": "Telepathy",
-			"source": "XUA2022ClericAndRevisedSpecies",
-			"_copy": {
-				"name": "Telepathy",
-				"source": "PHB"
-			},
-			"school": "D"
-		},
-		{
-			"name": "Thunderwave",
-			"source": "XUA2022ClericAndRevisedSpecies",
-			"_copy": {
-				"name": "Thunderwave",
-				"source": "PHB"
-			},
-			"school": "T"
+			"page": 25,
+			"entries": [
+				"While you are Slowed, you experience the following effects:",
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"items": [
+						{
+							"type": "item",
+							"name": "Limited Movement",
+							"entries": [
+								"You must spend 1 extra foot of movement for every foot you move using your Speed."
+							]
+						},
+						{
+							"type": "item",
+							"name": "Attacks Affected",
+							"entries": [
+								"{@variantrule Attack Roll|XUA2022ClericAndRevisedSpecies|Attack Rolls} against you have Advantage."
+							]
+						},
+						{
+							"type": "item",
+							"name": "Dexterity Saves Affected",
+							"entries": [
+								"You have Disadvantage on Dexterity Saving Throws."
+							]
+						}
+					]
+				}
+			]
 		}
 	],
 	"action": [
 		{
 			"name": "Attack",
-			"page": 15,
 			"source": "XUA2022ClericAndRevisedSpecies",
+			"page": 15,
 			"time": [
 				{
 					"number": 1,
@@ -5647,8 +6411,8 @@
 		},
 		{
 			"name": "Dash",
-			"page": 16,
 			"source": "XUA2022ClericAndRevisedSpecies",
+			"page": 16,
 			"time": [
 				{
 					"number": 1,
@@ -5661,8 +6425,8 @@
 		},
 		{
 			"name": "Help",
-			"page": 19,
 			"source": "XUA2022ClericAndRevisedSpecies",
+			"page": 19,
 			"time": [
 				{
 					"number": 1,
@@ -5695,8 +6459,8 @@
 		},
 		{
 			"name": "Hide",
-			"page": 20,
 			"source": "XUA2022ClericAndRevisedSpecies",
+			"page": 20,
 			"time": [
 				{
 					"number": 1,
@@ -5710,8 +6474,8 @@
 		},
 		{
 			"name": "Influence",
-			"page": 20,
 			"source": "XUA2022ClericAndRevisedSpecies",
+			"page": 20,
 			"time": [
 				{
 					"number": 1,
@@ -5818,8 +6582,8 @@
 		},
 		{
 			"name": "Jump",
-			"page": 21,
 			"source": "XUA2022ClericAndRevisedSpecies",
+			"page": 21,
 			"time": [
 				{
 					"number": 1,
@@ -5834,8 +6598,8 @@
 		},
 		{
 			"name": "Magic",
-			"page": 35,
 			"source": "XUA2022ClericAndRevisedSpecies",
+			"page": 35,
 			"time": [
 				{
 					"number": 1,
@@ -5849,8 +6613,8 @@
 		},
 		{
 			"name": "Search",
-			"page": 25,
 			"source": "XUA2022ClericAndRevisedSpecies",
+			"page": 25,
 			"time": [
 				{
 					"number": 1,
@@ -5893,8 +6657,8 @@
 		},
 		{
 			"name": "Study",
-			"page": 25,
 			"source": "XUA2022ClericAndRevisedSpecies",
+			"page": 25,
 			"time": [
 				{
 					"number": 1,
@@ -5938,770 +6702,6 @@
 						]
 					]
 				}
-			]
-		}
-	],
-	"condition": [
-		{
-			"source": "XUA2022ClericAndRevisedSpecies",
-			"page": 17,
-			"name": "Dazed",
-			"entries": [
-				"While Dazed, you experience the following effect:",
-				{
-					"type": "list",
-					"style": "list-hang-notitle",
-					"items": [
-						{
-							"type": "item",
-							"name": "Limited Activity",
-							"entries": [
-								"You can {@variantrule Move|XUA2022ClericAndRevisedSpecies} or take one Action on your turn, not both. You also can't take a Bonus Action or a Reaction."
-							]
-						}
-					]
-				}
-			]
-		},
-		{
-			"name": "Exhausted",
-			"source": "XUA2022ClericAndRevisedSpecies",
-			"page": 18,
-			"entries": [
-				"While Exhausted (known in older books as Exhaustion), you experience the following effects:",
-				{
-					"type": "list",
-					"style": "list-hang-notitle",
-					"items": [
-						{
-							"type": "item",
-							"name": "Levels of Exhaustion",
-							"entry": "This Condition is cumulative. Each time you receive it, you gain 1 level of {@condition exhaustion}. You die if your {@condition exhaustion} level exceeds 10."
-						},
-						{
-							"type": "item",
-							"name": "d20 Rolls Affected",
-							"entry": "When you make a {@dice d20} Test, you subtract your {@condition exhaustion} level from the {@dice d20} roll."
-						},
-						{
-							"type": "item",
-							"name": "Spell Save DCs Affected",
-							"entry": "Subtract your {@condition exhaustion} level from the Spell save DC of any Spell you cast."
-						},
-						{
-							"type": "item",
-							"name": "Ending the Condition",
-							"entry": "Finishing a {@variantrule Long Rest|XUA2022ClericAndRevisedSpecies} removes 1 of your levels of {@condition exhaustion}. When your {@condition exhaustion} level reaches 0, you are no longer Exhausted."
-						}
-					]
-				}
-			]
-		},
-		{
-			"source": "XUA2022ClericAndRevisedSpecies",
-			"page": 19,
-			"name": "Grappled",
-			"entries": [
-				"While you are Grappled, you experience the following effects:",
-				{
-					"type": "list",
-					"style": "list-hang-notitle",
-					"items": [
-						{
-							"type": "item",
-							"name": "Speed 0",
-							"entries": [
-								"Your Speed is 0 and can't change."
-							]
-						},
-						{
-							"type": "item",
-							"name": "Attacks Affected",
-							"entries": [
-								"You have Disadvantage on {@variantrule Attack Roll|XUA2022ClericAndRevisedSpecies|Attack Rolls} against any target other than the grappler."
-							]
-						},
-						{
-							"type": "item",
-							"name": "Movable",
-							"entries": [
-								"The grappler can drag or carry you when it Moves, but the grappler suffers the {@condition Slowed|XUA2022ClericAndRevisedSpecies} Condition while moving, unless you are Tiny or two or more Sizes smaller than the grappler."
-							]
-						},
-						{
-							"type": "item",
-							"name": "Escape",
-							"entries": [
-								"While Grappled, you can make a Dexterity or Strength Saving Throw against the grapple's escape DC at the end of each of your turns, ending the Condition on yourself on a success. The Condition also ends if the grappler is {@condition Incapacitated|XUA2022ClericAndRevisedSpecies} or if something removes you from the grapple's range."
-							]
-						}
-					]
-				}
-			]
-		},
-		{
-			"source": "XUA2022ClericAndRevisedSpecies",
-			"page": 20,
-			"name": "Hidden",
-			"entries": [
-				"While you are Hidden, you experience the following effects:",
-				{
-					"type": "list",
-					"style": "list-hang-notitle",
-					"items": [
-						{
-							"type": "item",
-							"name": "Concealed",
-							"entries": [
-								"You aren't affected by any effect that requires its target to be seen."
-							]
-						},
-						{
-							"type": "item",
-							"name": "Surprise",
-							"entries": [
-								"If you are Hidden when you roll Initiative, you have Advantage on the roll."
-							]
-						},
-						{
-							"type": "item",
-							"name": "Attacks Affected",
-							"entries": [
-								"{@variantrule Attack Roll|XUA2022ClericAndRevisedSpecies|Attack Rolls} against you have Disadvantage, and your {@variantrule Attack Roll|XUA2022ClericAndRevisedSpecies|Attack Rolls} have Advantage."
-							]
-						},
-						{
-							"type": "item",
-							"name": "Ending the Condition",
-							"entries": [
-								"The Condition ends on you immediately after any of the following occurrences: you make a sound louder than a whisper, an enemy finds you, you make an Attack Roll, you cast a Spell with a verbal component, or you aren't Heavily Obscured or behind any Cover."
-							]
-						}
-					]
-				}
-			]
-		},
-		{
-			"name": "Incapacitated",
-			"source": "XUA2022ClericAndRevisedSpecies",
-			"page": 20,
-			"entries": [
-				"While you are Incapacitated, you experience the following effects:",
-				{
-					"type": "list",
-					"style": "list-hang-notitle",
-					"items": [
-						{
-							"type": "item",
-							"name": "Inactive",
-							"entries": [
-								"You can't take Actions or Reactions."
-							]
-						},
-						{
-							"type": "item",
-							"name": "No Concentration",
-							"entries": [
-								"Your Concentration is broken."
-							]
-						},
-						{
-							"type": "item",
-							"name": "No Concentration",
-							"entries": [
-								"Your Concentration is broken."
-							]
-						},
-						{
-							"type": "item",
-							"name": "Speechless",
-							"entries": [
-								"You can't speak."
-							]
-						},
-						{
-							"type": "item",
-							"name": "Surprised",
-							"entries": [
-								"If you are Incapacitated when you roll Initiative, you have Disadvantage on the roll."
-							]
-						}
-					]
-				}
-			]
-		},
-		{
-			"name": "Invisible",
-			"page": 21,
-			"source": "XUA2022ClericAndRevisedSpecies",
-			"entries": [
-				"While you are Invisible, you experience the following effects:",
-				{
-					"type": "list",
-					"style": "list-hang-notitle",
-					"items": [
-						{
-							"type": "item",
-							"name": "Unseeable",
-							"entries": [
-								"You can't be seen, so you aren't affected by any effect that requires its target to be seen. Any equipment you are wearing or carrying also can't be seen."
-							]
-						},
-						{
-							"type": "item",
-							"name": "Surprise",
-							"entries": [
-								"If you are Invisible when you roll initiative, you have Advantage on the roll. Attacks Affected. {@variantrule Attack Roll|XUA2022ClericAndRevisedSpecies|Attack Rolls} against you have Disadvantage, and your {@variantrule Attack Roll|XUA2022ClericAndRevisedSpecies|Attack Rolls} have Advantage."
-							]
-						},
-						{
-							"type": "item",
-							"name": "Attacks Affected",
-							"entries": [
-								"{@variantrule Attack Roll|XUA2022ClericAndRevisedSpecies|Attack Rolls} against you have Disadvantage, and your {@variantrule Attack Roll|XUA2022ClericAndRevisedSpecies|Attack Rolls} have Advantage. If a creature can somehow see you, as with {@variantrule Blindsight|XUA2022ClericAndRevisedSpecies}, you don't gain this benefit against that creature."
-							]
-						}
-					]
-				}
-			]
-		},
-		{
-			"name": "Slowed",
-			"source": "XUA2022ClericAndRevisedSpecies",
-			"page": 25,
-			"entries": [
-				"While you are Slowed, you experience the following effects:",
-				{
-					"type": "list",
-					"style": "list-hang-notitle",
-					"items": [
-						{
-							"type": "item",
-							"name": "Limited Movement",
-							"entries": [
-								"You must spend 1 extra foot of movement for every foot you move using your Speed."
-							]
-						},
-						{
-							"type": "item",
-							"name": "Attacks Affected",
-							"entries": [
-								"{@variantrule Attack Roll|XUA2022ClericAndRevisedSpecies|Attack Rolls} against you have Advantage."
-							]
-						},
-						{
-							"type": "item",
-							"name": "Dexterity Saves Affected",
-							"entries": [
-								"You have Disadvantage on Dexterity Saving Throws."
-							]
-						}
-					]
-				}
-			]
-		}
-	],
-	"baseitem": [
-		{
-			"name": "Shortsword",
-			"source": "XUA2022ClericAndRevisedSpecies",
-			"page": 25,
-			"type": "M",
-			"rarity": "none",
-			"weight": 2,
-			"value": 1000,
-			"weaponCategory": "simple",
-			"property": [
-				"F",
-				"XUA2022ClericAndRevisedSpecies-L"
-			],
-			"dmg1": "1d6",
-			"dmgType": "P",
-			"sword": true,
-			"weapon": true
-		}
-	],
-	"itemProperty": [
-		{
-			"abbreviation": "XUA2022ClericAndRevisedSpecies-L",
-			"source": "XUA2022ClericAndRevisedSpecies",
-			"page": 21,
-			"entries": [
-				{
-					"type": "entries",
-					"name": "Light",
-					"entries": [
-						"When you take the {@action Attack|XUA2022ClericAndRevisedSpecies} Action on your turn and attack with a Light weapon in one hand and have a Light weapon in the other hand, you can make one extra attack as part of the same Action. That extra attack must be made with the Light weapon in the other hand, and you don't add your ability modifier to the extra attack's damage. You can make this extra attack only once on each of your turns.",
-						"For example, if you take the {@action Attack|XUA2022ClericAndRevisedSpecies} Action on your turn and have a Shortsword in one hand and a Dagger in the other\u2014each of which has the Light property\u2014you can make one attack with each weapon, but you don't add your Strength or Dexterity modifier to the damage roll of the second weapon."
-					]
-				}
-			]
-		}
-	],
-	"spellList": [
-		{
-			"name": "Arcane",
-			"source": "XUA2022ClericAndRevisedSpecies",
-			"spellListType": "groups",
-			"spells": [
-				"acid splash",
-				"blade ward",
-				"chill touch",
-				"dancing lights",
-				"fire bolt",
-				"friends",
-				"light",
-				"mage hand",
-				"mending",
-				"message",
-				"minor illusion",
-				"poison spray",
-				"prestidigitation",
-				"ray of frost",
-				"shocking grasp",
-				"true strike",
-				"vicious mockery",
-				"alarm",
-				"armor of agathys",
-				"arms of hadar",
-				"burning hands",
-				"charm person",
-				"chromatic orb",
-				"color spray",
-				"comprehend languages",
-				"detect magic",
-				"disguise self",
-				"dissonant whispers",
-				"expeditious retreat",
-				"false life",
-				"feather fall",
-				"find familiar",
-				"fog cloud",
-				"grease",
-				"hellish rebuke",
-				"hex",
-				"identify",
-				"illusory script",
-				"jump",
-				"longstrider",
-				"mage armor",
-				"magic missile",
-				"protection from evil and good",
-				"ray of sickness",
-				"shield",
-				"silent image",
-				"sleep",
-				"tasha's hideous laughter",
-				"tenser 's floating disk",
-				"thunderwave",
-				"unseen servant",
-				"witch bolt",
-				"alter self",
-				"arcane lock",
-				"blindness/deafness",
-				"blur",
-				"calm emotions",
-				"cloud of daggers",
-				"continual flame",
-				"crown of madness",
-				"darkness",
-				"darkvision",
-				"detect thoughts",
-				"enlarge/reduce",
-				"enthrall",
-				"flaming sphere",
-				"gust of wind",
-				"hold person",
-				"invisibility",
-				"knock",
-				"levitate",
-				"locate object",
-				"nystul's magic aura",
-				"magic mouth",
-				"magic weapon",
-				"melf's acid arrow",
-				"mirror image",
-				"misty step",
-				"phantasmal force",
-				"ray of enfeeblemen t",
-				"rope trick",
-				"scorching ray",
-				"see invisibility",
-				"shatter",
-				"spider climb",
-				"suggestion",
-				"web",
-				"animate dead",
-				"bestow curse",
-				"blink",
-				"clairvoyance",
-				"counterspell",
-				"dispel magic",
-				"fear",
-				"fireball",
-				"fly",
-				"gaseous form",
-				"glyph of warding",
-				"haste",
-				"hunger of hadar",
-				"hypnotic pattern",
-				"leomund's tiny hut",
-				"lightning bolt",
-				"magic circle",
-				"major image",
-				"nondetection",
-				"phantom steed",
-				"protection from energy",
-				"remove curse",
-				"sending",
-				"sleet storm",
-				"slow",
-				"stinking cloud",
-				"tongues",
-				"vampiric touch",
-				"water breathing",
-				"arcane eye",
-				"blight",
-				"compulsion",
-				"confusion",
-				"conjure minor elementals",
-				"control water",
-				"dimension door",
-				"evard's black tentacles",
-				"fabricate",
-				"fire shield",
-				"greater invisibility",
-				"hallucinatory terrain",
-				"ice storm",
-				"leomund's secret chest",
-				"locate creature",
-				"mordenkainen's faithful hound",
-				"mordenkainen's private sanctum",
-				"otiluke's resilient sphere",
-				"phantasmal killer",
-				"polymorph",
-				"stone shape",
-				"stoneskin",
-				"wall of fire",
-				"animate objects",
-				"bigby's hand",
-				"cloudkill",
-				"cone of cold",
-				"conjure elemental",
-				"contact other plane",
-				"creation",
-				"dominate person",
-				"dream",
-				"geas",
-				"hold monster",
-				"legend lore",
-				"mislead",
-				"modify memory",
-				"passwall",
-				"planar binding",
-				"rary's telepathic bond",
-				"scrying",
-				"seeming",
-				"telekinesis",
-				"teleportation circle",
-				"wall of force",
-				"wall of stone",
-				"arcane gate",
-				"chain lightning",
-				"circle of death",
-				"contingency",
-				"create undead",
-				"disintegrate",
-				"eyebite",
-				"flesh to stone",
-				"globe of invulnerability",
-				"guards and wards",
-				"drawmij's instant summons",
-				"magic jar",
-				"mass suggestion",
-				"move earth",
-				"otiluke's freezing sphere",
-				"otto's irresistible dance",
-				"programmed illusion",
-				"sunbeam",
-				"true seeing",
-				"wall of ice",
-				"delayed blast fireball",
-				"etherealness",
-				"finger of death",
-				"forcecage",
-				"mirage arcane",
-				"mordenkainen's magnificent mansion",
-				"mordenkainen's sword",
-				"plane shift",
-				"prismatic spray",
-				"project image",
-				"reverse gravity",
-				"sequester",
-				"simulacrum",
-				"symbol",
-				"teleport",
-				"antimagic field",
-				"antipathy/sympathy",
-				"clone",
-				"control weather",
-				"demiplane",
-				"dominate monster",
-				"feeblemind",
-				"glibness",
-				"incendiary cloud",
-				"maze",
-				"mind blank",
-				"power word stun",
-				"sunburst",
-				"telepathy",
-				"astral projection",
-				"foresight",
-				"gate",
-				"imprisonment",
-				"meteor swarm",
-				"power word kill",
-				"prismatic wall",
-				"shapechange",
-				"time stop",
-				"true polymorph",
-				"weird",
-				"wish"
-			]
-		},
-		{
-			"name": "Divine",
-			"source": "XUA2022ClericAndRevisedSpecies",
-			"spellListType": "groups",
-			"spells": [
-				"light",
-				"sacred flame",
-				"spare the dying",
-				"thaumaturgy",
-				"bane",
-				"bless",
-				"command",
-				"compelled duel",
-				"cure wounds",
-				"detect evil and good",
-				"detect magic",
-				"detect poison and disease",
-				"divine favor",
-				"guiding bolt",
-				"healing word",
-				"heroism",
-				"inflict wounds",
-				"protection from evil and good",
-				"purify food and drink",
-				"sanctuary",
-				"searing smite",
-				"shield of faith",
-				"thunderous smite",
-				"wrathful smite",
-				"aid",
-				"augury",
-				"blindness/deafness",
-				"branding smite",
-				"calm emotions",
-				"find steed",
-				"find traps",
-				"gentle repose",
-				"hold person",
-				"lesser restoration",
-				"locate object",
-				"magic weapon",
-				"protection from poison",
-				"silence",
-				"spiritual weapon",
-				"warding bond",
-				"zone of truth",
-				"aura of vitality",
-				"beacon of hope",
-				"blinding smite",
-				"clairvoyance",
-				"create food and water",
-				"crusader's mantle",
-				"daylight",
-				"dispel magic",
-				"feign death",
-				"glyph of warding",
-				"magic circle",
-				"mass healing word",
-				"remove curse",
-				"revivify",
-				"speak with dead",
-				"spirit guardians",
-				"tongues",
-				"aura of life",
-				"aura of purity",
-				"death ward",
-				"divination",
-				"freedom of movement",
-				"guardian of faith",
-				"locate creature",
-				"staggering smite",
-				"banishing smite",
-				"circle of power",
-				"commune",
-				"contagion",
-				"destructive wave",
-				"dispel evil and good",
-				"flame strike",
-				"geas",
-				"greater restoration",
-				"hallow",
-				"legend lore",
-				"mass cure wounds",
-				"planar binding",
-				"raise dead",
-				"scrying",
-				"blade barrier",
-				"find the path",
-				"forbiddance",
-				"harm",
-				"heal",
-				"heroes' feast",
-				"planar ally",
-				"sunbeam",
-				"true seeing",
-				"word of recall",
-				"conjure celestial",
-				"divine word",
-				"etherealness",
-				"plane shift",
-				"regenerate",
-				"resurrection",
-				"symbol",
-				"antimagic field",
-				"antipathy/sympathy",
-				"holy aura",
-				"sunburst",
-				"astral projection",
-				"foresight",
-				"gate",
-				"mass heal",
-				"power word heal",
-				"true resurrection"
-			]
-		},
-		{
-			"name": "Primal",
-			"source": "XUA2022ClericAndRevisedSpecies",
-			"spellListType": "groups",
-			"spells": [
-				"druidcraft",
-				"mending",
-				"message",
-				"poison spray",
-				"produce flame",
-				"shillelagh",
-				"spare the dying",
-				"thorn whip",
-				"animal friendship",
-				"create or destroy water",
-				"cure wounds",
-				"detect magic",
-				"detect poison and disease",
-				"ensnaring strike",
-				"entangle",
-				"faerie fire",
-				"fog cloud",
-				"goodberry",
-				"hail of thorns",
-				"healing word",
-				"hunter's mark",
-				"jump",
-				"longstrider",
-				"purify food and drink",
-				"speak with animals",
-				"thunderwave",
-				"animal messenger",
-				"augury",
-				"beast sense",
-				"cordon of arrows",
-				"darkvision",
-				"enhance ability",
-				"enlarge/reduce",
-				"find traps",
-				"flame blade",
-				"flaming sphere",
-				"gentle repose",
-				"gust of wind",
-				"heat metal",
-				"lesser restoration",
-				"locate animals or plants",
-				"locate object",
-				"moonbeam",
-				"pass without trace",
-				"protection from poison",
-				"silence",
-				"spike growth",
-				"call lightning",
-				"conjure animals",
-				"conjure barrage",
-				"daylight",
-				"dispel magic",
-				"elemental weapon",
-				"feign death",
-				"lightning arrow",
-				"mass healing word",
-				"meld into stone",
-				"nondetection",
-				"plant growth",
-				"protection from energy",
-				"revivify",
-				"sleet storm",
-				"speak with plants",
-				"water breathing",
-				"water walk",
-				"wind wall",
-				"conjure minor elementals",
-				"conjure woodland beings",
-				"control water",
-				"dominate beast",
-				"freedom of movement",
-				"giant insect",
-				"grasping vine",
-				"ice storm",
-				"locate creature",
-				"polymorph",
-				"stone shape",
-				"stoneskin",
-				"wall of fire",
-				"antilife shell",
-				"awaken",
-				"commune with nature",
-				"conjure elemental",
-				"conjure volley",
-				"greater restoration",
-				"insect plague",
-				"mass cure wounds",
-				"reincarnate",
-				"scrying",
-				"swift quiver",
-				"tree stride",
-				"wall of stone",
-				"conjure fey",
-				"find the path",
-				"heal",
-				"move earth",
-				"sunbeam",
-				"transport via plants",
-				"wall of ice",
-				"wall of thorns",
-				"wind walk",
-				"fire storm",
-				"regenerate",
-				"reverse gravity",
-				"animal shapes",
-				"control weather",
-				"earthquake",
-				"sunburst",
-				"tsunami",
-				"power word heal",
-				"shapechange",
-				"storm of vengeance",
-				"true resurrection"
 			]
 		}
 	]

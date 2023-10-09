@@ -17,15 +17,492 @@
 		"dateLastModified": 1685301341,
 		"_dateLastModifiedHash": "e15b5704b2"
 	},
+	"trap": [
+		{
+			"name": "Bear Trap",
+			"source": "UATrapsRevisited",
+			"page": 2,
+			"trapHazType": "SMPL",
+			"tier": 1,
+			"threat": "dangerous",
+			"effect": [
+				"The trap makes an attack against the triggering creature. The attack has a +8 attack bonus and deals 5 ({@damage 1d10}) piercing damage on a hit. This attack can't gain advantage or disadvantage. A creature hit by the trap has its speed reduced to 0. It can't move until it breaks free of the trap with a successful Strength check ({@dc 15}) made by it or another creature adjacent to the trap."
+			],
+			"trigger": [
+				"A creature that steps on the bear trap triggers it."
+			],
+			"countermeasures": [
+				"A successful DC 10 Wisdom ({@skill Perception}) check reveals the trap. A successful DC 10 Dexterity check using {@item thieves' tools|phb} disables it."
+			],
+			"entries": [
+				"A bear trap resembles a set of iron jaws that springs shut when stepped on, clamping down on a creature's leg. The trap is spiked in the ground, leaving the victim immobilized."
+			]
+		},
+		{
+			"name": "Crossbow Trap",
+			"source": "UATrapsRevisited",
+			"page": 2,
+			"trapHazType": "SMPL",
+			"tier": 1,
+			"threat": "dangerous",
+			"effect": [
+				"The trap makes two attacks against the triggering creature. Each attack has a +8 attack bonus and deals 5 ({@damage 1d10}) piercing damage on a hit. This attack can't gain advantage or disadvantage."
+			],
+			"trigger": [
+				"A creature that walks through the tripwire triggers the trap."
+			],
+			"countermeasures": [
+				"A {@dc 15} Wisdom ({@skill Perception}) check reveals the tripwire. A {@dc 15} Dexterity check made with thieves' tools disables the tripwire, but a check result of 5 or less triggers the trap."
+			],
+			"entries": [
+				"A crossbow trap is a favorite of kobolds and other creatures that rely on traps to defend their lairs. It consists of a tripwire run across a hallway and connected to a pair of carefully hidden heavy crossbows. The crossbows are aimed to fire down the hallway at anyone who triggers the tripwire."
+			]
+		},
+		{
+			"name": "Falling Gate",
+			"source": "UATrapsRevisited",
+			"page": 2,
+			"trapHazType": "SMPL",
+			"tier": 1,
+			"threat": "deadly",
+			"effect": [
+				"The trap causes an iron gate to drop from the ceiling, blocking the exit from the maze. Countermeasures. A {@dc 20} Wisdom ({@skill Perception}) check reveals the pressure plate. A {@dc 20} Dexterity check made with thieves' tools disables it, but a check result of 5 or less triggers the trap."
+			],
+			"trigger": [
+				"A creature that steps on the pressure plate triggers this trap."
+			],
+			"countermeasures": [
+				"A successful DC 20 Wisdom ({@skill Perception}) check reveals the pressure plate. A successful DC 20 Dexterity check using {@item thieves' tools|phb} disables it, but a check result of 5 or lower triggers the trap."
+			],
+			"entries": [
+				"Some folk who build dungeons, such as mad wizards in search of new victims, have no intention of allowing their visitors to make an easy escape. This trap is fiendish because it causes a gate to drop some distance away from the pressure plate. The gate might close off the dungeon entrance, which is hundreds of feet away. Adventurers don't know they are trapped until they decide to head back to town."
+			]
+		},
+		{
+			"name": "Fiery Blast Trap",
+			"source": "UATrapsRevisited",
+			"page": 2,
+			"trapHazType": "SMPL",
+			"tier": 2,
+			"threat": "dangerous",
+			"effect": [
+				"A 15-foot cone of fire erupts, covering the pressure plate and the area around it. Each creature in the cone must make a {@dc 15} Dexterity saving throw, taking 24 ({@damage 7d6}) fire damage on a failed save, or half as much damage on a successful one."
+			],
+			"trigger": [
+				"Anyone stepping on the mosaic causes fire to erupt from it. Those openly wearing holy symbols of Pyremius don't trigger this trap."
+			],
+			"countermeasures": [
+				"A {@dc 15} Intelligence ({@skill Investigation}) check reveals ash and faint burn marks in the shape of the fiery cone created by this trap. A {@dc 15} Intelligence ({@skill Religion}) check allows a creature to destroy the trap by defacing a key rune in the mosaic; failing this check causes the trap to activate. A successful {@spell dispel magic} ({@dc 15}) cast on the runes destroys the trap."
+			],
+			"entries": [
+				"The temple of Pyremius, a god of fire, is plagued by thieves who seek to steal the fire opals collected by the priests in tribute to their god. A mosaic on the floor of the entryway to the inner sanctum delivers a fiery rebuke to intruders."
+			]
+		},
+		{
+			"name": "Net Trap",
+			"source": "UATrapsRevisited",
+			"page": 3,
+			"trapHazType": "SMPL",
+			"tier": 1,
+			"threat": "dangerous",
+			"effect": [
+				"A net covering a 10-foot-by-10-foot area centered on the tripwire falls to the floor as a bell rings. Any creature fully within this area must succeed on a {@dc 15} Dexterity saving throw or be {@condition restrained}. A creature can use its action to make a {@dc 10} Strength check to try to free itself or another creature in the net. Dealing 5 slashing damage to the net (AC 10) also frees a creature without harming the creature."
+			],
+			"trigger": [
+				"A tripwire strung across a hallway is rigged to a large net. If the tripwire is broken, the net falls on intruders. An iron bell is also rigged to the tripwire. It rings when the trap activates, alerting nearby guards."
+			],
+			"countermeasures": [
+				"A {@dc 15} Wisdom ({@skill Perception}) check reveals the tripwire and the net. A {@dc 15} Dexterity check made with thieves' tools disables the tripwire without dropping the net or ringing the bell; failing the check causes the trap to activate."
+			],
+			"entries": [
+				"Goblins, with their propensity to enslave their enemies, prefer traps that leave intruders intact for work in the goblins' mines or elsewhere."
+			]
+		},
+		{
+			"name": "Path of Blades",
+			"source": "UATrapsRevisited",
+			"page": 7,
+			"trapHazType": "CMPX",
+			"tier": 1,
+			"threat": "dangerous",
+			"trigger": [
+				"This trap activates as soon as a nonundead creature enters the hallway, and it remains active while any non-undead creature is within it."
+			],
+			"initiative": 2,
+			"eActive": [
+				"The Path of Blades includes a set of whirling blades along the first 80 feet of the trap, crushing pillars that slam down from the ceiling to the floor before rising back up to the ceiling in the next 50 feet, and a rune of fear in its final 30 feet.",
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"items": [
+						{
+							"type": "item",
+							"name": "Whirling Blades (Initiative 20)",
+							"entry": "The blades attack each creature in the first 80 feet of the hallway, with a +5 bonus to the attack roll and dealing 11 ({@damage 2d10}) slashing damage on a hit."
+						},
+						{
+							"type": "item",
+							"name": "Crushing Pillars (Initiative 10)",
+							"entry": "Each creature 81\u2013130 feet down the hallway must make a {@dc 15} Dexterity saving throw, taking 11 ({@damage 2d10}) bludgeoning damage and being knocked {@condition prone} on a failed save, or half as much damage on a successful one."
+						},
+						{
+							"type": "item",
+							"name": "Rune of Fear (Initiative 10)",
+							"entry": "Each creature in the final 30 feet of the corridor must make a {@dc 15} Wisdom saving throw. On a failed saving throw, the creature is {@condition frightened} of the rune, and the creature must immediately use its reaction to move its speed away from the end of the corridor. The {@condition frightened} creature can't move closer to the end of the hallway until it uses an action to succeed on a {@dc 15} Wisdom saving throw, which ends the {@condition frightened} condition on itself."
+						}
+					]
+				}
+			],
+			"eDynamic": [
+				"The blades and the rune become more dangerous the longer the trap remains active.",
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"items": [
+						{
+							"type": "item",
+							"name": "Blades Accelerate",
+							"entry": "The blades move with increasing speed, slowing only when they hit a target. Each time the blades miss with an attack, their next attack becomes harder to avoid. After each miss, the blades' attack bonus increases by 2, and their damage increases by 3 ({@dice 1d6}). These benefits apply until the blades hit a target, after which the values return to normal."
+						},
+						{
+							"type": "item",
+							"name": "Rune's Defense",
+							"entry": "Tampering with the Rune of Fear increases the trap's power. Each successful check on an attempt to disable the rune increases the damage of the blades and the crushing pillars by 5 ({@dice 1d10}) and increases the rune's saving throw DC by 1."
+						}
+					]
+				}
+			],
+			"eConstant": [
+				"The Whirling Blades and the Rune of Fear affect each creature that ends its turn in an area affected by these elements.",
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"items": [
+						{
+							"type": "item",
+							"name": "Whirling Blades",
+							"entry": "Any creature that ends its turn in the blades' area is targeted by an attack: +5 attack bonus; 5 (1d10) slashing damage on a hit."
+						},
+						{
+							"type": "item",
+							"name": "Rune of Fear",
+							"entries": [
+								"Characters can smash the blades, damage their components, or study their pattern to avoid them; the blades are disabled if their total attack bonus from attacks and attempts to disable them reaches \u22128:",
+								"Intelligence ({@skill Investigation}), {@dc 15}. This check reveals the blade's pattern. As an action, a creature that can see the blades can attempt this check. Success imposes disadvantage on the blades' attacks against the creature while it isn't {@condition incapacitated}."
+							]
+						}
+					]
+				}
+			],
+			"countermeasures": [
+				"Each of the trap's active elements offers potential countermeasures.",
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"items": [
+						{
+							"type": "item",
+							"name": "Whirling Blades",
+							"entries": [
+								"Characters can smash the blades, damage their components, or study their pattern to avoid them; the blades are disabled if their total attack bonus from attacks and attempts to disable them reaches \u22128:",
+								"Intelligence ({@skill Investigation}), {@dc 15}. This check reveals the blade's pattern. As an action, a creature that can see the blades can attempt this check. Success imposes disadvantage on the blades' attacks against the creature while it isn't {@condition incapacitated}."
+							]
+						},
+						{
+							"type": "itemSub",
+							"name": "Attack",
+							"entry": "A creature in the area can ready an attack to slash at a blade. The blade gains advantage on its attack against the creature. The creature then attacks. The blades have AC 15 and 15 hit points. Destroying a blade reduces its attack bonus by 2."
+						},
+						{
+							"type": "itemSub",
+							"name": "Dexterity check with thieves' tools, DC 15",
+							"entry": "Creatures can use thieves' tools in the area attacked by the blades to foil their mechanism. A successful check reduces the blades' attack bonus by 2."
+						},
+						{
+							"type": "item",
+							"name": "Crushing Pillars",
+							"entry": "The pillars have no effective countermeasure."
+						},
+						{
+							"type": "item",
+							"name": "Rune of Fear",
+							"entry": "The rune can be disabled with three successful {@dc 15} Intelligence ({@skill Arcana}) checks to disrupt the rune. Each check requires an action. A creature must be at the end of the hallway to attempt the check, and only one creature can work on this task at once. Once a creature attempts a check, no other character can make the same check until the end of that creature's next turn. Alternatively, the rune can be disabled with three successful castings of {@spell dispel magic} ({@dc 13}) targeting the rune."
+						}
+					]
+				}
+			],
+			"entries": [
+				"Hidden within a buried pyramid that marks the location of the Lost City of Cynidicea is the tomb of King Alexander and Queen Zenobia. The entrance to their tomb is a long hallway riddled with traps, accessible only by cunningly hidden secret doors. The hallway is 20 feet wide and 160 feet long. It is mostly clear. After 80 feet, the floor is broken and cracked and is {@quickref difficult terrain||3} until the 130-foot mark."
+			]
+		},
+		{
+			"name": "Pit Trap",
+			"source": "UATrapsRevisited",
+			"page": 3,
+			"trapHazType": "SMPL",
+			"tier": 1,
+			"threat": "moderate",
+			"effect": [
+				"The triggering creature must make a {@dc 10} Dexterity saving throw. On a successful save, the creature catches on the pit's edge or instinctively steps back. Otherwise, the creature falls into the pit and takes 3 ({@damage 1d6}) bludgeoning damage from the fall."
+			],
+			"trigger": [
+				"Anyone who steps on the canvas might fall into the pit."
+			],
+			"countermeasures": [
+				"A {@dc 10} Wisdom ({@skill Perception}) check reveals the canvass. A 1-foot wide ledge around the edge of the pit is safe to cross."
+			],
+			"entries": [
+				"This trap consists of a 10-foot deep pit, concealed by a tattered canvass covered with leaves and dirt. This type of trap is useful for blocking off the entrance to a monster lair and usually has narrow, safe ledges along its sides. Trigger. Anyone stepping on the canvass might fall into the pit."
+			]
+		},
+		{
+			"name": "Poison Needle",
+			"source": "UATrapsRevisited",
+			"page": 3,
+			"trapHazType": "SMPL",
+			"tier": 1,
+			"threat": "deadly",
+			"effect": [
+				"The triggering creature must make a {@dc 20} Constitution saving throw. On a failed save, the creature takes 14 ({@damage 4d6}) poison damage and is {@condition poisoned} for 10 minutes. While {@condition poisoned} in this way, the creature is {@condition paralyzed}. On a successful save, the creature takes half as much damage and isn't {@condition poisoned}."
+			],
+			"trigger": [
+				"Anyone attempting to pick or open the lock triggers the trap."
+			],
+			"countermeasures": [
+				"A {@dc 20} Wisdom ({@skill Perception}) check reveals the needle, but only if a character inspects the lock. A {@dc 20} Dexterity check made with thieves' tools disables the needle, but a check result of 10 or less triggers the trap."
+			],
+			"entries": [
+				"A tiny, {@condition poisoned} needle hidden in a lock is the perfect way to discourage thieves from plundering a hoard. Such a trap is usually put in a chest or in the door to a treasure chamber. Trigger. Anyone attempting to pick or open the lock triggers the trap."
+			]
+		},
+		{
+			"name": "Poisoned Tempest",
+			"source": "UATrapsRevisited",
+			"page": 9,
+			"trapHazType": "CMPX",
+			"tier": 3,
+			"threat": "deadly",
+			"trigger": [
+				"This trap activates when a ruby is pried from one of the statues. Each statue's mouth slides open, revealing a 1-foot-wide pipe running down its throat."
+			],
+			"initiative": 3,
+			"eActive": [
+				"The Poisoned Tempest fills the room with poison and other deadly effects.",
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"items": [
+						{
+							"type": "item",
+							"name": "Locked Doors (Initiative 20)",
+							"entry": "The four doors to this room slam shut and are locked in place by magic. This effect activates once, the first time the trap activates."
+						},
+						{
+							"type": "item",
+							"name": "Poison Gas (Initiative 20)",
+							"entry": "Poison gas floods the room. Each creature inside must make a {@dc 20} Constitution saving throw, taking 33 ({@damage 6d10}) poison damage on a failed save, or half as much damage on a successful one."
+						},
+						{
+							"type": "item",
+							"name": "Tempest (Initiative 10)",
+							"entries": [
+								"A mixture of air and gas boils up from the trap. Roll a {@dice d6} and consult the Tempest Effects table.",
+								{
+									"type": "table",
+									"caption": "Tempest Effects",
+									"colLabels": [
+										"d6",
+										"Effect"
+									],
+									"colStyles": [
+										"col-2 text-center",
+										"col-10"
+									],
+									"rows": [
+										[
+											"1",
+											"Hallucinatory gas scrambles the mind and senses. All Intelligence and Wisdom checks made in the room suffer disadvantage until the Tempest element activates again."
+										],
+										[
+											"2",
+											"\"Explosive gas fills the area. If anyone holds an open flame, it explodes and deals 22 ({@damage 4d10}) fire damage to everyone in the room ({@dc 20} Dexterity save for half damage). The open flames are then extinguished.\""
+										],
+										[
+											"3",
+											"Weakening gas fills the room. All Strength and Dexterity checks made in the room suffer disadvantage until the Tempest element activates again."
+										],
+										[
+											"4",
+											"Buffeting winds force everyone in the room to succeed on a {@dc 20} Strength saving throw or be knocked {@condition prone}."
+										],
+										[
+											"5",
+											"Smoke fills the room. Visibility is reduced to 1 foot until the next time the Tempest element activates."
+										],
+										[
+											"6",
+											"Additional poison floods the room, as in the Poison Gas element."
+										]
+									]
+								}
+							]
+						}
+					]
+				}
+			],
+			"eDynamic": [
+				"The longer the poison gas remains in the room, the more lethal it becomes.",
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"items": [
+						{
+							"type": "item",
+							"name": "Dynamic Element\u2014Increased Potency",
+							"entry": "The damage from the Poison Gas element increases by 11 ({@dice 2d10}) after it activates, to a maximum of 55 ({@dice 10d10})."
+						}
+					]
+				}
+			],
+			"countermeasures": [
+				"There are a few ways that the trap can be overcome.",
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"items": [
+						{
+							"type": "item",
+							"name": "Open the Doors",
+							"entry": "Opening the doors is the quickest way to escape the trap, but they are warded with magic. To open the doors, the characters must first make a {@dc 20} Wisdom ({@skill Perception}) check to find the locking mechanism. A {@dc 20} Intelligence ({@skill Arcana}) check disables the sphere of force that surrounds the lock ({@spell dispel magic} is ineffective against it). Finally, a {@dc 20} Dexterity check made with thieves' tools picks the lock. Finally, a {@dc 20} Strength ({@skill Athletics}) check is needed to push the door open. Each check requires an action."
+						},
+						{
+							"type": "item",
+							"name": "Disable the Statues",
+							"entry": "A statue can be disabled by blocking the flow of gas from its mouth. Destroying the statue is a bad idea, for it leaves the gas vents open. A {@dc 20} Strength check or an attack that deals more than 20 damage to a statue cracks it and increases the Poison Gas damage by 5 ({@dice 1d10}). A successful {@dc 20} Dexterity check with thieves' tools, or a {@dc 15} Strength check made to block up the statue with a cloak or similar object, decreases the poison damage by 5 ({@dice 1d10}). Once a character succeeds at the check, someone must remain next to the statue to keep it blocked up. Once all four statues are blocked in this manner, the trap deactivates."
+						}
+					]
+				}
+			],
+			"entries": [
+				"This fiendish trap was built to eliminate intruders who infiltrate a yuan-ti temple. The trap is a room, 60-foot square with 5-foot-wide stone doors in the middle of each wall. In each corner of the room stands a 10-foot-tall statue of a great serpent, coiled and ready to strike. The eyes in each statue are rubies worth 200 gp apiece."
+			]
+		},
+		{
+			"name": "Scything Blade",
+			"source": "UATrapsRevisited",
+			"page": 3,
+			"trapHazType": "SMPL",
+			"tier": 2,
+			"threat": "dangerous",
+			"effect": [
+				"Each Medium or larger creature in a 5foot-wide and 20-foot-long area must make a {@dc 15} Dexterity saving throw, taking 14 ({@damage 4d6}) slashing damage on a failed save, or half as much damage on a successful one."
+			],
+			"trigger": [
+				"When the lever is pulled, the trap activates."
+			],
+			"countermeasures": [
+				"The lever isn't hidden. A {@dc 15} Intelligence ({@skill Investigation}) check reveals scrape marks and blood stains in the trap's area of effect. A {@dc 15} Dexterity check made with thieves' tools disables the lever."
+			],
+			"entries": [
+				"These deadly blades sweep down through a chamber. A wooden lever activates this trap when it is pulled. Kobolds particularly love this style of trap, as it puts bigger creatures in danger."
+			]
+		},
+		{
+			"name": "Sleep of Ages",
+			"source": "UATrapsRevisited",
+			"page": 3,
+			"trapHazType": "SMPL",
+			"tier": 3,
+			"threat": "deadly",
+			"effect": [
+				"When activated, this trap casts a {@spell sleep} spell centered on the pressure plate using a 9th-level spell slot."
+			],
+			"trigger": [
+				"Stepping on the pressure plate triggers this trap."
+			],
+			"countermeasures": [
+				"A {@dc 20} Wisdom ({@skill Perception}) check reveals the pressure plate. A {@dc 20} Intelligence ({@skill Arcana}) check made within 5 feet of the pressure plate disables the trap, but a check result of 10 or less triggers it. A successful {@spell dispel magic} ({@dc 19}) cast on the pressure plate destroys the trap."
+			],
+			"entries": [
+				"A pressure plate unleashes a spell that threatens to send intruders into a deep slumber. The dungeon's guardians can then dispose of the sleepers."
+			]
+		},
+		{
+			"name": "Sphere of Crushing Doom",
+			"source": "UATrapsRevisited",
+			"page": 8,
+			"trapHazType": "CMPX",
+			"tier": 2,
+			"threat": "deadly",
+			"trigger": [
+				"This trap activates as soon as the lid to the jester's coffin is opened. A magical portal opens at the northern end of the hallway and disgorges a giant, steel sphere, which hurtles down the slope. When it reaches the bottom of the slope, a second portal briefly appears and teleports the sphere back to the top of the slope to begin the process again."
+			],
+			"initiative": 1,
+			"initiativeNote": "The trap acts on initiative 10 (but see the dynamic element below).",
+			"eActive": [
+				"Although the trap is complex in nature, it has a single active element. That's all it needs.",
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"items": [
+						{
+							"type": "item",
+							"name": "Sphere of Crushing Doom (Initiative 10)",
+							"entry": "The Sphere of Crushing Doom is a spherical boulder that almost fills the hallway. Each creature in the hallway must make a {@dc 20} Strength saving throw when the sphere activates. On a failed save, a creature takes 22 ({@damage 4d10}) bludgeoning damage and is knocked {@condition prone}. On a successful save, a creature takes half as much damage and isn't knocked {@condition prone}. Objects that block the sphere, such as a conjured wall, take maximum damage from the impact."
+						}
+					]
+				}
+			],
+			"eDynamic": [
+				"The longer it rolls, the more lethal the sphere becomes.",
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"items": [
+						{
+							"type": "item",
+							"name": "Dynamic Element\u2014Speed Kills",
+							"entry": "After its turn, the boulder gains speed, represented by its damage increasing by 11 ({@dice 2d10}). While its damage is 55 ({@dice 10d10}) or greater, it acts on both initiative 20 and 10."
+						}
+					]
+				}
+			],
+			"countermeasures": [
+				"There are a few ways that the trap can be disarmed.",
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"items": [
+						{
+							"type": "item",
+							"name": "Stop the Sphere",
+							"entry": "Stopping the sphere is the easiest way to disrupt the trap. A wall of force can stop it easily, and any object that has enough hit points to absorb damage from the sphere without being destroyed can stop it."
+						},
+						{
+							"type": "item",
+							"name": "Disrupt the Portals",
+							"entries": [
+								"Either portal can be neutralized with three successful {@dc 20} Intelligence ({@skill Arcana}) checks, but the process of analyzing a portal to disrupt it takes time. Faint runes in the ceiling and floor on both ends of the hallway open the portals. A creature must first use an action to examine a set of runes, then use a subsequent action to attempt to vandalize them. Each successful check reduces the sphere's damage by 11 ({@dice 2d10}), as the disrupted sphere loses speed moving through the failing gate.",
+								"Alternatively, a set of runes can be disabled with three successful castings of {@spell dispel magic} ({@dc 19}) targeting any of the runes in the set. If the southern portal is destroyed, the sphere slams into the wall and comes to a halt. It blocks the door to the tomb, but characters can escape."
+							]
+						}
+					]
+				}
+			],
+			"entries": [
+				"The court jester devised a deadly trap to foil anyone who sought to steal his magical fool's cap. The jester's tomb is located at the end of a 10-foot wide, 150-foot long hallway that runs north\u2013south with a sharp slope down. The entrance to the tomb is a door at the bottom of the slope at the southern end of the hall. A door on the eastern wall allows access to the tomb."
+			]
+		}
+	],
 	"book": [
 		{
 			"name": "Unearthed Arcana: Traps Revisited",
-			"source": "UATrapsRevisited",
 			"id": "UATpR",
-			"author": "Mike Mearls",
-			"published": "2017-02-27",
+			"source": "UATrapsRevisited",
 			"group": "prerelease",
 			"coverUrl": "img/covers/blank.png",
+			"published": "2017-02-27",
+			"author": "Mike Mearls",
 			"contents": [
 				{
 					"name": "Traps Revisited",
@@ -614,483 +1091,6 @@
 									]
 								}
 							]
-						}
-					]
-				}
-			]
-		}
-	],
-	"trap": [
-		{
-			"name": "Bear Trap",
-			"source": "UATrapsRevisited",
-			"page": 2,
-			"trapHazType": "SMPL",
-			"tier": 1,
-			"threat": "dangerous",
-			"effect": [
-				"The trap makes an attack against the triggering creature. The attack has a +8 attack bonus and deals 5 ({@damage 1d10}) piercing damage on a hit. This attack can't gain advantage or disadvantage. A creature hit by the trap has its speed reduced to 0. It can't move until it breaks free of the trap with a successful Strength check ({@dc 15}) made by it or another creature adjacent to the trap."
-			],
-			"trigger": [
-				"A creature that steps on the bear trap triggers it."
-			],
-			"countermeasures": [
-				"A successful DC 10 Wisdom ({@skill Perception}) check reveals the trap. A successful DC 10 Dexterity check using {@item thieves' tools|phb} disables it."
-			],
-			"entries": [
-				"A bear trap resembles a set of iron jaws that springs shut when stepped on, clamping down on a creature's leg. The trap is spiked in the ground, leaving the victim immobilized."
-			]
-		},
-		{
-			"name": "Crossbow Trap",
-			"source": "UATrapsRevisited",
-			"page": 2,
-			"trapHazType": "SMPL",
-			"tier": 1,
-			"threat": "dangerous",
-			"effect": [
-				"The trap makes two attacks against the triggering creature. Each attack has a +8 attack bonus and deals 5 ({@damage 1d10}) piercing damage on a hit. This attack can't gain advantage or disadvantage."
-			],
-			"trigger": [
-				"A creature that walks through the tripwire triggers the trap."
-			],
-			"countermeasures": [
-				"A {@dc 15} Wisdom ({@skill Perception}) check reveals the tripwire. A {@dc 15} Dexterity check made with thieves' tools disables the tripwire, but a check result of 5 or less triggers the trap."
-			],
-			"entries": [
-				"A crossbow trap is a favorite of kobolds and other creatures that rely on traps to defend their lairs. It consists of a tripwire run across a hallway and connected to a pair of carefully hidden heavy crossbows. The crossbows are aimed to fire down the hallway at anyone who triggers the tripwire."
-			]
-		},
-		{
-			"name": "Falling Gate",
-			"source": "UATrapsRevisited",
-			"page": 2,
-			"trapHazType": "SMPL",
-			"tier": 1,
-			"threat": "deadly",
-			"effect": [
-				"The trap causes an iron gate to drop from the ceiling, blocking the exit from the maze. Countermeasures. A {@dc 20} Wisdom ({@skill Perception}) check reveals the pressure plate. A {@dc 20} Dexterity check made with thieves' tools disables it, but a check result of 5 or less triggers the trap."
-			],
-			"trigger": [
-				"A creature that steps on the pressure plate triggers this trap."
-			],
-			"countermeasures": [
-				"A successful DC 20 Wisdom ({@skill Perception}) check reveals the pressure plate. A successful DC 20 Dexterity check using {@item thieves' tools|phb} disables it, but a check result of 5 or lower triggers the trap."
-			],
-			"entries": [
-				"Some folk who build dungeons, such as mad wizards in search of new victims, have no intention of allowing their visitors to make an easy escape. This trap is fiendish because it causes a gate to drop some distance away from the pressure plate. The gate might close off the dungeon entrance, which is hundreds of feet away. Adventurers don't know they are trapped until they decide to head back to town."
-			]
-		},
-		{
-			"name": "Fiery Blast Trap",
-			"source": "UATrapsRevisited",
-			"page": 2,
-			"trapHazType": "SMPL",
-			"tier": 2,
-			"threat": "dangerous",
-			"effect": [
-				"A 15-foot cone of fire erupts, covering the pressure plate and the area around it. Each creature in the cone must make a {@dc 15} Dexterity saving throw, taking 24 ({@damage 7d6}) fire damage on a failed save, or half as much damage on a successful one."
-			],
-			"trigger": [
-				"Anyone stepping on the mosaic causes fire to erupt from it. Those openly wearing holy symbols of Pyremius don't trigger this trap."
-			],
-			"countermeasures": [
-				"A {@dc 15} Intelligence ({@skill Investigation}) check reveals ash and faint burn marks in the shape of the fiery cone created by this trap. A {@dc 15} Intelligence ({@skill Religion}) check allows a creature to destroy the trap by defacing a key rune in the mosaic; failing this check causes the trap to activate. A successful {@spell dispel magic} ({@dc 15}) cast on the runes destroys the trap."
-			],
-			"entries": [
-				"The temple of Pyremius, a god of fire, is plagued by thieves who seek to steal the fire opals collected by the priests in tribute to their god. A mosaic on the floor of the entryway to the inner sanctum delivers a fiery rebuke to intruders."
-			]
-		},
-		{
-			"name": "Net Trap",
-			"source": "UATrapsRevisited",
-			"page": 3,
-			"trapHazType": "SMPL",
-			"tier": 1,
-			"threat": "dangerous",
-			"effect": [
-				"A net covering a 10-foot-by-10-foot area centered on the tripwire falls to the floor as a bell rings. Any creature fully within this area must succeed on a {@dc 15} Dexterity saving throw or be {@condition restrained}. A creature can use its action to make a {@dc 10} Strength check to try to free itself or another creature in the net. Dealing 5 slashing damage to the net (AC 10) also frees a creature without harming the creature."
-			],
-			"trigger": [
-				"A tripwire strung across a hallway is rigged to a large net. If the tripwire is broken, the net falls on intruders. An iron bell is also rigged to the tripwire. It rings when the trap activates, alerting nearby guards."
-			],
-			"countermeasures": [
-				"A {@dc 15} Wisdom ({@skill Perception}) check reveals the tripwire and the net. A {@dc 15} Dexterity check made with thieves' tools disables the tripwire without dropping the net or ringing the bell; failing the check causes the trap to activate."
-			],
-			"entries": [
-				"Goblins, with their propensity to enslave their enemies, prefer traps that leave intruders intact for work in the goblins' mines or elsewhere."
-			]
-		},
-		{
-			"name": "Pit Trap",
-			"source": "UATrapsRevisited",
-			"page": 3,
-			"trapHazType": "SMPL",
-			"tier": 1,
-			"threat": "moderate",
-			"effect": [
-				"The triggering creature must make a {@dc 10} Dexterity saving throw. On a successful save, the creature catches on the pit's edge or instinctively steps back. Otherwise, the creature falls into the pit and takes 3 ({@damage 1d6}) bludgeoning damage from the fall."
-			],
-			"trigger": [
-				"Anyone who steps on the canvas might fall into the pit."
-			],
-			"countermeasures": [
-				"A {@dc 10} Wisdom ({@skill Perception}) check reveals the canvass. A 1-foot wide ledge around the edge of the pit is safe to cross."
-			],
-			"entries": [
-				"This trap consists of a 10-foot deep pit, concealed by a tattered canvass covered with leaves and dirt. This type of trap is useful for blocking off the entrance to a monster lair and usually has narrow, safe ledges along its sides. Trigger. Anyone stepping on the canvass might fall into the pit."
-			]
-		},
-		{
-			"name": "Poison Needle",
-			"source": "UATrapsRevisited",
-			"page": 3,
-			"trapHazType": "SMPL",
-			"threat": "deadly",
-			"tier": 1,
-			"effect": [
-				"The triggering creature must make a {@dc 20} Constitution saving throw. On a failed save, the creature takes 14 ({@damage 4d6}) poison damage and is {@condition poisoned} for 10 minutes. While {@condition poisoned} in this way, the creature is {@condition paralyzed}. On a successful save, the creature takes half as much damage and isn't {@condition poisoned}."
-			],
-			"countermeasures": [
-				"A {@dc 20} Wisdom ({@skill Perception}) check reveals the needle, but only if a character inspects the lock. A {@dc 20} Dexterity check made with thieves' tools disables the needle, but a check result of 10 or less triggers the trap."
-			],
-			"trigger": [
-				"Anyone attempting to pick or open the lock triggers the trap."
-			],
-			"entries": [
-				"A tiny, {@condition poisoned} needle hidden in a lock is the perfect way to discourage thieves from plundering a hoard. Such a trap is usually put in a chest or in the door to a treasure chamber. Trigger. Anyone attempting to pick or open the lock triggers the trap."
-			]
-		},
-		{
-			"name": "Scything Blade",
-			"source": "UATrapsRevisited",
-			"page": 3,
-			"trapHazType": "SMPL",
-			"tier": 2,
-			"threat": "dangerous",
-			"effect": [
-				"Each Medium or larger creature in a 5foot-wide and 20-foot-long area must make a {@dc 15} Dexterity saving throw, taking 14 ({@damage 4d6}) slashing damage on a failed save, or half as much damage on a successful one."
-			],
-			"trigger": [
-				"When the lever is pulled, the trap activates."
-			],
-			"countermeasures": [
-				"The lever isn't hidden. A {@dc 15} Intelligence ({@skill Investigation}) check reveals scrape marks and blood stains in the trap's area of effect. A {@dc 15} Dexterity check made with thieves' tools disables the lever."
-			],
-			"entries": [
-				"These deadly blades sweep down through a chamber. A wooden lever activates this trap when it is pulled. Kobolds particularly love this style of trap, as it puts bigger creatures in danger."
-			]
-		},
-		{
-			"name": "Sleep of Ages",
-			"source": "UATrapsRevisited",
-			"page": 3,
-			"trapHazType": "SMPL",
-			"tier": 3,
-			"threat": "deadly",
-			"effect": [
-				"When activated, this trap casts a {@spell sleep} spell centered on the pressure plate using a 9th-level spell slot."
-			],
-			"trigger": [
-				"Stepping on the pressure plate triggers this trap."
-			],
-			"countermeasures": [
-				"A {@dc 20} Wisdom ({@skill Perception}) check reveals the pressure plate. A {@dc 20} Intelligence ({@skill Arcana}) check made within 5 feet of the pressure plate disables the trap, but a check result of 10 or less triggers it. A successful {@spell dispel magic} ({@dc 19}) cast on the pressure plate destroys the trap."
-			],
-			"entries": [
-				"A pressure plate unleashes a spell that threatens to send intruders into a deep slumber. The dungeon's guardians can then dispose of the sleepers."
-			]
-		},
-		{
-			"name": "Path of Blades",
-			"source": "UATrapsRevisited",
-			"page": 7,
-			"trapHazType": "CMPX",
-			"tier": 1,
-			"threat": "dangerous",
-			"trigger": [
-				"This trap activates as soon as a nonundead creature enters the hallway, and it remains active while any non-undead creature is within it."
-			],
-			"initiative": 2,
-			"entries": [
-				"Hidden within a buried pyramid that marks the location of the Lost City of Cynidicea is the tomb of King Alexander and Queen Zenobia. The entrance to their tomb is a long hallway riddled with traps, accessible only by cunningly hidden secret doors. The hallway is 20 feet wide and 160 feet long. It is mostly clear. After 80 feet, the floor is broken and cracked and is {@quickref difficult terrain||3} until the 130-foot mark."
-			],
-			"eActive": [
-				"The Path of Blades includes a set of whirling blades along the first 80 feet of the trap, crushing pillars that slam down from the ceiling to the floor before rising back up to the ceiling in the next 50 feet, and a rune of fear in its final 30 feet.",
-				{
-					"type": "list",
-					"style": "list-hang-notitle",
-					"items": [
-						{
-							"type": "item",
-							"name": "Whirling Blades (Initiative 20)",
-							"entry": "The blades attack each creature in the first 80 feet of the hallway, with a +5 bonus to the attack roll and dealing 11 ({@damage 2d10}) slashing damage on a hit."
-						},
-						{
-							"type": "item",
-							"name": "Crushing Pillars (Initiative 10)",
-							"entry": "Each creature 81\u2013130 feet down the hallway must make a {@dc 15} Dexterity saving throw, taking 11 ({@damage 2d10}) bludgeoning damage and being knocked {@condition prone} on a failed save, or half as much damage on a successful one."
-						},
-						{
-							"type": "item",
-							"name": "Rune of Fear (Initiative 10)",
-							"entry": "Each creature in the final 30 feet of the corridor must make a {@dc 15} Wisdom saving throw. On a failed saving throw, the creature is {@condition frightened} of the rune, and the creature must immediately use its reaction to move its speed away from the end of the corridor. The {@condition frightened} creature can't move closer to the end of the hallway until it uses an action to succeed on a {@dc 15} Wisdom saving throw, which ends the {@condition frightened} condition on itself."
-						}
-					]
-				}
-			],
-			"eDynamic": [
-				"The blades and the rune become more dangerous the longer the trap remains active.",
-				{
-					"type": "list",
-					"style": "list-hang-notitle",
-					"items": [
-						{
-							"type": "item",
-							"name": "Blades Accelerate",
-							"entry": "The blades move with increasing speed, slowing only when they hit a target. Each time the blades miss with an attack, their next attack becomes harder to avoid. After each miss, the blades' attack bonus increases by 2, and their damage increases by 3 ({@dice 1d6}). These benefits apply until the blades hit a target, after which the values return to normal."
-						},
-						{
-							"type": "item",
-							"name": "Rune's Defense",
-							"entry": "Tampering with the Rune of Fear increases the trap's power. Each successful check on an attempt to disable the rune increases the damage of the blades and the crushing pillars by 5 ({@dice 1d10}) and increases the rune's saving throw DC by 1."
-						}
-					]
-				}
-			],
-			"eConstant": [
-				"The Whirling Blades and the Rune of Fear affect each creature that ends its turn in an area affected by these elements.",
-				{
-					"type": "list",
-					"style": "list-hang-notitle",
-					"items": [
-						{
-							"type": "item",
-							"name": "Whirling Blades",
-							"entry": "Any creature that ends its turn in the blades' area is targeted by an attack: +5 attack bonus; 5 (1d10) slashing damage on a hit."
-						},
-						{
-							"type": "item",
-							"name": "Rune of Fear",
-							"entries": [
-								"Characters can smash the blades, damage their components, or study their pattern to avoid them; the blades are disabled if their total attack bonus from attacks and attempts to disable them reaches \u22128:",
-								"Intelligence ({@skill Investigation}), {@dc 15}. This check reveals the blade's pattern. As an action, a creature that can see the blades can attempt this check. Success imposes disadvantage on the blades' attacks against the creature while it isn't {@condition incapacitated}."
-							]
-						}
-					]
-				}
-			],
-			"countermeasures": [
-				"Each of the trap's active elements offers potential countermeasures.",
-				{
-					"type": "list",
-					"style": "list-hang-notitle",
-					"items": [
-						{
-							"type": "item",
-							"name": "Whirling Blades",
-							"entries": [
-								"Characters can smash the blades, damage their components, or study their pattern to avoid them; the blades are disabled if their total attack bonus from attacks and attempts to disable them reaches \u22128:",
-								"Intelligence ({@skill Investigation}), {@dc 15}. This check reveals the blade's pattern. As an action, a creature that can see the blades can attempt this check. Success imposes disadvantage on the blades' attacks against the creature while it isn't {@condition incapacitated}."
-							]
-						},
-						{
-							"type": "itemSub",
-							"name": "Attack",
-							"entry": "A creature in the area can ready an attack to slash at a blade. The blade gains advantage on its attack against the creature. The creature then attacks. The blades have AC 15 and 15 hit points. Destroying a blade reduces its attack bonus by 2."
-						},
-						{
-							"type": "itemSub",
-							"name": "Dexterity check with thieves' tools, DC 15",
-							"entry": "Creatures can use thieves' tools in the area attacked by the blades to foil their mechanism. A successful check reduces the blades' attack bonus by 2."
-						},
-						{
-							"type": "item",
-							"name": "Crushing Pillars",
-							"entry": "The pillars have no effective countermeasure."
-						},
-						{
-							"type": "item",
-							"name": "Rune of Fear",
-							"entry": "The rune can be disabled with three successful {@dc 15} Intelligence ({@skill Arcana}) checks to disrupt the rune. Each check requires an action. A creature must be at the end of the hallway to attempt the check, and only one creature can work on this task at once. Once a creature attempts a check, no other character can make the same check until the end of that creature's next turn. Alternatively, the rune can be disabled with three successful castings of {@spell dispel magic} ({@dc 13}) targeting the rune."
-						}
-					]
-				}
-			]
-		},
-		{
-			"name": "Sphere of Crushing Doom",
-			"source": "UATrapsRevisited",
-			"page": 8,
-			"trapHazType": "CMPX",
-			"tier": 2,
-			"threat": "deadly",
-			"entries": [
-				"The court jester devised a deadly trap to foil anyone who sought to steal his magical fool's cap. The jester's tomb is located at the end of a 10-foot wide, 150-foot long hallway that runs north\u2013south with a sharp slope down. The entrance to the tomb is a door at the bottom of the slope at the southern end of the hall. A door on the eastern wall allows access to the tomb."
-			],
-			"trigger": [
-				"This trap activates as soon as the lid to the jester's coffin is opened. A magical portal opens at the northern end of the hallway and disgorges a giant, steel sphere, which hurtles down the slope. When it reaches the bottom of the slope, a second portal briefly appears and teleports the sphere back to the top of the slope to begin the process again."
-			],
-			"initiative": 1,
-			"initiativeNote": "The trap acts on initiative 10 (but see the dynamic element below).",
-			"eActive": [
-				"Although the trap is complex in nature, it has a single active element. That's all it needs.",
-				{
-					"type": "list",
-					"style": "list-hang-notitle",
-					"items": [
-						{
-							"type": "item",
-							"name": "Sphere of Crushing Doom (Initiative 10)",
-							"entry": "The Sphere of Crushing Doom is a spherical boulder that almost fills the hallway. Each creature in the hallway must make a {@dc 20} Strength saving throw when the sphere activates. On a failed save, a creature takes 22 ({@damage 4d10}) bludgeoning damage and is knocked {@condition prone}. On a successful save, a creature takes half as much damage and isn't knocked {@condition prone}. Objects that block the sphere, such as a conjured wall, take maximum damage from the impact."
-						}
-					]
-				}
-			],
-			"eDynamic": [
-				"The longer it rolls, the more lethal the sphere becomes.",
-				{
-					"type": "list",
-					"style": "list-hang-notitle",
-					"items": [
-						{
-							"type": "item",
-							"name": "Dynamic Element\u2014Speed Kills",
-							"entry": "After its turn, the boulder gains speed, represented by its damage increasing by 11 ({@dice 2d10}). While its damage is 55 ({@dice 10d10}) or greater, it acts on both initiative 20 and 10."
-						}
-					]
-				}
-			],
-			"countermeasures": [
-				"There are a few ways that the trap can be disarmed.",
-				{
-					"type": "list",
-					"style": "list-hang-notitle",
-					"items": [
-						{
-							"type": "item",
-							"name": "Stop the Sphere",
-							"entry": "Stopping the sphere is the easiest way to disrupt the trap. A wall of force can stop it easily, and any object that has enough hit points to absorb damage from the sphere without being destroyed can stop it."
-						},
-						{
-							"type": "item",
-							"name": "Disrupt the Portals",
-							"entries": [
-								"Either portal can be neutralized with three successful {@dc 20} Intelligence ({@skill Arcana}) checks, but the process of analyzing a portal to disrupt it takes time. Faint runes in the ceiling and floor on both ends of the hallway open the portals. A creature must first use an action to examine a set of runes, then use a subsequent action to attempt to vandalize them. Each successful check reduces the sphere's damage by 11 ({@dice 2d10}), as the disrupted sphere loses speed moving through the failing gate.",
-								"Alternatively, a set of runes can be disabled with three successful castings of {@spell dispel magic} ({@dc 19}) targeting any of the runes in the set. If the southern portal is destroyed, the sphere slams into the wall and comes to a halt. It blocks the door to the tomb, but characters can escape."
-							]
-						}
-					]
-				}
-			]
-		},
-		{
-			"name": "Poisoned Tempest",
-			"source": "UATrapsRevisited",
-			"page": 9,
-			"trapHazType": "CMPX",
-			"tier": 3,
-			"threat": "deadly",
-			"entries": [
-				"This fiendish trap was built to eliminate intruders who infiltrate a yuan-ti temple. The trap is a room, 60-foot square with 5-foot-wide stone doors in the middle of each wall. In each corner of the room stands a 10-foot-tall statue of a great serpent, coiled and ready to strike. The eyes in each statue are rubies worth 200 gp apiece."
-			],
-			"trigger": [
-				"This trap activates when a ruby is pried from one of the statues. Each statue's mouth slides open, revealing a 1-foot-wide pipe running down its throat."
-			],
-			"initiative": 3,
-			"eActive": [
-				"The Poisoned Tempest fills the room with poison and other deadly effects.",
-				{
-					"type": "list",
-					"style": "list-hang-notitle",
-					"items": [
-						{
-							"type": "item",
-							"name": "Locked Doors (Initiative 20)",
-							"entry": "The four doors to this room slam shut and are locked in place by magic. This effect activates once, the first time the trap activates."
-						},
-						{
-							"type": "item",
-							"name": "Poison Gas (Initiative 20)",
-							"entry": "Poison gas floods the room. Each creature inside must make a {@dc 20} Constitution saving throw, taking 33 ({@damage 6d10}) poison damage on a failed save, or half as much damage on a successful one."
-						},
-						{
-							"type": "item",
-							"name": "Tempest (Initiative 10)",
-							"entries": [
-								"A mixture of air and gas boils up from the trap. Roll a {@dice d6} and consult the Tempest Effects table.",
-								{
-									"type": "table",
-									"caption": "Tempest Effects",
-									"colLabels": [
-										"d6",
-										"Effect"
-									],
-									"colStyles": [
-										"col-2 text-center",
-										"col-10"
-									],
-									"rows": [
-										[
-											"1",
-											"Hallucinatory gas scrambles the mind and senses. All Intelligence and Wisdom checks made in the room suffer disadvantage until the Tempest element activates again."
-										],
-										[
-											"2",
-											"\"Explosive gas fills the area. If anyone holds an open flame, it explodes and deals 22 ({@damage 4d10}) fire damage to everyone in the room ({@dc 20} Dexterity save for half damage). The open flames are then extinguished.\""
-										],
-										[
-											"3",
-											"Weakening gas fills the room. All Strength and Dexterity checks made in the room suffer disadvantage until the Tempest element activates again."
-										],
-										[
-											"4",
-											"Buffeting winds force everyone in the room to succeed on a {@dc 20} Strength saving throw or be knocked {@condition prone}."
-										],
-										[
-											"5",
-											"Smoke fills the room. Visibility is reduced to 1 foot until the next time the Tempest element activates."
-										],
-										[
-											"6",
-											"Additional poison floods the room, as in the Poison Gas element."
-										]
-									]
-								}
-							]
-						}
-					]
-				}
-			],
-			"eDynamic": [
-				"The longer the poison gas remains in the room, the more lethal it becomes.",
-				{
-					"type": "list",
-					"style": "list-hang-notitle",
-					"items": [
-						{
-							"type": "item",
-							"name": "Dynamic Element\u2014Increased Potency",
-							"entry": "The damage from the Poison Gas element increases by 11 ({@dice 2d10}) after it activates, to a maximum of 55 ({@dice 10d10})."
-						}
-					]
-				}
-			],
-			"countermeasures": [
-				"There are a few ways that the trap can be overcome.",
-				{
-					"type": "list",
-					"style": "list-hang-notitle",
-					"items": [
-						{
-							"type": "item",
-							"name": "Open the Doors",
-							"entry": "Opening the doors is the quickest way to escape the trap, but they are warded with magic. To open the doors, the characters must first make a {@dc 20} Wisdom ({@skill Perception}) check to find the locking mechanism. A {@dc 20} Intelligence ({@skill Arcana}) check disables the sphere of force that surrounds the lock ({@spell dispel magic} is ineffective against it). Finally, a {@dc 20} Dexterity check made with thieves' tools picks the lock. Finally, a {@dc 20} Strength ({@skill Athletics}) check is needed to push the door open. Each check requires an action."
-						},
-						{
-							"type": "item",
-							"name": "Disable the Statues",
-							"entry": "A statue can be disabled by blocking the flow of gas from its mouth. Destroying the statue is a bad idea, for it leaves the gas vents open. A {@dc 20} Strength check or an attack that deals more than 20 damage to a statue cracks it and increases the Poison Gas damage by 5 ({@dice 1d10}). A successful {@dc 20} Dexterity check with thieves' tools, or a {@dc 15} Strength check made to block up the statue with a cloak or similar object, decreases the poison damage by 5 ({@dice 1d10}). Once a character succeeds at the check, someone must remain next to the statue to keep it blocked up. Once all four statues are blocked in this manner, the trap deactivates."
 						}
 					]
 				}

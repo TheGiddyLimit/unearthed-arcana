@@ -20,12 +20,12 @@
 	"book": [
 		{
 			"name": "Unearthed Arcana: Encounter Building",
-			"source": "UAEncounterBuilding",
 			"id": "UAEB",
-			"author": "Mike Mearls",
-			"published": "2016-10-10",
+			"source": "UAEncounterBuilding",
 			"group": "prerelease",
 			"coverUrl": "img/covers/blank.png",
+			"published": "2016-10-10",
+			"author": "Mike Mearls",
 			"contents": [
 				{
 					"name": "Encounter Building",

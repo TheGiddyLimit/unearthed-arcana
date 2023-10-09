@@ -20,12 +20,12 @@
 	"book": [
 		{
 			"name": "Unearthed Arcana: Quick Characters",
-			"source": "UAQuickCharacters",
 			"id": "UAQCh",
-			"author": "Mike Mearls",
-			"published": "2016-07-25",
+			"source": "UAQuickCharacters",
 			"group": "prerelease",
 			"coverUrl": "img/covers/blank.png",
+			"published": "2016-07-25",
+			"author": "Mike Mearls",
 			"contents": [
 				{
 					"name": "Quick Characters",

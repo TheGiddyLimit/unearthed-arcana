@@ -20,12 +20,12 @@
 	"book": [
 		{
 			"name": "Unearthed Arcana: Into The Wild",
-			"source": "UAIntoTheWild",
 			"id": "UAItW",
-			"author": "Mike Mearls",
-			"published": "2018-02-12",
+			"source": "UAIntoTheWild",
 			"group": "prerelease",
 			"coverUrl": "img/covers/blank.png",
+			"published": "2018-02-12",
+			"author": "Mike Mearls",
 			"contents": [
 				{
 					"name": "Into The Wild",

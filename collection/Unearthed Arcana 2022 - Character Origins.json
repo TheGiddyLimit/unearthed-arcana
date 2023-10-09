@@ -22,21 +22,1688 @@
 			]
 		}
 	},
-	"race": [
+	"background": [
 		{
-			"name": "Human",
+			"name": "Acolyte",
 			"source": "XUA2022CharacterOptions",
-			"page": 2,
-			"skillProficiencies": [
+			"page": 11,
+			"ability": [
 				{
-					"any": 1
+					"wis": 2,
+					"int": 1
 				}
 			],
 			"feats": [
 				{
-					"any": 1
+					"magic initiate|XUA2022CharacterOptions": true
 				}
 			],
+			"skillProficiencies": [
+				{
+					"insight": true,
+					"religion": true
+				}
+			],
+			"languageProficiencies": [
+				{
+					"celestial": true
+				}
+			],
+			"toolProficiencies": [
+				{
+					"calligrapher's supplies": true
+				}
+			],
+			"entries": [
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"items": [
+						{
+							"type": "item",
+							"name": "Ability Scores:",
+							"entry": "+2 Wisdom, +1 Intelligence"
+						},
+						{
+							"type": "item",
+							"name": "Skill Proficiencies:",
+							"entry": "{@skill Insight}, {@skill Religion}"
+						},
+						{
+							"type": "item",
+							"name": "Tool Proficiencies:",
+							"entry": "{@item Calligrapher's Supplies|phb}"
+						},
+						{
+							"type": "item",
+							"name": "Languages:",
+							"entry": "{@language Celestial}"
+						},
+						{
+							"type": "item",
+							"name": "Feat:",
+							"entry": "{@feat Magic Initiate|XUA2022CharacterOptions} (Divine)"
+						}
+					]
+				},
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"name": "Equipment",
+					"columns": 2,
+					"items": [
+						"{@item Book|phb} (Prayers)",
+						"{@item Calligrapher's Supplies|phb}",
+						"{@item Holy Symbol|phb}",
+						"{@item parchment (one sheet)|phb|Parchment} (10 sheets)",
+						"{@item Robes|phb}",
+						"3 GP"
+					]
+				}
+			],
+			"fluff": {
+				"_backgroundFluff": {
+					"name": "Acolyte",
+					"source": "XUA2022CharacterOptions"
+				}
+			}
+		},
+		{
+			"name": "Artisan",
+			"source": "XUA2022CharacterOptions",
+			"page": 12,
+			"ability": [
+				{
+					"int": 2,
+					"cha": 1
+				}
+			],
+			"feats": [
+				{
+					"crafter|XUA2022CharacterOptions": true
+				}
+			],
+			"skillProficiencies": [
+				{
+					"investigation": true,
+					"persuasion": true
+				}
+			],
+			"languageProficiencies": [
+				{
+					"gnomish": true
+				}
+			],
+			"toolProficiencies": [
+				{
+					"artisan's tools": true
+				}
+			],
+			"entries": [
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"items": [
+						{
+							"type": "item",
+							"name": "Ability Scores:",
+							"entry": "+2 Intelligence, +1 Charisma"
+						},
+						{
+							"type": "item",
+							"name": "Skill Proficiencies:",
+							"entry": "{@skill Investigation}, {@skill Persuasion}"
+						},
+						{
+							"type": "item",
+							"name": "Tool Proficiencies:",
+							"entry": "{@item Artisan's Tools|phb}"
+						},
+						{
+							"type": "item",
+							"name": "Languages:",
+							"entry": "{@language Gnomish}"
+						},
+						{
+							"type": "item",
+							"name": "Feat:",
+							"entry": "{@feat Crafter|XUA2022CharacterOptions}"
+						}
+					]
+				},
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"name": "Equipment",
+					"columns": 2,
+					"items": [
+						"{@item Abacus|phb}",
+						"{@item Artisan's Tools|phb}",
+						"{@item Merchant's Scale|phb}",
+						"{@item Pouch|phb} (2)",
+						"{@item Traveler's Clothes|phb}",
+						"25 GP"
+					]
+				}
+			],
+			"fluff": {
+				"_backgroundFluff": {
+					"name": "Artisan",
+					"source": "XUA2022CharacterOptions"
+				}
+			}
+		},
+		{
+			"name": "Charlatan",
+			"source": "XUA2022CharacterOptions",
+			"page": 12,
+			"ability": [
+				{
+					"cha": 2,
+					"dex": 1
+				}
+			],
+			"feats": [
+				{
+					"skilled|XUA2022CharacterOptions": true
+				}
+			],
+			"skillProficiencies": [
+				{
+					"deception": true,
+					"sleight of hand": true
+				}
+			],
+			"languageProficiencies": [
+				{
+					"infernal": true
+				}
+			],
+			"toolProficiencies": [
+				{
+					"forgery kit": true
+				}
+			],
+			"entries": [
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"items": [
+						{
+							"type": "item",
+							"name": "Ability Scores:",
+							"entry": "+2 Charisma, +1 Dexterity"
+						},
+						{
+							"type": "item",
+							"name": "Skill Proficiencies:",
+							"entry": "{@skill Deception}, {@skill Sleight of Hand}"
+						},
+						{
+							"type": "item",
+							"name": "Tool Proficiencies:",
+							"entry": "{@item Forgery Kit|phb}"
+						},
+						{
+							"type": "item",
+							"name": "Languages:",
+							"entry": "{@language Infernal}"
+						},
+						{
+							"type": "item",
+							"name": "Feat:",
+							"entry": "{@feat Skilled|XUA2022CharacterOptions}"
+						}
+					]
+				},
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"name": "Equipment",
+					"columns": 2,
+					"items": [
+						"{@item costume clothes|phb|Costume}",
+						"{@item Fine Clothes|phb}",
+						"{@item Forgery Kit|phb}",
+						"15 GP"
+					]
+				}
+			],
+			"fluff": {
+				"_backgroundFluff": {
+					"name": "Charlatan",
+					"source": "XUA2022CharacterOptions"
+				}
+			}
+		},
+		{
+			"name": "Criminal",
+			"source": "XUA2022CharacterOptions",
+			"page": 12,
+			"ability": [
+				{
+					"dex": 2,
+					"int": 1
+				}
+			],
+			"feats": [
+				{
+					"alert|XUA2022CharacterOptions": true
+				}
+			],
+			"skillProficiencies": [
+				{
+					"sleight of hand": true,
+					"stealth": true
+				}
+			],
+			"languageProficiencies": [
+				{
+					"thieves' cant": true
+				}
+			],
+			"toolProficiencies": [
+				{
+					"thieves' tools": true
+				}
+			],
+			"entries": [
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"items": [
+						{
+							"type": "item",
+							"name": "Ability Scores:",
+							"entry": "+2 Dexterity, +1 Intelligence"
+						},
+						{
+							"type": "item",
+							"name": "Skill Proficiencies:",
+							"entry": "{@skill Sleight of Hand}, {@skill Stealth}"
+						},
+						{
+							"type": "item",
+							"name": "Tool Proficiencies:",
+							"entry": "{@item Thieves' Tools|phb}"
+						},
+						{
+							"type": "item",
+							"name": "Languages:",
+							"entry": "{@language Thieves' Cant}"
+						},
+						{
+							"type": "item",
+							"name": "Feat:",
+							"entry": "{@feat Alert|XUA2022CharacterOptions}"
+						}
+					]
+				},
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"name": "Equipment",
+					"columns": 2,
+					"items": [
+						"{@item Crowbar|phb}",
+						"{@item Dagger|phb} (2)",
+						"{@item Pouch|phb} (2)",
+						"{@item Thieves' Tools|phb}",
+						"{@item Traveler's Clothes|phb}",
+						"16 GP"
+					]
+				}
+			],
+			"fluff": {
+				"_backgroundFluff": {
+					"name": "Criminal",
+					"source": "XUA2022CharacterOptions"
+				}
+			}
+		},
+		{
+			"name": "Cultist",
+			"source": "XUA2022CharacterOptions",
+			"page": 12,
+			"ability": [
+				{
+					"int": 2,
+					"cha": 1
+				}
+			],
+			"feats": [
+				{
+					"magic initiate|XUA2022CharacterOptions": true
+				}
+			],
+			"skillProficiencies": [
+				{
+					"arcana": true,
+					"religion": true
+				}
+			],
+			"languageProficiencies": [
+				{
+					"abyssal": true
+				}
+			],
+			"toolProficiencies": [
+				{
+					"disguise kit": true
+				}
+			],
+			"entries": [
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"items": [
+						{
+							"type": "item",
+							"name": "Ability Scores:",
+							"entry": "+2 Intelligence, +1 Charisma"
+						},
+						{
+							"type": "item",
+							"name": "Skill Proficiencies:",
+							"entry": "{@skill Arcana}, {@skill Religion}"
+						},
+						{
+							"type": "item",
+							"name": "Tool Proficiencies:",
+							"entry": "{@item Disguise Kit|phb}"
+						},
+						{
+							"type": "item",
+							"name": "Languages:",
+							"entry": "{@language Abyssal}"
+						},
+						{
+							"type": "item",
+							"name": "Feat:",
+							"entry": "{@feat Magic Initiate|XUA2022CharacterOptions} (Arcane)"
+						}
+					]
+				},
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"name": "Equipment",
+					"columns": 2,
+					"items": [
+						"{@item Bell|phb}",
+						"{@item Common Clothes|phb}",
+						"{@item Dagger|phb}",
+						"{@item Disguise Kit|phb}",
+						"{@item Lamp|phb}",
+						"{@item Robes|phb}",
+						"19 GP"
+					]
+				}
+			],
+			"fluff": {
+				"_backgroundFluff": {
+					"name": "Cultist",
+					"source": "XUA2022CharacterOptions"
+				}
+			}
+		},
+		{
+			"name": "Entertainer",
+			"source": "XUA2022CharacterOptions",
+			"page": 12,
+			"ability": [
+				{
+					"cha": 2,
+					"dex": 1
+				}
+			],
+			"feats": [
+				{
+					"musician|XUA2022CharacterOptions": true
+				}
+			],
+			"skillProficiencies": [
+				{
+					"acrobatics": true,
+					"performance": true
+				}
+			],
+			"languageProficiencies": [
+				{
+					"elvish": true
+				}
+			],
+			"toolProficiencies": [
+				{
+					"musical instrument": true
+				}
+			],
+			"entries": [
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"items": [
+						{
+							"type": "item",
+							"name": "Ability Scores:",
+							"entry": "+2 Charisma, +1 Dexterity"
+						},
+						{
+							"type": "item",
+							"name": "Skill Proficiencies:",
+							"entry": "{@skill Acrobatics}, {@skill Performance}"
+						},
+						{
+							"type": "item",
+							"name": "Tool Proficiencies:",
+							"entry": "{@item Musical Instrument|phb} (one of your choice)"
+						},
+						{
+							"type": "item",
+							"name": "Languages:",
+							"entry": "{@language Elvish}"
+						},
+						{
+							"type": "item",
+							"name": "Feat:",
+							"entry": "{@feat Musician|XUA2022CharacterOptions}"
+						}
+					]
+				},
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"name": "Equipment",
+					"columns": 2,
+					"items": [
+						"{@item costume clothes|phb|Costume} (2)",
+						"{@item Musical Instrument|phb}",
+						"{@item perfume (vial)|phb|Perfume}",
+						"{@item Steel Mirror|phb}",
+						"{@item Traveler's Clothes|phb}",
+						"8 GP"
+					]
+				}
+			],
+			"fluff": {
+				"_backgroundFluff": {
+					"name": "Entertainer",
+					"source": "XUA2022CharacterOptions"
+				}
+			}
+		},
+		{
+			"name": "Farmer",
+			"source": "XUA2022CharacterOptions",
+			"page": 13,
+			"ability": [
+				{
+					"con": 2,
+					"wis": 1
+				}
+			],
+			"feats": [
+				{
+					"tough|XUA2022CharacterOptions": true
+				}
+			],
+			"skillProficiencies": [
+				{
+					"animal handling": true,
+					"nature": true
+				}
+			],
+			"languageProficiencies": [
+				{
+					"halfling": true
+				}
+			],
+			"toolProficiencies": [
+				{
+					"carpenter's tools": true
+				}
+			],
+			"entries": [
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"items": [
+						{
+							"type": "item",
+							"name": "Ability Scores:",
+							"entry": "+2 Constitution, +1 Wisdom"
+						},
+						{
+							"type": "item",
+							"name": "Skill Proficiencies:",
+							"entry": "{@skill Animal Handling}, {@skill Nature}"
+						},
+						{
+							"type": "item",
+							"name": "Tool Proficiencies:",
+							"entry": "{@item Carpenter's Tools|phb}"
+						},
+						{
+							"type": "item",
+							"name": "Languages:",
+							"entry": "{@language Halfling}"
+						},
+						{
+							"type": "item",
+							"name": "Feat:",
+							"entry": "{@feat Tough|XUA2022CharacterOptions}"
+						}
+					]
+				},
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"name": "Equipment",
+					"columns": 2,
+					"items": [
+						"{@item Carpenter's Tools|phb}",
+						"{@item Healer's Kit|phb}",
+						"{@item Iron Pot|phb}",
+						"{@item Shovel|phb}",
+						"{@item Sickle|phb}",
+						"{@item Traveler's Clothes|phb}",
+						"23 GP"
+					]
+				}
+			],
+			"fluff": {
+				"_backgroundFluff": {
+					"name": "Farmer",
+					"source": "XUA2022CharacterOptions"
+				}
+			}
+		},
+		{
+			"name": "Gladiator",
+			"source": "XUA2022CharacterOptions",
+			"page": 13,
+			"ability": [
+				{
+					"str": 2,
+					"cha": 1
+				}
+			],
+			"feats": [
+				{
+					"savage attacker|XUA2022CharacterOptions": true
+				}
+			],
+			"skillProficiencies": [
+				{
+					"athletics": true,
+					"performance": true
+				}
+			],
+			"languageProficiencies": [
+				{
+					"orc": true
+				}
+			],
+			"toolProficiencies": [
+				{
+					"smith's tools": true
+				}
+			],
+			"entries": [
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"items": [
+						{
+							"type": "item",
+							"name": "Ability Scores:",
+							"entry": "+2 Strength, +1 Charisma"
+						},
+						{
+							"type": "item",
+							"name": "Skill Proficiencies:",
+							"entry": "{@skill Athletics}, {@skill Performance}"
+						},
+						{
+							"type": "item",
+							"name": "Tool Proficiencies:",
+							"entry": "{@item Smith's Tools|phb}"
+						},
+						{
+							"type": "item",
+							"name": "Languages:",
+							"entry": "{@language Orc}"
+						},
+						{
+							"type": "item",
+							"name": "Feat:",
+							"entry": "{@feat Savage Attacker|XUA2022CharacterOptions}"
+						}
+					]
+				},
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"name": "Equipment",
+					"columns": 2,
+					"items": [
+						"{@item chain (10 feet)|phb|Chain}",
+						"{@item costume clothes|phb|Costume}",
+						"{@item Healer's Kit|phb}",
+						"{@item Javelin|phb} (6)",
+						"{@item Smith's Tools|phb}",
+						"{@item Traveler's Clothes|phb}",
+						"15 GP"
+					]
+				}
+			],
+			"fluff": {
+				"_backgroundFluff": {
+					"name": "Gladiator",
+					"source": "XUA2022CharacterOptions"
+				}
+			}
+		},
+		{
+			"name": "Guard",
+			"source": "XUA2022CharacterOptions",
+			"page": 13,
+			"ability": [
+				{
+					"str": 2,
+					"wis": 1
+				}
+			],
+			"feats": [
+				{
+					"alert|XUA2022CharacterOptions": true
+				}
+			],
+			"skillProficiencies": [
+				{
+					"athletics": true,
+					"perception": true
+				}
+			],
+			"languageProficiencies": [
+				{
+					"dwarvish": true
+				}
+			],
+			"toolProficiencies": [
+				{
+					"gaming set": true
+				}
+			],
+			"entries": [
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"items": [
+						{
+							"type": "item",
+							"name": "Ability Scores:",
+							"entry": "+2 Strength, +1 Wisdom"
+						},
+						{
+							"type": "item",
+							"name": "Skill Proficiencies:",
+							"entry": "{@skill Athletics}, {@skill Perception}"
+						},
+						{
+							"type": "item",
+							"name": "Tool Proficiencies:",
+							"entry": "{@item Gaming Set|phb} (one of your choice)"
+						},
+						{
+							"type": "item",
+							"name": "Languages:",
+							"entry": "{@language Dwarvish}"
+						},
+						{
+							"type": "item",
+							"name": "Feat:",
+							"entry": "{@feat Alert|XUA2022CharacterOptions}"
+						}
+					]
+				},
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"name": "Equipment",
+					"columns": 2,
+					"items": [
+						"{@item Crossbow Bolt|phb} (20)",
+						"{@item Gaming Set|phb}",
+						"{@item Hooded Lantern|phb}",
+						"{@item Light Crossbow|phb}",
+						"{@item Manacles|phb}",
+						"{@item Quiver|phb}",
+						"{@item Spear|phb}",
+						"{@item Traveler's Clothes|phb}",
+						"12 GP"
+					]
+				}
+			],
+			"fluff": {
+				"_backgroundFluff": {
+					"name": "Guard",
+					"source": "XUA2022CharacterOptions"
+				}
+			}
+		},
+		{
+			"name": "Guide",
+			"source": "XUA2022CharacterOptions",
+			"page": 13,
+			"ability": [
+				{
+					"wis": 2,
+					"dex": 1
+				}
+			],
+			"feats": [
+				{
+					"magic initiate|XUA2022CharacterOptions": true
+				}
+			],
+			"skillProficiencies": [
+				{
+					"stealth": true,
+					"survival": true
+				}
+			],
+			"languageProficiencies": [
+				{
+					"giant": true
+				}
+			],
+			"toolProficiencies": [
+				{
+					"cartographer's tools": true
+				}
+			],
+			"entries": [
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"items": [
+						{
+							"type": "item",
+							"name": "Ability Scores:",
+							"entry": "+2 Wisdom, +1 Dexterity"
+						},
+						{
+							"type": "item",
+							"name": "Skill Proficiencies:",
+							"entry": "{@skill Stealth}, {@skill Survival}"
+						},
+						{
+							"type": "item",
+							"name": "Tool Proficiencies:",
+							"entry": "{@item Cartographer's Tools|phb}"
+						},
+						{
+							"type": "item",
+							"name": "Languages:",
+							"entry": "{@language Giant}"
+						},
+						{
+							"type": "item",
+							"name": "Feat:",
+							"entry": "{@feat Magic Initiate|XUA2022CharacterOptions} (Primal)"
+						}
+					]
+				},
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"name": "Equipment",
+					"columns": 2,
+					"items": [
+						"{@item Arrow|phb} (20)",
+						"{@item Bedroll|phb}",
+						"{@item Cartographer's Tools|phb}",
+						"{@item Fishing Tackle|phb}",
+						"{@item Quiver|phb}",
+						"{@item Shortbow|phb}",
+						"{@item two-person tent|phb|Tent}",
+						"{@item Traveler's Clothes|phb}",
+						"2 GP"
+					]
+				}
+			],
+			"fluff": {
+				"_backgroundFluff": {
+					"name": "Guide",
+					"source": "XUA2022CharacterOptions"
+				}
+			}
+		},
+		{
+			"name": "Hermit",
+			"source": "XUA2022CharacterOptions",
+			"page": 14,
+			"ability": [
+				{
+					"wis": 2,
+					"con": 1
+				}
+			],
+			"feats": [
+				{
+					"magic initiate|XUA2022CharacterOptions": true
+				}
+			],
+			"skillProficiencies": [
+				{
+					"medicine": true,
+					"religion": true
+				}
+			],
+			"languageProficiencies": [
+				{
+					"sylvan": true
+				}
+			],
+			"toolProficiencies": [
+				{
+					"herbalism kit": true
+				}
+			],
+			"entries": [
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"items": [
+						{
+							"type": "item",
+							"name": "Ability Scores:",
+							"entry": "+2 Wisdom, +1 Constitution"
+						},
+						{
+							"type": "item",
+							"name": "Skill Proficiencies:",
+							"entry": "{@skill Medicine}, {@skill Religion}"
+						},
+						{
+							"type": "item",
+							"name": "Tool Proficiencies:",
+							"entry": "{@item Herbalism Kit|phb}"
+						},
+						{
+							"type": "item",
+							"name": "Languages:",
+							"entry": "{@language Sylvan}"
+						},
+						{
+							"type": "item",
+							"name": "Feat:",
+							"entry": "{@feat Magic Initiate|XUA2022CharacterOptions} (Primal)"
+						}
+					]
+				},
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"name": "Equipment",
+					"columns": 2,
+					"items": [
+						"{@item Bedroll|phb}",
+						"{@item Book|phb} (Philosophy)",
+						"{@item Fishing Tackle|phb}",
+						"{@item Herbalism Kit|phb}",
+						"{@item Lamp|phb}",
+						"{@item oil (flask)|phb|Oil} (3 flasks)",
+						"{@item Quarterstaff|phb}",
+						"{@item Traveler's Clothes|phb}",
+						"15 GP"
+					]
+				}
+			],
+			"fluff": {
+				"_backgroundFluff": {
+					"name": "Hermit",
+					"source": "XUA2022CharacterOptions"
+				}
+			}
+		},
+		{
+			"name": "Laborer",
+			"source": "XUA2022CharacterOptions",
+			"page": 14,
+			"ability": [
+				{
+					"con": 2,
+					"str": 1
+				}
+			],
+			"feats": [
+				{
+					"tough|XUA2022CharacterOptions": true
+				}
+			],
+			"skillProficiencies": [
+				{
+					"athletics": true,
+					"survival": true
+				}
+			],
+			"languageProficiencies": [
+				{
+					"dwarvish": true
+				}
+			],
+			"toolProficiencies": [
+				{
+					"mason's tools": true
+				}
+			],
+			"entries": [
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"items": [
+						{
+							"type": "item",
+							"name": "Ability Scores:",
+							"entry": "+2 Constitution, +1 Strength"
+						},
+						{
+							"type": "item",
+							"name": "Skill Proficiencies:",
+							"entry": "{@skill Athletics}, {@skill Survival}"
+						},
+						{
+							"type": "item",
+							"name": "Tool Proficiencies:",
+							"entry": "{@item Mason's Tools|phb}"
+						},
+						{
+							"type": "item",
+							"name": "Languages:",
+							"entry": "{@language Dwarvish}"
+						},
+						{
+							"type": "item",
+							"name": "Feat:",
+							"entry": "{@feat Tough|XUA2022CharacterOptions}"
+						}
+					]
+				},
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"name": "Equipment",
+					"columns": 2,
+					"items": [
+						"{@item Bullseye Lantern|phb}",
+						"{@item Common Clothes|phb}",
+						"{@item Handaxe|phb}",
+						"{@item Light Hammer|phb}",
+						"{@item Mason's Tools|phb}",
+						"{@item Mess Kit|phb}",
+						"{@item oil (flask)|phb|Oil} (1 flask)",
+						"{@item Shovel|phb}",
+						"{@item Waterskin|phb}",
+						"15 GP"
+					]
+				}
+			],
+			"fluff": {
+				"_backgroundFluff": {
+					"name": "Laborer",
+					"source": "XUA2022CharacterOptions"
+				}
+			}
+		},
+		{
+			"name": "Noble",
+			"source": "XUA2022CharacterOptions",
+			"page": 14,
+			"ability": [
+				{
+					"cha": 2,
+					"int": 1
+				}
+			],
+			"feats": [
+				{
+					"skilled|XUA2022CharacterOptions": true
+				}
+			],
+			"skillProficiencies": [
+				{
+					"history": true,
+					"persuasion": true
+				}
+			],
+			"languageProficiencies": [
+				{
+					"draconic": true
+				}
+			],
+			"toolProficiencies": [
+				{
+					"gaming set": true
+				}
+			],
+			"entries": [
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"items": [
+						{
+							"type": "item",
+							"name": "Ability Scores:",
+							"entry": "+2 Charisma, +1 Intelligence"
+						},
+						{
+							"type": "item",
+							"name": "Skill Proficiencies:",
+							"entry": "{@skill History}, {@skill Persuasion}"
+						},
+						{
+							"type": "item",
+							"name": "Tool Proficiencies:",
+							"entry": "{@item Gaming set|phb} (one of your choice)"
+						},
+						{
+							"type": "item",
+							"name": "Languages:",
+							"entry": "{@language Draconic}"
+						},
+						{
+							"type": "item",
+							"name": "Feat:",
+							"entry": "{@feat Skilled|XUA2022CharacterOptions}"
+						}
+					]
+				},
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"name": "Equipment",
+					"columns": 2,
+					"items": [
+						"{@item Fine Clothes|phb}",
+						"{@item Gaming Set|phb}",
+						"{@item perfume (vial)|phb|Perfume}",
+						"{@item Signet Ring|phb}",
+						"24 GP"
+					]
+				}
+			],
+			"fluff": {
+				"_backgroundFluff": {
+					"name": "Noble",
+					"source": "XUA2022CharacterOptions"
+				}
+			}
+		},
+		{
+			"name": "Pilgrim",
+			"source": "XUA2022CharacterOptions",
+			"page": 14,
+			"ability": [
+				{
+					"wis": 2,
+					"con": 1
+				}
+			],
+			"feats": [
+				{
+					"healer|XUA2022CharacterOptions": true
+				}
+			],
+			"skillProficiencies": [
+				{
+					"religion": true,
+					"survival": true
+				}
+			],
+			"languageProficiencies": [
+				{
+					"halfling": true
+				}
+			],
+			"toolProficiencies": [
+				{
+					"musical instrument": true
+				}
+			],
+			"entries": [
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"items": [
+						{
+							"type": "item",
+							"name": "Ability Scores:",
+							"entry": "+2 Wisdom, +1 Constitution"
+						},
+						{
+							"type": "item",
+							"name": "Skill Proficiencies:",
+							"entry": "{@skill Religion}, {@skill Survival}"
+						},
+						{
+							"type": "item",
+							"name": "Tool Proficiencies:",
+							"entry": "{@item Musical Instrument|phb} (one of your choice)"
+						},
+						{
+							"type": "item",
+							"name": "Languages:",
+							"entry": "{@language Halfling}"
+						},
+						{
+							"type": "item",
+							"name": "Feat:",
+							"entry": "{@feat Healer|XUA2022CharacterOptions}"
+						}
+					]
+				},
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"name": "Equipment",
+					"columns": 2,
+					"items": [
+						"{@item Bedroll|phb}",
+						"{@item Healer's Kit|phb}",
+						"{@item Holy Symbol|phb}",
+						"{@item Musical Instrument|phb}",
+						"{@item rations (1 day)|phb|Rations} (2 days)",
+						"{@item Traveler's Clothes|phb}",
+						"16 GP"
+					]
+				}
+			],
+			"fluff": {
+				"_backgroundFluff": {
+					"name": "Pilgrim",
+					"source": "XUA2022CharacterOptions"
+				}
+			}
+		},
+		{
+			"name": "Sage",
+			"source": "XUA2022CharacterOptions",
+			"page": 15,
+			"ability": [
+				{
+					"int": 2,
+					"wis": 1
+				}
+			],
+			"feats": [
+				{
+					"magic initiate|XUA2022CharacterOptions": true
+				}
+			],
+			"skillProficiencies": [
+				{
+					"arcana": true,
+					"history": true
+				}
+			],
+			"languageProficiencies": [
+				{
+					"elvish": true
+				}
+			],
+			"toolProficiencies": [
+				{
+					"calligrapher's supplies": true
+				}
+			],
+			"entries": [
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"items": [
+						{
+							"type": "item",
+							"name": "Ability Scores:",
+							"entry": "+2 Intelligence, +1 Wisdom"
+						},
+						{
+							"type": "item",
+							"name": "Skill Proficiencies:",
+							"entry": "{@skill Arcana}, {@skill History}"
+						},
+						{
+							"type": "item",
+							"name": "Tool Proficiencies:",
+							"entry": "{@item Calligrapher's Supplies|phb}"
+						},
+						{
+							"type": "item",
+							"name": "Languages:",
+							"entry": "{@language Elvish}"
+						},
+						{
+							"type": "item",
+							"name": "Feat:",
+							"entry": "{@feat Magic Initiate|XUA2022CharacterOptions} (Arcane)"
+						}
+					]
+				},
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"name": "Equipment",
+					"columns": 2,
+					"items": [
+						"{@item Book|phb} (History)",
+						"{@item Calligrapher's Supplies|phb}",
+						"{@item parchment (one sheet)|phb|Parchment} (8 sheets)",
+						"{@item Quarterstaff|phb}",
+						"{@item Robes|phb}",
+						"8 GP"
+					]
+				}
+			],
+			"fluff": {
+				"_backgroundFluff": {
+					"name": "Sage",
+					"source": "XUA2022CharacterOptions"
+				}
+			}
+		},
+		{
+			"name": "Sailor",
+			"source": "XUA2022CharacterOptions",
+			"page": 15,
+			"ability": [
+				{
+					"dex": 2,
+					"wis": 1
+				}
+			],
+			"feats": [
+				{
+					"tavern brawler|XUA2022CharacterOptions": true
+				}
+			],
+			"skillProficiencies": [
+				{
+					"acrobatics": true,
+					"perception": true
+				}
+			],
+			"languageProficiencies": [
+				{
+					"primordial": true
+				}
+			],
+			"toolProficiencies": [
+				{
+					"navigator's tools": true
+				}
+			],
+			"entries": [
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"items": [
+						{
+							"type": "item",
+							"name": "Ability Scores:",
+							"entry": "+2 Dexterity, +1 Wisdom"
+						},
+						{
+							"type": "item",
+							"name": "Skill Proficiencies:",
+							"entry": "{@skill Acrobatics}, {@skill Perception}"
+						},
+						{
+							"type": "item",
+							"name": "Tool Proficiencies:",
+							"entry": "{@item Navigator's Tools|phb}"
+						},
+						{
+							"type": "item",
+							"name": "Languages:",
+							"entry": "{@language Primordial}"
+						},
+						{
+							"type": "item",
+							"name": "Feat:",
+							"entry": "{@feat Tavern Brawler|XUA2022CharacterOptions}"
+						}
+					]
+				},
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"name": "Equipment",
+					"columns": 2,
+					"items": [
+						"{@item Dagger|phb}",
+						"{@item Fishing Tackle|phb}",
+						"{@item Navigator's Tools|phb}",
+						"{@item silk rope (50 feet)|phb|Silk Rope}",
+						"{@item Traveler's Clothes|phb}",
+						"10 GP"
+					]
+				}
+			],
+			"fluff": {
+				"_backgroundFluff": {
+					"name": "Sailor",
+					"source": "XUA2022CharacterOptions"
+				}
+			}
+		},
+		{
+			"name": "Soldier",
+			"source": "XUA2022CharacterOptions",
+			"page": 15,
+			"ability": [
+				{
+					"str": 2,
+					"con": 1
+				}
+			],
+			"feats": [
+				{
+					"savage attacker|XUA2022CharacterOptions": true
+				}
+			],
+			"skillProficiencies": [
+				{
+					"athletics": true,
+					"intimidation": true
+				}
+			],
+			"languageProficiencies": [
+				{
+					"goblin": true
+				}
+			],
+			"toolProficiencies": [
+				{
+					"gaming set": true
+				}
+			],
+			"entries": [
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"items": [
+						{
+							"type": "item",
+							"name": "Ability Scores:",
+							"entry": "+2 Strength, +1 Constitution"
+						},
+						{
+							"type": "item",
+							"name": "Skill Proficiencies:",
+							"entry": "{@skill Athletics}, {@skill Intimidation}"
+						},
+						{
+							"type": "item",
+							"name": "Tool Proficiencies:",
+							"entry": "{@item Gaming Set|phb} (one of your choice)"
+						},
+						{
+							"type": "item",
+							"name": "Languages:",
+							"entry": "{@language Goblin}"
+						},
+						{
+							"type": "item",
+							"name": "Feat:",
+							"entry": "{@feat Savage Attacker|XUA2022CharacterOptions}"
+						}
+					]
+				},
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"name": "Equipment",
+					"columns": 2,
+					"items": [
+						"{@item Arrow|phb} (20)",
+						"{@item Gaming Set|phb} (same as above)",
+						"{@item Healer's Kit|phb}",
+						"{@item Quiver|phb}",
+						"{@item Shortbow|phb}",
+						"{@item Spear|phb}",
+						"{@item Traveler's Clothes|phb}",
+						"14 GP"
+					]
+				}
+			],
+			"fluff": {
+				"_backgroundFluff": {
+					"name": "Soldier",
+					"source": "XUA2022CharacterOptions"
+				}
+			}
+		},
+		{
+			"name": "Urchin",
+			"source": "XUA2022CharacterOptions",
+			"page": 15,
+			"ability": [
+				{
+					"dex": 2,
+					"wis": 1
+				}
+			],
+			"feats": [
+				{
+					"lucky|XUA2022CharacterOptions": true
+				}
+			],
+			"skillProficiencies": [
+				{
+					"insight": true,
+					"stealth": true
+				}
+			],
+			"languageProficiencies": [
+				{
+					"common sign language": true
+				}
+			],
+			"toolProficiencies": [
+				{
+					"thieves' tools": true
+				}
+			],
+			"entries": [
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"items": [
+						{
+							"type": "item",
+							"name": "Ability Scores:",
+							"entry": "+2 Dexterity, +1 Wisdom"
+						},
+						{
+							"type": "item",
+							"name": "Skill Proficiencies:",
+							"entry": "{@skill Insight}, {@skill Stealth}"
+						},
+						{
+							"type": "item",
+							"name": "Tool Proficiencies:",
+							"entry": "{@item Thieves' Tools|phb}"
+						},
+						{
+							"type": "item",
+							"name": "Languages:",
+							"entry": "{@language Common Sign Language|XUA2022CharacterOptions}"
+						},
+						{
+							"type": "item",
+							"name": "Feat:",
+							"entry": "{@feat Lucky|XUA2022CharacterOptions}"
+						}
+					]
+				},
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"name": "Equipment",
+					"columns": 2,
+					"items": [
+						"{@item Bedroll|phb}",
+						"{@item Common Clothes|phb}",
+						"{@item Dagger|phb} (2)",
+						"{@item Gaming Set|phb}",
+						"{@item Pouch|phb}",
+						"{@item Thieves' Tools|phb}",
+						"18 GP"
+					]
+				}
+			],
+			"fluff": {
+				"_backgroundFluff": {
+					"name": "Urchin",
+					"source": "XUA2022CharacterOptions"
+				}
+			}
+		}
+	],
+	"backgroundFluff": [
+		{
+			"name": "Acolyte",
+			"source": "XUA2022CharacterOptions",
+			"entries": [
+				"You devoted yourself to service in a temple, either nestled in a town or secluded in a sacred grove. There you performed hallowed rites in honor of a god or pantheon. You served under a priest and studied religion. Thanks to your priest's instruction and your own devotion, you also learned how to channel a modicum of divine power in service to your place of worship and the people who prayed there."
+			]
+		},
+		{
+			"name": "Artisan",
+			"source": "XUA2022CharacterOptions",
+			"entries": [
+				"You began mopping floors and scrubbing counters in an artisan's workshop for a few coppers per day as soon as you were strong enough to carry a bucket. When you were finally old enough to apprentice, you learned to create basic crafts of your own, as well as how to sweet-talk the occasional demanding customer. As part of your studies, you picked up Gnomish, the tongue from which so many of the artisan's terms of art are derived."
+			]
+		},
+		{
+			"name": "Charlatan",
+			"source": "XUA2022CharacterOptions",
+			"entries": [
+				"Soon after you were old enough to order an ale, you already had a favorite stool in every tavern within ten miles of where you were born. As you traveled the circuit from public house to watering hole, you learned to prey on the unfortunates who were in the market for a comforting lie or two\u2014perhaps a sham potion or a forged \"treasure map.\" You are fluent in Infernal, the ancient language of deception."
+			]
+		},
+		{
+			"name": "Criminal",
+			"source": "XUA2022CharacterOptions",
+			"entries": [
+				"You learned to earn your coin in dark alleyways, cutting purses or burgling shops. Perhaps you were part of a small gang of like-minded wrongdoers, who looked out for each other. Or maybe you were a lone wolf, fending for yourself against the local thieves' guild and older, more fearsome lawbreakers."
+			]
+		},
+		{
+			"name": "Cultist",
+			"source": "XUA2022CharacterOptions",
+			"entries": [
+				"You scarcely recall what drove you into the service of the otherworldly being. Those memories were blotted out long ago by recurrent dreams of midnight gatherings round the obsidian pillar in the glade. By the light of each waning moon, the hierophants instructed you in the being's creed and the rudiments of the arcane arts. When you came of age, you were ordered to blend in among the nonbelievers and await whatever mission the Great One has in store for you."
+			]
+		},
+		{
+			"name": "Entertainer",
+			"source": "XUA2022CharacterOptions",
+			"entries": [
+				"You spent much of your youth following roving fairs and carnivals, performing odd jobs for musicians and acrobats in exchange for lessons. You may have learned how to walk a tightrope, how to double pick a {@item lute|PHB}, or how to recite Elvish poetry with the impeccable trills of an elf poet. To this day, you thrive on applause and long for the stage."
+			]
+		},
+		{
+			"name": "Farmer",
+			"source": "XUA2022CharacterOptions",
+			"entries": [
+				"You grew up close to the land. Years tending animals and cultivating the earth rewarded you with patience and good health. You have a keen appreciation for nature's bounty alongside a healthy respect for nature's wrath. Like many farmers, you made frequent use of the agricultural almanacs produced by the greatest halfling farmers."
+			]
+		},
+		{
+			"name": "Gladiator",
+			"source": "XUA2022CharacterOptions",
+			"entries": [
+				"Your first few appearances in the gladiatorial pits led you to appreciate every one of the scars you carry from your instructors and sparring partners. Each scar was a lesson that taught you how to best your opponents and curry favor with the crowds your brawls entertained. Your time in the pits left you with a strong hand and a strong heart. You'll forever share a remarkable bond with the other pit fighters in your stable\u2014humans, dragonborn, dwarves, and orcs\u2014hardened warriors all."
+			]
+		},
+		{
+			"name": "Guard",
+			"source": "XUA2022CharacterOptions",
+			"entries": [
+				"Your feet begin to ache when you remember the countless hours you spent at your post in the tower. You were trained to keep one eye outside the wall, watching for marauders sweeping from the nearby forest, and your other eye inside the wall, searching for cutpurses and troublemakers. At the end of each shift, you bunked in the mayor's barracks alongside your fellow sentries and the dwarven smiths who kept your armor snug and your weapons sharp."
+			]
+		},
+		{
+			"name": "Guide",
+			"source": "XUA2022CharacterOptions",
+			"entries": [
+				"You came of age in the outdoors, far from settled lands. Your home? Anywhere you chose to unfurl your bedroll. There are wonders on the frontier\u2014strange monsters, pristine forests and streams, overgrown ruins of great halls once trod by giants\u2014and you learned to fend for yourself as you explored them. From time to time, you traveled with a pair of friendly druids who were kind enough to instruct you in the fundamentals of channeling the magic of the wild."
+			]
+		},
+		{
+			"name": "Hermit",
+			"source": "XUA2022CharacterOptions",
+			"entries": [
+				"You spent your early years secluded in a hut or monastery located well beyond the outskirts of the nearest settlement. In those days, your only companions were the creatures of the forest, who would occasionally visit to bring news of the outside world and supplies. The quiet and solitude you found in your time outside society allowed you to spend many hours pondering the mysteries of creation, attuning your mind to the magical energy flowing through the natural world."
+			]
+		},
+		{
+			"name": "Laborer",
+			"source": "XUA2022CharacterOptions",
+			"entries": [
+				"Your apprenticeship consumed the better part of your youth. First, you learned to cut and polish a stone. After several years of polishing stones, you learned how to cement those stones into a wall. After several years building walls, you learned to join your walls to form a structure. The structures you built were exceptionally durable. The masons who taught you were taught by even older masons who were taught by dwarf artisans of old."
+			]
+		},
+		{
+			"name": "Noble",
+			"source": "XUA2022CharacterOptions",
+			"entries": [
+				"You were raised in a castle as a creature of wealth, power, and privilege\u2014none of it earned. Your family are minor aristocrats who saw to it that you received a first-class education, some of which you appreciated and some of which you resented. (Was it truly necessary to read all those ancient histories in their original Draconic?) Your time in the castle, especially the many hours you spent observing your family at court, also taught you a great deal about leadership."
+			]
+		},
+		{
+			"name": "Pilgrim",
+			"source": "XUA2022CharacterOptions",
+			"entries": [
+				"You and a group of like-minded believers\u2014mostly humans and halflings\u2014once endeavored to walk a thousand miles of road to reach a faraway shrine. Priests counseled at the outset that, long after your journey was complete, you'd come to realize that you found the key to your salvation not at your destination, but somewhere along the road that led there."
+			]
+		},
+		{
+			"name": "Sage",
+			"source": "XUA2022CharacterOptions",
+			"entries": [
+				"You spent your formative years traveling between manors and monasteries, performing various odd jobs and services in exchange for access to their libraries. You wiled away many a long evening with your nose buried in books and scrolls, learning the lore of the multiverse\u2014even the rudiments of magic\u2014and your mind only yearns for more."
+			]
+		},
+		{
+			"name": "Sailor",
+			"source": "XUA2022CharacterOptions",
+			"entries": [
+				"Thus far, you've spent most of your days living the life of a seafarer, wind at your back and decks swaying beneath your feet, as you sailed toward your next adventure. You've perched on barstools in more ports of call than you can remember, faced down mighty storms, and swapped stories with the folk who live beneath the waves."
+			]
+		},
+		{
+			"name": "Soldier",
+			"source": "XUA2022CharacterOptions",
+			"entries": [
+				"You began training for war at such an early age that you carry only a precious few memories of what life was like before you took up arms. Battle is in your blood. Sometimes you catch yourself reflexively performing the basic fighting exercises you learned as a youth. Eventually, you put that training to use on the battlefield, protecting the realm by waging war and studying the strategies of goblinoid generals."
+			]
+		},
+		{
+			"name": "Urchin",
+			"source": "XUA2022CharacterOptions",
+			"entries": [
+				"You grew up on the streets, surrounded by similarly ill-fated castoffs, a few of them friends and a few of them rivals. You slept where you could and did odd jobs for food. At times, when the hunger became unbearable, you resorted to theft. Still, you never lost your pride and never abandoned hope. Fate is not yet finished with you."
+			]
+		}
+	],
+	"race": [
+		{
+			"name": "Ardling",
+			"source": "XUA2022CharacterOptions",
+			"page": 3,
 			"creatureTypes": [
 				"humanoid"
 			],
@@ -48,18 +1715,17 @@
 			"age": {
 				"average": 80
 			},
-			"soundClip": {
-				"type": "internal",
-				"path": "races/human.mp3"
-			},
+			"resist": [
+				"radiant"
+			],
 			"entries": [
 				{
 					"type": "list",
 					"style": "list-hang-notitle",
 					"items": [
 						{
-							"name": "Creature Type:",
 							"type": "item",
+							"name": "Creature Type:",
 							"entries": [
 								"Humanoid"
 							]
@@ -68,12 +1734,12 @@
 							"type": "item",
 							"name": "Size:",
 							"entries": [
-								"Medium (about 4\u20137 feet tall) or Small (about 2\u20134 feet tall), chosen when you select this Race"
+								"Medium (about 4\u20137 feet tall) or Small (about 3\u20134 feet tall), chosen when you select this Race"
 							]
 						},
 						{
-							"name": "Speed:",
 							"type": "item",
+							"name": "Speed:",
 							"entries": [
 								"30 feet"
 							]
@@ -82,45 +1748,83 @@
 							"name": "Life Span:",
 							"type": "item",
 							"entries": [
-								"80 years on average"
+								"200 years on average"
 							]
 						}
 					]
 				},
-				"As a human, you have these special traits.",
+				"As an Ardling, you have these special traits.",
 				{
 					"type": "entries",
-					"name": "Resourceful",
+					"name": "Angelic Flight",
 					"entries": [
-						"You gain Inspiration whenever you finish a {@variantrule Long Rest|XUA2022CharacterOptions}."
+						"As a Bonus Action, you sprout spectral wings for a moment and fly up to a number of feet equal to your Speed. If you are in the air at the end of this movement, you fall if nothing is holding you aloft.",
+						"You can use this Bonus Action a number of times equal to your Proficiency Bonus, and you regain all expended uses when you finish a  {@variantrule Long Rest|XUA2022CharacterOptions}."
 					]
 				},
 				{
 					"type": "entries",
-					"name": "Skillful",
+					"name": "Celestial Legacy",
 					"entries": [
-						"You gain Proficiency in one Skill of your choice."
+						"You are the recipient of a celestial legacy that grants you magical abilities. Choose a legacy from the Celestial Legacies table: Exalted, associated with Chaotic Good planes; Heavenly, associated with Lawful Good planes; or Idyllic, associated with Neutral Good planes. You gain the initial benefit of the chosen legacy: a cantrip that you learn. You also choose the animal you most closely resemble; the table provides a few suggestions for each legacy (you don't gain wings by choosing an animal that can fly).",
+						"Starting at 3rd level and again at 5th level, you gain the ability to cast a higher-level Spell with this trait, as shown on the table. Once you cast the Spell with this trait, you can't cast that Spell with it again until you finish a  {@variantrule Long Rest|XUA2022CharacterOptions}; however, you can cast the Spell using any Spell Slots you have of the appropriate level. Intelligence, Wisdom, or Charisma is your spellcasting ability for the Spells you cast with this trait (choose the ability when you select the legacy).",
+						{
+							"type": "table",
+							"caption": "Celestial Legacies",
+							"colLabels": [
+								"Legacy",
+								"Suggested Animals",
+								"1st Level",
+								"3rd Level",
+								"5th Level"
+							],
+							"colStyles": [
+								"col-2-4",
+								"col-2-4",
+								"col-2-4",
+								"col-2-4",
+								"col-2-4"
+							],
+							"rows": [
+								[
+									"Exalted",
+									"Cat, eagle, goat, mule",
+									"Thaumaturgy",
+									"Divine Favor",
+									"Lesser Restoration"
+								],
+								[
+									"Heavenly",
+									"Elephant, owl, pig, stork",
+									"Light",
+									"Cure Wounds",
+									"Zone of Truth"
+								],
+								[
+									"Idyllic",
+									"Bear, dog, raven, toad",
+									"Guidance",
+									"Healing Word",
+									"Animal Messenger"
+								]
+							]
+						}
 					]
 				},
 				{
 					"type": "entries",
-					"name": "Versatile",
+					"name": "Damage Resistance",
 					"entries": [
-						"You gain the Skilled Feat or another 1st-level Feat of your choice."
+						"You have Resistance to Radiant Damage."
 					]
 				}
 			],
 			"fluff": {
 				"_raceFluff": {
-					"name": "Human",
+					"name": "Ardling",
 					"source": "XUA2022CharacterOptions"
 				}
-			}
-		},
-		{
-			"name": "Ardling",
-			"source": "XUA2022CharacterOptions",
-			"page": 3,
+			},
 			"_versions": [
 				{
 					"name": "Ardling; Exalted",
@@ -323,240 +2027,12 @@
 						}
 					]
 				}
-			],
-			"resist": [
-				"radiant"
-			],
-			"creatureTypes": [
-				"humanoid"
-			],
-			"size": [
-				"S",
-				"M"
-			],
-			"speed": 30,
-			"age": {
-				"average": 80
-			},
-			"entries": [
-				{
-					"type": "list",
-					"style": "list-hang-notitle",
-					"items": [
-						{
-							"type": "item",
-							"name": "Creature Type:",
-							"entries": [
-								"Humanoid"
-							]
-						},
-						{
-							"type": "item",
-							"name": "Size:",
-							"entries": [
-								"Medium (about 4\u20137 feet tall) or Small (about 3\u20134 feet tall), chosen when you select this Race"
-							]
-						},
-						{
-							"type": "item",
-							"name": "Speed:",
-							"entries": [
-								"30 feet"
-							]
-						},
-						{
-							"name": "Life Span:",
-							"type": "item",
-							"entries": [
-								"200 years on average"
-							]
-						}
-					]
-				},
-				"As an Ardling, you have these special traits.",
-				{
-					"type": "entries",
-					"name": "Angelic Flight",
-					"entries": [
-						"As a Bonus Action, you sprout spectral wings for a moment and fly up to a number of feet equal to your Speed. If you are in the air at the end of this movement, you fall if nothing is holding you aloft.",
-						"You can use this Bonus Action a number of times equal to your Proficiency Bonus, and you regain all expended uses when you finish a  {@variantrule Long Rest|XUA2022CharacterOptions}."
-					]
-				},
-				{
-					"type": "entries",
-					"name": "Celestial Legacy",
-					"entries": [
-						"You are the recipient of a celestial legacy that grants you magical abilities. Choose a legacy from the Celestial Legacies table: Exalted, associated with Chaotic Good planes; Heavenly, associated with Lawful Good planes; or Idyllic, associated with Neutral Good planes. You gain the initial benefit of the chosen legacy: a cantrip that you learn. You also choose the animal you most closely resemble; the table provides a few suggestions for each legacy (you don't gain wings by choosing an animal that can fly).",
-						"Starting at 3rd level and again at 5th level, you gain the ability to cast a higher-level Spell with this trait, as shown on the table. Once you cast the Spell with this trait, you can't cast that Spell with it again until you finish a  {@variantrule Long Rest|XUA2022CharacterOptions}; however, you can cast the Spell using any Spell Slots you have of the appropriate level. Intelligence, Wisdom, or Charisma is your spellcasting ability for the Spells you cast with this trait (choose the ability when you select the legacy).",
-						{
-							"type": "table",
-							"caption": "Celestial Legacies",
-							"colLabels": [
-								"Legacy",
-								"Suggested Animals",
-								"1st Level",
-								"3rd Level",
-								"5th Level"
-							],
-							"colStyles": [
-								"col-2-4",
-								"col-2-4",
-								"col-2-4",
-								"col-2-4",
-								"col-2-4"
-							],
-							"rows": [
-								[
-									"Exalted",
-									"Cat, eagle, goat, mule",
-									"Thaumaturgy",
-									"Divine Favor",
-									"Lesser Restoration"
-								],
-								[
-									"Heavenly",
-									"Elephant, owl, pig, stork",
-									"Light",
-									"Cure Wounds",
-									"Zone of Truth"
-								],
-								[
-									"Idyllic",
-									"Bear, dog, raven, toad",
-									"Guidance",
-									"Healing Word",
-									"Animal Messenger"
-								]
-							]
-						}
-					]
-				},
-				{
-					"type": "entries",
-					"name": "Damage Resistance",
-					"entries": [
-						"You have Resistance to Radiant Damage."
-					]
-				}
-			],
-			"fluff": {
-				"_raceFluff": {
-					"name": "Ardling",
-					"source": "XUA2022CharacterOptions"
-				}
-			}
+			]
 		},
 		{
 			"name": "Dragonborn",
 			"source": "XUA2022CharacterOptions",
 			"page": 4,
-			"darkvision": 60,
-			"_versions": [
-				{
-					"_template": {
-						"name": "Dragonborn; {{color}}",
-						"source": "XUA2022CharacterOptions",
-						"_mod": {
-							"entries": [
-								{
-									"mode": "removeArr",
-									"names": "Draconic Ancestry"
-								},
-								{
-									"mode": "replaceArr",
-									"replace": "Breath Weapon",
-									"items": {
-										"type": "entries",
-										"name": "Breath Weapon",
-										"entries": [
-											"As an Action, you exhale destructive energy in a 15-foot cone. Each creature in that area must make a Dexterity saving throw against a DC equal to 8 + your Constitution modifier + your Proficiency Bonus. On a failed save, a creature takes {@damage 1d10} + your character level in {{damage type}} damage. On a successful save, a creature takes half as much damage.",
-											"You can use this Breath Weapon a number of times equal to your Proficiency Bonus, and you regain all expended uses when you finish a  {@variantrule Long Rest|XUA2022CharacterOptions}."
-										]
-									}
-								},
-								{
-									"mode": "replaceArr",
-									"replace": "Damage Resistance",
-									"items": {
-										"type": "entries",
-										"name": "Damage Resistance",
-										"entries": [
-											"You have Resistance to {{damageType}} damage."
-										]
-									}
-								}
-							]
-						}
-					},
-					"_implementations": [
-						{
-							"_variables": {
-								"color": "Black",
-								"damageType": "acid"
-							}
-						},
-						{
-							"_variables": {
-								"color": "Blue",
-								"damageType": "lightning"
-							}
-						},
-						{
-							"_variables": {
-								"color": "Brass",
-								"damageType": "fire"
-							}
-						},
-						{
-							"_variables": {
-								"color": "Bronze",
-								"damageType": "Lightning"
-							}
-						},
-						{
-							"_variables": {
-								"color": "Copper",
-								"damageType": "acid"
-							}
-						},
-						{
-							"_variables": {
-								"color": "Gold",
-								"damageType": "fire"
-							}
-						},
-						{
-							"_variables": {
-								"color": "Green",
-								"damageType": "poison"
-							}
-						},
-						{
-							"_variables": {
-								"color": "Red",
-								"damageType": "fire"
-							}
-						},
-						{
-							"_variables": {
-								"color": "Silver",
-								"damageType": "cold"
-							}
-						},
-						{
-							"_variables": {
-								"color": "White",
-								"damageType": "cold"
-							}
-						}
-					]
-				}
-			],
-			"languageProficiencies": [
-				{
-					"draconic": true
-				}
-			],
 			"creatureTypes": [
 				"humanoid"
 			],
@@ -567,6 +2043,12 @@
 			"age": {
 				"average": 80
 			},
+			"darkvision": 60,
+			"languageProficiencies": [
+				{
+					"draconic": true
+				}
+			],
 			"soundClip": {
 				"type": "internal",
 				"path": "races/dragonborn.mp3"
@@ -703,20 +2185,113 @@
 					"name": "Dragonborn",
 					"source": "XUA2022CharacterOptions"
 				}
-			}
+			},
+			"_versions": [
+				{
+					"_template": {
+						"name": "Dragonborn; {{color}}",
+						"source": "XUA2022CharacterOptions",
+						"_mod": {
+							"entries": [
+								{
+									"mode": "removeArr",
+									"names": "Draconic Ancestry"
+								},
+								{
+									"mode": "replaceArr",
+									"replace": "Breath Weapon",
+									"items": {
+										"type": "entries",
+										"name": "Breath Weapon",
+										"entries": [
+											"As an Action, you exhale destructive energy in a 15-foot cone. Each creature in that area must make a Dexterity saving throw against a DC equal to 8 + your Constitution modifier + your Proficiency Bonus. On a failed save, a creature takes {@damage 1d10} + your character level in {{damage type}} damage. On a successful save, a creature takes half as much damage.",
+											"You can use this Breath Weapon a number of times equal to your Proficiency Bonus, and you regain all expended uses when you finish a  {@variantrule Long Rest|XUA2022CharacterOptions}."
+										]
+									}
+								},
+								{
+									"mode": "replaceArr",
+									"replace": "Damage Resistance",
+									"items": {
+										"type": "entries",
+										"name": "Damage Resistance",
+										"entries": [
+											"You have Resistance to {{damageType}} damage."
+										]
+									}
+								}
+							]
+						}
+					},
+					"_implementations": [
+						{
+							"_variables": {
+								"color": "Black",
+								"damageType": "acid"
+							}
+						},
+						{
+							"_variables": {
+								"color": "Blue",
+								"damageType": "lightning"
+							}
+						},
+						{
+							"_variables": {
+								"color": "Brass",
+								"damageType": "fire"
+							}
+						},
+						{
+							"_variables": {
+								"color": "Bronze",
+								"damageType": "Lightning"
+							}
+						},
+						{
+							"_variables": {
+								"color": "Copper",
+								"damageType": "acid"
+							}
+						},
+						{
+							"_variables": {
+								"color": "Gold",
+								"damageType": "fire"
+							}
+						},
+						{
+							"_variables": {
+								"color": "Green",
+								"damageType": "poison"
+							}
+						},
+						{
+							"_variables": {
+								"color": "Red",
+								"damageType": "fire"
+							}
+						},
+						{
+							"_variables": {
+								"color": "Silver",
+								"damageType": "cold"
+							}
+						},
+						{
+							"_variables": {
+								"color": "White",
+								"damageType": "cold"
+							}
+						}
+					]
+				}
+			]
 		},
 		{
 			"name": "Dwarf",
 			"source": "XUA2022CharacterOptions",
 			"page": 5,
-			"darkvision": 60,
-			"resist": [
-				"poison"
-			],
-			"soundClip": {
-				"type": "internal",
-				"path": "races/dwarf.mp3"
-			},
 			"creatureTypes": [
 				"humanoid"
 			],
@@ -726,6 +2301,14 @@
 			"speed": 30,
 			"age": {
 				"average": 350
+			},
+			"darkvision": 60,
+			"resist": [
+				"poison"
+			],
+			"soundClip": {
+				"type": "internal",
+				"path": "races/dwarf.mp3"
 			},
 			"entries": [
 				{
@@ -811,232 +2394,6 @@
 			"name": "Elf",
 			"source": "XUA2022CharacterOptions",
 			"page": 6,
-			"darkvision": 60,
-			"_versions": [
-				{
-					"name": "Elf; Drow",
-					"source": "XUA2022CharacterOptions",
-					"_mod": {
-						"entries": [
-							{
-								"mode": "replaceArr",
-								"replace": "Elven Lineage",
-								"items": {
-									"name": "Elven Lineage",
-									"entries": [
-										"You are part of a Drow lineage that grants you supernatural abilities.",
-										"The range of your Darkvision increases to 120 feet. You also know the {@spell Dancing Lights} cantrip.",
-										"Starting at 3rd level and again at 5th level, you also gain the ability to cast a Spell with this trait. Once you cast the Spell with this trait, you can't cast that Spell with it again until you finish a {@variantrule Long Rest|XUA2022CharacterOptions}; however, you can cast the Spell using any Spell Slots you have of the appropriate level.",
-										"Intelligence, Wisdom, or Charisma is your spellcasting ability for the Spells you cast with this trait (choose the ability when you select the lineage).",
-										{
-											"type": "table",
-											"caption": "Drow Lineage Spells",
-											"colLabels": [
-												"Level",
-												"Spells"
-											],
-											"colStyles": [
-												"col-2",
-												"col-10"
-											],
-											"rows": [
-												[
-													"1st",
-													"{@spell Dancing Lights}"
-												],
-												[
-													"3rd",
-													"{@spell Faerie Fire}"
-												],
-												[
-													"5th",
-													"{@spell Darkness}"
-												]
-											]
-										}
-									]
-								}
-							},
-							{
-								"mode": "replaceArr",
-								"replace": "Darkvision",
-								"items": {
-									"name": "Darkvision",
-									"entries": "You have {@sense Darkvision} with a range of 120 feet."
-								}
-							}
-						]
-					},
-					"additionalSpells": [
-						{
-							"ability": {
-								"choose": [
-									"int",
-									"wis",
-									"cha"
-								]
-							},
-							"known": {
-								"1": [
-									"dancing lights#c"
-								],
-								"3": [
-									"faerie fire"
-								],
-								"5": [
-									"darkness"
-								]
-							}
-						}
-					]
-				},
-				{
-					"name": "Elf (High)",
-					"source": "XUA2022CharacterOptions",
-					"_mod": {
-						"entries": [
-							{
-								"mode": "replaceArr",
-								"replace": "Elven Lineage",
-								"items": {
-									"name": "Elven Lineage",
-									"entries": [
-										"You are part of a High Elven lineage that grants you supernatural abilities.",
-										"You know the {@spell Prestidigitation} cantrip. Whenever you finish a {@variantrule Long Rest|XUA2022CharacterOptions}, you can replace that cantrip with a different cantrip from the {@variantrule Arcane Spells|XUA2022CharacterOptions|Arcane Spell List.}",
-										"Starting at 3rd level and again at 5th level, you also gain the ability to cast a Spell with this trait. Once you cast the Spell with this trait, you can't cast that Spell with it again until you finish a {@variantrule Long Rest|XUA2022CharacterOptions}; however, you can cast the Spell using any Spell Slots you have of the appropriate level.",
-										"Intelligence, Wisdom, or Charisma is your spellcasting ability for the Spells you cast with this trait (choose the ability when you select the lineage).",
-										{
-											"type": "table",
-											"caption": "High Elven Lineage spells",
-											"colLabels": [
-												"Level",
-												"Spells"
-											],
-											"colStyles": [
-												"col-2",
-												"col-10"
-											],
-											"rows": [
-												[
-													"1st",
-													"{@spell Prestidigitation}"
-												],
-												[
-													"3rd",
-													"{@spell Detect Magic}"
-												],
-												[
-													"5th",
-													"{@spell Misty Step}"
-												]
-											]
-										}
-									]
-								}
-							}
-						]
-					},
-					"additionalSpells": [
-						{
-							"ability": {
-								"choose": [
-									"int",
-									"wis",
-									"cha"
-								]
-							},
-							"known": {
-								"1": [
-									"prestidigitation#c"
-								],
-								"3": [
-									"detect magic"
-								],
-								"5": [
-									"misty step"
-								]
-							}
-						}
-					]
-				},
-				{
-					"name": "Elf; Wood",
-					"source": "XUA2022CharacterOptions",
-					"_mod": {
-						"entries": [
-							{
-								"mode": "replaceArr",
-								"replace": "Elven Lineage",
-								"items": {
-									"name": "Elven Lineage",
-									"entries": [
-										"You are part of a Wood Elven lineage that grants you supernatural abilities.",
-										"Your Speed increases to 35 feet. You also know the {@spell Druidcraft} cantrip.",
-										"Starting at 3rd level and again at 5th level, you also gain the ability to cast a Spell with this trait. Once you cast the Spell with this trait, you can't cast that Spell with it again until you finish a {@variantrule Long Rest|XUA2022CharacterOptions}; however, you can cast the Spell using any Spell Slots you have of the appropriate level.",
-										"Intelligence, Wisdom, or Charisma is your spellcasting ability for the Spells you cast with this trait (choose the ability when you select the lineage).",
-										{
-											"type": "table",
-											"caption": "Wood Elven Lineage Spells",
-											"colLabels": [
-												"Level",
-												"Spells"
-											],
-											"colStyles": [
-												"col-2",
-												"col-10"
-											],
-											"rows": [
-												[
-													"1st",
-													"{@spell Druidcraft}"
-												],
-												[
-													"3rd",
-													"{@spell Longstrider}"
-												],
-												[
-													"5th",
-													"{@spell Pass without Trace}"
-												]
-											]
-										}
-									]
-								}
-							}
-						]
-					},
-					"additionalSpells": [
-						{
-							"ability": {
-								"choose": [
-									"int",
-									"wis",
-									"cha"
-								]
-							},
-							"known": {
-								"1": [
-									"druidcraft#c"
-								],
-								"3": [
-									"longstrider"
-								],
-								"5": [
-									"pass without trace"
-								]
-							}
-						}
-					]
-				}
-			],
-			"traitTags": [
-				"Improved Resting"
-			],
-			"skillProficiencies": [
-				{
-					"perception": true
-				}
-			],
 			"creatureTypes": [
 				"humanoid"
 			],
@@ -1047,6 +2404,15 @@
 			"age": {
 				"average": 750
 			},
+			"darkvision": 60,
+			"traitTags": [
+				"Improved Resting"
+			],
+			"skillProficiencies": [
+				{
+					"perception": true
+				}
+			],
 			"soundClip": {
 				"type": "internal",
 				"path": "races/elf.mp3"
@@ -1166,28 +2532,49 @@
 					"name": "Elf",
 					"source": "XUA2022CharacterOptions"
 				}
-			}
-		},
-		{
-			"name": "Gnome",
-			"source": "XUA2022CharacterOptions",
-			"page": 7,
-			"darkvision": 60,
+			},
 			"_versions": [
 				{
-					"name": "Gnome; Forest",
+					"name": "Elf (High)",
 					"source": "XUA2022CharacterOptions",
 					"_mod": {
 						"entries": [
 							{
 								"mode": "replaceArr",
-								"replace": "Gnomish Lineage",
+								"replace": "Elven Lineage",
 								"items": {
-									"name": "Gnomish Lineage",
+									"name": "Elven Lineage",
 									"entries": [
-										"You are part of a Forest Gnome lineage that grants you supernatural abilities.",
-										"You know the {@spell Minor Illusion} cantrip. You can also cast the {@spell Speak with Animals} Spell with this trait. You can cast it with the trait a number of times equal to your Proficiency Bonus, and you regain all expended uses when you finish a {@variantrule Long Rest|XUA2022CharacterOptions}. You can also use any Spell Slots you have to cast the Spell.",
-										"Intelligence, Wisdom, or Charisma is your spellcasting ability for the Spells you cast with this trait (choose the ability when you select the lineage)."
+										"You are part of a High Elven lineage that grants you supernatural abilities.",
+										"You know the {@spell Prestidigitation} cantrip. Whenever you finish a {@variantrule Long Rest|XUA2022CharacterOptions}, you can replace that cantrip with a different cantrip from the {@variantrule Arcane Spells|XUA2022CharacterOptions|Arcane Spell List.}",
+										"Starting at 3rd level and again at 5th level, you also gain the ability to cast a Spell with this trait. Once you cast the Spell with this trait, you can't cast that Spell with it again until you finish a {@variantrule Long Rest|XUA2022CharacterOptions}; however, you can cast the Spell using any Spell Slots you have of the appropriate level.",
+										"Intelligence, Wisdom, or Charisma is your spellcasting ability for the Spells you cast with this trait (choose the ability when you select the lineage).",
+										{
+											"type": "table",
+											"caption": "High Elven Lineage spells",
+											"colLabels": [
+												"Level",
+												"Spells"
+											],
+											"colStyles": [
+												"col-2",
+												"col-10"
+											],
+											"rows": [
+												[
+													"1st",
+													"{@spell Prestidigitation}"
+												],
+												[
+													"3rd",
+													"{@spell Detect Magic}"
+												],
+												[
+													"5th",
+													"{@spell Misty Step}"
+												]
+											]
+										}
 									]
 								}
 							}
@@ -1204,27 +2591,136 @@
 							},
 							"known": {
 								"1": [
-									"minor illusion#c",
-									"speak with animals"
+									"prestidigitation#c"
+								],
+								"3": [
+									"detect magic"
+								],
+								"5": [
+									"misty step"
 								]
 							}
 						}
 					]
 				},
 				{
-					"name": "Gnome; Rock",
+					"name": "Elf; Drow",
 					"source": "XUA2022CharacterOptions",
 					"_mod": {
 						"entries": [
 							{
 								"mode": "replaceArr",
-								"replace": "Gnomish Lineage",
+								"replace": "Elven Lineage",
 								"items": {
-									"name": "Gnomish Lineage",
+									"name": "Elven Lineage",
 									"entries": [
-										"You are part of a Rock Gnome lineage that grants you supernatural abilities.",
-										"You know the {@spell Mending} and {@spell Prestidigitation} cantrips.In addition, you can spend 10 minutes casting Prestidigitation to create a Tiny clockwork device (AC 5, 1 HP), such as a toy, a fire starter, or a music box. Casting the Spell in this way consumes 10 GP worth of raw material (string, gears, and the like), which you provide during the casting. When you create the device, you determine its function by choosing one effect from Prestidigitation; the device produces that effect whenever you or another creature takes a Bonus Action to touch the device and activate it. If the chosen effect has options within it, you choose one of those options for the device when you create it. For example, if you choose the spell's ignite-extinguish effect, you determine whether the device ignites or extinguishes fire; the device doesn't do both. You can have three such devices in existence at a time, and each one dismantles itself 8 hours after its creation. You can also touch one of your devices and dismantle it as an Action. After a device is dismantled, the 10 GP of materials used to create it can be reclaimed.",
-										"Intelligence, Wisdom, or Charisma is your spellcasting ability for the Spells you cast with this trait (choose the ability when you select the lineage)."
+										"You are part of a Drow lineage that grants you supernatural abilities.",
+										"The range of your Darkvision increases to 120 feet. You also know the {@spell Dancing Lights} cantrip.",
+										"Starting at 3rd level and again at 5th level, you also gain the ability to cast a Spell with this trait. Once you cast the Spell with this trait, you can't cast that Spell with it again until you finish a {@variantrule Long Rest|XUA2022CharacterOptions}; however, you can cast the Spell using any Spell Slots you have of the appropriate level.",
+										"Intelligence, Wisdom, or Charisma is your spellcasting ability for the Spells you cast with this trait (choose the ability when you select the lineage).",
+										{
+											"type": "table",
+											"caption": "Drow Lineage Spells",
+											"colLabels": [
+												"Level",
+												"Spells"
+											],
+											"colStyles": [
+												"col-2",
+												"col-10"
+											],
+											"rows": [
+												[
+													"1st",
+													"{@spell Dancing Lights}"
+												],
+												[
+													"3rd",
+													"{@spell Faerie Fire}"
+												],
+												[
+													"5th",
+													"{@spell Darkness}"
+												]
+											]
+										}
+									]
+								}
+							},
+							{
+								"mode": "replaceArr",
+								"replace": "Darkvision",
+								"items": {
+									"name": "Darkvision",
+									"entries": "You have {@sense Darkvision} with a range of 120 feet."
+								}
+							}
+						]
+					},
+					"additionalSpells": [
+						{
+							"ability": {
+								"choose": [
+									"int",
+									"wis",
+									"cha"
+								]
+							},
+							"known": {
+								"1": [
+									"dancing lights#c"
+								],
+								"3": [
+									"faerie fire"
+								],
+								"5": [
+									"darkness"
+								]
+							}
+						}
+					]
+				},
+				{
+					"name": "Elf; Wood",
+					"source": "XUA2022CharacterOptions",
+					"_mod": {
+						"entries": [
+							{
+								"mode": "replaceArr",
+								"replace": "Elven Lineage",
+								"items": {
+									"name": "Elven Lineage",
+									"entries": [
+										"You are part of a Wood Elven lineage that grants you supernatural abilities.",
+										"Your Speed increases to 35 feet. You also know the {@spell Druidcraft} cantrip.",
+										"Starting at 3rd level and again at 5th level, you also gain the ability to cast a Spell with this trait. Once you cast the Spell with this trait, you can't cast that Spell with it again until you finish a {@variantrule Long Rest|XUA2022CharacterOptions}; however, you can cast the Spell using any Spell Slots you have of the appropriate level.",
+										"Intelligence, Wisdom, or Charisma is your spellcasting ability for the Spells you cast with this trait (choose the ability when you select the lineage).",
+										{
+											"type": "table",
+											"caption": "Wood Elven Lineage Spells",
+											"colLabels": [
+												"Level",
+												"Spells"
+											],
+											"colStyles": [
+												"col-2",
+												"col-10"
+											],
+											"rows": [
+												[
+													"1st",
+													"{@spell Druidcraft}"
+												],
+												[
+													"3rd",
+													"{@spell Longstrider}"
+												],
+												[
+													"5th",
+													"{@spell Pass without Trace}"
+												]
+											]
+										}
 									]
 								}
 							}
@@ -1241,14 +2737,24 @@
 							},
 							"known": {
 								"1": [
-									"mending#c",
-									"prestidigitation#c"
+									"druidcraft#c"
+								],
+								"3": [
+									"longstrider"
+								],
+								"5": [
+									"pass without trace"
 								]
 							}
 						}
 					]
 				}
-			],
+			]
+		},
+		{
+			"name": "Gnome",
+			"source": "XUA2022CharacterOptions",
+			"page": 7,
 			"creatureTypes": [
 				"humanoid"
 			],
@@ -1259,6 +2765,7 @@
 			"age": {
 				"average": 425
 			},
+			"darkvision": 60,
 			"soundClip": {
 				"type": "internal",
 				"path": "races/gnome.mp3"
@@ -1349,17 +2856,88 @@
 					"name": "Gnome",
 					"source": "XUA2022CharacterOptions"
 				}
-			}
+			},
+			"_versions": [
+				{
+					"name": "Gnome; Forest",
+					"source": "XUA2022CharacterOptions",
+					"_mod": {
+						"entries": [
+							{
+								"mode": "replaceArr",
+								"replace": "Gnomish Lineage",
+								"items": {
+									"name": "Gnomish Lineage",
+									"entries": [
+										"You are part of a Forest Gnome lineage that grants you supernatural abilities.",
+										"You know the {@spell Minor Illusion} cantrip. You can also cast the {@spell Speak with Animals} Spell with this trait. You can cast it with the trait a number of times equal to your Proficiency Bonus, and you regain all expended uses when you finish a {@variantrule Long Rest|XUA2022CharacterOptions}. You can also use any Spell Slots you have to cast the Spell.",
+										"Intelligence, Wisdom, or Charisma is your spellcasting ability for the Spells you cast with this trait (choose the ability when you select the lineage)."
+									]
+								}
+							}
+						]
+					},
+					"additionalSpells": [
+						{
+							"ability": {
+								"choose": [
+									"int",
+									"wis",
+									"cha"
+								]
+							},
+							"known": {
+								"1": [
+									"minor illusion#c",
+									"speak with animals"
+								]
+							}
+						}
+					]
+				},
+				{
+					"name": "Gnome; Rock",
+					"source": "XUA2022CharacterOptions",
+					"_mod": {
+						"entries": [
+							{
+								"mode": "replaceArr",
+								"replace": "Gnomish Lineage",
+								"items": {
+									"name": "Gnomish Lineage",
+									"entries": [
+										"You are part of a Rock Gnome lineage that grants you supernatural abilities.",
+										"You know the {@spell Mending} and {@spell Prestidigitation} cantrips.In addition, you can spend 10 minutes casting Prestidigitation to create a Tiny clockwork device (AC 5, 1 HP), such as a toy, a fire starter, or a music box. Casting the Spell in this way consumes 10 GP worth of raw material (string, gears, and the like), which you provide during the casting. When you create the device, you determine its function by choosing one effect from Prestidigitation; the device produces that effect whenever you or another creature takes a Bonus Action to touch the device and activate it. If the chosen effect has options within it, you choose one of those options for the device when you create it. For example, if you choose the spell's ignite-extinguish effect, you determine whether the device ignites or extinguishes fire; the device doesn't do both. You can have three such devices in existence at a time, and each one dismantles itself 8 hours after its creation. You can also touch one of your devices and dismantle it as an Action. After a device is dismantled, the 10 GP of materials used to create it can be reclaimed.",
+										"Intelligence, Wisdom, or Charisma is your spellcasting ability for the Spells you cast with this trait (choose the ability when you select the lineage)."
+									]
+								}
+							}
+						]
+					},
+					"additionalSpells": [
+						{
+							"ability": {
+								"choose": [
+									"int",
+									"wis",
+									"cha"
+								]
+							},
+							"known": {
+								"1": [
+									"mending#c",
+									"prestidigitation#c"
+								]
+							}
+						}
+					]
+				}
+			]
 		},
 		{
 			"name": "Halfling",
 			"source": "XUA2022CharacterOptions",
 			"page": 8,
-			"skillProficiencies": [
-				{
-					"stealth": true
-				}
-			],
 			"creatureTypes": [
 				"humanoid"
 			],
@@ -1370,6 +2948,11 @@
 			"age": {
 				"average": 150
 			},
+			"skillProficiencies": [
+				{
+					"stealth": true
+				}
+			],
 			"soundClip": {
 				"type": "internal",
 				"path": "races/halfling.mp3"
@@ -1447,13 +3030,103 @@
 			}
 		},
 		{
+			"name": "Human",
+			"source": "XUA2022CharacterOptions",
+			"page": 2,
+			"creatureTypes": [
+				"humanoid"
+			],
+			"size": [
+				"S",
+				"M"
+			],
+			"speed": 30,
+			"age": {
+				"average": 80
+			},
+			"feats": [
+				{
+					"any": 1
+				}
+			],
+			"skillProficiencies": [
+				{
+					"any": 1
+				}
+			],
+			"soundClip": {
+				"type": "internal",
+				"path": "races/human.mp3"
+			},
+			"entries": [
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"items": [
+						{
+							"name": "Creature Type:",
+							"type": "item",
+							"entries": [
+								"Humanoid"
+							]
+						},
+						{
+							"type": "item",
+							"name": "Size:",
+							"entries": [
+								"Medium (about 4\u20137 feet tall) or Small (about 2\u20134 feet tall), chosen when you select this Race"
+							]
+						},
+						{
+							"name": "Speed:",
+							"type": "item",
+							"entries": [
+								"30 feet"
+							]
+						},
+						{
+							"name": "Life Span:",
+							"type": "item",
+							"entries": [
+								"80 years on average"
+							]
+						}
+					]
+				},
+				"As a human, you have these special traits.",
+				{
+					"type": "entries",
+					"name": "Resourceful",
+					"entries": [
+						"You gain Inspiration whenever you finish a {@variantrule Long Rest|XUA2022CharacterOptions}."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Skillful",
+					"entries": [
+						"You gain Proficiency in one Skill of your choice."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Versatile",
+					"entries": [
+						"You gain the Skilled Feat or another 1st-level Feat of your choice."
+					]
+				}
+			],
+			"fluff": {
+				"_raceFluff": {
+					"name": "Human",
+					"source": "XUA2022CharacterOptions"
+				}
+			}
+		},
+		{
 			"name": "Orc",
 			"source": "XUA2022CharacterOptions",
 			"page": 9,
-			"darkvision": 60,
-			"traitTags": [
-				"Powerful Build"
-			],
 			"creatureTypes": [
 				"humanoid"
 			],
@@ -1464,6 +3137,10 @@
 			"age": {
 				"average": 80
 			},
+			"darkvision": 60,
+			"traitTags": [
+				"Powerful Build"
+			],
 			"entries": [
 				{
 					"type": "list",
@@ -1541,7 +3218,138 @@
 			"name": "Tiefling",
 			"source": "XUA2022CharacterOptions",
 			"page": 2,
+			"creatureTypes": [
+				"humanoid"
+			],
+			"size": [
+				"S",
+				"M"
+			],
+			"speed": 30,
+			"age": {
+				"average": 100
+			},
 			"darkvision": 60,
+			"soundClip": {
+				"type": "internal",
+				"path": "races/Tiefling.mp3"
+			},
+			"additionalSpells": [
+				{
+					"ability": {
+						"choose": [
+							"int",
+							"wis",
+							"cha"
+						]
+					},
+					"known": {
+						"1": [
+							"thaumaturgy#c"
+						]
+					}
+				}
+			],
+			"entries": [
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"items": [
+						{
+							"type": "item",
+							"name": "Creature Type",
+							"entries": [
+								"Humanoid"
+							]
+						},
+						{
+							"type": "item",
+							"name": "Size:",
+							"entries": [
+								"Medium (about 4\u20137 feet tall) or Small (about 3\u20134 feet tall) , chosen when you select this Race"
+							]
+						},
+						{
+							"type": "item",
+							"name": "Speed:",
+							"entries": [
+								"30 feet"
+							]
+						},
+						{
+							"name": "Life Span:",
+							"type": "item",
+							"entries": [
+								"100 years on average"
+							]
+						}
+					]
+				},
+				"As a Tiefling, you have these special traits.",
+				{
+					"type": "entries",
+					"name": "Darkvision",
+					"entries": [
+						"You have {@sense Darkvision} with a range of 60 feet."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Fiendish Legacy",
+					"entries": [
+						"You are the recipient of a fiendish legacy that grants you supernatural abilities. Choose a legacy from the Fiendish Legacies table: Abyssal, associated with Chaotic Evil planes; Chthonic, associated with Neutral Evil planes; or Infernal, associated with Lawful Evil planes. You gain the 1st-level benefit of the chosen legacy.",
+						"Starting at 3rd level and again at 5th level, you gain the ability to cast a higher-level Spell with this trait, as shown on the table. Once you cast the Spell with this trait, you can't cast that Spell with it again until you finish a {@variantrule Long Rest|XUA2022CharacterOptions}; however, you can cast the Spell using any Spell Slots you have of the appropriate level.",
+						"Intelligence, Wisdom, or Charisma is your spellcasting ability for the Spells you cast with this trait (choose the ability when you select the lineage).",
+						{
+							"type": "table",
+							"caption": "Fiendish Legacies",
+							"colLabels": [
+								"Legacy",
+								"1st Level",
+								"3rd Level",
+								"5th Level"
+							],
+							"colStyles": [
+								"col-1 text-center",
+								"col-11"
+							],
+							"rows": [
+								[
+									"Abyssal",
+									"You have Resistance to Poison Damage. You also know the {@spell Poison Spray} cantrip.",
+									"Ray of Sickness",
+									"Hold Person"
+								],
+								[
+									"Chthonic",
+									"You have Resistance to Necrotic Damage. You also know the {@spell Chill Touch} cantrip.",
+									"False Life",
+									"Ray of Enfeeblement"
+								],
+								[
+									"Infernal",
+									"You have Resistance to Fire Damage. You also know the {@spell Fire Bolt} cantrip.",
+									"Hellish Rebuke",
+									"Darkness"
+								]
+							]
+						}
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Otherworldly Presence",
+					"entries": [
+						"You know the {@spell Thaumaturgy} cantrip. When you cast it with this trait, the Spell uses the same spellcasting ability you use for your Fiendish Legacy trait."
+					]
+				}
+			],
+			"fluff": {
+				"_raceFluff": {
+					"name": "Tiefling",
+					"source": "XUA2022CharacterOptions"
+				}
+			},
 			"_versions": [
 				{
 					"name": "Tiefling; Abyssal",
@@ -1759,162 +3567,10 @@
 						}
 					]
 				}
-			],
-			"additionalSpells": [
-				{
-					"ability": {
-						"choose": [
-							"int",
-							"wis",
-							"cha"
-						]
-					},
-					"known": {
-						"1": [
-							"thaumaturgy#c"
-						]
-					}
-				}
-			],
-			"creatureTypes": [
-				"humanoid"
-			],
-			"size": [
-				"S",
-				"M"
-			],
-			"speed": 30,
-			"age": {
-				"average": 100
-			},
-			"soundClip": {
-				"type": "internal",
-				"path": "races/Tiefling.mp3"
-			},
-			"entries": [
-				{
-					"type": "list",
-					"style": "list-hang-notitle",
-					"items": [
-						{
-							"type": "item",
-							"name": "Creature Type",
-							"entries": [
-								"Humanoid"
-							]
-						},
-						{
-							"type": "item",
-							"name": "Size:",
-							"entries": [
-								"Medium (about 4\u20137 feet tall) or Small (about 3\u20134 feet tall) , chosen when you select this Race"
-							]
-						},
-						{
-							"type": "item",
-							"name": "Speed:",
-							"entries": [
-								"30 feet"
-							]
-						},
-						{
-							"name": "Life Span:",
-							"type": "item",
-							"entries": [
-								"100 years on average"
-							]
-						}
-					]
-				},
-				"As a Tiefling, you have these special traits.",
-				{
-					"type": "entries",
-					"name": "Darkvision",
-					"entries": [
-						"You have {@sense Darkvision} with a range of 60 feet."
-					]
-				},
-				{
-					"type": "entries",
-					"name": "Fiendish Legacy",
-					"entries": [
-						"You are the recipient of a fiendish legacy that grants you supernatural abilities. Choose a legacy from the Fiendish Legacies table: Abyssal, associated with Chaotic Evil planes; Chthonic, associated with Neutral Evil planes; or Infernal, associated with Lawful Evil planes. You gain the 1st-level benefit of the chosen legacy.",
-						"Starting at 3rd level and again at 5th level, you gain the ability to cast a higher-level Spell with this trait, as shown on the table. Once you cast the Spell with this trait, you can't cast that Spell with it again until you finish a {@variantrule Long Rest|XUA2022CharacterOptions}; however, you can cast the Spell using any Spell Slots you have of the appropriate level.",
-						"Intelligence, Wisdom, or Charisma is your spellcasting ability for the Spells you cast with this trait (choose the ability when you select the lineage).",
-						{
-							"type": "table",
-							"caption": "Fiendish Legacies",
-							"colLabels": [
-								"Legacy",
-								"1st Level",
-								"3rd Level",
-								"5th Level"
-							],
-							"colStyles": [
-								"col-1 text-center",
-								"col-11"
-							],
-							"rows": [
-								[
-									"Abyssal",
-									"You have Resistance to Poison Damage. You also know the {@spell Poison Spray} cantrip.",
-									"Ray of Sickness",
-									"Hold Person"
-								],
-								[
-									"Chthonic",
-									"You have Resistance to Necrotic Damage. You also know the {@spell Chill Touch} cantrip.",
-									"False Life",
-									"Ray of Enfeeblement"
-								],
-								[
-									"Infernal",
-									"You have Resistance to Fire Damage. You also know the {@spell Fire Bolt} cantrip.",
-									"Hellish Rebuke",
-									"Darkness"
-								]
-							]
-						}
-					]
-				},
-				{
-					"type": "entries",
-					"name": "Otherworldly Presence",
-					"entries": [
-						"You know the {@spell Thaumaturgy} cantrip. When you cast it with this trait, the Spell uses the same spellcasting ability you use for your Fiendish Legacy trait."
-					]
-				}
-			],
-			"fluff": {
-				"_raceFluff": {
-					"name": "Tiefling",
-					"source": "XUA2022CharacterOptions"
-				}
-			}
+			]
 		}
 	],
 	"raceFluff": [
-		{
-			"name": "Human",
-			"source": "XUA2022CharacterOptions",
-			"entries": [
-				"Found throughout the multiverse, humans are as varied as they are numerous. They are relatively short-lived, but they strive to achieve as much as they can in the years they are given. They are skilled pioneers and artisans. They are builders of nations, roads, cities, and ships. They strive to secure their place in the world and in the annals of history by creating art, amassing wealth, making laws, and questing for immortality. Their ambition and resourcefulness are commended, respected, and feared.",
-				"Humans are as diverse in appearance as the people of Earth, and they have many gods. Scholars dispute the origin of humanity, but one of the earliest known human gatherings is said to have occurred in Sigil, the torus-shaped city at the center of the multiverse and the place where the Common tongue was born. From there, humans could have spread to every corner of the multiverse, bringing Sigil's cosmopolitanism with them.",
-				{
-					"type": "entries",
-					"entries": [
-						{
-							"type": "entries",
-							"name": "Humans of Many Worlds",
-							"entries": [
-								"On any given world in the multiverse, the material culture of humans can change from one region to another. In the Forgotten Realms, for example, the clothing, architecture, cuisine, music, and literature are wildly different in the Western Heartlands than in the frozen north of Icewind Dale.",
-								"As humans migrate, they bring elements of their cultures with them, giving rise to diverse settlements that contain people with different physical characteristics, not to mention a medley of clothing styles, customs, and beliefs."
-							]
-						}
-					]
-				}
-			]
-		},
 		{
 			"name": "Ardling",
 			"source": "XUA2022CharacterOptions",
@@ -2117,6 +3773,27 @@
 			]
 		},
 		{
+			"name": "Human",
+			"source": "XUA2022CharacterOptions",
+			"entries": [
+				"Found throughout the multiverse, humans are as varied as they are numerous. They are relatively short-lived, but they strive to achieve as much as they can in the years they are given. They are skilled pioneers and artisans. They are builders of nations, roads, cities, and ships. They strive to secure their place in the world and in the annals of history by creating art, amassing wealth, making laws, and questing for immortality. Their ambition and resourcefulness are commended, respected, and feared.",
+				"Humans are as diverse in appearance as the people of Earth, and they have many gods. Scholars dispute the origin of humanity, but one of the earliest known human gatherings is said to have occurred in Sigil, the torus-shaped city at the center of the multiverse and the place where the Common tongue was born. From there, humans could have spread to every corner of the multiverse, bringing Sigil's cosmopolitanism with them.",
+				{
+					"type": "entries",
+					"entries": [
+						{
+							"type": "entries",
+							"name": "Humans of Many Worlds",
+							"entries": [
+								"On any given world in the multiverse, the material culture of humans can change from one region to another. In the Forgotten Realms, for example, the clothing, architecture, cuisine, music, and literature are wildly different in the Western Heartlands than in the frozen north of Icewind Dale.",
+								"As humans migrate, they bring elements of their cultures with them, giving rise to diverse settlements that contain people with different physical characteristics, not to mention a medley of clothing styles, customs, and beliefs."
+							]
+						}
+					]
+				}
+			]
+		},
+		{
 			"name": "Orc",
 			"source": "XUA2022CharacterOptions",
 			"entries": [
@@ -2196,1688 +3873,16 @@
 			]
 		}
 	],
-	"background": [
-		{
-			"name": "Acolyte",
-			"source": "XUA2022CharacterOptions",
-			"page": 11,
-			"skillProficiencies": [
-				{
-					"insight": true,
-					"religion": true
-				}
-			],
-			"languageProficiencies": [
-				{
-					"celestial": true
-				}
-			],
-			"toolProficiencies": [
-				{
-					"calligrapher's supplies": true
-				}
-			],
-			"feats": [
-				{
-					"magic initiate|XUA2022CharacterOptions": true
-				}
-			],
-			"ability": [
-				{
-					"wis": 2,
-					"int": 1
-				}
-			],
-			"entries": [
-				{
-					"type": "list",
-					"style": "list-hang-notitle",
-					"items": [
-						{
-							"type": "item",
-							"name": "Ability Scores:",
-							"entry": "+2 Wisdom, +1 Intelligence"
-						},
-						{
-							"type": "item",
-							"name": "Skill Proficiencies:",
-							"entry": "{@skill Insight}, {@skill Religion}"
-						},
-						{
-							"type": "item",
-							"name": "Tool Proficiencies:",
-							"entry": "{@item Calligrapher's Supplies|phb}"
-						},
-						{
-							"type": "item",
-							"name": "Languages:",
-							"entry": "{@language Celestial}"
-						},
-						{
-							"type": "item",
-							"name": "Feat:",
-							"entry": "{@feat Magic Initiate|XUA2022CharacterOptions} (Divine)"
-						}
-					]
-				},
-				{
-					"type": "list",
-					"style": "list-hang-notitle",
-					"name": "Equipment",
-					"columns": 2,
-					"items": [
-						"{@item Book|phb} (Prayers)",
-						"{@item Calligrapher's Supplies|phb}",
-						"{@item Holy Symbol|phb}",
-						"{@item parchment (one sheet)|phb|Parchment} (10 sheets)",
-						"{@item Robes|phb}",
-						"3 GP"
-					]
-				}
-			],
-			"fluff": {
-				"_backgroundFluff": {
-					"name": "Acolyte",
-					"source": "XUA2022CharacterOptions"
-				}
-			}
-		},
-		{
-			"name": "Artisan",
-			"source": "XUA2022CharacterOptions",
-			"page": 12,
-			"skillProficiencies": [
-				{
-					"investigation": true,
-					"persuasion": true
-				}
-			],
-			"languageProficiencies": [
-				{
-					"gnomish": true
-				}
-			],
-			"toolProficiencies": [
-				{
-					"artisan's tools": true
-				}
-			],
-			"feats": [
-				{
-					"crafter|XUA2022CharacterOptions": true
-				}
-			],
-			"ability": [
-				{
-					"int": 2,
-					"cha": 1
-				}
-			],
-			"entries": [
-				{
-					"type": "list",
-					"style": "list-hang-notitle",
-					"items": [
-						{
-							"type": "item",
-							"name": "Ability Scores:",
-							"entry": "+2 Intelligence, +1 Charisma"
-						},
-						{
-							"type": "item",
-							"name": "Skill Proficiencies:",
-							"entry": "{@skill Investigation}, {@skill Persuasion}"
-						},
-						{
-							"type": "item",
-							"name": "Tool Proficiencies:",
-							"entry": "{@item Artisan's Tools|phb}"
-						},
-						{
-							"type": "item",
-							"name": "Languages:",
-							"entry": "{@language Gnomish}"
-						},
-						{
-							"type": "item",
-							"name": "Feat:",
-							"entry": "{@feat Crafter|XUA2022CharacterOptions}"
-						}
-					]
-				},
-				{
-					"type": "list",
-					"style": "list-hang-notitle",
-					"name": "Equipment",
-					"columns": 2,
-					"items": [
-						"{@item Abacus|phb}",
-						"{@item Artisan's Tools|phb}",
-						"{@item Merchant's Scale|phb}",
-						"{@item Pouch|phb} (2)",
-						"{@item Traveler's Clothes|phb}",
-						"25 GP"
-					]
-				}
-			],
-			"fluff": {
-				"_backgroundFluff": {
-					"name": "Artisan",
-					"source": "XUA2022CharacterOptions"
-				}
-			}
-		},
-		{
-			"name": "Charlatan",
-			"source": "XUA2022CharacterOptions",
-			"page": 12,
-			"skillProficiencies": [
-				{
-					"deception": true,
-					"sleight of hand": true
-				}
-			],
-			"languageProficiencies": [
-				{
-					"infernal": true
-				}
-			],
-			"toolProficiencies": [
-				{
-					"forgery kit": true
-				}
-			],
-			"feats": [
-				{
-					"skilled|XUA2022CharacterOptions": true
-				}
-			],
-			"ability": [
-				{
-					"cha": 2,
-					"dex": 1
-				}
-			],
-			"entries": [
-				{
-					"type": "list",
-					"style": "list-hang-notitle",
-					"items": [
-						{
-							"type": "item",
-							"name": "Ability Scores:",
-							"entry": "+2 Charisma, +1 Dexterity"
-						},
-						{
-							"type": "item",
-							"name": "Skill Proficiencies:",
-							"entry": "{@skill Deception}, {@skill Sleight of Hand}"
-						},
-						{
-							"type": "item",
-							"name": "Tool Proficiencies:",
-							"entry": "{@item Forgery Kit|phb}"
-						},
-						{
-							"type": "item",
-							"name": "Languages:",
-							"entry": "{@language Infernal}"
-						},
-						{
-							"type": "item",
-							"name": "Feat:",
-							"entry": "{@feat Skilled|XUA2022CharacterOptions}"
-						}
-					]
-				},
-				{
-					"type": "list",
-					"style": "list-hang-notitle",
-					"name": "Equipment",
-					"columns": 2,
-					"items": [
-						"{@item costume clothes|phb|Costume}",
-						"{@item Fine Clothes|phb}",
-						"{@item Forgery Kit|phb}",
-						"15 GP"
-					]
-				}
-			],
-			"fluff": {
-				"_backgroundFluff": {
-					"name": "Charlatan",
-					"source": "XUA2022CharacterOptions"
-				}
-			}
-		},
-		{
-			"name": "Criminal",
-			"source": "XUA2022CharacterOptions",
-			"page": 12,
-			"skillProficiencies": [
-				{
-					"sleight of hand": true,
-					"stealth": true
-				}
-			],
-			"languageProficiencies": [
-				{
-					"thieves' cant": true
-				}
-			],
-			"toolProficiencies": [
-				{
-					"thieves' tools": true
-				}
-			],
-			"feats": [
-				{
-					"alert|XUA2022CharacterOptions": true
-				}
-			],
-			"ability": [
-				{
-					"dex": 2,
-					"int": 1
-				}
-			],
-			"entries": [
-				{
-					"type": "list",
-					"style": "list-hang-notitle",
-					"items": [
-						{
-							"type": "item",
-							"name": "Ability Scores:",
-							"entry": "+2 Dexterity, +1 Intelligence"
-						},
-						{
-							"type": "item",
-							"name": "Skill Proficiencies:",
-							"entry": "{@skill Sleight of Hand}, {@skill Stealth}"
-						},
-						{
-							"type": "item",
-							"name": "Tool Proficiencies:",
-							"entry": "{@item Thieves' Tools|phb}"
-						},
-						{
-							"type": "item",
-							"name": "Languages:",
-							"entry": "{@language Thieves' Cant}"
-						},
-						{
-							"type": "item",
-							"name": "Feat:",
-							"entry": "{@feat Alert|XUA2022CharacterOptions}"
-						}
-					]
-				},
-				{
-					"type": "list",
-					"style": "list-hang-notitle",
-					"name": "Equipment",
-					"columns": 2,
-					"items": [
-						"{@item Crowbar|phb}",
-						"{@item Dagger|phb} (2)",
-						"{@item Pouch|phb} (2)",
-						"{@item Thieves' Tools|phb}",
-						"{@item Traveler's Clothes|phb}",
-						"16 GP"
-					]
-				}
-			],
-			"fluff": {
-				"_backgroundFluff": {
-					"name": "Criminal",
-					"source": "XUA2022CharacterOptions"
-				}
-			}
-		},
-		{
-			"name": "Cultist",
-			"source": "XUA2022CharacterOptions",
-			"page": 12,
-			"skillProficiencies": [
-				{
-					"arcana": true,
-					"religion": true
-				}
-			],
-			"languageProficiencies": [
-				{
-					"abyssal": true
-				}
-			],
-			"toolProficiencies": [
-				{
-					"disguise kit": true
-				}
-			],
-			"feats": [
-				{
-					"magic initiate|XUA2022CharacterOptions": true
-				}
-			],
-			"ability": [
-				{
-					"int": 2,
-					"cha": 1
-				}
-			],
-			"entries": [
-				{
-					"type": "list",
-					"style": "list-hang-notitle",
-					"items": [
-						{
-							"type": "item",
-							"name": "Ability Scores:",
-							"entry": "+2 Intelligence, +1 Charisma"
-						},
-						{
-							"type": "item",
-							"name": "Skill Proficiencies:",
-							"entry": "{@skill Arcana}, {@skill Religion}"
-						},
-						{
-							"type": "item",
-							"name": "Tool Proficiencies:",
-							"entry": "{@item Disguise Kit|phb}"
-						},
-						{
-							"type": "item",
-							"name": "Languages:",
-							"entry": "{@language Abyssal}"
-						},
-						{
-							"type": "item",
-							"name": "Feat:",
-							"entry": "{@feat Magic Initiate|XUA2022CharacterOptions} (Arcane)"
-						}
-					]
-				},
-				{
-					"type": "list",
-					"style": "list-hang-notitle",
-					"name": "Equipment",
-					"columns": 2,
-					"items": [
-						"{@item Bell|phb}",
-						"{@item Common Clothes|phb}",
-						"{@item Dagger|phb}",
-						"{@item Disguise Kit|phb}",
-						"{@item Lamp|phb}",
-						"{@item Robes|phb}",
-						"19 GP"
-					]
-				}
-			],
-			"fluff": {
-				"_backgroundFluff": {
-					"name": "Cultist",
-					"source": "XUA2022CharacterOptions"
-				}
-			}
-		},
-		{
-			"name": "Entertainer",
-			"source": "XUA2022CharacterOptions",
-			"page": 12,
-			"skillProficiencies": [
-				{
-					"acrobatics": true,
-					"performance": true
-				}
-			],
-			"languageProficiencies": [
-				{
-					"elvish": true
-				}
-			],
-			"toolProficiencies": [
-				{
-					"musical instrument": true
-				}
-			],
-			"feats": [
-				{
-					"musician|XUA2022CharacterOptions": true
-				}
-			],
-			"ability": [
-				{
-					"cha": 2,
-					"dex": 1
-				}
-			],
-			"entries": [
-				{
-					"type": "list",
-					"style": "list-hang-notitle",
-					"items": [
-						{
-							"type": "item",
-							"name": "Ability Scores:",
-							"entry": "+2 Charisma, +1 Dexterity"
-						},
-						{
-							"type": "item",
-							"name": "Skill Proficiencies:",
-							"entry": "{@skill Acrobatics}, {@skill Performance}"
-						},
-						{
-							"type": "item",
-							"name": "Tool Proficiencies:",
-							"entry": "{@item Musical Instrument|phb} (one of your choice)"
-						},
-						{
-							"type": "item",
-							"name": "Languages:",
-							"entry": "{@language Elvish}"
-						},
-						{
-							"type": "item",
-							"name": "Feat:",
-							"entry": "{@feat Musician|XUA2022CharacterOptions}"
-						}
-					]
-				},
-				{
-					"type": "list",
-					"style": "list-hang-notitle",
-					"name": "Equipment",
-					"columns": 2,
-					"items": [
-						"{@item costume clothes|phb|Costume} (2)",
-						"{@item Musical Instrument|phb}",
-						"{@item perfume (vial)|phb|Perfume}",
-						"{@item Steel Mirror|phb}",
-						"{@item Traveler's Clothes|phb}",
-						"8 GP"
-					]
-				}
-			],
-			"fluff": {
-				"_backgroundFluff": {
-					"name": "Entertainer",
-					"source": "XUA2022CharacterOptions"
-				}
-			}
-		},
-		{
-			"name": "Farmer",
-			"source": "XUA2022CharacterOptions",
-			"page": 13,
-			"skillProficiencies": [
-				{
-					"animal handling": true,
-					"nature": true
-				}
-			],
-			"languageProficiencies": [
-				{
-					"halfling": true
-				}
-			],
-			"toolProficiencies": [
-				{
-					"carpenter's tools": true
-				}
-			],
-			"feats": [
-				{
-					"tough|XUA2022CharacterOptions": true
-				}
-			],
-			"ability": [
-				{
-					"con": 2,
-					"wis": 1
-				}
-			],
-			"entries": [
-				{
-					"type": "list",
-					"style": "list-hang-notitle",
-					"items": [
-						{
-							"type": "item",
-							"name": "Ability Scores:",
-							"entry": "+2 Constitution, +1 Wisdom"
-						},
-						{
-							"type": "item",
-							"name": "Skill Proficiencies:",
-							"entry": "{@skill Animal Handling}, {@skill Nature}"
-						},
-						{
-							"type": "item",
-							"name": "Tool Proficiencies:",
-							"entry": "{@item Carpenter's Tools|phb}"
-						},
-						{
-							"type": "item",
-							"name": "Languages:",
-							"entry": "{@language Halfling}"
-						},
-						{
-							"type": "item",
-							"name": "Feat:",
-							"entry": "{@feat Tough|XUA2022CharacterOptions}"
-						}
-					]
-				},
-				{
-					"type": "list",
-					"style": "list-hang-notitle",
-					"name": "Equipment",
-					"columns": 2,
-					"items": [
-						"{@item Carpenter's Tools|phb}",
-						"{@item Healer's Kit|phb}",
-						"{@item Iron Pot|phb}",
-						"{@item Shovel|phb}",
-						"{@item Sickle|phb}",
-						"{@item Traveler's Clothes|phb}",
-						"23 GP"
-					]
-				}
-			],
-			"fluff": {
-				"_backgroundFluff": {
-					"name": "Farmer",
-					"source": "XUA2022CharacterOptions"
-				}
-			}
-		},
-		{
-			"name": "Gladiator",
-			"source": "XUA2022CharacterOptions",
-			"page": 13,
-			"skillProficiencies": [
-				{
-					"athletics": true,
-					"performance": true
-				}
-			],
-			"languageProficiencies": [
-				{
-					"orc": true
-				}
-			],
-			"toolProficiencies": [
-				{
-					"smith's tools": true
-				}
-			],
-			"feats": [
-				{
-					"savage attacker|XUA2022CharacterOptions": true
-				}
-			],
-			"ability": [
-				{
-					"str": 2,
-					"cha": 1
-				}
-			],
-			"entries": [
-				{
-					"type": "list",
-					"style": "list-hang-notitle",
-					"items": [
-						{
-							"type": "item",
-							"name": "Ability Scores:",
-							"entry": "+2 Strength, +1 Charisma"
-						},
-						{
-							"type": "item",
-							"name": "Skill Proficiencies:",
-							"entry": "{@skill Athletics}, {@skill Performance}"
-						},
-						{
-							"type": "item",
-							"name": "Tool Proficiencies:",
-							"entry": "{@item Smith's Tools|phb}"
-						},
-						{
-							"type": "item",
-							"name": "Languages:",
-							"entry": "{@language Orc}"
-						},
-						{
-							"type": "item",
-							"name": "Feat:",
-							"entry": "{@feat Savage Attacker|XUA2022CharacterOptions}"
-						}
-					]
-				},
-				{
-					"type": "list",
-					"style": "list-hang-notitle",
-					"name": "Equipment",
-					"columns": 2,
-					"items": [
-						"{@item chain (10 feet)|phb|Chain}",
-						"{@item costume clothes|phb|Costume}",
-						"{@item Healer's Kit|phb}",
-						"{@item Javelin|phb} (6)",
-						"{@item Smith's Tools|phb}",
-						"{@item Traveler's Clothes|phb}",
-						"15 GP"
-					]
-				}
-			],
-			"fluff": {
-				"_backgroundFluff": {
-					"name": "Gladiator",
-					"source": "XUA2022CharacterOptions"
-				}
-			}
-		},
-		{
-			"name": "Guard",
-			"source": "XUA2022CharacterOptions",
-			"page": 13,
-			"skillProficiencies": [
-				{
-					"athletics": true,
-					"perception": true
-				}
-			],
-			"languageProficiencies": [
-				{
-					"dwarvish": true
-				}
-			],
-			"toolProficiencies": [
-				{
-					"gaming set": true
-				}
-			],
-			"feats": [
-				{
-					"alert|XUA2022CharacterOptions": true
-				}
-			],
-			"ability": [
-				{
-					"str": 2,
-					"wis": 1
-				}
-			],
-			"entries": [
-				{
-					"type": "list",
-					"style": "list-hang-notitle",
-					"items": [
-						{
-							"type": "item",
-							"name": "Ability Scores:",
-							"entry": "+2 Strength, +1 Wisdom"
-						},
-						{
-							"type": "item",
-							"name": "Skill Proficiencies:",
-							"entry": "{@skill Athletics}, {@skill Perception}"
-						},
-						{
-							"type": "item",
-							"name": "Tool Proficiencies:",
-							"entry": "{@item Gaming Set|phb} (one of your choice)"
-						},
-						{
-							"type": "item",
-							"name": "Languages:",
-							"entry": "{@language Dwarvish}"
-						},
-						{
-							"type": "item",
-							"name": "Feat:",
-							"entry": "{@feat Alert|XUA2022CharacterOptions}"
-						}
-					]
-				},
-				{
-					"type": "list",
-					"style": "list-hang-notitle",
-					"name": "Equipment",
-					"columns": 2,
-					"items": [
-						"{@item Crossbow Bolt|phb} (20)",
-						"{@item Gaming Set|phb}",
-						"{@item Hooded Lantern|phb}",
-						"{@item Light Crossbow|phb}",
-						"{@item Manacles|phb}",
-						"{@item Quiver|phb}",
-						"{@item Spear|phb}",
-						"{@item Traveler's Clothes|phb}",
-						"12 GP"
-					]
-				}
-			],
-			"fluff": {
-				"_backgroundFluff": {
-					"name": "Guard",
-					"source": "XUA2022CharacterOptions"
-				}
-			}
-		},
-		{
-			"name": "Guide",
-			"source": "XUA2022CharacterOptions",
-			"page": 13,
-			"skillProficiencies": [
-				{
-					"stealth": true,
-					"survival": true
-				}
-			],
-			"languageProficiencies": [
-				{
-					"giant": true
-				}
-			],
-			"toolProficiencies": [
-				{
-					"cartographer's tools": true
-				}
-			],
-			"feats": [
-				{
-					"magic initiate|XUA2022CharacterOptions": true
-				}
-			],
-			"ability": [
-				{
-					"wis": 2,
-					"dex": 1
-				}
-			],
-			"entries": [
-				{
-					"type": "list",
-					"style": "list-hang-notitle",
-					"items": [
-						{
-							"type": "item",
-							"name": "Ability Scores:",
-							"entry": "+2 Wisdom, +1 Dexterity"
-						},
-						{
-							"type": "item",
-							"name": "Skill Proficiencies:",
-							"entry": "{@skill Stealth}, {@skill Survival}"
-						},
-						{
-							"type": "item",
-							"name": "Tool Proficiencies:",
-							"entry": "{@item Cartographer's Tools|phb}"
-						},
-						{
-							"type": "item",
-							"name": "Languages:",
-							"entry": "{@language Giant}"
-						},
-						{
-							"type": "item",
-							"name": "Feat:",
-							"entry": "{@feat Magic Initiate|XUA2022CharacterOptions} (Primal)"
-						}
-					]
-				},
-				{
-					"type": "list",
-					"style": "list-hang-notitle",
-					"name": "Equipment",
-					"columns": 2,
-					"items": [
-						"{@item Arrow|phb} (20)",
-						"{@item Bedroll|phb}",
-						"{@item Cartographer's Tools|phb}",
-						"{@item Fishing Tackle|phb}",
-						"{@item Quiver|phb}",
-						"{@item Shortbow|phb}",
-						"{@item two-person tent|phb|Tent}",
-						"{@item Traveler's Clothes|phb}",
-						"2 GP"
-					]
-				}
-			],
-			"fluff": {
-				"_backgroundFluff": {
-					"name": "Guide",
-					"source": "XUA2022CharacterOptions"
-				}
-			}
-		},
-		{
-			"name": "Hermit",
-			"source": "XUA2022CharacterOptions",
-			"page": 14,
-			"skillProficiencies": [
-				{
-					"medicine": true,
-					"religion": true
-				}
-			],
-			"languageProficiencies": [
-				{
-					"sylvan": true
-				}
-			],
-			"toolProficiencies": [
-				{
-					"herbalism kit": true
-				}
-			],
-			"feats": [
-				{
-					"magic initiate|XUA2022CharacterOptions": true
-				}
-			],
-			"ability": [
-				{
-					"wis": 2,
-					"con": 1
-				}
-			],
-			"entries": [
-				{
-					"type": "list",
-					"style": "list-hang-notitle",
-					"items": [
-						{
-							"type": "item",
-							"name": "Ability Scores:",
-							"entry": "+2 Wisdom, +1 Constitution"
-						},
-						{
-							"type": "item",
-							"name": "Skill Proficiencies:",
-							"entry": "{@skill Medicine}, {@skill Religion}"
-						},
-						{
-							"type": "item",
-							"name": "Tool Proficiencies:",
-							"entry": "{@item Herbalism Kit|phb}"
-						},
-						{
-							"type": "item",
-							"name": "Languages:",
-							"entry": "{@language Sylvan}"
-						},
-						{
-							"type": "item",
-							"name": "Feat:",
-							"entry": "{@feat Magic Initiate|XUA2022CharacterOptions} (Primal)"
-						}
-					]
-				},
-				{
-					"type": "list",
-					"style": "list-hang-notitle",
-					"name": "Equipment",
-					"columns": 2,
-					"items": [
-						"{@item Bedroll|phb}",
-						"{@item Book|phb} (Philosophy)",
-						"{@item Fishing Tackle|phb}",
-						"{@item Herbalism Kit|phb}",
-						"{@item Lamp|phb}",
-						"{@item oil (flask)|phb|Oil} (3 flasks)",
-						"{@item Quarterstaff|phb}",
-						"{@item Traveler's Clothes|phb}",
-						"15 GP"
-					]
-				}
-			],
-			"fluff": {
-				"_backgroundFluff": {
-					"name": "Hermit",
-					"source": "XUA2022CharacterOptions"
-				}
-			}
-		},
-		{
-			"name": "Laborer",
-			"source": "XUA2022CharacterOptions",
-			"page": 14,
-			"skillProficiencies": [
-				{
-					"athletics": true,
-					"survival": true
-				}
-			],
-			"languageProficiencies": [
-				{
-					"dwarvish": true
-				}
-			],
-			"toolProficiencies": [
-				{
-					"mason's tools": true
-				}
-			],
-			"feats": [
-				{
-					"tough|XUA2022CharacterOptions": true
-				}
-			],
-			"ability": [
-				{
-					"con": 2,
-					"str": 1
-				}
-			],
-			"entries": [
-				{
-					"type": "list",
-					"style": "list-hang-notitle",
-					"items": [
-						{
-							"type": "item",
-							"name": "Ability Scores:",
-							"entry": "+2 Constitution, +1 Strength"
-						},
-						{
-							"type": "item",
-							"name": "Skill Proficiencies:",
-							"entry": "{@skill Athletics}, {@skill Survival}"
-						},
-						{
-							"type": "item",
-							"name": "Tool Proficiencies:",
-							"entry": "{@item Mason's Tools|phb}"
-						},
-						{
-							"type": "item",
-							"name": "Languages:",
-							"entry": "{@language Dwarvish}"
-						},
-						{
-							"type": "item",
-							"name": "Feat:",
-							"entry": "{@feat Tough|XUA2022CharacterOptions}"
-						}
-					]
-				},
-				{
-					"type": "list",
-					"style": "list-hang-notitle",
-					"name": "Equipment",
-					"columns": 2,
-					"items": [
-						"{@item Bullseye Lantern|phb}",
-						"{@item Common Clothes|phb}",
-						"{@item Handaxe|phb}",
-						"{@item Light Hammer|phb}",
-						"{@item Mason's Tools|phb}",
-						"{@item Mess Kit|phb}",
-						"{@item oil (flask)|phb|Oil} (1 flask)",
-						"{@item Shovel|phb}",
-						"{@item Waterskin|phb}",
-						"15 GP"
-					]
-				}
-			],
-			"fluff": {
-				"_backgroundFluff": {
-					"name": "Laborer",
-					"source": "XUA2022CharacterOptions"
-				}
-			}
-		},
-		{
-			"name": "Noble",
-			"source": "XUA2022CharacterOptions",
-			"page": 14,
-			"skillProficiencies": [
-				{
-					"history": true,
-					"persuasion": true
-				}
-			],
-			"languageProficiencies": [
-				{
-					"draconic": true
-				}
-			],
-			"toolProficiencies": [
-				{
-					"gaming set": true
-				}
-			],
-			"feats": [
-				{
-					"skilled|XUA2022CharacterOptions": true
-				}
-			],
-			"ability": [
-				{
-					"cha": 2,
-					"int": 1
-				}
-			],
-			"entries": [
-				{
-					"type": "list",
-					"style": "list-hang-notitle",
-					"items": [
-						{
-							"type": "item",
-							"name": "Ability Scores:",
-							"entry": "+2 Charisma, +1 Intelligence"
-						},
-						{
-							"type": "item",
-							"name": "Skill Proficiencies:",
-							"entry": "{@skill History}, {@skill Persuasion}"
-						},
-						{
-							"type": "item",
-							"name": "Tool Proficiencies:",
-							"entry": "{@item Gaming set|phb} (one of your choice)"
-						},
-						{
-							"type": "item",
-							"name": "Languages:",
-							"entry": "{@language Draconic}"
-						},
-						{
-							"type": "item",
-							"name": "Feat:",
-							"entry": "{@feat Skilled|XUA2022CharacterOptions}"
-						}
-					]
-				},
-				{
-					"type": "list",
-					"style": "list-hang-notitle",
-					"name": "Equipment",
-					"columns": 2,
-					"items": [
-						"{@item Fine Clothes|phb}",
-						"{@item Gaming Set|phb}",
-						"{@item perfume (vial)|phb|Perfume}",
-						"{@item Signet Ring|phb}",
-						"24 GP"
-					]
-				}
-			],
-			"fluff": {
-				"_backgroundFluff": {
-					"name": "Noble",
-					"source": "XUA2022CharacterOptions"
-				}
-			}
-		},
-		{
-			"name": "Pilgrim",
-			"source": "XUA2022CharacterOptions",
-			"page": 14,
-			"skillProficiencies": [
-				{
-					"religion": true,
-					"survival": true
-				}
-			],
-			"languageProficiencies": [
-				{
-					"halfling": true
-				}
-			],
-			"toolProficiencies": [
-				{
-					"musical instrument": true
-				}
-			],
-			"feats": [
-				{
-					"healer|XUA2022CharacterOptions": true
-				}
-			],
-			"ability": [
-				{
-					"wis": 2,
-					"con": 1
-				}
-			],
-			"entries": [
-				{
-					"type": "list",
-					"style": "list-hang-notitle",
-					"items": [
-						{
-							"type": "item",
-							"name": "Ability Scores:",
-							"entry": "+2 Wisdom, +1 Constitution"
-						},
-						{
-							"type": "item",
-							"name": "Skill Proficiencies:",
-							"entry": "{@skill Religion}, {@skill Survival}"
-						},
-						{
-							"type": "item",
-							"name": "Tool Proficiencies:",
-							"entry": "{@item Musical Instrument|phb} (one of your choice)"
-						},
-						{
-							"type": "item",
-							"name": "Languages:",
-							"entry": "{@language Halfling}"
-						},
-						{
-							"type": "item",
-							"name": "Feat:",
-							"entry": "{@feat Healer|XUA2022CharacterOptions}"
-						}
-					]
-				},
-				{
-					"type": "list",
-					"style": "list-hang-notitle",
-					"name": "Equipment",
-					"columns": 2,
-					"items": [
-						"{@item Bedroll|phb}",
-						"{@item Healer's Kit|phb}",
-						"{@item Holy Symbol|phb}",
-						"{@item Musical Instrument|phb}",
-						"{@item rations (1 day)|phb|Rations} (2 days)",
-						"{@item Traveler's Clothes|phb}",
-						"16 GP"
-					]
-				}
-			],
-			"fluff": {
-				"_backgroundFluff": {
-					"name": "Pilgrim",
-					"source": "XUA2022CharacterOptions"
-				}
-			}
-		},
-		{
-			"name": "Sage",
-			"source": "XUA2022CharacterOptions",
-			"page": 15,
-			"skillProficiencies": [
-				{
-					"arcana": true,
-					"history": true
-				}
-			],
-			"languageProficiencies": [
-				{
-					"elvish": true
-				}
-			],
-			"toolProficiencies": [
-				{
-					"calligrapher's supplies": true
-				}
-			],
-			"feats": [
-				{
-					"magic initiate|XUA2022CharacterOptions": true
-				}
-			],
-			"ability": [
-				{
-					"int": 2,
-					"wis": 1
-				}
-			],
-			"entries": [
-				{
-					"type": "list",
-					"style": "list-hang-notitle",
-					"items": [
-						{
-							"type": "item",
-							"name": "Ability Scores:",
-							"entry": "+2 Intelligence, +1 Wisdom"
-						},
-						{
-							"type": "item",
-							"name": "Skill Proficiencies:",
-							"entry": "{@skill Arcana}, {@skill History}"
-						},
-						{
-							"type": "item",
-							"name": "Tool Proficiencies:",
-							"entry": "{@item Calligrapher's Supplies|phb}"
-						},
-						{
-							"type": "item",
-							"name": "Languages:",
-							"entry": "{@language Elvish}"
-						},
-						{
-							"type": "item",
-							"name": "Feat:",
-							"entry": "{@feat Magic Initiate|XUA2022CharacterOptions} (Arcane)"
-						}
-					]
-				},
-				{
-					"type": "list",
-					"style": "list-hang-notitle",
-					"name": "Equipment",
-					"columns": 2,
-					"items": [
-						"{@item Book|phb} (History)",
-						"{@item Calligrapher's Supplies|phb}",
-						"{@item parchment (one sheet)|phb|Parchment} (8 sheets)",
-						"{@item Quarterstaff|phb}",
-						"{@item Robes|phb}",
-						"8 GP"
-					]
-				}
-			],
-			"fluff": {
-				"_backgroundFluff": {
-					"name": "Sage",
-					"source": "XUA2022CharacterOptions"
-				}
-			}
-		},
-		{
-			"name": "Sailor",
-			"source": "XUA2022CharacterOptions",
-			"page": 15,
-			"skillProficiencies": [
-				{
-					"acrobatics": true,
-					"perception": true
-				}
-			],
-			"languageProficiencies": [
-				{
-					"primordial": true
-				}
-			],
-			"toolProficiencies": [
-				{
-					"navigator's tools": true
-				}
-			],
-			"feats": [
-				{
-					"tavern brawler|XUA2022CharacterOptions": true
-				}
-			],
-			"ability": [
-				{
-					"dex": 2,
-					"wis": 1
-				}
-			],
-			"entries": [
-				{
-					"type": "list",
-					"style": "list-hang-notitle",
-					"items": [
-						{
-							"type": "item",
-							"name": "Ability Scores:",
-							"entry": "+2 Dexterity, +1 Wisdom"
-						},
-						{
-							"type": "item",
-							"name": "Skill Proficiencies:",
-							"entry": "{@skill Acrobatics}, {@skill Perception}"
-						},
-						{
-							"type": "item",
-							"name": "Tool Proficiencies:",
-							"entry": "{@item Navigator's Tools|phb}"
-						},
-						{
-							"type": "item",
-							"name": "Languages:",
-							"entry": "{@language Primordial}"
-						},
-						{
-							"type": "item",
-							"name": "Feat:",
-							"entry": "{@feat Tavern Brawler|XUA2022CharacterOptions}"
-						}
-					]
-				},
-				{
-					"type": "list",
-					"style": "list-hang-notitle",
-					"name": "Equipment",
-					"columns": 2,
-					"items": [
-						"{@item Dagger|phb}",
-						"{@item Fishing Tackle|phb}",
-						"{@item Navigator's Tools|phb}",
-						"{@item silk rope (50 feet)|phb|Silk Rope}",
-						"{@item Traveler's Clothes|phb}",
-						"10 GP"
-					]
-				}
-			],
-			"fluff": {
-				"_backgroundFluff": {
-					"name": "Sailor",
-					"source": "XUA2022CharacterOptions"
-				}
-			}
-		},
-		{
-			"name": "Soldier",
-			"source": "XUA2022CharacterOptions",
-			"page": 15,
-			"skillProficiencies": [
-				{
-					"athletics": true,
-					"intimidation": true
-				}
-			],
-			"languageProficiencies": [
-				{
-					"goblin": true
-				}
-			],
-			"toolProficiencies": [
-				{
-					"gaming set": true
-				}
-			],
-			"feats": [
-				{
-					"savage attacker|XUA2022CharacterOptions": true
-				}
-			],
-			"ability": [
-				{
-					"str": 2,
-					"con": 1
-				}
-			],
-			"entries": [
-				{
-					"type": "list",
-					"style": "list-hang-notitle",
-					"items": [
-						{
-							"type": "item",
-							"name": "Ability Scores:",
-							"entry": "+2 Strength, +1 Constitution"
-						},
-						{
-							"type": "item",
-							"name": "Skill Proficiencies:",
-							"entry": "{@skill Athletics}, {@skill Intimidation}"
-						},
-						{
-							"type": "item",
-							"name": "Tool Proficiencies:",
-							"entry": "{@item Gaming Set|phb} (one of your choice)"
-						},
-						{
-							"type": "item",
-							"name": "Languages:",
-							"entry": "{@language Goblin}"
-						},
-						{
-							"type": "item",
-							"name": "Feat:",
-							"entry": "{@feat Savage Attacker|XUA2022CharacterOptions}"
-						}
-					]
-				},
-				{
-					"type": "list",
-					"style": "list-hang-notitle",
-					"name": "Equipment",
-					"columns": 2,
-					"items": [
-						"{@item Arrow|phb} (20)",
-						"{@item Gaming Set|phb} (same as above)",
-						"{@item Healer's Kit|phb}",
-						"{@item Quiver|phb}",
-						"{@item Shortbow|phb}",
-						"{@item Spear|phb}",
-						"{@item Traveler's Clothes|phb}",
-						"14 GP"
-					]
-				}
-			],
-			"fluff": {
-				"_backgroundFluff": {
-					"name": "Soldier",
-					"source": "XUA2022CharacterOptions"
-				}
-			}
-		},
-		{
-			"name": "Urchin",
-			"source": "XUA2022CharacterOptions",
-			"page": 15,
-			"skillProficiencies": [
-				{
-					"insight": true,
-					"stealth": true
-				}
-			],
-			"languageProficiencies": [
-				{
-					"common sign language": true
-				}
-			],
-			"toolProficiencies": [
-				{
-					"thieves' tools": true
-				}
-			],
-			"feats": [
-				{
-					"lucky|XUA2022CharacterOptions": true
-				}
-			],
-			"ability": [
-				{
-					"dex": 2,
-					"wis": 1
-				}
-			],
-			"entries": [
-				{
-					"type": "list",
-					"style": "list-hang-notitle",
-					"items": [
-						{
-							"type": "item",
-							"name": "Ability Scores:",
-							"entry": "+2 Dexterity, +1 Wisdom"
-						},
-						{
-							"type": "item",
-							"name": "Skill Proficiencies:",
-							"entry": "{@skill Insight}, {@skill Stealth}"
-						},
-						{
-							"type": "item",
-							"name": "Tool Proficiencies:",
-							"entry": "{@item Thieves' Tools|phb}"
-						},
-						{
-							"type": "item",
-							"name": "Languages:",
-							"entry": "{@language Common Sign Language|XUA2022CharacterOptions}"
-						},
-						{
-							"type": "item",
-							"name": "Feat:",
-							"entry": "{@feat Lucky|XUA2022CharacterOptions}"
-						}
-					]
-				},
-				{
-					"type": "list",
-					"style": "list-hang-notitle",
-					"name": "Equipment",
-					"columns": 2,
-					"items": [
-						"{@item Bedroll|phb}",
-						"{@item Common Clothes|phb}",
-						"{@item Dagger|phb} (2)",
-						"{@item Gaming Set|phb}",
-						"{@item Pouch|phb}",
-						"{@item Thieves' Tools|phb}",
-						"18 GP"
-					]
-				}
-			],
-			"fluff": {
-				"_backgroundFluff": {
-					"name": "Urchin",
-					"source": "XUA2022CharacterOptions"
-				}
-			}
-		}
-	],
-	"backgroundFluff": [
-		{
-			"name": "Acolyte",
-			"source": "XUA2022CharacterOptions",
-			"entries": [
-				"You devoted yourself to service in a temple, either nestled in a town or secluded in a sacred grove. There you performed hallowed rites in honor of a god or pantheon. You served under a priest and studied religion. Thanks to your priest's instruction and your own devotion, you also learned how to channel a modicum of divine power in service to your place of worship and the people who prayed there."
-			]
-		},
-		{
-			"name": "Artisan",
-			"source": "XUA2022CharacterOptions",
-			"entries": [
-				"You began mopping floors and scrubbing counters in an artisan's workshop for a few coppers per day as soon as you were strong enough to carry a bucket. When you were finally old enough to apprentice, you learned to create basic crafts of your own, as well as how to sweet-talk the occasional demanding customer. As part of your studies, you picked up Gnomish, the tongue from which so many of the artisan's terms of art are derived."
-			]
-		},
-		{
-			"name": "Charlatan",
-			"source": "XUA2022CharacterOptions",
-			"entries": [
-				"Soon after you were old enough to order an ale, you already had a favorite stool in every tavern within ten miles of where you were born. As you traveled the circuit from public house to watering hole, you learned to prey on the unfortunates who were in the market for a comforting lie or two\u2014perhaps a sham potion or a forged \"treasure map.\" You are fluent in Infernal, the ancient language of deception."
-			]
-		},
-		{
-			"name": "Criminal",
-			"source": "XUA2022CharacterOptions",
-			"entries": [
-				"You learned to earn your coin in dark alleyways, cutting purses or burgling shops. Perhaps you were part of a small gang of like-minded wrongdoers, who looked out for each other. Or maybe you were a lone wolf, fending for yourself against the local thieves' guild and older, more fearsome lawbreakers."
-			]
-		},
-		{
-			"name": "Cultist",
-			"source": "XUA2022CharacterOptions",
-			"entries": [
-				"You scarcely recall what drove you into the service of the otherworldly being. Those memories were blotted out long ago by recurrent dreams of midnight gatherings round the obsidian pillar in the glade. By the light of each waning moon, the hierophants instructed you in the being's creed and the rudiments of the arcane arts. When you came of age, you were ordered to blend in among the nonbelievers and await whatever mission the Great One has in store for you."
-			]
-		},
-		{
-			"name": "Entertainer",
-			"source": "XUA2022CharacterOptions",
-			"entries": [
-				"You spent much of your youth following roving fairs and carnivals, performing odd jobs for musicians and acrobats in exchange for lessons. You may have learned how to walk a tightrope, how to double pick a {@item lute|PHB}, or how to recite Elvish poetry with the impeccable trills of an elf poet. To this day, you thrive on applause and long for the stage."
-			]
-		},
-		{
-			"name": "Farmer",
-			"source": "XUA2022CharacterOptions",
-			"entries": [
-				"You grew up close to the land. Years tending animals and cultivating the earth rewarded you with patience and good health. You have a keen appreciation for nature's bounty alongside a healthy respect for nature's wrath. Like many farmers, you made frequent use of the agricultural almanacs produced by the greatest halfling farmers."
-			]
-		},
-		{
-			"name": "Gladiator",
-			"source": "XUA2022CharacterOptions",
-			"entries": [
-				"Your first few appearances in the gladiatorial pits led you to appreciate every one of the scars you carry from your instructors and sparring partners. Each scar was a lesson that taught you how to best your opponents and curry favor with the crowds your brawls entertained. Your time in the pits left you with a strong hand and a strong heart. You'll forever share a remarkable bond with the other pit fighters in your stable\u2014humans, dragonborn, dwarves, and orcs\u2014hardened warriors all."
-			]
-		},
-		{
-			"name": "Guard",
-			"source": "XUA2022CharacterOptions",
-			"entries": [
-				"Your feet begin to ache when you remember the countless hours you spent at your post in the tower. You were trained to keep one eye outside the wall, watching for marauders sweeping from the nearby forest, and your other eye inside the wall, searching for cutpurses and troublemakers. At the end of each shift, you bunked in the mayor's barracks alongside your fellow sentries and the dwarven smiths who kept your armor snug and your weapons sharp."
-			]
-		},
-		{
-			"name": "Guide",
-			"source": "XUA2022CharacterOptions",
-			"entries": [
-				"You came of age in the outdoors, far from settled lands. Your home? Anywhere you chose to unfurl your bedroll. There are wonders on the frontier\u2014strange monsters, pristine forests and streams, overgrown ruins of great halls once trod by giants\u2014and you learned to fend for yourself as you explored them. From time to time, you traveled with a pair of friendly druids who were kind enough to instruct you in the fundamentals of channeling the magic of the wild."
-			]
-		},
-		{
-			"name": "Hermit",
-			"source": "XUA2022CharacterOptions",
-			"entries": [
-				"You spent your early years secluded in a hut or monastery located well beyond the outskirts of the nearest settlement. In those days, your only companions were the creatures of the forest, who would occasionally visit to bring news of the outside world and supplies. The quiet and solitude you found in your time outside society allowed you to spend many hours pondering the mysteries of creation, attuning your mind to the magical energy flowing through the natural world."
-			]
-		},
-		{
-			"name": "Laborer",
-			"source": "XUA2022CharacterOptions",
-			"entries": [
-				"Your apprenticeship consumed the better part of your youth. First, you learned to cut and polish a stone. After several years of polishing stones, you learned how to cement those stones into a wall. After several years building walls, you learned to join your walls to form a structure. The structures you built were exceptionally durable. The masons who taught you were taught by even older masons who were taught by dwarf artisans of old."
-			]
-		},
-		{
-			"name": "Noble",
-			"source": "XUA2022CharacterOptions",
-			"entries": [
-				"You were raised in a castle as a creature of wealth, power, and privilege\u2014none of it earned. Your family are minor aristocrats who saw to it that you received a first-class education, some of which you appreciated and some of which you resented. (Was it truly necessary to read all those ancient histories in their original Draconic?) Your time in the castle, especially the many hours you spent observing your family at court, also taught you a great deal about leadership."
-			]
-		},
-		{
-			"name": "Pilgrim",
-			"source": "XUA2022CharacterOptions",
-			"entries": [
-				"You and a group of like-minded believers\u2014mostly humans and halflings\u2014once endeavored to walk a thousand miles of road to reach a faraway shrine. Priests counseled at the outset that, long after your journey was complete, you'd come to realize that you found the key to your salvation not at your destination, but somewhere along the road that led there."
-			]
-		},
-		{
-			"name": "Sage",
-			"source": "XUA2022CharacterOptions",
-			"entries": [
-				"You spent your formative years traveling between manors and monasteries, performing various odd jobs and services in exchange for access to their libraries. You wiled away many a long evening with your nose buried in books and scrolls, learning the lore of the multiverse\u2014even the rudiments of magic\u2014and your mind only yearns for more."
-			]
-		},
-		{
-			"name": "Sailor",
-			"source": "XUA2022CharacterOptions",
-			"entries": [
-				"Thus far, you've spent most of your days living the life of a seafarer, wind at your back and decks swaying beneath your feet, as you sailed toward your next adventure. You've perched on barstools in more ports of call than you can remember, faced down mighty storms, and swapped stories with the folk who live beneath the waves."
-			]
-		},
-		{
-			"name": "Soldier",
-			"source": "XUA2022CharacterOptions",
-			"entries": [
-				"You began training for war at such an early age that you carry only a precious few memories of what life was like before you took up arms. Battle is in your blood. Sometimes you catch yourself reflexively performing the basic fighting exercises you learned as a youth. Eventually, you put that training to use on the battlefield, protecting the realm by waging war and studying the strategies of goblinoid generals."
-			]
-		},
-		{
-			"name": "Urchin",
-			"source": "XUA2022CharacterOptions",
-			"entries": [
-				"You grew up on the streets, surrounded by similarly ill-fated castoffs, a few of them friends and a few of them rivals. You slept where you could and did odd jobs for food. At times, when the hunger became unbearable, you resorted to theft. Still, you never lost your pride and never abandoned hope. Fate is not yet finished with you."
-			]
-		}
-	],
 	"feat": [
 		{
 			"name": "Alert",
 			"source": "XUA2022CharacterOptions",
 			"page": 16,
+			"prerequisite": [
+				{
+					"level": 1
+				}
+			],
 			"repeatable": false,
 			"entries": [
 				"Always on the lookout for danger, you gain the following benefits:",
@@ -3901,17 +3906,17 @@
 						}
 					]
 				}
-			],
-			"prerequisite": [
-				{
-					"level": 1
-				}
 			]
 		},
 		{
 			"name": "Crafter",
 			"source": "XUA2022CharacterOptions",
 			"page": 16,
+			"prerequisite": [
+				{
+					"level": 1
+				}
+			],
 			"repeatable": false,
 			"toolProficiencies": [
 				{
@@ -3968,17 +3973,17 @@
 						}
 					]
 				}
-			],
-			"prerequisite": [
-				{
-					"level": 1
-				}
 			]
 		},
 		{
 			"name": "Healer",
 			"source": "XUA2022CharacterOptions",
 			"page": 16,
+			"prerequisite": [
+				{
+					"level": 1
+				}
+			],
 			"repeatable": false,
 			"entries": [
 				"You have the training and intuition to administer first aid and other care effectively, granting you the following benefits:",
@@ -4002,17 +4007,17 @@
 						}
 					]
 				}
-			],
-			"prerequisite": [
-				{
-					"level": 1
-				}
 			]
 		},
 		{
 			"name": "Lucky",
 			"source": "XUA2022CharacterOptions",
 			"page": 17,
+			"prerequisite": [
+				{
+					"level": 1
+				}
+			],
 			"repeatable": false,
 			"entries": [
 				"You have inexplicable luck that can kick in at just the right moment, granting you the following benefits:",
@@ -4043,17 +4048,19 @@
 						}
 					]
 				}
-			],
-			"prerequisite": [
-				{
-					"level": 1
-				}
 			]
 		},
 		{
 			"name": "Magic Initiate",
 			"source": "XUA2022CharacterOptions",
 			"page": 17,
+			"prerequisite": [
+				{
+					"level": 1
+				}
+			],
+			"repeatable": true,
+			"repeatableNote": "Yes, but you must choose a different Spell list each time",
 			"additionalSpells": [
 				{
 					"name": "Arcane Spells",
@@ -4143,8 +4150,6 @@
 					}
 				}
 			],
-			"repeatable": true,
-			"repeatableNote": "Yes, but you must choose a different Spell list each time",
 			"entries": [
 				"You have learned the basics of a particular magical tradition. Choose one Spell list: {@variantrule Arcane Spells|XUA2022CharacterOptions|Arcane}, {@variantrule Divine Spells|XUA2022CharacterOptions|Divine}, or {@variantrule Primal Spells|XUA2022CharacterOptions|Primal}. You gain the following benefits related to that choice:",
 				{
@@ -4168,17 +4173,18 @@
 						}
 					]
 				}
-			],
-			"prerequisite": [
-				{
-					"level": 1
-				}
 			]
 		},
 		{
 			"name": "Musician",
 			"source": "XUA2022CharacterOptions",
 			"page": 17,
+			"prerequisite": [
+				{
+					"level": 1
+				}
+			],
+			"repeatable": false,
 			"toolProficiencies": [
 				{
 					"choose": {
@@ -4198,7 +4204,6 @@
 					}
 				}
 			],
-			"repeatable": false,
 			"entries": [
 				"You are a practiced musician, granting you the following benefits:",
 				{
@@ -4221,31 +4226,31 @@
 						}
 					]
 				}
-			],
-			"prerequisite": [
-				{
-					"level": 1
-				}
 			]
 		},
 		{
 			"name": "Savage Attacker",
 			"source": "XUA2022CharacterOptions",
 			"page": 17,
-			"repeatable": false,
-			"entries": [
-				"You have trained to deal particularly damaging strikes. When you take the {@action Attack} Action and hit a target with a Weapon as part of that Action, you can roll the Weapon's damage dice twice and use either roll against the target. You can use this benefit only once per turn."
-			],
 			"prerequisite": [
 				{
 					"level": 1
 				}
+			],
+			"repeatable": false,
+			"entries": [
+				"You have trained to deal particularly damaging strikes. When you take the {@action Attack} Action and hit a target with a Weapon as part of that Action, you can roll the Weapon's damage dice twice and use either roll against the target. You can use this benefit only once per turn."
 			]
 		},
 		{
 			"name": "Skilled",
 			"source": "XUA2022CharacterOptions",
 			"page": 17,
+			"prerequisite": [
+				{
+					"level": 1
+				}
+			],
 			"repeatable": true,
 			"skillProficiencies": [
 				{
@@ -4269,17 +4274,17 @@
 			],
 			"entries": [
 				"You have exceptionally broad learning. Choose three Skills in which you lack Proficiency. You gain Proficiency in those Skills."
-			],
-			"prerequisite": [
-				{
-					"level": 1
-				}
 			]
 		},
 		{
 			"name": "Tavern Brawler",
 			"source": "XUA2022CharacterOptions",
 			"page": 18,
+			"prerequisite": [
+				{
+					"level": 1
+				}
+			],
 			"repeatable": false,
 			"entries": [
 				"Accustomed to brawling, you gain the following benefits:",
@@ -4317,195 +4322,180 @@
 						}
 					]
 				}
-			],
-			"prerequisite": [
-				{
-					"level": 1
-				}
 			]
 		},
 		{
 			"name": "Tough",
 			"source": "XUA2022CharacterOptions",
 			"page": 18,
-			"repeatable": true,
-			"entries": [
-				"Your Hit Point Maximum increases by an amount equal to twice your character level when you gain this Feat. Whenever you gain a level thereafter, your Hit Point Maximum increases by an additional 2 Hit Points."
-			],
 			"prerequisite": [
 				{
 					"level": 1
 				}
+			],
+			"repeatable": true,
+			"entries": [
+				"Your Hit Point Maximum increases by an amount equal to twice your character level when you gain this Feat. Whenever you gain a level thereafter, your Hit Point Maximum increases by an additional 2 Hit Points."
 			]
 		}
 	],
-	"condition": [
+	"spellList": [
 		{
+			"name": "Arcane",
 			"source": "XUA2022CharacterOptions",
-			"page": 19,
-			"name": "Grappled",
-			"entries": [
-				"While you are Grappled, you experience the following effects:",
-				{
-					"type": "list",
-					"style": "list-hang-notitle",
-					"items": [
-						{
-							"type": "item",
-							"name": "Speed 0",
-							"entries": [
-								"Your Speed is 0 and can't change."
-							]
-						},
-						{
-							"type": "item",
-							"name": "Attacks Affected",
-							"entries": [
-								"You have Disadvantage on attack rolls against any target other than the grappler."
-							]
-						},
-						{
-							"type": "item",
-							"name": "Movable",
-							"entries": [
-								"The grappler can drag or carry you, but the grappler suffers the  {@condition Slowed|XUA2022CharacterOptions} Condition while moving, unless you are Tiny or two or more Sizes smaller than the grappler."
-							]
-						},
-						{
-							"type": "item",
-							"name": "Escape",
-							"entries": [
-								"While Grappled, you can make a Dexterity or Strength saving throw against the grapple's escape DC at the end of each of your turns, ending the Condition on yourself on a success. The Condition also ends if the grappler is  {@condition Incapacitated|XUA2022CharacterOptions} or if something moves you outside the grapple's range without using your Speed."
-							]
-						}
-					]
-				}
+			"spellListType": "groups",
+			"spells": [
+				"acid splash",
+				"blade ward",
+				"chill touch",
+				"dancing lights",
+				"fire bolt",
+				"friends",
+				"light",
+				"mage hand",
+				"mending",
+				"message",
+				"minor illusion",
+				"poison spray",
+				"prestidigitation",
+				"ray of frost",
+				"shocking grasp",
+				"true strike",
+				"vicious mockery",
+				"alarm",
+				"armor of agathys",
+				"arms of hadar",
+				"burning hands",
+				"charm person",
+				"chromatic orb",
+				"color spray",
+				"comprehend languages",
+				"detect magic",
+				"disguise self",
+				"dissonant whispers",
+				"expeditious retreat",
+				"false life",
+				"feather fall",
+				"find familiar",
+				"fog cloud",
+				"grease",
+				"hellish rebuke",
+				"hex",
+				"identify",
+				"illusory script",
+				"jump",
+				"longstrider",
+				"mage armor",
+				"magic missile",
+				"protection from evil and good",
+				"ray of sickness",
+				"shield",
+				"silent image",
+				"sleep",
+				"tasha's hideous laughter",
+				"tenser's floating disk",
+				"thunderwave",
+				"unseen servant",
+				"witch bolt"
 			]
 		},
 		{
-			"name": "Incapacitated",
+			"name": "Divine",
 			"source": "XUA2022CharacterOptions",
-			"page": 19,
-			"entries": [
-				"While you are Incapacitated, you experience the following effects:",
-				{
-					"type": "list",
-					"style": "list-hang-notitle",
-					"items": [
-						{
-							"type": "item",
-							"name": "Inactive",
-							"entries": [
-								"You can't take Actions or Reactions."
-							]
-						},
-						{
-							"type": "item",
-							"name": "No Concentration",
-							"entries": [
-								"Your Concentration is broken."
-							]
-						},
-						{
-							"type": "item",
-							"name": "Speechless",
-							"entries": [
-								"You can't speak."
-							]
-						},
-						{
-							"type": "item",
-							"name": "Surprised",
-							"entries": [
-								"If you are Incapacitated when you roll Initiative, you have Disadvantage on the roll"
-							]
-						}
-					]
-				}
+			"spellListType": "groups",
+			"spells": [
+				"guidance",
+				"light",
+				"resistance",
+				"sacred flame",
+				"spare the dying",
+				"thaumaturgy",
+				"bane",
+				"bless",
+				"command",
+				"compelled duel",
+				"cure wounds",
+				"detect evil and good",
+				"detect magic",
+				"detect poison and disease",
+				"divine favor",
+				"guiding bolt",
+				"healing word",
+				"heroism",
+				"inflict wounds",
+				"protection from evil and good",
+				"purify food and drink",
+				"sanctuary",
+				"searing smite",
+				"shield of faith",
+				"thunderous smite",
+				"wrathful smite"
 			]
 		},
 		{
-			"name": "Slowed",
+			"name": "Primal",
 			"source": "XUA2022CharacterOptions",
-			"page": 20,
-			"entries": [
-				"While you are Slowed, you experience the following effects:",
-				{
-					"type": "list",
-					"style": "list-hang-notitle",
-					"items": [
-						{
-							"type": "item",
-							"name": "Limited Movement",
-							"entries": [
-								"You must spend 1 extra foot of movement for every foot you move using your Speed."
-							]
-						},
-						{
-							"type": "item",
-							"name": "Attacks Affected",
-							"entries": [
-								"{@action Attack} rolls against you have Advantage."
-							]
-						},
-						{
-							"type": "item",
-							"name": "Dexterity Saves Affected",
-							"entries": [
-								"You have Disadvantage on Dexterity saving throws."
-							]
-						}
-					]
-				}
+			"spellListType": "groups",
+			"spells": [
+				"druidcraft",
+				"guidance",
+				"mending",
+				"message",
+				"poison spray",
+				"produce flame",
+				"resistance",
+				"shillelagh",
+				"spare the dying",
+				"thorn whip",
+				"animal friendship",
+				"create or destroy water",
+				"cure wounds",
+				"detect magic",
+				"detect poison and disease",
+				"ensnaring strike",
+				"entangle",
+				"faerie fire",
+				"fog cloud",
+				"goodberry",
+				"hail of thorns",
+				"healing word",
+				"hunter's mark",
+				"jump",
+				"longstrider",
+				"purify food and drink",
+				"speak with animals",
+				"thunderwave"
 			]
+		}
+	],
+	"language": [
+		{
+			"name": "Common Sign Language",
+			"source": "XUA2022CharacterOptions",
+			"page": 16
 		}
 	],
 	"variantrule": [
 		{
-			"source": "XUA2022CharacterOptions",
-			"name": "Rules Glossary",
-			"entries": [
-				{
-					"type": "list",
-					"columns": 3,
-					"items": [
-						"{@variantrule Arcane Spells|XUA2022CharacterOptions}",
-						"{@variantrule Artisan's Tools|XUA2022CharacterOptions}",
-						"{@variantrule Creature Type|XUA2022CharacterOptions}",
-						"{@variantrule D20 Test|XUA2022CharacterOptions}",
-						"{@variantrule Divine Spells|XUA2022CharacterOptions}",
-						"{@variantrule Gaming Set|XUA2022CharacterOptions}",
-						"{@variantrule Inspiration|XUA2022CharacterOptions}",
-						"{@variantrule Long Rest|XUA2022CharacterOptions}",
-						"{@variantrule Musical Instrument|XUA2022CharacterOptions}",
-						"{@variantrule Primal Spells|XUA2022CharacterOptions}",
-						"{@variantrule Tool Proficiency|XUA2022CharacterOptions}",
-						"{@variantrule Tremorsense|XUA2022CharacterOptions}",
-						"{@variantrule Unarmed Strike|XUA2022CharacterOptions}"
-					]
-				}
-			]
-		},
-		{
+			"name": "Arcane Spells",
 			"source": "XUA2022CharacterOptions",
 			"page": 18,
-			"name": "Arcane Spells",
 			"entries": [
 				"An Arcane Spell draws on the ambient magic of the multiverse. Bards, Sorcerers, Warlocks, and Wizards harness this magic, as do Artificers. For a partial list of Arcane Spells, see the \"{@variantrule Spell Lists|XUA2022CharacterOptions}\" section later in this document."
 			]
 		},
 		{
+			"name": "Artisan's Tools",
 			"source": "XUA2022CharacterOptions",
 			"page": 18,
-			"name": "Artisan's Tools",
 			"entries": [
 				"Artisan's Tools are a category of tool with which a character can gain  {@variantrule Tool Proficiency|XUA2022CharacterOptions}. For a list of Artisan's Tools, see the 2014 {@book Player's Handbook|PHB}, but ignore the prices there; those tools now cost 15 GP apiece."
 			]
 		},
 		{
+			"name": "Creature Type",
 			"source": "XUA2022CharacterOptions",
 			"page": 18,
-			"name": "Creature Type",
 			"entries": [
 				"Every creature in D&D, including every player character, has a special tag in the rules that identifies the type of creature they are. Most player characters are of the Humanoid type. Here's a list of the game's Creature Types in alphabetical order:",
 				{
@@ -4533,9 +4523,9 @@
 			]
 		},
 		{
+			"name": "D20 Test",
 			"source": "XUA2022CharacterOptions",
 			"page": 18,
-			"name": "D20 Test",
 			"entries": [
 				"The term {@dice d20} Test encompasses the three main {@dice d20} rolls of the game: ability checks, attack rolls, and saving throws. If something in the game affects {@dice d20} Tests, it affects all three of those rolls.",
 				"The DM determines whether a {@dice d20} Test is warranted in any given circumstance. To be warranted, a {@dice d20} Test must have a target number no less than 5 and no greater than 30.",
@@ -4571,25 +4561,25 @@
 			]
 		},
 		{
+			"name": "Divine Spells",
 			"source": "XUA2022CharacterOptions",
 			"page": 19,
-			"name": "Divine Spells",
 			"entries": [
 				"A Divine Spell draws on the power of gods and the Outer Planes. Clerics and Paladins harness this magic. For a partial list of Divine Spells, see the \"{@variantrule Spell Lists|XUA2022CharacterOptions}\" section later in this document."
 			]
 		},
 		{
+			"name": "Gaming Set",
 			"source": "XUA2022CharacterOptions",
 			"page": 19,
-			"name": "Gaming Set",
 			"entries": [
 				"Gaming Sets are a category of tool with which a character can gain  {@variantrule Tool Proficiency|XUA2022CharacterOptions}. For a list of Gaming Sets, see the 2014 {@book Player's Handbook|PHB}, but ignore the prices there; those sets now cost 1 GP apiece."
 			]
 		},
 		{
+			"name": "Inspiration",
 			"source": "XUA2022CharacterOptions",
 			"page": 19,
-			"name": "Inspiration",
 			"entries": [
 				"When you have Inspiration, you can expend it to give yourself Advantage on a {@dice d20} Test. You must decide to do so before rolling the die.",
 				{
@@ -4622,9 +4612,9 @@
 			]
 		},
 		{
+			"name": "Long Rest",
 			"source": "XUA2022CharacterOptions",
 			"page": 19,
-			"name": "Long Rest",
 			"entries": [
 				"A Long Rest is a period of extended downtime\u2014at least 8 hours long\u2014during which a creature sleeps for at least 6 hours and performs no more than 2 hours of light activity, such as reading, talking, eating, or standing watch.",
 				{
@@ -4651,70 +4641,50 @@
 			]
 		},
 		{
+			"name": "Musical Instrument",
 			"source": "XUA2022CharacterOptions",
 			"page": 20,
-			"name": "Musical Instrument",
 			"entries": [
 				"Musical Instruments are a category of tool with which a character can gain  {@variantrule Tool Proficiency|XUA2022CharacterOptions}. For a list of Musical Instruments, see the 2014 {@book Player's Handbook|PHB}, but ignore the prices there; those instruments now cost 20 GP apiece."
 			]
 		},
 		{
+			"name": "Primal Spells",
 			"source": "XUA2022CharacterOptions",
 			"page": 20,
-			"name": "Primal Spells",
 			"entries": [
 				"A Primal Spell draws on the forces of nature and the Inner Planes. Druids and Rangers harness this magic. For a partial list of Primal Spells, see the \"{@variantrule Spell Lists|XUA2022CharacterOptions}\" section later in this document."
 			]
 		},
 		{
+			"name": "Rules Glossary",
 			"source": "XUA2022CharacterOptions",
-			"page": 20,
-			"name": "Tool Proficiency",
 			"entries": [
-				"If you have Proficiency with a tool, you can add your Proficiency Bonus to any ability check you make that uses that tool. If you have Proficiency in the Skill that's also used with that check, you have Advantage on the check too. This functionality means you can benefit from both Skill Proficiency and Tool Proficiency on the same ability check."
-			]
-		},
-		{
-			"source": "XUA2022CharacterOptions",
-			"page": 20,
-			"name": "Tremorsense",
-			"entries": [
-				"A creature with Tremorsense can pinpoint the location of creatures and moving objects within a specific range, provided that the creature with Tremorsense and anything it's detecting are both in contact with the same surface (such as the ground, a wall, or a ceiling) or the same liquid.",
-				"Tremorsense can't detect creatures or objects in the air, and Tremorsense doesn't count as a form of sight."
-			]
-		},
-		{
-			"source": "XUA2022CharacterOptions",
-			"page": 20,
-			"name": "Unarmed Strike",
-			"entries": [
-				"An Unarmed Strike is a melee attack that involves you using your body to damage, grapple, or shove a target within your Reach. Your bonus to hit with an Unarmed Strike equals your Strength modifier plus your Proficiency Bonus. On a hit, your Unarmed Strike causes one of the following effects of your choice:",
 				{
 					"type": "list",
-					"style": "list-hang-notitle",
+					"columns": 3,
 					"items": [
-						{
-							"type": "item",
-							"name": "Damage",
-							"entries": [
-								"The target takes Bludgeoning Damage equal to 1 + your Strength modifier. Grapple. The target is  {@condition Grappled|XUA2022CharacterOptions}, and the grapple's escape DC equals 8 + your Strength modifier + your Proficiency Bonus. This grapple is possible only if the target is no more than one Size larger than you and if you have a hand free to grab the target."
-							]
-						},
-						{
-							"type": "item",
-							"name": "Shove",
-							"entries": [
-								"You either push the target 5 feet away or knock the target Prone. This shove is possible only if the target is no more than one Size larger than you."
-							]
-						}
+						"{@variantrule Arcane Spells|XUA2022CharacterOptions}",
+						"{@variantrule Artisan's Tools|XUA2022CharacterOptions}",
+						"{@variantrule Creature Type|XUA2022CharacterOptions}",
+						"{@variantrule D20 Test|XUA2022CharacterOptions}",
+						"{@variantrule Divine Spells|XUA2022CharacterOptions}",
+						"{@variantrule Gaming Set|XUA2022CharacterOptions}",
+						"{@variantrule Inspiration|XUA2022CharacterOptions}",
+						"{@variantrule Long Rest|XUA2022CharacterOptions}",
+						"{@variantrule Musical Instrument|XUA2022CharacterOptions}",
+						"{@variantrule Primal Spells|XUA2022CharacterOptions}",
+						"{@variantrule Tool Proficiency|XUA2022CharacterOptions}",
+						"{@variantrule Tremorsense|XUA2022CharacterOptions}",
+						"{@variantrule Unarmed Strike|XUA2022CharacterOptions}"
 					]
 				}
 			]
 		},
 		{
-			"type": "entries",
-			"source": "XUA2022CharacterOptions",
 			"name": "Spell Lists",
+			"source": "XUA2022CharacterOptions",
+			"type": "entries",
 			"entries": [
 				{
 					"type": "entries",
@@ -4883,141 +4853,171 @@
 					]
 				}
 			]
-		}
-	],
-	"language": [
+		},
 		{
-			"name": "Common Sign Language",
+			"name": "Tool Proficiency",
 			"source": "XUA2022CharacterOptions",
-			"page": 16
-		}
-	],
-	"spellList": [
-		{
-			"name": "Arcane",
-			"source": "XUA2022CharacterOptions",
-			"spellListType": "groups",
-			"spells": [
-				"acid splash",
-				"blade ward",
-				"chill touch",
-				"dancing lights",
-				"fire bolt",
-				"friends",
-				"light",
-				"mage hand",
-				"mending",
-				"message",
-				"minor illusion",
-				"poison spray",
-				"prestidigitation",
-				"ray of frost",
-				"shocking grasp",
-				"true strike",
-				"vicious mockery",
-				"alarm",
-				"armor of agathys",
-				"arms of hadar",
-				"burning hands",
-				"charm person",
-				"chromatic orb",
-				"color spray",
-				"comprehend languages",
-				"detect magic",
-				"disguise self",
-				"dissonant whispers",
-				"expeditious retreat",
-				"false life",
-				"feather fall",
-				"find familiar",
-				"fog cloud",
-				"grease",
-				"hellish rebuke",
-				"hex",
-				"identify",
-				"illusory script",
-				"jump",
-				"longstrider",
-				"mage armor",
-				"magic missile",
-				"protection from evil and good",
-				"ray of sickness",
-				"shield",
-				"silent image",
-				"sleep",
-				"tasha's hideous laughter",
-				"tenser's floating disk",
-				"thunderwave",
-				"unseen servant",
-				"witch bolt"
+			"page": 20,
+			"entries": [
+				"If you have Proficiency with a tool, you can add your Proficiency Bonus to any ability check you make that uses that tool. If you have Proficiency in the Skill that's also used with that check, you have Advantage on the check too. This functionality means you can benefit from both Skill Proficiency and Tool Proficiency on the same ability check."
 			]
 		},
 		{
-			"name": "Divine",
+			"name": "Tremorsense",
 			"source": "XUA2022CharacterOptions",
-			"spellListType": "groups",
-			"spells": [
-				"guidance",
-				"light",
-				"resistance",
-				"sacred flame",
-				"spare the dying",
-				"thaumaturgy",
-				"bane",
-				"bless",
-				"command",
-				"compelled duel",
-				"cure wounds",
-				"detect evil and good",
-				"detect magic",
-				"detect poison and disease",
-				"divine favor",
-				"guiding bolt",
-				"healing word",
-				"heroism",
-				"inflict wounds",
-				"protection from evil and good",
-				"purify food and drink",
-				"sanctuary",
-				"searing smite",
-				"shield of faith",
-				"thunderous smite",
-				"wrathful smite"
+			"page": 20,
+			"entries": [
+				"A creature with Tremorsense can pinpoint the location of creatures and moving objects within a specific range, provided that the creature with Tremorsense and anything it's detecting are both in contact with the same surface (such as the ground, a wall, or a ceiling) or the same liquid.",
+				"Tremorsense can't detect creatures or objects in the air, and Tremorsense doesn't count as a form of sight."
 			]
 		},
 		{
-			"name": "Primal",
+			"name": "Unarmed Strike",
 			"source": "XUA2022CharacterOptions",
-			"spellListType": "groups",
-			"spells": [
-				"druidcraft",
-				"guidance",
-				"mending",
-				"message",
-				"poison spray",
-				"produce flame",
-				"resistance",
-				"shillelagh",
-				"spare the dying",
-				"thorn whip",
-				"animal friendship",
-				"create or destroy water",
-				"cure wounds",
-				"detect magic",
-				"detect poison and disease",
-				"ensnaring strike",
-				"entangle",
-				"faerie fire",
-				"fog cloud",
-				"goodberry",
-				"hail of thorns",
-				"healing word",
-				"hunter's mark",
-				"jump",
-				"longstrider",
-				"purify food and drink",
-				"speak with animals",
-				"thunderwave"
+			"page": 20,
+			"entries": [
+				"An Unarmed Strike is a melee attack that involves you using your body to damage, grapple, or shove a target within your Reach. Your bonus to hit with an Unarmed Strike equals your Strength modifier plus your Proficiency Bonus. On a hit, your Unarmed Strike causes one of the following effects of your choice:",
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"items": [
+						{
+							"type": "item",
+							"name": "Damage",
+							"entries": [
+								"The target takes Bludgeoning Damage equal to 1 + your Strength modifier. Grapple. The target is  {@condition Grappled|XUA2022CharacterOptions}, and the grapple's escape DC equals 8 + your Strength modifier + your Proficiency Bonus. This grapple is possible only if the target is no more than one Size larger than you and if you have a hand free to grab the target."
+							]
+						},
+						{
+							"type": "item",
+							"name": "Shove",
+							"entries": [
+								"You either push the target 5 feet away or knock the target Prone. This shove is possible only if the target is no more than one Size larger than you."
+							]
+						}
+					]
+				}
+			]
+		}
+	],
+	"condition": [
+		{
+			"name": "Grappled",
+			"source": "XUA2022CharacterOptions",
+			"page": 19,
+			"entries": [
+				"While you are Grappled, you experience the following effects:",
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"items": [
+						{
+							"type": "item",
+							"name": "Speed 0",
+							"entries": [
+								"Your Speed is 0 and can't change."
+							]
+						},
+						{
+							"type": "item",
+							"name": "Attacks Affected",
+							"entries": [
+								"You have Disadvantage on attack rolls against any target other than the grappler."
+							]
+						},
+						{
+							"type": "item",
+							"name": "Movable",
+							"entries": [
+								"The grappler can drag or carry you, but the grappler suffers the  {@condition Slowed|XUA2022CharacterOptions} Condition while moving, unless you are Tiny or two or more Sizes smaller than the grappler."
+							]
+						},
+						{
+							"type": "item",
+							"name": "Escape",
+							"entries": [
+								"While Grappled, you can make a Dexterity or Strength saving throw against the grapple's escape DC at the end of each of your turns, ending the Condition on yourself on a success. The Condition also ends if the grappler is  {@condition Incapacitated|XUA2022CharacterOptions} or if something moves you outside the grapple's range without using your Speed."
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Incapacitated",
+			"source": "XUA2022CharacterOptions",
+			"page": 19,
+			"entries": [
+				"While you are Incapacitated, you experience the following effects:",
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"items": [
+						{
+							"type": "item",
+							"name": "Inactive",
+							"entries": [
+								"You can't take Actions or Reactions."
+							]
+						},
+						{
+							"type": "item",
+							"name": "No Concentration",
+							"entries": [
+								"Your Concentration is broken."
+							]
+						},
+						{
+							"type": "item",
+							"name": "Speechless",
+							"entries": [
+								"You can't speak."
+							]
+						},
+						{
+							"type": "item",
+							"name": "Surprised",
+							"entries": [
+								"If you are Incapacitated when you roll Initiative, you have Disadvantage on the roll"
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Slowed",
+			"source": "XUA2022CharacterOptions",
+			"page": 20,
+			"entries": [
+				"While you are Slowed, you experience the following effects:",
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"items": [
+						{
+							"type": "item",
+							"name": "Limited Movement",
+							"entries": [
+								"You must spend 1 extra foot of movement for every foot you move using your Speed."
+							]
+						},
+						{
+							"type": "item",
+							"name": "Attacks Affected",
+							"entries": [
+								"{@action Attack} rolls against you have Advantage."
+							]
+						},
+						{
+							"type": "item",
+							"name": "Dexterity Saves Affected",
+							"entries": [
+								"You have Disadvantage on Dexterity saving throws."
+							]
+						}
+					]
+				}
 			]
 		}
 	]

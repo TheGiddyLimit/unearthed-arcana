@@ -20,12 +20,12 @@
 	"book": [
 		{
 			"name": "Unearthed Arcana: When Armies Clash",
-			"source": "UAWhenArmiesClash",
 			"id": "UAWAC",
-			"author": "Mike Mearls",
-			"published": "2015-02-02",
+			"source": "UAWhenArmiesClash",
 			"group": "prerelease",
 			"coverUrl": "img/covers/blank.png",
+			"published": "2015-02-02",
+			"author": "Mike Mearls",
 			"contents": [
 				{
 					"name": "When Armies Clash",
