@@ -6581,7 +6581,7 @@
 			"classSource": "XUA2023PlayersHandbookP6",
 			"level": 7,
 			"entries": [
-				"You can nimbly dodge out of the way of certain dangers. When you are subjected to an effect that allows you to make a Dexterity saving throw to take only half damage, you instead take no damage if you succeed on the saving throw and only half damage if you fail. You can't use this feature if you have the {@condition Incapacitated|XUA2023PlayersHandbookP6} condition."
+				"You have refined your talents until they approach perfection. Whenever you make an ability check that uses one of your skill or Tool proficiencies, you can treat a d20 roll of 9 or lower as a 10."
 			]
 		},
 		{
@@ -8206,26 +8206,8 @@
 			"level": 14,
 			"header": 2,
 			"entries": [
-				"The power of the moon suffuses you, granting you the following benefits:",
-				{
-					"type": "entries",
-					"entries": [
-						{
-							"type": "entries",
-							"name": "Movable Moonbeam",
-							"entries": [
-								"While your Moonbeam is active, you can move it up to 60 feet at the start of each of your turns (no action required)."
-							]
-						},
-						{
-							"type": "entries",
-							"name": "Shared Moonlight",
-							"entries": [
-								"Whenever you use Moonlight Step, you can also teleport one willing creature. That creature must be within 10 feet of you, and you teleport it to an unoccupied space you can see within 10 feet of your destination space."
-							]
-						}
-					]
-				}
+				"Whenever you use Wrath of the Sea, you can manifest the aura around one willing creature within 60 feet of you rather than manifesting it around yourself. The creature gains all the benefits of the aura and uses your Spell Save DC and Wisdom modifier for it.",
+				"In addition, you can manifest the aura around both the other creature and yourself if you expend two uses of your Wild Shape, instead of one, when manifesting the aura."
 			]
 		},
 		{

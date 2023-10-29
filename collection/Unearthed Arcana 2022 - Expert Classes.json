@@ -4697,15 +4697,6 @@
 			"school": "A"
 		},
 		{
-			"name": "Heal",
-			"source": "XUA2022ExpertClasses",
-			"_copy": {
-				"name": "Healing Word",
-				"source": "PHB"
-			},
-			"school": "A"
-		},
-		{
 			"name": "Healing Word",
 			"source": "XUA2022ExpertClasses",
 			"_copy": {
