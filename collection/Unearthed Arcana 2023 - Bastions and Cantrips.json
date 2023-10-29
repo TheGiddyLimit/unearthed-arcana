@@ -281,7 +281,7 @@
 							"type": "item",
 							"name": "Fabrication",
 							"entries": [
-								"While in the Demiplane, you can use a {@action Magic|XUA2023PlayersHandbookP6} action to magically create a nonmagical object of your choice from nothing, causing it to appear in an unoccupied space within the Demiplane. The object can be no bigger than a 5-foot cube in any dimension and must be made of wood, stone, clay, porcelain, glass, paper, nonprecious crystal, or nonprecious metal. You must finish a Long Rest before you can perform this action again."
+								"While in the Demiplane, you can use a {@action Magic|XUA2023PlayersHandbookP7} action to magically create a nonmagical object of your choice from nothing, causing it to appear in an unoccupied space within the Demiplane. The object can be no bigger than a 5-foot cube in any dimension and must be made of wood, stone, clay, porcelain, glass, paper, nonprecious crystal, or nonprecious metal. You must finish a Long Rest before you can perform this action again."
 							]
 						},
 						{
@@ -497,7 +497,7 @@
 			"prerequisite": [
 				{
 					"level": 17,
-					"other": "{@variantrule Expertise|XUA2023PlayersHandbookP6} in a skill"
+					"other": "{@variantrule Expertise|XUA2023PlayersHandbookP7} in a skill"
 				}
 			],
 			"entries": [
@@ -1416,7 +1416,7 @@
 			"prerequisite": [
 				{
 					"level": 9,
-					"other": "{@variantrule Expertise|XUA2023PlayersHandbookP6} in a skill, Fighting Style feature, or Unarmored Defense feature"
+					"other": "{@variantrule Expertise|XUA2023PlayersHandbookP7} in a skill, Fighting Style feature, or Unarmored Defense feature"
 				}
 			],
 			"entries": [
@@ -1504,7 +1504,7 @@
 							"type": "item",
 							"name": "Research: Trinket Trophy",
 							"entries": [
-								"You commission the facility's hireling to search for a trinket that might be of use to you. The work takes 7 days. When the research concludes, roll a die. If the number rolled is odd, the hireling finds nothing useful. If the number rolled is even, the hireling finds a trinket with a previously unknown magical property. You can decide what the trinket looks like or roll on the {@item Trinket|PHB|Trinkets} table in the {@book Player's Handbook|PHB} to determine its form. As a {@action Magic|XUA2023PlayersHandbookP6} action, a creature can use the trinket to cast a particular spell, requiring no spell components. Choose the spell from the following list: {@spell Clairvoyance}, {@spell Death Ward}, {@spell Find Traps}, {@spell Locate Creature}, {@spell Magic Weapon}, {@spell Remove Curse}, or {@spell Speak with Dead}. Once used in this way, the trinket loses its magic."
+								"You commission the facility's hireling to search for a trinket that might be of use to you. The work takes 7 days. When the research concludes, roll a die. If the number rolled is odd, the hireling finds nothing useful. If the number rolled is even, the hireling finds a trinket with a previously unknown magical property. You can decide what the trinket looks like or roll on the {@item Trinket|PHB|Trinkets} table in the {@book Player's Handbook|PHB} to determine its form. As a {@action Magic|XUA2023PlayersHandbookP7} action, a creature can use the trinket to cast a particular spell, requiring no spell components. Choose the spell from the following list: {@spell Clairvoyance}, {@spell Death Ward}, {@spell Find Traps}, {@spell Locate Creature}, {@spell Magic Weapon}, {@spell Remove Curse}, or {@spell Speak with Dead}. Once used in this way, the trinket loses its magic."
 							]
 						}
 					]
@@ -1582,7 +1582,7 @@
 			"prerequisite": [
 				{
 					"level": 5,
-					"other": "{@variantrule Expertise|XUA2023PlayersHandbookP6} in a skill"
+					"other": "{@variantrule Expertise|XUA2023PlayersHandbookP7} in a skill"
 				}
 			],
 			"entries": [
@@ -1608,7 +1608,7 @@
 					]
 				},
 				"This Workshop is a creative space where all manner of useful items can be crafted.",
-				"After spending an entire Short Rest in your Workshop, you gain {@variantrule Heroic Advantage|XUA2023PlayersHandbookP6}. You can't gain this benefit again until you finish a Long Rest.",
+				"After spending an entire Short Rest in your Workshop, you gain {@variantrule Heroic Advantage|XUA2023PlayersHandbookP7}. You can't gain this benefit again until you finish a Long Rest.",
 				"When you issue the Craft order to this facility, you commission the facility's hirelings to craft one Tiny, nonmagical object that can be made using {@item Carpenter's Tools|PHB}, {@item Cobbler's Tools|PHB}, {@item Glassblower's Tools|PHB}, {@item Mason's Tools|PHB}, {@item Potter's Tools|PHB}, {@item Tinker's Tools|PHB}, {@item Weaver's Tools|PHB}, or {@item Woodcarver's Tools|PHB|Woodcutter's Tools}. Examples include a {@item Costume Clothes|PHB|Costume}, a {@item Gaming Set|PHB}, a {@item Musical Instrument|PHB}, a Spellcasting Focus, a {@item glass bottle|PHB|bottle}, a shoe, or a toy. The work takes 7 days and costs you nothing unless the item is worth 10 GP or more, in which case you pay half the item's cost."
 			]
 		}
@@ -1986,7 +1986,7 @@
 			],
 			"entries": [
 				"A flickering flame appears in your hand and remains there for the duration. While there, the flame emits no heat and ignites nothing, and it sheds bright light in a 20-foot radius and dim light for an additional 20 feet. The spell ends if you dismiss it as a Bonus Action or if you cast it again.",
-				"Until the spell ends, you can take a {@action Magic|XUA2023PlayersHandbookP6} action to hurl fire at a creature or an object within 60 feet of you. Make a ranged spell attack. On a hit, the target takes {@damage 1d8} fire damage."
+				"Until the spell ends, you can take a {@action Magic|XUA2023PlayersHandbookP7} action to hurl fire at a creature or an object within 60 feet of you. Make a ranged spell attack. On a hit, the target takes {@damage 1d8} fire damage."
 			],
 			"entriesHigherLevel": [
 				{
@@ -3047,7 +3047,7 @@
 			"rows": [
 				[
 					"Battle Expert",
-					"Once per turn, when you take damage from an attack made with an {@variantrule Unarmed Strike|XUA2023PlayersHandbookP6} or a weapon, you can reduce this damage by {@dice 1d4}, provided you don't have the {@condition Incapacitated} condition."
+					"Once per turn, when you take damage from an attack made with an {@variantrule Unarmed Strike|XUA2023PlayersHandbookP7} or a weapon, you can reduce this damage by {@dice 1d4}, provided you don't have the {@condition Incapacitated} condition."
 				],
 				[
 					"Skills Expert",
@@ -3059,7 +3059,7 @@
 				],
 				[
 					"Unarmed Combat Expert",
-					"When you use an {@variantrule Unarmed Strike|XUA2023PlayersHandbookP6} to damage a target, the attack deals an extra {@dice 1d4} Bludgeoning damage on a hit."
+					"When you use an {@variantrule Unarmed Strike|XUA2023PlayersHandbookP7} to damage a target, the attack deals an extra {@dice 1d4} Bludgeoning damage on a hit."
 				],
 				[
 					"Weapon Expert",
@@ -3406,23 +3406,23 @@
 			"rows": [
 				[
 					"{@i Bigby's Handy Arcana Codex}",
-					"You have Advantage on any Intelligence ({@skill Arcana}) check you make when you take the {@action Study|XUA2023PlayersHandbookP6} action to recall lore about spells, magic items, eldritch symbols, magical traditions, and planes of existence."
+					"You have Advantage on any Intelligence ({@skill Arcana}) check you make when you take the {@action Study|XUA2023PlayersHandbookP7} action to recall lore about spells, magic items, eldritch symbols, magical traditions, and planes of existence."
 				],
 				[
 					"{@i The Chronepsis Chronicles}",
-					"You have Advantage on any Intelligence ({@skill History}) check you make when you take the {@action Study|XUA2023PlayersHandbookP6} action to recall lore about historical events, legendary people, ancient kingdoms, past disputes, wars, and lost civilizations."
+					"You have Advantage on any Intelligence ({@skill History}) check you make when you take the {@action Study|XUA2023PlayersHandbookP7} action to recall lore about historical events, legendary people, ancient kingdoms, past disputes, wars, and lost civilizations."
 				],
 				[
 					"{@i Investigations of the Inquisitive}",
-					"You have Advantage on any Intelligence ({@skill Investigation}) check you make when you take the {@action Study|XUA2023PlayersHandbookP6} action to make deductions based on clues or evidence or to recall lore about traps, ciphers, riddles, and gadgetry."
+					"You have Advantage on any Intelligence ({@skill Investigation}) check you make when you take the {@action Study|XUA2023PlayersHandbookP7} action to make deductions based on clues or evidence or to recall lore about traps, ciphers, riddles, and gadgetry."
 				],
 				[
 					"{@i Material Musings on the Nature of Worldly Things}",
-					"You have Advantage on any Intelligence ({@skill Nature}) check you make when you take the {@action Study|XUA2023PlayersHandbookP6} action to recall lore about terrain, plants and animals, the weather, and natural cycles."
+					"You have Advantage on any Intelligence ({@skill Nature}) check you make when you take the {@action Study|XUA2023PlayersHandbookP7} action to recall lore about terrain, plants and animals, the weather, and natural cycles."
 				],
 				[
 					"{@i The Old Faith and Other Religions}",
-					"You have Advantage on any Intelligence ({@skill Religion}) check you make when you take the {@action Study|XUA2023PlayersHandbookP6} action to recall lore about deities, rites and prayers, religious hierarchies, holy symbols, and the practices of secret cults."
+					"You have Advantage on any Intelligence ({@skill Religion}) check you make when you take the {@action Study|XUA2023PlayersHandbookP7} action to recall lore about deities, rites and prayers, religious hierarchies, holy symbols, and the practices of secret cults."
 				]
 			]
 		},
@@ -3556,7 +3556,7 @@
 				[
 					"5",
 					"{@optfeature Workshop|XUA2023BastionsAndCantrips}",
-					"{@variantrule Expertise|XUA2023PlayersHandbookP6} in a skill",
+					"{@variantrule Expertise|XUA2023PlayersHandbookP7} in a skill",
 					"Craft"
 				],
 				[
@@ -3610,7 +3610,7 @@
 				[
 					"9",
 					"{@optfeature Training Area|XUA2023BastionsAndCantrips}",
-					"{@variantrule Expertise|XUA2023PlayersHandbookP6} in a skill, Fighting Style feature, or Unarmored Defense feature",
+					"{@variantrule Expertise|XUA2023PlayersHandbookP7} in a skill, Fighting Style feature, or Unarmored Defense feature",
 					"Empower"
 				],
 				[
@@ -3664,7 +3664,7 @@
 				[
 					"17",
 					"{@optfeature Guildhall|XUA2023BastionsAndCantrips}",
-					"{@variantrule Expertise|XUA2023PlayersHandbookP6} in a skill",
+					"{@variantrule Expertise|XUA2023PlayersHandbookP7} in a skill",
 					"Recruit"
 				],
 				[
