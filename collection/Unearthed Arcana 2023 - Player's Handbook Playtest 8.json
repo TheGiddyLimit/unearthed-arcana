@@ -1,0 +1,4658 @@
+{
+	"_meta": {
+		"sources": [
+			{
+				"json": "XUA2023PlayersHandbookP8",
+				"abbreviation": "XUA23P8",
+				"full": "Unearthed Arcana 2023: Player's Handbook Playtest 8",
+				"authors": [
+					"Wizards of the Coast"
+				],
+				"version": "1.0.0",
+				"url": "https://media.dndbeyond.com/compendium-images/ua/ph-playtest8/gHvtmY50loGLgQUb/UA2023-PH-Playtest8.pdf",
+				"dateReleased": "2023-11-27"
+			}
+		],
+		"dateAdded": 1701114642,
+		"dateLastModified": 1701114642,
+		"_dateLastModifiedHash": "dd5d654fbd"
+	},
+	"feat": [
+		{
+			"name": "Ability Score Improvement",
+			"source": "XUA2023PlayersHandbookP8",
+			"page": 21,
+			"prerequisite": [
+				{
+					"level": 4
+				}
+			],
+			"category": "general",
+			"repeatable": true,
+			"ability": [
+				{
+					"choose": {
+						"from": [
+							"str",
+							"dex",
+							"con",
+							"int",
+							"wis",
+							"cha"
+						],
+						"amount": 2
+					},
+					"hidden": true
+				},
+				{
+					"choose": {
+						"from": [
+							"str",
+							"dex",
+							"con",
+							"int",
+							"wis",
+							"cha"
+						],
+						"count": 2
+					},
+					"hidden": true
+				}
+			],
+			"entries": [
+				"Increase one ability score of your choice by 2, or increase two ability scores of your choice by 1. You can't increase an ability score above 20 using this feat. However, if you're at least level 19, that maximum increases to 22."
+			]
+		}
+	],
+	"spell": [
+		{
+			"name": "Conjure Animals",
+			"source": "XUA2023PlayersHandbookP8",
+			"page": 18,
+			"level": 3,
+			"school": "C",
+			"groups": [
+				{
+					"name": "Druid",
+					"source": "XUA2023PlayersHandbookP8"
+				},
+				{
+					"name": "Ranger",
+					"source": "XUA2023PlayersHandbookP6"
+				}
+			],
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 60
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 10
+					},
+					"concentration": true
+				}
+			],
+			"entries": [
+				"You summon nature spirits that take the form of a Large swarm of spectral animals in an unoccupied space that you can see within range. The swarm lasts for the duration, and you choose the animal form of the spirits, such as wolves, serpents, or birds.",
+				"When a creature hostile to you enters a space within 10 feet of the swarm for the first time on a turn or starts its turn there, you can make a melee spell attack against that creature. On a hit, the target takes Radiant damage equal to {@damage 2d10} plus your spellcasting ability modifier.",
+				"You have Advantage on Strength saving throws while you're within 10 feet of the swarm, and when you {@variantrule Move|XUA2023PlayersHandbookP8} on your turn, you can also move the swarm up to 30 feet to an unoccupied space you can see."
+			],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "At Higher Levels",
+					"entries": [
+						"When you cast this spell using a spell slot of level 4 or higher, the damage increases by {@damage 1d10} for each slot level above 3."
+					]
+				}
+			],
+			"spellAttack": [
+				"M"
+			],
+			"savingThrow": [
+				"strength"
+			],
+			"miscTags": [
+				"ADV",
+				"SGT",
+				"SMN"
+			]
+		},
+		{
+			"name": "Conjure Celestial",
+			"source": "XUA2023PlayersHandbookP8",
+			"page": 18,
+			"level": 7,
+			"school": "C",
+			"groups": [
+				{
+					"name": "Cleric",
+					"source": "XUA2023PlayersHandbookP6"
+				}
+			],
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 90
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 10
+					},
+					"concentration": true
+				}
+			],
+			"entries": [
+				"You summon the protective presence of a Celestial spirit, which manifests as a pillar of divine light that shines in a 10-foot-radius, 40-foot-high Cylinder centered on a point within range. Until the spell ends, Bright Light fills the Cylinder, and when you {@variantrule Move|XUA2023PlayersHandbookP8} on your turn, you can also move the Cylinder up to 30 feet.",
+				"When a creature enters the Cylinder for the first time on a turn or starts its turn there, you can bathe that creature in one of the following lights:",
+				{
+					"type": "entries",
+					"name": "Healing Light",
+					"entries": [
+						"The creature that isn't an Undead or a Construct regains Hit Points equal to {@dice 4d12} plus your spellcasting modifier. A creature can be healed by this light only once per casting of this spell."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Searing Radiance",
+					"entries": [
+						"The creature must make a Dexterity saving throw, taking {@damage 8d12} Radiant damage on a failed save or half as much damage on a successful one."
+					]
+				}
+			],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "At Higher Levels",
+					"entries": [
+						"When you cast this spell using a spell slot of level 8 or higher, the healing and damage increase by {@damage 1d12} for each slot level above 7."
+					]
+				}
+			],
+			"damageInflict": [
+				"radiant"
+			],
+			"savingThrow": [
+				"dexterity"
+			],
+			"miscTags": [
+				"HL",
+				"LGT",
+				"SMN"
+			]
+		},
+		{
+			"name": "Conjure Elemental",
+			"source": "XUA2023PlayersHandbookP8",
+			"page": 19,
+			"level": 5,
+			"school": "C",
+			"groups": [
+				{
+					"name": "Druid",
+					"source": "XUA2023PlayersHandbookP8"
+				},
+				{
+					"name": "Wizard",
+					"source": "XUA2023PlayersHandbookP7"
+				}
+			],
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 60
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 10
+					},
+					"concentration": true
+				}
+			],
+			"entries": [
+				"You summon an Elemental spirit that fills a 10-foot Cube within range. The spirit lasts for the duration and is composed of air, earth, fire, or water (your choice) when you cast this spell.",
+				"When a creature hostile to you {@variantrule Move|XUA2023PlayersHandbookP8|Moves} within 5 feet of the spirit, you can make a melee spell attack against that creature. On a hit, the target takes {@damage 8d8} damage of a type determined by the spirit's element: Bludgeoning (earth), Cold (water), Fire (fire), or Lightning (air). If the target is a Large or smaller creature, it is also pulled into the Cube and has the Restrained condition. At the start of each of its turns, the target must make a Strength saving throw against your spell save DC. On a success, the target frees itself. On a failure, the target takes {@damage 4d8} damage of the same type as the spell attack. The spirit can have only one creature restrained at a time."
+			],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "At Higher Levels",
+					"entries": [
+						"When you cast this spell using a spell slot of level 6 or higher, the damage increases by {@damage 2d8} for each slot level above 5."
+					]
+				}
+			],
+			"conditionInflict": [
+				"restrained"
+			],
+			"spellAttack": [
+				"M"
+			],
+			"savingThrow": [
+				"strength"
+			],
+			"miscTags": [
+				"SMN"
+			]
+		},
+		{
+			"name": "Conjure Fey",
+			"source": "XUA2023PlayersHandbookP8",
+			"page": 19,
+			"level": 6,
+			"school": "C",
+			"groups": [
+				{
+					"name": "Druid",
+					"source": "XUA2023PlayersHandbookP8"
+				}
+			],
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 60
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 10
+					},
+					"concentration": true
+				}
+			],
+			"entries": [
+				"You summon the awesome presence of a Medium Fey spirit in an unoccupied space you can see within range. The spirit lasts for the duration, and it looks like a Fey creature of your choice. When the spirit appears, you can immediately make one melee spell attack against a creature within 5 feet of the spirit. On a hit, the target takes Psychic damage equal to {@damage 3d12} plus your spellcasting ability modifier, and the target must succeed on a Wisdom saving throw or have the Frightened condition until the start of your next turn.",
+				"As a Bonus Action on your later turns, you can teleport the spirit to an unoccupied space you can see within 30 feet of the space it left and repeat the attack against a creature within 5 feet of it."
+			],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "At Higher Levels",
+					"entries": [
+						"When you cast this spell using a spell slot of level 7 or higher, the damage increases by {@damage 2d12} for each slot level above 6."
+					]
+				}
+			],
+			"savingThrow": [
+				"wisdom"
+			],
+			"miscTags": [
+				"SGT",
+				"SMN",
+				"UBA"
+			]
+		},
+		{
+			"name": "Conjure Minor Elementals",
+			"source": "XUA2023PlayersHandbookP8",
+			"page": 19,
+			"level": 4,
+			"school": "C",
+			"groups": [
+				{
+					"name": "Druid",
+					"source": "XUA2023PlayersHandbookP8"
+				},
+				{
+					"name": "Wizard",
+					"source": "XUA2023PlayersHandbookP7"
+				}
+			],
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "radius",
+				"distance": {
+					"type": "feet",
+					"amount": 15
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 10
+					},
+					"concentration": true
+				}
+			],
+			"entries": [
+				"You summon elemental spirits that a flit around you for the duration. Until the spell ends, any attack you make deals an extra {@damage 2d8} damage when you hit a creature within 15 feet of you. This damage is Bludgeoning, Cold, Fire, or Lightning (your choice when you make the attack).",
+				"In addition, the ground within 15 feet of you is {@variantrule Difficult Terrain|XUA2023PlayersHandbookP8} for your enemies."
+			],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "At Higher Levels",
+					"entries": [
+						"When you cast this spell using a spell slot of level 5 or higher, the damage increases by {@damage 2d8} and the range of {@variantrule Difficult Terrain|XUA2023PlayersHandbookP8} increases by 5 feet for each slot level above 4."
+					]
+				}
+			],
+			"miscTags": [
+				"DFT",
+				"SMN"
+			]
+		},
+		{
+			"name": "Conjure Woodland Beings",
+			"source": "XUA2023PlayersHandbookP8",
+			"page": 19,
+			"level": 5,
+			"school": "C",
+			"groups": [
+				{
+					"name": "Druid",
+					"source": "XUA2023PlayersHandbookP8"
+				},
+				{
+					"name": "Ranger",
+					"source": "XUA2023PlayersHandbookP6"
+				}
+			],
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "radius",
+				"distance": {
+					"type": "feet",
+					"amount": 10
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 10
+					},
+					"concentration": true
+				}
+			],
+			"entries": [
+				"You summon nature spirits that flit about you for the duration. Until the spell ends, each creature you choose that enters a space within 10 feet of you for the first time on a turn or starts its turn there must make a Wisdom saving throw, taking {@damage 5d8} Force damage on a failed save or half as much damage on a successful one.",
+				"In addition, you can take the {@action Disengage} action as a Bonus Action for the spell's duration."
+			],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "At Higher Levels",
+					"entries": [
+						"When you cast this spell using a spell slot of level 6 or higher, the damage increases by {@dice 1d8} for each slot level above 5."
+					]
+				}
+			],
+			"damageInflict": [
+				"force"
+			],
+			"savingThrow": [
+				"wisdom"
+			],
+			"miscTags": [
+				"SMN",
+				"UBA"
+			]
+		},
+		{
+			"name": "Cure Wounds",
+			"source": "XUA2023PlayersHandbookP8",
+			"page": 19,
+			"level": 1,
+			"school": "A",
+			"groups": [
+				{
+					"name": "Bard",
+					"source": "XUA2023PlayersHandbookP6"
+				},
+				{
+					"name": "Cleric",
+					"source": "XUA2023PlayersHandbookP6"
+				},
+				{
+					"name": "Druid",
+					"source": "XUA2023PlayersHandbookP8"
+				},
+				{
+					"name": "Paladin",
+					"source": "XUA2023PlayersHandbookP6"
+				},
+				{
+					"name": "Ranger",
+					"source": "XUA2023PlayersHandbookP6"
+				}
+			],
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "touch"
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"entries": [
+				"A creature you touch regains a number of Hit Points equal to {@dice 2d8} plus your spellcasting ability modifier. This spell has no effect on Constructs and Undead."
+			],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "At Higher Levels",
+					"entries": [
+						"When you cast this spell using a spell slot of level 2 or higher, the healing increases by {@dice 2d8} for each slot level above 1."
+					]
+				}
+			],
+			"miscTags": [
+				"HL"
+			]
+		},
+		{
+			"name": "Fount of Moonlight",
+			"source": "XUA2023PlayersHandbookP8",
+			"page": 20,
+			"level": 4,
+			"school": "V",
+			"groups": [
+				{
+					"name": "Druid",
+					"source": "XUA2023PlayersHandbookP8"
+				},
+				{
+					"name": "Bard",
+					"source": "XUA2023PlayersHandbookP6"
+				}
+			],
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "self"
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 10
+					},
+					"concentration": true
+				}
+			],
+			"entries": [
+				"A cool light wreathes your body for the duration, emitting Bright Light in a 20-foot radius and Dim Light for an additional 20 feet.",
+				"Until the spell ends, you have Resistance to Radiant damage, and your melee attacks deal an extra {@damage 2d6} Radiant damage on a hit.",
+				"In addition, immediately after you take damage from a creature you can see within 60 feet of yourself, you can use your Reaction to force the creature to make a Constitution saving throw. On a failed save, the creature has the Blinded condition until the end of your next turn."
+			],
+			"damageResist": [
+				"radiant"
+			],
+			"damageImmune": [
+				"radiant"
+			],
+			"damageVulnerable": [
+				"radiant"
+			],
+			"damageInflict": [
+				"radiant"
+			],
+			"savingThrow": [
+				"constitution"
+			],
+			"miscTags": [
+				"AAD",
+				"LGT",
+				"SGT"
+			]
+		},
+		{
+			"name": "Healing Word",
+			"source": "XUA2023PlayersHandbookP8",
+			"page": 20,
+			"level": 1,
+			"school": "A",
+			"groups": [
+				{
+					"name": "Druid",
+					"source": "XUA2023PlayersHandbookP8"
+				},
+				{
+					"name": "Bard",
+					"source": "XUA2023PlayersHandbookP6"
+				},
+				{
+					"name": "Cleric",
+					"source": "XUA2023PlayersHandbookP6"
+				}
+			],
+			"time": [
+				{
+					"number": 1,
+					"unit": "bonus"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 60
+				}
+			},
+			"components": {
+				"v": true
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"entries": [
+				"A creature of your choice that you can see within range regains Hit Points equal to {@dice 2d4} plus your spellcasting ability modifier. This spell has no effect on Constructs or Undead."
+			],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "At Higher Levels",
+					"entries": [
+						"When you cast this spell using a spell slot of level 2 or higher, the healing increases by {@dice 2d4} for each slot level above 1."
+					]
+				}
+			],
+			"miscTags": [
+				"HL",
+				"SGT"
+			]
+		},
+		{
+			"name": "Mass Cure Wounds",
+			"source": "XUA2023PlayersHandbookP8",
+			"page": 20,
+			"level": 5,
+			"school": "A",
+			"groups": [
+				{
+					"name": "Druid",
+					"source": "XUA2023PlayersHandbookP8"
+				},
+				{
+					"name": "Bard",
+					"source": "XUA2023PlayersHandbookP6"
+				},
+				{
+					"name": "Cleric",
+					"source": "XUA2023PlayersHandbookP6"
+				}
+			],
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 60
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"entries": [
+				"A wave of healing energy emanates from a point you can see within range. Choose up to six creatures in a 30-foot-radius Sphere centered on that point. Each target regains Hit Points equal to {@dice 5d8} plus your spellcasting ability modifier. This spell has no effect on Constructs or Undead."
+			],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "At Higher Levels",
+					"entries": [
+						"When you cast this spell using a spell slot of level 6 or higher, the healing increases by {@dice 1d8} for each slot level above 5."
+					]
+				}
+			],
+			"miscTags": [
+				"HL",
+				"SGT"
+			]
+		},
+		{
+			"name": "Mass Healing Word",
+			"source": "XUA2023PlayersHandbookP8",
+			"page": 20,
+			"level": 3,
+			"school": "A",
+			"groups": [
+				{
+					"name": "Bard",
+					"source": "XUA2023PlayersHandbookP6"
+				},
+				{
+					"name": "Cleric",
+					"source": "XUA2023PlayersHandbookP6"
+				}
+			],
+			"time": [
+				{
+					"number": 1,
+					"unit": "bonus"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 60
+				}
+			},
+			"components": {
+				"v": true
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"entries": [
+				"As you call out words of restoration, up to six creatures of your choice that you can see within range regain Hit Points equal to {@dice 2d4} plus your spellcasting ability modifier. This spell has no effect on Constructs or Undead."
+			],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "At Higher Levels",
+					"entries": [
+						"When you cast this spell using a spell slot of level 4 or higher, the healing increases by {@dice 1d4} for each slot level above 3."
+					]
+				}
+			],
+			"miscTags": [
+				"HL",
+				"SGT"
+			]
+		},
+		{
+			"name": "Power Word Fortify",
+			"source": "XUA2023PlayersHandbookP8",
+			"page": 20,
+			"level": 7,
+			"school": "E",
+			"groups": [
+				{
+					"name": "Bard",
+					"source": "XUA2023PlayersHandbookP6"
+				},
+				{
+					"name": "Cleric",
+					"source": "XUA2023PlayersHandbookP6"
+				}
+			],
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 60
+				}
+			},
+			"components": {
+				"v": true
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"entries": [
+				"You speak a word of power that fortifies up to six creatures you can see within range. The spell bestows 120 Temporary Hit Points, which are divided equally among the spell's recipients."
+			],
+			"miscTags": [
+				"SGT",
+				"THP"
+			]
+		},
+		{
+			"name": "Starry Wisp",
+			"source": "XUA2023PlayersHandbookP8",
+			"page": 20,
+			"level": 0,
+			"school": "V",
+			"groups": [
+				{
+					"name": "Bard",
+					"source": "XUA2023PlayersHandbookP6"
+				},
+				{
+					"name": "Druid",
+					"source": "XUA2023PlayersHandbookP8"
+				}
+			],
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 60
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"entries": [
+				"You launch a mote of light at one creature or object within range. Make a ranged spell attack against the target. On a hit, the target takes {@damage 1d8} Radiant damage, and until the end of your next turn, it emits Dim Light in a 10-foot radius and can't benefit from the Invisible condition."
+			],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "Cantrip Upgrade",
+					"entries": [
+						"This spell's damage increases by {@dice 1d8} when you reach levels 5 ({@dice 2d8}), 11 ({@dice 3d8}), and 17 ({@dice 4d8})."
+					]
+				}
+			],
+			"scalingLevelDice": {
+				"label": "Radiant damage",
+				"scaling": {
+					"1": "1d8",
+					"5": "2d8",
+					"11": "3d8",
+					"17": "4d8"
+				}
+			},
+			"damageInflict": [
+				"radiant"
+			],
+			"spellAttack": [
+				"R"
+			],
+			"miscTags": [
+				"LGT",
+				"OBJ",
+				"SCL"
+			]
+		}
+	],
+	"baseitem": [
+		{
+			"name": "Battleaxe",
+			"source": "XUA2023PlayersHandbookP8",
+			"page": 22,
+			"type": "M",
+			"rarity": "none",
+			"weight": 4,
+			"value": 1000,
+			"weaponCategory": "martial",
+			"property": [
+				"V"
+			],
+			"mastery": [
+				"Topple|XUA2023PlayersHandbookP8"
+			],
+			"dmg1": "1d8",
+			"dmgType": "S",
+			"dmg2": "1d10",
+			"axe": true,
+			"weapon": true
+		},
+		{
+			"name": "Blowgun",
+			"source": "XUA2023PlayersHandbookP8",
+			"page": 22,
+			"type": "R",
+			"rarity": "none",
+			"weight": 1,
+			"value": 1000,
+			"weaponCategory": "martial",
+			"property": [
+				"A",
+				"LD"
+			],
+			"mastery": [
+				"Vex|XUA2023PlayersHandbookP8"
+			],
+			"range": "25/100",
+			"dmg1": "1",
+			"dmgType": "P",
+			"weapon": true,
+			"ammoType": "blowgun needle|phb"
+		},
+		{
+			"name": "Club",
+			"source": "XUA2023PlayersHandbookP8",
+			"page": 21,
+			"type": "M",
+			"rarity": "none",
+			"weight": 2,
+			"value": 10,
+			"weaponCategory": "simple",
+			"property": [
+				"XUA2023PlayersHandbookP8-L"
+			],
+			"mastery": [
+				"Slow|XUA2023PlayersHandbookP8"
+			],
+			"dmg1": "1d4",
+			"dmgType": "B",
+			"club": true,
+			"weapon": true
+		},
+		{
+			"name": "Crossbow, Hand",
+			"source": "XUA2023PlayersHandbookP8",
+			"page": 22,
+			"type": "R",
+			"rarity": "none",
+			"weight": 3,
+			"value": 7500,
+			"weaponCategory": "martial",
+			"property": [
+				"A",
+				"XUA2023PlayersHandbookP8-L",
+				"LD"
+			],
+			"mastery": [
+				"Vex|XUA2023PlayersHandbookP8"
+			],
+			"range": "30/120",
+			"dmg1": "1d6",
+			"dmgType": "P",
+			"crossbow": true,
+			"weapon": true,
+			"ammoType": "crossbow bolt|phb"
+		},
+		{
+			"name": "Crossbow, Heavy",
+			"source": "XUA2023PlayersHandbookP8",
+			"page": 22,
+			"type": "R",
+			"rarity": "none",
+			"weight": 18,
+			"value": 5000,
+			"weaponCategory": "martial",
+			"property": [
+				"A",
+				"XUA2023PlayersHandbookP8-H",
+				"LD",
+				"2H"
+			],
+			"mastery": [
+				"Push|XUA2023PlayersHandbookP8"
+			],
+			"range": "100/400",
+			"dmg1": "1d10",
+			"dmgType": "P",
+			"crossbow": true,
+			"weapon": true,
+			"ammoType": "crossbow bolt|phb"
+		},
+		{
+			"name": "Crossbow, Light",
+			"source": "XUA2023PlayersHandbookP8",
+			"page": 21,
+			"type": "R",
+			"rarity": "none",
+			"weight": 5,
+			"value": 2500,
+			"weaponCategory": "simple",
+			"property": [
+				"A",
+				"LD",
+				"2H"
+			],
+			"mastery": [
+				"Slow|XUA2023PlayersHandbookP8"
+			],
+			"range": "80/320",
+			"dmg1": "1d8",
+			"dmgType": "P",
+			"crossbow": true,
+			"weapon": true,
+			"ammoType": "crossbow bolt|phb"
+		},
+		{
+			"name": "Dagger",
+			"source": "XUA2023PlayersHandbookP8",
+			"page": 21,
+			"type": "M",
+			"rarity": "none",
+			"weight": 1,
+			"value": 200,
+			"weaponCategory": "simple",
+			"property": [
+				"F",
+				"XUA2023PlayersHandbookP8-L",
+				"XUA2023PlayersHandbookP8-T"
+			],
+			"mastery": [
+				"Nick|XUA2023PlayersHandbookP8"
+			],
+			"range": "20/60",
+			"dmg1": "1d4",
+			"dmgType": "P",
+			"dagger": true,
+			"weapon": true
+		},
+		{
+			"name": "Dart",
+			"source": "XUA2023PlayersHandbookP8",
+			"page": 21,
+			"type": "R",
+			"rarity": "none",
+			"weight": 0.25,
+			"value": 5,
+			"weaponCategory": "simple",
+			"property": [
+				"F",
+				"XUA2023PlayersHandbookP8-T"
+			],
+			"mastery": [
+				"Vex|XUA2023PlayersHandbookP8"
+			],
+			"range": "20/60",
+			"dmg1": "1d4",
+			"dmgType": "P",
+			"weapon": true
+		},
+		{
+			"name": "Flail",
+			"source": "XUA2023PlayersHandbookP8",
+			"page": 22,
+			"type": "M",
+			"rarity": "none",
+			"weight": 2,
+			"value": 1000,
+			"weaponCategory": "martial",
+			"mastery": [
+				"Sap|XUA2023PlayersHandbookP8"
+			],
+			"dmg1": "1d8",
+			"dmgType": "B",
+			"weapon": true
+		},
+		{
+			"name": "Glaive",
+			"source": "XUA2023PlayersHandbookP8",
+			"page": 22,
+			"type": "M",
+			"rarity": "none",
+			"weight": 6,
+			"value": 2000,
+			"weaponCategory": "martial",
+			"property": [
+				"XUA2023PlayersHandbookP8-H",
+				"R",
+				"2H"
+			],
+			"mastery": [
+				"Graze|XUA2023PlayersHandbookP8"
+			],
+			"dmg1": "1d10",
+			"dmgType": "S",
+			"weapon": true
+		},
+		{
+			"name": "Greataxe",
+			"source": "XUA2023PlayersHandbookP8",
+			"page": 22,
+			"type": "M",
+			"rarity": "none",
+			"weight": 7,
+			"value": 3000,
+			"weaponCategory": "martial",
+			"property": [
+				"XUA2023PlayersHandbookP8-H",
+				"2H"
+			],
+			"mastery": [
+				"Cleave|XUA2023PlayersHandbookP8"
+			],
+			"dmg1": "1d12",
+			"dmgType": "S",
+			"axe": true,
+			"weapon": true
+		},
+		{
+			"name": "Greatclub",
+			"source": "XUA2023PlayersHandbookP8",
+			"page": 21,
+			"type": "M",
+			"rarity": "none",
+			"weight": 10,
+			"value": 20,
+			"weaponCategory": "simple",
+			"property": [
+				"2H"
+			],
+			"mastery": [
+				"Push|XUA2023PlayersHandbookP8"
+			],
+			"dmg1": "1d8",
+			"dmgType": "B",
+			"club": true,
+			"weapon": true
+		},
+		{
+			"name": "Greatsword",
+			"source": "XUA2023PlayersHandbookP8",
+			"page": 22,
+			"type": "M",
+			"rarity": "none",
+			"weight": 6,
+			"value": 5000,
+			"weaponCategory": "martial",
+			"property": [
+				"XUA2023PlayersHandbookP8-H",
+				"2H"
+			],
+			"mastery": [
+				"Graze|XUA2023PlayersHandbookP8"
+			],
+			"dmg1": "2d6",
+			"dmgType": "S",
+			"sword": true,
+			"weapon": true
+		},
+		{
+			"name": "Halberd",
+			"source": "XUA2023PlayersHandbookP8",
+			"page": 22,
+			"type": "M",
+			"rarity": "none",
+			"weight": 6,
+			"value": 2000,
+			"weaponCategory": "martial",
+			"property": [
+				"XUA2023PlayersHandbookP8-H",
+				"R",
+				"2H"
+			],
+			"mastery": [
+				"Cleave|XUA2023PlayersHandbookP8"
+			],
+			"dmg1": "1d10",
+			"dmgType": "S",
+			"weapon": true
+		},
+		{
+			"name": "Handaxe",
+			"source": "XUA2023PlayersHandbookP8",
+			"page": 21,
+			"type": "M",
+			"rarity": "none",
+			"weight": 2,
+			"value": 500,
+			"weaponCategory": "simple",
+			"property": [
+				"XUA2023PlayersHandbookP8-L",
+				"XUA2023PlayersHandbookP8-T"
+			],
+			"mastery": [
+				"Vex|XUA2023PlayersHandbookP8"
+			],
+			"range": "20/60",
+			"dmg1": "1d6",
+			"dmgType": "S",
+			"axe": true,
+			"weapon": true
+		},
+		{
+			"name": "Javelin",
+			"source": "XUA2023PlayersHandbookP8",
+			"page": 21,
+			"type": "M",
+			"rarity": "none",
+			"weight": 2,
+			"value": 50,
+			"weaponCategory": "simple",
+			"property": [
+				"XUA2023PlayersHandbookP8-T"
+			],
+			"mastery": [
+				"Slow|XUA2023PlayersHandbookP8"
+			],
+			"range": "30/120",
+			"dmg1": "1d6",
+			"dmgType": "P",
+			"spear": true,
+			"weapon": true
+		},
+		{
+			"name": "Lance",
+			"source": "XUA2023PlayersHandbookP8",
+			"page": 22,
+			"type": "M",
+			"rarity": "none",
+			"weight": 6,
+			"value": 1000,
+			"weaponCategory": "martial",
+			"property": [
+				"XUA2023PlayersHandbookP8-H",
+				"R",
+				"2H"
+			],
+			"mastery": [
+				"Topple|XUA2023PlayersHandbookP8"
+			],
+			"dmg1": "1d10",
+			"dmgType": "P",
+			"weapon": true,
+			"entries": [
+				"{@note The lance does not have the Two-Handed property when mounted.}"
+			]
+		},
+		{
+			"name": "Light Hammer",
+			"source": "XUA2023PlayersHandbookP8",
+			"page": 21,
+			"type": "M",
+			"rarity": "none",
+			"weight": 2,
+			"value": 200,
+			"weaponCategory": "simple",
+			"property": [
+				"XUA2023PlayersHandbookP8-L",
+				"XUA2023PlayersHandbookP8-T"
+			],
+			"mastery": [
+				"Nick|XUA2023PlayersHandbookP8"
+			],
+			"range": "20/60",
+			"dmg1": "1d4",
+			"dmgType": "B",
+			"hammer": true,
+			"weapon": true
+		},
+		{
+			"name": "Longbow",
+			"source": "XUA2023PlayersHandbookP8",
+			"page": 22,
+			"type": "R",
+			"rarity": "none",
+			"weight": 2,
+			"value": 5000,
+			"weaponCategory": "martial",
+			"property": [
+				"A",
+				"XUA2023PlayersHandbookP8-H",
+				"2H"
+			],
+			"mastery": [
+				"Slow|XUA2023PlayersHandbookP8"
+			],
+			"range": "150/600",
+			"dmg1": "1d8",
+			"dmgType": "P",
+			"bow": true,
+			"weapon": true,
+			"ammoType": "arrow|phb"
+		},
+		{
+			"name": "Longsword",
+			"source": "XUA2023PlayersHandbookP8",
+			"page": 22,
+			"type": "M",
+			"rarity": "none",
+			"weight": 3,
+			"value": 1500,
+			"weaponCategory": "martial",
+			"property": [
+				"V"
+			],
+			"mastery": [
+				"Sap|XUA2023PlayersHandbookP8"
+			],
+			"dmg1": "1d8",
+			"dmgType": "S",
+			"dmg2": "1d10",
+			"sword": true,
+			"weapon": true
+		},
+		{
+			"name": "Mace",
+			"source": "XUA2023PlayersHandbookP8",
+			"page": 21,
+			"type": "M",
+			"rarity": "none",
+			"weight": 4,
+			"value": 500,
+			"weaponCategory": "simple",
+			"mastery": [
+				"Sap|XUA2023PlayersHandbookP8"
+			],
+			"dmg1": "1d6",
+			"dmgType": "B",
+			"mace": true,
+			"weapon": true
+		},
+		{
+			"name": "Maul",
+			"source": "XUA2023PlayersHandbookP8",
+			"page": 22,
+			"type": "M",
+			"rarity": "none",
+			"weight": 10,
+			"value": 1000,
+			"weaponCategory": "martial",
+			"property": [
+				"XUA2023PlayersHandbookP8-H",
+				"2H"
+			],
+			"mastery": [
+				"Topple|XUA2023PlayersHandbookP8"
+			],
+			"dmg1": "2d6",
+			"dmgType": "B",
+			"hammer": true,
+			"weapon": true
+		},
+		{
+			"name": "Morningstar",
+			"source": "XUA2023PlayersHandbookP8",
+			"page": 22,
+			"type": "M",
+			"rarity": "none",
+			"weight": 4,
+			"value": 1500,
+			"weaponCategory": "martial",
+			"mastery": [
+				"Sap|XUA2023PlayersHandbookP8"
+			],
+			"dmg1": "1d8",
+			"dmgType": "P",
+			"mace": true,
+			"weapon": true
+		},
+		{
+			"name": "Musket",
+			"source": "XUA2023PlayersHandbookP8",
+			"page": 22,
+			"type": "R",
+			"rarity": "none",
+			"weight": 10,
+			"value": 50000,
+			"weaponCategory": "martial",
+			"property": [
+				"AF",
+				"LD",
+				"2H"
+			],
+			"mastery": [
+				"Slow|XUA2023PlayersHandbookP8"
+			],
+			"range": "40/120",
+			"dmg1": "1d12",
+			"dmgType": "P",
+			"firearm": true,
+			"weapon": true,
+			"ammoType": "renaissance bullet"
+		},
+		{
+			"name": "Pike",
+			"source": "XUA2023PlayersHandbookP8",
+			"page": 22,
+			"type": "M",
+			"rarity": "none",
+			"weight": 18,
+			"value": 500,
+			"weaponCategory": "martial",
+			"property": [
+				"XUA2023PlayersHandbookP8-H",
+				"R",
+				"2H"
+			],
+			"mastery": [
+				"Push|XUA2023PlayersHandbookP8"
+			],
+			"dmg1": "1d10",
+			"dmgType": "P",
+			"weapon": true
+		},
+		{
+			"name": "Pistol",
+			"source": "XUA2023PlayersHandbookP8",
+			"page": 22,
+			"type": "R",
+			"rarity": "none",
+			"weight": 3,
+			"value": 25000,
+			"weaponCategory": "martial",
+			"property": [
+				"AF",
+				"LD"
+			],
+			"mastery": [
+				"Vex|XUA2023PlayersHandbookP8"
+			],
+			"range": "30/90",
+			"dmg1": "1d10",
+			"dmgType": "P",
+			"firearm": true,
+			"weapon": true,
+			"ammoType": "renaissance bullet"
+		},
+		{
+			"name": "Quarterstaff",
+			"source": "XUA2023PlayersHandbookP8",
+			"page": 21,
+			"type": "M",
+			"rarity": "none",
+			"weight": 4,
+			"value": 20,
+			"weaponCategory": "simple",
+			"property": [
+				"V"
+			],
+			"mastery": [
+				"Topple|XUA2023PlayersHandbookP8"
+			],
+			"dmg1": "1d6",
+			"dmgType": "B",
+			"dmg2": "1d8",
+			"weapon": true
+		},
+		{
+			"name": "Rapier",
+			"source": "XUA2023PlayersHandbookP8",
+			"page": 22,
+			"type": "M",
+			"rarity": "none",
+			"weight": 2,
+			"value": 2500,
+			"weaponCategory": "martial",
+			"property": [
+				"F"
+			],
+			"mastery": [
+				"Vex|XUA2023PlayersHandbookP8"
+			],
+			"dmg1": "1d8",
+			"dmgType": "P",
+			"sword": true,
+			"weapon": true
+		},
+		{
+			"name": "Scimitar",
+			"source": "XUA2023PlayersHandbookP8",
+			"page": 22,
+			"type": "M",
+			"rarity": "none",
+			"weight": 3,
+			"value": 2500,
+			"weaponCategory": "martial",
+			"property": [
+				"F",
+				"XUA2023PlayersHandbookP8-L"
+			],
+			"mastery": [
+				"Nick|XUA2023PlayersHandbookP8"
+			],
+			"dmg1": "1d6",
+			"dmgType": "S",
+			"sword": true,
+			"weapon": true
+		},
+		{
+			"name": "Shortbow",
+			"source": "XUA2023PlayersHandbookP8",
+			"page": 21,
+			"type": "R",
+			"rarity": "none",
+			"weight": 2,
+			"value": 2500,
+			"weaponCategory": "simple",
+			"property": [
+				"A",
+				"2H"
+			],
+			"mastery": [
+				"Vex|XUA2023PlayersHandbookP8"
+			],
+			"range": "80/320",
+			"dmg1": "1d6",
+			"dmgType": "P",
+			"bow": true,
+			"weapon": true,
+			"ammoType": "arrow|phb"
+		},
+		{
+			"name": "Shortsword",
+			"source": "XUA2023PlayersHandbookP8",
+			"page": 22,
+			"type": "M",
+			"rarity": "none",
+			"weight": 2,
+			"value": 1000,
+			"weaponCategory": "martial",
+			"property": [
+				"F",
+				"XUA2023PlayersHandbookP8-L"
+			],
+			"mastery": [
+				"Vex|XUA2023PlayersHandbookP8"
+			],
+			"dmg1": "1d6",
+			"dmgType": "P",
+			"sword": true,
+			"weapon": true
+		},
+		{
+			"name": "Sickle",
+			"source": "XUA2023PlayersHandbookP8",
+			"page": 21,
+			"type": "M",
+			"rarity": "none",
+			"weight": 2,
+			"value": 100,
+			"weaponCategory": "simple",
+			"property": [
+				"XUA2023PlayersHandbookP8-L"
+			],
+			"mastery": [
+				"Nick|XUA2023PlayersHandbookP8"
+			],
+			"dmg1": "1d4",
+			"dmgType": "S",
+			"weapon": true
+		},
+		{
+			"name": "Sling",
+			"source": "XUA2023PlayersHandbookP8",
+			"page": 21,
+			"type": "R",
+			"rarity": "none",
+			"value": 10,
+			"weaponCategory": "simple",
+			"property": [
+				"A"
+			],
+			"mastery": [
+				"Slow|XUA2023PlayersHandbookP8"
+			],
+			"range": "30/120",
+			"dmg1": "1d4",
+			"dmgType": "B",
+			"weapon": true,
+			"ammoType": "sling bullet|phb"
+		},
+		{
+			"name": "Spear",
+			"source": "XUA2023PlayersHandbookP8",
+			"page": 21,
+			"type": "M",
+			"rarity": "none",
+			"weight": 3,
+			"value": 100,
+			"weaponCategory": "simple",
+			"property": [
+				"XUA2023PlayersHandbookP8-T",
+				"V"
+			],
+			"mastery": [
+				"Sap|XUA2023PlayersHandbookP8"
+			],
+			"range": "20/60",
+			"dmg1": "1d6",
+			"dmgType": "P",
+			"dmg2": "1d8",
+			"spear": true,
+			"weapon": true
+		},
+		{
+			"name": "Trident",
+			"source": "XUA2023PlayersHandbookP8",
+			"page": 22,
+			"type": "M",
+			"rarity": "none",
+			"weight": 4,
+			"value": 500,
+			"weaponCategory": "martial",
+			"property": [
+				"XUA2023PlayersHandbookP8-T",
+				"V"
+			],
+			"mastery": [
+				"Topple|XUA2023PlayersHandbookP8"
+			],
+			"range": "20/60",
+			"dmg1": "1d8",
+			"dmgType": "P",
+			"dmg2": "1d10",
+			"weapon": true
+		},
+		{
+			"name": "War Pick",
+			"source": "XUA2023PlayersHandbookP8",
+			"page": 22,
+			"type": "M",
+			"rarity": "none",
+			"weight": 2,
+			"value": 500,
+			"weaponCategory": "martial",
+			"property": [
+				"V"
+			],
+			"mastery": [
+				"Sap|XUA2023PlayersHandbookP8"
+			],
+			"dmg1": "1d8",
+			"dmgType": "P",
+			"dmg2": "1d10",
+			"weapon": true
+		},
+		{
+			"name": "Warhammer",
+			"source": "XUA2023PlayersHandbookP8",
+			"page": 22,
+			"type": "M",
+			"rarity": "none",
+			"weight": 2,
+			"value": 1500,
+			"weaponCategory": "martial",
+			"property": [
+				"V"
+			],
+			"mastery": [
+				"Push|XUA2023PlayersHandbookP8"
+			],
+			"dmg1": "1d8",
+			"dmgType": "B",
+			"dmg2": "1d10",
+			"hammer": true,
+			"weapon": true
+		},
+		{
+			"name": "Whip",
+			"source": "XUA2023PlayersHandbookP8",
+			"page": 22,
+			"type": "M",
+			"rarity": "none",
+			"weight": 3,
+			"value": 200,
+			"weaponCategory": "martial",
+			"property": [
+				"F",
+				"R"
+			],
+			"mastery": [
+				"Slow|XUA2023PlayersHandbookP8"
+			],
+			"dmg1": "1d4",
+			"dmgType": "S",
+			"weapon": true
+		}
+	],
+	"item": [
+		{
+			"name": "Net",
+			"source": "XUA2023PlayersHandbookP8",
+			"page": 24,
+			"type": "G",
+			"rarity": "none",
+			"weight": 3,
+			"value": 100,
+			"entries": [
+				"When you take the {@action Attack|XUA2023PlayersHandbookP8} action on your turn, you can replace one of your attacks with a throw of the net at a creature within 15 feet of yourself. The target must make a Dexterity saving throw against a DC equal to 8 + your Proficiency Bonus + your Dexterity modifier. The target succeeds automatically if it's Huge or larger.",
+				"On a failed save, the target has the {@condition Restrained} condition until it escapes the net. To escape, the target must use its action to make a {@dc 10} Strength ({@skill Athletics}) check, escaping on a success. A creature within 5 feet of the target can use its action to attempt the same thing. Destroying the net (AC 10; 5 HP; immunity to Bludgeoning, Poison, and Psychic damage) also frees the target, ending the effect."
+			]
+		},
+		{
+			"name": "Priest's Pack",
+			"source": "XUA2023PlayersHandbookP8",
+			"page": 24,
+			"type": "G",
+			"rarity": "none",
+			"weight": 29,
+			"value": 3300,
+			"entries": [
+				"A Priest's Pack contains the following items:",
+				{
+					"type": "list",
+					"items": [
+						"{@item Backpack|PHB} (5 lb.)",
+						"{@item Blanket|PHB} (3 lb.)",
+						"{@item Holy Water (flask)|PHB|Holy Water} (1 lb.)",
+						"{@item Lamp|PHB} (1 lb.)",
+						"{@item Rations (1 day)|PHB|Rations} (7 days; 14 lbs)",
+						"{@item Robes|PHB|Robe} (4 lb.)",
+						"{@item Tinderbox|PHB} (1 lb.)"
+					]
+				}
+			],
+			"packContents": [
+				"backpack|PHB",
+				"blanket|PHB",
+				"holy water (flask)|PHB",
+				"lamp|PHB",
+				{
+					"item": "rations (1 day)|PHB",
+					"quantity": 7
+				},
+				"robes|PHB",
+				"tinderbox|PHB"
+			]
+		}
+	],
+	"itemProperty": [
+		{
+			"abbreviation": "XUA2023PlayersHandbookP8-H",
+			"source": "XUA2023PlayersHandbookP8",
+			"page": 22,
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Heavy",
+					"entries": [
+						"A Heavy weapon is unwieldy compared to other weapons. You have Disadvantage on your attack rolls with a Heavy weapon if it's a melee weapon and your Strength score isn't at least 13 and if it's a ranged weapon and your Dexterity score isn't at least 13."
+					]
+				}
+			]
+		},
+		{
+			"abbreviation": "XUA2023PlayersHandbookP8-L",
+			"source": "XUA2023PlayersHandbookP8",
+			"page": 22,
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Light",
+					"entries": [
+						"When you take the {@action Attack|XUA2023PlayersHandbookP8} action on your turn and attack with a Light weapon, you can make one extra attack as a Bonus Action later on the same turn. That extra attack must be made with a different Light weapon, and you don't add your ability modifier to the extra attack's damage, unless that modifier is negative.",
+						"For example, if you take the {@action Attack|XUA2023PlayersHandbookP8} action on your turn and have a Shortsword in one hand and a Dagger in the other\u2014each of which has the Light property\u2014you can make one attack with each weapon, using your action and a Bonus Action, but you don't add your Strength or Dexterity modifier to the damage roll of the Bonus Action, unless that modifier is negative."
+					]
+				}
+			]
+		},
+		{
+			"abbreviation": "XUA2023PlayersHandbookP8-T",
+			"source": "XUA2023PlayersHandbookP8",
+			"page": 22,
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Thrown",
+					"entries": [
+						"If a weapon has the Thrown property, you can throw the weapon to make a ranged attack, and you can draw that weapon as part of the attack.",
+						"If the weapon is a melee weapon, you use the same ability modifier for that attack roll and damage roll that you would use for a melee attack with the weapon. For example, if you throw a Handaxe, you use your Strength, but if you throw a Dagger, you can use either your Strength or your Dexterity, since the Dagger has the Finesse property."
+					]
+				}
+			]
+		}
+	],
+	"itemMastery": [
+		{
+			"name": "Cleave",
+			"source": "XUA2023PlayersHandbookP8",
+			"prerequisite": [
+				{
+					"itemType": [
+						"M"
+					],
+					"itemProperty": [
+						"XUA2023PlayersHandbookP8-H"
+					]
+				}
+			],
+			"entries": [
+				"If you hit a creature with a melee attack using this weapon, you can make an attack roll with the weapon against a second creature within 5 feet of the first that is also within your reach. On a hit, the second creature takes the weapon's damage, but don't add your ability modifier to that damage, unless that modifier is negative. You can make this extra attack only once per turn."
+			]
+		},
+		{
+			"name": "Graze",
+			"source": "XUA2023PlayersHandbookP8",
+			"prerequisite": [
+				{
+					"itemType": [
+						"M"
+					],
+					"itemProperty": [
+						"XUA2023PlayersHandbookP8-H"
+					]
+				}
+			],
+			"entries": [
+				"If your attack roll with this weapon misses a creature, you can deal damage to that creature equal to the ability modifier you used to make the attack roll. This damage is the same type dealt by the weapon, and the damage can't be increased in any way, other than increasing the ability modifier."
+			]
+		},
+		{
+			"name": "Nick",
+			"source": "XUA2023PlayersHandbookP8",
+			"prerequisite": [
+				{
+					"itemProperty": [
+						"XUA2023PlayersHandbookP8-L"
+					]
+				}
+			],
+			"entries": [
+				"When you make the extra attack of the Light property, you can make it as part of the {@action Attack|XUA2023PlayersHandbookP8} action, instead of as a Bonus Action. You can still make this extra attack only once per turn."
+			]
+		},
+		{
+			"name": "Push",
+			"source": "XUA2023PlayersHandbookP8",
+			"prerequisite": [
+				{
+					"itemProperty": [
+						"XUA2023PlayersHandbookP8-H"
+					]
+				},
+				{
+					"itemProperty": [
+						"2H"
+					]
+				},
+				{
+					"itemProperty": [
+						"V"
+					]
+				}
+			],
+			"entries": [
+				"If you hit a creature with this weapon, you can push the creature up to 10 feet straight away from yourself if it is Large or smaller."
+			]
+		},
+		{
+			"name": "Sap",
+			"source": "XUA2023PlayersHandbookP8",
+			"prerequisite": [
+				{
+					"itemProperty": [
+						"V"
+					]
+				},
+				{
+					"itemProperty": null
+				}
+			],
+			"entries": [
+				"If you hit a creature with this weapon, that creature has Disadvantage on its next attack roll before the start of your next turn."
+			]
+		},
+		{
+			"name": "Slow",
+			"source": "XUA2023PlayersHandbookP8",
+			"entries": [
+				"If you hit a creature with this weapon and deal damage to the creature, you can reduce its Speed by 10 feet until the start of your next turn. If you hit the creature more than once with this property, the Speed reduction doesn't exceed 10 feet."
+			]
+		},
+		{
+			"name": "Topple",
+			"source": "XUA2023PlayersHandbookP8",
+			"prerequisite": [
+				{
+					"itemProperty": [
+						"XUA2023PlayersHandbookP8-H"
+					]
+				},
+				{
+					"itemProperty": [
+						"R"
+					]
+				},
+				{
+					"itemProperty": [
+						"V"
+					]
+				}
+			],
+			"entries": [
+				"If you hit a creature with this weapon, you can force the creature to make a Constitution saving throw with a DC equal to 8 + your Proficiency Bonus + the ability modifier used to make the attack roll. On a failed save, the creature has the {@condition Prone} condition."
+			]
+		},
+		{
+			"name": "Vex",
+			"source": "XUA2023PlayersHandbookP8",
+			"prerequisite": [
+				{
+					"itemProperty": [
+						"A"
+					]
+				},
+				{
+					"itemProperty": [
+						"F"
+					]
+				},
+				{
+					"itemProperty": [
+						"XUA2023PlayersHandbookP8-L"
+					]
+				}
+			],
+			"entries": [
+				"If you hit a creature with this weapon and deal damage to the creature, you have Advantage on your next attack roll against that creature before the end of your next turn."
+			]
+		}
+	],
+	"variantrule": [
+		{
+			"name": "Armor Training",
+			"source": "XUA2023PlayersHandbookP8",
+			"page": 24,
+			"ruleType": "P",
+			"entries": [
+				"Armor training is the new name for armor proficiency. Any existing rule that involves armor proficiency now applies to armor training.",
+				"If you wear Light, Medium, or Heavy Armor and lack armor training with that type of armor, you have Disadvantage on any {@variantrule D20 Tests|XUA2023PlayersHandbookP8|d20 Test} you make that involves Strength or Dexterity, and you can't cast spells.",
+				"If you equip a Shield and lack armor training with it, you don't gain the Armor Class bonus of the Shield."
+			]
+		},
+		{
+			"name": "Climb Speed",
+			"source": "XUA2023PlayersHandbookP8",
+			"page": 24,
+			"ruleType": "P",
+			"entries": [
+				"A Climb Speed can be used to traverse a vertical surface without expending the extra movement normally associated with climbing.",
+				"Some creatures have the Spider Climb trait, which allows their Climb Speed to work even on the underside of horizontal surfaces."
+			]
+		},
+		{
+			"name": "Creature Type",
+			"source": "XUA2023PlayersHandbookP8",
+			"page": 24,
+			"ruleType": "P",
+			"entries": [
+				"Every creature in D&D, including every player character, has a special tag in the rules that identifies the type of creature it is. Most player characters are of the Humanoid type.",
+				"Here's a list of the game's creature types in alphabetical order:",
+				{
+					"type": "list",
+					"style": "list-no-bullets",
+					"columns": 2,
+					"page": 25,
+					"items": [
+						"Aberration",
+						"Fiend",
+						"Beast",
+						"Giant",
+						"Celestial",
+						"Humanoid",
+						"Construct",
+						"Monstrosity",
+						"Dragon",
+						"Ooze",
+						"Elemental",
+						"Plant",
+						"Fey",
+						"Undead"
+					]
+				},
+				"These types don't have rules themselves, but some rules in the game affect creatures of certain types in different ways. For example, the description of the {@spell Charm Person} spell specifies that its target must be a Humanoid."
+			]
+		},
+		{
+			"name": "D20 Tests",
+			"source": "XUA2023PlayersHandbookP8",
+			"page": 25,
+			"ruleType": "P",
+			"entries": [
+				"The term d20 Test encompasses the three main {@dice d20} rolls of the game: ability checks, attack rolls, and saving throws. If something in the game affects d20 Tests, it affects all three of these rolls.",
+				"The DM determines whether a d20 Test is warranted in any given circumstance."
+			]
+		},
+		{
+			"name": "Difficult Terrain",
+			"source": "XUA2023PlayersHandbookP8",
+			"page": 25,
+			"ruleType": "P",
+			"entries": [
+				"If a space is Difficult Terrain, every foot of movement in that space costs 1 extra foot. For example, moving 5 feet through Difficult Terrain costs 10 feet of movement. Difficult Terrain isn't cumulative; either a space is Difficult Terrain or it isn't.",
+				"A space is Difficult Terrain for a creature if the space contains any of the following:",
+				{
+					"type": "list",
+					"style": "list-no-bullets",
+					"items": [
+						"Creature that isn't Tiny or your ally",
+						"Furniture that is one size smaller than you or larger",
+						"Heavy snow",
+						"Heavy undergrowth",
+						"Liquid that's between shin- and waist-deep (any deeper and you need to swim)",
+						"Narrow opening that is sized for a creature one size smaller",
+						"Size smaller",
+						"Pit or another gap of 2\u20135 feet",
+						"Rubble",
+						"Slope of 20 degrees or more"
+					]
+				},
+				"The DM may determine that other things make a space count as Difficult Terrain, based on the examples here."
+			]
+		},
+		{
+			"name": "Expertise",
+			"source": "XUA2023PlayersHandbookP8",
+			"page": 25,
+			"ruleType": "P",
+			"entries": [
+				"{@variantrule Expertise|XUA2023PlayersHandbookP8} is a special feature that enhances your use of a particular skill proficiency. If you gain Expertise, you gain it in one skill in which you have proficiency. You can never have {@variantrule Expertise|XUA2023PlayersHandbookP8} in the same skill proficiency more than once.",
+				"When you make an ability check with a skill proficiency in which you have Expertise, your Proficiency Bonus is doubled for that check."
+			]
+		},
+		{
+			"name": "Fly Speed",
+			"source": "XUA2023PlayersHandbookP8",
+			"page": 25,
+			"ruleType": "P",
+			"entries": [
+				"A {@variantrule Fly Speed|XUA2023PlayersHandbookP8} can be used to travel through the air. While you have a Fly Speed, you can stay aloft until you land, fall, or die.",
+				"While flying, you fall if you lack the Hover trait and have the {@condition Incapacitated|XUA2023PlayersHandbookP8} or {@condition Prone} condition or your {@variantrule Fly Speed|XUA2023PlayersHandbookP8} is reduced to 0."
+			]
+		},
+		{
+			"name": "Heroic Advantage",
+			"source": "XUA2023PlayersHandbookP8",
+			"page": 26,
+			"ruleType": "P",
+			"entries": [
+				"When you have Heroic Advantage (also called Inspiration), you can expend it to give yourself Advantage on a {@variantrule D20 Tests|XUA2023PlayersHandbookP8|d20 Test}. You decide to do so immediately after rolling the {@dice d20}.",
+				{
+					"type": "entries",
+					"name": "Gaining Heroic Advantage",
+					"entries": [
+						"The DM can award Heroic Advantage to a player character who's done something that is particularly heroic or in character.",
+						"Some game features, such as the Human, also award Heroic Advantage."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Only One at a Time",
+					"entries": [
+						"You can never have more than one instance of Heroic Advantage. If something gives it to you and you already have it, you can give it to a player character in your group who lacks it."
+					]
+				}
+			]
+		},
+		{
+			"name": "Knocking Out a Creature",
+			"source": "XUA2023PlayersHandbookP8",
+			"page": 27,
+			"ruleType": "P",
+			"entries": [
+				"Sometimes an attacker wants to knock out a foe rather than deal a killing blow. When an attacker would reduce a creature to 0 Hit Points with a Melee Attack, the attacker can instead reduce the creature to 1 Hit Point. The creature then has the {@condition Unconscious|XUA2023PlayersHandbookP8} condition and starts a {@variantrule Short Rest|XUA2023PlayersHandbookP8}.",
+				"The creature remains {@condition Unconscious|XUA2023PlayersHandbookP8} until it regains any Hit Points or until someone uses an action to administer first aid to it, which requires a successful {@dc 10} Wisdom ({@skill Medicine}) check."
+			]
+		},
+		{
+			"name": "Long Rest",
+			"source": "XUA2023PlayersHandbookP8",
+			"page": 27,
+			"ruleType": "P",
+			"entries": [
+				"A {@variantrule Long Rest|XUA2023PlayersHandbookP8} is a period of extended downtime\u2014at least 8 hours long\u2014available to any creature. During a {@variantrule Long Rest|XUA2023PlayersHandbookP8}, you sleep for at least 6 hours and perform no more than 2 hours of light activity, such as reading, talking, eating, or standing watch.",
+				"During the sleep, you have the {@condition Unconscious|XUA2023PlayersHandbookP8} condition.",
+				{
+					"type": "entries",
+					"entries": [
+						{
+							"type": "entries",
+							"name": "Benefits of the Rest",
+							"entries": [
+								"To start a {@variantrule Long Rest|XUA2023PlayersHandbookP8}, you must have at least 1 Hit Point. When you finish the rest, you gain the following benefits:",
+								{
+									"type": "list",
+									"style": "list-hang-notitle",
+									"items": [
+										{
+											"type": "item",
+											"name": "Regain All HP",
+											"entries": [
+												"You regain all lost Hit Points."
+											]
+										},
+										{
+											"type": "item",
+											"name": "Regain All HD",
+											"entries": [
+												"You regain all spent Hit Dice."
+											]
+										},
+										{
+											"type": "item",
+											"name": "HP Max Restored",
+											"entries": [
+												"If your Hit Point Maximum was reduced, it returns to normal."
+											]
+										},
+										{
+											"type": "item",
+											"name": "Ability Scores Restored",
+											"entries": [
+												"If any of your Ability Scores were reduced, they return to normal."
+											]
+										},
+										{
+											"type": "item",
+											"name": "Exhaustion Reduced",
+											"entries": [
+												"If you have the {@condition Exhaustion} condition, your level of exhaustion decreases by 1."
+											]
+										},
+										{
+											"type": "item",
+											"name": "Special Feature",
+											"entries": [
+												"Some features are recharged by a {@variantrule Long Rest|XUA2023PlayersHandbookP8}. If you have such a feature, it recharges in the way specified in its description."
+											]
+										}
+									]
+								},
+								"After you finish a {@variantrule Long Rest|XUA2023PlayersHandbookP8}, you must wait at least 16 hours before starting another one."
+							]
+						}
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Interrupting the Rest",
+					"entries": [
+						"A {@variantrule Long Rest|XUA2023PlayersHandbookP8} is stopped by the following interruptions:",
+						{
+							"type": "list",
+							"items": [
+								"Rolling Initiative",
+								"Casting a spell other than a cantrip",
+								"Taking any damage",
+								"1 hour of walking or other physical exertion"
+							]
+						}
+					]
+				},
+				"If the rest was at least 1 hour long before the interruption, you gain the benefits of a {@variantrule Short Rest|XUA2023PlayersHandbookP8}.",
+				"You can resume a {@variantrule Long Rest|XUA2023PlayersHandbookP8} immediately after an interruption. If you do so, the rest requires 1 additional hour to finish per interruption."
+			]
+		},
+		{
+			"name": "Move",
+			"source": "XUA2023PlayersHandbookP8",
+			"page": 28,
+			"ruleType": "P",
+			"entries": [
+				"When you Move, you can go a distance equal to your Speed or less. For example, if you have a Speed of 30 feet, you can go up to 30 feet when you Move. {@variantrule Difficult Terrain|XUA2023PlayersHandbookP8} can slow you down.",
+				{
+					"type": "entries",
+					"name": "Breaking Up Your Move",
+					"entries": [
+						"You can break up your Move, using some of its movement before and after any action you take on the same turn. For example, if you have a Speed of 30 feet, you could go 10 feet, take an action, and then go 20 feet."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Moving Around Other Creatures",
+					"entries": [
+						"During your Move, you can pass through the space of an ally, a creature that has the {@condition Incapacitated|XUA2023PlayersHandbookP8} condition, a Tiny creature, or a creature who is two sizes larger or smaller than you.",
+						"Another creature's space is {@variantrule Difficult Terrain|XUA2023PlayersHandbookP8} for you, unless that creature is Tiny or your ally.",
+						"You can't willingly end your Move in a space occupied by another creature."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Changes to Your Speeds",
+					"entries": [
+						"If an effect increases or decreases your Speed for a time, any special speed you have increases or decreases by an equal amount for the same duration. For example, if your Speed is reduced to 0 and you have a {@variantrule Climb Speed|XUA2023PlayersHandbookP8}, your {@variantrule Climb Speed|XUA2023PlayersHandbookP8} is also reduced to 0. Similarly, if your Speed is halved and you have a {@variantrule Fly Speed|XUA2023PlayersHandbookP8}, your {@variantrule Fly Speed|XUA2023PlayersHandbookP8} is also halved."
+					]
+				}
+			]
+		},
+		{
+			"name": "Ritual Casting",
+			"source": "XUA2023PlayersHandbookP8",
+			"page": 28,
+			"ruleType": "P",
+			"entries": [
+				"If you have a spell prepared that has the Ritual tag, you can cast that spell as a Ritual. A special feature is no longer required for Ritual casting. All the other rules on Rituals in the 2014 {@book Player's Handbook|PHB} still apply."
+			]
+		},
+		{
+			"name": "Short Rest",
+			"source": "XUA2023PlayersHandbookP8",
+			"page": 29,
+			"ruleType": "P",
+			"entries": [
+				"To start a {@variantrule Short Rest|XUA2023PlayersHandbookP8}, you must have at least 1 Hit Point. When you finish the rest, you gain the following benefits:",
+				{
+					"type": "entries",
+					"name": "Benefits of the Rest",
+					"entries": [
+						"To start a {@variantrule Short Rest|XUA2023PlayersHandbookP8}, you must have at least 1 Hit Point. When you finish the rest, you gain the following benefits:",
+						{
+							"type": "list",
+							"style": "list-hang-notitle",
+							"items": [
+								{
+									"type": "item",
+									"name": "Spend Hit Dice",
+									"entries": [
+										"You can spend one or more of your Hit Dice to regain Hit Points. For each Hit Die you spend in this way, roll the die, and add your Constitution modifier to it. You regain Hit Points equal to the total (minimum of 1 Hit Point). You can decide to spend an additional Hit Die after each roll."
+									]
+								},
+								{
+									"type": "item",
+									"name": "Special Feature",
+									"entries": [
+										"Some features are recharged by a {@variantrule Short Rest|XUA2023PlayersHandbookP8}. If you have such a feature, it recharges in the way specified in its description."
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Interrupting the Rest",
+					"entries": [
+						"A {@variantrule Short Rest|XUA2023PlayersHandbookP8} is stopped by the following interruptions:",
+						{
+							"type": "list",
+							"items": [
+								"Rolling initiative",
+								"Casting a spell other than a cantrip",
+								"Taking any damage"
+							]
+						}
+					]
+				},
+				"An interrupted {@variantrule Short Rest|XUA2023PlayersHandbookP8} confers no benefits, and it must be started over to confer any."
+			]
+		},
+		{
+			"name": "Swim Speed",
+			"source": "XUA2023PlayersHandbookP8",
+			"page": 29,
+			"ruleType": "P",
+			"entries": [
+				"A Swim Speed can be used to travel through a liquid without expending the extra movement normally associated with swimming."
+			]
+		},
+		{
+			"name": "Telepathy",
+			"source": "XUA2023PlayersHandbookP8",
+			"page": 29,
+			"ruleType": "P",
+			"entries": [
+				"Telepathy is a magical ability that allows a creature to communicate mentally with another creature within a specified range. The contacted creature doesn't need to share a language with the telepath to understand this communication, but the contacted creature must be able to understand at least one language or be telepathic itself to understand.",
+				"A telepath doesn't need to see a contacted creature, and the telepath can start or end the telepathic contact at any time (no action required). Telepathic contact is broken as soon as the contacted creature is no longer within the telepathy's range, if the telepath contacts a different creature within range, or if the telepath has the {@condition Incapacitated|XUA2023PlayersHandbookP8} condition.",
+				"A creature without telepathy can receive telepathic messages but can't initiate a telepathic conversation. Once a telepathic conversation starts, the nontelepath can communicate mentally to the telepath until the telepathic connection ends."
+			]
+		},
+		{
+			"name": "Teleportation",
+			"source": "XUA2023PlayersHandbookP8",
+			"page": 29,
+			"ruleType": "P",
+			"entries": [
+				"Teleportation is a special kind of magical transportation. If you teleport, you disappear and reappear elsewhere instantly, without moving through the intervening space. This transportation doesn't expend movement, unless a rule tells you otherwise, and teleportation never provokes Opportunity Attacks.",
+				"When you teleport, all the equipment you're wearing and carrying teleports with you. If you're touching another creature when you teleport, that creature doesn't teleport with you unless the teleportation effect says otherwise.",
+				"If the destination space of your teleportation is occupied by another creature or blocked by a solid obstacle, you instead appear in the nearest unoccupied space of your choice.",
+				"The description of a teleportation effect tells you if you must see the teleportation's destination."
+			]
+		},
+		{
+			"name": "Tool Proficiency",
+			"source": "XUA2023PlayersHandbookP8",
+			"page": 30,
+			"ruleType": "P",
+			"entries": [
+				"If you have proficiency with a tool, you can add your Proficiency Bonus to any ability check you make that uses that tool.",
+				"If you have proficiency in the skill that's also used with that check, you have Advantage on the check too. This means you can benefit from both a skill and a tool proficiency on the same ability check."
+			]
+		},
+		{
+			"name": "Unarmed Strike",
+			"source": "XUA2023PlayersHandbookP8",
+			"page": 30,
+			"ruleType": "P",
+			"entries": [
+				"An {@variantrule Unarmed Strike|XUA2023PlayersHandbookP8} is a Melee attack that involves you using your body to damage, grapple, or shove a target within 5 feet of you.",
+				"Whenever you use your Unarmed Strike, choose one of the following options for its effect:",
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"items": [
+						{
+							"type": "item",
+							"name": "Damage",
+							"entries": [
+								"You make an attack roll against the target. Your bonus to hit equals your Strength modifier + your Proficiency Bonus. On a hit, the target takes Bludgeoning damage equal to 1 + your Strength modifier."
+							]
+						},
+						{
+							"type": "item",
+							"name": "Grapple",
+							"entries": [
+								"The target must succeed on a Strength or Dexterity saving throw (it chooses which), or it has the {@condition Grappled|XUA2023PlayersHandbookP8} condition. The DC for the saving throw and any escape attempts equals 8 + your Strength modifier + your Proficiency Bonus. This grapple is possible only if the target is no more than one size larger than you and if you have a hand free to grab it."
+							]
+						},
+						{
+							"type": "item",
+							"name": "Shove",
+							"entries": [
+								"The target must succeed on a Strength or Dexterity saving throw (it chooses which), or you either push the target 5 feet away or cause it to have the {@condition Prone} condition. The DC for the saving throw equals 8 + your Strength modifier + your Proficiency Bonus. This shove is possible only if the target is no more than one size larger than you."
+							]
+						}
+					]
+				}
+			]
+		}
+	],
+	"table": [
+		{
+			"name": "Martial Weapons: Melee",
+			"source": "XUA2023PlayersHandbookP8",
+			"page": 22,
+			"colLabels": [
+				"Weapon",
+				"Damage",
+				"Properties",
+				"Mastery",
+				"Weight",
+				"Cost"
+			],
+			"colStyles": [
+				"col-2",
+				"col-2",
+				"col-5",
+				"col-1",
+				"col-1 text-right",
+				"col-1 text-right"
+			],
+			"rows": [
+				[
+					"{@item Battleaxe|XUA2023PlayersHandbookP8}",
+					"{@damage 1d8} Slashing",
+					"Versatile ({@damage 1d10})",
+					"{@itemMastery Topple|XUA2023PlayersHandbookP8}",
+					"4 lb.",
+					"10 GP"
+				],
+				[
+					"{@item Flail|XUA2023PlayersHandbookP8}",
+					"{@damage 1d8} Bludgeoning",
+					"\u2014",
+					"{@itemMastery Sap|XUA2023PlayersHandbookP8}",
+					"2 lb.",
+					"10 GP"
+				],
+				[
+					"{@item Glaive|XUA2023PlayersHandbookP8}",
+					"{@damage 1d10} Slashing",
+					"Heavy, Reach, Two-Handed",
+					"{@itemMastery Graze|XUA2023PlayersHandbookP8}",
+					"6 lb.",
+					"20 GP"
+				],
+				[
+					"{@item Greataxe|XUA2023PlayersHandbookP8}",
+					"{@damage 1d12} Slashing",
+					"Heavy, Two-Handed",
+					"{@itemMastery Cleave|XUA2023PlayersHandbookP8}",
+					"7 lb.",
+					"30 GP"
+				],
+				[
+					"{@item Greatsword|XUA2023PlayersHandbookP8}",
+					"{@damage 2d6} Slashing",
+					"Heavy, Two-Handed",
+					"{@itemMastery Graze|XUA2023PlayersHandbookP8}",
+					"6 lb.",
+					"50 GP"
+				],
+				[
+					"{@item Halberd|XUA2023PlayersHandbookP8}",
+					"{@damage 1d10} Slashing",
+					"Heavy, Reach, Two-Handed",
+					"{@itemMastery Cleave|XUA2023PlayersHandbookP8}",
+					"6 lb.",
+					"20 GP"
+				],
+				[
+					"{@item Lance|XUA2023PlayersHandbookP8}",
+					"{@damage 1d10} Piercing",
+					"Heavy, Reach, Two-Handed (unless mounted)",
+					"{@itemMastery Topple|XUA2023PlayersHandbookP8}",
+					"6 lb.",
+					"10 GP"
+				],
+				[
+					"{@item Longsword|XUA2023PlayersHandbookP8}",
+					"{@damage 1d8} Slashing",
+					"Versatile ({@damage 1d10})",
+					"{@itemMastery Sap|XUA2023PlayersHandbookP8}",
+					"3 lb.",
+					"15 GP"
+				],
+				[
+					"{@item Maul|XUA2023PlayersHandbookP8}",
+					"{@damage 2d6} Bludgeoning",
+					"Heavy, Two-Handed",
+					"{@itemMastery Topple|XUA2023PlayersHandbookP8}",
+					"10 lb.",
+					"10 GP"
+				],
+				[
+					"{@item Morningstar|XUA2023PlayersHandbookP8}",
+					"{@damage 1d8} Piercing",
+					"\u2014",
+					"{@itemMastery Sap|XUA2023PlayersHandbookP8}",
+					"4 lb.",
+					"15 GP"
+				],
+				[
+					"{@item Pike|XUA2023PlayersHandbookP8}",
+					"{@damage 1d10} Piercing",
+					"Heavy, Reach, Two-Handed",
+					"{@itemMastery Push|XUA2023PlayersHandbookP8}",
+					"18 lb.",
+					"5 GP"
+				],
+				[
+					"{@item Rapier|XUA2023PlayersHandbookP8}",
+					"{@damage 1d8} Piercing",
+					"Finesse",
+					"{@itemMastery Vex|XUA2023PlayersHandbookP8}",
+					"2 lb.",
+					"25 GP"
+				],
+				[
+					"{@item Scimitar|XUA2023PlayersHandbookP8}",
+					"{@damage 1d6} Slashing",
+					"Finesse, Light",
+					"{@itemMastery Nick|XUA2023PlayersHandbookP8}",
+					"3 lb.",
+					"25 GP"
+				],
+				[
+					"{@item Shortsword|XUA2023PlayersHandbookP8}",
+					"{@damage 1d6} Piercing",
+					"Finesse, Light",
+					"{@itemMastery Vex|XUA2023PlayersHandbookP8}",
+					"2 lb.",
+					"10 GP"
+				],
+				[
+					"{@item Trident|XUA2023PlayersHandbookP8}",
+					"{@damage 1d8} Piercing",
+					"Thrown (Range 20/60), Versatile ({@damage 1d10})",
+					"{@itemMastery Topple|XUA2023PlayersHandbookP8}",
+					"4 lb.",
+					"5 GP"
+				],
+				[
+					"{@item Warhammer|XUA2023PlayersHandbookP8}",
+					"{@damage 1d8} Bludgeoning",
+					"Versatile ({@damage 1d10})",
+					"{@itemMastery Push|XUA2023PlayersHandbookP8}",
+					"2 lb.",
+					"15 GP"
+				],
+				[
+					"{@item War Pick|XUA2023PlayersHandbookP8}",
+					"{@damage 1d8} Piercing",
+					"Versatile ({@damage 1d10})",
+					"{@itemMastery Sap|XUA2023PlayersHandbookP8}",
+					"2 lb.",
+					"5 GP"
+				],
+				[
+					"{@item Whip|XUA2023PlayersHandbookP8}",
+					"{@damage 1d4} Slashing",
+					"Finesse, Reach",
+					"{@itemMastery Slow|XUA2023PlayersHandbookP8}",
+					"3 lb.",
+					"2 GP"
+				]
+			]
+		},
+		{
+			"name": "Martial Weapons: Ranged",
+			"source": "XUA2023PlayersHandbookP8",
+			"page": 22,
+			"colLabels": [
+				"Weapon",
+				"Damage",
+				"Properties",
+				"Mastery",
+				"Weight",
+				"Cost"
+			],
+			"colStyles": [
+				"col-2",
+				"col-2",
+				"col-5",
+				"col-1",
+				"col-1 text-right",
+				"col-1 text-right"
+			],
+			"rows": [
+				[
+					"{@item Blowgun|XUA2023PlayersHandbookP8}",
+					"{@damage 1} Piercing",
+					"Ammunition (Range 25/100), Loading",
+					"{@itemMastery Vex|XUA2023PlayersHandbookP8}",
+					"1 lb.",
+					"10 GP"
+				],
+				[
+					"{@item Crossbow, Hand|XUA2023PlayersHandbookP8}",
+					"{@damage 1d6} Piercing",
+					"Ammunition (Range 30/120), Light, Loading",
+					"{@itemMastery Vex|XUA2023PlayersHandbookP8}",
+					"3 lb.",
+					"75 GP"
+				],
+				[
+					"{@item Crossbow, Heavy|XUA2023PlayersHandbookP8}",
+					"{@damage 1d10} Piercing",
+					"Ammunition (Range 100/400), Heavy, Loading, Two-Handed",
+					"{@itemMastery Push|XUA2023PlayersHandbookP8}",
+					"18 lb.",
+					"50 GP"
+				],
+				[
+					"{@item Longbow|XUA2023PlayersHandbookP8}",
+					"{@damage 1d8} Piercing",
+					"Ammunition (Range 150/600), Heavy, Two-Handed",
+					"{@itemMastery Slow|XUA2023PlayersHandbookP8}",
+					"2 lb.",
+					"50 GP"
+				],
+				[
+					"{@item Musket|XUA2023PlayersHandbookP8}",
+					"{@damage 1d12} Piercing",
+					"Ammunition (Range 40/120), Loading, Two-Handed",
+					"{@itemMastery Slow|XUA2023PlayersHandbookP8}",
+					"10 lb.",
+					"500 GP"
+				],
+				[
+					"{@item Pistol|XUA2023PlayersHandbookP8}",
+					"{@damage 1d10} Piercing",
+					"Ammunition (Range 30/90), Loading",
+					"{@itemMastery Vex|XUA2023PlayersHandbookP8}",
+					"3 lb.",
+					"250 GP"
+				]
+			]
+		},
+		{
+			"name": "Simple Weapons: Melee",
+			"source": "XUA2023PlayersHandbookP8",
+			"page": 21,
+			"colLabels": [
+				"Weapon",
+				"Damage",
+				"Properties",
+				"Mastery",
+				"Weight",
+				"Cost"
+			],
+			"colStyles": [
+				"col-2",
+				"col-2",
+				"col-5",
+				"col-1",
+				"col-1 text-right",
+				"col-1 text-right"
+			],
+			"rows": [
+				[
+					"{@item Club|XUA2023PlayersHandbookP8}",
+					"{@damage 1d4} Bludgeoning",
+					"Light",
+					"{@itemMastery Slow|XUA2023PlayersHandbookP8}",
+					"2 lb.",
+					"1 SP"
+				],
+				[
+					"{@item Dagger|XUA2023PlayersHandbookP8}",
+					"{@damage 1d4} Piercing",
+					"Finesse, Light, Thrown (Range 20/60)",
+					"{@itemMastery Nick|XUA2023PlayersHandbookP8}",
+					"1 lb.",
+					"2 GP"
+				],
+				[
+					"{@item Greatclub|XUA2023PlayersHandbookP8}",
+					"{@damage 1d8} Bludgeoning",
+					"Two-Handed",
+					"{@itemMastery Push|XUA2023PlayersHandbookP8}",
+					"10 lb.",
+					"2 SP"
+				],
+				[
+					"{@item Handaxe|XUA2023PlayersHandbookP8}",
+					"{@damage 1d6} Slashing",
+					"Light, Thrown (Range 20/60)",
+					"{@itemMastery Vex|XUA2023PlayersHandbookP8}",
+					"2 lb.",
+					"5 GP"
+				],
+				[
+					"{@item Javelin|XUA2023PlayersHandbookP8}",
+					"{@damage 1d6} Piercing",
+					"Thrown (Range 30/120)",
+					"{@itemMastery Slow|XUA2023PlayersHandbookP8}",
+					"2 lb.",
+					"5 SP"
+				],
+				[
+					"{@item Light Hammer|XUA2023PlayersHandbookP8}",
+					"{@damage 1d4} Bludgeoning",
+					"Light, Thrown (Range 20/60)",
+					"{@itemMastery Nick|XUA2023PlayersHandbookP8}",
+					"2 lb.",
+					"2 GP"
+				],
+				[
+					"{@item Mace|XUA2023PlayersHandbookP8}",
+					"{@damage 1d6} Bludgeoning",
+					"\u2014",
+					"{@itemMastery Sap|XUA2023PlayersHandbookP8}",
+					"4 lb.",
+					"5 GP"
+				],
+				[
+					"{@item Quarterstaff|XUA2023PlayersHandbookP8}",
+					"{@damage 1d6} Bludgeoning",
+					"Versatile ({@damage 1d8})",
+					"{@itemMastery Topple|XUA2023PlayersHandbookP8}",
+					"4 lb.",
+					"2 SP"
+				],
+				[
+					"{@item Sickle|XUA2023PlayersHandbookP8}",
+					"{@damage 1d4} Slashing",
+					"Light",
+					"{@itemMastery Nick|XUA2023PlayersHandbookP8}",
+					"2 lb.",
+					"1 GP"
+				],
+				[
+					"{@item Spear|XUA2023PlayersHandbookP8}",
+					"{@damage 1d6} Piercing",
+					"Thrown (Range 20/60), Versatile ({@damage 1d8})",
+					"{@itemMastery Sap|XUA2023PlayersHandbookP8}",
+					"3 lb.",
+					"1 GP"
+				]
+			]
+		},
+		{
+			"name": "Simple Weapons: Ranged",
+			"source": "XUA2023PlayersHandbookP8",
+			"page": 21,
+			"colLabels": [
+				"Weapon",
+				"Damage",
+				"Properties",
+				"Mastery",
+				"Weight",
+				"Cost"
+			],
+			"colStyles": [
+				"col-2",
+				"col-2",
+				"col-5",
+				"col-1",
+				"col-1 text-right",
+				"col-1 text-right"
+			],
+			"rows": [
+				[
+					"{@item Crossbow, Light|XUA2023PlayersHandbookP8}",
+					"{@damage 1d8} Piercing",
+					"Ammunition (Range 80/320), Loading, Two-Handed",
+					"{@itemMastery Slow|XUA2023PlayersHandbookP8}",
+					"5 lb.",
+					"25 GP"
+				],
+				[
+					"{@item Dart|XUA2023PlayersHandbookP8}",
+					"{@damage 1d4} Piercing",
+					"Finesse, Thrown (Range 20/60)",
+					"{@itemMastery Vex|XUA2023PlayersHandbookP8}",
+					"1/4 lb.",
+					"5 CP"
+				],
+				[
+					"{@item Shortbow|XUA2023PlayersHandbookP8}",
+					"{@damage 1d6} Piercing",
+					"Ammunition (Range 80/320), Two-Handed",
+					"{@itemMastery Vex|XUA2023PlayersHandbookP8}",
+					"2 lb.",
+					"25 GP"
+				],
+				[
+					"{@item Sling|XUA2023PlayersHandbookP8}",
+					"{@damage 1d4} Bludgeoning",
+					"Ammunition (Range 30/120)",
+					"{@itemMastery Slow|XUA2023PlayersHandbookP8}",
+					"\u2014",
+					"1 SP"
+				]
+			]
+		}
+	],
+	"condition": [
+		{
+			"name": "Dazed",
+			"source": "XUA2023PlayersHandbookP8",
+			"page": 25,
+			"entries": [
+				"While Dazed, you experience the following effect:",
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"items": [
+						{
+							"type": "item",
+							"name": "Limited Activity",
+							"entries": [
+								"You can {@variantrule Move|XUA2023PlayersHandbookP8} or take one action on your turn, not both. You also can't take a Bonus Action or a Reaction."
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Grappled",
+			"source": "XUA2023PlayersHandbookP8",
+			"page": 25,
+			"entries": [
+				"While Grappled, you experience the following effects:",
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"items": [
+						{
+							"type": "item",
+							"name": "Speed 0",
+							"entries": [
+								"Your Speed is 0 and can't change."
+							]
+						},
+						{
+							"type": "item",
+							"name": "Attacks Affected",
+							"entries": [
+								"You have Disadvantage on attack rolls against any target other than the grappler."
+							]
+						},
+						{
+							"type": "item",
+							"name": "Movable",
+							"entries": [
+								"The grappler can drag or carry you when it {@variantrule Move|XUA2023PlayersHandbookP8|Moves}, but every foot of movement costs it 1 extra foot, unless you are Tiny or two or more sizes smaller than the grappler."
+							]
+						},
+						{
+							"type": "item",
+							"name": "Escape",
+							"entries": [
+								"While Grappled, you can use your action to make a Strength ({@skill Athletics}) or Dexterity ({@skill Acrobatics}) check against the grapple's escape DC, ending the condition on yourself on a success. The condition also ends if the grappler has the {@condition Incapacitated|XUA2023PlayersHandbookP8} condition or if the distance between you and the grappler exceeds the grapple's range."
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Incapacitated",
+			"source": "XUA2023PlayersHandbookP8",
+			"page": 26,
+			"entries": [
+				"While Incapacitated, you experience the following effects:",
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"items": [
+						{
+							"type": "item",
+							"name": "Inactive",
+							"entries": [
+								"You can't take any action, Bonus Action, or Reaction."
+							]
+						},
+						{
+							"type": "item",
+							"name": "No Concentration",
+							"entries": [
+								"Your {@status Concentration} is broken."
+							]
+						},
+						{
+							"type": "item",
+							"name": "Speechless",
+							"entries": [
+								"You can't speak."
+							]
+						},
+						{
+							"type": "item",
+							"name": "Surprised",
+							"entries": [
+								"If you're {@condition Incapacitated|XUA2023PlayersHandbookP8}when you roll Initiative, you have Disadvantage on the roll."
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Invisible",
+			"source": "XUA2023PlayersHandbookP8",
+			"page": 27,
+			"entries": [
+				"While Invisible, you experience the following effects:",
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"items": [
+						{
+							"type": "item",
+							"name": "Concealed",
+							"entries": [
+								"You aren't affected by any effect that requires its target to be seen."
+							]
+						},
+						{
+							"type": "item",
+							"name": "Surprise",
+							"entries": [
+								"If you're Invisible when you roll Initiative, you have Advantage on the roll."
+							]
+						},
+						{
+							"type": "item",
+							"name": "Attacks Affected",
+							"entries": [
+								"Attack rolls against you have Disadvantage, and your attack rolls have Advantage. If a creature can somehow see you, as with magic or {@sense Blindsight|XUA2023PlayersHandbookP8}, you don't gain this benefit against that creature."
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Unconscious",
+			"source": "XUA2023PlayersHandbookP8",
+			"page": 30,
+			"entries": [
+				"While Unconscious, you experience the following effects:",
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"items": [
+						{
+							"type": "item",
+							"name": "Inert",
+							"entries": [
+								"You have the {@condition Incapacitated|XUA2023PlayersHandbookP8} and {@condition Prone} conditions, and you drop whatever you're holding. When this condition ends, you remain {@condition Prone}."
+							]
+						},
+						{
+							"type": "item",
+							"name": "Speed 0",
+							"entries": [
+								"Your Speed is 0 and can't change."
+							]
+						},
+						{
+							"type": "item",
+							"name": "Attacks Affected",
+							"entries": [
+								"Attack rolls against you have Advantage."
+							]
+						},
+						{
+							"type": "item",
+							"name": "Fail Str. and Dex. Saves.",
+							"entries": [
+								"You automatically fail Strength and Dexterity saving throws."
+							]
+						},
+						{
+							"type": "item",
+							"name": "Critical Hits",
+							"entries": [
+								"Any attack roll that hits you is a critical hit if the attacker is within 5 feet of you."
+							]
+						},
+						{
+							"type": "item",
+							"name": "Unaware",
+							"entries": [
+								"You're unaware of your surroundings."
+							]
+						}
+					]
+				}
+			]
+		}
+	],
+	"action": [
+		{
+			"name": "Attack",
+			"source": "XUA2023PlayersHandbookP8",
+			"page": 24,
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"entries": [
+				"When you take the Attack action, you can make one attack with a weapon or an {@variantrule Unarmed Strike|XUA2023PlayersHandbookP8}.",
+				{
+					"type": "entries",
+					"name": "Equipping and Unequipping Weapons",
+					"entries": [
+						"You can either equip or unequip one weapon when you make an attack as part of this action. You do so either before or after the attack. If you equip a weapon before an attack, you don't need to use it for that attack.",
+						"Equipping a weapon includes drawing it from a sheath, picking it up, or retrieving it from a container. Unequipping a weapon includes sheathing, stowing, or dropping it."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Moving Between Attacks",
+					"entries": [
+						"If you {@variantrule Move|XUA2023PlayersHandbookP8} on your turn, you can use some or all of that movement to move between the attacks of this action if you have a feature, such as Extra Attack, that gives you more than one attack as part of the Attack action."
+					]
+				}
+			]
+		},
+		{
+			"name": "Help",
+			"source": "XUA2023PlayersHandbookP8",
+			"page": 25,
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"entries": [
+				"When you take the Help action, you do one of the following:",
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"items": [
+						{
+							"type": "item",
+							"name": "Assist Ability Check",
+							"entries": [
+								"Choose one of your skill or {@variantrule tool proficiency|XUA2023PlayersHandbookP8|tool proficiencies} and one ally who can perceive you. You give Advantage to the next ability check that ally makes with the chosen skill or tool. This benefit expires if the ally doesn't use it before the start of your next turn. To give this assistance, you must be near enough to the ally to assist verbally or physically when the ally makes the check. The DM has final say on whether your assistance is possible."
+							]
+						},
+						{
+							"type": "item",
+							"name": "Assist Attack Roll",
+							"entries": [
+								"You momentarily distract an enemy within 5 feet of you, giving Advantage to the next attack roll by one of your allies against that enemy. This benefit expires at the start of your next turn."
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Hide",
+			"source": "XUA2023PlayersHandbookP8",
+			"page": 26,
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"entries": [
+				"With the Hide action, you try to conceal yourself. To do so stealthily, you must succeed on a {@dc 15} Dexterity ({@skill Stealth}) check while you're Heavily Obscured or behind Three-Quarters Cover or Total Cover, and you must be out of any visible enemy's line of sight; if you can see a creature, you can discern whether it can see you.",
+				"On a successful check, you have the {@condition Invisible|XUA2023PlayersHandbookP8} condition. Make note of your check's total, which becomes the DC for a creature to find you with a Wisdom ({@skill Perception}) check.",
+				"The condition ends on you immediately after any of the following occurrences: you make a sound louder than a whisper, an enemy finds you, you make an attack roll, or you cast a spell with a verbal component."
+			]
+		},
+		{
+			"name": "Influence",
+			"source": "XUA2023PlayersHandbookP8",
+			"page": 26,
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"entries": [
+				"With the Influence action, you can try to influence another creature to do one thing that you request or demand.",
+				"The DM determines when this action is available, and it can be used only on creatures controlled by the DM. It isn't mind control; it can't force a creature to do something that is counter to the creature's alignment or that is otherwise repugnant to the creature.",
+				"This action has three main parts: Attitude, interaction, and a Charisma check.",
+				{
+					"type": "entries",
+					"name": "Attitude",
+					"entries": [
+						"A creature's Attitude determines how a character can influence that creature. Each DMcontrolled creature has one of the following Attitudes toward player characters:",
+						{
+							"type": "list",
+							"style": "list-hang-notitle",
+							"items": [
+								{
+									"type": "item",
+									"name": "Indifferent",
+									"entries": [
+										"This is the default Attitude for DMcontrolled creatures. An Indifferent creature might help or hinder the party, depending on what the creature sees as most beneficial. A creature's indifference doesn't necessarily make it standoffish or disinterested. Indifferent creatures might be polite and genial, surly and irritable, or anything in between. A successful Charisma check is usually necessary when the adventurers try to influence an Indifferent creature to do something."
+									]
+								},
+								{
+									"type": "item",
+									"name": "Friendly",
+									"entries": [
+										"A Friendly creature wants to help the adventurers and wishes for them to succeed. For tasks or actions that require no particular risk, effort, or cost, Friendly creatures often help happily, with the Charisma check succeeding automatically. If an element of personal risk is involved, a successful Charisma check is usually required to convince a Friendly creature to take that risk."
+									]
+								},
+								{
+									"type": "item",
+									"name": "Hostile",
+									"entries": [
+										"A Hostile creature opposes the adventurers and their goals but doesn't necessarily attack them on sight. The adventurers need to succeed on one or more Charisma checks to convince a Hostile creature to do anything on the party's behalf; however, the DM might determine that the Hostile creature is so ill-disposed toward the characters that no Charisma check can sway it. In which case, the first check fails automatically and no further Influence attempts can be made on the creature unless its Attitude shifts."
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Interaction",
+					"entries": [
+						"When you take the Influence action, either roleplay how your character interacts with the creature or describe your character's behavior, focusing on your character's request or demand. If the interaction is especially suited to the creature's desires and outlook, the DM might temporarily shift a Hostile creature to Indifferent or an Indifferent creature to Friendly.",
+						"Similarly, if the interaction is particularly irksome to the creature, the DM might temporarily shift a Friendly creature to Indifferent or an Indifferent creature to Hostile."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Charisma Check",
+					"entries": [
+						"To determine whether your request or demand is successful, make a Charisma check. You have Advantage on the check if the creature is Friendly, and you have Disadvantage if the creature is Hostile.",
+						{
+							"type": "entries",
+							"name": "Choosing a Skill",
+							"entries": [
+								"The Influence Skills table suggests which skills are applicable when you make the Charisma check, depending on the interaction that precedes the roll."
+							]
+						},
+						{
+							"type": "table",
+							"caption": "Influence Skills",
+							"colLabels": [
+								"Skill",
+								"Interaction"
+							],
+							"colStyles": [
+								"col-3",
+								"col-9"
+							],
+							"rows": [
+								[
+									"{@skill Animal Handling}",
+									"Gently coaxing a Beast or a Monstrosity"
+								],
+								[
+									"{@skill Deception}",
+									"Deceiving a creature that can understand you"
+								],
+								[
+									"{@skill Intimidation}",
+									"Intimidating a creature"
+								],
+								[
+									"{@skill Persuasion}",
+									"Persuading a creature that can understand you"
+								]
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Setting the DC",
+							"entries": [
+								"The DM sets the check's DC. A good guideline is to set the DC at 15 or at the creature's Intelligence or Wisdom score, whichever of those three numbers is highest."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Outcome",
+							"entries": [
+								"If your check succeeds, the creature does as you requested or demanded, based on its understanding and driven by its alignment; it won't do anything that it finds repugnant. If your check fails, you must wait to make the same request again. The default wait time is 24 hours, which the DM may shorten or extend depending on the circumstances."
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Magic",
+			"source": "XUA2023PlayersHandbookP8",
+			"page": 28,
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"entries": [
+				"When you take the Magic action, you magic something by casting a spell that has a casting time of an action or by using a feature or Magic Item that requires a Magic action to be activated.",
+				"If you cast a spell that has a casting time of 1 minute or longer, you must take the Magic action on each turn of that casting, and you must maintain {@status Concentration} while you do so. If your {@status Concentration} is broken, the spell fails, but you don't expend a spell slot."
+			]
+		},
+		{
+			"name": "Search",
+			"source": "XUA2023PlayersHandbookP8",
+			"page": 28,
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"entries": [
+				"When you take the Search action, you make a Wisdom check to discern something that isn't obvious. The Search table suggests which skills are applicable when you take this action, depending on what you're trying to detect.",
+				{
+					"type": "table",
+					"caption": "Search",
+					"colLabels": [
+						"Skill",
+						"Thing to Detect"
+					],
+					"colStyles": [
+						"col-3",
+						"col-9"
+					],
+					"rows": [
+						[
+							"{@skill Insight}",
+							"Creature's state of mind"
+						],
+						[
+							"{@skill Medicine}",
+							"Creature's ailment"
+						],
+						[
+							"{@skill Perception}",
+							"Concealed creature or object"
+						],
+						[
+							"{@skill Survival}",
+							"Tracks or food"
+						]
+					]
+				}
+			]
+		},
+		{
+			"name": "Study",
+			"source": "XUA2023PlayersHandbookP8",
+			"page": 29,
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"entries": [
+				"When you take the Study action, you make an Intelligence check to study your memory, a book, a creature, a clue, an object, or another source of knowledge and call to mind an important piece of information about it.",
+				"The Areas of Knowledge table suggests which skills are applicable when you take this action, depending on the area of knowledge the Intelligence check is about.",
+				{
+					"type": "table",
+					"caption": "Areas of Knowledge",
+					"colLabels": [
+						"Skill",
+						"Areas"
+					],
+					"colStyles": [
+						"col-1",
+						"col-11"
+					],
+					"rows": [
+						[
+							"{@skill Arcana}",
+							"Spells, magic items, eldritch symbols, magical traditions, planes of existence, and certain creatures (Aberrations, Constructs, Elementals, Fey, and Monstrosities)"
+						],
+						[
+							"{@skill History}",
+							"Historic events and people, ancient civilizations, wars, and certain creatures (Giants and Humanoids)"
+						],
+						[
+							"{@skill Investigation}",
+							"Traps, ciphers, riddles, and gadgetry"
+						],
+						[
+							"{@skill Nature}",
+							"Terrain, flora, weather, and certain creatures (Beasts, Dragons, Oozes, and Plants)"
+						],
+						[
+							"{@skill Religion}",
+							"Deities, religious hierarchies and rites, holy symbols, cults, and certain creatures (Celestials, Fiends, and Undead)"
+						]
+					]
+				}
+			]
+		}
+	],
+	"sense": [
+		{
+			"name": "Blindsight",
+			"source": "XUA2023PlayersHandbookP8",
+			"page": 24,
+			"entries": [
+				"If you have Blindsight, you can see within a specific range without relying on physical sight. Within that range, you can effectively see anything that isn't behind Total Cover, even if you have the {@condition Blinded} condition or are in Darkness. Moreover, in that range, you can effectively see a creature that has the {@condition Invisible|XUA2023PlayersHandbookP8} condition."
+			]
+		},
+		{
+			"name": "Tremorsense",
+			"source": "XUA2023PlayersHandbookP8",
+			"page": 30,
+			"entries": [
+				"A creature with Tremorsense can pinpoint the location of creatures and moving objects within a specific range, provided that the creature with Tremorsense and anything it's detecting are both in contact with the same surface (such as the ground, a wall, or a ceiling) or the same liquid.",
+				"Tremorsense can't detect creatures or objects in the air, and Tremorsense doesn't count as a form of sight."
+			]
+		},
+		{
+			"name": "Truesight",
+			"source": "XUA2023PlayersHandbookP8",
+			"page": 30,
+			"entries": [
+				"A creature with Truesight has enhanced vision within a specified range. Within that range, the creature's vision pierces through the following:",
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"items": [
+						{
+							"type": "item",
+							"name": "Darkness",
+							"entries": [
+								"The creature can see in normal and magical darkness."
+							]
+						},
+						{
+							"type": "item",
+							"name": "Invisibility",
+							"entries": [
+								"The creature can see creatures that have the {@condition Invisible|XUA2023PlayersHandbookP8} condition and objects that are obscured by magic."
+							]
+						},
+						{
+							"type": "item",
+							"name": "Visual Illusions",
+							"entries": [
+								"Visual illusions appear transparent to the creature, and the creature automatically succeeds on saving throws against them."
+							]
+						},
+						{
+							"type": "item",
+							"name": "Transformations",
+							"entries": [
+								"The creature discerns the true form of any creature or object it sees that has been transformed by magic."
+							]
+						},
+						{
+							"type": "item",
+							"name": "Ethereal Plane",
+							"entries": [
+								"The creature can see into the Ethereal Plane."
+							]
+						}
+					]
+				}
+			]
+		}
+	],
+	"book": [
+		{
+			"name": "Unearthed Arcana 2023: Player's Handbook Playtest 8",
+			"id": "XUA2023PlayersHandbookP8",
+			"source": "XUA2023PlayersHandbookP8",
+			"group": "prerelease",
+			"coverUrl": "img/covers/blank.webp",
+			"published": "2023-11-27",
+			"author": "Wizards of the Coast",
+			"contents": [
+				{
+					"name": "Unearthed Arcana 2023 Player's Handbook Playtest 8",
+					"headers": [
+						"What's Inside"
+					]
+				},
+				{
+					"name": "Classes",
+					"headers": [
+						"Barbarian",
+						{
+							"header": "Barbarian Subclasses",
+							"depth": 1
+						},
+						"Druid",
+						{
+							"header": "Druid Subclasses",
+							"depth": 1
+						},
+						"Monk",
+						{
+							"header": "Monk Subclasses",
+							"depth": 1
+						}
+					]
+				},
+				{
+					"name": "Spells"
+				},
+				{
+					"name": "Feats"
+				},
+				{
+					"name": "Weapons"
+				},
+				{
+					"name": "Adventuring Gear"
+				},
+				{
+					"name": "Rules Glossary"
+				}
+			]
+		}
+	],
+	"bookData": [
+		{
+			"id": "XUA2023PlayersHandbookP8",
+			"source": "XUA2023PlayersHandbookP8",
+			"data": [
+				{
+					"type": "section",
+					"name": "Unearthed Arcana 2023 Player's Handbook Playtest 8",
+					"page": 1,
+					"entries": [
+						"This playtest document is part of a series of {@i Unearthed Arcana} articles that present material designed for the 2024 version of the {@i Player's Handbook}. The material here uses the rules in the 2014 {@book Player's Handbook|PHB}, except where noted.",
+						{
+							"type": "inset",
+							"page": 1,
+							"name": "Learn More on YouTube",
+							"entries": [
+								"To learn more about the design in this article, we invite you to view the videos about it on YouTube ({@link www.youtube.com/DNDWizards})."
+							]
+						},
+						{
+							"type": "section",
+							"name": "What's Inside",
+							"page": 1,
+							"entries": [
+								"Here are the new and revised elements in this article:",
+								{
+									"type": "list",
+									"style": "list-hang-notitle",
+									"page": 1,
+									"items": [
+										{
+											"type": "item",
+											"name": "Classes",
+											"entries": [
+												"Three classes are here: {@class Barbarian|XUA2023PlayersHandbookP8}, {@class Druid|XUA2023PlayersHandbookP8}, and {@class Monk|XUA2023PlayersHandbookP8}. Each one includes one subclass: {@class Barbarian|XUA2023PlayersHandbookP8|Path of the World Tree (Barbarian)|World Tree|XUA2023PlayersHandbookP8}, {@class Druid|XUA2023PlayersHandbookP8|Circle of the Moon (Druid)|Moon|XUA2023PlayersHandbookP8}, and {@class Monk|XUA2023PlayersHandbookP8|Warrior of the Hand (Monk)|Hand|XUA2023PlayersHandbookP8}."
+											]
+										},
+										{
+											"type": "item",
+											"name": "Spells",
+											"entries": [
+												"New and revised spells are included."
+											]
+										},
+										"The following sections were introduced in a previous article and are provided here for reference:",
+										{
+											"type": "item",
+											"name": "Weapons",
+											"entries": [
+												"Weapon revisions are included."
+											]
+										},
+										{
+											"type": "item",
+											"name": "Feats",
+											"entries": [
+												"This includes a revised version of {@feat Ability Score Improvement|XUA2023PlayersHandbookP8}."
+											]
+										},
+										{
+											"type": "item",
+											"name": "Rules Glossary",
+											"entries": [
+												"The rules glossary includes the few rules that have revised definitions in the playtest. In this document, any underlined term in the body text appears in the glossary."
+											]
+										}
+									]
+								},
+								{
+									"type": "inset",
+									"page": 1,
+									"name": "This Is Playtest Material",
+									"entries": [
+										"This article is presented for playtesting and feedback. The options here are experimental and in draft form. They aren't officially part of the game. Your feedback will help determine whether we adopt it as official.",
+										{
+											"type": "entries",
+											"name": "How to Playtest This UA",
+											"page": 1,
+											"entries": [
+												"We invite you to try out this material in play. When you do so, you're welcome to combine this article with the other articles in this series, starting with \"{@loader Character Origins.|collection/Unearthed Arcana 2022 - Character Origins.json|prerelease}\"",
+												"If you do combine this article with any previous one, use only the rules glossary found here. In this {@i Unearthed Arcana} series, the rules glossary of each article supersedes the glossary of any previous article.",
+												"To play with this material, you may either incorporate it into your campaign or run one or more special playtest sessions. For such a session, you may create an adventure of your own or use a short adventure from a source like {@adventure Keys from the Golden Vault|KftGV}, {@adventure Journeys through the Radiant Citadel|JttRC}, or {@adventure Candlekeep Mysteries|CM}."
+											]
+										},
+										{
+											"type": "entries",
+											"name": "Power Level",
+											"page": 1,
+											"entries": [
+												"The character options you read here might be more or less powerful than options in the 2014 {@book Player's Handbook|PHB}. If a design survives playtesting, we adjust its power to the desirable level before publication. This means an option could be more or less powerful in its final form."
+											]
+										},
+										{
+											"type": "entries",
+											"name": "Feedback",
+											"page": 1,
+											"entries": [
+												"The best way for you to give us feedback on this material is in the survey we'll release on D&D Beyond. If we make this material official, it will be refined based on your feedback, and then it will appear in a D&D book.",
+												"Providing feedback on this document is one way you can help shape the next generation of D&D!"
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"type": "section",
+					"name": "Classes",
+					"page": 1,
+					"entries": [
+						"{@note For full details of all classes including tables, multiclassing, equipment, core stats and fluff, please see {@filter the classes page|classes|source=XUA2023PlayersHandbookP8}.}",
+						{
+							"type": "section",
+							"name": "Barbarian",
+							"page": 1,
+							"entries": [
+								{
+									"type": "inset",
+									"page": 2,
+									"name": "Design Note: Barbarian Updates",
+									"entries": [
+										"Here are the main updates in this class since its last playtest version:",
+										{
+											"type": "list",
+											"page": 2,
+											"items": [
+												{
+													"type": "item",
+													"name": "Rage",
+													"nameDot": false,
+													"entries": [
+														"now regains one expended Rage when you finish a Short Rest."
+													]
+												},
+												{
+													"type": "item",
+													"name": "Brutal Strike",
+													"nameDot": false,
+													"entries": [
+														"(formerly Brutal Critical) is a new feature that lets you trade the Advantage granted by your Reckless Attack for tactical options."
+													]
+												},
+												{
+													"type": "item",
+													"name": "Improved Brutal Strike",
+													"nameDot": false,
+													"entries": [
+														"expands the options of your Brutal Strike feature at levels 13 and 17."
+													]
+												},
+												{
+													"type": "item",
+													"name": "Persistent Rage",
+													"nameDot": false,
+													"entries": [
+														"now restores all uses of your Rage once per {@variantrule Long Rest|XUA2023PlayersHandbookP8}, and the {@condition Unconscious|XUA2023PlayersHandbookP8} condition, not {@condition Incapacitated|XUA2023PlayersHandbookP8}, shuts off your Rage."
+													]
+												}
+											]
+										}
+									]
+								},
+								{
+									"type": "statblock",
+									"tag": "class",
+									"source": "XUA2023PlayersHandbookP8",
+									"name": "Barbarian",
+									"page": 1,
+									"collapsed": true
+								},
+								{
+									"type": "entries",
+									"name": "Barbarian Subclasses",
+									"page": 5,
+									"entries": [
+										"A Barbarian subclass is a specialization that grants you special abilities at certain levels, as specified in the subclass. This section presents the {@class Barbarian|XUA2023PlayersHandbookP8|Path of the World Tree|World Tree|XUA2023PlayersHandbookP8} subclass.",
+										{
+											"type": "entries",
+											"name": "Path of the World Tree",
+											"page": 5,
+											"entries": [
+												{
+													"type": "inset",
+													"page": 5,
+													"name": "Design Note: Path of the World Tree Updates",
+													"entries": [
+														"Here are the main updates in this subclass since its last playtest version:",
+														{
+															"type": "list",
+															"page": 5,
+															"items": [
+																{
+																	"type": "item",
+																	"name": "Vitality of the Tree",
+																	"nameDot": false,
+																	"entries": [
+																		"now provides Temporary Hit Points to the Barbarian. In addition, the range to give Temporary Hit Points to a character increases to 20 feet at level 10."
+																	]
+																},
+																{
+																	"type": "item",
+																	"name": "Branches of the Tree",
+																	"nameDot": false,
+																	"entries": [
+																		"now activates at the start of a creature's turn instead of the end. The range has increased to 30 feet, and the Barbarian can choose to reduce the Speed of a teleported creature to 0."
+																	]
+																},
+																{
+																	"type": "item",
+																	"name": "Battering Roots",
+																	"nameDot": false,
+																	"entries": [
+																		"now applies its increased range only during your turn and only for weapons with specific properties. The feature now clarifies you can potentially use two Mastery properties in one attack."
+																	]
+																},
+																{
+																	"type": "item",
+																	"name": "Travel Along the Tree",
+																	"nameDot": false,
+																	"entries": [
+																		"has been redesigned to allow you to teleport yourself while your Rage is active, as well as to teleport yourself and your allies a greater distance once per Rage."
+																	]
+																}
+															]
+														}
+													]
+												},
+												{
+													"type": "statblock",
+													"prop": "subclass",
+													"source": "XUA2023PlayersHandbookP8",
+													"name": "World Tree",
+													"className": "Barbarian",
+													"classSource": "XUA2023PlayersHandbookP8",
+													"page": 5,
+													"collapsed": true
+												}
+											]
+										}
+									]
+								}
+							]
+						},
+						{
+							"type": "section",
+							"name": "Druid",
+							"page": 7,
+							"entries": [
+								{
+									"type": "inset",
+									"page": 8,
+									"name": "Design Note: Druid Updates",
+									"entries": [
+										"Here are the main updates in this class since its last playtest version:",
+										{
+											"type": "list",
+											"page": 2,
+											"items": [
+												{
+													"type": "item",
+													"name": "Wild Shape",
+													"nameDot": false,
+													"entries": [
+														"now allows the Druid to know more Beast forms, and it gives Temporary Hit Points to the Druid. In addition, the Beast form no longer retains the Druid's species traits."
+													]
+												}
+											]
+										}
+									]
+								},
+								{
+									"type": "statblock",
+									"tag": "class",
+									"source": "XUA2023PlayersHandbookP8",
+									"name": "Druid",
+									"page": 7,
+									"collapsed": true
+								},
+								{
+									"type": "entries",
+									"name": "Druid Subclasses",
+									"page": 11,
+									"entries": [
+										"A Druid subclass is a specialization that grants you special abilities at certain Druid levels, as specified in the subclass.",
+										"Druids form loose associations, which they call circles, to facilitate their gatherings and preserve their traditions. This section presents the {@class Druid|XUA2023PlayersHandbookP8|Circle of the Moon subclass|Moon|XUA2023PlayersHandbookP8}.",
+										{
+											"type": "entries",
+											"name": "Circle of the Moon",
+											"page": 11,
+											"entries": [
+												{
+													"type": "inset",
+													"page": 11,
+													"name": "Design Note: Circle of the Moon Updates",
+													"entries": [
+														"Here are the main updates in this subclass since its last playtest version:",
+														{
+															"type": "list",
+															"page": 11,
+															"items": [
+																{
+																	"type": "item",
+																	"name": "Circle Spells",
+																	"nameDot": false,
+																	"entries": [
+																		"is a new feature that provides spells that you always have prepared and can cast in Wild Shape form."
+																	]
+																},
+																{
+																	"type": "item",
+																	"name": "Circle Forms",
+																	"nameDot": false,
+																	"entries": [
+																		"(formerly Combat Wild Shape) has been streamlined to determine your AC and the number of Temporary Hit Points gained."
+																	]
+																},
+																{
+																	"type": "item",
+																	"name": "Improved Circle Forms",
+																	"nameDot": false,
+																	"entries": [
+																		"allows you to make two Lunar Swipe attacks as an action, as well as add your Wisdom modifier to your Constitution saving throws while in a Wild Shape form."
+																	]
+																},
+																{
+																	"type": "item",
+																	"name": "Lunar Form",
+																	"nameDot": false,
+																	"entries": [
+																		"now also improves Lunar Swipe."
+																	]
+																}
+															]
+														}
+													]
+												},
+												{
+													"type": "statblock",
+													"prop": "subclass",
+													"source": "XUA2023PlayersHandbookP8",
+													"name": "Moon",
+													"className": "Druid",
+													"classSource": "XUA2023PlayersHandbookP8",
+													"page": 11,
+													"collapsed": true
+												}
+											]
+										}
+									]
+								}
+							]
+						},
+						{
+							"type": "section",
+							"name": "Monk",
+							"page": 13,
+							"entries": [
+								{
+									"type": "inset",
+									"page": 13,
+									"name": "Design Note: Monk Updates",
+									"entries": [
+										"Here are the main updates in this class since its last playtest version:",
+										{
+											"type": "list",
+											"page": 13,
+											"items": [
+												{
+													"type": "item",
+													"name": "Martial Arts",
+													"nameDot": false,
+													"entries": [
+														"sees the return of Monk Weapons, and the Martial Arts die applies to both {@variantrule Unarmed Strike|XUA2023PlayersHandbookP8|Unarmed Strikes} and Monk Weapons."
+													]
+												},
+												{
+													"type": "item",
+													"name": "Bonus Unarmed Strike",
+													"nameDot": false,
+													"entries": [
+														"is no longer tied to the {@action Attack|XUA2023PlayersHandbookP8} action."
+													]
+												},
+												{
+													"type": "item",
+													"name": "Dexterous Attacks",
+													"nameDot": false,
+													"entries": [
+														"now allows you to use your Dexterity Modifier in place of your Strength modifier when setting the saving throw DC of the Grapple and Push options of your {@variantrule Unarmed Strike|XUA2023PlayersHandbookP8|Unarmed Strikes}."
+													]
+												},
+												{
+													"type": "item",
+													"name": "Weapon Mastery",
+													"nameDot": false,
+													"entries": [
+														"is cut."
+													]
+												},
+												{
+													"type": "item",
+													"name": "Monk's Discipline",
+													"nameDot": false,
+													"entries": [
+														"(formerly Martial Discipline) options have been redesigned to have options that don't require spending Discipline Points."
+													]
+												},
+												{
+													"type": "item",
+													"name": "Uncanny Metabolism",
+													"nameDot": false,
+													"entries": [
+														"(formerly Heightened Metabolism) moves to level 2, and now regains Discipline Points when you roll Initiative as well as regaining a number of Hit Points."
+													]
+												},
+												{
+													"type": "item",
+													"name": "Deflect Attacks",
+													"nameDot": false,
+													"entries": [
+														"(formerly Deflect Missiles) now also works against melee attacks, and the damage of the Reaction now includes your Dexterity modifier."
+													]
+												},
+												{
+													"type": "item",
+													"name": "Stunning Strike",
+													"nameDot": false,
+													"entries": [
+														"now deals Force damage if the creature succeeds on the saving throw."
+													]
+												},
+												{
+													"type": "item",
+													"name": "Heightened Discipline",
+													"nameDot": false,
+													"entries": [
+														"is a new feature that increases the effects of Flurry of Blows, Patient Defense, and Step of the Wind."
+													]
+												},
+												{
+													"type": "item",
+													"name": "Self-Restoration",
+													"nameDot": false,
+													"entries": [
+														"now allows you to remove some conditions at the end of your turns."
+													]
+												},
+												{
+													"type": "item",
+													"name": "Deflect Energy",
+													"nameDot": false,
+													"entries": [
+														"now also works against melee attacks."
+													]
+												},
+												{
+													"type": "item",
+													"name": "Superior Defense",
+													"nameDot": false,
+													"entries": [
+														"can now be activated at the start of your turn instead of using an action or a Bonus Action."
+													]
+												},
+												{
+													"type": "item",
+													"name": "Perfect Discipline",
+													"nameDot": false,
+													"entries": [
+														"(formerly Perfect Self) now gives you expended Discipline Points if you have 3 or less."
+													]
+												},
+												{
+													"type": "item",
+													"name": "Body and Mind",
+													"nameDot": false,
+													"entries": [
+														"is a new level 20 feature."
+													]
+												}
+											]
+										}
+									]
+								},
+								{
+									"type": "statblock",
+									"tag": "class",
+									"source": "XUA2023PlayersHandbookP8",
+									"name": "Monk",
+									"page": 13,
+									"collapsed": true
+								},
+								{
+									"type": "entries",
+									"name": "Monk Subclasses",
+									"page": 16,
+									"entries": [
+										"A Monk subclass is a specialization that grants you special abilities at certain levels, as specified in the subclass. This section presents the {@class Monk|XUA2023PlayersHandbookP8|Warrior of the Hand subclass|Hand|XUA2023PlayersHandbookP8}.",
+										{
+											"type": "entries",
+											"name": "Warrior of the Hand",
+											"page": 17,
+											"entries": [
+												{
+													"type": "inset",
+													"page": 17,
+													"name": "Design Note: Warrior of the Hand Updates",
+													"entries": [
+														"Here are the main updates in this subclass since its last playtest version:",
+														{
+															"type": "list",
+															"page": 17,
+															"items": [
+																{
+																	"type": "item",
+																	"name": "Open Hand Technique",
+																	"nameDot": false,
+																	"entries": [
+																		"now has the Addle option to prevent creatures from making Opportunity Attacks and no longer requires a saving throw."
+																	]
+																},
+																{
+																	"type": "item",
+																	"name": "Wholeness of Body",
+																	"nameDot": false,
+																	"entries": [
+																		"now allows you to regain Hit Points without expending Discipline Points."
+																	]
+																},
+																{
+																	"type": "item",
+																	"name": "Fleet Step",
+																	"nameDot": false,
+																	"entries": [
+																		"now allows you to take the Step of the Wind option alongside other Bonus Actions."
+																	]
+																},
+																{
+																	"type": "item",
+																	"name": "Quivering Palm",
+																	"nameDot": false,
+																	"entries": [
+																		"now allows you the option to replace one of your attacks with the action to end the vibrations on the creature. To compensate for this increased flexibility, the cost and damage of the feature has been adjusted."
+																	]
+																}
+															]
+														}
+													]
+												},
+												{
+													"type": "statblock",
+													"prop": "subclass",
+													"source": "XUA2023PlayersHandbookP8",
+													"name": "Hand",
+													"className": "Monk",
+													"classSource": "XUA2023PlayersHandbookP8",
+													"page": 17,
+													"collapsed": true
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"type": "section",
+					"name": "Spells",
+					"page": 18,
+					"entries": [
+						"This section presents new or revised spells for you to playtest.",
+						{
+							"type": "entries",
+							"name": "Class Tags",
+							"page": 18,
+							"entries": [
+								"A spell's description contains one or more tags indicating the class spell lists that contain the spell. For example, if a spell has the \"Wizard\" tag, the spell is on the Wizard spell list."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Spell Descriptions",
+							"page": 18,
+							"entries": [
+								"The following spells are presented in alphabetical order.",
+								{
+									"type": "inset",
+									"page": 18,
+									"name": "Design Note: Spell Updates",
+									"entries": [
+										"Here are the main updates in this section since its last playtest version:",
+										{
+											"type": "list",
+											"page": 18,
+											"items": [
+												{
+													"type": "item",
+													"name": "Conjure Animals, Conjure Celestial, Conjure Elemental, Conjure Fey, Conjure Minor Elementals,",
+													"nameDot": false,
+													"entries": [
+														"and {@b Conjure Woodland Beings} have all been redesigned to differentiate them from the summoning spells from {@book Tasha's Cauldron of Everything|TCE}, which will appear in the 2024 {@i Player's Handbook}."
+													]
+												},
+												{
+													"type": "item",
+													"name": "Cure Wounds",
+													"nameDot": false,
+													"entries": [
+														"healing has increased to {@dice 2d8}, and the healing improves by {@dice 2d8} at higher levels."
+													]
+												},
+												{
+													"type": "item",
+													"name": "Fount of Moonlight",
+													"nameDot": false,
+													"entries": [
+														"is a new level 4 spell for Bards and Druids."
+													]
+												},
+												{
+													"type": "item",
+													"name": "Healing Word",
+													"nameDot": false,
+													"entries": [
+														"healing has increased to {@dice 2d4}, and the healing improves by {@dice 2d4} at higher levels."
+													]
+												},
+												{
+													"type": "item",
+													"name": "Mass Cure Wounds",
+													"nameDot": false,
+													"entries": [
+														"now heals for {@dice 5d8} instead of {@dice 3d8}."
+													]
+												},
+												{
+													"type": "item",
+													"name": "Mass Healing Word",
+													"nameDot": false,
+													"entries": [
+														"now heals for {@dice 2d4} instead of {@dice 1d4}."
+													]
+												},
+												{
+													"type": "item",
+													"name": "Power Word Fortify",
+													"nameDot": false,
+													"entries": [
+														"is a new spell for Bards and Clerics."
+													]
+												},
+												{
+													"type": "item",
+													"name": "Starry Wisp",
+													"nameDot": false,
+													"entries": [
+														"is a new cantrip for Bards and Druids."
+													]
+												}
+											]
+										}
+									]
+								},
+								{
+									"type": "statblock",
+									"tag": "spell",
+									"source": "XUA2023PlayersHandbookP8",
+									"name": "Conjure Animals",
+									"page": 18,
+									"collapsed": true
+								},
+								{
+									"type": "statblock",
+									"tag": "spell",
+									"source": "XUA2023PlayersHandbookP8",
+									"name": "Conjure Celestial",
+									"page": 18,
+									"collapsed": true
+								},
+								{
+									"type": "statblock",
+									"tag": "spell",
+									"source": "XUA2023PlayersHandbookP8",
+									"name": "Conjure Elemental",
+									"page": 19,
+									"collapsed": true
+								},
+								{
+									"type": "statblock",
+									"tag": "spell",
+									"source": "XUA2023PlayersHandbookP8",
+									"name": "Conjure Fey",
+									"page": 19,
+									"collapsed": true
+								},
+								{
+									"type": "statblock",
+									"tag": "spell",
+									"source": "XUA2023PlayersHandbookP8",
+									"name": "Conjure Minor Elementals",
+									"page": 19,
+									"collapsed": true
+								},
+								{
+									"type": "statblock",
+									"tag": "spell",
+									"source": "XUA2023PlayersHandbookP8",
+									"name": "Conjure Woodland Beings",
+									"page": 19,
+									"collapsed": true
+								},
+								{
+									"type": "statblock",
+									"tag": "spell",
+									"source": "XUA2023PlayersHandbookP8",
+									"name": "Cure Wounds",
+									"page": 19,
+									"collapsed": true
+								},
+								{
+									"type": "statblock",
+									"tag": "spell",
+									"source": "XUA2023PlayersHandbookP8",
+									"name": "Fount of Moonlight",
+									"page": 20,
+									"collapsed": true
+								},
+								{
+									"type": "statblock",
+									"tag": "spell",
+									"source": "XUA2023PlayersHandbookP8",
+									"name": "Healing Word",
+									"page": 20,
+									"collapsed": true
+								},
+								{
+									"type": "statblock",
+									"tag": "spell",
+									"source": "XUA2023PlayersHandbookP8",
+									"name": "Mass Cure Wounds",
+									"page": 20,
+									"collapsed": true
+								},
+								{
+									"type": "statblock",
+									"tag": "spell",
+									"source": "XUA2023PlayersHandbookP8",
+									"name": "Mass Healing Word",
+									"page": 20,
+									"collapsed": true
+								},
+								{
+									"type": "statblock",
+									"tag": "spell",
+									"source": "XUA2023PlayersHandbookP8",
+									"name": "Power Word Fortify",
+									"page": 20,
+									"collapsed": true
+								},
+								{
+									"type": "statblock",
+									"tag": "spell",
+									"source": "XUA2023PlayersHandbookP8",
+									"name": "Starry Wisp",
+									"page": 20,
+									"collapsed": true
+								}
+							]
+						}
+					]
+				},
+				{
+					"type": "section",
+					"name": "Feats",
+					"page": 21,
+					"entries": [
+						{
+							"type": "entries",
+							"name": "Parts of a Feat",
+							"page": 21,
+							"entries": [
+								"The description of a feat contains the following parts, which are presented after the feat's name:",
+								{
+									"type": "list",
+									"style": "list-hang-notitle",
+									"page": 21,
+									"items": [
+										{
+											"type": "item",
+											"name": "Category",
+											"entries": [
+												"A feat is a member of a category, which is noted in the feat. If you are instructed to choose a feat from a specific category, such as the Background category, that category must appear under the feat's name."
+											]
+										},
+										{
+											"type": "item",
+											"name": "Prerequisite",
+											"entries": [
+												"You must meet any prerequisite specified in a feat to take that feat unless a special feature allows you to take the feat without the prerequisite. If a prerequisite is a level, your character level must meet or exceed that level. If a prerequisite is a class, you must have at least one level in that class to qualify for the feat."
+											]
+										},
+										{
+											"type": "item",
+											"name": "Benefit",
+											"entries": [
+												"The benefit of the feat is then detailed. If you have a feat, you gain its benefit."
+											]
+										},
+										{
+											"type": "item",
+											"name": "Repeatable",
+											"entries": [
+												"A feat can be taken only once unless it states otherwise."
+											]
+										}
+									]
+								}
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Feat Descriptions",
+							"page": 21,
+							"entries": [
+								"Here are descriptions of some feats that are available to characters using this playtest article. Playtest characters can also select feats from previous installments of the 2022 {@i Unearthed Arcana} series.",
+								"If a feat appears in this article and also in one of those earlier articles, use the version of the feat in this article.",
+								{
+									"type": "statblock",
+									"tag": "feat",
+									"source": "XUA2023PlayersHandbookP8",
+									"name": "Ability Score Improvement",
+									"page": 21
+								}
+							]
+						}
+					]
+				},
+				{
+					"type": "section",
+					"name": "Weapons",
+					"page": 21,
+					"entries": [
+						"This section contains playtest versions of weapons in the 2014 {@book Player's Handbook|PHB}. Here you'll find weapon tables, revised weapon properties, and a new type of property: Mastery properties.",
+						{
+							"type": "entries",
+							"name": "Weapon Tables",
+							"page": 21,
+							"entries": [
+								{
+									"type": "statblock",
+									"tag": "table",
+									"source": "XUA2023PlayersHandbookP8",
+									"name": "Simple Weapons: Melee",
+									"page": 21
+								},
+								{
+									"type": "statblock",
+									"tag": "table",
+									"source": "XUA2023PlayersHandbookP8",
+									"name": "Simple Weapons: Ranged",
+									"page": 21
+								},
+								{
+									"type": "statblock",
+									"tag": "table",
+									"source": "XUA2023PlayersHandbookP8",
+									"name": "Martial Weapons: Melee",
+									"page": 22
+								},
+								{
+									"type": "statblock",
+									"tag": "table",
+									"source": "XUA2023PlayersHandbookP8",
+									"name": "Martial Weapons: Ranged",
+									"page": 22
+								}
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Weapon Properties",
+							"page": 22,
+							"entries": [
+								"Here are properties whose definitions have changed for this playtest.",
+								{
+									"type": "entries",
+									"name": "Heavy",
+									"page": 22,
+									"entries": [
+										"A Heavy weapon is unwieldy compared to other weapons. You have Disadvantage on your attack rolls with a Heavy weapon if it's a melee weapon and your Strength score isn't at least 13 and if it's a ranged weapon and your Dexterity score isn't at least 13."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Light",
+									"page": 22,
+									"entries": [
+										"When you take the {@action Attack|XUA2023PlayersHandbookP8} action on your turn and attack with a Light weapon, you can make one extra attack as a Bonus Action later on the same turn. That extra attack must be made with a different Light weapon, and you don't add your ability modifier to the extra attack's damage, unless that modifier is negative.",
+										"For example, if you take the {@action Attack|XUA2023PlayersHandbookP8} action on your turn and have a Shortsword in one hand and a Dagger in the other\u2014each of which has the Light property\u2014you can make one attack with each weapon, using your action and a Bonus Action, but you don't add your Strength or Dexterity modifier to the damage roll of the Bonus Action, unless that modifier is negative."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Thrown",
+									"page": 22,
+									"entries": [
+										"If a weapon has the Thrown property, you can throw the weapon to make a ranged attack, and you can draw that weapon as part of the attack.",
+										"If the weapon is a melee weapon, you use the same ability modifier for that attack roll and damage roll that you would use for a melee attack with the weapon. For example, if you throw a Handaxe, you use your Strength, but if you throw a Dagger, you can use either your Strength or your Dexterity, since the Dagger has the Finesse property."
+									]
+								}
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Mastery Properties",
+							"page": 23,
+							"entries": [
+								"Each weapon now has a Mastery property, as shown in the weapon tables above. That property is usable only by a character who has a feature, such as Weapon Mastery, that unlocks the property for the character.",
+								"Here are descriptions of each Mastery property. The properties are provided in alphabetical order.",
+								"If a game feature lets you replace a weapon's Mastery property with another one, that weapon must meet any prerequisite specified for the new property.",
+								{
+									"type": "statblock",
+									"tag": "itemMastery",
+									"source": "XUA2023PlayersHandbookP8",
+									"name": "Cleave",
+									"page": 23
+								},
+								{
+									"type": "statblock",
+									"tag": "itemMastery",
+									"source": "XUA2023PlayersHandbookP8",
+									"name": "Graze",
+									"page": 23
+								},
+								{
+									"type": "statblock",
+									"tag": "itemMastery",
+									"source": "XUA2023PlayersHandbookP8",
+									"name": "Nick",
+									"page": 23
+								},
+								{
+									"type": "statblock",
+									"tag": "itemMastery",
+									"source": "XUA2023PlayersHandbookP8",
+									"name": "Push",
+									"page": 23
+								},
+								{
+									"type": "statblock",
+									"tag": "itemMastery",
+									"source": "XUA2023PlayersHandbookP8",
+									"name": "Sap",
+									"page": 23
+								},
+								{
+									"type": "statblock",
+									"tag": "itemMastery",
+									"source": "XUA2023PlayersHandbookP8",
+									"name": "Slow",
+									"page": 23
+								},
+								{
+									"type": "statblock",
+									"tag": "itemMastery",
+									"source": "XUA2023PlayersHandbookP8",
+									"name": "Topple",
+									"page": 23
+								},
+								{
+									"type": "statblock",
+									"tag": "itemMastery",
+									"source": "XUA2023PlayersHandbookP8",
+									"name": "Vex",
+									"page": 23
+								}
+							]
+						}
+					]
+				},
+				{
+					"type": "section",
+					"name": "Adventuring Gear",
+					"page": 24,
+					"entries": [
+						"Here are descriptions of miscellaneous items whose rules have changed for this playtest.",
+						{
+							"type": "statblock",
+							"tag": "item",
+							"source": "XUA2023PlayersHandbookP8",
+							"name": "Net",
+							"page": 24
+						},
+						{
+							"type": "statblock",
+							"tag": "item",
+							"source": "XUA2023PlayersHandbookP8",
+							"name": "Priest's Pack",
+							"page": 24
+						}
+					]
+				},
+				{
+					"type": "section",
+					"name": "Rules Glossary",
+					"page": 24,
+					"entries": [
+						"This glossary includes game terms that have new meaning in this playtest document, as well as terms, such as {@variantrule creature type|XUA2023PlayersHandbookP8}, that aren't defined in the 2014 {@book Player's Handbook|PHB}. The terms are organized alphabetically.",
+						"If a term doesn't appear here, use its definition in the 2014 {@book Player's Handbook|PHB}, and when playtesting this document, don't use the rules glossary of any other {@i Unearthed Arcana} article.",
+						{
+							"type": "statblock",
+							"tag": "variantrule",
+							"source": "XUA2023PlayersHandbookP8",
+							"name": "Armor Training",
+							"page": 24,
+							"collapsed": true
+						},
+						{
+							"type": "statblock",
+							"tag": "action",
+							"source": "XUA2023PlayersHandbookP8",
+							"name": "Attack",
+							"page": 24,
+							"collapsed": true
+						},
+						{
+							"type": "statblock",
+							"tag": "sense",
+							"source": "XUA2023PlayersHandbookP8",
+							"name": "Blindsight",
+							"page": 24,
+							"collapsed": true
+						},
+						{
+							"type": "statblock",
+							"tag": "variantrule",
+							"source": "XUA2023PlayersHandbookP8",
+							"name": "Climb Speed",
+							"page": 24,
+							"collapsed": true
+						},
+						{
+							"type": "statblock",
+							"tag": "variantrule",
+							"source": "XUA2023PlayersHandbookP8",
+							"name": "Creature Type",
+							"page": 24,
+							"collapsed": true
+						},
+						{
+							"type": "statblock",
+							"tag": "variantrule",
+							"source": "XUA2023PlayersHandbookP8",
+							"name": "D20 Tests",
+							"page": 25,
+							"collapsed": true
+						},
+						{
+							"type": "statblock",
+							"tag": "condition",
+							"source": "XUA2023PlayersHandbookP8",
+							"name": "Dazed",
+							"page": 25,
+							"collapsed": true
+						},
+						{
+							"type": "statblock",
+							"tag": "variantrule",
+							"source": "XUA2023PlayersHandbookP8",
+							"name": "Difficult Terrain",
+							"page": 25,
+							"collapsed": true
+						},
+						{
+							"type": "statblock",
+							"tag": "variantrule",
+							"source": "XUA2023PlayersHandbookP8",
+							"name": "Expertise",
+							"page": 25,
+							"collapsed": true
+						},
+						{
+							"type": "statblock",
+							"tag": "variantrule",
+							"source": "XUA2023PlayersHandbookP8",
+							"name": "Fly Speed",
+							"page": 25,
+							"collapsed": true
+						},
+						{
+							"type": "statblock",
+							"tag": "condition",
+							"source": "XUA2023PlayersHandbookP8",
+							"name": "Grappled",
+							"page": 25,
+							"collapsed": true
+						},
+						{
+							"type": "statblock",
+							"tag": "action",
+							"source": "XUA2023PlayersHandbookP8",
+							"name": "Help",
+							"page": 25,
+							"collapsed": true
+						},
+						{
+							"type": "statblock",
+							"tag": "variantrule",
+							"source": "XUA2023PlayersHandbookP8",
+							"name": "Heroic Advantage",
+							"page": 26,
+							"collapsed": true
+						},
+						{
+							"type": "statblock",
+							"tag": "action",
+							"source": "XUA2023PlayersHandbookP8",
+							"name": "Hide",
+							"page": 26,
+							"collapsed": true
+						},
+						{
+							"type": "statblock",
+							"tag": "condition",
+							"source": "XUA2023PlayersHandbookP8",
+							"name": "Incapacitated",
+							"page": 26,
+							"collapsed": true
+						},
+						{
+							"type": "statblock",
+							"tag": "action",
+							"source": "XUA2023PlayersHandbookP8",
+							"name": "Influence",
+							"page": 26,
+							"collapsed": true
+						},
+						{
+							"type": "statblock",
+							"tag": "condition",
+							"source": "XUA2023PlayersHandbookP8",
+							"name": "Invisible",
+							"page": 27,
+							"collapsed": true
+						},
+						{
+							"type": "statblock",
+							"tag": "variantrule",
+							"source": "XUA2023PlayersHandbookP8",
+							"name": "Knocking Out a Creature",
+							"page": 27,
+							"collapsed": true
+						},
+						{
+							"type": "statblock",
+							"tag": "variantrule",
+							"source": "XUA2023PlayersHandbookP8",
+							"name": "Long Rest",
+							"page": 27,
+							"collapsed": true
+						},
+						{
+							"type": "statblock",
+							"tag": "action",
+							"source": "XUA2023PlayersHandbookP8",
+							"name": "Magic",
+							"page": 28,
+							"collapsed": true
+						},
+						{
+							"type": "statblock",
+							"tag": "variantrule",
+							"source": "XUA2023PlayersHandbookP8",
+							"name": "Move",
+							"page": 28,
+							"collapsed": true
+						},
+						{
+							"type": "statblock",
+							"tag": "variantrule",
+							"source": "XUA2023PlayersHandbookP8",
+							"name": "Ritual Casting",
+							"page": 28,
+							"collapsed": true
+						},
+						{
+							"type": "statblock",
+							"tag": "action",
+							"source": "XUA2023PlayersHandbookP8",
+							"name": "Search",
+							"page": 28,
+							"collapsed": true
+						},
+						{
+							"type": "statblock",
+							"tag": "variantrule",
+							"source": "XUA2023PlayersHandbookP8",
+							"name": "Short Rest",
+							"page": 29,
+							"collapsed": true
+						},
+						{
+							"type": "statblock",
+							"tag": "action",
+							"source": "XUA2023PlayersHandbookP8",
+							"name": "Study",
+							"page": 29,
+							"collapsed": true
+						},
+						{
+							"type": "statblock",
+							"tag": "variantrule",
+							"source": "XUA2023PlayersHandbookP8",
+							"name": "Swim Speed",
+							"page": 29,
+							"collapsed": true
+						},
+						{
+							"type": "statblock",
+							"tag": "variantrule",
+							"source": "XUA2023PlayersHandbookP8",
+							"name": "Telepathy",
+							"page": 29,
+							"collapsed": true
+						},
+						{
+							"type": "statblock",
+							"tag": "variantrule",
+							"source": "XUA2023PlayersHandbookP8",
+							"name": "Teleportation",
+							"page": 29,
+							"collapsed": true
+						},
+						{
+							"type": "statblock",
+							"tag": "variantrule",
+							"source": "XUA2023PlayersHandbookP8",
+							"name": "Tool Proficiency",
+							"page": 30,
+							"collapsed": true
+						},
+						{
+							"type": "statblock",
+							"tag": "sense",
+							"source": "XUA2023PlayersHandbookP8",
+							"name": "Tremorsense",
+							"page": 30,
+							"collapsed": true
+						},
+						{
+							"type": "statblock",
+							"tag": "sense",
+							"source": "XUA2023PlayersHandbookP8",
+							"name": "Truesight",
+							"page": 30,
+							"collapsed": true
+						},
+						{
+							"type": "statblock",
+							"tag": "variantrule",
+							"source": "XUA2023PlayersHandbookP8",
+							"name": "Unarmed Strike",
+							"page": 30,
+							"collapsed": true
+						},
+						{
+							"type": "statblock",
+							"tag": "condition",
+							"source": "XUA2023PlayersHandbookP8",
+							"name": "Unconscious",
+							"page": 30,
+							"collapsed": true
+						}
+					]
+				}
+			]
+		}
+	]
+}
