@@ -22,9 +22,6 @@
 			"name": "Barbarian",
 			"source": "XUA2023PlayersHandbookP8",
 			"page": 1,
-			"classGroup": [
-				"warrior"
-			],
 			"hd": {
 				"number": 1,
 				"faces": 12
@@ -307,9 +304,1036 @@
 					]
 				}
 			]
+		},
+		{
+			"name": "Druid",
+			"source": "XUA2023PlayersHandbookP8",
+			"page": 17,
+			"hd": {
+				"number": 1,
+				"faces": 8
+			},
+			"proficiency": [
+				"int",
+				"wis"
+			],
+			"spellcastingAbility": "wis",
+			"casterProgression": "full",
+			"preparedSpells": "<$level$> + <$wis_mod$>",
+			"preparedSpellsProgression": [
+				4,
+				5,
+				6,
+				7,
+				9,
+				10,
+				11,
+				12,
+				14,
+				15,
+				16,
+				16,
+				17,
+				17,
+				18,
+				18,
+				19,
+				20,
+				21,
+				22
+			],
+			"cantripProgression": [
+				2,
+				2,
+				2,
+				3,
+				3,
+				3,
+				3,
+				3,
+				3,
+				4,
+				4,
+				4,
+				4,
+				4,
+				4,
+				4,
+				4,
+				4,
+				4,
+				4
+			],
+			"classSpells": [
+				{
+					"className": "Druid",
+					"classSource": "PHB"
+				}
+			],
+			"startingProficiencies": {
+				"armor": [
+					"light",
+					"{@item shield|phb|shields}"
+				],
+				"weapons": [
+					"simple"
+				],
+				"tools": [
+					"{@item Herbalism kit|PHB}"
+				],
+				"toolProficiencies": [
+					{
+						"herbalism kit": true
+					}
+				],
+				"skills": [
+					{
+						"choose": {
+							"from": [
+								"arcana",
+								"animal handling",
+								"insight",
+								"medicine",
+								"nature",
+								"perception",
+								"religion",
+								"survival"
+							],
+							"count": 2
+						}
+					}
+				]
+			},
+			"startingEquipment": {
+				"additionalFromBackground": false,
+				"default": [
+					"{@item Druidic Focus|phb|Druidic Focus (Quarterstaff)}",
+					"{@item Leather Armor|phb}",
+					"{@item Shield|phb}",
+					"{@item Explorer's Pack|phb}",
+					"{@item Sickle|phb}",
+					"{@item Herbalism kit|PHB}",
+					"9 GP"
+				],
+				"goldAlternative": "50 GP"
+			},
+			"multiclassing": {
+				"requirements": {
+					"wis": 13
+				},
+				"proficienciesGained": {
+					"armor": [
+						"light",
+						"{@item shield|phb|shields}"
+					]
+				}
+			},
+			"classTableGroups": [
+				{
+					"colLabels": [
+						"Wild Shape",
+						"{@filter Cantrips|spells|level=0|class=Druid}",
+						"Prepared Spells"
+					],
+					"rows": [
+						[
+							0,
+							2,
+							4
+						],
+						[
+							2,
+							2,
+							5
+						],
+						[
+							2,
+							2,
+							6
+						],
+						[
+							2,
+							3,
+							7
+						],
+						[
+							2,
+							3,
+							9
+						],
+						[
+							3,
+							3,
+							10
+						],
+						[
+							3,
+							3,
+							11
+						],
+						[
+							3,
+							3,
+							12
+						],
+						[
+							3,
+							3,
+							14
+						],
+						[
+							3,
+							4,
+							15
+						],
+						[
+							3,
+							4,
+							16
+						],
+						[
+							3,
+							4,
+							16
+						],
+						[
+							3,
+							4,
+							17
+						],
+						[
+							3,
+							4,
+							17
+						],
+						[
+							3,
+							4,
+							18
+						],
+						[
+							3,
+							4,
+							18
+						],
+						[
+							4,
+							4,
+							19
+						],
+						[
+							4,
+							4,
+							20
+						],
+						[
+							4,
+							4,
+							21
+						],
+						[
+							4,
+							4,
+							22
+						]
+					]
+				},
+				{
+					"title": "Spell Slots per Spell Level",
+					"colLabels": [
+						"{@filter 1st|spells|level=1|class=Druid}",
+						"{@filter 2nd|spells|level=2|class=Druid}",
+						"{@filter 3rd|spells|level=3|class=Druid}",
+						"{@filter 4th|spells|level=4|class=Druid}",
+						"{@filter 5th|spells|level=5|class=Druid}",
+						"{@filter 6th|spells|level=6|class=Druid}",
+						"{@filter 7th|spells|level=7|class=Druid}",
+						"{@filter 8th|spells|level=8|class=Druid}",
+						"{@filter 9th|spells|level=9|class=Druid}"
+					],
+					"rowsSpellProgression": [
+						[
+							2,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0
+						],
+						[
+							3,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0
+						],
+						[
+							4,
+							2,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0
+						],
+						[
+							4,
+							3,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0
+						],
+						[
+							4,
+							3,
+							2,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0
+						],
+						[
+							4,
+							3,
+							3,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0
+						],
+						[
+							4,
+							3,
+							3,
+							1,
+							0,
+							0,
+							0,
+							0,
+							0
+						],
+						[
+							4,
+							3,
+							3,
+							2,
+							0,
+							0,
+							0,
+							0,
+							0
+						],
+						[
+							4,
+							3,
+							3,
+							3,
+							1,
+							0,
+							0,
+							0,
+							0
+						],
+						[
+							4,
+							3,
+							3,
+							3,
+							2,
+							0,
+							0,
+							0,
+							0
+						],
+						[
+							4,
+							3,
+							3,
+							3,
+							2,
+							1,
+							0,
+							0,
+							0
+						],
+						[
+							4,
+							3,
+							3,
+							3,
+							2,
+							1,
+							0,
+							0,
+							0
+						],
+						[
+							4,
+							3,
+							3,
+							3,
+							2,
+							1,
+							1,
+							0,
+							0
+						],
+						[
+							4,
+							3,
+							3,
+							3,
+							2,
+							1,
+							1,
+							0,
+							0
+						],
+						[
+							4,
+							3,
+							3,
+							3,
+							2,
+							1,
+							1,
+							1,
+							0
+						],
+						[
+							4,
+							3,
+							3,
+							3,
+							2,
+							1,
+							1,
+							1,
+							0
+						],
+						[
+							4,
+							3,
+							3,
+							3,
+							2,
+							1,
+							1,
+							1,
+							1
+						],
+						[
+							4,
+							3,
+							3,
+							3,
+							3,
+							1,
+							1,
+							1,
+							1
+						],
+						[
+							4,
+							3,
+							3,
+							3,
+							3,
+							2,
+							1,
+							1,
+							1
+						],
+						[
+							4,
+							3,
+							3,
+							3,
+							3,
+							2,
+							2,
+							1,
+							1
+						]
+					]
+				}
+			],
+			"classFeatures": [
+				"Druidic|Druid|XUA2023PlayersHandbookP8|1",
+				"Primal Order|Druid|XUA2023PlayersHandbookP8|1",
+				"Spellcasting|Druid|XUA2023PlayersHandbookP8|1",
+				"Wild Companion|Druid|XUA2023PlayersHandbookP8|2",
+				"Wild Shape|Druid|XUA2023PlayersHandbookP8|2",
+				{
+					"classFeature": "Druid Subclass|Druid|XUA2023PlayersHandbookP8|3",
+					"gainSubclassFeature": true
+				},
+				"Ability Score Improvement|Druid|XUA2023PlayersHandbookP8|4",
+				"Wild Resurgence|Druid|XUA2023PlayersHandbookP8|5",
+				{
+					"classFeature": "Subclass Feature|Druid|XUA2023PlayersHandbookP8|6",
+					"gainSubclassFeature": true
+				},
+				"Elemental Fury|Druid|XUA2023PlayersHandbookP8|7",
+				"Ability Score Improvement|Druid|XUA2023PlayersHandbookP8|8",
+				"Commune with Nature|Druid|XUA2023PlayersHandbookP8|9",
+				{
+					"classFeature": "Subclass Feature|Druid|XUA2023PlayersHandbookP8|10",
+					"gainSubclassFeature": true
+				},
+				"Ability Score Improvement|Druid|XUA2023PlayersHandbookP8|12",
+				{
+					"classFeature": "Subclass Feature|Druid|XUA2023PlayersHandbookP8|14",
+					"gainSubclassFeature": true
+				},
+				"Improved Elemental Fury|Druid|XUA2023PlayersHandbookP8|15",
+				"Ability Score Improvement|Druid|XUA2023PlayersHandbookP8|16",
+				"Beast Spells|Druid|XUA2023PlayersHandbookP8|18",
+				"Ability Score Improvement|Druid|XUA2023PlayersHandbookP8|19",
+				"Archdruid|Druid|XUA2023PlayersHandbookP8|20"
+			],
+			"subclassTitle": "Druid Subclass",
+			"fluff": [
+				{
+					"type": "section",
+					"source": "XUA2023PlayersHandbookP8",
+					"entries": [
+						"Druids belong to ancient orders that call on the forces of nature. Harnessing the magic of animals, plants, weather, and the four elements, Druids can heal, transform themselves, and wield elemental destruction.",
+						"Revering nature above all, individual Druids gain their magic from a nature deity, from nature itself, or both, and they typically unite with other Druids in performing rites to mark the passage of the seasons and other natural cycles. The ancient druidic traditions are sometimes called the Old Faith, in contrast to the worship of gods in temples and shrines.",
+						"Druids master Primal magic, which is oriented toward nature and animals\u2014the power of tooth and claw, of sun and moon, of fire and storm. Druids also gain the ability to take on animal forms, and some Druids focus on this practice, even to the point where they feel more natural in an animal form.",
+						"For Druids, nature exists in a precarious balance. The four elements that make up a world\u2014air, earth, fire, and water\u2014must remain in equilibrium. If one element were to gain power over the others, the world could be destroyed, drawn into one of the elemental planes and broken apart into its component elements. Thus, Druids oppose cults of Elemental Evil and others who promote one element to the exclusion of others.",
+						"Druids are also concerned with the delicate ecological balance that sustains plant and animal life and with the need for people to live in harmony with nature, not in opposition to it. Druids are often found guarding sacred sites or watching over regions of unspoiled nature. But when a significant danger arises, threatening nature's balance or the lands they protect, Druids take a more active role as adventurers who combat the threat."
+					]
+				}
+			]
+		},
+		{
+			"name": "Monk",
+			"source": "XUA2023PlayersHandbookP8",
+			"page": 25,
+			"hd": {
+				"number": 1,
+				"faces": 8
+			},
+			"proficiency": [
+				"str",
+				"dex"
+			],
+			"startingProficiencies": {
+				"weapons": [
+					"simple"
+				],
+				"tools": [
+					"Choose one type of {@item Artisan's Tools|PHB} or {@item Musical Instrument|PHB}"
+				],
+				"toolProficiencies": [
+					{
+						"anyArtisansTool": 1
+					},
+					{
+						"anyMusicalInstrument": 1
+					}
+				],
+				"skills": [
+					{
+						"choose": {
+							"from": [
+								"acrobatics",
+								"athletics",
+								"history",
+								"insight",
+								"religion",
+								"stealth"
+							],
+							"count": 2
+						}
+					}
+				]
+			},
+			"startingEquipment": {
+				"additionalFromBackground": false,
+				"default": [
+					"{@item Artisan's Tools|phb}",
+					"{@item Musical Instrument|phb}",
+					"{@item Dagger|phb} (5)",
+					"{@item Spear|phb}",
+					"{@item Explorer's Pack|phb}",
+					"9 GP"
+				],
+				"goldAlternative": "65 GP"
+			},
+			"multiclassing": {
+				"requirements": {
+					"dex": 13,
+					"wis": 13
+				},
+				"proficienciesGained": {
+					"weapons": [
+						"simple",
+						"{@item shortsword|phb|shortswords}"
+					]
+				}
+			},
+			"classTableGroups": [
+				{
+					"colLabels": [
+						"Martial Arts",
+						"Discipline Points",
+						"Unarmored Movement"
+					],
+					"rows": [
+						[
+							{
+								"type": "dice",
+								"toRoll": [
+									{
+										"number": 1,
+										"faces": 6
+									}
+								],
+								"rollable": true
+							},
+							0,
+							{
+								"type": "bonusSpeed",
+								"value": 0
+							}
+						],
+						[
+							{
+								"type": "dice",
+								"toRoll": [
+									{
+										"number": 1,
+										"faces": 6
+									}
+								],
+								"rollable": true
+							},
+							2,
+							{
+								"type": "bonusSpeed",
+								"value": 10
+							}
+						],
+						[
+							{
+								"type": "dice",
+								"toRoll": [
+									{
+										"number": 1,
+										"faces": 6
+									}
+								],
+								"rollable": true
+							},
+							3,
+							{
+								"type": "bonusSpeed",
+								"value": 10
+							}
+						],
+						[
+							{
+								"type": "dice",
+								"toRoll": [
+									{
+										"number": 1,
+										"faces": 6
+									}
+								],
+								"rollable": true
+							},
+							4,
+							{
+								"type": "bonusSpeed",
+								"value": 10
+							}
+						],
+						[
+							{
+								"type": "dice",
+								"toRoll": [
+									{
+										"number": 1,
+										"faces": 8
+									}
+								],
+								"rollable": true
+							},
+							5,
+							{
+								"type": "bonusSpeed",
+								"value": 10
+							}
+						],
+						[
+							{
+								"type": "dice",
+								"toRoll": [
+									{
+										"number": 1,
+										"faces": 8
+									}
+								],
+								"rollable": true
+							},
+							6,
+							{
+								"type": "bonusSpeed",
+								"value": 15
+							}
+						],
+						[
+							{
+								"type": "dice",
+								"toRoll": [
+									{
+										"number": 1,
+										"faces": 8
+									}
+								],
+								"rollable": true
+							},
+							7,
+							{
+								"type": "bonusSpeed",
+								"value": 15
+							}
+						],
+						[
+							{
+								"type": "dice",
+								"toRoll": [
+									{
+										"number": 1,
+										"faces": 8
+									}
+								],
+								"rollable": true
+							},
+							8,
+							{
+								"type": "bonusSpeed",
+								"value": 15
+							}
+						],
+						[
+							{
+								"type": "dice",
+								"toRoll": [
+									{
+										"number": 1,
+										"faces": 8
+									}
+								],
+								"rollable": true
+							},
+							9,
+							{
+								"type": "bonusSpeed",
+								"value": 15
+							}
+						],
+						[
+							{
+								"type": "dice",
+								"toRoll": [
+									{
+										"number": 1,
+										"faces": 8
+									}
+								],
+								"rollable": true
+							},
+							10,
+							{
+								"type": "bonusSpeed",
+								"value": 20
+							}
+						],
+						[
+							{
+								"type": "dice",
+								"toRoll": [
+									{
+										"number": 1,
+										"faces": 10
+									}
+								],
+								"rollable": true
+							},
+							11,
+							{
+								"type": "bonusSpeed",
+								"value": 20
+							}
+						],
+						[
+							{
+								"type": "dice",
+								"toRoll": [
+									{
+										"number": 1,
+										"faces": 10
+									}
+								],
+								"rollable": true
+							},
+							12,
+							{
+								"type": "bonusSpeed",
+								"value": 20
+							}
+						],
+						[
+							{
+								"type": "dice",
+								"toRoll": [
+									{
+										"number": 1,
+										"faces": 10
+									}
+								],
+								"rollable": true
+							},
+							13,
+							{
+								"type": "bonusSpeed",
+								"value": 20
+							}
+						],
+						[
+							{
+								"type": "dice",
+								"toRoll": [
+									{
+										"number": 1,
+										"faces": 10
+									}
+								],
+								"rollable": true
+							},
+							14,
+							{
+								"type": "bonusSpeed",
+								"value": 25
+							}
+						],
+						[
+							{
+								"type": "dice",
+								"toRoll": [
+									{
+										"number": 1,
+										"faces": 10
+									}
+								],
+								"rollable": true
+							},
+							15,
+							{
+								"type": "bonusSpeed",
+								"value": 25
+							}
+						],
+						[
+							{
+								"type": "dice",
+								"toRoll": [
+									{
+										"number": 1,
+										"faces": 10
+									}
+								],
+								"rollable": true
+							},
+							16,
+							{
+								"type": "bonusSpeed",
+								"value": 25
+							}
+						],
+						[
+							{
+								"type": "dice",
+								"toRoll": [
+									{
+										"number": 1,
+										"faces": 12
+									}
+								],
+								"rollable": true
+							},
+							17,
+							{
+								"type": "bonusSpeed",
+								"value": 25
+							}
+						],
+						[
+							{
+								"type": "dice",
+								"toRoll": [
+									{
+										"number": 1,
+										"faces": 12
+									}
+								],
+								"rollable": true
+							},
+							18,
+							{
+								"type": "bonusSpeed",
+								"value": 30
+							}
+						],
+						[
+							{
+								"type": "dice",
+								"toRoll": [
+									{
+										"number": 1,
+										"faces": 12
+									}
+								],
+								"rollable": true
+							},
+							19,
+							{
+								"type": "bonusSpeed",
+								"value": 30
+							}
+						],
+						[
+							{
+								"type": "dice",
+								"toRoll": [
+									{
+										"number": 1,
+										"faces": 12
+									}
+								],
+								"rollable": true
+							},
+							20,
+							{
+								"type": "bonusSpeed",
+								"value": 30
+							}
+						]
+					]
+				}
+			],
+			"classFeatures": [
+				"Martial Arts|Monk|XUA2023PlayersHandbookP8|1",
+				"Unarmored Defense|Monk|XUA2023PlayersHandbookP8|1",
+				"Monk's Discipline|Monk|XUA2023PlayersHandbookP8|2",
+				"Uncanny Metabolism|Monk|XUA2023PlayersHandbookP8|2",
+				"Unarmored Movement|Monk|XUA2023PlayersHandbookP8|2",
+				"Deflect Attacks|Monk|XUA2023PlayersHandbookP8|3",
+				{
+					"classFeature": "Monk Subclass|Monk|XUA2023PlayersHandbookP8|3",
+					"gainSubclassFeature": true
+				},
+				"Ability Score Improvement|Monk|XUA2023PlayersHandbookP8|4",
+				"Slow Fall|Monk|XUA2023PlayersHandbookP8|4",
+				"Extra Attack|Monk|XUA2023PlayersHandbookP8|5",
+				"Stunning Strike|Monk|XUA2023PlayersHandbookP8|5",
+				"Empowered Strikes|Monk|XUA2023PlayersHandbookP8|6",
+				{
+					"classFeature": "Subclass Feature|Monk|XUA2023PlayersHandbookP8|6",
+					"gainSubclassFeature": true
+				},
+				"Evasion|Monk|XUA2023PlayersHandbookP8|7",
+				"Ability Score Improvement|Monk|XUA2023PlayersHandbookP8|8",
+				"Acrobatic Movement|Monk|XUA2023PlayersHandbookP8|9",
+				"Heightened Discipline|Monk|XUA2023PlayersHandbookP8|10",
+				"Self-Restoration|Monk|XUA2023PlayersHandbookP8|10",
+				{
+					"classFeature": "Subclass Feature|Monk|XUA2023PlayersHandbookP8|11",
+					"gainSubclassFeature": true
+				},
+				"Ability Score Improvement|Monk|XUA2023PlayersHandbookP8|12",
+				"Deflect Energy|Monk|XUA2023PlayersHandbookP8|13",
+				"Disciplined Survivor|Monk|XUA2023PlayersHandbookP8|14",
+				"Perfect Discipline|Monk|XUA2023PlayersHandbookP8|15",
+				"Ability Score Improvement|Monk|XUA2023PlayersHandbookP8|16",
+				{
+					"classFeature": "Subclass Feature|Monk|XUA2023PlayersHandbookP8|17",
+					"gainSubclassFeature": true
+				},
+				"Superior Defense|Monk|XUA2023PlayersHandbookP8|18",
+				"Ability Score Improvement|Monk|XUA2023PlayersHandbookP8|19",
+				"Body and Mind|Monk|XUA2023PlayersHandbookP8|20"
+			],
+			"subclassTitle": "Monk Subclass",
+			"fluff": [
+				{
+					"type": "section",
+					"source": "XUA2023PlayersHandbookP8",
+					"entries": [
+						"Monks use rigorous combat training and mental discipline to align themselves with the multiverse and tap into internal reservoirs of power. Different Monks conceptualize this power in various ways: as breath, energy, life force, essence, or self, for example. Whether channeled as a striking display of martial prowess or as a subtler focus of defense and speed, this power infuses all that a Monk does.",
+						"Monks harness and focus their internal power to create extraordinary, even supernatural, effects. They channel uncanny speed and strength into their attacks, with or without the use of weapons. In their hands and guided by their power, even the most basic weapons can become sophisticated implements of combat mastery. And their mightiest attacks can stun their opponents.",
+						"Many Monks find that a structured life of ascetic withdrawal from the mundane world helps them cultivate the physical and mental discipline they need to harness their power. Other Monks believe that immersing themselves in the vibrant confusion of life helps to fuel their determination and discipline.",
+						"Monks generally view their adventures as personal tests of their physical and mental development. They are driven by a desire to accomplish a greater mission than merely slaying monsters and plundering treasure; they strive to hone themselves into living weapons."
+					]
+				}
+			]
 		}
 	],
 	"subclass": [
+		{
+			"name": "Circle of the Moon",
+			"shortName": "Moon",
+			"source": "XUA2023PlayersHandbookP8",
+			"className": "Druid",
+			"classSource": "XUA2023PlayersHandbookP8",
+			"page": 11,
+			"additionalSpells": [
+				{
+					"prepared": {
+						"3": [
+							"cure wounds",
+							"moonbeam",
+							"starry wisp|xua2023playershandbookp8"
+						],
+						"5": [
+							"vampiric touch"
+						],
+						"7": [
+							"fount of moonlight"
+						],
+						"9": [
+							"dawn"
+						]
+					}
+				}
+			],
+			"subclassFeatures": [
+				"Circle of the Moon|Druid|XUA2023PlayersHandbookP8|Moon|XUA2023PlayersHandbookP8|3",
+				"Improved Circle Forms|Druid|XUA2023PlayersHandbookP8|Moon|XUA2023PlayersHandbookP8|6",
+				"Moonlight Step|Druid|XUA2023PlayersHandbookP8|Moon|XUA2023PlayersHandbookP8|10",
+				"Lunar Form|Druid|XUA2023PlayersHandbookP8|Moon|XUA2023PlayersHandbookP8|14"
+			]
+		},
 		{
 			"name": "Path of the World Tree",
 			"shortName": "World Tree",
@@ -322,6 +1346,20 @@
 				"Branches of the Tree|Barbarian|XUA2023PlayersHandbookP8|World Tree|XUA2023PlayersHandbookP8|6",
 				"Battering Roots|Barbarian|XUA2023PlayersHandbookP8|World Tree|XUA2023PlayersHandbookP8|10",
 				"Travel Along the Tree|Barbarian|XUA2023PlayersHandbookP8|World Tree|XUA2023PlayersHandbookP8|14"
+			]
+		},
+		{
+			"name": "Warrior of the Hand",
+			"shortName": "Hand",
+			"source": "XUA2023PlayersHandbookP8",
+			"className": "Monk",
+			"classSource": "XUA2023PlayersHandbookP8",
+			"page": 17,
+			"subclassFeatures": [
+				"Warrior of the Hand|Monk|XUA2023PlayersHandbookP8|Hand|XUA2023PlayersHandbookP8|3",
+				"Wholeness of Body|Monk|XUA2023PlayersHandbookP8|Hand|XUA2023PlayersHandbookP8|6",
+				"Fleet Step|Monk|XUA2023PlayersHandbookP8|Hand|XUA2023PlayersHandbookP8|11",
+				"Quivering Palm|Monk|XUA2023PlayersHandbookP8|Hand|XUA2023PlayersHandbookP8|17"
 			]
 		}
 	],
@@ -380,7 +1418,7 @@
 					]
 				},
 				"Each time the Rage is extended, it lasts until the end of your next turn. You can maintain a Rage for up to 10 minutes.",
-				"You can enter your Rage the number of times shown for your Barbarian level in the Rages column of the Barbarian table. You regain one expended use when you finish a Short Rest, and you regain all expended uses when you finish a {@variantrule Long Rest|XUA2023PlayersHandbookP8}."
+				"You can enter your Rage the number of times shown for your Barbarian level in the Rages column of the Barbarian table. You regain one expended use when you finish a {@variantrule Short Rest|XUA2023PlayersHandbookP8}, and you regain all expended uses when you finish a {@variantrule Long Rest|XUA2023PlayersHandbookP8}."
 			]
 		},
 		{
@@ -541,16 +1579,21 @@
 				"If you use Reckless Attack, you can forgo Advantage on the next attack roll you make on your turn with a Strength-based attack. If that attack hits, the target takes an extra {@damage 1d10} damage of the same type dealt by the weapon or {@variantrule Unarmed Strike|XUA2023PlayersHandbookP8}, and you can cause one Brutal Strike effect of your choice. You have the following effect options.",
 				{
 					"type": "entries",
-					"name": "Forceful Blow",
 					"entries": [
-						"The target is pushed 15 feet straight away from you. You can then Move up to half your Speed straight toward the target without provoking Opportunity Attacks."
-					]
-				},
-				{
-					"type": "entries",
-					"name": "Hamstring Blow",
-					"entries": [
-						"The target's Speed is reduced by 15 feet until the start of your next turn."
+						{
+							"type": "entries",
+							"name": "Forceful Blow",
+							"entries": [
+								"The target is pushed 15 feet straight away from you. You can then Move up to half your Speed straight toward the target without provoking Opportunity Attacks."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Hamstring Blow",
+							"entries": [
+								"The target's Speed is reduced by 15 feet until the start of your next turn."
+							]
+						}
 					]
 				}
 			]
@@ -600,16 +1643,21 @@
 				"You have honed new ways to attack furiously. The following effects are now among your Brutal Strike options.",
 				{
 					"type": "entries",
-					"name": "Staggering Blow",
 					"entries": [
-						"The target has Disadvantage on the next saving throw it makes, and it can't make Opportunity Attacks until the start of your next turn."
-					]
-				},
-				{
-					"type": "entries",
-					"name": "Sundering Blow",
-					"entries": [
-						"Your blow leaves an opening in the creature's defense for an ally until the start of your next turn. The next attack roll made by another creature against the target gains a bonus to that roll equal to your Rage Damage."
+						{
+							"type": "entries",
+							"name": "Staggering Blow",
+							"entries": [
+								"The target has Disadvantage on the next saving throw it makes, and it can't make Opportunity Attacks until the start of your next turn."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Sundering Blow",
+							"entries": [
+								"Your blow leaves an opening in the creature's defense for an ally until the start of your next turn. The next attack roll made by another creature against the target gains a bonus to that roll equal to your Rage Damage."
+							]
+						}
 					]
 				}
 			]
@@ -617,7 +1665,7 @@
 		{
 			"name": "Subclass Feature",
 			"source": "XUA2023PlayersHandbookP8",
-			"page": 1,
+			"page": 2,
 			"className": "Barbarian",
 			"classSource": "XUA2023PlayersHandbookP8",
 			"level": 14,
@@ -640,7 +1688,7 @@
 		{
 			"name": "Ability Score Improvement",
 			"source": "XUA2023PlayersHandbookP8",
-			"page": 5,
+			"page": 4,
 			"className": "Barbarian",
 			"classSource": "XUA2023PlayersHandbookP8",
 			"level": 16,
@@ -651,7 +1699,7 @@
 		{
 			"name": "Brutal Strike Improvement",
 			"source": "XUA2023PlayersHandbookP8",
-			"page": 5,
+			"page": 4,
 			"className": "Barbarian",
 			"classSource": "XUA2023PlayersHandbookP8",
 			"level": 17,
@@ -691,6 +1739,869 @@
 			"entries": [
 				"You embody primal power. Your Strength and Constitution scores increase by 4, and their maximum is now 26."
 			]
+		},
+		{
+			"name": "Druidic",
+			"source": "XUA2023PlayersHandbookP8",
+			"page": 8,
+			"className": "Druid",
+			"classSource": "XUA2023PlayersHandbookP8",
+			"level": 1,
+			"entries": [
+				"You know Druidic, the secret language of Druids. While learning this ancient tongue, you also unlocked the magic of speaking to animals; you always have the {@spell Speak with Animals} spell prepared.",
+				"You can use Druidic to leave hidden messages. You and others who know Druidic automatically spot such a message. Others spot the message's presence with a successful {@dc 15} Intelligence ({@skill Investigation}) check but can't decipher it without magic."
+			]
+		},
+		{
+			"name": "Primal Order",
+			"source": "XUA2023PlayersHandbookP8",
+			"page": 8,
+			"className": "Druid",
+			"classSource": "XUA2023PlayersHandbookP8",
+			"level": 1,
+			"entries": [
+				"You have dedicated yourself to one of the following sacred roles of your choice:",
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"items": [
+						{
+							"type": "item",
+							"name": "Magician",
+							"entries": [
+								"You know one extra cantrip from the Primal spell list (see your Spellcasting feature for information on preparing spells). In addition, your mystical connection to nature gives you a bonus to your Intelligence ({@skill Nature}) checks. The bonus equals your Wisdom modifier (minimum of +1)."
+							]
+						},
+						{
+							"type": "item",
+							"name": "Warden",
+							"entries": [
+								"Trained for battle, you gain Martial Weapon proficiency and {@variantrule armor training|XUA2023PlayersHandbookP8} with Medium Armor."
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Spellcasting",
+			"source": "XUA2023PlayersHandbookP8",
+			"page": 9,
+			"className": "Druid",
+			"classSource": "XUA2023PlayersHandbookP8",
+			"level": 1,
+			"entries": [
+				"You have learned to cast spells through studying the mystical forces of nature. See the Player's Handbook for the rules on spellcasting. The information below details how you use those rules as a Druid.",
+				{
+					"type": "entries",
+					"entries": [
+						{
+							"type": "entries",
+							"name": "Cantrips",
+							"entries": [
+								"You know two cantrips of your choice from the Druid spell list. Rather than choosing, you may start with the {@spell Druidcraft} and {@spell Produce Flame} cantrips.",
+								"Whenever you gain a Druid level, you can replace one of your cantrips with another cantrip of your choice from the Druid spell list.",
+								"When you reach levels 4 and 10 in this class, you learn another cantrip of your choice from the Druid spell list, as shown in the Cantrips column of the Druid table."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Spell Slots",
+							"entries": [
+								"The Druid table shows how many spell slots you have to cast your spells of level 1 and higher. To cast one of these spells, you must expend a slot of the spell's level or higher. You regain all expended spell slots when you finish a {@variantrule Long Rest|XUA2023PlayersHandbookP8}."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Prepared Spells of 1st+ Level",
+							"entries": [
+								"You prepare the list of spells of level 1 and higher that are available for you to cast with this feature. To start, choose four level 1 spells from the Druid spell list. Rather than choosing, you may start with the Animal Friendship, Cure Wounds, Faerie Fire, and Thunderwave spells.",
+								"The number of spells on your list also increases as you gain Druid levels, as shown in the Prepared Spells column of the Druid table. Whenever that number increases, choose additional spells from the Druid spell list until the number of spells on your list matches the number on the table. The chosen spells must be of a level for which you have spell slots. For example, if you're a level 3 Druid, your list of prepared spells can include six spells of levels 1 and 2 in any combination.",
+								"If another Druid feature gives spells that you always have prepared, those spells don't count against the number of spells on the list you prepare with this Spellcasting feature, but those spells otherwise follow the rules in this feature."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Changing Your Prepared Spells",
+							"entries": [
+								"Whenever you finish a {@variantrule Long Rest|XUA2023PlayersHandbookP8}, you can change your list of prepared spells, replacing one or more of the spells there with other Primal spells for which you have spell slots. Preparing a new list requires time spent in meditation: at least 1 minute per spell level for each spell you add to the list."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Spellcasting Ability",
+							"entries": [
+								"Wisdom is your Spellcasting Ability for your Druid Spells."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Spellcasting Focus",
+							"entries": [
+								"You can use a Druidic Focus as a Spellcasting Focus for the spells you prepare for this class."
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Wild Companion",
+			"source": "XUA2023PlayersHandbookP8",
+			"page": 9,
+			"className": "Druid",
+			"classSource": "XUA2023PlayersHandbookP8",
+			"level": 2,
+			"entries": [
+				"You can summon a nature spirit that assumes an animal form to aid you. As a {@action Magic|XUA2023PlayersHandbookP8} Magic action, you can expend a spell slot or a use of Wild Shape to cast the {@spell Find Familiar} spell without material components.",
+				"When you cast the spell in this way, the familiar is a Fey, and it disappears when you finish a {@variantrule Long Rest|XUA2023PlayersHandbookP8}."
+			]
+		},
+		{
+			"name": "Wild Shape",
+			"source": "XUA2023PlayersHandbookP8",
+			"page": 9,
+			"className": "Druid",
+			"classSource": "XUA2023PlayersHandbookP8",
+			"level": 2,
+			"entries": [
+				"The power of nature infuses you, allowing you to assume the form of an animal. As a Bonus Action, you transform into a Beast form that you have learned for this feature (see \"Known Forms\" below). You stay in that form for a number of hours equal to half your Druid level (round down) or until you use Wild Shape again, have the {@condition Incapacitated|XUA2023PlayersHandbookP8} condition, or die. You can also leave the form early as a Bonus Action.",
+				{
+					"type": "entries",
+					"entries": [
+						{
+							"type": "entries",
+							"name": "Known Forms",
+							"entries": [
+								"You know a number of forms for this feature equal to 2 plus half your Druid level (round up), chosen from among Beast stat blocks in the Player's Handbook that have a maximum Challenge Rating of 1/4 and that lack a {@variantrule Fly Speed|XUA2023PlayersHandbookP8}. Rather than choosing, you may start with the Riding Horse, Spider, and Wolf. Whenever you finish a {@variantrule Long Rest|XUA2023PlayersHandbookP8}, you can replace one of your known forms with another eligible form.",
+								"When you gain certain Druid levels, the maximum Challenge Rating for your forms increases, as shown in the Beast Shapes table. In addition, starting at level 8, you can adopt a form that has a {@variantrule Fly Speed|XUA2023PlayersHandbookP8}.",
+								"When choosing a new form, you may look in the {@book Monster Manual|MM} or elsewhere for eligible Beasts if the DM permits you to do so."
+							]
+						},
+						{
+							"type": "table",
+							"caption": "Beast Shapes",
+							"colLabels": [
+								"Druid Level",
+								"Max CR",
+								"Fly Speed"
+							],
+							"colStyles": [
+								"col-3 text-center",
+								"col-3 text-center",
+								"col-3 text-center"
+							],
+							"rows": [
+								[
+									"2",
+									"{@filter 1/4|bestiary|challenge rating=[&0;&1/4]|type=beast|speed type=!fly;!swim|miscellaneous=!swarm}",
+									"No"
+								],
+								[
+									"4",
+									"{@filter 1/2|bestiary|challenge rating=[&0;&1/2]|type=beast|speed type=!fly|miscellaneous=!swarm}",
+									"No"
+								],
+								[
+									"8",
+									"{@filter 1|bestiary|challenge rating=[&0;&1]|type=beast|miscellaneous=!swarm}",
+									"Yes"
+								]
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Number of Uses",
+							"entries": [
+								"You can use Wild Shape twice. You regain one expended use when you finish a {@variantrule Short Rest|XUA2023PlayersHandbookP8}, and you regain all expended uses when you finish a {@variantrule Long Rest|XUA2023PlayersHandbookP8}.",
+								"You gain additional uses when you reach certain Druid levels, as shown in the Wild Shape column of the Druid table."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Rules While Transformed",
+							"entries": [
+								"While in a form, you retain your personality, memories, and ability to speak, and the following rules apply:",
+								{
+									"type": "list",
+									"style": "list-hang-notitle",
+									"items": [
+										{
+											"type": "item",
+											"name": "Game Statistics",
+											"entries": [
+												"Your game statistics are replaced by the statistics of the Beast, but you retain your Hit Points; Hit Dice; Intelligence, Wisdom, and Charisma scores; class features; species traits; languages; and feats. You also retain your skill and saving throw proficiencies and use your Proficiency Bonus for them, in addition to gaining those of the creature. If the creature has the same proficiency as you and the bonus in its stat block is higher than yours, use the creature's bonus instead of yours. If the creature has any legendary or lair actions, you can't use them."
+											]
+										},
+										{
+											"type": "item",
+											"name": "Temporary Hit Points",
+											"entries": [
+												"When you assume a Wild Shape form, you gain a number of Temporary Hit Points equal to your Druid level."
+											]
+										},
+										{
+											"type": "item",
+											"name": "No Spellcasting",
+											"entries": [
+												"You can't cast spells, but transforming doesn't break your Concentration on a spell you've already cast or prevent you from taking actions that are part of a spell, such as Call Lightning, that you've already cast."
+											]
+										},
+										{
+											"type": "item",
+											"name": "Objects",
+											"entries": [
+												"Your ability to handle objects is determined by the form's limbs, rather than your own. In addition, you choose whether your equipment falls to the ground in your space, merges into your new form, or is worn by it. Worn equipment functions as normal, but the DM decides whether it is practical for the new form to wear a piece of equipment, based on the creature's size and shape. Your equipment doesn't change size or shape to match the new form, and any equipment that the new form can't wear must either fall to the ground or merge with it. Equipment that merges with the form has no effect until you leave the form."
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Druid Subclass",
+			"source": "XUA2023PlayersHandbookP8",
+			"page": 10,
+			"className": "Druid",
+			"classSource": "XUA2023PlayersHandbookP8",
+			"level": 3,
+			"entries": [
+				"You gain a Druid subclass of your choice: Circle of the Land, Circle of the Moon, Circle of the Sea, or Circle of the Stars. The Circle of the Moon subclass is detailed after this class's description.",
+				"A subclass is a specialization that grants you special abilities at certain Druid levels. For the rest of your career, you gain each of your subclass's features that are of your Druid level and lower."
+			]
+		},
+		{
+			"name": "Ability Score Improvement",
+			"source": "XUA2023PlayersHandbookP8",
+			"page": 10,
+			"className": "Druid",
+			"classSource": "XUA2023PlayersHandbookP8",
+			"level": 4,
+			"entries": [
+				"You gain the {@feat Ability Score Improvement|XUA2023PlayersHandbookP8} feat or another feat of your choice for which you qualify.",
+				"As shown on the Druid table, you gain this feature again at levels 8, 12, 16, and 19."
+			]
+		},
+		{
+			"name": "Wild Resurgence",
+			"source": "XUA2023PlayersHandbookP8",
+			"page": 10,
+			"className": "Druid",
+			"classSource": "XUA2023PlayersHandbookP8",
+			"level": 5,
+			"entries": [
+				"If you have no uses of Wild Shape left, you can give yourself one use by expending a spell slot (no action required). You can do so only once per turn.",
+				"In addition, you can expend one use of Wild Shape (no action required) to give yourself a 1st-level spell slot, and you can't do so again until you finish a {@variantrule Long Rest|XUA2023PlayersHandbookP8}."
+			]
+		},
+		{
+			"name": "Subclass Feature",
+			"source": "XUA2023PlayersHandbookP8",
+			"page": 10,
+			"className": "Druid",
+			"classSource": "XUA2023PlayersHandbookP8",
+			"level": 6,
+			"entries": [
+				"You gain a feature from your Druid Subclass."
+			]
+		},
+		{
+			"name": "Elemental Fury",
+			"source": "XUA2023PlayersHandbookP8",
+			"page": 10,
+			"className": "Druid",
+			"classSource": "XUA2023PlayersHandbookP8",
+			"level": 7,
+			"entries": [
+				"The might of the elements flows through you. You gain one of the following options of your choice:",
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"items": [
+						{
+							"type": "item",
+							"name": "Potent Spellcasting",
+							"entries": [
+								"You add your Wisdom modifier to the damage you deal with any Druid cantrip."
+							]
+						},
+						{
+							"type": "item",
+							"name": "Primal Strike",
+							"entries": [
+								"Once on each of your turns when you hit a creature with an attack roll using a weapon or a Beast form's attack in Wild Shape, you can cause the target to take an extra {@damage 1d8} Cold, Fire, Lightning, or Thunder damage (choose when you hit)."
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Ability Score Improvement",
+			"source": "XUA2023PlayersHandbookP8",
+			"page": 11,
+			"className": "Druid",
+			"classSource": "XUA2023PlayersHandbookP8",
+			"level": 8,
+			"entries": [
+				"You gain the {@feat Ability Score Improvement|XUA2023PlayersHandbookP8} Feat or another Feat of your choice for which you qualify."
+			]
+		},
+		{
+			"name": "Commune with Nature",
+			"source": "XUA2023PlayersHandbookP8",
+			"page": 11,
+			"className": "Druid",
+			"classSource": "XUA2023PlayersHandbookP8",
+			"level": 9,
+			"entries": [
+				"You are an expression of nature itself and can commune with the natural world all around you; you always have the Commune with Nature spell prepared."
+			]
+		},
+		{
+			"name": "Subclass Feature",
+			"source": "XUA2023PlayersHandbookP8",
+			"page": 11,
+			"className": "Druid",
+			"classSource": "XUA2023PlayersHandbookP8",
+			"level": 10,
+			"entries": [
+				"You gain a feature from your Druid Subclass."
+			]
+		},
+		{
+			"name": "Ability Score Improvement",
+			"source": "XUA2023PlayersHandbookP8",
+			"page": 11,
+			"className": "Druid",
+			"classSource": "XUA2023PlayersHandbookP8",
+			"level": 12,
+			"entries": [
+				"You gain the {@feat Ability Score Improvement|XUA2023PlayersHandbookP8} Feat or another Feat of your choice for which you qualify."
+			]
+		},
+		{
+			"name": "Subclass Feature",
+			"source": "XUA2023PlayersHandbookP8",
+			"page": 11,
+			"className": "Druid",
+			"classSource": "XUA2023PlayersHandbookP8",
+			"level": 14,
+			"entries": [
+				"You gain a feature from your Druid Subclass."
+			]
+		},
+		{
+			"name": "Improved Elemental Fury",
+			"source": "XUA2023PlayersHandbookP8",
+			"page": 11,
+			"className": "Druid",
+			"classSource": "XUA2023PlayersHandbookP8",
+			"level": 15,
+			"entries": [
+				"The option you chose for Elemental Fury grows more powerful:",
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"items": [
+						{
+							"type": "item",
+							"name": "Potent Spellcasting",
+							"entries": [
+								"When you cast a Druid cantrip with a range of 10 feet or greater, the spell's range increases by 300 feet."
+							]
+						},
+						{
+							"type": "item",
+							"name": "Primal Strike",
+							"entries": [
+								"The extra damage of your Primal Strike increases to {@damage 2d8}."
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Ability Score Improvement",
+			"source": "XUA2023PlayersHandbookP8",
+			"page": 11,
+			"className": "Druid",
+			"classSource": "XUA2023PlayersHandbookP8",
+			"level": 16,
+			"entries": [
+				"You gain the {@feat Ability Score Improvement|XUA2023PlayersHandbookP8} Feat or another Feat of your choice for which you qualify."
+			]
+		},
+		{
+			"name": "Beast Spells",
+			"source": "XUA2023PlayersHandbookP8",
+			"page": 11,
+			"className": "Druid",
+			"classSource": "XUA2023PlayersHandbookP8",
+			"level": 18,
+			"entries": [
+				"While using Wild Shape, you can cast spells in Beast form, except for any spell that has a Material component with a cost specified or that consumes its Material component."
+			]
+		},
+		{
+			"name": "Ability Score Improvement",
+			"source": "XUA2023PlayersHandbookP8",
+			"page": 11,
+			"className": "Druid",
+			"classSource": "XUA2023PlayersHandbookP8",
+			"level": 19,
+			"entries": [
+				"You gain the {@feat Ability Score Improvement|XUA2023PlayersHandbookP8} Feat or another Feat of your choice for which you qualify."
+			]
+		},
+		{
+			"name": "Archdruid",
+			"source": "XUA2023PlayersHandbookP8",
+			"page": 11,
+			"className": "Druid",
+			"classSource": "XUA2023PlayersHandbookP8",
+			"level": 20,
+			"entries": [
+				"The vitality of nature constantly blooms within you, granting you the following benefits:",
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"items": [
+						{
+							"type": "item",
+							"name": "Evergreen Wild Shape",
+							"entries": [
+								"Whenever you roll Initiative and have no uses of Wild Shape left, you regain one expended use of it."
+							]
+						},
+						{
+							"type": "item",
+							"name": "Nature Magician",
+							"entries": [
+								"You can convert uses of Wild Shape into a spell slot (no action required). Choose a number of your unexpended uses of Wild Shape and convert them into a single spell slot, with each use contributing 2 spell levels. You must then finish a{@variantrule Long Rest|XUA2023PlayersHandbookP8}before you can do so again. For example, if you convert two uses of Wild Shape, you produce a 4th-level spell slot."
+							]
+						},
+						{
+							"type": "item",
+							"name": "Longevity",
+							"entries": [
+								"The primal magic that you wield causes you to age more slowly. For every 10 years that pass, your body ages only 1 year."
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Martial Arts",
+			"source": "XUA2023PlayersHandbookP8",
+			"page": 14,
+			"className": "Monk",
+			"classSource": "XUA2023PlayersHandbookP8",
+			"level": 1,
+			"entries": [
+				"Your practice of martial arts gives you mastery of combat styles that use your {@variantrule Unarmed Strike|XUA2023PlayersHandbookP8} and Monk Weapons, which are the following:",
+				{
+					"type": "list",
+					"items": [
+						"Simple Melee Weapons",
+						"Martial Weapons that have the Light property"
+					]
+				},
+				"You gain the following benefits while you are unarmed or wielding only Monk Weapons and you aren't wearing armor or wielding a Shield:",
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"items": [
+						{
+							"type": "item",
+							"name": "Bonus Unarmed Strike",
+							"entries": [
+								"You can make one {@variantrule Unarmed Strike|XUA2023PlayersHandbookP8} as a Bonus Action."
+							]
+						},
+						{
+							"type": "item",
+							"name": "Dexterous Attacks",
+							"entries": [
+								"You can use Dexterity instead of Strength for the attack and damage rolls of your {@variantrule Unarmed Strike|XUA2023PlayersHandbookP8|Unarmed Strikes} and Monk Weapons. In addition, when you choose the Grapple or Shove option, you can use your Dexterity modifier instead of Strength to determine the saving throw DC."
+							]
+						},
+						{
+							"type": "item",
+							"name": "Martial Arts Die",
+							"entries": [
+								"You can roll a {@dice d6} in place of the normal damage of your {@variantrule Unarmed Strike|XUA2023PlayersHandbookP8} or Monk Weapons. This die changes as you gain Monk levels, as shown in the Martial Arts column of the Monk table."
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Unarmored Defense",
+			"source": "XUA2023PlayersHandbookP8",
+			"page": 15,
+			"className": "Monk",
+			"classSource": "XUA2023PlayersHandbookP8",
+			"level": 1,
+			"entries": [
+				"While you aren't wearing any armor or wielding a Shield, your base Armor Class equals 10 plus your Dexterity and Wisdom modifiers."
+			]
+		},
+		{
+			"name": "Monk's Discipline",
+			"source": "XUA2023PlayersHandbookP8",
+			"page": 15,
+			"className": "Monk",
+			"classSource": "XUA2023PlayersHandbookP8",
+			"level": 2,
+			"entries": [
+				"Your self-discipline and martial training allow you to harness a well of extraordinary energy within yourself. Your access to this energy is represented by a number of Discipline Points. Your Monk level determines the number of points you have, as shown in the Discipline Points column of the Monk table.",
+				"You can spend these points to fuel certain Monk features. You start knowing three such features: Flurry of Blows, Patient Defense, and Step of the Wind, each of which is detailed below.",
+				"When you spend a Discipline Point, it is unavailable until you finish a {@variantrule Short Rest|XUA2023PlayersHandbookP8} or {@variantrule Long Rest|XUA2023PlayersHandbookP8}, at the end of which you regain all your expended points.",
+				"Some features that use Discipline Points require your target to make a saving throw. The saving throw DC equals 8 plus your Proficiency Bonus plus your Wisdom modifier.",
+				{
+					"type": "entries",
+					"entries": [
+						{
+							"type": "entries",
+							"name": "Flurry of Blows",
+							"entries": [
+								"You can spend 1 Discipline Point to make two {@variantrule Unarmed Strike|XUA2023PlayersHandbookP8}s as a Bonus Action."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Patient Defense",
+							"entries": [
+								"You can take the {@action Disengage} action as a Bonus Action. Alternatively, you can spend 1 Discipline Point to take both the {@action Disengage} and the {@action Dodge} actions as a Bonus Action."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Step of the Wind",
+							"entries": [
+								"You can take the {@action Dash} action as a Bonus Action. Alternatively, you can spend 1 Discipline Point to take both the {@action Disengage} and Dash actions as a Bonus Action, and your jump distance is doubled for the turn."
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Unarmored Movement",
+			"source": "XUA2023PlayersHandbookP8",
+			"page": 15,
+			"className": "Monk",
+			"classSource": "XUA2023PlayersHandbookP8",
+			"level": 2,
+			"entries": [
+				"Your speed increases by 10 feet while you aren't wearing armor or wielding a Shield. This bonus increases when you reach certain Monk levels, as shown in the Monk table."
+			]
+		},
+		{
+			"name": "Uncanny Metabolism",
+			"source": "XUA2023PlayersHandbookP8",
+			"page": 15,
+			"className": "Monk",
+			"classSource": "XUA2023PlayersHandbookP8",
+			"level": 2,
+			"entries": [
+				"When you roll Initiative, you can regain all expended Discipline Points. When you do so, roll your Martial Arts die, and regain a number of Hit Points equal to your Monk level plus the number rolled.",
+				"Once you use this feature, you can't use it again until you finish a {@variantrule Long Rest|XUA2023PlayersHandbookP8}."
+			]
+		},
+		{
+			"name": "Deflect Attacks",
+			"source": "XUA2023PlayersHandbookP8",
+			"page": 15,
+			"className": "Monk",
+			"classSource": "XUA2023PlayersHandbookP8",
+			"level": 3,
+			"entries": [
+				"You can use your Reaction to deflect melee and ranged attacks against you that deal Bludgeoning, Piercing, or Slashing damage. When you do so, the total damage you take from the attack is reduced by {@dice 1d10} plus your Dexterity modifier plus your Monk level.",
+				"If you reduce the damage to 0, you can spend 1 Discipline Point to redirect some of the attack's force. If you do so, choose a creature within 5 feet of you if the attack was a melee attack or 60 feet of yourself that isn't behind Total Cover if the attack was a ranged attack. That creature must succeed on a Dexterity saving throw or take damage equal to two rolls of your Martial Arts die plus your Dexterity modifier. The damage is the same type dealt by the attack."
+			]
+		},
+		{
+			"name": "Monk Subclass",
+			"source": "XUA2023PlayersHandbookP8",
+			"page": 15,
+			"className": "Monk",
+			"classSource": "XUA2023PlayersHandbookP8",
+			"level": 3,
+			"entries": [
+				"You gain a Monk subclass of your choice: Warrior of Mercy, Warrior of Shadow, Warrior of the Four Elements, or Warrior of the Hand. The Warrior of the Hand subclass is detailed after this class's description.",
+				"A subclass is a specialization that grants you special abilities at certain Monk levels. For the rest of your career, you gain each of your subclass's features that are of your Monk level and lower."
+			]
+		},
+		{
+			"name": "Ability Score Improvement",
+			"source": "XUA2023PlayersHandbookP8",
+			"page": 15,
+			"className": "Monk",
+			"classSource": "XUA2023PlayersHandbookP8",
+			"level": 4,
+			"entries": [
+				"You gain the {@feat Ability Score Improvement|XUA2023PlayersHandbookP8} feat or another feat of your choice for which you qualify.",
+				"As shown on the Monk table, you gain this feature again at levels 8, 12, 16, and 19."
+			]
+		},
+		{
+			"name": "Slow Fall",
+			"source": "XUA2023PlayersHandbookP8",
+			"page": 16,
+			"className": "Monk",
+			"classSource": "XUA2023PlayersHandbookP8",
+			"level": 4,
+			"entries": [
+				"You can use your Reaction when you fall to reduce any damage you take from the fall by an amount equal to five times your Monk level."
+			]
+		},
+		{
+			"name": "Extra Attack",
+			"source": "XUA2023PlayersHandbookP8",
+			"page": 16,
+			"className": "Monk",
+			"classSource": "XUA2023PlayersHandbookP8",
+			"level": 5,
+			"entries": [
+				"You can attack twice, instead of once, whenever you take the {@action Attack} action on your turn."
+			]
+		},
+		{
+			"name": "Stunning Strike",
+			"source": "XUA2023PlayersHandbookP8",
+			"page": 16,
+			"className": "Monk",
+			"classSource": "XUA2023PlayersHandbookP8",
+			"level": 5,
+			"entries": [
+				"Once per turn when you hit a creature with a Monk Weapon or an {@variantrule Unarmed Strike|XUA2023PlayersHandbookP8}, you can spend 1 Discipline Point to attempt a stunning strike. The target must make a Constitution saving throw. On a failed save, the target has the Stunned condition until the start of your next turn. On a successful save, the target takes Force damage equal to a roll of your Martial Arts die plus your Wisdom modifier."
+			]
+		},
+		{
+			"name": "Empowered Strikes",
+			"source": "XUA2023PlayersHandbookP8",
+			"page": 16,
+			"className": "Monk",
+			"classSource": "XUA2023PlayersHandbookP8",
+			"level": 6,
+			"entries": [
+				"Whenever you deal damage with your {@variantrule Unarmed Strike|XUA2023PlayersHandbookP8}, it can deal your choice of Force damage or its normal damage type."
+			]
+		},
+		{
+			"name": "Subclass Feature",
+			"source": "XUA2023PlayersHandbookP8",
+			"page": 16,
+			"className": "Monk",
+			"classSource": "XUA2023PlayersHandbookP8",
+			"level": 6,
+			"entries": [
+				"You gain a feature from your Monk subclass."
+			]
+		},
+		{
+			"name": "Evasion",
+			"source": "XUA2023PlayersHandbookP8",
+			"page": 16,
+			"className": "Monk",
+			"classSource": "XUA2023PlayersHandbookP8",
+			"level": 7,
+			"entries": [
+				"When you are subjected to an effect that allows you to make a Dexterity saving throw to take only half damage, you instead take no damage if you succeed on the saving throw, and only half damage if you fail.",
+				"You don't benefit from this feature if you have the {@condition Incapacitated|XUA2023PlayersHandbookP8} condition."
+			]
+		},
+		{
+			"name": "Ability Score Improvement",
+			"source": "XUA2023PlayersHandbookP8",
+			"page": 16,
+			"className": "Monk",
+			"classSource": "XUA2023PlayersHandbookP8",
+			"level": 8,
+			"entries": [
+				"You gain the {@feat Ability Score Improvement|XUA2023PlayersHandbookP8} feat or another feat of your choice for which you qualify."
+			]
+		},
+		{
+			"name": "Acrobatic Movement",
+			"source": "XUA2023PlayersHandbookP8",
+			"page": 16,
+			"className": "Monk",
+			"classSource": "XUA2023PlayersHandbookP8",
+			"level": 9,
+			"entries": [
+				"While you aren't wearing armor or wielding a Shield, you gain the ability to move along vertical surfaces and across liquids on your turn without falling during the movement."
+			]
+		},
+		{
+			"name": "Heightened Discipline",
+			"source": "XUA2023PlayersHandbookP8",
+			"page": 16,
+			"className": "Monk",
+			"classSource": "XUA2023PlayersHandbookP8",
+			"level": 10,
+			"entries": [
+				"Your training has pushed your body and mind to new levels. Your Flurry of Blows, Patient Defense, and Step of the Wind gain the following benefits:",
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"items": [
+						{
+							"type": "item",
+							"name": "Flurry of Blows",
+							"entries": [
+								"You can spend 1 Discipline Point to use Flurry of Blows and make three {@variantrule Unarmed Strike|XUA2023PlayersHandbookP8}s with it instead of two."
+							]
+						},
+						{
+							"type": "item",
+							"name": "Patient Defense",
+							"entries": [
+								"When you spend a Discipline Point to use Patient Defense, you gain a number of Temporary Hit Points equal to two rolls of your Martial Arts die."
+							]
+						},
+						{
+							"type": "item",
+							"name": "Step of the Wind",
+							"entries": [
+								"When you spend a Discipline Point to use Step of the Wind, you can choose a willing creature within 5 feet of you that is Large or smaller. You move the creature with you until the end of your turn. The creature's movement doesn't provoke Opportunity Attacks."
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Self-Restoration",
+			"source": "XUA2023PlayersHandbookP8",
+			"page": 16,
+			"className": "Monk",
+			"classSource": "XUA2023PlayersHandbookP8",
+			"level": 10,
+			"entries": [
+				"Through sheer force of will, you can use a Bonus Action to remove one of the following conditions from yourself: {@condition Charmed}, {@condition Frightened}, or Poisoned.",
+				"In addition, forgoing food and drink doesn't give you levels of Exhaustion."
+			]
+		},
+		{
+			"name": "Subclass Feature",
+			"source": "XUA2023PlayersHandbookP8",
+			"page": 16,
+			"className": "Monk",
+			"classSource": "XUA2023PlayersHandbookP8",
+			"level": 11,
+			"entries": [
+				"You gain a feature from your Monk subclass."
+			]
+		},
+		{
+			"name": "Ability Score Improvement",
+			"source": "XUA2023PlayersHandbookP8",
+			"page": 16,
+			"className": "Monk",
+			"classSource": "XUA2023PlayersHandbookP8",
+			"level": 12,
+			"entries": [
+				"You gain the {@feat Ability Score Improvement|XUA2023PlayersHandbookP8} feat or another feat of your choice for which you qualify."
+			]
+		},
+		{
+			"name": "Deflect Energy",
+			"source": "XUA2023PlayersHandbookP8",
+			"page": 16,
+			"className": "Monk",
+			"classSource": "XUA2023PlayersHandbookP8",
+			"level": 13,
+			"entries": [
+				"You can now use your Deflect Attacks feature against  attacks that deal any damage type, not just Bludgeoning, Piercing, or Slashing."
+			]
+		},
+		{
+			"name": "Disciplined Survivor",
+			"source": "XUA2023PlayersHandbookP8",
+			"page": 16,
+			"className": "Monk",
+			"classSource": "XUA2023PlayersHandbookP8",
+			"level": 14,
+			"entries": [
+				"Your physical and mental discipline grant you proficiency in all saving throws.",
+				"Additionally, whenever you make a saving throw and fail, you can spend 1 Discipline Point to reroll it and take the second result."
+			]
+		},
+		{
+			"name": "Perfect Discipline",
+			"source": "XUA2023PlayersHandbookP8",
+			"page": 16,
+			"className": "Monk",
+			"classSource": "XUA2023PlayersHandbookP8",
+			"level": 15,
+			"entries": [
+				"When you roll Initiative and have 3 Discipline Points or fewer, you regain expended Discipline Points until you have 4."
+			]
+		},
+		{
+			"name": "Ability Score Improvement",
+			"source": "XUA2023PlayersHandbookP8",
+			"page": 16,
+			"className": "Monk",
+			"classSource": "XUA2023PlayersHandbookP8",
+			"level": 16,
+			"entries": [
+				"You gain the {@feat Ability Score Improvement|XUA2023PlayersHandbookP8} feat or another feat of your choice for which you qualify."
+			]
+		},
+		{
+			"name": "Subclass Feature",
+			"source": "XUA2023PlayersHandbookP8",
+			"page": 16,
+			"className": "Monk",
+			"classSource": "XUA2023PlayersHandbookP8",
+			"level": 17,
+			"entries": [
+				"You gain a feature from your Monk subclass."
+			]
+		},
+		{
+			"name": "Superior Defense",
+			"source": "XUA2023PlayersHandbookP8",
+			"page": 28,
+			"className": "Monk",
+			"classSource": "XUA2023PlayersHandbookP8",
+			"level": 18,
+			"entries": [
+				"At the start of your turn, you can spend 3 Discipline Points to perfectly bolster yourself against harm for 1 minute or until you have the {@condition Incapacitated|XUA2023PlayersHandbookP8} condition. During that time, you have resistance to all damage except Force damage."
+			]
+		},
+		{
+			"name": "Ability Score Improvement",
+			"source": "XUA2023PlayersHandbookP8",
+			"page": 29,
+			"className": "Monk",
+			"classSource": "XUA2023PlayersHandbookP8",
+			"level": 19,
+			"entries": [
+				"You gain the {@feat Ability Score Improvement|XUA2023PlayersHandbookP8} feat or another feat of your choice for which you qualify."
+			]
+		},
+		{
+			"name": "Body and Mind",
+			"source": "XUA2023PlayersHandbookP8",
+			"page": 29,
+			"className": "Monk",
+			"classSource": "XUA2023PlayersHandbookP8",
+			"level": 20,
+			"entries": [
+				"You have honed your body and mind to new heights. Your Dexterity and Wisdom scores increase by 4. Your maximum for those scores is now 26."
+			]
 		}
 	],
 	"subclassFeature": [
@@ -725,16 +2636,21 @@
 				"Your Rage taps into the lifeforce of the World Tree. You gain the following benefits:",
 				{
 					"type": "entries",
-					"name": "Vitality Surge",
 					"entries": [
-						"When you activate your Rage, you gain a number of Temporary Hit Points equal to your Barbarian level."
-					]
-				},
-				{
-					"type": "entries",
-					"name": "Life-Giving Force",
-					"entries": [
-						"At the start of each of your turns while your Rage is active, you can choose another creature within 10 feet of yourself to gain Temporary Hit Points. To determine the number of Temporary Hit Points, roll a number of d6s equal to your Rage Damage bonus, and add them together. If any of these Temporary Hit Points remain when your Rage ends, they vanish."
+						{
+							"type": "entries",
+							"name": "Vitality Surge",
+							"entries": [
+								"When you activate your Rage, you gain a number of Temporary Hit Points equal to your Barbarian level."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Life-Giving Force",
+							"entries": [
+								"At the start of each of your turns while your Rage is active, you can choose another creature within 10 feet of yourself to gain Temporary Hit Points. To determine the number of Temporary Hit Points, roll a number of d6s equal to your Rage Damage bonus, and add them together. If any of these Temporary Hit Points remain when your Rage ends, they vanish."
+							]
+						}
 					]
 				}
 			]
@@ -790,6 +2706,295 @@
 				"You can briefly travel along the World Tree. When you activate your Rage and as a Bonus Action while it's active, you can teleport up to 60 feet to an unoccupied space you can see.",
 				"In addition, when you teleport using this feature, you can bring up to six willing creatures who are within 10 feet of yourself, and the range you can teleport increases to 500 feet. Each creature teleports to an unoccupied space of your choice within 10 feet of your destination space. You can teleport other creatures with you only once per Rage."
 			]
+		},
+		{
+			"name": "Circle Forms",
+			"source": "XUA2023PlayersHandbookP8",
+			"page": 12,
+			"className": "Druid",
+			"classSource": "XUA2023PlayersHandbookP8",
+			"subclassShortName": "Moon",
+			"subclassSource": "XUA2023PlayersHandbookP8",
+			"level": 3,
+			"entries": [
+				"You have learned ancient techniques that allow you to channel lunar magic when you assume a Wild Shape form, granting you the following benefits:",
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"items": [
+						{
+							"type": "item",
+							"name": "Challenge Rating",
+							"entries": [
+								"The maximum Challenge Rating for the form equals your Druid level divided by 3 (round down)."
+							]
+						},
+						{
+							"type": "item",
+							"name": "Armor Class",
+							"entries": [
+								"Your AC equals 13 plus your Wisdom modifier until you leave the form."
+							]
+						},
+						{
+							"type": "item",
+							"name": "Temporary Hit Points",
+							"entries": [
+								"You gain a number of Temporary Hit Points equal to three times your Druid level."
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Circle of the Moon",
+			"source": "XUA2023PlayersHandbookP8",
+			"page": 11,
+			"className": "Druid",
+			"classSource": "XUA2023PlayersHandbookP8",
+			"subclassShortName": "Moon",
+			"subclassSource": "XUA2023PlayersHandbookP8",
+			"level": 3,
+			"entries": [
+				"Druids of the Circle of the Moon draw on the magic of the moon to transform themselves and to guard the wilds. Their order gathers under the full moon to share news and perform rituals. They wander the deepest parts of the wilderness, where they might go for weeks on end before crossing paths with another person, let alone another Druid.",
+				"Changeable as the moon, a Druid of this circle might prowl as a great cat one night, soar over the treetops as an eagle the next day, and crash through the undergrowth in bear form to drive off a trespassing monster. The wild is in the Druid's blood.",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Circle Spells|Druid|XUA2023PlayersHandbookP8|Moon|XUA2023PlayersHandbookP8|3"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Circle Forms|Druid|XUA2023PlayersHandbookP8|Moon|XUA2023PlayersHandbookP8|3"
+				}
+			]
+		},
+		{
+			"name": "Circle Spells",
+			"source": "XUA2023PlayersHandbookP8",
+			"page": 11,
+			"className": "Druid",
+			"classSource": "XUA2023PlayersHandbookP8",
+			"subclassShortName": "Moon",
+			"subclassSource": "XUA2023PlayersHandbookP8",
+			"level": 3,
+			"entries": [
+				"Your connection to this circle ensures that you always have certain spells ready. When you reach a Druid level specified in the Circle of the Moon Spells table, you thereafter always have the listed spells prepared.",
+				"In addition, you can cast the spells from this feature while you are in Wild Shape form.",
+				{
+					"type": "table",
+					"caption": "Circle of the Moon Spells",
+					"colLabels": [
+						"Druid Level",
+						"Prepared Spells"
+					],
+					"colStyles": [
+						"col-1 text-center",
+						"col-11"
+					],
+					"rows": [
+						[
+							"3",
+							"{@spell Cure Wounds}, {@spell Moonbeam}, {@spell Starry Wisp|XUA2023PlayersHandbookP8}"
+						],
+						[
+							"5",
+							"{@spell Vampiric Touch}"
+						],
+						[
+							"7",
+							"{@spell Fount of Moonlight}"
+						],
+						[
+							"9",
+							"{@spell Dawn}"
+						]
+					]
+				}
+			]
+		},
+		{
+			"name": "Improved Circle Forms",
+			"source": "XUA2023PlayersHandbookP8",
+			"page": 12,
+			"className": "Druid",
+			"classSource": "XUA2023PlayersHandbookP8",
+			"subclassShortName": "Moon",
+			"subclassSource": "XUA2023PlayersHandbookP8",
+			"level": 6,
+			"header": 2,
+			"entries": [
+				"While in a Wild Shape form, you gain the following benefits:",
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"items": [
+						{
+							"type": "item",
+							"name": "Lunar Radiance",
+							"entries": [
+								"Each of your attacks in a Wild Shape form can deal its normal damage type or Radiant damage. You make this choice each time you hit with those attacks."
+							]
+						},
+						{
+							"type": "item",
+							"name": "Increased Toughness",
+							"entries": [
+								"You can add your Wisdom modifier to your Constitution saving throws."
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Moonlight Step",
+			"source": "XUA2023PlayersHandbookP8",
+			"page": 12,
+			"className": "Druid",
+			"classSource": "XUA2023PlayersHandbookP8",
+			"subclassShortName": "Moon",
+			"subclassSource": "XUA2023PlayersHandbookP8",
+			"level": 10,
+			"header": 2,
+			"entries": [
+				"You magically transport yourself, reappearing amid a burst of moonlight. As a Bonus Action, you teleport up to 30 feet to an unoccupied space you can see, and you have Advantage on the next attack roll you make before the end of this turn.",
+				"You can use this feature a number of times equal to your Wisdom modifier (minimum of once), and you regain all expended uses when you finish a {@variantrule Long Rest|XUA2023PlayersHandbookP8}. You can also regain uses by expending a spell slot of level 2 or higher for each use you want to restore (no action required)."
+			]
+		},
+		{
+			"name": "Lunar Form",
+			"source": "XUA2023PlayersHandbookP8",
+			"page": 12,
+			"className": "Druid",
+			"classSource": "XUA2023PlayersHandbookP8",
+			"subclassShortName": "Moon",
+			"subclassSource": "XUA2023PlayersHandbookP8",
+			"level": 14,
+			"entries": [
+				"The power of the moon suffuses you, granting you the following benefits:",
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"items": [
+						{
+							"type": "item",
+							"name": "Improved Lunar Radiance",
+							"entries": [
+								"Each of your attacks in a Wild Shape form deals an extra {@damage 1d10} Radiant damage on a hit."
+							]
+						},
+						{
+							"type": "item",
+							"name": "Shared Moonlight",
+							"entries": [
+								"Whenever you use Moonlight Step, you can also teleport one willing creature. That creature must be within 10 feet of you, and you teleport it to an unoccupied space you can see within 10 feet of your destination space."
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Open Hand Technique",
+			"source": "XUA2023PlayersHandbookP8",
+			"page": 17,
+			"className": "Monk",
+			"classSource": "XUA2023PlayersHandbookP8",
+			"subclassShortName": "Hand",
+			"subclassSource": "XUA2023PlayersHandbookP8",
+			"level": 3,
+			"entries": [
+				"Whenever you hit a creature with an attack granted by your Flurry of Blows, you can impose one of the following effects on that target:",
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"items": [
+						{
+							"type": "item",
+							"name": "Addle",
+							"entries": [
+								"The target can't make Opportunity Attacks until the start of its next turn."
+							]
+						},
+						{
+							"type": "item",
+							"name": "Push",
+							"entries": [
+								"The target must succeed on a Strength saving throw, or you push it up to 15 feet away from yourself."
+							]
+						},
+						{
+							"type": "item",
+							"name": "Topple",
+							"entries": [
+								"The target must succeed on a Dexterity saving throw, or it has the Prone condition."
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Warrior of the Hand",
+			"source": "XUA2023PlayersHandbookP8",
+			"page": 17,
+			"className": "Monk",
+			"classSource": "XUA2023PlayersHandbookP8",
+			"subclassShortName": "Hand",
+			"subclassSource": "XUA2023PlayersHandbookP8",
+			"level": 3,
+			"entries": [
+				"Warriors of the Hand are masters of unarmed combat. They learn techniques to push and trip their opponents and manipulate their own energy to protect themselves from harm.",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Open Hand Technique|Monk|XUA2023PlayersHandbookP8|Hand|XUA2023PlayersHandbookP8|3"
+				}
+			]
+		},
+		{
+			"name": "Wholeness of Body",
+			"source": "XUA2023PlayersHandbookP8",
+			"page": 17,
+			"className": "Monk",
+			"classSource": "XUA2023PlayersHandbookP8",
+			"subclassShortName": "Hand",
+			"subclassSource": "XUA2023PlayersHandbookP8",
+			"level": 6,
+			"header": 2,
+			"entries": [
+				"You gain the ability to heal yourself. As a Bonus Action, you can roll your Martial Arts die. You regain a number of Hit Points equal to the number rolled plus your Wisdom modifier (minimum of 1 Hit Point regained).",
+				"You can use this feature a number of times equal to your Wisdom modifier (minimum of once), and you regain all expended uses when you finish a {@variantrule Long Rest|XUA2023PlayersHandbookP8}."
+			]
+		},
+		{
+			"name": "Fleet Step",
+			"source": "XUA2023PlayersHandbookP8",
+			"page": 17,
+			"className": "Monk",
+			"classSource": "XUA2023PlayersHandbookP8",
+			"subclassShortName": "Hand",
+			"subclassSource": "XUA2023PlayersHandbookP8",
+			"level": 11,
+			"header": 2,
+			"entries": [
+				"You can easily stride out of harm's way. When you take a Bonus Action other than Step of the Wind, you can also use Step of the Wind as part of that Bonus Action."
+			]
+		},
+		{
+			"name": "Quivering Palm",
+			"source": "XUA2023PlayersHandbookP8",
+			"page": 17,
+			"className": "Monk",
+			"classSource": "XUA2023PlayersHandbookP8",
+			"subclassShortName": "Hand",
+			"subclassSource": "XUA2023PlayersHandbookP8",
+			"level": 17,
+			"header": 2,
+			"entries": [
+				"You gain the ability to set up lethal vibrations in someone's body. When you hit a creature with an {@variantrule Unarmed Strike|XUA2023PlayersHandbookP8}, you can spend 4 Discipline Points to start these imperceptible vibrations, which last for a number of days equal to your Monk level. The vibrations are harmless unless you use your action to end them. Alternatively, when you take the {@action Attack} action on your turn, you can replace one of the attacks with this action. To use this action, you and the target must be on the same plane of existence. When you use this action, the target must make a Constitution saving throw, taking {@damage 10d12} Force damage on a failed save or half as much damage on a successful one.",
+				"You can have only one creature under the effect of this feature at a time. You can end the vibrations harmlessly without using an action."
+			]
 		}
 	],
 	"feat": [
@@ -797,12 +3002,12 @@
 			"name": "Ability Score Improvement",
 			"source": "XUA2023PlayersHandbookP8",
 			"page": 21,
+			"category": "general",
 			"prerequisite": [
 				{
 					"level": 4
 				}
 			],
-			"category": "general",
 			"repeatable": true,
 			"ability": [
 				{
@@ -952,17 +3157,23 @@
 				"You summon the protective presence of a Celestial spirit, which manifests as a pillar of divine light that shines in a 10-foot-radius, 40-foot-high Cylinder centered on a point within range. Until the spell ends, Bright Light fills the Cylinder, and when you {@variantrule Move|XUA2023PlayersHandbookP8} on your turn, you can also move the Cylinder up to 30 feet.",
 				"When a creature enters the Cylinder for the first time on a turn or starts its turn there, you can bathe that creature in one of the following lights:",
 				{
-					"type": "entries",
-					"name": "Healing Light",
-					"entries": [
-						"The creature that isn't an Undead or a Construct regains Hit Points equal to {@dice 4d12} plus your spellcasting modifier. A creature can be healed by this light only once per casting of this spell."
-					]
-				},
-				{
-					"type": "entries",
-					"name": "Searing Radiance",
-					"entries": [
-						"The creature must make a Dexterity saving throw, taking {@damage 8d12} Radiant damage on a failed save or half as much damage on a successful one."
+					"type": "list",
+					"style": "list-hang-notitle",
+					"items": [
+						{
+							"type": "item",
+							"name": "Healing Light",
+							"entries": [
+								"The creature that isn't an Undead or a Construct regains Hit Points equal to {@dice 4d12} plus your spellcasting modifier. A creature can be healed by this light only once per casting of this spell."
+							]
+						},
+						{
+							"type": "item",
+							"name": "Searing Radiance",
+							"entries": [
+								"The creature must make a Dexterity saving throw, taking {@damage 8d12} Radiant damage on a failed save or half as much damage on a successful one."
+							]
+						}
 					]
 				}
 			],
