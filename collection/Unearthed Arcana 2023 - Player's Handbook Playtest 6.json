@@ -1792,7 +1792,7 @@
 				{
 					"colLabels": [
 						"Martial Arts",
-						"Ki Points",
+						"Discipline Points",
 						"Unarmored Movement"
 					],
 					"rows": [
@@ -5020,19 +5020,19 @@
 								[
 									"2nd",
 									"3",
-									"1/4",
+									"{@filter 1/4|bestiary|challenge rating=[&0;&1/4]|type=beast|speed type=!fly;!swim|miscellaneous=!swarm}",
 									"No"
 								],
 								[
 									"4th",
 									"4",
-									"1/2",
+									"{@filter 1/2|bestiary|challenge rating=[&0;&1/2]|type=beast|speed type=!fly|miscellaneous=!swarm}",
 									"No"
 								],
 								[
 									"8th",
 									"5",
-									"1",
+									"{@filter 1|bestiary|challenge rating=[&0;&1]|type=beast|miscellaneous=!swarm}",
 									"Yes"
 								]
 							]
