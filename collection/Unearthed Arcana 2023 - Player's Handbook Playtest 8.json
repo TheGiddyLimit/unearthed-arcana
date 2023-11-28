@@ -17,6 +17,781 @@
 		"dateLastModified": 1701114642,
 		"_dateLastModifiedHash": "dd5d654fbd"
 	},
+	"class": [
+		{
+			"name": "Barbarian",
+			"source": "XUA2023PlayersHandbookP8",
+			"page": 1,
+			"classGroup": [
+				"warrior"
+			],
+			"hd": {
+				"number": 1,
+				"faces": 12
+			},
+			"proficiency": [
+				"str",
+				"con"
+			],
+			"startingProficiencies": {
+				"armor": [
+					"light",
+					"medium",
+					"{@item shield|phb|shields}"
+				],
+				"weapons": [
+					"simple",
+					"martial"
+				],
+				"skills": [
+					{
+						"choose": {
+							"from": [
+								"animal handling",
+								"athletics",
+								"intimidation",
+								"nature",
+								"perception",
+								"survival"
+							],
+							"count": 2
+						}
+					}
+				]
+			},
+			"startingEquipment": {
+				"additionalFromBackground": false,
+				"default": [
+					"{@item Explorer's Pack|phb}",
+					"(a) {@item Greataxe|phb} or (b) {@item Battleaxe|phb}, {@item shield|phb}, and 10 GP",
+					"{@item Handaxe|phb} (4)",
+					"15 GP"
+				],
+				"goldAlternative": "75 GP"
+			},
+			"multiclassing": {
+				"requirements": {
+					"str": 13
+				},
+				"proficienciesGained": {
+					"armor": [
+						"{@item shield|phb|shields}"
+					],
+					"weapons": [
+						"martial"
+					]
+				}
+			},
+			"classTableGroups": [
+				{
+					"colLabels": [
+						"Rages",
+						"Rage Damage",
+						"Weapon Mastery"
+					],
+					"rows": [
+						[
+							"2",
+							{
+								"type": "bonus",
+								"value": 2
+							},
+							"2"
+						],
+						[
+							"2",
+							{
+								"type": "bonus",
+								"value": 2
+							},
+							"2"
+						],
+						[
+							"3",
+							{
+								"type": "bonus",
+								"value": 2
+							},
+							"2"
+						],
+						[
+							"3",
+							{
+								"type": "bonus",
+								"value": 2
+							},
+							"3"
+						],
+						[
+							"3",
+							{
+								"type": "bonus",
+								"value": 2
+							},
+							"3"
+						],
+						[
+							"4",
+							{
+								"type": "bonus",
+								"value": 2
+							},
+							"3"
+						],
+						[
+							"4",
+							{
+								"type": "bonus",
+								"value": 2
+							},
+							"3"
+						],
+						[
+							"4",
+							{
+								"type": "bonus",
+								"value": 2
+							},
+							"3"
+						],
+						[
+							"4",
+							{
+								"type": "bonus",
+								"value": 3
+							},
+							"3"
+						],
+						[
+							"4",
+							{
+								"type": "bonus",
+								"value": 3
+							},
+							"4"
+						],
+						[
+							"4",
+							{
+								"type": "bonus",
+								"value": 3
+							},
+							"4"
+						],
+						[
+							"5",
+							{
+								"type": "bonus",
+								"value": 3
+							},
+							"4"
+						],
+						[
+							"5",
+							{
+								"type": "bonus",
+								"value": 3
+							},
+							"4"
+						],
+						[
+							"5",
+							{
+								"type": "bonus",
+								"value": 3
+							},
+							"4"
+						],
+						[
+							"5",
+							{
+								"type": "bonus",
+								"value": 3
+							},
+							"4"
+						],
+						[
+							"5",
+							{
+								"type": "bonus",
+								"value": 4
+							},
+							"4"
+						],
+						[
+							"6",
+							{
+								"type": "bonus",
+								"value": 4
+							},
+							"4"
+						],
+						[
+							"6",
+							{
+								"type": "bonus",
+								"value": 4
+							},
+							"4"
+						],
+						[
+							"6",
+							{
+								"type": "bonus",
+								"value": 4
+							},
+							"4"
+						],
+						[
+							"6",
+							{
+								"type": "bonus",
+								"value": 4
+							},
+							"4"
+						]
+					]
+				}
+			],
+			"classFeatures": [
+				"Rage|Barbarian|XUA2023PlayersHandbookP8|1",
+				"Unarmored Defense|Barbarian|XUA2023PlayersHandbookP8|1",
+				"Weapon Mastery|Barbarian|XUA2023PlayersHandbookP8|1",
+				"Danger Sense|Barbarian|XUA2023PlayersHandbookP8|2",
+				"Reckless Attack|Barbarian|XUA2023PlayersHandbookP8|2",
+				{
+					"classFeature": "Barbarian Subclass|Barbarian|XUA2023PlayersHandbookP8|3",
+					"gainSubclassFeature": true
+				},
+				"Primal Knowledge|Barbarian|XUA2023PlayersHandbookP8|3",
+				"Ability Score Improvement|Barbarian|XUA2023PlayersHandbookP8|4",
+				"Extra Attack|Barbarian|XUA2023PlayersHandbookP8|5",
+				"Fast Movement|Barbarian|XUA2023PlayersHandbookP8|5",
+				{
+					"classFeature": "Subclass Feature|Barbarian|XUA2023PlayersHandbookP8|6",
+					"gainSubclassFeature": true
+				},
+				"Feral Instinct|Barbarian|XUA2023PlayersHandbookP8|7",
+				"Instinctive Pounce|Barbarian|XUA2023PlayersHandbookP8|7",
+				"Ability Score Improvement|Barbarian|XUA2023PlayersHandbookP8|8",
+				"Brutal Strike|Barbarian|XUA2023PlayersHandbookP8|9",
+				{
+					"classFeature": "Subclass Feature|Barbarian|XUA2023PlayersHandbookP8|10",
+					"gainSubclassFeature": true
+				},
+				"Relentless Rage|Barbarian|XUA2023PlayersHandbookP8|11",
+				"Ability Score Improvement|Barbarian|XUA2023PlayersHandbookP8|12",
+				"Brutal Strike Improvement|Barbarian|XUA2023PlayersHandbookP8|13",
+				{
+					"classFeature": "Subclass Feature|Barbarian|XUA2023PlayersHandbookP8|14",
+					"gainSubclassFeature": true
+				},
+				"Persistent Rage|Barbarian|XUA2023PlayersHandbookP8|15",
+				"Ability Score Improvement|Barbarian|XUA2023PlayersHandbookP8|16",
+				"Brutal Strike Improvement|Barbarian|XUA2023PlayersHandbookP8|17",
+				"Indomitable Might|Barbarian|XUA2023PlayersHandbookP8|18",
+				"Ability Score Improvement|Barbarian|XUA2023PlayersHandbookP8|19",
+				"Primal Champion|Barbarian|XUA2023PlayersHandbookP8|20"
+			],
+			"subclassTitle": "Barbarian Subclass",
+			"fluff": [
+				{
+					"type": "section",
+					"source": "XUA2023PlayersHandbookP8",
+					"entries": [
+						"Barbarians are warriors defined by their connection to the primal forces of the multiverse, which manifests as a Rage. Far more than a mere emotion, and not limited to anger or fury, a Barbarian's Rage is an incarnation of a predator's ferocity, a storm's unrelenting assault, and the churning turmoil of the sea.",
+						"Some Barbarians personify their Rage as a fierce spirit or revered forebear. Others see it as a connection to the pain and anguish of the world, as an impersonal tangle of wild magic, or as an expression of their own deepest self. For every Barbarian, their Rage is a power that fuels not just battle prowess but also uncanny reflexes and heightened senses.",
+						"Some Barbarians are uncomfortable when hedged in by walls and crowds, preferring to live in regions of unspoiled natural vitality. Others cherish the primal forces at work in farmlands and recognize the vitality of cities. Barbarians of all sorts embrace their place in the multiverse, valuing keen instincts and raw physicality.",
+						"Even without the power of their Rage, Barbarians are skilled in combat and the use of weapons. When they do call on their Rage, it gives them superhuman strength and resilience. It also heightens their senses and reflexes, making the Rage useful beyond combat.",
+						"Barbarians often serve as protectors and leaders in their communities. They charge headlong into danger so those who are under their protection don't have to. Their courage in the face of danger makes Barbarians perfectly suited for adventuring."
+					]
+				}
+			]
+		}
+	],
+	"subclass": [
+		{
+			"name": "Path of the World Tree",
+			"shortName": "World Tree",
+			"source": "XUA2023PlayersHandbookP8",
+			"className": "Barbarian",
+			"classSource": "XUA2023PlayersHandbookP8",
+			"page": 5,
+			"subclassFeatures": [
+				"Path of the World Tree|Barbarian|XUA2023PlayersHandbookP8|World Tree|XUA2023PlayersHandbookP8|3",
+				"Branches of the Tree|Barbarian|XUA2023PlayersHandbookP8|World Tree|XUA2023PlayersHandbookP8|6",
+				"Battering Roots|Barbarian|XUA2023PlayersHandbookP8|World Tree|XUA2023PlayersHandbookP8|10",
+				"Travel Along the Tree|Barbarian|XUA2023PlayersHandbookP8|World Tree|XUA2023PlayersHandbookP8|14"
+			]
+		}
+	],
+	"classFeature": [
+		{
+			"name": "Rage",
+			"source": "XUA2023PlayersHandbookP8",
+			"page": 3,
+			"className": "Barbarian",
+			"classSource": "XUA2023PlayersHandbookP8",
+			"level": 1,
+			"entries": [
+				"You can imbue yourself with a primal power that is called your Rage, a force that grants you extraordinary might and resilience. You can enter it as a Bonus Action, provided you aren't wearing Heavy Armor.",
+				"While active, your Rage has the following effects:",
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"items": [
+						{
+							"type": "item",
+							"name": "Damage Resistance",
+							"entries": [
+								"You have Resistance to Bludgeoning, Piercing, and Slashing damage."
+							]
+						},
+						{
+							"type": "item",
+							"name": "Rage Damage",
+							"entries": [
+								"When you make an attack with a weapon using Strength or an {@variantrule Unarmed Strike|XUA2023PlayersHandbookP8} and deal damage to the target, you gain a bonus to the damage that increases as you gain levels as a Barbarian, as shown in the Rage Damage column of the Barbarian table."
+							]
+						},
+						{
+							"type": "item",
+							"name": "Strength Advantage",
+							"entries": [
+								"You have Advantage on Strength checks and Strength saving throws."
+							]
+						},
+						{
+							"type": "item",
+							"name": "No Concentration or Spells",
+							"entries": [
+								"You can't maintain Concentration, and you can't cast spells."
+							]
+						}
+					]
+				},
+				"The Rage lasts until the end of your next turn, and it ends early if you don Heavy Armor or have the {@condition Incapacitated|XUA2023PlayersHandbookP8} condition. If your Rage is still active on your next turn, you can extend the Rage for another round by doing one or more of the following:",
+				{
+					"type": "list",
+					"items": [
+						"Make an attack roll against an enemy.",
+						"Force an enemy to make a saving throw.",
+						"Take a Bonus Action to extend your Rage."
+					]
+				},
+				"Each time the Rage is extended, it lasts until the end of your next turn. You can maintain a Rage for up to 10 minutes.",
+				"You can enter your Rage the number of times shown for your Barbarian level in the Rages column of the Barbarian table. You regain one expended use when you finish a Short Rest, and you regain all expended uses when you finish a {@variantrule Long Rest|XUA2023PlayersHandbookP8}."
+			]
+		},
+		{
+			"name": "Unarmored Defense",
+			"source": "XUA2023PlayersHandbookP8",
+			"page": 3,
+			"className": "Barbarian",
+			"classSource": "XUA2023PlayersHandbookP8",
+			"level": 1,
+			"entries": [
+				"While you aren't wearing any armor, your base Armor Class equals 10 + your Dexterity and Constitution modifiers. You can use a Shield and still gain this benefit."
+			]
+		},
+		{
+			"name": "Weapon Mastery",
+			"source": "XUA2023PlayersHandbookP8",
+			"page": 3,
+			"className": "Barbarian",
+			"classSource": "XUA2023PlayersHandbookP8",
+			"level": 1,
+			"entries": [
+				"Your training with weapons allows you to use the Mastery property of two kinds of Simple or Martial Melee weapons of your choice, such as Greataxes and Handaxes. Whenever you finish a {@variantrule Long Rest|XUA2023PlayersHandbookP8}, you can practice weapon drills and change one of those weapon choices.",
+				"When you reach certain levels in this class, you gain the ability to use the Mastery properties of more kinds of weapons, as shown in the Weapon Mastery column of the Barbarian table."
+			]
+		},
+		{
+			"name": "Danger Sense",
+			"source": "XUA2023PlayersHandbookP8",
+			"page": 4,
+			"className": "Barbarian",
+			"classSource": "XUA2023PlayersHandbookP8",
+			"level": 2,
+			"entries": [
+				"You gain an uncanny sense of when things aren't as they should be, giving you an edge when you dodge perils. You have Advantage on Dexterity saving throws, unless you have the {@condition Incapacitated|XUA2023PlayersHandbookP8} condition."
+			]
+		},
+		{
+			"name": "Reckless Attack",
+			"source": "XUA2023PlayersHandbookP8",
+			"page": 4,
+			"className": "Barbarian",
+			"classSource": "XUA2023PlayersHandbookP8",
+			"level": 2,
+			"entries": [
+				"You can throw aside all concern for defense to attack with fierce desperation. When you make your first attack roll on your turn, you can decide to attack recklessly. Doing so gives you Advantage on attack rolls using Strength until the start of your next turn, but attack rolls against you have Advantage during that time."
+			]
+		},
+		{
+			"name": "Barbarian Subclass",
+			"source": "XUA2023PlayersHandbookP8",
+			"page": 4,
+			"className": "Barbarian",
+			"classSource": "XUA2023PlayersHandbookP8",
+			"level": 3,
+			"entries": [
+				"You gain a Barbarian subclass of your choice: Path of the Berserker, Path of the Wild Heart, Path of the World Tree, or Path of the Zealot. The Path of the World Tree is detailed after this class's description.",
+				"A subclass is a specialization that grants you special features at certain Barbarian levels. For the rest of your career, you gain each of your subclass's features that are of your Barbarian level and lower."
+			]
+		},
+		{
+			"name": "Primal Knowledge",
+			"source": "XUA2023PlayersHandbookP8",
+			"page": 4,
+			"className": "Barbarian",
+			"classSource": "XUA2023PlayersHandbookP8",
+			"level": 3,
+			"entries": [
+				"You gain proficiency in another skill of your choice from the list of skills available to Barbarians at level 1.",
+				"In addition, while your Rage is active, you can channel primal power when you attempt certain tasks; whenever you make an ability check using one of the following skills, you can make it as a Strength check even if it normally uses a different ability: {@skill Acrobatics}, {@skill Intimidation}, {@skill Perception}, {@skill Stealth}, or {@skill Survival}. When you use this ability, your Strength represents primal power coursing through you, honing your agility and senses."
+			]
+		},
+		{
+			"name": "Ability Score Improvement",
+			"source": "XUA2023PlayersHandbookP8",
+			"page": 4,
+			"className": "Barbarian",
+			"classSource": "XUA2023PlayersHandbookP8",
+			"level": 4,
+			"entries": [
+				"You gain the {@feat Ability Score Improvement|XUA2023PlayersHandbookP8} feat or another feat of your choice for which you qualify.",
+				"As shown on the Barbarian table, you gain this feature again at levels 8, 12, 16, and 19."
+			]
+		},
+		{
+			"name": "Extra Attack",
+			"source": "XUA2023PlayersHandbookP8",
+			"page": 4,
+			"className": "Barbarian",
+			"classSource": "XUA2023PlayersHandbookP8",
+			"level": 5,
+			"entries": [
+				"You can attack twice, instead of once, whenever you take the {@action Attack|XUA2023PlayersHandbookP8} action on your turn."
+			]
+		},
+		{
+			"name": "Fast Movement",
+			"source": "XUA2023PlayersHandbookP8",
+			"page": 4,
+			"className": "Barbarian",
+			"classSource": "XUA2023PlayersHandbookP8",
+			"level": 5,
+			"entries": [
+				"Your speed increases by 10 feet while you aren't wearing Heavy Armor."
+			]
+		},
+		{
+			"name": "Subclass Feature",
+			"source": "XUA2023PlayersHandbookP8",
+			"page": 4,
+			"className": "Barbarian",
+			"classSource": "XUA2023PlayersHandbookP8",
+			"level": 6,
+			"entries": [
+				"You gain a feature from your Barbarian subclass."
+			]
+		},
+		{
+			"name": "Feral Instinct",
+			"source": "XUA2023PlayersHandbookP8",
+			"page": 4,
+			"className": "Barbarian",
+			"classSource": "XUA2023PlayersHandbookP8",
+			"level": 7,
+			"entries": [
+				"Your instincts are so honed that you have Advantage on Initiative rolls."
+			]
+		},
+		{
+			"name": "Instinctive Pounce",
+			"source": "XUA2023PlayersHandbookP8",
+			"page": 4,
+			"className": "Barbarian",
+			"classSource": "XUA2023PlayersHandbookP8",
+			"level": 7,
+			"entries": [
+				"As part of the Bonus Action you take to enter your Rage, you can {@variantrule Move|XUA2023PlayersHandbookP8} up to half your Speed."
+			]
+		},
+		{
+			"name": "Ability Score Improvement",
+			"source": "XUA2023PlayersHandbookP8",
+			"page": 4,
+			"className": "Barbarian",
+			"classSource": "XUA2023PlayersHandbookP8",
+			"level": 8,
+			"entries": [
+				"You gain the {@feat Ability Score Improvement|XUA2023PlayersHandbookP8} feat or another feat of your choice for which you qualify."
+			]
+		},
+		{
+			"name": "Brutal Strike",
+			"source": "XUA2023PlayersHandbookP8",
+			"page": 4,
+			"className": "Barbarian",
+			"classSource": "XUA2023PlayersHandbookP8",
+			"level": 9,
+			"entries": [
+				"If you use Reckless Attack, you can forgo Advantage on the next attack roll you make on your turn with a Strength-based attack. If that attack hits, the target takes an extra {@damage 1d10} damage of the same type dealt by the weapon or {@variantrule Unarmed Strike|XUA2023PlayersHandbookP8}, and you can cause one Brutal Strike effect of your choice. You have the following effect options.",
+				{
+					"type": "entries",
+					"name": "Forceful Blow",
+					"entries": [
+						"The target is pushed 15 feet straight away from you. You can then Move up to half your Speed straight toward the target without provoking Opportunity Attacks."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Hamstring Blow",
+					"entries": [
+						"The target's Speed is reduced by 15 feet until the start of your next turn."
+					]
+				}
+			]
+		},
+		{
+			"name": "Subclass Feature",
+			"source": "XUA2023PlayersHandbookP8",
+			"page": 4,
+			"className": "Barbarian",
+			"classSource": "XUA2023PlayersHandbookP8",
+			"level": 10,
+			"entries": [
+				"You gain a feature from your Barbarian subclass."
+			]
+		},
+		{
+			"name": "Relentless Rage",
+			"source": "XUA2023PlayersHandbookP8",
+			"page": 4,
+			"className": "Barbarian",
+			"classSource": "XUA2023PlayersHandbookP8",
+			"level": 11,
+			"entries": [
+				"Your Rage can keep you fighting despite grievous wounds. If you drop to 0 Hit Points while your Rage is active and don't die outright, you can make a {@dc 10} Constitution saving throw. If you succeed, your Hit Points instead change to a number equal to twice your Barbarian level.",
+				"Each time you use this feature after the first, the DC increases by 5. When you finish a {@variantrule Short Rest|XUA2023PlayersHandbookP8} or {@variantrule Long Rest|XUA2023PlayersHandbookP8}, the DC resets to 10."
+			]
+		},
+		{
+			"name": "Ability Score Improvement",
+			"source": "XUA2023PlayersHandbookP8",
+			"page": 4,
+			"className": "Barbarian",
+			"classSource": "XUA2023PlayersHandbookP8",
+			"level": 12,
+			"entries": [
+				"You gain the {@feat Ability Score Improvement|XUA2023PlayersHandbookP8} feat or another feat of your choice for which you qualify."
+			]
+		},
+		{
+			"name": "Brutal Strike Improvement",
+			"source": "XUA2023PlayersHandbookP8",
+			"page": 1,
+			"className": "Barbarian",
+			"classSource": "XUA2023PlayersHandbookP8",
+			"level": 13,
+			"entries": [
+				"You have honed new ways to attack furiously. The following effects are now among your Brutal Strike options.",
+				{
+					"type": "entries",
+					"name": "Staggering Blow",
+					"entries": [
+						"The target has Disadvantage on the next saving throw it makes, and it can't make Opportunity Attacks until the start of your next turn."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Sundering Blow",
+					"entries": [
+						"Your blow leaves an opening in the creature's defense for an ally until the start of your next turn. The next attack roll made by another creature against the target gains a bonus to that roll equal to your Rage Damage."
+					]
+				}
+			]
+		},
+		{
+			"name": "Subclass Feature",
+			"source": "XUA2023PlayersHandbookP8",
+			"page": 1,
+			"className": "Barbarian",
+			"classSource": "XUA2023PlayersHandbookP8",
+			"level": 14,
+			"entries": [
+				"You gain a feature from your Barbarian subclass."
+			]
+		},
+		{
+			"name": "Persistent Rage",
+			"source": "XUA2023PlayersHandbookP8",
+			"page": 5,
+			"className": "Barbarian",
+			"classSource": "XUA2023PlayersHandbookP8",
+			"level": 15,
+			"entries": [
+				"When you roll Initiative, you can regain all expended uses of Rage. After you regain uses of Rage in this way, you can't do so again until you finish a {@variantrule Long Rest|XUA2023PlayersHandbookP8}.",
+				"In addition, your Rage is so fierce that it now lasts for 10 minutes without you needing to do anything to extend it from round to round. The Rage ends early if you have the {@condition Unconscious|XUA2023PlayersHandbookP8}, not the {@condition Incapacitated|XUA2023PlayersHandbookP8}, condition or don Heavy Armor."
+			]
+		},
+		{
+			"name": "Ability Score Improvement",
+			"source": "XUA2023PlayersHandbookP8",
+			"page": 5,
+			"className": "Barbarian",
+			"classSource": "XUA2023PlayersHandbookP8",
+			"level": 16,
+			"entries": [
+				"You gain the {@feat Ability Score Improvement|XUA2023PlayersHandbookP8} feat or another feat of your choice for which you qualify."
+			]
+		},
+		{
+			"name": "Brutal Strike Improvement",
+			"source": "XUA2023PlayersHandbookP8",
+			"page": 5,
+			"className": "Barbarian",
+			"classSource": "XUA2023PlayersHandbookP8",
+			"level": 17,
+			"entries": [
+				"The extra damage your Brutal Strike deals increases to {@damage 2d10}. In addition, you can use two different Brutal Strike effects when you use your Brutal Strike feature."
+			]
+		},
+		{
+			"name": "Indomitable Might",
+			"source": "XUA2023PlayersHandbookP8",
+			"page": 5,
+			"className": "Barbarian",
+			"classSource": "XUA2023PlayersHandbookP8",
+			"level": 18,
+			"entries": [
+				"If your total for a Strength check or Strength saving throw is less than your Strength score, you can use that score in place of the total."
+			]
+		},
+		{
+			"name": "Ability Score Improvement",
+			"source": "XUA2023PlayersHandbookP8",
+			"page": 4,
+			"className": "Barbarian",
+			"classSource": "XUA2023PlayersHandbookP8",
+			"level": 19,
+			"entries": [
+				"You gain the {@feat Ability Score Improvement|XUA2023PlayersHandbookP8} feat or another feat of your choice for which you qualify."
+			]
+		},
+		{
+			"name": "Primal Champion",
+			"source": "XUA2023PlayersHandbookP8",
+			"page": 5,
+			"className": "Barbarian",
+			"classSource": "XUA2023PlayersHandbookP8",
+			"level": 20,
+			"entries": [
+				"You embody primal power. Your Strength and Constitution scores increase by 4, and their maximum is now 26."
+			]
+		}
+	],
+	"subclassFeature": [
+		{
+			"name": "Path of the World Tree",
+			"source": "XUA2023PlayersHandbookP8",
+			"page": 5,
+			"className": "Barbarian",
+			"classSource": "XUA2023PlayersHandbookP8",
+			"subclassShortName": "World Tree",
+			"subclassSource": "XUA2023PlayersHandbookP8",
+			"level": 3,
+			"entries": [
+				"Barbarians who follow the Path of the World Tree believe that their Rage links them to the cosmic ash tree Yggdrasil. This \"world tree\" grows among the Outer Planes, connecting them to each other and to the many worlds of the Material Plane, and the greatest plants on every world are said to be distant descendants of mighty Yggdrasil. These Barbarians draw on their connection to the world tree as a source of vitality and as a means of travel across the multiverse.",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Vitality of the Tree|Barbarian|XUA2023PlayersHandbookP8|World Tree|XUA2023PlayersHandbookP8|3"
+				}
+			]
+		},
+		{
+			"name": "Vitality of the Tree",
+			"source": "XUA2023PlayersHandbookP8",
+			"page": 5,
+			"className": "Barbarian",
+			"classSource": "XUA2023PlayersHandbookP8",
+			"subclassShortName": "World Tree",
+			"subclassSource": "XUA2023PlayersHandbookP8",
+			"level": 3,
+			"header": 2,
+			"entries": [
+				"Your Rage taps into the lifeforce of the World Tree. You gain the following benefits:",
+				{
+					"type": "entries",
+					"name": "Vitality Surge",
+					"entries": [
+						"When you activate your Rage, you gain a number of Temporary Hit Points equal to your Barbarian level."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Life-Giving Force",
+					"entries": [
+						"At the start of each of your turns while your Rage is active, you can choose another creature within 10 feet of yourself to gain Temporary Hit Points. To determine the number of Temporary Hit Points, roll a number of d6s equal to your Rage Damage bonus, and add them together. If any of these Temporary Hit Points remain when your Rage ends, they vanish."
+					]
+				}
+			]
+		},
+		{
+			"name": "Branches of the Tree",
+			"source": "XUA2023PlayersHandbookP8",
+			"page": 5,
+			"className": "Barbarian",
+			"classSource": "XUA2023PlayersHandbookP8",
+			"subclassShortName": "World Tree",
+			"subclassSource": "XUA2023PlayersHandbookP8",
+			"level": 6,
+			"header": 2,
+			"entries": [
+				"While your Rage is active, whenever a creature you can see starts its turn within 30 feet of you, you can use your Reaction to summon spectral branches of the World Tree around it. The target must succeed on a Strength saving throw (DC equal to 8 plus your Proficiency Bonus plus your Strength modifier) or be teleported to an unoccupied space you can see within 5 feet of yourself or in the nearest unoccupied space you can see. The space the target teleports to must be on a surface or liquid that can support it; otherwise, the target doesn't teleport.",
+				"After the target teleports, you can reduce its Speed to 0 until the end of the current turn.",
+				{
+					"type": "inset",
+					"page": 6,
+					"name": "Design Note: Voluntarily Failing a Save",
+					"entries": [
+						"The 2024 {@i Player's Handbook} will clarify that any creature can voluntarily fail any saving throw."
+					]
+				}
+			]
+		},
+		{
+			"name": "Battering Roots",
+			"source": "XUA2023PlayersHandbookP8",
+			"page": 6,
+			"className": "Barbarian",
+			"classSource": "XUA2023PlayersHandbookP8",
+			"subclassShortName": "World Tree",
+			"subclassSource": "XUA2023PlayersHandbookP8",
+			"level": 10,
+			"header": 2,
+			"entries": [
+				"Tendrils of the World Tree extend from your Melee weapons. During your turn, while you wield a Melee weapon with the Heavy or Versatile property, your reach with that weapon increases by 10 feet. When you hit with this weapon, you can activate the Push or Topple property in addition to any other Mastery property you are using with that weapon."
+			]
+		},
+		{
+			"name": "Travel Along the Tree",
+			"source": "XUA2023PlayersHandbookP8",
+			"page": 6,
+			"className": "Barbarian",
+			"classSource": "XUA2023PlayersHandbookP8",
+			"subclassShortName": "World Tree",
+			"subclassSource": "XUA2023PlayersHandbookP8",
+			"level": 14,
+			"header": 2,
+			"entries": [
+				"You can briefly travel along the World Tree. When you activate your Rage and as a Bonus Action while it's active, you can teleport up to 60 feet to an unoccupied space you can see.",
+				"In addition, when you teleport using this feature, you can bring up to six willing creatures who are within 10 feet of yourself, and the range you can teleport increases to 500 feet. Each creature teleports to an unoccupied space of your choice within 10 feet of your destination space. You can teleport other creatures with you only once per Rage."
+			]
+		}
+	],
 	"feat": [
 		{
 			"name": "Ability Score Improvement",
