@@ -17,8 +17,8 @@
 			}
 		],
 		"dateAdded": 1701616429,
-		"dateLastModified": 1701620417,
-		"_dateLastModifiedHash": "a3e4c037d1",
+		"dateLastModified": 1701635825,
+		"_dateLastModifiedHash": "5a519457a7",
 		"dependencies": {
 			"optionalfeature": [
 				"UAClassFeatureVariants",
