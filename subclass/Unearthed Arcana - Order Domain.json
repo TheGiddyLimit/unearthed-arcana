@@ -18,7 +18,12 @@
 		],
 		"dateAdded": 1701616429,
 		"dateLastModified": 1701618486,
-		"_dateLastModifiedHash": "0917cacab6"
+		"_dateLastModifiedHash": "0917cacab6",
+		"dependencies": {
+			"subclassFeature": [
+				"UAClassFeatureVariants"
+			]
+		}
 	},
 	"subclass": [
 		{
