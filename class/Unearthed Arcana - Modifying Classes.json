@@ -21,7 +21,9 @@
 		"_dateLastModifiedHash": "a3e4c037d1",
 		"dependencies": {
 			"optionalfeature": [
-				"UAClassFeatureVariants"
+				"UAClassFeatureVariants",
+				"UALightDarkUnderdark",
+				"UAWaterborneAdventures"
 			]
 		}
 	},
