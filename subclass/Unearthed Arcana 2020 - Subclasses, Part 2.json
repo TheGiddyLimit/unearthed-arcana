@@ -1,0 +1,932 @@
+{
+	"_meta": {
+		"sources": [
+			{
+				"json": "UA2020SubclassesPt2",
+				"abbreviation": "UA20S2",
+				"full": "Unearthed Arcana: 2020 Subclasses, Part 2",
+				"authors": [
+					"Wizards of the Coast"
+				],
+				"convertedBy": [
+					"Giddy"
+				],
+				"version": "1.0.0",
+				"url": "https://media.wizards.com/2020/dnd/downloads/UA2020_02_06_Subclasses2.pdf",
+				"dateReleased": "2020-02-04"
+			}
+		],
+		"dateAdded": 1701616429,
+		"dateLastModified": 1701616429,
+		"_dateLastModifiedHash": "aaaaaaaaaa"
+	},
+	"subclass": [
+		{
+			"name": "Clockwork Soul (UA)",
+			"shortName": "Clockwork Soul (UA)",
+			"source": "UA2020SubclassesPt2",
+			"className": "Sorcerer",
+			"classSource": "PHB",
+			"page": 4,
+			"isReprinted": true,
+			"additionalSpells": [
+				{
+					"known": {
+						"1": [
+							"alarm",
+							"protection from evil and good"
+						],
+						"3": [
+							"find traps",
+							"heat metal"
+						],
+						"5": [
+							"counterspell",
+							"glyph of warding"
+						],
+						"7": [
+							"arcane eye",
+							"Otiluke's resilient sphere"
+						],
+						"9": [
+							"animate objects",
+							"wall of force"
+						]
+					}
+				}
+			],
+			"subclassFeatures": [
+				"Clockwork Soul|Sorcerer||Clockwork Soul (UA)|UA2020SubclassesPt2|1",
+				"Bulwark of Law|Sorcerer||Clockwork Soul (UA)|UA2020SubclassesPt2|6",
+				"Trance of Order|Sorcerer||Clockwork Soul (UA)|UA2020SubclassesPt2|14",
+				"Clockwork Cavalcade|Sorcerer||Clockwork Soul (UA)|UA2020SubclassesPt2|18"
+			]
+		},
+		{
+			"name": "College of Creation (UA)",
+			"shortName": "Creation (UA)",
+			"source": "UA2020SubclassesPt2",
+			"className": "Bard",
+			"classSource": "PHB",
+			"page": 1,
+			"isReprinted": true,
+			"subclassFeatures": [
+				"College of Creation|Bard||Creation (UA)|UA2020SubclassesPt2|3",
+				"Animating Performance|Bard||Creation (UA)|UA2020SubclassesPt2|6",
+				"Performance of Creation|Bard||Creation (UA)|UA2020SubclassesPt2|14"
+			]
+		},
+		{
+			"name": "Love Domain (UA)",
+			"shortName": "Love (UA)",
+			"source": "UA2020SubclassesPt2",
+			"className": "Cleric",
+			"classSource": "PHB",
+			"page": 2,
+			"isReprinted": true,
+			"additionalSpells": [
+				{
+					"prepared": {
+						"1": [
+							"charm person",
+							"heroism"
+						],
+						"3": [
+							"enthrall",
+							"warding bond"
+						],
+						"5": [
+							"beacon of hope",
+							"hypnotic pattern"
+						],
+						"7": [
+							"aura of purity",
+							"confusion"
+						],
+						"9": [
+							"greater restoration",
+							"hold monster"
+						]
+					}
+				}
+			],
+			"subclassFeatures": [
+				"Love Domain (UA)|Cleric||Love (UA)|UA2020SubclassesPt2|1",
+				"Channel Divinity: Impulsive Infatuation|Cleric||Love (UA)|UA2020SubclassesPt2|2",
+				"Protective Bond|Cleric||Love (UA)|UA2020SubclassesPt2|6",
+				"Potent Spellcasting|Cleric||Love (UA)|UA2020SubclassesPt2|8",
+				"Blessed Strikes|Cleric||Love (UA)|UA2020SubclassesPt2|8|UAClassFeatureVariants",
+				"Enduring Unity|Cleric||Love (UA)|UA2020SubclassesPt2|17"
+			]
+		},
+		{
+			"name": "Unity Domain (UA)",
+			"shortName": "Unity (UA)",
+			"source": "UA2020SubclassesPt2",
+			"className": "Cleric",
+			"classSource": "PHB",
+			"page": 2,
+			"isReprinted": true,
+			"additionalSpells": [
+				{
+					"prepared": {
+						"1": [
+							"heroism",
+							"shield of faith"
+						],
+						"3": [
+							"aid",
+							"warding bond"
+						],
+						"5": [
+							"beacon of hope",
+							"sending"
+						],
+						"7": [
+							"aura of purity",
+							"guardian of faith"
+						],
+						"9": [
+							"greater restoration",
+							"Rary's telepathic bond"
+						]
+					}
+				}
+			],
+			"subclassFeatures": [
+				"Unity Domain (UA)|Cleric||Unity (UA)|UA2020SubclassesPt2|1",
+				"Channel Divinity: Shared Burden|Cleric||Unity (UA)|UA2020SubclassesPt2|2",
+				"Protective Bond|Cleric||Unity (UA)|UA2020SubclassesPt2|6",
+				"Potent Spellcasting|Cleric||Unity (UA)|UA2020SubclassesPt2|8",
+				"Blessed Strikes|Cleric||Unity (UA)|UA2020SubclassesPt2|8|UAClassFeatureVariants",
+				"Enduring Unity|Cleric||Unity (UA)|UA2020SubclassesPt2|17"
+			]
+		}
+	],
+	"subclassFeature": [
+		{
+			"name": "College of Creation",
+			"source": "UA2020SubclassesPt2",
+			"page": 1,
+			"className": "Bard",
+			"classSource": "PHB",
+			"subclassShortName": "Creation (UA)",
+			"subclassSource": "UA2020SubclassesPt2",
+			"level": 3,
+			"entries": [
+				"Bards believe the multiverse was given existence through word and sound, esoteric harmonies that continue to resound through existence: the Song of Creation. The bards of this college draw on this ancient power through performances of dance, music, or song to bring into being what they need most.",
+				"Members of this college might have developed their powers during experiences on other worlds or planes of existence. Those who have seen the commonalities of multiple realities might have learned how to tap into truths most mortals glimpse only for a moment. Alternatively, the bard might find themselves out of step with their own home plane, reality, or time, their connections to elsewhere allowing them to manipulate the space around them. Regardless of where a bard draws their powers from, other performers might be drawn to them, either to learn their secrets or to put an end to their dangerous manipulation of the Song of Creation.",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Note of Potential|Bard||Creation (UA)|UA2020SubclassesPt2|3"
+				}
+			]
+		},
+		{
+			"name": "Note of Potential",
+			"source": "UA2020SubclassesPt2",
+			"page": 1,
+			"className": "Bard",
+			"classSource": "PHB",
+			"subclassShortName": "Creation (UA)",
+			"subclassSource": "UA2020SubclassesPt2",
+			"level": 3,
+			"header": 1,
+			"entries": [
+				"{@i 3rd-level College of Creation feature}",
+				"You can manipulate the Song of Creation to summon a floating musical note of possibility: Whenever you give a creature a Bardic Inspiration die, you can create a Note of Potential. The note orbits within 5 feet of the creature. The note is a Tiny object that is intangible and invulnerable, and it lasts until the Bardic Inspiration die is lost. A creature with a note can use it in the following ways.",
+				{
+					"type": "entries",
+					"name": "Note of Destruction",
+					"entries": [
+						"Immediately after the creature rolls the Bardic Inspiration die to add it to an attack roll, the creature can expend the note to create a burst of sound. Each other creature within 5 feet of it must succeed on a Constitution saving throw against your spell save DC or take thunder damage equal to the number rolled on the Bardic Inspiration die."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Note of Protection",
+					"entries": [
+						"Immediately after the creature rolls the Bardic Inspiration die and adds it to a saving throw, the creature can expend the note to gain temporary hit points equal to the number rolled on the Bardic Inspiration die + your Charisma modifier, provided the creature doesn't already have temporary hit points."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Note of Ingenuity",
+					"entries": [
+						"When the creature rolls the Bardic Inspiration die to add it to an ability check, the creature can expend the note to roll the Bardic Inspiration die again and choose which roll to use."
+					]
+				}
+			]
+		},
+		{
+			"name": "Animating Performance",
+			"source": "UA2020SubclassesPt2",
+			"page": 1,
+			"className": "Bard",
+			"classSource": "PHB",
+			"subclassShortName": "Creation (UA)",
+			"subclassSource": "UA2020SubclassesPt2",
+			"level": 6,
+			"header": 2,
+			"entries": [
+				"{@i 6th-level College of Creation feature}",
+				"Your mastery over the Song of Creation allows you to magically bring items to life. As an action, you can target a Large or smaller nonmagical item you can see within 30 feet of you and animate it. The animate item uses the {@creature Dancing Item|UA2020SubclassesPt2} stat block and is under your control for 1 hour or until it is reduced to 0 hit points.",
+				"In combat, the item shares your initiative count, but it takes its turn immediately after yours. It can move and use its reaction on its own, but the only action it takes on its turn is the {@action Dodge} action, unless you take a bonus action on your turn to command it to take one of the actions in its stat block or the {@action Dash}, {@action Disengage}, {@action Help}, {@action Hide}, or {@action Search} action.",
+				"When you use your Bardic Inspiration feature, you can command which action your animated item takes as part of the same bonus action.",
+				"Once you animate an item with this feature, you can't do so again until you finish a long rest or until you expend a spell slot of 3rd level or higher to use this feature. You can have only one item animated by this feature at a time; if you use this action and already have a {@creature dancing item|UA2020SubclassesPt2} from this feature, the first one immediately becomes inanimate."
+			]
+		},
+		{
+			"name": "Performance of Creation",
+			"source": "UA2020SubclassesPt2",
+			"page": 1,
+			"className": "Bard",
+			"classSource": "PHB",
+			"subclassShortName": "Creation (UA)",
+			"subclassSource": "UA2020SubclassesPt2",
+			"level": 14,
+			"header": 2,
+			"entries": [
+				"{@i 14th-level College of Creation feature}",
+				"Your performance can manipulate the magic of creation, briefly transforming the world around you. As an action, you can create one nonmagical item of your choice in an unoccupied space within 10 feet of you. The item must appear on a surface or in a liquid that can support it. The gp value of the item can't be more than 20 times your bard level and must be Large or smaller. Tiny glimmering, intangible notes float around it, and a creature can faintly hear music when touching it. For examples of items you can create, see the Armor, Weapons, Adventuring Gear, Tools, and Mounts and Vehicles tables in chapter 5, \"Equipment,\" of the Player's Handbook.",
+				"The created item disappears at the end of your next turn, unless you use your action to maintain it. Each time you use your action in this way, the item's duration is extended to the end of your next turn, up to a maximum of 1 minute. If you maintain the item for the full minute, it continues to exist for a number of hours equal to your bard level.",
+				"Once you create an item with this feature, you can't do so again until you finish a long rest or until you expend a spell slot of 5th level or higher to use this feature. You can have only one item created by this feature at a time; if you use this action and already have an item from this feature, the first one immediately vanishes."
+			]
+		},
+		{
+			"name": "Love Domain (UA)",
+			"source": "UA2020SubclassesPt2",
+			"page": 2,
+			"className": "Cleric",
+			"classSource": "PHB",
+			"subclassShortName": "Love (UA)",
+			"subclassSource": "UA2020SubclassesPt2",
+			"level": 1,
+			"entries": [
+				"{@note Note: The Love domain was included in a leaked pre-release version of {@i Unearthed Arcana 2020 Subclasses, Part 2}, and superseded by the Unity domain for the final release.}",
+				"Love exists in many forms\u2014compassion, infatuation, friendly affection, and passionate love as a few facets. Whatever form these feelings take, the gods of love deepen the bonds between individuals.",
+				{
+					"type": "table",
+					"caption": "Love Deities",
+					"colLabels": [
+						"Deity",
+						"Pantheon"
+					],
+					"colStyles": [
+						"col-6",
+						"col-6"
+					],
+					"rows": [
+						[
+							"Aengus",
+							"Celtic"
+						],
+						[
+							"{@deity Aphrodite|Greek}",
+							"Greek"
+						],
+						[
+							"{@deity Balder|Norse}",
+							"Norse"
+						],
+						[
+							"{@deity Berronar Truesilver|Dwarven|SCAG}",
+							"Dwarven"
+						],
+						[
+							"{@deity Boldrei|Eberron}",
+							"Eberron"
+						],
+						[
+							"{@deity Cyrrollalee|Halfling|SCAG}",
+							"Halfling"
+						],
+						[
+							"{@deity Freya|Norse}",
+							"Norse"
+						],
+						[
+							"{@deity Hanali Celanil|Elven|SCAG}",
+							"Elven"
+						],
+						[
+							"{@deity Hathor|Egyptian}",
+							"Egyptian"
+						],
+						[
+							"{@deity Mishakal|Dragonlance}",
+							"Dragonlance"
+						],
+						[
+							"Myhriss",
+							"Greyhawk"
+						],
+						[
+							"{@deity Sharindlar|Dwarven|SCAG}",
+							"Dwarven"
+						],
+						[
+							"{@deity Sheyanna Flaxenstrand|Gnome|MTF}",
+							"Gnomish"
+						],
+						[
+							"{@deity Sune}",
+							"Forgotten Realms"
+						]
+					]
+				},
+				"Clerics of these gods preside over marriages and other familial bonding customs, but they also nurture the emotional bonds of friendship and camaraderie. Their divine blessings bolster and protect allies in battle through these deep bonds and enkindle flares of infatuation to spur their allies and confound their foes.",
+				{
+					"type": "table",
+					"caption": "Love Domain Spells",
+					"colLabels": [
+						"Cleric Level",
+						"Spells"
+					],
+					"colStyles": [
+						"col-2 text-center",
+						"col-10"
+					],
+					"rows": [
+						[
+							"1st",
+							"{@spell charm person}, {@spell heroism}"
+						],
+						[
+							"3rd",
+							"{@spell enthrall}, {@spell warding bond}"
+						],
+						[
+							"5th",
+							"{@spell beacon of hope}, {@spell hypnotic pattern}"
+						],
+						[
+							"7th",
+							"{@spell aura of purity}, {@spell confusion}"
+						],
+						[
+							"9th",
+							"{@spell greater restoration}, {@spell hold monster}"
+						]
+					]
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Emboldening Bond|Cleric||Love (UA)|UA2020SubclassesPt2|1"
+				}
+			]
+		},
+		{
+			"name": "Emboldening Bond",
+			"source": "UA2020SubclassesPt2",
+			"page": 2,
+			"className": "Cleric",
+			"classSource": "PHB",
+			"subclassShortName": "Love (UA)",
+			"subclassSource": "UA2020SubclassesPt2",
+			"level": 1,
+			"header": 1,
+			"entries": [
+				"{@i 1st-level Love Domain feature}",
+				"You can forge an empowering bond between allies. As an action, you can choose two willing creatures you can see within 30 feet of you (this can include yourself) and create a magical bond between them. While either bonded creature is within 30 feet of the other, the creature can roll a {@dice d4} and add the number rolled to an attack roll, an ability check, or a saving throw it makes. Each creature can add the {@dice d4} no more than once per turn. The bond lasts for 1 hour or until you use this feature again.",
+				"You can use this feature once, and you regain the ability to do so when you finish a long rest. You can also expend a spell slot to use the feature again."
+			]
+		},
+		{
+			"name": "Channel Divinity: Impulsive Infatuation",
+			"source": "UA2020SubclassesPt2",
+			"page": 2,
+			"className": "Cleric",
+			"classSource": "PHB",
+			"subclassShortName": "Love (UA)",
+			"subclassSource": "UA2020SubclassesPt2",
+			"level": 2,
+			"header": 2,
+			"consumes": {
+				"name": "Channel Divinity"
+			},
+			"entries": [
+				"{@i 2nd-level Love Domain feature}",
+				"You can use your Channel Divinity to overwhelm a creature with a flash of short-lived but intense admiration for you, driving them to rash action in your defense.",
+				"As an action, you present your holy symbol and choose one creature you can see within 30 feet of you. That creature must make a Wisdom saving throw; a creature can choose to fail this saving throw if it wishes. On a success, the creature is unaffected. On a failure, the creature is {@condition charmed} by you until the start of your next turn, and it must immediately use its reaction to make a weapon attack against a target you designate. If there are no valid targets, it uses its reaction to admire you."
+			]
+		},
+		{
+			"name": "Protective Bond",
+			"source": "UA2020SubclassesPt2",
+			"page": 2,
+			"className": "Cleric",
+			"classSource": "PHB",
+			"subclassShortName": "Love (UA)",
+			"subclassSource": "UA2020SubclassesPt2",
+			"level": 6,
+			"header": 2,
+			"entries": [
+				"{@i 6th-level Love Domain feature}",
+				"The bond you forge between people shields them from harm. While either creature chosen for your Emboldening Bond feature is within 30 feet of the other, the creature can use its reaction to grant resistance to all damage to the other creature when that other creature takes damage. This resistance lasts until the end of the current turn."
+			]
+		},
+		{
+			"name": "Potent Spellcasting",
+			"source": "UA2020SubclassesPt2",
+			"page": 2,
+			"className": "Cleric",
+			"classSource": "PHB",
+			"subclassShortName": "Love (UA)",
+			"subclassSource": "UA2020SubclassesPt2",
+			"level": 8,
+			"header": 2,
+			"entries": [
+				"{@i 8th-level Love Domain feature}",
+				"You add your Wisdom modifier to the damage you deal with any cleric cantrip."
+			]
+		},
+		{
+			"name": "Enduring Unity",
+			"source": "UA2020SubclassesPt2",
+			"page": 2,
+			"className": "Cleric",
+			"classSource": "PHB",
+			"subclassShortName": "Love (UA)",
+			"subclassSource": "UA2020SubclassesPt2",
+			"level": 17,
+			"header": 2,
+			"entries": [
+				"{@i 17th-level Love Domain feature}",
+				"The bonds you create endure across vast distances. Creatures affected by your Emboldening Bond feature gain its benefits, as well as those of your Protective Bond feature, while they are on the same plane of existence as each other.",
+				"Additionally, when a creature chosen for your Emboldening Bond is reduced to 0 hit points, their bonded partner gains the following benefits for 1 minute, or until the creature regains at least 1 hit point:",
+				{
+					"type": "list",
+					"items": [
+						"The creature has advantage on attack rolls, ability checks, and saving throws",
+						"The creature gains resistance to all damage",
+						"As an action, the creature can touch their bonded partner to expend and roll any number of Hit Dice. Their bonded partner regains a number of hit points equal to the total rolled."
+					]
+				}
+			]
+		},
+		{
+			"name": "Unity Domain (UA)",
+			"source": "UA2020SubclassesPt2",
+			"page": 2,
+			"className": "Cleric",
+			"classSource": "PHB",
+			"subclassShortName": "Unity (UA)",
+			"subclassSource": "UA2020SubclassesPt2",
+			"level": 1,
+			"entries": [
+				"A sense of oneness shines at the heart of healthy communities, whether bound together by friendship, blood, faith, or some other uniting force. The gods of unity deepen such bonds and delight in their strength.",
+				"Clerics of these gods preside over marriages and other familial bonding customs, but they also nurture the emotional bonds of friendship and camaraderie. Their divine blessings bolster and protect allies in battle through these deep bonds and turn aside malign influences.",
+				{
+					"type": "table",
+					"caption": "Unity Deities",
+					"colLabels": [
+						"Deity",
+						"Pantheon"
+					],
+					"colStyles": [
+						"col-6",
+						"col-6"
+					],
+					"rows": [
+						[
+							"{@deity Angharradh|Elven|SCAG}",
+							"Elven"
+						],
+						[
+							"{@deity Athena|Greek}",
+							"Greek"
+						],
+						[
+							"{@deity Berronar Truesilver|Dwarven|SCAG}",
+							"Dwarven"
+						],
+						[
+							"{@deity Boldrei|Eberron}",
+							"Eberron"
+						],
+						[
+							"{@deity Cyrrollalee|Halfling|SCAG}",
+							"Halfling"
+						],
+						[
+							"{@deity Eldath}",
+							"Forgotten Realms"
+						],
+						[
+							"{@deity Gaerdal Ironhand|Gnomish|SCAG}",
+							"Gnomish"
+						],
+						[
+							"{@deity Heimdall|Norse}",
+							"Norse"
+						],
+						[
+							"{@deity Paladine|Dragonlance}",
+							"Dragonlance"
+						],
+						[
+							"{@deity Rao|Greyhawk}",
+							"Greyhawk"
+						]
+					]
+				},
+				{
+					"type": "table",
+					"caption": "Unity Domain Spells",
+					"colLabels": [
+						"Cleric Level",
+						"Spells"
+					],
+					"colStyles": [
+						"col-2 text-center",
+						"col-10"
+					],
+					"rows": [
+						[
+							"1st",
+							"{@spell heroism}, {@spell shield of faith}"
+						],
+						[
+							"3rd",
+							"{@spell aid}, {@spell warding bond}"
+						],
+						[
+							"5th",
+							"{@spell beacon of hope}, {@spell sending}"
+						],
+						[
+							"7th",
+							"{@spell aura of purity}, {@spell guardian of faith}"
+						],
+						[
+							"9th",
+							"{@spell greater restoration}, {@spell Rary's telepathic bond}"
+						]
+					]
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Emboldening Bond|Cleric||Unity (UA)|UA2020SubclassesPt2|1"
+				}
+			]
+		},
+		{
+			"name": "Emboldening Bond",
+			"source": "UA2020SubclassesPt2",
+			"page": 2,
+			"className": "Cleric",
+			"classSource": "PHB",
+			"subclassShortName": "Unity (UA)",
+			"subclassSource": "UA2020SubclassesPt2",
+			"level": 1,
+			"header": 1,
+			"entries": [
+				"{@i 1st-level Unity Domain feature}",
+				"You can forge an empowering bond between allies. As an action, you can choose two willing creatures you can see within 30 feet of you (this can include yourself) and create a magical bond between them. While either bonded creature is within 30 feet of the other, the creature can roll a {@dice d4} and add the number rolled to an attack roll, an ability check, or a saving throw it makes. Each creature can add the {@dice d4} no more than once per turn. The bond lasts for 1 hour or until you use this feature again.",
+				"You can use this feature once, and you regain the ability to do so when you finish a long rest. You can also expend a spell slot to use the feature again."
+			]
+		},
+		{
+			"name": "Channel Divinity: Shared Burden",
+			"source": "UA2020SubclassesPt2",
+			"page": 2,
+			"className": "Cleric",
+			"classSource": "PHB",
+			"subclassShortName": "Unity (UA)",
+			"subclassSource": "UA2020SubclassesPt2",
+			"level": 2,
+			"header": 2,
+			"consumes": {
+				"name": "Channel Divinity"
+			},
+			"entries": [
+				"{@i 2nd-level Unity Domain feature}",
+				"You can use your Channel Divinity to protect your allies through the strength of your shared bonds.",
+				"When a creature you can see within 30 feet of you takes damage, you can use your reaction to choose a number of other willing creatures you can see, up to a number of creatures equal to your Wisdom modifier (minimum of one creature). Distribute the damage taken between the original target and the chosen creatures. Each creature must take at least 1 damage. Apply any damage resistance or vulnerability of the creatures involved after you distribute the damage."
+			]
+		},
+		{
+			"name": "Protective Bond",
+			"source": "UA2020SubclassesPt2",
+			"page": 2,
+			"className": "Cleric",
+			"classSource": "PHB",
+			"subclassShortName": "Unity (UA)",
+			"subclassSource": "UA2020SubclassesPt2",
+			"level": 6,
+			"header": 2,
+			"entries": [
+				"{@i 6th-level Unity Domain feature}",
+				"The bond you forge between people shields them from harm. While either creature chosen for your Emboldening Bond feature is within 30 feet of the other, the creature can use its reaction to grant resistance to all damage to the other creature when that other creature takes damage. This resistance lasts until the end of the current turn."
+			]
+		},
+		{
+			"name": "Potent Spellcasting",
+			"source": "UA2020SubclassesPt2",
+			"page": 2,
+			"className": "Cleric",
+			"classSource": "PHB",
+			"subclassShortName": "Unity (UA)",
+			"subclassSource": "UA2020SubclassesPt2",
+			"level": 8,
+			"header": 2,
+			"entries": [
+				"{@i 8th-level Unity Domain feature}",
+				"You add your Wisdom modifier to the damage you deal with any cleric cantrip."
+			]
+		},
+		{
+			"name": "Enduring Unity",
+			"source": "UA2020SubclassesPt2",
+			"page": 2,
+			"className": "Cleric",
+			"classSource": "PHB",
+			"subclassShortName": "Unity (UA)",
+			"subclassSource": "UA2020SubclassesPt2",
+			"level": 17,
+			"header": 2,
+			"entries": [
+				"{@i 17th-level Unity Domain feature}",
+				"The bonds you create endure across vast distances. Creatures affected by your Emboldening Bond feature gain its benefits, as well as those of your Protective Bond feature, while they are on the same plane of existence as each other.",
+				"Additionally, when a creature chosen for your Emboldening Bond is reduced to 0 hit points, their bonded partner gains the following benefits for 1 minute, or until the creature regains at least 1 hit point:",
+				{
+					"type": "list",
+					"items": [
+						"The creature has advantage on attack rolls, ability checks, and saving throws",
+						"The creature gains resistance to all damage",
+						"As an action, the creature can touch their bonded partner to expend and roll any number of Hit Dice. Their bonded partner regains a number of hit points equal to the total rolled."
+					]
+				}
+			]
+		},
+		{
+			"name": "Clockwork Soul",
+			"source": "UA2020SubclassesPt2",
+			"page": 4,
+			"className": "Sorcerer",
+			"classSource": "PHB",
+			"subclassShortName": "Clockwork Soul (UA)",
+			"subclassSource": "UA2020SubclassesPt2",
+			"level": 1,
+			"entries": [
+				"A plane of utmost order, Mechanus is a realm overseen by a godlike entity called Primus, whose actions are inscrutable and calculations, vast. You, or someone from your lineage, might have become entangled in one of the machinations of the leader of the modrons. Perhaps you were exposed to an artifact created by Primus, or your ancestor took part in the Great Modron March in some way.",
+				"The power of Mechanus can seem strange and alien to others, but for you it is part of a vast and glorious system that others can't comprehend. At your option, you can pick from or roll on the Manifestations of Mechanus table to create a way your connection to the plane manifests while you are casting a spell.",
+				{
+					"type": "table",
+					"caption": "Manifestations of Mechanus",
+					"colLabels": [
+						"d6",
+						"Manifestation"
+					],
+					"colStyles": [
+						"col-2 text-center",
+						"col-10"
+					],
+					"rows": [
+						[
+							"1",
+							"Large, spectral cogwheels appear hovering behind you."
+						],
+						[
+							"2",
+							"The hands of a clock appear in your eyes."
+						],
+						[
+							"3",
+							"Your skin glows with a golden, metallic sheen."
+						],
+						[
+							"4",
+							"Your features become unnaturally angular, like geometric objects."
+						],
+						[
+							"5",
+							"Your spellcasting focus takes the form of a miniature Spawning Stone or other creation of Primus."
+						],
+						[
+							"6",
+							"The ringing of a clock can be heard by you and those affected by your magic."
+						]
+					]
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Clockwork Magic|Sorcerer||Clockwork Soul (UA)|UA2020SubclassesPt2|1"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Restore Balance|Sorcerer||Clockwork Soul (UA)|UA2020SubclassesPt2|1"
+				}
+			]
+		},
+		{
+			"name": "Clockwork Magic",
+			"source": "UA2020SubclassesPt2",
+			"page": 4,
+			"className": "Sorcerer",
+			"classSource": "PHB",
+			"subclassShortName": "Clockwork Soul (UA)",
+			"subclassSource": "UA2020SubclassesPt2",
+			"level": 1,
+			"header": 1,
+			"entries": [
+				"{@i 1st-level Clockwork Soul feature}",
+				"You learn additional spells when you reach certain levels in this class, as shown on the Clockwork Spells table. Each spell counts as a sorcerer spell for you, but it doesn't count against the number of sorcerer spells you know. These spells can't be replaced when you gain a level in this class.",
+				{
+					"type": "table",
+					"caption": "Clockwork Spells",
+					"colLabels": [
+						"Sorcerer Level",
+						"Spells"
+					],
+					"colStyles": [
+						"col-2 text-center",
+						"col-10"
+					],
+					"rows": [
+						[
+							"1st",
+							"{@spell alarm}, {@spell protection from evil and good}"
+						],
+						[
+							"3rd",
+							"{@spell find traps}, {@spell heat metal}"
+						],
+						[
+							"5th",
+							"{@spell counterspell}, {@spell glyph of warding}"
+						],
+						[
+							"7th",
+							"{@spell arcane eye}, {@spell Otiluke's resilient sphere}"
+						],
+						[
+							"9th",
+							"{@spell animate objects}, {@spell wall of force}"
+						]
+					]
+				}
+			]
+		},
+		{
+			"name": "Restore Balance",
+			"source": "UA2020SubclassesPt2",
+			"page": 4,
+			"className": "Sorcerer",
+			"classSource": "PHB",
+			"subclassShortName": "Clockwork Soul (UA)",
+			"subclassSource": "UA2020SubclassesPt2",
+			"level": 1,
+			"header": 1,
+			"entries": [
+				"{@i 1st-level Clockwork Soul feature}",
+				"Your connection to the plane of absolute order allows you to equalize chaotic moments. When a creature you can see within 60 feet of you is about to roll a {@dice d20} with advantage or disadvantage, you can use your reaction to prevent the roll from being affected by advantage and disadvantage.",
+				"You can use this feature a number of times equal to your Charisma modifier (minimum of once), and you regain all expended uses when you finish a long rest."
+			]
+		},
+		{
+			"name": "Bulwark of Law",
+			"source": "UA2020SubclassesPt2",
+			"page": 4,
+			"className": "Sorcerer",
+			"classSource": "PHB",
+			"subclassShortName": "Clockwork Soul (UA)",
+			"subclassSource": "UA2020SubclassesPt2",
+			"level": 6,
+			"header": 2,
+			"consumes": {
+				"name": "Sorcery Point"
+			},
+			"entries": [
+				"{@i 6th-level Clockwork Soul feature}",
+				"You can imbue a creature with a shimmering shield of order. As an action, you can expend 1 to 5 sorcery points to create a magical ward around yourself or another creature you can see within 30 feet of you. The ward lasts until you finish a long rest or until you use this feature again.",
+				"The ward is represented by a number of {@dice d8}s equal to the number of sorcery points spent to create it. When the warded creature takes damage, it can use its reaction to spend a number of those dice, roll them, and reduce the damage taken by the total of the spent dice."
+			]
+		},
+		{
+			"name": "Trance of Order",
+			"source": "UA2020SubclassesPt2",
+			"page": 4,
+			"className": "Sorcerer",
+			"classSource": "PHB",
+			"subclassShortName": "Clockwork Soul (UA)",
+			"subclassSource": "UA2020SubclassesPt2",
+			"level": 14,
+			"header": 2,
+			"entries": [
+				"{@i 14th-level Clockwork Soul feature}",
+				"You gain the ability to enter a state of clockwork consciousness as a bonus action. For the next minute, attack rolls against you can't benefit from advantage, and whenever you make an attack roll, an ability check, or a saving throw, you can treat a {@dice d20} roll of 9 or lower as a 10.",
+				"Once you use this action, you can't use it again until you finish a long rest or until you expend 5 sorcery points to use it again."
+			]
+		},
+		{
+			"name": "Clockwork Cavalcade",
+			"source": "UA2020SubclassesPt2",
+			"page": 4,
+			"className": "Sorcerer",
+			"classSource": "PHB",
+			"subclassShortName": "Clockwork Soul (UA)",
+			"subclassSource": "UA2020SubclassesPt2",
+			"level": 18,
+			"header": 2,
+			"entries": [
+				"{@i 18th-level Clockwork Soul feature}",
+				"You summon spirits of order to restore balance around you. As an action, you summon the spirits in a 30-foot cube originating from you. The spirits look like modrons or other constructs of your choice. The spirits are intangible and invulnerable, work fast and efficiently, and create the following effects within the cube before vanishing:",
+				{
+					"type": "list",
+					"items": [
+						"The spirits restore up to 100 hit points, divided as you choose among any number of creatures of your choice in the cube.",
+						"Any damaged objects entirely in the cube are repaired.",
+						"Every spell of 6th level or lower ends on creatures and objects of your choice in the cube."
+					]
+				},
+				"Once you use this action, you can't use it again until you finish a long rest or until you expend 7 sorcery points to use it again."
+			]
+		}
+	],
+	"monster": [
+		{
+			"name": "Dancing Item",
+			"source": "UA2020SubclassesPt2",
+			"page": 2,
+			"size": [
+				"L"
+			],
+			"sizeNote": "or smaller",
+			"type": "construct",
+			"alignment": [
+				"N"
+			],
+			"ac": [
+				{
+					"ac": 16,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"special": "equal the dancing item's Constitution modifier + your Charisma modifier + five times your level in this class"
+			},
+			"speed": {
+				"walk": 40
+			},
+			"str": 18,
+			"dex": 14,
+			"con": 16,
+			"int": 4,
+			"wis": 10,
+			"cha": 6,
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"passive": 10,
+			"immune": [
+				"poison"
+			],
+			"conditionImmune": [
+				"charmed",
+				"exhaustion",
+				"poisoned",
+				"frightened"
+			],
+			"languages": [
+				"understands the languages you speak"
+			],
+			"trait": [
+				{
+					"name": "Endless Waltz",
+					"entries": [
+						"Immediately after the item makes a slam attack, it can take the Dodge action as a bonus action."
+					]
+				},
+				{
+					"name": "Immutable Form",
+					"entries": [
+						"The item is immune to any spell or effect that would alter its form."
+					]
+				}
+			],
+			"actionNote": "Requires Your Bonus Action",
+			"action": [
+				{
+					"name": "Force-Empowered Slam",
+					"entries": [
+						"{@atk mw} your spell attack modifier to hit, reach 5 ft., one target you can see. {@h}{@damage 1d10} + your Charisma modifier force damage."
+					]
+				}
+			],
+			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/unearthed-arcana/master/_img/tokens/UA2020SubclassesPt2/Dancing Item.png",
+			"traitTags": [
+				"Immutable Form"
+			],
+			"senseTags": [
+				"D"
+			],
+			"miscTags": [
+				"MW"
+			]
+		}
+	]
+}

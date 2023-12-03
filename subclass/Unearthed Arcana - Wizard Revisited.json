@@ -1,0 +1,284 @@
+{
+	"_meta": {
+		"sources": [
+			{
+				"json": "UAWizardRevisited",
+				"abbreviation": "UAWR",
+				"full": "Unearthed Arcana: Wizard Revisited",
+				"authors": [
+					"Wizards of the Coast"
+				],
+				"convertedBy": [
+					"Giddy"
+				],
+				"version": "1.0.0",
+				"url": "https://media.wizards.com/2017/dnd/downloads/MJ320UAWizardVF2017.pdf",
+				"dateReleased": "2017-03-20"
+			}
+		],
+		"dateAdded": 1701616429,
+		"dateLastModified": 1701616429,
+		"_dateLastModifiedHash": "aaaaaaaaaa"
+	},
+	"subclass": [
+		{
+			"name": "Theurgy (UA)",
+			"shortName": "Theurgy (UA)",
+			"source": "UAWizardRevisited",
+			"className": "Wizard",
+			"classSource": "PHB",
+			"page": 1,
+			"subclassFeatures": [
+				"Theurgy|Wizard||Theurgy (UA)|UAWizardRevisited|2",
+				"Arcane Acolyte|Wizard||Theurgy (UA)|UAWizardRevisited|6",
+				"Arcane Priest|Wizard||Theurgy (UA)|UAWizardRevisited|10",
+				"Arcane High Priest|Wizard||Theurgy (UA)|UAWizardRevisited|14"
+			]
+		},
+		{
+			"name": "War Magic (UA)",
+			"shortName": "War (UA)",
+			"source": "UAWizardRevisited",
+			"className": "Wizard",
+			"classSource": "PHB",
+			"page": 2,
+			"isReprinted": true,
+			"subclassFeatures": [
+				"War Magic|Wizard||War (UA)|UAWizardRevisited|2",
+				"Power Surge|Wizard||War (UA)|UAWizardRevisited|6",
+				"Durable Magic|Wizard||War (UA)|UAWizardRevisited|10",
+				"Durable Magic|Wizard||War (UA)|UAWizardRevisited|14"
+			]
+		}
+	],
+	"subclassFeature": [
+		{
+			"name": "Theurgy",
+			"source": "UAWizardRevisited",
+			"page": 1,
+			"className": "Wizard",
+			"classSource": "PHB",
+			"subclassShortName": "Theurgy (UA)",
+			"subclassSource": "UAWizardRevisited",
+			"level": 2,
+			"entries": [
+				"A number of deities claim arcane magic as their domain, for magic is as much a part of the fabric of the cosmos as wind, fire, lightning, and all other primal forces. Just as there are deities of the sea and gods of warfare, the arcane arts feature their own divine patrons.",
+				"Such deities often have clerics, but many gods of magic bid their followers to take up the study of wizardry. These religious magic-users follow the arcane tradition of Theurgy, and are commonly known as theurgists. Such spellcasters are as dedicated and scholarly as any other wizard, but they blend their arcane study with religious devotion.",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Divine Inspiration|Wizard||Theurgy (UA)|UAWizardRevisited|2"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Arcane Initiate|Wizard||Theurgy (UA)|UAWizardRevisited|2"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Channel Arcana|Wizard||Theurgy (UA)|UAWizardRevisited|2"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Channel Arcana: Divine Arcana|Wizard||Theurgy (UA)|UAWizardRevisited|2"
+				}
+			]
+		},
+		{
+			"name": "Arcane Initiate",
+			"source": "UAWizardRevisited",
+			"page": 1,
+			"className": "Wizard",
+			"classSource": "PHB",
+			"subclassShortName": "Theurgy (UA)",
+			"subclassSource": "UAWizardRevisited",
+			"level": 2,
+			"header": 1,
+			"entries": [
+				"Beginning when you select this tradition at 2nd level, whenever you gain a wizard level, you can replace one of the wizard spells you add to your spellbook with a cleric domain spell for your chosen domain. The spell must be of a level for which you have spell slots.",
+				"If you add all of your domain spells to your spellbook, you can subsequently add any spell from the cleric spell list instead. The spell must still be of a level for which you have spell slots.",
+				"Any cleric spell you gain from this feature is considered a wizard spell for you, but other wizards can't copy cleric spells from your spellbook into their own spellbooks."
+			]
+		},
+		{
+			"name": "Channel Arcana",
+			"source": "UAWizardRevisited",
+			"page": 1,
+			"className": "Wizard",
+			"classSource": "PHB",
+			"subclassShortName": "Theurgy (UA)",
+			"subclassSource": "UAWizardRevisited",
+			"level": 2,
+			"header": 1,
+			"entries": [
+				"At 2nd level, you gain the ability to channel arcane energy directly from your deity, using that energy to fuel magical effects. You start with two such effects: Divine Arcana and the Channel Divinity option granted at 2nd level by your chosen domain. You employ that Channel Divinity option by using your Channel Arcana ability.",
+				"When you use your Channel Arcana, you choose which effect to create. You must then finish a short or long rest to use your Channel Arcana again.",
+				"Some Channel Arcana effects require saving throws. When you use such an effect, the save DC equals your wizard spell save DC.",
+				"Beginning at 6th level, you can use your Channel Arcana twice between rests, and beginning at 18th level, you can use it three times between rests. When you finish a short or long rest, you regain your expended uses.",
+				"If you gain additional Channel Divinity options from your domain, you can employ them by using your Channel Arcana feature."
+			]
+		},
+		{
+			"name": "Channel Arcana: Divine Arcana",
+			"source": "UAWizardRevisited",
+			"page": 1,
+			"className": "Wizard",
+			"classSource": "PHB",
+			"subclassShortName": "Theurgy (UA)",
+			"subclassSource": "UAWizardRevisited",
+			"level": 2,
+			"header": 1,
+			"entries": [
+				"As a bonus action, you speak a prayer to control the flow of magic around you. The next spell you cast gains a +2 bonus to any attack roll you make for it or to its saving throw DC, as appropriate."
+			]
+		},
+		{
+			"name": "Divine Inspiration",
+			"source": "UAWizardRevisited",
+			"page": 1,
+			"className": "Wizard",
+			"classSource": "PHB",
+			"subclassShortName": "Theurgy (UA)",
+			"subclassSource": "UAWizardRevisited",
+			"level": 2,
+			"header": 1,
+			"entries": [
+				"When you choose this tradition at 2nd level, choose a domain from your chosen deity's list of eligible domains (see appendix B, \"Gods of the Multiverse,\" in the Player's Handbook for examples). The Knowledge and Light domains are especially appropriate choices for a theurgist."
+			]
+		},
+		{
+			"name": "Arcane Acolyte",
+			"source": "UAWizardRevisited",
+			"page": 1,
+			"className": "Wizard",
+			"classSource": "PHB",
+			"subclassShortName": "Theurgy (UA)",
+			"subclassSource": "UAWizardRevisited",
+			"level": 6,
+			"header": 2,
+			"entries": [
+				"At 6th level, you gain your chosen domain's 1st-level benefits. However, you do not gain any weapon or armor proficiencies from the domain."
+			]
+		},
+		{
+			"name": "Arcane Priest",
+			"source": "UAWizardRevisited",
+			"page": 1,
+			"className": "Wizard",
+			"classSource": "PHB",
+			"subclassShortName": "Theurgy (UA)",
+			"subclassSource": "UAWizardRevisited",
+			"level": 10,
+			"header": 2,
+			"entries": [
+				"At 10th level, you gain your chosen domain's 6th-level benefits. Your faith and your understanding of magic allow you to delve into your god's secrets."
+			]
+		},
+		{
+			"name": "Arcane High Priest",
+			"source": "UAWizardRevisited",
+			"page": 1,
+			"className": "Wizard",
+			"classSource": "PHB",
+			"subclassShortName": "Theurgy (UA)",
+			"subclassSource": "UAWizardRevisited",
+			"level": 14,
+			"header": 2,
+			"entries": [
+				"At 14th level, you gain your chosen domain's 17th-level benefits. Your academic nature and understanding of magic and doctrine allow you to master this ability sooner than a cleric of your domain."
+			]
+		},
+		{
+			"name": "War Magic",
+			"source": "UAWizardRevisited",
+			"page": 2,
+			"className": "Wizard",
+			"classSource": "PHB",
+			"subclassShortName": "War (UA)",
+			"subclassSource": "UAWizardRevisited",
+			"level": 2,
+			"entries": [
+				"A variety of arcane colleges specialize in training wizards for war. The tradition of War Magic blends principles of evocation and abjuration. It teaches techniques that empower a caster's spells, while also providing methods for a wizard to bolster their own defenses.",
+				"Followers of this tradition are known as war mages. They see their magic as both a weapon and armor, a resource superior to any flimsy piece of steel. War mages strike fast in battle, using their spells to seize tactical control of a situation. Their spells strike hard, while their defensive skills foil their opponents' attempts to counterattack.",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Arcane Deflection|Wizard||War (UA)|UAWizardRevisited|2"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Tactical Wit|Wizard||War (UA)|UAWizardRevisited|2"
+				}
+			]
+		},
+		{
+			"name": "Arcane Deflection",
+			"source": "UAWizardRevisited",
+			"page": 2,
+			"className": "Wizard",
+			"classSource": "PHB",
+			"subclassShortName": "War (UA)",
+			"subclassSource": "UAWizardRevisited",
+			"level": 2,
+			"header": 1,
+			"entries": [
+				"At 2nd level, you have learned to weave your magic to fortify yourself against harm. When you are hit by an attack or fail a Constitution saving throw, you can use your reaction to gain a +2 bonus to your AC against that attack or a +4 bonus to that saving throw.",
+				"When you use this feature, you can't cast spells other than cantrips until the end of your next turn."
+			]
+		},
+		{
+			"name": "Tactical Wit",
+			"source": "UAWizardRevisited",
+			"page": 2,
+			"className": "Wizard",
+			"classSource": "PHB",
+			"subclassShortName": "War (UA)",
+			"subclassSource": "UAWizardRevisited",
+			"level": 2,
+			"header": 1,
+			"entries": [
+				"Starting at 2nd level, your ability to quickly assess tactical situations allows you to act quickly in battle. You gain a bonus to your initiative rolls equal to your Intelligence modifier."
+			]
+		},
+		{
+			"name": "Power Surge",
+			"source": "UAWizardRevisited",
+			"page": 2,
+			"className": "Wizard",
+			"classSource": "PHB",
+			"subclassShortName": "War (UA)",
+			"subclassSource": "UAWizardRevisited",
+			"level": 6,
+			"header": 2,
+			"entries": [
+				"Starting at 6th level, you can empower your spells that unleash harm on groups of foes. When you force multiple creatures to make saving throws against the damage of one of your spells, you can increase the spell's damage by rolling two more of its damage dice. This increase occurs only on the turn you cast the spell.",
+				"Once you use this feature, you can't use it again until you finish a short or long rest."
+			]
+		},
+		{
+			"name": "Durable Magic",
+			"source": "UAWizardRevisited",
+			"page": 2,
+			"className": "Wizard",
+			"classSource": "PHB",
+			"subclassShortName": "War (UA)",
+			"subclassSource": "UAWizardRevisited",
+			"level": 10,
+			"header": 2,
+			"entries": [
+				"Beginning at 10th level, the magic you channel helps ward off harm. While you maintain {@status concentration} on a spell, you have a +2 bonus to AC and all saving throws."
+			]
+		},
+		{
+			"name": "Durable Magic",
+			"source": "UAWizardRevisited",
+			"page": 2,
+			"className": "Wizard",
+			"classSource": "PHB",
+			"subclassShortName": "War (UA)",
+			"subclassSource": "UAWizardRevisited",
+			"level": 14,
+			"header": 2,
+			"entries": [
+				"At 14th level, your Arcane Deflection becomes infused with deadly magic. When you use your Arcane Deflection feature, magical energy arcs from you; each creature of your choice within 10 feet of you takes force damage equal to half your wizard level."
+			]
+		}
+	]
+}

@@ -1,0 +1,337 @@
+{
+	"_meta": {
+		"sources": [
+			{
+				"json": "UAEladrinAndGith",
+				"abbreviation": "UAEaG",
+				"full": "Unearthed Arcana: Eladrin and Gith",
+				"authors": [
+					"Wizards of the Coast"
+				],
+				"convertedBy": [
+					"Giddy"
+				],
+				"version": "1.0.0",
+				"url": "https://media.wizards.com/2017/dnd/downloads/UA-Eladrin-Gith.pdf",
+				"dateReleased": "2017-09-11"
+			}
+		],
+		"dateAdded": 1701616429,
+		"dateLastModified": 1701616429,
+		"_dateLastModifiedHash": "aaaaaaaaaa"
+	},
+	"race": [
+		{
+			"name": "Gith",
+			"source": "UAEladrinAndGith",
+			"page": 2,
+			"size": [
+				"M"
+			],
+			"speed": 30,
+			"ability": [
+				{
+					"int": 1
+				}
+			],
+			"age": {
+				"mature": 20,
+				"max": 100
+			},
+			"languageProficiencies": [
+				{
+					"common": true,
+					"other": true
+				}
+			],
+			"entries": [
+				{
+					"name": "Age",
+					"type": "entries",
+					"entries": [
+						"Gith reach adulthood in their late teens and live for about a century."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Size",
+					"entries": [
+						"Gith are taller and leaner than humans, with most a slender 6 feet in height."
+					]
+				},
+				{
+					"name": "Languages",
+					"entries": [
+						"You can speak, read, and write Common and Gith."
+					],
+					"type": "entries"
+				}
+			]
+		}
+	],
+	"subrace": [
+		{
+			"name": "Eladrin",
+			"source": "UAEladrinAndGith",
+			"raceName": "Elf",
+			"raceSource": "PHB",
+			"page": 1,
+			"reprintedAs": [
+				"Elf (Eladrin)|MTF"
+			],
+			"ability": [
+				{
+					"choose": {
+						"from": [
+							"int",
+							"cha"
+						],
+						"count": 1
+					}
+				}
+			],
+			"additionalSpells": [
+				{
+					"known": {
+						"1": [
+							"friends#c",
+							"chill touch#c",
+							"minor illusion#c",
+							"fire bolt#c"
+						]
+					}
+				}
+			],
+			"entries": [
+				{
+					"name": "Fey Step",
+					"entries": [
+						"As a bonus action, you can magically teleport up to 30 feet to an unoccupied space you can see. Once you use this trait, you can't do so again until you finish a short or long rest."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Shifting Seasons",
+					"entries": [
+						"At the end of each short or long rest, you can align yourself with the magic of one season, regardless of the season that is dominating your personality. Doing so allows you to cast a certain cantrip, as shown in the Shifting Seasons Cantrips table. When you align yourself with a season's magic, you lose the cantrip associated with the previous season and gain the cantrip associated with the new season.",
+						"Your spellcasting ability for these cantrips is Intelligence or Charisma, whichever is higher.",
+						{
+							"type": "table",
+							"caption": "Shifting Seasons Cantrips",
+							"colLabels": [
+								"Season",
+								"Cantrip"
+							],
+							"colStyles": [
+								"col-6 text-center",
+								"col-6 text-center"
+							],
+							"rows": [
+								[
+									"Autumn",
+									"{@spell Friends}"
+								],
+								[
+									"Winter",
+									"{@spell Chill touch}"
+								],
+								[
+									"Spring",
+									"{@spell Minor illusion}"
+								],
+								[
+									"Summer",
+									"{@spell Fire bolt}"
+								]
+							]
+						}
+					],
+					"type": "entries"
+				}
+			]
+		},
+		{
+			"name": "Githyanki",
+			"source": "UAEladrinAndGith",
+			"raceName": "Gith",
+			"raceSource": "UAEladrinAndGith",
+			"page": 2,
+			"reprintedAs": [
+				"Gith (Githyanki)|MTF"
+			],
+			"ability": [
+				{
+					"str": 2
+				}
+			],
+			"traitTags": [
+				"Skill Proficiency",
+				"Tool Proficiency"
+			],
+			"armorProficiencies": [
+				{
+					"light": true,
+					"medium": true
+				}
+			],
+			"skillToolLanguageProficiencies": [
+				{
+					"choose": [
+						{
+							"from": [
+								"anySkill",
+								"anyTool"
+							]
+						}
+					]
+				}
+			],
+			"additionalSpells": [
+				{
+					"innate": {
+						"3": {
+							"daily": {
+								"1": [
+									"jump"
+								]
+							}
+						},
+						"5": {
+							"daily": {
+								"1": [
+									"misty step"
+								]
+							}
+						}
+					},
+					"ability": "int",
+					"known": {
+						"1": [
+							"mage hand#c"
+						]
+					}
+				}
+			],
+			"entries": [
+				{
+					"name": "Alignment",
+					"type": "entries",
+					"entries": [
+						"Githyanki tend toward lawful evil. They are self-centered, violent, and arrogant, yet they remain the faithful servants of their lich-queen, Vlaakith. Renegade githyanki tend toward chaos as they have forsaken her will."
+					]
+				},
+				{
+					"name": "Decadent Mastery",
+					"entries": [
+						"You learn one language of your choice, and you are proficient with one skill or {@book tool|phb|5|tools} of your choice. In the timeless city of Tu'narath, githyanki have bountiful time to master odd bits of knowledge."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Martial Prodigy",
+					"entries": [
+						"You are proficient with light and medium armor. Your people are ever ready for war."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Githyanki Psionics",
+					"entries": [
+						"You know the {@spell mage hand} cantrip. When you reach 3rd level, you can cast {@spell jump} once with this trait, and you regain the ability to do so when you finish a long rest. When you reach 5th level, you can cast the {@spell misty step} spell once with this trait, and you regain the ability to do so when you finish a long rest.",
+						"Intelligence is your spellcasting ability for these spells. You can cast all of them without components."
+					],
+					"type": "entries"
+				}
+			]
+		},
+		{
+			"name": "Githzerai",
+			"source": "UAEladrinAndGith",
+			"raceName": "Gith",
+			"raceSource": "UAEladrinAndGith",
+			"page": 3,
+			"reprintedAs": [
+				"Gith (Githzerai)|MTF"
+			],
+			"ability": [
+				{
+					"wis": 2
+				}
+			],
+			"traitTags": [
+				"Natural Armor"
+			],
+			"additionalSpells": [
+				{
+					"innate": {
+						"3": {
+							"daily": {
+								"1": [
+									"shield"
+								]
+							}
+						},
+						"5": {
+							"daily": {
+								"1": [
+									"detect thoughts"
+								]
+							}
+						}
+					},
+					"ability": "wis",
+					"known": {
+						"1": [
+							"mage hand#c"
+						]
+					}
+				}
+			],
+			"entries": [
+				{
+					"name": "Alignment",
+					"type": "entries",
+					"entries": [
+						"Githzerai tend toward lawful neutral. Their rigorous training in psychic abilities requires an implacable mental discipline."
+					]
+				},
+				{
+					"name": "Monastic Training",
+					"entries": [
+						"You gain a +1 bonus to AC while you aren't wearing medium or heavy armor and aren't using a shield. All githzerai receive basic training from monks, and the monks among them are unmatched in their defensive abilities."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Githzerai Psionics",
+					"entries": [
+						"You know the {@spell mage hand} cantrip. When you reach 3rd level, you can cast {@spell shield} once with this trait, and you regain the ability to do so when you finish a long rest. When you reach 5th level, you can cast the {@spell detect thoughts} spell once with this trait, and you regain the ability to do so when you finish a long rest.",
+						"Wisdom is your spellcasting ability for these spells. You can cast all of them without components."
+					],
+					"type": "entries"
+				}
+			]
+		}
+	],
+	"foundryRaceFeature": [
+		{
+			"name": "Monastic Training",
+			"source": "UAEladrinAndGith",
+			"raceName": "Gith (Githzerai)",
+			"raceSource": "UAEladrinAndGith",
+			"effects": [
+				{
+					"name": "Lightly Armored Defense",
+					"transfer": true,
+					"changes": [
+						{
+							"key": "data.attributes.ac.bonus",
+							"mode": "ADD",
+							"value": "+ 1"
+						}
+					]
+				}
+			]
+		}
+	]
+}

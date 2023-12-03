@@ -1,0 +1,405 @@
+{
+	"_meta": {
+		"sources": [
+			{
+				"json": "UA2021FolkOfTheFeywild",
+				"abbreviation": "UA21FF",
+				"full": "Unearthed Arcana: 2021 Folk of the Feywild",
+				"authors": [
+					"Wizards of the Coast"
+				],
+				"convertedBy": [
+					"Giddy"
+				],
+				"version": "1.0.0",
+				"url": "https://media.wizards.com/2021/dnd/downloads/UA2021_FeyFolk.pdf",
+				"dateReleased": "2020-03-12"
+			}
+		],
+		"dateAdded": 1701616429,
+		"dateLastModified": 1701616429,
+		"_dateLastModifiedHash": "aaaaaaaaaa"
+	},
+	"race": [
+		{
+			"name": "Fairy",
+			"source": "UA2021FolkOfTheFeywild",
+			"page": 2,
+			"reprintedAs": [
+				"Fairy|WBtW"
+			],
+			"lineage": "VRGR",
+			"creatureTypes": [
+				"fey"
+			],
+			"size": [
+				"S"
+			],
+			"speed": {
+				"walk": 30,
+				"fly": true
+			},
+			"additionalSpells": [
+				{
+					"ability": {
+						"choose": [
+							"int",
+							"wis",
+							"cha"
+						]
+					},
+					"known": {
+						"1": [
+							"druidcraft#c"
+						]
+					},
+					"innate": {
+						"1": {
+							"daily": {
+								"1": [
+									"faerie fire"
+								]
+							}
+						}
+					}
+				}
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Creature Type",
+					"entries": [
+						"You are a Fey."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Fairy Flight",
+					"entries": [
+						"You have a flying speed equal to your walking speed and can hover. This flight is magical and does not require the use of your wings (if you have them)."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Fairy Magic",
+					"entries": [
+						"You know the {@spell druidcraft} and {@spell faerie fire} spells. You can cast faerie fire without expending a spell slot, and you must finish a long rest before you can cast it this way again. You can also cast this spell using any spell slots you have. Your spellcasting ability for these spells is your choice of Intelligence, Wisdom, or Charisma."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Fey Passage",
+					"entries": [
+						"You can squeeze through a space as narrow as 1 inch wide."
+					]
+				}
+			],
+			"fluff": {
+				"_raceFluff": {
+					"name": "Fairy",
+					"source": "UA2021FolkOfTheFeywild"
+				}
+			}
+		},
+		{
+			"name": "Hobgoblin",
+			"source": "UA2021FolkOfTheFeywild",
+			"page": 2,
+			"reprintedAs": [
+				"Hobgoblin|MPMM"
+			],
+			"lineage": "VRGR",
+			"size": [
+				"M"
+			],
+			"speed": 30,
+			"darkvision": 60,
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Darkvision",
+					"entries": [
+						"You can see in dim light within 60 feet of you as if it were bright light and in darkness as if it were dim light. You discern colors in that darkness only as shades of gray."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Fey Ancestry",
+					"entries": [
+						"You have advantage on saving throws you make to avoid or end the {@condition charmed} condition on yourself."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Fey Gift",
+					"entries": [
+						"You can use this trait to take the {@action Help} action as a bonus action, and you can do so a number of times equal to your proficiency bonus. You regain all expended uses when you finish a long rest.",
+						"Starting at 3rd level, choose one of the options below each time you take the {@action Help} action, whether as a bonus action or an action:",
+						{
+							"type": "list",
+							"style": "list-hang-notitle",
+							"items": [
+								{
+									"type": "item",
+									"name": "Hospitality",
+									"entry": "You and the target of your {@action Help} action each gain a number of temporary hit points equal to {@dice 1d6} plus your proficiency bonus."
+								},
+								{
+									"type": "item",
+									"name": "Passage",
+									"entry": "You and the target of your {@action Help} action each increase your walking speeds by 10 feet until the start of your next turn."
+								},
+								{
+									"type": "item",
+									"name": "Spite",
+									"entry": "Until the start of your next turn, the first time you or the target of your {@action Help} action hits a creature with an attack roll, that creature has disadvantage on the next attack roll that it makes within the next minute."
+								}
+							]
+						}
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Fortune from the Many",
+					"entries": [
+						"If you miss with an attack roll or fail an ability check or a saving throw, you can draw on your bonds of reciprocity to gain a bonus to the roll equal to the number of allies you can see within 30 feet of you (maximum bonus of +5). You can use this trait a number of times equal to your proficiency bonus, and you regain all expended uses you finish a long rest."
+					]
+				}
+			],
+			"fluff": {
+				"_raceFluff": {
+					"name": "Hobgoblin",
+					"source": "UA2021FolkOfTheFeywild"
+				}
+			}
+		},
+		{
+			"name": "Owlfolk",
+			"source": "UA2021FolkOfTheFeywild",
+			"page": 3,
+			"reprintedAs": [
+				"Owlin|SCC"
+			],
+			"lineage": "VRGR",
+			"size": [
+				"S",
+				"M"
+			],
+			"speed": {
+				"walk": 30,
+				"fly": 30
+			},
+			"darkvision": 90,
+			"skillProficiencies": [
+				{
+					"stealth": true
+				}
+			],
+			"additionalSpells": [
+				{
+					"ability": {
+						"choose": [
+							"int",
+							"wis",
+							"cha"
+						]
+					},
+					"known": {
+						"1": {
+							"ritual": [
+								"detect magic"
+							]
+						}
+					}
+				}
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Size",
+					"entries": [
+						"You are Medium or Small. You choose the size when you gain this race."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Darkvision",
+					"entries": [
+						"You can see in dim light within 90 feet of you as if it were bright light and in darkness as if it were dim light. You discern colors in that darkness only as shades of gray."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Magic Sight",
+					"entries": [
+						"Your keen senses can focus to see the presence of magic. You gain the ability to cast the {@spell detect magic} spell, but only as a ritual. Your spellcasting ability for this spell is your choice of Intelligence, Wisdom, or Charisma. You can also cast this spell normally with any spell slots you have."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Nimble Flight",
+					"entries": [
+						"Thanks to your wings, you have a flying speed equal to your walking speed. When you fall, you can use your reaction to make a Dexterity saving throw (DC 10) to stop falling and fly in place until the start of your next turn."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Silent Feathers",
+					"entries": [
+						"You have proficiency in the {@skill Stealth} skill."
+					]
+				}
+			],
+			"fluff": {
+				"_raceFluff": {
+					"name": "Owlfolk",
+					"source": "UA2021FolkOfTheFeywild"
+				}
+			}
+		},
+		{
+			"name": "Rabbitfolk",
+			"source": "UA2021FolkOfTheFeywild",
+			"page": 3,
+			"reprintedAs": [
+				"Harengon|WBtW"
+			],
+			"lineage": "VRGR",
+			"size": [
+				"S",
+				"M"
+			],
+			"speed": 30,
+			"skillProficiencies": [
+				{
+					"perception": true
+				}
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Size",
+					"entries": [
+						"You are Medium or Small. You choose the size when you gain this race."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Hare-Trigger",
+					"entries": [
+						"You add your proficiency bonus to your initiative rolls."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Leporine Senses",
+					"entries": [
+						"You have proficiency in the {@skill Perception} skill."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Lucky Footwork",
+					"entries": [
+						"When you fail a Dexterity saving throw, you can use your reaction to roll a {@dice d4} and add it to the result, potentially turning the failure into a success."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Rabbit Hop",
+					"entries": [
+						"Once during each of your turns when you walk at least 5 feet, you can hop, rolling a {@dice d12} and moving that many feet in a direction of your choice. This extra distance doesn't cost movement, but you can hop only if your speed isn't 0."
+					]
+				}
+			],
+			"fluff": {
+				"_raceFluff": {
+					"name": "Rabbitfolk",
+					"source": "UA2021FolkOfTheFeywild"
+				}
+			}
+		}
+	],
+	"raceFluff": [
+		{
+			"name": "Fairy",
+			"source": "UA2021FolkOfTheFeywild",
+			"entries": [
+				"The Feywild is home to many fantastic peoples, including fairies. Fairies are a wee folk, but not nearly as much so as their pixie and sprite friends.",
+				"Infused with the magic of the Feywild, fairies share a few commonalities with one another but can differ widely in appearance, behavior, and attitude. Many fairies have a special physical characteristic that sets them apart from other creatures of their kind. For your fairy, roll on the Fey Characteristic table or choose an option from it. The Feywild is a wild place, so come up with your own characteristic if none of these fit your character.",
+				{
+					"type": "table",
+					"caption": "Fey Characteristics",
+					"colLabels": [
+						"d8",
+						"Characteristic"
+					],
+					"colStyles": [
+						"col-2 text-center",
+						"col-10"
+					],
+					"rows": [
+						[
+							"1",
+							"You have small wings like those of an insect."
+						],
+						[
+							"2",
+							"You have shimmering, multicolored skin."
+						],
+						[
+							"3",
+							"You have exceptionally large ears."
+						],
+						[
+							"4",
+							"A constant, glittering mist surrounds you."
+						],
+						[
+							"5",
+							"You have a small spectral horn on your forehead, like a little unicorn horn."
+						],
+						[
+							"6",
+							"Your hands never look dirty."
+						],
+						[
+							"7",
+							"You smell like fresh brownies."
+						],
+						[
+							"8",
+							"A noticeable, harmless chill surrounds you."
+						]
+					]
+				}
+			]
+		},
+		{
+			"name": "Hobgoblin",
+			"source": "UA2021FolkOfTheFeywild",
+			"entries": [
+				"Hobgoblins trace their origins to the Feywild, where they first appeared with their goblin and bugbear kin. That history has left its mark, for though hobgoblins are found throughout the Material Plane, they continue to channel an aspect of the Feywild's rule of reciprocity, which creates a mystical bond between the giver and the receiver of a gift.",
+				"On some worlds, such bonds lead hobgoblins to form communities with deep ties to each other. In the Forgotten Realms, vast hobgoblin legions have emerged, with ranks upon ranks of devoted soldiers noteworthy for how effective they are at fighting as a unit.",
+				"Hobgoblins are generally taller than their goblin cousins but not quite as big as bugbears. They have curved, pointed ears and noses that turn red or blue during displays of emotion."
+			]
+		},
+		{
+			"name": "Owlfolk",
+			"source": "UA2021FolkOfTheFeywild",
+			"entries": [
+				"Distant kin of giant owls, owlfolk come in many shapes and sizes, from petite and fluffy to widewinged and majestic. Owlfolk have arms and legs like other Humanoids, as well as wings that extend from their back and shoulders.",
+				"Because of their ancestral tie to the Feywild, owlfolk can innately see the magic of their surroundings. Like owls, owlfolk are graced with feathers that make no sound when they move or fly, making it easy for them to sneak up on you in the library.",
+				"Your owlfolk character might be nocturnal. Or perhaps your character is simply prone to rise later, embodying the common nickname of night owl."
+			]
+		},
+		{
+			"name": "Rabbitfolk",
+			"source": "UA2021FolkOfTheFeywild",
+			"entries": [
+				"Bounding across the wilds, rabbitfolk from the Feywild embody a spirit of freedom and travel.",
+				"Rabbitfolk are bipedal, with the characteristic long feet of the animal they resemble and fur in a variety of colors. They share the keen senses and powerful legs of leporine creatures and are full of energy, like a wound-up spring. Rabbitfolk are blessed with a little fey luck, and they often find themselves a few fortunate feet away from dangers during adventures."
+			]
+		}
+	]
+}

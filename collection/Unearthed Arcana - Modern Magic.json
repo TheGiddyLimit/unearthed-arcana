@@ -1,0 +1,1481 @@
+{
+	"_meta": {
+		"sources": [
+			{
+				"json": "UAModernMagic",
+				"abbreviation": "UAMM",
+				"full": "Unearthed Arcana: Modern Magic",
+				"authors": [
+					"Wizards of the Coast"
+				],
+				"convertedBy": [
+					"Giddy"
+				],
+				"version": "1.0.0",
+				"url": "https://media.wizards.com/2015/downloads/dnd/UA_ModernMagic.pdf",
+				"dateReleased": "2015-08-03"
+			}
+		],
+		"dateAdded": 1701616429,
+		"dateLastModified": 1701616429,
+		"_dateLastModifiedHash": "aaaaaaaaaa"
+	},
+	"subclass": [
+		{
+			"name": "City Domain (UA)",
+			"shortName": "City (UA)",
+			"source": "UAModernMagic",
+			"className": "Cleric",
+			"classSource": "PHB",
+			"page": 1,
+			"additionalSpells": [
+				{
+					"prepared": {
+						"1": [
+							"comprehend languages",
+							"remote access (ua)|uamodernmagic"
+						],
+						"3": [
+							"find vehicle (ua)|uamodernmagic",
+							"heat metal"
+						],
+						"5": [
+							"lightning bolt",
+							"protection from ballistics (ua)|uamodernmagic"
+						],
+						"7": [
+							"locate creature",
+							"synchronicity (ua)|uamodernmagic"
+						],
+						"9": [
+							"commune with city (ua)|uamodernmagic",
+							"shutdown (ua)|uamodernmagic"
+						]
+					}
+				}
+			],
+			"subclassFeatures": [
+				"City Domain (UA)|Cleric||City (UA)|UAModernMagic|1",
+				"Channel Divinity: Spirits of the City|Cleric||City (UA)|UAModernMagic|2",
+				"Block Watch|Cleric||City (UA)|UAModernMagic|6",
+				"Divine Strike|Cleric||City (UA)|UAModernMagic|8",
+				"Blessed Strikes|Cleric||City (UA)|UAModernMagic|8|UAClassFeatureVariants",
+				"Express Transit|Cleric||City (UA)|UAModernMagic|17"
+			]
+		},
+		{
+			"name": "Ghost in the Machine (UA)",
+			"shortName": "Ghost in the Machine (UA)",
+			"source": "UAModernMagic",
+			"className": "Warlock",
+			"classSource": "PHB",
+			"page": 2,
+			"additionalSpells": [
+				{
+					"expanded": {
+						"s1": [
+							"infallible relay (ua)|uamodernmagic",
+							"remote access (ua)|uamodernmagic"
+						],
+						"s2": [
+							"arcane hacking (ua)|uamodernmagic",
+							"digital phantom (ua)|uamodernmagic"
+						],
+						"s3": [
+							"haywire (ua)|uamodernmagic",
+							"invisibility to cameras (ua)|uamodernmagic"
+						],
+						"s4": [
+							"conjure knowbot (ua)|uamodernmagic",
+							"system backdoor (ua)|uamodernmagic"
+						],
+						"s5": [
+							"shutdown (ua)|uamodernmagic",
+							"synchronicity (ua)|uamodernmagic"
+						]
+					}
+				}
+			],
+			"subclassFeatures": [
+				"Ghost in the Machine|Warlock||Ghost in the Machine (UA)|UAModernMagic|1",
+				"Wire Walk|Warlock||Ghost in the Machine (UA)|UAModernMagic|6",
+				"Personal Encryption|Warlock||Ghost in the Machine (UA)|UAModernMagic|10",
+				"Technovirus|Warlock||Ghost in the Machine (UA)|UAModernMagic|14"
+			]
+		},
+		{
+			"name": "Technomancy (UA)",
+			"shortName": "Technomancy (UA)",
+			"source": "UAModernMagic",
+			"className": "Wizard",
+			"classSource": "PHB",
+			"page": 3,
+			"subclassFeatures": [
+				"Technomancy|Wizard||Technomancy (UA)|UAModernMagic|2",
+				"Program Spell|Wizard||Technomancy (UA)|UAModernMagic|6",
+				"Online Casting|Wizard||Technomancy (UA)|UAModernMagic|10",
+				"Chained Device|Wizard||Technomancy (UA)|UAModernMagic|14"
+			]
+		}
+	],
+	"subclassFeature": [
+		{
+			"name": "City Domain (UA)",
+			"source": "UAModernMagic",
+			"page": 1,
+			"className": "Cleric",
+			"classSource": "PHB",
+			"subclassShortName": "City (UA)",
+			"subclassSource": "UAModernMagic",
+			"level": 1,
+			"entries": [
+				"The City domain is concerned with the citizenry, commerce, traffic, and even architecture of modern civilization. In the eyes of a cleric of the city, the center of modern life is a sense and spirit of community, and the gravest enemies of the city are those who seek to harm the common weal of its citizens.",
+				"At each indicated cleric level, add the listed spells to your spells prepared. They do not count towards your limit.",
+				"Spells marked with an asterisk can be found in Unearthed Arcana: Modern Magic.",
+				{
+					"type": "table",
+					"caption": "City Domain Spells",
+					"colLabels": [
+						"Cleric Level",
+						"Spells"
+					],
+					"colStyles": [
+						"col-2 text-center",
+						"col-10"
+					],
+					"rows": [
+						[
+							"1st",
+							"{@spell comprehend languages}, {@spell remote access (UA)|UAModernMagic|remote access}*"
+						],
+						[
+							"3rd",
+							"{@spell find vehicle (UA)|UAModernMagic|find vehicle}*, {@spell heat metal}"
+						],
+						[
+							"5th",
+							"{@spell lightning bolt}, {@spell protection from ballistics (UA)|UAModernMagic|protection from ballistics}*"
+						],
+						[
+							"7th",
+							"{@spell locate creature}, {@spell synchronicity (UA)|UAModernMagic|synchronicity}*"
+						],
+						[
+							"9th",
+							"{@spell commune with city (UA)|UAModernMagic|commune with city}*, {@spell shutdown (UA)|UAModernMagic|shutdown}*"
+						]
+					]
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Bonus Cantrip|Cleric||City (UA)|UAModernMagic|1"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Bonus Proficiencies|Cleric||City (UA)|UAModernMagic|1"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Heart of the City|Cleric||City (UA)|UAModernMagic|1"
+				}
+			]
+		},
+		{
+			"name": "Bonus Cantrip",
+			"source": "UAModernMagic",
+			"page": 1,
+			"className": "Cleric",
+			"classSource": "PHB",
+			"subclassShortName": "City (UA)",
+			"subclassSource": "UAModernMagic",
+			"level": 1,
+			"header": 1,
+			"entries": [
+				"When you choose this domain at 1st level, you gain the {@spell On/Off (UA)|UAModernMagic|on/off} cantrip in addition to your chosen cantrips."
+			]
+		},
+		{
+			"name": "Bonus Proficiencies",
+			"source": "UAModernMagic",
+			"page": 1,
+			"className": "Cleric",
+			"classSource": "PHB",
+			"subclassShortName": "City (UA)",
+			"subclassSource": "UAModernMagic",
+			"level": 1,
+			"header": 1,
+			"entries": [
+				"Also starting at 1st level, you gain proficiency with sidearms and proficiency with vehicles (land)."
+			]
+		},
+		{
+			"name": "Heart of the City",
+			"source": "UAModernMagic",
+			"page": 1,
+			"className": "Cleric",
+			"classSource": "PHB",
+			"subclassShortName": "City (UA)",
+			"subclassSource": "UAModernMagic",
+			"level": 1,
+			"header": 1,
+			"entries": [
+				"From 1st level, you are able to tap into the spirit of community found in the city. While you are within any city, you can gain advantage on a single Charisma ({@skill Deception}, {@skill Intimidation}, or {@skill Persuasion}) check, and you are considered proficient in the appropriate skill. You can use this feature a number of times equal to your Wisdom modifier (a minimum of once). You regain any expended uses when you finish a long rest."
+			]
+		},
+		{
+			"name": "Channel Divinity: Spirits of the City",
+			"source": "UAModernMagic",
+			"page": 1,
+			"className": "Cleric",
+			"classSource": "PHB",
+			"subclassShortName": "City (UA)",
+			"subclassSource": "UAModernMagic",
+			"level": 2,
+			"header": 2,
+			"consumes": {
+				"name": "Channel Divinity"
+			},
+			"entries": [
+				"Starting at 2nd level, you can use your Channel Divinity to call on the city for aid. As an action, you present your holy symbol, and any city utility within 30 feet of you either works perfectly or shuts down entirely for 1 minute (your choice).",
+				"Additionally, each hostile creature within 30 feet of you must make a Charisma saving throw. On a failed save, the creature is knocked {@condition prone} or {@condition restrained} (your choice) by hazards such as entangling wires, high-pressure water erupting from fire hydrants, pavement collapsing to unseen potholes, and so on. A {@condition restrained} creature can escape by making a successful Strength ({@skill Athletics}) or Dexterity ({@skill Acrobatics}) check against your spell save DC.",
+				"This effect is entirely local and affects only utilities within 30 feet of you. Determination of what utilities are available within range and how the physical effects of those utilities manifest are left to the DM."
+			]
+		},
+		{
+			"name": "Block Watch",
+			"source": "UAModernMagic",
+			"page": 1,
+			"className": "Cleric",
+			"classSource": "PHB",
+			"subclassShortName": "City (UA)",
+			"subclassSource": "UAModernMagic",
+			"level": 6,
+			"header": 2,
+			"entries": [
+				"Starting at 6th level, your awareness while in the city extends preternaturally. While in an urban environment, you are considered proficient in the {@skill Insight} and {@skill Perception} skills, and you add double your proficiency bonus to Wisdom ({@skill Insight}) and Wisdom ({@skill Perception}) checks, instead of your normal proficiency bonus."
+			]
+		},
+		{
+			"name": "Divine Strike",
+			"source": "UAModernMagic",
+			"page": 1,
+			"className": "Cleric",
+			"classSource": "PHB",
+			"subclassShortName": "City (UA)",
+			"subclassSource": "UAModernMagic",
+			"level": 8,
+			"header": 2,
+			"entries": [
+				"At 8th level, you gain the ability to infuse your weapon strikes with psychic energy borrowed from the citizens of your city. Once on each of your turns when you hit a creature with a weapon attack, you can cause the attack to deal an extra {@damage 1d8} psychic damage to the target. When you reach 14th level, the extra psychic damage increases to {@dice 2d8}."
+			]
+		},
+		{
+			"name": "Express Transit",
+			"source": "UAModernMagic",
+			"page": 1,
+			"className": "Cleric",
+			"classSource": "PHB",
+			"subclassShortName": "City (UA)",
+			"subclassSource": "UAModernMagic",
+			"level": 17,
+			"header": 2,
+			"entries": [
+				"At 17th level, you can use mass transit routes to transport instantaneously to other points in the city. Starting from a bus stop, train station, subway stop, or other suitable mass transit site within the city, you can teleport to any other similar transit stop within the city, as if you had cast a {@spell teleport} spell whose destination is a permanent {@spell teleportation circle} you know. Once you use this feature, you must finish a short or long rest before using it again."
+			]
+		},
+		{
+			"name": "Ghost in the Machine",
+			"source": "UAModernMagic",
+			"page": 2,
+			"className": "Warlock",
+			"classSource": "PHB",
+			"subclassShortName": "Ghost in the Machine (UA)",
+			"subclassSource": "UAModernMagic",
+			"level": 1,
+			"entries": [
+				"You have made a bargain for power granted by an entity that you believe to be completely digital. Whether it is a rogue AI or the spirit of a deceased hacker, the Ghost in the Machine is capable of feats that defy explanation.",
+				{
+					"type": "entries",
+					"name": "Expanded Spell List",
+					"entries": [
+						"The Ghost in the Machine lets you choose from an expanded list of spells when you learn a warlock spell. You gain the on/off cantrip, and the following new spells are added to the warlock spell list for you.",
+						"Spells marked with an asterisk can be found in Unearthed Arcana: Modern Magic.",
+						{
+							"type": "table",
+							"caption": "Ghost in the Machine Expanded Spells",
+							"colLabels": [
+								"Spell Level",
+								"Spells"
+							],
+							"colStyles": [
+								"col-2 text-center",
+								"col-10"
+							],
+							"rows": [
+								[
+									"1st",
+									"{@spell infallible relay (UA)|UAModernMagic|infallible relay}*, {@spell remote access (UA)|UAModernMagic|remote access}*"
+								],
+								[
+									"2nd",
+									"{@spell arcane hacking (UA)|UAModernMagic|arcane hacking}*, {@spell digital phantom (UA)|UAModernMagic|digital phantom}*"
+								],
+								[
+									"3rd",
+									"{@spell haywire (UA)|UAModernMagic|haywire}*, {@spell invisibility to cameras (UA)|UAModernMagic|invisibility to cameras}*"
+								],
+								[
+									"4th",
+									"{@spell conjure knowbot (UA)|UAModernMagic|conjure knowbot}*, {@spell system backdoor (UA)|UAModernMagic|system backdoor}*"
+								],
+								[
+									"5th",
+									"{@spell shutdown (UA)|UAModernMagic|shutdown}*, {@spell synchronicity (UA)|UAModernMagic|synchronicity}*"
+								]
+							]
+						}
+					]
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Bonus Proficiency|Warlock||Ghost in the Machine (UA)|UAModernMagic|1"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Information Surge|Warlock||Ghost in the Machine (UA)|UAModernMagic|1"
+				}
+			]
+		},
+		{
+			"name": "Bonus Proficiency",
+			"source": "UAModernMagic",
+			"page": 2,
+			"className": "Warlock",
+			"classSource": "PHB",
+			"subclassShortName": "Ghost in the Machine (UA)",
+			"subclassSource": "UAModernMagic",
+			"level": 1,
+			"header": 1,
+			"entries": [
+				"At 1st level, you gain proficiency with hacking tools."
+			]
+		},
+		{
+			"name": "Information Surge",
+			"source": "UAModernMagic",
+			"page": 2,
+			"className": "Warlock",
+			"classSource": "PHB",
+			"subclassShortName": "Ghost in the Machine (UA)",
+			"subclassSource": "UAModernMagic",
+			"level": 1,
+			"header": 1,
+			"entries": [
+				"At 1st level, you gain the ability to temporarily render computerized devices inoperable. As an action, you can target a computerized device within 30 feet of you. If the targeted device is held or otherwise actively used by a living creature, that creature must make an Intelligence saving throw against your spell save DC. On a failed save, the targeted device ceases to function until the end of your next turn. If the targeted device is not held or used by a creature, the DM makes a special saving throw for the device with disadvantage and a +0 modifier. Certain shielded devices might negate the disadvantage, at the DM's determination.",
+				"Once you use this feature, you can't use it again until you finish a short or long rest."
+			]
+		},
+		{
+			"name": "Wire Walk",
+			"source": "UAModernMagic",
+			"page": 2,
+			"className": "Warlock",
+			"classSource": "PHB",
+			"subclassShortName": "Ghost in the Machine (UA)",
+			"subclassSource": "UAModernMagic",
+			"level": 6,
+			"header": 2,
+			"entries": [
+				"Starting at 6th level, you gain the ability to travel short distances over electrical wires, data lines, or telephone cables. As a bonus action, you can touch a device or socket connected to a hardwired network and teleport along this network to another device or socket within your line of sight. Once you use this feature, you can't use it again until you finish a short or long rest."
+			]
+		},
+		{
+			"name": "Personal Encryption",
+			"source": "UAModernMagic",
+			"page": 2,
+			"className": "Warlock",
+			"classSource": "PHB",
+			"subclassShortName": "Ghost in the Machine (UA)",
+			"subclassSource": "UAModernMagic",
+			"level": 10,
+			"header": 2,
+			"entries": [
+				"Beginning at 10th level, you have learned to apply your innate knowledge of encryption to your thoughts, memories, and presence. You have advantage on saving throws against {@spell scrying}, thought detection, or any other method of magically learning your whereabouts or reading your thoughts. For any such effect that does not grant you a saving throw but which requires the creature targeting you to make an ability check, the check is made with disadvantage."
+			]
+		},
+		{
+			"name": "Technovirus",
+			"source": "UAModernMagic",
+			"page": 2,
+			"className": "Warlock",
+			"classSource": "PHB",
+			"subclassShortName": "Ghost in the Machine (UA)",
+			"subclassSource": "UAModernMagic",
+			"level": 14,
+			"header": 2,
+			"entries": [
+				"At 14th level, you gain the ability to infect a humanoid's body with living circuitry. You can use an action to make a melee attack against a humanoid creature using your spell attack modifier. The target must make a Constitution saving throw against your spell save DC as a techno-organic virus quickly spreads through its body. On a failed save, the target takes {@damage 8d10} psychic damage, or half as much damage on a successful one.",
+				"Additionally, if the target fails the saving throw, you can use an action to issue it a single command, as if you were casting the {@spell command} spell. The target makes its saving throw against your {@spell command} with disadvantage. You can issue this {@spell command} at any time while the target remains infected.",
+				"Once you use this feature, you can't use it again until you finish a long rest, at which point the target is cured of the technovirus. The infection can also be removed with a {@spell lesser restoration} spell."
+			]
+		},
+		{
+			"name": "Technomancy",
+			"source": "UAModernMagic",
+			"page": 3,
+			"className": "Wizard",
+			"classSource": "PHB",
+			"subclassShortName": "Technomancy (UA)",
+			"subclassSource": "UAModernMagic",
+			"level": 2,
+			"entries": [
+				"Unlike the more common arcane traditions based around the schools of magic, the tradition of Technomancy does not focus on a singular type of spellcraft or magical energy. Rather, students of Technomancy concern themselves with how their spells interact with modern technology.",
+				"Technomancers can make use of technology as both a conduit and a storage space for magic. In a campaign using the optional rules for magic item creation (see the Dungeon Master's Guide), a technomancer might craft disposable electronic devices and smartphone apps in lieu of potions and scrolls.",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Bonus Proficiencies|Wizard||Technomancy (UA)|UAModernMagic|2"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Technological Savant|Wizard||Technomancy (UA)|UAModernMagic|2"
+				}
+			]
+		},
+		{
+			"name": "Bonus Proficiencies",
+			"source": "UAModernMagic",
+			"page": 3,
+			"className": "Wizard",
+			"classSource": "PHB",
+			"subclassShortName": "Technomancy (UA)",
+			"subclassSource": "UAModernMagic",
+			"level": 2,
+			"header": 1,
+			"entries": [
+				"Beginning when you select this arcane tradition at 2nd level, you gain proficiency with sidearms and hacking tools."
+			]
+		},
+		{
+			"name": "Technological Savant",
+			"source": "UAModernMagic",
+			"page": 3,
+			"className": "Wizard",
+			"classSource": "PHB",
+			"subclassShortName": "Technomancy (UA)",
+			"subclassSource": "UAModernMagic",
+			"level": 2,
+			"header": 1,
+			"entries": [
+				"Also at 2nd level, you trade out your spellbook for a specially attuned storage device of your choosing, capable of recording magical data. The computing power of this device must be equal to or greater than a tablet computer. Only one storage device can be attuned to you at any given time. Spells can be copied into this device at half the cost of copying spells into a spellbook."
+			]
+		},
+		{
+			"name": "Program Spell",
+			"source": "UAModernMagic",
+			"page": 3,
+			"className": "Wizard",
+			"classSource": "PHB",
+			"subclassShortName": "Technomancy (UA)",
+			"subclassSource": "UAModernMagic",
+			"level": 6,
+			"header": 2,
+			"entries": [
+				"At 6th level, you can insert a spell within an electronic device of your choosing, so that by touching a key or flicking a switch using an action, the spell activates. All variables of the spell are set at the time of casting. The computing power of this device must be equal to or greater than a mobile phone.",
+				"A programmed spell remains placed in its device for 48 hours, and is gone once it is discharged. You can use this feature to place a programmed spell in only one device at a time, and a device can hold only one programmed spell. Only you can activate the programmed spell in the device. If the device is destroyed, the programmed spell is lost.",
+				"A {@status concentration} spell placed in a device cannot be activated while you are {@status concentration||concentrating} on another spell. Once you use this feature, you can't use it again until you finish a long rest."
+			]
+		},
+		{
+			"name": "Online Casting",
+			"source": "UAModernMagic",
+			"page": 3,
+			"className": "Wizard",
+			"classSource": "PHB",
+			"subclassShortName": "Technomancy (UA)",
+			"subclassSource": "UAModernMagic",
+			"level": 10,
+			"header": 2,
+			"entries": [
+				"At 10th level, you can cast spells through networked electronic devices, including cameras, mobile phones, and computers. For example, if a creature is under the observation of a security camera and you can see the video feed from that camera on a computer, you can cast a spell into the computer and out through the security camera to target that creature.",
+				"If the spell requires the caster to be seen, the target must see you or a live image of you. If the spell requires the caster to be heard, the target must be able to hear you or a live audio transmission of you. The spell's range is determined using the distance from you to your device, and then from the target to its device. You must be able to see or otherwise determine the location of the target. This feature can be used to cast only spells that target specific creatures. Spells that affect an area are not subject to online casting.",
+				"This feature can be used a number of times per day equal to your Intelligence modifier (minimum of once)."
+			]
+		},
+		{
+			"name": "Chained Device",
+			"source": "UAModernMagic",
+			"page": 3,
+			"className": "Wizard",
+			"classSource": "PHB",
+			"subclassShortName": "Technomancy (UA)",
+			"subclassSource": "UAModernMagic",
+			"level": 14,
+			"header": 2,
+			"entries": [
+				"By 14th level, you have learned to imprint vestiges of your consciousness on electronic devices with significant computing power. When you cast a {@status concentration} spell, you can use a device whose computing power is equal to or greater than a tablet computer to maintain {@status concentration} of the spell on your behalf. The device must be held or worn by you to maintain this effect. If the device is destroyed, taken from you, dropped, or turned off, the {@status concentration} ends. Once you use this feature, you can't use it again until you finish a long rest."
+			]
+		}
+	],
+	"optionalfeature": [
+		{
+			"name": "Arcane Gunslinger",
+			"source": "UAModernMagic",
+			"page": 3,
+			"featureType": [
+				"EI"
+			],
+			"prerequisite": [
+				{
+					"pact": "Blade"
+				}
+			],
+			"entries": [
+				"You can create a pact weapon that is a sidearm or long arm, and you can transform a magical sidearm or long arm into your pact weapon."
+			]
+		}
+	],
+	"spell": [
+		{
+			"name": "Arcane Hacking (UA)",
+			"source": "UAModernMagic",
+			"page": 5,
+			"level": 2,
+			"school": "T",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "self"
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": "hacking tools"
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "hour",
+						"amount": 1
+					},
+					"concentration": true
+				}
+			],
+			"meta": {
+				"technomagic": true
+			},
+			"entries": [
+				"You gain advantage on all Intelligence checks using hacking tools to break software encryption or online security when using a foreign system. This spell also allows you to break 2nd-level and lower protective spells such as arcane lock or glyph of warding by making an Intelligence check using hacking tools against the spell save DC of the spell's caster."
+			],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "At Higher Levels",
+					"entries": [
+						"When you cast this spell using a spell slot of 3rd level or higher, you can attempt to counteract a spell set to secure the foreign system if the spell's level is equal to or less than the level of the spell slot you used."
+					]
+				}
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Warlock",
+						"source": "PHB"
+					},
+					{
+						"name": "Sorcerer",
+						"source": "PHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					}
+				]
+			},
+			"abilityCheck": [
+				"intelligence"
+			],
+			"miscTags": [
+				"ADV"
+			]
+		},
+		{
+			"name": "Commune with City (UA)",
+			"source": "UAModernMagic",
+			"page": 5,
+			"level": 5,
+			"school": "D",
+			"time": [
+				{
+					"number": 1,
+					"unit": "minute"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "self"
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"meta": {
+				"ritual": true
+			},
+			"entries": [
+				"You briefly become one with the city and gain knowledge of the surrounding area. Aboveground, this spell gives you knowledge of the area within 1 mile of you. In sewers and other underground settings, you gain knowledge of the area within 600 feet of you.",
+				"You instantly gain knowledge of up to three facts of your choice about any of the following subjects as they relate to the area:",
+				{
+					"type": "list",
+					"items": [
+						"Terrain and bodies of water",
+						"Prevalent buildings, plants, animals, or intelligent creatures",
+						"Powerful (CR 1 or higher) celestials, fey, fiends, elementals, or undead",
+						"Influences from other planes of existence",
+						"Electrical currents, wireless signals, and active transit lines and tracks"
+					]
+				},
+				"For example, you could determine the location of powerful undead in the area, the location of major sources of electrical power or interference, and the location of any nearby parks. "
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Warlock",
+						"source": "PHB"
+					},
+					{
+						"name": "Sorcerer",
+						"source": "PHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					}
+				]
+			}
+		},
+		{
+			"name": "Conjure Knowbot (UA)",
+			"source": "UAModernMagic",
+			"page": 5,
+			"level": 4,
+			"school": "C",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "touch"
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 10
+					}
+				}
+			],
+			"meta": {
+				"technomagic": true
+			},
+			"entries": [
+				"You touch a single computerized device or computer system to conjure a knowbot\u2014a partially sentient piece of software imprinted with vestiges of your own skills and computer abilities. For the duration of the spell, you can use a bonus action to have the knowbot execute a computer-related task that would normally require an action. The knowbot makes Intelligence ability checks using your ability score and proficiency bonuses (including your proficiency with hacking tools, if applicable).",
+				"You have a limited telepathic bond with the knowbot, out to a range of 500 feet from the device or system where the knowbot was conjured. If you move beyond this range, the knowbot disappears in {@dice 2d4} rounds, as if the duration of the spell had expired. Moving within range again immediately reestablishes the bond.",
+				"The knowbot is bound to the system in which it was created, and it stays there until it is dismissed or the spell's duration expires."
+			],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "At Higher Levels",
+					"entries": [
+						"When you cast this spell using a spell slot of 5th level or higher, the spell's duration increases to 1 hour. Additionally, your telepathic bond with the knowbot is effective out to a range of 1,000 feet, and if you leave the range of the bond, the knowbot continues performing its last directed task until the spell expires."
+					]
+				}
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Warlock",
+						"source": "PHB"
+					},
+					{
+						"name": "Sorcerer",
+						"source": "PHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					}
+				]
+			},
+			"miscTags": [
+				"SMN",
+				"UBA"
+			]
+		},
+		{
+			"name": "Digital Phantom (UA)",
+			"source": "UAModernMagic",
+			"page": 6,
+			"level": 2,
+			"school": "A",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "self"
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": "a small piece of copper wire"
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "hour",
+						"amount": 1
+					},
+					"concentration": true
+				}
+			],
+			"meta": {
+				"technomagic": true
+			},
+			"entries": [
+				"This spell works to actively hide your presence within a computer system. For the spell's duration, you and any other users you choose on your local network gain a +10 bonus to Intelligence checks to avoid detection by administrators, knowbots, tracking software, and the like. Whenever you and your chosen users leave any computer system you are working in while this spell is in effect, all trace of your previous presence in that system is erased."
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Warlock",
+						"source": "PHB"
+					},
+					{
+						"name": "Sorcerer",
+						"source": "PHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					}
+				]
+			}
+		},
+		{
+			"name": "Find Vehicle (UA)",
+			"source": "UAModernMagic",
+			"page": 6,
+			"level": 2,
+			"school": "C",
+			"time": [
+				{
+					"number": 10,
+					"unit": "minute"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 30
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "hour",
+						"amount": 8
+					}
+				}
+			],
+			"entries": [
+				"You summon a spirit that assumes the form of a nonmilitary land vehicle of your choice, appearing in an unoccupied space within range. The vehicle has the statistics of a normal vehicle of its sort, though it is celestial, fey, or fiendish (your choice in origin). The physical characteristics of the vehicle reflect its origin to some degree. For example, a fiendish SUV might be jet black in color, with tinted windows and a sinister-looking front grille.",
+				"You have a supernatural bond with the conjured vehicle that allows you to drive beyond your normal ability. While driving the conjured vehicle, you are considered proficient with vehicles of its type, and you add double your proficiency bonus to ability checks related to driving the vehicle. While driving the vehicle, you can make any spell you cast that targets only you also target the vehicle.",
+				"If the vehicle drops to 0 hit points, it disappears, leaving behind no physical form. You can also dismiss the vehicle at any time as an action, causing it to disappear.",
+				"You can't have more than one vehicle bonded by this spell at a time. As an action, you can release the vehicle from its bond at any time, causing it to disappear."
+			],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "At Higher Levels",
+					"entries": [
+						"When you cast this spell using a spell slot of 3rd level or higher, you can conjure a nonmilitary water vehicle large enough to carry six Medium creatures. When you cast this spell using a spell slot of 5th level or higher, you can conjure a nonmilitary air vehicle large enough to carry ten Medium creatures. When you cast this spell using a spell slot of 7th level or higher, you can conjure any type of vehicle, subject to the DM's approval."
+					]
+				}
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Warlock",
+						"source": "PHB"
+					},
+					{
+						"name": "Sorcerer",
+						"source": "PHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					}
+				]
+			},
+			"miscTags": [
+				"SMN"
+			]
+		},
+		{
+			"name": "Haywire (UA)",
+			"source": "UAModernMagic",
+			"page": 7,
+			"level": 3,
+			"school": "E",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 90
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 1
+					},
+					"concentration": true
+				}
+			],
+			"meta": {
+				"technomagic": true
+			},
+			"entries": [
+				"This spell plays havoc with electronic devices, making the use of such devices all but impossible. Each electronic device in a 10-foot-radius sphere centered on a point you choose within range is subject to random behavior while it remains within the area. A device not held by a creature is automatically affected. If an electronic device is held by a creature, that creature must succeed on a Wisdom saving throw or have the device affected by the spell.",
+				"At the start of each of your turns, roll a {@dice d6} for each affected device to determine its behavior. Except where otherwise indicated, that behavior lasts until the start of your next turn while this spell is in effect.",
+				{
+					"type": "table",
+					"colLabels": [
+						"{@dice d6}",
+						"Effect"
+					],
+					"colStyles": [
+						"col-1 text-center no-wrap",
+						"col-11"
+					],
+					"rows": [
+						[
+							{
+								"type": "cell",
+								"roll": {
+									"exact": 1
+								}
+							},
+							"The device shuts down and must be restarted. Do not roll again for this device until it is restarted."
+						],
+						[
+							{
+								"type": "cell",
+								"roll": {
+									"min": 2,
+									"max": 4
+								}
+							},
+							"The device does not function."
+						],
+						[
+							{
+								"type": "cell",
+								"roll": {
+									"exact": 5
+								}
+							},
+							"The device experiences a power surge, causing an electric shock to the wielder (if any) and one random creature within 5 feet of the device. Each affected creature must make a Dexterity saving throw against your spell save DC, taking {@damage 6d6} lightning damage on a failed save, or half as much damage on a successful one."
+						],
+						[
+							{
+								"type": "cell",
+								"roll": {
+									"exact": 6
+								}
+							},
+							"The device is usable as normal."
+						]
+					]
+				}
+			],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "At Higher Levels",
+					"entries": [
+						"When you cast this spell using a spell slot of 4th level or higher, the radius of the sphere affected by the spell increases by 5 feet for each slot level above 3rd."
+					]
+				}
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Warlock",
+						"source": "PHB"
+					},
+					{
+						"name": "Sorcerer",
+						"source": "PHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					}
+				]
+			},
+			"damageInflict": [
+				"lightning"
+			],
+			"savingThrow": [
+				"wisdom",
+				"dexterity"
+			],
+			"miscTags": [
+				"RO"
+			],
+			"areaTags": [
+				"S"
+			]
+		},
+		{
+			"name": "Infallible Relay (UA)",
+			"source": "UAModernMagic",
+			"page": 7,
+			"level": 1,
+			"school": "D",
+			"time": [
+				{
+					"number": 1,
+					"unit": "minute"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "self"
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": "a mobile phone"
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 10
+					},
+					"concentration": true
+				}
+			],
+			"meta": {
+				"technomagic": true
+			},
+			"entries": [
+				"With this spell, you can target any creature with whom you have spoken previously, as long as the two of you are on the same plane of existence. When you cast the spell, the nearest functioning telephone or similar communications device within 100 feet of the target begins to ring. If there is no suitable device close enough to the target, the spell fails.",
+				"The target must make a successful Charisma saving throw or be compelled to answer your call. Once the connection is established, the call is crystal clear and cannot be dropped until the conversation has ended or the spell's duration ends. You can end the conversation at any time, but a target must succeed on a Charisma saving throw to end the conversation."
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Warlock",
+						"source": "PHB"
+					},
+					{
+						"name": "Sorcerer",
+						"source": "PHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					}
+				]
+			},
+			"savingThrow": [
+				"charisma"
+			]
+		},
+		{
+			"name": "Invisibility to Cameras (UA)",
+			"source": "UAModernMagic",
+			"page": 7,
+			"level": 3,
+			"school": "I",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 10
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": "a scrap of black paper"
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 1
+					},
+					"concentration": true
+				}
+			],
+			"meta": {
+				"technomagic": true
+			},
+			"entries": [
+				"Four creatures of your choice within range become undetectable to electronic sensors and cameras for the duration of the spell. Anything a target is wearing or carrying is likewise undetectable as long as it is on the target's person. The targets remain visible to vision."
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Warlock",
+						"source": "PHB"
+					},
+					{
+						"name": "Sorcerer",
+						"source": "PHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					}
+				]
+			},
+			"areaTags": [
+				"MT"
+			]
+		},
+		{
+			"name": "On/Off (UA)",
+			"source": "UAModernMagic",
+			"page": 7,
+			"level": 0,
+			"school": "T",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 60
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"meta": {
+				"technomagic": true
+			},
+			"entries": [
+				"This cantrip allows you to activate or deactivate any electronic device within range, as long as the device has a clearly defined on or off function that can be easily accessed from the outside of the device. Any device that requires a software-based shutdown sequence to activate or deactivate cannot be affected by on/off."
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Warlock",
+						"source": "PHB"
+					},
+					{
+						"name": "Sorcerer",
+						"source": "PHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					}
+				]
+			}
+		},
+		{
+			"name": "Protection from Ballistics (UA)",
+			"source": "UAModernMagic",
+			"page": 8,
+			"level": 3,
+			"school": "A",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "touch"
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": "a shell casing"
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 10
+					},
+					"concentration": true
+				}
+			],
+			"entries": [
+				"This spell enchants the flesh of the target against the impact of bullets. Until the spell ends, the target has resistance to nonmagical ballistic damage."
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Warlock",
+						"source": "PHB"
+					},
+					{
+						"name": "Sorcerer",
+						"source": "PHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					}
+				]
+			}
+		},
+		{
+			"name": "Remote Access (UA)",
+			"source": "UAModernMagic",
+			"page": 8,
+			"level": 1,
+			"school": "T",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 120
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 10
+					}
+				}
+			],
+			"meta": {
+				"technomagic": true
+			},
+			"entries": [
+				"You can use any electronic device within range as if it were in your hands. This is not a telekinesis effect. Rather, this spell allows you to simulate a device's mechanical functions electronically. You are able to access only functions that a person using the device manually would be able to access. You can use remote access with only one device at a time."
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Warlock",
+						"source": "PHB"
+					},
+					{
+						"name": "Sorcerer",
+						"source": "PHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					}
+				]
+			}
+		},
+		{
+			"name": "Shutdown (UA)",
+			"source": "UAModernMagic",
+			"page": 8,
+			"level": 5,
+			"school": "T",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 120
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 1
+					},
+					"concentration": true
+				}
+			],
+			"meta": {
+				"technomagic": true
+			},
+			"entries": [
+				"This spell shuts down all electronic devices within range that are not wielded by or under the direct control of a creature. If an electronic device within range is used by a creature, that creature must succeed on a Constitution saving throw to prevent the device from being shut down. While the spell remains active, no electronic device within range can be started or restarted."
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Warlock",
+						"source": "PHB"
+					},
+					{
+						"name": "Sorcerer",
+						"source": "PHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					}
+				]
+			},
+			"savingThrow": [
+				"constitution"
+			]
+		},
+		{
+			"name": "Synchronicity (UA)",
+			"source": "UAModernMagic",
+			"page": 8,
+			"level": 4,
+			"school": "E",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "touch"
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "hour",
+						"amount": 1
+					},
+					"concentration": true
+				}
+			],
+			"entries": [
+				"The creature you touch feels reality subtly shifted to its favor while this spell is in effect. The target isn't inconvenienced by mundane delays of any sort. Traffic lights are always green, there's always a waiting elevator, and a taxi is always around the corner. The target can run at full speed through dense crowds, and attacks of opportunity provoked by the target's movement are made with disadvantage.",
+				"Synchronicity grants advantage to Dexterity ({@skill Stealth}) checks, since the target always finds a handy piece of cover available. Additionally, the target has advantage on all ability checks made to drive a vehicle.",
+				"In the event that two or more creatures under the effect of synchronicity are attempting to avoid being inconvenienced by each other, the creatures engage in a contest of Charisma each time the effects of the spells would oppose each other."
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Warlock",
+						"source": "PHB"
+					},
+					{
+						"name": "Sorcerer",
+						"source": "PHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					}
+				]
+			},
+			"miscTags": [
+				"ADV"
+			],
+			"areaTags": [
+				"ST"
+			]
+		},
+		{
+			"name": "System Backdoor (UA)",
+			"source": "UAModernMagic",
+			"page": 8,
+			"level": 4,
+			"school": "T",
+			"time": [
+				{
+					"number": 1,
+					"unit": "minute"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "self"
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": "hacking tools"
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "hour",
+						"amount": 1
+					},
+					"concentration": true
+				}
+			],
+			"meta": {
+				"technomagic": true
+			},
+			"entries": [
+				"This spell allows you to bypass system security in order to create a secure login on a foreign system. The login you create allows you administrator-level privileges in any computer system not enhanced through technomagic. The login defeats any technomagic spells of 3rd level or lower.",
+				"Once the duration of the spell expires, the login and all privileges are wiped from the system. System logs still show the activity of the user, but the user identification cannot be found or traced."
+			],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "At Higher Levels",
+					"entries": [
+						"When you cast this spell using a spell slot of 5th level or higher, you are able to bypass technomagic spells if the spell's level is equal to or less than the level of the spell slot you used."
+					]
+				}
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Warlock",
+						"source": "PHB"
+					},
+					{
+						"name": "Sorcerer",
+						"source": "PHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					}
+				]
+			}
+		}
+	],
+	"foundrySpell": [
+		{
+			"name": "Haywire (UA)",
+			"source": "UAModernMagic",
+			"system": {
+				"target.value": 10,
+				"target.units": "ft",
+				"target.type": "sphere"
+			}
+		}
+	],
+	"item": [
+		{
+			"name": "Hacking Tools",
+			"source": "UAModernMagic",
+			"page": 4,
+			"type": "T",
+			"rarity": "none",
+			"age": "modern",
+			"entries": [
+				"This kit contains the hardware and software necessary to allow access into most computer systems and electronic devices. Proficiency with hacking tools lets you add your proficiency bonus to any Intelligence checks you make to connect to or make use of a computer system or electronic device. The kit fits snugly in a backpack or toolbox. "
+			]
+		}
+	]
+}

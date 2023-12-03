@@ -1,0 +1,290 @@
+{
+	"_meta": {
+		"sources": [
+			{
+				"json": "UACentaursMinotaurs",
+				"abbreviation": "UACAM",
+				"full": "Unearthed Arcana: Centaurs and Minotaurs",
+				"authors": [
+					"Wizards of the Coast"
+				],
+				"convertedBy": [
+					"Giddy"
+				],
+				"version": "1.0.0",
+				"url": "https://media.wizards.com/2018/dnd/downloads/UA-Centaur.pdf",
+				"dateReleased": "2018-05-14"
+			}
+		],
+		"dateAdded": 1701616429,
+		"dateLastModified": 1701616429,
+		"_dateLastModifiedHash": "aaaaaaaaaa"
+	},
+	"race": [
+		{
+			"name": "Centaur",
+			"source": "UACentaursMinotaurs",
+			"page": 1,
+			"reprintedAs": [
+				"Centaur|GGR"
+			],
+			"creatureTypes": [
+				"humanoid",
+				"monstrosity"
+			],
+			"size": [
+				"M"
+			],
+			"speed": 40,
+			"ability": [
+				{
+					"str": 2,
+					"wis": 1
+				}
+			],
+			"age": {
+				"mature": 20,
+				"max": 100
+			},
+			"traitTags": [
+				"Natural Weapon",
+				"Powerful Build"
+			],
+			"skillProficiencies": [
+				{
+					"survival": true
+				}
+			],
+			"languageProficiencies": [
+				{
+					"common": true,
+					"sylvan": true
+				}
+			],
+			"entries": [
+				{
+					"name": "Age",
+					"type": "entries",
+					"entries": [
+						"Centaurs mature and age at about the same rate as humans."
+					]
+				},
+				{
+					"name": "Alignment",
+					"type": "entries",
+					"entries": [
+						"Centaurs are inclined toward neutrality."
+					]
+				},
+				{
+					"name": "Size",
+					"entries": [
+						"Your size is Medium, yet you tower over most other humanoids."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Charge",
+					"entries": [
+						"If you move at least 20 feet straight toward a target and then hit it with a melee weapon attack on the same turn, roll the weapon's damage dice twice and add them together. Once you use this ability, you can't use it again until you finish a short or long rest."
+					],
+					"type": "entries"
+				},
+				{
+					"type": "entries",
+					"name": "Hooves",
+					"entries": [
+						"Your hooves are natural melee weapons, with which you're proficient. If you hit with a hoof, the target takes bludgeoning damage equal to {@dice 1d6} + your Strength modifier."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Equine Build",
+					"entries": [
+						"You count as one size larger when determining your carrying capacity and the weight you can push or drag. In addition, any climb that requires hands and feet is especially difficult for you because of your hooves. When you make such a climb, each foot of movement costs you 4 extra feet, instead of the normal 1 extra foot. Finally, a Medium or smaller creature can ride on your equine back if you allow it. In such a situation, you continue to act independently, not as a controlled mount."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Survivor",
+					"entries": [
+						"You have proficiency in the {@skill Survival} skill."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Hybrid Nature",
+					"entries": [
+						"You have two creature types: humanoid and monstrosity. You can be affected by a game effect if it works on either of your creature types."
+					]
+				},
+				{
+					"name": "Languages",
+					"entries": [
+						"You can speak, read, and write Common and Sylvan."
+					],
+					"type": "entries"
+				}
+			],
+			"fluff": {
+				"_raceFluff": {
+					"name": "Centaur",
+					"source": "UACentaursMinotaurs"
+				}
+			}
+		},
+		{
+			"name": "Minotaur",
+			"source": "UACentaursMinotaurs",
+			"page": 2,
+			"reprintedAs": [
+				"Minotaur|GGR"
+			],
+			"creatureTypes": [
+				"humanoid",
+				"monstrosity"
+			],
+			"size": [
+				"M"
+			],
+			"speed": 30,
+			"ability": [
+				{
+					"str": 2,
+					"con": 1
+				}
+			],
+			"age": {
+				"mature": 17,
+				"max": 150
+			},
+			"traitTags": [
+				"Natural Weapon"
+			],
+			"skillProficiencies": [
+				{
+					"intimidation": true
+				}
+			],
+			"languageProficiencies": [
+				{
+					"common": true,
+					"other": true
+				}
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"entries": [
+						"{@note In 2015, minotaurs appeared as a playtest option in Unearthed Arcana. Here is a revised set of traits for minotaur player characters. These traits are suitable for minotaurs on Krynn and in other D&D worlds where these people have avoided the demonic influence of Baphomet.}"
+					]
+				},
+				{
+					"name": "Age",
+					"type": "entries",
+					"entries": [
+						"Minotaurs enter adulthood at around the age of 17 and can live up to 150 years."
+					]
+				},
+				{
+					"name": "Alignment",
+					"type": "entries",
+					"entries": [
+						"Most minotaurs lean toward lawful alignments."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Size",
+					"entries": [
+						"Minotaurs average over 6 feet in height, and they have strong, stocky builds. Your size is Medium."
+					]
+				},
+				{
+					"name": "Horns",
+					"entries": [
+						"Your horns are natural melee weapons, with which you're proficient. When you hit with them, the target takes piercing damage equal to {@dice 1d6} + your Strength modifier."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Goring Rush",
+					"entries": [
+						"Immediately after you use the {@action Dash} action on your turn and move at least as far as your speed, you can make one melee attack with your horns as a bonus action."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Hammering Horns",
+					"entries": [
+						"Immediately after you hit a creature with a melee attack as part of the {@action Attack} action on your turn, you can attempt to shove that creature with your horns using your reaction. The creature must be no more than one size larger than you and within 5 feet of you. It must make a Strength saving throw against a DC equal to 8 + your proficiency bonus + your Strength modifier. If it fails, you push it up to 5 feet away from you."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Menacing",
+					"entries": [
+						"You have proficiency in the {@skill Intimidation} skill."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Hybrid Nature",
+					"entries": [
+						"You have two creature types: humanoid and monstrosity. You can be affected by a game effect if it works on either of your creature types."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Languages",
+					"entries": [
+						"You can speak, read, and write Common and Minotaur."
+					],
+					"type": "entries"
+				}
+			]
+		}
+	],
+	"raceFluff": [
+		{
+			"name": "Centaur",
+			"source": "UACentaursMinotaurs",
+			"entries": [
+				{
+					"type": "entries",
+					"entries": [
+						{
+							"type": "entries",
+							"entries": [
+								"Roamers at heart, centaurs love open spaces and the freedom to travel. As much as they can, centaurs run. They race the wind, hooves thundering and tails streaming behind them.",
+								{
+									"type": "entries",
+									"name": "Nature's Cavalry",
+									"entries": [
+										"Centaurs have humanoid upper bodies, displaying all the human variety of skin tones and features. In size, they are comparable to a human rider mounted on a horse, and they fill similar roles\u2014as cavalry, messengers, outriders, and scouts.",
+										"Centaurs' ears are slightly pointed, but their faces are more wide and square than those of elves. Below the waist, they have the bodies of horses, with coats tending toward brown shades (chestnut or bay) and darker tails."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Nature and Community",
+									"entries": [
+										"Centaurs have a strong sense of the interconnectedness of the natural world, and they celebrate family and community as microcosms of that greater connection. The birth of a foal is always cause for festivities. At the same time, centaurs revere the traditions of the past, preserving old ways and keeping alive the legends of ancestral heroes. They feel a close kinship with wild animals, perhaps because of their own hybrid nature, and delight in the feeling of running alongside herds and packs of beasts."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Centaur Names",
+									"entries": [
+										"Centaurs' given names are passed down through family lines. The name given to a new foal is typically the name of the most recently deceased family member of the same gender, keeping alive the memory\u2014and, the centaurs believe, some shard of the spirit\u2014of the departed.",
+										"Centaurs rarely use family names, but wear symbols that represent their family membership. These symbols might include graphical representations of plants or animals, printed mottos, braids and beads worn in the hair and tail, or even specific patterns of woven fabric."
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,334 @@
+{
+	"_meta": {
+		"sources": [
+			{
+				"json": "UARanger",
+				"abbreviation": "UAR",
+				"full": "Unearthed Arcana: Ranger",
+				"authors": [
+					"Wizards of the Coast"
+				],
+				"convertedBy": [
+					"Giddy"
+				],
+				"version": "1.0.0",
+				"url": "https://media.wizards.com/2015/downloads/dnd/DX_0907_UA_RangerOptions.pdf",
+				"dateReleased": "2015-09-09"
+			}
+		],
+		"dateAdded": 1701616429,
+		"dateLastModified": 1701616429,
+		"_dateLastModifiedHash": "aaaaaaaaaa"
+	},
+	"class": [
+		{
+			"name": "Ranger (Ambuscade)",
+			"source": "UARanger",
+			"page": 2,
+			"hd": {
+				"number": 2,
+				"faces": 6
+			},
+			"proficiency": [
+				"dex",
+				"wis"
+			],
+			"optionalfeatureProgression": [
+				{
+					"name": "Fighting Style",
+					"featureType": [
+						"FS:R"
+					],
+					"progression": {
+						"2": 1
+					}
+				}
+			],
+			"startingProficiencies": {
+				"armor": [
+					"light",
+					"{@item shield|phb|shields}"
+				],
+				"weapons": [
+					"simple",
+					"martial"
+				],
+				"tools": [
+					"{@item herbalism kit|PHB}"
+				],
+				"toolProficiencies": [
+					{
+						"herbalism kit": true
+					}
+				],
+				"skills": [
+					{
+						"choose": {
+							"from": [
+								"animal handling",
+								"athletics",
+								"insight",
+								"investigation",
+								"nature",
+								"perception",
+								"stealth",
+								"survival"
+							],
+							"count": 3
+						}
+					}
+				]
+			},
+			"startingEquipment": {
+				"additionalFromBackground": true,
+				"default": [
+					"{@item leather armor|phb}",
+					"(a) two {@item shortsword|phb|shortswords} or (b) two {@filter martial melee weapons|items|source=phb|category=basic|type=martial weapon;melee weapon=u~u~sand} or (c) a {@filter martial weapon|items|source=phb|category=basic|type=martial weapon} and a {@item shield|phb}",
+					"(a) a {@item dungeoneer's pack|phb} or (b) an {@item explorer's pack|phb}",
+					"(a) a {@item longbow|phb} and a {@item quiver|phb} of {@item arrows (20)|phb|20 arrows} or (b) a {@filter martial weapon|items|source=phb|category=basic|type=martial weapon}"
+				],
+				"defaultData": [
+					{
+						"_": [
+							"leather armor|phb"
+						]
+					},
+					{
+						"a": [
+							{
+								"item": "shortsword|phb",
+								"quantity": 2
+							}
+						],
+						"b": [
+							{
+								"equipmentType": "weaponMartialMelee",
+								"quantity": 2
+							}
+						],
+						"c": [
+							{
+								"equipmentType": "weaponMartial"
+							},
+							"shield|phb"
+						]
+					},
+					{
+						"a": [
+							"dungeoneer's pack|phb"
+						],
+						"b": [
+							"explorer's pack|phb"
+						]
+					},
+					{
+						"a": [
+							"longbow|phb",
+							"arrows (20)|phb"
+						],
+						"b": [
+							{
+								"equipmentType": "weaponMartial"
+							}
+						]
+					}
+				]
+			},
+			"classFeatures": [
+				"Ambuscade|Ranger (Ambuscade)|UARanger|1",
+				"Natural Explorer|Ranger||1",
+				"Fighting Style|Ranger||2",
+				"Skirmisher's Stealth|Ranger (Ambuscade)|UARanger|2",
+				"Primeval Awareness|Ranger||3",
+				{
+					"classFeature": "Spirit Path|Ranger (Ambuscade)|UARanger|3",
+					"gainSubclassFeature": true
+				},
+				"Ability Score Improvement|Ranger||4",
+				"Extra Attack|Ranger||5"
+			],
+			"subclassTitle": "Ranger Path"
+		}
+	],
+	"subclass": [
+		{
+			"name": "Guardian",
+			"shortName": "Guardian",
+			"source": "UARanger",
+			"className": "Ranger (Ambuscade)",
+			"classSource": "UARanger",
+			"page": 3,
+			"subclassFeatures": [
+				"Guardian|Ranger (Ambuscade)|UARanger|Guardian|UARanger|3"
+			]
+		},
+		{
+			"name": "Seeker",
+			"shortName": "Seeker",
+			"source": "UARanger",
+			"className": "Ranger (Ambuscade)",
+			"classSource": "UARanger",
+			"page": 4,
+			"subclassFeatures": [
+				"Seeker|Ranger (Ambuscade)|UARanger|Seeker|UARanger|3"
+			]
+		},
+		{
+			"name": "Stalker",
+			"shortName": "Stalker",
+			"source": "UARanger",
+			"className": "Ranger (Ambuscade)",
+			"classSource": "UARanger",
+			"page": 4,
+			"subclassFeatures": [
+				"Stalker|Ranger (Ambuscade)|UARanger|Stalker|UARanger|3"
+			]
+		}
+	],
+	"classFeature": [
+		{
+			"name": "Ambuscade",
+			"source": "UARanger",
+			"page": 2,
+			"className": "Ranger (Ambuscade)",
+			"classSource": "UARanger",
+			"level": 1,
+			"entries": [
+				"Rangers strike first and strike hard. When you roll initiative, you gain a special turn that takes place before other creatures can act. On this turn, you can use your action to take either the {@action Attack} or {@action Hide} action.",
+				"If more than one creature in an encounter has this feature, they all act first in order of initiative, then the regular initiative order begins.",
+				"If you would normally be {@quickref Surprise|PHB|3|0|surprised} at the start of an encounter, you are not {@quickref Surprise|PHB|3|0|surprised} but you do not gain this extra turn."
+			]
+		},
+		{
+			"name": "Skirmisher's Stealth",
+			"source": "UARanger",
+			"page": 2,
+			"className": "Ranger (Ambuscade)",
+			"classSource": "UARanger",
+			"level": 2,
+			"entries": [
+				"Beginning at 2nd level, you combine speed and stealth in combat to make yourself hard to pin down. You are difficult to detect even if you attack or otherwise take actions that would normally reveal your presence.",
+				"At the start of your turn, pick a creature you are hidden from. You remain hidden from that creature during your turn, regardless of your actions or the actions of other creatures. As a bonus action at the end of your turn, you can make a Dexterity ({@skill Stealth}) check to hide again if you fulfill the conditions needed to hide. Otherwise, creatures are aware of you at the end of your turn."
+			]
+		},
+		{
+			"name": "Spirit Path",
+			"source": "UARanger",
+			"page": 2,
+			"className": "Ranger (Ambuscade)",
+			"classSource": "UARanger",
+			"level": 3,
+			"entries": [
+				"At 3rd level, you form a bond with a nature spirit\u2014a companion forged by your link to the wild. This spirit companion protects you as you travel and watches your back in battle. You choose a ranger path that shapes your spirit companion and its magic: the Guardian, the Seeker, or the Stalker. Your choice grants you features at 3rd level and again at 7th, 11th, and 15th level.",
+				{
+					"type": "entries",
+					"name": "Spirit Companion",
+					"entries": [
+						"All rangers gain a spirit companion and the ability to invoke its magical power. (Your spirit companion grants you one benefit you can call on in this playtest version of the revised ranger, with more benefits gained at higher levels.) You regain your ability to call on your spirit companion in this way when you finish a short or long rest.",
+						"Once per day as a bonus action, you can command your spirit companion to materialize as a living creature, determined by the ranger path you choose. Your spirit companion manifests as an animal for 1 minute or until your {@status concentration} is broken (as if you are {@status concentration||concentrating} on a spell). You can also dismiss it as a bonus action.",
+						"The manifested creature gains a bonus to attack rolls and saving throws equal to your Wisdom modifier. It uses the hit points in the animal's stat block or half your hit point maximum, whichever is higher.",
+						"The manifested creature takes its turn on your initiative and acts immediately after you. You control its actions, even if you are {@condition unconscious} or otherwise unable to act."
+					]
+				}
+			]
+		}
+	],
+	"subclassFeature": [
+		{
+			"name": "Guardian",
+			"source": "UARanger",
+			"page": 3,
+			"className": "Ranger (Ambuscade)",
+			"classSource": "UARanger",
+			"subclassShortName": "Guardian",
+			"subclassSource": "UARanger",
+			"level": 3,
+			"entries": [
+				"By following the path of the Guardian, you protect the natural world from creatures that would despoil it, even as you engage with the common folk who rely upon nature's bounty to survive. You patrol the pathways through the wilds, keeping them clear of bandits and rampaging monsters, even as you keep careful watch on how civilized realms interact with the wilderness. Those who take more than their fair share\u2014clear-cutting forests or hunting for sport rather than survival\u2014risk your wrath.",
+				"When your spirit companion manifests, it takes the form of a {@creature brown bear}.",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Guardian's Shroud|Ranger (Ambuscade)|UARanger|Guardian|UARanger|3"
+				}
+			]
+		},
+		{
+			"name": "Guardian's Shroud",
+			"source": "UARanger",
+			"page": 3,
+			"className": "Ranger (Ambuscade)",
+			"classSource": "UARanger",
+			"subclassShortName": "Guardian",
+			"subclassSource": "UARanger",
+			"level": 3,
+			"header": 1,
+			"entries": [
+				"Your companion spirit helps to protect you and the creatures closest to you. As a bonus action, you invoke your spirit companion and choose yourself or an ally you can see. The chosen creature gains temporary hit points equal to {@dice 2d6} + your Wisdom modifier."
+			]
+		},
+		{
+			"name": "Seeker",
+			"source": "UARanger",
+			"page": 4,
+			"className": "Ranger (Ambuscade)",
+			"classSource": "UARanger",
+			"subclassShortName": "Seeker",
+			"subclassSource": "UARanger",
+			"level": 3,
+			"entries": [
+				"By taking up the Seeker path, you are drawn into the unknown wilds far from civilization in search of lost treasures, forgotten evil, and sites of primal magic. You understand that the trackless wilderness can harbor many secrets. Some of those secrets\u2014such as a lonely oasis providing water to a desert realm\u2014must be protected. Others\u2014such as an ancient idol infused with the foul magic of the demon worshippers who crafted it\u2014must be destroyed before their evil awakens once more.",
+				"When your spirit companion manifests, it takes the form of a {@creature giant eagle}.",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Seeker's Eye|Ranger (Ambuscade)|UARanger|Seeker|UARanger|3"
+				}
+			]
+		},
+		{
+			"name": "Seeker's Eye",
+			"source": "UARanger",
+			"page": 4,
+			"className": "Ranger (Ambuscade)",
+			"classSource": "UARanger",
+			"subclassShortName": "Seeker",
+			"subclassSource": "UARanger",
+			"level": 3,
+			"header": 1,
+			"entries": [
+				"Your companion spirit lends its sharp combat senses to you and your companions. As a bonus action, you invoke your spirit companion and choose a creature you can see. Until the end of your next turn, all attacks made against the chosen creature have advantage."
+			]
+		},
+		{
+			"name": "Stalker",
+			"source": "UARanger",
+			"page": 4,
+			"className": "Ranger (Ambuscade)",
+			"classSource": "UARanger",
+			"subclassShortName": "Stalker",
+			"subclassSource": "UARanger",
+			"level": 3,
+			"entries": [
+				"As a ranger of the Stalker path, you prowl the wilderness in search of aberrations, fiends, and other monsters that must be slain before they wreak havoc on the natural world. You are the power of nature's vengeance made manifest, and anything that poses a threat to nature is your target. When a powerful creature such as a dragon threatens a region, a ranger of the Stalker path leads the hunt that will take it down. Like others of your kind, you do not rest until your quarry is dead and the natural world is safe.",
+				"When your spirit companion manifests, it takes the form of a {@creature dire wolf}.",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Stalker's Fangs|Ranger (Ambuscade)|UARanger|Stalker|UARanger|3"
+				}
+			]
+		},
+		{
+			"name": "Stalker's Fangs",
+			"source": "UARanger",
+			"page": 4,
+			"className": "Ranger (Ambuscade)",
+			"classSource": "UARanger",
+			"subclassShortName": "Stalker",
+			"subclassSource": "UARanger",
+			"level": 3,
+			"header": 1,
+			"entries": [
+				"Your companion spirit lends the strength of its deadly bite to you or one of your companions. As a bonus action, you invoke your spirit companion and choose yourself or a creature you can see. The next time the chosen creature hits with a weapon attack, the target of the attack takes extra slashing damage equal to {@dice 2d6} + your Wisdom modifier."
+			]
+		}
+	]
+}

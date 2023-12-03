@@ -1,0 +1,464 @@
+{
+	"_meta": {
+		"sources": [
+			{
+				"json": "UA2020SubclassesPt5",
+				"abbreviation": "UA20S5",
+				"full": "Unearthed Arcana: 2020 Subclasses, Part 5",
+				"authors": [
+					"Wizards of the Coast"
+				],
+				"convertedBy": [
+					"Giddy"
+				],
+				"version": "1.0.0",
+				"url": "https://media.wizards.com/2020/dnd/downloads/UA2020_102620_Subclasses05.pdf",
+				"dateReleased": "2020-10-26"
+			}
+		],
+		"dateAdded": 1701616429,
+		"dateLastModified": 1701616429,
+		"_dateLastModifiedHash": "aaaaaaaaaa"
+	},
+	"subclass": [
+		{
+			"name": "Drakewarden (UA)",
+			"shortName": "Drakewarden (UA)",
+			"source": "UA2020SubclassesPt5",
+			"className": "Ranger",
+			"classSource": "PHB",
+			"page": 2,
+			"isReprinted": true,
+			"subclassFeatures": [
+				"Drakewarden|Ranger||Drakewarden (UA)|UA2020SubclassesPt5|3",
+				"Bond of Fang and Scale|Ranger||Drakewarden (UA)|UA2020SubclassesPt5|7",
+				"Drake's Breath|Ranger||Drakewarden (UA)|UA2020SubclassesPt5|11",
+				"Perfected Bond|Ranger||Drakewarden (UA)|UA2020SubclassesPt5|15"
+			]
+		},
+		{
+			"name": "Way of the Ascendant Dragon (UA)",
+			"shortName": "Ascendant Dragon (UA)",
+			"source": "UA2020SubclassesPt5",
+			"className": "Monk",
+			"classSource": "PHB",
+			"page": 1,
+			"isReprinted": true,
+			"subclassFeatures": [
+				"Way of the Ascendant Dragon|Monk||Ascendant Dragon (UA)|UA2020SubclassesPt5|3",
+				"Wings Unfurled|Monk||Ascendant Dragon (UA)|UA2020SubclassesPt5|6",
+				"Aspect of the Wyrm|Monk||Ascendant Dragon (UA)|UA2020SubclassesPt5|11",
+				"Ascendant Aspect|Monk||Ascendant Dragon (UA)|UA2020SubclassesPt5|17"
+			]
+		}
+	],
+	"subclassFeature": [
+		{
+			"name": "Way of the Ascendant Dragon",
+			"source": "UA2020SubclassesPt5",
+			"page": 1,
+			"className": "Monk",
+			"classSource": "PHB",
+			"subclassShortName": "Ascendant Dragon (UA)",
+			"subclassSource": "UA2020SubclassesPt5",
+			"level": 3,
+			"entries": [
+				"Monks who follow the Way of the Ascendant Dragon revere the power and grandeur of dragons. They alter their own ki to resonate with draconic might, channeling it to augment their prowess in battle, soar through the air, and to bolster their allies.",
+				"As a follower of this Monastic Tradition, you decide how you unlocked the power of dragons through your ki. The Ascendant Dragon Origin table offers some possibilities.",
+				{
+					"type": "table",
+					"caption": "Ascendant Dragon Origin",
+					"colLabels": [
+						"d6",
+						"Origin"
+					],
+					"colStyles": [
+						"col-2 text-center",
+						"col-10"
+					],
+					"rows": [
+						[
+							"1",
+							"You honed your abilities by observing a dragon and aligning your ki with their world-altering power."
+						],
+						[
+							"2",
+							"A dragon personally took an active role in shaping your inner energy."
+						],
+						[
+							"3",
+							"You studied at a monastery that traces its teachings back centuries or more to a single dragon's instruction."
+						],
+						[
+							"4",
+							"You spent long stretches meditating in the region of influence of an ancient dragon's lair, absorbing its ambient magic."
+						],
+						[
+							"5",
+							"You found a scroll written in {@language Draconic} that contained inspiring new techniques."
+						],
+						[
+							"6",
+							"After a dream that featured a five-handed dragonborn you awoke with altered ki, reflecting the breaths of dragons."
+						]
+					]
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Draconic Disciple|Monk||Ascendant Dragon (UA)|UA2020SubclassesPt5|3"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Breath of the Dragon|Monk||Ascendant Dragon (UA)|UA2020SubclassesPt5|3"
+				}
+			]
+		},
+		{
+			"name": "Breath of the Dragon",
+			"source": "UA2020SubclassesPt5",
+			"page": 1,
+			"className": "Monk",
+			"classSource": "PHB",
+			"subclassShortName": "Ascendant Dragon (UA)",
+			"subclassSource": "UA2020SubclassesPt5",
+			"level": 3,
+			"header": 1,
+			"entries": [
+				"{@i 3rd-level Way of the Ascendant Dragon feature}",
+				"You can channel your ki into destructive waves of energy like the dragons you emulate. When you take the {@action Attack} action on your turn, you can replace one of the attacks with an exhalation of draconic energy in either a 20-foot cone or a 30-foot line that is 5 feet wide (your choice). Choose a damage type: acid, cold, fire, lightning, or poison. Each creature in the area must make a Dexterity saving throw against your ki save DC, taking damage of the chosen type equal to two rolls of your Martial Arts die on a failure, or half as much damage on a success.",
+				"At 11th level, the damage of your breath increases to three rolls of your Martial Arts die.",
+				"You can use this feature a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest. While you have no uses available, you can spend 1 ki point to use this feature again."
+			]
+		},
+		{
+			"name": "Draconic Disciple",
+			"source": "UA2020SubclassesPt5",
+			"page": 1,
+			"className": "Monk",
+			"classSource": "PHB",
+			"subclassShortName": "Ascendant Dragon (UA)",
+			"subclassSource": "UA2020SubclassesPt5",
+			"level": 3,
+			"header": 1,
+			"entries": [
+				"{@i 3rd-level Way of the Ascendant Dragon feature}",
+				"You can channel your draconic ki to imbue your unarmed strikes with the essence of a dragon's breath and to use your connection with draconic creatures to magnify your presence. You gain the following benefits:",
+				{
+					"type": "list",
+					"items": [
+						"When you damage a target with an unarmed strike, you can change the damage type to acid, cold, fire, lightning, or poison.",
+						"If you can't already, you learn to speak, read, and write {@language Draconic}.",
+						"If you fail a Charisma ({@skill Intimidation}) or Charisma ({@skill Persuasion}) check, you can use your reaction to reroll the check, as you tap into the mighty presence of dragons. Once this feature turns a failure into a success, you can't use it again until you finish a long rest."
+					]
+				}
+			]
+		},
+		{
+			"name": "Wings Unfurled",
+			"source": "UA2020SubclassesPt5",
+			"page": 2,
+			"className": "Monk",
+			"classSource": "PHB",
+			"subclassShortName": "Ascendant Dragon (UA)",
+			"subclassSource": "UA2020SubclassesPt5",
+			"level": 6,
+			"header": 2,
+			"entries": [
+				"{@i 6th-level Way of the Ascendant Dragon feature}",
+				"When you use your Step of the Wind, you can unfurl spectral draconic wings from your back that vanish at the end of your turn. While the wings exist, you have a flying speed equal to your walking speed.",
+				"You can use this feature a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest. While you have no uses available, you can spend 1 additional ki point when you activate Step of the Wind to use this feature again."
+			]
+		},
+		{
+			"name": "Aspect of the Wyrm",
+			"source": "UA2020SubclassesPt5",
+			"page": 2,
+			"className": "Monk",
+			"classSource": "PHB",
+			"subclassShortName": "Ascendant Dragon (UA)",
+			"subclassSource": "UA2020SubclassesPt5",
+			"level": 11,
+			"header": 2,
+			"entries": [
+				"{@i 11th-level Way of the Ascendant Dragon feature}",
+				"The power of your draconic ki now radiates from you, protecting your allies from harm and punishing any who raise arms against them. As a bonus action, you can create an aura of draconic power that radiates 30 feet from you for 1 minute. Choose acid, cold, fire, lightning, or poison damage, and for the duration, you gain the following effects:",
+				{
+					"type": "list",
+					"items": [
+						"You and your allies within your aura gain resistance to the chosen damage type.",
+						"Waves of destructive energy flow out from you and your allies when any of you are attacked. When you or one of your allies in the aura is hit by an attack made by another creature within the aura, the target that was hit can use their reaction to deal an amount of damage of the chosen type equal to one roll of your Martial Arts die to the attacker."
+					]
+				},
+				"Once you use this bonus action, you can't use it again until you finish a long rest, unless you expend 4 ki points to use it again."
+			]
+		},
+		{
+			"name": "Ascendant Aspect",
+			"source": "UA2020SubclassesPt5",
+			"page": 2,
+			"className": "Monk",
+			"classSource": "PHB",
+			"subclassShortName": "Ascendant Dragon (UA)",
+			"subclassSource": "UA2020SubclassesPt5",
+			"level": 17,
+			"header": 2,
+			"entries": [
+				"{@i 17th-level Way of the Ascendant Dragon feature}",
+				"Your draconic ki reaches its peak. You gain the following benefits:",
+				{
+					"type": "list",
+					"items": [
+						"You gain {@sense blindsight} out to 30 feet. Within that range, you can effectively see anything that isn't behind total cover, even if you're {@condition blinded} or in darkness. Moreover, you can see an {@condition invisible} creature within that range, unless the creature successfully hides from you.",
+						"When you damage a creature with your Breath of the Dragon, the energy clings to the target. At the start of each of the creature's turns, it takes damage of the type your breath dealt equal to one roll of your Martial Arts die. At the end of its turn, the creature can repeat the save, ending the effect on itself on a success.",
+						"When you activate your Aspect of the Wyrm, draconic fury explodes from you. Choose any number of creatures you can see within your aura. Those creatures each take {@damage 4d10} acid, cold, fire, lightning, or poison damage (your choice)."
+					]
+				}
+			]
+		},
+		{
+			"name": "Drakewarden",
+			"source": "UA2020SubclassesPt5",
+			"page": 2,
+			"className": "Ranger",
+			"classSource": "PHB",
+			"subclassShortName": "Drakewarden (UA)",
+			"subclassSource": "UA2020SubclassesPt5",
+			"level": 3,
+			"entries": [
+				"Drakewardens are rangers who use their magical connection with nature to form an enduring bond with a minor dragon, a drake. This bond allows the ranger to summon the drake to their side and to share in the awe-inspiring power wielded by dragons. Consider how your ranger gained their bond with the drake. The Drakewarden Origin table offers some examples.",
+				{
+					"type": "table",
+					"caption": "Drakewarden Origin",
+					"colLabels": [
+						"d6",
+						"Origin"
+					],
+					"colStyles": [
+						"col-2 text-center",
+						"col-10"
+					],
+					"rows": [
+						[
+							"1",
+							"You studied a dragon's scale or claw, or a trinket from its hoard, and created your bond through the token's lingering draconic magic."
+						],
+						[
+							"2",
+							"A secret order of rangers who collect and guard draconic lore taught you their ways."
+						],
+						[
+							"3",
+							"A true dragon gave you a drake egg to care for. When it hatched, the drake bonded to you."
+						],
+						[
+							"4",
+							"You drank a few drops of dragon blood, forever infusing your nature magic with draconic power."
+						],
+						[
+							"5",
+							"An ancient {@language Draconic} inscription on a standing stone empowered you when you read it aloud."
+						],
+						[
+							"6",
+							"You had a vivid dream of a mysterious man, accompanied by seven yellow canaries, who warned you of impending doom. When you awoke, your drake was there, watching you."
+						]
+					]
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Draconic Gift|Ranger||Drakewarden (UA)|UA2020SubclassesPt5|3"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Drake Companion|Ranger||Drakewarden (UA)|UA2020SubclassesPt5|3"
+				}
+			]
+		},
+		{
+			"name": "Draconic Gift",
+			"source": "UA2020SubclassesPt5",
+			"page": 3,
+			"className": "Ranger",
+			"classSource": "PHB",
+			"subclassShortName": "Drakewarden (UA)",
+			"subclassSource": "UA2020SubclassesPt5",
+			"level": 3,
+			"header": 1,
+			"entries": [
+				"{@i 3rd-level Drakewarden feature}",
+				"The bond you share with your drake creates a deeper connection to dragon kind, granting you understanding and empowering your presence. You gain the following benefits:",
+				{
+					"type": "list",
+					"items": [
+						"If you can't already, you learn to speak, read, and write {@language Draconic}.",
+						"You learn the {@spell thaumaturgy} cantrip, which is a ranger spell for you."
+					]
+				}
+			]
+		},
+		{
+			"name": "Drake Companion",
+			"source": "UA2020SubclassesPt5",
+			"page": 3,
+			"className": "Ranger",
+			"classSource": "PHB",
+			"subclassShortName": "Drakewarden (UA)",
+			"subclassSource": "UA2020SubclassesPt5",
+			"level": 3,
+			"header": 1,
+			"entries": [
+				"{@i 3rd-level Drakewarden feature}",
+				"You can magically summon the drake bound to you. As an action, you can summon the drake, which appears in an unoccupied space of your choice that you can see within 30 feet of you.",
+				"The drake is friendly to you and your companions and obeys your commands. See its game statistics in the {@creature Drake Companion|UA2020SubclassesPt5} stat block, which uses your proficiency bonus (PB) in several places. When you summon the drake, choose a damage type listed in its Draconic Essence trait. You can determine the cosmetic characteristics of the drake such as its color, scale texture, or any visible effect of its Draconic Essence; your choice has no effect on its game statistics.",
+				"In combat, the drake shares your initiative count, but it takes its turn immediately after yours. It can move and use its reaction on its own, but the only action it takes on its turn is the {@action Dodge} action, unless you take a bonus action on your turn to command it to take another action. That action can be one in its stat block or some other action. If you are {@condition incapacitated}, the drake can take any action of its choice, not just {@action Dodge}.",
+				"Once you summon the drake, you can't do so again until you finish a long rest, unless you expend a spell slot of 1st level or higher to summon it.",
+				"The drake remains for a number of hours equal to your proficiency bonus, until it is reduced to 0 hit points, until you use this feature to summon the drake again, or until you die. Anything the drake was wearing or carrying is left behind when the drake vanishes."
+			]
+		},
+		{
+			"name": "Bond of Fang and Scale",
+			"source": "UA2020SubclassesPt5",
+			"page": 4,
+			"className": "Ranger",
+			"classSource": "PHB",
+			"subclassShortName": "Drakewarden (UA)",
+			"subclassSource": "UA2020SubclassesPt5",
+			"level": 7,
+			"header": 2,
+			"entries": [
+				"{@i 7th-level Drakewarden feature}",
+				"The bond you share with your drake intensifies, protecting you and stoking the drake's fury. While your drake is summoned, you and the drake gain the following benefits:",
+				{
+					"type": "list",
+					"items": [
+						"You gain resistance to the damage type chosen for the drake's Draconic Essence.",
+						"Choose one of the following: the drake gains a swimming speed of 40 feet and can breathe both air and water, or the drake grows wings and gains a flying speed of 40 feet.",
+						"The drake's bite attack deals an extra {@damage 1d6} damage of the type chosen for its Draconic Essence."
+					]
+				}
+			]
+		},
+		{
+			"name": "Drake's Breath",
+			"source": "UA2020SubclassesPt5",
+			"page": 4,
+			"className": "Ranger",
+			"classSource": "PHB",
+			"subclassShortName": "Drakewarden (UA)",
+			"subclassSource": "UA2020SubclassesPt5",
+			"level": 11,
+			"header": 2,
+			"entries": [
+				"{@i 11th-level Drakewarden feature}",
+				"As an action, you can exhale a 30-foot cone of damaging breath or cause your drake to exhale it. Choose acid, cold, fire, lightning, or poison damage. Each creature in the cone must make a Dexterity saving throw against your spell save DC, taking {@damage 6d6} damage on a failed save, or half as much damage on a successful one.",
+				"This damage increases to {@dice 8d6} when you reach 15th level in this class.",
+				"Once you use this feature, you can't do so again until you finish a long rest, unless you expend a spell slot of 3rd level or higher to use it again."
+			]
+		},
+		{
+			"name": "Perfected Bond",
+			"source": "UA2020SubclassesPt5",
+			"page": 4,
+			"className": "Ranger",
+			"classSource": "PHB",
+			"subclassShortName": "Drakewarden (UA)",
+			"subclassSource": "UA2020SubclassesPt5",
+			"level": 15,
+			"header": 2,
+			"entries": [
+				"{@i 15th-level Drakewarden feature}",
+				"Your bond to your drake reaches the pinnacle of its power. While your drake is summoned, you and the drake gain the following benefits:",
+				{
+					"type": "list",
+					"items": [
+						"The drake grows to Large size.",
+						"The drake's bite attack deals an extra {@damage 1d6} damage of the type chosen for its Draconic Essence (for a total of {@damage 2d6} extra damage).",
+						"When either you or the drake takes damage while you're within 30 feet of each other, you can use your reaction to give yourself or the drake resistance to that instance of damage."
+					]
+				}
+			]
+		}
+	],
+	"monster": [
+		{
+			"name": "Drake Companion",
+			"source": "UA2020SubclassesPt5",
+			"page": 3,
+			"summonedByClass": "Ranger|PHB",
+			"size": [
+				"S"
+			],
+			"type": "dragon",
+			"ac": [
+				{
+					"special": "14 + PB (natural armor)"
+				}
+			],
+			"hp": {
+				"special": "5 + five times your ranger level (the drake has a number of hit dice [d10s] equal to your ranger level)"
+			},
+			"speed": {
+				"walk": 40
+			},
+			"str": 16,
+			"dex": 12,
+			"con": 15,
+			"int": 8,
+			"wis": 14,
+			"cha": 8,
+			"save": {
+				"dex": "+1 + PB",
+				"wis": "+2 + PB"
+			},
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"passive": 12,
+			"immune": [
+				{
+					"special": "determined by the drake's draconic essence trait"
+				}
+			],
+			"languages": [
+				"Draconic"
+			],
+			"trait": [
+				{
+					"name": "Draconic Essence",
+					"entries": [
+						"When you summon the drake, choose a damage type: acid, cold, fire, lightning, or poison. The chosen type determines the drake's damage immunity, the damage of its bite, and the damage of its Infused Strikes trait."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Bite",
+					"entries": [
+						"{@atk mw} {@hit 3 + PB} to hit, reach 5 ft., one target. {@h}{@damage 1d6} piercing damage plus {@damage PB} damage of a type determined by the drake's Draconic Essence."
+					]
+				}
+			],
+			"reaction": [
+				{
+					"name": "Infused Strikes",
+					"entries": [
+						"When another creature within 30 feet of the drake that it can see hits with a weapon attack, the drake infuses the strike with its essence, causing the attack to deal an extra {@damage 1d6} damage of the type determined by its Draconic Essence."
+					]
+				}
+			],
+			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/unearthed-arcana/master/_img/tokens/UA2020SubclassesPt5/Drake Companion.png",
+			"senseTags": [
+				"D"
+			],
+			"languageTags": [
+				"DR"
+			],
+			"damageTags": [
+				"P"
+			],
+			"miscTags": [
+				"MW"
+			]
+		}
+	]
+}

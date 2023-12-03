@@ -1,0 +1,1016 @@
+{
+	"_meta": {
+		"sources": [
+			{
+				"json": "UA2020PsionicOptionsRevisited",
+				"abbreviation": "UA20POR",
+				"full": "Unearthed Arcana: 2020 Psionic Options Revisited",
+				"authors": [
+					"Wizards of the Coast"
+				],
+				"convertedBy": [
+					"Giddy"
+				],
+				"version": "1.0.0",
+				"url": "https://media.wizards.com/2020/dnd/downloads/UA2020_PsionicOptions.pdf",
+				"dateReleased": "2020-04-14"
+			}
+		],
+		"dateAdded": 1701616429,
+		"dateLastModified": 1701616429,
+		"_dateLastModifiedHash": "aaaaaaaaaa"
+	},
+	"subclass": [
+		{
+			"name": "Psi Knight (UA)",
+			"shortName": "Psi Knight (UA)",
+			"source": "UA2020PsionicOptionsRevisited",
+			"className": "Fighter",
+			"classSource": "PHB",
+			"page": 2,
+			"isReprinted": true,
+			"subclassFeatures": [
+				"Psi Knight|Fighter||Psi Knight (UA)|UA2020PsionicOptionsRevisited|3",
+				"Telekinetic Adept|Fighter||Psi Knight (UA)|UA2020PsionicOptionsRevisited|7",
+				"Psi-Enhanced Metabolism|Fighter||Psi Knight (UA)|UA2020PsionicOptionsRevisited|10",
+				"Bulwark of Force|Fighter||Psi Knight (UA)|UA2020PsionicOptionsRevisited|15",
+				"Telekinetic Master|Fighter||Psi Knight (UA)|UA2020PsionicOptionsRevisited|18"
+			]
+		},
+		{
+			"name": "Psionic Soul (UA)",
+			"shortName": "Psionic Soul (UA)",
+			"source": "UA2020PsionicOptionsRevisited",
+			"className": "Sorcerer",
+			"classSource": "PHB",
+			"page": 5,
+			"isReprinted": true,
+			"subclassFeatures": [
+				"Psionic Soul|Sorcerer||Psionic Soul (UA)|UA2020PsionicOptionsRevisited|1",
+				"Psychic Strike|Sorcerer||Psionic Soul (UA)|UA2020PsionicOptionsRevisited|6",
+				"Mind Over Body|Sorcerer||Psionic Soul (UA)|UA2020PsionicOptionsRevisited|14",
+				"Psychic Aura|Sorcerer||Psionic Soul (UA)|UA2020PsionicOptionsRevisited|18"
+			]
+		},
+		{
+			"name": "Soulknife (UA)",
+			"shortName": "Soulknife (UA)",
+			"source": "UA2020PsionicOptionsRevisited",
+			"className": "Rogue",
+			"classSource": "PHB",
+			"page": 3,
+			"isReprinted": true,
+			"subclassFeatures": [
+				"Soulknife|Rogue||Soulknife (UA)|UA2020PsionicOptionsRevisited|3",
+				"Soul Blades|Rogue||Soulknife (UA)|UA2020PsionicOptionsRevisited|9",
+				"Psionic Veil|Rogue||Soulknife (UA)|UA2020PsionicOptionsRevisited|13",
+				"Rend Mind|Rogue||Soulknife (UA)|UA2020PsionicOptionsRevisited|17"
+			]
+		}
+	],
+	"subclassFeature": [
+		{
+			"name": "Psi Knight",
+			"source": "UA2020PsionicOptionsRevisited",
+			"page": 2,
+			"className": "Fighter",
+			"classSource": "PHB",
+			"subclassShortName": "Psi Knight (UA)",
+			"subclassSource": "UA2020PsionicOptionsRevisited",
+			"level": 3,
+			"entries": [
+				"Awake to the psionic power within, a Psi Knight is a fighter who augments their physical might with psi-infused weapon strikes, telekinetic lashes, and barriers of mental force. Many githyanki train to become such knights, as do some of the most disciplined high elves. In the world of Athas, renowned gladiators in the arenas of the Sorcerer-Kings are often Psi Knights, and in Eberron, the psionic kalashtar view membership in this knighthood as a special honor.",
+				"As a Psi Knight, you might have honed your psionic abilities through solo discipline, unlocked it under the tutelage of a master, or refined it at an academy dedicated to wielding the mind's power as both weapon and shield.",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Psionic Talent|Fighter||Psi Knight (UA)|UA2020PsionicOptionsRevisited|3"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Psionic Talent Options|Fighter||Psi Knight (UA)|UA2020PsionicOptionsRevisited|3"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Changing the Die's Size|Fighter||Psi Knight (UA)|UA2020PsionicOptionsRevisited|3"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Psi Replenishment|Fighter||Psi Knight (UA)|UA2020PsionicOptionsRevisited|3"
+				}
+			]
+		},
+		{
+			"name": "Changing the Die's Size",
+			"source": "UA2020PsionicOptionsRevisited",
+			"page": 2,
+			"className": "Fighter",
+			"classSource": "PHB",
+			"subclassShortName": "Psi Knight (UA)",
+			"subclassSource": "UA2020PsionicOptionsRevisited",
+			"level": 3,
+			"header": 1,
+			"entries": [
+				"If you roll the highest number on your Psionic Talent die, it decreases by one die size after the roll. This represents you burning through your psionic energy. For example, if the die is a {@dice d6} and you roll a 6, it becomes a {@dice d4}. If it's a {@dice d4} and you roll a 4, it becomes unusable until you finish a long rest.",
+				"Conversely, if you roll a 1 on your Psionic Talent die, it increases by one die size after the roll, up to its starting size. This represents you conserving psionic energy for later use. For example, if you roll a 1 on a {@dice d4}, the die then becomes a {@dice d6}.",
+				"Whenever you finish a long rest, your Psionic Talent die resets to its starting size. When you reach certain levels in this class, the starting size of your Psionic Talent die increases: at 5th level ({@dice d8}), 11th level ({@dice d10}), and 17th level ({@dice d12})."
+			]
+		},
+		{
+			"name": "Psi Replenishment",
+			"source": "UA2020PsionicOptionsRevisited",
+			"page": 2,
+			"className": "Fighter",
+			"classSource": "PHB",
+			"subclassShortName": "Psi Knight (UA)",
+			"subclassSource": "UA2020PsionicOptionsRevisited",
+			"level": 3,
+			"header": 1,
+			"entries": [
+				"As a bonus action, you can calm your mind for a moment and restore your Psionic Talent die to its starting size. You then can't use Psi Replenishment again until you finish a long rest."
+			]
+		},
+		{
+			"name": "Psionic Talent",
+			"source": "UA2020PsionicOptionsRevisited",
+			"page": 2,
+			"className": "Fighter",
+			"classSource": "PHB",
+			"subclassShortName": "Psi Knight (UA)",
+			"subclassSource": "UA2020PsionicOptionsRevisited",
+			"level": 3,
+			"header": 1,
+			"entries": [
+				"{@i 3rd-level Psi Knight feature}",
+				"You harbor a wellspring of psionic power within yourself, an energy that ebbs and flows as you channel it in various ways. This power is represented by your Psionic Talent die, the starting size of which is a {@dice d6}."
+			]
+		},
+		{
+			"name": "Psionic Talent Options",
+			"source": "UA2020PsionicOptionsRevisited",
+			"page": 2,
+			"className": "Fighter",
+			"classSource": "PHB",
+			"subclassShortName": "Psi Knight (UA)",
+			"subclassSource": "UA2020PsionicOptionsRevisited",
+			"level": 3,
+			"header": 1,
+			"entries": [
+				"You can use your Psionic Talent die in the following ways:",
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"items": [
+						{
+							"type": "item",
+							"name": "Protective Field",
+							"entry": "When you or another creature you can see within 30 feet of you takes damage, you can use your reaction to roll your Psionic Talent die and reduce the damage taken by the number rolled plus your Intelligence modifier (minimum reduction of 1), as you create a momentary shield of telekinetic force."
+						},
+						{
+							"type": "item",
+							"name": "Psi-Powered Leap",
+							"entry": "When you make a high or long jump, you can roll your Psionic Talent die and extend the distance of the jump, up to a number of feet equal to twice the number rolled plus twice your Intelligence modifier (minimum of 1 extra foot). This extra distance costs you only 1 foot of movement."
+						},
+						{
+							"type": "item",
+							"name": "Telekinetic Strike",
+							"entry": "You can propel your attacks with telekinetic force. Once on each of your turns, immediately after you deal damage to a target within 30 feet of you with a weapon attack, you can roll your Psionic Talent die and also deal force damage to the target equal to the number rolled."
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Telekinetic Adept",
+			"source": "UA2020PsionicOptionsRevisited",
+			"page": 2,
+			"className": "Fighter",
+			"classSource": "PHB",
+			"subclassShortName": "Psi Knight (UA)",
+			"subclassSource": "UA2020PsionicOptionsRevisited",
+			"level": 7,
+			"header": 2,
+			"entries": [
+				"{@i 7th-level Psi Knight feature}",
+				"You have mastered new ways to use your telekinesis:",
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"items": [
+						{
+							"type": "item",
+							"name": "Psionic Thrust",
+							"entry": "When you deal damage to a target with the Telekinetic Strike of your Psionic Talent, you can force the target to make a Strength saving throw against a DC equal to 8 + your proficiency bonus + your Intelligence modifier. Unless the save succeeds, you can knock the target {@condition prone} or move it up to 10 feet in any direction horizontally."
+						},
+						{
+							"type": "item",
+							"name": "Telekinetic Movement",
+							"entry": "If your Psionic Talent die is available, you can move an object or a creature with your mind. As an action, you target one loose object that is Large or smaller or one willing creature, other than yourself. If you can see the target and it is within 30 feet of you, you can move it up to 30 feet to an unoccupied space you can see. Alternatively, if it is a Tiny object, you can move it to or from your hand. Either way, you can move the target horizontally, vertically, or both. When you take this action, your Psionic Talent die decreases by one die size."
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Psi-Enhanced Metabolism",
+			"source": "UA2020PsionicOptionsRevisited",
+			"page": 2,
+			"className": "Fighter",
+			"classSource": "PHB",
+			"subclassShortName": "Psi Knight (UA)",
+			"subclassSource": "UA2020PsionicOptionsRevisited",
+			"level": 10,
+			"header": 2,
+			"entries": [
+				"{@i 10th-level Psi Knight feature}",
+				"The psionic energy flowing through you has bolstered your mind and body. You have resistance to poison and psychic damage, and you are immune to the {@condition poisoned} condition."
+			]
+		},
+		{
+			"name": "Bulwark of Force",
+			"source": "UA2020PsionicOptionsRevisited",
+			"page": 2,
+			"className": "Fighter",
+			"classSource": "PHB",
+			"subclassShortName": "Psi Knight (UA)",
+			"subclassSource": "UA2020PsionicOptionsRevisited",
+			"level": 15,
+			"header": 2,
+			"entries": [
+				"{@i 15th-level Psi Knight feature}",
+				"You can shield yourself and others with telekinetic force. As a bonus action, you can choose creatures, which can include you, that you can see within 30 feet of you, up to a number of creatures equal to your Intelligence modifier (minimum of one creature). Each of the chosen creatures is protected by half cover for 1 minute or until you're {@condition incapacitated}. Once you use this feature, you can't do so again until you finish a long rest, unless you decrease your Psionic Talent die by one die size to use this feature again."
+			]
+		},
+		{
+			"name": "Telekinetic Master",
+			"source": "UA2020PsionicOptionsRevisited",
+			"page": 2,
+			"className": "Fighter",
+			"classSource": "PHB",
+			"subclassShortName": "Psi Knight (UA)",
+			"subclassSource": "UA2020PsionicOptionsRevisited",
+			"level": 18,
+			"header": 2,
+			"entries": [
+				"{@i 18th-level Psi Knight feature}",
+				"Your ability to move creatures and objects with your mind is matched by few. If your Psionic Talent die is available, you can cast the {@spell telekinesis} spell, requiring no components. Your spellcasting ability for the spell is Intelligence. When you cast this spell, your Psionic Talent die decreases by one die size."
+			]
+		},
+		{
+			"name": "Soulknife",
+			"source": "UA2020PsionicOptionsRevisited",
+			"page": 3,
+			"className": "Rogue",
+			"classSource": "PHB",
+			"subclassShortName": "Soulknife (UA)",
+			"subclassSource": "UA2020PsionicOptionsRevisited",
+			"level": 3,
+			"entries": [
+				"Most assassins strike with physical weapons, and many burglars and spies use {@item thieves' tools|PHB} to infiltrate secure locations, whereas a Soulknife strikes and infiltrates with the mind, cutting through barriers both physical and psychic. These rogues discover psionic power within themselves and channel it to do their roguish work. They find easy employment as members of thieves' guilds, though they are often mistrusted by rogues who are leery of anyone using strange mind powers to conduct their business, and most governments would be happy to employ a Soulknife as a spy.",
+				"Amid the trees of ancient forests on the Material Plane and in the Feywild, some wood elves walk the path of the Soulknife, serving as silent, lethal guardians of their woods. In the endless war among the gith, a githzerai is encouraged to become a Soulknife when stealth is required against the githyanki foe, and in the world of Athas, a Sorcerer-King often turns to a Soulknife to eliminate an enemy, just as an insurgent Soulknife seeks to undermine that Sorcerer-King's rule.",
+				"As a Soulknife, your psionic abilities might have haunted you since you were a child, only revealing their potential as you experienced the stress of adventure. Or you might have sought out a reclusive order of psionic adepts and spent years learning how to manifest your power.",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Psionic Talent|Rogue||Soulknife (UA)|UA2020PsionicOptionsRevisited|3"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Psychic Blades|Rogue||Soulknife (UA)|UA2020PsionicOptionsRevisited|3"
+				}
+			]
+		},
+		{
+			"name": "Psionic Talent",
+			"source": "UA2020PsionicOptionsRevisited",
+			"page": 3,
+			"className": "Rogue",
+			"classSource": "PHB",
+			"subclassShortName": "Soulknife (UA)",
+			"subclassSource": "UA2020PsionicOptionsRevisited",
+			"level": 3,
+			"header": 1,
+			"entries": [
+				"{@i 3rd-level Soulknife feature}",
+				"You harbor a wellspring of psionic power within yourself, an energy that ebbs and flows as you channel it in various ways. This power is represented by your Psionic Talent die, the starting size of which is a {@dice d6}.",
+				{
+					"type": "entries",
+					"name": "Psionic Talent Options",
+					"entries": [
+						"You can use your Psionic Talent die in the following ways:",
+						{
+							"type": "list",
+							"style": "list-hang-notitle",
+							"items": [
+								{
+									"type": "item",
+									"name": "Psi-Bolstered Knack",
+									"entry": "When your non-psionic training fails you, you can tap into your psionic power to help: if you fail an ability check using a skill or tool with which you have proficiency, you can roll your Psionic Talent die and add the number rolled to the check, potentially turning failure into success."
+								},
+								{
+									"type": "item",
+									"name": "Psychic Whispers",
+									"entry": "You can use your psychic abilities to establish telepathic communication between yourself and others\u2014perfect for quiet infiltration. As an action, you give yourself and at least one other creature the ability to speak telepathically with each other. When you do so, roll your Psionic Talent die, and choose creatures you can see, up to a number of creatures equal to the number rolled. For 1 hour, the chosen creatures can speak telepathically with you, and you can speak telepathically with them. To send or receive a message (no action required), you and the other creature must be within 1 mile of each other. A creature can't use this telepathy if it can't speak any languages, and a creature can end the telepathic connection at any time (no action required). You and the creature don't need to speak a common language to understand each other."
+								}
+							]
+						}
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Changing the Die's Size",
+					"entries": [
+						"If you roll the highest number on your Psionic Talent die, it decreases by one die size after the roll. This represents you burning through your psionic energy. For example, if the die is a {@dice d6} and you roll a 6, it becomes a {@dice d4}. If it's a {@dice d4} and you roll a 4, it becomes unusable until you finish a long rest.",
+						"Conversely, if you roll a 1 on your Psionic Talent die, it increases by one die size after the roll, up to its starting size. This represents you conserving psionic energy for later use. For example, if you roll a 1 on a {@dice d4}, the die then becomes a {@dice d6}.",
+						"Whenever you finish a long rest, your Psionic Talent die resets to its starting size. When you reach certain levels in this class, the starting size of your Psionic Talent die increases: at 5th level ({@dice d8}), 11th level ({@dice d10}), and 17th level ({@dice d12})."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Psi Replenishment",
+					"entries": [
+						"As a bonus action, you can calm your mind for a moment and restore your Psionic Talent die to its starting size. You then can't use Psi Replenishment again until you finish a long rest."
+					]
+				}
+			]
+		},
+		{
+			"name": "Psychic Blades",
+			"source": "UA2020PsionicOptionsRevisited",
+			"page": 3,
+			"className": "Rogue",
+			"classSource": "PHB",
+			"subclassShortName": "Soulknife (UA)",
+			"subclassSource": "UA2020PsionicOptionsRevisited",
+			"level": 3,
+			"header": 1,
+			"entries": [
+				"{@i 3rd-level Soulknife feature}",
+				"You can manifest your psionic power as shimmering blades of psychic energy. When you are about to make a melee or ranged weapon attack against a creature, you can manifest a psychic blade from your free hand and make the attack with that blade. This magic blade is a simple melee weapon with the finesse and thrown properties. It has a normal range of 60 feet and no long range, and on a hit, it deals psychic damage equal to {@dice 1d6} plus the ability modifier you used for the attack roll. The blade vanishes immediately after it hits or misses its target, and it leaves no mark on its target if it deals damage.",
+				"After you attack with the blade, you can make a melee or ranged weapon attack with a second psychic blade as a bonus action on the same turn, provided your other hand is free to create it. The damage die of this bonus attack is {@dice 1d4}, instead of {@dice 1d6}."
+			]
+		},
+		{
+			"name": "Soul Blades",
+			"source": "UA2020PsionicOptionsRevisited",
+			"page": 3,
+			"className": "Rogue",
+			"classSource": "PHB",
+			"subclassShortName": "Soulknife (UA)",
+			"subclassSource": "UA2020PsionicOptionsRevisited",
+			"level": 9,
+			"header": 2,
+			"entries": [
+				"{@i 9th-level Soulknife feature}",
+				"Your Psychic Blades are now an expression of your psi-suffused soul, giving you finer control over them in the following ways:",
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"items": [
+						{
+							"type": "item",
+							"name": "Homing Strikes",
+							"entry": "If you make an attack roll with your Psychic Blades and miss the target, you can roll your Psionic Talent die and add the number rolled to the attack roll. If this causes the attack to hit, your Psionic Talent die decreases by one die size, regardless of the number rolled."
+						},
+						{
+							"type": "item",
+							"name": "Psychic Teleportation",
+							"entry": "If your Psionic Talent die is available, you can hurl your Psychic Blades to magically transport yourself to another location. As a bonus action, you manifest one of your Psychic Blades and throw it at an unoccupied space you can see, up to a number of feet away equal to 5 times the highest number on your Psionic Talent die. You then teleport to that space, the blade vanishes, and your Psionic Talent die decreases by one die size."
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Psionic Veil",
+			"source": "UA2020PsionicOptionsRevisited",
+			"page": 3,
+			"className": "Rogue",
+			"classSource": "PHB",
+			"subclassShortName": "Soulknife (UA)",
+			"subclassSource": "UA2020PsionicOptionsRevisited",
+			"level": 13,
+			"header": 2,
+			"entries": [
+				"{@i 13th-level Soulknife feature}",
+				"You can weave a veil of psychic static to mask yourself. As an action, you can magically become {@condition invisible}, along with anything you are wearing or carrying, for 10 minutes or until you dismiss this effect (no action required). This invisibility ends if you deal damage to a creature or if you force a creature to make a saving throw.",
+				"Once you use this feature, you can't do so again until you finish a long rest, unless you decrease your Psionic Talent die by one die size to use this feature again."
+			]
+		},
+		{
+			"name": "Rend Mind",
+			"source": "UA2020PsionicOptionsRevisited",
+			"page": 3,
+			"className": "Rogue",
+			"classSource": "PHB",
+			"subclassShortName": "Soulknife (UA)",
+			"subclassSource": "UA2020PsionicOptionsRevisited",
+			"level": 17,
+			"header": 2,
+			"entries": [
+				"{@i 17th-level Soulknife feature}",
+				"You can sweep your Psychic Blades directly through a creature's mind. When you use your Psychic Blades to deal Sneak Attack damage to a creature, you can force that target to make a Wisdom saving throw (DC equal to 8 + your proficiency bonus + your Dexterity modifier). Unless the save succeeds, the target is {@condition stunned} until the end of your next turn.",
+				"Once you use this feature, you can't do so again until you finish a long rest, unless you decrease your Psionic Talent die by one die size to use this feature again."
+			]
+		},
+		{
+			"name": "Psionic Soul",
+			"source": "UA2020PsionicOptionsRevisited",
+			"page": 5,
+			"className": "Sorcerer",
+			"classSource": "PHB",
+			"subclassShortName": "Psionic Soul (UA)",
+			"subclassSource": "UA2020PsionicOptionsRevisited",
+			"level": 1,
+			"entries": [
+				"One day a light blazed forth within you\u2014the illumination of psionic power. Your mind now simmers with this power, the full extent of which you won't fully grasp for years to come. You can touch other minds with it and alter the world around you by using it to control the magical energy of the multiverse. Will this power shine from you as a hopeful beacon to others? Or will you be a source of terror to those who feel the stab of your mind and witness the strange manifestations of your might?",
+				"Among githyanki and githzerai, the powers of Psionic Soul sorcerers are revered and marshaled on both sides of the gith war. In Eberron, many kalashtar dream of discovering this origin's abilities within themselves, and in Athas, more sorcerers are born with a Psionic Soul than with any other source of power. In the glades of primeval woods touched by the Feywild, children sometimes awaken to the wonders of psionic power. And in communities that survive Far Realm incursions, some folk are mutated into horrific aberrations, while a lucky few not only remain themselves, but also discover that psionic energy now suffuses their minds.",
+				"As a Psionic Soul sorcerer, you decide how you acquired your powers. Were you born with them, and did they manifest throughout childhood? Or did an extraordinary event later in life leave you shining with psionic awareness? Consult the Psionic Origins table for a possible origin of your power.",
+				{
+					"type": "table",
+					"caption": "Psionic Origins",
+					"colLabels": [
+						"d10",
+						"Origin"
+					],
+					"colStyles": [
+						"col-2 text-center",
+						"col-10"
+					],
+					"rows": [
+						[
+							1,
+							"You were exposed to the Far Realm's warping influence. You can now use your mind in ways you never thought possible, and you're also convinced that a tendril is growing upon you."
+						],
+						[
+							2,
+							"A psychic wind from the Astral Plane carried psionic energy into your being. When you use your powers now, faint motes of light sparkle around you."
+						],
+						[
+							3,
+							"You or your ancestor were trained by a githzerai monk to unlock the psionic potential within yourself."
+						],
+						[
+							4,
+							"A spirit haunts your mind, lending incredible power to your thoughts. When you sleep, the spirit's memories invade your dreams."
+						],
+						[
+							5,
+							"Deep in a forest touched by the Feywild, you drank from a glimmering stream, and now your mind shines with power. Beasts and fey creatures are often now friendly to you, as if they can sense the light within you."
+						],
+						[
+							6,
+							"Upon recovering from a near-fatal injury, you found yourself with psionic powers. Whenever you use them, your old wound tingles."
+						],
+						[
+							7,
+							"You were implanted with a mind flayer tadpole, but the ceremorphosis never completed. And now the psionic power is yours. When you use it, your flesh shines with a strange mucus."
+						],
+						[
+							8,
+							"As a child, you had an imaginary friend that looked like a flumph or a strange platypuslike creature. One day, it gifted you with psionic powers, which have ended up being not so imaginary."
+						],
+						[
+							9,
+							"Your nightmares whisper the truth to you: your psionic powers are not your own. You draw them from your vestigial twin!"
+						],
+						[
+							10,
+							"You grew up near the lair of a sapphire dragon, and now your eyes glow with sapphire light when you use your newfound powers."
+						]
+					]
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Psionic Talent|Sorcerer||Psionic Soul (UA)|UA2020PsionicOptionsRevisited|1"
+				}
+			]
+		},
+		{
+			"name": "Psionic Talent",
+			"source": "UA2020PsionicOptionsRevisited",
+			"page": 5,
+			"className": "Sorcerer",
+			"classSource": "PHB",
+			"subclassShortName": "Psionic Soul (UA)",
+			"subclassSource": "UA2020PsionicOptionsRevisited",
+			"level": 1,
+			"header": 1,
+			"entries": [
+				"{@i 1st-level Psionic Soul feature}",
+				"You harbor a wellspring of psionic power within yourself, an energy that ebbs and flows as you channel it in various ways. This power is represented by your Psionic Talent die, the starting size of which is a {@dice d6}.",
+				{
+					"type": "entries",
+					"name": "Psionic Talent Options",
+					"entries": [
+						"You can use your Psionic Talent die in the following ways:",
+						{
+							"type": "list",
+							"style": "list-hang-notitle",
+							"items": [
+								{
+									"type": "item",
+									"name": "Psionic Discovery",
+									"entry": "You can unlock the ability to cast a mind-oriented sorcerer spell you don't already know. After meditating for 10 minutes (which can be done during a rest), roll your Psionic Talent die, and choose a sorcerer spell of a level for which you have spell slots and that is in the school of divination or enchantment. You know the chosen spell for a number of hours equal to the number you rolled."
+								},
+								{
+									"type": "item",
+									"name": "Psychic Sorcery",
+									"entry": "When you cast a spell, you can use your mind to form it, rather than relying on words, gestures, and materials. To do so, roll your Psionic Talent die. The spell then requires no verbal component, and if you rolled the level of the spell or higher, the spell doesn't require somatic or material components either."
+								},
+								{
+									"type": "item",
+									"name": "Telepathic Speech",
+									"entry": "You can form a telepathic connection between your mind and the mind of another. As a bonus action, choose one creature you can see, and roll your Psionic Talent die. For a number of hours equal to the number you rolled, you and the chosen creature can speak telepathically with each other while the two of you are within a number of miles of each other equal to the number you rolled. To understand each other, you each must speak mentally in a language the other knows. The telepathic connection ends early if you use this ability to form a connection with a different creature."
+								}
+							]
+						}
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Changing the Die's Size",
+					"entries": [
+						"If you roll the highest number on your Psionic Talent die, it decreases by one die size after the roll. This represents you burning through your psionic energy. For example, if the die is a {@dice d6} and you roll a 6, it becomes a {@dice d4}. If it's a {@dice d4} and you roll a 4, it becomes unusable until you finish a long rest.",
+						"Conversely, if you roll a 1 on your Psionic Talent die, it increases by one die size after the roll, up to its starting size. This represents you conserving psionic energy for later use. For example, if you roll a 1 on a {@dice d4}, the die then becomes a {@dice d6}.",
+						"Whenever you finish a long rest, your Psionic Talent die resets to its starting size. When you reach certain levels in this class, the starting size of your Psionic Talent die increases: at 5th level ({@dice d8}), 11th level ({@dice d10}), and 17th level ({@dice d12})."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Psi Replenishment",
+					"entries": [
+						"As a bonus action, you can calm your mind for a moment and restore your Psionic Talent die to its starting size. You then can't use Psi Replenishment again until you finish a long rest."
+					]
+				}
+			]
+		},
+		{
+			"name": "Psychic Strike",
+			"source": "UA2020PsionicOptionsRevisited",
+			"page": 5,
+			"className": "Sorcerer",
+			"classSource": "PHB",
+			"subclassShortName": "Psionic Soul (UA)",
+			"subclassSource": "UA2020PsionicOptionsRevisited",
+			"level": 6,
+			"header": 2,
+			"entries": [
+				"{@i 6th-level Psionic Soul feature}",
+				"You have learned to channel additional psychic energy into your spells. Immediately after you deal damage to a creature with a sorcerer spell for which you expend a spell slot, you can roll your Psionic Talent die and also deal psychic damage to that creature equal to the number rolled. You can deal this extra damage only once per turn."
+			]
+		},
+		{
+			"name": "Mind Over Body",
+			"source": "UA2020PsionicOptionsRevisited",
+			"page": 5,
+			"className": "Sorcerer",
+			"classSource": "PHB",
+			"subclassShortName": "Psionic Soul (UA)",
+			"subclassSource": "UA2020PsionicOptionsRevisited",
+			"level": 14,
+			"header": 2,
+			"entries": [
+				"{@i 14th-level Psionic Soul feature}",
+				"You can now use the psi that flows through you to give your body extraordinary abilities. As a bonus action, you can roll your Psionic Talent die and spend 1 or more sorcery points to magically transform yourself for a number of hours equal to the number rolled. Until the transformation ends, you gain one of the following benefits of your choice for each sorcery point you spent, choosing a different benefit for each point:",
+				{
+					"type": "list",
+					"items": [
+						"You can see any {@condition invisible} creature within 60 feet of you, provided it isn't behind total cover.",
+						"You gain a flying speed equal to your walking speed, and you can hover.",
+						"You gain a swimming speed equal to twice your walking speed, and you can breathe underwater.",
+						"Your body, along with any equipment you are wearing or carrying, becomes pliable. You can move through any space as narrow as 1 inch without squeezing, and you can spend 5 feet of movement to escape from nonmagical restraints or being {@condition grappled}."
+					]
+				}
+			]
+		},
+		{
+			"name": "Psychic Aura",
+			"source": "UA2020PsionicOptionsRevisited",
+			"page": 5,
+			"className": "Sorcerer",
+			"classSource": "PHB",
+			"subclassShortName": "Psionic Soul (UA)",
+			"subclassSource": "UA2020PsionicOptionsRevisited",
+			"level": 18,
+			"header": 2,
+			"entries": [
+				"{@i 18th-level Psionic Soul feature}",
+				"If your Psionic Talent die is available, you can unleash your psionic power in a crackling aura of psychic energy; as a bonus action, you can magically radiate this transparent, 30-foot-radius aura for 1 minute or until you're {@condition incapacitated} or lose the use of your Psionic Talent die.",
+				"Whenever a creature starts its turn in the aura or moves into it for the first time on a turn, you can roll your Psionic Talent die and deal psychic damage to the creature, equaling the number rolled plus your Charisma modifier. If the creature takes any of this damage, its speed is halved until the start of its next turn."
+			]
+		}
+	],
+	"feat": [
+		{
+			"name": "Metabolic Control",
+			"source": "UA2020PsionicOptionsRevisited",
+			"page": 8,
+			"prerequisite": [
+				{
+					"psionics": true
+				}
+			],
+			"ability": [
+				{
+					"choose": {
+						"from": [
+							"str",
+							"dex",
+							"con"
+						],
+						"amount": 1
+					}
+				}
+			],
+			"entries": [
+				"You have refined psionic control over your body's functions.",
+				{
+					"type": "list",
+					"items": [
+						"If your Psionic Talent die is available, you can take an action to channel your psionic power to nourish yourself for the next 24 hours, as if you consumed sufficient food and water for a day. When you take this action, your Psionic Talent die decreases by one die size.",
+						"If your Psionic Talent die is available, you can meditate for 1 minute, at the end of which you gain the benefits of finishing a short rest, and your Psionic Talent die decreases by one die size. You can't meditate in this way again until you finish a long rest."
+					]
+				}
+			]
+		},
+		{
+			"name": "Telekinetic",
+			"source": "UA2020PsionicOptionsRevisited",
+			"page": 8,
+			"prerequisite": [
+				{
+					"psionics": true
+				}
+			],
+			"ability": [
+				{
+					"choose": {
+						"from": [
+							"int",
+							"wis",
+							"cha"
+						],
+						"amount": 1
+					}
+				}
+			],
+			"additionalSpells": [
+				{
+					"ability": "inherit",
+					"known": {
+						"_": [
+							"mage hand#c"
+						]
+					}
+				}
+			],
+			"entries": [
+				"You learn to move things with your mind. You gain the following benefits:",
+				{
+					"type": "list",
+					"items": [
+						"You learn the {@spell mage hand} cantrip. You can cast it without verbal or somatic components, and you can make the spectral hand {@condition invisible}. If you already know this spell, its range increases by 30 feet when you cast it. Its spellcasting ability is the ability increased by this feat.",
+						"As a bonus action, you can try to telekinetically shove one creature you can see within 30 feet of you. When you do so, roll your Psionic Talent die, and the target must succeed on a Strength saving throw (DC 8 + your proficiency bonus + the ability modifier of the score increased by this feat) or be moved toward you or away from you a number of feet equal to 5 times the number you rolled. A creature can willingly fail this save."
+					]
+				}
+			]
+		},
+		{
+			"name": "Telepathic",
+			"source": "UA2020PsionicOptionsRevisited",
+			"page": 8,
+			"prerequisite": [
+				{
+					"psionics": true
+				}
+			],
+			"ability": [
+				{
+					"choose": {
+						"from": [
+							"int",
+							"wis",
+							"cha"
+						],
+						"amount": 1
+					}
+				}
+			],
+			"additionalSpells": [
+				{
+					"ability": "inherit",
+					"innate": {
+						"_": {
+							"daily": {
+								"1": [
+									"detect thoughts"
+								]
+							}
+						}
+					}
+				}
+			],
+			"entries": [
+				"You awaken the ability to mentally connect with others. You gain the following benefits:",
+				{
+					"type": "list",
+					"items": [
+						"You can speak telepathically to any creature you can see within 30 feet of you. Your telepathic utterances are in a language you know, and the creature understands you only if it knows that language. Your communication doesn't give the creature the ability to respond to you telepathically.",
+						"If your Psionic Talent die is available, you can cast the {@spell detect thoughts} spell, requiring no components. When you start casting the spell, your Psionic Talent die decreases by one die size. Your spellcasting ability for the spell is the ability increased by this feat."
+					]
+				}
+			]
+		},
+		{
+			"name": "Tower of Iron Will",
+			"source": "UA2020PsionicOptionsRevisited",
+			"page": 9,
+			"prerequisite": [
+				{
+					"psionics": true
+				}
+			],
+			"entries": [
+				"Your mind's defenses are formidable. After you or another creature you can see within 30 feet of you fails a saving throw, you can use your reaction to roll your Psionic Talent die and add the number rolled to the saving throw, potentially causing it to succeed."
+			]
+		},
+		{
+			"name": "Wild Talent",
+			"source": "UA2020PsionicOptionsRevisited",
+			"page": 9,
+			"ability": [
+				{
+					"choose": {
+						"from": [
+							"str",
+							"dex",
+							"con",
+							"int",
+							"wis",
+							"cha"
+						],
+						"amount": 1
+					},
+					"hidden": true
+				}
+			],
+			"entries": [
+				"You awaken to your psionic potential, which enhances your mind or body. Increase one ability score of your choice by 1, to a maximum of 20, to represent this enhancement.",
+				"You also harbor a wellspring of psionic power within yourself, an energy that ebbs and flows as you channel it in various ways. This power is represented by your Psionic Talent die, the starting size of which is a {@dice d6}.",
+				{
+					"type": "entries",
+					"name": "Psionic Talent Options",
+					"entries": [
+						"You can use your Psionic Talent die in the following ways:",
+						{
+							"type": "list",
+							"style": "list-hang-notitle",
+							"items": [
+								{
+									"type": "item",
+									"name": "Psi-Boosted Ability",
+									"entry": "When you make an ability check with the ability increased by this feat, you can roll your Psionic Talent die and add the number rolled to the check. You can choose to do so before or after rolling the {@dice d20}, but before you know whether the check succeeded or failed."
+								},
+								{
+									"type": "item",
+									"name": "Psi-Guided Strike",
+									"entry": "Once on each of your turns when you hit with an attack roll that uses the ability increased by this feat, you can roll your Psionic Talent die after you make the damage roll and then replace one of the damage dice with the number rolled on the Psionic Talent die."
+								}
+							]
+						}
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Changing the Die's Size",
+					"entries": [
+						"If you roll the highest number on your Psionic Talent die, it decreases by one die size after the roll. This represents you burning through your psionic energy. For example, if the die is a {@dice d6} and you roll a 6, it becomes a {@dice d4}. If it's a {@dice d4} and you roll a 4, it becomes unusable until you finish a long rest.",
+						"Conversely, if you roll a 1 on your Psionic Talent die, it increases by one die size after the roll, up to its starting size. This represents you conserving psionic energy for later use. For example, if you roll a 1 on a {@dice d4}, the die then becomes a {@dice d6}.",
+						"Whenever you finish a long rest, your Psionic Talent die resets to its starting size. When you reach certain levels, the starting size of your Psionic Talent die increases: at 5th level ({@dice d8}), 11th level ({@dice d10}), and 17th level ({@dice d12}). If you have a Psionic Talent die from another source, such as a class feature, you don't get more than one die; use only the one with the largest starting size."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Psi Replenishment",
+					"entries": [
+						"As a bonus action, you can calm your mind for a moment and restore your Psionic Talent die to its starting size. You then can't use Psi Replenishment again until you finish a long rest."
+					]
+				}
+			]
+		}
+	],
+	"spell": [
+		{
+			"name": "Intellect Fortress",
+			"source": "UA2020PsionicOptionsRevisited",
+			"page": 7,
+			"level": 4,
+			"school": "A",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 30
+				}
+			},
+			"components": {
+				"v": true
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "hour",
+						"amount": 1
+					},
+					"concentration": true
+				}
+			],
+			"entries": [
+				"For the duration, you or one willing creature you can see within range has resistance to psychic damage, as well as advantage on Intelligence, Wisdom, and Charisma saving throws."
+			],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "At Higher Levels",
+					"entries": [
+						"When you cast this spell using a spell slot of 5th level or higher, you can target one additional creature for each slot level above 4th. The creatures must be within 30 feet of each other when you target them."
+					]
+				}
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Bard",
+						"source": "PHB"
+					},
+					{
+						"name": "Sorcerer",
+						"source": "PHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					}
+				]
+			},
+			"damageResist": [
+				"psychic"
+			],
+			"miscTags": [
+				"SGT"
+			],
+			"areaTags": [
+				"ST"
+			]
+		},
+		{
+			"name": "Mind Sliver",
+			"source": "UA2020PsionicOptionsRevisited",
+			"page": 7,
+			"level": 0,
+			"school": "E",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 60
+				}
+			},
+			"components": {
+				"v": true
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "round",
+						"amount": 1
+					}
+				}
+			],
+			"entries": [
+				"You drive a disorienting spike of psychic energy into the mind of one creature you can see within range. The target must make an Intelligence saving throw. Unless the saving throw is successful, the target takes {@damage 1d6} psychic damage, and the first time it makes a saving throw before the end of your next turn, it must roll a {@dice d4} and subtract the number rolled from the save.",
+				"This spell's damage increases by {@dice 1d6} when you reach certain levels: 5th level ({@dice 2d6}), 11th level ({@dice 3d6}), and 17th level ({@dice 4d6})."
+			],
+			"scalingLevelDice": {
+				"label": "psychic damage",
+				"scaling": {
+					"1": "1d6",
+					"5": "2d6",
+					"11": "3d6",
+					"17": "4d6"
+				}
+			},
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Sorcerer",
+						"source": "PHB"
+					},
+					{
+						"name": "Warlock",
+						"source": "PHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					}
+				]
+			},
+			"damageInflict": [
+				"psychic"
+			],
+			"savingThrow": [
+				"intelligence"
+			],
+			"miscTags": [
+				"SCL",
+				"SGT"
+			],
+			"areaTags": [
+				"ST"
+			]
+		},
+		{
+			"name": "Mind Thrust",
+			"source": "UA2020PsionicOptionsRevisited",
+			"page": 7,
+			"level": 2,
+			"school": "E",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 90
+				}
+			},
+			"components": {
+				"v": true
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "round",
+						"amount": 1
+					}
+				}
+			],
+			"entries": [
+				"You thrust a lance of psychic disruption into the mind of one creature you can see within range. The target must make an Intelligence saving throw. On a failed save, the target takes {@damage 3d6} psychic damage, and it can't take a reaction until the end of its next turn. Moreover, on its next turn, it must choose whether it gets a move, an action, or a bonus action; it gets only one of the three. On a successful save, the target takes half as much damage and suffers none of the spell's other effects."
+			],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "At Higher Levels",
+					"entries": [
+						"When you cast this spell using a spell slot of 3rd level or higher, you can target one additional creature for each slot level above 2nd. The creatures must be within 30 feet of each other when you target them."
+					]
+				}
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Sorcerer",
+						"source": "PHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					}
+				]
+			},
+			"damageInflict": [
+				"psychic"
+			],
+			"savingThrow": [
+				"intelligence"
+			],
+			"miscTags": [
+				"SGT",
+				"UBA"
+			],
+			"areaTags": [
+				"ST"
+			]
+		}
+	]
+}

@@ -1,0 +1,692 @@
+{
+	"_meta": {
+		"sources": [
+			{
+				"json": "UAFighterRangerRogue",
+				"abbreviation": "UAFRR",
+				"full": "Unearthed Arcana: Fighter, Ranger, and Rogue",
+				"authors": [
+					"Wizards of the Coast"
+				],
+				"convertedBy": [
+					"Giddy"
+				],
+				"version": "1.0.0",
+				"url": "https://media.wizards.com/2019/dnd/downloads/UA-RuneSwarmRevived.pdf",
+				"dateReleased": "2019-10-17"
+			}
+		],
+		"dateAdded": 1701616429,
+		"dateLastModified": 1701616429,
+		"_dateLastModifiedHash": "aaaaaaaaaa"
+	},
+	"subclass": [
+		{
+			"name": "Rune Knight (UA)",
+			"shortName": "Rune Knight (UA)",
+			"source": "UAFighterRangerRogue",
+			"className": "Fighter",
+			"classSource": "PHB",
+			"page": 1,
+			"isReprinted": true,
+			"optionalfeatureProgression": [
+				{
+					"name": "Runes",
+					"featureType": [
+						"RN"
+					],
+					"progression": {
+						"3": 2,
+						"7": 3,
+						"10": 4,
+						"15": 5
+					}
+				}
+			],
+			"subclassFeatures": [
+				"Rune Knight|Fighter||Rune Knight (UA)|UAFighterRangerRogue|3",
+				"Defensive Runes|Fighter||Rune Knight (UA)|UAFighterRangerRogue|7",
+				"Great Stature|Fighter||Rune Knight (UA)|UAFighterRangerRogue|10",
+				"Rune Magic Mastery|Fighter||Rune Knight (UA)|UAFighterRangerRogue|15",
+				"Blessing of the All Father|Fighter||Rune Knight (UA)|UAFighterRangerRogue|18"
+			]
+		},
+		{
+			"name": "Swarmkeeper (UA)",
+			"shortName": "Swarmkeeper (UA)",
+			"source": "UAFighterRangerRogue",
+			"className": "Ranger",
+			"classSource": "PHB",
+			"page": 3,
+			"isReprinted": true,
+			"additionalSpells": [
+				{
+					"known": {
+						"3": [
+							"faerie fire"
+						],
+						"5": [
+							"web"
+						],
+						"9": [
+							"gaseous form"
+						],
+						"13": [
+							"giant insect"
+						],
+						"17": [
+							"insect plague"
+						]
+					}
+				}
+			],
+			"subclassFeatures": [
+				"Swarmkeeper|Ranger||Swarmkeeper (UA)|UAFighterRangerRogue|3",
+				"Writhing Tide|Ranger||Swarmkeeper (UA)|UAFighterRangerRogue|7",
+				"Scuttling Eyes|Ranger||Swarmkeeper (UA)|UAFighterRangerRogue|11",
+				"Gathered Swarm Improvement|Ranger||Swarmkeeper (UA)|UAFighterRangerRogue|11",
+				"Storm of Minions|Ranger||Swarmkeeper (UA)|UAFighterRangerRogue|15"
+			]
+		},
+		{
+			"name": "The Revived (UA)",
+			"shortName": "Revived (UA)",
+			"source": "UAFighterRangerRogue",
+			"className": "Rogue",
+			"classSource": "PHB",
+			"page": 4,
+			"isReprinted": true,
+			"subclassFeatures": [
+				"The Revived|Rogue||Revived (UA)|UAFighterRangerRogue|3",
+				"Connect with the Dead|Rogue||Revived (UA)|UAFighterRangerRogue|9",
+				"Audience with Death|Rogue||Revived (UA)|UAFighterRangerRogue|13",
+				"Ethereal Jaunt|Rogue||Revived (UA)|UAFighterRangerRogue|17"
+			]
+		}
+	],
+	"subclassFeature": [
+		{
+			"name": "Rune Knight",
+			"source": "UAFighterRangerRogue",
+			"page": 1,
+			"className": "Fighter",
+			"classSource": "PHB",
+			"subclassShortName": "Rune Knight (UA)",
+			"subclassSource": "UAFighterRangerRogue",
+			"level": 3,
+			"entries": [
+				"You discovered how to enhance your martial prowess using the supernatural power of runes. The ancient practice of rune magic originated with giants. {@i Skiltgravr} (\"rune cutters\") can be found among any type of giants, and you likely learned your methods first or second hand from such a mystical artisan. Whether you found the giant's work carved into a hill or cave, learned of the runes from a traveling sage, or met the giant in person, you studied the giant's craft. In time, you learned how to carve and apply runes to your equipment and how to invoke their magic, ultimately becoming a Rune Knight.",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Bonus Proficiencies|Fighter||Rune Knight (UA)|UAFighterRangerRogue|3"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Rune Magic|Fighter||Rune Knight (UA)|UAFighterRangerRogue|3"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Rune Options|Fighter||Rune Knight (UA)|UAFighterRangerRogue|3"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Giant Might|Fighter||Rune Knight (UA)|UAFighterRangerRogue|3"
+				}
+			]
+		},
+		{
+			"name": "Bonus Proficiencies",
+			"source": "UAFighterRangerRogue",
+			"page": 1,
+			"className": "Fighter",
+			"classSource": "PHB",
+			"subclassShortName": "Rune Knight (UA)",
+			"subclassSource": "UAFighterRangerRogue",
+			"level": 3,
+			"header": 1,
+			"entries": [
+				"{@i 3rd-level Rune Knight feature}",
+				"You gain proficiency with {@item smith's tools|PHB}, and you learn to speak, read, and write {@language Giant}."
+			]
+		},
+		{
+			"name": "Giant Might",
+			"source": "UAFighterRangerRogue",
+			"page": 1,
+			"className": "Fighter",
+			"classSource": "PHB",
+			"subclassShortName": "Rune Knight (UA)",
+			"subclassSource": "UAFighterRangerRogue",
+			"level": 3,
+			"header": 1,
+			"entries": [
+				"{@i 3rd-level Rune Knight feature}",
+				"You can imbue yourself with the might of giants. As a bonus action, you magically gain the following benefits, which last for 1 minute:",
+				{
+					"type": "list",
+					"items": [
+						"If you are smaller than Large, you become Large, along with anything you are wearing. If you lack the room to become Large, your size doesn't change.",
+						"You have advantage on Strength checks and Strength saving throws.",
+						"Your weapon attacks deal an extra {@damage 1d6} damage."
+					]
+				},
+				"You can use this feature twice, and you regain all expended uses of it when you finish a long rest."
+			]
+		},
+		{
+			"name": "Rune Magic",
+			"source": "UAFighterRangerRogue",
+			"page": 1,
+			"className": "Fighter",
+			"classSource": "PHB",
+			"subclassShortName": "Rune Knight (UA)",
+			"subclassSource": "UAFighterRangerRogue",
+			"level": 3,
+			"header": 1,
+			"entries": [
+				"{@i 3rd-level Rune Knight feature}",
+				"You learn how to use runes to enhance your gear. When you gain this feature, you learn how to inscribe two runes of your choice on weapons, armor, or shields (see \"{@filter Rune Options|optionalfeatures|feature type=RN|source=UAFighterRangerRogue}\").",
+				"Whenever you finish a long rest, you can touch a number of objects equal to the number of runes you know, and you inscribe a different rune onto each of the objects. To be eligible, an object must be a weapon, a suit of armor, or a shield.",
+				"Your rune remains on an object until you finish a long rest, and an object can bear only one of your runes.",
+				"Each time you gain a level in this class, you can replace one rune you know with a different one."
+			]
+		},
+		{
+			"name": "Rune Options",
+			"source": "UAFighterRangerRogue",
+			"page": 1,
+			"className": "Fighter",
+			"classSource": "PHB",
+			"subclassShortName": "Rune Knight (UA)",
+			"subclassSource": "UAFighterRangerRogue",
+			"level": 3,
+			"header": 1,
+			"entries": [
+				"Here are rune options for the Rune Magic feature. They are all magical effects. If a rune requires a saving throw, your Rune Magic save DC equals 8 + your proficiency bonus + your Intelligence modifier.",
+				{
+					"type": "options",
+					"count": 2,
+					"entries": [
+						{
+							"type": "refOptionalfeature",
+							"optionalfeature": "Haug (Hill Rune)|UAFighterRangerRogue"
+						},
+						{
+							"type": "refOptionalfeature",
+							"optionalfeature": "Ild (Fire Rune)|UAFighterRangerRogue"
+						},
+						{
+							"type": "refOptionalfeature",
+							"optionalfeature": "Ise (Frost Rune)|UAFighterRangerRogue"
+						},
+						{
+							"type": "refOptionalfeature",
+							"optionalfeature": "Skye (Cloud Rune)|UAFighterRangerRogue"
+						},
+						{
+							"type": "refOptionalfeature",
+							"optionalfeature": "Stein (Stone Rune)|UAFighterRangerRogue"
+						},
+						{
+							"type": "refOptionalfeature",
+							"optionalfeature": "Uvar (Storm Rune)|UAFighterRangerRogue"
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Defensive Runes",
+			"source": "UAFighterRangerRogue",
+			"page": 1,
+			"className": "Fighter",
+			"classSource": "PHB",
+			"subclassShortName": "Rune Knight (UA)",
+			"subclassSource": "UAFighterRangerRogue",
+			"level": 7,
+			"header": 2,
+			"entries": [
+				"{@i 7th-level Rune Knight feature}",
+				"You learn to invoke your rune magic to protect your allies. When another creature you can see within 60 feet of you is hit by an attack roll, you can use your reaction to grant a bonus to the creature's AC against that attack. The bonus equals 1 + your Intelligence modifier (minimum of +2).",
+				"In addition, you learn one new rune of your choice from the Rune Magic feature (for a total of three)."
+			]
+		},
+		{
+			"name": "Great Stature",
+			"source": "UAFighterRangerRogue",
+			"page": 1,
+			"className": "Fighter",
+			"classSource": "PHB",
+			"subclassShortName": "Rune Knight (UA)",
+			"subclassSource": "UAFighterRangerRogue",
+			"level": 10,
+			"header": 2,
+			"entries": [
+				"{@i 10th-level Rune Knight feature}",
+				"The magic of your runes permanently alters you. When you gain this feature, roll  {@dice 3d4}. You grow a number of inches in height equal to the roll. Moreover, the extra damage you deal with your Giant Might feature increases to  {@dice 1d8}.",
+				"In addition, you learn one new rune of your choice from your Rune Magic feature (for a total of four)."
+			]
+		},
+		{
+			"name": "Rune Magic Mastery",
+			"source": "UAFighterRangerRogue",
+			"page": 1,
+			"className": "Fighter",
+			"classSource": "PHB",
+			"subclassShortName": "Rune Knight (UA)",
+			"subclassSource": "UAFighterRangerRogue",
+			"level": 15,
+			"header": 2,
+			"entries": [
+				"{@i 15th-level Rune Knight feature}",
+				"You can invoke each rune you know from your Rune Magic feature twice, rather than once, and you regain all expended uses when you finish a short or long rest.",
+				"In addition, you learn one new rune of your choice from the Rune Magic feature (for a total of five)."
+			]
+		},
+		{
+			"name": "Blessing of the All Father",
+			"source": "UAFighterRangerRogue",
+			"page": 1,
+			"className": "Fighter",
+			"classSource": "PHB",
+			"subclassShortName": "Rune Knight (UA)",
+			"subclassSource": "UAFighterRangerRogue",
+			"level": 18,
+			"header": 2,
+			"entries": [
+				"{@i 18th-level Rune Knight feature}",
+				"You learn how to share your rune magic with your allies. When you use your Giant Might feature, you can choose one willing creature you can see within 60 feet of you. The chosen creature also gains the benefits of your Giant Might feature."
+			]
+		},
+		{
+			"name": "Swarmkeeper",
+			"source": "UAFighterRangerRogue",
+			"page": 3,
+			"className": "Ranger",
+			"classSource": "PHB",
+			"subclassShortName": "Swarmkeeper (UA)",
+			"subclassSource": "UAFighterRangerRogue",
+			"level": 3,
+			"entries": [
+				"Feeling a deep connection to the world around them, some rangers reach out through their magical connection to nature and gather a host of fey spirits, which take the form of swarming beasts\u2014be they buzzing insects, fluttering birds, slippery squids, or otherwise. The swarm becomes a potent force in battle, as well as helpful\u2014if potentially disturbing\u2014company for the ranger. Some Swarmkeepers are outcasts or hermits, keeping to themselves and their attendant swarms rather than dealing with the discomfort of others. Other Swarmkeepers enjoy building vibrant communities that work for the mutual benefit of all those they consider part of their swarm.",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Swarmkeeper Magic|Ranger||Swarmkeeper (UA)|UAFighterRangerRogue|3"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Gathered Swarm|Ranger||Swarmkeeper (UA)|UAFighterRangerRogue|3"
+				}
+			]
+		},
+		{
+			"name": "Gathered Swarm",
+			"source": "UAFighterRangerRogue",
+			"page": 3,
+			"className": "Ranger",
+			"classSource": "PHB",
+			"subclassShortName": "Swarmkeeper (UA)",
+			"subclassSource": "UAFighterRangerRogue",
+			"level": 3,
+			"header": 1,
+			"entries": [
+				"{@i 3rd-level Swarmkeeper feature}",
+				"You magically attract a swarm of fey spirits that look like Tiny beasts of your choice. The swarm remains in your space, crawling on you or through your clothing, or flying and skittering immediately around you within your space.",
+				"As a bonus action, you can agitate the swarm for 1 minute. For the duration, some of the swarm clings to your weapons or follows your strikes when you attack: once during each of your turns when you hit a creature with a weapon attack, you can deal an extra {@damage 1d6} force damage to that creature, and the swarm moves the creature up to 5 feet toward you or away from you (your choice). At 11th level, the extra damage increases to {@dice 2d6}.",
+				"You can use this feature a number of times equal to your Wisdom modifier (minimum of once), and you regain all expended uses when you finish a long rest."
+			]
+		},
+		{
+			"name": "Swarmkeeper Magic",
+			"source": "UAFighterRangerRogue",
+			"page": 3,
+			"className": "Ranger",
+			"classSource": "PHB",
+			"subclassShortName": "Swarmkeeper (UA)",
+			"subclassSource": "UAFighterRangerRogue",
+			"level": 3,
+			"header": 1,
+			"entries": [
+				"{@i 3rd-level Swarmkeeper feature}",
+				"You learn the {@spell mage hand} cantrip if you don't already know it. When you cast it, the hand takes the form of swarming nature spirits. You also learn an additional spell when you reach certain levels in this class, as shown in the Swarmkeeper Spells table. These spells count as ranger spells for you, but don't count against the number of ranger spells you know.",
+				{
+					"type": "table",
+					"caption": "Swarmkeeper Spells",
+					"colLabels": [
+						"Ranger Level",
+						"Spells"
+					],
+					"colStyles": [
+						"col-2 text-center",
+						"col-10"
+					],
+					"rows": [
+						[
+							"3rd",
+							"{@spell faerie fire}"
+						],
+						[
+							"5th",
+							"{@spell web}"
+						],
+						[
+							"9th",
+							"{@spell gaseous form}"
+						],
+						[
+							"13th",
+							"{@spell giant insect}"
+						],
+						[
+							"17th",
+							"{@spell insect plague}"
+						]
+					]
+				}
+			]
+		},
+		{
+			"name": "Writhing Tide",
+			"source": "UAFighterRangerRogue",
+			"page": 3,
+			"className": "Ranger",
+			"classSource": "PHB",
+			"subclassShortName": "Swarmkeeper (UA)",
+			"subclassSource": "UAFighterRangerRogue",
+			"level": 7,
+			"header": 2,
+			"entries": [
+				"{@i 7th-level Swarmkeeper feature}",
+				"You can condense part of your swarm into a focused mass that lifts or sweeps you along. Whenever you activate your Gathered Swarm feature, choose one of the following additional benefits:",
+				{
+					"type": "list",
+					"items": [
+						"Your walking speed increases by 10 feet, and you can take the {@action Disengage} action as a bonus action.",
+						"You gain a climb speed equal to your walking speed. You can climb difficult surfaces, including upside down on ceilings, without making an ability check.",
+						"You gain a flying speed of 10 feet and can hover."
+					]
+				}
+			]
+		},
+		{
+			"name": "Gathered Swarm Improvement",
+			"source": "UAFighterRangerRogue",
+			"page": 3,
+			"className": "Ranger",
+			"classSource": "PHB",
+			"subclassShortName": "Swarmkeeper (UA)",
+			"subclassSource": "UAFighterRangerRogue",
+			"level": 11,
+			"header": 2,
+			"entries": [
+				"{@i 11th-level Swarmkeeper feature}",
+				"The extra damage from your swarm increases to {@dice 2d6}."
+			]
+		},
+		{
+			"name": "Scuttling Eyes",
+			"source": "UAFighterRangerRogue",
+			"page": 3,
+			"className": "Ranger",
+			"classSource": "PHB",
+			"subclassShortName": "Swarmkeeper (UA)",
+			"subclassSource": "UAFighterRangerRogue",
+			"level": 11,
+			"header": 2,
+			"entries": [
+				"{@i 11th-level Swarmkeeper feature}",
+				"As an action, you can magically form one of the spirits of your swarm into the shape of a Tiny beast of your choice. The transformation lasts for 1 hour, at which point the spirit disappears. For the duration, the spirit has a speed of 40 feet, which it can use to walk, climb, fly, or swim. The spirit has your senses and telepathically relays what it sees and hears to you. During your turn, you can speak through the spirit, telepathically command it to move, and it can {@action Hide} using your bonus to Dexterity ({@skill Stealth}) checks. The spirit has AC 18. If it takes damage, you must succeed on a Wisdom saving throw (DC equal to 10, or half the damage dealt, whichever is higher) or the spirit disappears.",
+				"As an action, you can dismiss the spirit early. If you do, you can magically teleport to an unoccupied space within 5 feet of where the spirit disappeared.",
+				"Once you use this feature, you can't do so again until you finish a long rest. You can also use it again by expending a spell slot of 3rd level or higher."
+			]
+		},
+		{
+			"name": "Storm of Minions",
+			"source": "UAFighterRangerRogue",
+			"page": 3,
+			"className": "Ranger",
+			"classSource": "PHB",
+			"subclassShortName": "Swarmkeeper (UA)",
+			"subclassSource": "UAFighterRangerRogue",
+			"level": 15,
+			"header": 2,
+			"entries": [
+				"{@i 15th-level Swarmkeeper feature}",
+				"Your swarm can expel a seething storm of spirits that drains life from others. As an action, you create a magical sphere filled with an enraged swarm centered on a point you can see within 120 feet of you. The sphere has a 10-foot-radius and lasts for 1 minute. The sphere is {@quickref difficult terrain||3} for creatures other than you. A creature other than you that starts its turn in the sphere's area must make a Constitution saving throw against your spell save DC. On a failed save, the creature takes {@damage 2d8} necrotic damage and is {@condition blinded} until the start of its next turn. On a successful save, it takes half as much damage and isn't {@condition blinded}. At the start of your turn, if any number of Small or larger creatures took necrotic damage from the swarm, you regain {@dice 1d8} hit points. On subsequent turns, you can use a bonus action to move the sphere up to 30 feet.",
+				"When you activate this feature, you can choose any number of creatures you can see to be unaffected by it.",
+				"Once you use this feature, you can't do so again until you finish a long rest. You can also use it again by expending a spell slot of 4th level or higher."
+			]
+		},
+		{
+			"name": "The Revived",
+			"source": "UAFighterRangerRogue",
+			"page": 4,
+			"className": "Rogue",
+			"classSource": "PHB",
+			"subclassShortName": "Revived (UA)",
+			"subclassSource": "UAFighterRangerRogue",
+			"level": 3,
+			"entries": [
+				"You've had a soul-shaking realization: you've been dead before, yet somehow you are alive again. This life isn't your first; it might not even be your second. Your past life, or lives, are unclear to you, but you know that you passed through the gates of death. And the powers of death, or some other influence, wasn't done with you. You might have convinced a deity to let you return to the Material Plane, perhaps you signed a deal with a fiend, or maybe you used an artifact that revived you. Whatever force brought you back, you now know the truth about yourself: that you are one of death's representatives among the living.",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Tokens of Past Lives|Rogue||Revived (UA)|UAFighterRangerRogue|3"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Revived Nature|Rogue||Revived (UA)|UAFighterRangerRogue|3"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Bolts from the Grave|Rogue||Revived (UA)|UAFighterRangerRogue|3"
+				}
+			]
+		},
+		{
+			"name": "Bolts from the Grave",
+			"source": "UAFighterRangerRogue",
+			"page": 4,
+			"className": "Rogue",
+			"classSource": "PHB",
+			"subclassShortName": "Revived (UA)",
+			"subclassSource": "UAFighterRangerRogue",
+			"level": 3,
+			"header": 1,
+			"entries": [
+				"{@i 3rd-level Revived feature}",
+				"You have learned to unleash bolts of necrotic energy from within your revived body. Immediately after you use your Cunning Action, you can make a ranged spell attack against a creature within 30 feet of you, provided you haven't used your Sneak Attack this turn. You are proficient with it, and you add your Dexterity modifier to its attack and damage rolls. A creature hit by this attack takes necrotic damage equal to your Sneak Attack. This uses your Sneak Attack for the turn."
+			]
+		},
+		{
+			"name": "Revived Nature",
+			"source": "UAFighterRangerRogue",
+			"page": 4,
+			"className": "Rogue",
+			"classSource": "PHB",
+			"subclassShortName": "Revived (UA)",
+			"subclassSource": "UAFighterRangerRogue",
+			"level": 3,
+			"header": 1,
+			"entries": [
+				"{@i 3rd-level Revived feature}",
+				"Your newfound connection to death gives you the following benefits:",
+				{
+					"type": "list",
+					"items": [
+						"You have advantage on saving throws against disease and being {@condition poisoned}, and you have resistance to poison damage.",
+						"You don't need to eat, drink, or breathe.",
+						"You don't need to sleep. When you take a long rest, you must spend at least four hours in an inactive, motionless state, rather than sleeping. In this state, you remain semiconscious, and you can hear as normal."
+					]
+				}
+			]
+		},
+		{
+			"name": "Tokens of Past Lives",
+			"source": "UAFighterRangerRogue",
+			"page": 4,
+			"className": "Rogue",
+			"classSource": "PHB",
+			"subclassShortName": "Revived (UA)",
+			"subclassSource": "UAFighterRangerRogue",
+			"level": 3,
+			"header": 1,
+			"entries": [
+				"{@i 3rd-level Revived feature}",
+				"You remember talents you had in your previous life. When you finish a long rest, you gain one skill or tool proficiency of your choice. You can replace this proficiency with another when you finish a long rest."
+			]
+		},
+		{
+			"name": "Connect with the Dead",
+			"source": "UAFighterRangerRogue",
+			"page": 4,
+			"className": "Rogue",
+			"classSource": "PHB",
+			"subclassShortName": "Revived (UA)",
+			"subclassSource": "UAFighterRangerRogue",
+			"level": 9,
+			"header": 2,
+			"entries": [
+				"{@i 9th-level Revived feature}",
+				"You can create a link with a spirit through their corpse. When you do so, you cast the {@spell speak with dead} spell, without using a spell slot or material components. Intelligence is your spellcasting ability for this spell.",
+				"Speaking with the dead in this way temporarily gives you a capability from a past life\u2014you're unsure whether it's from your past or the spirit's. When the spell ends, you gain one random benefit from the Revived Capabilities table. The benefit lasts until you finish a short or long rest.",
+				{
+					"type": "table",
+					"caption": "Revived Capabilities",
+					"colLabels": [
+						"d3",
+						"Capability"
+					],
+					"colStyles": [
+						"col-2 text-center",
+						"col-10"
+					],
+					"rows": [
+						[
+							"1",
+							"You learn how to speak, read, and write one language of your choice."
+						],
+						[
+							"2",
+							"You gain one skill or tool proficiency of your choice."
+						],
+						[
+							"3",
+							"You gain proficiency with one saving throw of your choice."
+						]
+					]
+				},
+				"After you cast the spell with this feature, you can't do so again until you finish a short or long rest."
+			]
+		},
+		{
+			"name": "Audience with Death",
+			"source": "UAFighterRangerRogue",
+			"page": 4,
+			"className": "Rogue",
+			"classSource": "PHB",
+			"subclassShortName": "Revived (UA)",
+			"subclassSource": "UAFighterRangerRogue",
+			"level": 13,
+			"header": 2,
+			"entries": [
+				"{@i 13th-level Revived feature}",
+				"When at death's door, you can converse with the powers of death. You have advantage on death saving throws, and whenever you make a death saving throw, your spirit can ask an entity of death a question that can be answered with \"yes,\" \"no,\" or \"unknown.\" The entity answers truthfully, using the knowledge of all those who have died.",
+				"In addition, whenever you have 0 hit points and are healed or stabilized, you can change any of your personal characteristics: personality trait, ideal, bond, or flaw."
+			]
+		},
+		{
+			"name": "Ethereal Jaunt",
+			"source": "UAFighterRangerRogue",
+			"page": 4,
+			"className": "Rogue",
+			"classSource": "PHB",
+			"subclassShortName": "Revived (UA)",
+			"subclassSource": "UAFighterRangerRogue",
+			"level": 17,
+			"header": 2,
+			"entries": [
+				"{@i 17th-level Revived feature}",
+				"Like a ghost, you have the ability to slip in and out of the Ethereal Plane. You can now use your Cunning Action to teleport to an unoccupied space within 30 feet of you. You don't need to see that space to teleport to it, but your teleportation fails, wasting your bonus action, if you attempt to teleport through magical force that is Medium or larger, such as a wall of force. If you appear in a space occupied by another creature or filled by an object, you are immediately shunted to the nearest unoccupied space that you can occupy and take force damage equal to twice the number of feet you are shunted."
+			]
+		}
+	],
+	"optionalfeature": [
+		{
+			"name": "Haug (Hill Rune)",
+			"source": "UAFighterRangerRogue",
+			"page": 1,
+			"featureType": [
+				"RN"
+			],
+			"entries": [
+				"This rune's magic bestows a resilience reminiscent of a hill giant. While wearing or carrying an object inscribed with this rune, you have advantage on saving throws against being {@condition poisoned}, and you have resistance against poison damage.",
+				"In addition, you can invoke the rune as a bonus action, gaining resistance to bludgeoning, piercing, and slashing damage for 1 minute. Once you invoke the rune, you can't do so again until you finish a short or long rest."
+			]
+		},
+		{
+			"name": "Ild (Fire Rune)",
+			"source": "UAFighterRangerRogue",
+			"page": 1,
+			"featureType": [
+				"RN"
+			],
+			"entries": [
+				"This rune's magic channels the masterful craftsmanship of fire giant smiths. While wearing or carrying an object inscribed with this rune, your proficiency bonus is doubled for any ability check you make that uses your proficiency with a tool.",
+				"In addition, when you hit a creature with a weapon attack, you can invoke the rune to summon fiery shackles: the target must succeed on a Strength saving throw or be {@condition restrained} for 1 minute. While {@condition restrained} by the shackles, the target takes  {@damage 2d6} fire damage at the start of each of its turns. The target can repeat the saving throw at the end of each of its turns, banishing the shackles on a success. Once you invoke the rune, you can't do so again until you finish a short or long rest."
+			]
+		},
+		{
+			"name": "Ise (Frost Rune)",
+			"source": "UAFighterRangerRogue",
+			"page": 1,
+			"featureType": [
+				"RN"
+			],
+			"entries": [
+				"This rune's magic evokes a frost giant's stoic calm. While wearing or carrying an object inscribed with this rune, you have advantage on Wisdom ({@skill Animal Handling}) checks and Charisma ({@skill Intimidation}) checks.",
+				"In addition, you can invoke the rune as a bonus action to increase your Strength score by 2 for 10 minutes. This increase can cause your score to exceed 20, but not 30. Once you invoke the rune, you can't do so again until you finish a short or long rest."
+			]
+		},
+		{
+			"name": "Skye (Cloud Rune)",
+			"source": "UAFighterRangerRogue",
+			"page": 2,
+			"featureType": [
+				"RN"
+			],
+			"entries": [
+				"This rune's magic emulates the deceptiveness of a cloud giant. While wearing or carrying an object inscribed with this rune, you have advantage on Dexterity ({@skill Sleight of Hand}) checks and Charisma ({@skill Deception}) checks.",
+				"In addition, when you or a creature you can see within 30 feet of you is hit by an attack roll, you can use your reaction to invoke the rune and cause that attack to target a different creature within 30 feet of you (other than the attacker), using the same roll. This magic can transfer the attack regardless of the attack's range. Once you invoke the rune, you can't do so again until you finish a short or long rest."
+			]
+		},
+		{
+			"name": "Stein (Stone Rune)",
+			"source": "UAFighterRangerRogue",
+			"page": 2,
+			"featureType": [
+				"RN"
+			],
+			"senses": [
+				{
+					"darkvision": 60
+				}
+			],
+			"entries": [
+				"This rune's magic channels the insightfulness of a stone giant. While wearing or carrying an object inscribed with this rune, you have advantage on Wisdom ({@skill Insight}) checks, and you have {@sense darkvision} out to a range of 60 feet. If you already have {@sense darkvision}, its range increases by 30 feet.",
+				"In addition, when a creature you can see ends its turn within 30 feet of you, you can use your reaction to invoke the rune and force the creature to make a Wisdom saving throw. Unless the save succeeds, the creature is {@condition charmed} by you for 1 minute. While {@condition charmed} in this way, the creature has a speed of 0 and is {@condition incapacitated}, descending into a dreamy stupor. The effect ends if the {@condition charmed} creature takes any damage or if someone else uses an action to shake the creature out of its haze. Once you invoke the rune, you can't do so again until you finish a short or long rest."
+			]
+		},
+		{
+			"name": "Uvar (Storm Rune)",
+			"source": "UAFighterRangerRogue",
+			"page": 2,
+			"featureType": [
+				"RN"
+			],
+			"entries": [
+				"Using this rune, you can glimpse the future like a storm giant. While wearing or carrying an object inscribed with this rune, you have advantage on Intelligence ({@skill Arcana}) checks, and you can't be {@quickref Surprise|PHB|3|0|surprised} as long as you are not {@condition incapacitated}.",
+				"In addition, you can invoke the rune as a bonus action to enter a prophetic state for 1 minute or until you're {@condition incapacitated}. Until the state ends, when you or another creature you can see within 60 feet of you makes an attack roll, a saving throw, or an ability check, you can use your reaction to cause the roll to have advantage or disadvantage. Once you invoke the rune, you can't do so again until you finish a short or long rest."
+			]
+		}
+	]
+}

@@ -1,0 +1,1661 @@
+{
+	"_meta": {
+		"sources": [
+			{
+				"json": "UAEberron",
+				"abbreviation": "UAEB",
+				"full": "Unearthed Arcana: Eberron",
+				"authors": [
+					"Wizards of the Coast"
+				],
+				"convertedBy": [
+					"Giddy"
+				],
+				"version": "1.0.0",
+				"url": "https://media.wizards.com/2015/downloads/dnd/UA_Eberron_v1.1.pdf",
+				"dateReleased": "2015-02-02"
+			}
+		],
+		"dateAdded": 1701616429,
+		"dateLastModified": 1701616429,
+		"_dateLastModifiedHash": "aaaaaaaaaa"
+	},
+	"subclass": [
+		{
+			"name": "Artificer (UA)",
+			"shortName": "Artificer (UA)",
+			"source": "UAEberron",
+			"className": "Wizard",
+			"classSource": "PHB",
+			"page": 3,
+			"subclassFeatures": [
+				"Artificer|Wizard||Artificer (UA)|UAEberron|2",
+				"Infuse Weapons and Armor|Wizard||Artificer (UA)|UAEberron|6",
+				"Superior Artificer|Wizard||Artificer (UA)|UAEberron|10",
+				"Master Artificer|Wizard||Artificer (UA)|UAEberron|14"
+			]
+		}
+	],
+	"subclassFeature": [
+		{
+			"name": "Artificer",
+			"source": "UAEberron",
+			"page": 3,
+			"className": "Wizard",
+			"classSource": "PHB",
+			"subclassShortName": "Artificer (UA)",
+			"subclassSource": "UAEberron",
+			"level": 2,
+			"entries": [
+				"Artificers are a key part of the world of Eberron. They illustrate the evolution of magic from a wild, unpredictable force to one that is becoming available to the masses. Magic items are part of everyday life in the Five Nations of Khorvaire; with an artificer in your party, they become part of every adventuring expedition.",
+				"The artificer was a separate class in prior editions of the Eberron setting, a melee combatant who specialized in mystically enhanced arms and armor. The fifth edition rules treat the artificer as a new wizard tradition that focuses on mystical invention, which you can choose starting at 2nd level.",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Infuse Potions|Wizard||Artificer (UA)|UAEberron|2"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Infuse Scrolls|Wizard||Artificer (UA)|UAEberron|2"
+				}
+			]
+		},
+		{
+			"name": "Infuse Potions",
+			"source": "UAEberron",
+			"page": 3,
+			"className": "Wizard",
+			"classSource": "PHB",
+			"subclassShortName": "Artificer (UA)",
+			"subclassSource": "UAEberron",
+			"level": 2,
+			"header": 1,
+			"entries": [
+				"Starting at 2nd level, you can produce magic potions. You spend 10 minutes focusing your magic on a vial of mundane water and expend a spell slot to transform it into a potion. Once you have expended a spell slot to create a potion, you cannot regain that slot until the potion is consumed or after 1 week, at which time the potion loses its effectiveness. You can create up to three potions at a time; creating a fourth potion causes the oldest currently active one to immediately lose its potency. If that potion has been consumed, its effects immediately end.",
+				"The spell slot you expend determines the type of potion you can create.",
+				{
+					"type": "table",
+					"caption": "Infuse Potions",
+					"colLabels": [
+						"Spell Slot",
+						"Potion Created"
+					],
+					"colStyles": [
+						"col-2 text-center",
+						"col-10"
+					],
+					"rows": [
+						[
+							"1st",
+							"Climbing, growth, or healing"
+						],
+						[
+							"2nd",
+							"Mind reading or greater healing"
+						],
+						[
+							"3rd",
+							"Invisibility, superior healing, or water breathing"
+						],
+						[
+							"4th",
+							"Resistance"
+						]
+					]
+				}
+			]
+		},
+		{
+			"name": "Infuse Scrolls",
+			"source": "UAEberron",
+			"page": 3,
+			"className": "Wizard",
+			"classSource": "PHB",
+			"subclassShortName": "Artificer (UA)",
+			"subclassSource": "UAEberron",
+			"level": 2,
+			"header": 1,
+			"entries": [
+				"At 2nd level, you can also tap into your reserves of magical energy to create spell scrolls. You can use your Arcane Recovery ability to create a scroll instead of regaining expended spell slots.",
+				"You must finish a short rest, then spend 10 minutes with parchment, quill, and ink to create a spell scroll containing one spell chosen from those you know. Subtract the spell's level from the total levels worth of slots you regain using Arcane Recovery. This reduction to your Arcane Recovery applies until you use the scroll and then finish a long rest."
+			]
+		},
+		{
+			"name": "Infuse Weapons and Armor",
+			"source": "UAEberron",
+			"page": 3,
+			"className": "Wizard",
+			"classSource": "PHB",
+			"subclassShortName": "Artificer (UA)",
+			"subclassSource": "UAEberron",
+			"level": 6,
+			"header": 2,
+			"entries": [
+				"Beginning at 6th level, you can produce magic weapons and armor. You spend 10 minutes focusing your magic on a mundane weapon, suit of armor, shield, or bundle of twenty pieces of ammunition, and expend a spell slot to infuse it with magical energy. The magic item retains its enhancement for 8 hours or until used (in the case of magic ammunition). You can infuse only one item at a time; if you infuse a second one, the first immediately loses its potency. Once you have expended a spell slot to create such an item, you cannot regain that slot until the item becomes nonmagical.",
+				"The spell slot you expend determines the type of weapon, armor, or shield you can create.",
+				{
+					"type": "table",
+					"caption": "Infuse Weapons and Armor",
+					"colLabels": [
+						"Spell Level",
+						"Item Created"
+					],
+					"colStyles": [
+						"col-2 text-center",
+						"col-10"
+					],
+					"rows": [
+						[
+							"2nd",
+							"+1 ammunition (20 pieces)"
+						],
+						[
+							"3rd",
+							"+1 weapon or +1 shield"
+						],
+						[
+							"4th",
+							"+1 armor"
+						],
+						[
+							"5th",
+							"+2 weapon or +2 ammunition (20 pieces)"
+						],
+						[
+							"6th",
+							"+2 armor"
+						]
+					]
+				}
+			]
+		},
+		{
+			"name": "Superior Artificer",
+			"source": "UAEberron",
+			"page": 3,
+			"className": "Wizard",
+			"classSource": "PHB",
+			"subclassShortName": "Artificer (UA)",
+			"subclassSource": "UAEberron",
+			"level": 10,
+			"header": 2,
+			"entries": [
+				"Starting at 10th level, you can create a second magic weapon, suit of armor, shield, or bundle of ammunition using your Infuse Weapons and Armor ability. Attempting to infuse a third item causes the oldest one to immediately lose its potency.",
+				"You can also create one additional potion or scroll using Infuse Potions or Infuse Scrolls."
+			]
+		},
+		{
+			"name": "Master Artificer",
+			"source": "UAEberron",
+			"page": 3,
+			"className": "Wizard",
+			"classSource": "PHB",
+			"subclassShortName": "Artificer (UA)",
+			"subclassSource": "UAEberron",
+			"level": 14,
+			"header": 2,
+			"entries": [
+				"On reaching 14th level, your mastery of arcane magic allows you to produce a variety of magic items. You can create a single item chosen from Magic Item Tables A and B in chapter 7 of the Dungeon Master's Guide (shown below). It takes you 1 week to produce such an item, and you must rest for 1 month before using this ability to craft another item.",
+				{
+					"type": "table",
+					"caption": "Magic Item Table A",
+					"colLabels": [
+						"d100",
+						"Magic Item"
+					],
+					"colStyles": [
+						"col-1 text-center",
+						"col-11"
+					],
+					"rows": [
+						[
+							"01-50",
+							"Potion of healing"
+						],
+						[
+							"51-60",
+							"Spell scroll (cantrip)"
+						],
+						[
+							"61-70",
+							"Potion of climbing"
+						],
+						[
+							"71-90",
+							"Spell scroll (1st level)"
+						],
+						[
+							"91-94",
+							"Spell scroll (2nd level)"
+						],
+						[
+							"95-98",
+							"Potion of greater healing"
+						],
+						[
+							"99",
+							"Bag of holding"
+						],
+						[
+							"00",
+							"Driftglobe"
+						]
+					]
+				},
+				{
+					"type": "table",
+					"caption": "Magic Item Table B",
+					"colLabels": [
+						"d100",
+						"Magic Item"
+					],
+					"colStyles": [
+						"col-1 text-center",
+						"col-11"
+					],
+					"rows": [
+						[
+							"01-15",
+							"Potion of greater healing"
+						],
+						[
+							"16-22",
+							"Potion of fire breath"
+						],
+						[
+							"23-29",
+							"Potion of resistance"
+						],
+						[
+							"30-34",
+							"Ammunition +1"
+						],
+						[
+							"35-39",
+							"Potion of animal friendship"
+						],
+						[
+							"40-44",
+							"Potion of hill giant strength"
+						],
+						[
+							"45-49",
+							"Potion of growth"
+						],
+						[
+							"50-54",
+							"Potion of water breathing"
+						],
+						[
+							"55-59",
+							"Spell scroll (2nd level)"
+						],
+						[
+							"60-64",
+							"Spell scroll (3rd level)"
+						],
+						[
+							"65-67",
+							"Bag of holding"
+						],
+						[
+							"68-70",
+							"Keoghtom's ointment"
+						],
+						[
+							"71-73",
+							"Oil of slipperiness"
+						],
+						[
+							"74-75",
+							"Dust of disappearance"
+						],
+						[
+							"76-77",
+							"Dust of dryness"
+						],
+						[
+							"78-79",
+							"Dust of sneezing and choking"
+						],
+						[
+							"80-81",
+							"Elemental gem"
+						],
+						[
+							"82-83",
+							"Philter of love"
+						],
+						[
+							"84",
+							"Alchemy jug"
+						],
+						[
+							"85",
+							"Cap of water breathing"
+						],
+						[
+							"86",
+							"Cloak of the manta ray"
+						],
+						[
+							"87",
+							"Driftglobe"
+						],
+						[
+							"88",
+							"Goggles of night"
+						],
+						[
+							"89",
+							"Helm of comprehending languages"
+						],
+						[
+							"90",
+							"Immovable rod"
+						],
+						[
+							"91",
+							"Lantern of revealing"
+						],
+						[
+							"92",
+							"Mariner's armor"
+						],
+						[
+							"93",
+							"Mithral armor"
+						],
+						[
+							"94",
+							"Potion of poison"
+						],
+						[
+							"95",
+							"Ring of swimming"
+						],
+						[
+							"96",
+							"Robe of useful items"
+						],
+						[
+							"97",
+							"Rope of climbing"
+						],
+						[
+							"98",
+							"Saddle of the cavalier"
+						],
+						[
+							"99",
+							"Wand of magic detection"
+						],
+						[
+							"00",
+							"Wand of secret"
+						]
+					]
+				}
+			]
+		}
+	],
+	"race": [
+		{
+			"name": "Changeling",
+			"source": "UAEberron",
+			"page": 1,
+			"reprintedAs": [
+				"Changeling|UARacesOfEberron"
+			],
+			"size": [
+				"M"
+			],
+			"speed": 30,
+			"ability": [
+				{
+					"dex": 1,
+					"cha": 1
+				}
+			],
+			"skillProficiencies": [
+				{
+					"deception": true
+				}
+			],
+			"languageProficiencies": [
+				{
+					"common": true,
+					"anyStandard": 2
+				}
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Size",
+					"entries": [
+						"Changelings are built much like humans, but a little leaner. Your size is Medium"
+					]
+				},
+				{
+					"name": "Duplicity",
+					"entries": [
+						"You gain proficiency in the {@skill Deception} skill."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Shapechanger",
+					"entries": [
+						"As an action, you can polymorph into any humanoid of your size that you have seen, or back into your true form. However, your equipment does not change with you. If you die, you revert to your natural appearance."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Languages",
+					"entries": [
+						"You can speak, read, and write Common and two other languages of your choice."
+					],
+					"type": "entries"
+				}
+			]
+		},
+		{
+			"name": "Shifter",
+			"source": "UAEberron",
+			"page": 2,
+			"reprintedAs": [
+				"Shifter|ERLW"
+			],
+			"size": [
+				"M"
+			],
+			"speed": 30,
+			"ability": [
+				{
+					"dex": 1
+				}
+			],
+			"darkvision": 60,
+			"languageProficiencies": [
+				{
+					"common": true,
+					"sylvan": true
+				}
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Size",
+					"entries": [
+						"Shifters are about the same size as humans. Your size is Medium"
+					]
+				},
+				{
+					"name": "Darkvision",
+					"entries": [
+						"Your lycanthropic heritage grants you the ability to see in dark conditions. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Shifting",
+					"entries": [
+						"On your turn, you can shift as a bonus action. Shifting lasts for 1 minute or until you end it on your turn as a bonus action.",
+						"While shifting, you gain temporary hit points equal to your level + your Constitution bonus (minimum of 1). You also gain a feature that depends on your shifter subrace, described below.",
+						"You must finish a short or long rest before you can shift again."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Languages",
+					"entries": [
+						"You can speak, read, and write Common and Sylvan."
+					],
+					"type": "entries"
+				}
+			]
+		},
+		{
+			"name": "Warforged",
+			"source": "UAEberron",
+			"page": 3,
+			"reprintedAs": [
+				"Warforged|UARacesOfEberron"
+			],
+			"size": [
+				"M"
+			],
+			"speed": 30,
+			"ability": [
+				{
+					"str": 1,
+					"con": 1
+				}
+			],
+			"traitTags": [
+				"Improved Resting",
+				"Natural Armor"
+			],
+			"languageProficiencies": [
+				{
+					"common": true,
+					"anyStandard": 1
+				}
+			],
+			"conditionImmune": [
+				"disease"
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Size",
+					"entries": [
+						"Warforged are generally broader and heavier than humans. Your size is Medium"
+					]
+				},
+				{
+					"name": "Composite Plating",
+					"entries": [
+						"Your construction incorporates wood and metal, granting you a +1 bonus to Armor Class."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Living Construct",
+					"entries": [
+						"Even though you were constructed, you are a living creature. You are immune to disease. You do not need to eat or breathe, but you can ingest food and drink if you wish.",
+						"Instead of sleeping, you enter an inactive state for 4 hours each day. You do not dream in this state; you are fully aware of your surroundings and notice approaching enemies and other events as normal."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Languages",
+					"entries": [
+						"You can speak, read, and write Common and one other language of your choice."
+					],
+					"type": "entries"
+				}
+			]
+		}
+	],
+	"subrace": [
+		{
+			"name": "Beasthide",
+			"source": "UAEberron",
+			"raceName": "Shifter",
+			"raceSource": "UAEberron",
+			"page": 2,
+			"reprintedAs": [
+				"Shifter (Beasthide)|UARacesOfEberron"
+			],
+			"ability": [
+				{
+					"con": 1
+				}
+			],
+			"traitTags": [
+				"Natural Armor"
+			],
+			"entries": [
+				{
+					"name": "Shifting Feature",
+					"entries": [
+						"While shifting, you gain a +1 bonus to AC."
+					],
+					"type": "entries"
+				}
+			]
+		},
+		{
+			"name": "Cliffwalk",
+			"source": "UAEberron",
+			"raceName": "Shifter",
+			"raceSource": "UAEberron",
+			"page": 2,
+			"ability": [
+				{
+					"dex": 2
+				}
+			],
+			"entries": [
+				{
+					"name": "Shifting Feature",
+					"entries": [
+						"While shifting, you gain a climb speed of 30 feet."
+					],
+					"type": "entries"
+				}
+			]
+		},
+		{
+			"name": "Longstride",
+			"source": "UAEberron",
+			"raceName": "Shifter",
+			"raceSource": "UAEberron",
+			"page": 2,
+			"ability": [
+				{
+					"dex": 2
+				}
+			],
+			"entries": [
+				{
+					"name": "Shifting Feature",
+					"entries": [
+						"While shifting, you can use the {@action Dash} action as a bonus action."
+					],
+					"type": "entries"
+				}
+			]
+		},
+		{
+			"name": "Longtooth",
+			"source": "UAEberron",
+			"raceName": "Shifter",
+			"raceSource": "UAEberron",
+			"page": 2,
+			"reprintedAs": [
+				"Shifter (Longtooth)|UARacesOfEberron"
+			],
+			"ability": [
+				{
+					"str": 1
+				}
+			],
+			"entries": [
+				{
+					"name": "Shifting Feature",
+					"entries": [
+						"While shifting, you can make a bite attack as an action. This is a melee weapon attack that uses Strength for its attack roll and damage bonus and deals {@dice 1d6} piercing damage. If this attack hits a target that is your size or smaller, the target is also {@condition grappled}."
+					],
+					"type": "entries"
+				}
+			]
+		},
+		{
+			"name": "Razorclaw",
+			"source": "UAEberron",
+			"raceName": "Shifter",
+			"raceSource": "UAEberron",
+			"page": 2,
+			"ability": [
+				{
+					"dex": 2
+				}
+			],
+			"traitTags": [
+				"Natural Weapon"
+			],
+			"entries": [
+				{
+					"name": "Shifting Feature",
+					"entries": [
+						"While shifting, you can make an unarmed strike as a bonus action. You can use your Dexterity for its attack roll and damage bonus, and this attack deals slashing damage."
+					],
+					"type": "entries"
+				}
+			]
+		},
+		{
+			"name": "Wildhunt",
+			"source": "UAEberron",
+			"raceName": "Shifter",
+			"raceSource": "UAEberron",
+			"page": 3,
+			"reprintedAs": [
+				"Shifter (Wildhunt)|UARacesOfEberron"
+			],
+			"ability": [
+				{
+					"wis": 1
+				}
+			],
+			"entries": [
+				{
+					"name": "Shifting Feature",
+					"entries": [
+						"While shifting, you gain advantage on all Wisdom-based checks and saving throws."
+					],
+					"type": "entries"
+				}
+			]
+		}
+	],
+	"foundryRaceFeature": [
+		{
+			"name": "Composite Plating",
+			"source": "UAEberron",
+			"raceName": "Warforged",
+			"raceSource": "UAEberron",
+			"effects": [
+				{
+					"name": "Natural Armor",
+					"transfer": true,
+					"changes": [
+						{
+							"key": "data.attributes.ac.bonus",
+							"mode": "ADD",
+							"value": "+ 1"
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Shifting Feature",
+			"source": "UAEberron",
+			"raceName": "Shifter (Beasthide)",
+			"raceSource": "UAEberron",
+			"effects": [
+				{
+					"name": "Natural Armor",
+					"transfer": true,
+					"changes": [
+						{
+							"key": "data.attributes.ac.bonus",
+							"mode": "ADD",
+							"value": "+ 1"
+						}
+					],
+					"disabled": true
+				}
+			]
+		}
+	],
+	"feat": [
+		{
+			"name": "Dragonmark of Detection",
+			"source": "UAEberron",
+			"page": 5,
+			"prerequisite": [
+				{
+					"race": [
+						{
+							"name": "half-elf"
+						}
+					]
+				}
+			],
+			"additionalSpells": [
+				{
+					"innate": {
+						"5": {
+							"daily": {
+								"1": [
+									"detect thoughts"
+								]
+							}
+						},
+						"9": {
+							"daily": {
+								"1": [
+									"clairvoyance"
+								]
+							}
+						},
+						"_": {
+							"daily": {
+								"1": [
+									"detect magic"
+								]
+							}
+						}
+					},
+					"ability": "wis",
+					"known": {
+						"_": [
+							"mage hand#c"
+						]
+					}
+				}
+			],
+			"entries": [
+				"You have the magical mark of Detection, the dragonmark of House Medani, and are a member of that house.",
+				"You gain the ability to innately cast spells and cantrips, using Wisdom as your spellcasting ability. You cast each spell at its lowest level. Once you cast a given spell this way, you must finish a long rest before you can cast it innately again. You must still expend any material components. Your dragonmark confers the following benefits:",
+				{
+					"type": "entries",
+					"name": "Least Dragonmark",
+					"entries": [
+						"When you first take this feat, you gain the least dragonmark. You learn the following spells: {@spell detect magic}, {@spell mage hand}"
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Lesser Dragonmark",
+					"entries": [
+						"At 5th level and higher, your mark becomes more potent, improving to lesser dragonmark. You learn the following spell: {@spell detect thoughts}"
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Greater Dragonmark",
+					"entries": [
+						"At 9th level and higher, your mark's power increases again, becoming a greater dragonmark. You learn the following spell: {@spell clairvoyance}"
+					]
+				}
+			]
+		},
+		{
+			"name": "Dragonmark of Finding",
+			"source": "UAEberron",
+			"page": 5,
+			"prerequisite": [
+				{
+					"race": [
+						{
+							"name": "half-orc"
+						},
+						{
+							"name": "human"
+						}
+					]
+				}
+			],
+			"additionalSpells": [
+				{
+					"innate": {
+						"5": {
+							"daily": {
+								"1": [
+									"locate object"
+								]
+							}
+						},
+						"9": {
+							"daily": {
+								"1": [
+									"clairvoyance"
+								]
+							}
+						},
+						"_": {
+							"daily": {
+								"1": [
+									"identify"
+								]
+							}
+						}
+					},
+					"ability": "wis",
+					"known": {
+						"_": [
+							"mage hand#c"
+						]
+					}
+				}
+			],
+			"entries": [
+				"You have the magical mark of Finding, the dragonmark of House Tharashk, and are a member of that house.",
+				"You gain the ability to innately cast spells and cantrips, using Wisdom as your spellcasting ability. You cast each spell at its lowest level. Once you cast a given spell this way, you must finish a long rest before you can cast it innately again. You must still expend any material components. Your dragonmark confers the following benefits:",
+				{
+					"type": "entries",
+					"name": "Least Dragonmark",
+					"entries": [
+						"When you first take this feat, you gain the least dragonmark. You learn the following spells: {@spell identify}, {@spell mage hand}"
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Lesser Dragonmark",
+					"entries": [
+						"At 5th level and higher, your mark becomes more potent, improving to lesser dragonmark. You learn the following spell: {@spell locate object}"
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Greater Dragonmark",
+					"entries": [
+						"At 9th level and higher, your mark's power increases again, becoming a greater dragonmark. You learn the following spell: {@spell clairvoyance}"
+					]
+				}
+			]
+		},
+		{
+			"name": "Dragonmark of Handling",
+			"source": "UAEberron",
+			"page": 5,
+			"prerequisite": [
+				{
+					"race": [
+						{
+							"name": "human"
+						}
+					]
+				}
+			],
+			"additionalSpells": [
+				{
+					"innate": {
+						"5": {
+							"daily": {
+								"1": [
+									"beast sense"
+								]
+							}
+						},
+						"9": {
+							"daily": {
+								"1": [
+									"conjure animals"
+								]
+							}
+						},
+						"_": {
+							"daily": {
+								"1": [
+									"speak with animals"
+								]
+							}
+						}
+					},
+					"ability": "wis",
+					"known": {
+						"_": [
+							"druidcraft#c"
+						]
+					}
+				}
+			],
+			"entries": [
+				"You have the magical mark of Handling, the dragonmark of House Vadalis, and are a member of that house.",
+				"You gain the ability to innately cast spells and cantrips, using Wisdom as your spellcasting ability. You cast each spell at its lowest level. Once you cast a given spell this way, you must finish a long rest before you can cast it innately again. You must still expend any material components. Your dragonmark confers the following benefits:",
+				{
+					"type": "entries",
+					"name": "Least Dragonmark",
+					"entries": [
+						"When you first take this feat, you gain the least dragonmark. You learn the following spells: {@spell druidcraft}, {@spell speak with animals}"
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Lesser Dragonmark",
+					"entries": [
+						"At 5th level and higher, your mark becomes more potent, improving to lesser dragonmark. You learn the following spell: {@spell beast sense}"
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Greater Dragonmark",
+					"entries": [
+						"At 9th level and higher, your mark's power increases again, becoming a greater dragonmark. You learn the following spell: {@spell conjure animals}"
+					]
+				}
+			]
+		},
+		{
+			"name": "Dragonmark of Healing",
+			"source": "UAEberron",
+			"page": 5,
+			"prerequisite": [
+				{
+					"race": [
+						{
+							"name": "halfling"
+						}
+					]
+				}
+			],
+			"additionalSpells": [
+				{
+					"innate": {
+						"5": {
+							"daily": {
+								"1": [
+									"lesser restoration"
+								]
+							}
+						},
+						"9": {
+							"daily": {
+								"1": [
+									"revivify"
+								]
+							}
+						},
+						"_": {
+							"daily": {
+								"1": [
+									"cure wounds"
+								]
+							}
+						}
+					},
+					"ability": "wis",
+					"known": {
+						"_": [
+							"spare the dying#c"
+						]
+					}
+				}
+			],
+			"entries": [
+				"You have the magical mark of Healing, the dragonmark of House Jorasco, and are a member of that house.",
+				"You gain the ability to innately cast spells and cantrips, using Wisdom as your spellcasting ability. You cast each spell at its lowest level. Once you cast a given spell this way, you must finish a long rest before you can cast it innately again. You must still expend any material components. Your dragonmark confers the following benefits:",
+				{
+					"type": "entries",
+					"name": "Least Dragonmark",
+					"entries": [
+						"When you first take this feat, you gain the least dragonmark. You learn the following spells: {@spell cure wounds}, {@spell spare the dying}"
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Lesser Dragonmark",
+					"entries": [
+						"At 5th level and higher, your mark becomes more potent, improving to lesser dragonmark. You learn the following spell: {@spell lesser restoration}"
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Greater Dragonmark",
+					"entries": [
+						"At 9th level and higher, your mark's power increases again, becoming a greater dragonmark. You learn the following spell: {@spell revivify}"
+					]
+				}
+			]
+		},
+		{
+			"name": "Dragonmark of Hospitality",
+			"source": "UAEberron",
+			"page": 5,
+			"prerequisite": [
+				{
+					"race": [
+						{
+							"name": "halfling"
+						}
+					]
+				}
+			],
+			"additionalSpells": [
+				{
+					"innate": {
+						"5": {
+							"daily": {
+								"1": [
+									"rope trick"
+								]
+							}
+						},
+						"9": {
+							"daily": {
+								"1": [
+									"Leomund's tiny hut"
+								]
+							}
+						},
+						"_": {
+							"daily": {
+								"1": [
+									"unseen servant"
+								]
+							}
+						}
+					},
+					"ability": "cha",
+					"known": {
+						"_": [
+							"friends#c"
+						]
+					}
+				}
+			],
+			"entries": [
+				"You have the magical mark of Hospitality, the dragonmark of House Ghallanda, and are a member of that house.",
+				"You gain the ability to innately cast spells and cantrips, using Charisma as your spellcasting ability. You cast each spell at its lowest level. Once you cast a given spell this way, you must finish a long rest before you can cast it innately again. You must still expend any material components. Your dragonmark confers the following benefits:",
+				{
+					"type": "entries",
+					"name": "Least Dragonmark",
+					"entries": [
+						"When you first take this feat, you gain the least dragonmark. You learn the following spells: {@spell friends}, {@spell unseen servant}"
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Lesser Dragonmark",
+					"entries": [
+						"At 5th level and higher, your mark becomes more potent, improving to lesser dragonmark. You learn the following spell: {@spell rope trick}"
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Greater Dragonmark",
+					"entries": [
+						"At 9th level and higher, your mark's power increases again, becoming a greater dragonmark. You learn the following spell: {@spell Leomund's tiny hut}"
+					]
+				}
+			]
+		},
+		{
+			"name": "Dragonmark of Making",
+			"source": "UAEberron",
+			"page": 5,
+			"prerequisite": [
+				{
+					"race": [
+						{
+							"name": "human"
+						}
+					]
+				}
+			],
+			"additionalSpells": [
+				{
+					"innate": {
+						"5": {
+							"daily": {
+								"1": [
+									"magic weapon"
+								]
+							}
+						},
+						"9": {
+							"daily": {
+								"1": [
+									"fabricate"
+								]
+							}
+						},
+						"_": {
+							"daily": {
+								"1": [
+									"identify"
+								]
+							}
+						}
+					},
+					"ability": "wis",
+					"known": {
+						"_": [
+							"mending#c"
+						]
+					}
+				}
+			],
+			"entries": [
+				"You have the magical mark of Making, the dragonmark of House Cannith, and are a member of that house.",
+				"You gain the ability to innately cast spells and cantrips, using Intelligence as your spellcasting ability. You cast each spell at its lowest level. Once you cast a given spell this way, you must finish a long rest before you can cast it innately again. You must still expend any material components. Your dragonmark confers the following benefits:",
+				{
+					"type": "entries",
+					"name": "Least Dragonmark",
+					"entries": [
+						"When you first take this feat, you gain the least dragonmark. You learn the following spells: {@spell identify}, {@spell mending}"
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Lesser Dragonmark",
+					"entries": [
+						"At 5th level and higher, your mark becomes more potent, improving to lesser dragonmark. You learn the following spell: {@spell magic weapon}"
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Greater Dragonmark",
+					"entries": [
+						"At 9th level and higher, your mark's power increases again, becoming a greater dragonmark. You learn the following spell: {@spell fabricate}"
+					]
+				}
+			]
+		},
+		{
+			"name": "Dragonmark of Passage",
+			"source": "UAEberron",
+			"page": 5,
+			"prerequisite": [
+				{
+					"race": [
+						{
+							"name": "human"
+						}
+					]
+				}
+			],
+			"additionalSpells": [
+				{
+					"innate": {
+						"5": {
+							"daily": {
+								"1": [
+									"misty step"
+								]
+							}
+						},
+						"9": {
+							"daily": {
+								"1": [
+									"teleportation circle"
+								]
+							}
+						},
+						"_": {
+							"daily": {
+								"1": [
+									"expeditious retreat"
+								]
+							}
+						}
+					},
+					"ability": "wis",
+					"known": {
+						"_": [
+							"light#c"
+						]
+					}
+				}
+			],
+			"entries": [
+				"You have the magical mark of Passage, the dragonmark of House Orien, and are a member of that house.",
+				"You gain the ability to innately cast spells and cantrips, using Intelligence as your spellcasting ability. You cast each spell at its lowest level. Once you cast a given spell this way, you must finish a long rest before you can cast it innately again. You must still expend any material components. Your dragonmark confers the following benefits:",
+				{
+					"type": "entries",
+					"name": "Least Dragonmark",
+					"entries": [
+						"When you first take this feat, you gain the least dragonmark. You learn the following spells: {@spell expeditious retreat}, {@spell light}"
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Lesser Dragonmark",
+					"entries": [
+						"At 5th level and higher, your mark becomes more potent, improving to lesser dragonmark. You learn the following spell: {@spell misty step}"
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Greater Dragonmark",
+					"entries": [
+						"At 9th level and higher, your mark's power increases again, becoming a greater dragonmark. You learn the following spell: {@spell teleportation circle}"
+					]
+				}
+			]
+		},
+		{
+			"name": "Dragonmark of Scribing",
+			"source": "UAEberron",
+			"page": 5,
+			"prerequisite": [
+				{
+					"race": [
+						{
+							"name": "gnome"
+						}
+					]
+				}
+			],
+			"additionalSpells": [
+				{
+					"innate": {
+						"5": {
+							"daily": {
+								"1": [
+									"sending"
+								]
+							}
+						},
+						"9": {
+							"daily": {
+								"1": [
+									"tongues"
+								]
+							}
+						},
+						"_": {
+							"daily": {
+								"1": [
+									"comprehend languages"
+								]
+							}
+						}
+					},
+					"ability": "wis",
+					"known": {
+						"_": [
+							"message#c"
+						]
+					}
+				}
+			],
+			"entries": [
+				"You have the magical mark of Scribing, the dragonmark of House Sivis, and are a member of that house.",
+				"You gain the ability to innately cast spells and cantrips, using Intelligence as your spellcasting ability. You cast each spell at its lowest level. Once you cast a given spell this way, you must finish a long rest before you can cast it innately again. You must still expend any material components. Your dragonmark confers the following benefits:",
+				{
+					"type": "entries",
+					"name": "Least Dragonmark",
+					"entries": [
+						"When you first take this feat, you gain the least dragonmark. You learn the following spells: {@spell comprehend languages}, {@spell message}"
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Lesser Dragonmark",
+					"entries": [
+						"At 5th level and higher, your mark becomes more potent, improving to lesser dragonmark. You learn the following spell: {@spell sending}"
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Greater Dragonmark",
+					"entries": [
+						"At 9th level and higher, your mark's power increases again, becoming a greater dragonmark. You learn the following spell: {@spell tongues}"
+					]
+				}
+			]
+		},
+		{
+			"name": "Dragonmark of Sentinel",
+			"source": "UAEberron",
+			"page": 5,
+			"prerequisite": [
+				{
+					"race": [
+						{
+							"name": "human"
+						}
+					]
+				}
+			],
+			"additionalSpells": [
+				{
+					"innate": {
+						"5": {
+							"daily": {
+								"1": [
+									"blur"
+								]
+							}
+						},
+						"9": {
+							"daily": {
+								"1": [
+									"protection from energy"
+								]
+							}
+						},
+						"_": {
+							"daily": {
+								"1": [
+									"compelled duel"
+								]
+							}
+						}
+					},
+					"ability": "wis",
+					"known": {
+						"_": [
+							"blade ward#c"
+						]
+					}
+				}
+			],
+			"entries": [
+				"You have the magical mark of Sentinel, the dragonmark of House Deneith, and are a member of that house.",
+				"You gain the ability to innately cast spells and cantrips, using Wisdom as your spellcasting ability. You cast each spell at its lowest level. Once you cast a given spell this way, you must finish a long rest before you can cast it innately again. You must still expend any material components. Your dragonmark confers the following benefits:",
+				{
+					"type": "entries",
+					"name": "Least Dragonmark",
+					"entries": [
+						"When you first take this feat, you gain the least dragonmark. You learn the following spells: {@spell blade ward}, {@spell compelled duel}"
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Lesser Dragonmark",
+					"entries": [
+						"At 5th level and higher, your mark becomes more potent, improving to lesser dragonmark. You learn the following spell: {@spell blur}"
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Greater Dragonmark",
+					"entries": [
+						"At 9th level and higher, your mark's power increases again, becoming a greater dragonmark. You learn the following spell: {@spell protection from energy}"
+					]
+				}
+			]
+		},
+		{
+			"name": "Dragonmark of Shadow",
+			"source": "UAEberron",
+			"page": 5,
+			"prerequisite": [
+				{
+					"race": [
+						{
+							"name": "elf"
+						}
+					]
+				}
+			],
+			"additionalSpells": [
+				{
+					"innate": {
+						"5": {
+							"daily": {
+								"1": [
+									"darkness"
+								]
+							}
+						},
+						"9": {
+							"daily": {
+								"1": [
+									"nondetection"
+								]
+							}
+						},
+						"_": {
+							"daily": {
+								"1": [
+									"dancing lights#c"
+								]
+							}
+						}
+					},
+					"ability": "wis",
+					"known": {
+						"_": [
+							"disguise self"
+						]
+					}
+				}
+			],
+			"entries": [
+				"You have the magical mark of Shadow, the dragonmark of House Phiarlan and House Thuranni, and are a member of one of those houses.",
+				"You gain the ability to innately cast spells and cantrips, using Charisma as your spellcasting ability. You cast each spell at its lowest level. Once you cast a given spell this way, you must finish a long rest before you can cast it innately again. You must still expend any material components. Your dragonmark confers the following benefits:",
+				{
+					"type": "entries",
+					"name": "Least Dragonmark",
+					"entries": [
+						"When you first take this feat, you gain the least dragonmark. You learn the following spells: {@spell dancing lights}, {@spell disguise self}"
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Lesser Dragonmark",
+					"entries": [
+						"At 5th level and higher, your mark becomes more potent, improving to lesser dragonmark. You learn the following spell: {@spell darkness}"
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Greater Dragonmark",
+					"entries": [
+						"At 9th level and higher, your mark's power increases again, becoming a greater dragonmark. You learn the following spell: {@spell nondetection}"
+					]
+				}
+			]
+		},
+		{
+			"name": "Dragonmark of Storm",
+			"source": "UAEberron",
+			"page": 5,
+			"prerequisite": [
+				{
+					"race": [
+						{
+							"name": "half-elf"
+						}
+					]
+				}
+			],
+			"additionalSpells": [
+				{
+					"innate": {
+						"5": {
+							"daily": {
+								"1": [
+									"gust of wind"
+								]
+							}
+						},
+						"9": {
+							"daily": {
+								"1": [
+									"sleet storm"
+								]
+							}
+						},
+						"_": {
+							"daily": {
+								"1": [
+									"fog cloud"
+								]
+							}
+						}
+					},
+					"ability": "wis",
+					"known": {
+						"_": [
+							"shocking grasp#c"
+						]
+					}
+				}
+			],
+			"entries": [
+				"You have the magical mark of Storm, the dragonmark of House Lyrander, and are a member of that house.",
+				"You gain the ability to innately cast spells and cantrips, using Intelligence as your spellcasting ability. You cast each spell at its lowest level. Once you cast a given spell this way, you must finish a long rest before you can cast it innately again. You must still expend any material components. Your dragonmark confers the following benefits:",
+				{
+					"type": "entries",
+					"name": "Least Dragonmark",
+					"entries": [
+						"When you first take this feat, you gain the least dragonmark. You learn the following spells: {@spell fog cloud}, {@spell shocking grasp}"
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Lesser Dragonmark",
+					"entries": [
+						"At 5th level and higher, your mark becomes more potent, improving to lesser dragonmark. You learn the following spell: {@spell gust of wind}"
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Greater Dragonmark",
+					"entries": [
+						"At 9th level and higher, your mark's power increases again, becoming a greater dragonmark. You learn the following spell: {@spell sleet storm}"
+					]
+				}
+			]
+		},
+		{
+			"name": "Dragonmark of Warding",
+			"source": "UAEberron",
+			"page": 5,
+			"prerequisite": [
+				{
+					"race": [
+						{
+							"name": "dwarf"
+						}
+					]
+				}
+			],
+			"additionalSpells": [
+				{
+					"innate": {
+						"5": {
+							"daily": {
+								"1": [
+									"arcane lock"
+								]
+							}
+						},
+						"9": {
+							"daily": {
+								"1": [
+									"magic circle"
+								]
+							}
+						},
+						"_": {
+							"daily": {
+								"1": [
+									"alarm"
+								]
+							}
+						}
+					},
+					"ability": "wis",
+					"known": {
+						"_": [
+							"resistance#c"
+						]
+					}
+				}
+			],
+			"entries": [
+				"You have the magical mark of Warding, the dragonmark of House Kundarak, and are a member of that house.",
+				"You gain the ability to innately cast spells and cantrips, using Intelligence as your spellcasting ability. You cast each spell at its lowest level. Once you cast a given spell this way, you must finish a long rest before you can cast it innately again. You must still expend any material components. Your dragonmark confers the following benefits:",
+				{
+					"type": "entries",
+					"name": "Least Dragonmark",
+					"entries": [
+						"When you first take this feat, you gain the least dragonmark. You learn the following spells: {@spell alarm}, {@spell resistance}"
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Lesser Dragonmark",
+					"entries": [
+						"At 5th level and higher, your mark becomes more potent, improving to lesser dragonmark. You learn the following spell: {@spell arcane lock}"
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Greater Dragonmark",
+					"entries": [
+						"At 9th level and higher, your mark's power increases again, becoming a greater dragonmark. You learn the following spell: {@spell magic circle}"
+					]
+				}
+			]
+		}
+	],
+	"variantrule": [
+		{
+			"name": "Action Points",
+			"source": "UAEberron",
+			"page": 4,
+			"entries": [
+				{
+					"type": "inlineBlock",
+					"entries": [
+						"The Eberron campaign setting introduced this concept to reflect characters who are larger-than-life heroes destined for great things. Action points allow a player to add a bonus on any {@dice d20} roll so that characters can dodge or at least mitigate the effects of bad luck. This rule inspired the \"",
+						{
+							"type": "link",
+							"href": {
+								"type": "internal",
+								"path": "variantrules.html",
+								"hash": "hero points_dmg"
+							},
+							"text": "Hero Points"
+						},
+						"\" optional rule presented in chapter 9 of the Dungeon Master's Guide."
+					]
+				},
+				"You start with 5 action points at 1st level. Each time you gain a level, you lose any unspent action points and gain a new total equal to 5 + half your level.",
+				"You can spend an action point whenever you roll a {@dice d20} to make an attack roll, an ability check, or a saving throw. You don't have to decide until after you make the roll and learn if it succeeded or failed. If you spend an action point, roll a {@dice d6} and add it to your {@dice d20} result, possibly changing a failure into a success. You can spend only 1 action point per roll.",
+				"In addition, whenever you fail a death saving throw, you can spend an action point to make it a success."
+			]
+		}
+	]
+}

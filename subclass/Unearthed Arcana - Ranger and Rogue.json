@@ -1,0 +1,506 @@
+{
+	"_meta": {
+		"sources": [
+			{
+				"json": "UARangerAndRogue",
+				"abbreviation": "UARAR",
+				"full": "Unearthed Arcana: Ranger and Rogue",
+				"authors": [
+					"Wizards of the Coast"
+				],
+				"convertedBy": [
+					"Giddy"
+				],
+				"version": "1.0.0",
+				"url": "https://media.wizards.com/2016/dnd/downloads/2017_01_UA_RangerRogue_0117JCMM.pdf",
+				"dateReleased": "2017-01-16"
+			}
+		],
+		"dateAdded": 1701616429,
+		"dateLastModified": 1701616429,
+		"_dateLastModifiedHash": "aaaaaaaaaa"
+	},
+	"subclass": [
+		{
+			"name": "Horizon Walker (UA)",
+			"shortName": "Horizon Walker (UA)",
+			"source": "UARangerAndRogue",
+			"className": "Ranger",
+			"classSource": "PHB",
+			"page": 1,
+			"isReprinted": true,
+			"additionalSpells": [
+				{
+					"known": {
+						"3": [
+							"protection from evil and good"
+						],
+						"5": [
+							"alter self"
+						],
+						"9": [
+							"protection from energy"
+						],
+						"13": [
+							"banishment"
+						],
+						"17": [
+							"teleportation circle"
+						]
+					}
+				}
+			],
+			"subclassFeatures": [
+				"Horizon Walker|Ranger||Horizon Walker (UA)|UARangerAndRogue|3",
+				"Ethereal Step|Ranger||Horizon Walker (UA)|UARangerAndRogue|7",
+				"Distant Strike|Ranger||Horizon Walker (UA)|UARangerAndRogue|11",
+				"Spectral Defense|Ranger||Horizon Walker (UA)|UARangerAndRogue|15"
+			]
+		},
+		{
+			"name": "Primeval Guardian (UA)",
+			"shortName": "Primeval Guardian (UA)",
+			"source": "UARangerAndRogue",
+			"className": "Ranger",
+			"classSource": "PHB",
+			"page": 2,
+			"additionalSpells": [
+				{
+					"known": {
+						"3": [
+							"entangle"
+						],
+						"5": [
+							"enhance ability"
+						],
+						"9": [
+							"conjure animals"
+						],
+						"13": [
+							"giant insect"
+						],
+						"17": [
+							"insect plague"
+						]
+					}
+				}
+			],
+			"subclassFeatures": [
+				"Primeval Guardian|Ranger||Primeval Guardian (UA)|UARangerAndRogue|3",
+				"Ancient Fortitude|Ranger||Primeval Guardian (UA)|UARangerAndRogue|7",
+				"Rooted Defense|Ranger||Primeval Guardian (UA)|UARangerAndRogue|11",
+				"Guardian Aura|Ranger||Primeval Guardian (UA)|UARangerAndRogue|15"
+			]
+		},
+		{
+			"name": "Scout (UA)",
+			"shortName": "Scout (UA)",
+			"source": "UARangerAndRogue",
+			"className": "Rogue",
+			"classSource": "PHB",
+			"page": 2,
+			"isReprinted": true,
+			"subclassFeatures": [
+				"Scout|Rogue||Scout (UA)|UARangerAndRogue|3",
+				"Superior Mobility|Rogue||Scout (UA)|UARangerAndRogue|9",
+				"Ambush Master|Rogue||Scout (UA)|UARangerAndRogue|13",
+				"Sudden Strike|Rogue||Scout (UA)|UARangerAndRogue|17"
+			]
+		}
+	],
+	"subclassFeature": [
+		{
+			"name": "Horizon Walker",
+			"source": "UARangerAndRogue",
+			"page": 1,
+			"className": "Ranger",
+			"classSource": "PHB",
+			"subclassShortName": "Horizon Walker (UA)",
+			"subclassSource": "UARangerAndRogue",
+			"level": 3,
+			"entries": [
+				"Rangers of the Horizon Conclave guard the world against threats that originate from other planes. They seek out planar portals and keep watch over them, venturing to the outer and inner planes as needed to defeat threats.",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Planar Magic|Ranger||Horizon Walker (UA)|UARangerAndRogue|3"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Planar Warrior|Ranger||Horizon Walker (UA)|UARangerAndRogue|3"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Portal Lore|Ranger||Horizon Walker (UA)|UARangerAndRogue|3"
+				}
+			]
+		},
+		{
+			"name": "Planar Magic",
+			"source": "UARangerAndRogue",
+			"page": 1,
+			"className": "Ranger",
+			"classSource": "PHB",
+			"subclassShortName": "Horizon Walker (UA)",
+			"subclassSource": "UARangerAndRogue",
+			"level": 3,
+			"header": 1,
+			"entries": [
+				"Starting at 3rd level, you learn an additional spell when you reach certain levels in this class, as shown in the Horizon Walker Spells table. The spell counts as a ranger spell for you, and it doesn't count against the number of ranger spells you know.",
+				{
+					"type": "table",
+					"caption": "Horizon Walker Spells",
+					"colLabels": [
+						"Ranger Level",
+						"Spells"
+					],
+					"colStyles": [
+						"col-2 text-center",
+						"col-10"
+					],
+					"rows": [
+						[
+							"3rd",
+							"{@spell protection from evil and good}"
+						],
+						[
+							"5th",
+							"{@spell alter self}"
+						],
+						[
+							"9th",
+							"{@spell protection from energy}"
+						],
+						[
+							"13th",
+							"{@spell banishment}"
+						],
+						[
+							"17th",
+							"{@spell teleportation circle}"
+						]
+					]
+				}
+			]
+		},
+		{
+			"name": "Planar Warrior",
+			"source": "UARangerAndRogue",
+			"page": 1,
+			"className": "Ranger",
+			"classSource": "PHB",
+			"subclassShortName": "Horizon Walker (UA)",
+			"subclassSource": "UARangerAndRogue",
+			"level": 3,
+			"header": 1,
+			"entries": [
+				"At 3rd level, you learn to draw on the energy of the planes to augment your attacks.",
+				"As a bonus action, choose one creature you can see within 30 feet of you. Until the end of this turn, your attacks against that creature ignore its damage resistances, and the next time you hit it on this turn, it takes an additional {@damage 1d6} force damage."
+			]
+		},
+		{
+			"name": "Portal Lore",
+			"source": "UARangerAndRogue",
+			"page": 1,
+			"className": "Ranger",
+			"classSource": "PHB",
+			"subclassShortName": "Horizon Walker (UA)",
+			"subclassSource": "UARangerAndRogue",
+			"level": 3,
+			"header": 1,
+			"entries": [
+				"At 3rd level, you gain the ability to detect the presence of planar portals. As an action, you detect the distance and direction to any planar portals within 1,000 feet of you. You also sense which plane of existence each portal leads to. However, if magic obscures any details of a portal, this feature doesn't reveal them.",
+				"Once you use this feature, you can't use it again until you finish a short or long rest. Alternatively, you can use the feature again if you expend a spell slot of 2nd level or higher.",
+				"See the \"Planar Travel\" section in chapter 2 of the Dungeon Master's Guide for examples of planar portals."
+			]
+		},
+		{
+			"name": "Ethereal Step",
+			"source": "UARangerAndRogue",
+			"page": 1,
+			"className": "Ranger",
+			"classSource": "PHB",
+			"subclassShortName": "Horizon Walker (UA)",
+			"subclassSource": "UARangerAndRogue",
+			"level": 7,
+			"header": 2,
+			"entries": [
+				"At 7th level, you learn to step through the Ethereal Plane. As a bonus action on your turn, you can cast the {@spell etherealness} spell with this feature, but the spell ends at the end of the current turn. Once you use this feature, you can't use it again until you finish a short or long rest."
+			]
+		},
+		{
+			"name": "Distant Strike",
+			"source": "UARangerAndRogue",
+			"page": 1,
+			"className": "Ranger",
+			"classSource": "PHB",
+			"subclassShortName": "Horizon Walker (UA)",
+			"subclassSource": "UARangerAndRogue",
+			"level": 11,
+			"header": 2,
+			"entries": [
+				"At 11th level, you gain the ability to step between the planes in a blink of an eye. When you use the {@action Attack} action, you can teleport up to 10 feet before each attack. You must be able to see the destination of the teleportation.",
+				"If you attack at least two different creatures with the action, you can make one additional attack with it against a third creature."
+			]
+		},
+		{
+			"name": "Spectral Defense",
+			"source": "UARangerAndRogue",
+			"page": 1,
+			"className": "Ranger",
+			"classSource": "PHB",
+			"subclassShortName": "Horizon Walker (UA)",
+			"subclassSource": "UARangerAndRogue",
+			"level": 15,
+			"header": 2,
+			"entries": [
+				"At 15th level, your ability to move between planes becomes even more finely tuned. As a reaction when you take damage, you can halve that damage against you. For a moment, you slip into the planar boundary to lessen the harm."
+			]
+		},
+		{
+			"name": "Primeval Guardian",
+			"source": "UARangerAndRogue",
+			"page": 2,
+			"className": "Ranger",
+			"classSource": "PHB",
+			"subclassShortName": "Primeval Guardian (UA)",
+			"subclassSource": "UARangerAndRogue",
+			"level": 3,
+			"entries": [
+				"Rangers of the Primeval Guardian Conclave follow an ancient tradition rooted in powerful druidic magic. These rangers learn to become one with nature, allowing them to channel the aspects of various beasts and plants in order to overcome their foes.",
+				"These rangers dwell in the elder forests of the world. They venture out only rarely, as they consider it their sacred duty to protect the druidic groves and ancient trees that saw the earliest days of the world.",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Guardian Magic|Ranger||Primeval Guardian (UA)|UARangerAndRogue|3"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Guardian Soul|Ranger||Primeval Guardian (UA)|UARangerAndRogue|3"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Piercing Thorns|Ranger||Primeval Guardian (UA)|UARangerAndRogue|3"
+				}
+			]
+		},
+		{
+			"name": "Guardian Magic",
+			"source": "UARangerAndRogue",
+			"page": 2,
+			"className": "Ranger",
+			"classSource": "PHB",
+			"subclassShortName": "Primeval Guardian (UA)",
+			"subclassSource": "UARangerAndRogue",
+			"level": 3,
+			"header": 1,
+			"entries": [
+				"Starting at 3rd level, you learn an additional spell when you reach certain levels in this class, as shown in the Primeval Guardian Spells table. The spell counts as a ranger spell for you, and it doesn't count against the number of ranger spells you know.",
+				{
+					"type": "table",
+					"caption": "Primeval Guardian Spells",
+					"colLabels": [
+						"Ranger Level",
+						"Spells"
+					],
+					"colStyles": [
+						"col-2 text-center",
+						"col-10"
+					],
+					"rows": [
+						[
+							"3rd",
+							"{@spell entangle}"
+						],
+						[
+							"5th",
+							"{@spell enhance ability}"
+						],
+						[
+							"9th",
+							"{@spell conjure animals}"
+						],
+						[
+							"13th",
+							"{@spell giant insect}"
+						],
+						[
+							"17th",
+							"{@spell insect plague}"
+						]
+					]
+				}
+			]
+		},
+		{
+			"name": "Guardian Soul",
+			"source": "UARangerAndRogue",
+			"page": 2,
+			"className": "Ranger",
+			"classSource": "PHB",
+			"subclassShortName": "Primeval Guardian (UA)",
+			"subclassSource": "UARangerAndRogue",
+			"level": 3,
+			"header": 1,
+			"entries": [
+				"Starting at 3rd level, you gain the ability to temporarily grow and take on the appearance of a treelike person, covered with leaves and bark. As a bonus action, you assume this guardian form, which lasts until you end it as a bonus action or until you are {@condition incapacitated}.",
+				"You undergo the following changes while in your guardian form:",
+				{
+					"type": "list",
+					"items": [
+						"Your size becomes Large, unless you were larger.",
+						"Any speed you have becomes 5 feet, unless the speed was lower.",
+						"Your reach increases by 5 feet.",
+						"You gain a number of temporary hit points at the start of each of your turns. The number equals half your ranger level. When the form ends, you lose any temporary hit points you have from it."
+					]
+				}
+			]
+		},
+		{
+			"name": "Piercing Thorns",
+			"source": "UARangerAndRogue",
+			"page": 2,
+			"className": "Ranger",
+			"classSource": "PHB",
+			"subclassShortName": "Primeval Guardian (UA)",
+			"subclassSource": "UARangerAndRogue",
+			"level": 3,
+			"header": 1,
+			"entries": [
+				"At 3rd level, your command of primal magic allows you to enhance your attacks with thorns. Once during each of your turns, you can deal an additional {@damage 1d6} piercing damage to one creature you hit with a weapon attack."
+			]
+		},
+		{
+			"name": "Ancient Fortitude",
+			"source": "UARangerAndRogue",
+			"page": 2,
+			"className": "Ranger",
+			"classSource": "PHB",
+			"subclassShortName": "Primeval Guardian (UA)",
+			"subclassSource": "UARangerAndRogue",
+			"level": 7,
+			"header": 2,
+			"entries": [
+				"At 7th level, you gain the endurance of the ancient forests. Your hit point maximum and current hit points increase by 2 per ranger level when you assume your guardian form. This increase lasts until you leave the form; your hit point maximum then returns to normal, but your current hit points remain the same, unless they must decrease to abide by your hit point maximum."
+			]
+		},
+		{
+			"name": "Rooted Defense",
+			"source": "UARangerAndRogue",
+			"page": 2,
+			"className": "Ranger",
+			"classSource": "PHB",
+			"subclassShortName": "Primeval Guardian (UA)",
+			"subclassSource": "UARangerAndRogue",
+			"level": 11,
+			"header": 2,
+			"entries": [
+				"At 11th level, you gain the ability to twist and turn the ground beneath you. While you are in your guardian form, the ground within 30 feet of you is {@quickref difficult terrain||3} for your enemies."
+			]
+		},
+		{
+			"name": "Guardian Aura",
+			"source": "UARangerAndRogue",
+			"page": 2,
+			"className": "Ranger",
+			"classSource": "PHB",
+			"subclassShortName": "Primeval Guardian (UA)",
+			"subclassSource": "UARangerAndRogue",
+			"level": 15,
+			"header": 2,
+			"entries": [
+				"Starting at 15th level, your guardian form emanates a magical aura that fortifies your injured allies. When any ally starts their turn within 30 feet of your guardian form, that ally regains a number of hit points equal to half your ranger level. This aura has no effect on a creature that has half or more of its hit points, and it has no effect on undead and constructs."
+			]
+		},
+		{
+			"name": "Scout",
+			"source": "UARangerAndRogue",
+			"page": 2,
+			"className": "Rogue",
+			"classSource": "PHB",
+			"subclassShortName": "Scout (UA)",
+			"subclassSource": "UARangerAndRogue",
+			"level": 3,
+			"entries": [
+				"You are skilled in woodcraft and stealth, allowing you to range ahead of your companions during expeditions. Rogues who embrace this archetype are at home in the wilderness and among barbarians and fighters, as they serve as the eyes and ears of war bands across the world. Compared to other rogues, you are skilled at surviving in the wilds.",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Survivalist|Rogue||Scout (UA)|UARangerAndRogue|3"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Skirmisher|Rogue||Scout (UA)|UARangerAndRogue|3"
+				}
+			]
+		},
+		{
+			"name": "Skirmisher",
+			"source": "UARangerAndRogue",
+			"page": 2,
+			"className": "Rogue",
+			"classSource": "PHB",
+			"subclassShortName": "Scout (UA)",
+			"subclassSource": "UARangerAndRogue",
+			"level": 3,
+			"header": 1,
+			"entries": [
+				"Starting at 3rd level, you are difficult to pin down during a fight. You can move up to half your speed as a reaction when an enemy ends its turn within 5 feet of you. This movement doesn't provoke opportunity attacks."
+			]
+		},
+		{
+			"name": "Survivalist",
+			"source": "UARangerAndRogue",
+			"page": 2,
+			"className": "Rogue",
+			"classSource": "PHB",
+			"subclassShortName": "Scout (UA)",
+			"subclassSource": "UARangerAndRogue",
+			"level": 3,
+			"header": 1,
+			"entries": [
+				"When you choose this archetype at 3rd level, you gain proficiency in the {@skill Nature} and {@skill Survival} skills. Your proficiency bonus is doubled for any ability check you make that uses either of those proficiencies."
+			]
+		},
+		{
+			"name": "Superior Mobility",
+			"source": "UARangerAndRogue",
+			"page": 2,
+			"className": "Rogue",
+			"classSource": "PHB",
+			"subclassShortName": "Scout (UA)",
+			"subclassSource": "UARangerAndRogue",
+			"level": 9,
+			"header": 2,
+			"entries": [
+				"At 9th level, your walking speed increases by 10 feet. If you have a climbing or swimming speed, this increase applies to that speed as well."
+			]
+		},
+		{
+			"name": "Ambush Master",
+			"source": "UARangerAndRogue",
+			"page": 2,
+			"className": "Rogue",
+			"classSource": "PHB",
+			"subclassShortName": "Scout (UA)",
+			"subclassSource": "UARangerAndRogue",
+			"level": 13,
+			"header": 2,
+			"entries": [
+				"Starting at 13th level, you excel at leading ambushes. If any of your foes are {@quickref Surprise|PHB|3|0|surprised}, you can use a bonus action on your turn in the first round of the combat to grant each ally who can see you a +5 bonus to initiative that lasts until the combat ends. If the initiative bonus would increase an ally's initiative above yours, the ally's initiative instead equals your initiative.",
+				"Each of the allies also receives a 10-foot increase to speed that lasts until the end of the ally's next turn."
+			]
+		},
+		{
+			"name": "Sudden Strike",
+			"source": "UARangerAndRogue",
+			"page": 2,
+			"className": "Rogue",
+			"classSource": "PHB",
+			"subclassShortName": "Scout (UA)",
+			"subclassSource": "UARangerAndRogue",
+			"level": 17,
+			"header": 2,
+			"entries": [
+				"Starting at 17th level, you can strike with deadly speed. If you take the {@action Attack} action on your turn, you can make one additional attack as a bonus action. This attack can benefit from your Sneak Attack even if you have already used it this turn, but only if the attack is the only one you make against the target this turn."
+			]
+		}
+	]
+}

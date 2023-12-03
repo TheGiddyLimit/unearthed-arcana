@@ -1,0 +1,857 @@
+{
+	"_meta": {
+		"sources": [
+			{
+				"json": "UA2020SubclassesPt3",
+				"abbreviation": "UA20S3",
+				"full": "Unearthed Arcana: 2020 Subclasses, Part 3",
+				"authors": [
+					"Wizards of the Coast"
+				],
+				"convertedBy": [
+					"Giddy"
+				],
+				"version": "1.0.0",
+				"url": "https://media.wizards.com/2020/dnd/downloads/UA2020-Subclasses03_0224.pdf",
+				"dateReleased": "2020-02-24"
+			}
+		],
+		"dateAdded": 1701616429,
+		"dateLastModified": 1701616429,
+		"_dateLastModifiedHash": "aaaaaaaaaa"
+	},
+	"subclass": [
+		{
+			"name": "Armorer (UA)",
+			"shortName": "Armorer (UA)",
+			"source": "UA2020SubclassesPt3",
+			"className": "Artificer",
+			"classSource": "TCE",
+			"page": 1,
+			"isReprinted": true,
+			"additionalSpells": [
+				{
+					"prepared": {
+						"3": [
+							"magic missile",
+							"shield"
+						],
+						"5": [
+							"mirror image",
+							"shatter"
+						],
+						"9": [
+							"hypnotic pattern",
+							"lightning bolt"
+						],
+						"13": [
+							"fire shield",
+							"greater invisibility"
+						],
+						"17": [
+							"passwall",
+							"wall of force"
+						]
+					}
+				}
+			],
+			"subclassFeatures": [
+				"Armorer|Artificer|TCE|Armorer (UA)|UA2020SubclassesPt3|3",
+				"Extra Attack|Artificer|TCE|Armorer (UA)|UA2020SubclassesPt3|5",
+				"Armor Modifications|Artificer|TCE|Armorer (UA)|UA2020SubclassesPt3|9",
+				"Perfected Armor|Artificer|TCE|Armorer (UA)|UA2020SubclassesPt3|15"
+			]
+		},
+		{
+			"name": "Circle of the Stars (UA)",
+			"shortName": "Stars (UA)",
+			"source": "UA2020SubclassesPt3",
+			"className": "Druid",
+			"classSource": "PHB",
+			"page": 3,
+			"isReprinted": true,
+			"subclassFeatures": [
+				"Circle of the Stars|Druid||Stars (UA)|UA2020SubclassesPt3|2",
+				"Cosmic Omen|Druid||Stars (UA)|UA2020SubclassesPt3|6",
+				"Full of Stars|Druid||Stars (UA)|UA2020SubclassesPt3|10",
+				"Star Flare|Druid||Stars (UA)|UA2020SubclassesPt3|14"
+			]
+		},
+		{
+			"name": "Fey Wanderer (UA)",
+			"shortName": "Fey Wanderer (UA)",
+			"source": "UA2020SubclassesPt3",
+			"className": "Ranger",
+			"classSource": "PHB",
+			"page": 5,
+			"isReprinted": true,
+			"additionalSpells": [
+				{
+					"known": {
+						"3": [
+							"charm person"
+						],
+						"5": [
+							"misty step"
+						],
+						"9": [
+							"dispel magic"
+						],
+						"13": [
+							"banishment"
+						],
+						"17": [
+							"mislead"
+						]
+					}
+				}
+			],
+			"subclassFeatures": [
+				"Fey Wanderer|Ranger||Fey Wanderer (UA)|UA2020SubclassesPt3|3",
+				"Blessings of the Courts|Ranger||Fey Wanderer (UA)|UA2020SubclassesPt3|7",
+				"Beguiling Twist|Ranger||Fey Wanderer (UA)|UA2020SubclassesPt3|11",
+				"Misty Presence|Ranger||Fey Wanderer (UA)|UA2020SubclassesPt3|15"
+			]
+		}
+	],
+	"subclassFeature": [
+		{
+			"name": "Circle of the Stars",
+			"source": "UA2020SubclassesPt3",
+			"page": 3,
+			"className": "Druid",
+			"classSource": "PHB",
+			"subclassShortName": "Stars (UA)",
+			"subclassSource": "UA2020SubclassesPt3",
+			"level": 2,
+			"entries": [
+				"An ancient lineage, the Circle of Stars allows druids to draw on the power of starlight. These druids have tracked heavenly patterns since time immemorial, discovering secrets hidden amid the constellations. By revealing and understanding these secrets, the Circle of the Stars seeks to harness the powers of the cosmos.",
+				"Many druids of this circle keep detailed records of the stars and their effects on the world. Some groups document these observations at megalithic sites, which serve as enigmatic libraries of lore. These repositories might take the form of stone circles, pyramids, petroglyphs, and underground temples\u2014any construction durable enough to protect the circle's sacred knowledge even against a great cataclysm.",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Star Map|Druid||Stars (UA)|UA2020SubclassesPt3|2"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Starry Form|Druid||Stars (UA)|UA2020SubclassesPt3|2"
+				}
+			]
+		},
+		{
+			"name": "Star Map",
+			"source": "UA2020SubclassesPt3",
+			"page": 3,
+			"className": "Druid",
+			"classSource": "PHB",
+			"subclassShortName": "Stars (UA)",
+			"subclassSource": "UA2020SubclassesPt3",
+			"level": 2,
+			"header": 1,
+			"entries": [
+				"{@i 2nd-level Circle of the Stars feature}",
+				"You've created a star map as part of your study of the heavens. The map is a Tiny object and can serve as a spellcasting focus for your druid spells. You decide what form the object takes, or you can determine what it is by rolling on the Star Map table.",
+				{
+					"type": "table",
+					"caption": "Star Map",
+					"colLabels": [
+						"d6",
+						"Map Form"
+					],
+					"colStyles": [
+						"col-2 text-center",
+						"col-10"
+					],
+					"rows": [
+						[
+							"1",
+							"A scroll of living wood that aligns with heavenly bodies"
+						],
+						[
+							"2",
+							"A stone tablet with fine holes drilled through it"
+						],
+						[
+							"3",
+							"A speckled owlbear hide, tooled with raised marks"
+						],
+						[
+							"4",
+							"A collection of maps bound in an ebony cover"
+						],
+						[
+							"5",
+							"A crystal that projects starry patterns when placed before a light"
+						],
+						[
+							"6",
+							"Tempered glass disks that align to depict constellations"
+						]
+					]
+				},
+				"If you lose your map, you can perform a 1-hour ceremony to magically create a replacement. This ceremony can be performed during a short or long rest, and it destroys the previous map.",
+				"You can cast the {@spell augury} and {@spell guiding bolt} spells without expending a spell slot and without preparing the spell, provided you use the star map as the spellcasting focus. You can cast a spell from the map in this way a number of times equal to your Wisdom modifier (minimum of once), and you regain all expended uses when you finish a long rest."
+			]
+		},
+		{
+			"name": "Starry Form",
+			"source": "UA2020SubclassesPt3",
+			"page": 3,
+			"className": "Druid",
+			"classSource": "PHB",
+			"subclassShortName": "Stars (UA)",
+			"subclassSource": "UA2020SubclassesPt3",
+			"level": 2,
+			"header": 1,
+			"consumes": {
+				"name": "Wild Shape"
+			},
+			"entries": [
+				"{@i 2nd-level Circle of the Stars feature}",
+				"You gain the ability to harness constellations' power to alter your form. As an action, you can expend a use of your Wild Shape feature to take on a starry form rather than transforming into a beast.",
+				"While in your starry form, you retain your game statistics, but your body takes on a luminous, starlike quality; your joints glimmer like stars, and glowing lines connect them as on a star chart. This form sheds bright light in a 10-foot radius and dim light for an additional 10 feet. The form lasts for 10 minutes or until you're {@condition incapacitated}.",
+				"Whenever you assume your starry form, choose which of the following constellations glimmers on your body; your choice gives you certain benefits while in the form:",
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"items": [
+						{
+							"type": "item",
+							"name": "Chalice",
+							"entry": "A constellation of a life-giving goblet appears on you. Whenever you cast a spell using a spell slot that restores hit points to a creature, you or another creature within 30 feet of you can regain hit points equal to {@dice 1d8} + half your level in this class."
+						},
+						{
+							"type": "item",
+							"name": "Archer",
+							"entry": "A constellation of an archer appears on you. You gain a bonus action that you can use to make a ranged spell attack, hurling a luminous arrow that targets a creature you can see within 60 feet of you. On a hit, the attack deals radiant damage equal to {@dice 1d8} + your Wisdom modifier."
+						},
+						{
+							"type": "item",
+							"name": "Dragon",
+							"entry": "A constellation of a wise, ancient dragon appears on you. When you make an Intelligence or a Wisdom check or a Constitution saving throw to maintain {@status concentration} on a spell, you can treat a roll of 9 or lower on the {@dice d20} as a 10."
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Cosmic Omen",
+			"source": "UA2020SubclassesPt3",
+			"page": 3,
+			"className": "Druid",
+			"classSource": "PHB",
+			"subclassShortName": "Stars (UA)",
+			"subclassSource": "UA2020SubclassesPt3",
+			"level": 6,
+			"header": 2,
+			"entries": [
+				"{@i 6th-level Circle of the Stars feature}",
+				"You learn to use your star map to divine the will of the cosmos. Whenever you finish a long rest, you can consult your star map for omens. When you do so, roll a {@dice d6}. You gain one of the following possible omens based on whether you rolled an even number or an odd number on the {@dice d6}:",
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"items": [
+						{
+							"type": "item",
+							"name": "Weal (even)",
+							"entry": "Whenever a creature you can see within 30 feet of you makes an attack roll, a saving throw, or an ability check, you can use your reaction to roll a {@dice d6} and add the number rolled to the total."
+						},
+						{
+							"type": "item",
+							"name": "Woe (odd)",
+							"entry": "Whenever a creature you can see within 30 feet of you makes an attack roll, a saving throw, or an ability check, you can use your reaction to roll a {@dice d6} and subtract the number rolled from the total."
+						}
+					]
+				},
+				"You can use this reaction a number of times equal to your Wisdom modifier, and you regain all expended uses when you finish a long rest."
+			]
+		},
+		{
+			"name": "Full of Stars",
+			"source": "UA2020SubclassesPt3",
+			"page": 3,
+			"className": "Druid",
+			"classSource": "PHB",
+			"subclassShortName": "Stars (UA)",
+			"subclassSource": "UA2020SubclassesPt3",
+			"level": 10,
+			"header": 2,
+			"entries": [
+				"{@i 10th-level Circle of the Stars feature}",
+				"While your Starry Form feature is active, you become partially incorporeal, giving you resistance to bludgeoning, piercing, and slashing damage."
+			]
+		},
+		{
+			"name": "Star Flare",
+			"source": "UA2020SubclassesPt3",
+			"page": 3,
+			"className": "Druid",
+			"classSource": "PHB",
+			"subclassShortName": "Stars (UA)",
+			"subclassSource": "UA2020SubclassesPt3",
+			"level": 14,
+			"header": 2,
+			"entries": [
+				"{@i 14th-level Circle of the Stars feature}",
+				"Your connection to the cosmos allows you to conjure brilliant starlight. As an action, you conjure a burst of light in a 30-foot-radius sphere centered on a point you can see within 120 feet of you. You can immediately teleport each willing creature in the sphere to an unoccupied space within 30 feet of it. Each creature remaining in the sphere must succeed on a Constitution saving throw against your spell save DC or take {@damage 4d10} radiant damage and be {@condition blinded} until the end of your next turn.",
+				"Once you have used this action, you can't use it again until you finish a long rest or until you expend a spell slot of 5th level or higher to use it again."
+			]
+		},
+		{
+			"name": "Fey Wanderer",
+			"source": "UA2020SubclassesPt3",
+			"page": 5,
+			"className": "Ranger",
+			"classSource": "PHB",
+			"subclassShortName": "Fey Wanderer (UA)",
+			"subclassSource": "UA2020SubclassesPt3",
+			"level": 3,
+			"entries": [
+				"As a Fey Wanderer, you guard the border between the Feywild and the Material Plane, guiding the lost out of the Feywild and preventing dangerous fey from damaging the Material Plane. Your experience with both domains makes you an exceptional negotiator between inhabitants of these worlds, as you understand both humanoid mindsets and the wiles of the fey courts.",
+				"Fey Wanderers possess a preternatural blessing from a fey ally or a place of fey power. Choose your blessing from the Feywild Gifts table or determine it randomly.",
+				{
+					"type": "table",
+					"caption": "Feywild Gifts",
+					"colLabels": [
+						"d6",
+						"Gift"
+					],
+					"colStyles": [
+						"col-2 text-center",
+						"col-10"
+					],
+					"rows": [
+						[
+							"1",
+							"Illusory butterflies flutter around you while you take a short or long rest."
+						],
+						[
+							"2",
+							"Fresh, seasonal flowers sprout from your hair each dawn."
+						],
+						[
+							"3",
+							"You faintly smell of cinnamon, lavender, nutmeg, or another comforting herb or spice."
+						],
+						[
+							"4",
+							"Your shadow dances while no one is looking directly at it."
+						],
+						[
+							"5",
+							"Delicate horns or antlers sprout from your head."
+						],
+						[
+							"6",
+							"Your skin and hair change color to match the season at each dawn."
+						]
+					]
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Fey Wanderer Magic|Ranger||Fey Wanderer (UA)|UA2020SubclassesPt3|3"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Cunning Will|Ranger||Fey Wanderer (UA)|UA2020SubclassesPt3|3"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Dreadful Strikes|Ranger||Fey Wanderer (UA)|UA2020SubclassesPt3|3"
+				}
+			]
+		},
+		{
+			"name": "Cunning Will",
+			"source": "UA2020SubclassesPt3",
+			"page": 5,
+			"className": "Ranger",
+			"classSource": "PHB",
+			"subclassShortName": "Fey Wanderer (UA)",
+			"subclassSource": "UA2020SubclassesPt3",
+			"level": 3,
+			"header": 1,
+			"entries": [
+				"{@i 3rd-level Fey Wanderer feature}",
+				"Your experience with the fey has guarded your mind and sharpened your tongue. You have advantage on saving throws against being {@condition charmed} or {@condition frightened}.",
+				"In addition, you gain proficiency in one of the following skills of your choice: {@skill Deception}, {@skill Performance}, or {@skill Persuasion}."
+			]
+		},
+		{
+			"name": "Dreadful Strikes",
+			"source": "UA2020SubclassesPt3",
+			"page": 5,
+			"className": "Ranger",
+			"classSource": "PHB",
+			"subclassShortName": "Fey Wanderer (UA)",
+			"subclassSource": "UA2020SubclassesPt3",
+			"level": 3,
+			"header": 1,
+			"entries": [
+				"{@i 3rd-level Fey Wanderer feature}",
+				"You augment your attacks with mind-scarring magic, drawn from the gloomy hollows of the unseelie fey. You gain a bonus action that you can use to imbue the weapon, or weapons, you're currently holding with magic. Until the end of the turn, the weapons are magical, and they deal an extra {@damage 1d6} psychic damage on a hit. A creature can take this extra damage only once per turn.",
+				"When you engage in two-weapon fighting, you can imbue your weapons as part of the same bonus action you use to make the attack."
+			]
+		},
+		{
+			"name": "Fey Wanderer Magic",
+			"source": "UA2020SubclassesPt3",
+			"page": 5,
+			"className": "Ranger",
+			"classSource": "PHB",
+			"subclassShortName": "Fey Wanderer (UA)",
+			"subclassSource": "UA2020SubclassesPt3",
+			"level": 3,
+			"header": 1,
+			"entries": [
+				"{@i 3rd-level Fey Wanderer feature}",
+				"You learn an additional spell when you reach certain levels in this class, as shown in the Fey Wanderer Spells table. The spell counts as a ranger spell for you, but it doesn't count against the number of ranger spells you know.",
+				{
+					"type": "table",
+					"caption": "Fey Wanderer Spells",
+					"colLabels": [
+						"Ranger Level",
+						"Spells"
+					],
+					"colStyles": [
+						"col-2 text-center",
+						"col-10"
+					],
+					"rows": [
+						[
+							"3rd",
+							"{@spell charm person}"
+						],
+						[
+							"5th",
+							"{@spell misty step}"
+						],
+						[
+							"9th",
+							"{@spell dispel magic}"
+						],
+						[
+							"13th",
+							"{@spell banishment}"
+						],
+						[
+							"17th",
+							"{@spell mislead}"
+						]
+					]
+				}
+			]
+		},
+		{
+			"name": "Blessings of the Courts",
+			"source": "UA2020SubclassesPt3",
+			"page": 5,
+			"className": "Ranger",
+			"classSource": "PHB",
+			"subclassShortName": "Fey Wanderer (UA)",
+			"subclassSource": "UA2020SubclassesPt3",
+			"level": 7,
+			"header": 2,
+			"entries": [
+				"{@i 7th-level Fey Wanderer feature}",
+				"You have learned eerie techniques from both the Gloaming Court and the Summer Court of the Feywild. Once during each of your turns, when you hit a creature with a weapon attack, you can expend a spell slot to deal extra psychic damage. The extra damage is {@damage 3d6} psychic damage and the creature must succeed on a Wisdom saving throw against your spell save DC or be {@condition frightened} of you until the end of your next turn.",
+				"In addition, whenever you make a Charisma check, you gain a bonus to the check equal to your Wisdom modifier."
+			]
+		},
+		{
+			"name": "Beguiling Twist",
+			"source": "UA2020SubclassesPt3",
+			"page": 5,
+			"className": "Ranger",
+			"classSource": "PHB",
+			"subclassShortName": "Fey Wanderer (UA)",
+			"subclassSource": "UA2020SubclassesPt3",
+			"level": 11,
+			"header": 2,
+			"entries": [
+				"{@i 11th-level Fey Wanderer feature}",
+				"You learn how to manipulate mind-altering magic, channeling it from your allies toward others. Whenever a creature you can see within 120 feet of you succeeds on a saving throw against being {@condition charmed} or {@condition frightened}, you can use your reaction to force a different creature you can see within 120 feet of you to succeed on a Wisdom saving throw against your spell save DC or suffer your choice of one of the following effects:",
+				{
+					"type": "list",
+					"items": [
+						"The creature is {@condition charmed} or {@condition frightened} by you (your choice) for 1 minute. The creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a successful save.",
+						"The creature takes {@damage 3d10} psychic damage."
+					]
+				}
+			]
+		},
+		{
+			"name": "Misty Presence",
+			"source": "UA2020SubclassesPt3",
+			"page": 5,
+			"className": "Ranger",
+			"classSource": "PHB",
+			"subclassShortName": "Fey Wanderer (UA)",
+			"subclassSource": "UA2020SubclassesPt3",
+			"level": 15,
+			"header": 2,
+			"entries": [
+				"{@i 15th-level Fey Wanderer feature}",
+				"You can magically remove yourself from one creature's perception: you gain a bonus action that you can use to force a creature you can see within 30 feet of you to make a Wisdom saving throw against your spell save DC. On a failed save, the target can't see or hear you for 24 hours. The target can repeat the saving throw at the end of any turn during which you hit it with an attack roll, forced it to make a saving throw, or dealt damage to it. The effect ends early if you use this bonus action again. On a successful save, the target is immune to this feature for 7 days.",
+				"Once you've used this bonus action, you can't use it again until you finish a long rest or until you expend a spell slot of 4th level or higher to use it again."
+			]
+		},
+		{
+			"name": "Armorer",
+			"source": "UA2020SubclassesPt3",
+			"page": 1,
+			"className": "Artificer",
+			"classSource": "TCE",
+			"subclassShortName": "Armorer (UA)",
+			"subclassSource": "UA2020SubclassesPt3",
+			"level": 3,
+			"entries": [
+				"An artificer who specializes as an Armorer modifies armor to function almost like a second skin. The armor is enhanced to hone the artificer's magic, unleash potent attacks, and generate a formidable defense. The artificer bonds with this armor, becoming one with it even as they experiment with it and refine its magical capabilities.",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Tools of the Trade|Artificer|TCE|Armorer (UA)|UA2020SubclassesPt3|3"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Armorer Spells|Artificer|TCE|Armorer (UA)|UA2020SubclassesPt3|3"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Power Armor|Artificer|TCE|Armorer (UA)|UA2020SubclassesPt3|3"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Armor Model|Artificer|TCE|Armorer (UA)|UA2020SubclassesPt3|3"
+				}
+			]
+		},
+		{
+			"name": "Armor Model",
+			"source": "UA2020SubclassesPt3",
+			"page": 1,
+			"className": "Artificer",
+			"classSource": "TCE",
+			"subclassShortName": "Armorer (UA)",
+			"subclassSource": "UA2020SubclassesPt3",
+			"level": 3,
+			"header": 1,
+			"entries": [
+				"{@i 3rd-level Armorer feature}",
+				"You can customize your power armor. When you do so, choose one of the following armor models: guardian or infiltrator. The model you choose gives you special benefits while you wear it.",
+				"Each model includes a special weapon. When you attack with that weapon, you can use your Intelligence modifier, instead of Strength or Dexterity, for the attack and damage rolls.",
+				"You can change your power armor's model whenever you finish a short or long rest, provided you have {@item smith's tools|PHB} in hand.",
+				{
+					"type": "entries",
+					"name": "Guardian",
+					"entries": [
+						"You design your armor to be in the frontline of conflict. It has the following features:",
+						{
+							"type": "list",
+							"style": "list-hang-notitle",
+							"items": [
+								{
+									"type": "item",
+									"name": "Thunder Gauntlets",
+									"entry": "Your armored fists each count as a simple melee weapon, and each deals {@damage 1d8} thunder damage on a hit. A creature hit by the gauntlet has disadvantage on attack rolls against targets other than you until the start of your next turn, as the armor magically emits a distracting pulse when the creature attacks someone else."
+								},
+								{
+									"type": "item",
+									"name": "Defensive Field",
+									"entry": "You gain a bonus action that you can use on each of your turns to gain temporary hit points equal to your level in this class, replacing any temporary hit points you already have. You lose these temporary hit points if you doff the armor."
+								}
+							]
+						}
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Infiltrator",
+					"entries": [
+						"You customize your armor for subtle undertakings. It has the following features:",
+						{
+							"type": "list",
+							"style": "list-hang-notitle",
+							"items": [
+								{
+									"type": "item",
+									"name": "Lightning Launcher",
+									"entry": "A gemlike node appears on one of your armored fists or on the chest (your choice). It counts as a simple ranged weapon, with a normal range of 90 feet and a long range of 300 feet, and it deals {@damage 1d6} lightning damage on a hit. Once on each of your turns when you hit a creature with it, you can deal an extra {@damage 1d6} lightning damage to that target."
+								},
+								{
+									"type": "item",
+									"name": "Powered Steps",
+									"entry": "Your walking speed increases by 5 feet."
+								},
+								{
+									"type": "item",
+									"name": "Second Skin",
+									"entry": "The armor's weight is negligible, and it becomes formfitting and wearable under clothing. If the armor normally imposes disadvantage on Dexterity ({@skill Stealth}) checks, the power armor doesn't."
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Armorer Spells",
+			"source": "UA2020SubclassesPt3",
+			"page": 1,
+			"className": "Artificer",
+			"classSource": "TCE",
+			"subclassShortName": "Armorer (UA)",
+			"subclassSource": "UA2020SubclassesPt3",
+			"level": 3,
+			"header": 1,
+			"entries": [
+				"{@i 3rd-level Armorer feature}",
+				"You always have certain spells prepared after you reach particular levels in this class, as shown in the Armorer Spells table. These spells count as artificer spells for you, but they don't count against the number of artificer spells you prepare.",
+				{
+					"type": "table",
+					"caption": "Armorer Spells",
+					"colLabels": [
+						"Artificer Level",
+						"Spell"
+					],
+					"colStyles": [
+						"col-2 text-center",
+						"col-10"
+					],
+					"rows": [
+						[
+							"3rd",
+							"{@spell magic missile}, {@spell shield}"
+						],
+						[
+							"5th",
+							"{@spell mirror image}, {@spell shatter}"
+						],
+						[
+							"9th",
+							"{@spell hypnotic pattern}, {@spell lightning bolt}"
+						],
+						[
+							"13th",
+							"{@spell fire shield}, {@spell greater invisibility}"
+						],
+						[
+							"17th",
+							"{@spell passwall}, {@spell wall of force}"
+						]
+					]
+				}
+			]
+		},
+		{
+			"name": "Power Armor",
+			"source": "UA2020SubclassesPt3",
+			"page": 1,
+			"className": "Artificer",
+			"classSource": "TCE",
+			"subclassShortName": "Armorer (UA)",
+			"subclassSource": "UA2020SubclassesPt3",
+			"level": 3,
+			"header": 1,
+			"entries": [
+				"{@i 3rd-level Armorer feature}",
+				"Your metallurgical pursuits have led to you making armor a conduit for your artificer magic. As an action, you can turn a suit of heavy armor you are wearing into power armor, provided you have {@item smith's tools|PHB} in hand.",
+				"You gain the following benefits while wearing the power armor:",
+				{
+					"type": "list",
+					"items": [
+						"If the armor normally has a Strength requirement, the power armor lacks this requirement for you.",
+						"You can use the power armor as a spellcasting focus for your artificer spells.",
+						"The power armor attaches to you and can't be removed against your will. It also expands to cover your entire body, and it replaces any missing limbs, functioning identically to a body part it is replacing."
+					]
+				},
+				"The armor continues to be power armor until you doff it, you don another suit of armor, or you die."
+			]
+		},
+		{
+			"name": "Tools of the Trade",
+			"source": "UA2020SubclassesPt3",
+			"page": 1,
+			"className": "Artificer",
+			"classSource": "TCE",
+			"subclassShortName": "Armorer (UA)",
+			"subclassSource": "UA2020SubclassesPt3",
+			"level": 3,
+			"header": 1,
+			"entries": [
+				"{@i 3rd-level Armorer feature}",
+				"You gain proficiency with heavy armor. You also gain proficiency with {@item smith's tools|PHB}. If you already have this tool proficiency, you gain proficiency with one other type of {@item artisan's tools|PHB} of your choice."
+			]
+		},
+		{
+			"name": "Extra Attack",
+			"source": "UA2020SubclassesPt3",
+			"page": 1,
+			"className": "Artificer",
+			"classSource": "TCE",
+			"subclassShortName": "Armorer (UA)",
+			"subclassSource": "UA2020SubclassesPt3",
+			"level": 5,
+			"header": 2,
+			"entries": [
+				"{@i 5th-level Armorer feature}",
+				"You can attack twice, rather than once, whenever you take the {@action Attack} action on your turn."
+			]
+		},
+		{
+			"name": "Armor Modifications",
+			"source": "UA2020SubclassesPt3",
+			"page": 1,
+			"className": "Artificer",
+			"classSource": "TCE",
+			"subclassShortName": "Armorer (UA)",
+			"subclassSource": "UA2020SubclassesPt3",
+			"level": 9,
+			"header": 2,
+			"entries": [
+				"{@i 9th-level Armorer feature}",
+				"You learn how to use your artificer infusions to specially modify the armor enhanced by your Power Armor feature. That armor now counts as separate items for the purposes of your Infuse Items feature: armor (the chest piece), boots, bracers, and a weapon. Each of those items can bear one of your infusions. In addition, the maximum number of items you can infuse at once increases by 2, but those extra items must be part of your power armor."
+			]
+		},
+		{
+			"name": "Perfected Armor",
+			"source": "UA2020SubclassesPt3",
+			"page": 1,
+			"className": "Artificer",
+			"classSource": "TCE",
+			"subclassShortName": "Armorer (UA)",
+			"subclassSource": "UA2020SubclassesPt3",
+			"level": 15,
+			"header": 2,
+			"entries": [
+				"{@i 15th-level Armorer feature}",
+				"Your power armor gains additional benefits based on its model, as shown below.",
+				{
+					"type": "entries",
+					"name": "Guardian",
+					"entries": [
+						"Tinkering with your armor's energy system leads you to discover a powerful pulling force. When a creature you can see ends its turn within 30 feet of you, you can use your reaction to force the creature to succeed on a Strength saving throw against your spell save DC or be pulled up to 30 feet toward you to an unoccupied space. If you pull the target to space within 5 feet of you, you can make a melee weapon attack against it as part of this reaction.",
+						"You can use this reaction a number of times equal to your Intelligence modifier (minimum of once). You regain all expended uses of it when you finish a long rest."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Infiltrator",
+					"entries": [
+						"Any creature that takes lightning damage from your Lightning Launcher glimmers with light until the start of your next turn. The glimmering creature sheds dim light in a 5 foot radius, and the next attack roll against it by a creature other than you has advantage. If that attack hits, it deals an extra {@damage 1d6} lightning damage."
+					]
+				}
+			]
+		}
+	],
+	"optionalfeature": [
+		{
+			"name": "Armor of Magical Strength",
+			"source": "UA2020SubclassesPt3",
+			"page": 3,
+			"featureType": [
+				"AI"
+			],
+			"prerequisite": [
+				{
+					"level": {
+						"level": 10,
+						"class": {
+							"name": "Artificer"
+						}
+					},
+					"item": [
+						"A suit of armor (requires attunement)"
+					]
+				}
+			],
+			"entries": [
+				"While wearing this armor, a creature can use its Intelligence modifier in place of its Strength modifier when making Strength checks and Strength saving throws.",
+				"The armor has 4 charges. As a reaction when it would be knocked {@condition prone}, the wearer can expend 1 charge to not be knocked {@condition prone}. The armor regains {@dice 1d4} expended charges daily at dawn."
+			]
+		},
+		{
+			"name": "Armor of Tools",
+			"source": "UA2020SubclassesPt3",
+			"page": 3,
+			"featureType": [
+				"AI"
+			],
+			"prerequisite": [
+				{
+					"item": [
+						"A suit of armor"
+					]
+				}
+			],
+			"entries": [
+				"As an action, a creature wearing this infused armor can integrate into it {@filter artisan's tools|items|source=phb|miscellaneous=mundane|type=artisan's tools} or {@item thieves' tools|phb}. The tools remain integrated in the armor for 8 hours or until the wearer removes the tools as an action. The armor can have only one tool integrated at a time.",
+				"The wearer can add its Intelligence modifier to any ability checks it makes with the integrated tool. The wearer must have a hand free to use the tool."
+			]
+		},
+		{
+			"name": "Helm of Awareness",
+			"source": "UA2020SubclassesPt3",
+			"page": 3,
+			"featureType": [
+				"AI"
+			],
+			"prerequisite": [
+				{
+					"level": {
+						"level": 10,
+						"class": {
+							"name": "Artificer"
+						}
+					},
+					"item": [
+						"A helmet (requires attunement)"
+					]
+				}
+			],
+			"entries": [
+				"While wearing this helmet, a creature has advantage on initiative rolls. In addition, the wearer can't be {@quickref Surprise|PHB|3|0|surprised}, provided it isn't {@condition incapacitated}."
+			]
+		},
+		{
+			"name": "Mind Sharpener",
+			"source": "UA2020SubclassesPt3",
+			"page": 3,
+			"featureType": [
+				"AI"
+			],
+			"prerequisite": [
+				{
+					"item": [
+						"A suit of armor or robes"
+					]
+				}
+			],
+			"entries": [
+				"The infused item can send a jolt to the wearer to refocus their mind. While wearing this infused item, whenever the creature fails a Constitution saving throw to maintain {@status concentration} on a spell, it can use its reaction to succeed instead."
+			]
+		},
+		{
+			"name": "Spell-Refueling Ring",
+			"source": "UA2020SubclassesPt3",
+			"page": 3,
+			"featureType": [
+				"AI"
+			],
+			"prerequisite": [
+				{
+					"level": {
+						"level": 6,
+						"class": {
+							"name": "Artificer"
+						}
+					},
+					"item": [
+						"A ring (requires attunement)"
+					]
+				}
+			],
+			"entries": [
+				"While wearing this ring, the creature can recover one expended spell slot as an action. The maximum level of the recovered slot is equal to the number of magic items the wearer is currently attuned to. Once used, the ring can't be used again until the next dawn."
+			]
+		}
+	]
+}

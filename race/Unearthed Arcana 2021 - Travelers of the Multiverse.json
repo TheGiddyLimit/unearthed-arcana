@@ -1,0 +1,600 @@
+{
+	"_meta": {
+		"sources": [
+			{
+				"json": "UA2021TravelersOfTheMultiverse",
+				"abbreviation": "UA21TotM",
+				"full": "Unearthed Arcana: 2021 Travelers of the Multiverse",
+				"authors": [
+					"Wizards of the Coast"
+				],
+				"convertedBy": [
+					"Giddy"
+				],
+				"version": "1.0.0",
+				"url": "https://media.wizards.com/2021/dnd/downloads/UA2021_TravelersoftheMultiverse.pdf",
+				"dateReleased": "2021-10-08"
+			}
+		],
+		"dateAdded": 1701616429,
+		"dateLastModified": 1701616429,
+		"_dateLastModifiedHash": "aaaaaaaaaa"
+	},
+	"race": [
+		{
+			"name": "Astral Elf",
+			"source": "UA2021TravelersOfTheMultiverse",
+			"page": 1,
+			"reprintedAs": [
+				"Astral Elf|AAG"
+			],
+			"lineage": "VRGR",
+			"size": [
+				"M"
+			],
+			"speed": 30,
+			"darkvision": 60,
+			"traitTags": [
+				"Improved Resting"
+			],
+			"skillProficiencies": [
+				{
+					"perception": true
+				}
+			],
+			"additionalSpells": [
+				{
+					"known": {
+						"1": [
+							"dancing lights#c"
+						]
+					},
+					"ability": {
+						"choose": [
+							"int",
+							"wis",
+							"cha"
+						]
+					}
+				},
+				{
+					"known": {
+						"1": [
+							"light#c"
+						]
+					},
+					"ability": {
+						"choose": [
+							"int",
+							"wis",
+							"cha"
+						]
+					}
+				},
+				{
+					"known": {
+						"1": [
+							"sacred flame#c"
+						]
+					},
+					"ability": {
+						"choose": [
+							"int",
+							"wis",
+							"cha"
+						]
+					}
+				}
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Astral Fire",
+					"entries": [
+						"You know one of the following cantrips of your choice: {@spell dancing lights}, {@spell light}, or {@spell sacred flame}. Intelligence, Wisdom, or Charisma is your spellcasting ability for it (choose when you select this race)."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Darkvision",
+					"entries": [
+						"You can see in dim light within 60 feet of you as if it were bright light and in darkness as if it were dim light. You discern colors in that darkness only as shades of gray."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Fey Ancestry",
+					"entries": [
+						"You have advantage on saving throws you make to avoid or end the {@condition charmed} condition on yourself."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Keen Senses",
+					"entries": [
+						"You have proficiency in the {@skill Perception} skill."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Radiant Soul",
+					"entries": [
+						"When you succeed on a death save, you can regain a number of hit points equal to your proficiency bonus + your Intelligence, Wisdom, or Charisma modifier (choose when you select this race). You can't use this trait again until you finish a long rest."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Trance",
+					"entries": [
+						"You don't need to sleep, and magic can't put you to sleep. You can finish a long rest in 4 hours if you spend those hours in a trance-like meditation, during which you remain conscious."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Trance Proficiencies",
+					"entries": [
+						"Whenever you finish a long rest using your Trance trait, you gain two proficiencies, each one with a weapon or a tool of your choice (selected from the \"{@book Equipment|PHB|5}\" chapter of the Player's Handbook). You mystically acquire these proficiencies by drawing them from shared elven memory, and you retain them until you finish your next long rest."
+					]
+				}
+			],
+			"fluff": {
+				"_raceFluff": {
+					"name": "Astral Elf",
+					"source": "UA2021TravelersOfTheMultiverse"
+				}
+			}
+		},
+		{
+			"name": "Autognome",
+			"source": "UA2021TravelersOfTheMultiverse",
+			"page": 2,
+			"reprintedAs": [
+				"Autognome|AAG"
+			],
+			"lineage": "VRGR",
+			"creatureTypes": [
+				"construct"
+			],
+			"size": [
+				"S"
+			],
+			"speed": 30,
+			"traitTags": [
+				"Improved Resting",
+				"Natural Armor"
+			],
+			"toolProficiencies": [
+				{
+					"any": 2
+				}
+			],
+			"resist": [
+				"poison"
+			],
+			"conditionImmune": [
+				"disease"
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Creature Type",
+					"entries": [
+						"You are a Construct."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Armored Casing",
+					"entries": [
+						"You are encased in thin metal or some other durable material. While you aren't wearing armor, your base Armor Class is 13 + your Dexterity modifier."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Built for Success",
+					"entries": [
+						"You can add a {@dice d4} to one attack roll, ability check, or saving throw you make, and you can do so after seeing the {@dice d20} but before the effects of the roll are resolved. You can use this trait a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Mechanical Nature",
+					"entries": [
+						"You have resistance to poison damage and immunity to disease, and you have advantage on saving throws against being {@condition paralyzed} or {@condition poisoned}. You don't need to eat, drink, or breathe."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Sentry's Rest",
+					"entries": [
+						"When you take a long rest, you spend at least 6 hours in an inactive, motionless state, instead of sleeping. In this state, you appear inert, but you aren't {@condition unconscious}."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Specialized Design",
+					"entries": [
+						"You gain two tool proficiencies of your choice."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "True Life",
+					"entries": [
+						"If the {@spell mending} spell is cast on you, you can expend a Hit Die, roll it, and regain a number of hit points equal to the roll plus your Constitution modifier (minimum of 1 hit point).",
+						"In addition, your creator designed you to benefit from common spells that preserve life but that normally don't affect Constructs: {@spell cure wounds}, {@spell healing word}, and {@spell spare the dying}."
+					]
+				}
+			],
+			"fluff": {
+				"_raceFluff": {
+					"name": "Autognome",
+					"source": "UA2021TravelersOfTheMultiverse"
+				}
+			}
+		},
+		{
+			"name": "Giff",
+			"source": "UA2021TravelersOfTheMultiverse",
+			"page": 2,
+			"reprintedAs": [
+				"Giff|AAG"
+			],
+			"lineage": "VRGR",
+			"size": [
+				"M"
+			],
+			"speed": {
+				"walk": 30,
+				"swim": true
+			},
+			"traitTags": [
+				"Powerful Build"
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Damage Dealer",
+					"entries": [
+						"Like a hippopotamus in a crystalware shop, you are naturally adept at damaging things. When you roll a 1 on a damage die for a melee attack, you can reroll the die and use the new roll. You can do so no more than once per turn."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Hippo Build",
+					"entries": [
+						"You have advantage on Strength-based ability checks and Strength saving throws. In addition, you count as one size larger when determining your carrying capacity and the weight you can push, drag, or lift."
+					]
+				}
+			],
+			"fluff": {
+				"_raceFluff": {
+					"name": "Giff",
+					"source": "UA2021TravelersOfTheMultiverse"
+				}
+			}
+		},
+		{
+			"name": "Hadozee",
+			"source": "UA2021TravelersOfTheMultiverse",
+			"page": 3,
+			"reprintedAs": [
+				"Hadozee|AAG"
+			],
+			"lineage": "VRGR",
+			"size": [
+				"S",
+				"M"
+			],
+			"speed": {
+				"walk": 30,
+				"climb": true
+			},
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Size",
+					"entries": [
+						"You are Medium or Small. You choose the size when you gain this lineage."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Dexterous Feet",
+					"entries": [
+						"You can take the {@action Use an Object} action as a bonus action."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Glide",
+					"entries": [
+						"If you are not {@condition incapacitated} or wearing heavy armor, you can extend your skin membranes and glide. When you do so, you can perform the following aerial maneuvers:",
+						{
+							"type": "list",
+							"items": [
+								"When you fall, you can move up to 5 feet horizontally for every 1 foot you descend.",
+								"When you would take damage from a fall, you can use your reaction to reduce the fall's damage to 0."
+							]
+						}
+					]
+				}
+			],
+			"fluff": {
+				"_raceFluff": {
+					"name": "Hadozee",
+					"source": "UA2021TravelersOfTheMultiverse"
+				}
+			}
+		},
+		{
+			"name": "Plasmoid",
+			"source": "UA2021TravelersOfTheMultiverse",
+			"page": 3,
+			"reprintedAs": [
+				"Plasmoid|AAG"
+			],
+			"lineage": "VRGR",
+			"creatureTypes": [
+				"ooze"
+			],
+			"size": [
+				"S",
+				"M"
+			],
+			"speed": 30,
+			"darkvision": 60,
+			"resist": [
+				"acid",
+				"poison"
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Creature Type",
+					"entries": [
+						"You are an Ooze."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Size",
+					"entries": [
+						"You are Medium or Small. You choose the size when you gain this race."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Amorphous",
+					"entries": [
+						"You can squeeze through a space as narrow as 1 inch wide, provided you are wearing and carrying nothing. You also have advantage on ability checks you make to initiate or escape a grapple."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Darkvision",
+					"entries": [
+						"You can see in dim light within 60 feet of you as if it were bright light and in darkness as if it were dim light. You discern colors in that darkness only as shades of gray."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Hold Breath",
+					"entries": [
+						"You can hold your breath for 1 hour."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Natural Resilience",
+					"entries": [
+						"You have resistance to acid and poison damage, and you have advantage on saving throws against being {@condition poisoned}."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Shape Self",
+					"entries": [
+						"If you are not {@condition incapacitated}, you can reshape your body to give yourself a head, one or two arms, one or two legs, and makeshift hands and feet, or you can revert to a limbless blob (no action required).",
+						"As a bonus action, you can extrude a pseudopod that is up to 6 inches wide and 10 feet long or reabsorb it into your body. You can use this pseudopod to manipulate an object, open an unlocked door or container, stow or retrieve an item from an open container, or pour out the contents of a container. The pseudopod can't attack, activate magic items, or carry more than 10 pounds."
+					]
+				}
+			],
+			"fluff": {
+				"_raceFluff": {
+					"name": "Plasmoid",
+					"source": "UA2021TravelersOfTheMultiverse"
+				}
+			}
+		},
+		{
+			"name": "Thri-kreen",
+			"source": "UA2021TravelersOfTheMultiverse",
+			"page": 4,
+			"reprintedAs": [
+				"Thri-kreen|AAG"
+			],
+			"lineage": "VRGR",
+			"creatureTypes": [
+				"monstrosity"
+			],
+			"size": [
+				"S",
+				"M"
+			],
+			"speed": 30,
+			"darkvision": 60,
+			"traitTags": [
+				"Improved Resting",
+				"Natural Armor"
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Creature Type",
+					"entries": [
+						"You are a Monstrosity."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Size",
+					"entries": [
+						"You are Medium or Small. You choose the size when you select this race."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Chameleon Carapace",
+					"entries": [
+						"While you aren't wearing armor, your carapace gives you a base Armor Class of 13 + your Dexterity modifier.",
+						"As an action, you can change the color of your carapace to match the color and texture of your surroundings, giving you advantage on Dexterity ({@skill Stealth}) checks made to hide in those surroundings."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Darkvision",
+					"entries": [
+						"You can see in dim light within 60 feet of you as if it were bright light and in darkness as if it were dim light. You discern colors in that darkness only as shades of gray."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Secondary Arms",
+					"entries": [
+						"You have two slightly smaller secondary arms below your primary pair of arms. The secondary arms function like your primary arms, with the following exceptions:",
+						{
+							"type": "list",
+							"items": [
+								"You can use a secondary arm to wield a weapon that has the light property, but you can't use a secondary arm to wield other kinds of weapons.",
+								"You can't wield a shield with a secondary arm."
+							]
+						}
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Sleepless Revitalization",
+					"entries": [
+						"You do not require sleep and can choose to remain conscious during a long rest, though you must still refrain from strenuous activity to gain the benefit of the rest."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Thri-kreen Telepathy",
+					"entries": [
+						"You have the magical ability to communicate mentally with any number of willing creatures you can see within 120 feet of you. A contacted creature doesn't need to share a language with you, but it must be able to understand at least one language. Your telepathic link to a creature is broken if you and the creature move more than 120 feet apart, if either of you is {@condition incapacitated}, or if either of you mentally breaks the contact (no action required)."
+					]
+				}
+			],
+			"fluff": {
+				"_raceFluff": {
+					"name": "Thri-kreen",
+					"source": "UA2021TravelersOfTheMultiverse"
+				}
+			}
+		}
+	],
+	"raceFluff": [
+		{
+			"name": "Astral Elf",
+			"source": "UA2021TravelersOfTheMultiverse",
+			"entries": [
+				"Long ago, groups of elves ventured from the Feywild to the Astral Plane to be closer to their gods. Life in the Silver Void has imbued their souls with a spark of divine light. That light manifests as a starry gleam in an astral elf's eyes.",
+				"Because nothing ages in the Astral Plane, astral elves from that plane are thousands of years old, and their longevity gives them an unusual perspective on time. Some are prone to melancholy, while others display an absence of feeling. Many look for creative ways to occupy themselves. Whether they choose to live in quiet contemplation or strike out to explore the reaches of the multiverse, they tend to see things through the lens of time as having little or no meaning to them.",
+				"Astral elves who don't dwell on the Astral Plane can live to be over 750 years old."
+			]
+		},
+		{
+			"name": "Autognome",
+			"source": "UA2021TravelersOfTheMultiverse",
+			"entries": [
+				"Autognomes are mechanical beings built by rock gnomes in their image, usually with a particular purpose in mind. For example, a gnome might build an autognome to be a steadfast colleague or a loyal companion. Sometimes, because of a malfunction or a unique circumstance, an autognome becomes separated from its creator and strikes out on its own.",
+				"An autognome bears a resemblance to its creator, and most autognomes are programmed to speak and understand Gnomish. The internal components used in an autognome's manufacture can vary wildly; one autognome might have an actual beating heart in its chest cavity, while another might be powered by stardust or intricate clockwork gears.",
+				"Roll on the Autognome History table or choose an entry to determine what event set your autognome on the path to adventure. If nothing on the table appeals to you, work with your DM to create an origin story for your autognome.",
+				"Like gnomes, autognomes can live for centuries, up to 500 years.",
+				{
+					"type": "table",
+					"caption": "Autognome History",
+					"colLabels": [
+						"d8",
+						"Story"
+					],
+					"colStyles": [
+						"col-2 text-center",
+						"col-10"
+					],
+					"rows": [
+						[
+							"1",
+							"Your creator gave you autonomy and urged you to follow your dreams."
+						],
+						[
+							"2",
+							"Your creator died, leaving you to fend for yourself."
+						],
+						[
+							"3",
+							"A temporary malfunction caused you to harm your creator, and you fled rather than face reprisal."
+						],
+						[
+							"4",
+							"A glitch caused you to forget your original programming. You don't remember who made you or where you came from."
+						],
+						[
+							"5",
+							"You were stolen from your creator and long to return to them."
+						],
+						[
+							"6",
+							"You didn't like how you were being treated by your creator, so you ran away from home."
+						],
+						[
+							"7",
+							"Your creator built you to complete a special mission."
+						],
+						[
+							"8",
+							"You felt trapped in the role for which you were built and abandoned your creator, determined to find a greater purpose."
+						]
+					]
+				}
+			]
+		},
+		{
+			"name": "Giff",
+			"source": "UA2021TravelersOfTheMultiverse",
+			"entries": [
+				"Giff are tall, broad-shouldered folk with hippo-like features. Some have smooth skin, while others have short bristles on their faces and the tops of their heads. As beings of impressive size and unforgettable appearance, giff are noticed wherever they go.",
+				"Storytelling is a rich tradition among giff, and it's not uncommon to see a giff recounting their past exploits to an enraptured crowd. Having a friendly giff nearby when a tavern brawl erupts can also be useful, for a giff can usually more than hold their own when pleasant revelry devolves into fisticuffs.",
+				"The giff are split into two camps concerning how their name is pronounced. Half of them say it with a hard g, half with a soft g. Disagreements over the correct pronunciation often blossom into hard feelings, loud arguments, and headbutting contests, but rarely escalate beyond that."
+			]
+		},
+		{
+			"name": "Hadozee",
+			"source": "UA2021TravelersOfTheMultiverse",
+			"entries": [
+				"Hadozees are people with simian features that long ago adapted to live among the tall trees of their home world. They are natural climbers, with feet as dexterous as their hands, even to the extent of having opposable thumbs. Membranes of skin hang loosely from their arms and legs. When stretched taut, these membranes enable a hadozee to glide.",
+				"The first hadozees were hunted by large natural predators. To survive in this hostile environment, they developed an instinctual sense of community. Today, that same instinct compels many hadozees to cultivate friendships, knowing there is safety in numbers."
+			]
+		},
+		{
+			"name": "Plasmoid",
+			"source": "UA2021TravelersOfTheMultiverse",
+			"entries": [
+				"Plasmoids are amorphous beings with no typical shape. In the presence of other folk, they often adopt a similar form, but there's little chance of mistaking a plasmoid for anything else. They consume food by osmosis, the way an amoeba does, and excrete waste through tiny pores. They breathe by absorbing oxygen through another set of pores, and their limbs are strong and flexible enough to grasp and manipulate weapons and tools. Although most plasmoids are translucent gray, they can alter their color and translucence by absorbing dyes through their pores.",
+				"Plasmoids don't have internal organs of the usual sort. Their bodies are composed of cells, fibers, plasma-like ooze, and clusters of nerves called ganglia. These nerves enable a plasmoid to detect light, heat, texture, sound, pain, and vibrations. Plasmoids can stiffen the outer layers of their bodies to maintain a humanlike shape, so they can wear clothing and accessories. They speak by forcing air out of tubular cavities that constrict to produce sound.",
+				"When plasmoids sleep, they lose their rigidity and spread out and are sometimes mistaken for a rock or some other feature of the environment."
+			]
+		},
+		{
+			"name": "Thri-kreen",
+			"source": "UA2021TravelersOfTheMultiverse",
+			"entries": [
+				"Thri-kreen have insectile features and two pairs of arms. Their bodies are encased in protective chitin. They can alter the coloration of this carapace to blend in with their natural surroundings.",
+				"Although thri-kreen don't sleep, they do require periods of inactivity to revitalize themselves. During these periods, they are fully conscious and aware of what's happening around them.",
+				"Thri-kreen speak by clacking their mandibles and waving their antennae, indicating to other thri-kreen what they are thinking and feeling. Other creatures find this method of communication difficult to interpret and impossible to duplicate. To interact with other folk, thri-kreen rely on a form of telepathy."
+			]
+		}
+	]
+}

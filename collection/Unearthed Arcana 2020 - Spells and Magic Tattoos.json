@@ -1,0 +1,2291 @@
+{
+	"_meta": {
+		"sources": [
+			{
+				"json": "UA2020SpellsAndMagicTattoos",
+				"abbreviation": "UA20SMT",
+				"full": "Unearthed Arcana: 2020 Spells and Magic Tattoos",
+				"authors": [
+					"Wizards of the Coast"
+				],
+				"convertedBy": [
+					"Giddy"
+				],
+				"version": "1.0.0",
+				"url": "https://media.wizards.com/2020/dnd/downloads/UA2020-SpellsTattoos.pdf",
+				"dateReleased": "2020-03-26"
+			}
+		],
+		"dateAdded": 1701616429,
+		"dateLastModified": 1701616429,
+		"_dateLastModifiedHash": "aaaaaaaaaa"
+	},
+	"spell": [
+		{
+			"name": "Acid Stream",
+			"source": "UA2020SpellsAndMagicTattoos",
+			"page": 2,
+			"level": 1,
+			"school": "V",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "line",
+				"distance": {
+					"type": "feet",
+					"amount": 30
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": "a bit of rotten food"
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 1
+					},
+					"concentration": true
+				}
+			],
+			"entries": [
+				"A stream of acid emanates from you in a line 30 feet long and 5 feet wide in a direction you choose. Each creature in the line must succeed on a Dexterity saving throw or be covered in acid for the spell's duration or until a creature uses its action to scrape or wash the acid off itself or another creature. A creature covered in the acid takes {@damage 3d4} acid damage at start of each of its turns."
+			],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "At Higher Levels",
+					"entries": [
+						"When you cast this spell using a spell slot of 2nd level or higher, the damage increases by {@scaledamage 3d4|1-9|1d4} for each slot level above 1st."
+					]
+				}
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Sorcerer",
+						"source": "PHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					}
+				]
+			},
+			"damageInflict": [
+				"acid"
+			],
+			"savingThrow": [
+				"dexterity"
+			],
+			"areaTags": [
+				"L"
+			]
+		},
+		{
+			"name": "Otherworldly Form",
+			"source": "UA2020SpellsAndMagicTattoos",
+			"page": 2,
+			"level": 6,
+			"school": "T",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "self"
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": {
+					"text": "an object engraved with a symbol of the Outer Planes, worth at least 500 gp",
+					"cost": 50000
+				}
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 1
+					},
+					"concentration": true
+				}
+			],
+			"entries": [
+				"Uttering an incantation, you draw on the magic of the Lower Planes or Upper Planes (your choice) to transform yourself. You gain the following benefits until the spell ends:",
+				{
+					"type": "list",
+					"items": [
+						"You are immune to fire and poison damage (Lower Planes) or radiant and necrotic damage (Upper Planes).",
+						"You are immune to the {@condition poisoned} condition (Lower Planes) or the {@condition charmed} condition (Upper Planes).",
+						"Spectral wings appear on your back, giving you a flying speed of 40 feet.",
+						"You have a +2 bonus to AC.",
+						"All your weapon attacks are magical, and when you make a weapon attack, you can use your spellcasting ability modifier, instead of Strength or Dexterity, for the attack and damage rolls.",
+						"You can attack twice, instead of once, when you take the Attack action on your turn. You ignore this benefit if you already have a feature, like Extra Attack, that gives you extra attacks."
+					]
+				}
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Cleric",
+						"source": "PHB"
+					},
+					{
+						"name": "Sorcerer",
+						"source": "PHB"
+					},
+					{
+						"name": "Warlock",
+						"source": "PHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					}
+				]
+			},
+			"damageImmune": [
+				"fire",
+				"poison",
+				"radiant",
+				"necrotic"
+			],
+			"conditionImmune": [
+				"poisoned",
+				"charmed"
+			],
+			"miscTags": [
+				"MAC"
+			],
+			"areaTags": [
+				"ST"
+			]
+		},
+		{
+			"name": "Spirit Shroud",
+			"source": "UA2020SpellsAndMagicTattoos",
+			"page": 2,
+			"level": 3,
+			"school": "N",
+			"time": [
+				{
+					"number": 1,
+					"unit": "bonus"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "self"
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 1
+					},
+					"concentration": true
+				}
+			],
+			"entries": [
+				"You call forth spirits of the dead, which flit around you for the spell's duration. The spirits are intangible and invulnerable, and they are good or evil (your choice).",
+				"Until the spell ends, any attack you make deals {@damage 1d8} extra damage when you hit a creature within 10 feet of you. This damage is radiant if the spirits are good and necrotic if they are evil. Any creature that takes this damage can't regain hit points until the start of your next turn.",
+				"In addition, any creature of your choice that you can see that starts its turn within 10 feet of you has its speed reduced by 10 feet until the start of your next turn."
+			],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "At Higher Levels",
+					"entries": [
+						"When you cast this spell using a spell slot of 4th level or higher, the extra damage increases by {@scaledamage 1d8|3-9|1d8} for each slot level above 3rd."
+					]
+				}
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Cleric",
+						"source": "PHB"
+					},
+					{
+						"name": "Paladin",
+						"source": "PHB"
+					},
+					{
+						"name": "Warlock",
+						"source": "PHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					}
+				]
+			},
+			"damageInflict": [
+				"radiant",
+				"necrotic",
+				"cold"
+			],
+			"miscTags": [
+				"SGT"
+			]
+		},
+		{
+			"name": "Summon Aberrant Spirit",
+			"source": "UA2020SpellsAndMagicTattoos",
+			"page": 3,
+			"level": 4,
+			"school": "C",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 90
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": {
+					"text": "a pickled tentacle and an eyeball in a crystal vial worth at least 400 gp",
+					"cost": 40000
+				}
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "hour",
+						"amount": 1
+					},
+					"concentration": true
+				}
+			],
+			"entries": [
+				"You call forth a spirit from the Far Realm or another alien realm of madness. The spirit manifests physically in an unoccupied space that you can see within range. This corporeal form uses the {@creature Aberrant Spirit|UA2020SpellsAndMagicTattoos} stat block. When you cast the spell, choose Beholderkin, Slaadi, or Star Spawn. The creature physically resembles your choice, which also determines some of the traits in its stat block. The creature disappears when it drops to 0 hit points or when the spell ends.",
+				"The creature is friendly to you and your companions for the spell's duration. In combat, the creature shares your initiative count, but it takes its turn immediately after yours. It obeys verbal commands that you issue to it (no action required by you). If you don't issue any, it defends itself but otherwise takes no action."
+			],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "At Higher Levels",
+					"entries": [
+						"When you cast this spell using a spell slot of 5th level or higher, the creature assumes the higher level for that casting wherever it uses the spell's level in its stat block."
+					]
+				}
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Sorcerer",
+						"source": "PHB"
+					},
+					{
+						"name": "Warlock",
+						"source": "PHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					}
+				]
+			},
+			"miscTags": [
+				"SGT",
+				"SMN"
+			]
+		},
+		{
+			"name": "Summon Bestial Spirit",
+			"source": "UA2020SpellsAndMagicTattoos",
+			"page": 3,
+			"level": 2,
+			"school": "C",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 90
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": {
+					"text": "a feather, tuft of fur, and fish tail inside a gilded acorn worth at least 200 gp",
+					"cost": 20000
+				}
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "hour",
+						"amount": 1
+					},
+					"concentration": true
+				}
+			],
+			"entries": [
+				"You call forth the spirit of a beast. The spirit manifests physically in an unoccupied space that you can see within range. This corporeal form uses the {@creature Bestial Spirit|UA2020SpellsAndMagicTattoos} stat block. When you cast the spell, choose an environment: Air, Land, or Water. The creature physically resembles an animal of your choice that is native to the chosen environment, which also determines one of the movement modes in the creature's stat block. The creature disappears when it drops to 0 hit points or when the spell ends.",
+				"The creature is friendly to you and your companions for the spell's duration. In combat, the creature shares your initiative count, but it takes its turn immediately after yours. It obeys verbal commands that you issue to it (no action required by you). If you don't issue any, it defends itself but otherwise takes no action."
+			],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "At Higher Levels",
+					"entries": [
+						"When you cast this spell using a spell slot of 3rd level or higher, the creature assumes the higher level for that casting wherever it uses the spell's level in its stat block."
+					]
+				}
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Druid",
+						"source": "PHB"
+					},
+					{
+						"name": "Ranger",
+						"source": "PHB"
+					}
+				]
+			},
+			"miscTags": [
+				"SGT",
+				"SMN"
+			]
+		},
+		{
+			"name": "Summon Celestial Spirit",
+			"source": "UA2020SpellsAndMagicTattoos",
+			"page": 4,
+			"level": 5,
+			"school": "C",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 90
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": {
+					"text": "a golden reliquary worth at least 500 gp",
+					"cost": 50000
+				}
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "hour",
+						"amount": 1
+					},
+					"concentration": true
+				}
+			],
+			"entries": [
+				"You call forth a spirit from the Upper Planes. The spirit manifests physically in an angelic form in an unoccupied space that you can see within range. This corporeal form uses the {@creature Celestial Spirit|UA2020SpellsAndMagicTattoos} stat block. When you cast the spell, choose Avenger or Defender. Your choice determines the creature's attack in its stat block. The creature disappears when it drops to 0 hit points or when the spell ends.",
+				"The creature is friendly to you and your companions for the spell's duration. In combat, the creature shares your initiative count, but it takes its turn immediately after yours. It obeys verbal commands that you issue to it (no action required by you). If you don't issue any, it defends itself but otherwise takes no action."
+			],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "At Higher Levels",
+					"entries": [
+						"When you cast this spell using a spell slot of 6th level or higher, the creature assumes the higher level for that casting wherever it uses the spell's level in its stat block."
+					]
+				}
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Cleric",
+						"source": "PHB"
+					},
+					{
+						"name": "Paladin",
+						"source": "PHB"
+					}
+				]
+			},
+			"miscTags": [
+				"SGT",
+				"SMN"
+			]
+		},
+		{
+			"name": "Summon Elemental Spirit",
+			"source": "UA2020SpellsAndMagicTattoos",
+			"page": 4,
+			"level": 4,
+			"school": "C",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 90
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": {
+					"text": "air, a pebble, ash, and water inside a crystal vial worth at least 400 gp",
+					"cost": 40000
+				}
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "hour",
+						"amount": 1
+					},
+					"concentration": true
+				}
+			],
+			"entries": [
+				"You call forth a spirit from the Elemental Planes. The spirit manifests physically in an unoccupied space that you can see within range. This corporeal form uses the {@creature Elemental Spirit|UA2020SpellsAndMagicTattoos} stat block. When you cast the spell, choose an element: Air, Earth, Fire, or Water. The creature physically resembles a vaguely humanoid form wreathed in the chosen element, which also determines some of the traits in its stat block. The creature disappears when it drops to 0 hit points or when the spell ends.",
+				"The creature is friendly to you and your companions for the spell's duration. In combat, the creature shares your initiative count, but it takes its turn immediately after yours. It obeys verbal commands that you issue to it (no action required by you). If you don't issue any, it defends itself but otherwise takes no action."
+			],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "At Higher Levels",
+					"entries": [
+						"When you cast this spell using a spell slot of 5th level or higher, the creature assumes the higher level for that casting wherever it uses the spell's level in its stat block."
+					]
+				}
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Druid",
+						"source": "PHB"
+					},
+					{
+						"name": "Sorcerer",
+						"source": "PHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					}
+				]
+			},
+			"miscTags": [
+				"SGT",
+				"SMN"
+			]
+		},
+		{
+			"name": "Summon Fey Spirit",
+			"source": "UA2020SpellsAndMagicTattoos",
+			"page": 5,
+			"level": 3,
+			"school": "C",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 90
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": {
+					"text": "a gilded flower worth at least 300 gp",
+					"cost": 30000
+				}
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "hour",
+						"amount": 1
+					},
+					"concentration": true
+				}
+			],
+			"entries": [
+				"You call forth a spirit from the Feywild. The spirit manifests physically in an unoccupied space that you can see within range. This corporeal form uses the {@creature Fey Spirit|UA2020SpellsAndMagicTattoos} stat block. When you cast the spell, choose a mood: Deceitful, Furious, or Joyful. The creature physically resembles a satyr, a dryad, or an elf (your choice) marked by the chosen mood, which also determines one of the traits in its stat block. The creature disappears when it drops to 0 hit points or when the spell ends.",
+				"The creature is friendly to you and your companions for the spell's duration. In combat, the creature shares your initiative count, but it takes its turn immediately after yours. It obeys verbal commands that you issue to it (no action required by you). If you don't issue any, it defends itself but otherwise takes no action."
+			],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "At Higher Levels",
+					"entries": [
+						"When you cast this spell using a spell slot of 4th level or higher, the creature assumes the higher level for that casting wherever it uses the spell's level in its stat block."
+					]
+				}
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Bard",
+						"source": "PHB"
+					},
+					{
+						"name": "Druid",
+						"source": "PHB"
+					},
+					{
+						"name": "Sorcerer",
+						"source": "PHB"
+					},
+					{
+						"name": "Warlock",
+						"source": "PHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					}
+				]
+			},
+			"miscTags": [
+				"SGT",
+				"SMN"
+			]
+		},
+		{
+			"name": "Summon Fiendish Spirit",
+			"source": "UA2020SpellsAndMagicTattoos",
+			"page": 6,
+			"level": 6,
+			"school": "C",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 90
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": {
+					"text": "humanoid blood inside a ruby vial worth at least 600 gp",
+					"cost": 60000
+				}
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "hour",
+						"amount": 1
+					},
+					"concentration": true
+				}
+			],
+			"entries": [
+				"You call forth a fiendish spirit from the Lower Planes. The spirit manifests physically in an unoccupied space that you can see within range. This corporeal form uses the {@creature Fiendish Spirit|UA2020SpellsAndMagicTattoos} stat block. When you cast the spell, choose Demon, Devil, or Yugoloth. The creature physically resembles a fiend of the chosen type, which also determines some of the traits in its stat block. The creature disappears when it drops to 0 hit points or when the spell ends.",
+				"The creature is friendly to you and your companions for the spell's duration. In combat, the creature shares your initiative count, but it takes its turn immediately after yours. It obeys verbal commands that you issue to it (no action required by you). If you don't issue any, it defends itself but otherwise takes no action."
+			],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "At Higher Levels",
+					"entries": [
+						"When you cast this spell using a spell slot of 7th level or higher, the creature assumes the higher level for that casting wherever it uses the spell's level in its stat block."
+					]
+				}
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Warlock",
+						"source": "PHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					}
+				]
+			},
+			"miscTags": [
+				"SGT",
+				"SMN"
+			]
+		},
+		{
+			"name": "Summon Shadow Spirit",
+			"source": "UA2020SpellsAndMagicTattoos",
+			"page": 7,
+			"level": 3,
+			"school": "C",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 90
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": {
+					"text": "tears inside a crystal vial worth at least 300 gp",
+					"cost": 30000
+				}
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "hour",
+						"amount": 1
+					},
+					"concentration": true
+				}
+			],
+			"entries": [
+				"You call forth a shadowy spirit from the Shadowfell. The spirit manifests physically in an unoccupied space that you can see within range. This corporeal form uses the {@creature Shadow Spirit|UA2020SpellsAndMagicTattoos} stat block. When you cast the spell, choose an emotion: Fury, Despair, or Fear. The creature physically resembles a misshapen humanoid marked by the chosen emotion, which also determines some of the traits in its stat block. The creature disappears when it drops to 0 hit points or when the spell ends.",
+				"The creature is friendly to you and your companions for the spell's duration. In combat, the creature shares your initiative count, but it takes its turn immediately after yours. It obeys verbal commands that you issue to it (no action required by you). If you don't issue any, it defends itself but otherwise takes no action."
+			],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "At Higher Levels",
+					"entries": [
+						"When you cast this spell using a spell slot of 4th level or higher, the creature assumes the higher level for that casting wherever it uses the spell's level in its stat block."
+					]
+				}
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Sorcerer",
+						"source": "PHB"
+					},
+					{
+						"name": "Warlock",
+						"source": "PHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					}
+				]
+			},
+			"miscTags": [
+				"SGT",
+				"SMN"
+			]
+		},
+		{
+			"name": "Summon Undead Spirit",
+			"source": "UA2020SpellsAndMagicTattoos",
+			"page": 7,
+			"level": 3,
+			"school": "N",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 90
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": {
+					"text": "a gilded humanoid skull worth at least 300 gp",
+					"cost": 30000
+				}
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "hour",
+						"amount": 1
+					},
+					"concentration": true
+				}
+			],
+			"entries": [
+				"You call forth a restless spirit from beyond the grave. The spirit manifests physically in an unoccupied space that you can see within range. This corporeal form uses the {@creature Undead Spirit|UA2020SpellsAndMagicTattoos} stat block. When you cast the spell, choose the creature's form: Ghostly, Putrid, or Skeletal. The creature physically resembles a humanoid with the chosen form, which also determines some of the traits in its stat block. The creature disappears when it drops to 0 hit points or when the spell ends.",
+				"The creature is friendly to you and your companions for the spell's duration. In combat, the creature shares your initiative count, but it takes its turn immediately after yours. It obeys verbal commands that you issue to it (no action required by you). If you don't issue any, it defends itself but otherwise takes no action."
+			],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "At Higher Levels",
+					"entries": [
+						"When you cast this spell using a spell slot of 4th level or higher, the creature assumes the higher level for that casting wherever it uses the spell's level in its stat block."
+					]
+				}
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Warlock",
+						"source": "PHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					}
+				]
+			},
+			"miscTags": [
+				"SGT",
+				"SMN"
+			]
+		}
+	],
+	"item": [
+		{
+			"name": "Absorbing Tattoo",
+			"source": "UA2020SpellsAndMagicTattoos",
+			"page": 8,
+			"rarity": "very rare",
+			"reqAttune": true,
+			"wondrous": true,
+			"tattoo": true,
+			"entries": [
+				"This tattoo incorporates designs that emphasize one color more than others. While the tattoo is on your skin, you have resistance to a type of damage associated with that color, as shown on the table below. The DM chooses the color or determines it randomly.",
+				{
+					"type": "table",
+					"caption": "",
+					"colLabels": [
+						"d10",
+						" Damage Type",
+						"Color"
+					],
+					"colStyles": [
+						"col-2 text-center",
+						"col-5",
+						"col-5"
+					],
+					"rows": [
+						[
+							"1",
+							"Acid",
+							"Green"
+						],
+						[
+							"2",
+							"Cold",
+							"Blue"
+						],
+						[
+							"3",
+							"Fire",
+							"Red"
+						],
+						[
+							"4",
+							"Force",
+							"White"
+						],
+						[
+							"5",
+							"Lightning",
+							"Yellow"
+						],
+						[
+							"6",
+							"Necrotic",
+							"Black"
+						],
+						[
+							"7",
+							"Poison",
+							"Violet"
+						],
+						[
+							"8",
+							"Psychic",
+							"Silver"
+						],
+						[
+							"9",
+							"Radiant",
+							"Gold"
+						],
+						[
+							"10",
+							"Thunder",
+							"Orange"
+						]
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Damage Absorption",
+					"entries": [
+						"When you take damage of the chosen type, you can use your reaction to gain immunity against that instance of the damage, and you regain a number of hit points equal to half the damage you would have taken. Once this reaction is used, it can't be used again until the next dawn."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Tattoo Attunement",
+					"entries": [
+						"To attune to this item, you hold the needle to your skin where you want the tattoo to appear, pressing the needle there throughout the attunement process. When the attunement is complete, the needle turns into the ink that becomes the tattoo, which appears on the skin. If you have multiple magic tattoos, they count as a single magic item with regard to the number of magic items you can attune to.",
+						"If your attunement to the tattoo ends, the tattoo vanishes, and the needle reappears in the closest unoccupied space to you."
+					]
+				}
+			]
+		},
+		{
+			"name": "Barrier Tattoo (Rare)",
+			"source": "UA2020SpellsAndMagicTattoos",
+			"page": 9,
+			"rarity": "rare",
+			"reqAttune": true,
+			"wondrous": true,
+			"tattoo": true,
+			"entries": [
+				"This tattoo depicts protective imagery and uses ink that resembles liquid metal. While you aren't wearing armor, the tattoo grants you an Armor Class of 15 + your Dexterity modifier (maximum of +2). You can use a shield and still gain this benefit.",
+				{
+					"type": "entries",
+					"name": "Tattoo Attunement",
+					"entries": [
+						"To attune to this item, you hold the needle to your skin where you want the tattoo to appear, pressing the needle there throughout the attunement process. When the attunement is complete, the needle turns into the ink that becomes the tattoo, which appears on the skin. If you have multiple magic tattoos, they count as a single magic item with regard to the number of magic items you can attune to.",
+						"If your attunement to the tattoo ends, the tattoo vanishes, and the needle reappears in the closest unoccupied space to you."
+					]
+				}
+			]
+		},
+		{
+			"name": "Barrier Tattoo (Uncommon)",
+			"source": "UA2020SpellsAndMagicTattoos",
+			"page": 9,
+			"rarity": "uncommon",
+			"reqAttune": true,
+			"wondrous": true,
+			"tattoo": true,
+			"entries": [
+				"This tattoo depicts protective imagery and uses ink that resembles liquid metal. While you aren't wearing armor, the tattoo grants you an Armor Class of 12 + your Dexterity modifier. You can use a shield and still gain this benefit.",
+				{
+					"type": "entries",
+					"name": "Tattoo Attunement",
+					"entries": [
+						"To attune to this item, you hold the needle to your skin where you want the tattoo to appear, pressing the needle there throughout the attunement process. When the attunement is complete, the needle turns into the ink that becomes the tattoo, which appears on the skin. If you have multiple magic tattoos, they count as a single magic item with regard to the number of magic items you can attune to.",
+						"If your attunement to the tattoo ends, the tattoo vanishes, and the needle reappears in the closest unoccupied space to you."
+					]
+				}
+			]
+		},
+		{
+			"name": "Barrier Tattoo (Very Rare)",
+			"source": "UA2020SpellsAndMagicTattoos",
+			"page": 9,
+			"rarity": "very rare",
+			"reqAttune": true,
+			"wondrous": true,
+			"tattoo": true,
+			"entries": [
+				"This tattoo depicts protective imagery and uses ink that resembles liquid metal. While you aren't wearing armor, the tattoo grants you an Armor Class of 18. You can use a shield and still gain this benefit.",
+				{
+					"type": "entries",
+					"name": "Tattoo Attunement",
+					"entries": [
+						"To attune to this item, you hold the needle to your skin where you want the tattoo to appear, pressing the needle there throughout the attunement process. When the attunement is complete, the needle turns into the ink that becomes the tattoo, which appears on the skin. If you have multiple magic tattoos, they count as a single magic item with regard to the number of magic items you can attune to.",
+						"If your attunement to the tattoo ends, the tattoo vanishes, and the needle reappears in the closest unoccupied space to you."
+					]
+				}
+			]
+		},
+		{
+			"name": "Blood Fury Tattoo",
+			"source": "UA2020SpellsAndMagicTattoos",
+			"page": 10,
+			"rarity": "legendary",
+			"reqAttune": true,
+			"wondrous": true,
+			"tattoo": true,
+			"bonusWeaponCritDamage": "4d6",
+			"critThreshold": 19,
+			"entries": [
+				"This tattoo evokes fury in its form and colors. While this tattoo is on your skin, you gain the following benefits:",
+				{
+					"type": "list",
+					"items": [
+						"Your attack rolls score a critical hit on a {@dice d20} roll of 19 or 20.",
+						"When you score a critical hit against a creature, that target takes an extra {@damage 4d6} necrotic damage, and you gain a number of temporary hit points equal to the necrotic damage dealt.",
+						"When a creature you can see damages you, you can use your reaction to make a melee attack against that creature, with advantage on your attack roll."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Tattoo Attunement",
+					"entries": [
+						"To attune to this item, you hold the needle to your skin where you want the tattoo to appear, pressing the needle there throughout the attunement process. When the attunement is complete, the needle turns into the ink that becomes the tattoo, which appears on the skin. If you have multiple magic tattoos, they count as a single magic item with regard to the number of magic items you can attune to.",
+						"If your attunement to the tattoo ends, the tattoo vanishes, and the needle reappears in the closest unoccupied space to you."
+					]
+				}
+			]
+		},
+		{
+			"name": "Coiling Grasp Tattoo",
+			"source": "UA2020SpellsAndMagicTattoos",
+			"page": 9,
+			"rarity": "uncommon",
+			"reqAttune": true,
+			"wondrous": true,
+			"tattoo": true,
+			"entries": [
+				"This tattoo has long intertwining designs. While the tattoo is on your skin, you can, as an action, cause the tattoo to extrude into inky tendrils, which reach for a creature you can see within 15 feet of you. The creature must succeed on a DC 14 Strength saving throw or take {@damage 3d6} force damage and be {@condition grappled} by you. As an action, the creature can escape the grapple by succeeding on a DC 14 Strength ({@skill Athletics}) or Dexterity ({@skill Acrobatics}) check. The grapple also ends if you halt it (no action required), if the creature is ever more than 15 feet away from you, or if you use this tattoo on a different creature.",
+				{
+					"type": "entries",
+					"name": "Tattoo Attunement",
+					"entries": [
+						"To attune to this item, you hold the needle to your skin where you want the tattoo to appear, pressing the needle there throughout the attunement process. When the attunement is complete, the needle turns into the ink that becomes the tattoo, which appears on the skin. If you have multiple magic tattoos, they count as a single magic item with regard to the number of magic items you can attune to.",
+						"If your attunement to the tattoo ends, the tattoo vanishes, and the needle reappears in the closest unoccupied space to you."
+					]
+				}
+			]
+		},
+		{
+			"name": "Eldritch Claw Tattoo",
+			"source": "UA2020SpellsAndMagicTattoos",
+			"page": 9,
+			"rarity": "uncommon",
+			"reqAttune": true,
+			"wondrous": true,
+			"tattoo": true,
+			"bonusWeapon": "+1",
+			"entries": [
+				"This tattoo depicts clawlike forms and other jagged shapes. While the tattoo is on your skin, your unarmed strikes are considered magical for the purpose of overcoming immunity and resistance to nonmagical attacks, and you gain a +1 bonus to attack and damage rolls with unarmed strikes.",
+				{
+					"type": "entries",
+					"name": "Eldritch Maul",
+					"entries": [
+						"As a bonus action, you can empower the tattoo for 1 minute. For the duration, each of your melee weapon attacks can reach a target up to 30 feet away from you, as tendrils of ink launch from your weapon or unarmed strike toward the target. In addition, your melee weapon attacks deal an extra {@damage 1d6} force damage on a hit. Once used, this bonus action can't be used again until the next dawn."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Tattoo Attunement",
+					"entries": [
+						"To attune to this item, you hold the needle to your skin where you want the tattoo to appear, pressing the needle there throughout the attunement process. When the attunement is complete, the needle turns into the ink that becomes the tattoo, which appears on the skin. If you have multiple magic tattoos, they count as a single magic item with regard to the number of magic items you can attune to.",
+						"If your attunement to the tattoo ends, the tattoo vanishes, and the needle reappears in the closest unoccupied space to you."
+					]
+				}
+			]
+		},
+		{
+			"name": "Ghost Step Tattoo",
+			"source": "UA2020SpellsAndMagicTattoos",
+			"page": 11,
+			"rarity": "rare",
+			"reqAttune": true,
+			"wondrous": true,
+			"tattoo": true,
+			"recharge": "dawn",
+			"rechargeAmount": 3,
+			"charges": 3,
+			"entries": [
+				"This tattoo shifts and wavers on the skin, parts of it appearing blurred. The tattoo has 3 charges, and it regains all expended charges daily at dawn.",
+				"As a bonus action while the tattoo is on your skin, you can expend 1 of the tattoo's charges to become incorporeal until the end of your next turn. For the duration, you gain the following benefits:",
+				{
+					"type": "list",
+					"items": [
+						"You have resistance to bludgeoning, piercing, and slashing damage from nonmagical attacks.",
+						"You can't be {@condition grappled} or {@condition restrained}.",
+						"You can move through creatures and solid objects as if they were {@quickref difficult terrain||3}. If you end your turn in a solid object, you take {@damage 1d10} force damage. If the effect ends while you are inside a solid object, you instead are shunted to the nearest unoccupied space, and you take {@damage 1d10} force damage for every 5 feet traveled."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Tattoo Attunement",
+					"entries": [
+						"To attune to this item, you hold the needle to your skin where you want the tattoo to appear, pressing the needle there throughout the attunement process. When the attunement is complete, the needle turns into the ink that becomes the tattoo, which appears on the skin. If you have multiple magic tattoos, they count as a single magic item with regard to the number of magic items you can attune to.",
+						"If your attunement to the tattoo ends, the tattoo vanishes, and the needle reappears in the closest unoccupied space to you."
+					]
+				}
+			]
+		},
+		{
+			"name": "Illuminator's Tattoo",
+			"source": "UA2020SpellsAndMagicTattoos",
+			"page": 10,
+			"rarity": "common",
+			"reqAttune": true,
+			"wondrous": true,
+			"tattoo": true,
+			"entries": [
+				"This tattoo contains beautiful calligraphy, images of writing implements, and the like. While this tattoo is on your skin, you can write with your fingertip as if it were an ink pen that never runs out of ink.",
+				"As an action, you can touch a piece of writing up to one page in length and speak a creature's name. The writing becomes {@condition invisible} to everyone other than you and the named creature for the next 24 hours. Either of you can dismiss the invisibility by touching the script (no action required). Once used, this action can't be used again until the next dawn.",
+				{
+					"type": "entries",
+					"name": "Tattoo Attunement",
+					"entries": [
+						"To attune to this item, you hold the needle to your skin where you want the tattoo to appear, pressing the needle there throughout the attunement process. When the attunement is complete, the needle turns into the ink that becomes the tattoo, which appears on the skin. If you have multiple magic tattoos, they count as a single magic item with regard to the number of magic items you can attune to.",
+						"If your attunement to the tattoo ends, the tattoo vanishes, and the needle reappears in the closest unoccupied space to you."
+					]
+				}
+			]
+		},
+		{
+			"name": "Lifewell Tattoo",
+			"source": "UA2020SpellsAndMagicTattoos",
+			"page": 10,
+			"resist": [
+				"necrotic"
+			],
+			"rarity": "rare",
+			"reqAttune": true,
+			"wondrous": true,
+			"tattoo": true,
+			"entries": [
+				"This tattoo comprises symbols of life and rebirth. While this tattoo is on your skin, you have resistance to necrotic damage.",
+				{
+					"type": "entries",
+					"name": "Death Ward",
+					"entries": [
+						"When you would be reduced to 0 hit points, you drop to 1 hit point instead. Once used, this benefit can't be used again until the next dawn."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Tattoo Attunement",
+					"entries": [
+						"To attune to this item, you hold the needle to your skin where you want the tattoo to appear, pressing the needle there throughout the attunement process. When the attunement is complete, the needle turns into the ink that becomes the tattoo, which appears on the skin. If you have multiple magic tattoos, they count as a single magic item with regard to the number of magic items you can attune to.",
+						"If your attunement to the tattoo ends, the tattoo vanishes, and the needle reappears in the closest unoccupied space to you."
+					]
+				}
+			]
+		},
+		{
+			"name": "Masquerade Tattoo",
+			"source": "UA2020SpellsAndMagicTattoos",
+			"page": 11,
+			"rarity": "common",
+			"reqAttune": true,
+			"wondrous": true,
+			"tattoo": true,
+			"entries": [
+				"This tattoo appears on your skin as whatever you desire. As a bonus action, you can shape the tattoo into any color or pattern and move it to any area of your skin. Whatever form it takes, it is always obviously a tattoo. It can range in size from no smaller than a copper piece to an intricate work of art that covers all your skin.",
+				{
+					"type": "entries",
+					"name": "Disguise Self",
+					"entries": [
+						"As an action, you can use the tattoo to cast the {@spell disguise self} spell. Once the spell is cast from the tattoo, it can't be cast from the tattoo again until the next dawn."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Tattoo Attunement",
+					"entries": [
+						"To attune to this item, you hold the needle to your skin where you want the tattoo to appear, pressing the needle there throughout the attunement process. When the attunement is complete, the needle turns into the ink that becomes the tattoo, which appears on the skin. If you have multiple magic tattoos, they count as a single magic item with regard to the number of magic items you can attune to.",
+						"If your attunement to the tattoo ends, the tattoo vanishes, and the needle reappears in the closest unoccupied space to you."
+					]
+				}
+			],
+			"attachedSpells": [
+				"disguise self"
+			]
+		},
+		{
+			"name": "Shadowfell Brand Tattoo",
+			"source": "UA2020SpellsAndMagicTattoos",
+			"page": 12,
+			"rarity": "very rare",
+			"reqAttune": true,
+			"wondrous": true,
+			"tattoo": true,
+			"entries": [
+				"This tattoo is dark in color and abstract. While it's on your skin, you have advantage on Dexterity ({@skill Stealth}) checks.",
+				{
+					"type": "entries",
+					"name": "Shadowy Defense",
+					"entries": [
+						"When you take damage, you can use your reaction to become shadowy and insubstantial for a moment, reducing the damage you take by half. Once used, this reaction can't be used again until the next dawn."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Tattoo Attunement",
+					"entries": [
+						"To attune to this item, you hold the needle to your skin where you want the tattoo to appear, pressing the needle there throughout the attunement process. When the attunement is complete, the needle turns into the ink that becomes the tattoo, which appears on the skin. If you have multiple magic tattoos, they count as a single magic item with regard to the number of magic items you can attune to.",
+						"If your attunement to the tattoo ends, the tattoo vanishes, and the needle reappears in the closest unoccupied space to you."
+					]
+				}
+			]
+		},
+		{
+			"name": "Spellwrought Tattoo (1st Level)",
+			"source": "UA2020SpellsAndMagicTattoos",
+			"page": 11,
+			"rarity": "common",
+			"wondrous": true,
+			"tattoo": true,
+			"entries": [
+				"This tattoo contains a single spell, wrought on your skin by a magic needle. To use the tattoo, you must hold the needle against your skin where you want the tattoo to appear and speak the command word. The needle turns into the ink that becomes the tattoo, which appears on your skin. Once the tattoo is on your skin, you can cast its spell, requiring no material components. The tattoo glows faintly while you cast the spell and for the spell's duration. Once the spell ends, the tattoo vanishes from your skin.",
+				"A spell cast from this tattoo has a spellcasting ability modifier of +3, a save DC of 13 and an attack bonus of +5."
+			]
+		},
+		{
+			"name": "Spellwrought Tattoo (2nd Level)",
+			"source": "UA2020SpellsAndMagicTattoos",
+			"page": 11,
+			"rarity": "uncommon",
+			"wondrous": true,
+			"tattoo": true,
+			"entries": [
+				"This tattoo contains a single spell, wrought on your skin by a magic needle. To use the tattoo, you must hold the needle against your skin where you want the tattoo to appear and speak the command word. The needle turns into the ink that becomes the tattoo, which appears on your skin. Once the tattoo is on your skin, you can cast its spell, requiring no material components. The tattoo glows faintly while you cast the spell and for the spell's duration. Once the spell ends, the tattoo vanishes from your skin.",
+				"A spell cast from this tattoo has a spellcasting ability modifier of +3, a save DC of 13 and an attack bonus of +5."
+			]
+		},
+		{
+			"name": "Spellwrought Tattoo (3rd Level)",
+			"source": "UA2020SpellsAndMagicTattoos",
+			"page": 11,
+			"rarity": "uncommon",
+			"wondrous": true,
+			"tattoo": true,
+			"entries": [
+				"This tattoo contains a single spell, wrought on your skin by a magic needle. To use the tattoo, you must hold the needle against your skin where you want the tattoo to appear and speak the command word. The needle turns into the ink that becomes the tattoo, which appears on your skin. Once the tattoo is on your skin, you can cast its spell, requiring no material components. The tattoo glows faintly while you cast the spell and for the spell's duration. Once the spell ends, the tattoo vanishes from your skin.",
+				"A spell cast from this tattoo has a spellcasting ability modifier of +4, a save DC of 15 and an attack bonus of +7."
+			]
+		},
+		{
+			"name": "Spellwrought Tattoo (4th Level)",
+			"source": "UA2020SpellsAndMagicTattoos",
+			"page": 11,
+			"rarity": "rare",
+			"wondrous": true,
+			"tattoo": true,
+			"entries": [
+				"This tattoo contains a single spell, wrought on your skin by a magic needle. To use the tattoo, you must hold the needle against your skin where you want the tattoo to appear and speak the command word. The needle turns into the ink that becomes the tattoo, which appears on your skin. Once the tattoo is on your skin, you can cast its spell, requiring no material components. The tattoo glows faintly while you cast the spell and for the spell's duration. Once the spell ends, the tattoo vanishes from your skin.",
+				"A spell cast from this tattoo has a spellcasting ability modifier of +4, a save DC of 15 and an attack bonus of +7."
+			]
+		},
+		{
+			"name": "Spellwrought Tattoo (5th Level)",
+			"source": "UA2020SpellsAndMagicTattoos",
+			"page": 11,
+			"rarity": "rare",
+			"wondrous": true,
+			"tattoo": true,
+			"entries": [
+				"This tattoo contains a single spell, wrought on your skin by a magic needle. To use the tattoo, you must hold the needle against your skin where you want the tattoo to appear and speak the command word. The needle turns into the ink that becomes the tattoo, which appears on your skin. Once the tattoo is on your skin, you can cast its spell, requiring no material components. The tattoo glows faintly while you cast the spell and for the spell's duration. Once the spell ends, the tattoo vanishes from your skin.",
+				"A spell cast from this tattoo has a spellcasting ability modifier of +5, a save DC of 17 and an attack bonus of +9."
+			]
+		},
+		{
+			"name": "Spellwrought Tattoo (Cantrip)",
+			"source": "UA2020SpellsAndMagicTattoos",
+			"page": 11,
+			"rarity": "common",
+			"wondrous": true,
+			"tattoo": true,
+			"entries": [
+				"This tattoo contains a single spell, wrought on your skin by a magic needle. To use the tattoo, you must hold the needle against your skin where you want the tattoo to appear and speak the command word. The needle turns into the ink that becomes the tattoo, which appears on your skin. Once the tattoo is on your skin, you can cast its spell, requiring no material components. The tattoo glows faintly while you cast the spell and for the spell's duration. Once the spell ends, the tattoo vanishes from your skin.",
+				"A spell cast from this tattoo has a spellcasting ability modifier of +3, a save DC of 13, and an attack bonus of +5."
+			]
+		}
+	],
+	"itemGroup": [
+		{
+			"name": "Barrier Tattoo",
+			"source": "UA2020SpellsAndMagicTattoos",
+			"page": 9,
+			"rarity": "varies",
+			"reqAttune": true,
+			"wondrous": true,
+			"tattoo": true,
+			"items": [
+				"Barrier Tattoo (Uncommon)|UA2020SpellsAndMagicTattoos",
+				"Barrier Tattoo (Rare)|UA2020SpellsAndMagicTattoos",
+				"Barrier Tattoo (Very Rare)|UA2020SpellsAndMagicTattoos"
+			]
+		},
+		{
+			"name": "Spellwrought Tattoo",
+			"source": "UA2020SpellsAndMagicTattoos",
+			"page": 11,
+			"rarity": "varies",
+			"wondrous": true,
+			"tattoo": true,
+			"items": [
+				"Spellwrought Tattoo (Cantrip)|UA2020SpellsAndMagicTattoos",
+				"Spellwrought Tattoo (1st Level)|UA2020SpellsAndMagicTattoos",
+				"Spellwrought Tattoo (2nd Level)|UA2020SpellsAndMagicTattoos",
+				"Spellwrought Tattoo (3rd Level)|UA2020SpellsAndMagicTattoos",
+				"Spellwrought Tattoo (4th Level)|UA2020SpellsAndMagicTattoos",
+				"Spellwrought Tattoo (5th Level)|UA2020SpellsAndMagicTattoos"
+			]
+		}
+	],
+	"monster": [
+		{
+			"name": "Aberrant Spirit",
+			"source": "UA2020SpellsAndMagicTattoos",
+			"page": 3,
+			"summonedBySpell": "Summon Aberrant Spirit|UA2020SpellsAndMagicTattoos",
+			"summonedBySpellLevel": 4,
+			"size": [
+				"M"
+			],
+			"type": "aberration",
+			"alignment": [
+				"N",
+				"E"
+			],
+			"ac": [
+				{
+					"special": "11 + the level of the spell (natural armor)"
+				}
+			],
+			"hp": {
+				"special": "equal the aberration's Constitution modifier + your spellcasting ability modifier + ten times the spell's level"
+			},
+			"speed": {
+				"walk": 30,
+				"fly": {
+					"number": 30,
+					"condition": "(beholderkin only; hover)"
+				},
+				"canHover": true
+			},
+			"str": 16,
+			"dex": 10,
+			"con": 15,
+			"int": 16,
+			"wis": 10,
+			"cha": 6,
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"passive": 10,
+			"immune": [
+				"psychic"
+			],
+			"languages": [
+				"Deep Speech",
+				"understands the languages you speak"
+			],
+			"trait": [
+				{
+					"name": "Regeneration (Slaadi Only)",
+					"entries": [
+						"The aberration regains 10 hit points at the start of its turn if it has at least 1 hit point."
+					]
+				},
+				{
+					"name": "Whispering Aura (Star Spawn Only)",
+					"entries": [
+						"At the start of each of the aberration's turns, each creature within 5 feet of it must succeed on a Wisdom saving throw against your spell save DC or take {@damage 3d6} psychic damage, provided that the aberration isn't {@condition incapacitated}."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The aberration makes a number of attacks equal to half this spell's level (rounded down)."
+					]
+				},
+				{
+					"name": "Eye Ray (Beholderkin Only)",
+					"entries": [
+						"{@atk rs} {@hit 3 + summonSpellLevel} to hit, range 30 ft., one creature. {@h}{@damage 1d8 + 3 + summonSpellLevel} psychic damage."
+					]
+				},
+				{
+					"name": "Claws (Slaadi Only)",
+					"entries": [
+						"{@atk mw} {@hit 3 + summonSpellLevel} to hit, reach 5 ft., one target. {@h}{@damage 1d10 + 3 + summonSpellLevel} slashing damage. If the target is a creature, it can't regain hit points until the start of the aberration's next turn."
+					]
+				},
+				{
+					"name": "Psychic Slam (Star Spawn Only)",
+					"entries": [
+						"{@atk ms} {@hit 3 + summonSpellLevel} to hit, reach 5 ft., one creature. {@h}{@damage 1d6 + 3 + summonSpellLevel} psychic damage."
+					]
+				}
+			],
+			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/unearthed-arcana/master/_img/tokens/UA2020SpellsAndMagicTattoos/Aberrant Spirit.png",
+			"traitTags": [
+				"Regeneration"
+			],
+			"senseTags": [
+				"D"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"languageTags": [
+				"DS"
+			],
+			"damageTags": [
+				"S",
+				"Y"
+			],
+			"miscTags": [
+				"MW"
+			]
+		},
+		{
+			"name": "Bestial Spirit",
+			"source": "UA2020SpellsAndMagicTattoos",
+			"page": 4,
+			"summonedBySpell": "Summon Bestial Spirit|UA2020SpellsAndMagicTattoos",
+			"summonedBySpellLevel": 2,
+			"size": [
+				"S"
+			],
+			"type": "beast",
+			"alignment": [
+				"U"
+			],
+			"ac": [
+				{
+					"special": "11 + the level of the spell (natural armor)"
+				}
+			],
+			"hp": {
+				"special": "equal the beast's Constitution modifier + your spellcasting ability modifier + ten times the spell's level"
+			},
+			"speed": {
+				"walk": 30,
+				"climb": {
+					"number": 30,
+					"condition": "(land only)"
+				},
+				"fly": {
+					"number": 60,
+					"condition": "(air only)"
+				},
+				"swim": {
+					"number": 30,
+					"condition": "(water only)"
+				}
+			},
+			"str": 18,
+			"dex": 11,
+			"con": 16,
+			"int": 4,
+			"wis": 14,
+			"cha": 5,
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"passive": 12,
+			"languages": [
+				"understands the languages you speak"
+			],
+			"trait": [
+				{
+					"name": "Amphibious (Water Only)",
+					"entries": [
+						"The beast can breathe air and water."
+					]
+				},
+				{
+					"name": "Flyby (Air Only)",
+					"entries": [
+						"The beast doesn't provoke opportunity attacks when it flies out of an enemy's reach."
+					]
+				},
+				{
+					"name": "Pack Tactics (Land and Water Only)",
+					"entries": [
+						"The beast has advantage on an attack roll against a creature if at least one of the beast's allies is within 5 feet of the creature and the ally isn't {@condition incapacitated}."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The beast makes a number of attacks equal to half this spell's level (rounded down)."
+					]
+				},
+				{
+					"name": "Maul",
+					"entries": [
+						"{@atk mw} {@hit 4 + summonSpellLevel} to hit, reach 5 ft., one target. {@h}{@damage 1d8 + 4 + summonSpellLevel} piercing damage."
+					]
+				}
+			],
+			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/unearthed-arcana/master/_img/tokens/UA2020SpellsAndMagicTattoos/Bestial Spirit.png",
+			"attachedItems": [
+				"maul|phb"
+			],
+			"traitTags": [
+				"Amphibious",
+				"Flyby",
+				"Pack Tactics"
+			],
+			"senseTags": [
+				"D"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"damageTags": [
+				"P"
+			],
+			"miscTags": [
+				"MLW",
+				"MW"
+			]
+		},
+		{
+			"name": "Celestial Spirit",
+			"source": "UA2020SpellsAndMagicTattoos",
+			"page": 4,
+			"summonedBySpell": "Summon Celestial Spirit|UA2020SpellsAndMagicTattoos",
+			"summonedBySpellLevel": 5,
+			"size": [
+				"L"
+			],
+			"type": "celestial",
+			"alignment": [
+				"N",
+				"G"
+			],
+			"ac": [
+				{
+					"special": "11 + the level of the spell (natural armor)"
+				}
+			],
+			"hp": {
+				"special": "equal the celestial's Constitution modifier + your spellcasting ability modifier + ten times the spell's level"
+			},
+			"speed": {
+				"walk": 30,
+				"fly": 40
+			},
+			"str": 16,
+			"dex": 14,
+			"con": 16,
+			"int": 10,
+			"wis": 14,
+			"cha": 16,
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"passive": 10,
+			"resist": [
+				"radiant"
+			],
+			"conditionImmune": [
+				"charmed",
+				"frightened"
+			],
+			"languages": [
+				"Celestial",
+				"understands the languages you speak"
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The celestial makes a number of attacks equal to half this spell's level (rounded down)."
+					]
+				},
+				{
+					"name": "Radiant Bow (Avenger Only)",
+					"entries": [
+						"{@atk rw} {@hit 2 + summonSpellLevel} to hit, range 150/600 ft., one target. {@h}{@damage 2d6 + 2 + summonSpellLevel} radiant damage."
+					]
+				},
+				{
+					"name": "Radiant Mace (Defender Only)",
+					"entries": [
+						"{@atk mw} {@hit 3 + summonSpellLevel} to hit, reach 5 ft., one target. {@h}{@damage 1d10 + 3 + summonSpellLevel} radiant damage, and the celestial can choose itself or another creature it can see within 10 feet of the target. The chosen creature gains temporary hit points equal to the damage dealt, provided it doesn't already have temporary hit points."
+					]
+				},
+				{
+					"name": "Healing Touch (1/Day)",
+					"entries": [
+						"The celestial touches another creature. The target magically regains hit points equal to {@dice 2d8 + summonSpellLevel}."
+					]
+				}
+			],
+			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/unearthed-arcana/master/_img/tokens/UA2020SpellsAndMagicTattoos/Celestial Spirit.png",
+			"senseTags": [
+				"D"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"languageTags": [
+				"CE"
+			],
+			"damageTags": [
+				"R"
+			],
+			"miscTags": [
+				"MLW",
+				"MW",
+				"RW"
+			]
+		},
+		{
+			"name": "Elemental Spirit",
+			"source": "UA2020SpellsAndMagicTattoos",
+			"page": 5,
+			"summonedBySpell": "Summon Elemental Spirit|UA2020SpellsAndMagicTattoos",
+			"summonedBySpellLevel": 4,
+			"size": [
+				"M"
+			],
+			"type": "elemental",
+			"alignment": [
+				"N"
+			],
+			"ac": [
+				{
+					"special": "11 + the level of the spell (natural armor)"
+				}
+			],
+			"hp": {
+				"special": "equal the elemental's Constitution modifier + your spellcasting ability modifier + ten times the spell's level"
+			},
+			"speed": {
+				"walk": 40,
+				"fly": {
+					"number": 40,
+					"condition": "(air only hover)"
+				},
+				"burrow": {
+					"number": 40,
+					"condition": "(earth only)"
+				},
+				"swim": {
+					"number": 40,
+					"condition": "(water only)"
+				},
+				"canHover": true
+			},
+			"str": 18,
+			"dex": 15,
+			"con": 17,
+			"int": 4,
+			"wis": 10,
+			"cha": 16,
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"passive": 10,
+			"resist": [
+				"lightning",
+				{
+					"resist": [
+						"thunder"
+					],
+					"note": "(air only)"
+				},
+				"piercing",
+				{
+					"resist": [
+						"slashing"
+					],
+					"note": "(earth only)"
+				},
+				{
+					"resist": [
+						"acid"
+					],
+					"note": "(water only)"
+				}
+			],
+			"immune": [
+				"poison",
+				{
+					"immune": [
+						"fire"
+					],
+					"note": "(fire only)"
+				}
+			],
+			"conditionImmune": [
+				"exhaustion",
+				"paralyzed",
+				"petrified",
+				"poisoned",
+				"unconscious"
+			],
+			"languages": [
+				"Primordial",
+				"understands the languages you speak"
+			],
+			"trait": [
+				{
+					"name": "Amorphous Form (Air, Fire, and Water Only)",
+					"entries": [
+						"The elemental can move through a space as narrow as 1 inch wide without squeezing."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The elemental makes a number of attacks equal to half this spell's level (rounded down)."
+					]
+				},
+				{
+					"name": "Slam",
+					"entries": [
+						"{@atk mw} {@hit 4 + summonSpellLevel} to hit, reach 5 ft., one target. {@h}{@damage 1d10 + 4 + summonSpellLevel} bludgeoning damage (Air, Earth, and Water only) or fire damage (Fire only)."
+					]
+				}
+			],
+			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/unearthed-arcana/master/_img/tokens/UA2020SpellsAndMagicTattoos/Elemental Spirit.png",
+			"traitTags": [
+				"Amorphous"
+			],
+			"senseTags": [
+				"D"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"languageTags": [
+				"P"
+			],
+			"damageTags": [
+				"B",
+				"F"
+			],
+			"miscTags": [
+				"MW"
+			]
+		},
+		{
+			"name": "Fey Spirit",
+			"source": "UA2020SpellsAndMagicTattoos",
+			"page": 5,
+			"summonedBySpell": "Summon Fey Spirit|UA2020SpellsAndMagicTattoos",
+			"summonedBySpellLevel": 3,
+			"size": [
+				"S"
+			],
+			"type": "fey",
+			"alignment": [
+				"C",
+				"G"
+			],
+			"ac": [
+				{
+					"special": "11 + the level of the spell (natural armor)"
+				}
+			],
+			"hp": {
+				"special": "equal the fey's Constitution modifier + your spellcasting ability modifier + ten times the spell's level"
+			},
+			"speed": {
+				"walk": 40
+			},
+			"str": 13,
+			"dex": 16,
+			"con": 14,
+			"int": 14,
+			"wis": 11,
+			"cha": 16,
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"passive": 10,
+			"conditionImmune": [
+				"charmed"
+			],
+			"languages": [
+				"Sylvan",
+				"understands the languages you speak"
+			],
+			"trait": [
+				{
+					"name": "Fey Step",
+					"entries": [
+						"As a bonus action, the fey can magically teleport up to 30 feet to an unoccupied space it can see."
+					]
+				},
+				{
+					"name": "Darkening Step (Deceitful Only)",
+					"entries": [
+						"Immediately after using its Fey Step, the fey can fill a 5-foot cube within 5 feet of it with magical darkness, which remains until the end of the fey's next turn."
+					]
+				},
+				{
+					"name": "Ecstatic Step (Joyful Only)",
+					"entries": [
+						"Immediately after using its Fey Step, the fey can choose a creature it can see within 10 feet of it and force it to succeed on a Wisdom saving throw against your spell save DC or be {@condition charmed} by the fey for 1 minute. The charm ends if the fey or any of its companions deals any damage to the target."
+					]
+				},
+				{
+					"name": "Impassioned Step (Furious Only)",
+					"entries": [
+						"Immediately after using its Fey Step, the fey has advantage on the next attack roll it makes before the end of its turn."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The fey makes a number of attacks equal to half this spell's level (rounded down)."
+					]
+				},
+				{
+					"name": "Shortsword",
+					"entries": [
+						"{@atk mw} {@hit 3 + summonSpellLevel} to hit, reach 5 ft., one target. {@h}{@damage 1d6 + 3 + summonSpellLevel} piercing damage {@damage + 1d6} force damage."
+					]
+				}
+			],
+			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/unearthed-arcana/master/_img/tokens/UA2020SpellsAndMagicTattoos/Fey Spirit.png",
+			"attachedItems": [
+				"shortsword|phb"
+			],
+			"senseTags": [
+				"D"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"languageTags": [
+				"S"
+			],
+			"damageTags": [
+				"O",
+				"P"
+			],
+			"miscTags": [
+				"AOE",
+				"MLW",
+				"MW"
+			],
+			"conditionInflict": [
+				"charmed"
+			]
+		},
+		{
+			"name": "Fiendish Spirit",
+			"source": "UA2020SpellsAndMagicTattoos",
+			"page": 6,
+			"summonedBySpell": "Summon Fiendish Spirit|UA2020SpellsAndMagicTattoos",
+			"summonedBySpellLevel": 6,
+			"size": [
+				"L"
+			],
+			"type": "fiend",
+			"alignment": [
+				{
+					"alignment": [
+						"C",
+						"E"
+					],
+					"note": "Demon only"
+				},
+				{
+					"alignment": [
+						"L",
+						"E"
+					],
+					"note": "Devil only"
+				},
+				{
+					"alignment": [
+						"N",
+						"E"
+					],
+					"note": "Yugoloth only"
+				}
+			],
+			"ac": [
+				{
+					"special": "11 + the level of the spell (natural armor)"
+				}
+			],
+			"hp": {
+				"special": "equal the fiend's Constitution modifier + your spellcasting ability modifier + ten times the spell's level"
+			},
+			"speed": {
+				"walk": 40,
+				"climb": {
+					"number": 40,
+					"condition": "(demon only)"
+				},
+				"fly": {
+					"number": 60,
+					"condition": "(devil only)"
+				}
+			},
+			"str": 13,
+			"dex": 16,
+			"con": 15,
+			"int": 10,
+			"wis": 10,
+			"cha": 16,
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"passive": 10,
+			"resist": [
+				"fire"
+			],
+			"immune": [
+				"poison"
+			],
+			"conditionImmune": [
+				"poisoned"
+			],
+			"languages": [
+				"Abyssal",
+				"Infernal",
+				"telepathy 60 ft."
+			],
+			"trait": [
+				{
+					"name": "Magic Resistance",
+					"entries": [
+						"The fiend has advantage on saving throws against spells and other magical effects."
+					]
+				},
+				{
+					"name": "Death Throes (Demon Only)",
+					"entries": [
+						"When the fiend drops to 0 hit points or the spell ends, the fiend explodes, and each creature within 10 feet of it must make a Dexterity saving throw against your spell save DC. A creature takes {@damage 2d10 + summonSpellLevel} fire damage on a failed save, or half as much damage on a successful one."
+					]
+				},
+				{
+					"name": "Devil's Sight (Devil Only)",
+					"entries": [
+						"Magical darkness doesn't impede the fiend's darkvision."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The fiend makes a number of attacks equal to half this spell's level (rounded down)."
+					]
+				},
+				{
+					"name": "Bite (Demon Only)",
+					"entries": [
+						"{@atk mw} {@hit 3 + summonSpellLevel} to hit, reach 5 ft., one target. {@h}{@damage 1d12 + 3 + summonSpellLevel} necrotic damage."
+					]
+				},
+				{
+					"name": "Claws (Yugoloth Only)",
+					"entries": [
+						"{@atk mw} {@hit 3 + summonSpellLevel} to hit, reach 5 ft., one target. {@h}{@damage 1d8 + 3 + summonSpellLevel} slashing damage. Immediately after the attack hits or misses, the fiend can magically teleport up to 30 feet to an unoccupied space it can see."
+					]
+				},
+				{
+					"name": "Hurl Flame (Devil Only)",
+					"entries": [
+						"{@atk rs} {@hit 3 + summonSpellLevel} to hit, range 150 ft., one target. {@h}{@damage 2d6 + 3 + summonSpellLevel} fire damage. If the target is a flammable object that isn't being worn or carried, it also catches fire."
+					]
+				}
+			],
+			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/unearthed-arcana/master/_img/tokens/UA2020SpellsAndMagicTattoos/Fiendish Spirit.png",
+			"traitTags": [
+				"Death Burst",
+				"Devil's Sight",
+				"Magic Resistance"
+			],
+			"senseTags": [
+				"D"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"languageTags": [
+				"AB",
+				"I",
+				"TP"
+			],
+			"damageTags": [
+				"F",
+				"N",
+				"S"
+			],
+			"miscTags": [
+				"MW"
+			]
+		},
+		{
+			"name": "Shadow Spirit",
+			"source": "UA2020SpellsAndMagicTattoos",
+			"page": 7,
+			"summonedBySpell": "Summon Shadow Spirit|UA2020SpellsAndMagicTattoos",
+			"summonedBySpellLevel": 3,
+			"size": [
+				"M"
+			],
+			"type": "monstrosity",
+			"alignment": [
+				"N",
+				"E"
+			],
+			"ac": [
+				{
+					"special": "11 + the level of the spell (natural armor)"
+				}
+			],
+			"hp": {
+				"special": "equal the shadow's Constitution modifier + your spellcasting ability modifier + ten times the spell's level"
+			},
+			"speed": {
+				"walk": 40
+			},
+			"str": 13,
+			"dex": 16,
+			"con": 15,
+			"int": 4,
+			"wis": 10,
+			"cha": 16,
+			"senses": [
+				"darkvision 120 ft."
+			],
+			"passive": 10,
+			"resist": [
+				"necrotic"
+			],
+			"conditionImmune": [
+				"frightened"
+			],
+			"languages": [
+				"Common",
+				"understands the languages you speak"
+			],
+			"trait": [
+				{
+					"name": "Bloodthirsty Frenzy (Fury Only)",
+					"entries": [
+						"The spirit has advantage on attack rolls against {@condition frightened} creatures."
+					]
+				},
+				{
+					"name": "Shadow Stealth (Fear Only)",
+					"entries": [
+						"While in dim light or darkness, the spirit can take the Hide action as a bonus action."
+					]
+				},
+				{
+					"name": "Weight of Ages (Despair Only)",
+					"entries": [
+						"Any beast or humanoid, other than you, that starts its turn within 5 feet of the spirit has its speed reduced by 20 feet until the start of that beast or humanoid's next turn."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The spirit makes a number of attacks equal to half this spell's level (rounded down)."
+					]
+				},
+				{
+					"name": "Chilling Rend",
+					"entries": [
+						"{@atk mw} {@hit 3 + summonSpellLevel} to hit, reach 5 ft., one target. {@h}{@damage 2d8 + 3 + summonSpellLevel} cold damage."
+					]
+				},
+				{
+					"name": "Dreadful Scream (1/Day)",
+					"entries": [
+						"The spirit screams. Each creature within 30 feet of it must succeed on a Wisdom saving throw against your spell save DC or be {@condition frightened} of the spirit for 1 minute. The {@condition frightened} creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
+					]
+				}
+			],
+			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/unearthed-arcana/master/_img/tokens/UA2020SpellsAndMagicTattoos/Shadow Spirit.png",
+			"senseTags": [
+				"SD"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"languageTags": [
+				"C"
+			],
+			"damageTags": [
+				"C"
+			],
+			"miscTags": [
+				"MW"
+			],
+			"conditionInflict": [
+				"frightened"
+			]
+		},
+		{
+			"name": "Undead Spirit",
+			"source": "UA2020SpellsAndMagicTattoos",
+			"page": 8,
+			"summonedBySpell": "Summon Undead Spirit|UA2020SpellsAndMagicTattoos",
+			"summonedBySpellLevel": 3,
+			"size": [
+				"M"
+			],
+			"type": "undead",
+			"alignment": [
+				"N",
+				"E"
+			],
+			"ac": [
+				{
+					"special": "11 + the level of the spell (natural armor)"
+				}
+			],
+			"hp": {
+				"special": "equal the undead's Constitution modifier + your spellcasting ability modifier + ten times the spell's level"
+			},
+			"speed": {
+				"walk": 30,
+				"fly": {
+					"number": 40,
+					"condition": "(ghostly only; hover)"
+				},
+				"canHover": true
+			},
+			"str": 12,
+			"dex": 16,
+			"con": 15,
+			"int": 4,
+			"wis": 10,
+			"cha": 9,
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"passive": 10,
+			"immune": [
+				"necrotic",
+				"poison"
+			],
+			"conditionImmune": [
+				"exhaustion",
+				"frightened",
+				"paralyzed",
+				"poisoned"
+			],
+			"languages": [
+				"Common",
+				"understands the languages you speak"
+			],
+			"trait": [
+				{
+					"name": "Incorporeal Movement (Ghostly Only)",
+					"entries": [
+						"The undead can become incorporeal while moving and pass through other creatures and objects as if they were {@quickref difficult terrain||3}. If it ends its turn inside an object, it is shunted to the nearest unoccupied space and takes {@damage 1d10} force damage for every 5 feet traveled."
+					]
+				},
+				{
+					"name": "Festering Aura (Putrid Only)",
+					"entries": [
+						"Any creature, other than you, that starts its turn within 5 feet of the undead must succeed on a Constitution saving throw against your spell save DC or be {@condition poisoned} until the start of its next turn."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The spirit makes a number of attacks equal to half this spell's level (rounded down)."
+					]
+				},
+				{
+					"name": "Deathly Touch (Ghostly Only)",
+					"entries": [
+						"{@atk mw} {@hit 3 + summonSpellLevel} to hit, reach 5 ft., one creature. {@h}{@damage 1d8 + 3 + summonSpellLevel} necrotic damage, and the creature must succeed on a Wisdom saving throw against your spell save DC or be {@condition frightened} of the undead until the end of the target's next turn."
+					]
+				},
+				{
+					"name": "Grave Bolt (Skeletal Only)",
+					"entries": [
+						"{@atk rs} {@hit 3 + summonSpellLevel} to hit, range 150 ft., one target. {@h}{@damage 2d8 + 3 + summonSpellLevel} necrotic damage."
+					]
+				},
+				{
+					"name": "Rotting Claw (Putrid Only)",
+					"entries": [
+						"{@atk mw} {@hit 3 + summonSpellLevel} to hit, reach 5 ft., one target. {@h}{@damage 1d6 + 3 + summonSpellLevel} slashing damage. If the target is {@condition poisoned}, it must succeed on a Constitution saving throw against your spell save DC or be {@condition paralyzed} until the end of its next turn."
+					]
+				}
+			],
+			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/unearthed-arcana/master/_img/tokens/UA2020SpellsAndMagicTattoos/Undead Spirit.png",
+			"traitTags": [
+				"Incorporeal Movement"
+			],
+			"senseTags": [
+				"D"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"languageTags": [
+				"C"
+			],
+			"damageTags": [
+				"N",
+				"O",
+				"S"
+			],
+			"miscTags": [
+				"MW"
+			],
+			"conditionInflict": [
+				"frightened",
+				"paralyzed",
+				"poisoned"
+			]
+		}
+	],
+	"variantrule": [
+		{
+			"name": "Magic Tattoos",
+			"source": "UA2020SpellsAndMagicTattoos",
+			"page": 8,
+			"entries": [
+				"Blending magic and artistry with ink and needles, magic tattoos imbue their bearers with wondrous effects and abilities. Magic tattoos are initially bound to magic needles, which transfer their magic to a creature. The designs of magic tattoos vary greatly in appearance depending on who created it, but they share general characteristics that hint at the effect of the tattoo.",
+				"Once inscribed on a creature's skin, damage or injury doesn't impair the tattoo's function, even if the tattoo is defaced.",
+				"The rarer a magic tattoo is, the more space it occupies on a creature's skin. The Magic Tattoo Coverage table offers guidelines for how large a given tattoo is.",
+				{
+					"type": "table",
+					"caption": "Magic Tattoo Coverage",
+					"colLabels": [
+						"Tattoo Rarity",
+						"Area Covered"
+					],
+					"colStyles": [
+						"col-6",
+						"col-6"
+					],
+					"rows": [
+						[
+							"Common",
+							"Up to 6 inches"
+						],
+						[
+							"Uncommon",
+							"Half a limb or the scalp"
+						],
+						[
+							"Rare",
+							"One limb"
+						],
+						[
+							"Very Rare",
+							"Two limbs or the chest or upper back"
+						],
+						[
+							"Legendary",
+							"Two limbs and the torso"
+						]
+					]
+				},
+				{
+					"type": "inset",
+					"name": "Variant: Body Modification",
+					"entries": [
+						"These items needn't be limited to just tattoos. They can instead be presented as other body modifications such as brands, scarification, birthmarks, patterns of scales, or any other cosmetic skin adornment or alteration. Consider the object a magical body modification is bound to instead of tattoo needles, such as branding irons or enchanted dragon scales."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Tattoo Descriptions",
+					"entries": [
+						"The magic tattoos are presented in alphabetical order. They follow the rules for magic items, as presented in the {@book Dungeon Master's Guide|DMG|7|Magic Items}.",
+						{
+							"type": "list",
+							"columns": 3,
+							"items": [
+								"{@item Absorbing Tattoo|UA2020SpellsAndMagicTattoos}",
+								"{@item Barrier Tattoo|UA2020SpellsAndMagicTattoos}",
+								"{@item Blood Fury Tattoo|UA2020SpellsAndMagicTattoos}",
+								"{@item Coiling Grasp Tattoo|UA2020SpellsAndMagicTattoos}",
+								"{@item Eldritch Claw Tattoo|UA2020SpellsAndMagicTattoos}",
+								"{@item Ghost Step Tattoo|UA2020SpellsAndMagicTattoos}",
+								"{@item Illuminator's Tattoo|UA2020SpellsAndMagicTattoos}",
+								"{@item Lifewell Tattoo|UA2020SpellsAndMagicTattoos}",
+								"{@item Masquerade Tattoo|UA2020SpellsAndMagicTattoos}",
+								"{@item Shadowfell Brand Tattoo|UA2020SpellsAndMagicTattoos}",
+								"{@item Spellwrought Tattoo|UA2020SpellsAndMagicTattoos}"
+							]
+						}
+					]
+				}
+			]
+		}
+	]
+}

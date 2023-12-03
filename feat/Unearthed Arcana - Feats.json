@@ -1,0 +1,202 @@
+{
+	"_meta": {
+		"sources": [
+			{
+				"json": "UAFeats",
+				"abbreviation": "UAFT",
+				"full": "Unearthed Arcana: Feats",
+				"authors": [
+					"Wizards of the Coast"
+				],
+				"convertedBy": [
+					"Giddy"
+				],
+				"version": "1.0.0",
+				"url": "https://media.wizards.com/2016/downloads/DND/UA-Feats-V1.pdf",
+				"dateReleased": "2016-06-06"
+			}
+		],
+		"dateAdded": 1701616429,
+		"dateLastModified": 1701616429,
+		"_dateLastModifiedHash": "aaaaaaaaaa"
+	},
+	"feat": [
+		{
+			"name": "Alchemist",
+			"source": "UAFeats",
+			"page": 4,
+			"ability": [
+				{
+					"int": 1
+				}
+			],
+			"toolProficiencies": [
+				{
+					"alchemist's supplies": true
+				}
+			],
+			"entries": [
+				"You have studied the secrets of alchemy and are an expert in its practice, gaining the following benefits:",
+				{
+					"type": "list",
+					"items": [
+						"You gain proficiency with {@item alchemist's supplies|phb}. If you are already proficient with them, you add double your proficiency bonus to checks you make with them.",
+						"As an action, you can identify one potion within 5 feet of you, as if you had tasted it. You must see the liquid for this benefit to work.",
+						"Over the course of any short rest, you can temporarily improve the potency of one {@item potion of healing} of any rarity. To use this benefit, you must have {@item alchemist's supplies|phb} with you, and the potion must be within reach. If the potion is drunk no more than 1 hour after the short rest ends, the creature drinking the potion can forgo the potion's die roll and regains the maximum number of hit points that the potion can restore."
+					]
+				}
+			]
+		},
+		{
+			"name": "Blade Mastery",
+			"source": "UAFeats",
+			"page": 2,
+			"entries": [
+				"You master the {@item shortsword|phb}, {@item longsword|phb}, {@item scimitar|phb}, {@item rapier|phb}, and {@item greatsword|phb}. You gain the following benefits when using any of them:",
+				{
+					"type": "list",
+					"items": [
+						"You gain a +1 bonus to attack rolls you make with the weapon.",
+						"On your turn, you can use your reaction to assume a parrying stance, provided you have the weapon in hand. Doing so grants you a +1 bonus to your AC until the start of your next turn or until you're not holding the weapon.",
+						"When you make an opportunity attack with the weapon, you have advantage on the attack roll."
+					]
+				}
+			]
+		},
+		{
+			"name": "Burglar",
+			"source": "UAFeats",
+			"page": 4,
+			"ability": [
+				{
+					"dex": 1
+				}
+			],
+			"toolProficiencies": [
+				{
+					"thieves' tools": true
+				}
+			],
+			"entries": [
+				"You pride yourself on your quickness and your close study of certain clandestine activities. You gain the following benefits:",
+				{
+					"type": "list",
+					"items": [
+						"You gain proficiency with {@item thieves' tools|phb}. If you are already proficient with them, you add double your proficiency bonus to checks you make with them."
+					]
+				}
+			]
+		},
+		{
+			"name": "Fell Handed",
+			"source": "UAFeats",
+			"page": 2,
+			"entries": [
+				"You master the {@item handaxe|phb}, {@item battleaxe|phb}, {@item greataxe|phb}, {@item warhammer|phb}, and {@item maul|phb}. You gain the following benefits when using any of them:",
+				{
+					"type": "list",
+					"items": [
+						"You gain a +1 bonus to attack rolls you make with the weapon.",
+						"Whenever you have advantage on a melee attack roll you make with the weapon and hit, you can knock the target {@condition prone} if the lower of the two {@dice d20} rolls would also hit the target.",
+						"Whenever you have disadvantage on a melee attack roll you make with the weapon, the target takes bludgeoning damage equal to your Strength modifier (minimum of 0) if the attack misses but the higher of the two {@dice d20} rolls would have hit.",
+						"If you use the {@action Help} action to aid an ally's melee attack while you're wielding the weapon, you knock the target's shield aside momentarily. In addition to the ally gaining advantage on the attack roll, the ally gains a +2 bonus to the roll if the target is using a shield."
+					]
+				}
+			]
+		},
+		{
+			"name": "Flail Mastery",
+			"source": "UAFeats",
+			"page": 3,
+			"entries": [
+				"The {@item flail|phb} is a tricky weapon to use, but you have spent countless hours mastering it. You gain the following benefits:",
+				{
+					"type": "list",
+					"items": [
+						"You gain a +1 bonus to attack rolls you make with a flail.",
+						"As a bonus action on your turn, you can prepare yourself to extend your flail to sweep over targets' {@item shield|phb|shields}. Until the end of this turn, your attack rolls with a flail gain a +2 bonus against any target using a {@item shield|phb}.",
+						"When you hit with an opportunity attack using a flail, the target must succeed on a Strength saving throw (DC 8 + your proficiency bonus + your Strength modifier) or be knocked {@condition prone}."
+					]
+				}
+			]
+		},
+		{
+			"name": "Gourmand",
+			"source": "UAFeats",
+			"page": 4,
+			"ability": [
+				{
+					"con": 1
+				}
+			],
+			"toolProficiencies": [
+				{
+					"cook's utensils": true
+				}
+			],
+			"entries": [
+				"You have mastered a variety of special recipes, allowing you to prepare exotic dishes with useful effects. You gain the following benefits:",
+				{
+					"type": "list",
+					"items": [
+						"You gain proficiency with {@item cook's utensils|phb}. If you are already proficient with them, you add double your proficiency bonus to checks you make with them.",
+						"As an action, you can inspect a drink or plate of food within 5 feet of you and determine whether it is {@condition poisoned}, provided that you can see and smell it.",
+						"During a long rest, you can prepare and serve a meal that helps you and your allies recover from the rigors of adventuring, provided you have suitable food, {@item cook's utensils|phb}, and other supplies on hand. The meal serves up to six people, and each person who eats it regains two additional Hit Dice at the end of the long rest. In addition, those who partake of the meal have advantage on Constitution saving throws against disease for the next 24 hours."
+					]
+				}
+			]
+		},
+		{
+			"name": "Master of Disguise",
+			"source": "UAFeats",
+			"page": 4,
+			"ability": [
+				{
+					"cha": 1
+				}
+			],
+			"toolProficiencies": [
+				{
+					"disguise kit": true
+				}
+			],
+			"entries": [
+				"You have honed your ability to shape your personality and to read the personalities of others. You gain the following benefits:",
+				{
+					"type": "list",
+					"items": [
+						"You gain proficiency with the {@item disguise kit|phb}. If you are already proficient with it, you add double your proficiency bonus to checks you make with it.",
+						"If you spend 1 hour observing a creature, you can then spend 8 hours crafting a disguise you can quickly don to mimic that creature. Making the disguise requires a {@item disguise kit|PHB}. You must make checks as normal to disguise yourself, but you can assume the disguise as an action."
+					]
+				}
+			]
+		},
+		{
+			"name": "Spear Mastery",
+			"source": "UAFeats",
+			"page": 3,
+			"entries": [
+				"Though the {@item spear|phb} is a simple weapon to learn, it rewards you for the time you have taken to master it. You gain the following benefits:",
+				{
+					"type": "list",
+					"items": [
+						"You gain a +1 bonus to attack rolls you make with a spear.",
+						"When you use a spear, its damage die changes from a {@dice d6} to a {@dice d8}, and from a {@dice d8} to a {@dice d10} when wielded with two hands. (This benefit has no effect if another feature has already improved the weapon's die.)",
+						"You can set your spear to receive a charge. As a bonus action, choose a creature you can see that is at least 20 feet away from you. If that creature moves within your spear's reach on its next turn, you can make a melee attack against it with your spear as a reaction. If the attack hits, the target takes an extra {@damage 1d8} piercing damage, or an extra {@damage 1d10} piercing damage if you wield the spear with two hands. You can't use this ability if the creature used the {@action Disengage} action before moving.",
+						"As a bonus action on your turn, you can increase your reach with a spear by 5 feet for the rest of your turn."
+					]
+				}
+			]
+		},
+		{
+			"name": "Warhammer Master",
+			"source": "UAFeats",
+			"page": 2,
+			"entries": [
+				"{@note This feat is presented as an illustrative example of a poorly-designed feat, and is not intended to be used in play. The {@feat Fell Handed|UAFeats} feat is presented as a well-designed implementation of the same ideas, and should be used instead.}",
+				"When you hit a creature with a {@item warhammer|phb}, the  creature must succeed on a Strength saving  throw (DC 8 + your proficiency bonus + your  Strength modifier) or be knocked {@condition prone}.",
+				"In addition, you can use your warhammer to  knock away a foe's shield. If you hit a creature  that's using a shield, you can have the attack deal  no damage and force the creature to drop its  shield."
+			]
+		}
+	]
+}

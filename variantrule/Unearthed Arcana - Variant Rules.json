@@ -1,0 +1,125 @@
+{
+	"_meta": {
+		"sources": [
+			{
+				"json": "UAVariantRules",
+				"abbreviation": "UAVR",
+				"full": "Unearthed Arcana: Variant Rules",
+				"authors": [
+					"Wizards of the Coast"
+				],
+				"convertedBy": [
+					"Giddy"
+				],
+				"version": "1.0.0",
+				"url": "https://media.wizards.com/2015/downloads/dnd/UA5_VariantRules.pdf",
+				"dateReleased": "2015-06-08"
+			}
+		],
+		"dateAdded": 1701616429,
+		"dateLastModified": 1701616429,
+		"_dateLastModifiedHash": "aaaaaaaaaa"
+	},
+	"variantrule": [
+		{
+			"name": "Custom Alignments",
+			"source": "UAVariantRules",
+			"page": 2,
+			"ruleType": "V",
+			"type": "section",
+			"entries": [
+				{
+					"type": "entries",
+					"entries": [
+						{
+							"type": "entries",
+							"entries": [
+								"Alignment serves as a handy label for the general attitudes of characters and monsters alike. It works as a sorting mechanism, providing a big-picture assessment of which creatures, factions, and NPCs make natural allies or enemies.",
+								"The standard alignment system embraces the fundamental points of tension in D&D: the struggle between good and evil on the one hand, and the conflict between law and chaos on the other. The nice thing about this arrangement is that it allows for tension even within a good-aligned party. The law\u2014chaos divide means that characters can still disagree on how to promote good in the world.",
+								"Alignment is meant to serve only as a quick summary of a character, not a rigid definition. It's a starting point, but elements such as flaws and bonds paint a much more detailed picture of a character's identity.",
+								"You might find that the alignment choices of good and evil, law and chaos are too abstract for your campaign. You might prefer attitudes that are more nuanced, without the implicit demarcation of heroes as good-aligned creatures and villains as evil-aligned ones. A simple solution is to discard alignment in favor of an alternative system that brings the key conflicts in your campaign to the forefront.",
+								{
+									"type": "entries",
+									"name": "Identify the Conflict",
+									"entries": [
+										"Think about the important opposing forces in your campaign by asking the following questions. Can you place them on opposite ends of a continuum? Are there multiple conflicts? What are the key conflicts, and how do all the separate conflicts interact?",
+										"For your own alignment system, try to create at least two paths, one of which allows a range of options for the player characters. The other paths can divide the world between the characters (including their allies) and their enemies.",
+										"For example, imagine a campaign setting where an ecological crisis engineered by a cabal of necromancers threatens to transform the world into a dead wasteland. Forming one alignment path are the opposing forces of life and death. Like the choice of good or evil, this conflict defines the setting, and you would expect most player characters to be aligned to life or at least neutral with respect to their support for the necromancers' plans.",
+										"The second conflict path might be preservation versus destruction. People who have gathered to protect the land might disagree on whether to attack and destroy the necromancers, or to work instead at strengthening the natural order so that not even the necromancers' power can overwhelm it."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Multiple Choices",
+									"entries": [
+										"For grittier games that avoid obvious classifications of good versus bad, you might create alignment paths with more than two choices. In a game that focuses on intrigue and power struggles, for example, alignment might be a quick reference for which factions a character supports. One element of a character's alignment might indicate his or her affiliation with a noble house or guild. A second element could call out which deity or pantheon the character is tied to."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Neutral Alignment",
+									"entries": [
+										"When creating your alignment system, think about the role of neutrality, and decide whether there's a midpoint for any alignment path. Neutral creatures might choose to sit out a struggle (as is often the case in good versus evil) or see strengths in both approaches (as in law versus chaos). The role of this choice in your campaign should make sense in terms of your central conflict."
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Players Make All Rolls",
+			"source": "UAVariantRules",
+			"page": 1,
+			"ruleType": "V",
+			"type": "section",
+			"entries": [
+				"This variant has the players roll dice for all parts of combat, including such things as monster attack rolls and saving throws. By moving die rolls to the players' side of the table, this option keeps things simpler for you as the DM. In addition, the more active you can keep the players in your game, the more engaged they'll be.",
+				"This is a good option if your players like rolling the dice, and if you don't mind doing a little work up front to make that happen.",
+				{
+					"type": "entries",
+					"name": "Attacking and Defending",
+					"entries": [
+						"The players roll their characters' attacks as normal, but you don't roll for their opponents. Instead, when a character is targeted by an attack, the player makes a defense roll.",
+						"A defense roll has a bonus equal to the character's AC - 10. The DC for the roll equals the attacker's attack bonus + 11.",
+						"On a successful defense roll, the attack misses because it was dodged, absorbed by the character's armor, and so on. If a character fails a defense roll, the attack hits.",
+						"If the attacker would normally have advantage on the attack roll, you instead apply disadvantage to the defense roll, and vice versa if the attacker would have disadvantage.",
+						"If the defense roll comes up as a 1 on the {@dice d20}, then the attack is a critical hit. If the attacker would normally score a critical hit on a roll of 19 or 20, then the attack is a critical hit on a 1 or 2, and so forth for broader critical ranges."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Saving Throws",
+					"entries": [
+						"When a character forces an opponent to make a saving throw, that player instead makes a saving throw check. The bonus to the {@dice d20} roll for a saving throw check equals the effect's save DC -8.",
+						"The DC for this check equals 11 + the target's saving throw modifier. On a successful check, the character overcomes the target's resistance and treats the target as if it failed its saving throw. On a failed check, the target is treated as if it succeeded on its save.",
+						"As with attacks, the saving throw check has advantage if the target would have disadvantage on its saving throw, and vice versa."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Contests and Checks",
+					"entries": [
+						"Whenever an NPC or monster would normally make an ability check, roll initiative, or take part in a contest, neither you nor the players roll the {@dice d20}. Instead, use the rules for passive checks to determine the result. See chapter 7, \"{@book Using Ability Scores|PHB|7|Passive Scores},\" of the {@book Player's Handbook|PHB} for more information on passive checks."
+					]
+				}
+			]
+		},
+		{
+			"name": "Vitality",
+			"source": "UAVariantRules",
+			"page": 1,
+			"ruleType": "V",
+			"type": "section",
+			"entries": [
+				"Some DMs find hit points bothersome. A fighter can survive a {@spell fireball}, a troll's rending claws, and a one-hundred-foot fall, only to crumple in a heap due to a kobold's dagger slash. This optional rule more realistically reflects the wear and tear a character suffers from wounds.",
+				"Each character has a pool of vitality in addition to hit points. A character's maximum vitality equals the character's Constitution score. Whenever a character takes 10 or more damage from an attack or effect, the character loses vitality. Divide the damage by 10 and round down. The result is how much vitality a character loses. In other words, a character loses 1 vitality for every 10 points of damage dealt by an attack or effect.",
+				"If a character suffers a critical hit, double the vitality lost, so that the character loses 2 vitality for every 10 points of damage. If a critical hit deals less than 10 damage, it still reduces vitality by 1.",
+				"Losing vitality causes a character's hit point maximum to drop. Calculate the character's current maximum using vitality instead of Constitution. Thus, as vitality drops, a character's Constitution modifier for determining hit points also drops.",
+				"A character reduced to 0 vitality is immediately reduced to 0 hit points. If a character is reduced to 0 hit points but his or her vitality remains above 0, any additional damage is applied instead to the character's vitality. A character is not {@condition unconscious} until both hit points and vitality reach 0.",
+				"Completing a long rest increases a character's vitality by 1 + the character's Constitution modifier, up to the character's maximum vitality. Effects that restore hit points have no effect on vitality. However, a character with maximum hit points who receives healing instead restores 1 vitality for every 10 points of healing."
+			]
+		}
+	]
+}

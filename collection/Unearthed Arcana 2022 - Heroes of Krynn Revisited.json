@@ -1,0 +1,1165 @@
+{
+	"_meta": {
+		"sources": [
+			{
+				"json": "UA2022HeroesOfKrynnRevisited",
+				"abbreviation": "UA22HoKR",
+				"full": "Unearthed Arcana: 2022 Heroes of Krynn Revisited",
+				"authors": [
+					"Wizards of the Coast"
+				],
+				"convertedBy": [
+					"Giddy"
+				],
+				"version": "1.0.0",
+				"url": "https://media.wizards.com/2022/dnd/downloads/UA2022-HeroesofKrynnRevisited.pdf",
+				"dateReleased": "2022-04-25"
+			}
+		],
+		"dateAdded": 1701616429,
+		"dateLastModified": 1701616429,
+		"_dateLastModifiedHash": "aaaaaaaaaa"
+	},
+	"background": [
+		{
+			"name": "Knight of Solamnia",
+			"source": "UA2022HeroesOfKrynnRevisited",
+			"page": 2,
+			"feats": [
+				{
+					"squire of solamnia|ua2022heroesofkrynnrevisited": true
+				}
+			],
+			"skillProficiencies": [
+				{
+					"athletics": true,
+					"survival": true
+				}
+			],
+			"languageProficiencies": [
+				{
+					"anyStandard": 2
+				}
+			],
+			"startingEquipment": [
+				{
+					"_": [
+						{
+							"special": "insignia of rank"
+						},
+						{
+							"special": "deck of cards"
+						},
+						"common clothes|phb",
+						{
+							"item": "pouch|phb",
+							"containsValue": 1000
+						}
+					]
+				}
+			],
+			"fromFeature": {
+				"feats": true
+			},
+			"entries": [
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"items": [
+						{
+							"type": "item",
+							"name": "Skill Proficiencies:",
+							"entry": "{@skill Athletics}, {@skill Survival}"
+						},
+						{
+							"type": "item",
+							"name": "Languages:",
+							"entry": "Two of your choice"
+						},
+						{
+							"type": "item",
+							"name": "Equipment:",
+							"entry": "An insignia of rank, a deck of cards, a set of {@item common clothes|PHB}, and a {@item pouch|PHB} containing 10 gp"
+						}
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Feature: Squire of Solamnia",
+					"entries": [
+						"You gain the {@feat Squire of Solamnia|UA2022HeroesOfKrynnRevisited} feat.",
+						"In addition, the Knights of Solamnia provide you free, modest lodging and food at any of their fortresses or encampments."
+					],
+					"data": {
+						"isFeature": true
+					}
+				},
+				{
+					"type": "entries",
+					"name": "Building a Knight of Solamnia Character",
+					"entries": [
+						"Any class or subclass that has martial prowess can be a good fit in the Knights of Solamnia. Fighters and paladins make up the bulk of the knighthood's forces. Clerics (often with the War domain) can also be found among the knights' ranks.",
+						"For a more unusual take on a Knight of Solamnia character, consider playing a bard of the College of Valor (or the College of Swords from Xanathar's Guide to Everything) or a barbarian devoted to the ideals of the nature god Habbakuk (perhaps adopting the Path of the Zealot from Xanathar's Guide to Everything).",
+						{
+							"type": "entries",
+							"name": "Suggested Characteristics",
+							"entries": [
+								"Adventurers who dedicate themselves to protecting the innocent and upholding honorable virtues are welcomed among the Knights of Solamnia. The Knight of Solamnia Personality Traits table suggests various traits you might adopt for your character.",
+								{
+									"type": "table",
+									"caption": "Knight of Solamnia Personality Traits",
+									"colLabels": [
+										"d6",
+										"Personality Trait"
+									],
+									"colStyles": [
+										"col-1 text-center",
+										"col-11"
+									],
+									"rows": [
+										[
+											"1",
+											"I pledge my sword to the greater good. If I must perish in pursuit of that good, so be it."
+										],
+										[
+											"2",
+											"My comrades-in-arms are my family. I'll do whatever it takes to keep them safe."
+										],
+										[
+											"3",
+											"The protection of innocent people comes first. All other concerns come second."
+										],
+										[
+											"4",
+											"I joined the knights for the free meals, but their lessons grew on me over time."
+										],
+										[
+											"5",
+											"I wish my deeds to become the stuff of legends\u2014just like those of the knighthood's heroic founders."
+										],
+										[
+											"6",
+											"A dishonorable act drove me to become a knight. I have acted with honor ever since."
+										]
+									]
+								}
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Knight of Solamnia Trinkets",
+							"entries": [
+								"When you make your character, you may roll once on the Knight of Solamnia Trinkets table, instead of on the Trinkets table in the Player's Handbook, for your starting trinket.",
+								{
+									"type": "table",
+									"caption": "Knight of Solamnia Trinkets",
+									"colLabels": [
+										"d6",
+										"Trinket"
+									],
+									"colStyles": [
+										"col-1 text-center",
+										"col-11"
+									],
+									"rows": [
+										[
+											"1",
+											"A flat silver disk you record your heroics upon"
+										],
+										[
+											"2",
+											"A piece of a fallen knight's armor"
+										],
+										[
+											"3",
+											"A pendant featuring a crown, a rose, a sword, or combination of all three"
+										],
+										[
+											"4",
+											"The pommel of your mentor's sword"
+										],
+										[
+											"5",
+											"A meaningful favor from someone you defended\u2014perhaps a handkerchief or glove"
+										],
+										[
+											"6",
+											"A brass locket with a sketch of a silver dragon inside"
+										]
+									]
+								}
+							]
+						}
+					]
+				}
+			],
+			"fluff": {
+				"_backgroundFluff": {
+					"name": "Knight of Solamnia",
+					"source": "UA2022HeroesOfKrynnRevisited"
+				}
+			}
+		},
+		{
+			"name": "Mage of High Sorcery",
+			"source": "UA2022HeroesOfKrynnRevisited",
+			"page": 3,
+			"feats": [
+				{
+					"initiate of high sorcery|ua2022heroesofkrynnrevisited": true
+				}
+			],
+			"skillProficiencies": [
+				{
+					"arcana": true,
+					"history": true
+				}
+			],
+			"languageProficiencies": [
+				{
+					"anyStandard": 2
+				}
+			],
+			"startingEquipment": [
+				{
+					"_": [
+						"ink (1-ounce bottle)|phb",
+						"ink pen|phb",
+						"common clothes|phb",
+						{
+							"item": "pouch|phb",
+							"containsValue": 1000
+						}
+					]
+				}
+			],
+			"fromFeature": {
+				"feats": true
+			},
+			"entries": [
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"items": [
+						{
+							"type": "item",
+							"name": "Skill Proficiencies:",
+							"entry": "{@skill Arcana}, {@skill History}"
+						},
+						{
+							"type": "item",
+							"name": "Languages:",
+							"entry": "Two of your choice"
+						},
+						{
+							"type": "item",
+							"name": "Equipment:",
+							"entry": "A {@item Ink (1-ounce bottle)|PHB|bottle of colored ink}, an {@item ink pen|phb}, a set of {@item common clothes|phb}, and a {@item pouch|phb} containing 10 gp"
+						}
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Feature: Initiate of High Sorcery",
+					"entries": [
+						"You gain the {@feat Initiate of High Sorcery|UA2022HeroesOfKrynnRevisited} feat.",
+						"In addition, the Mages of High Sorcery provide you with free, modest lodging and food indefinitely at any occupied Tower of High Sorcery and for one night at the home of an organization member."
+					],
+					"data": {
+						"isFeature": true
+					}
+				},
+				{
+					"type": "entries",
+					"name": "Building a Mage of High Sorcery Character",
+					"entries": [
+						"Mages of High Sorcery are typically sorcerers, warlocks, or wizards and might have any subclass. Spellcasters who gain their magic through devotion are less likely to be welcomed among the traditionalist mages. Nevertheless, the Mages of High Sorcery are shrewd, and they rarely let unique opportunities or individuals pass them by. Even members of martial classes who train in magic might find a rare place among the group's three orders.",
+						{
+							"type": "entries",
+							"name": "Suggested Characteristics",
+							"entries": [
+								"The study of magic drives the Mages of High Sorcery. Consider which of the group's three orders you aspire to join. The Mage of High Sorcery Personality Traits table suggests traits you might adopt for your character.",
+								{
+									"type": "table",
+									"caption": "Mage of High Sorcery Personality Traits",
+									"colLabels": [
+										"d6",
+										"Personality Trait"
+									],
+									"colStyles": [
+										"col-1 text-center",
+										"col-11"
+									],
+									"rows": [
+										[
+											"1",
+											"I wish to use my knowledge of magic to better people's lives."
+										],
+										[
+											"2",
+											"My study of magic might reveal all manner of secrets."
+										],
+										[
+											"3",
+											"Magic is a means to power, and I will use it to pursue my ambitions."
+										],
+										[
+											"4",
+											"I learned magic so I'd be able to protect those I care about."
+										],
+										[
+											"5",
+											"I use my magic to maintain the balance between all things."
+										],
+										[
+											"6",
+											"Whether in the past, present, or future, I will be the greatest mage ever known."
+										]
+									]
+								}
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Mage of High Sorcery Trinkets",
+							"entries": [
+								"When you make your character, you may roll once on the Mage of High Sorcery Trinkets table, instead of on the Trinkets table in the Player's Handbook, for your starting trinket.",
+								{
+									"type": "table",
+									"caption": "Mage of High Sorcery Trinkets",
+									"colLabels": [
+										"d6",
+										"Trinket"
+									],
+									"colStyles": [
+										"col-1 text-center",
+										"col-11"
+									],
+									"rows": [
+										[
+											"1",
+											"An unopened letter from your first teacher"
+										],
+										[
+											"2",
+											"A broken wand made of black, red, or white wood"
+										],
+										[
+											"3",
+											"A scroll bearing an incomprehensible formula"
+										],
+										[
+											"4",
+											"A purposeless device covered in colored stones that can fold into various enigmatic shapes"
+										],
+										[
+											"5",
+											"A pouch or spell book emblazoned with the triple moon symbol of the Mages of High Sorcery"
+										],
+										[
+											"6",
+											"A lens through which you can see Krynn's invisible black moon, Nuitari"
+										]
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"type": "inset",
+					"name": "Mages of Dragonlance",
+					"entries": [
+						"In past presentations of the Dragonlance setting, several of Dungeons & Dragon's modern spellcasting classes didn't exist. To accommodate these classes, the group known as the Wizards of High Sorcery has evolved into the Mages of High Sorcery. The group's distinct orders and signature robes remain, but the organization now accepts members from a broad range of spellcasting traditions."
+					]
+				}
+			],
+			"fluff": {
+				"_backgroundFluff": {
+					"name": "Mage of High Sorcery",
+					"source": "UA2022HeroesOfKrynnRevisited"
+				}
+			}
+		}
+	],
+	"backgroundFluff": [
+		{
+			"name": "Knight of Solamnia",
+			"source": "UA2022HeroesOfKrynnRevisited",
+			"entries": [
+				"You have trained to be a valorous warrior known as a Knight of Solamnia. Strict rules guide your every action, and you work to uphold them as you strive to defend the weak and oppose evil. Your honor is as important to you as your life."
+			]
+		},
+		{
+			"name": "Mage of High Sorcery",
+			"source": "UA2022HeroesOfKrynnRevisited",
+			"entries": [
+				"Your talent for magic came to the attention of the Mages of High Sorcery, an organization of spellcasters that study magic and prevent its misuse. You've trained among the Mages, but whether or not you'll face the dangerous tests required to become a true member of the group remains to be determined. Your passion for studying magic has likely already predisposed you toward one of the organization's three orders: the benevolent Order of the White Robes, the balance-pursuing Order of the Red Robes, or the ruthless Order of the Black Robes.",
+				"In the world of Krynn, many refer to the Mages of High Sorcery as the Wizards of High Sorcery. The organization accepts more than wizards, though, with sorcerers, warlocks, and other spellcasters included among their ranks."
+			]
+		}
+	],
+	"race": [
+		{
+			"name": "Kender",
+			"source": "UA2022HeroesOfKrynnRevisited",
+			"page": 1,
+			"reprintedAs": [
+				"Kender|DSotDQ"
+			],
+			"lineage": "VRGR",
+			"size": [
+				"S"
+			],
+			"speed": 30,
+			"skillProficiencies": [
+				{
+					"choose": {
+						"from": [
+							"insight",
+							"investigation",
+							"sleight of hand",
+							"stealth",
+							"survival"
+						]
+					}
+				}
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Fearless",
+					"entries": [
+						"You are immune to the {@condition frightened} condition."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Kender Curiosity",
+					"entries": [
+						"Thanks to the mystical origin of your people, you gain proficiency with one of the following skills of your choice: {@skill Insight}, {@skill Investigation}, {@skill Sleight of Hand}, {@skill Stealth}, or {@skill Survival}."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Taunt",
+					"entries": [
+						"You have an extraordinary ability to fluster creatures. As a bonus action, you can unleash a string of provoking words at a creature within 60 feet of you that can hear and understand you. The target must succeed on a Wisdom saving throw or it has disadvantage on attack rolls against targets other than you until the start of your next turn. The DC equals 8 + your proficiency bonus + your Intelligence, Wisdom, or Charisma modifier (choose when you select this race).",
+						"You can use this bonus action a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest."
+					]
+				}
+			],
+			"fluff": {
+				"_raceFluff": {
+					"name": "Kender",
+					"source": "UA2022HeroesOfKrynnRevisited"
+				}
+			}
+		}
+	],
+	"raceFluff": [
+		{
+			"name": "Kender",
+			"source": "UA2022HeroesOfKrynnRevisited",
+			"entries": [
+				"During the mythical origins of Krynn, Reorx, god of craft, indulged in an age of unfettered creation. Many peoples sprang from his divine forge, but not all among them remained as the god created them. Altered by unbridled magic, a group of gnomes were transformed and gifted almost supernatural curiosity and fearlessness. These were the first kender.",
+				"Originating on the world of Krynn, kender are diminutive Humanoids that look like humans with pointed ears and diverse appearances. Kender have a supernatural curiosity that drives them to adventure. Due to this inquisitiveness, many kender find themselves falling through portals to other planes and worlds.",
+				"Kender sometimes amass impressive collections of curiosities. Some might collect mundane knickknacks or relics from magical sites, while others might become professional thieves."
+			]
+		}
+	],
+	"feat": [
+		{
+			"name": "Adept of the Black Robes",
+			"source": "UA2022HeroesOfKrynnRevisited",
+			"page": 4,
+			"prerequisite": [
+				{
+					"level": 4,
+					"feat": [
+						"initiate of high sorcery|ua2022heroesofkrynnrevisited"
+					]
+				}
+			],
+			"additionalSpells": [
+				{
+					"ability": {
+						"choose": [
+							"int",
+							"wis",
+							"cha"
+						]
+					},
+					"innate": {
+						"_": {
+							"daily": {
+								"1e": [
+									{
+										"choose": "level=2|school=E;N"
+									}
+								]
+							}
+						}
+					}
+				}
+			],
+			"entries": [
+				"You chose the moon Nuitari to influence your magic, and your ambition and loyalty to the Order of the Black Robes has been recognized, granting you these benefits:",
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"items": [
+						{
+							"type": "item",
+							"name": "Ambitious Magic",
+							"entries": [
+								"You learn one 2nd-level spell of your choice. The {@filter 2nd-level spell|spells|level=2|school=E;N} must be from the enchantment or necromancy school of magic. You can cast this feat's 2nd-level spell without a spell slot, and you must finish a long rest before you can cast it in this way again. You can also cast this spell using spell slots you have of the appropriate level. The spell's spellcasting ability is the one chosen when you gained the {@feat Initiate of High Sorcery|UA2022HeroesOfKrynnRevisited} feat."
+							]
+						},
+						{
+							"type": "item",
+							"name": "Life Channel",
+							"entries": [
+								"You can channel your lifeforce into the power of your magic. When a creature you can see within 60 feet of you fails a saving throw against a spell that deals damage that you cast, you can expend a number of Hit Dice equal to the level of the spell. Roll the expended Hit Dice and add them together. The damage that the creature takes increases by an amount equal to that total."
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Adept of the Red Robes",
+			"source": "UA2022HeroesOfKrynnRevisited",
+			"page": 4,
+			"prerequisite": [
+				{
+					"level": 4,
+					"feat": [
+						"initiate of high sorcery|ua2022heroesofkrynnrevisited"
+					]
+				}
+			],
+			"additionalSpells": [
+				{
+					"ability": {
+						"choose": [
+							"int",
+							"wis",
+							"cha"
+						]
+					},
+					"innate": {
+						"_": {
+							"daily": {
+								"1e": [
+									{
+										"choose": "level=2|school=I;T"
+									}
+								]
+							}
+						}
+					}
+				}
+			],
+			"entries": [
+				"You chose the moon Lunitari to influence your magic, and your dedication to maintaining the balance between all things has been recognized by the Order of the Red Robes, granting you these benefits:",
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"items": [
+						{
+							"type": "item",
+							"name": "Insightful Magic",
+							"entries": [
+								"You learn one 2nd-level spell of your choice. The {@filter 2nd-level spell|spells|level=2|school=I;T} must be from the illusion or transmutation school of magic. You can cast this feat's 2nd-level spell without a spell slot, and you must finish a long rest before you can cast it in this way again. You can also cast this spell using spell slots you have of the appropriate level. The spell's spellcasting ability is the one chosen when you gained the {@feat Initiate of High Sorcery|UA2022HeroesOfKrynnRevisited} feat."
+							]
+						},
+						{
+							"type": "item",
+							"name": "Magical Balance",
+							"entries": [
+								"When you make an attack roll or an ability check and roll a 9 or lower on the {@dice d20}, you can balance fate and treat the roll as a 10. You can balance fate in this way a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest."
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Adept of the White Robes",
+			"source": "UA2022HeroesOfKrynnRevisited",
+			"page": 4,
+			"prerequisite": [
+				{
+					"level": 4,
+					"feat": [
+						"initiate of high sorcery|ua2022heroesofkrynnrevisited"
+					]
+				}
+			],
+			"additionalSpells": [
+				{
+					"ability": {
+						"choose": [
+							"int",
+							"wis",
+							"cha"
+						]
+					},
+					"innate": {
+						"_": {
+							"daily": {
+								"1e": [
+									{
+										"choose": "level=2|school=A;D"
+									}
+								]
+							}
+						}
+					}
+				}
+			],
+			"entries": [
+				"You chose the moon Solinari to influence your magic, and your oath to use magic to make the world a better place has been recognized by the Order of the White Robes, granting you these benefits:",
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"items": [
+						{
+							"type": "item",
+							"name": "Protective Magic",
+							"entries": [
+								"You learn one 2nd-level spell of your choice. The {@filter 2nd-level spell|spells|level=2|school=A;D} must be from the abjuration or divination school of magic. You can cast this feat's 2nd-level spell without a spell slot, and you must finish a long rest before you can cast it in this way again. You can also cast this spell using spell slots you have of the appropriate level. The spell's spellcasting ability is the one chosen when you gained the {@feat Initiate of High Sorcery|UA2022HeroesOfKrynnRevisited} feat."
+							]
+						},
+						{
+							"type": "item",
+							"name": "Protective Ward",
+							"entries": [
+								"When you or a creature you can see within 30 feet of you takes damage, you can use your reaction to expend a spell slot and weave protective magic around the target. Roll a number of d6s equal to the level of the spell slot expended and reduce the damage the target takes by the total rolled on those dice + your spellcasting ability modifier."
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Divinely Favored",
+			"source": "UA2022HeroesOfKrynnRevisited",
+			"page": 4,
+			"additionalSpells": [
+				{
+					"name": "Evil",
+					"ability": {
+						"choose": [
+							"int",
+							"wis",
+							"cha"
+						]
+					},
+					"known": {
+						"_": [
+							{
+								"choose": "level=0|class=Cleric",
+								"count": 1
+							}
+						]
+					},
+					"innate": {
+						"_": {
+							"daily": {
+								"1e": [
+									"augury",
+									{
+										"choose": "level=1|class=warlock"
+									}
+								]
+							}
+						}
+					}
+				},
+				{
+					"name": "Good",
+					"ability": {
+						"choose": [
+							"int",
+							"wis",
+							"cha"
+						]
+					},
+					"known": {
+						"_": [
+							{
+								"choose": "level=0|class=Cleric",
+								"count": 1
+							}
+						]
+					},
+					"innate": {
+						"_": {
+							"daily": {
+								"1e": [
+									"augury",
+									{
+										"choose": "level=1|class=cleric"
+									}
+								]
+							}
+						}
+					}
+				},
+				{
+					"name": "Neutral",
+					"ability": {
+						"choose": [
+							"int",
+							"wis",
+							"cha"
+						]
+					},
+					"known": {
+						"_": [
+							{
+								"choose": "level=0|class=Cleric",
+								"count": 1
+							}
+						]
+					},
+					"innate": {
+						"_": {
+							"daily": {
+								"1e": [
+									"augury",
+									{
+										"choose": "level=1|class=druid"
+									}
+								]
+							}
+						}
+					}
+				}
+			],
+			"entries": [
+				"A god has chosen you to carry a spark of their divine power.",
+				"You learn one cantrip of your choice from the cleric spell list and one 1st-level spell based on the alignment of your character, as specified in the Alignment Spells table below. You also learn the {@spell augury} spell.",
+				"You can cast the chosen 1st-level spell and the {@spell augury} spell without a spell slot, and you must finish a long rest before you can cast either of these spells in this way again. You can also cast these spells using spell slots you have of the appropriate level.",
+				"Your spellcasting ability for this feat's spells is Intelligence, Wisdom, or Charisma (choose when you select this feat).",
+				{
+					"type": "table",
+					"caption": "Alignment Spells",
+					"colLabels": [
+						"Alignment",
+						"1st-level Spell"
+					],
+					"colStyles": [
+						"col-2",
+						"col-10"
+					],
+					"rows": [
+						[
+							"Evil",
+							"Choose one {@filter 1st-level warlock spell|spells|level=1|class=warlock}."
+						],
+						[
+							"Good",
+							"Choose one {@filter 1st-level cleric spell|spells|level=1|class=cleric}."
+						],
+						[
+							"Neutral",
+							"Choose one {@filter 1st-level druid spell|spells|level=1|class=druid}."
+						]
+					]
+				},
+				"In addition, you can use a holy symbol as a spellcasting focus for any spell you cast that uses the spellcasting ability you choose when you select this feat."
+			]
+		},
+		{
+			"name": "Initiate of High Sorcery",
+			"source": "UA2022HeroesOfKrynnRevisited",
+			"page": 4,
+			"prerequisite": [
+				{
+					"level": {
+						"level": 1,
+						"class": {
+							"name": "Sorcerer",
+							"visible": true
+						}
+					}
+				},
+				{
+					"level": {
+						"level": 1,
+						"class": {
+							"name": "Wizard",
+							"visible": true
+						}
+					}
+				},
+				{
+					"background": [
+						{
+							"name": "Mage of High Sorcery",
+							"displayEntry": "{@background Mage of High Sorcery|UA2022HeroesOfKrynnRevisited}"
+						}
+					]
+				}
+			],
+			"additionalSpells": [
+				{
+					"name": "Nuitari",
+					"ability": {
+						"choose": [
+							"int",
+							"wis",
+							"cha"
+						]
+					},
+					"innate": {
+						"_": {
+							"daily": {
+								"1e": [
+									{
+										"choose": {
+											"from": [
+												"dissonant whispers",
+												"false life",
+												"hex",
+												"ray of sickness"
+											]
+										}
+									}
+								]
+							}
+						}
+					}
+				},
+				{
+					"name": "Lunitari",
+					"ability": {
+						"choose": [
+							"int",
+							"wis",
+							"cha"
+						]
+					},
+					"innate": {
+						"_": {
+							"daily": {
+								"1e": [
+									{
+										"choose": {
+											"from": [
+												"color spray",
+												"disguise self",
+												"feather fall",
+												"longstrider"
+											]
+										}
+									}
+								]
+							}
+						}
+					}
+				},
+				{
+					"name": "Solinari",
+					"ability": {
+						"choose": [
+							"int",
+							"wis",
+							"cha"
+						]
+					},
+					"innate": {
+						"_": {
+							"daily": {
+								"1e": [
+									{
+										"choose": {
+											"from": [
+												"comprehend languages",
+												"detect evil and good",
+												"protection from evil and good",
+												"shield"
+											]
+										}
+									}
+								]
+							}
+						}
+					}
+				}
+			],
+			"entries": [
+				"You've received training from magic-users affiliated with the Mages of High Sorcery.",
+				"Choose one of the three moons of Krynn to influence your magic: the black moon, Nuitari; the red moon, Lunitari; or the white moon Solinari. You learn one cantrip of your choice from the wizard spell list and two 1st-level spells based on the moon you choose, as specified in the Lunar Spells table.",
+				"You can cast each of the chosen 1st-level spells without a spell slot, and you must finish a long rest before you can cast it in this way again. You can also cast the spells using any spell slots you have.",
+				"Your spellcasting ability for this feat's spells is Intelligence, Wisdom, or Charisma (choose when you select this feat).",
+				{
+					"type": "table",
+					"caption": "Lunar Spells",
+					"colLabels": [
+						"Moon",
+						"1st-level Spell"
+					],
+					"colStyles": [
+						"col-2",
+						"col-10"
+					],
+					"rows": [
+						[
+							"Nuitari",
+							"Choose two from {@spell dissonant whispers}, {@spell false life}, {@spell hex}, and {@spell ray of sickness}."
+						],
+						[
+							"Lunitari",
+							"Choose two from {@spell color spray}, {@spell disguise self}, {@spell feather fall}, and {@spell longstrider}."
+						],
+						[
+							"Solinari",
+							"Choose two from {@spell comprehend languages}, {@spell detect evil and good}, {@spell protection from evil and good}, and {@spell shield}."
+						]
+					]
+				}
+			]
+		},
+		{
+			"name": "Knight of the Crown",
+			"source": "UA2022HeroesOfKrynnRevisited",
+			"page": 5,
+			"prerequisite": [
+				{
+					"level": 4,
+					"feat": [
+						"squire of solamnia|ua2022heroesofkrynnrevisited"
+					]
+				}
+			],
+			"ability": [
+				{
+					"choose": {
+						"from": [
+							"str",
+							"dex"
+						],
+						"amount": 1
+					}
+				}
+			],
+			"entries": [
+				"You are a Knight of Solamnia aligned with the Order of the Crown, a group that extols the virtues of cooperation, loyalty, and obedience. You excel in group combat and gain these benefits:",
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"items": [
+						{
+							"type": "item",
+							"name": "Crown Maneuvers",
+							"entries": [
+								"You learn the {@optfeature Distracting Strike} or the {@optfeature Goading Attack} maneuver from the Battle Master subclass of the fighter in the Player's Handbook (choose the maneuver when you gain this feat). If the maneuver requires a saving throw, the save's DC equals 8 + your proficiency bonus + your Strength or Dexterity modifier (your choice). Whenever you finish a long rest, you can replace the maneuver you learned from this feat with the other maneuver offered by it."
+							]
+						},
+						{
+							"type": "item",
+							"name": "Superiority Dice",
+							"entries": [
+								"You gain two superiority dice, which you add to the dice you have from the Squire of Solamnia feat. All the dice are now d8s."
+							]
+						}
+					]
+				},
+				{
+					"type": "inset",
+					"name": "Membership in Multiple Knightly Orders",
+					"entries": [
+						"Knights of Solamnia are only ever members of one of their organization's orders. In the course of their training, most knights begin as members of the Knights of the Crown and then move on to join other orders. Whether a character follows this path or another, they retain what they learned as a member of an order even if they join another. Characters can change what knightly order they're a part of, but they always have access to any Knight of Solamnia feats they've acquired."
+					]
+				}
+			]
+		},
+		{
+			"name": "Knight of the Rose",
+			"source": "UA2022HeroesOfKrynnRevisited",
+			"page": 5,
+			"prerequisite": [
+				{
+					"level": 4,
+					"feat": [
+						"squire of solamnia|ua2022heroesofkrynnrevisited"
+					]
+				}
+			],
+			"ability": [
+				{
+					"choose": {
+						"from": [
+							"con",
+							"cha"
+						],
+						"amount": 1
+					}
+				}
+			],
+			"entries": [
+				"You are a Knight of Solamnia aligned with the Order of the Rose, a group known for leadership, justice, and wisdom. Your resolve grants you these benefits:",
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"items": [
+						{
+							"type": "item",
+							"name": "Rose Maneuvers",
+							"entries": [
+								"You learn the {@optfeature Commander's Strike} or {@optfeature Rally} maneuver from the Battle Master subclass of the fighter in the Player's Handbook (choose the maneuver when you gain this feat). Whenever you finish a long rest, you can replace the maneuver you learned from this feat with the other maneuver offered by it."
+							]
+						},
+						{
+							"type": "item",
+							"name": "Superiority Dice",
+							"entries": [
+								"You gain two superiority dice, which you add to the dice you have from the Squire of Solamnia feat. All the dice are now d8s."
+							]
+						}
+					]
+				},
+				{
+					"type": "inset",
+					"name": "Membership in Multiple Knightly Orders",
+					"entries": [
+						"Knights of Solamnia are only ever members of one of their organization's orders. In the course of their training, most knights begin as members of the Knights of the Crown and then move on to join other orders. Whether a character follows this path or another, they retain what they learned as a member of an order even if they join another. Characters can change what knightly order they're a part of, but they always have access to any Knight of Solamnia feats they've acquired."
+					]
+				}
+			]
+		},
+		{
+			"name": "Knight of the Sword",
+			"source": "UA2022HeroesOfKrynnRevisited",
+			"page": 5,
+			"prerequisite": [
+				{
+					"level": 4,
+					"feat": [
+						"squire of solamnia|ua2022heroesofkrynnrevisited"
+					]
+				}
+			],
+			"ability": [
+				{
+					"choose": {
+						"from": [
+							"int",
+							"wis",
+							"cha"
+						],
+						"amount": 1
+					}
+				}
+			],
+			"savingThrowProficiencies": [
+				{
+					"choose": {
+						"from": [
+							"int",
+							"wis",
+							"cha"
+						]
+					}
+				}
+			],
+			"entries": [
+				"You are a Knight of Solamnia aligned with the Order of the Sword, a group devoted to heroism and courage. Bravery steels your spirit, granting you these benefits:",
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"items": [
+						{
+							"type": "item",
+							"name": "Sword Maneuvers",
+							"entries": [
+								"You learn the {@optfeature Maneuvering Attack} or the {@optfeature Menacing Attack} maneuver from the Battle Master subclass of the fighter in the Player's Handbook (choose the maneuver when you gain this feat). If the maneuver requires a saving throw, the save's DC equals 8 + your proficiency bonus + your Strength or Dexterity modifier (your choice). Whenever you finish a long rest, you can replace the maneuver you learned from this feat with the other maneuver offered by it."
+							]
+						},
+						{
+							"type": "item",
+							"name": "Superiority Dice",
+							"entries": [
+								"You gain two superiority dice, which you add to the dice you have from the Squire of Solamnia feat. All the dice are now d8s."
+							]
+						}
+					]
+				},
+				{
+					"type": "inset",
+					"name": "Membership in Multiple Knightly Orders",
+					"entries": [
+						"Knights of Solamnia are only ever members of one of their organization's orders. In the course of their training, most knights begin as members of the Knights of the Crown and then move on to join other orders. Whether a character follows this path or another, they retain what they learned as a member of an order even if they join another. Characters can change what knightly order they're a part of, but they always have access to any Knight of Solamnia feats they've acquired."
+					]
+				}
+			]
+		},
+		{
+			"name": "Squire of Solamnia",
+			"source": "UA2022HeroesOfKrynnRevisited",
+			"page": 5,
+			"prerequisite": [
+				{
+					"level": {
+						"level": 1,
+						"class": {
+							"name": "Fighter",
+							"visible": true
+						}
+					}
+				},
+				{
+					"level": {
+						"level": 1,
+						"class": {
+							"name": "Paladin",
+							"visible": true
+						}
+					}
+				},
+				{
+					"background": [
+						{
+							"name": "Knight of Solamnia",
+							"displayEntry": "{@background Knight of Solamnia|UA2022HeroesOfKrynnRevisited}"
+						}
+					]
+				}
+			],
+			"entries": [
+				"Your training in the ways of the Knights of Solamnia grants you these benefits:",
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"items": [
+						{
+							"type": "item",
+							"name": "Mount Up",
+							"entries": [
+								"Mounting or dismounting costs you only 5 feet of movement."
+							]
+						},
+						{
+							"type": "item",
+							"name": "Squire Maneuvers",
+							"entries": [
+								"You learn the {@optfeature Lunging Attack}, {@optfeature Precision Attack}, or {@optfeature Pushing Attack} maneuver from the Battle Master subclass of the fighter in the Player's Handbook (choose the maneuver when you gain this feat). If the maneuver requires a saving throw, the save's DC equals 8 + your proficiency bonus + your Strength or Dexterity modifier (your choice). Whenever you finish a long rest, you can replace the maneuver you learned from this feat with another one from the list above."
+							]
+						},
+						{
+							"type": "item",
+							"name": "Superiority Dice",
+							"entries": [
+								"You gain a number of superiority dice equal to your proficiency bonus. These dice are d6s, and you can use them only with the maneuver you gain from this feat and with any maneuvers you gain from feats that have this feat as a prerequisite. A superiority die is expended when you use it, and you regain all expended superiority dice when you finish a long rest."
+							]
+						}
+					]
+				}
+			]
+		}
+	]
+}

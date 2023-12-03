@@ -1,0 +1,1278 @@
+{
+	"_meta": {
+		"sources": [
+			{
+				"json": "UAFighterRogueWizard",
+				"abbreviation": "UAFRW",
+				"full": "Unearthed Arcana: Fighter, Rogue, and Wizard",
+				"authors": [
+					"Wizards of the Coast"
+				],
+				"convertedBy": [
+					"Giddy"
+				],
+				"version": "1.0.0",
+				"url": "https://media.wizards.com/2019/dnd/downloads/UA-PsychicSoulPsionics.pdf",
+				"dateReleased": "2019-11-25"
+			}
+		],
+		"dateAdded": 1701616429,
+		"dateLastModified": 1701616429,
+		"_dateLastModifiedHash": "aaaaaaaaaa"
+	},
+	"subclass": [
+		{
+			"name": "Psionics (UA)",
+			"shortName": "Psionics (UA)",
+			"source": "UAFighterRogueWizard",
+			"className": "Wizard",
+			"classSource": "PHB",
+			"page": 3,
+			"additionalSpells": [
+				{
+					"known": {
+						"2": {
+							"_": [
+								{
+									"choose": {
+										"from": [
+											"friends#c",
+											"mage hand#c",
+											"message#c"
+										]
+									}
+								}
+							]
+						},
+						"10": {
+							"daily": {
+								"1e": [
+									{
+										"choose": {
+											"from": [
+												"dominate person",
+												"scrying",
+												"telekinesis"
+											]
+										}
+									}
+								]
+							}
+						}
+					}
+				}
+			],
+			"subclassFeatures": [
+				"Psionics|Wizard||Psionics (UA)|UAFighterRogueWizard|2",
+				"Thought Form|Wizard||Psionics (UA)|UAFighterRogueWizard|6",
+				"Mental Discipline|Wizard||Psionics (UA)|UAFighterRogueWizard|10",
+				"Empowered Psionics|Wizard||Psionics (UA)|UAFighterRogueWizard|10",
+				"Thought Travel|Wizard||Psionics (UA)|UAFighterRogueWizard|14"
+			]
+		},
+		{
+			"name": "Psychic Warrior (UA)",
+			"shortName": "Psychic Warrior (UA)",
+			"source": "UAFighterRogueWizard",
+			"className": "Fighter",
+			"classSource": "PHB",
+			"page": 1,
+			"isReprinted": true,
+			"additionalSpells": [
+				{
+					"known": {
+						"3": [
+							"mage hand#c"
+						]
+					}
+				}
+			],
+			"subclassFeatures": [
+				"Psychic Warrior|Fighter||Psychic Warrior (UA)|UAFighterRogueWizard|3",
+				"Strength of Mind|Fighter||Psychic Warrior (UA)|UAFighterRogueWizard|7",
+				"Telekinetic Bulwark|Fighter||Psychic Warrior (UA)|UAFighterRogueWizard|10",
+				"Psionic Armament Improvement|Fighter||Psychic Warrior (UA)|UAFighterRogueWizard|10",
+				"Agonizing Strikes|Fighter||Psychic Warrior (UA)|UAFighterRogueWizard|15",
+				"Psychic Dreadnaught|Fighter||Psychic Warrior (UA)|UAFighterRogueWizard|18"
+			]
+		},
+		{
+			"name": "Soulknife (UA)",
+			"shortName": "Soulknife (UA)",
+			"source": "UAFighterRogueWizard",
+			"className": "Rogue",
+			"classSource": "PHB",
+			"page": 2,
+			"isReprinted": true,
+			"subclassFeatures": [
+				"Soulknife|Rogue||Soulknife (UA)|UAFighterRogueWizard|3",
+				"Terrifying Blade|Rogue||Soulknife (UA)|UAFighterRogueWizard|9",
+				"Psychic Veil|Rogue||Soulknife (UA)|UAFighterRogueWizard|13",
+				"Rend Mind|Rogue||Soulknife (UA)|UAFighterRogueWizard|17"
+			]
+		}
+	],
+	"subclassFeature": [
+		{
+			"name": "Psychic Warrior",
+			"source": "UAFighterRogueWizard",
+			"page": 1,
+			"className": "Fighter",
+			"classSource": "PHB",
+			"subclassShortName": "Psychic Warrior (UA)",
+			"subclassSource": "UAFighterRogueWizard",
+			"level": 3,
+			"entries": [
+				"Awakening to the psionic power within themselves, a Psychic Warrior is a fighter who augments their physical might with psychically infused weapon strikes, telekinetic lashes, and barriers of mental force.",
+				"As a Psychic Warrior, you might have honed your psionic abilities through your own disciplined practice, unlocked it under the tutelage of a master, or developed it at an academy dedicated to wielding the mind's power as both weapon and shield.",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Psionic Armament|Fighter||Psychic Warrior (UA)|UAFighterRogueWizard|3"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Telekinetic Hand|Fighter||Psychic Warrior (UA)|UAFighterRogueWizard|3"
+				}
+			]
+		},
+		{
+			"name": "Psionic Armament",
+			"source": "UAFighterRogueWizard",
+			"page": 1,
+			"className": "Fighter",
+			"classSource": "PHB",
+			"subclassShortName": "Psychic Warrior (UA)",
+			"subclassSource": "UAFighterRogueWizard",
+			"level": 3,
+			"header": 1,
+			"entries": [
+				"{@i 3rd-level Psychic Warrior feature}",
+				"You can channel your psychic power to magically augment your prowess. When you finish a long rest, choose whether to augment your defenses or your strikes. The chosen benefit lasts until you finish a long rest.",
+				{
+					"type": "entries",
+					"name": "Augmented Defenses",
+					"entries": [
+						"When you or a creature you can see within 30 feet of you takes damage, you can use your reaction to roll a {@dice d10} and reduce the amount of damage taken by the number rolled. When you reach 10th level in this class, the die changes to a {@dice d12}."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Augmented Strikes",
+					"entries": [
+						"Once during each of your turns when you hit a creature with a weapon attack, you can also deal {@damage 1d4} psychic damage to that target. When you reach 10th level in this class, the psychic damage increases to {@dice 1d6}."
+					]
+				}
+			]
+		},
+		{
+			"name": "Telekinetic Hand",
+			"source": "UAFighterRogueWizard",
+			"page": 1,
+			"className": "Fighter",
+			"classSource": "PHB",
+			"subclassShortName": "Psychic Warrior (UA)",
+			"subclassSource": "UAFighterRogueWizard",
+			"level": 3,
+			"header": 1,
+			"entries": [
+				"{@i 3rd-level Psychic Warrior feature}",
+				"You learn the {@spell mage hand} cantrip. You can cast it without components, and you can make the spectral hand {@condition invisible}. Intelligence is your spellcasting ability for this spell."
+			]
+		},
+		{
+			"name": "Strength of Mind",
+			"source": "UAFighterRogueWizard",
+			"page": 1,
+			"className": "Fighter",
+			"classSource": "PHB",
+			"subclassShortName": "Psychic Warrior (UA)",
+			"subclassSource": "UAFighterRogueWizard",
+			"level": 7,
+			"header": 2,
+			"entries": [
+				"{@i 7th-level Psychic Warrior feature}",
+				"As a bonus action, you can telekinetically lash out at a creature you can see within 20 feet of you. The target must make a Strength saving throw against a DC equal to 8 + your proficiency bonus + your Intelligence modifier. On a failed save, the target takes force damage equal to {@dice 2d6} plus your Intelligence modifier and is telekinetically moved 15 feet directly toward or away from you (your choice). On a successful save, it takes half as much damage and isn't moved.",
+				"You can use this feature a number of times equal to your Intelligence modifier (minimum of once), and you regain all expended uses when you finish a long rest."
+			]
+		},
+		{
+			"name": "Psionic Armament Improvement",
+			"source": "UAFighterRogueWizard",
+			"page": 1,
+			"className": "Fighter",
+			"classSource": "PHB",
+			"subclassShortName": "Psychic Warrior (UA)",
+			"subclassSource": "UAFighterRogueWizard",
+			"level": 10,
+			"header": 2,
+			"entries": [
+				"{@i 10th-level Psychic Warrior feature}",
+				"When you reach 10th level in this class, your Augmented Defenses dice increases to {@dice 1d12}, and your Augmented Strikes dice increases to a {@dice d6}."
+			]
+		},
+		{
+			"name": "Telekinetic Bulwark",
+			"source": "UAFighterRogueWizard",
+			"page": 1,
+			"className": "Fighter",
+			"classSource": "PHB",
+			"subclassShortName": "Psychic Warrior (UA)",
+			"subclassSource": "UAFighterRogueWizard",
+			"level": 10,
+			"header": 2,
+			"entries": [
+				"{@i 10th-level Psychic Warrior feature}",
+				"When you take the {@action Attack} action, you can forgo one of your attacks to project a bastion of psionic power in a 10-foot radius around yourself. It lasts for 1 minute or until you're {@condition incapacitated}. For the duration, you and your allies in that area gain the benefits of half cover and have advantage on Strength saving throws.",
+				"Once you use this feature, you can't do so again until you finish a long rest or until after you use your Second Wind feature."
+			]
+		},
+		{
+			"name": "Agonizing Strikes",
+			"source": "UAFighterRogueWizard",
+			"page": 1,
+			"className": "Fighter",
+			"classSource": "PHB",
+			"subclassShortName": "Psychic Warrior (UA)",
+			"subclassSource": "UAFighterRogueWizard",
+			"level": 15,
+			"header": 2,
+			"entries": [
+				"{@i 15th-level Psychic Warrior feature}",
+				"Your attacks can channel psychic agony. When you hit a creature with a weapon attack, you can also deal {@damage 2d10} psychic damage to that target and force it to make a Constitution saving throw against a DC equal to 8 + your proficiency bonus + your Intelligence modifier. Unless the save succeeds, the target falls {@condition prone}, and it suffers disadvantage on ability checks until the end of your next turn.",
+				"You can use this feature a number of times equal to your Intelligence modifier (minimum of once), and you regain all expended uses when you finish a long rest."
+			]
+		},
+		{
+			"name": "Psychic Dreadnaught",
+			"source": "UAFighterRogueWizard",
+			"page": 1,
+			"className": "Fighter",
+			"classSource": "PHB",
+			"subclassShortName": "Psychic Warrior (UA)",
+			"subclassSource": "UAFighterRogueWizard",
+			"level": 18,
+			"header": 2,
+			"entries": [
+				"{@i 18th-level Psychic Warrior feature}",
+				"The power of your mind suffuses your entire being, making you a nigh-unstoppable force on the battlefield. Using your reaction when you take damage, you can give yourself the following benefits for 1 minute or until you're {@condition incapacitated}:",
+				{
+					"type": "list",
+					"items": [
+						"At the start of each of your turns, you regain 10 hit points.",
+						"Your walking speed increases by 10 feet.",
+						"If you're {@condition prone}, you can stand up by spending 5 feet of movement."
+					]
+				},
+				"Once you activate this feature, you can't use it again until you finish a long rest."
+			]
+		},
+		{
+			"name": "Soulknife",
+			"source": "UAFighterRogueWizard",
+			"page": 2,
+			"className": "Rogue",
+			"classSource": "PHB",
+			"subclassShortName": "Soulknife (UA)",
+			"subclassSource": "UAFighterRogueWizard",
+			"level": 3,
+			"entries": [
+				"A Soulknife possesses powerful psionic potential. They channel this reservoir of inner magic into tangible blades of psychic energy, striking at their victims' minds. They find easy employment as members of thieves' guilds, being particularly sought after as assassins, since their signature psychic blades leave behind no visible wounds.",
+				"As a Soulknife, your psionic abilities might have haunted you since you were a child, only revealing their potential when your psychic knives first appeared. Or you might have sought out a reclusive order of psionic assassins and spent years learning how to manifest your deadly blades.",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Psychic Blade|Rogue||Soulknife (UA)|UAFighterRogueWizard|3"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Psionic Enhancement|Rogue||Soulknife (UA)|UAFighterRogueWizard|3"
+				}
+			]
+		},
+		{
+			"name": "Psionic Enhancement",
+			"source": "UAFighterRogueWizard",
+			"page": 2,
+			"className": "Rogue",
+			"classSource": "PHB",
+			"subclassShortName": "Soulknife (UA)",
+			"subclassSource": "UAFighterRogueWizard",
+			"level": 3,
+			"header": 1,
+			"entries": [
+				"{@i 3rd-level Soulknife feature}",
+				"You can focus your psionic power to give yourself an extraordinary ability. When you finish a long rest, you gain one of the following benefits of your choice, which lasts until you finish a long rest:",
+				{
+					"type": "list",
+					"items": [
+						"You can communicate telepathically with any creature you can see within 30 feet of you. If a creature can speak at least one language, it can respond to you telepathically.",
+						"Increase your walking speed by 5 feet.",
+						"Your hit point maximum and your current hit points increase by an amount equal to your Intelligence modifier plus your rogue level."
+					]
+				}
+			]
+		},
+		{
+			"name": "Psychic Blade",
+			"source": "UAFighterRogueWizard",
+			"page": 2,
+			"className": "Rogue",
+			"classSource": "PHB",
+			"subclassShortName": "Soulknife (UA)",
+			"subclassSource": "UAFighterRogueWizard",
+			"level": 3,
+			"header": 1,
+			"entries": [
+				"{@i 3rd-level Soulknife feature}",
+				"As a bonus action, you can create a magical blade of shimmering psychic power from one or both of your hands. While one of your hands is manifesting a blade, you can't hold anything in that hand. You can dismiss one or both blades at any time (no action required), and they disappear if you're {@condition incapacitated}.",
+				"The blade is a simple melee weapon with the finesse, light, and thrown properties. It has a normal range of 30 feet and a long range of 60 feet, and it deals {@damage 1d6} psychic damage on a hit. If you throw the blade as part of an attack, it vanishes immediately after it hits or misses its target. The blade otherwise disappears the instant it leaves your hand."
+			]
+		},
+		{
+			"name": "Terrifying Blade",
+			"source": "UAFighterRogueWizard",
+			"page": 2,
+			"className": "Rogue",
+			"classSource": "PHB",
+			"subclassShortName": "Soulknife (UA)",
+			"subclassSource": "UAFighterRogueWizard",
+			"level": 9,
+			"header": 2,
+			"entries": [
+				"{@i 9th-level Soulknife feature}",
+				"Your psychic blades can now stoke terror within a target: When you damage a creature with your Psychic Blade, you can force the target to make a Wisdom saving throw (DC equal to 8 + your proficiency bonus + your Intelligence modifier). On a failed save, the creature is {@condition frightened} of you until the start of your next turn. On a successful save, the creature isn't {@condition frightened} and is immune to your Terrifying Blade for 24 hours."
+			]
+		},
+		{
+			"name": "Psychic Veil",
+			"source": "UAFighterRogueWizard",
+			"page": 2,
+			"className": "Rogue",
+			"classSource": "PHB",
+			"subclassShortName": "Soulknife (UA)",
+			"subclassSource": "UAFighterRogueWizard",
+			"level": 13,
+			"header": 2,
+			"entries": [
+				"{@i 13th-level Soulknife feature}",
+				"You can weave a veil of psionic static to mask your physical presence. As an action, you can magically become {@condition invisible}, along with anything you are wearing or carrying, for 10 minutes. This invisibility ends if you make an attack or if you force a creature to make a saving throw.",
+				"You can use this feature a number of times equal to your Intelligence modifier (minimum of once), and you regain all expended uses when you finish a long rest."
+			]
+		},
+		{
+			"name": "Rend Mind",
+			"source": "UAFighterRogueWizard",
+			"page": 2,
+			"className": "Rogue",
+			"classSource": "PHB",
+			"subclassShortName": "Soulknife (UA)",
+			"subclassSource": "UAFighterRogueWizard",
+			"level": 17,
+			"header": 2,
+			"entries": [
+				"{@i 17th-level Soulknife feature}",
+				"You can sweep your Psychic Blade directly through a creature's mind. As an action while you have at least one Psychic Blade manifested, you can force a creature you can see within 30 feet of you to make an Intelligence saving throw (DC equal to 10 + your proficiency bonus + your Intelligence modifier). If you are hidden from the target, it has disadvantage on the save. On a failed save, the target takes {@damage 12d6} psychic damage, and it is {@condition stunned} until the start of your next turn. On a successful save, the target takes half as much damage and isn't {@condition stunned}. One of your Psychic Blades vanishes after using this feature.",
+				"You can use this feature a number of times equal to your Intelligence modifier (minimum of once), and you regain all expended uses when you finish a long rest."
+			]
+		},
+		{
+			"name": "Psionics",
+			"source": "UAFighterRogueWizard",
+			"page": 3,
+			"className": "Wizard",
+			"classSource": "PHB",
+			"subclassShortName": "Psionics (UA)",
+			"subclassSource": "UAFighterRogueWizard",
+			"level": 2,
+			"entries": [
+				"Wizards study magical power in all its forms, including the magic of psionics. Those wizards who follow the tradition of Psionics hone the magical potential of their own minds. Sometimes called psionicists or mentalists, these wizards interact with the multiverse through the lens of their psionic aptitude and awareness.",
+				"Psionicists channel their magic by focusing their minds. By doing so they can transcend their physical bodies, adopting forms of pure thought, casting spells psionically to bypass the need for components, and perceiving the world with a broader range of senses.",
+				"As a member of the Psionics tradition, you might have awoken your psionic potential through the strain of your esoteric studies, or perhaps you joined a scholarly order dedicated to unlocking the magic of the mind.",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Psionic Focus|Wizard||Psionics (UA)|UAFighterRogueWizard|2"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Psionic Devotion|Wizard||Psionics (UA)|UAFighterRogueWizard|2"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Your Psionic Focus|Wizard||Psionics (UA)|UAFighterRogueWizard|2"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Psionic Spells|Wizard||Psionics (UA)|UAFighterRogueWizard|2"
+				}
+			]
+		},
+		{
+			"name": "Psionic Devotion",
+			"source": "UAFighterRogueWizard",
+			"page": 3,
+			"className": "Wizard",
+			"classSource": "PHB",
+			"subclassShortName": "Psionics (UA)",
+			"subclassSource": "UAFighterRogueWizard",
+			"level": 2,
+			"header": 1,
+			"entries": [
+				"{@i 2nd-level Psionics feature}",
+				"Your study of psionics begins to unleash your mind's potential. When you gain this feature, choose one of the following cantrips: {@spell friends}, {@spell mage hand}, or {@spell message}. You learn that cantrip if you don't already know it, and it doesn't count against the number of wizard cantrips you know. While your psionic focus is on your person, you can cast the chosen cantrip as a bonus action, requiring no components, and with the modification listed below:",
+				{
+					"type": "entries",
+					"name": "Friends",
+					"entries": [
+						"When the spell ends, the target doesn't become hostile to you."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Mage Hand",
+					"entries": [
+						"You can make the hand {@condition invisible} when you cast the spell, and controlling the spell is a bonus action for you."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Message",
+					"entries": [
+						"You don't need to point toward the target or whisper your message out loud."
+					]
+				}
+			]
+		},
+		{
+			"name": "Psionic Focus",
+			"source": "UAFighterRogueWizard",
+			"page": 3,
+			"className": "Wizard",
+			"classSource": "PHB",
+			"subclassShortName": "Psionics (UA)",
+			"subclassSource": "UAFighterRogueWizard",
+			"level": 2,
+			"header": 1,
+			"entries": [
+				"{@i 2nd-level Psionics feature}",
+				"You have learned to channel psionic energy through a special object: a psionic focus. You gain the object with this feature (see the \"Your Psionic Focus\" sidebar for how you might have acquired the item).",
+				"While your psionic focus is on your person, you gain the following benefits:",
+				{
+					"type": "list",
+					"items": [
+						"The object is a spellcasting focus for you.",
+						"When you roll psychic or force damage for any of your wizard spells, you can reroll any of those damage dice that rolls a 1, but you must use the new roll."
+					]
+				},
+				"If your psionic focus is lost, you can magically recreate it by meditating for 1 hour during a short or long rest, at the end of which the focus appears in your hand."
+			]
+		},
+		{
+			"name": "Psionic Spells",
+			"source": "UAFighterRogueWizard",
+			"page": 3,
+			"className": "Wizard",
+			"classSource": "PHB",
+			"subclassShortName": "Psionics (UA)",
+			"subclassSource": "UAFighterRogueWizard",
+			"level": 2,
+			"header": 1,
+			"type": "inset",
+			"entries": [
+				"Spell selection is part of what defines a wizard and their individual fields of expertise. When creating your Psionics wizard, consider spells that are thematically appropriate for that tradition. Psionics as a theme generally includes spells that do the following:",
+				{
+					"type": "list",
+					"items": [
+						"contact or manipulate minds",
+						"allow the caster to perceive distant locations or planes",
+						"alter perception",
+						"move objects and creatures",
+						"teleport",
+						"deal psychic or force damage"
+					]
+				}
+			]
+		},
+		{
+			"name": "Your Psionic Focus",
+			"source": "UAFighterRogueWizard",
+			"page": 3,
+			"className": "Wizard",
+			"classSource": "PHB",
+			"subclassShortName": "Psionics (UA)",
+			"subclassSource": "UAFighterRogueWizard",
+			"level": 2,
+			"header": 1,
+			"type": "inset",
+			"entries": [
+				"Every member of the Psionics tradition has a story about how their psionic focus came into their life. Consider how you found yours and what form it takes.",
+				"The event that brought your psionic focus to you probably holds personal significance. Did your master give it to you upon the completion of your apprenticeship? Was it awarded to you when you graduated from your academy of wizardry? Did it call to you in a jeweler's shop? Was it associated with the moment when your psionic powers first manifested? One morning, did you wake up with it humming under your pillow?",
+				"The form your psionic focus takes is also yours to define, likely being a reflection of how your magic came into being, a symbol of your own psyche, or an item you use to focus your thoughts. It is a handheld object that has special meaning to you, but that can't be a weapon or magic item. Perhaps it's a childhood memento, the skull of an alien creature, a crystal that makes you feel a certain way, a coin that only lands on its edge, a firescarred planchette, or any other enigmatic personal relic.",
+				"However the object arrived and whatever form it takes, your psionic focus is now yours, and you decide how to handle it. Will you mount it on a wand or staff? Would you prefer to wear it on a necklace or circlet? Have you embedded it into the cover of your spellbook? Wherever you put it, you can now channel your magic through it, and it is a sign of your membership in the revered tradition of psionic wizardry."
+			]
+		},
+		{
+			"name": "Thought Form",
+			"source": "UAFighterRogueWizard",
+			"page": 3,
+			"className": "Wizard",
+			"classSource": "PHB",
+			"subclassShortName": "Psionics (UA)",
+			"subclassSource": "UAFighterRogueWizard",
+			"level": 6,
+			"header": 2,
+			"entries": [
+				"{@i 6th-level Psionics feature}",
+				"While you are carrying your psionic focus, you can use a bonus action to magically transform your body into pure psionic energy. The transformation lasts for 10 minutes, until you use a bonus action to assume your normal form, or until you are {@condition incapacitated} or die.",
+				"While in thought form, you are a figure of luminous psychic energy, with your psionic focus hovering within. Your form can appear as anything you wish, but it is obviously magical, is the same size as you, and sheds dim light in a 5-foot-radius. Any other equipment you are wearing or carrying transforms with you and melds into your thought form. You also gain the following benefits:",
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"items": [
+						{
+							"type": "item",
+							"name": "Psionic Spellcasting",
+							"entry": "When you cast a spell while in thought form, you can cast the spell psionically. If you do so, the spell doesn't require verbal, somatic, or material components that lack a gold cost."
+						},
+						{
+							"type": "item",
+							"name": "Psychic Resilience",
+							"entry": "You gain resistance to psychic damage and to bludgeoning, piercing, and slashing damage from nonmagical attacks."
+						}
+					]
+				},
+				"You can transform using this feature a number of times equal to your Intelligence modifier (minimum of once), and you regain all expended uses when you finish a long rest."
+			]
+		},
+		{
+			"name": "Empowered Psionics",
+			"source": "UAFighterRogueWizard",
+			"page": 3,
+			"className": "Wizard",
+			"classSource": "PHB",
+			"subclassShortName": "Psionics (UA)",
+			"subclassSource": "UAFighterRogueWizard",
+			"level": 10,
+			"header": 2,
+			"entries": [
+				"{@i 10th-level Psionics feature}",
+				"When you deal psychic or force damage with a wizard spell, you can add your Intelligence modifier to the damage against one of the spell's targets."
+			]
+		},
+		{
+			"name": "Mental Discipline",
+			"source": "UAFighterRogueWizard",
+			"page": 3,
+			"className": "Wizard",
+			"classSource": "PHB",
+			"subclassShortName": "Psionics (UA)",
+			"subclassSource": "UAFighterRogueWizard",
+			"level": 10,
+			"header": 2,
+			"entries": [
+				"{@i 10th-level Psionics feature}",
+				"Your mind's power expands to greater heights. When you gain this feature, choose one of the following spells: {@spell dominate person}, {@spell scrying}, or {@spell telekinesis}. You can add the spell to your spellbook, and you can cast it without components.",
+				"You can also cast the chosen spell once without expending a spell slot. After you do so, you regain the ability to cast the spell without a slot when you finish a long rest."
+			]
+		},
+		{
+			"name": "Thought Travel",
+			"source": "UAFighterRogueWizard",
+			"page": 3,
+			"className": "Wizard",
+			"classSource": "PHB",
+			"subclassShortName": "Psionics (UA)",
+			"subclassSource": "UAFighterRogueWizard",
+			"level": 14,
+			"header": 2,
+			"entries": [
+				"{@i 14th-level Psionics feature}",
+				"While using your Thought Form, you have a flying speed equal to your walking speed and can hover, and you can move through other creatures and objects as if they were {@quickref difficult terrain||3}.",
+				"You take {@damage 1d10} force damage if you end your turn inside an object. If you return to your normal form while inside an object, you are shunted to the nearest unoccupied space, and you take {@damage 1d10} force damage for every 5 feet traveled."
+			]
+		}
+	],
+	"feat": [
+		{
+			"name": "Telekinetic",
+			"source": "UAFighterRogueWizard",
+			"page": 8,
+			"ability": [
+				{
+					"int": 1
+				}
+			],
+			"additionalSpells": [
+				{
+					"known": {
+						"_": [
+							"mage hand#c"
+						]
+					}
+				}
+			],
+			"entries": [
+				"You learn to move things with your mind. You gain the following benefits:",
+				{
+					"type": "list",
+					"items": [
+						"You learn the {@spell mage hand} cantrip. You can cast it without verbal or somatic components, and you can make the spectral hand invisible.",
+						"As a bonus action, you can try to shove one creature you can see within 5 feet of the spectral hand created by your {@spell mage hand} spell. When you do so, the target must succeed on a Strength saving throw (DC 8 + your proficiency bonus + your Intelligence modifier) or be pushed 5 feet away from you."
+					]
+				}
+			]
+		},
+		{
+			"name": "Telepathic",
+			"source": "UAFighterRogueWizard",
+			"page": 8,
+			"ability": [
+				{
+					"int": 1
+				}
+			],
+			"skillProficiencies": [
+				{
+					"choose": {
+						"from": [
+							"insight",
+							"deception",
+							"intimidation",
+							"persuasion"
+						]
+					}
+				}
+			],
+			"entries": [
+				"You awaken the ability to mentally connect with others. You gain the following benefits:",
+				{
+					"type": "list",
+					"items": [
+						"You gain proficiency in one skill of your choice from the following list: {@skill Deception}, {@skill Insight}, {@skill Intimidation}, or {@skill Persuasion}.",
+						"You can communicate telepathically with any creature you can see within 30 feet of you. If it understands at least one language, it can respond to you telepathically."
+					]
+				}
+			]
+		}
+	],
+	"spell": [
+		{
+			"name": "Ego Whip",
+			"source": "UAFighterRogueWizard",
+			"page": 7,
+			"level": 4,
+			"school": "E",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 30
+				}
+			},
+			"components": {
+				"v": true
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 1
+					},
+					"concentration": true
+				}
+			],
+			"entries": [
+				"You lash the mind of one creature you can see within range, filling it with despair. The target must succeed on an Intelligence saving throw or suffer disadvantage on attack rolls, ability checks, and saving throws, and it can't cast spells. At the end of each of its turns, the target can make another Intelligence saving throw. On a success, the spell ends on the target."
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					},
+					{
+						"name": "Sorcerer",
+						"source": "PHB"
+					},
+					{
+						"name": "Warlock",
+						"source": "PHB"
+					},
+					{
+						"name": "Bard",
+						"source": "PHB"
+					}
+				]
+			},
+			"savingThrow": [
+				"intelligence"
+			],
+			"miscTags": [
+				"SGT"
+			],
+			"areaTags": [
+				"ST"
+			]
+		},
+		{
+			"name": "Id Insinuation",
+			"source": "UAFighterRogueWizard",
+			"page": 7,
+			"level": 1,
+			"school": "E",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 60
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 1
+					},
+					"concentration": true
+				}
+			],
+			"entries": [
+				"You unleash a torrent of conflicting desires in the mind of one creature you can see within range, impairing its ability to make decisions. The target must succeed on a Wisdom saving throw or be incapacitated. At the end of each of its turns, it takes {@damage 1d12} psychic damage, and it can then make another Wisdom saving throw. On a success, the spell ends on the target."
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					},
+					{
+						"name": "Sorcerer",
+						"source": "PHB"
+					},
+					{
+						"name": "Warlock",
+						"source": "PHB"
+					},
+					{
+						"name": "Bard",
+						"source": "PHB"
+					}
+				]
+			},
+			"damageInflict": [
+				"psychic"
+			],
+			"conditionInflict": [
+				"incapacitated"
+			],
+			"savingThrow": [
+				"wisdom"
+			],
+			"miscTags": [
+				"SGT"
+			],
+			"areaTags": [
+				"ST"
+			]
+		},
+		{
+			"name": "Intellect Fortress",
+			"source": "UAFighterRogueWizard",
+			"page": 7,
+			"level": 5,
+			"school": "A",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "self"
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 10
+					},
+					"concentration": true
+				}
+			],
+			"entries": [
+				"You create a faintly shimmering barrier of protective psychic power around you. For the duration, you have advantage on all saving throws.",
+				"When another creature that you can see within 30 feet of you fails a saving throw, you can use your reaction to allow them to reroll the save. They must use the new roll."
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					},
+					{
+						"name": "Sorcerer",
+						"source": "PHB"
+					},
+					{
+						"name": "Warlock",
+						"source": "PHB"
+					},
+					{
+						"name": "Bard",
+						"source": "PHB"
+					}
+				]
+			},
+			"miscTags": [
+				"ADV",
+				"SGT"
+			]
+		},
+		{
+			"name": "Mental Barrier",
+			"source": "UAFighterRogueWizard",
+			"page": 7,
+			"level": 2,
+			"school": "A",
+			"time": [
+				{
+					"number": 1,
+					"unit": "reaction",
+					"condition": "which you take when you are forced to make an Intelligence, a Wisdom, or a Charisma saving throw"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "self"
+				}
+			},
+			"components": {
+				"v": true
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "round",
+						"amount": 1
+					}
+				}
+			],
+			"entries": [
+				"You protect your mind with a wall of looping, repetitive thought. Until the start of your next turn, you have advantage on Intelligence, Wisdom, and Charisma saving throws, and you have resistance to psychic damage."
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					},
+					{
+						"name": "Sorcerer",
+						"source": "PHB"
+					},
+					{
+						"name": "Warlock",
+						"source": "PHB"
+					},
+					{
+						"name": "Bard",
+						"source": "PHB"
+					}
+				]
+			},
+			"miscTags": [
+				"ADV"
+			]
+		},
+		{
+			"name": "Mind Sliver",
+			"source": "UAFighterRogueWizard",
+			"page": 7,
+			"level": 0,
+			"school": "E",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 60
+				}
+			},
+			"components": {
+				"v": true
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "round",
+						"amount": 1
+					}
+				}
+			],
+			"entries": [
+				"You drive a disorienting spike of psychic energy into the mind of one creature you can see within range. The target must make an Intelligence saving throw. Unless the saving throw is successful, the target takes {@damage 1d6} psychic damage, and the first time it makes a saving throw before the end of your next turn, it must roll a {@dice d4} and subtract the number rolled from the save.",
+				"This spell's damage increases by {@dice 1d6} when you reach certain levels: 5th level ({@damage 2d6}), 11th level ({@damage 3d6}), and 17th level ({@damage 4d6})."
+			],
+			"scalingLevelDice": {
+				"label": "psychic damage",
+				"scaling": {
+					"1": "1d6",
+					"5": "2d6",
+					"11": "3d6",
+					"17": "4d6"
+				}
+			},
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					},
+					{
+						"name": "Sorcerer",
+						"source": "PHB"
+					},
+					{
+						"name": "Warlock",
+						"source": "PHB"
+					},
+					{
+						"name": "Bard",
+						"source": "PHB"
+					}
+				]
+			},
+			"damageInflict": [
+				"psychic"
+			],
+			"savingThrow": [
+				"intelligence"
+			],
+			"miscTags": [
+				"SCL",
+				"SGT"
+			],
+			"areaTags": [
+				"ST"
+			]
+		},
+		{
+			"name": "Mind Thrust",
+			"source": "UAFighterRogueWizard",
+			"page": 7,
+			"level": 2,
+			"school": "E",
+			"time": [
+				{
+					"number": 1,
+					"unit": "bonus"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 60
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "round",
+						"amount": 1
+					}
+				}
+			],
+			"entries": [
+				"You propel a lance of psionic disruption into the mind of one creature you can see within range. The target must make an Intelligence saving throw. On a failed save, the target takes {@damage 3d6} psychic damage, and it can use its action only to {@action Dash} or {@action Disengage} on its next turn. On a successful save, the target takes half as much damage, and this spell doesn't limit its action options."
+			],
+			"entriesHigherLevel": [
+				{
+					"name": "At Higher Levels",
+					"type": "entries",
+					"entries": [
+						"When you cast this spell using a spell slot of 3rd level or higher, you can target one additional creature for each slot level above 2nd. The creatures must be within 30 feet of each other when you target them."
+					]
+				}
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					},
+					{
+						"name": "Sorcerer",
+						"source": "PHB"
+					},
+					{
+						"name": "Warlock",
+						"source": "PHB"
+					},
+					{
+						"name": "Bard",
+						"source": "PHB"
+					}
+				]
+			},
+			"damageInflict": [
+				"psychic"
+			],
+			"savingThrow": [
+				"intelligence"
+			],
+			"miscTags": [
+				"SGT"
+			],
+			"areaTags": [
+				"ST",
+				"MT"
+			]
+		},
+		{
+			"name": "Psionic Blast",
+			"source": "UAFighterRogueWizard",
+			"page": 8,
+			"level": 3,
+			"school": "V",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "cone",
+				"distance": {
+					"type": "feet",
+					"amount": 30
+				}
+			},
+			"components": {
+				"v": true
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"entries": [
+				"You unleash a destructive wave of mental power in a 30-foot cone. Each creature in the area must make a Dexterity saving throw. On a failed save, a target takes {@damage 5d8} force damage, is pushed 20 feet directly away from you, and is knocked {@condition prone}. On a successful save, a target takes half as much damage and isn't pushed or knocked prone."
+			],
+			"entriesHigherLevel": [
+				{
+					"name": "At Higher Levels",
+					"type": "entries",
+					"entries": [
+						"When you cast this spell using a spell slot of 4th level or higher, the damage increases by {@dice 1d8} for each slot level above 3rd."
+					]
+				}
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					},
+					{
+						"name": "Sorcerer",
+						"source": "PHB"
+					},
+					{
+						"name": "Warlock",
+						"source": "PHB"
+					},
+					{
+						"name": "Bard",
+						"source": "PHB"
+					}
+				]
+			},
+			"damageInflict": [
+				"force"
+			],
+			"conditionInflict": [
+				"prone"
+			],
+			"savingThrow": [
+				"dexterity"
+			],
+			"miscTags": [
+				"FMV"
+			],
+			"areaTags": [
+				"N"
+			]
+		},
+		{
+			"name": "Psychic Crush",
+			"source": "UAFighterRogueWizard",
+			"page": 8,
+			"level": 6,
+			"school": "E",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 60
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 1
+					}
+				}
+			],
+			"entries": [
+				"You overload the mind of one creature you can see within range, filling its psyche with discordant emotions. The target must make an Intelligence saving throw. On a failed save, the target takes {@damage 12d6} psychic damage and is {@condition stunned} for 1 minute. On a successful save, the target takes half as much damage and isn't stunned.",
+				"The stunned target can make an Intelligence saving throw at the end of each of its turns. On a successful save, the spell ends on the target."
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					},
+					{
+						"name": "Sorcerer",
+						"source": "PHB"
+					},
+					{
+						"name": "Warlock",
+						"source": "PHB"
+					},
+					{
+						"name": "Bard",
+						"source": "PHB"
+					}
+				]
+			},
+			"damageInflict": [
+				"psychic"
+			],
+			"conditionInflict": [
+				"stunned"
+			],
+			"savingThrow": [
+				"intelligence"
+			],
+			"miscTags": [
+				"SGT"
+			],
+			"areaTags": [
+				"ST"
+			]
+		},
+		{
+			"name": "Thought Shield",
+			"source": "UAFighterRogueWizard",
+			"page": 8,
+			"level": 2,
+			"school": "A",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "touch"
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "hour",
+						"amount": 8
+					}
+				}
+			],
+			"entries": [
+				"You weave a clouding veil over the mind of one creature you touch. For the duration, the target's mind can't be read or detected, creatures can't telepathically communicate with the target unless the target allows it, and the target has advantage on saving throws against any effect that would determine whether it is telling the truth."
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					},
+					{
+						"name": "Sorcerer",
+						"source": "PHB"
+					},
+					{
+						"name": "Warlock",
+						"source": "PHB"
+					},
+					{
+						"name": "Bard",
+						"source": "PHB"
+					}
+				]
+			},
+			"miscTags": [
+				"ADV"
+			],
+			"areaTags": [
+				"ST"
+			]
+		}
+	]
+}

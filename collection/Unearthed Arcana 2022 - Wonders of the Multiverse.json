@@ -1,0 +1,2782 @@
+{
+	"_meta": {
+		"sources": [
+			{
+				"json": "UA2022WondersOfTheMultiverse",
+				"abbreviation": "UA22WotM",
+				"full": "Unearthed Arcana: 2022 Wonders of the Multiverse",
+				"authors": [
+					"Wizards of the Coast"
+				],
+				"convertedBy": [
+					"Giddy"
+				],
+				"version": "1.0.0",
+				"url": "https://media.wizards.com/2022/dnd/downloads/UA2022-WondersoftheMultiverse.pdf",
+				"dateReleased": "2022-07-18"
+			}
+		],
+		"dateAdded": 1701616429,
+		"dateLastModified": 1701616429,
+		"_dateLastModifiedHash": "aaaaaaaaaa"
+	},
+	"subclass": [
+		{
+			"name": "Fate Domain (UA)",
+			"shortName": "Fate (UA)",
+			"source": "UA2022WondersOfTheMultiverse",
+			"className": "Cleric",
+			"classSource": "PHB",
+			"page": 2,
+			"additionalSpells": [
+				{
+					"prepared": {
+						"1": [
+							"dissonant whispers",
+							"heroism"
+						],
+						"3": [
+							"see invisibility",
+							"warding bond"
+						],
+						"5": [
+							"beacon of hope",
+							"clairvoyance"
+						],
+						"7": [
+							"death ward",
+							"divination"
+						],
+						"9": [
+							"commune",
+							"geas"
+						]
+					}
+				}
+			],
+			"subclassFeatures": [
+				"Fate Domain (UA)|Cleric||Fate (UA)|UA2022WondersOfTheMultiverse|1",
+				"Channel Divinity: Strands of Fate|Cleric||Fate (UA)|UA2022WondersOfTheMultiverse|2",
+				"Insightful Striking|Cleric||Fate (UA)|UA2022WondersOfTheMultiverse|6",
+				"Potent Spellcasting|Cleric||Fate (UA)|UA2022WondersOfTheMultiverse|8",
+				"Blessed Strikes|Cleric||Fate (UA)|UA2022WondersOfTheMultiverse|8|UAClassFeatureVariants",
+				"Visions of the Future|Cleric||Fate (UA)|UA2022WondersOfTheMultiverse|17"
+			]
+		}
+	],
+	"subclassFeature": [
+		{
+			"name": "Fate Domain (UA)",
+			"source": "UA2022WondersOfTheMultiverse",
+			"page": 2,
+			"className": "Cleric",
+			"classSource": "PHB",
+			"subclassShortName": "Fate (UA)",
+			"subclassSource": "UA2022WondersOfTheMultiverse",
+			"level": 1,
+			"entries": [
+				"Gods of fate perceive the future and how the choices mortals make drive them toward their destinies. Some deities consider the future preordained, while others understand the multiverse as a place of infinite possibility. Clerics who draw power from the forces of fate sometimes receive visions directly from their deity and receive fleeting omens of the future. They share impossible knowledge with their allies and prophesize their enemies' doom.",
+				{
+					"type": "table",
+					"caption": "Fate Domain Deities",
+					"colLabels": [
+						"Example Deity",
+						"Pantheon"
+					],
+					"colStyles": [
+						"col-6",
+						"col-6"
+					],
+					"rows": [
+						[
+							"Savras",
+							"Forgotten Realms"
+						],
+						[
+							"Istus",
+							"Greyhawk"
+						],
+						[
+							"Gilean",
+							"Dragonlance"
+						],
+						[
+							"Labelas Enorath",
+							"Elven"
+						]
+					]
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Domain Spells|Cleric||Fate (UA)|UA2022WondersOfTheMultiverse|1"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Omens and Portents|Cleric||Fate (UA)|UA2022WondersOfTheMultiverse|1"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Ties That Bind|Cleric||Fate (UA)|UA2022WondersOfTheMultiverse|1"
+				}
+			]
+		},
+		{
+			"name": "Domain Spells",
+			"source": "UA2022WondersOfTheMultiverse",
+			"page": 2,
+			"className": "Cleric",
+			"classSource": "PHB",
+			"subclassShortName": "Fate (UA)",
+			"subclassSource": "UA2022WondersOfTheMultiverse",
+			"level": 1,
+			"header": 1,
+			"entries": [
+				"{@i 1st-level Fate Domain Feature}",
+				"You gain domain spells at the cleric levels listed on the Fate Domain Spells table. See the Divine Domain class feature for how domain spells work.",
+				{
+					"type": "table",
+					"caption": "Fate Domain Spells",
+					"colLabels": [
+						"Cleric Level",
+						"Domain Spells"
+					],
+					"colStyles": [
+						"col-2 text-center",
+						"col-10"
+					],
+					"rows": [
+						[
+							"1st",
+							"{@spell dissonant whispers}, {@spell heroism}"
+						],
+						[
+							"3rd",
+							"{@spell see invisibility}, {@spell warding bond}"
+						],
+						[
+							"5th",
+							"{@spell beacon of hope}, {@spell clairvoyance}"
+						],
+						[
+							"7th",
+							"{@spell death ward}, {@spell divination}"
+						],
+						[
+							"9th",
+							"{@spell commune}, {@spell geas}"
+						]
+					]
+				}
+			]
+		},
+		{
+			"name": "Omens and Portents",
+			"source": "UA2022WondersOfTheMultiverse",
+			"page": 2,
+			"className": "Cleric",
+			"classSource": "PHB",
+			"subclassShortName": "Fate (UA)",
+			"subclassSource": "UA2022WondersOfTheMultiverse",
+			"level": 1,
+			"header": 1,
+			"entries": [
+				"{@i 1st-level Fate Domain Feature}",
+				"You can perceive signs of the future in everyday objects and events, such as flights of birds or ripples made in water by a thrown stone. You can cast the {@spell augury} spell without expending a spell slot and, when you cast the spell in this way, the spell has no verbal, somatic, or material components. Once you cast the spell in this way, you cannot do so again until you finish a long rest.",
+				"In addition, until you finish a long rest, when you cast a divination spell that includes a chance the DM gives you no answer or a random reading\u2014such as augury, commune, or divination\u2014reduce that chance by 25 percent."
+			]
+		},
+		{
+			"name": "Ties That Bind",
+			"source": "UA2022WondersOfTheMultiverse",
+			"page": 2,
+			"className": "Cleric",
+			"classSource": "PHB",
+			"subclassShortName": "Fate (UA)",
+			"subclassSource": "UA2022WondersOfTheMultiverse",
+			"level": 1,
+			"header": 1,
+			"entries": [
+				"{@i 1st-level Fate Domain Feature}",
+				"You can temporarily tie your fate to others. As an action, you can touch one object or creature and magically tie a strand of fate from yourself to it for 1 hour or until you use this feature again. An unwilling creature must succeed on a Wisdom saving throw against your spell save DC to resist this effect. While the target is bound to you and on the same plane of existence as you, you can sense the direction to the target's location, and you know the direction of its movement if it is in motion.",
+				"In addition, once per turn when you cast a spell using a spell slot to deal damage or restore hit points to the target, roll a {@dice d6}, and the target receives extra damage or healing, respectively, equal to the number rolled.",
+				"You can use this feature's action a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest."
+			]
+		},
+		{
+			"name": "Channel Divinity: Strands of Fate",
+			"source": "UA2022WondersOfTheMultiverse",
+			"page": 2,
+			"className": "Cleric",
+			"classSource": "PHB",
+			"subclassShortName": "Fate (UA)",
+			"subclassSource": "UA2022WondersOfTheMultiverse",
+			"level": 2,
+			"header": 2,
+			"entries": [
+				"{@i 2nd-level Fate Domain Feature}",
+				"You can use your Channel Divinity to see and manipulate the strands of fate that weave around other individuals. As a bonus action, you can enter this state for up to 1 minute or until you lose your {@status concentration} (as if you were {@status concentration||concentrating} on a spell). For the duration, whenever another creature you can see makes an attack roll or an ability check, you can use a reaction to give the roll advantage or disadvantage (your choice)."
+			]
+		},
+		{
+			"name": "Insightful Striking",
+			"source": "UA2022WondersOfTheMultiverse",
+			"page": 2,
+			"className": "Cleric",
+			"classSource": "PHB",
+			"subclassShortName": "Fate (UA)",
+			"subclassSource": "UA2022WondersOfTheMultiverse",
+			"level": 6,
+			"header": 2,
+			"entries": [
+				"{@i 6th-level Fate Domain Feature}",
+				"As a bonus action, you can choose one creature you can see within 30 feet of yourself. Your magic grants you a brief vision of the target's defenses. Until the end of your next turn, you gain one of the following effects of your choice:",
+				{
+					"type": "list",
+					"items": [
+						"The next time you make an attack roll against the target, roll a {@dice d6} and add the number rolled to the total.",
+						"The next time the target must make a saving throw against a spell you cast, the target must roll a {@dice d6} and subtract the number rolled from the saving throw."
+					]
+				},
+				"You can use this bonus action a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest."
+			]
+		},
+		{
+			"name": "Potent Spellcasting",
+			"source": "UA2022WondersOfTheMultiverse",
+			"page": 8,
+			"className": "Cleric",
+			"classSource": "PHB",
+			"subclassShortName": "Fate (UA)",
+			"subclassSource": "UA2022WondersOfTheMultiverse",
+			"level": 8,
+			"header": 2,
+			"entries": [
+				"{@i 8th-level Fate Domain Feature}",
+				"You add your Wisdom modifier to the damage you deal with any cleric cantrip."
+			]
+		},
+		{
+			"name": "Visions of the Future",
+			"source": "UA2022WondersOfTheMultiverse",
+			"page": 2,
+			"className": "Cleric",
+			"classSource": "PHB",
+			"subclassShortName": "Fate (UA)",
+			"subclassSource": "UA2022WondersOfTheMultiverse",
+			"level": 17,
+			"header": 2,
+			"entries": [
+				"{@i 17th-level Fate Domain Feature}",
+				"Your knowledge of the future allows you to guide an individual to achieve their greatest possible success. You can cast the {@spell foresight} spell once without expending a spell slot; when you cast the spell in this way, the spell's duration is 1 minute for that casting. Once you cast the spell in this way, you can't do so again until you finish a long rest."
+			]
+		}
+	],
+	"background": [
+		{
+			"name": "Gate Warden",
+			"source": "UA2022WondersOfTheMultiverse",
+			"page": 3,
+			"feats": [
+				{
+					"scion of the outer planes|ua2022wondersofthemultiverse": true
+				}
+			],
+			"skillProficiencies": [
+				{
+					"persuasion": true,
+					"survival": true
+				}
+			],
+			"languageProficiencies": [
+				{
+					"anyStandard": 2
+				}
+			],
+			"startingEquipment": [
+				{
+					"_": [
+						{
+							"special": "ring of keys to unknown locks"
+						},
+						{
+							"item": "book|phb",
+							"displayName": "blank book"
+						},
+						"ink (1-ounce bottle)|phb",
+						"traveler's clothes|phb",
+						{
+							"item": "pouch|phb",
+							"containsValue": 1000
+						}
+					]
+				},
+				{
+					"a": [
+						"ink pen|phb"
+					],
+					"b": [
+						{
+							"special": "quill"
+						}
+					]
+				}
+			],
+			"fromFeature": {
+				"feats": true
+			},
+			"entries": [
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"items": [
+						{
+							"type": "item",
+							"name": "Skill Proficiencies:",
+							"entry": "{@skill Persuasion}, {@skill Survival}"
+						},
+						{
+							"type": "item",
+							"name": "Languages:",
+							"entry": "Two of your choice ({@language Abyssal}, {@language Celestial}, or {@language Infernal} recommended)"
+						},
+						{
+							"type": "item",
+							"name": "Equipment:",
+							"entry": "A ring of keys to unknown locks, a blank {@item book|phb}, an {@item ink pen|phb} or quill, a {@item Ink (1-ounce bottle)|PHB|bottle of black ink}, a set of {@item traveler's clothes|phb}, and a {@item pouch|phb} containing 10 gp"
+						}
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Feature: Planar Infusion",
+					"entries": [
+						"Living someplace steeped in the energy of the planes, you gain the {@feat Scion of the Outer Planes|UA2022WondersOfTheMultiverse} feat. In addition, you know where to find free, modest lodging and food in the community you grew up in."
+					],
+					"data": {
+						"isFeature": true
+					}
+				},
+				{
+					"type": "entries",
+					"name": "Building a Gate Warden Character",
+					"entries": [
+						"Those who dwell for any extended time near a permanent portal to another plane absorb the essence radiating from the realm beyond. This creates similarities in behaviors and even physical appearances that mark someone as influenced by a particular plane.",
+						{
+							"type": "entries",
+							"name": "Suggested Characteristics",
+							"entries": [
+								"The influence of an Outer Plane shapes your perspective. The Gate Warden Personality Traits table suggests various traits you might adopt for your character.",
+								{
+									"type": "table",
+									"caption": "Gate Warden Personality Traits",
+									"colLabels": [
+										"d6",
+										"Personality Trait"
+									],
+									"colStyles": [
+										"col-1 text-center",
+										"col-11"
+									],
+									"rows": [
+										[
+											"1",
+											"Strange events and otherworldly creatures don't phase me."
+										],
+										[
+											"2",
+											"I think in terms of exchange; something for something, nothing for nothing."
+										],
+										[
+											"3",
+											"I speak with an unusual cadence."
+										],
+										[
+											"4",
+											"I pepper my speech with borrowed words or curses from planar languages."
+										],
+										[
+											"5",
+											"I've seen enough to know that you can't take anyone at face value, so I scrutinize everyone I deal with."
+										],
+										[
+											"6",
+											"I have a superstitious habit I picked up, such as touching iron when I'm nervous or arranging objects in a specific order."
+										]
+									]
+								}
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Gate Warden Trinkets",
+							"entries": [
+								"When you make your character, you can roll once on the Gate Warden Trinkets table, instead of on the Trinkets table in the Player's Handbook, for your starting trinket.",
+								{
+									"type": "table",
+									"caption": "Gate Warden Trinkets",
+									"colLabels": [
+										"d6",
+										"Trinket"
+									],
+									"colStyles": [
+										"col-1 text-center",
+										"col-11"
+									],
+									"rows": [
+										[
+											"1",
+											"A tiny vial pendant, filled with a drip of honey that glows faintly"
+										],
+										[
+											"2",
+											"A small lead ingot with a strange thumbprint pressed into it that whispers when held tightly"
+										],
+										[
+											"3",
+											"Two lodestone spheres that chime when they attract each other"
+										],
+										[
+											"4",
+											"A smoldering pebble of coal that, while always hot, doesn't burn skin"
+										],
+										[
+											"5",
+											"A white feather that sheds dim light in a 5-foot radius"
+										],
+										[
+											"6",
+											"A ring made from a chain link that, once worn, won't come off without pulling painfully hard"
+										]
+									]
+								}
+							]
+						}
+					]
+				}
+			],
+			"fluff": {
+				"_backgroundFluff": {
+					"name": "Gate Warden",
+					"source": "UA2022WondersOfTheMultiverse"
+				}
+			}
+		},
+		{
+			"name": "Giant Foundling",
+			"source": "UA2022WondersOfTheMultiverse",
+			"page": 4,
+			"feats": [
+				{
+					"strike of the giants|ua2022wondersofthemultiverse": true
+				}
+			],
+			"skillProficiencies": [
+				{
+					"intimidation": true,
+					"survival": true
+				}
+			],
+			"languageProficiencies": [
+				{
+					"anyStandard": 2
+				}
+			],
+			"startingEquipment": [
+				{
+					"_": [
+						{
+							"special": "backpack"
+						},
+						"traveler's clothes|phb",
+						{
+							"item": "pouch|phb",
+							"containsValue": 1000
+						}
+					]
+				},
+				{
+					"a": [
+						{
+							"special": "small stone"
+						}
+					],
+					"b": [
+						{
+							"special": "sprig that reminds you of home"
+						}
+					]
+				}
+			],
+			"fromFeature": {
+				"feats": true
+			},
+			"entries": [
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"items": [
+						{
+							"type": "item",
+							"name": "Skill Proficiencies:",
+							"entry": "{@skill Intimidation}, {@skill Survival}"
+						},
+						{
+							"type": "item",
+							"name": "Languages:",
+							"entry": "Two of your choice"
+						},
+						{
+							"type": "item",
+							"name": "Equipment:",
+							"entry": "A backpack, a set of {@item traveler's clothes|phb}, a small stone or sprig that reminds you of home, and a {@item pouch|phb} containing 10 gp"
+						}
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Origin Stories",
+					"entries": [
+						"How you came to live among colossal creatures is up to you to determine, but the Foundling Origin table suggests a variety of possibilities.",
+						{
+							"type": "table",
+							"caption": "Foundling Origin",
+							"colLabels": [
+								"d6",
+								"Origin"
+							],
+							"colStyles": [
+								"col-1 text-center",
+								"col-11"
+							],
+							"rows": [
+								[
+									"1",
+									"You were found as a baby by a family of nomadic giants who raised you as one of their own."
+								],
+								[
+									"2",
+									"A family of stone giants rescued you when you fell into a mountain crag, and you have lived with them underground ever since."
+								],
+								[
+									"3",
+									"You were lost or abandoned as a child in a jungle that teemed with ravenous dinosaurs. There, you found an equally lost frost giant and together, you survived."
+								],
+								[
+									"4",
+									"Your farm was crushed and your family killed in a battle between warring groups of giants. Racked with guilt over the destruction, a sympathetic giant soldier promised to care for you."
+								],
+								[
+									"5",
+									"After you had a series of strange dreams as a child, your superstitious parents sent you to study with a powerful but aloof storm giant oracle."
+								],
+								[
+									"6",
+									"While playing hide-and-seek with your friends, you stumbled into the castle of a cloud giant matriarch, who immediately adopted you."
+								]
+							]
+						}
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Feature: Strike of the Giants",
+					"entries": [
+						"You gain the {@feat Strike of the Giants|UA2022WondersOfTheMultiverse} feat."
+					],
+					"data": {
+						"isFeature": true
+					}
+				},
+				{
+					"type": "entries",
+					"name": "Building a Giant Foundling Character",
+					"entries": [
+						"Your remarkable size and experience with titanic creatures has given you a unique perspective. Suggested Characteristics. The Giant Foundling Personality Traits table suggests a variety of traits you might adopt for your character.",
+						{
+							"type": "table",
+							"caption": "Giant Foundling Personality Traits",
+							"colLabels": [
+								"d6",
+								"Personality Trait"
+							],
+							"colStyles": [
+								"col-1 text-center",
+								"col-11"
+							],
+							"rows": [
+								[
+									"1",
+									"What I lack in stature, I make up for with sheer spite."
+								],
+								[
+									"2",
+									"Sometimes size does matter, okay? If I see a beast bigger than me, I'm immediately running away."
+								],
+								[
+									"3",
+									"Crowded spaces make me uncomfortable. I'd much rather be in a wide-open field than a bustling tavern."
+								],
+								[
+									"4",
+									"I like being small. It helps me stay unnoticed\u2014and underestimated."
+								],
+								[
+									"5",
+									"Size is just half the story. Every avalanche begins as a single pebble."
+								],
+								[
+									"6",
+									"The world always feels too big, and I'm afraid I'll never find my place in it."
+								]
+							]
+						}
+					]
+				}
+			],
+			"fluff": {
+				"_backgroundFluff": {
+					"name": "Giant Foundling",
+					"source": "UA2022WondersOfTheMultiverse"
+				}
+			}
+		},
+		{
+			"name": "Planar Philosopher",
+			"source": "UA2022WondersOfTheMultiverse",
+			"page": 3,
+			"feats": [
+				{
+					"scion of the outer planes|ua2022wondersofthemultiverse": true
+				}
+			],
+			"skillProficiencies": [
+				{
+					"arcana": true,
+					"persuasion": true
+				}
+			],
+			"languageProficiencies": [
+				{
+					"anyStandard": 2
+				}
+			],
+			"startingEquipment": [
+				{
+					"_": [
+						"common clothes|phb",
+						{
+							"item": "pouch|phb",
+							"containsValue": 1000
+						}
+					]
+				}
+			],
+			"fromFeature": {
+				"feats": true
+			},
+			"entries": [
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"items": [
+						{
+							"type": "item",
+							"name": "Skill Proficiencies:",
+							"entry": "{@skill Arcana}, {@skill Persuasion}"
+						},
+						{
+							"type": "item",
+							"name": "Languages:",
+							"entry": "Two of your choice"
+						},
+						{
+							"type": "item",
+							"name": "Equipment:",
+							"entry": "A set of {@item common clothes|phb}, and a {@item pouch|phb} containing 10 gp comprised of coins from different worlds and planes"
+						}
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Feature: Conviction",
+					"entries": [
+						"You gain the {@feat Scion of the Outer Planes|UA2022WondersOfTheMultiverse} feat. In addition, members of organization provide you free, modest lodging and food at any of their holding or the homes of other faction members."
+					],
+					"data": {
+						"isFeature": true
+					}
+				},
+				{
+					"type": "entries",
+					"name": "Building a Planar Philosopher Character",
+					"entries": [
+						"Some groups of planar philosophers might have preferences for or against certain types of characters, but by and large any character that upholds and furthers the beliefs of the group is welcome within its ranks.",
+						{
+							"type": "entries",
+							"name": "Suggested Characteristics",
+							"entries": [
+								"Adventurers who dedicate themselves to a particular philosophy toward the multiverse are welcomed among the faction that embraces those beliefs. The Planar Philosopher Personality Traits table suggests various traits you might adopt for your character, and which factions would welcome adventurers with those traits.",
+								{
+									"type": "table",
+									"caption": "Planar Philosopher Personality Traits",
+									"colLabels": [
+										"d6",
+										"Personality Trait"
+									],
+									"colStyles": [
+										"col-1 text-center",
+										"col-11"
+									],
+									"rows": [
+										[
+											"1",
+											"I don't venerate any gods; we can be as powerful or greater than them."
+										],
+										[
+											"2",
+											"Experience is everything, live in the moment."
+										],
+										[
+											"3",
+											"When things crumble, I find meaning in the ashes."
+										],
+										[
+											"4",
+											"Life thrives through order; I won't tolerate disruptions."
+										],
+										[
+											"5",
+											"When others make plans, the multiverse laughs and so do I."
+										],
+										[
+											"6",
+											"I know what's right, and no one will stand in my way."
+										]
+									]
+								}
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Planar Philosopher Trinkets",
+							"entries": [
+								"When you make your character, you can roll once on the Planar Philosopher Trinkets table, instead of on the Trinkets table in the Player's Handbook, for your starting trinket.",
+								{
+									"type": "table",
+									"caption": "Planar Philosopher Trinkets",
+									"colLabels": [
+										"d6",
+										"Trinket"
+									],
+									"colStyles": [
+										"col-1 text-center",
+										"col-11"
+									],
+									"rows": [
+										[
+											"1",
+											"A locket with a picture of my mentor and an inscription I can't read"
+										],
+										[
+											"2",
+											"A bleached rat skull with colored glass beads in its eye sockets"
+										],
+										[
+											"3",
+											"A torn parchment with half a rebus puzzle painted on it"
+										],
+										[
+											"4",
+											"A bracelet of twisted razorvine stems"
+										],
+										[
+											"5",
+											"A fragment of verdigris-coated bronze blade"
+										],
+										[
+											"6",
+											"A smooth river stone covered in tiny, carved holy symbols"
+										]
+									]
+								}
+							]
+						}
+					]
+				}
+			],
+			"fluff": {
+				"_backgroundFluff": {
+					"name": "Planar Philosopher",
+					"source": "UA2022WondersOfTheMultiverse"
+				}
+			}
+		},
+		{
+			"name": "Rune Carver",
+			"source": "UA2022WondersOfTheMultiverse",
+			"page": 5,
+			"feats": [
+				{
+					"rune carver apprentice|ua2022wondersofthemultiverse": true
+				}
+			],
+			"skillProficiencies": [
+				{
+					"history": true,
+					"perception": true
+				}
+			],
+			"languageProficiencies": [
+				{
+					"giant": true,
+					"anyStandard": 1
+				}
+			],
+			"toolProficiencies": [
+				{
+					"herbalism kit": true
+				}
+			],
+			"startingEquipment": [
+				{
+					"_": [
+						{
+							"equipmentType": "toolArtisan"
+						},
+						{
+							"special": "small knife"
+						},
+						"whetstone|phb",
+						"common clothes|phb",
+						{
+							"item": "pouch|phb",
+							"containsValue": 1000
+						}
+					]
+				}
+			],
+			"fromFeature": {
+				"feats": true
+			},
+			"entries": [
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"items": [
+						{
+							"type": "item",
+							"name": "Skill Proficiencies:",
+							"entry": "{@skill History}, {@skill Perception}"
+						},
+						{
+							"type": "item",
+							"name": "Languages:",
+							"entry": "Giant and one other language of your choice"
+						},
+						{
+							"type": "item",
+							"name": "Equipment:",
+							"entry": "A set of {@filter artisan's tools|items|source=phb|miscellaneous=mundane|type=artisan's tools} (one of your choice), a small knife, a {@item whetstone|phb}, a set of {@item common clothes|phb}, and a {@item pouch|phb} containing 10 gp"
+						}
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Rune Styles",
+					"entries": [
+						"Each rune carver has a unique style and preferred medium for creating runes. To determine how you make your runes, you can roll on the Rune Style table.",
+						{
+							"type": "table",
+							"caption": "Rune Style",
+							"colLabels": [
+								"d6",
+								"Style"
+							],
+							"colStyles": [
+								"col-1 text-center",
+								"col-11"
+							],
+							"rows": [
+								[
+									"1",
+									"You inscribe your runes with a fine metal needle."
+								],
+								[
+									"2",
+									"You whittle down pieces of wood into small figurines you mark with your runes."
+								],
+								[
+									"3",
+									"You engrave runes onto glass beads and thread them onto necklaces and bracelets."
+								],
+								[
+									"4",
+									"You stitch your runes into the hems of clothing."
+								],
+								[
+									"5",
+									"You carve runes on a set of animal bones you can throw in different formations."
+								],
+								[
+									"6",
+									"You draw your runes into candles, melting the wax to smooth over the engravings."
+								]
+							]
+						}
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Feature: Rune Carver Apprentice",
+					"entries": [
+						"You gain the {@feat Rune Carver Apprentice|UA2022WondersOfTheMultiverse} feat."
+					],
+					"data": {
+						"isFeature": true
+					}
+				},
+				{
+					"type": "entries",
+					"name": "Building a Rune Carver Character",
+					"entries": [
+						"Scholarly pursuits, ancient mysteries, or all manner of fateful encounters might inspire a character to pursue the secrets of a rune carver.",
+						{
+							"type": "entries",
+							"name": "Suggested Characteristics",
+							"entries": [
+								"The Rune Carver Personality Traits table suggests a variety of traits you might adopt for your character.",
+								{
+									"type": "table",
+									"caption": "Rune Carver Personality Traits",
+									"colLabels": [
+										"d6",
+										"Personality Trait"
+									],
+									"colStyles": [
+										"col-1 text-center",
+										"col-11"
+									],
+									"rows": [
+										[
+											"1",
+											"Is it practical to learn an ancient language that is rarely used in everyday speech? No. But is it fun? Very."
+										],
+										[
+											"2",
+											"I learned one of my ancestors was a lauded rune carver whose story was lost to time. I seek to rekindle that legacy."
+										],
+										[
+											"3",
+											"The old, traditional markings of runecraft look so boring. Why not give your runes some flair?"
+										],
+										[
+											"4",
+											"In my studies of runes, I strive to understand how great civilizations of the past fell, so that I may prevent it from happening to societies of the present."
+										],
+										[
+											"5",
+											"Life may be a whirlwind of chaos around me, but whenever I create my runes, I feel at peace."
+										],
+										[
+											"6",
+											"My brain struggles to process ink words written on paper, but the tactile feeling of carved runes makes my mind sing."
+										]
+									]
+								}
+							]
+						}
+					]
+				}
+			],
+			"fluff": {
+				"_backgroundFluff": {
+					"name": "Rune Carver",
+					"source": "UA2022WondersOfTheMultiverse"
+				}
+			}
+		}
+	],
+	"backgroundFluff": [
+		{
+			"name": "Gate Warden",
+			"source": "UA2022WondersOfTheMultiverse",
+			"entries": [
+				"You spent a significant amount of time somewhere influenced by a portal to another plane of existence or by intense planar forces. You're accustomed to experiences that would leave others reeling in terror or enraptured by otherworldly beauty, and you're as comfortable dealing with fiends and celestials as you are with vendors in town."
+			]
+		},
+		{
+			"name": "Giant Foundling",
+			"source": "UA2022WondersOfTheMultiverse",
+			"entries": [
+				"Though you aren't a Giant, you grew up among giants. Maybe you were an orphan taken in by a sympathetic family of stone giants who raised you as one of their own. Or perhaps you lived in a lost prehistoric pocket of the world, surrounded by giants and fearsome behemoths or hulking dinosaurs.",
+				"Something about your environment\u2014perhaps the food or water that sustained you through childhood, elemental magic inherent in the site of your home, or some verdant blessing of growth placed on you\u2014ensured that you grew to a remarkable size. With the aid of this magic, you have learned how to embody the titanic might of giants. You are used to moving through a world much bigger than you, and that is reflected in your skills, attitude, and perspective on life."
+			]
+		},
+		{
+			"name": "Planar Philosopher",
+			"source": "UA2022WondersOfTheMultiverse",
+			"entries": [
+				"You subscribe to a distinct philosophy that seeks to understand the nature of the planes or some hidden truth of the multiverse. You draw strength from your conviction and, perhaps, a network of like-minded believers. In your travels, you seek to deepen the depths of your understanding and spread your philosophy."
+			]
+		},
+		{
+			"name": "Rune Carver",
+			"source": "UA2022WondersOfTheMultiverse",
+			"entries": [
+				"You've dedicated your life to studying the practice of runecraft. Whether you were personally taught by a master rune carver or learned by poring over engravings in ancient ruins, you understand how to tap into the supernatural power held within runes.",
+				"The art of runecraft was initially created by the giants of yore, but over time, the practice has been adopted by individuals of all races and backgrounds. As such, though Giant runes are the most common, many rune carvers incorporate symbols from their native languages into the craft."
+			]
+		}
+	],
+	"race": [
+		{
+			"name": "Glitchling",
+			"source": "UA2022WondersOfTheMultiverse",
+			"page": 1,
+			"lineage": "VRGR",
+			"creatureTypes": [
+				"construct"
+			],
+			"size": [
+				"M"
+			],
+			"speed": 30,
+			"traitTags": [
+				"Natural Armor"
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Creature Type",
+					"entries": [
+						"You are a Construct."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Armored Plating",
+					"entries": [
+						"Your metal skin is reinforced with armor plates. While you aren't wearing armor, your base Armor Class is 14 + your Dexterity modifier."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Balance Chaos",
+					"entries": [
+						"When you make an attack roll or a saving throw and roll a 9 or lower on the {@dice d20}, you can balance chaos and treat the roll as a 10. You can balance chaos in this way a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Living Construct",
+					"entries": [
+						"You were created to benefit from several spells that preserve life but that normally don't affect Constructs: {@spell cure wounds}, {@spell healing word}, {@spell mass cure wounds}, {@spell mass healing word}, and {@spell spare the dying}."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Ordered Mind",
+					"entries": [
+						"You have advantage on Wisdom ({@skill Insight}) checks and on saving throws made to avoid or end the {@condition charmed} condition on yourself."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Vestigial Wings",
+					"entries": [
+						"You have vestigial wings that allow limited flight. When you move, you can engage your wings to gain a flying speed equal to your walking speed until the end of the current turn. If you are still aloft at the end of the turn with nothing else supporting you, you fall. You can use this trait a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest"
+					]
+				}
+			],
+			"fluff": {
+				"_raceFluff": {
+					"name": "Glitchling",
+					"source": "UA2022WondersOfTheMultiverse"
+				}
+			}
+		}
+	],
+	"raceFluff": [
+		{
+			"name": "Glitchling",
+			"source": "UA2022WondersOfTheMultiverse",
+			"entries": [
+				"Created by forces of planar law, glitchlings are winged, human-like creatures made from a merger of magic and machine. These explorers seek to learn all they can about the multiverse and its creatures. Some glitchlings then carry what they learn back to lawful planes, like Mechanus, to inform the orderly working of the multiverse. Others become enamored with travel and the peoples they encounter, and they seek to make a life of their own among the planes.",
+				"Glitchlings begin their existences with rudimentary personalities. As they absorb information and experiences, their personalities grow, but many retain quirks associated with their lawful origins. You can roll or choose a quirk from the Orderly Quirk table or create your own.",
+				{
+					"type": "table",
+					"caption": "Orderly Quirk",
+					"colLabels": [
+						"d6",
+						"Quirk"
+					],
+					"colStyles": [
+						"col-1 text-center",
+						"col-11"
+					],
+					"rows": [
+						[
+							"1",
+							"I collect things, whether a specific kind of object or things made of a particular material."
+						],
+						[
+							"2",
+							"We think of ourselves as being a part of the collective, lawful forces of the multiverse and don't refer to ourselves as a singular being."
+						],
+						[
+							"3",
+							"I seek out new experiences so I can better understand the freedom of my existence."
+						],
+						[
+							"4",
+							"I preface things I say with a short description, such as: \"observation,\" \"interjection,\" or \"query.\""
+						],
+						[
+							"5",
+							"I plan elaborate responses to every contingency, ready to execute at an instant's notice."
+						],
+						[
+							"6",
+							"I investigate people's intentions behind their actions, trying to solve the equation that guides them."
+						]
+					]
+				}
+			]
+		}
+	],
+	"feat": [
+		{
+			"name": "Agent Of Order",
+			"source": "UA2022WondersOfTheMultiverse",
+			"page": 6,
+			"prerequisite": [
+				{
+					"level": 4,
+					"feat": [
+						"scion of the outer planes|ua2022wondersofthemultiverse|scion of the outer planes (lawful outer plane)"
+					]
+				}
+			],
+			"ability": [
+				{
+					"choose": {
+						"from": [
+							"str",
+							"dex",
+							"con",
+							"int",
+							"wis",
+							"cha"
+						],
+						"amount": 1
+					}
+				}
+			],
+			"entries": [
+				"You can channel cosmic forces of order that lock the multiverse into patterns. Your actions are your own to choose, but these forces grant you the following benefits:",
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"items": [
+						{
+							"type": "item",
+							"name": "Stasis Strike",
+							"entries": [
+								"Once per turn when you damage a creature you can see within 60 feet of yourself, you can deal an extra {@damage 1d8} force damage to the target, and it must succeed on a Wisdom saving throw (DC equal to 8 + your proficiency bonus + the modifier of the ability score increased by this feat) or be {@condition restrained} by spectral bindings until the start of your next turn. These bindings manifest as chains, gears, encasing stone, or some other symbol of stasis. You can use this benefit a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest."
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Baleful Scion",
+			"source": "UA2022WondersOfTheMultiverse",
+			"page": 6,
+			"prerequisite": [
+				{
+					"level": 4,
+					"feat": [
+						"scion of the outer planes|ua2022wondersofthemultiverse|scion of the outer planes (evil outer plane)"
+					]
+				}
+			],
+			"ability": [
+				{
+					"choose": {
+						"from": [
+							"str",
+							"dex",
+							"con",
+							"int",
+							"wis",
+							"cha"
+						],
+						"amount": 1
+					}
+				}
+			],
+			"entries": [
+				"You can channel cosmic forces of evil that cause pain but invigorate your being. You can choose your own actions despite this malign connection. You gain the following benefits:",
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"items": [
+						{
+							"type": "item",
+							"name": "Life-Draining Grasp",
+							"entries": [
+								"Once per turn, when you hit a creature with a melee weapon attack, you can also deal necrotic damage to it. The damage equals {@dice 1d6} + your proficiency bonus, and you regain a number of hit points equal to this necrotic damage dealt. You can use this feature a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest."
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Cartomancer",
+			"source": "UA2022WondersOfTheMultiverse",
+			"page": 6,
+			"prerequisite": [
+				{
+					"level": {
+						"level": 4
+					},
+					"other": "Sorcerer, Warlock, or Wizard Class"
+				}
+			],
+			"additionalSpells": [
+				{
+					"known": {
+						"_": [
+							"prestidigitation#c"
+						]
+					}
+				}
+			],
+			"entries": [
+				"You have learned to channel your magic through a deck of playing cards, granting you these benefits:",
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"items": [
+						{
+							"type": "item",
+							"name": "Card Focus",
+							"entries": [
+								"You can use a deck of cards as your spellcasting focus. When you use the deck as a focus to cast a spell that deals damage, roll a {@dice d4}. You gain a bonus to one damage roll of the spell equal to the number rolled. This bonus applies to one creature of your choice that you can see damaged by the spell; you can use this benefit a number of times equal to your proficiency bonus, and you regain all expended uses of it when you finish a long rest."
+							]
+						},
+						{
+							"type": "item",
+							"name": "Card Tricks",
+							"entries": [
+								"You learn the {@spell prestidigitation} cantrip and can use it to create illusions that duplicate the effects of stage magic. When you use prestidigitation in this way, you can conceal the verbal and somatic components of the spell as mundane conversation and card-handling."
+							]
+						},
+						{
+							"type": "item",
+							"name": "Hidden Ace",
+							"entries": [
+								"When you finish a long rest, you can choose one spell you know and imbue it into a card; the chosen spell must have a casting time of 1 action, and its level must be less than or equal to your proficiency bonus. While the card is imbued with the spell, you can use your bonus action to flourish the card and cast the spell within. The card then immediately loses its magic."
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Cohort Of Chaos",
+			"source": "UA2022WondersOfTheMultiverse",
+			"page": 6,
+			"prerequisite": [
+				{
+					"level": 4,
+					"feat": [
+						"scion of the outer planes|ua2022wondersofthemultiverse|scion of the outer planes (chaotic outer plane)"
+					]
+				}
+			],
+			"ability": [
+				{
+					"choose": {
+						"from": [
+							"str",
+							"dex",
+							"con",
+							"int",
+							"wis",
+							"cha"
+						],
+						"amount": 1
+					}
+				}
+			],
+			"entries": [
+				"You can channel the cosmic forces of chaos that drive the multiverse toward both freedom and disarray. Your actions are still yours to choose, but you gain these benefits:",
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"items": [
+						{
+							"type": "item",
+							"name": "Chaotic Flare",
+							"entries": [
+								"When you roll a 1 or a 20 on an attack roll or a saving throw, the magic of chaos flows through you. Roll on the Chaotic Flares table to determine what happens. A flare lasts until the end of your next turn, and a new flare can't occur until after the first flare ends.",
+								{
+									"type": "table",
+									"caption": "Chaotic Flares",
+									"colLabels": [
+										"d4",
+										"Flare"
+									],
+									"colStyles": [
+										"col-1 text-center",
+										"col-11"
+									],
+									"rows": [
+										[
+											"1",
+											"{@b Disruption Field.} Waves of energy ripple in a 10-foot sphere centered on you. Every creature other than you that starts its turn in that area, or that moves into that area for the first time on a turn, takes {@dice 1d8} force damage."
+										],
+										[
+											"2",
+											"{@b Battle Fury.} A creature of your choice that you can see is filled with reckless fury. The creature has advantage on attack rolls and disadvantage on ability checks."
+										],
+										[
+											"3",
+											"{@b Unbound.} When you move, you can use some or all of your walking speed to teleport once, along with any equipment you're wearing or carrying, up to the distance used to an unoccupied space that you can see."
+										],
+										[
+											"4",
+											"{@b Wailing Winds.} Howling winds swirl around you in a 60-foot radius. You and any creature in that radius has disadvantage on Wisdom saving throws."
+										]
+									]
+								}
+							]
+						}
+					]
+				},
+				"You can also forcibly release a chaotic flare as a bonus action, rolling on the table as normal to determine the effects. You can use this bonus action a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest."
+			]
+		},
+		{
+			"name": "Ember Of The Fire Giant",
+			"source": "UA2022WondersOfTheMultiverse",
+			"page": 7,
+			"prerequisite": [
+				{
+					"level": 4,
+					"feat": [
+						"strike of the giants|ua2022wondersofthemultiverse|strike of the giants (fire giant)"
+					]
+				}
+			],
+			"ability": [
+				{
+					"choose": {
+						"from": [
+							"str",
+							"con",
+							"wis"
+						],
+						"amount": 1
+					}
+				}
+			],
+			"resist": [
+				"fire"
+			],
+			"entries": [
+				"You've manifested the fiery combat emblematic of fire giants, granting you the following benefits:",
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"items": [
+						{
+							"type": "item",
+							"name": "Born of Flame",
+							"entries": [
+								"You have resistance to fire damage."
+							]
+						},
+						{
+							"type": "item",
+							"name": "Searing Ignition",
+							"entries": [
+								"When you take the {@action Attack} action on your turn, you can replace a single attack with a magical burst of flame. Each creature of your choice within 15 feet of you that can see you must make a Dexterity saving throw (DC equals 8 + your proficiency bonus + the modifier of the ability increased by this feat). On a failed save, a creature takes fire damage equal to {@dice 1d8} + your proficiency bonus, and it is {@condition blinded} until the start of your next turn. On a successful save, the creature takes half as much damage and isn't {@condition blinded}. You can use your Searing Ignition a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest."
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Fury Of The Frost Giant",
+			"source": "UA2022WondersOfTheMultiverse",
+			"page": 7,
+			"prerequisite": [
+				{
+					"level": 4,
+					"feat": [
+						"strike of the giants|ua2022wondersofthemultiverse|strike of the giants (frost giant)"
+					]
+				}
+			],
+			"ability": [
+				{
+					"choose": {
+						"from": [
+							"str",
+							"con",
+							"wis"
+						],
+						"amount": 1
+					}
+				}
+			],
+			"resist": [
+				"cold"
+			],
+			"entries": [
+				"You've manifested the icy might emblematic of frost giants, granting you the following benefits:",
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"items": [
+						{
+							"type": "item",
+							"name": "Born of Ice",
+							"entries": [
+								"You have resistance to cold damage."
+							]
+						},
+						{
+							"type": "item",
+							"name": "Frigid Retaliation",
+							"entries": [
+								"Immediately after a creature you can see within 30 feet of you hits you with an attack roll and deals damage, you can use your reaction to retaliate with a conjured blast of ice. The creature must make a Constitution saving throw (DC equals 8 + your proficiency bonus + the modifier of the ability increased by this feat). On a failed save, it takes {@damage 1d8} + your proficiency bonus cold damage, and its speed is halved until the end of its next turn. You can use this reaction a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest."
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Guile Of The Cloud Giant",
+			"source": "UA2022WondersOfTheMultiverse",
+			"page": 7,
+			"prerequisite": [
+				{
+					"level": 4,
+					"feat": [
+						"strike of the giants|ua2022wondersofthemultiverse|strike of the giants (cloud giant)"
+					]
+				}
+			],
+			"ability": [
+				{
+					"choose": {
+						"from": [
+							"dex",
+							"con",
+							"cha"
+						],
+						"amount": 1
+					}
+				}
+			],
+			"entries": [
+				"You've manifested the airy speech and magic emblematic of cloud giants, granting you the following benefits:",
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"items": [
+						{
+							"type": "item",
+							"name": "Cloudy Escape",
+							"entries": [
+								"When a creature you can see hits you with an attack roll, you can use your reaction to give yourself resistance to that attack's damage. You then teleport to an unoccupied space that you can see within 30 feet of yourself. You can use this reaction a number of times equal to half your proficiency bonus (rounded up), and you regain all expended uses when you finish a long rest."
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Keenness Of The Stone Giant",
+			"source": "UA2022WondersOfTheMultiverse",
+			"page": 7,
+			"prerequisite": [
+				{
+					"level": 4,
+					"feat": [
+						"strike of the giants|ua2022wondersofthemultiverse|strike of the giants (stone giant)"
+					]
+				}
+			],
+			"ability": [
+				{
+					"choose": {
+						"from": [
+							"str",
+							"con",
+							"wis"
+						],
+						"amount": 1
+					}
+				}
+			],
+			"entries": [
+				"You've manifested the physical talents emblematic of stone giants, granting you the following benefits:",
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"items": [
+						{
+							"type": "item",
+							"name": "Stone Throw",
+							"entries": [
+								"As a bonus action, you can touch a rock that can fit in the palm of your hand and imbue it with magic. While the rock is imbued with magic and you are wielding it, the rock is a magic ranged weapon with which you're proficient, and it has the thrown property with a normal range of 60 feet and a long range of 180 feet. On a hit, the rock deals {@damage 1d10} bludgeoning damage, and if the target is a creature, it must succeed on a Strength saving throw (DC equals 8 + your proficiency bonus + the modifier of the ability increased by this feat) or be knocked {@condition prone}. The magic remains in the rock until you hit with it or finish a long rest. You can imbue a number of rocks equal to your proficiency bonus with this bonus action, and you regain all expended uses when you finish a long rest."
+							]
+						},
+						{
+							"type": "item",
+							"name": "Cavernous Sight",
+							"entries": [
+								"You gain {@sense darkvision} out to a range of 60 feet. If you already have {@sense darkvision} from another source, its range increases by 60 feet."
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Outlands Envoy",
+			"source": "UA2022WondersOfTheMultiverse",
+			"page": 7,
+			"prerequisite": [
+				{
+					"level": 4,
+					"feat": [
+						"scion of the outer planes|ua2022wondersofthemultiverse"
+					]
+				}
+			],
+			"ability": [
+				{
+					"choose": {
+						"from": [
+							"str",
+							"dex",
+							"con",
+							"int",
+							"wis",
+							"cha"
+						],
+						"amount": 1
+					}
+				}
+			],
+			"additionalSpells": [
+				{
+					"innate": {
+						"_": {
+							"daily": {
+								"1e": [
+									"misty step",
+									"tongues"
+								]
+							}
+						}
+					},
+					"ability": "inherit"
+				}
+			],
+			"entries": [
+				"You have spent significant time in Sigil or elsewhere in the Outlands, the crossroads of the multiverse. Being steeped in converging planar energies grants you these benefits:",
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"items": [
+						{
+							"type": "item",
+							"name": "Crossroads Emissary",
+							"entries": [
+								"You learn the {@spell misty step} and {@spell tongues} spells. You can cast each spell once using this feat without a spell slot, and you must finish a long rest before you can cast that spell in this way again. When you cast tongues using this feat, you require no material components. You can also cast these spells using spell slots you have of the appropriate level. The spell's spellcasting ability is the one chosen when you gained the Scion of the Outer Planes feat."
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Planar Wanderer",
+			"source": "UA2022WondersOfTheMultiverse",
+			"page": 7,
+			"prerequisite": [
+				{
+					"level": 4,
+					"feat": [
+						"scion of the outer planes|ua2022wondersofthemultiverse"
+					]
+				}
+			],
+			"entries": [
+				"You can draw on the forces of the multiverse to survive cosmic extremes and to traverse its infinite realms. You gain these benefits:",
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"items": [
+						{
+							"type": "item",
+							"name": "Planar Adaptation",
+							"entries": [
+								"When you finish a long rest, you gain resistance to either acid, cold, or fire damage (your choice) until you finish your next long rest."
+							]
+						},
+						{
+							"type": "item",
+							"name": "Portal Cracker",
+							"entries": [
+								"Your experience with portals allows you to operate them without the proper portal key. As an action, you can concentrate on a portal you're aware of that is within 5 feet of you and make a DC 20 Wisdom ({@skill Survival}) check. On a failure, you take {@damage 3d8} force damage and you can't use this feature on that portal again until you finish a long rest. On a success, you can force the portal open or closed for 1 hour. For that duration, a portal closed in this way doesn't respond to its portal key unless a creature employing the key succeeds on a DC 20 Intelligence ({@skill Arcana}) check as an action."
+							]
+						},
+						{
+							"type": "item",
+							"name": "Portal Sense",
+							"entries": [
+								"You know the direction to the last planar portal you used while you and the portal are on the same plane. Moreover, as an action, you can detect the location of any portals within 30 feet of you that aren't behind total cover. Once you detect a portal with this action, you can't use the action again until you finish a long rest."
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Righteous Heritor",
+			"source": "UA2022WondersOfTheMultiverse",
+			"page": 8,
+			"prerequisite": [
+				{
+					"level": 4,
+					"feat": [
+						"scion of the outer planes|ua2022wondersofthemultiverse|scion of the outer planes (good outer plane)"
+					]
+				}
+			],
+			"ability": [
+				{
+					"choose": {
+						"from": [
+							"str",
+							"dex",
+							"con",
+							"int",
+							"wis",
+							"cha"
+						],
+						"amount": 1
+					}
+				}
+			],
+			"entries": [
+				"You can channel the cosmic forces of good that foster serenity and fellowship. You are still free to choose your own actions, but gain these benefits:",
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"items": [
+						{
+							"type": "item",
+							"name": "Soothe Pain",
+							"entries": [
+								"When you or a creature you can see within 30 feet of you takes damage, you can use your reaction to dull its suffering and reduce the damage it takes by {@dice 1d10} + your proficiency bonus. You can use this benefit a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest."
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Rune Carver Adept",
+			"source": "UA2022WondersOfTheMultiverse",
+			"page": 8,
+			"prerequisite": [
+				{
+					"level": 4,
+					"feat": [
+						"rune carver apprentice|ua2022wondersofthemultiverse"
+					]
+				}
+			],
+			"ability": [
+				{
+					"choose": {
+						"from": [
+							"str",
+							"dex",
+							"con",
+							"int",
+							"wis",
+							"cha"
+						],
+						"amount": 1
+					},
+					"hidden": true
+				}
+			],
+			"entries": [
+				"Your ability to draw out power from runes has grown.",
+				"Increase the ability score of the spellcasting ability chosen when you gained the Rune Carver Apprentice feat by 1, to a maximum of 20.",
+				"Whenever you cast a spell from the Rune Spells table, or a spell of a school of magic associated with the spell you marked on an object from your Rune Carver Apprentice feat, you can invoke runic power, granting you one of these benefits of your choice:",
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"items": [
+						{
+							"type": "item",
+							"name": "Battle Runes",
+							"entries": [
+								"Choose one creature you can see within 30 feet of yourself. Until the end of that creature's next turn, it has advantage on the next attack roll it makes."
+							]
+						},
+						{
+							"type": "item",
+							"name": "Healing Runes",
+							"entries": [
+								"Choose one creature you can see within 30 feet of yourself. That creature gains temporary hit points equal to your level."
+							]
+						},
+						{
+							"type": "item",
+							"name": "Runic Winds",
+							"entries": [
+								"Choose one creature you can see within 30 feet of yourself. Until the end of that creature's turn, its movement doesn't provoke opportunity attacks, and its walking speed increases by 10 feet."
+							]
+						}
+					]
+				},
+				"You can invoke runic power a number of times equal to your proficiency bonus, but no more than once per spell you cast. You regain all expended uses when you finish a long rest."
+			]
+		},
+		{
+			"name": "Rune Carver Apprentice",
+			"source": "UA2022WondersOfTheMultiverse",
+			"page": 8,
+			"entries": [
+				"You've begun studying the art of runecraft.",
+				"You learn the comprehend languages spell. You can cast this spell without expending a spell slot, and you must finish a long rest before you can cast it in this way again. You can also cast this spell using any spell slots you have.",
+				"You know two runes of your choice from the Rune Spells table. Whenever you finish a long rest, you can mark one nonmagical weapon, armor, piece of clothing, or other object you touch with a rune you know. You temporarily learn one 1st-level spell based on the rune you inscribed, as specified in the Rune Spells table, and you know the spell until you finish a long rest, when the rune fades.",
+				{
+					"type": "table",
+					"caption": "Rune Spells",
+					"colLabels": [
+						"Rune",
+						"Spell"
+					],
+					"colStyles": [
+						"col-4",
+						"col-8"
+					],
+					"rows": [
+						[
+							"Death",
+							"{@spell Ray of sickness}"
+						],
+						[
+							"Dragon",
+							"{@spell Chromatic orb}"
+						],
+						[
+							"Enemy",
+							"{@spell Disguise self}"
+						],
+						[
+							"Friend",
+							"{@spell Speak with animals}"
+						],
+						[
+							"Journey",
+							"{@spell Longstrider}"
+						],
+						[
+							"King",
+							"{@spell Command}"
+						],
+						[
+							"Mountain",
+							"{@spell Entangle}"
+						],
+						[
+							"Sacred",
+							"{@spell Sanctuary}"
+						]
+					]
+				},
+				"While you are wearing or carrying the rune-marked object, you can cast the spell associated with the chosen rune once without using a spell slot or material components, and you can also cast the spell using any spell slots you have.",
+				"Your spellcasting ability for this feat is Intelligence, Wisdom, or Charisma (choose when you select this feat)",
+				"Each time you gain a level, you can replace one of the runes you know with a different one from the Rune Spells table."
+			]
+		},
+		{
+			"name": "Scion Of Elemental Air",
+			"source": "UA2022WondersOfTheMultiverse",
+			"page": 8,
+			"additionalSpells": [
+				{
+					"known": {
+						"_": [
+							"minor illusion#c"
+						]
+					}
+				}
+			],
+			"entries": [
+				"You've been exposed to the primordial magic of the Elemental Plane of Air, granting you the following benefits:",
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"items": [
+						{
+							"type": "item",
+							"name": "Elemental Magic",
+							"entries": [
+								"You learn the {@spell minor illusion} cantrip, using Intelligence, Wisdom, or Charisma as the spellcasting ability (choose when you select this feat)."
+							]
+						},
+						{
+							"type": "item",
+							"name": "Wind's Glide",
+							"entries": [
+								"You can use a bonus action to gain a flying speed equal to your walking speed until the end of your turn. If you are airborne at the end of your turn after using this movement and aren't held aloft by other means, you fall. You can use this bonus action a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest."
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Scion Of Elemental Earth",
+			"source": "UA2022WondersOfTheMultiverse",
+			"page": 8,
+			"additionalSpells": [
+				{
+					"known": {
+						"_": [
+							"druidcraft#c"
+						]
+					}
+				}
+			],
+			"entries": [
+				"You've been exposed to the primordial magic of the Elemental Plane of Earth, granting you the following benefits:",
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"items": [
+						{
+							"type": "item",
+							"name": "Elemental Magic",
+							"entries": [
+								"You learn the {@spell druidcraft} cantrip, using Intelligence, Wisdom, or Charisma as the spellcasting ability (choose when you select this feat)."
+							]
+						},
+						{
+							"type": "item",
+							"name": "Earthen Shield",
+							"entries": [
+								"You can use a bonus action to conjure a bulwark of earth that provides half cover to you or a creature of your choice within 30 feet of yourself. The bulwark remains until the start of your next turn. You can create this bulwark a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest."
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Scion Of Elemental Fire",
+			"source": "UA2022WondersOfTheMultiverse",
+			"page": 9,
+			"additionalSpells": [
+				{
+					"known": {
+						"_": [
+							"dancing lights#c",
+							"produce flame#c"
+						]
+					}
+				}
+			],
+			"entries": [
+				"You've been exposed to the primordial magic of the Elemental Plane of Fire, granting you the following benefits:",
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"items": [
+						{
+							"type": "item",
+							"name": "Elemental Magic",
+							"entries": [
+								"You learn the {@spell dancing lights} cantrip, using Intelligence, Wisdom, or Charisma as the spellcasting ability (choose when you select this feat)."
+							]
+						},
+						{
+							"type": "item",
+							"name": "Fervent Blaze",
+							"entries": [
+								"You learn the {@spell produce flame} cantrip, using the same spellcasting ability chosen for this feat's Elemental Magic benefit. You can cast produce flame as normal, and you can also cast it as a bonus action a number of times equal to your proficiency bonus, regaining all expended uses when you finish a long rest."
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Scion Of Elemental Water",
+			"source": "UA2022WondersOfTheMultiverse",
+			"page": 9,
+			"additionalSpells": [
+				{
+					"known": {
+						"_": [
+							"thaumaturgy#c"
+						]
+					}
+				}
+			],
+			"entries": [
+				"You've been exposed to the primordial magic of the Elemental Plane of Water, granting you the following benefits:",
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"items": [
+						{
+							"type": "item",
+							"name": "Elemental Magic",
+							"entries": [
+								"You learn the thaumaturgy cantrip, using Intelligence, Wisdom, or Charisma as the spellcasting ability (choose when you select this feat)."
+							]
+						},
+						{
+							"type": "item",
+							"name": "Wave Surge",
+							"entries": [
+								"You can use a bonus action to create a forceful surge of water directed at a creature within 15 feet of you that you can see. The target must make a Strength saving throw; the DC for this save is equal to 8 + your proficiency bonus + the spellcasting ability modifier chosen for this feat, and a creature can choose to fail this saving throw. On a failure, the target is pushed up to 10 feet away from you or pulled up to 10 feet toward you (your choice). The water vanishes immediately after the creature succeeds or fails. You can create this effect a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest."
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Scion Of The Outer Planes",
+			"source": "UA2022WondersOfTheMultiverse",
+			"page": 9,
+			"additionalSpells": [
+				{
+					"name": "Astral Plane",
+					"known": {
+						"_": [
+							"message#c"
+						]
+					}
+				},
+				{
+					"name": "Chaotic Outer Plane",
+					"known": {
+						"_": [
+							"minor illusion#c"
+						]
+					}
+				},
+				{
+					"name": "Evil Outer Plane",
+					"known": {
+						"_": [
+							"chill touch#c"
+						]
+					}
+				},
+				{
+					"name": "Good Outer Plane",
+					"known": {
+						"_": [
+							"sacred flame#c"
+						]
+					}
+				},
+				{
+					"name": "Lawful Outer Plane",
+					"known": {
+						"_": [
+							"guidance#c"
+						]
+					}
+				},
+				{
+					"name": "The Outlands",
+					"known": {
+						"_": [
+							"mage hand#c"
+						]
+					}
+				}
+			],
+			"entries": [
+				"You are influenced by and adept at navigating planar pathways and the strange realities of the Outer Planes.",
+				"Whether planar essence infuses you or you have extraplanar ancestry, your connection to a plane infuses you with the energies found there. Choose a type of plane listed in the Planar Infusion table below. Your choice gives you resistance to a damage type and the ability to cast a cantrip, as specified in the table. You can cast this cantrip without material components, and your spellcasting ability for it is Intelligence, Wisdom, or Charisma (choose when you select this feat).",
+				{
+					"type": "table",
+					"caption": "Planar Infusion",
+					"colLabels": [
+						"Plane",
+						"Damage Resistance",
+						"Cantrip"
+					],
+					"colStyles": [
+						"col-4",
+						"col-4",
+						"col-4"
+					],
+					"rows": [
+						[
+							"Astral Plane",
+							"Psychic",
+							"{@spell Message}"
+						],
+						[
+							"Chaotic Outer Plane",
+							"Necrotic",
+							"{@spell Minor illusion}"
+						],
+						[
+							"Evil Outer Plane",
+							"Necrotic",
+							"{@spell Chill touch}"
+						],
+						[
+							"Good Outer Plane",
+							"Radiant",
+							"{@spell Sacred flame}"
+						],
+						[
+							"Lawful Outer Plane",
+							"Radiant",
+							"{@spell Guidance}"
+						],
+						[
+							"The Outlands",
+							"Psychic",
+							"{@spell Mage hand}"
+						]
+					]
+				}
+			]
+		},
+		{
+			"name": "Soul Of The Storm Giant",
+			"source": "UA2022WondersOfTheMultiverse",
+			"page": 9,
+			"prerequisite": [
+				{
+					"level": 4,
+					"feat": [
+						"strike of the giants|ua2022wondersofthemultiverse|strike of the giants (storm giant)"
+					]
+				}
+			],
+			"ability": [
+				{
+					"choose": {
+						"from": [
+							"int",
+							"wis",
+							"cha"
+						],
+						"amount": 1
+					}
+				}
+			],
+			"entries": [
+				"You've manifested divination abilities and tempest magic emblematic of storm giants, granting you the following benefits:",
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"items": [
+						{
+							"type": "item",
+							"name": "Maelstrom Aura",
+							"entries": [
+								"As a bonus action, you surround yourself in an aura of magical wind and lightning that extends 10 feet from you in every direction but not through total cover. The aura lasts until the start of your next turn or until you are {@condition incapacitated}. While the aura is active, attack rolls against you have disadvantage, and whenever a creature starts its turn within the aura, you can force the creature to make a Strength saving throw (DC equals 8 + your proficiency bonus + the ability modifier of the score increased by this feat). On a failed save, the creature's speed is halved until the start of its next turn. You can use this bonus action a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest."
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Strike Of The Giants",
+			"source": "UA2022WondersOfTheMultiverse",
+			"page": 9,
+			"entries": [
+				"You have absorbed primeval magic that gives you an echo of the might of giants. Choose one of the kinds of giants listed below. As a bonus action, you can call on the power of your giant magic to imbue your attacks with additional power. The next time you hit a target with a melee or thrown weapon attack within the next minute, the attack has an additional effect depending on the origin of your giant magic:",
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"items": [
+						{
+							"type": "item",
+							"name": "Hill Giant",
+							"entries": [
+								"The target takes an extra {@damage 1d6} damage of the weapon's type. If the target is a creature, it must succeed on a Strength saving throw or be knocked {@condition prone}."
+							]
+						},
+						{
+							"type": "item",
+							"name": "Stone Giant",
+							"entries": [
+								"The target takes an extra {@damage 1d6} force damage. If the target is a creature, it must succeed on a Strength saving throw or be pushed 10 feet away from you in a straight line."
+							]
+						},
+						{
+							"type": "item",
+							"name": "Frost Giant",
+							"entries": [
+								"The target takes an extra {@damage 1d6} cold damage. If the target is a creature, it must succeed on a Constitution saving throw, or its speed is reduced to 0 until the start of your next turn."
+							]
+						},
+						{
+							"type": "item",
+							"name": "Fire Giant",
+							"entries": [
+								"The target takes an extra {@damage 1d8} fire damage."
+							]
+						},
+						{
+							"type": "item",
+							"name": "Cloud Giant",
+							"entries": [
+								"The target takes an extra {@damage 1d4} thunder damage. If the target is a creature, it must succeed on a Wisdom saving throw, or you become {@condition invisible} to it until the start of your next turn."
+							]
+						},
+						{
+							"type": "item",
+							"name": "Storm Giant",
+							"entries": [
+								"The target takes an extra {@damage 1d6} lightning damage. If the target is a creature, it must succeed on a Constitution saving throw, or it has disadvantage on attack rolls until the start of your next turn."
+							]
+						}
+					]
+				},
+				"The saving throw DC for these effects equals 8 + your proficiency bonus + your Strength or Constitution modifier.",
+				"You can use this bonus action a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest."
+			]
+		},
+		{
+			"name": "Vigor Of The Hill Giant",
+			"source": "UA2022WondersOfTheMultiverse",
+			"page": 10,
+			"prerequisite": [
+				{
+					"level": 4,
+					"feat": [
+						"strike of the giants|ua2022wondersofthemultiverse|strike of the giants (hill giant)"
+					]
+				}
+			],
+			"ability": [
+				{
+					"con": 1
+				}
+			],
+			"entries": [
+				"You've manifested the resilience emblematic of hill giants, granting you the following benefits:",
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"items": [
+						{
+							"type": "item",
+							"name": "Bulwark",
+							"entries": [
+								"When you are subjected to an effect that would move you at least 5 feet or knock you {@condition prone}, you can use your reaction to steady yourself. You are then neither moved nor knocked {@condition prone}."
+							]
+						},
+						{
+							"type": "item",
+							"name": "Iron Stomach",
+							"entries": [
+								"Whenever you eat food as part of a short rest and spend one or more Hit Dice to regain hit points, you regain additional hit points equal to your Constitution modifier + your proficiency bonus."
+							]
+						}
+					]
+				}
+			]
+		}
+	],
+	"spell": [
+		{
+			"name": "Antagonize",
+			"source": "UA2022WondersOfTheMultiverse",
+			"page": 10,
+			"level": 3,
+			"school": "E",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 30
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": "a playing card depicting a rogue"
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"entries": [
+				"You whisper magical words that antagonize one creature of your choice within range. The target must make a Wisdom saving throw. On a failed save, it takes {@damage 4d4} psychic damage and must immediately use its reaction, if available, to make a melee attack against another creature of your choice that you can see. If no other creature is within range, the target has disadvantage on the next attack roll it makes before the start of your next turn."
+			],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "At Higher Levels",
+					"entries": [
+						"When you cast this spell using a spell slot of 4th level or higher, the damage increases by {@dice 1d4} for each slot level above 4th."
+					]
+				}
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Bard",
+						"source": "PHB"
+					},
+					{
+						"name": "Sorcerer",
+						"source": "PHB"
+					},
+					{
+						"name": "Warlock",
+						"source": "PHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					}
+				]
+			},
+			"damageInflict": [
+				"psychic"
+			],
+			"savingThrow": [
+				"wisdom"
+			],
+			"miscTags": [
+				"SGT"
+			]
+		},
+		{
+			"name": "House of Cards",
+			"source": "UA2022WondersOfTheMultiverse",
+			"page": 10,
+			"level": 3,
+			"school": "C",
+			"time": [
+				{
+					"number": 1,
+					"unit": "minute"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "touch"
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": "a deck of cards"
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "hour",
+						"amount": 24
+					}
+				}
+			],
+			"entries": [
+				"You touch the ground and conjure forth a defensive structure made of enormous playing cards. The structure rises with you at its center, harmlessly lifting you and any creatures in the area. The house of cards has a square base that is 30 feet on each side, and it has three floors with 10- foot-high ceilings. The second floor is 20 feet on each side, and the top floor is 10 feet on each side\u2014both centered above the bottom floor. Ramps connect the interior of each floor, and empty doorframes connect the interior and exterior of each level. Creatures inside or on top of the structure have half cover.",
+				"Each card that comprises the house is 5 feet wide and 10 feet tall and is very fragile. A card has AC 10 and 1 hit point. The cards are immune to poison and psychic damage. Reducing a card to 0 hit points destroys it. Every time a card is destroyed, roll {@dice 1d6}. If you roll a 5 or a 6, the house collapses, ending the spell.",
+				"The house and all its cards vanish when the spell ends."
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Artificer",
+						"source": "TCE"
+					},
+					{
+						"name": "Bard",
+						"source": "PHB"
+					},
+					{
+						"name": "Sorcerer",
+						"source": "PHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					}
+				]
+			}
+		},
+		{
+			"name": "Spirit of Death",
+			"source": "UA2022WondersOfTheMultiverse",
+			"page": 10,
+			"level": 4,
+			"school": "N",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 60
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": {
+					"text": "a gilded playing card depicting an avatar of death worth at least 400 gp",
+					"cost": 40000
+				}
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 1
+					},
+					"concentration": true
+				}
+			],
+			"entries": [
+				"You call forth a spirit that embodies death itself. Choose a creature you can see within range. The spirit manifests in an unoccupied space that you can see within 10 feet of the target, and the target becomes haunted by the spirit. The spirit uses the {@creature Reaper Spirit|UA2022WondersOfTheMultiverse} stat block. The spirit disappears when it or the haunted creature is reduced to 0 hit points, or when the spell ends.",
+				"The reaper spirit is an ally to you and your companions. In combat, the spirit shares your initiative count, but it takes its turn immediately after yours. It obeys your verbal commands (no action required by you), but it will only attack the haunted creature. If you don't issue the spirit any commands, it takes the {@action Dodge} action and uses its move to avoid danger."
+			],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "At Higher Levels",
+					"entries": [
+						"When you cast this spell using a spell slot of 5th level or higher, use the higher level wherever the spell's level appears in the stat block."
+					]
+				}
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Sorcerer",
+						"source": "PHB"
+					},
+					{
+						"name": "Warlock",
+						"source": "PHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					}
+				]
+			},
+			"miscTags": [
+				"SGT"
+			]
+		},
+		{
+			"name": "Spray of Cards",
+			"source": "UA2022WondersOfTheMultiverse",
+			"page": 11,
+			"level": 2,
+			"school": "C",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "cone",
+				"distance": {
+					"type": "feet",
+					"amount": 15
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": "a deck of cards"
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"entries": [
+				"You spray spectral cards from your hands or sleeve; the cards blind or slash at your enemies, and then vanish. Choose one of the following effects for the cards.",
+				{
+					"type": "entries",
+					"name": "Blinding Cards",
+					"entries": [
+						"Each creature in a 15-foot cone must succeed on a Wisdom saving throw or be {@condition blinded} until the end of their next turn."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Cutting Cards",
+					"entries": [
+						"Each creature in a 15-foot cone must make a Dexterity saving throw. A creature takes {@damage 2d10} force damage on a failed save or half as much damage on a successful one."
+					]
+				}
+			],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "At Higher Levels",
+					"entries": [
+						"When you cast this spell using a spell slot of 4th level or higher, the damage of cutting cards increases by {@dice 1d10} for every two slot levels above 2nd."
+					]
+				}
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Bard",
+						"source": "PHB"
+					},
+					{
+						"name": "Sorcerer",
+						"source": "PHB"
+					},
+					{
+						"name": "Warlock",
+						"source": "PHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					}
+				]
+			},
+			"damageInflict": [
+				"force"
+			],
+			"conditionInflict": [
+				"blinded"
+			],
+			"savingThrow": [
+				"dexterity",
+				"wisdom"
+			]
+		},
+		{
+			"name": "Summon Warrior Spirit",
+			"source": "UA2022WondersOfTheMultiverse",
+			"page": 11,
+			"level": 3,
+			"school": "C",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 90
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": {
+					"text": "a gilded playing card depicting a knight worth at least 300 gp",
+					"cost": 30000
+				}
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "hour",
+						"amount": 1
+					},
+					"concentration": true
+				}
+			],
+			"entries": [
+				"You call forth a warrior spirit from the legendary Deck of Many Things. It manifests in an unoccupied space that you can see within range. This corporeal form uses the {@creature Warrior Spirit|UA2022WondersOfTheMultiverse} stat block. When you cast the spell, choose a type of warrior: barbarian, fighter, or monk. The warrior resembles a humanoid armed appropriately to the chosen class, which determines certain traits in its stat block. The warrior disappears when it drops to 0 hit points or when the spell ends.",
+				"The warrior is an ally to you and your companions. In combat, the warrior shares your initiative count, but it takes its turn immediately after yours. It obeys your verbal commands (no action required by you). If you don't issue any, it takes the {@action Dodge} action and uses its move to avoid danger."
+			],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "At Higher Levels",
+					"entries": [
+						"When you cast this spell using a spell slot of 4th level or higher, the creature assumes the higher level for that casting wherever it uses the spell's level in its stat block."
+					]
+				}
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Sorcerer",
+						"source": "PHB"
+					},
+					{
+						"name": "Warlock",
+						"source": "PHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					}
+				]
+			},
+			"miscTags": [
+				"SGT"
+			]
+		}
+	],
+	"monster": [
+		{
+			"name": "Reaper Spirit",
+			"source": "UA2022WondersOfTheMultiverse",
+			"page": 11,
+			"size": [
+				"M"
+			],
+			"type": "undead",
+			"ac": [
+				{
+					"special": "11 + the level of the spell (natural armor)"
+				}
+			],
+			"hp": {
+				"special": "40 + 10 for each spell level above 3rd"
+			},
+			"speed": {
+				"walk": 30,
+				"fly": {
+					"number": 30,
+					"condition": "(hover)"
+				},
+				"canHover": true
+			},
+			"str": 16,
+			"dex": 16,
+			"con": 16,
+			"int": 16,
+			"wis": 16,
+			"cha": 16,
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"passive": 13,
+			"immune": [
+				"necrotic",
+				"poison"
+			],
+			"conditionImmune": [
+				"charmed",
+				"frightened",
+				"paralyzed",
+				"poisoned"
+			],
+			"languages": [
+				"understands the languages you speak"
+			],
+			"pbNote": "equals your bonus",
+			"trait": [
+				{
+					"name": "Incorporeal Movement",
+					"entries": [
+						"The reaper can move through other creatures and objects as if they were difficult terrain. If it ends its turn inside an object, it is shunted to the nearest unoccupied space and takes {@damage 1d10} force damage for every 5 feet traveled."
+					]
+				},
+				{
+					"name": "Haunting Tracker",
+					"entries": [
+						"You and the reaper can sense the direction and distance to the haunted creature if it's on the same plane of existence as you."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The reaper makes a number of attacks equal to half this spell's level (rounded down)."
+					]
+				},
+				{
+					"name": "Reaping Scythe",
+					"entries": [
+						"{@atk mw} your spell attack modifier to hit (with advantage), reach 5 ft., one target. {@h}{@damage 1d10 + 3} + the spell's level necrotic damage."
+					]
+				},
+				{
+					"name": "Paralyzing Fear (1/Day)",
+					"entries": [
+						"The reaper attempts to instill fear into the haunted creature it can see within 60 feet of itself. The creature must succeed on a Wisdom saving throw against your spell save DC or be {@condition frightened} of the reaper for 1 minute. While {@condition frightened} this way, the creature's speed is 0, and it can't benefit from any bonus to its speed. The {@condition frightened} creature can repeat the saving throw at the end of each of its turns, or immediately after it takes damage, ending the effect on itself on a success."
+					]
+				}
+			],
+			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/unearthed-arcana/master/_img/tokens/UA2022WondersOfTheMultiverse/Reaper Spirit.png",
+			"traitTags": [
+				"Incorporeal Movement"
+			],
+			"senseTags": [
+				"D"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"damageTags": [
+				"N",
+				"O"
+			],
+			"miscTags": [
+				"MW"
+			],
+			"conditionInflict": [
+				"frightened"
+			]
+		},
+		{
+			"name": "Warrior Spirit",
+			"source": "UA2022WondersOfTheMultiverse",
+			"page": 11,
+			"size": [
+				"M"
+			],
+			"type": "undead",
+			"ac": [
+				{
+					"special": "13 + the level of the spell +2 (Fighter only)"
+				}
+			],
+			"hp": {
+				"special": "30 (Barbarian and Fighter only) or 20 (Monk only) + 10 for each spell level above 3rd"
+			},
+			"speed": {
+				"walk": 30,
+				"alternate": {
+					"walk": [
+						{
+							"number": 40,
+							"condition": "(monk only)"
+						}
+					]
+				}
+			},
+			"str": 16,
+			"dex": 16,
+			"con": 14,
+			"int": 10,
+			"wis": 16,
+			"cha": 9,
+			"save": {
+				"str": "+3",
+				"dex": "+3"
+			},
+			"passive": 13,
+			"resist": [
+				"poison"
+			],
+			"conditionImmune": [
+				"charmed",
+				"poisoned"
+			],
+			"languages": [
+				"Common",
+				"understands the languages you speak"
+			],
+			"pbNote": "equals your bonus",
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The warrior makes a number of attacks equal to half this spell's level (rounded down)."
+					]
+				},
+				{
+					"name": "Reckless Strike (Barbarian Only)",
+					"entries": [
+						"{@atk mw} your spell attack modifier to hit (with advantage), reach 5 ft., one target. {@h}{@damage 1d12 + 3} + the spell's level slashing damage, and attacks made against the warrior until the start of its next turn are made with advantage."
+					]
+				},
+				{
+					"name": "Rallying Strike (Fighter Only)",
+					"entries": [
+						"{@atk mw,rw} your spell attack modifier to hit, reach 5 ft., or range 20/60 ft., one target. {@h}{@damage 1d6 + 3} + the spell's level piercing damage, and the warrior can choose another creature it can see within 20 feet of itself. The chosen creature gains {@dice 1d6} temporary hit points."
+					]
+				},
+				{
+					"name": "Unarmed Strike (Monk Only)",
+					"entries": [
+						"{@atk mw} your spell attack modifier to hit, reach 5 ft., one target. {@h}{@damage 1d4 + 3} + the spell's level bludgeoning damage, and the target must succeed on a Strength saving throw against your spell save DC or be knocked {@condition prone}."
+					]
+				}
+			],
+			"bonus": [
+				{
+					"name": "Flurry of Blows (Monk Only)",
+					"entries": [
+						"The monk makes one Unarmed Strike attack."
+					]
+				}
+			],
+			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/unearthed-arcana/master/_img/tokens/UA2022WondersOfTheMultiverse/Warrior Spirit.png",
+			"actionTags": [
+				"Multiattack"
+			],
+			"languageTags": [
+				"C"
+			],
+			"damageTags": [
+				"B",
+				"P",
+				"S"
+			],
+			"miscTags": [
+				"MW",
+				"RW"
+			],
+			"conditionInflict": [
+				"prone"
+			]
+		}
+	]
+}

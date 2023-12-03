@@ -1,0 +1,1329 @@
+{
+	"_meta": {
+		"sources": [
+			{
+				"json": "UAOfShipsAndSea",
+				"abbreviation": "UAOSS",
+				"full": "Unearthed Arcana: Of Ships and the Sea",
+				"authors": [
+					"Wizards of the Coast"
+				],
+				"convertedBy": [
+					"Giddy"
+				],
+				"version": "1.0.0",
+				"url": "https://media.wizards.com/2018/dnd/downloads/UA_ShipsSea.pdf",
+				"dateReleased": "2018-11-12"
+			}
+		],
+		"dateAdded": 1701616429,
+		"dateLastModified": 1701616429,
+		"_dateLastModifiedHash": "aaaaaaaaaa"
+	},
+	"vehicle": [
+		{
+			"name": "Airship",
+			"source": "UAOfShipsAndSea",
+			"page": 2,
+			"vehicleType": "SHIP",
+			"size": "G",
+			"dimensions": [
+				"80 ft.",
+				"20 ft."
+			],
+			"terrain": [
+				"air"
+			],
+			"capCrew": 20,
+			"capPassenger": 10,
+			"capCargo": 1,
+			"pace": 9,
+			"str": 14,
+			"dex": 14,
+			"con": 12,
+			"int": 0,
+			"wis": 0,
+			"cha": 0,
+			"immune": [
+				"poison",
+				"psychic"
+			],
+			"conditionImmune": [
+				"blinded",
+				"charmed",
+				"deafened",
+				"exhaustion",
+				"frightened",
+				"incapacitated",
+				"paralyzed",
+				"petrified",
+				"poisoned",
+				"prone",
+				"stunned",
+				"unconscious"
+			],
+			"hull": {
+				"ac": 13,
+				"hp": 300
+			},
+			"control": [
+				{
+					"name": "Helm",
+					"ac": 16,
+					"hp": 50,
+					"entries": [
+						"Move up to the speed of its elemental engine, with one 90-degree turn. If the helm is destroyed, the airship can't turn."
+					]
+				}
+			],
+			"movement": [
+				{
+					"name": "Elemental Engine",
+					"ac": 18,
+					"hp": 100,
+					"hpNote": "-20 ft. speed per 25 damage taken",
+					"locomotion": [
+						{
+							"mode": "air",
+							"entries": [
+								"elemental power, speed 80 ft. If the engine is destroyed, the ship immediately crashes."
+							]
+						}
+					]
+				}
+			],
+			"weapon": [
+				{
+					"name": "Ballistas",
+					"count": 4,
+					"ac": 15,
+					"hp": 50,
+					"entries": [
+						"{@atk rw} {@hit 6} to hit, range 120/480 ft., one target. {@h}16 ({@damage 3d10}) piercing damage."
+					]
+				}
+			],
+			"other": [
+				{
+					"name": "Actions",
+					"entries": [
+						"On its turn, the airship can use its helm to move using its elemental engine. It can also fire its ballistas. If it has half its crew or fewer, it can fire only two of the ballistas."
+					]
+				}
+			]
+		},
+		{
+			"name": "Galley",
+			"source": "UAOfShipsAndSea",
+			"page": 2,
+			"vehicleType": "SHIP",
+			"size": "G",
+			"dimensions": [
+				"130 ft.",
+				"20 ft."
+			],
+			"terrain": [
+				"sea"
+			],
+			"capCrew": 80,
+			"capPassenger": 40,
+			"capCargo": 150,
+			"pace": 4,
+			"str": 24,
+			"dex": 4,
+			"con": 20,
+			"int": 0,
+			"wis": 0,
+			"cha": 0,
+			"immune": [
+				"poison",
+				"psychic"
+			],
+			"conditionImmune": [
+				"blinded",
+				"charmed",
+				"deafened",
+				"exhaustion",
+				"frightened",
+				"incapacitated",
+				"paralyzed",
+				"petrified",
+				"poisoned",
+				"prone",
+				"stunned",
+				"unconscious"
+			],
+			"hull": {
+				"ac": 15,
+				"hp": 500,
+				"dt": 20
+			},
+			"control": [
+				{
+					"name": "Helm",
+					"ac": 16,
+					"hp": 50,
+					"entries": [
+						"Move up to the speed of one of its movement components, with one 90-degree turn. If the helm is destroyed, the galley can't turn."
+					]
+				}
+			],
+			"movement": [
+				{
+					"name": "Sails",
+					"ac": 12,
+					"hp": 100,
+					"hpNote": "-10 ft. speed per 25 damage taken",
+					"locomotion": [
+						{
+							"mode": "water",
+							"entries": [
+								"sails, speed 35 ft.; 15 ft. while sailing into the wind; 50 ft. while sailing with the wind."
+							]
+						}
+					]
+				},
+				{
+					"name": "Oars",
+					"ac": 12,
+					"hp": 100,
+					"hpNote": "-5 ft. speed per 25 damage taken",
+					"locomotion": [
+						{
+							"mode": "water",
+							"entries": [
+								"oars, speed 30 ft."
+							]
+						}
+					]
+				}
+			],
+			"weapon": [
+				{
+					"name": "Ballistas",
+					"count": 4,
+					"ac": 15,
+					"hp": 50,
+					"entries": [
+						"{@atk rw} {@hit 6} to hit, range 120/480 ft., one target. {@h}16 ({@damage 3d10}) piercing damage."
+					]
+				},
+				{
+					"name": "Mangonels",
+					"count": 2,
+					"ac": 15,
+					"hp": 100,
+					"entries": [
+						"{@atk rw} {@hit 5} to hit, range 200/800 ft. (can't hit targets within 60 ft. of it), one target. {@h}27 ({@damage 5d10}) bludgeoning damage."
+					]
+				},
+				{
+					"name": "Ram",
+					"ac": 20,
+					"hp": 100,
+					"dt": 10,
+					"entries": [
+						"The galley has advantage on all saving throws relating to crashing when it crashes into a creature or object, and any damage it suffers from the crash is instead applied to the ram. These benefits do not apply if a vehicle crashes into the galley."
+					]
+				}
+			],
+			"other": [
+				{
+					"name": "Actions",
+					"entries": [
+						"On its turn, the galley can move using its helm. It can also fire its ballistas and its mangonels. If it has half its crew or fewer, it moves at half speed and can fire only half of its weapons."
+					]
+				}
+			]
+		},
+		{
+			"name": "Keelboat",
+			"source": "UAOfShipsAndSea",
+			"page": 3,
+			"vehicleType": "SHIP",
+			"size": "G",
+			"dimensions": [
+				"60 ft.",
+				"20 ft."
+			],
+			"terrain": [
+				"sea"
+			],
+			"capCrew": 3,
+			"capPassenger": 4,
+			"capCargo": 0.5,
+			"pace": 3,
+			"str": 16,
+			"dex": 7,
+			"con": 13,
+			"int": 0,
+			"wis": 0,
+			"cha": 0,
+			"immune": [
+				"poison",
+				"psychic"
+			],
+			"conditionImmune": [
+				"blinded",
+				"charmed",
+				"deafened",
+				"exhaustion",
+				"frightened",
+				"incapacitated",
+				"paralyzed",
+				"petrified",
+				"poisoned",
+				"prone",
+				"stunned",
+				"unconscious"
+			],
+			"hull": {
+				"ac": 15,
+				"hp": 100,
+				"dt": 10
+			},
+			"control": [
+				{
+					"name": "Helm",
+					"ac": 12,
+					"hp": 50,
+					"entries": [
+						"Move up to the speed of one of its movement components, with one 90-degree turn. If the helm is destroyed, the keelboat can't turn."
+					]
+				}
+			],
+			"movement": [
+				{
+					"name": "Sails",
+					"ac": 12,
+					"hp": 100,
+					"hpNote": "-5 ft. speed per 20 damage taken",
+					"locomotion": [
+						{
+							"mode": "water",
+							"entries": [
+								"sails, speed 25 ft.; 15 ft. while sailing into the wind; 35 ft. while sailing with the wind."
+							]
+						}
+					]
+				},
+				{
+					"name": "Oars",
+					"ac": 12,
+					"hp": 100,
+					"hpNote": "-5 ft. speed per 25 damage taken",
+					"locomotion": [
+						{
+							"mode": "water",
+							"entries": [
+								"oars, speed 20 ft."
+							]
+						}
+					]
+				}
+			],
+			"weapon": [
+				{
+					"name": "Ballista",
+					"ac": 15,
+					"hp": 50,
+					"entries": [
+						"{@atk rw} {@hit 6} to hit, range 120/480 ft., one target. {@h}16 ({@damage 3d10}) piercing damage. Keelboats typically include a ballista only when they are equipped for combat."
+					]
+				}
+			],
+			"other": [
+				{
+					"name": "Actions",
+					"entries": [
+						"On its turn, the keelboat can move using its helm. It can also fire its ballista if it is equipped with one. If it has half its crew or fewer, it moves at half speed and can't use its ballista."
+					]
+				}
+			]
+		},
+		{
+			"name": "Longship",
+			"source": "UAOfShipsAndSea",
+			"page": 4,
+			"vehicleType": "SHIP",
+			"size": "G",
+			"dimensions": [
+				"70 ft.",
+				"20 ft."
+			],
+			"terrain": [
+				"sea"
+			],
+			"capCrew": 40,
+			"capPassenger": 100,
+			"capCargo": 10,
+			"pace": 5,
+			"str": 20,
+			"dex": 6,
+			"con": 17,
+			"int": 0,
+			"wis": 0,
+			"cha": 0,
+			"immune": [
+				"poison",
+				"psychic"
+			],
+			"conditionImmune": [
+				"blinded",
+				"charmed",
+				"deafened",
+				"exhaustion",
+				"frightened",
+				"incapacitated",
+				"paralyzed",
+				"petrified",
+				"poisoned",
+				"prone",
+				"stunned",
+				"unconscious"
+			],
+			"hull": {
+				"ac": 15,
+				"hp": 300,
+				"dt": 15
+			},
+			"control": [
+				{
+					"name": "Helm",
+					"ac": 16,
+					"hp": 50,
+					"entries": [
+						"Move up to the speed of one of its movement components, with one 90-degree turn. If the helm is destroyed, the longship can't turn."
+					]
+				}
+			],
+			"movement": [
+				{
+					"name": "Sails",
+					"ac": 12,
+					"hp": 100,
+					"hpNote": "-10 ft. speed per 25 damage taken",
+					"locomotion": [
+						{
+							"mode": "water",
+							"entries": [
+								"sails, speed 45 ft.; 15 ft. while sailing into the wind; 60 ft. while sailing with the wind."
+							]
+						}
+					]
+				},
+				{
+					"name": "Oars",
+					"ac": 12,
+					"hp": 100,
+					"hpNote": "-5 ft. speed per 25 damage taken",
+					"locomotion": [
+						{
+							"mode": "water",
+							"entries": [
+								"oars, speed 20 ft."
+							]
+						}
+					]
+				}
+			],
+			"other": [
+				{
+					"name": "Actions",
+					"entries": [
+						"On its turn, the longship can move using its helm. If the longship loses half or more of its crew, it moves at half speed."
+					]
+				}
+			]
+		},
+		{
+			"name": "Rowboat",
+			"source": "UAOfShipsAndSea",
+			"page": 4,
+			"vehicleType": "SHIP",
+			"size": "L",
+			"dimensions": [
+				"10 ft.",
+				"5 ft."
+			],
+			"terrain": [
+				"sea"
+			],
+			"capCrew": 2,
+			"capPassenger": 2,
+			"capCargo": 0.25,
+			"pace": 3,
+			"str": 11,
+			"dex": 8,
+			"con": 11,
+			"int": 0,
+			"wis": 0,
+			"cha": 0,
+			"immune": [
+				"poison",
+				"psychic"
+			],
+			"conditionImmune": [
+				"blinded",
+				"charmed",
+				"deafened",
+				"exhaustion",
+				"frightened",
+				"incapacitated",
+				"paralyzed",
+				"petrified",
+				"poisoned",
+				"prone",
+				"stunned",
+				"unconscious"
+			],
+			"hull": {
+				"ac": 11,
+				"hp": 50,
+				"dt": 0
+			},
+			"movement": [
+				{
+					"name": "Oars",
+					"isControl": true,
+					"ac": 12,
+					"hp": 25,
+					"locomotion": [
+						{
+							"mode": "water",
+							"entries": [
+								"oars, speed 15 ft. Move up to its speed, with one 90-degree turn. Without oars, the rowboat's speed is 0."
+							]
+						}
+					]
+				}
+			],
+			"other": [
+				{
+					"name": "Actions",
+					"entries": [
+						"On its turn, the rowboat can move using its oars."
+					]
+				}
+			]
+		},
+		{
+			"name": "Sailing Ship",
+			"source": "UAOfShipsAndSea",
+			"page": 4,
+			"vehicleType": "SHIP",
+			"size": "G",
+			"dimensions": [
+				"80 ft.",
+				"20 ft."
+			],
+			"terrain": [
+				"sea"
+			],
+			"capCrew": 30,
+			"capPassenger": 20,
+			"capCargo": 100,
+			"pace": 5,
+			"str": 20,
+			"dex": 7,
+			"con": 17,
+			"int": 0,
+			"wis": 0,
+			"cha": 0,
+			"immune": [
+				"poison",
+				"psychic"
+			],
+			"conditionImmune": [
+				"blinded",
+				"charmed",
+				"deafened",
+				"exhaustion",
+				"frightened",
+				"incapacitated",
+				"paralyzed",
+				"petrified",
+				"poisoned",
+				"prone",
+				"stunned",
+				"unconscious"
+			],
+			"hull": {
+				"ac": 15,
+				"hp": 300,
+				"dt": 15
+			},
+			"control": [
+				{
+					"name": "Helm",
+					"ac": 18,
+					"hp": 50,
+					"entries": [
+						"Move up to the speed of its sails, with one 90-degree turn. If the helm is destroyed, the ship can't turn."
+					]
+				}
+			],
+			"movement": [
+				{
+					"name": "Sails",
+					"ac": 12,
+					"hp": 100,
+					"hpNote": "-5 ft. speed per 25 damage taken",
+					"locomotion": [
+						{
+							"mode": "water",
+							"entries": [
+								"sails, speed 45 ft.; 15 ft. while sailing into the wind; 60 ft. while sailing with the wind."
+							]
+						}
+					]
+				}
+			],
+			"weapon": [
+				{
+					"name": "Ballista",
+					"ac": 15,
+					"hp": 50,
+					"entries": [
+						"{@atk rw} {@hit 6} to hit, range 120/480 ft., one target. {@h}16 ({@damage 3d10}) piercing damage."
+					]
+				},
+				{
+					"name": "Mangonel",
+					"ac": 15,
+					"hp": 100,
+					"entries": [
+						"{@atk rw} {@hit 5} to hit, range 200/800 ft. (can't hit targets within 60 ft. of it), one target. {@h}27 ({@damage 5d10}) bludgeoning damage."
+					]
+				}
+			],
+			"other": [
+				{
+					"name": "Actions",
+					"entries": [
+						"On its turn, the sailing ship can move using its helm. It can also fire its ballista and its mangonel. If it has half its crew or fewer, it moves at half speed and can fire either its ballista or its mangonel."
+					]
+				}
+			]
+		},
+		{
+			"name": "Warship",
+			"source": "UAOfShipsAndSea",
+			"page": 5,
+			"vehicleType": "SHIP",
+			"size": "G",
+			"dimensions": [
+				"100 ft.",
+				"20 ft."
+			],
+			"terrain": [
+				"sea"
+			],
+			"capCrew": 40,
+			"capPassenger": 60,
+			"capCargo": 200,
+			"pace": 4,
+			"str": 20,
+			"dex": 4,
+			"con": 20,
+			"int": 0,
+			"wis": 0,
+			"cha": 0,
+			"immune": [
+				"poison",
+				"psychic"
+			],
+			"conditionImmune": [
+				"blinded",
+				"charmed",
+				"deafened",
+				"exhaustion",
+				"frightened",
+				"incapacitated",
+				"paralyzed",
+				"petrified",
+				"poisoned",
+				"prone",
+				"stunned",
+				"unconscious"
+			],
+			"hull": {
+				"ac": 15,
+				"hp": 500,
+				"dt": 20
+			},
+			"control": [
+				{
+					"name": "Helm",
+					"ac": 18,
+					"hp": 50,
+					"entries": [
+						"Move up to the speed of one of its movement components, with one 90-degree turn. If the helm is destroyed, the warship can't turn."
+					]
+				}
+			],
+			"movement": [
+				{
+					"name": "Sails",
+					"ac": 12,
+					"hp": 100,
+					"hpNote": "-10 ft. speed per 25 damage taken",
+					"locomotion": [
+						{
+							"mode": "water",
+							"entries": [
+								"sails, speed 35 ft.; 15 ft. while sailing into the wind; 50 ft. while sailing with the wind."
+							]
+						}
+					]
+				},
+				{
+					"name": "Oars",
+					"ac": 12,
+					"hp": 100,
+					"hpNote": "-5 ft. speed per 25 damage taken",
+					"locomotion": [
+						{
+							"mode": "water",
+							"entries": [
+								"oars, speed 20 ft. with 80 or more rowers, 10 feet with 40 or more rowers, 5 ft. with 20 or more rowers."
+							]
+						}
+					]
+				}
+			],
+			"weapon": [
+				{
+					"name": "Ballistas",
+					"count": 2,
+					"ac": 15,
+					"hp": 50,
+					"entries": [
+						"{@atk rw} {@hit 6} to hit, range 120/480 ft., one target. {@h}16 ({@damage 3d10}) piercing damage."
+					]
+				},
+				{
+					"name": "Mangonels",
+					"count": 2,
+					"ac": 15,
+					"hp": 100,
+					"entries": [
+						"{@atk rw} {@hit 5} to hit, range 200/800 ft. (can't hit targets within 60 ft. of it), one target. {@h}27 ({@damage 5d10}) bludgeoning damage."
+					]
+				},
+				{
+					"name": "Ram",
+					"ac": 20,
+					"hp": 100,
+					"dt": 10,
+					"entries": [
+						"The warship has advantage on all saving throws relating to crashing when it crashes into a creature or object. Any damage it suffers from the crash is instead applied to the ram. These benefits do not apply if another vessel crashes into the warship."
+					]
+				}
+			],
+			"other": [
+				{
+					"name": "Actions",
+					"entries": [
+						"On its turn, the warship can move using its helm. It can also fire its ballistas and mangonels. If it has half its crew or fewer, it moves at half speed and can fire only half of its weapons."
+					]
+				}
+			]
+		}
+	],
+	"variantrule": [
+		{
+			"name": "Crashing a Ship",
+			"source": "UAOfShipsAndSea",
+			"page": 9,
+			"type": "section",
+			"entries": [
+				"If a ship moves into the space occupied by a creature or object, it might crash. A ship avoids crashing if the creature or object is at least two sizes smaller than it.",
+				"When a ship crashes, it must immediately make a DC 10 Constitution saving throw. On a failed save, it takes damage to its hull based on the size of the creature or object it crashed into, as shown on the Crash Damage table. It also stops moving if the object or creature is bigger than it or one size smaller. Otherwise the ship continues moving and the creature or object moves to the nearest unoccupied space that is not in the ship's path. At the DM's discretion, an object that is forced to move but is fixed in place is instead destroyed",
+				"A creature struck must make a Dexterity saving throw with a DC equal to 10 + the ship's Strength modifier, taking damage based on the ship's size (as shown on the Crash Damage table) on a failed save, or half as much damage on a successful one.",
+				{
+					"type": "table",
+					"caption": "Crash Damage",
+					"colLabels": [
+						"Size",
+						"Bludgeoning Damage"
+					],
+					"colStyles": [
+						"col-6",
+						"col-6 text-center"
+					],
+					"rows": [
+						[
+							"Small",
+							"{@dice 1d6}"
+						],
+						[
+							"Medium",
+							"{@dice 1d10}"
+						],
+						[
+							"Large",
+							"{@dice 4d10}"
+						],
+						[
+							"Huge",
+							"{@dice 8d10}"
+						],
+						[
+							"Gargantuan",
+							"{@dice 16d10}"
+						]
+					]
+				}
+			]
+		},
+		{
+			"name": "Owning a Ship",
+			"source": "UAOfShipsAndSea",
+			"page": 9,
+			"type": "section",
+			"entries": [
+				"If you purchase a ship, you have unlocked an exciting new venue for adventure and signed up for a mountain of logistical challenges. Keeping a ship functioning requires a tremendous amount of work.",
+				"The rules use a downtime activity\u2014managing a ship\u2014to abstractly represent the effort needed to keep a ship functioning, its supplies stocked, and its crew paid.",
+				"See the {@book Dungeon Master's Guide|DMG|1|downtime activities} and {@book Xanathar's Guide to Everything|XGE|2|downtime revisited} for more information on downtime activities.",
+				{
+					"type": "entries",
+					"name": "Downtime: Managing a Ship",
+					"entries": [
+						"By hiring a competent captain and crew and putting them to work hauling cargo or otherwise offering their services, you can make it possible for a ship to remain in good repair and even generate a profit for you between adventures.",
+						"Managing a ship is a downtime activity that requires time and effort to recruit an officer and crew. The ship is available for use when needed. Otherwise, the ship hauls passengers and cargo to cover the costs of maintaining the ship and paying the crew.",
+						{
+							"type": "entries",
+							"name": "Resources",
+							"entries": [
+								"It takes one week to recruit a crew and {@dice 100 + 4d6} gp to cover the costs of recruitment and supplies. Once you have paid these costs, you have a captain and a crew to maintain the ship."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Resolution",
+							"entries": [
+								"Once you have a working ship, it turns a small profit each month. At the end of every four weeks, you earn {@dice 5d20} gp."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Complications",
+							"entries": [
+								"A ship owner runs the risk of foul weather, a bad trade deal, or a mutiny. When rolling to determine your profit, if any of the {@dice d20} rolls are a 1, roll on the Ship Ownership Complications table (or the DM may create a suitable complication).",
+								{
+									"type": "table",
+									"caption": "Ship Ownership Complications",
+									"colLabels": [
+										"d6",
+										"Complication"
+									],
+									"colStyles": [
+										"col-2 text-center",
+										"col-10"
+									],
+									"rows": [
+										[
+											"1",
+											"Your crew makes a bad bargain. You see no profit this month."
+										],
+										[
+											"2",
+											"Your ship and crew have been pressed into military service to hunt pirates for {@dice 1d4} months."
+										],
+										[
+											"3",
+											"A temple related to the sea or trade has accused your crew of disrespecting the gods, and no one will do business with your ship and crew. You lose {@dice 5d20} gp per month for {@dice 1d6} months or until the temple is mollified."
+										],
+										[
+											"4",
+											"Your ship and crew go missing and must be rescued from their captors."
+										],
+										[
+											"5",
+											"Your crew mutinies and is on the run from you."
+										],
+										[
+											"6",
+											"Your crew is caught smuggling illegal goods. They are imprisoned, and your ship impounded."
+										]
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Ship Crew",
+			"source": "UAOfShipsAndSea",
+			"page": 6,
+			"type": "section",
+			"entries": [
+				"A ship requires a number of able-bodied sailors to crew it, as specified in its stat block. A crew's skill, experience, morale, and health are defined by its quality score. A crew starts with a quality score of +4, and that score varies over time, going as low as -10 and as high as +10. It decreases as a crew takes casualties, suffers hardship, or endures poor health. It increases if the crew enjoys high morale, has good health care, and receives clear, fair leadership.",
+				"A typical crew member uses the commoner stat block in the Monster Manual.",
+				{
+					"type": "inset",
+					"name": "Loyalty and Quality",
+					"entries": [
+						"When dealing with an individual member of the crew, you might find it useful to use the optional loyalty rule from chapter 4 of the Dungeon Master's Guide. To convert a quality score to an individual's loyalty score, add 10 to the crew's quality score."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Mutiny",
+					"entries": [
+						"A poorly led or mistreated crew might turn against its officers. Once per day, if a crew's quality score is lower than 0, the captain must make a Charisma ({@skill Intimidation} or {@skill Persuasion}) check modified by the crew's quality score. If the check total is between 1 and 9, the crew's quality score decreases by 1.",
+						"If the check total is 0 or lower, the crew mutinies. They become hostile to the officers and might attempt to kill them, imprison them, or throw them overboard. The crew can be cowed into obedience through violence, combat, or offers of treasure and other rewards. When the DM ends the mutiny, the crew's quality score increases by {@dice 1d4}."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Shore Leave",
+					"entries": [
+						"Life aboard a ship is a constant wear on the crew. Spending time in port allows the crew to relax and regain its composure.",
+						"If a crew's quality score is 3 or lower, the score increases by 1 for each day the crew spends in port or ashore."
+					]
+				}
+			]
+		},
+		{
+			"name": "Ship Officers",
+			"source": "UAOfShipsAndSea",
+			"page": 5,
+			"type": "section",
+			"entries": [
+				"If you'd like to explore running a ship, it needs officers to oversee its operations\u2014officers who fill six different roles. A person can fill only one role at a time, though multiple people can be assigned to a single role. Some roles aboard a ship reflect the need for trained experts to direct a crew's efforts. Others focus on keeping the crew's health and morale in order.",
+				"Each role is described below, along with the abilities and proficiencies that help a character excel at it (but that aren't required):",
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"items": [
+						{
+							"type": "item",
+							"name": "Captain",
+							"entry": "The captain issues orders. The best captains have high Intelligence and Charisma scores, as well as proficiency with water vehicles and the {@skill Intimidation} and {@skill Persuasion} skills."
+						},
+						{
+							"type": "item",
+							"name": "First Mate",
+							"entry": "This specialist keeps the crew's morale up by providing close supervision, encouragement, and discipline. A first mate benefits from a high Charisma score, as well as proficiency with the {@skill Intimidation} and {@skill Persuasion} skills."
+						},
+						{
+							"type": "item",
+							"name": "Bosun",
+							"entry": "The bosun (or boatswain) provides technical advice to the captain and crew and leads repair and maintenance efforts. A good bosun has a high Strength score, as well as proficiency with {@item carpenter's tools|PHB} and the {@skill Athletics} skill."
+						},
+						{
+							"type": "item",
+							"name": "Quartermaster",
+							"entry": "The quartermaster plots the ship's course, relying on knowledge of nautical charts and a study of weather and sea conditions. A reliable quartermaster tends to have a high Wisdom score, as well as proficiency with {@item navigator's tools|PHB} and the {@skill Nature} skill."
+						},
+						{
+							"type": "item",
+							"name": "Surgeon",
+							"entry": "The ship's surgeon tends to injuries, keeps illnesses from spreading throughout the ship, and oversees sanitation. A capable surgeon benefits from a high Intelligence score, as well as proficiency with herbalism kits and the {@skill Medicine} skill."
+						},
+						{
+							"type": "item",
+							"name": "Cook",
+							"entry": "A ship's cook works with the limited ingredients aboard a ship to make meals. A skilled cook keeps the crew's morale in top shape, while a poor one drags down the entire crew's performance. A talented cook has a high Constitution score, as well as proficiency with {@item brewer's supplies|PHB} and {@item cook's utensils|PHB}."
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Ship Stat Blocks",
+			"source": "UAOfShipsAndSea",
+			"page": 1,
+			"type": "section",
+			"entries": [
+				"A ship's stat block gives game details for use when a ship is involved in combat or other situations where its defensive and offensive capabilities are relevant. The stat block has three main parts: basic statistics, action options, and the ship's components.",
+				"Ships can't take any actions on their own. Without any effort from its crew, a ship might drift on the water, come to a stop, or careen out of control.",
+				{
+					"type": "entries",
+					"name": "Basic Statistics",
+					"entries": [
+						{
+							"type": "entries",
+							"name": "Size",
+							"entries": [
+								"Most ships are Large, Huge, or Gargantuan. A ship's size category is determined by its length or width, whichever is longer. For instance, a ship that is 10 feet long and 20 feet wide would use the size category that has a 20-foot width, which means the ship is Gargantuan."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Space",
+							"entries": [
+								"A ship doesn't have a square space unless its stat block specifies otherwise. For example, a ship that is 20 feet long and 10 feet wide occupies a 20-by-10-foot space.",
+								"A ship can't move into a space that is too small to accommodate it. If it tries to do so, it crashes, as described later in the \"{@variantrule Crashing a Ship|uaofshipsandsea|Crashing}\" section."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Capacity",
+							"entries": [
+								"A ship's stat block indicates how many creatures and how much cargo it can carry. Creatures include both the crew required to operate the vessel and any passengers who might ride along. Passengers could include marines who repel boarders and lead the attack on monsters and enemy ships."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Travel Pace",
+							"entries": [
+								"A ship's travel pace determines how far the vessel can move per hour and per day. A ship's movement-related components (described later in the stat block) determine how far the vessel can move each round."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Ability Scores",
+							"entries": [
+								"A ship has the six ability scores (Strength, Dexterity, Constitution, Intelligence, Wisdom, and Charisma) and corresponding modifiers. A ship's Strength represents its size and weight. Dexterity represents a ship's ease of handling. A ship's Constitution covers its durability and the quality of its construction. Ships usually have a score of 0 in Intelligence, Wisdom, and Charisma.",
+								"If a ship has a 0 in a score, it automatically fails any ability check or saving throw that uses that score."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Vulnerabilities, Resistances, and Immunities",
+							"entries": [
+								"A ship's vulnerabilities, resistances, and immunities apply to all its components, unless otherwise noted in the stat block."
+							]
+						},
+						{
+							"type": "inset",
+							"name": "Typical Ship Immunities",
+							"entries": [
+								"If you're creating your own ship, they're usually immune to poison and psychic damage. Ones crafted from metal or stone are also typically immune to necrotic damage. They are also usually immune to the following conditions: {@condition blinded}, {@condition charmed}, {@condition deafened}, {@condition exhaustion} {@condition frightened}, {@condition incapacitated}, {@condition paralyzed}, {@condition petrified}, {@condition poisoned}, {@condition prone}, {@condition stunned}, and {@condition unconscious}."
+							]
+						}
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Components",
+					"entries": [
+						"A ship is composed of different components:",
+						{
+							"type": "list",
+							"style": "list-hang-notitle",
+							"items": [
+								{
+									"type": "item",
+									"name": "Hull",
+									"entry": "A ship's hull is its basic frame, on which the other components are mounted."
+								},
+								{
+									"type": "item",
+									"name": "Control",
+									"entry": "A control component is used to steer a ship."
+								},
+								{
+									"type": "item",
+									"name": "Movement",
+									"entry": "A movement component is the element of the ship that enables it to move, such as a set of sails or oars."
+								},
+								{
+									"type": "item",
+									"name": "Weapon",
+									"entry": "A ship capable of being used in combat has one or more weapon components, each of which is operated separately."
+								}
+							]
+						},
+						"A ship's component might have special rules, as described in the stat block.",
+						{
+							"type": "entries",
+							"name": "Armor Class",
+							"entries": [
+								"A component has an Armor Class. Its AC is meant to reflect its size, the materials used to construct it, and any defensive plating or armor used to augment its toughness."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Hit Points",
+							"entries": [
+								"A ship component is destroyed and becomes unusable when it drops to 0 hit points. A ship is wrecked if its hull is destroyed. A ship component does not have Hit Dice."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Damage Threshold",
+							"entries": [
+								"If a ship component has a damage threshold, that threshold appears after its hit points. A component has immunity to all damage unless it takes an amount of damage equal to or greater than its damage threshold, in which case it takes damage as normal. Any damage that fails to meet or exceed the damage threshold is considered superficial and doesn't reduce the component's hit points."
+							]
+						}
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Actions",
+					"entries": [
+						"This part of the stat block specifies what the ship can do on its turn, using its special actions rather than the actions used by creatures. It even relies on its actions to move; it doesn't have a move otherwise."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Sample Stat Blocks",
+					"entries": [
+						"Here are examples of ship stat blocks:",
+						{
+							"type": "list",
+							"items": [
+								"{@vehicle Airship|UAOfShipsAndSea}",
+								"{@vehicle Galley|UAOfShipsAndSea}",
+								"{@vehicle Keelboat|UAOfShipsAndSea}",
+								"{@vehicle Longship|UAOfShipsAndSea}",
+								"{@vehicle Rowboat|UAOfShipsAndSea}",
+								"{@vehicle Sailing Ship|UAOfShipsAndSea}",
+								"{@vehicle Warship|UAOfShipsAndSea}"
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Ships in Combat",
+			"source": "UAOfShipsAndSea",
+			"page": 8,
+			"type": "section",
+			"entries": [
+				"This section provides guidance on using ships in combat.",
+				{
+					"type": "entries",
+					"name": "Ships and Initiative",
+					"entries": [
+						"A ship rolls initiative using its Dexterity, and it uses its crew's quality score as a modifier to that roll.",
+						"On a ship's turn, the captain decides which of the ship's actions to use."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Special Officer Actions",
+					"entries": [
+						"During an encounter, the captain, first mate, and bosun each have access to two special action options described below: Full Speed Ahead and Fire at Will.",
+						{
+							"type": "entries",
+							"name": "Full Speed Ahead",
+							"entries": [
+								"As an action while on deck, the captain, first mate, or bosun can exhort the crew to work harder and drive a ship forward. Roll a {@dice d6} and multiply the result by 5. Apply the total as a bonus to the ship's speed until the end of the ship's next turn. If this bonus is applied to a ship's speed when the ship is already moving faster than normal, use the higher result. Don't add the two bonuses together."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Fire at Will",
+							"entries": [
+								"As an action, the captain, first mate, or bosun aids the crew in aiming one of the ship's weapons. Select one of the ship's weapons that is within 10 feet of the officer. It gains advantage on the next attack roll it makes before the end of the ship's next turn."
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Travel at Sea",
+			"source": "UAOfShipsAndSea",
+			"page": 6,
+			"type": "section",
+			"entries": [
+				"Here are rules to help adjudicate travel at sea, specifically travel of an hour or more. This material builds on the travel rules in the {@book Player's Handbook|PHB|8|travel pace} and the {@book Dungeon Master's Guide|DMG|8|Exploration}.",
+				{
+					"type": "entries",
+					"name": "Travel Pace",
+					"entries": [
+						"Ships travel at a speed given their stat blocks. Unlike with land travel, players can't choose to move at a faster pace, though they can choose to go slower.",
+						"If a ship's mode of movement takes damage, it might be slowed. For every decrease of 10 feet in speed, reduce the ship's pace by 1 mile per hour and 24 miles per day."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Activity While Traveling",
+					"entries": [
+						"The activities available to a ship's crew and passengers are a bit different from the options available to a group traveling by land. Refer to \"{@book Activity While Traveling|PHB|8|Activity While Traveling}\" in chapter 8 of the {@book Player's Handbook|PHB} for more information on some of the topics discussed below.",
+						"A number of activities are restricted to certain officers, unless the DM rules otherwise. For example, a bard might be allowed to engage in the raise morale activity by playing bawdy songs on deck to lift the crew's spirits.",
+						"The party's pace has no effect on the activities they can engage in while traveling by ship.",
+						{
+							"type": "entries",
+							"name": "Draw a Map",
+							"entries": [
+								"A ship's captain often undertakes this activity, producing a map that records the ship's progress and helps the crew get back on course if they get lost. No ability check is required."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Forage",
+							"entries": [
+								"The character casts out fishing lines, keeping an eye out for sources of food, making a Wisdom ({@skill Survival}) check when the DM calls for it."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Raise Morale (First Mate Only)",
+							"entries": [
+								"The first mate can manage the crew's time to grant extended breaks, provide instruction, and improve morale. Once per day, if the crew's quality score is 3 or lower, the first mate can make a DC 15 Charisma ({@skill Persuasion}) check. On a successful check, the crew's quality score increases by 1."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Navigate (Quartermaster Only)",
+							"entries": [
+								"The quartermaster can try to prevent the group from becoming lost, making a Wisdom ({@skill Survival}) check when the DM calls for it. (See \"{@book Becoming Lost|dmg|5|becoming lost}\" in chapter 5 of the Dungeon Master's Guide for more information.)"
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Noticing Threats",
+							"entries": [
+								"Use the passive Wisdom ({@skill Perception}) score of the characters or the crew to determine whether anyone on the ship notices a hidden threat. The crew has a passive Wisdom ({@skill Perception}) score equal to 10 + the crew's quality score. The DM might decide that a threat can be noticed only by characters in a specific area of the ship. For example, only characters below deck might have a chance to hear or spot a creature hiding on board."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Repair (Bosun Only)",
+							"entries": [
+								"The ship's bosun can undertake this activity. At the end of the day, the bosun can make a Strength check using {@item carpenter's tools|PHB}. On a 15 or higher, each damaged component regains hit points equal to {@dice 1d6} + the crew's quality score (minimum of 1 hit point). A component other than the hull that had 0 hit points becomes functional again."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Stealth (Captain Only)",
+							"entries": [
+								"The ship's captain can engage in this activity only if the weather conditions restrict visibility, such as in heavy fog. The ship makes a Dexterity check with a bonus equal to the crew's quality score to determine if it can hide."
+							]
+						}
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Hazards",
+					"entries": [
+						"Hazards come in two basic types: environmental hazards, such as storms or turbulent waters, and other events, such as a fire aboard the ship or a plague outbreak.",
+						{
+							"type": "entries",
+							"name": "Environmental Hazards",
+							"entries": [
+								"Icebergs choke a misty sea. Winds and towering waves threaten to capsize a ship. Snowstorms batter ships that venture north too late in the year. These are all examples of environmental hazards that can last for days and demand a crew's attention.",
+								"Each day a ship spends involved in a hazard requires the officers to each make a special ability check, as shown on the Hazard Checks table. This check takes the place of any other activities that the officer might undertake and represents the officer's contribution to keeping the ship afloat.",
+								{
+									"type": "table",
+									"caption": "Hazard Checks",
+									"colLabels": [
+										"Officer",
+										"Check"
+									],
+									"colStyles": [
+										"col-4",
+										"col-8"
+									],
+									"rows": [
+										[
+											"Captain",
+											"Intelligence (water vehicles)"
+										],
+										[
+											"First mate",
+											"mate Charisma ({@skill Intimidation})"
+										],
+										[
+											"Bosun",
+											"Strength ({@item carpenter's tools|PHB})"
+										],
+										[
+											"Quartermaster",
+											"Wisdom ({@skill Nature})"
+										],
+										[
+											"Surgeon",
+											"Intelligence ({@skill Medicine})"
+										],
+										[
+											"Cook",
+											"Constitution ({@item cook's utensils|PHB})"
+										]
+									]
+								},
+								"If there is no one available to make a check, treat the result as a 0.",
+								"Finally, roll a {@dice d20} for the crew, using its quality score as a modifier to the roll. Add up all of these checks and then refer to the Hazard Check Results table. That table shows if the ship has met with disaster or success in surviving that day of the hazard.",
+								{
+									"type": "table",
+									"caption": "Hazard Check Results",
+									"colLabels": [
+										"Check Total",
+										"Result"
+									],
+									"colStyles": [
+										"col-2 text-center",
+										"col-10"
+									],
+									"rows": [
+										[
+											"140+",
+											"{@b Great Success.} The crew's quality score increases by 1 for {@dice 1d4} days."
+										],
+										[
+											"105\u2013139",
+											"{@b Success.} The ship survives unscathed."
+										],
+										[
+											"70\u2013104",
+											"{@b Partial Disaster.} Each component takes {@dice 4d10} bludgeoning damage. The crew's quality score is reduced by 1. The ship struggles, moving at half speed that day."
+										],
+										[
+											"0\u201369",
+											"{@b Disaster.} The ship's components each take {@dice 10d10} bludgeoning damage. The crew's quality score drops by 2, as several members of the crew are washed overboard and lost. The ship is blown off course and struggles to recover its bearings, failing to cover any distance that day."
+										]
+									]
+								},
+								"If you want to add variety to hazards, consider including some interesting complications. For example, a whirlpool might drag a ship to the Elemental Plane of Water on a disaster result, with the ship avoiding the vortex on any other result.",
+								"You can also add or subtract to the success thresholds in the Hazard Check Results table to reflect a hazard's danger. If you decide to do so, increase or decrease a threshold by 35."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Other Events",
+							"entries": [
+								"In addition to rough seas and daunting weather, a ship might face a number of other threats.",
+								"The hazards below serve as examples of what can go wrong on a ship. Each one requires a different officer to spend a day dealing with the hazard instead of engaging in other activity. As a rule of thumb, there is a {@chance 10|10 percent} chance each day that one of the following events occurs.",
+								{
+									"type": "entries",
+									"name": "Emergency Maneuvers",
+									"entries": [
+										"The crew must react quickly to avoid a sudden threat. A kraken passes below the ship, threatening to capsize it in its wake, or the ship is about to crash into an uncharted reef. The captain must make a DC 15 Intelligence (water vehicles) check. On a failed check, the ship's hull takes {@dice 8d10} bludgeoning damage from the collision. On a successful check, the captain's quick direction keeps the ship out of harm."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Conflict",
+									"entries": [
+										"Life at sea is a mixture of monotony, hard work, and sudden moments of terror. The stress can wear on the stoutest sailor. Sometimes, that stress turns into conflict among the crew. If dissension spreads in the ranks, the first mate's activity that day must be spent making a DC 15 Charisma ({@skill Intimidation}) check to control the crew. On a failed check, the crew's quality score decreases by {@dice 1d4}."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Fire",
+									"entries": [
+										"A fire at sea can render a ship unable to function. Pick a random component. It takes {@dice 4d10} fire damage unless the bosun succeeds on a DC 15 Strength ({@item carpenter's tools|PHB}) check."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Plague",
+									"entries": [
+										"An illness sweeps through the ranks, perhaps caused by rats or insects that made their way aboard. The surgeon must make a DC 15 Wisdom ({@skill Medicine}) check. On a failed check, the crew's quality score decreases by 5 for {@dice 1d6} days."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Infestation",
+									"entries": [
+										"Beetles, rats, or other pests infest the ship, threatening its food stores. The cook must make a DC 15 Constitution ({@item brewer's supplies|PHB}) check to save what food they can. On a failed check, the crew has disadvantage on any checks involving its quality score until the ship has a chance to restock supplies."
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	]
+}

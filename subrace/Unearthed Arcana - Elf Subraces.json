@@ -1,0 +1,268 @@
+{
+	"_meta": {
+		"sources": [
+			{
+				"json": "UAElfSubraces",
+				"abbreviation": "UAESR",
+				"full": "Unearthed Arcana: Elf Subraces",
+				"authors": [
+					"Wizards of the Coast"
+				],
+				"convertedBy": [
+					"Giddy"
+				],
+				"version": "1.0.0",
+				"url": "https://media.wizards.com/2017/dnd/downloads/UA-ElfSubraces.pdf",
+				"dateReleased": "2017-11-13"
+			}
+		],
+		"dateAdded": 1701616429,
+		"dateLastModified": 1701616429,
+		"_dateLastModifiedHash": "aaaaaaaaaa"
+	},
+	"subrace": [
+		{
+			"name": "Avariel",
+			"source": "UAElfSubraces",
+			"raceName": "Elf",
+			"raceSource": "PHB",
+			"page": 1,
+			"speed": {
+				"walk": 30,
+				"fly": 30
+			},
+			"languageProficiencies": [
+				{
+					"auran": true
+				}
+			],
+			"entries": [
+				{
+					"name": "Extra Language",
+					"entries": [
+						"You can speak, read, and write Auran."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Flight",
+					"entries": [
+						"You have a flying speed of 30 feet. To use this speed, you can't be wearing medium or heavy armor."
+					],
+					"type": "entries"
+				}
+			]
+		},
+		{
+			"name": "Grugach",
+			"source": "UAElfSubraces",
+			"raceName": "Elf",
+			"raceSource": "PHB",
+			"page": 1,
+			"ability": [
+				{
+					"str": 1
+				}
+			],
+			"languageProficiencies": [
+				{
+					"sylvan": true,
+					"elvish": true,
+					"anyStandard": 1
+				}
+			],
+			"weaponProficiencies": [
+				{
+					"spear|phb": true,
+					"shortbow|phb": true,
+					"longbow|phb": true,
+					"net|phb": true
+				}
+			],
+			"additionalSpells": [
+				{
+					"ability": "wis",
+					"known": {
+						"1": {
+							"_": [
+								{
+									"choose": "level=0|class=Druid"
+								}
+							]
+						}
+					}
+				}
+			],
+			"entries": [
+				{
+					"name": "Languages",
+					"entries": [
+						"You can speak, read, and write Sylvan, Elvish, and one extra language of your choice. Elvish is fluid, with subtle intonations and intricate grammar. Elven literature is rich and varied, and their songs and poems are famous among other races. Many bards learn their language so they can add Elvish ballads to their repertoires."
+					],
+					"data": {
+						"overwrite": "Languages"
+					},
+					"type": "entries"
+				},
+				{
+					"name": "Grugach Weapon Training",
+					"entries": [
+						"You have proficiency with the {@item spear|phb}, {@item shortbow|phb}, {@item longbow|phb}, and {@item net|phb}."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Cantrip",
+					"entries": [
+						"You know one cantrip of your choice from the {@filter druid spell list|spells|class=druid|level=0}. Wisdom is your spellcasting ability for it."
+					],
+					"type": "entries"
+				}
+			],
+			"overwrite": {
+				"languageProficiencies": true
+			}
+		},
+		{
+			"name": "Sea",
+			"source": "UAElfSubraces",
+			"raceName": "Elf",
+			"raceSource": "PHB",
+			"page": 1,
+			"speed": {
+				"walk": 30,
+				"swim": 30
+			},
+			"ability": [
+				{
+					"con": 1
+				}
+			],
+			"traitTags": [
+				"Amphibious"
+			],
+			"languageProficiencies": [
+				{
+					"common": true,
+					"elvish": true,
+					"aquan": true
+				}
+			],
+			"weaponProficiencies": [
+				{
+					"spear|phb": true,
+					"trident|phb": true,
+					"light crossbow|phb": true,
+					"net|phb": true
+				}
+			],
+			"entries": [
+				{
+					"name": "Extra Language",
+					"entries": [
+						"You can speak, read, and write Aquan."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Sea Elf Weapon Training",
+					"entries": [
+						"You have proficiency with the {@item spear|phb}, {@item trident|phb}, {@item light crossbow|phb}, and {@item net|phb}."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Child of the Sea",
+					"entries": [
+						"You have a swimming speed of 30 feet, and you can breathe air and water."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Friend of the Sea",
+					"entries": [
+						"Using gestures and sounds, you can communicate simple ideas with Small or smaller beasts that have an inborn swimming speed."
+					],
+					"type": "entries"
+				}
+			]
+		},
+		{
+			"name": "Shadar-kai",
+			"source": "UAElfSubraces",
+			"raceName": "Elf",
+			"raceSource": "PHB",
+			"page": 2,
+			"reprintedAs": [
+				"Elf (Shadar-kai)|MTF"
+			],
+			"ability": [
+				{
+					"cha": 1
+				}
+			],
+			"languageProficiencies": [
+				{
+					"common": true,
+					"elvish": true,
+					"anyStandard": 1
+				}
+			],
+			"additionalSpells": [
+				{
+					"ability": "cha",
+					"known": {
+						"1": [
+							"chill touch#c"
+						]
+					}
+				},
+				{
+					"ability": "cha",
+					"known": {
+						"1": [
+							"spare the dying#c"
+						]
+					}
+				},
+				{
+					"ability": "cha",
+					"known": {
+						"1": [
+							"thaumaturgy#c"
+						]
+					}
+				}
+			],
+			"entries": [
+				{
+					"name": "Languages",
+					"entries": [
+						"You can speak, read, and write Common, Elvish, and one extra language of your choice. Elvish is fluid, with subtle intonations and intricate grammar. Elven literature is rich and varied, and their songs and poems are famous among other races. Many bards learn their language so they can add Elvish ballads to their repertoires."
+					],
+					"data": {
+						"overwrite": "Languages"
+					},
+					"type": "entries"
+				},
+				{
+					"name": "Cantrip",
+					"entries": [
+						"You know one of the following cantrips of your choice: {@spell chill touch}, {@spell spare the dying}, or {@spell thaumaturgy}. Charisma is your spellcasting ability for it."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Blessing of the Raven Queen",
+					"entries": [
+						"As a bonus action, you can magically teleport up to 15 feet to an unoccupied space you can see, and you gain resistance to all damage until the start of your next turn. During that time, you appear ghostly and translucent. Once you use this ability, you can't use it again until you finish a short or long rest."
+					],
+					"type": "entries"
+				}
+			],
+			"overwrite": {
+				"languageProficiencies": true
+			}
+		}
+	]
+}

@@ -1,0 +1,537 @@
+{
+	"_meta": {
+		"sources": [
+			{
+				"json": "UAWGE",
+				"abbreviation": "WGE",
+				"full": "Wayfinder's Guide to Eberron",
+				"authors": [
+					"Wizards of the Coast"
+				],
+				"convertedBy": [
+					"Giddy"
+				],
+				"version": "1.0.0",
+				"url": "https://www.dmsguild.com/product/247882/Wayfinders-Guide-to-Eberron-5e",
+				"dateReleased": "2018-07-23"
+			}
+		],
+		"dateAdded": 1701616429,
+		"dateLastModified": 1701616429,
+		"_dateLastModifiedHash": "aaaaaaaaaa"
+	},
+	"subrace": [
+		{
+			"name": "High; Aereni",
+			"source": "UAWGE",
+			"raceName": "Elf",
+			"raceSource": "PHB",
+			"page": 73,
+			"speed": 30,
+			"ability": [
+				{
+					"int": 1
+				}
+			],
+			"traitTags": [
+				"Skill Proficiency",
+				"Tool Proficiency"
+			],
+			"skillToolLanguageProficiencies": [
+				{
+					"choose": [
+						{
+							"from": [
+								"anySkill",
+								"anyTool"
+							]
+						}
+					]
+				}
+			],
+			"additionalSpells": [
+				{
+					"ability": "int",
+					"known": {
+						"1": {
+							"_": [
+								{
+									"choose": "level=0|class=Wizard"
+								}
+							]
+						}
+					}
+				}
+			],
+			"entries": [
+				{
+					"name": "Aereni Training",
+					"entries": [
+						"Choose one skill or {@book tool|phb|5|tools} proficiency. Your proficiency bonus is doubled for any ability check you make that uses this chosen proficiency."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Cantrip",
+					"entries": [
+						"You know one {@filter cantrip of your choice from the wizard spell list|spells|level=0|class=Wizard}. Intelligence is your spellcasting ability for it."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Extra Language",
+					"entries": [
+						"You can speak, read, and write one extra language of your choosing."
+					],
+					"type": "entries"
+				}
+			]
+		},
+		{
+			"name": "High; Valenar",
+			"source": "UAWGE",
+			"raceName": "Elf",
+			"raceSource": "PHB",
+			"page": 73,
+			"speed": 30,
+			"ability": [
+				{
+					"int": 1
+				}
+			],
+			"weaponProficiencies": [
+				{
+					"scimitar|phb": true,
+					"double-bladed scimitar|erlw": true,
+					"longbow|phb": true,
+					"shortbow|phb": true
+				}
+			],
+			"additionalSpells": [
+				{
+					"ability": "int",
+					"known": {
+						"1": {
+							"_": [
+								{
+									"choose": "level=0|class=Wizard"
+								}
+							]
+						}
+					}
+				}
+			],
+			"entries": [
+				{
+					"name": "Valenar Weapon Training",
+					"entries": [
+						"A Valenar elf gains proficiency with the {@item scimitar|phb}, {@item Double-Bladed Scimitar|erlw|double scimitar}, {@item longbow|phb}, and {@item shortbow|phb}."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Cantrip",
+					"entries": [
+						"You know one {@filter cantrip of your choice from the wizard spell list|spells|level=0|class=Wizard}. Intelligence is your spellcasting ability for it."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Extra Language",
+					"entries": [
+						"You can speak, read, and write one extra language of your choosing."
+					],
+					"type": "entries"
+				}
+			]
+		},
+		{
+			"name": "Wood; Aereni",
+			"source": "UAWGE",
+			"raceName": "Elf",
+			"raceSource": "PHB",
+			"page": 73,
+			"speed": 35,
+			"ability": [
+				{
+					"wis": 1
+				}
+			],
+			"entries": [
+				{
+					"name": "Aereni Training",
+					"entries": [
+						"Choose one skill or {@book tool|phb|5|tools} proficiency. Your proficiency bonus is doubled for any ability check you make that uses this chosen proficiency."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Fleet of Foot",
+					"entries": [
+						"Your base walking speed increases to 35 feet."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Mask of the Wild",
+					"entries": [
+						"You can attempt to hide even when you are only lightly obscured by foliage, heavy rain, falling snow, mist, and other natural phenomena."
+					],
+					"type": "entries"
+				}
+			]
+		},
+		{
+			"name": "Wood; Valenar",
+			"source": "UAWGE",
+			"raceName": "Elf",
+			"raceSource": "PHB",
+			"page": 73,
+			"speed": 35,
+			"ability": [
+				{
+					"wis": 1
+				}
+			],
+			"weaponProficiencies": [
+				{
+					"scimitar|phb": true,
+					"double-bladed scimitar|erlw": true,
+					"longbow|phb": true,
+					"shortbow|phb": true
+				}
+			],
+			"entries": [
+				{
+					"name": "Valenar Weapon Training",
+					"entries": [
+						"A Valenar elf gains proficiency with the {@item scimitar|phb}, {@item Double-Bladed Scimitar|erlw|double scimitar}, {@item longbow|phb}, and {@item shortbow|phb}."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Fleet of Foot",
+					"entries": [
+						"Your base walking speed increases to 35 feet."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Mask of the Wild",
+					"entries": [
+						"You can attempt to hide even when you are only lightly obscured by foliage, heavy rain, falling snow, mist, and other natural phenomena."
+					],
+					"type": "entries"
+				}
+			]
+		}
+	],
+	"item": [
+		{
+			"name": "Bag of Bounty",
+			"source": "UAWGE",
+			"page": 116,
+			"rarity": "uncommon",
+			"wondrous": true,
+			"entries": [
+				"This is a sturdy leather sack with tiny Siberys shards embedded into the lining. If you have the Mark of Hospitality you can use an action to cast {@spell create food and water}, drawing a feast from within the bag. You shape this meal with your thoughts. You can create the standard bland fare without requiring any sort of check, but you can attempt to create finer food by making a Charisma check; if you're proficient with {@item cook's utensils|PHB}, add your bonus to this check. A failed check results in a sour and squalid meal.",
+				{
+					"type": "table",
+					"colLabels": [
+						"Food Quality",
+						"Difficulty"
+					],
+					"colStyles": [
+						"col-6",
+						"col-6"
+					],
+					"rows": [
+						[
+							"Poor",
+							"No roll required"
+						],
+						[
+							"Modest",
+							10
+						],
+						[
+							"Comfortable",
+							13
+						],
+						[
+							"Wealthy",
+							15
+						],
+						[
+							"Aristocratic",
+							18
+						]
+					]
+				},
+				"A bag of bounty can be used up to three times over the course of a day. After that, the bag can't be used again until the next dawn."
+			]
+		},
+		{
+			"name": "Band of Loyalty",
+			"source": "UAWGE",
+			"page": 115,
+			"type": "RG",
+			"rarity": "common",
+			"reqAttune": true,
+			"entries": [
+				"If you are reduced to zero hit points while attuned to a band of loyalty, you instantly die. These rings are favored by spies who can't afford to fall into enemy hands."
+			]
+		},
+		{
+			"name": "Rings of Shared Suffering",
+			"source": "UAWGE",
+			"page": 117,
+			"type": "RG",
+			"rarity": "uncommon",
+			"reqAttune": true,
+			"entries": [
+				"These rings come in linked pairs. If you possess the Mark of Sentinel, you can use a bonus action to form a link to the creature attuned to the other ring; from then on, whenever that creature suffers damage, they only suffer half of that damage and you take the rest. This effect continues until you end it as a bonus action or until you or the other creature removes their ring. This effect isn't limited by range. A creature cannot be attuned to more than one ring of shared suffering."
+			]
+		}
+	],
+	"variantrule": [
+		{
+			"name": "Common Languages",
+			"source": "UAWGE",
+			"page": 40,
+			"ruleType": "O",
+			"entries": [
+				"Common is the language of the Five Nations. The Mror dwarves speak Dwarvish and the Aereni elves speak Elvish, but they know Common as the language of trade. In Eberron, there are a number of other languages that serve this role in different regions or cultures. The DM may change the languages assigned to a monster or NPC to reflect this.",
+				"Giant is the common tongue of Xen'drik. It is rarely encountered on Khorvaire. Monsters in Khorvaire usually speak Goblin.",
+				"Goblin is the common tongue of Darguun, Droaam, and the Shadow Marches, along with most \"monstrous\" creatures in Khorvaire. It was the language of the goblin empire that dominated the continent before humanity arrived. Orcish is a dead language; it may be encountered in ancient inscriptions, but modern orcs speak Goblin.",
+				"Infernal is spoken by spirits that embody evil. This incorporates Abyssal; all fiends speak a common language. Infernal is sometimes called \"Khyber's speech,\" while Celestial is \"the tongue of Siberys.\"",
+				"Riedran is the common tongue of the continent of Sarlona. Quori is spoken by the kalashtar, spirits native to Dal Quor, and the Inspired lords of Riedra."
+			]
+		},
+		{
+			"name": "Creating Magic Items",
+			"source": "UAWGE",
+			"page": 46,
+			"entries": [
+				"House Cannith has an enclave devoted solely to wand production. This facility is equipped with tools that amplify the Mark of Making and channel planar energies; the artisans also have access to a vast array of exotic woods and materials. You can also create a wand, but you're starting from scratch and creating the tools you need. Essentially, when House Cannith creates magic items, it's using factories; while your artificer is the equivalent of the tinkerer working in the garage. You can create magic items, and you can potentially create items that House Cannith can't make... but it's going to take you more time and gold than it takes for them. Here's an overview of the process.",
+				{
+					"type": "entries",
+					"name": "The Schema",
+					"entries": [
+						"The first step in creating a magic item is to acquire a schema for it. This is the equivalent of a recipe or a blueprint; it explains the process and components required to create the item. If you can obtain a schema\u2014from House Cannith, the mystical library of Arcanix, the collection of an experienced artificer\u2014you're ready to move on. Otherwise, you can create a schema, but this takes time and skill. An arcane spellcaster uses {@skill Arcana} to create schema. A divine caster uses {@skill Religion}, while a druid or ranger relies on {@skill Nature}. You must have a minimum skill bonus\u2014your proficiency bonus plus your ability score bonus\u2014in order to develop a schema. You must maintain the minimum skill bonus for the duration of your work, so an effect that increases an ability score for a few minutes won't help you.",
+						{
+							"type": "table",
+							"caption": "Schema Creation Requirements",
+							"colLabels": [
+								"Item Rarity",
+								"Work weeks",
+								"Minimum Skill"
+							],
+							"colStyles": [
+								"col-4 text-right",
+								"col-4 text-right",
+								"col-4 text-right"
+							],
+							"rows": [
+								[
+									"Common",
+									"3 days",
+									"+2"
+								],
+								[
+									"Uncommon",
+									1,
+									"+4"
+								],
+								[
+									"Rare",
+									3,
+									"+6"
+								],
+								[
+									"Very Rare",
+									8,
+									"+8"
+								],
+								[
+									"Legendary",
+									16,
+									"+10"
+								]
+							]
+						},
+						"This ability to develop a schema represents remarkable talent. It could take House Cannith years or decades to develop a particular schema; the fact that you can accomplish this in weeks reflects the idea that player characters are innovators. However, it is always up to the DM to decide if you can create a particular schema. The DM can always choose to exclude a particular magic item from a campaign."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Rare Components",
+					"entries": [
+						"Any magic item requires specialized materials\u2014Eberron dragonshards, rare woods or metals, exotic herbs or other substances. While exotic, these things can be purchased or obtained in any major city. But creating a magic item from scratch often requires rarer components that can't simply be purchased. You might need a flower from Thelanis, a feather from a couatl, or the scale of a dragon. More often than not, such this will require an adventure. You may not have to kill something to obtain what you need, but you'll surely have to overcome a challenge. The Magic Item Ingredients table suggests how difficult that challenge could be.",
+						{
+							"type": "table",
+							"caption": "Magic Item Ingredients",
+							"colLabels": [
+								"Item Rarity",
+								"CR Range"
+							],
+							"colStyles": [
+								"col-6 text-center",
+								"col-6 text-center"
+							],
+							"rows": [
+								[
+									"Common",
+									"1\u20133"
+								],
+								[
+									"Uncommon",
+									"4\u20138"
+								],
+								[
+									"Rare",
+									"9\u201312"
+								],
+								[
+									"Very Rare",
+									"13\u201318"
+								],
+								[
+									"Legendary",
+									"19+"
+								]
+							]
+						},
+						"It's possible to find a rare component even when you're not looking for one. You could discover an exotic Khyber crystal in the ruins of an artificer's workshop. Time and study could yield suggestions as to what items could be made with the component; for example, that Khyber shard could be used to create an {@item iron flask} or {@item dimensional shackles}."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Creation",
+					"entries": [
+						"Once you have your schema and any rare components, you're ready to begin. The DM can assign skills or tools that are required for this act of creation, so that it requires both proficiency and access to these tools. You must pay the basic costs of materials and services required to make the item. And you must spend a significant amount of time working on it; creating a legendary item can take a year of effort!",
+						{
+							"type": "table",
+							"caption": "Magic Item Crafting Time and Cost",
+							"colLabels": [
+								"Item Rarity",
+								"Work weeks*",
+								"Cost*"
+							],
+							"colStyles": [
+								"col-4 text-center",
+								"col-4 text-center",
+								"col-4 text-right"
+							],
+							"rows": [
+								[
+									"Common",
+									1,
+									"50 gp"
+								],
+								[
+									"Uncommon",
+									2,
+									"200 gp"
+								],
+								[
+									"Rare",
+									10,
+									"2,000 gp"
+								],
+								[
+									"Very Rare",
+									25,
+									"20,000 gp"
+								],
+								[
+									"Legendary",
+									20,
+									"100,000 gp"
+								]
+							],
+							"footnotes": [
+								"* Halved for a consumable item"
+							]
+						},
+						"The Magic Item Crafting Time and Cost table provides a basic framework, but various factors could reduce time or cost. Eberron dragonshards are a significant amount of the cost of materials. A remarkable dragonshard could reduce the cost of creating an item by 10 percent. A planar convergence could reduce the time or cost required to make an item with an effect tied to that plane. Ultimately, this is a story, and there are exceptions to every rule."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Complications",
+					"entries": [
+						"These rules for magic item creation are derived from the system presented in Xanathar's Guide to Everything. This also offers the idea that the creation of a magic item is a complex procedure and that complications can arise. If you use this rule, there's a {@chance 10|10 percent} chance of a complication arising for every five workweeks spent on crafting the item. Xanathar's Guide presents a number of possible complications. Here are few tied to Eberron.",
+						{
+							"type": "table",
+							"colLabels": [
+								"d6",
+								"Complications"
+							],
+							"colStyles": [
+								"col-2 text-center",
+								"col-10"
+							],
+							"rows": [
+								[
+									1,
+									"A Dragonmarked House takes an interest in your work. Do they view you as a threat, or are they impressed by your techniques? Do they want to buy the item, and what will happen if you refuse?"
+								],
+								[
+									2,
+									"A mishap creates a temporary manifest zone."
+								],
+								[
+									3,
+									"You need to acquire an additional rare component."
+								],
+								[
+									4,
+									"The shifting balance of the planes interferes with your work; you must wait for the current planar alignment to change."
+								],
+								[
+									5,
+									"Your efforts draw the attention of one of the conspiracies of Eberron\u2014such as the Chamber, the Aurum, the Emerald Claw, or the Lords of Dust."
+								],
+								[
+									6,
+									"Your item unexpectedly becomes sentient."
+								]
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Environmental Elements",
+			"source": "UAWGE",
+			"page": 8,
+			"ruleType": "O",
+			"entries": [
+				"Combat can feel very mechanical. {@i I move 10 feet. I make an attack roll. I use a reaction.} One way for the DM to encourage more cinematic action is to present a list of Environmental Elements. In a tavern, this list could include Chandelier, Plate Glass Window, Roaring Fireplace, Tray of Drinks, Drunk Patron. If you're fighting in an ancient tomb the list could be Pile of Gold Coins, Scattered Bones, Rotting Tapestry, Moss-Covered Statue. Each turn, a player can work one of these elements into their description of their action. The primary purpose of this is to give players ideas; interesting details to use while describing their actions. But if a player comes up with a particularly clever way to use an element, the DM could grant advantage on a check or attack roll, or some other benefit. The rogue needs to cross a room full of enemies and wants to swing on the chandelier? As the DM, I'd let them make a simple Dexterity ({@skill Acrobatics}) check to avoid opportunity attacks, essentially getting a free {@action Disengage} action.",
+				"Environmental elements are always  optional and largely cosmetic. As a DM, you  don't have to grant a bonus for every use of an   element. But presenting a list can help players  think of the location as more than just squares  on a map and challenge them to add more  cinematic flair to their actions."
+			]
+		},
+		{
+			"name": "Swapping Racial Languages",
+			"source": "UAWGE",
+			"page": 40,
+			"ruleType": "O",
+			"entries": [
+				"This optional rule allows you to exchange a language granted by your race for a different standard language. Your DM must approve the language you select. This is a way to reflect a character with no ties to the culture of their race. Halfling is the language of the Talenta Plains; if a halfling was raised in the Mror Holds, they might replace Halfling with Dwarvish to reflect this."
+			]
+		},
+		{
+			"name": "Two-Handed Arcane Focuses",
+			"source": "UAWGE",
+			"page": 114,
+			"ruleType": "O",
+			"entries": [
+				"In Eberron, an arcane focus is a weapon. As such, it can be interesting to give a focus some of the same trade-offs as mundane weapons: do you sacrifice your free hand for greater power?",
+				"If you use this optional rule, when a caster uses a two-handed arcane focus to cast an offensive cantrip (a cantrip requiring a saving throw or an attack roll), the range of the cantrip is increased by 50 percent.",
+				"By this rule, a staff always requires two hands, while rods can be used with either one or two hands. Using a two-handed arcane focus fulfills the somatic component requirement for a spell."
+			]
+		}
+	]
+}

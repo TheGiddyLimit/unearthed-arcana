@@ -1,0 +1,961 @@
+{
+	"_meta": {
+		"sources": [
+			{
+				"json": "UARevisedSubclasses",
+				"abbreviation": "UARSC",
+				"full": "Unearthed Arcana: Revised Subclasses",
+				"authors": [
+					"Wizards of the Coast"
+				],
+				"convertedBy": [
+					"Giddy"
+				],
+				"version": "1.0.0",
+				"url": "https://media.wizards.com/2017/dnd/downloads/UA-RevisedSubclasses.pdf",
+				"dateReleased": "2017-05-01"
+			}
+		],
+		"dateAdded": 1701616429,
+		"dateLastModified": 1701616429,
+		"_dateLastModifiedHash": "aaaaaaaaaa"
+	},
+	"subclass": [
+		{
+			"name": "Arcane Archer v2 (UA)",
+			"shortName": "Arcane Archer v2 (UA)",
+			"source": "UARevisedSubclasses",
+			"className": "Fighter",
+			"classSource": "PHB",
+			"page": 2,
+			"isReprinted": true,
+			"optionalfeatureProgression": [
+				{
+					"name": "Arcane Shots",
+					"featureType": [
+						"AS:V2-UA"
+					],
+					"progression": {
+						"3": 2,
+						"7": 3,
+						"10": 4,
+						"15": 5,
+						"18": 6
+					}
+				}
+			],
+			"subclassFeatures": [
+				"Arcane Archer v2|Fighter||Arcane Archer v2 (UA)|UARevisedSubclasses|3",
+				"Curving Shot|Fighter||Arcane Archer v2 (UA)|UARevisedSubclasses|7",
+				"Extra Arcane Shot|Fighter||Arcane Archer v2 (UA)|UARevisedSubclasses|7",
+				"Extra Arcane Shot|Fighter||Arcane Archer v2 (UA)|UARevisedSubclasses|10",
+				"Ever-Ready Shot|Fighter||Arcane Archer v2 (UA)|UARevisedSubclasses|15",
+				"Extra Arcane Shot|Fighter||Arcane Archer v2 (UA)|UARevisedSubclasses|15",
+				"Extra Arcane Shot|Fighter||Arcane Archer v2 (UA)|UARevisedSubclasses|18"
+			]
+		},
+		{
+			"name": "College of Swords v2 (UA)",
+			"shortName": "Swords v2 (UA)",
+			"source": "UARevisedSubclasses",
+			"className": "Bard",
+			"classSource": "PHB",
+			"page": 1,
+			"isReprinted": true,
+			"optionalfeatureProgression": [
+				{
+					"name": "Fighting Style",
+					"featureType": [
+						"FS:B"
+					],
+					"progression": {
+						"3": 1
+					}
+				}
+			],
+			"subclassFeatures": [
+				"College of Swords v2|Bard||Swords v2 (UA)|UARevisedSubclasses|3",
+				"Cunning Flourish|Bard||Swords v2 (UA)|UARevisedSubclasses|6",
+				"Master's Flourish|Bard||Swords v2 (UA)|UARevisedSubclasses|14"
+			]
+		},
+		{
+			"name": "Favored Soul v3 (UA)",
+			"shortName": "Favored Soul v3 (UA)",
+			"source": "UARevisedSubclasses",
+			"className": "Sorcerer",
+			"classSource": "PHB",
+			"page": 5,
+			"isReprinted": true,
+			"additionalSpells": [
+				{
+					"expanded": {
+						"1": [
+							{
+								"all": "level=0|class=Cleric"
+							},
+							{
+								"all": "level=1|class=Cleric"
+							}
+						],
+						"3": [
+							{
+								"all": "level=2|class=Cleric"
+							}
+						],
+						"5": [
+							{
+								"all": "level=3|class=Cleric"
+							}
+						],
+						"7": [
+							{
+								"all": "level=4|class=Cleric"
+							}
+						],
+						"9": [
+							{
+								"all": "level=5|class=Cleric"
+							}
+						],
+						"11": [
+							{
+								"all": "level=6|class=Cleric"
+							}
+						],
+						"13": [
+							{
+								"all": "level=7|class=Cleric"
+							}
+						],
+						"15": [
+							{
+								"all": "level=8|class=Cleric"
+							}
+						],
+						"17": [
+							{
+								"all": "level=9|class=Cleric"
+							}
+						]
+					}
+				}
+			],
+			"subclassFeatures": [
+				"Favored Soul v3|Sorcerer||Favored Soul v3 (UA)|UARevisedSubclasses|1",
+				"Empowered Healing|Sorcerer||Favored Soul v3 (UA)|UARevisedSubclasses|6",
+				"Angelic Form|Sorcerer||Favored Soul v3 (UA)|UARevisedSubclasses|14",
+				"Unearthly Recovery|Sorcerer||Favored Soul v3 (UA)|UARevisedSubclasses|18"
+			]
+		},
+		{
+			"name": "Path of the Ancestral Guardian v2 (UA)",
+			"shortName": "Ancestral Guardian v2 (UA)",
+			"source": "UARevisedSubclasses",
+			"className": "Barbarian",
+			"classSource": "PHB",
+			"page": 1,
+			"isReprinted": true,
+			"spellcastingAbility": "wis",
+			"subclassFeatures": [
+				"Path of the Ancestral Guardian v2|Barbarian||Ancestral Guardian v2 (UA)|UARevisedSubclasses|3",
+				"Ancestral Shield|Barbarian||Ancestral Guardian v2 (UA)|UARevisedSubclasses|6",
+				"Consult the Spirits|Barbarian||Ancestral Guardian v2 (UA)|UARevisedSubclasses|10",
+				"Vengeful Ancestors|Barbarian||Ancestral Guardian v2 (UA)|UARevisedSubclasses|14"
+			]
+		},
+		{
+			"name": "Way of the Kensei v2 (UA)",
+			"shortName": "Kensei v2 (UA)",
+			"source": "UARevisedSubclasses",
+			"className": "Monk",
+			"classSource": "PHB",
+			"page": 4,
+			"isReprinted": true,
+			"subclassFeatures": [
+				"Way of the Kensei v2|Monk||Kensei v2 (UA)|UARevisedSubclasses|3",
+				"One with the Blade|Monk||Kensei v2 (UA)|UARevisedSubclasses|6",
+				"Sharpen the Blade|Monk||Kensei v2 (UA)|UARevisedSubclasses|11",
+				"Unerring Accuracy|Monk||Kensei v2 (UA)|UARevisedSubclasses|17"
+			]
+		}
+	],
+	"subclassFeature": [
+		{
+			"name": "Path of the Ancestral Guardian v2",
+			"source": "UARevisedSubclasses",
+			"page": 1,
+			"className": "Barbarian",
+			"classSource": "PHB",
+			"subclassShortName": "Ancestral Guardian v2 (UA)",
+			"subclassSource": "UARevisedSubclasses",
+			"level": 3,
+			"entries": [
+				"Some barbarians hail from cultures that revere their ancestors. These tribes teach that the warriors of the past linger on in the world as mighty spirits who can guide and protect the living. When barbarians who follow this path rage, they cross the barrier into the spirit world and call on these guardian spirits for aid.",
+				"Barbarians who draw on their ancestral guardians fight to protect their tribes and their allies. With the spirits' help, they can hinder their foes even as they strike powerful blows against them.",
+				"In order to cement ties to their ancestral guardians, barbarians who follow this path cover themselves in elaborate tattoos that celebrate their ancestors' deeds. These tattoos tell epic sagas of victories against terrible monsters and other fearsome rivals.",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Ancestral Protectors|Barbarian||Ancestral Guardian v2 (UA)|UARevisedSubclasses|3"
+				}
+			]
+		},
+		{
+			"name": "Ancestral Protectors",
+			"source": "UARevisedSubclasses",
+			"page": 1,
+			"className": "Barbarian",
+			"classSource": "PHB",
+			"subclassShortName": "Ancestral Guardian v2 (UA)",
+			"subclassSource": "UARevisedSubclasses",
+			"level": 3,
+			"header": 1,
+			"entries": [
+				"Starting when you choose this path at 3rd level, spectral warriors appear when you rage. These warriors distract a foe you designate and hinder its attempts to evade you. While you're raging, the first creature you hit with an attack on your turn becomes the target of these warriors. Until the start of your next turn or until your rage ends, that target has disadvantage on any attack roll that doesn't target you, and creatures other than you have resistance to the damage of the creature's attacks."
+			]
+		},
+		{
+			"name": "Ancestral Shield",
+			"source": "UARevisedSubclasses",
+			"page": 1,
+			"className": "Barbarian",
+			"classSource": "PHB",
+			"subclassShortName": "Ancestral Guardian v2 (UA)",
+			"subclassSource": "UARevisedSubclasses",
+			"level": 6,
+			"header": 2,
+			"entries": [
+				"Beginning at 6th level, the guardian spirits that aid you can provide protection for your allies. If you are raging and a creature you can see within 30 feet of you takes damage, you can use your reaction and reduce that damage by {@dice 2d8}. When you reach certain levels in this class, you can reduce the damage by more: by {@dice 3d8} at 10th level and by {@dice 4d8} at 14th level."
+			]
+		},
+		{
+			"name": "Consult the Spirits",
+			"source": "UARevisedSubclasses",
+			"page": 1,
+			"className": "Barbarian",
+			"classSource": "PHB",
+			"subclassShortName": "Ancestral Guardian v2 (UA)",
+			"subclassSource": "UARevisedSubclasses",
+			"level": 10,
+			"header": 2,
+			"entries": [
+				"At 10th level, you gain the ability to consult with your ancestral spirits and use them to scout far-off lands. When you do so, you cast the {@spell clairvoyance} spell, without needing a spell slot. Rather than creating a spherical sensor, the spell invisibly summons one of your ancestral spirits to the chosen location. Wisdom is your spellcasting ability for the spell. After you cast the spell in this way, you can't do so again until you finish a short or long rest."
+			]
+		},
+		{
+			"name": "Vengeful Ancestors",
+			"source": "UARevisedSubclasses",
+			"page": 1,
+			"className": "Barbarian",
+			"classSource": "PHB",
+			"subclassShortName": "Ancestral Guardian v2 (UA)",
+			"subclassSource": "UARevisedSubclasses",
+			"level": 14,
+			"header": 2,
+			"entries": [
+				"At 14th level, your ancestral spirits grow powerful enough to strike foes that dare harm those that you protect. When you use your Spirit Shield Ability to protect a creature damaged by an attack, the attacker takes the same amount of damage that the Spirit Shield protects."
+			]
+		},
+		{
+			"name": "College of Swords v2",
+			"source": "UARevisedSubclasses",
+			"page": 1,
+			"className": "Bard",
+			"classSource": "PHB",
+			"subclassShortName": "Swords v2 (UA)",
+			"subclassSource": "UARevisedSubclasses",
+			"level": 3,
+			"entries": [
+				"Bards of the College of Swords are called blades, and they entertain through daring feats of weapon prowess. Blades perform stunts such as sword swallowing, knife throwing and juggling, and mock combats. But though they use their weapons to entertain, they are also highly trained and skilled warriors in their own right.",
+				"Their talent with weapons inspires many blades to lead double lives. One blade might use a circus troupe as cover for nefarious deeds such as assassination, robbery, and blackmail. Other blades strike at the wicked, bringing justice to bear against the cruel and powerful. Most troupes are happy to accept a blade's talent for the excitement it adds to a performance, but few entertainers fully trust them.",
+				"Blades who abandon lives as entertainers have often run into trouble that makes maintaining their secret activities impossible. A blade caught stealing or engaging in vigilante justice is too great a liability for most performer troupes. With their weapon skills as their greatest asset, these blades either take up work as enforcers for thieves' guilds or strike out on their own as adventurers.",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Bonus Proficiencies|Bard||Swords v2 (UA)|UARevisedSubclasses|3"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Fighting Style|Bard||Swords v2 (UA)|UARevisedSubclasses|3"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Blade Flourish|Bard||Swords v2 (UA)|UARevisedSubclasses|3"
+				}
+			]
+		},
+		{
+			"name": "Blade Flourish",
+			"source": "UARevisedSubclasses",
+			"page": 1,
+			"className": "Bard",
+			"classSource": "PHB",
+			"subclassShortName": "Swords v2 (UA)",
+			"subclassSource": "UARevisedSubclasses",
+			"level": 3,
+			"header": 1,
+			"entries": [
+				"At 3rd level, you learn to conduct impressive displays of skill with your weapons. As a standard action, you can make a standard melee attack and increase your walking speed by 10 feet until the end of the current turn. Whenever you use this option, you can also use one of the following Blade Flourish options with it.",
+				{
+					"type": "entries",
+					"entries": [
+						{
+							"type": "entries",
+							"name": "Defensive Flourish",
+							"entries": [
+								"You spin your weapon around you in swift circles, creating a hypnotic display. You can expend one of your uses of Bardic Inspiration, rolling a Bardic Inspiration die and applying the number rolled as a bonus to your AC until the start of your next turn."
+							]
+						}
+					]
+				},
+				{
+					"type": "entries",
+					"entries": [
+						{
+							"type": "entries",
+							"name": "Slashing Flourish",
+							"entries": [
+								"If the attack hits its target, you can expend one of your uses of Bardic Inspiration to cause the weapon to damage each creature of your choice, other than the target, that you can see within 5 feet of you. The damage equals the number you roll on the Bardic Inspiration die."
+							]
+						}
+					]
+				},
+				{
+					"type": "entries",
+					"entries": [
+						{
+							"type": "entries",
+							"name": "Mobile Flourish",
+							"entries": [
+								"If the attack hits its target, you can expend one of your uses of Bardic Inspiration to push the target up to 5 feet away from you, plus a number of feet equal to the number you roll on the Bardic Inspiration die. You can then immediately use your reaction to move up to your speed to an unoccupied space within 5 feet of the target."
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Bonus Proficiencies",
+			"source": "UARevisedSubclasses",
+			"page": 1,
+			"className": "Bard",
+			"classSource": "PHB",
+			"subclassShortName": "Swords v2 (UA)",
+			"subclassSource": "UARevisedSubclasses",
+			"level": 3,
+			"header": 1,
+			"entries": [
+				"When you join the College of Blades at 3rd level, you gain proficiency with medium armor and with scimitars. If you are proficient with a simple or martial melee weapon, you can use it as a spellcasting focus for your Bard spells."
+			]
+		},
+		{
+			"name": "Fighting Style",
+			"source": "UARevisedSubclasses",
+			"page": 1,
+			"className": "Bard",
+			"classSource": "PHB",
+			"subclassShortName": "Swords v2 (UA)",
+			"subclassSource": "UARevisedSubclasses",
+			"level": 3,
+			"header": 1,
+			"entries": [
+				"The College of Blades emphasizes mastery with weapons, granting you access to either the dueling or two-weapon fighting option for the Fighting Style class feature, which are as follows.",
+				{
+					"type": "options",
+					"count": 1,
+					"entries": [
+						{
+							"type": "refOptionalfeature",
+							"optionalfeature": "Dueling"
+						},
+						{
+							"type": "refOptionalfeature",
+							"optionalfeature": "Two-Weapon Fighting"
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Cunning Flourish",
+			"source": "UARevisedSubclasses",
+			"page": 1,
+			"className": "Bard",
+			"classSource": "PHB",
+			"subclassShortName": "Swords v2 (UA)",
+			"subclassSource": "UARevisedSubclasses",
+			"level": 6,
+			"header": 2,
+			"entries": [
+				"Beginning at 6th level, you can attack twice, instead of once, whenever you take the Blade Flourish action on your turn. You can, nevertheless, only use one Blade Flourish option when you take that action."
+			]
+		},
+		{
+			"name": "Master's Flourish",
+			"source": "UARevisedSubclasses",
+			"page": 1,
+			"className": "Bard",
+			"classSource": "PHB",
+			"subclassShortName": "Swords v2 (UA)",
+			"subclassSource": "UARevisedSubclasses",
+			"level": 14,
+			"header": 2,
+			"entries": [
+				"Starting at 14th level, whenever you use a Blade Flourish option, you can roll a {@dice d6} and use it instead of expending a Bardic Inspiration die."
+			]
+		},
+		{
+			"name": "Arcane Archer v2",
+			"source": "UARevisedSubclasses",
+			"page": 2,
+			"className": "Fighter",
+			"classSource": "PHB",
+			"subclassShortName": "Arcane Archer v2 (UA)",
+			"subclassSource": "UARevisedSubclasses",
+			"level": 3,
+			"entries": [
+				"An Arcane Archer studies a unique elven method of archery that weaves magic into attacks to produce supernatural effects. Among elves, Arcane Archers are some of their most elite warriors. These archers stand watch over the fringes of elven domains, keeping a keen eye out for trespassers and using magic-infused arrows to defeat monsters and invaders before they can reach elven settlements. Over the centuries, the methods of these elf archers have been learned by members of other races who can also balance arcane aptitude with archery.",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Magic Arrow|Fighter||Arcane Archer v2 (UA)|UARevisedSubclasses|3"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Arcane Arrow|Fighter||Arcane Archer v2 (UA)|UARevisedSubclasses|3"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Archer's Lore|Fighter||Arcane Archer v2 (UA)|UARevisedSubclasses|3"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Arcane Shot|Fighter||Arcane Archer v2 (UA)|UARevisedSubclasses|3"
+				}
+			]
+		},
+		{
+			"name": "Arcane Arrow",
+			"source": "UARevisedSubclasses",
+			"page": 2,
+			"className": "Fighter",
+			"classSource": "PHB",
+			"subclassShortName": "Arcane Archer v2 (UA)",
+			"subclassSource": "UARevisedSubclasses",
+			"level": 3,
+			"header": 1,
+			"entries": [
+				"At 3rd level, you learn to unleash special magical effects with some of your shots. When you gain this feature, you learn two Arcane Shot options of your choice (see the \"Arcane Shot Options\" section below).",
+				"Once per turn when you fire a magic arrow from a shortbow or longbow as part of the {@action Attack} action, you can apply one of your Arcane Shot options to that arrow. You decide to use the option when the arrow hits, unless the option doesn't involve an attack roll. You have two uses of this ability, and you regain all expended uses of it when you finish a short or long rest.",
+				"You gain an additional Arcane Shot option of your choice when you reach certain levels in this class: 7th, 10th, 15th, and 18th level. Each option also improves when you become an 18th-level fighter."
+			]
+		},
+		{
+			"name": "Arcane Shot",
+			"source": "UARevisedSubclasses",
+			"page": 2,
+			"className": "Fighter",
+			"classSource": "PHB",
+			"subclassShortName": "Arcane Archer v2 (UA)",
+			"subclassSource": "UARevisedSubclasses",
+			"level": 3,
+			"header": 1,
+			"entries": [
+				"The Arcane Shot feature lets you choose options for it at certain levels. The options are presented here in alphabetical order. They are all magical effects, and each one is associated with one of the schools of magic.",
+				"If an option requires a saving throw, your Arcane Shot save DC equals 8 + your proficiency bonus + your Intelligence modifier.",
+				{
+					"type": "options",
+					"count": 2,
+					"entries": [
+						{
+							"type": "refOptionalfeature",
+							"optionalfeature": "Banishing Arrow|UARevisedSubclasses"
+						},
+						{
+							"type": "refOptionalfeature",
+							"optionalfeature": "Brute Bane Arrow|UARevisedSubclasses"
+						},
+						{
+							"type": "refOptionalfeature",
+							"optionalfeature": "Bursting Arrow|UARevisedSubclasses"
+						},
+						{
+							"type": "refOptionalfeature",
+							"optionalfeature": "Grasping Arrow|UARevisedSubclasses"
+						},
+						{
+							"type": "refOptionalfeature",
+							"optionalfeature": "Mind-Scrambling Arrow|UARevisedSubclasses"
+						},
+						{
+							"type": "refOptionalfeature",
+							"optionalfeature": "Piercing Arrow|UARevisedSubclasses"
+						},
+						{
+							"type": "refOptionalfeature",
+							"optionalfeature": "Seeking Arrow|UARevisedSubclasses"
+						},
+						{
+							"type": "refOptionalfeature",
+							"optionalfeature": "Shadow Arrow|UARevisedSubclasses"
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Archer's Lore",
+			"source": "UARevisedSubclasses",
+			"page": 2,
+			"className": "Fighter",
+			"classSource": "PHB",
+			"subclassShortName": "Arcane Archer v2 (UA)",
+			"subclassSource": "UARevisedSubclasses",
+			"level": 3,
+			"header": 1,
+			"entries": [
+				"At 3rd level, you learn magical theory or some of the secrets of nature\u2014typical for practitioners of this elven martial tradition. You gain proficiency in either the {@skill Arcana} or {@skill Nature} skill."
+			]
+		},
+		{
+			"name": "Magic Arrow",
+			"source": "UARevisedSubclasses",
+			"page": 2,
+			"className": "Fighter",
+			"classSource": "PHB",
+			"subclassShortName": "Arcane Archer v2 (UA)",
+			"subclassSource": "UARevisedSubclasses",
+			"level": 3,
+			"header": 1,
+			"entries": [
+				"When you choose this archetype at 3rd level, you gain the ability to infuse arrows with magic. Whenever you fire a nonmagical arrow from a shortbow or longbow, you can make it a magic arrow, with a +1 bonus to the attack and damage rolls. The magic fades from the arrow immediately after it hits or misses its target."
+			]
+		},
+		{
+			"name": "Curving Shot",
+			"source": "UARevisedSubclasses",
+			"page": 2,
+			"className": "Fighter",
+			"classSource": "PHB",
+			"subclassShortName": "Arcane Archer v2 (UA)",
+			"subclassSource": "UARevisedSubclasses",
+			"level": 7,
+			"header": 2,
+			"entries": [
+				"At 7th level, you learn how to direct an errant arrow toward a new target. When you make an attack roll with a magic arrow and miss, you can use a bonus action to reroll the attack roll against a different target within 60 feet of the original target."
+			]
+		},
+		{
+			"name": "Extra Arcane Shot",
+			"source": "UARevisedSubclasses",
+			"page": 2,
+			"className": "Fighter",
+			"classSource": "PHB",
+			"subclassShortName": "Arcane Archer v2 (UA)",
+			"subclassSource": "UARevisedSubclasses",
+			"level": 7,
+			"header": 2,
+			"entries": [
+				"At 7th level, you learn an additional Arcane Shot option."
+			]
+		},
+		{
+			"name": "Extra Arcane Shot",
+			"source": "UARevisedSubclasses",
+			"page": 2,
+			"className": "Fighter",
+			"classSource": "PHB",
+			"subclassShortName": "Arcane Archer v2 (UA)",
+			"subclassSource": "UARevisedSubclasses",
+			"level": 10,
+			"header": 2,
+			"entries": [
+				"At 10th level, you learn an additional Arcane Shot option."
+			]
+		},
+		{
+			"name": "Ever-Ready Shot",
+			"source": "UARevisedSubclasses",
+			"page": 2,
+			"className": "Fighter",
+			"classSource": "PHB",
+			"subclassShortName": "Arcane Archer v2 (UA)",
+			"subclassSource": "UARevisedSubclasses",
+			"level": 15,
+			"header": 2,
+			"entries": [
+				"Starting at 15th level, your magical archery is ever available to you when you need it most. If you roll initiative and have no uses of Arcane Shot remaining, you regain one use of it."
+			]
+		},
+		{
+			"name": "Extra Arcane Shot",
+			"source": "UARevisedSubclasses",
+			"page": 2,
+			"className": "Fighter",
+			"classSource": "PHB",
+			"subclassShortName": "Arcane Archer v2 (UA)",
+			"subclassSource": "UARevisedSubclasses",
+			"level": 15,
+			"header": 2,
+			"entries": [
+				"At 15th level, you learn an additional Arcane Shot option."
+			]
+		},
+		{
+			"name": "Extra Arcane Shot",
+			"source": "UARevisedSubclasses",
+			"page": 2,
+			"className": "Fighter",
+			"classSource": "PHB",
+			"subclassShortName": "Arcane Archer v2 (UA)",
+			"subclassSource": "UARevisedSubclasses",
+			"level": 18,
+			"header": 2,
+			"entries": [
+				"At 18th level, you learn an additional Arcane Shot option."
+			]
+		},
+		{
+			"name": "Way of the Kensei v2",
+			"source": "UARevisedSubclasses",
+			"page": 4,
+			"className": "Monk",
+			"classSource": "PHB",
+			"subclassShortName": "Kensei v2 (UA)",
+			"subclassSource": "UARevisedSubclasses",
+			"level": 3,
+			"entries": [
+				"Monks of the Way of Kensei train relentlessly with their weapons, to the point that the weapon becomes like an extension of the body. A kensei sees a weapon in much the same way a painter regards a brush or a writer sees parchment, ink, and quill. A sword or bow is a tool used to express the beauty and elegance of the martial arts. That such mastery makes a kensei a peerless warrior is but a side effect of intense devotion, practice, and study.",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Path of the Kensei|Monk||Kensei v2 (UA)|UARevisedSubclasses|3"
+				}
+			]
+		},
+		{
+			"name": "Path of the Kensei",
+			"source": "UARevisedSubclasses",
+			"page": 4,
+			"className": "Monk",
+			"classSource": "PHB",
+			"subclassShortName": "Kensei v2 (UA)",
+			"subclassSource": "UARevisedSubclasses",
+			"level": 3,
+			"header": 1,
+			"entries": [
+				"When you choose this tradition at 3rd level, you learn to extend your knowledge of the martial arts beyond the standard array of monk weapons.",
+				"You gain the following benefits:",
+				{
+					"type": "list",
+					"items": [
+						"Choose two types of weapons to be your kensei weapons: one melee weapon and one ranged weapon. Each of these weapons can be any {@filter simple or martial weapon|items|source=phb|category=basic|type=martial weapon;simple weapon} that lacks the heavy and special properties. The longbow is also a valid choice. You gain proficiency with these weapons if you don't already have it. Weapons of the chosen types are monk weapons for you. Many of this tradition's features work only with your kensei weapons. When you reach 6th, 11th, and 17th level in this class, you can choose another type of weapon\u2014melee or ranged\u2014to be a kensei weapon for you, following the criteria above.",
+						"If you make an unarmed strike as part of the {@action Attack} action on your turn and are holding a kensei weapon, you can use it to defend yourself if it is a melee weapon. You gain a +2 bonus to AC until the start of your next turn, while the weapon is in your hand and you aren't {@condition incapacitated}.",
+						"You can use a bonus action on your turn to make your ranged attacks with a kensei weapon more deadly. When you do so, any target you hit with a ranged attack using a kensei weapon takes an extra {@damage 1d4} damage of the weapon's type. You retain this benefit until the end of the current turn."
+					]
+				}
+			]
+		},
+		{
+			"name": "One with the Blade",
+			"source": "UARevisedSubclasses",
+			"page": 4,
+			"className": "Monk",
+			"classSource": "PHB",
+			"subclassShortName": "Kensei v2 (UA)",
+			"subclassSource": "UARevisedSubclasses",
+			"level": 6,
+			"header": 2,
+			"entries": [
+				"At 6th level, you extend your ki into the weapons you hold, granting you the following benefits.",
+				{
+					"type": "entries",
+					"entries": [
+						{
+							"type": "entries",
+							"name": "Magic Kensei Weapons",
+							"entries": [
+								"Your attacks with your kensei weapons count as magical for the purpose of overcoming resistance and immunity to nonmagical attacks and damage."
+							]
+						}
+					]
+				},
+				{
+					"type": "entries",
+					"entries": [
+						{
+							"type": "entries",
+							"name": "Precise Strike",
+							"entries": [
+								"When you hit a target with a kensei weapon, you can spend 1 ki point to cause the weapon to deal extra damage to the target equal to your Martial Arts die. You can use this feature only once on each of your turns."
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Sharpen the Blade",
+			"source": "UARevisedSubclasses",
+			"page": 4,
+			"className": "Monk",
+			"classSource": "PHB",
+			"subclassShortName": "Kensei v2 (UA)",
+			"subclassSource": "UARevisedSubclasses",
+			"level": 11,
+			"header": 2,
+			"consumes": {
+				"name": "Ki",
+				"amount": 3
+			},
+			"entries": [
+				"At 11th level, you gain the ability to augment your weapons with the strength of your ki. As a bonus action, you can expend up to 3 ki points to grant one kensei weapon you touch a bonus to attack and damage rolls while you wield it. The bonus equals the number of ki points you spent. This bonus lasts for 1 minute or until you use this feature again."
+			]
+		},
+		{
+			"name": "Unerring Accuracy",
+			"source": "UARevisedSubclasses",
+			"page": 4,
+			"className": "Monk",
+			"classSource": "PHB",
+			"subclassShortName": "Kensei v2 (UA)",
+			"subclassSource": "UARevisedSubclasses",
+			"level": 17,
+			"header": 2,
+			"entries": [
+				"At 17th level, your mastery of weapons grants you extraordinary accuracy. If you make an attack roll with a monk weapon and miss, you can reroll it. You can use this feature only once on each of your turns."
+			]
+		},
+		{
+			"name": "Favored Soul v3",
+			"source": "UARevisedSubclasses",
+			"page": 5,
+			"className": "Sorcerer",
+			"classSource": "PHB",
+			"subclassShortName": "Favored Soul v3 (UA)",
+			"subclassSource": "UARevisedSubclasses",
+			"level": 1,
+			"entries": [
+				"Sometimes the spark of magic that fuels a sorcerer comes from a divine source that glimmers within the soul. Having such a favored soul, your innate magic might come from a distant but powerful familial connection to a divine being. Perhaps your ancestor was an angel, transformed into a mortal and sent to fight in a god's name. Or your birth might align with an ancient prophecy, marking you as a servant of the gods or a chosen vessel of divine magic.",
+				"Favored souls, with their natural magnetism and strong personalities, are often seen as threats by traditional religious hierarchies. As outsiders who command the power of the gods, these sorcerers can undermine the existing order and claim a direct tie to the divine.",
+				"In some cultures, only those who can claim the power of a favored soul may command religious power. In these lands, ecclesiastical positions are dominated by a few bloodlines and preserved over generations.",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Divine Magic|Sorcerer||Favored Soul v3 (UA)|UARevisedSubclasses|1"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Favored by the Gods|Sorcerer||Favored Soul v3 (UA)|UARevisedSubclasses|1"
+				}
+			]
+		},
+		{
+			"name": "Divine Magic",
+			"source": "UARevisedSubclasses",
+			"page": 5,
+			"className": "Sorcerer",
+			"classSource": "PHB",
+			"subclassShortName": "Favored Soul v3 (UA)",
+			"subclassSource": "UARevisedSubclasses",
+			"level": 1,
+			"header": 1,
+			"entries": [
+				"Your link to the divine allows you to learn spells normally associated with the cleric class. When your Spellcasting feature lets you learn a sorcerer cantrip or a sorcerer spell of 1st level or higher, you can choose the new spell from the cleric spell list, in addition to the sorcerer spell list. You must otherwise obey all the restrictions for selecting the spell, and it becomes a sorcerer spell for you.",
+				"You also learn the {@spell cure wounds} spell, which does not count against your number of sorcerer spells known."
+			]
+		},
+		{
+			"name": "Favored by the Gods",
+			"source": "UARevisedSubclasses",
+			"page": 5,
+			"className": "Sorcerer",
+			"classSource": "PHB",
+			"subclassShortName": "Favored Soul v3 (UA)",
+			"subclassSource": "UARevisedSubclasses",
+			"level": 1,
+			"header": 1,
+			"entries": [
+				"Starting at 1st level, divine power guards your destiny. If you fail a saving throw or miss with an attack roll, you can roll {@dice 2d4} and add it to the total, possibly changing the outcome.",
+				"Once you use this feature, you can't use it again until you finish a short or long rest."
+			]
+		},
+		{
+			"name": "Empowered Healing",
+			"source": "UARevisedSubclasses",
+			"page": 5,
+			"className": "Sorcerer",
+			"classSource": "PHB",
+			"subclassShortName": "Favored Soul v3 (UA)",
+			"subclassSource": "UARevisedSubclasses",
+			"level": 6,
+			"header": 2,
+			"consumes": {
+				"name": "Sorcery Point"
+			},
+			"entries": [
+				"Starting at 6th level, the celestial energy coursing through you can empower your healing magic. Whenever you roll dice to determine the number of hit points a sorcerer spell of yours restores, you can spend 1 sorcery point to reroll any number of those dice once."
+			]
+		},
+		{
+			"name": "Angelic Form",
+			"source": "UARevisedSubclasses",
+			"page": 5,
+			"className": "Sorcerer",
+			"classSource": "PHB",
+			"subclassShortName": "Favored Soul v3 (UA)",
+			"subclassSource": "UARevisedSubclasses",
+			"level": 14,
+			"header": 2,
+			"entries": [
+				"At 14th level, your divine essence causes you to undergo a minor physical transformation. Your appearance takes on an otherworldly version of one of the following qualities (your choice): beautiful, youthful, kind, or imposing.",
+				"In addition, as a bonus action, you can manifest a pair of spectral wings from your back. The wings last until you're {@condition incapacitated} or you dismiss them as a bonus action. While the wings are present, you have a flying speed of 30 feet."
+			]
+		},
+		{
+			"name": "Unearthly Recovery",
+			"source": "UARevisedSubclasses",
+			"page": 5,
+			"className": "Sorcerer",
+			"classSource": "PHB",
+			"subclassShortName": "Favored Soul v3 (UA)",
+			"subclassSource": "UARevisedSubclasses",
+			"level": 18,
+			"header": 2,
+			"entries": [
+				"At 18th level, you gain the ability to overcome grievous injuries. As a bonus action when you have less than half of your hit points remaining, you can regain a number of hit points equal to half your hit point maximum.",
+				"Once you use this feature, you can't use it again until you finish a long rest."
+			]
+		}
+	],
+	"foundrySubclassFeature": [
+		{
+			"name": "Fighting Style",
+			"source": "UARevisedSubclasses",
+			"className": "Bard",
+			"classSource": "PHB",
+			"subclassShortName": "Swords v2 (UA)",
+			"subclassSource": "UARevisedSubclasses",
+			"level": 3,
+			"isIgnored": true
+		}
+	],
+	"optionalfeature": [
+		{
+			"name": "Banishing Arrow",
+			"source": "UARevisedSubclasses",
+			"page": 3,
+			"featureType": [
+				"AS:V2-UA"
+			],
+			"consumes": {
+				"name": "Arcane Shot"
+			},
+			"entries": [
+				"You use abjuration magic to try to temporarily banish your target to a harmless location in the Feywild. If the arrow hits a creature, the target must also succeed on a Charisma saving throw or be banished. While banished in this way, its speed is 0, and it is {@condition incapacitated}. At the end of its next turn, the target reappears in the space it vacated or in the nearest unoccupied space if that space is occupied.",
+				"After you reach 18th level in this class, a target also takes {@damage 2d6} force damage when the arrow hits it."
+			]
+		},
+		{
+			"name": "Brute Bane Arrow",
+			"source": "UARevisedSubclasses",
+			"page": 3,
+			"featureType": [
+				"AS:V2-UA"
+			],
+			"consumes": {
+				"name": "Arcane Shot"
+			},
+			"entries": [
+				"You weave necromantic magic into your arrow. If your arrow hits a creature, the target takes an extra {@damage 2d6} necrotic damage and must make a Constitution saving throw. On a failed save, the damage of the target's attacks is halved until the next turn.",
+				"The necrotic damage increases to {@damage 4d6} when you reach 18th level with this class."
+			]
+		},
+		{
+			"name": "Bursting Arrow",
+			"source": "UARevisedSubclasses",
+			"page": 3,
+			"featureType": [
+				"AS:V2-UA"
+			],
+			"consumes": {
+				"name": "Arcane Shot"
+			},
+			"entries": [
+				"You imbue your arrow with a blast of force energy drawn from the school of evocation. If the arrow hits a creature, the target and each creature within 10 feet of it takes {@damage 2d6} force damage.",
+				"The force damage increases to {@damage 4d6} when you reach 18th level with this class."
+			]
+		},
+		{
+			"name": "Grasping Arrow",
+			"source": "UARevisedSubclasses",
+			"page": 3,
+			"featureType": [
+				"AS:V2-UA"
+			],
+			"consumes": {
+				"name": "Arcane Shot"
+			},
+			"entries": [
+				"When this arrow strikes its target, conjuration magic creates grasping, thorny brambles that wrap around the target. If the arrow hits a creature, the target takes an extra {@damage 2d6} poison damage, its speed is reduced by 10 feet, and it takes {@damage 2d6} slashing damage the first time on each turn it moves 1 foot or more without teleporting. The target or any creature that can reach it can use its action to remove the brambles with a successful Strength ({@skill Athletics}) check against your Arcane Shot save DC. Otherwise, the brambles last for 1 minute or until you use this option again.",
+				"The poison and slashing damage both increase to {@damage 4d6} when you reach 18th level in this class."
+			]
+		},
+		{
+			"name": "Mind-Scrambling Arrow",
+			"source": "UARevisedSubclasses",
+			"page": 4,
+			"featureType": [
+				"AS:V2-UA"
+			],
+			"consumes": {
+				"name": "Arcane Shot"
+			},
+			"entries": [
+				"Your enchantment magic causes this arrow to temporarily beguile its target. Choose one of your allies within 30 feet of the target. If the arrow hits a creature, the target takes an extra {@damage 2d6} psychic damage, and it must succeed on a Wisdom saving throw or it can't attack the chosen ally or include that ally in a harmful area of effect until the start of your next turn. This effect ends early if the chosen ally deals any damage to the target.",
+				"The psychic damage increases to {@damage 4d6} when you reach 18th level in this class."
+			]
+		},
+		{
+			"name": "Piercing Arrow",
+			"source": "UARevisedSubclasses",
+			"page": 4,
+			"featureType": [
+				"AS:V2-UA"
+			],
+			"consumes": {
+				"name": "Arcane Shot"
+			},
+			"entries": [
+				"You use transmutation magic to transform your arrow into an ethereal dart that passes through its targets. You use transmutation magic to give your arrow an ethereal quality. When you use this option, you don't make an attack roll for the attack. Instead, the arrow fires forward in a line that is 1 foot wide and 30 feet long, before disappearing. The arrow passes harmlessly through objects, ignoring cover. Each creature in that line must make a Dexterity saving throw. On a failed save, a target takes damage as if it were hit by the arrow, plus an extra {@damage 1d6} piercing damage. On a successful save, a target takes half as much damage.",
+				"The piercing damage increases to {@damage 2d6} when you reach 18th level in this class."
+			]
+		},
+		{
+			"name": "Seeking Arrow",
+			"source": "UARevisedSubclasses",
+			"page": 4,
+			"featureType": [
+				"AS:V2-UA"
+			],
+			"consumes": {
+				"name": "Arcane Shot"
+			},
+			"entries": [
+				"Using divination magic, you grant your arrow the ability to seek out your target, allowing the arrow to curve and twist its path in search of its prey. When you use this option, you don't make an attack roll for the attack. Instead, choose one creature you have seen in the past minute. The arrow flies toward that creature, moving around corners if necessary and ignoring three-quarters cover and half cover. If the target is within the weapon's range and there is a path large enough for the arrow to travel to the target, the target must make a Dexterity saving throw. On a failed save, it takes damage as if it were hit by the arrow, plus an extra {@damage 1d6} force damage, and you learn the target's current location. On a successful save, the target takes half as much damage, and you don't learn its location.",
+				"The force damage increases to {@damage 2d6} when you reach 18th level in this class."
+			]
+		},
+		{
+			"name": "Shadow Arrow",
+			"source": "UARevisedSubclasses",
+			"page": 4,
+			"featureType": [
+				"AS:V2-UA"
+			],
+			"consumes": {
+				"name": "Arcane Shot"
+			},
+			"entries": [
+				"You weave illusion magic into your arrow, causing it to occlude your foe's vision with grasping shadows. If the arrow hits a creature, the target takes an extra {@damage 2d6} psychic damage, and it must succeed on a Wisdom saving throw or be unable to see anything farther than 5 feet away until the start of your next turn.",
+				"The psychic damage increases to {@damage 4d6} when you reach 18th level in this class."
+			]
+		}
+	]
+}

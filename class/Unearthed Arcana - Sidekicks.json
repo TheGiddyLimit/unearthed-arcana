@@ -1,0 +1,1408 @@
+{
+	"_meta": {
+		"sources": [
+			{
+				"json": "UASidekicks",
+				"abbreviation": "UASIK",
+				"full": "Unearthed Arcana: Sidekicks",
+				"authors": [
+					"Wizards of the Coast"
+				],
+				"convertedBy": [
+					"Giddy"
+				],
+				"version": "1.0.0",
+				"url": "https://media.wizards.com/2018/dnd/downloads/UA_Sidekicks.pdf",
+				"dateReleased": "2018-12-17"
+			}
+		],
+		"dateAdded": 1701616429,
+		"dateLastModified": 1701616429,
+		"_dateLastModifiedHash": "aaaaaaaaaa"
+	},
+	"class": [
+		{
+			"name": "Expert Sidekick",
+			"source": "UASidekicks",
+			"page": 3,
+			"isSidekick": true,
+			"classFeatures": [
+				"Sidekick Class|Expert Sidekick|UASidekicks|1",
+				"Bonus Proficiencies|Expert Sidekick|UASidekicks|1",
+				"Expertise|Expert Sidekick|UASidekicks|1",
+				"Helpful|Expert Sidekick|UASidekicks|1",
+				"Cunning Action|Expert Sidekick|UASidekicks|2",
+				"Jack of Many Trades|Expert Sidekick|UASidekicks|3",
+				"Ability Score Improvement|Expert Sidekick|UASidekicks|4",
+				"Proficiency Versatility|Expert Sidekick|UASidekicks|4|UAClassFeatureVariants",
+				"Extra Attack|Expert Sidekick|UASidekicks|5",
+				"Expertise|Expert Sidekick|UASidekicks|6",
+				"Evasion|Expert Sidekick|UASidekicks|7",
+				"Ability Score Improvement|Expert Sidekick|UASidekicks|8",
+				"Proficiency Versatility|Expert Sidekick|UASidekicks|8|UAClassFeatureVariants",
+				"Inspiring Help (1d6)|Expert Sidekick|UASidekicks|9",
+				"Ability Score Improvement|Expert Sidekick|UASidekicks|10",
+				"Proficiency Versatility|Expert Sidekick|UASidekicks|10|UAClassFeatureVariants",
+				"Reliable Talent|Expert Sidekick|UASidekicks|11",
+				"Ability Score Improvement|Expert Sidekick|UASidekicks|12",
+				"Proficiency Versatility|Expert Sidekick|UASidekicks|12|UAClassFeatureVariants",
+				"Bonus Proficiencies|Expert Sidekick|UASidekicks|13",
+				"Ability Score Improvement|Expert Sidekick|UASidekicks|14",
+				"Proficiency Versatility|Expert Sidekick|UASidekicks|14|UAClassFeatureVariants",
+				"Sharp Mind|Expert Sidekick|UASidekicks|15",
+				"Ability Score Improvement|Expert Sidekick|UASidekicks|16",
+				"Proficiency Versatility|Expert Sidekick|UASidekicks|16|UAClassFeatureVariants",
+				"Expertise|Expert Sidekick|UASidekicks|17",
+				"Inspiring Help (2d6)|Expert Sidekick|UASidekicks|18",
+				"Ability Score Improvement|Expert Sidekick|UASidekicks|19",
+				"Proficiency Versatility|Expert Sidekick|UASidekicks|19|UAClassFeatureVariants",
+				"Stroke of Luck|Expert Sidekick|UASidekicks|20"
+			],
+			"fluff": [
+				{
+					"name": "Expert Sidekick",
+					"type": "section",
+					"entries": [
+						"The expert is a master of certain tasks or knowledge. This sidekick follows a path that favors cunning over brawn or spellcasting. It might be a scout, a musician, a librarian, a clever street kid, a wily merchant, or a burglar."
+					],
+					"source": "UASidekicks",
+					"page": 3
+				}
+			]
+		},
+		{
+			"name": "Spellcaster Sidekick",
+			"source": "UASidekicks",
+			"page": 4,
+			"isSidekick": true,
+			"cantripProgression": [
+				3,
+				3,
+				3,
+				4,
+				4,
+				4,
+				4,
+				4,
+				4,
+				5,
+				5,
+				5,
+				5,
+				5,
+				5,
+				5,
+				5,
+				5,
+				5,
+				5
+			],
+			"spellsKnownProgression": [
+				3,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12,
+				12,
+				13,
+				13,
+				14,
+				14,
+				15,
+				15,
+				16,
+				16
+			],
+			"classTableGroups": [
+				{
+					"colLabels": [
+						"{@filter Cantrips Known|spells|level=0}"
+					],
+					"rows": [
+						[
+							3
+						],
+						[
+							3
+						],
+						[
+							3
+						],
+						[
+							4
+						],
+						[
+							4
+						],
+						[
+							4
+						],
+						[
+							4
+						],
+						[
+							4
+						],
+						[
+							4
+						],
+						[
+							5
+						],
+						[
+							5
+						],
+						[
+							5
+						],
+						[
+							5
+						],
+						[
+							5
+						],
+						[
+							5
+						],
+						[
+							5
+						],
+						[
+							5
+						],
+						[
+							5
+						],
+						[
+							5
+						],
+						[
+							5
+						]
+					]
+				},
+				{
+					"colLabels": [
+						"{@filter Spells Known|spells|level=!0}"
+					],
+					"rows": [
+						[
+							3
+						],
+						[
+							3
+						],
+						[
+							4
+						],
+						[
+							5
+						],
+						[
+							6
+						],
+						[
+							7
+						],
+						[
+							8
+						],
+						[
+							9
+						],
+						[
+							10
+						],
+						[
+							11
+						],
+						[
+							12
+						],
+						[
+							12
+						],
+						[
+							13
+						],
+						[
+							13
+						],
+						[
+							14
+						],
+						[
+							14
+						],
+						[
+							15
+						],
+						[
+							15
+						],
+						[
+							16
+						],
+						[
+							16
+						]
+					]
+				},
+				{
+					"title": "Spell Slots per Spell Level",
+					"colLabels": [
+						"{@filter 1st|spells|level=1}",
+						"{@filter 2nd|spells|level=2}",
+						"{@filter 3rd|spells|level=3}",
+						"{@filter 4th|spells|level=4}",
+						"{@filter 5th|spells|level=5}",
+						"{@filter 6th|spells|level=6}",
+						"{@filter 7th|spells|level=7}",
+						"{@filter 8th|spells|level=8}",
+						"{@filter 9th|spells|level=9}"
+					],
+					"rows": [
+						[
+							2,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0
+						],
+						[
+							3,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0
+						],
+						[
+							4,
+							2,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0
+						],
+						[
+							4,
+							3,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0
+						],
+						[
+							4,
+							3,
+							2,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0
+						],
+						[
+							4,
+							3,
+							3,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0
+						],
+						[
+							4,
+							3,
+							3,
+							1,
+							0,
+							0,
+							0,
+							0,
+							0
+						],
+						[
+							4,
+							3,
+							3,
+							2,
+							0,
+							0,
+							0,
+							0,
+							0
+						],
+						[
+							4,
+							3,
+							3,
+							3,
+							1,
+							0,
+							0,
+							0,
+							0
+						],
+						[
+							4,
+							3,
+							3,
+							3,
+							2,
+							0,
+							0,
+							0,
+							0
+						],
+						[
+							4,
+							3,
+							3,
+							3,
+							2,
+							1,
+							0,
+							0,
+							0
+						],
+						[
+							4,
+							3,
+							3,
+							3,
+							2,
+							1,
+							0,
+							0,
+							0
+						],
+						[
+							4,
+							3,
+							3,
+							3,
+							2,
+							1,
+							1,
+							0,
+							0
+						],
+						[
+							4,
+							3,
+							3,
+							3,
+							2,
+							1,
+							1,
+							0,
+							0
+						],
+						[
+							4,
+							3,
+							3,
+							3,
+							2,
+							1,
+							1,
+							1,
+							0
+						],
+						[
+							4,
+							3,
+							3,
+							3,
+							2,
+							1,
+							1,
+							1,
+							0
+						],
+						[
+							4,
+							3,
+							3,
+							3,
+							3,
+							1,
+							1,
+							1,
+							1
+						],
+						[
+							4,
+							3,
+							3,
+							3,
+							3,
+							1,
+							1,
+							1,
+							1
+						],
+						[
+							4,
+							3,
+							3,
+							3,
+							3,
+							2,
+							1,
+							1,
+							1
+						],
+						[
+							4,
+							3,
+							3,
+							3,
+							3,
+							2,
+							2,
+							1,
+							1
+						]
+					]
+				}
+			],
+			"classFeatures": [
+				"Sidekick Class|Spellcaster Sidekick|UASidekicks|1",
+				"Bonus Proficiencies|Spellcaster Sidekick|UASidekicks|1",
+				"Spellcasting|Spellcaster Sidekick|UASidekicks|1",
+				"Magical Recovery|Spellcaster Sidekick|UASidekicks|2",
+				"Ability Score Improvement|Spellcaster Sidekick|UASidekicks|4",
+				"Proficiency Versatility|Spellcaster Sidekick|UASidekicks|4|UAClassFeatureVariants",
+				"Potent Cantrips|Spellcaster Sidekick|UASidekicks|6",
+				"Ability Score Improvement|Spellcaster Sidekick|UASidekicks|8",
+				"Proficiency Versatility|Spellcaster Sidekick|UASidekicks|8|UAClassFeatureVariants",
+				"Empowered Spells|Spellcaster Sidekick|UASidekicks|10",
+				"Ability Score Improvement|Spellcaster Sidekick|UASidekicks|12",
+				"Proficiency Versatility|Spellcaster Sidekick|UASidekicks|12|UAClassFeatureVariants",
+				"Focused Casting|Spellcaster Sidekick|UASidekicks|14",
+				"Ability Score Improvement|Spellcaster Sidekick|UASidekicks|16",
+				"Proficiency Versatility|Spellcaster Sidekick|UASidekicks|16|UAClassFeatureVariants",
+				"Ability Score Improvement|Spellcaster Sidekick|UASidekicks|18",
+				"Proficiency Versatility|Spellcaster Sidekick|UASidekicks|18|UAClassFeatureVariants",
+				"Signature Spells|Spellcaster Sidekick|UASidekicks|20"
+			],
+			"fluff": [
+				{
+					"name": "Spellcaster Sidekick",
+					"type": "section",
+					"entries": [
+						"A sidekick who becomes a spellcaster walks the paths of magic. The sidekick might be a hedge wizard, a priest, a soothsayer, a spell-wielding performer, or a person with magic in their veins."
+					],
+					"source": "UASidekicks",
+					"page": 4
+				}
+			]
+		},
+		{
+			"name": "Warrior Sidekick",
+			"source": "UASidekicks",
+			"page": 2,
+			"isSidekick": true,
+			"classFeatures": [
+				"Sidekick Class|Warrior Sidekick|UASidekicks|1",
+				"Bonus Proficiencies|Warrior Sidekick|UASidekicks|1",
+				"Second Wind|Warrior Sidekick|UASidekicks|1",
+				"Danger Sense|Warrior Sidekick|UASidekicks|2",
+				"Improved Critical|Warrior Sidekick|UASidekicks|3",
+				"Ability Score Improvement|Warrior Sidekick|UASidekicks|4",
+				"Proficiency Versatility|Warrior Sidekick|UASidekicks|4|UAClassFeatureVariants",
+				"Extra Attack (1 extra)|Warrior Sidekick|UASidekicks|5",
+				"Ability Score Improvement|Warrior Sidekick|UASidekicks|6",
+				"Proficiency Versatility|Warrior Sidekick|UASidekicks|6|UAClassFeatureVariants",
+				"Battle Readiness|Warrior Sidekick|UASidekicks|7",
+				"Ability Score Improvement|Warrior Sidekick|UASidekicks|8",
+				"Proficiency Versatility|Warrior Sidekick|UASidekicks|8|UAClassFeatureVariants",
+				"Indomitable (1 use)|Warrior Sidekick|UASidekicks|9",
+				"Improved Defense|Warrior Sidekick|UASidekicks|10",
+				"Extra Attack (2 extra)|Warrior Sidekick|UASidekicks|11",
+				"Ability Score Improvement|Warrior Sidekick|UASidekicks|12",
+				"Proficiency Versatility|Warrior Sidekick|UASidekicks|12|UAClassFeatureVariants",
+				"Indomitable (2 uses)|Warrior Sidekick|UASidekicks|13",
+				"Ability Score Improvement|Warrior Sidekick|UASidekicks|14",
+				"Proficiency Versatility|Warrior Sidekick|UASidekicks|14|UAClassFeatureVariants",
+				"Superior Critical|Warrior Sidekick|UASidekicks|15",
+				"Ability Score Improvement|Warrior Sidekick|UASidekicks|16",
+				"Proficiency Versatility|Warrior Sidekick|UASidekicks|16|UAClassFeatureVariants",
+				"Indomitable (3 uses)|Warrior Sidekick|UASidekicks|17",
+				"Second Wind (2 uses)|Warrior Sidekick|UASidekicks|18",
+				"Ability Score Improvement|Warrior Sidekick|UASidekicks|19",
+				"Proficiency Versatility|Warrior Sidekick|UASidekicks|19|UAClassFeatureVariants",
+				"Extra Attack (3 extra)|Warrior Sidekick|UASidekicks|20"
+			],
+			"fluff": [
+				{
+					"name": "Warrior Sidekick",
+					"type": "section",
+					"entries": [
+						"A warrior sidekick grows in martial prowess as it fights by your side. It might be a soldier, a town guard, a battle-trained beast, or any other creature honed for combat."
+					],
+					"source": "UASidekicks",
+					"page": 2
+				}
+			]
+		}
+	],
+	"classFeature": [
+		{
+			"name": "Bonus Proficiencies",
+			"source": "UASidekicks",
+			"page": 3,
+			"className": "Expert Sidekick",
+			"classSource": "UASidekicks",
+			"level": 1,
+			"entries": [
+				"At 1st level, the sidekick gains proficiency in one saving throw of your choice: Dexterity, Intelligence, or Constitution.",
+				"In addition, the sidekick gains proficiency in five skills of your choice. If the sidekick is a humanoid, it also gains proficiency with light armor, simple weapons, and two tools of your choice.",
+				"At 13th level, the sidekick gains proficiency in one skill of your choice. If the sidekick is a humanoid, it also gains proficiency with one tool of your choice."
+			]
+		},
+		{
+			"name": "Expertise",
+			"source": "UASidekicks",
+			"page": 3,
+			"className": "Expert Sidekick",
+			"classSource": "UASidekicks",
+			"level": 1,
+			"entries": [
+				"At 1st level, choose two of the sidekick's skill proficiencies. The sidekick's proficiency bonus is doubled for any ability check it makes that uses either of the chosen proficiencies.",
+				"At 6th level and again at 17th level, choose two more of the sidekick's skill proficiencies to gain this benefit."
+			]
+		},
+		{
+			"name": "Helpful",
+			"source": "UASidekicks",
+			"page": 3,
+			"className": "Expert Sidekick",
+			"classSource": "UASidekicks",
+			"level": 1,
+			"entries": [
+				"The sidekick is adept at giving well-timed assistance; the sidekick can take the {@action Help} action as a bonus action."
+			]
+		},
+		{
+			"name": "Sidekick Class",
+			"source": "UASidekicks",
+			"page": 3,
+			"className": "Expert Sidekick",
+			"classSource": "UASidekicks",
+			"level": 1,
+			"type": "inset",
+			"entries": [
+				"To gain the expert class, a creature must have at least one language in its stat block that it can speak.",
+				"{@note Note: this class is intended for NPC {@variantrule sidekicks|uasidekicks}.}"
+			]
+		},
+		{
+			"name": "Cunning Action",
+			"source": "UASidekicks",
+			"page": 3,
+			"className": "Expert Sidekick",
+			"classSource": "UASidekicks",
+			"level": 2,
+			"entries": [
+				"Starting at 2nd level, the sidekick's agility or quick thinking allows it to act speedily. On its turn in combat, it can take the {@action Dash}, {@action Disengage}, or {@action Hide} action as a bonus action."
+			]
+		},
+		{
+			"name": "Jack of Many Trades",
+			"source": "UASidekicks",
+			"page": 3,
+			"className": "Expert Sidekick",
+			"classSource": "UASidekicks",
+			"level": 3,
+			"entries": [
+				"Beginning at 3rd level, the sidekick can add half its proficiency bonus to any ability check it makes that uses a skill but doesn't already include its proficiency bonus."
+			]
+		},
+		{
+			"name": "Ability Score Improvement",
+			"source": "UASidekicks",
+			"page": 3,
+			"className": "Expert Sidekick",
+			"classSource": "UASidekicks",
+			"level": 4,
+			"entries": [
+				"When you reach 4th level, and again at 8th, 10th, 12th, 14th, 16th, and 19th level, the sidekick increases one ability score of your choice by 2, or the sidekick increases two ability scores of your choice by 1. The sidekick can't increase an ability score above 20 using this feature."
+			]
+		},
+		{
+			"name": "Extra Attack",
+			"source": "UASidekicks",
+			"page": 3,
+			"className": "Expert Sidekick",
+			"classSource": "UASidekicks",
+			"level": 5,
+			"entries": [
+				"Starting at 5th level, the sidekick can attack twice, instead of once, whenever it takes the {@action Attack} action on its turn."
+			]
+		},
+		{
+			"name": "Expertise",
+			"source": "UASidekicks",
+			"page": 3,
+			"className": "Expert Sidekick",
+			"classSource": "UASidekicks",
+			"level": 6,
+			"entries": [
+				"At 6th level, you gain another Expertise."
+			]
+		},
+		{
+			"name": "Evasion",
+			"source": "UASidekicks",
+			"page": 3,
+			"className": "Expert Sidekick",
+			"classSource": "UASidekicks",
+			"level": 7,
+			"entries": [
+				"Beginning at 7th level, because of extraordinary good luck, the sidekick is skilled at avoiding certain dangers. When the sidekick is subjected to an effect that allows it to make a Dexterity saving throw to take only half damage, it instead takes no damage if it succeeds on the saving throw, and only half damage if it failed. The sidekick doesn't benefit from this feature while {@condition incapacitated}."
+			]
+		},
+		{
+			"name": "Ability Score Improvement",
+			"source": "UASidekicks",
+			"page": 3,
+			"className": "Expert Sidekick",
+			"classSource": "UASidekicks",
+			"level": 8,
+			"entries": [
+				"At 8th level, you gain another Ability Score Improvement."
+			]
+		},
+		{
+			"name": "Inspiring Help (1d6)",
+			"source": "UASidekicks",
+			"page": 3,
+			"className": "Expert Sidekick",
+			"classSource": "UASidekicks",
+			"level": 9,
+			"entries": [
+				"Starting at 9th level, the sidekick's assistance becomes especially inspiring. When the sidekick uses its Helpful bonus action, the creature who receives the help also gains a {@dice 1d6} bonus to the {@dice d20} roll. If that roll is an attack roll, the creature can forgo adding the bonus to it, and then if the attack hits, the creature can add the bonus to the attack's damage roll against one target.",
+				"At 18th level, the bonus increases to {@dice 2d6}."
+			]
+		},
+		{
+			"name": "Ability Score Improvement",
+			"source": "UASidekicks",
+			"page": 3,
+			"className": "Expert Sidekick",
+			"classSource": "UASidekicks",
+			"level": 10,
+			"entries": [
+				"At 10th level, you gain another Ability Score Improvement."
+			]
+		},
+		{
+			"name": "Reliable Talent",
+			"source": "UASidekicks",
+			"page": 3,
+			"className": "Expert Sidekick",
+			"classSource": "UASidekicks",
+			"level": 11,
+			"entries": [
+				"By 11th level, the sidekick has refined its skills to an exceptional degree. Whenever the sidekick makes an ability check that includes its whole proficiency bonus, it can treat a {@dice d20} roll of 9 or lower as a 10."
+			]
+		},
+		{
+			"name": "Ability Score Improvement",
+			"source": "UASidekicks",
+			"page": 3,
+			"className": "Expert Sidekick",
+			"classSource": "UASidekicks",
+			"level": 12,
+			"entries": [
+				"At 12th level, you gain another Ability Score Improvement."
+			]
+		},
+		{
+			"name": "Bonus Proficiencies",
+			"source": "UASidekicks",
+			"page": 3,
+			"className": "Expert Sidekick",
+			"classSource": "UASidekicks",
+			"level": 13,
+			"entries": [
+				"At 13th level, you gain more Bonus Proficiencies."
+			]
+		},
+		{
+			"name": "Ability Score Improvement",
+			"source": "UASidekicks",
+			"page": 3,
+			"className": "Expert Sidekick",
+			"classSource": "UASidekicks",
+			"level": 14,
+			"entries": [
+				"At 14th level, you gain another Ability Score Improvement."
+			]
+		},
+		{
+			"name": "Sharp Mind",
+			"source": "UASidekicks",
+			"page": 3,
+			"className": "Expert Sidekick",
+			"classSource": "UASidekicks",
+			"level": 15,
+			"entries": [
+				"At 15th level, the sidekick gains proficiency in Intelligence, Wisdom, or Charisma saving throws (your choice)."
+			]
+		},
+		{
+			"name": "Ability Score Improvement",
+			"source": "UASidekicks",
+			"page": 3,
+			"className": "Expert Sidekick",
+			"classSource": "UASidekicks",
+			"level": 16,
+			"entries": [
+				"At 16th level, you gain another Ability Score Improvement."
+			]
+		},
+		{
+			"name": "Expertise",
+			"source": "UASidekicks",
+			"page": 3,
+			"className": "Expert Sidekick",
+			"classSource": "UASidekicks",
+			"level": 17,
+			"entries": [
+				"At 17th level, you gain another Expertise."
+			]
+		},
+		{
+			"name": "Inspiring Help (2d6)",
+			"source": "UASidekicks",
+			"page": 3,
+			"className": "Expert Sidekick",
+			"classSource": "UASidekicks",
+			"level": 18,
+			"entries": [
+				"At 18th level, your Inspiring Help bonus increases to {@dice 2d6}."
+			]
+		},
+		{
+			"name": "Ability Score Improvement",
+			"source": "UASidekicks",
+			"page": 3,
+			"className": "Expert Sidekick",
+			"classSource": "UASidekicks",
+			"level": 19,
+			"entries": [
+				"At 19th level, you gain another Ability Score Improvement."
+			]
+		},
+		{
+			"name": "Stroke of Luck",
+			"source": "UASidekicks",
+			"page": 3,
+			"className": "Expert Sidekick",
+			"classSource": "UASidekicks",
+			"level": 20,
+			"entries": [
+				"At 20th level, the sidekick has an uncanny knack for turning failure into success. If the sidekick's attack misses a target within range, it can turn the miss into a hit. Alternatively, if it fails an ability check, it can treat the {@dice d20} roll as a 20.",
+				"Once it uses this feature, the sidekick can't use it again until it finishes a short or long rest."
+			]
+		},
+		{
+			"name": "Bonus Proficiencies",
+			"source": "UASidekicks",
+			"page": 4,
+			"className": "Spellcaster Sidekick",
+			"classSource": "UASidekicks",
+			"level": 1,
+			"entries": [
+				"When the sidekick joins this class, the sidekick gains proficiency in one saving throw of your choice: Wisdom, Intelligence, or Charisma.",
+				"In addition, the sidekick gains proficiency in three skills of your choice from the following list: {@skill Arcana}, {@skill History}, {@skill Insight}, {@skill Investigation}, {@skill Medicine}, {@skill Performance}, {@skill Persuasion}, and {@skill Religion}. If the sidekick is a humanoid, it also gains proficiency with simple weapons and light armor."
+			]
+		},
+		{
+			"name": "Sidekick Class",
+			"source": "UASidekicks",
+			"page": 4,
+			"className": "Spellcaster Sidekick",
+			"classSource": "UASidekicks",
+			"level": 1,
+			"type": "inset",
+			"entries": [
+				"To gain the spellcaster class, a creature must have at least one language in its stat block that it can speak.",
+				"{@note Note: this class is intended for NPC {@variantrule sidekicks|uasidekicks}.}"
+			]
+		},
+		{
+			"name": "Spellcasting",
+			"source": "UASidekicks",
+			"page": 4,
+			"className": "Spellcaster Sidekick",
+			"classSource": "UASidekicks",
+			"level": 1,
+			"entries": [
+				"At 1st level, the sidekick gains the ability to cast spells. (If the creature already has the Spellcasting trait, this feature replaces that trait.) Choose a class: bard, cleric, druid, sorcerer, warlock, or wizard. This choice determines the spell list, spellcasting ability, and spellcasting focus used by the sidekick, as shown on the Spellcasting table.",
+				{
+					"type": "table",
+					"caption": "Spellcasting",
+					"colLabels": [
+						"Spell List",
+						"Ability",
+						"Focus"
+					],
+					"colStyles": [
+						"col-4",
+						"col-4",
+						"col-4"
+					],
+					"rows": [
+						[
+							"{@filter Bard|spells|class=Bard}",
+							"Charisma",
+							"{@filter Musical instrument|items|type=instrument}"
+						],
+						[
+							"{@filter Cleric|spells|class=Cleric}",
+							"Wisdom",
+							"{@item Holy Symbol|PHB}"
+						],
+						[
+							"{@filter Druid|spells|class=Druid}",
+							"Wisdom",
+							"{@item Druidic Focus|PHB}"
+						],
+						[
+							"{@filter Sorcerer|spells|class=Sorcerer}",
+							"Charisma",
+							"{@item Arcane Focus|PHB}"
+						],
+						[
+							"{@filter Warlock|spells|class=Warlock}",
+							"Charisma",
+							"{@item Arcane Focus|PHB}"
+						],
+						[
+							"{@filter Wizard|spells|class=Wizard}",
+							"Intelligence",
+							"{@item Arcane Focus|PHB}"
+						]
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Cantrips",
+					"entries": [
+						"At first level, the sidekick knows three cantrips of your choice from its spell list. The sidekick learns additional cantrips of your choice at higher levels, as shown in the Cantrips Known column of the Spellcaster table."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Spell Slots",
+					"entries": [
+						"The Spellcaster table shows how many spell slots the sidekick has to cast its spellcaster spells of 1st level and higher. To cast one of these spells, the sidekick must expend a slot of the spell's level or higher. The spellcaster regains all expended spell slots when it finishes a long rest.",
+						"For example, if the sidekick knows the 1st-level spell {@spell cure wounds} and has a 1st-level and a 2nd-level spell slot available, it can cast the spell using either slot."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Spells Known",
+					"entries": [
+						"The sidekick knows three 1st-level spells of your choice from its spell list.",
+						"The Spells Known column of the Spellcaster table shows when the sidekick learns more spells of your choice. Each of these spells must be of a level for which the sidekick has spell slots, as shown on the table. For instance when the sidekick reaches 3rd level in this class, it can learn one new spell of 1st or 2nd level.",
+						"Additionally, when the sidekick gains a level in this class, you can choose one of the spells it knows from this class and replace it with another spell from its spell list, which also must be of a level for which it has spell slots."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Spellcasting Ability",
+					"entries": [
+						"The sidekick's spellcasting ability for these spells depends on the choice you made on the Spellcasting table.",
+						"The sidekick uses its spellcasting ability whenever a spell refers to that ability. In addition, it uses its spellcasting ability modifier when setting the saving throw DC for a spell it casts and when making an attack roll with one.",
+						{
+							"type": "abilityDc",
+							"name": "Spell",
+							"attributes": [
+								"spellcasting"
+							]
+						},
+						{
+							"type": "abilityAttackMod",
+							"name": "Spell",
+							"attributes": [
+								"spellcasting"
+							]
+						}
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Spellcasting Focus",
+					"entries": [
+						"The sidekick can use a focus for its spells depending on the choice you made on the Spellcasting table."
+					]
+				}
+			]
+		},
+		{
+			"name": "Magical Recovery",
+			"source": "UASidekicks",
+			"page": 4,
+			"className": "Spellcaster Sidekick",
+			"classSource": "UASidekicks",
+			"level": 2,
+			"entries": [
+				"Beginning at 2nd level, when the sidekick finishes a short rest, it can recover expended spell slots. The spell slots can have a combined level that is equal to or less than half its level in this class (rounded up), and none of the spell slots can be 6th level or higher.",
+				"Once the sidekick uses this feature, it can't use the feature again until it finishes a long rest."
+			]
+		},
+		{
+			"name": "Ability Score Improvement",
+			"source": "UASidekicks",
+			"page": 4,
+			"className": "Spellcaster Sidekick",
+			"classSource": "UASidekicks",
+			"level": 4,
+			"entries": [
+				"When you reach 4th level, and again at 8th, 12th, 16th, and 19th level, the sidekick increases one ability score of your choice by 2, or the sidekick increases two ability scores of your choice by 1. The sidekick can't increase an ability score above 20 using this feature."
+			]
+		},
+		{
+			"name": "Potent Cantrips",
+			"source": "UASidekicks",
+			"page": 4,
+			"className": "Spellcaster Sidekick",
+			"classSource": "UASidekicks",
+			"level": 6,
+			"entries": [
+				"Starting at 6th level, the sidekick can add its spellcasting ability modifier to the damage it deals with any cantrip."
+			]
+		},
+		{
+			"name": "Ability Score Improvement",
+			"source": "UASidekicks",
+			"page": 4,
+			"className": "Spellcaster Sidekick",
+			"classSource": "UASidekicks",
+			"level": 8,
+			"entries": [
+				"At 8th level, you gain another Ability Score Improvement."
+			]
+		},
+		{
+			"name": "Empowered Spells",
+			"source": "UASidekicks",
+			"page": 4,
+			"className": "Spellcaster Sidekick",
+			"classSource": "UASidekicks",
+			"level": 10,
+			"entries": [
+				"At 10th level, choose one school of magic. Whenever the sidekick casts a spell of that school by expending a spell slot, the sidekick can add its spellcasting ability modifier to the spell's damage roll or healing roll, if any."
+			]
+		},
+		{
+			"name": "Ability Score Improvement",
+			"source": "UASidekicks",
+			"page": 4,
+			"className": "Spellcaster Sidekick",
+			"classSource": "UASidekicks",
+			"level": 12,
+			"entries": [
+				"At 12th level, you gain another Ability Score Improvement."
+			]
+		},
+		{
+			"name": "Focused Casting",
+			"source": "UASidekicks",
+			"page": 4,
+			"className": "Spellcaster Sidekick",
+			"classSource": "UASidekicks",
+			"level": 14,
+			"entries": [
+				"Starting at 14th level, the sidekick has advantage on any Constitution saving throw it makes to maintain its {@status concentration} on a spell."
+			]
+		},
+		{
+			"name": "Ability Score Improvement",
+			"source": "UASidekicks",
+			"page": 4,
+			"className": "Spellcaster Sidekick",
+			"classSource": "UASidekicks",
+			"level": 16,
+			"entries": [
+				"At 16th level, you gain another Ability Score Improvement."
+			]
+		},
+		{
+			"name": "Ability Score Improvement",
+			"source": "UASidekicks",
+			"page": 4,
+			"className": "Spellcaster Sidekick",
+			"classSource": "UASidekicks",
+			"level": 18,
+			"entries": [
+				"At 18th level, you gain another Ability Score Improvement."
+			]
+		},
+		{
+			"name": "Signature Spells",
+			"source": "UASidekicks",
+			"page": 4,
+			"className": "Spellcaster Sidekick",
+			"classSource": "UASidekicks",
+			"level": 20,
+			"entries": [
+				"At 20th level, choose two spells that the sidekick knows from this class. Eligible spells are of 1st, 2nd, and 3rd level. The sidekick can cast each of the chosen spell once at 3rd level without expending a spell slot. After the sidekick casts a spell in this way, the sidekick regains the ability to cast that spell with this feature when it finishes a short or long rest."
+			]
+		},
+		{
+			"name": "Bonus Proficiencies",
+			"source": "UASidekicks",
+			"page": 2,
+			"className": "Warrior Sidekick",
+			"classSource": "UASidekicks",
+			"level": 1,
+			"entries": [
+				"At 1st level, the sidekick gains proficiency in one saving throw of your choice: Strength, Dexterity, or Constitution.",
+				"In addition, the sidekick gains proficiency in three skills of your choice from the following list: {@skill Acrobatics}, {@skill Animal Handling}, {@skill Athletics}, {@skill Intimidation}, {@skill Nature}, {@skill Perception}, and {@skill Survival}. If the sidekick is a humanoid, it also gains proficiency with all armor, shields, and simple and martial weapons."
+			]
+		},
+		{
+			"name": "Second Wind",
+			"source": "UASidekicks",
+			"page": 2,
+			"className": "Warrior Sidekick",
+			"classSource": "UASidekicks",
+			"level": 1,
+			"entries": [
+				"Starting at 1st level, the sidekick can use a bonus action on its turn to regain hit points equal to {@dice 1d10} + its level in this class. Once it uses this feature, it must finish a short or long rest before it can use it again.",
+				"The sidekick can use this feature twice between rests starting at 18th level."
+			]
+		},
+		{
+			"name": "Sidekick Class",
+			"source": "UASidekicks",
+			"page": 2,
+			"className": "Warrior Sidekick",
+			"classSource": "UASidekicks",
+			"level": 1,
+			"type": "inset",
+			"entries": [
+				"{@note Note: this class is intended for NPC {@variantrule sidekicks|uasidekicks}.}"
+			]
+		},
+		{
+			"name": "Danger Sense",
+			"source": "UASidekicks",
+			"page": 2,
+			"className": "Warrior Sidekick",
+			"classSource": "UASidekicks",
+			"level": 2,
+			"entries": [
+				"Beginning at 2nd level, the sidekick has advantage on Dexterity saving throws against effects that it can see, such as traps and spells. This feature doesn't work if the sidekick is {@condition incapacitated}."
+			]
+		},
+		{
+			"name": "Improved Critical",
+			"source": "UASidekicks",
+			"page": 2,
+			"className": "Warrior Sidekick",
+			"classSource": "UASidekicks",
+			"level": 3,
+			"entries": [
+				"Starting at 3rd level, the sidekick's attack rolls score a critical hit on a roll of 19 or 20 on the {@dice d20}."
+			]
+		},
+		{
+			"name": "Ability Score Improvement",
+			"source": "UASidekicks",
+			"page": 2,
+			"className": "Warrior Sidekick",
+			"classSource": "UASidekicks",
+			"level": 4,
+			"entries": [
+				"When you reach 4th level, and again at 6th, 8th, 12th, 14th, 16th, and 19th level, the sidekick increases one ability score of your choice by 2, or the sidekick increases two ability scores of your choice by 1. The sidekick can't increase an ability score above 20 using this feature."
+			]
+		},
+		{
+			"name": "Extra Attack (1 extra)",
+			"source": "UASidekicks",
+			"page": 2,
+			"className": "Warrior Sidekick",
+			"classSource": "UASidekicks",
+			"level": 5,
+			"entries": [
+				"Beginning at 5th level, the sidekick can attack twice, instead of once, whenever it takes the {@action Attack} action on its turn.",
+				"The number of attacks increases to three when the sidekick reaches 11th level and to four when it reaches 20th level."
+			]
+		},
+		{
+			"name": "Ability Score Improvement",
+			"source": "UASidekicks",
+			"page": 2,
+			"className": "Warrior Sidekick",
+			"classSource": "UASidekicks",
+			"level": 6,
+			"entries": [
+				"At 6th level, you gain another Ability Score Improvement."
+			]
+		},
+		{
+			"name": "Battle Readiness",
+			"source": "UASidekicks",
+			"page": 2,
+			"className": "Warrior Sidekick",
+			"classSource": "UASidekicks",
+			"level": 7,
+			"entries": [
+				"After the sidekick reaches 7th level, it has advantage on initiative rolls."
+			]
+		},
+		{
+			"name": "Ability Score Improvement",
+			"source": "UASidekicks",
+			"page": 2,
+			"className": "Warrior Sidekick",
+			"classSource": "UASidekicks",
+			"level": 8,
+			"entries": [
+				"At 8th level, you gain another Ability Score Improvement."
+			]
+		},
+		{
+			"name": "Indomitable (1 use)",
+			"source": "UASidekicks",
+			"page": 2,
+			"className": "Warrior Sidekick",
+			"classSource": "UASidekicks",
+			"level": 9,
+			"entries": [
+				"Starting at 9th level, the sidekick can reroll a saving throw that it fails, but it must use the new roll. When it uses this feature, it can't use the feature again unless it finishes a long rest.",
+				"The sidekick can use this feature twice between long rests starting at 13th level and three times between long rests starting at 17th level."
+			]
+		},
+		{
+			"name": "Improved Defense",
+			"source": "UASidekicks",
+			"page": 2,
+			"className": "Warrior Sidekick",
+			"classSource": "UASidekicks",
+			"level": 10,
+			"entries": [
+				"At 10th level, the sidekick's Armor Class increases by 1."
+			]
+		},
+		{
+			"name": "Extra Attack (2 extra)",
+			"source": "UASidekicks",
+			"page": 2,
+			"className": "Warrior Sidekick",
+			"classSource": "UASidekicks",
+			"level": 11,
+			"entries": [
+				"At 11th level, you gain another Extra Attack."
+			]
+		},
+		{
+			"name": "Ability Score Improvement",
+			"source": "UASidekicks",
+			"page": 2,
+			"className": "Warrior Sidekick",
+			"classSource": "UASidekicks",
+			"level": 12,
+			"entries": [
+				"At 12th level, you gain another Ability Score Improvement."
+			]
+		},
+		{
+			"name": "Indomitable (2 uses)",
+			"source": "UASidekicks",
+			"page": 2,
+			"className": "Warrior Sidekick",
+			"classSource": "UASidekicks",
+			"level": 13,
+			"entries": [
+				"At 13th level, you gain another use of Indomitable."
+			]
+		},
+		{
+			"name": "Ability Score Improvement",
+			"source": "UASidekicks",
+			"page": 2,
+			"className": "Warrior Sidekick",
+			"classSource": "UASidekicks",
+			"level": 14,
+			"entries": [
+				"At 14th level, you gain another Ability Score Improvement."
+			]
+		},
+		{
+			"name": "Superior Critical",
+			"source": "UASidekicks",
+			"page": 2,
+			"className": "Warrior Sidekick",
+			"classSource": "UASidekicks",
+			"level": 15,
+			"entries": [
+				"Starting at 15th level, the sidekick's attack rolls score a critical hit on a roll of 18-20 on the {@dice d20}."
+			]
+		},
+		{
+			"name": "Ability Score Improvement",
+			"source": "UASidekicks",
+			"page": 2,
+			"className": "Warrior Sidekick",
+			"classSource": "UASidekicks",
+			"level": 16,
+			"entries": [
+				"At 16th level, you gain another Ability Score Improvement."
+			]
+		},
+		{
+			"name": "Indomitable (3 uses)",
+			"source": "UASidekicks",
+			"page": 2,
+			"className": "Warrior Sidekick",
+			"classSource": "UASidekicks",
+			"level": 17,
+			"entries": [
+				"At 17th level, you gain another use of Indomitable."
+			]
+		},
+		{
+			"name": "Second Wind (2 uses)",
+			"source": "UASidekicks",
+			"page": 2,
+			"className": "Warrior Sidekick",
+			"classSource": "UASidekicks",
+			"level": 18,
+			"entries": [
+				"At 18th level, you gain another use of Second Wind."
+			]
+		},
+		{
+			"name": "Ability Score Improvement",
+			"source": "UASidekicks",
+			"page": 2,
+			"className": "Warrior Sidekick",
+			"classSource": "UASidekicks",
+			"level": 19,
+			"entries": [
+				"At 19th level, you gain another Ability Score Improvement."
+			]
+		},
+		{
+			"name": "Extra Attack (3 extra)",
+			"source": "UASidekicks",
+			"page": 2,
+			"className": "Warrior Sidekick",
+			"classSource": "UASidekicks",
+			"level": 20,
+			"entries": [
+				"At 20th level, you gain another Extra Attack."
+			]
+		}
+	],
+	"variantrule": [
+		{
+			"name": "Sidekicks",
+			"source": "UASidekicks",
+			"page": 1,
+			"type": "section",
+			"entries": [
+				"This article gives you a straightforward way to play and level up a sidekick in Dungeons & Dragons. The rules presented here take a creature with a low challenge rating and give it levels as you gain levels.",
+				"On your adventures, you sometimes meet a townsperson, an animal, or another creature and forge a special relationship with them. That creature might even join you on your adventures, which usually sparks this question: how does this sidekick get better as you gain levels? As you become more powerful, the foes you face are likely to become too dangerous for Vera the {@creature guard}, Biscuit the {@creature mastiff}, or another companion you befriended in the early days of your adventuring career. This article answers the question, giving your sidekick a clear path of advancement.",
+				{
+					"type": "section",
+					"name": "Sidekick Stats",
+					"entries": [
+						"In these rules, a sidekick is a creature who is your friend and who accompanies you on adventures. It's essentially a second character you play. (The DM might decide to play it instead, or you could co-play it with other players at the table.)",
+						"The sidekick can be any type of creature with a stat block in the Monster Manual or another D&D book, but it must meet these prerequisites:",
+						{
+							"type": "list",
+							"items": [
+								"Its challenge rating must be {@filter 1 or lower|bestiary|challenge rating=[&0;&1]|miscellaneous=!swarm}. To gain the {@class expert sidekick|UASidekicks|expert} or {@class spellcaster sidekick|UASidekicks|spellcaster} class, the creature must have {@filter at least one language in its stat block that it can speak|bestiary|challenge rating=[&0;&1]|miscellaneous=!swarm|languages=ab;aq;au;c;ce;!cs;d;dr;ds;du;e;g;gi;go;gth;h;i;ig;o;oth;p;s;t;tc;tp;u;x;xx}.",
+								"The two of you must be friends."
+							]
+						},
+						{
+							"type": "inset",
+							"name": "Customization for Any CR",
+							"entries": [
+								"The Dungeon Master's Guide offers guidance on customizing a monster, including giving it levels in a class. That approach works with any monster in the game, but it can be complicated, since it requires the monster's challenge rating to be recalculated. The approach to sidekicks in this article focuses on giving levels to a low-CR creature without ever having to recalculate its CR."
+							]
+						}
+					]
+				},
+				{
+					"type": "section",
+					"name": "Gaining a Sidekick Class",
+					"entries": [
+						"When your sidekick joins you, it gains a sidekick class. Choose which class it will have for the rest of its career: {@class warrior sidekick|uasidekicks|warrior}, {@class expert sidekick|uasidekicks|expert}, or {@class spellcaster sidekick|uasidekicks|spellcaster}. They are reminiscent of the classes available to player characters but are simpler.",
+						"To gain the expert or the spellcaster class, a creature must have at least one language in its stat block that it can speak.",
+						{
+							"type": "entries",
+							"name": "Leveling Up a Sidekick",
+							"entries": [
+								"Whenever you gain a level, your sidekick also gains a level. It doesn't matter how much of your recent adventures the sidekick experienced; the sidekick levels up because of a combination of the adventures it shares with you and its own training."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Hit Points",
+							"entries": [
+								"Whenever the sidekick gains a level, it gains one Hit Die, and its hit point maximum increases. To determine the amount of the increase, roll the Hit Die (the type of die appears in the sidekick's stat block), and add its Constitution modifier. It gains a minimum of 1 hit point per level."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Proficiency Bonus",
+							"entries": [
+								"Once your companion has a sidekick class, the sidekick's proficiency bonus is determined by its level in that class, as shown in the class's table. Whenever the sidekick's proficiency bonus increases by 1, add 1 to the to-hit modifier of all the attacks in its stat block, and increase the DCs in its stat block by 1."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Ability Score Increases",
+							"entries": [
+								"Whenever the sidekick gains the Ability Score Improvement class feature, remember to adjust anything in its stat block that relies on an ability modifier that you increase with the feature. For example, if the sidekick has an attack that uses Strength, increase the attack's modifiers to hit and damage if the sidekick's Strength modifier increases.",
+								"If it's unclear whether a melee attack in the stat block uses Strength or Dexterity, the attack can use either."
+							]
+						},
+						{
+							"type": "inset",
+							"name": "Multiattack vs. Extra Attack",
+							"entries": [
+								"Your sidekick might have the Multiattack action in its stat block. If it does and it gains the Extra Attack class feature, remember that Extra Attack works with the {@action Attack} action, not the Multiattack action. In short, you can't use Extra Attack with Multiattack."
+							]
+						}
+					]
+				}
+			]
+		}
+	]
+}

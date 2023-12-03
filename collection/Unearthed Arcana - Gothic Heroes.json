@@ -1,0 +1,415 @@
+{
+	"_meta": {
+		"sources": [
+			{
+				"json": "UAGothicHeroes",
+				"abbreviation": "UAGH",
+				"full": "Unearthed Arcana: Gothic Heroes",
+				"authors": [
+					"Wizards of the Coast"
+				],
+				"convertedBy": [
+					"Giddy"
+				],
+				"version": "1.0.0",
+				"url": "https://media.dnd.wizards.com/upload/articles/UA%20Gothic%20Characters.pdf",
+				"dateReleased": "2016-04-04"
+			}
+		],
+		"dateAdded": 1701616429,
+		"dateLastModified": 1701616429,
+		"_dateLastModifiedHash": "aaaaaaaaaa"
+	},
+	"subclass": [
+		{
+			"name": "Inquisitive (UA)",
+			"shortName": "Inquisitive (UA)",
+			"source": "UAGothicHeroes",
+			"className": "Rogue",
+			"classSource": "PHB",
+			"page": 2,
+			"isReprinted": true,
+			"subclassFeatures": [
+				"Inquisitive|Rogue||Inquisitive (UA)|UAGothicHeroes|3",
+				"Steady Eye|Rogue||Inquisitive (UA)|UAGothicHeroes|9",
+				"Unerring Eye|Rogue||Inquisitive (UA)|UAGothicHeroes|13",
+				"Eye for Weakness|Rogue||Inquisitive (UA)|UAGothicHeroes|17"
+			]
+		},
+		{
+			"name": "Monster Hunter (UA)",
+			"shortName": "Monster Hunter (UA)",
+			"source": "UAGothicHeroes",
+			"className": "Fighter",
+			"classSource": "PHB",
+			"page": 2,
+			"spellcastingAbility": "wis",
+			"subclassFeatures": [
+				"Monster Hunter|Fighter||Monster Hunter (UA)|UAGothicHeroes|3",
+				"Monster Slayer|Fighter||Monster Hunter (UA)|UAGothicHeroes|7",
+				"Improved Combat Superiority|Fighter||Monster Hunter (UA)|UAGothicHeroes|10",
+				"Relentless|Fighter||Monster Hunter (UA)|UAGothicHeroes|15",
+				"Improved Combat Superiority|Fighter||Monster Hunter (UA)|UAGothicHeroes|18"
+			]
+		}
+	],
+	"subclassFeature": [
+		{
+			"name": "Monster Hunter",
+			"source": "UAGothicHeroes",
+			"page": 2,
+			"className": "Fighter",
+			"classSource": "PHB",
+			"subclassShortName": "Monster Hunter (UA)",
+			"subclassSource": "UAGothicHeroes",
+			"level": 3,
+			"entries": [
+				"As an archetypal Monster Hunter, you are an expert at defeating supernatural threats. Typically mentored by an older, experienced Monster Hunter, you learn to overcome a variety of unnatural defenses and attacks, including those of undead, lycanthropes, and other creatures of horror.",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Bonus Proficiencies|Fighter||Monster Hunter (UA)|UAGothicHeroes|3"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Combat Superiority|Fighter||Monster Hunter (UA)|UAGothicHeroes|3"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Hunter's Mysticism|Fighter||Monster Hunter (UA)|UAGothicHeroes|3"
+				}
+			]
+		},
+		{
+			"name": "Bonus Proficiencies",
+			"source": "UAGothicHeroes",
+			"page": 2,
+			"className": "Fighter",
+			"classSource": "PHB",
+			"subclassShortName": "Monster Hunter (UA)",
+			"subclassSource": "UAGothicHeroes",
+			"level": 3,
+			"header": 1,
+			"entries": [
+				"When you choose this archetype at 3rd level, you gain proficiency in two of the following skills of your choice: {@skill Arcana}, {@skill History}, {@skill Insight}, {@skill Investigation}, {@skill Nature}, or {@skill Perception}. You can choose to gain proficiency with {@item thieves' tools|phb} in place of one skill choice."
+			]
+		},
+		{
+			"name": "Combat Superiority",
+			"source": "UAGothicHeroes",
+			"page": 2,
+			"className": "Fighter",
+			"classSource": "PHB",
+			"subclassShortName": "Monster Hunter (UA)",
+			"subclassSource": "UAGothicHeroes",
+			"level": 3,
+			"header": 1,
+			"entries": [
+				"At 3rd level, you gain a set of abilities that are fueled by special dice called superiority dice.",
+				{
+					"type": "entries",
+					"entries": [
+						{
+							"type": "entries",
+							"name": "Superiority Dice",
+							"entries": [
+								"You have four superiority dice, which are {@dice d8}s. A superiority die is expended when you use it. You regain all of your expended superiority dice when you finish a long or short rest. You gain another superiority die at 7th level and one more at 15th level."
+							]
+						}
+					]
+				},
+				{
+					"type": "entries",
+					"entries": [
+						{
+							"type": "entries",
+							"name": "Using Superiority Dice",
+							"entries": [
+								"You can expend superiority dice to gain a number of different benefits:",
+								{
+									"type": "list",
+									"items": [
+										"When you make a weapon attack against a creature, you can expend one superiority die to add it to the attack roll. You can use this ability before or after making the attack roll, but before any of the effects of the attack are applied.",
+										"When you damage a creature with a weapon attack, you can expend one superiority die to add it to the damage roll. You can use this ability after rolling damage. If the attack causes the target to make a Constitution saving throw to maintain {@status concentration}, it has disadvantage on that save.",
+										"When you make an Intelligence, a Wisdom, or a Charisma saving throw, you can expend one superiority die to add it to the roll. You can use this feature only before you learn if the save succeeded or failed.",
+										"When you make a Wisdom ({@skill Perception}) check to detect a hidden creature or object, or a Wisdom ({@skill Insight}) check to determine if someone is lying to you, you can expend one superiority die to add it to the roll. You can use this feature after seeing the total but before learning if you succeeded or failed."
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Hunter's Mysticism",
+			"source": "UAGothicHeroes",
+			"page": 2,
+			"className": "Fighter",
+			"classSource": "PHB",
+			"subclassShortName": "Monster Hunter (UA)",
+			"subclassSource": "UAGothicHeroes",
+			"level": 3,
+			"header": 1,
+			"entries": [
+				"At 3rd level, your study of the supernatural gives you a limited ability to use magic. You can cast {@spell detect magic} as a ritual. You can cast {@spell protection from evil and good}, but you cannot cast it again with this feature until you finish a long rest. Wisdom is your spellcasting ability for these spells.",
+				"In addition, you gain the ability to speak one of the following languages of your choice: {@language Abyssal}, {@language Celestial}, or {@language Infernal}."
+			]
+		},
+		{
+			"name": "Monster Slayer",
+			"source": "UAGothicHeroes",
+			"page": 2,
+			"className": "Fighter",
+			"classSource": "PHB",
+			"subclassShortName": "Monster Hunter (UA)",
+			"subclassSource": "UAGothicHeroes",
+			"level": 7,
+			"header": 2,
+			"entries": [
+				"At 7th level, whenever you expend superiority dice to add to a damage roll, you can expend up to two dice instead of just one, adding both to the roll. Both dice are expended as normal. If the target of your attack is an aberration, a fey, a fiend, or an undead, you deal maximum damage with both dice, instead of rolling them."
+			]
+		},
+		{
+			"name": "Improved Combat Superiority",
+			"source": "UAGothicHeroes",
+			"page": 2,
+			"className": "Fighter",
+			"classSource": "PHB",
+			"subclassShortName": "Monster Hunter (UA)",
+			"subclassSource": "UAGothicHeroes",
+			"level": 10,
+			"header": 2,
+			"entries": [
+				"At 10th level, your superiority dice turn into {@dice d10}s. At 18th level, they turn into {@dice d12}s."
+			]
+		},
+		{
+			"name": "Relentless",
+			"source": "UAGothicHeroes",
+			"page": 2,
+			"className": "Fighter",
+			"classSource": "PHB",
+			"subclassShortName": "Monster Hunter (UA)",
+			"subclassSource": "UAGothicHeroes",
+			"level": 15,
+			"header": 2,
+			"entries": [
+				"Starting at 15th level, when you roll initiative and have no superiority dice remaining, you regain 1 superiority die."
+			]
+		},
+		{
+			"name": "Improved Combat Superiority",
+			"source": "UAGothicHeroes",
+			"page": 2,
+			"className": "Fighter",
+			"classSource": "PHB",
+			"subclassShortName": "Monster Hunter (UA)",
+			"subclassSource": "UAGothicHeroes",
+			"level": 18,
+			"header": 2,
+			"entries": [
+				"At 18th level, your superiority dice turn into {@dice d12}s."
+			]
+		},
+		{
+			"name": "Inquisitive",
+			"source": "UAGothicHeroes",
+			"page": 2,
+			"className": "Rogue",
+			"classSource": "PHB",
+			"subclassShortName": "Inquisitive (UA)",
+			"subclassSource": "UAGothicHeroes",
+			"level": 3,
+			"entries": [
+				"As an archetypal Inquisitive, you excel at rooting out secrets and unraveling mysteries. You rely on your sharp eye for details, but also on your finely honed ability to read the words and deeds of other creatures to determine their true intent. You excel at defeating creatures that hide among and prey upon ordinary folk, and your mastery of lore and your sharp eye make you well equipped to expose and end hidden evils.",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Ear for Deceit|Rogue||Inquisitive (UA)|UAGothicHeroes|3"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Eye for Detail|Rogue||Inquisitive (UA)|UAGothicHeroes|3"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Insightful Fighting|Rogue||Inquisitive (UA)|UAGothicHeroes|3"
+				}
+			]
+		},
+		{
+			"name": "Ear for Deceit",
+			"source": "UAGothicHeroes",
+			"page": 2,
+			"className": "Rogue",
+			"classSource": "PHB",
+			"subclassShortName": "Inquisitive (UA)",
+			"subclassSource": "UAGothicHeroes",
+			"level": 3,
+			"header": 1,
+			"entries": [
+				"When you choose this archetype at 3rd level, you develop a keen ear for picking out lies. Whenever you make a Wisdom ({@skill Insight}) check to sense if a creature is lying, you use the total of your check or 8 + your Wisdom modifier, whichever is higher. If you are proficient in {@skill Insight}, you add your proficiency bonus to the fixed result. If you chose {@skill Insight} as a skill augmented by your Expertise feature, add double your proficiency bonus."
+			]
+		},
+		{
+			"name": "Eye for Detail",
+			"source": "UAGothicHeroes",
+			"page": 2,
+			"className": "Rogue",
+			"classSource": "PHB",
+			"subclassShortName": "Inquisitive (UA)",
+			"subclassSource": "UAGothicHeroes",
+			"level": 3,
+			"header": 1,
+			"entries": [
+				"Starting at 3rd level, you can use the bonus action granted by your Cunning Action feature to make a Wisdom ({@skill Perception}) check to spot a hidden creature or object, to make an Intelligence ({@skill Investigation}) check to uncover and decipher clues, or to use Insightful Fighting."
+			]
+		},
+		{
+			"name": "Insightful Fighting",
+			"source": "UAGothicHeroes",
+			"page": 2,
+			"className": "Rogue",
+			"classSource": "PHB",
+			"subclassShortName": "Inquisitive (UA)",
+			"subclassSource": "UAGothicHeroes",
+			"level": 3,
+			"header": 1,
+			"entries": [
+				"At 3rd level, you gain the ability to decipher an opponent's tactics and develop a counter to them. As an action (or as a bonus action using Eye for Detail), you make a Wisdom ({@skill Insight}) check against a creature you can see that isn't {@condition incapacitated}, opposed by the target's Charisma ({@skill Deception}) check. If you succeed, you can use Sneak Attack against that creature even if you do not have advantage against it or if no enemy of the target is within 5 feet of it. You can use Sneak Attack in this way even if you have disadvantage against the target.",
+				"This benefit lasts for 1 minute or until you successfully use Insightful Fighting against a different target."
+			]
+		},
+		{
+			"name": "Steady Eye",
+			"source": "UAGothicHeroes",
+			"page": 2,
+			"className": "Rogue",
+			"classSource": "PHB",
+			"subclassShortName": "Inquisitive (UA)",
+			"subclassSource": "UAGothicHeroes",
+			"level": 9,
+			"header": 2,
+			"entries": [
+				"At 9th level, you gain advantage on any Wisdom ({@skill Perception}) check made on your turn to find a hidden creature or object if you do not move during that turn. If you use this ability before moving, you cannot move or ready movement during your turn."
+			]
+		},
+		{
+			"name": "Unerring Eye",
+			"source": "UAGothicHeroes",
+			"page": 2,
+			"className": "Rogue",
+			"classSource": "PHB",
+			"subclassShortName": "Inquisitive (UA)",
+			"subclassSource": "UAGothicHeroes",
+			"level": 13,
+			"header": 2,
+			"entries": [
+				"At 13th level, you gain the ability to detect magical deception. As an action, you sense the presence within 30 feet of you of illusions, shapechanger creatures not in their true form, and other magic designed to deceive the senses. Though you determine that an effect is attempting to trick you, you gain no special insight into what is hidden or its true nature."
+			]
+		},
+		{
+			"name": "Eye for Weakness",
+			"source": "UAGothicHeroes",
+			"page": 2,
+			"className": "Rogue",
+			"classSource": "PHB",
+			"subclassShortName": "Inquisitive (UA)",
+			"subclassSource": "UAGothicHeroes",
+			"level": 17,
+			"header": 2,
+			"entries": [
+				"At 17th level, you learn to exploit a creature's weaknesses by carefully studying its tactics and movement. While your Insightful Fighting feature applies to a creature, your Sneak Attack damage against that creature increases by {@dice 2d6}."
+			]
+		}
+	],
+	"race": [
+		{
+			"name": "Revenant",
+			"source": "UAGothicHeroes",
+			"page": 1,
+			"size": [
+				"V"
+			],
+			"speed": "Varies",
+			"ability": [
+				{
+					"con": 1
+				}
+			],
+			"resist": [
+				"necrotic"
+			],
+			"entries": [
+				{
+					"name": "Revenant Subrace",
+					"entries": [
+						"Having met a cruel and undeserved end, you have returned to the realm of the living. As a revenant, you thirst for revenge against those who wronged you in life, or seek to complete a final, critical task you left unfinished.",
+						"The revenant subrace can be applied to any race that has a subrace, and replaces that race's existing subrace options. Alternatively, you can apply this new subrace to a race without subrace options using the modification options provided below.",
+						"Your DM might also allow you to take this subrace for a slain character. In that case, your character rises from the dead with its original subrace replaced (or with the necessary modifications made to its base traits), filled with a determination to seek vengeance or complete its mission."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Racial Adjustments",
+					"entries": [
+						"For races that don't have subrace options, taking on the revenant subrace means making changes to your character's base traits, as follows. (This playtest article provides options only for human and dragonborn characters. Any other races which do not have subrace options should not be used with these revenant subrace rules.)",
+						{
+							"name": "Human Revenant",
+							"entries": [
+								"If you want to play a human revenant, modify the human's Ability Score Increase trait to the following: Two different ability scores of your choice increase by 1. If you use the variant human traits, remove the Skills trait and the Feat trait."
+							],
+							"type": "entries"
+						},
+						{
+							"name": "Dragonborn Revenant",
+							"entries": [
+								"If you want to play a dragonborn revenant, modify the dragonborn's Ability Score Increase trait to the following: Your Strength score increases by 1, and your Charisma score increases by 1. Additionally, your Draconic Ancestry trait uses necrotic damage as its damage type, replacing the damage type that applies to your breath weapon and your damage resistance."
+							],
+							"type": "entries"
+						},
+						{
+							"name": "Tiefling Revenant",
+							"entries": [
+								"A prior installment of Unearthed Arcana (That Old Black Magic) outlined two tiefling variants that make use of subraces. Use that article to make a tiefling revenant, replacing the subrace options with the revenant subrace options. The base tiefling traits from the article are as follows:",
+								{
+									"type": "list",
+									"style": "list-hang",
+									"items": [
+										{
+											"type": "item",
+											"name": "Ability Score Increase",
+											"entry": "Your Charisma score increases by 2."
+										},
+										{
+											"type": "item",
+											"name": "Languages",
+											"entry": "You can speak, read, and write Common."
+										}
+									]
+								}
+							],
+							"type": "entries"
+						}
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Relentless Nature",
+					"entries": [
+						"Your DM assigns a goal to you\u2014typically, one related to your character's death. The goal must be a specific task you can complete, such as slaying an enemy or liberating an area and its people. Until you fulfill that goal, you gain the following benefits:",
+						{
+							"type": "list",
+							"items": [
+								"If you are below half your hit point maximum at the start of your turn, you regain 1 hit point.",
+								"If you die, you return to life 24 hours after death. If your body is destroyed, you reform within 1 mile of the place of your death at a spot determined by the DM. If your equipment was also destroyed, you do not regain it.",
+								"You know the distance and direction between you and any creature involved in your goal, such as a person you seek vengeance against or someone you pledged to defend. This awareness fails if the creature is on another plane of existence."
+							]
+						},
+						"When your goal is complete, you finally find rest. You die and cannot be restored to life."
+					],
+					"type": "entries"
+				}
+			]
+		}
+	]
+}

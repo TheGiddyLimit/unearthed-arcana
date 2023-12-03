@@ -1,0 +1,414 @@
+{
+	"_meta": {
+		"sources": [
+			{
+				"json": "UABarbarianAndMonk",
+				"abbreviation": "UABAM",
+				"full": "Unearthed Arcana: Barbarian and Monk",
+				"authors": [
+					"Wizards of the Coast"
+				],
+				"convertedBy": [
+					"Giddy"
+				],
+				"version": "1.0.0",
+				"url": "https://media.wizards.com/2019/dnd/downloads/UA-WildAstral.pdf",
+				"dateReleased": "2019-08-15"
+			}
+		],
+		"dateAdded": 1701616429,
+		"dateLastModified": 1701616429,
+		"_dateLastModifiedHash": "aaaaaaaaaa"
+	},
+	"subclass": [
+		{
+			"name": "Path of the Wild Soul (UA)",
+			"shortName": "Wild Soul (UA)",
+			"source": "UABarbarianAndMonk",
+			"className": "Barbarian",
+			"classSource": "PHB",
+			"page": 1,
+			"isReprinted": true,
+			"subclassFeatures": [
+				"Path of the Wild Soul|Barbarian||Wild Soul (UA)|UABarbarianAndMonk|3",
+				"Magic Reserves|Barbarian||Wild Soul (UA)|UABarbarianAndMonk|6",
+				"Arcane Rebuke|Barbarian||Wild Soul (UA)|UABarbarianAndMonk|10",
+				"Chaotic Fury|Barbarian||Wild Soul (UA)|UABarbarianAndMonk|14",
+				"Improved Magic Reserves|Barbarian||Wild Soul (UA)|UABarbarianAndMonk|14"
+			]
+		},
+		{
+			"name": "Way of the Astral Self (UA)",
+			"shortName": "Astral Self (UA)",
+			"source": "UABarbarianAndMonk",
+			"className": "Monk",
+			"classSource": "PHB",
+			"page": 2,
+			"isReprinted": true,
+			"subclassFeatures": [
+				"Way of the Astral Self|Monk||Astral Self (UA)|UABarbarianAndMonk|3",
+				"Visage of the Astral Self|Monk||Astral Self (UA)|UABarbarianAndMonk|6",
+				"Awakening of the Astral Self|Monk||Astral Self (UA)|UABarbarianAndMonk|11",
+				"Improved Arms of the Astral Self|Monk||Astral Self (UA)|UABarbarianAndMonk|11",
+				"Complete Astral Self|Monk||Astral Self (UA)|UABarbarianAndMonk|17",
+				"Improved Arms of the Astral Self|Monk||Astral Self (UA)|UABarbarianAndMonk|17"
+			]
+		}
+	],
+	"subclassFeature": [
+		{
+			"name": "Path of the Wild Soul",
+			"source": "UABarbarianAndMonk",
+			"page": 1,
+			"className": "Barbarian",
+			"classSource": "PHB",
+			"subclassShortName": "Wild Soul (UA)",
+			"subclassSource": "UABarbarianAndMonk",
+			"level": 3,
+			"entries": [
+				"The realm of the Feywild abounds with beauty, unpredictable emotion, and rampant magic. A barbarian exposed to this realm feels emotions powerfully and magic saturates their body.",
+				"When a barbarian who follows this path rages, it is a bellowing roar for freedom, an explosion of expression, manifesting in unpredictable ways.",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Lingering Magic|Barbarian||Wild Soul (UA)|UABarbarianAndMonk|3"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Wild Surge|Barbarian||Wild Soul (UA)|UABarbarianAndMonk|3"
+				}
+			]
+		},
+		{
+			"name": "Lingering Magic",
+			"source": "UABarbarianAndMonk",
+			"page": 1,
+			"className": "Barbarian",
+			"classSource": "PHB",
+			"subclassShortName": "Wild Soul (UA)",
+			"subclassSource": "UABarbarianAndMonk",
+			"level": 3,
+			"header": 1,
+			"entries": [
+				"At 3rd level, your body reacts to the presence of magic. You can cast the {@spell detect magic} spell without using a spell slot or components. Constitution is your spellcasting ability for this spell. You faintly glow a color corresponding to the school of magic you detect (you choose the colors).",
+				"You can use this feature a number of times equal to your Constitution modifier (minimum of once). You regain all expended uses when you finish a long rest."
+			]
+		},
+		{
+			"name": "Wild Surge",
+			"source": "UABarbarianAndMonk",
+			"page": 1,
+			"className": "Barbarian",
+			"classSource": "PHB",
+			"subclassShortName": "Wild Soul (UA)",
+			"subclassSource": "UABarbarianAndMonk",
+			"level": 3,
+			"header": 1,
+			"entries": [
+				"Starting at 3rd level, magic erupts from you as you rage. When you enter your rage, roll on the Wild Surge table to determine the magical effect produced.",
+				"If the wild surge requires a saving throw, the DC equals 8 + your proficiency bonus + your Constitution modifier.",
+				{
+					"type": "table",
+					"caption": "Wild Surge",
+					"colLabels": [
+						"d8",
+						"Effect"
+					],
+					"colStyles": [
+						"col-1 text-center",
+						"col-11"
+					],
+					"rows": [
+						[
+							1,
+							"Necrotic energy bursts from you. Each creature within 30 feet of you takes {@damage 1d10} necrotic damage, and you gain temporary hit points equal to the sum of the necrotic damage dealt to the creatures."
+						],
+						[
+							2,
+							"You teleport up to 20 feet to an unoccupied space you can see. Until your rage ends, you can activate this effect again on each of your turns as a bonus action."
+						],
+						[
+							3,
+							"You conjure {@dice 1d4} intangible spirits that look like {@creature flumph||flumphs} in unoccupied spaces within 30 feet of you. Each spirit immediately flies 30 feet in a random direction. At the end of your turn, all spirits explode and each creature within 5 feet of one or more of them must succeed on a Dexterity saving throw or take {@damage 2d8} force damage."
+						],
+						[
+							4,
+							"Arcane energy enshrouds you. Until your rage ends, you gain a +2 bonus to AC, and whenever a creature within 10 feet of you hits you with an attack, that creature takes force damage equal to your Constitution modifier."
+						],
+						[
+							5,
+							"Plant life temporarily grows around you: until your rage ends, the ground within 10 feet of you is {@quickref difficult terrain||3}."
+						],
+						[
+							6,
+							"Arcane energy taps into the minds of those around you. Each creature within 30 feet of you must succeed on a Wisdom saving throw or you see a glimpse of the creature's thoughts, learning how it plans to attack you. As a result, the creature has disadvantage on attack rolls against you until the start of your next turn."
+						],
+						[
+							7,
+							"Shadows weave around a weapon of your choice you are holding. Until your rage ends, your weapon deals psychic damage instead of its bludgeoning, slashing, or piercing damage, and it gains the light and thrown properties with a normal range of 20 feet and a long range of 60 feet. If you drop the weapon or throw it, the weapon dissipates and reappears in your hand at the end of your turn."
+						],
+						[
+							8,
+							"A beam of brilliant light lances from your chest in a 5-foot-wide, 60-foot-long line. Each creature in the line must succeed on a Constitution saving throw or take {@damage 2d8} radiant damage and be {@condition blinded} until the start of your next turn."
+						]
+					]
+				}
+			]
+		},
+		{
+			"name": "Magic Reserves",
+			"source": "UABarbarianAndMonk",
+			"page": 1,
+			"className": "Barbarian",
+			"classSource": "PHB",
+			"subclassShortName": "Wild Soul (UA)",
+			"subclassSource": "UABarbarianAndMonk",
+			"level": 6,
+			"header": 2,
+			"entries": [
+				"At 6th level, you can channel the magic surging inside you into other creatures. As an action, you can touch a creature and roll a {@dice d4}. The creature recovers an expended spell slot of a level equal to the number rolled. If the creature you touch can't recover a spell slot of that level, the creature instead gains temporary hit points equal to five times the number rolled.",
+				"You take force damage equal to five times the number rolled.",
+				"When you reach 14th level in this class, you increase the die to a {@dice d6}."
+			]
+		},
+		{
+			"name": "Arcane Rebuke",
+			"source": "UABarbarianAndMonk",
+			"page": 1,
+			"className": "Barbarian",
+			"classSource": "PHB",
+			"subclassShortName": "Wild Soul (UA)",
+			"subclassSource": "UABarbarianAndMonk",
+			"level": 10,
+			"header": 2,
+			"entries": [
+				"At 10th level, the magic crackling within your soul lashes out. When a creature forces you to make a saving throw while you are raging, you can use your reaction to deal {@damage 3d6} force damage to that creature."
+			]
+		},
+		{
+			"name": "Chaotic Fury",
+			"source": "UABarbarianAndMonk",
+			"page": 1,
+			"className": "Barbarian",
+			"classSource": "PHB",
+			"subclassShortName": "Wild Soul (UA)",
+			"subclassSource": "UABarbarianAndMonk",
+			"level": 14,
+			"header": 2,
+			"entries": [
+				"At 14th level, you become a wellspring of wild magic while you are raging. As a bonus action, you can reroll on the Wild Surge table, replacing your current effect with the new one."
+			]
+		},
+		{
+			"name": "Improved Magic Reserves",
+			"source": "UABarbarianAndMonk",
+			"page": 1,
+			"className": "Barbarian",
+			"classSource": "PHB",
+			"subclassShortName": "Wild Soul (UA)",
+			"subclassSource": "UABarbarianAndMonk",
+			"level": 14,
+			"header": 2,
+			"entries": [
+				"At 14th level, you increase your magic reserves die to a {@dice d6}."
+			]
+		},
+		{
+			"name": "Way of the Astral Self",
+			"source": "UABarbarianAndMonk",
+			"page": 2,
+			"className": "Monk",
+			"classSource": "PHB",
+			"subclassShortName": "Astral Self (UA)",
+			"subclassSource": "UABarbarianAndMonk",
+			"level": 3,
+			"entries": [
+				"Monks of the Way of the Astral Self have an internal struggle with their ki. They see their mystical energy as a representation of their true form, an astral self. This form has the capacity to be a force of good or destruction, with some monasteries training students to either temper their nature or embrace their impulses.",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Forms of Your Astral Self|Monk||Astral Self (UA)|UABarbarianAndMonk|3"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Arms of the Astral Self|Monk||Astral Self (UA)|UABarbarianAndMonk|3"
+				}
+			]
+		},
+		{
+			"name": "Arms of the Astral Self",
+			"source": "UABarbarianAndMonk",
+			"page": 2,
+			"className": "Monk",
+			"classSource": "PHB",
+			"subclassShortName": "Astral Self (UA)",
+			"subclassSource": "UABarbarianAndMonk",
+			"level": 3,
+			"header": 1,
+			"consumes": {
+				"name": "Ki",
+				"amount": 2
+			},
+			"entries": [
+				"At 3rd level, your mastery of your ki allows you to summon a portion of your astral self. On your turn, you can spend 2 ki points as a bonus action to summon the arms of your astral self for 10 minutes. These spectral arms hover near your shoulders. You determine the arms' appearance based on the qualities of your character.",
+				"While your astral arms are summoned, you gain the following benefits:",
+				{
+					"type": "list",
+					"items": [
+						"You can use your Wisdom modifier in place of your Strength modifier when making Strength checks and Strength saving throws.",
+						"The arms are monk weapons and have a reach of 10 feet. The arms deal radiant or necrotic damage (your choice). When you attack with the arms, you can use your Wisdom modifier instead of your Strength or Dexterity modifier for the attack and damage rolls.",
+						"Immediately after you use the {@action Attack} action with your astral arms on your turn, you can make one extra attack with your astral arms as a bonus action. The number of extra attacks increases when you reach certain levels in this class, increasing to two at 11th level and three at 17th level."
+					]
+				}
+			]
+		},
+		{
+			"name": "Forms of Your Astral Self",
+			"source": "UABarbarianAndMonk",
+			"page": 2,
+			"className": "Monk",
+			"classSource": "PHB",
+			"subclassShortName": "Astral Self (UA)",
+			"subclassSource": "UABarbarianAndMonk",
+			"level": 3,
+			"header": 1,
+			"type": "inset",
+			"entries": [
+				"The astral self is a translucent embodiment of the monk's psyche and soul. As a result, the form of an astral self reflects the mind of the monk who manifests it. Your astral self could be a humanoid knight with a helmeted face and large, muscular arms, or it could be a golden metallic form with thin arms like a modron.",
+				"When choosing this path, consider the quirks that define your monk. Are they obsessed with something? Are you driven by justice or a selfish desire? Any of these motivations could manifest in the form of your astral self."
+			]
+		},
+		{
+			"name": "Visage of the Astral Self",
+			"source": "UABarbarianAndMonk",
+			"page": 2,
+			"className": "Monk",
+			"classSource": "PHB",
+			"subclassShortName": "Astral Self (UA)",
+			"subclassSource": "UABarbarianAndMonk",
+			"level": 6,
+			"header": 2,
+			"consumes": {
+				"name": "Ki"
+			},
+			"entries": [
+				"Starting at 6th level, you can summon the visage of your astral self. On your turn, you can spend 1 ki point as a bonus action, or as part of summoning your astral arms, to summon this visage for 10 minutes. The spectral visage covers your face like a helmet or mask. You determine its appearance based on the qualities of your character.",
+				"While your visage is summoned, you gain the following benefits.",
+				{
+					"type": "entries",
+					"name": "Wisdom of the Spirit",
+					"entries": [
+						"You have advantage on Wisdom ({@skill Insight}) and Charisma ({@skill Intimidation}) checks."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Astral Sight",
+					"entries": [
+						"You can see normally in darkness, both magical and nonmagical, to a distance of 120 feet."
+					]
+				}
+			]
+		},
+		{
+			"name": "Awakening of the Astral Self",
+			"source": "UABarbarianAndMonk",
+			"page": 2,
+			"className": "Monk",
+			"classSource": "PHB",
+			"subclassShortName": "Astral Self (UA)",
+			"subclassSource": "UABarbarianAndMonk",
+			"level": 11,
+			"header": 2,
+			"entries": [
+				"Starting at 11th level, you tap into the greater power of your astral self. While you have both your astral arms and visage summoned, you gain the following benefits.",
+				{
+					"type": "entries",
+					"name": "Deflect Energy",
+					"entries": [
+						"When you take acid, cold, fire, lightning, or force damage, you can use your reaction to deflect it. When you do so, the damage you take is reduced by {@dice 1d10} + your Wisdom modifier + your monk level."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Empowered Arms",
+					"entries": [
+						"Once on each of your turns when you hit a target with your astral arms, you can deal extra damage to the target equal to your Martial Arts die."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Word of the Spirit",
+					"entries": [
+						"When you speak through your visage, you can direct your words to a creature of your choice that you can see within 30 feet of you, making it so only that creature can hear you. Alternatively, you can amplify your voice so that all creatures within 600 feet can hear you."
+					]
+				}
+			]
+		},
+		{
+			"name": "Improved Arms of the Astral Self",
+			"source": "UABarbarianAndMonk",
+			"page": 2,
+			"className": "Monk",
+			"classSource": "PHB",
+			"subclassShortName": "Astral Self (UA)",
+			"subclassSource": "UABarbarianAndMonk",
+			"level": 11,
+			"header": 2,
+			"entries": [
+				"At 11th level, you make two extra attacks instead of one when you attack with your astral arms as a bonus action."
+			]
+		},
+		{
+			"name": "Complete Astral Self",
+			"source": "UABarbarianAndMonk",
+			"page": 2,
+			"className": "Monk",
+			"classSource": "PHB",
+			"subclassShortName": "Astral Self (UA)",
+			"subclassSource": "UABarbarianAndMonk",
+			"level": 17,
+			"header": 2,
+			"consumes": {
+				"name": "Ki",
+				"amount": 10
+			},
+			"entries": [
+				"Starting at 17th level, your connection to your astral self is complete, allowing you summon it entirely. On your turn, you can spend 10 ki points as a bonus action to summon the arms, visage, and body of your astral self for 10 minutes. This spectral body covers your physical form like a suit of armor, connecting with the arms and visage. You determine its appearance based on the qualities of your character. While your astral self is summoned, you gain the following benefits.",
+				{
+					"type": "entries",
+					"name": "Armor of the Spirit",
+					"entries": [
+						"You gain a +2 bonus to AC while you aren't {@condition incapacitated}."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Astral Barrage",
+					"entries": [
+						"Whenever you use the Extra Attack feature to attack twice, you can instead attack three times using your astral arms."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Ki Consumption",
+					"entries": [
+						"When a creature within 10 feet of you is reduced to 0 hit points, you can use your reaction to regain ki points equal to your Wisdom modifier (minimum 1)."
+					]
+				}
+			]
+		},
+		{
+			"name": "Improved Arms of the Astral Self",
+			"source": "UABarbarianAndMonk",
+			"page": 2,
+			"className": "Monk",
+			"classSource": "PHB",
+			"subclassShortName": "Astral Self (UA)",
+			"subclassSource": "UABarbarianAndMonk",
+			"level": 17,
+			"header": 2,
+			"entries": [
+				"At 17th level, you make three extra attacks instead of one when you attack with your astral arms as a bonus action."
+			]
+		}
+	]
+}
