@@ -7614,14 +7614,6 @@
 			]
 		},
 		{
-			"name": "Blindsight",
-			"source": "XUA2023PlayersHandbookP5",
-			"page": 44,
-			"entries": [
-				"If you have Blindsight, you can see within a specific range without relying on physical sight. Within that range, you can effectively see anything that isn't behind Total Cover, even if you have the Blinded condition or are in Darkness. Moreover, in that range, you can effectively see a creature that has {@condition Invisible|XUA2023PlayersHandbookP5} condition."
-			]
-		},
-		{
 			"name": "Climb Speed",
 			"source": "XUA2023PlayersHandbookP5",
 			"page": 44,
@@ -9407,64 +9399,6 @@
 			]
 		},
 		{
-			"name": "Tremorsense",
-			"source": "XUA2023PlayersHandbookP5",
-			"page": 50,
-			"entries": [
-				"A creature with Tremorsense can pinpoint the location of creatures and moving objects within a specific range, provided that the creature with Tremorsense and anything it's detecting are both in contact with the same surface (such as the ground, a wall, or a ceiling) or the same liquid.",
-				"Tremorsense can't detect creatures or objects in the air, and Tremorsense doesn't count as a form of sight."
-			]
-		},
-		{
-			"name": "Truesight",
-			"source": "XUA2023PlayersHandbookP5",
-			"page": 50,
-			"entries": [
-				"A creature with Truesight has enhanced vision within a specified range. Within that range, the creature's vision pierces through the following:",
-				{
-					"type": "list",
-					"style": "list-hang-notitle",
-					"items": [
-						{
-							"type": "item",
-							"name": "Darkness",
-							"entries": [
-								"The creature can see in normal and magical darkness."
-							]
-						},
-						{
-							"type": "item",
-							"name": "Invisibility",
-							"entries": [
-								"The creature can see creatures that have the {@condition Invisible|XUA2023PlayersHandbookP5} condition and objects that are obscured by magic."
-							]
-						},
-						{
-							"type": "item",
-							"name": "Visual Illusions",
-							"entries": [
-								"The creature notices visual illusions and automatically succeeds on saving throws against them."
-							]
-						},
-						{
-							"type": "item",
-							"name": "Transformations",
-							"entries": [
-								"The creature discerns the true form of any creature or object it sees that has been transformed by magic."
-							]
-						},
-						{
-							"type": "item",
-							"name": "Ethereal Plane",
-							"entries": [
-								"The creature can see into the Ethereal Plane."
-							]
-						}
-					]
-				}
-			]
-		},
-		{
 			"name": "Unarmed Strike",
 			"source": "XUA2023PlayersHandbookP5",
 			"page": 50,
@@ -10389,6 +10323,74 @@
 							"{@skill Religion}",
 							"Deities, religious hierarchies and rites, holy symbols, cults, and certain creatures (Celestials, Fiends, and Undead)"
 						]
+					]
+				}
+			]
+		}
+	],
+	"sense": [
+		{
+			"name": "Blindsight",
+			"source": "XUA2023PlayersHandbookP5",
+			"page": 44,
+			"entries": [
+				"If you have Blindsight, you can see within a specific range without relying on physical sight. Within that range, you can effectively see anything that isn't behind Total Cover, even if you have the Blinded condition or are in Darkness. Moreover, in that range, you can effectively see a creature that has {@condition Invisible|XUA2023PlayersHandbookP5} condition."
+			]
+		},
+		{
+			"name": "Tremorsense",
+			"source": "XUA2023PlayersHandbookP5",
+			"page": 50,
+			"entries": [
+				"A creature with Tremorsense can pinpoint the location of creatures and moving objects within a specific range, provided that the creature with Tremorsense and anything it's detecting are both in contact with the same surface (such as the ground, a wall, or a ceiling) or the same liquid.",
+				"Tremorsense can't detect creatures or objects in the air, and Tremorsense doesn't count as a form of sight."
+			]
+		},
+		{
+			"name": "Truesight",
+			"source": "XUA2023PlayersHandbookP5",
+			"page": 50,
+			"entries": [
+				"A creature with Truesight has enhanced vision within a specified range. Within that range, the creature's vision pierces through the following:",
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"items": [
+						{
+							"type": "item",
+							"name": "Darkness",
+							"entries": [
+								"The creature can see in normal and magical darkness."
+							]
+						},
+						{
+							"type": "item",
+							"name": "Invisibility",
+							"entries": [
+								"The creature can see creatures that have the {@condition Invisible|XUA2023PlayersHandbookP5} condition and objects that are obscured by magic."
+							]
+						},
+						{
+							"type": "item",
+							"name": "Visual Illusions",
+							"entries": [
+								"The creature notices visual illusions and automatically succeeds on saving throws against them."
+							]
+						},
+						{
+							"type": "item",
+							"name": "Transformations",
+							"entries": [
+								"The creature discerns the true form of any creature or object it sees that has been transformed by magic."
+							]
+						},
+						{
+							"type": "item",
+							"name": "Ethereal Plane",
+							"entries": [
+								"The creature can see into the Ethereal Plane."
+							]
+						}
 					]
 				}
 			]

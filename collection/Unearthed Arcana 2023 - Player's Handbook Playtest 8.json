@@ -19,7 +19,15 @@
 		],
 		"dateAdded": 1701114642,
 		"dateLastModified": 1701618486,
-		"_dateLastModifiedHash": "be9dfe53b8"
+		"_dateLastModifiedHash": "be9dfe53b8",
+		"dependencies": {
+			"subclass": [
+				"XUA2023PlayersHandbookP7",
+				"XUA2023PlayersHandbookP6",
+				"druid",
+				"monk"
+			]
+		}
 	},
 	"class": [
 		{
@@ -1305,6 +1313,21 @@
 	],
 	"subclass": [
 		{
+			"name": "Circle of the Land",
+			"shortName": "Land",
+			"source": "XUA2023PlayersHandbookP8",
+			"className": "Druid",
+			"classSource": "XUA2023PlayersHandbookP8",
+			"page": 11,
+			"_copy": {
+				"name": "Circle of the Land",
+				"shortName": "Land",
+				"source": "XUA2023PlayersHandbookP6",
+				"className": "Druid",
+				"classSource": "XUA2023PlayersHandbookP6"
+			}
+		},
+		{
 			"name": "Circle of the Moon",
 			"shortName": "Moon",
 			"source": "XUA2023PlayersHandbookP8",
@@ -1339,6 +1362,66 @@
 			]
 		},
 		{
+			"name": "Circle of the Sea",
+			"shortName": "Sea",
+			"source": "XUA2023PlayersHandbookP8",
+			"className": "Druid",
+			"classSource": "XUA2023PlayersHandbookP8",
+			"page": 11,
+			"_copy": {
+				"name": "Circle of the Sea",
+				"shortName": "Sea",
+				"source": "XUA2023PlayersHandbookP6",
+				"className": "Druid",
+				"classSource": "XUA2023PlayersHandbookP6"
+			}
+		},
+		{
+			"name": "Circle of the Stars",
+			"shortName": "Stars",
+			"source": "XUA2023PlayersHandbookP8",
+			"className": "Druid",
+			"classSource": "XUA2023PlayersHandbookP8",
+			"page": 11,
+			"_copy": {
+				"name": "Circle of Stars",
+				"shortName": "Stars",
+				"source": "TCE",
+				"className": "Druid",
+				"classSource": "PHB"
+			}
+		},
+		{
+			"name": "Path of the Berserker",
+			"shortName": "Berserker",
+			"source": "XUA2023PlayersHandbookP8",
+			"className": "Barbarian",
+			"classSource": "XUA2023PlayersHandbookP8",
+			"page": 5,
+			"_copy": {
+				"name": "Path of the Berserker",
+				"shortName": "Berserker",
+				"source": "XUA2023PlayersHandbookP7",
+				"className": "Barbarian",
+				"classSource": "XUA2023PlayersHandbookP7"
+			}
+		},
+		{
+			"name": "Path of the Wild Heart",
+			"shortName": "Wild Heart",
+			"source": "XUA2023PlayersHandbookP8",
+			"className": "Barbarian",
+			"classSource": "XUA2023PlayersHandbookP8",
+			"page": 5,
+			"_copy": {
+				"name": "Path of the Wild Heart",
+				"shortName": "Wild Heart",
+				"source": "XUA2023PlayersHandbookP7",
+				"className": "Barbarian",
+				"classSource": "XUA2023PlayersHandbookP7"
+			}
+		},
+		{
 			"name": "Path of the World Tree",
 			"shortName": "World Tree",
 			"source": "XUA2023PlayersHandbookP8",
@@ -1351,6 +1434,66 @@
 				"Battering Roots|Barbarian|XUA2023PlayersHandbookP8|World Tree|XUA2023PlayersHandbookP8|10",
 				"Travel Along the Tree|Barbarian|XUA2023PlayersHandbookP8|World Tree|XUA2023PlayersHandbookP8|14"
 			]
+		},
+		{
+			"name": "Path of the Zealot",
+			"shortName": "Zealot",
+			"source": "XUA2023PlayersHandbookP8",
+			"className": "Barbarian",
+			"classSource": "XUA2023PlayersHandbookP8",
+			"page": 5,
+			"_copy": {
+				"name": "Path of the Zealot",
+				"shortName": "Zealot",
+				"source": "XUA2023PlayersHandbookP7",
+				"className": "Barbarian",
+				"classSource": "XUA2023PlayersHandbookP7"
+			}
+		},
+		{
+			"name": "Warrior of Mercy",
+			"shortName": "Mercy",
+			"source": "XUA2023PlayersHandbookP8",
+			"className": "Monk",
+			"classSource": "XUA2023PlayersHandbookP8",
+			"page": 17,
+			"_copy": {
+				"name": "Way of Mercy",
+				"shortName": "Mercy",
+				"source": "TCE",
+				"className": "Monk",
+				"classSource": "PHB"
+			}
+		},
+		{
+			"name": "Warrior of Shadow",
+			"shortName": "Shadow",
+			"source": "XUA2023PlayersHandbookP8",
+			"className": "Monk",
+			"classSource": "XUA2023PlayersHandbookP8",
+			"page": 5,
+			"_copy": {
+				"name": "Warrior of Shadow",
+				"shortName": "Shadow",
+				"source": "XUA2023PlayersHandbookP6",
+				"className": "Monk",
+				"classSource": "XUA2023PlayersHandbookP6"
+			}
+		},
+		{
+			"name": "Warrior of the Four Elements",
+			"shortName": "Four Elements",
+			"source": "XUA2023PlayersHandbookP8",
+			"className": "Monk",
+			"classSource": "XUA2023PlayersHandbookP8",
+			"page": 5,
+			"_copy": {
+				"name": "Warrior of the Elements",
+				"shortName": "Elements",
+				"source": "XUA2023PlayersHandbookP6",
+				"className": "Monk",
+				"classSource": "XUA2023PlayersHandbookP6"
+			}
 		},
 		{
 			"name": "Warrior of the Hand",
