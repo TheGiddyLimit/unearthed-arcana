@@ -922,7 +922,10 @@
 					]
 				}
 			],
-			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/unearthed-arcana/master/_img/tokens/UA2020SubclassesPt2/Dancing Item.webp",
+			"tokenHref": {
+				"type": "external",
+				"url": "https://raw.githubusercontent.com/TheGiddyLimit/unearthed-arcana/master/_img/UA2020SubclassesPt2/tokens/Dancing Item.webp"
+			},
 			"traitTags": [
 				"Immutable Form"
 			],

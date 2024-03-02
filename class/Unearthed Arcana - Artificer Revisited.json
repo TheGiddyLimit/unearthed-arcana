@@ -2532,7 +2532,10 @@
 					]
 				}
 			],
-			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/unearthed-arcana/master/_img/tokens/UAArtificerRevisited/Alchemical Homunculus.webp",
+			"tokenHref": {
+				"type": "external",
+				"url": "https://raw.githubusercontent.com/TheGiddyLimit/unearthed-arcana/master/_img/UAArtificerRevisited/tokens/Alchemical Homunculus.webp"
+			},
 			"senseTags": [
 				"D"
 			],
@@ -2629,7 +2632,10 @@
 					]
 				}
 			],
-			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/unearthed-arcana/master/_img/tokens/UAArtificerRevisited/Iron Defender.webp",
+			"tokenHref": {
+				"type": "external",
+				"url": "https://raw.githubusercontent.com/TheGiddyLimit/unearthed-arcana/master/_img/UAArtificerRevisited/tokens/Iron Defender.webp"
+			},
 			"senseTags": [
 				"D"
 			],

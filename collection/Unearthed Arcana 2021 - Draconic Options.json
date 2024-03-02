@@ -1111,7 +1111,10 @@
 					]
 				}
 			],
-			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/unearthed-arcana/master/_img/tokens/UA2021DraconicOptions/Draconic Spirit.webp",
+			"tokenHref": {
+				"type": "external",
+				"url": "https://raw.githubusercontent.com/TheGiddyLimit/unearthed-arcana/master/_img/UA2021DraconicOptions/tokens/Draconic Spirit.webp"
+			},
 			"senseTags": [
 				"B",
 				"D"

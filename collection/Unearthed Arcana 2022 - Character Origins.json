@@ -2191,7 +2191,7 @@
 			},
 			"_versions": [
 				{
-					"_template": {
+					"_abstract": {
 						"name": "Dragonborn; {{color}}",
 						"source": "XUA2022CharacterOptions",
 						"_mod": {

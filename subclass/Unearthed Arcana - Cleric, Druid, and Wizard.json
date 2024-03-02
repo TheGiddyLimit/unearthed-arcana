@@ -866,7 +866,10 @@
 					]
 				}
 			],
-			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/unearthed-arcana/master/_img/tokens/UAClericDruidWizard/Wildfire Spirit.webp",
+			"tokenHref": {
+				"type": "external",
+				"url": "https://raw.githubusercontent.com/TheGiddyLimit/unearthed-arcana/master/_img/UAClericDruidWizard/tokens/Wildfire Spirit.webp"
+			},
 			"senseTags": [
 				"D"
 			],

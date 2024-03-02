@@ -2658,7 +2658,10 @@
 					]
 				}
 			],
-			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/unearthed-arcana/master/_img/tokens/UA2022WondersOfTheMultiverse/Reaper Spirit.webp",
+			"tokenHref": {
+				"type": "external",
+				"url": "https://raw.githubusercontent.com/TheGiddyLimit/unearthed-arcana/master/_img/UA2022WondersOfTheMultiverse/tokens/Reaper Spirit.webp"
+			},
 			"traitTags": [
 				"Incorporeal Movement"
 			],
@@ -2763,7 +2766,10 @@
 					]
 				}
 			],
-			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/unearthed-arcana/master/_img/tokens/UA2022WondersOfTheMultiverse/Warrior Spirit.webp",
+			"tokenHref": {
+				"type": "external",
+				"url": "https://raw.githubusercontent.com/TheGiddyLimit/unearthed-arcana/master/_img/UA2022WondersOfTheMultiverse/tokens/Warrior Spirit.webp"
+			},
 			"actionTags": [
 				"Multiattack"
 			],

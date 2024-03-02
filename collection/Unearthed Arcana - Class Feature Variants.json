@@ -3266,7 +3266,10 @@
 					]
 				}
 			],
-			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/unearthed-arcana/master/_img/tokens/UAClassFeatureVariants/Beast of the Air.webp",
+			"tokenHref": {
+				"type": "external",
+				"url": "https://raw.githubusercontent.com/TheGiddyLimit/unearthed-arcana/master/_img/UAClassFeatureVariants/tokens/Beast of the Air.webp"
+			},
 			"traitTags": [
 				"Flyby"
 			],
@@ -3359,7 +3362,10 @@
 					]
 				}
 			],
-			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/unearthed-arcana/master/_img/tokens/UAClassFeatureVariants/Beast of the Earth.webp",
+			"tokenHref": {
+				"type": "external",
+				"url": "https://raw.githubusercontent.com/TheGiddyLimit/unearthed-arcana/master/_img/UAClassFeatureVariants/tokens/Beast of the Earth.webp"
+			},
 			"attachedItems": [
 				"maul|phb"
 			],

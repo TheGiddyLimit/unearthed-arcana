@@ -1304,7 +1304,10 @@
 					]
 				}
 			],
-			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/unearthed-arcana/master/_img/tokens/UA2021MagesOfStrixhaven/Ancient Companion.webp",
+			"tokenHref": {
+				"type": "external",
+				"url": "https://raw.githubusercontent.com/TheGiddyLimit/unearthed-arcana/master/_img/UA2021MagesOfStrixhaven/tokens/Ancient Companion.webp"
+			},
 			"miscTags": [
 				"MW"
 			]

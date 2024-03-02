@@ -1377,7 +1377,10 @@
 					]
 				}
 			],
-			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/unearthed-arcana/master/_img/tokens/UA2020SpellsAndMagicTattoos/Aberrant Spirit.webp",
+			"tokenHref": {
+				"type": "external",
+				"url": "https://raw.githubusercontent.com/TheGiddyLimit/unearthed-arcana/master/_img/UA2020SpellsAndMagicTattoos/tokens/Aberrant Spirit.webp"
+			},
 			"traitTags": [
 				"Regeneration"
 			],
@@ -1481,7 +1484,10 @@
 					]
 				}
 			],
-			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/unearthed-arcana/master/_img/tokens/UA2020SpellsAndMagicTattoos/Bestial Spirit.webp",
+			"tokenHref": {
+				"type": "external",
+				"url": "https://raw.githubusercontent.com/TheGiddyLimit/unearthed-arcana/master/_img/UA2020SpellsAndMagicTattoos/tokens/Bestial Spirit.webp"
+			},
 			"attachedItems": [
 				"maul|phb"
 			],
@@ -1577,7 +1583,10 @@
 					]
 				}
 			],
-			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/unearthed-arcana/master/_img/tokens/UA2020SpellsAndMagicTattoos/Celestial Spirit.webp",
+			"tokenHref": {
+				"type": "external",
+				"url": "https://raw.githubusercontent.com/TheGiddyLimit/unearthed-arcana/master/_img/UA2020SpellsAndMagicTattoos/tokens/Celestial Spirit.webp"
+			},
 			"senseTags": [
 				"D"
 			],
@@ -1707,7 +1716,10 @@
 					]
 				}
 			],
-			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/unearthed-arcana/master/_img/tokens/UA2020SpellsAndMagicTattoos/Elemental Spirit.webp",
+			"tokenHref": {
+				"type": "external",
+				"url": "https://raw.githubusercontent.com/TheGiddyLimit/unearthed-arcana/master/_img/UA2020SpellsAndMagicTattoos/tokens/Elemental Spirit.webp"
+			},
 			"traitTags": [
 				"Amorphous"
 			],
@@ -1810,7 +1822,10 @@
 					]
 				}
 			],
-			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/unearthed-arcana/master/_img/tokens/UA2020SpellsAndMagicTattoos/Fey Spirit.webp",
+			"tokenHref": {
+				"type": "external",
+				"url": "https://raw.githubusercontent.com/TheGiddyLimit/unearthed-arcana/master/_img/UA2020SpellsAndMagicTattoos/tokens/Fey Spirit.webp"
+			},
 			"attachedItems": [
 				"shortsword|phb"
 			],
@@ -1958,7 +1973,10 @@
 					]
 				}
 			],
-			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/unearthed-arcana/master/_img/tokens/UA2020SpellsAndMagicTattoos/Fiendish Spirit.webp",
+			"tokenHref": {
+				"type": "external",
+				"url": "https://raw.githubusercontent.com/TheGiddyLimit/unearthed-arcana/master/_img/UA2020SpellsAndMagicTattoos/tokens/Fiendish Spirit.webp"
+			},
 			"traitTags": [
 				"Death Burst",
 				"Devil's Sight",
@@ -2069,7 +2087,10 @@
 					]
 				}
 			],
-			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/unearthed-arcana/master/_img/tokens/UA2020SpellsAndMagicTattoos/Shadow Spirit.webp",
+			"tokenHref": {
+				"type": "external",
+				"url": "https://raw.githubusercontent.com/TheGiddyLimit/unearthed-arcana/master/_img/UA2020SpellsAndMagicTattoos/tokens/Shadow Spirit.webp"
+			},
 			"senseTags": [
 				"SD"
 			],
@@ -2183,7 +2204,10 @@
 					]
 				}
 			],
-			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/unearthed-arcana/master/_img/tokens/UA2020SpellsAndMagicTattoos/Undead Spirit.webp",
+			"tokenHref": {
+				"type": "external",
+				"url": "https://raw.githubusercontent.com/TheGiddyLimit/unearthed-arcana/master/_img/UA2020SpellsAndMagicTattoos/tokens/Undead Spirit.webp"
+			},
 			"traitTags": [
 				"Incorporeal Movement"
 			],

@@ -2,7 +2,7 @@
 	"_meta": {
 		"sources": [
 			{
-				"json": "UAWGE",
+				"json": "UAWayfindersGuideToEberron",
 				"abbreviation": "WGE",
 				"full": "Wayfinder's Guide to Eberron",
 				"authors": [
@@ -23,7 +23,7 @@
 	"subrace": [
 		{
 			"name": "High; Aereni",
-			"source": "UAWGE",
+			"source": "UAWayfindersGuideToEberron",
 			"raceName": "Elf",
 			"raceSource": "PHB",
 			"page": 73,
@@ -89,7 +89,7 @@
 		},
 		{
 			"name": "High; Valenar",
-			"source": "UAWGE",
+			"source": "UAWayfindersGuideToEberron",
 			"raceName": "Elf",
 			"raceSource": "PHB",
 			"page": 73,
@@ -147,7 +147,7 @@
 		},
 		{
 			"name": "Wood; Aereni",
-			"source": "UAWGE",
+			"source": "UAWayfindersGuideToEberron",
 			"raceName": "Elf",
 			"raceSource": "PHB",
 			"page": 73,
@@ -183,7 +183,7 @@
 		},
 		{
 			"name": "Wood; Valenar",
-			"source": "UAWGE",
+			"source": "UAWayfindersGuideToEberron",
 			"raceName": "Elf",
 			"raceSource": "PHB",
 			"page": 73,
@@ -229,7 +229,7 @@
 	"item": [
 		{
 			"name": "Bag of Bounty",
-			"source": "UAWGE",
+			"source": "UAWayfindersGuideToEberron",
 			"page": 116,
 			"rarity": "uncommon",
 			"wondrous": true,
@@ -273,7 +273,7 @@
 		},
 		{
 			"name": "Band of Loyalty",
-			"source": "UAWGE",
+			"source": "UAWayfindersGuideToEberron",
 			"page": 115,
 			"type": "RG",
 			"rarity": "common",
@@ -284,7 +284,7 @@
 		},
 		{
 			"name": "Rings of Shared Suffering",
-			"source": "UAWGE",
+			"source": "UAWayfindersGuideToEberron",
 			"page": 117,
 			"type": "RG",
 			"rarity": "uncommon",
@@ -297,7 +297,7 @@
 	"variantrule": [
 		{
 			"name": "Common Languages",
-			"source": "UAWGE",
+			"source": "UAWayfindersGuideToEberron",
 			"page": 40,
 			"ruleType": "O",
 			"entries": [
@@ -310,7 +310,7 @@
 		},
 		{
 			"name": "Creating Magic Items",
-			"source": "UAWGE",
+			"source": "UAWayfindersGuideToEberron",
 			"page": 46,
 			"entries": [
 				"House Cannith has an enclave devoted solely to wand production. This facility is equipped with tools that amplify the Mark of Making and channel planar energies; the artisans also have access to a vast array of exotic woods and materials. You can also create a wand, but you're starting from scratch and creating the tools you need. Essentially, when House Cannith creates magic items, it's using factories; while your artificer is the equivalent of the tinkerer working in the garage. You can create magic items, and you can potentially create items that House Cannith can't make... but it's going to take you more time and gold than it takes for them. Here's an overview of the process.",
@@ -505,7 +505,7 @@
 		},
 		{
 			"name": "Environmental Elements",
-			"source": "UAWGE",
+			"source": "UAWayfindersGuideToEberron",
 			"page": 8,
 			"ruleType": "O",
 			"entries": [
@@ -515,7 +515,7 @@
 		},
 		{
 			"name": "Swapping Racial Languages",
-			"source": "UAWGE",
+			"source": "UAWayfindersGuideToEberron",
 			"page": 40,
 			"ruleType": "O",
 			"entries": [
@@ -524,7 +524,7 @@
 		},
 		{
 			"name": "Two-Handed Arcane Focuses",
-			"source": "UAWGE",
+			"source": "UAWayfindersGuideToEberron",
 			"page": 114,
 			"ruleType": "O",
 			"entries": [

@@ -446,7 +446,10 @@
 					]
 				}
 			],
-			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/unearthed-arcana/master/_img/tokens/UA2020SubclassesPt5/Drake Companion.webp",
+			"tokenHref": {
+				"type": "external",
+				"url": "https://raw.githubusercontent.com/TheGiddyLimit/unearthed-arcana/master/_img/UA2020SubclassesPt5/tokens/Drake Companion.webp"
+			},
 			"senseTags": [
 				"D"
 			],
