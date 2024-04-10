@@ -17,9 +17,6 @@
 				"dateReleased": "2023-11-27"
 			}
 		],
-		"dateAdded": 1701114642,
-		"dateLastModified": 1705794897,
-		"_dateLastModifiedHash": "939d0a3770",
 		"dependencies": {
 			"subclass": [
 				"XUA2023PlayersHandbookP7",
@@ -27,7 +24,10 @@
 				"druid",
 				"monk"
 			]
-		}
+		},
+		"dateAdded": 1701114642,
+		"dateLastModified": 1705794897,
+		"_dateLastModifiedHash": "939d0a3770"
 	},
 	"class": [
 		{
