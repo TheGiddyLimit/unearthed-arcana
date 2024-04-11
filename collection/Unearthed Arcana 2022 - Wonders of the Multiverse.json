@@ -16,14 +16,14 @@
 				"dateReleased": "2022-07-18"
 			}
 		],
-		"dateAdded": 1701616429,
-		"dateLastModified": 1709418572,
-		"_dateLastModifiedHash": "14e84ae265",
 		"dependencies": {
 			"subclassFeature": [
 				"UAClassFeatureVariants"
 			]
-		}
+		},
+		"dateAdded": 1701616429,
+		"dateLastModified": 1709418572,
+		"_dateLastModifiedHash": "14e84ae265"
 	},
 	"subclass": [
 		{

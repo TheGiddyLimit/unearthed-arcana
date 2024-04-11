@@ -23,8 +23,8 @@
 			]
 		},
 		"dateAdded": 1691158917,
-		"dateLastModified": 1701618486,
-		"_dateLastModifiedHash": "e3631dcd43"
+		"dateLastModified": 1712782303,
+		"_dateLastModifiedHash": "9af226288f"
 	},
 	"class": [
 		{
@@ -1938,6 +1938,21 @@
 	],
 	"subclass": [
 		{
+			"name": "Aberrant Sorcery",
+			"shortName": "Aberrant",
+			"source": "XUA2023PlayersHandbookP7",
+			"className": "Sorcerer",
+			"classSource": "XUA2023PlayersHandbookP7",
+			"page": 22,
+			"_copy": {
+				"name": "Aberrant Mind",
+				"shortName": "Aberrant Mind",
+				"source": "TCE",
+				"className": "Sorcerer",
+				"classSource": "PHB"
+			}
+		},
+		{
 			"name": "Abjurer",
 			"shortName": "Abjuration",
 			"source": "XUA2023PlayersHandbookP7",
@@ -2066,6 +2081,21 @@
 				"Superior Critical|Fighter|XUA2023PlayersHandbookP7|Champion|XUA2023PlayersHandbookP7|15",
 				"Survivor|Fighter|XUA2023PlayersHandbookP7|Champion|XUA2023PlayersHandbookP7|18"
 			]
+		},
+		{
+			"name": "Clockwork Sorcery",
+			"shortName": "Clockwork",
+			"source": "XUA2023PlayersHandbookP7",
+			"className": "Sorcerer",
+			"classSource": "XUA2023PlayersHandbookP7",
+			"page": 22,
+			"_copy": {
+				"name": "Clockwork Soul",
+				"shortName": "Clockwork Soul",
+				"source": "TCE",
+				"className": "Sorcerer",
+				"classSource": "PHB"
+			}
 		},
 		{
 			"name": "Diviner",
@@ -7813,8 +7843,8 @@
 				}
 			],
 			"areaTags": [
-				"ST",
-				"MT"
+				"MT",
+				"ST"
 			]
 		},
 		{

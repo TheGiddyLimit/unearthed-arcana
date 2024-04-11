@@ -20,8 +20,8 @@
 			"BF": "Bastion Facility"
 		},
 		"dateAdded": 1696529407,
-		"dateLastModified": 1701618486,
-		"_dateLastModifiedHash": "362c3a6ff7"
+		"dateLastModified": 1712782327,
+		"_dateLastModifiedHash": "a8541db42e"
 	},
 	"optionalfeature": [
 		{
@@ -1686,8 +1686,8 @@
 				"SCL"
 			],
 			"areaTags": [
-				"ST",
-				"MT"
+				"MT",
+				"ST"
 			]
 		},
 		{

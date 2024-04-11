@@ -16,14 +16,14 @@
 				"dateReleased": "2022-08-18"
 			}
 		],
-		"dateAdded": 1672604449,
-		"dateLastModified": 1709418572,
-		"_dateLastModifiedHash": "0e28419f51",
 		"dependencies": {
 			"spell": [
 				"PHB"
 			]
-		}
+		},
+		"dateAdded": 1672604449,
+		"dateLastModified": 1709418572,
+		"_dateLastModifiedHash": "0e28419f51"
 	},
 	"background": [
 		{
