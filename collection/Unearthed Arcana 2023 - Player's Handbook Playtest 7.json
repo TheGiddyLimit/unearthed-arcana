@@ -23,8 +23,8 @@
 			]
 		},
 		"dateAdded": 1691158917,
-		"dateLastModified": 1712782303,
-		"_dateLastModifiedHash": "9af226288f"
+		"dateLastModified": 1712782431,
+		"_dateLastModifiedHash": "578ff6aa2f"
 	},
 	"class": [
 		{
@@ -5433,7 +5433,7 @@
 			"header": 1,
 			"entries": [
 				"You can manipulate the forces of chance and chaos to gain Advantage on one {@dice d20} Test. Once you do so, you must finish a {@variantrule Long Rest|XUA2023PlayersHandbookP7} before you can use this feature again.",
-				"Immediately after you cast a Sorcerer spell with a spell slot before you regain the use of this feature, you automatically roll on the {@table Wild Magic Surge|XUA2023PlayersHandbookP7} table and regain the use of this feature."
+				"Immediately after you cast a Sorcerer spell with a spell slot before you regain the use of this feature, you automatically roll on the {@table Wild Magic Surge|PHB} table and regain the use of this feature."
 			]
 		},
 		{
@@ -5486,7 +5486,7 @@
 			"level": 14,
 			"header": 2,
 			"entries": [
-				"You gain a modicum of control over the surges of your wild magic. Whenever you roll on the {@table Wild Magic Surge|XUA2023PlayersHandbookP7} table, you can roll twice and use either number."
+				"You gain a modicum of control over the surges of your wild magic. Whenever you roll on the {@table Wild Magic Surge|PHB} table, you can roll twice and use either number."
 			]
 		},
 		{
@@ -5500,7 +5500,7 @@
 			"level": 18,
 			"header": 2,
 			"entries": [
-				"Immediately after you cast a Sorcerer spell with a spell slot, you can create an effect of your choice from the {@table Wild Magic Surge|XUA2023PlayersHandbookP7} table, provided the effect casts a spell or restores all your expended Sorcery Points.",
+				"Immediately after you cast a Sorcerer spell with a spell slot, you can create an effect of your choice from the {@table Wild Magic Surge|PHB} table, provided the effect casts a spell or restores all your expended Sorcery Points.",
 				"Once you use this feature, you can't do so again until you finish {@dice 1d4} Long Rests."
 			]
 		},
@@ -11757,7 +11757,7 @@
 													"type": "statblock",
 													"prop": "subclass",
 													"source": "XUA2023PlayersHandbookP7",
-													"name": "Wild Magic",
+													"name": "Wild",
 													"className": "Sorcerer",
 													"classSource": "XUA2023PlayersHandbookP7",
 													"page": 23,
