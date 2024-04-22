@@ -295,19 +295,7 @@
 				"Epic Boon|Barbarian|XUA2023PlayersHandbookP5|20"
 			],
 			"subclassTitle": "Barbarian Subclass",
-			"fluff": [
-				{
-					"type": "section",
-					"source": "XUA2023PlayersHandbookP5",
-					"entries": [
-						"Barbarians are Warriors defined by their connection to the primal forces of the multiverse, which manifests as a Rage. Far more than a mere emotion, and not limited to anger or fury, a Barbarian's Rage is an incarnation of a predator's ferocity, a storm's unrelenting assault, and the churning turmoil of the sea.",
-						"Some Barbarians personify their Rage as a fierce spirit or revered forebear. Others see it as a connection to the pain and anguish of the world, as an impersonal tangle of wild magic, or as an expression of their own deepest self. For every Barbarian, their Rage is a power that fuels not just battle prowess but also uncanny reflexes and heightened senses.",
-						"Some Barbarians are uncomfortable when hedged in by walls and crowds, preferring to live in regions of unspoiled natural vitality. Others cherish the primal forces at work in farmlands and recognize the vitality of cities. Barbarians of all sorts embrace their own place in the multiverse, valuing keen instincts and raw physicality.",
-						"Even without the power of their Rage, Barbarians are skilled in combat and the use of weapons. When they do call on their Rage, it gives them superhuman strength and resilience. It also heightens their senses, making the Rage useful beyond combat.",
-						"Barbarians often serve as protectors and leaders in their communities. They charge headlong into danger so those who are under their protection don't have to. Their courage in the face of danger makes Barbarians perfectly suited for adventuring."
-					]
-				}
-			]
+			"hasFluff": true
 		},
 		{
 			"name": "Fighter",
@@ -512,17 +500,7 @@
 				"Epic Boon|Fighter|XUA2023PlayersHandbookP5|20"
 			],
 			"subclassTitle": "Fighter Subclass",
-			"fluff": [
-				{
-					"type": "section",
-					"source": "XUA2023PlayersHandbookP5",
-					"entries": [
-						"Fighters rule many battlefields. Questing knights, royal champions, elite soldiers, and hardened mercenaries\u2014as Fighters, they all share an unparalleled prowess with weapons and armor. And they are well acquainted with death, both meting it out and staring it defiantly in the face.",
-						"Fighters learn the basics of all combat styles. Every Fighter can swing an axe, fence with a rapier, wield a longsword or a greatsword, and use a bow. Fighters master various weapon techniques, allowing them to get the best use from a wide variety of weapons, and a wellequipped Fighter always has the right tool at hand for any combat situation. Likewise, a Fighter is adept with shields and every form of armor. Beyond that basic degree of familiarity, each Fighter specializes in certain styles of combat. Some concentrate on archery, some on fighting with two weapons at once, and some on augmenting their martial skills with magic. This combination of broad general ability and extensive specialization makes Fighters superior combatants everywhere.",
-						"The dungeon delving, monster slaying, and other dangerous work common among adventurers is second nature for a Fighter. There are great risks but also great rewards: gold, magic weaponry, and glory."
-					]
-				}
-			]
+			"hasFluff": true
 		},
 		{
 			"name": "Sorcerer",
@@ -1065,17 +1043,7 @@
 				"Epic Boon|Sorcerer|XUA2023PlayersHandbookP5|20"
 			],
 			"subclassTitle": "Sorcerer Subclass",
-			"fluff": [
-				{
-					"type": "section",
-					"source": "XUA2023PlayersHandbookP5",
-					"entries": [
-						"Sorcerers wield innate magic that is stamped into their being. Some Sorcerers can't name the origin of their power, while others trace it to strange events in their personal or family history. The touch of a dragon, the blessing of a dryad at a baby's birth, or the strike of lightning from a clear sky might spark a Sorcerer's gift. So too might the gift of a deity, exposure to the strange magic of another plane of existence, or a glimpse into the inner workings of reality. Whatever the origin, the result is an indelible mark on the mortal Sorcerer, a churning magic that can even be passed down through generations.",
-						"Sorcerers don't learn magic; the raw, roiling chaos of magic is part of them. The essential art of a Sorcerer is learning to harness and channel that innate magic, allowing the Sorcerer to discover new and staggering ways to unleash their power. As Sorcerers master their innate magic, they grow more attuned to its origin, developing distinct powers that reflect the source of that magic.",
-						"Sorcerers are rare. Some family lines produce exactly one Sorcerer in every generation, but most of the time, the talents of sorcery appear as a fluke. People who have this magical power soon discover that the power doesn't like to stay quiet. A Sorcerer's magic wants to be wielded, and it tends to spill out in unpredictable ways if it isn't."
-					]
-				}
-			]
+			"hasFluff": true
 		},
 		{
 			"name": "Warlock",
@@ -1529,18 +1497,7 @@
 				"Epic Boon|Warlock|XUA2023PlayersHandbookP5|20"
 			],
 			"subclassTitle": "Warlock Subclass",
-			"fluff": [
-				{
-					"type": "section",
-					"source": "XUA2023PlayersHandbookP5",
-					"entries": [
-						"Warlocks quest for knowledge that lies hidden in the fabric of the multiverse. They make pacts with mysterious beings of supernatural power, unlocking magical effects as they pry into the secrets and mysteries of reality. Drawing on the ancient knowledge of beings such as archfey, demons, devils, hags, and alien entities of the Far Realm, Warlocks piece together arcane secrets to bolster their own power.",
-						"Warlocks are defined by pacts with otherworldly beings. Most Warlocks begin their search for magical power by delving into tomes of forbidden lore, dabbling in invocations meant to attract the power of extraplanar beings, or seeking out places of power where the influence of these beings can be felt. They typically learn their initial spells and boons through bargains with lesser entities or contacting distant planes. Soon enough, though, they are drawn into a binding pact with a more powerful patron. (Some Warlocks discover, sooner or later, that this patron was pulling strings all along, using lesser beings as pawns in their schemes.)",
-						"In contrast to Clerics, who are devout servants of the gods they serve, Warlocks view their patrons as resources, as means to the end of achieving magical power. Some Warlocks respect, revere, or even love their patrons; some serve their patrons grudgingly; and some seek to undermine their patrons even as they wield the power their patrons have given them.",
-						"Once a pact is made, a Warlock's thirst for knowledge and power can't be slaked with mere study. No one makes a pact with extraplanar patrons without intending to use the power thus gained. Rather, most Warlocks spend their days in active pursuit of greater power and deeper knowledge, which typically means some kind of adventure."
-					]
-				}
-			]
+			"hasFluff": true
 		},
 		{
 			"name": "Wizard",
@@ -2025,18 +1982,7 @@
 				"Epic Boon|Wizard|XUA2023PlayersHandbookP5|20"
 			],
 			"subclassTitle": "Wizard Subclass",
-			"fluff": [
-				{
-					"type": "section",
-					"source": "XUA2023PlayersHandbookP5",
-					"entries": [
-						"Wizards are supreme magic-users, defined by their careful and exhaustive study of magic's inner workings. Drawing on the subtle weave of magic that permeates the cosmos, Wizards cast spells of explosive fire, arcing lightning, subtle deception, and spectacular transformations. Their magic conjures monsters from other planes of existence, glimpses the future, or turns slain foes into zombies. Their mightiest spells change one substance into another, call meteors down from the sky, or open portals to other worlds.",
-						"Beyond the sheer power of the spells they cast, though, Wizards share an approach to magic that is scholarly and exacting. Wizards understand magic at a fundamental level, giving them a precise mastery of their spells. They examine the theoretical underpinnings of magic, particularly the categorization of spells into schools of magic, and use those foundations to alter their spells and even craft entirely new spells. Renowned Wizards such as Bigby, Tasha, Mordenkainen, Yolande, and many more invented iconic spells now used across the multiverse.",
-						"Wizards' lives are seldom mundane. The closest a Wizard is likely to come to an ordinary life is working as a sage or lecturer in a library or university, teaching others the secrets of the multiverse. Other Wizards sell their services as diviners, serve in military forces, or pursue lives of crime or domination.",
-						"But the lure of knowledge and power calls even the most unadventurous Wizards out of the safety of their libraries and laboratories and into crumbling ruins and lost cities. Most Wizards believe that their counterparts in ancient civilizations knew secrets of magic that have been lost to the ages, and discovering those secrets could unlock the path to a power greater than any magic available in the present age."
-					]
-				}
-			]
+			"hasFluff": true
 		}
 	],
 	"subclass": [
@@ -10391,6 +10337,87 @@
 								"The creature can see into the Ethereal Plane."
 							]
 						}
+					]
+				}
+			]
+		}
+	],
+	"classFluff": [
+		{
+			"name": "Barbarian",
+			"source": "XUA2023PlayersHandbookP5",
+			"entries": [
+				{
+					"type": "section",
+					"source": "XUA2023PlayersHandbookP5",
+					"entries": [
+						"Barbarians are Warriors defined by their connection to the primal forces of the multiverse, which manifests as a Rage. Far more than a mere emotion, and not limited to anger or fury, a Barbarian's Rage is an incarnation of a predator's ferocity, a storm's unrelenting assault, and the churning turmoil of the sea.",
+						"Some Barbarians personify their Rage as a fierce spirit or revered forebear. Others see it as a connection to the pain and anguish of the world, as an impersonal tangle of wild magic, or as an expression of their own deepest self. For every Barbarian, their Rage is a power that fuels not just battle prowess but also uncanny reflexes and heightened senses.",
+						"Some Barbarians are uncomfortable when hedged in by walls and crowds, preferring to live in regions of unspoiled natural vitality. Others cherish the primal forces at work in farmlands and recognize the vitality of cities. Barbarians of all sorts embrace their own place in the multiverse, valuing keen instincts and raw physicality.",
+						"Even without the power of their Rage, Barbarians are skilled in combat and the use of weapons. When they do call on their Rage, it gives them superhuman strength and resilience. It also heightens their senses, making the Rage useful beyond combat.",
+						"Barbarians often serve as protectors and leaders in their communities. They charge headlong into danger so those who are under their protection don't have to. Their courage in the face of danger makes Barbarians perfectly suited for adventuring."
+					]
+				}
+			]
+		},
+		{
+			"name": "Fighter",
+			"source": "XUA2023PlayersHandbookP5",
+			"entries": [
+				{
+					"type": "section",
+					"source": "XUA2023PlayersHandbookP5",
+					"entries": [
+						"Fighters rule many battlefields. Questing knights, royal champions, elite soldiers, and hardened mercenaries\u2014as Fighters, they all share an unparalleled prowess with weapons and armor. And they are well acquainted with death, both meting it out and staring it defiantly in the face.",
+						"Fighters learn the basics of all combat styles. Every Fighter can swing an axe, fence with a rapier, wield a longsword or a greatsword, and use a bow. Fighters master various weapon techniques, allowing them to get the best use from a wide variety of weapons, and a wellequipped Fighter always has the right tool at hand for any combat situation. Likewise, a Fighter is adept with shields and every form of armor. Beyond that basic degree of familiarity, each Fighter specializes in certain styles of combat. Some concentrate on archery, some on fighting with two weapons at once, and some on augmenting their martial skills with magic. This combination of broad general ability and extensive specialization makes Fighters superior combatants everywhere.",
+						"The dungeon delving, monster slaying, and other dangerous work common among adventurers is second nature for a Fighter. There are great risks but also great rewards: gold, magic weaponry, and glory."
+					]
+				}
+			]
+		},
+		{
+			"name": "Sorcerer",
+			"source": "XUA2023PlayersHandbookP5",
+			"entries": [
+				{
+					"type": "section",
+					"source": "XUA2023PlayersHandbookP5",
+					"entries": [
+						"Sorcerers wield innate magic that is stamped into their being. Some Sorcerers can't name the origin of their power, while others trace it to strange events in their personal or family history. The touch of a dragon, the blessing of a dryad at a baby's birth, or the strike of lightning from a clear sky might spark a Sorcerer's gift. So too might the gift of a deity, exposure to the strange magic of another plane of existence, or a glimpse into the inner workings of reality. Whatever the origin, the result is an indelible mark on the mortal Sorcerer, a churning magic that can even be passed down through generations.",
+						"Sorcerers don't learn magic; the raw, roiling chaos of magic is part of them. The essential art of a Sorcerer is learning to harness and channel that innate magic, allowing the Sorcerer to discover new and staggering ways to unleash their power. As Sorcerers master their innate magic, they grow more attuned to its origin, developing distinct powers that reflect the source of that magic.",
+						"Sorcerers are rare. Some family lines produce exactly one Sorcerer in every generation, but most of the time, the talents of sorcery appear as a fluke. People who have this magical power soon discover that the power doesn't like to stay quiet. A Sorcerer's magic wants to be wielded, and it tends to spill out in unpredictable ways if it isn't."
+					]
+				}
+			]
+		},
+		{
+			"name": "Warlock",
+			"source": "XUA2023PlayersHandbookP5",
+			"entries": [
+				{
+					"type": "section",
+					"source": "XUA2023PlayersHandbookP5",
+					"entries": [
+						"Warlocks quest for knowledge that lies hidden in the fabric of the multiverse. They make pacts with mysterious beings of supernatural power, unlocking magical effects as they pry into the secrets and mysteries of reality. Drawing on the ancient knowledge of beings such as archfey, demons, devils, hags, and alien entities of the Far Realm, Warlocks piece together arcane secrets to bolster their own power.",
+						"Warlocks are defined by pacts with otherworldly beings. Most Warlocks begin their search for magical power by delving into tomes of forbidden lore, dabbling in invocations meant to attract the power of extraplanar beings, or seeking out places of power where the influence of these beings can be felt. They typically learn their initial spells and boons through bargains with lesser entities or contacting distant planes. Soon enough, though, they are drawn into a binding pact with a more powerful patron. (Some Warlocks discover, sooner or later, that this patron was pulling strings all along, using lesser beings as pawns in their schemes.)",
+						"In contrast to Clerics, who are devout servants of the gods they serve, Warlocks view their patrons as resources, as means to the end of achieving magical power. Some Warlocks respect, revere, or even love their patrons; some serve their patrons grudgingly; and some seek to undermine their patrons even as they wield the power their patrons have given them.",
+						"Once a pact is made, a Warlock's thirst for knowledge and power can't be slaked with mere study. No one makes a pact with extraplanar patrons without intending to use the power thus gained. Rather, most Warlocks spend their days in active pursuit of greater power and deeper knowledge, which typically means some kind of adventure."
+					]
+				}
+			]
+		},
+		{
+			"name": "Wizard",
+			"source": "XUA2023PlayersHandbookP5",
+			"entries": [
+				{
+					"type": "section",
+					"source": "XUA2023PlayersHandbookP5",
+					"entries": [
+						"Wizards are supreme magic-users, defined by their careful and exhaustive study of magic's inner workings. Drawing on the subtle weave of magic that permeates the cosmos, Wizards cast spells of explosive fire, arcing lightning, subtle deception, and spectacular transformations. Their magic conjures monsters from other planes of existence, glimpses the future, or turns slain foes into zombies. Their mightiest spells change one substance into another, call meteors down from the sky, or open portals to other worlds.",
+						"Beyond the sheer power of the spells they cast, though, Wizards share an approach to magic that is scholarly and exacting. Wizards understand magic at a fundamental level, giving them a precise mastery of their spells. They examine the theoretical underpinnings of magic, particularly the categorization of spells into schools of magic, and use those foundations to alter their spells and even craft entirely new spells. Renowned Wizards such as Bigby, Tasha, Mordenkainen, Yolande, and many more invented iconic spells now used across the multiverse.",
+						"Wizards' lives are seldom mundane. The closest a Wizard is likely to come to an ordinary life is working as a sage or lecturer in a library or university, teaching others the secrets of the multiverse. Other Wizards sell their services as diviners, serve in military forces, or pursue lives of crime or domination.",
+						"But the lure of knowledge and power calls even the most unadventurous Wizards out of the safety of their libraries and laboratories and into crumbling ruins and lost cities. Most Wizards believe that their counterparts in ancient civilizations knew secrets of magic that have been lost to the ages, and discovering those secrets could unlock the path to a power greater than any magic available in the present age."
 					]
 				}
 			]

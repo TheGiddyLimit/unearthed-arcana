@@ -539,19 +539,7 @@
 				"Epic Boon|Druid|XUA2023DruidAndPaladin|20"
 			],
 			"subclassTitle": "Druid Subclass",
-			"fluff": [
-				{
-					"type": "section",
-					"source": "XUA2023DruidAndPaladin",
-					"entries": [
-						"Druids belong to ancient orders that call on the forces of nature. Harnessing the magic of animals, plants, weather, and the four elements, Druids can heal, transform themselves, and wield elemental destruction.",
-						"Revering nature above all, individual Druids gain their magic from a nature deity, from nature itself, or both, and they typically unite with other Druids in performing rites to mark the passage of the seasons and other natural cycles. The ancient druidic traditions are sometimes called the Old Faith, in contrast to the worship of gods in temples and shrines.",
-						"Druids master Primal magic, which is oriented toward nature and animals\u2014the power of tooth and claw, of sun and moon, of fire and storm. Druids also gain the ability to take on animal forms, and some Druids focus on this practice, even to the point where they feel more natural in an animal form.",
-						"For Druids, nature exists in a precarious balance. The four elements that make up a world\u2014air, earth, fire, and water\u2014must remain in equilibrium. If one element were to gain power over the others, the world could be destroyed, drawn into one of the elemental planes and broken apart into its component elements. Thus, Druids oppose cults of Elemental Evil and others who promote one element to the exclusion of others.",
-						"Druids are also concerned with the delicate ecological balance that sustains plant and animal life and with the need for people to live in harmony with nature, not in opposition to it. Druids are often found guarding sacred sites or watching over regions of unspoiled nature. But when a significant danger arises, threatening nature's balance or the lands they protect, Druids take a more active role as adventurers who combat the threat."
-					]
-				}
-			]
+			"hasFluff": true
 		},
 		{
 			"name": "Paladin",
@@ -936,19 +924,7 @@
 				"Epic Boon|Paladin|XUA2023DruidAndPaladin|20"
 			],
 			"subclassTitle": "Paladin Subclass",
-			"fluff": [
-				{
-					"type": "section",
-					"source": "XUA2023DruidAndPaladin",
-					"entries": [
-						"Paladins are united by their oaths to stand against the forces of annihilation and corruption. Whether sworn before a god's altar, in a sacred glade before nature spirits and fey beings, or in a moment of desperation and grief with the dead as the only witnesses, a Paladin's oath is a powerful bond. It is a source of power that turns a devout warrior into a blessed champion.",
-						"A Paladin swears to stand against corrupting influences and to hunt the forces of ruin wherever they lurk. Different Paladins focus on various aspects of these causes, but all are bound by the oaths that grant them power to do their sacred work.",
-						"Paladins train to learn the skills of combat, mastering a variety of weapons and armor. Even so, their martial skills are secondary to the magical power they wield\u2014power to heal the sick and injured, to smite their foes, and to protect the helpless and those who fight at their side.",
-						"Almost by definition, the life of a Paladin is an adventuring life, for every Paladin lives on the front lines of the cosmic struggle against annihilation. Fighters are rare enough among the ranks of a world's armies, but even fewer people can claim the calling of a Paladin. When they do receive the call, these blessed folk turn from their former occupations and take up arms and magic. Sometimes their oaths lead them into the service of the crown as leaders of elite groups of knights, but even then, their loyalty is first to their sacred oaths, not to crown and country.",
-						"Adventuring Paladins take their work seriously. A delve into an ancient ruin or a dusty crypt can be a quest driven by a higher purpose than the acquisition of treasure. Malign forces lurk in dungeons, and even the smallest victory against them can tilt the cosmic balance away from oblivion."
-					]
-				}
-			]
+			"hasFluff": true
 		}
 	],
 	"subclass": [
@@ -5974,6 +5950,42 @@
 							"{@skill Religion}",
 							"Deities, religious hierarchies and rites, holy symbols, cults, and certain creatures (Celestials, Fiends, and Undead)"
 						]
+					]
+				}
+			]
+		}
+	],
+	"classFluff": [
+		{
+			"name": "Druid",
+			"source": "XUA2023DruidAndPaladin",
+			"entries": [
+				{
+					"type": "section",
+					"source": "XUA2023DruidAndPaladin",
+					"entries": [
+						"Druids belong to ancient orders that call on the forces of nature. Harnessing the magic of animals, plants, weather, and the four elements, Druids can heal, transform themselves, and wield elemental destruction.",
+						"Revering nature above all, individual Druids gain their magic from a nature deity, from nature itself, or both, and they typically unite with other Druids in performing rites to mark the passage of the seasons and other natural cycles. The ancient druidic traditions are sometimes called the Old Faith, in contrast to the worship of gods in temples and shrines.",
+						"Druids master Primal magic, which is oriented toward nature and animals\u2014the power of tooth and claw, of sun and moon, of fire and storm. Druids also gain the ability to take on animal forms, and some Druids focus on this practice, even to the point where they feel more natural in an animal form.",
+						"For Druids, nature exists in a precarious balance. The four elements that make up a world\u2014air, earth, fire, and water\u2014must remain in equilibrium. If one element were to gain power over the others, the world could be destroyed, drawn into one of the elemental planes and broken apart into its component elements. Thus, Druids oppose cults of Elemental Evil and others who promote one element to the exclusion of others.",
+						"Druids are also concerned with the delicate ecological balance that sustains plant and animal life and with the need for people to live in harmony with nature, not in opposition to it. Druids are often found guarding sacred sites or watching over regions of unspoiled nature. But when a significant danger arises, threatening nature's balance or the lands they protect, Druids take a more active role as adventurers who combat the threat."
+					]
+				}
+			]
+		},
+		{
+			"name": "Paladin",
+			"source": "XUA2023DruidAndPaladin",
+			"entries": [
+				{
+					"type": "section",
+					"source": "XUA2023DruidAndPaladin",
+					"entries": [
+						"Paladins are united by their oaths to stand against the forces of annihilation and corruption. Whether sworn before a god's altar, in a sacred glade before nature spirits and fey beings, or in a moment of desperation and grief with the dead as the only witnesses, a Paladin's oath is a powerful bond. It is a source of power that turns a devout warrior into a blessed champion.",
+						"A Paladin swears to stand against corrupting influences and to hunt the forces of ruin wherever they lurk. Different Paladins focus on various aspects of these causes, but all are bound by the oaths that grant them power to do their sacred work.",
+						"Paladins train to learn the skills of combat, mastering a variety of weapons and armor. Even so, their martial skills are secondary to the magical power they wield\u2014power to heal the sick and injured, to smite their foes, and to protect the helpless and those who fight at their side.",
+						"Almost by definition, the life of a Paladin is an adventuring life, for every Paladin lives on the front lines of the cosmic struggle against annihilation. Fighters are rare enough among the ranks of a world's armies, but even fewer people can claim the calling of a Paladin. When they do receive the call, these blessed folk turn from their former occupations and take up arms and magic. Sometimes their oaths lead them into the service of the crown as leaders of elite groups of knights, but even then, their loyalty is first to their sacred oaths, not to crown and country.",
+						"Adventuring Paladins take their work seriously. A delve into an ancient ruin or a dusty crypt can be a quest driven by a higher purpose than the acquisition of treasure. Malign forces lurk in dungeons, and even the smallest victory against them can tilt the cosmic balance away from oblivion."
 					]
 				}
 			]

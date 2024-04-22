@@ -585,95 +585,7 @@
 				"Soul of Artifice|Artificer (Revisited)|UAArtificerRevisited|20"
 			],
 			"subclassTitle": "Artificer Specialist",
-			"fluff": [
-				{
-					"name": "Artificer",
-					"page": 1,
-					"source": "UAArtificerRevisited",
-					"type": "section",
-					"entries": [
-						"Masters of unlocking magic in everyday objects, artificers are supreme inventors. They see magic as a complex system waiting to be decoded and controlled. Artificers use tools to channel arcane power, crafting temporary and permanent magical objects. To cast a spell, an artificer could use {@item alchemist's supplies|PHB} to create a potent elixir, {@item calligrapher's supplies|PHB} to inscribe a sigil of power on an ally's armor, or {@item tinker's tools|PHB} to craft a temporary charm. The magic of artificers is tied to their tools and their talents.",
-						{
-							"type": "entries",
-							"name": "Arcane Science",
-							"entries": [
-								"In the world of Eberron, arcane magic has been harnessed as a form of science and deployed throughout society. Artificers reflect this development. Their knowledge of magical devices, and their ability to infuse mundane items with magical energy, allows the grand magical projects of Eberron to continue running. During the Last War, artificers were marshaled on a massive scale. Many lives were saved because of the inventions of brave artificers, but also countless lives were lost because of the mass destruction that artificers' creations unleashed."
-							]
-						},
-						{
-							"type": "entries",
-							"name": "Seekers of New Lore",
-							"entries": [
-								"Nothing excites an artificer quite like uncovering a new metal or discovering a source of elemental energy. In artificer circles, new inventions and strange discoveries create the most excitement. Artificers who wish to make a mark must find something fresh, rather than uncover someone else's work.",
-								"This drive for novelty pushes artificers to become adventurers. Eberron's main travel routes and populated regions have long since been explored. Thus, artificers take to the edge of civilization in hopes of making the next great discovery in arcane research."
-							]
-						},
-						{
-							"type": "entries",
-							"name": "Creating an Artificer",
-							"entries": [
-								"When creating an artificer character, think about your character's background and drive for adventure. Does the character have a rival? What is the character's relationship with the artisan or artificer who taught the basics of the craft? Talk to your DM about the role played by artificers in the campaign, and what sort of organizations and NPCs you might have ties to.",
-								{
-									"type": "entries",
-									"name": "Quick Build",
-									"entries": [
-										"You can make an artificer quickly by following these suggestions. First, put your highest ability score in Intelligence, followed by Constitution or Dexterity. Second, choose the {@background guild artisan} background."
-									]
-								}
-							]
-						},
-						{
-							"type": "inset",
-							"name": "Artificers in Other Worlds",
-							"entries": [
-								"Eberron is the world most associated with artificers, yet the class can be found throughout the multiverse. In the Forgotten Realms, for example, the island of Lantan is home to many artificers, and in the world of Dragonlance, tinker gnomes are often members of this class. The strange technologies in the Barrier Peaks of the World of Greyhawk have inspired some folk to walk the path of the artificer, and in Mystara, various nations employ artificers to keep airships and other wondrous devices operational. In the City of Sigil, artificers share discoveries from throughout the cosmos, and one in particular\u2014the gnome inventor named Vi\u2014runs a multiverse-spanning business from there. In the worldcity Ravnica, the Izzet League trains numerous artificers, the destructiveness of whom is unparalleled in other worlds, except by the tinker gnomes of Krynn."
-							]
-						},
-						{
-							"type": "inset",
-							"name": "Optional Rule: Firearm Proficiency",
-							"entries": [
-								"The creation and operation of gunpowder weapons have been discovered in various corners of the D&D multiverse. If your Dungeon Master uses the rules on firearms in the Dungeon Master's Guide (p. 267) and your artificer has been exposed to the operation of such weapons, your artificer is proficient with them."
-							]
-						},
-						{
-							"type": "inset",
-							"name": "Optional Rule: Multiclassing",
-							"entries": [
-								"If your group uses the optional rule on multiclassing in the Player's Handbook (p. 163), here's what you need to know if you choose artificer as one of your classes.",
-								{
-									"type": "entries",
-									"name": "Ability Score Minimum",
-									"entries": [
-										"As a multiclass character, you must have at least an Intelligence score of 13 to take a level in this class."
-									]
-								},
-								{
-									"type": "entries",
-									"name": "Proficiencies Gained",
-									"entries": [
-										"If artificer isn't your initial class, here are the proficiencies you gain when you take your first level as an artificer: light armor, medium armor, shields, {@item thieves' tools|PHB}, {@item tinker's tools|PHB}."
-									]
-								},
-								{
-									"type": "entries",
-									"name": "Extra Attack",
-									"entries": [
-										"The Arcane Armament feature doesn't give you an additional attack if you also have the Extra Attack feature."
-									]
-								},
-								{
-									"type": "entries",
-									"name": "Spell Slots",
-									"entries": [
-										"Add half your levels (rounded up) in the artificer class to the appropriate levels from other classes to determine your available spell slots."
-									]
-								}
-							]
-						}
-					]
-				}
-			]
+			"hasFluff": true
 		}
 	],
 	"subclass": [
@@ -2644,6 +2556,101 @@
 			],
 			"miscTags": [
 				"MW"
+			]
+		}
+	],
+	"classFluff": [
+		{
+			"name": "Artificer (Revisited)",
+			"source": "UAArtificerRevisited",
+			"entries": [
+				{
+					"name": "Artificer",
+					"page": 1,
+					"source": "UAArtificerRevisited",
+					"type": "section",
+					"entries": [
+						"Masters of unlocking magic in everyday objects, artificers are supreme inventors. They see magic as a complex system waiting to be decoded and controlled. Artificers use tools to channel arcane power, crafting temporary and permanent magical objects. To cast a spell, an artificer could use {@item alchemist's supplies|PHB} to create a potent elixir, {@item calligrapher's supplies|PHB} to inscribe a sigil of power on an ally's armor, or {@item tinker's tools|PHB} to craft a temporary charm. The magic of artificers is tied to their tools and their talents.",
+						{
+							"type": "entries",
+							"name": "Arcane Science",
+							"entries": [
+								"In the world of Eberron, arcane magic has been harnessed as a form of science and deployed throughout society. Artificers reflect this development. Their knowledge of magical devices, and their ability to infuse mundane items with magical energy, allows the grand magical projects of Eberron to continue running. During the Last War, artificers were marshaled on a massive scale. Many lives were saved because of the inventions of brave artificers, but also countless lives were lost because of the mass destruction that artificers' creations unleashed."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Seekers of New Lore",
+							"entries": [
+								"Nothing excites an artificer quite like uncovering a new metal or discovering a source of elemental energy. In artificer circles, new inventions and strange discoveries create the most excitement. Artificers who wish to make a mark must find something fresh, rather than uncover someone else's work.",
+								"This drive for novelty pushes artificers to become adventurers. Eberron's main travel routes and populated regions have long since been explored. Thus, artificers take to the edge of civilization in hopes of making the next great discovery in arcane research."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Creating an Artificer",
+							"entries": [
+								"When creating an artificer character, think about your character's background and drive for adventure. Does the character have a rival? What is the character's relationship with the artisan or artificer who taught the basics of the craft? Talk to your DM about the role played by artificers in the campaign, and what sort of organizations and NPCs you might have ties to.",
+								{
+									"type": "entries",
+									"name": "Quick Build",
+									"entries": [
+										"You can make an artificer quickly by following these suggestions. First, put your highest ability score in Intelligence, followed by Constitution or Dexterity. Second, choose the {@background guild artisan} background."
+									]
+								}
+							]
+						},
+						{
+							"type": "inset",
+							"name": "Artificers in Other Worlds",
+							"entries": [
+								"Eberron is the world most associated with artificers, yet the class can be found throughout the multiverse. In the Forgotten Realms, for example, the island of Lantan is home to many artificers, and in the world of Dragonlance, tinker gnomes are often members of this class. The strange technologies in the Barrier Peaks of the World of Greyhawk have inspired some folk to walk the path of the artificer, and in Mystara, various nations employ artificers to keep airships and other wondrous devices operational. In the City of Sigil, artificers share discoveries from throughout the cosmos, and one in particular\u2014the gnome inventor named Vi\u2014runs a multiverse-spanning business from there. In the worldcity Ravnica, the Izzet League trains numerous artificers, the destructiveness of whom is unparalleled in other worlds, except by the tinker gnomes of Krynn."
+							]
+						},
+						{
+							"type": "inset",
+							"name": "Optional Rule: Firearm Proficiency",
+							"entries": [
+								"The creation and operation of gunpowder weapons have been discovered in various corners of the D&D multiverse. If your Dungeon Master uses the rules on firearms in the Dungeon Master's Guide (p. 267) and your artificer has been exposed to the operation of such weapons, your artificer is proficient with them."
+							]
+						},
+						{
+							"type": "inset",
+							"name": "Optional Rule: Multiclassing",
+							"entries": [
+								"If your group uses the optional rule on multiclassing in the Player's Handbook (p. 163), here's what you need to know if you choose artificer as one of your classes.",
+								{
+									"type": "entries",
+									"name": "Ability Score Minimum",
+									"entries": [
+										"As a multiclass character, you must have at least an Intelligence score of 13 to take a level in this class."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Proficiencies Gained",
+									"entries": [
+										"If artificer isn't your initial class, here are the proficiencies you gain when you take your first level as an artificer: light armor, medium armor, shields, {@item thieves' tools|PHB}, {@item tinker's tools|PHB}."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Extra Attack",
+									"entries": [
+										"The Arcane Armament feature doesn't give you an additional attack if you also have the Extra Attack feature."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Spell Slots",
+									"entries": [
+										"Add half your levels (rounded up) in the artificer class to the appropriate levels from other classes to determine your available spell slots."
+									]
+								}
+							]
+						}
+					]
+				}
 			]
 		}
 	]
