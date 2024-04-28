@@ -126,12 +126,7 @@
 					"type": "entries"
 				}
 			],
-			"fluff": {
-				"_raceFluff": {
-					"name": "Centaur",
-					"source": "UACentaursMinotaurs"
-				}
-			}
+			"hasFluff": true
 		},
 		{
 			"name": "Minotaur",

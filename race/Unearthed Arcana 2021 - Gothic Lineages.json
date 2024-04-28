@@ -93,12 +93,7 @@
 					]
 				}
 			],
-			"fluff": {
-				"_raceFluff": {
-					"name": "Dhampir",
-					"source": "UA2021GothicLineages"
-				}
-			}
+			"hasFluff": true
 		},
 		{
 			"name": "Hexblood",
@@ -183,12 +178,7 @@
 					]
 				}
 			],
-			"fluff": {
-				"_raceFluff": {
-					"name": "Hexblood",
-					"source": "UA2021GothicLineages"
-				}
-			}
+			"hasFluff": true
 		},
 		{
 			"name": "Reborn",
@@ -267,12 +257,7 @@
 					]
 				}
 			],
-			"fluff": {
-				"_raceFluff": {
-					"name": "Reborn",
-					"source": "UA2021GothicLineages"
-				}
-			}
+			"hasFluff": true
 		}
 	],
 	"raceFluff": [

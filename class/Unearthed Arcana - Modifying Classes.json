@@ -16,16 +16,16 @@
 				"dateReleased": "2015-04-06"
 			}
 		],
-		"dateAdded": 1701616429,
-		"dateLastModified": 1713811810,
-		"_dateLastModifiedHash": "f44cf68786",
 		"dependencies": {
 			"optionalfeature": [
 				"UAClassFeatureVariants",
 				"UALightDarkUnderdark",
 				"UAWaterborneAdventures"
 			]
-		}
+		},
+		"dateAdded": 1701616429,
+		"dateLastModified": 1713811810,
+		"_dateLastModifiedHash": "f44cf68786"
 	},
 	"class": [
 		{

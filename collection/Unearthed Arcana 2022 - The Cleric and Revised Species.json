@@ -1009,12 +1009,7 @@
 					]
 				}
 			],
-			"fluff": {
-				"_raceFluff": {
-					"name": "Ardling",
-					"source": "XUA2022ClericAndRevisedSpecies"
-				}
-			},
+			"hasFluff": true,
 			"_versions": [
 				{
 					"name": "Ardling; Climber",
@@ -1245,12 +1240,7 @@
 					]
 				}
 			],
-			"fluff": {
-				"_raceFluff": {
-					"name": "Dragonborn",
-					"source": "XUA2022ClericAndRevisedSpecies"
-				}
-			},
+			"hasFluff": true,
 			"_versions": [
 				{
 					"_abstract": {
@@ -1486,12 +1476,7 @@
 					]
 				}
 			],
-			"fluff": {
-				"_raceFluff": {
-					"name": "Goliath",
-					"source": "XUA2022ClericAndRevisedSpecies"
-				}
-			},
+			"hasFluff": true,
 			"_versions": [
 				{
 					"name": "Goliath; Cloud's Jaunt",

@@ -533,12 +533,7 @@
 					]
 				}
 			],
-			"fluff": {
-				"_backgroundFluff": {
-					"name": "Knight of Solamnia",
-					"source": "UA2022HeroesOfKrynn"
-				}
-			}
+			"hasFluff": true
 		},
 		{
 			"name": "Mage of High Sorcery",
@@ -714,12 +709,7 @@
 					]
 				}
 			],
-			"fluff": {
-				"_backgroundFluff": {
-					"name": "Mage of High Sorcery",
-					"source": "UA2022HeroesOfKrynn"
-				}
-			}
+			"hasFluff": true
 		}
 	],
 	"backgroundFluff": [
@@ -819,12 +809,7 @@
 					]
 				}
 			],
-			"fluff": {
-				"_raceFluff": {
-					"name": "Kender",
-					"source": "UA2022HeroesOfKrynn"
-				}
-			}
+			"hasFluff": true
 		}
 	],
 	"raceFluff": [

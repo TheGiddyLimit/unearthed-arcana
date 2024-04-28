@@ -130,12 +130,7 @@
 					]
 				}
 			],
-			"fluff": {
-				"_raceFluff": {
-					"name": "Loxodon",
-					"source": "UARacesOfRavnica"
-				}
-			}
+			"hasFluff": true
 		},
 		{
 			"name": "Simic Hybrid",
@@ -265,12 +260,7 @@
 					]
 				}
 			],
-			"fluff": {
-				"_raceFluff": {
-					"name": "Simic Hybrid",
-					"source": "UARacesOfRavnica"
-				}
-			}
+			"hasFluff": true
 		},
 		{
 			"name": "Vedalken",
@@ -347,12 +337,7 @@
 					"type": "entries"
 				}
 			],
-			"fluff": {
-				"_raceFluff": {
-					"name": "Vedalken",
-					"source": "UARacesOfRavnica"
-				}
-			}
+			"hasFluff": true
 		},
 		{
 			"name": "Viashino",
@@ -442,12 +427,7 @@
 					]
 				}
 			],
-			"fluff": {
-				"_raceFluff": {
-					"name": "Viashino",
-					"source": "UARacesOfRavnica"
-				}
-			}
+			"hasFluff": true
 		}
 	],
 	"foundryRaceFeature": [
