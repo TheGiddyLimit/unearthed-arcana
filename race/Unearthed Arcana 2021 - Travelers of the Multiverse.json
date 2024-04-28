@@ -17,8 +17,8 @@
 			}
 		],
 		"dateAdded": 1701616429,
-		"dateLastModified": 1701618486,
-		"_dateLastModifiedHash": "fac7ad6ab4"
+		"dateLastModified": 1714323291,
+		"_dateLastModifiedHash": "8b1ad18203"
 	},
 	"race": [
 		{
@@ -137,12 +137,7 @@
 					]
 				}
 			],
-			"fluff": {
-				"_raceFluff": {
-					"name": "Astral Elf",
-					"source": "UA2021TravelersOfTheMultiverse"
-				}
-			}
+			"hasFluff": true
 		},
 		{
 			"name": "Autognome",
@@ -226,12 +221,7 @@
 					]
 				}
 			],
-			"fluff": {
-				"_raceFluff": {
-					"name": "Autognome",
-					"source": "UA2021TravelersOfTheMultiverse"
-				}
-			}
+			"hasFluff": true
 		},
 		{
 			"name": "Giff",
@@ -267,12 +257,7 @@
 					]
 				}
 			],
-			"fluff": {
-				"_raceFluff": {
-					"name": "Giff",
-					"source": "UA2021TravelersOfTheMultiverse"
-				}
-			}
+			"hasFluff": true
 		},
 		{
 			"name": "Hadozee",
@@ -320,12 +305,7 @@
 					]
 				}
 			],
-			"fluff": {
-				"_raceFluff": {
-					"name": "Hadozee",
-					"source": "UA2021TravelersOfTheMultiverse"
-				}
-			}
+			"hasFluff": true
 		},
 		{
 			"name": "Plasmoid",
@@ -400,12 +380,7 @@
 					]
 				}
 			],
-			"fluff": {
-				"_raceFluff": {
-					"name": "Plasmoid",
-					"source": "UA2021TravelersOfTheMultiverse"
-				}
-			}
+			"hasFluff": true
 		},
 		{
 			"name": "Thri-kreen",
@@ -487,12 +462,7 @@
 					]
 				}
 			],
-			"fluff": {
-				"_raceFluff": {
-					"name": "Thri-kreen",
-					"source": "UA2021TravelersOfTheMultiverse"
-				}
-			}
+			"hasFluff": true
 		}
 	],
 	"raceFluff": [

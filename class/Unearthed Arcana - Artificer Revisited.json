@@ -16,14 +16,14 @@
 				"dateReleased": "2019-02-28"
 			}
 		],
-		"dateAdded": 1701616429,
-		"dateLastModified": 1713811810,
-		"_dateLastModifiedHash": "6df5aeadce",
 		"dependencies": {
 			"classFeature": [
 				"UAClassFeatureVariants"
 			]
-		}
+		},
+		"dateAdded": 1701616429,
+		"dateLastModified": 1713811810,
+		"_dateLastModifiedHash": "6df5aeadce"
 	},
 	"class": [
 		{

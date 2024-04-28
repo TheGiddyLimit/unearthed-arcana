@@ -17,8 +17,8 @@
 			}
 		],
 		"dateAdded": 1701616429,
-		"dateLastModified": 1709418572,
-		"_dateLastModifiedHash": "1b48e8eb5a"
+		"dateLastModified": 1714323291,
+		"_dateLastModifiedHash": "afcc8538ec"
 	},
 	"race": [
 		{
@@ -111,12 +111,7 @@
 					]
 				}
 			],
-			"fluff": {
-				"_raceFluff": {
-					"name": "Dragonborn (Chromatic)",
-					"source": "UA2021DraconicOptions"
-				}
-			}
+			"hasFluff": true
 		},
 		{
 			"name": "Dragonborn (Gem)",
@@ -215,12 +210,7 @@
 					]
 				}
 			],
-			"fluff": {
-				"_raceFluff": {
-					"name": "Dragonborn (Gem)",
-					"source": "UA2021DraconicOptions"
-				}
-			}
+			"hasFluff": true
 		},
 		{
 			"name": "Dragonborn (Metallic)",
@@ -319,12 +309,7 @@
 					]
 				}
 			],
-			"fluff": {
-				"_raceFluff": {
-					"name": "Dragonborn (Metallic)",
-					"source": "UA2021DraconicOptions"
-				}
-			}
+			"hasFluff": true
 		},
 		{
 			"name": "Kobold",
@@ -370,12 +355,7 @@
 					]
 				}
 			],
-			"fluff": {
-				"_raceFluff": {
-					"name": "Kobold",
-					"source": "UA2021DraconicOptions"
-				}
-			}
+			"hasFluff": true
 		}
 	],
 	"raceFluff": [

@@ -17,8 +17,8 @@
 			}
 		],
 		"dateAdded": 1701616429,
-		"dateLastModified": 1701618486,
-		"_dateLastModifiedHash": "6fa475c5d2"
+		"dateLastModified": 1714323291,
+		"_dateLastModifiedHash": "36eed98f34"
 	},
 	"race": [
 		{
@@ -126,12 +126,7 @@
 					"type": "entries"
 				}
 			],
-			"fluff": {
-				"_raceFluff": {
-					"name": "Centaur",
-					"source": "UACentaursMinotaurs"
-				}
-			}
+			"hasFluff": true
 		},
 		{
 			"name": "Minotaur",

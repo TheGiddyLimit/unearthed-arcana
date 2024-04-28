@@ -22,8 +22,8 @@
 			]
 		},
 		"dateAdded": 1672604449,
-		"dateLastModified": 1709418572,
-		"_dateLastModifiedHash": "0e28419f51"
+		"dateLastModified": 1714323291,
+		"_dateLastModifiedHash": "d91fab11b9"
 	},
 	"background": [
 		{
@@ -104,12 +104,7 @@
 					]
 				}
 			],
-			"fluff": {
-				"_backgroundFluff": {
-					"name": "Acolyte",
-					"source": "XUA2022CharacterOptions"
-				}
-			}
+			"hasFluff": true
 		},
 		{
 			"name": "Artisan",
@@ -189,12 +184,7 @@
 					]
 				}
 			],
-			"fluff": {
-				"_backgroundFluff": {
-					"name": "Artisan",
-					"source": "XUA2022CharacterOptions"
-				}
-			}
+			"hasFluff": true
 		},
 		{
 			"name": "Charlatan",
@@ -272,12 +262,7 @@
 					]
 				}
 			],
-			"fluff": {
-				"_backgroundFluff": {
-					"name": "Charlatan",
-					"source": "XUA2022CharacterOptions"
-				}
-			}
+			"hasFluff": true
 		},
 		{
 			"name": "Criminal",
@@ -357,12 +342,7 @@
 					]
 				}
 			],
-			"fluff": {
-				"_backgroundFluff": {
-					"name": "Criminal",
-					"source": "XUA2022CharacterOptions"
-				}
-			}
+			"hasFluff": true
 		},
 		{
 			"name": "Cultist",
@@ -443,12 +423,7 @@
 					]
 				}
 			],
-			"fluff": {
-				"_backgroundFluff": {
-					"name": "Cultist",
-					"source": "XUA2022CharacterOptions"
-				}
-			}
+			"hasFluff": true
 		},
 		{
 			"name": "Entertainer",
@@ -528,12 +503,7 @@
 					]
 				}
 			],
-			"fluff": {
-				"_backgroundFluff": {
-					"name": "Entertainer",
-					"source": "XUA2022CharacterOptions"
-				}
-			}
+			"hasFluff": true
 		},
 		{
 			"name": "Farmer",
@@ -614,12 +584,7 @@
 					]
 				}
 			],
-			"fluff": {
-				"_backgroundFluff": {
-					"name": "Farmer",
-					"source": "XUA2022CharacterOptions"
-				}
-			}
+			"hasFluff": true
 		},
 		{
 			"name": "Gladiator",
@@ -700,12 +665,7 @@
 					]
 				}
 			],
-			"fluff": {
-				"_backgroundFluff": {
-					"name": "Gladiator",
-					"source": "XUA2022CharacterOptions"
-				}
-			}
+			"hasFluff": true
 		},
 		{
 			"name": "Guard",
@@ -788,12 +748,7 @@
 					]
 				}
 			],
-			"fluff": {
-				"_backgroundFluff": {
-					"name": "Guard",
-					"source": "XUA2022CharacterOptions"
-				}
-			}
+			"hasFluff": true
 		},
 		{
 			"name": "Guide",
@@ -876,12 +831,7 @@
 					]
 				}
 			],
-			"fluff": {
-				"_backgroundFluff": {
-					"name": "Guide",
-					"source": "XUA2022CharacterOptions"
-				}
-			}
+			"hasFluff": true
 		},
 		{
 			"name": "Hermit",
@@ -964,12 +914,7 @@
 					]
 				}
 			],
-			"fluff": {
-				"_backgroundFluff": {
-					"name": "Hermit",
-					"source": "XUA2022CharacterOptions"
-				}
-			}
+			"hasFluff": true
 		},
 		{
 			"name": "Laborer",
@@ -1053,12 +998,7 @@
 					]
 				}
 			],
-			"fluff": {
-				"_backgroundFluff": {
-					"name": "Laborer",
-					"source": "XUA2022CharacterOptions"
-				}
-			}
+			"hasFluff": true
 		},
 		{
 			"name": "Noble",
@@ -1137,12 +1077,7 @@
 					]
 				}
 			],
-			"fluff": {
-				"_backgroundFluff": {
-					"name": "Noble",
-					"source": "XUA2022CharacterOptions"
-				}
-			}
+			"hasFluff": true
 		},
 		{
 			"name": "Pilgrim",
@@ -1223,12 +1158,7 @@
 					]
 				}
 			],
-			"fluff": {
-				"_backgroundFluff": {
-					"name": "Pilgrim",
-					"source": "XUA2022CharacterOptions"
-				}
-			}
+			"hasFluff": true
 		},
 		{
 			"name": "Sage",
@@ -1308,12 +1238,7 @@
 					]
 				}
 			],
-			"fluff": {
-				"_backgroundFluff": {
-					"name": "Sage",
-					"source": "XUA2022CharacterOptions"
-				}
-			}
+			"hasFluff": true
 		},
 		{
 			"name": "Sailor",
@@ -1393,12 +1318,7 @@
 					]
 				}
 			],
-			"fluff": {
-				"_backgroundFluff": {
-					"name": "Sailor",
-					"source": "XUA2022CharacterOptions"
-				}
-			}
+			"hasFluff": true
 		},
 		{
 			"name": "Soldier",
@@ -1480,12 +1400,7 @@
 					]
 				}
 			],
-			"fluff": {
-				"_backgroundFluff": {
-					"name": "Soldier",
-					"source": "XUA2022CharacterOptions"
-				}
-			}
+			"hasFluff": true
 		},
 		{
 			"name": "Urchin",
@@ -1566,12 +1481,7 @@
 					]
 				}
 			],
-			"fluff": {
-				"_backgroundFluff": {
-					"name": "Urchin",
-					"source": "XUA2022CharacterOptions"
-				}
-			}
+			"hasFluff": true
 		}
 	],
 	"backgroundFluff": [
@@ -1822,12 +1732,7 @@
 					]
 				}
 			],
-			"fluff": {
-				"_raceFluff": {
-					"name": "Ardling",
-					"source": "XUA2022CharacterOptions"
-				}
-			},
+			"hasFluff": true,
 			"_versions": [
 				{
 					"name": "Ardling; Exalted",
@@ -2183,12 +2088,7 @@
 					]
 				}
 			],
-			"fluff": {
-				"_raceFluff": {
-					"name": "Dragonborn",
-					"source": "XUA2022CharacterOptions"
-				}
-			},
+			"hasFluff": true,
 			"_versions": [
 				{
 					"_abstract": {
@@ -2386,12 +2286,7 @@
 					]
 				}
 			],
-			"fluff": {
-				"_raceFluff": {
-					"name": "Dwarf",
-					"source": "XUA2022CharacterOptions"
-				}
-			}
+			"hasFluff": true
 		},
 		{
 			"name": "Elf",
@@ -2530,12 +2425,7 @@
 					]
 				}
 			],
-			"fluff": {
-				"_raceFluff": {
-					"name": "Elf",
-					"source": "XUA2022CharacterOptions"
-				}
-			},
+			"hasFluff": true,
 			"_versions": [
 				{
 					"name": "Elf (High)",
@@ -2854,12 +2744,7 @@
 					]
 				}
 			],
-			"fluff": {
-				"_raceFluff": {
-					"name": "Gnome",
-					"source": "XUA2022CharacterOptions"
-				}
-			},
+			"hasFluff": true,
 			"_versions": [
 				{
 					"name": "Gnome; Forest",
@@ -3025,12 +2910,7 @@
 					]
 				}
 			],
-			"fluff": {
-				"_raceFluff": {
-					"name": "Halfling",
-					"source": "XUA2022CharacterOptions"
-				}
-			}
+			"hasFluff": true
 		},
 		{
 			"name": "Human",
@@ -3119,12 +2999,7 @@
 					]
 				}
 			],
-			"fluff": {
-				"_raceFluff": {
-					"name": "Human",
-					"source": "XUA2022CharacterOptions"
-				}
-			}
+			"hasFluff": true
 		},
 		{
 			"name": "Orc",
@@ -3210,12 +3085,7 @@
 					]
 				}
 			],
-			"fluff": {
-				"_raceFluff": {
-					"name": "Orc",
-					"source": "XUA2022CharacterOptions"
-				}
-			}
+			"hasFluff": true
 		},
 		{
 			"name": "Tiefling",
@@ -3347,12 +3217,7 @@
 					]
 				}
 			],
-			"fluff": {
-				"_raceFluff": {
-					"name": "Tiefling",
-					"source": "XUA2022CharacterOptions"
-				}
-			},
+			"hasFluff": true,
 			"_versions": [
 				{
 					"name": "Tiefling; Abyssal",

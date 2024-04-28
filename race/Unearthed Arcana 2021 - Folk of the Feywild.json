@@ -17,8 +17,8 @@
 			}
 		],
 		"dateAdded": 1701616429,
-		"dateLastModified": 1701618486,
-		"_dateLastModifiedHash": "f1bef01cf0"
+		"dateLastModified": 1714323291,
+		"_dateLastModifiedHash": "daca4de606"
 	},
 	"race": [
 		{
@@ -94,12 +94,7 @@
 					]
 				}
 			],
-			"fluff": {
-				"_raceFluff": {
-					"name": "Fairy",
-					"source": "UA2021FolkOfTheFeywild"
-				}
-			}
+			"hasFluff": true
 		},
 		{
 			"name": "Hobgoblin",
@@ -166,12 +161,7 @@
 					]
 				}
 			],
-			"fluff": {
-				"_raceFluff": {
-					"name": "Hobgoblin",
-					"source": "UA2021FolkOfTheFeywild"
-				}
-			}
+			"hasFluff": true
 		},
 		{
 			"name": "Owlfolk",
@@ -250,12 +240,7 @@
 					]
 				}
 			],
-			"fluff": {
-				"_raceFluff": {
-					"name": "Owlfolk",
-					"source": "UA2021FolkOfTheFeywild"
-				}
-			}
+			"hasFluff": true
 		},
 		{
 			"name": "Rabbitfolk",
@@ -312,12 +297,7 @@
 					]
 				}
 			],
-			"fluff": {
-				"_raceFluff": {
-					"name": "Rabbitfolk",
-					"source": "UA2021FolkOfTheFeywild"
-				}
-			}
+			"hasFluff": true
 		}
 	],
 	"raceFluff": [

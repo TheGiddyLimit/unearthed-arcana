@@ -17,8 +17,8 @@
 			}
 		],
 		"dateAdded": 1701616429,
-		"dateLastModified": 1701618486,
-		"_dateLastModifiedHash": "9fde875800"
+		"dateLastModified": 1714323291,
+		"_dateLastModifiedHash": "416018a338"
 	},
 	"background": [
 		{
@@ -193,12 +193,7 @@
 					]
 				}
 			],
-			"fluff": {
-				"_backgroundFluff": {
-					"name": "Knight of Solamnia",
-					"source": "UA2022HeroesOfKrynnRevisited"
-				}
-			}
+			"hasFluff": true
 		},
 		{
 			"name": "Mage of High Sorcery",
@@ -374,12 +369,7 @@
 					]
 				}
 			],
-			"fluff": {
-				"_backgroundFluff": {
-					"name": "Mage of High Sorcery",
-					"source": "UA2022HeroesOfKrynnRevisited"
-				}
-			}
+			"hasFluff": true
 		}
 	],
 	"backgroundFluff": [
@@ -449,12 +439,7 @@
 					]
 				}
 			],
-			"fluff": {
-				"_raceFluff": {
-					"name": "Kender",
-					"source": "UA2022HeroesOfKrynnRevisited"
-				}
-			}
+			"hasFluff": true
 		}
 	],
 	"raceFluff": [

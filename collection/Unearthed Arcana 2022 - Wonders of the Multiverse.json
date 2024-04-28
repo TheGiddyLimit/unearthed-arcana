@@ -22,8 +22,8 @@
 			]
 		},
 		"dateAdded": 1701616429,
-		"dateLastModified": 1709418572,
-		"_dateLastModifiedHash": "14e84ae265"
+		"dateLastModified": 1714323291,
+		"_dateLastModifiedHash": "3e41052af2"
 	},
 	"subclass": [
 		{
@@ -459,12 +459,7 @@
 					]
 				}
 			],
-			"fluff": {
-				"_backgroundFluff": {
-					"name": "Gate Warden",
-					"source": "UA2022WondersOfTheMultiverse"
-				}
-			}
+			"hasFluff": true
 		},
 		{
 			"name": "Giant Foundling",
@@ -638,12 +633,7 @@
 					]
 				}
 			],
-			"fluff": {
-				"_backgroundFluff": {
-					"name": "Giant Foundling",
-					"source": "UA2022WondersOfTheMultiverse"
-				}
-			}
+			"hasFluff": true
 		},
 		{
 			"name": "Planar Philosopher",
@@ -809,12 +799,7 @@
 					]
 				}
 			],
-			"fluff": {
-				"_backgroundFluff": {
-					"name": "Planar Philosopher",
-					"source": "UA2022WondersOfTheMultiverse"
-				}
-			}
+			"hasFluff": true
 		},
 		{
 			"name": "Rune Carver",
@@ -993,12 +978,7 @@
 					]
 				}
 			],
-			"fluff": {
-				"_backgroundFluff": {
-					"name": "Rune Carver",
-					"source": "UA2022WondersOfTheMultiverse"
-				}
-			}
+			"hasFluff": true
 		}
 	],
 	"backgroundFluff": [
@@ -1093,12 +1073,7 @@
 					]
 				}
 			],
-			"fluff": {
-				"_raceFluff": {
-					"name": "Glitchling",
-					"source": "UA2022WondersOfTheMultiverse"
-				}
-			}
+			"hasFluff": true
 		}
 	],
 	"raceFluff": [
