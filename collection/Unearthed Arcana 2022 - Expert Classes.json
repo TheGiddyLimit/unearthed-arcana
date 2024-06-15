@@ -1491,6 +1491,55 @@
 			"hasFluff": true
 		}
 	],
+	"classFluff": [
+		{
+			"name": "Bard",
+			"source": "XUA2022ExpertClasses",
+			"entries": [
+				{
+					"type": "section",
+					"source": "XUA2022ExpertClasses",
+					"entries": [
+						"Invoking magic through music, dance, and verse, Bards are expert at inspiring others, soothing hurts, disheartening foes, and creating illusions.",
+						"Bards believe that the creators of the multiverse spoke and signed it into existence and that remnants of those Words of Creation still resound and glimmer on every plane of existence. The magic of Bards is an attempt to harness those words\u2014which transcend any language\u2014and direct them to create new wonders.",
+						"Almost anything can inspire a new song or tale, so Bards are fascinated by almost everything. They have a wide-ranging knowledge of many subjects and develop an aptitude to do almost anything well. Bards become masters of many things, including musical performance, the workings of magic, and the formation of jests.",
+						"Not every singer or poet in a tavern or jester in a royal court is a Bard. Harnessing the Words of Creation requires hard work and some measure of natural talent that most troubadours and jongleurs lack. It can sometimes be hard to spot the difference between these performers and Bards, though. A Bard's life is spent wandering across the land gathering lore, telling stories, and living on the gratitude of audiences, much like any other entertainer. But Bards' depth of knowledge, level of musical skill, and mastery of magic sets them apart."
+					]
+				}
+			]
+		},
+		{
+			"name": "Ranger",
+			"source": "XUA2022ExpertClasses",
+			"entries": [
+				{
+					"type": "section",
+					"source": "XUA2022ExpertClasses",
+					"entries": [
+						"Far from the bustle of cities, amid the trees of trackless forests and across wide plains, Rangers keep their unending watch.",
+						"Wanderers of the wilderness, Rangers specialize in facing monsters that threaten the world. Rangers learn to track their quarry as a predator does, moving stealthily through the wilds and hiding themselves in brush and rubble.",
+						"Thanks to their connection with nature, Rangers can also cast Spells that harness the primal powers of the wilderness. A Ranger's talents and magic are honed with deadly focus on the task of protecting the world from the ravages of monsters and tyrants."
+					]
+				}
+			]
+		},
+		{
+			"name": "Rogue",
+			"source": "XUA2022ExpertClasses",
+			"entries": [
+				{
+					"type": "section",
+					"source": "XUA2022ExpertClasses",
+					"entries": [
+						"Rogues rely on cunning, stealth, and their foes' vulnerabilities to get the upper hand in any situation. They have a knack for finding the solution to just about any problem, demonstrating a versatility that is the cornerstone of any successful adventuring party.",
+						"Rogues devote as much effort to mastering the use of a variety of skills as they do to perfecting their combat abilities, giving them broad capabilities that few other characters can match. Many Rogues focus on stealth and deception, while others refine skills that help them in a dungeon environment, such as climbing, finding and disarming traps, and opening locks.",
+						"When it comes to combat, Rogues prioritize subtle strikes over brute strength. A Rogue would rather make one precise strike than wear an opponent down with a barrage of blows. Rogues have an almost supernatural knack for avoiding danger, and a few learn magical tricks to supplement their other abilities.",
+						"Some Rogues began their careers as criminals, while others used their cunning to fight crime. Whatever a Rogue's relation to the law, no common criminal or officer of the law can match the subtle brilliance of the greatest Rogues."
+					]
+				}
+			]
+		}
+	],
 	"subclass": [
 		{
 			"name": "College of Lore",
@@ -9054,55 +9103,6 @@
 							"{@skill Religion}",
 							"Deities, religious hierarchies and rites, holy symbols, cults, and certain creatures (Celestials, Fiends, and Undead)"
 						]
-					]
-				}
-			]
-		}
-	],
-	"classFluff": [
-		{
-			"name": "Bard",
-			"source": "XUA2022ExpertClasses",
-			"entries": [
-				{
-					"type": "section",
-					"source": "XUA2022ExpertClasses",
-					"entries": [
-						"Invoking magic through music, dance, and verse, Bards are expert at inspiring others, soothing hurts, disheartening foes, and creating illusions.",
-						"Bards believe that the creators of the multiverse spoke and signed it into existence and that remnants of those Words of Creation still resound and glimmer on every plane of existence. The magic of Bards is an attempt to harness those words\u2014which transcend any language\u2014and direct them to create new wonders.",
-						"Almost anything can inspire a new song or tale, so Bards are fascinated by almost everything. They have a wide-ranging knowledge of many subjects and develop an aptitude to do almost anything well. Bards become masters of many things, including musical performance, the workings of magic, and the formation of jests.",
-						"Not every singer or poet in a tavern or jester in a royal court is a Bard. Harnessing the Words of Creation requires hard work and some measure of natural talent that most troubadours and jongleurs lack. It can sometimes be hard to spot the difference between these performers and Bards, though. A Bard's life is spent wandering across the land gathering lore, telling stories, and living on the gratitude of audiences, much like any other entertainer. But Bards' depth of knowledge, level of musical skill, and mastery of magic sets them apart."
-					]
-				}
-			]
-		},
-		{
-			"name": "Ranger",
-			"source": "XUA2022ExpertClasses",
-			"entries": [
-				{
-					"type": "section",
-					"source": "XUA2022ExpertClasses",
-					"entries": [
-						"Far from the bustle of cities, amid the trees of trackless forests and across wide plains, Rangers keep their unending watch.",
-						"Wanderers of the wilderness, Rangers specialize in facing monsters that threaten the world. Rangers learn to track their quarry as a predator does, moving stealthily through the wilds and hiding themselves in brush and rubble.",
-						"Thanks to their connection with nature, Rangers can also cast Spells that harness the primal powers of the wilderness. A Ranger's talents and magic are honed with deadly focus on the task of protecting the world from the ravages of monsters and tyrants."
-					]
-				}
-			]
-		},
-		{
-			"name": "Rogue",
-			"source": "XUA2022ExpertClasses",
-			"entries": [
-				{
-					"type": "section",
-					"source": "XUA2022ExpertClasses",
-					"entries": [
-						"Rogues rely on cunning, stealth, and their foes' vulnerabilities to get the upper hand in any situation. They have a knack for finding the solution to just about any problem, demonstrating a versatility that is the cornerstone of any successful adventuring party.",
-						"Rogues devote as much effort to mastering the use of a variety of skills as they do to perfecting their combat abilities, giving them broad capabilities that few other characters can match. Many Rogues focus on stealth and deception, while others refine skills that help them in a dungeon environment, such as climbing, finding and disarming traps, and opening locks.",
-						"When it comes to combat, Rogues prioritize subtle strikes over brute strength. A Rogue would rather make one precise strike than wear an opponent down with a barrage of blows. Rogues have an almost supernatural knack for avoiding danger, and a few learn magical tricks to supplement their other abilities.",
-						"Some Rogues began their careers as criminals, while others used their cunning to fight crime. Whatever a Rogue's relation to the law, no common criminal or officer of the law can match the subtle brilliance of the greatest Rogues."
 					]
 				}
 			]

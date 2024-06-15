@@ -1276,6 +1276,58 @@
 			"hasFluff": true
 		}
 	],
+	"classFluff": [
+		{
+			"name": "Barbarian",
+			"source": "XUA2023PlayersHandbookP8",
+			"entries": [
+				{
+					"type": "section",
+					"source": "XUA2023PlayersHandbookP8",
+					"entries": [
+						"Barbarians are warriors defined by their connection to the primal forces of the multiverse, which manifests as a Rage. Far more than a mere emotion, and not limited to anger or fury, a Barbarian's Rage is an incarnation of a predator's ferocity, a storm's unrelenting assault, and the churning turmoil of the sea.",
+						"Some Barbarians personify their Rage as a fierce spirit or revered forebear. Others see it as a connection to the pain and anguish of the world, as an impersonal tangle of wild magic, or as an expression of their own deepest self. For every Barbarian, their Rage is a power that fuels not just battle prowess but also uncanny reflexes and heightened senses.",
+						"Some Barbarians are uncomfortable when hedged in by walls and crowds, preferring to live in regions of unspoiled natural vitality. Others cherish the primal forces at work in farmlands and recognize the vitality of cities. Barbarians of all sorts embrace their place in the multiverse, valuing keen instincts and raw physicality.",
+						"Even without the power of their Rage, Barbarians are skilled in combat and the use of weapons. When they do call on their Rage, it gives them superhuman strength and resilience. It also heightens their senses and reflexes, making the Rage useful beyond combat.",
+						"Barbarians often serve as protectors and leaders in their communities. They charge headlong into danger so those who are under their protection don't have to. Their courage in the face of danger makes Barbarians perfectly suited for adventuring."
+					]
+				}
+			]
+		},
+		{
+			"name": "Druid",
+			"source": "XUA2023PlayersHandbookP8",
+			"entries": [
+				{
+					"type": "section",
+					"source": "XUA2023PlayersHandbookP8",
+					"entries": [
+						"Druids belong to ancient orders that call on the forces of nature. Harnessing the magic of animals, plants, weather, and the four elements, Druids can heal, transform themselves, and wield elemental destruction.",
+						"Revering nature above all, individual Druids gain their magic from a nature deity, from nature itself, or both, and they typically unite with other Druids in performing rites to mark the passage of the seasons and other natural cycles. The ancient druidic traditions are sometimes called the Old Faith, in contrast to the worship of gods in temples and shrines.",
+						"Druids master Primal magic, which is oriented toward nature and animals\u2014the power of tooth and claw, of sun and moon, of fire and storm. Druids also gain the ability to take on animal forms, and some Druids focus on this practice, even to the point where they feel more natural in an animal form.",
+						"For Druids, nature exists in a precarious balance. The four elements that make up a world\u2014air, earth, fire, and water\u2014must remain in equilibrium. If one element were to gain power over the others, the world could be destroyed, drawn into one of the elemental planes and broken apart into its component elements. Thus, Druids oppose cults of Elemental Evil and others who promote one element to the exclusion of others.",
+						"Druids are also concerned with the delicate ecological balance that sustains plant and animal life and with the need for people to live in harmony with nature, not in opposition to it. Druids are often found guarding sacred sites or watching over regions of unspoiled nature. But when a significant danger arises, threatening nature's balance or the lands they protect, Druids take a more active role as adventurers who combat the threat."
+					]
+				}
+			]
+		},
+		{
+			"name": "Monk",
+			"source": "XUA2023PlayersHandbookP8",
+			"entries": [
+				{
+					"type": "section",
+					"source": "XUA2023PlayersHandbookP8",
+					"entries": [
+						"Monks use rigorous combat training and mental discipline to align themselves with the multiverse and tap into internal reservoirs of power. Different Monks conceptualize this power in various ways: as breath, energy, life force, essence, or self, for example. Whether channeled as a striking display of martial prowess or as a subtler focus of defense and speed, this power infuses all that a Monk does.",
+						"Monks harness and focus their internal power to create extraordinary, even supernatural, effects. They channel uncanny speed and strength into their attacks, with or without the use of weapons. In their hands and guided by their power, even the most basic weapons can become sophisticated implements of combat mastery. And their mightiest attacks can stun their opponents.",
+						"Many Monks find that a structured life of ascetic withdrawal from the mundane world helps them cultivate the physical and mental discipline they need to harness their power. Other Monks believe that immersing themselves in the vibrant confusion of life helps to fuel their determination and discipline.",
+						"Monks generally view their adventures as personal tests of their physical and mental development. They are driven by a desire to accomplish a greater mission than merely slaying monsters and plundering treasure; they strive to hone themselves into living weapons."
+					]
+				}
+			]
+		}
+	],
 	"subclass": [
 		{
 			"name": "Circle of the Land",
@@ -7748,58 +7800,6 @@
 							"page": 30,
 							"collapsed": true
 						}
-					]
-				}
-			]
-		}
-	],
-	"classFluff": [
-		{
-			"name": "Barbarian",
-			"source": "XUA2023PlayersHandbookP8",
-			"entries": [
-				{
-					"type": "section",
-					"source": "XUA2023PlayersHandbookP8",
-					"entries": [
-						"Barbarians are warriors defined by their connection to the primal forces of the multiverse, which manifests as a Rage. Far more than a mere emotion, and not limited to anger or fury, a Barbarian's Rage is an incarnation of a predator's ferocity, a storm's unrelenting assault, and the churning turmoil of the sea.",
-						"Some Barbarians personify their Rage as a fierce spirit or revered forebear. Others see it as a connection to the pain and anguish of the world, as an impersonal tangle of wild magic, or as an expression of their own deepest self. For every Barbarian, their Rage is a power that fuels not just battle prowess but also uncanny reflexes and heightened senses.",
-						"Some Barbarians are uncomfortable when hedged in by walls and crowds, preferring to live in regions of unspoiled natural vitality. Others cherish the primal forces at work in farmlands and recognize the vitality of cities. Barbarians of all sorts embrace their place in the multiverse, valuing keen instincts and raw physicality.",
-						"Even without the power of their Rage, Barbarians are skilled in combat and the use of weapons. When they do call on their Rage, it gives them superhuman strength and resilience. It also heightens their senses and reflexes, making the Rage useful beyond combat.",
-						"Barbarians often serve as protectors and leaders in their communities. They charge headlong into danger so those who are under their protection don't have to. Their courage in the face of danger makes Barbarians perfectly suited for adventuring."
-					]
-				}
-			]
-		},
-		{
-			"name": "Druid",
-			"source": "XUA2023PlayersHandbookP8",
-			"entries": [
-				{
-					"type": "section",
-					"source": "XUA2023PlayersHandbookP8",
-					"entries": [
-						"Druids belong to ancient orders that call on the forces of nature. Harnessing the magic of animals, plants, weather, and the four elements, Druids can heal, transform themselves, and wield elemental destruction.",
-						"Revering nature above all, individual Druids gain their magic from a nature deity, from nature itself, or both, and they typically unite with other Druids in performing rites to mark the passage of the seasons and other natural cycles. The ancient druidic traditions are sometimes called the Old Faith, in contrast to the worship of gods in temples and shrines.",
-						"Druids master Primal magic, which is oriented toward nature and animals\u2014the power of tooth and claw, of sun and moon, of fire and storm. Druids also gain the ability to take on animal forms, and some Druids focus on this practice, even to the point where they feel more natural in an animal form.",
-						"For Druids, nature exists in a precarious balance. The four elements that make up a world\u2014air, earth, fire, and water\u2014must remain in equilibrium. If one element were to gain power over the others, the world could be destroyed, drawn into one of the elemental planes and broken apart into its component elements. Thus, Druids oppose cults of Elemental Evil and others who promote one element to the exclusion of others.",
-						"Druids are also concerned with the delicate ecological balance that sustains plant and animal life and with the need for people to live in harmony with nature, not in opposition to it. Druids are often found guarding sacred sites or watching over regions of unspoiled nature. But when a significant danger arises, threatening nature's balance or the lands they protect, Druids take a more active role as adventurers who combat the threat."
-					]
-				}
-			]
-		},
-		{
-			"name": "Monk",
-			"source": "XUA2023PlayersHandbookP8",
-			"entries": [
-				{
-					"type": "section",
-					"source": "XUA2023PlayersHandbookP8",
-					"entries": [
-						"Monks use rigorous combat training and mental discipline to align themselves with the multiverse and tap into internal reservoirs of power. Different Monks conceptualize this power in various ways: as breath, energy, life force, essence, or self, for example. Whether channeled as a striking display of martial prowess or as a subtler focus of defense and speed, this power infuses all that a Monk does.",
-						"Monks harness and focus their internal power to create extraordinary, even supernatural, effects. They channel uncanny speed and strength into their attacks, with or without the use of weapons. In their hands and guided by their power, even the most basic weapons can become sophisticated implements of combat mastery. And their mightiest attacks can stun their opponents.",
-						"Many Monks find that a structured life of ascetic withdrawal from the mundane world helps them cultivate the physical and mental discipline they need to harness their power. Other Monks believe that immersing themselves in the vibrant confusion of life helps to fuel their determination and discipline.",
-						"Monks generally view their adventures as personal tests of their physical and mental development. They are driven by a desire to accomplish a greater mission than merely slaying monsters and plundering treasure; they strive to hone themselves into living weapons."
 					]
 				}
 			]

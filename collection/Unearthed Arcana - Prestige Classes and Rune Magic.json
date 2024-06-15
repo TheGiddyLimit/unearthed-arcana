@@ -102,6 +102,24 @@
 			"hasFluff": true
 		}
 	],
+	"classFluff": [
+		{
+			"name": "Prestige Class: Rune Scribe",
+			"source": "UAPrestigeClassesRunMagic",
+			"entries": [
+				{
+					"name": "Rune Scribe",
+					"type": "section",
+					"entries": [
+						"A rune scribe masters the secrets of the runes of power\u2014ancient sigils that embody the fundamental magic of creation. The giants were the first to master rune magic, though many other races eventually stole away or traded for that power.",
+						"Rune magic is exceedingly rare. Some of its secrets have been lost, and what lore remains is jealously guarded. Few rune scribes share their lore with others. Indeed, most rune scribes take on new students only if doing so allows them to gain access to a forgotten or missing rune. The rune scribe prestige class uses the rules for rune magic presented at the end of this article."
+					],
+					"source": "UAPrestigeClassesRunMagic",
+					"page": 2
+				}
+			]
+		}
+	],
 	"classFeature": [
 		{
 			"name": "Rune Lore",
@@ -548,24 +566,6 @@
 							]
 						}
 					]
-				}
-			]
-		}
-	],
-	"classFluff": [
-		{
-			"name": "Prestige Class: Rune Scribe",
-			"source": "UAPrestigeClassesRunMagic",
-			"entries": [
-				{
-					"name": "Rune Scribe",
-					"type": "section",
-					"entries": [
-						"A rune scribe masters the secrets of the runes of power\u2014ancient sigils that embody the fundamental magic of creation. The giants were the first to master rune magic, though many other races eventually stole away or traded for that power.",
-						"Rune magic is exceedingly rare. Some of its secrets have been lost, and what lore remains is jealously guarded. Few rune scribes share their lore with others. Indeed, most rune scribes take on new students only if doing so allows them to gain access to a forgotten or missing rune. The rune scribe prestige class uses the rules for rune magic presented at the end of this article."
-					],
-					"source": "UAPrestigeClassesRunMagic",
-					"page": 2
 				}
 			]
 		}

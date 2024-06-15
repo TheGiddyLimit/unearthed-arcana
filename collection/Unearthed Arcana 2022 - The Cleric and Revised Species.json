@@ -460,6 +460,23 @@
 			"hasFluff": true
 		}
 	],
+	"classFluff": [
+		{
+			"name": "Cleric",
+			"source": "XUA2022ClericAndRevisedSpecies",
+			"entries": [
+				{
+					"type": "section",
+					"source": "XUA2022ClericAndRevisedSpecies",
+					"entries": [
+						"Clerics draw power from the realms of the gods and harness it to work miracles. Blessed by a deity, a pantheon, or another immortal entity, a Cleric can reach out to the divine magic of the Outer Planes\u2014where gods dwell\u2014and channel that energy to bolster people and to battle foes.",
+						"Because their power is a divine gift, Clerics typically associate themselves with temples or shrines dedicated to whatever deity or other immortal force unlocked their magical ability. Harnessing divine magic doesn't rely on study or training, yet a Cleric might learn formulaic prayers and ancient rites that help them focus their minds and spirits on drawing power from the Outer Planes. Even a Cleric who declines to worship their divine benefactor might perform their benefactor's rites if doing so helps the Cleric feel connected to the immortal realms.",
+						"Not every acolyte or officiant at a temple or shrine is a Cleric. Some priests are called to a simple life of temple service, carrying out their devotion through prayer and rituals, not through magic. Some of the most influential high priests are incapable of harnessing divine magic, and a few of them feel threatened when a Cleric appears. Many can pray, and some mortals claim to speak for the gods. But few can marshal the power of those gods the way a Cleric can."
+					]
+				}
+			]
+		}
+	],
 	"subclass": [
 		{
 			"name": "Life Domain",
@@ -6669,23 +6686,6 @@
 							"{@skill Religion}",
 							"Deities, religious hierarchies and rites, holy symbols, cults, and certain creatures (Celestials, Fiends, and Undead)"
 						]
-					]
-				}
-			]
-		}
-	],
-	"classFluff": [
-		{
-			"name": "Cleric",
-			"source": "XUA2022ClericAndRevisedSpecies",
-			"entries": [
-				{
-					"type": "section",
-					"source": "XUA2022ClericAndRevisedSpecies",
-					"entries": [
-						"Clerics draw power from the realms of the gods and harness it to work miracles. Blessed by a deity, a pantheon, or another immortal entity, a Cleric can reach out to the divine magic of the Outer Planes\u2014where gods dwell\u2014and channel that energy to bolster people and to battle foes.",
-						"Because their power is a divine gift, Clerics typically associate themselves with temples or shrines dedicated to whatever deity or other immortal force unlocked their magical ability. Harnessing divine magic doesn't rely on study or training, yet a Cleric might learn formulaic prayers and ancient rites that help them focus their minds and spirits on drawing power from the Outer Planes. Even a Cleric who declines to worship their divine benefactor might perform their benefactor's rites if doing so helps the Cleric feel connected to the immortal realms.",
-						"Not every acolyte or officiant at a temple or shrine is a Cleric. Some priests are called to a simple life of temple service, carrying out their devotion through prayer and rituals, not through magic. Some of the most influential high priests are incapable of harnessing divine magic, and a few of them feel threatened when a Cleric appears. Many can pray, and some mortals claim to speak for the gods. But few can marshal the power of those gods the way a Cleric can."
 					]
 				}
 			]

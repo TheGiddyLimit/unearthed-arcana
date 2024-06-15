@@ -3296,6 +3296,121 @@
 			"hasFluff": true
 		}
 	],
+	"classFluff": [
+		{
+			"name": "Bard",
+			"source": "XUA2023PlayersHandbookP6",
+			"entries": [
+				{
+					"type": "section",
+					"source": "XUA2023PlayersHandbookP6",
+					"entries": [
+						"Invoking magic through music, dance, and verse, Bards are expert at inspiring others, soothing hurts, disheartening foes, and creating illusions.",
+						"Bards believe that the creators of the multiverse spoke and signed it into existence and that remnants of those Words of Creation still resound and glimmer on every plane of existence. The magic of Bards is an attempt to harness those words\u2014which transcend any language\u2014and direct them to create new wonders.",
+						"Because the Words of Creation resonate throughout the cosmos, different Bards choose different approaches to their magic. Some Bards practice their arts in temples or monasteries, drawing on the power of the Outer Planes to channel divine magic. Others listen to bird song and the music of the wind, associate with Druid circles, and wield primal magic. Still others immerse themselves in the study of magical lore, collecting scraps of mystic knowledge wherever their journeys take them as they master the secrets of arcane magic. Ultimately, though, these various paths converge as the most accomplished Bards learn to access almost the entire breadth of magical potential.",
+						"Anything can inspire a new song or tale, so Bards are fascinated by almost everything. They have a wide-ranging knowledge of many subjects and develop an aptitude to do almost anything well. Bards become masters of many things, including performing music, working magic, and making jests.",
+						"Not every singer or poet in a tavern or jester in a royal court is a Bard. Harnessing the Words of Creation requires hard work and some measure of natural talent that most troubadours and jongleurs lack. A Bard's life is spent wandering across the land gathering lore, telling stories, and living on the gratitude of audiences, much like any other entertainer. But Bards' depth of knowledge and mastery of magic sets them apart."
+					]
+				}
+			]
+		},
+		{
+			"name": "Cleric",
+			"source": "XUA2023PlayersHandbookP6",
+			"entries": [
+				{
+					"type": "section",
+					"source": "XUA2023PlayersHandbookP6",
+					"entries": [
+						"Clerics draw power from the realms of the gods and harness it to work miracles. Blessed by a deity, a pantheon, or another immortal entity, a Cleric can reach out to the divine magic of the Outer Planes\u2014where gods dwell\u2014and channel that energy to bolster people and to battle foes.",
+						"Because their power is a divine gift, Clerics typically associate themselves with temples or shrines dedicated to whatever deity or other immortal force unlocked their magical ability. Harnessing divine magic doesn't rely on study or training, yet a Cleric might learn formulaic prayers and ancient rites that help them focus their minds and spirits on drawing power from the Outer Planes. Even a Cleric who declines to worship their divine benefactor might perform their benefactor's rites if doing so helps the Cleric feel connected to the immortal realms.",
+						"Not every acolyte or officiant at a temple or shrine is a Cleric. Some priests are called to a simple life of temple service, carrying out their devotion through prayer and rituals, not through magic. Some of the most influential high priests are incapable of harnessing divine magic, and a few of them feel threatened when a Cleric appears. Many can pray, and some mortals claim to speak for the gods. But few can marshal the power of those gods the way a Cleric can."
+					]
+				}
+			]
+		},
+		{
+			"name": "Druid",
+			"source": "XUA2023PlayersHandbookP6",
+			"entries": [
+				{
+					"type": "section",
+					"source": "XUA2023PlayersHandbookP6",
+					"entries": [
+						"Druids belong to ancient orders that call on the forces of nature. Harnessing the magic of animals, plants, weather, and the four elements, Druids can heal, transform themselves, and wield elemental destruction.",
+						"Revering nature above all, individual Druids gain their magic from a nature deity, from nature itself, or both, and they typically unite with other Druids in performing rites to mark the passage of the seasons and other natural cycles. The ancient druidic traditions are sometimes called the Old Faith, in contrast to the worship of gods in temples and shrines.",
+						"Druids master Primal magic, which is oriented toward nature and animals\u2014the power of tooth and claw, of sun and moon, of fire and storm. Druids also gain the ability to take on animal forms, and some Druids focus on this practice, even to the point where they feel more natural in an animal form.",
+						"For Druids, nature exists in a precarious balance. The four elements that make up a world\u2014air, earth, fire, and water\u2014must remain in equilibrium. If one element were to gain power over the others, the world could be destroyed, drawn into one of the elemental planes and broken apart into its component elements. Thus, Druids oppose cults of Elemental Evil and others who promote one element to the exclusion of others.",
+						"Druids are also concerned with the delicate ecological balance that sustains plant and animal life and with the need for people to live in harmony with nature, not in opposition to it. Druids are often found guarding sacred sites or watching over regions of unspoiled nature. But when a significant danger arises, threatening nature's balance or the lands they protect, Druids take a more active role as adventurers who combat the threat."
+					]
+				}
+			]
+		},
+		{
+			"name": "Monk",
+			"source": "XUA2023PlayersHandbookP6",
+			"entries": [
+				{
+					"type": "section",
+					"source": "XUA2023PlayersHandbookP6",
+					"entries": [
+						"Monks use rigorous combat training and mental discipline to align themselves with the multiverse and tap into internal reservoirs of power. Different Monks conceptualize this power in various ways: as breath, energy, life force, essence, or self, for example. Whether channeled as a striking display of martial prowess or as a subtler focus of defense and speed, this power infuses all that a Monk does.",
+						"Monks harness and focus their internal power to create extraordinary, even supernatural, effects. They channel uncanny speed and strength into their attacks, with or without the use of weapons. In their hands and guided by their power, even the most basic weapons can become sophisticated implements of combat mastery. And their mightiest attacks can stun their opponents.",
+						"Many Monks find that a structured life of ascetic withdrawal from the mundane world helps them cultivate the physical and mental discipline they need to harness their power. Other Monks believe that immersing themselves in the vibrant confusion of life helps to fuel their determination and discipline.",
+						"Monks generally view their adventures as personal tests of their physical and mental development. They are driven by a desire to accomplish a greater mission than merely slaying monsters and plundering treasure; they strive to hone themselves into living weapons."
+					]
+				}
+			]
+		},
+		{
+			"name": "Paladin",
+			"source": "XUA2023PlayersHandbookP6",
+			"entries": [
+				{
+					"type": "section",
+					"source": "XUA2023PlayersHandbookP6",
+					"entries": [
+						"Paladins are united by their oaths to stand against the forces of annihilation and corruption. Whether sworn before a god's altar, in a sacred glade before nature spirits and fey beings, or in a moment of desperation and grief with the dead as the only witnesses, a Paladin's oath is a powerful bond. It is a source of power that turns a devout warrior into a blessed champion.",
+						"A Paladin swears to stand against corrupting influences and to hunt the forces of ruin wherever they lurk. Different Paladins focus on various aspects of these causes, but all are bound by the oaths that grant them power to do their sacred work.",
+						"Paladins train to learn the skills of combat, mastering a variety of weapons and armor. Even so, their martial skills are secondary to the magical power they wield\u2014power to heal the sick and injured, to smite their foes, and to protect the helpless and those who fight at their side.",
+						"Almost by definition, the life of a Paladin is an adventuring life, for every Paladin lives on the front lines of the cosmic struggle against annihilation. Fighters are rare enough among the ranks of a world's armies, but even fewer people can claim the calling of a Paladin. When they do receive the call, these blessed folk turn from their former occupations and take up arms and magic. Sometimes their oaths lead them into the service of the crown as leaders of elite groups of knights, but even then, their loyalty is first to their sacred oaths, not to crown and country.",
+						"Adventuring Paladins take their work seriously. A delve into an ancient ruin or a dusty crypt can be a quest driven by a higher purpose than the acquisition of treasure. Malign forces lurk in dungeons, and even the smallest victory against them can tilt the cosmic balance away from oblivion."
+					]
+				}
+			]
+		},
+		{
+			"name": "Ranger",
+			"source": "XUA2023PlayersHandbookP6",
+			"entries": [
+				{
+					"type": "section",
+					"source": "XUA2023PlayersHandbookP6",
+					"entries": [
+						"Far from the bustle of cities, amid the trees of trackless forests and across wide plains, Rangers keep their unending watch.",
+						"Wanderers of the wilderness, Rangers specialize in facing monsters that threaten the world. Rangers learn to track their quarry as a predator does, moving stealthily through the wilds and hiding themselves in brush and rubble.",
+						"Thanks to their connection with nature, Rangers can also cast Spells that harness the primal powers of the wilderness. A Ranger's talents and magic are honed with deadly focus on the task of protecting the world from the ravages of monsters and tyrants."
+					]
+				}
+			]
+		},
+		{
+			"name": "Rogue",
+			"source": "XUA2023PlayersHandbookP6",
+			"entries": [
+				{
+					"type": "section",
+					"source": "XUA2023PlayersHandbookP6",
+					"entries": [
+						"Rogues rely on cunning, stealth, and their foes' vulnerabilities to get the upper hand in any situation. They have a knack for finding the solution to just about any problem, demonstrating a versatility that is the cornerstone of any successful adventuring party.",
+						"Rogues devote as much effort to mastering the use of a variety of skills as they do to perfecting their combat abilities, giving them broad capabilities that few other characters can match. Many Rogues focus on stealth and deception, while others refine skills that help them in a dungeon environment, such as climbing, finding and disarming traps, and opening locks.",
+						"When it comes to combat, Rogues prioritize subtle strikes over brute strength. A Rogue would rather make one precise strike than wear an opponent down with a barrage of blows. Rogues have an almost supernatural knack for avoiding danger, and a few learn magical tricks to supplement their other abilities.",
+						"Some Rogues began their careers as criminals, while others used their cunning to fight crime. Whatever a Rogue's relation to the law, no common criminal or officer of the law can match the subtle brilliance of the greatest Rogues."
+					]
+				}
+			]
+		}
+	],
 	"subclass": [
 		{
 			"name": "Arcane Trickster",
@@ -17282,121 +17397,6 @@
 								"The creature can see into the Ethereal Plane."
 							]
 						}
-					]
-				}
-			]
-		}
-	],
-	"classFluff": [
-		{
-			"name": "Bard",
-			"source": "XUA2023PlayersHandbookP6",
-			"entries": [
-				{
-					"type": "section",
-					"source": "XUA2023PlayersHandbookP6",
-					"entries": [
-						"Invoking magic through music, dance, and verse, Bards are expert at inspiring others, soothing hurts, disheartening foes, and creating illusions.",
-						"Bards believe that the creators of the multiverse spoke and signed it into existence and that remnants of those Words of Creation still resound and glimmer on every plane of existence. The magic of Bards is an attempt to harness those words\u2014which transcend any language\u2014and direct them to create new wonders.",
-						"Because the Words of Creation resonate throughout the cosmos, different Bards choose different approaches to their magic. Some Bards practice their arts in temples or monasteries, drawing on the power of the Outer Planes to channel divine magic. Others listen to bird song and the music of the wind, associate with Druid circles, and wield primal magic. Still others immerse themselves in the study of magical lore, collecting scraps of mystic knowledge wherever their journeys take them as they master the secrets of arcane magic. Ultimately, though, these various paths converge as the most accomplished Bards learn to access almost the entire breadth of magical potential.",
-						"Anything can inspire a new song or tale, so Bards are fascinated by almost everything. They have a wide-ranging knowledge of many subjects and develop an aptitude to do almost anything well. Bards become masters of many things, including performing music, working magic, and making jests.",
-						"Not every singer or poet in a tavern or jester in a royal court is a Bard. Harnessing the Words of Creation requires hard work and some measure of natural talent that most troubadours and jongleurs lack. A Bard's life is spent wandering across the land gathering lore, telling stories, and living on the gratitude of audiences, much like any other entertainer. But Bards' depth of knowledge and mastery of magic sets them apart."
-					]
-				}
-			]
-		},
-		{
-			"name": "Cleric",
-			"source": "XUA2023PlayersHandbookP6",
-			"entries": [
-				{
-					"type": "section",
-					"source": "XUA2023PlayersHandbookP6",
-					"entries": [
-						"Clerics draw power from the realms of the gods and harness it to work miracles. Blessed by a deity, a pantheon, or another immortal entity, a Cleric can reach out to the divine magic of the Outer Planes\u2014where gods dwell\u2014and channel that energy to bolster people and to battle foes.",
-						"Because their power is a divine gift, Clerics typically associate themselves with temples or shrines dedicated to whatever deity or other immortal force unlocked their magical ability. Harnessing divine magic doesn't rely on study or training, yet a Cleric might learn formulaic prayers and ancient rites that help them focus their minds and spirits on drawing power from the Outer Planes. Even a Cleric who declines to worship their divine benefactor might perform their benefactor's rites if doing so helps the Cleric feel connected to the immortal realms.",
-						"Not every acolyte or officiant at a temple or shrine is a Cleric. Some priests are called to a simple life of temple service, carrying out their devotion through prayer and rituals, not through magic. Some of the most influential high priests are incapable of harnessing divine magic, and a few of them feel threatened when a Cleric appears. Many can pray, and some mortals claim to speak for the gods. But few can marshal the power of those gods the way a Cleric can."
-					]
-				}
-			]
-		},
-		{
-			"name": "Druid",
-			"source": "XUA2023PlayersHandbookP6",
-			"entries": [
-				{
-					"type": "section",
-					"source": "XUA2023PlayersHandbookP6",
-					"entries": [
-						"Druids belong to ancient orders that call on the forces of nature. Harnessing the magic of animals, plants, weather, and the four elements, Druids can heal, transform themselves, and wield elemental destruction.",
-						"Revering nature above all, individual Druids gain their magic from a nature deity, from nature itself, or both, and they typically unite with other Druids in performing rites to mark the passage of the seasons and other natural cycles. The ancient druidic traditions are sometimes called the Old Faith, in contrast to the worship of gods in temples and shrines.",
-						"Druids master Primal magic, which is oriented toward nature and animals\u2014the power of tooth and claw, of sun and moon, of fire and storm. Druids also gain the ability to take on animal forms, and some Druids focus on this practice, even to the point where they feel more natural in an animal form.",
-						"For Druids, nature exists in a precarious balance. The four elements that make up a world\u2014air, earth, fire, and water\u2014must remain in equilibrium. If one element were to gain power over the others, the world could be destroyed, drawn into one of the elemental planes and broken apart into its component elements. Thus, Druids oppose cults of Elemental Evil and others who promote one element to the exclusion of others.",
-						"Druids are also concerned with the delicate ecological balance that sustains plant and animal life and with the need for people to live in harmony with nature, not in opposition to it. Druids are often found guarding sacred sites or watching over regions of unspoiled nature. But when a significant danger arises, threatening nature's balance or the lands they protect, Druids take a more active role as adventurers who combat the threat."
-					]
-				}
-			]
-		},
-		{
-			"name": "Monk",
-			"source": "XUA2023PlayersHandbookP6",
-			"entries": [
-				{
-					"type": "section",
-					"source": "XUA2023PlayersHandbookP6",
-					"entries": [
-						"Monks use rigorous combat training and mental discipline to align themselves with the multiverse and tap into internal reservoirs of power. Different Monks conceptualize this power in various ways: as breath, energy, life force, essence, or self, for example. Whether channeled as a striking display of martial prowess or as a subtler focus of defense and speed, this power infuses all that a Monk does.",
-						"Monks harness and focus their internal power to create extraordinary, even supernatural, effects. They channel uncanny speed and strength into their attacks, with or without the use of weapons. In their hands and guided by their power, even the most basic weapons can become sophisticated implements of combat mastery. And their mightiest attacks can stun their opponents.",
-						"Many Monks find that a structured life of ascetic withdrawal from the mundane world helps them cultivate the physical and mental discipline they need to harness their power. Other Monks believe that immersing themselves in the vibrant confusion of life helps to fuel their determination and discipline.",
-						"Monks generally view their adventures as personal tests of their physical and mental development. They are driven by a desire to accomplish a greater mission than merely slaying monsters and plundering treasure; they strive to hone themselves into living weapons."
-					]
-				}
-			]
-		},
-		{
-			"name": "Paladin",
-			"source": "XUA2023PlayersHandbookP6",
-			"entries": [
-				{
-					"type": "section",
-					"source": "XUA2023PlayersHandbookP6",
-					"entries": [
-						"Paladins are united by their oaths to stand against the forces of annihilation and corruption. Whether sworn before a god's altar, in a sacred glade before nature spirits and fey beings, or in a moment of desperation and grief with the dead as the only witnesses, a Paladin's oath is a powerful bond. It is a source of power that turns a devout warrior into a blessed champion.",
-						"A Paladin swears to stand against corrupting influences and to hunt the forces of ruin wherever they lurk. Different Paladins focus on various aspects of these causes, but all are bound by the oaths that grant them power to do their sacred work.",
-						"Paladins train to learn the skills of combat, mastering a variety of weapons and armor. Even so, their martial skills are secondary to the magical power they wield\u2014power to heal the sick and injured, to smite their foes, and to protect the helpless and those who fight at their side.",
-						"Almost by definition, the life of a Paladin is an adventuring life, for every Paladin lives on the front lines of the cosmic struggle against annihilation. Fighters are rare enough among the ranks of a world's armies, but even fewer people can claim the calling of a Paladin. When they do receive the call, these blessed folk turn from their former occupations and take up arms and magic. Sometimes their oaths lead them into the service of the crown as leaders of elite groups of knights, but even then, their loyalty is first to their sacred oaths, not to crown and country.",
-						"Adventuring Paladins take their work seriously. A delve into an ancient ruin or a dusty crypt can be a quest driven by a higher purpose than the acquisition of treasure. Malign forces lurk in dungeons, and even the smallest victory against them can tilt the cosmic balance away from oblivion."
-					]
-				}
-			]
-		},
-		{
-			"name": "Ranger",
-			"source": "XUA2023PlayersHandbookP6",
-			"entries": [
-				{
-					"type": "section",
-					"source": "XUA2023PlayersHandbookP6",
-					"entries": [
-						"Far from the bustle of cities, amid the trees of trackless forests and across wide plains, Rangers keep their unending watch.",
-						"Wanderers of the wilderness, Rangers specialize in facing monsters that threaten the world. Rangers learn to track their quarry as a predator does, moving stealthily through the wilds and hiding themselves in brush and rubble.",
-						"Thanks to their connection with nature, Rangers can also cast Spells that harness the primal powers of the wilderness. A Ranger's talents and magic are honed with deadly focus on the task of protecting the world from the ravages of monsters and tyrants."
-					]
-				}
-			]
-		},
-		{
-			"name": "Rogue",
-			"source": "XUA2023PlayersHandbookP6",
-			"entries": [
-				{
-					"type": "section",
-					"source": "XUA2023PlayersHandbookP6",
-					"entries": [
-						"Rogues rely on cunning, stealth, and their foes' vulnerabilities to get the upper hand in any situation. They have a knack for finding the solution to just about any problem, demonstrating a versatility that is the cornerstone of any successful adventuring party.",
-						"Rogues devote as much effort to mastering the use of a variety of skills as they do to perfecting their combat abilities, giving them broad capabilities that few other characters can match. Many Rogues focus on stealth and deception, while others refine skills that help them in a dungeon environment, such as climbing, finding and disarming traps, and opening locks.",
-						"When it comes to combat, Rogues prioritize subtle strikes over brute strength. A Rogue would rather make one precise strike than wear an opponent down with a barrage of blows. Rogues have an almost supernatural knack for avoiding danger, and a few learn magical tricks to supplement their other abilities.",
-						"Some Rogues began their careers as criminals, while others used their cunning to fight crime. Whatever a Rogue's relation to the law, no common criminal or officer of the law can match the subtle brilliance of the greatest Rogues."
 					]
 				}
 			]
