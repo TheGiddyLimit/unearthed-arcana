@@ -26,7 +26,10 @@
 			"id": "UAItW",
 			"source": "UAIntoTheWild",
 			"group": "prerelease",
-			"coverUrl": "img/covers/blank.webp",
+			"cover": {
+				"type": "internal",
+				"path": "covers/blank.webp"
+			},
 			"published": "2018-02-12",
 			"author": "Mike Mearls",
 			"contents": [

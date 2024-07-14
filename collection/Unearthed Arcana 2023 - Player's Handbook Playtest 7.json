@@ -10370,7 +10370,10 @@
 			"id": "XUA2023PlayersHandbookP7",
 			"source": "XUA2023PlayersHandbookP7",
 			"group": "prerelease",
-			"coverUrl": "img/covers/blank.webp",
+			"cover": {
+				"type": "internal",
+				"path": "covers/blank.webp"
+			},
 			"published": "2023-09-07",
 			"author": "Wizards of the Coast",
 			"contents": [

@@ -1721,7 +1721,10 @@
 			"id": "UAD",
 			"source": "UADowntime",
 			"group": "prerelease",
-			"coverUrl": "img/covers/blank.webp",
+			"cover": {
+				"type": "internal",
+				"path": "covers/blank.webp"
+			},
 			"published": "2017-04-10",
 			"author": "Mike Mearls",
 			"contents": [

@@ -26,7 +26,10 @@
 			"id": "UAQCh",
 			"source": "UAQuickCharacters",
 			"group": "prerelease",
-			"coverUrl": "img/covers/blank.webp",
+			"cover": {
+				"type": "internal",
+				"path": "covers/blank.webp"
+			},
 			"published": "2016-07-25",
 			"author": "Mike Mearls",
 			"contents": [

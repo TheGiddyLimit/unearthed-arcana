@@ -26,7 +26,10 @@
 			"id": "UAWAC",
 			"source": "UAWhenArmiesClash",
 			"group": "prerelease",
-			"coverUrl": "img/covers/blank.webp",
+			"cover": {
+				"type": "internal",
+				"path": "covers/blank.webp"
+			},
 			"published": "2015-02-02",
 			"author": "Mike Mearls",
 			"contents": [
