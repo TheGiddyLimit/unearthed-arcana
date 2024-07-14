@@ -2959,7 +2959,7 @@
 					"rows": [
 						[
 							"3",
-							"{@spell Cure Wounds}, {@spell Moonbeam}, {@spell Starry Wisp|XUA2023PlayersHandbookP8}"
+							"{@spell Cure Wounds|XUA2023PlayersHandbookP8}, {@spell Moonbeam}, {@spell Starry Wisp|XUA2023PlayersHandbookP8}"
 						],
 						[
 							"5",
@@ -2967,11 +2967,11 @@
 						],
 						[
 							"7",
-							"{@spell Fount of Moonlight}"
+							"{@spell Fount of Moonlight|XUA2023PlayersHandbookP8}"
 						],
 						[
 							"9",
-							"{@spell Dawn}"
+							"{@spell Dawn|XGE}"
 						]
 					]
 				}
