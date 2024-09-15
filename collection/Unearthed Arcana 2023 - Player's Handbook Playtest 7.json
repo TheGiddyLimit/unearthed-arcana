@@ -46,7 +46,7 @@
 				"armor": [
 					"light",
 					"medium",
-					"{@item shield|phb|shields}"
+					"shield"
 				],
 				"weapons": [
 					"simple",
@@ -84,7 +84,7 @@
 				},
 				"proficienciesGained": {
 					"armor": [
-						"{@item shield|phb|shields}"
+						"shield"
 					],
 					"weapons": [
 						"martial"
@@ -331,7 +331,7 @@
 					"light",
 					"medium",
 					"heavy",
-					"{@item shield|phb|shields}"
+					"shield"
 				],
 				"weapons": [
 					"simple",
@@ -382,7 +382,7 @@
 					"armor": [
 						"light",
 						"medium",
-						"{@item shield|phb|shields}"
+						"shield"
 					],
 					"weapons": [
 						"martial"
@@ -8426,7 +8426,7 @@
 			"value": 50000,
 			"weaponCategory": "martial",
 			"property": [
-				"AF",
+				"AF|DMG",
 				"LD",
 				"2H"
 			],
@@ -8471,7 +8471,7 @@
 			"value": 25000,
 			"weaponCategory": "martial",
 			"property": [
-				"AF",
+				"AF|DMG",
 				"LD"
 			],
 			"mastery": [

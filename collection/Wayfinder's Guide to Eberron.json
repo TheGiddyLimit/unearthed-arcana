@@ -275,7 +275,7 @@
 			"name": "Band of Loyalty",
 			"source": "UAWayfindersGuideToEberron",
 			"page": 115,
-			"type": "RG",
+			"type": "RG|DMG",
 			"rarity": "common",
 			"reqAttune": true,
 			"entries": [
@@ -286,7 +286,7 @@
 			"name": "Rings of Shared Suffering",
 			"source": "UAWayfindersGuideToEberron",
 			"page": 117,
-			"type": "RG",
+			"type": "RG|DMG",
 			"rarity": "uncommon",
 			"reqAttune": true,
 			"entries": [

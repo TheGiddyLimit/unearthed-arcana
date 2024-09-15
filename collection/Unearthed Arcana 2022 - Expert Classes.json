@@ -803,7 +803,7 @@
 					"armor": [
 						"light",
 						"medium",
-						"{@item shield|phb|shields}"
+						"shield"
 					],
 					"skills": [
 						{
@@ -3840,7 +3840,7 @@
 				{
 					"light": true,
 					"medium": true,
-					"shield|phb": true
+					"shield": true
 				}
 			],
 			"entries": [

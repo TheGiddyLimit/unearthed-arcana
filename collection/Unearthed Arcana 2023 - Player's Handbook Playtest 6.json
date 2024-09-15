@@ -780,7 +780,7 @@
 				"armor": [
 					"light",
 					"medium",
-					"{@item shield|phb|shields}"
+					"shield"
 				],
 				"weapons": [
 					"simple"
@@ -820,7 +820,7 @@
 					"armor": [
 						"light",
 						"medium",
-						"{@item shield|phb|shields}"
+						"shield"
 					]
 				}
 			},
@@ -1251,7 +1251,7 @@
 			"startingProficiencies": {
 				"armor": [
 					"light",
-					"{@item shield|phb|shields}"
+					"shield"
 				],
 				"weapons": [
 					"simple"
@@ -1302,7 +1302,7 @@
 				"proficienciesGained": {
 					"armor": [
 						"light",
-						"{@item shield|phb|shields}"
+						"shield"
 					]
 				}
 			},
@@ -2182,7 +2182,7 @@
 					"light",
 					"medium",
 					"heavy",
-					"{@item shield|phb|shields}"
+					"shield"
 				],
 				"weapons": [
 					"simple",
@@ -2226,7 +2226,7 @@
 					"armor": [
 						"light",
 						"medium",
-						"{@item shield|phb|shields}"
+						"shield"
 					],
 					"weapons": [
 						"martial"
@@ -2603,7 +2603,7 @@
 					"armor": [
 						"light",
 						"medium",
-						"{@item shield|phb|shields}"
+						"shield"
 					],
 					"skills": [
 						{

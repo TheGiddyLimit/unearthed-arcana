@@ -46,7 +46,7 @@
 				"armor": [
 					"light",
 					"medium",
-					"{@item shield|phb|shields}"
+					"shield"
 				],
 				"weapons": [
 					"simple",
@@ -84,7 +84,7 @@
 				},
 				"proficienciesGained": {
 					"armor": [
-						"{@item shield|phb|shields}"
+						"shield"
 					],
 					"weapons": [
 						"martial"
@@ -373,7 +373,7 @@
 			"startingProficiencies": {
 				"armor": [
 					"light",
-					"{@item shield|phb|shields}"
+					"shield"
 				],
 				"weapons": [
 					"simple"
@@ -424,7 +424,7 @@
 				"proficienciesGained": {
 					"armor": [
 						"light",
-						"{@item shield|phb|shields}"
+						"shield"
 					]
 				}
 			},
@@ -3166,7 +3166,7 @@
 			"name": "Ability Score Improvement",
 			"source": "XUA2023PlayersHandbookP8",
 			"page": 21,
-			"category": "general",
+			"category": "G",
 			"prerequisite": [
 				{
 					"level": 4
@@ -4541,7 +4541,7 @@
 			"value": 50000,
 			"weaponCategory": "martial",
 			"property": [
-				"AF",
+				"AF|DMG",
 				"LD",
 				"2H"
 			],
@@ -4586,7 +4586,7 @@
 			"value": 25000,
 			"weaponCategory": "martial",
 			"property": [
-				"AF",
+				"AF|DMG",
 				"LD"
 			],
 			"mastery": [

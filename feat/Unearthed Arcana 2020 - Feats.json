@@ -394,7 +394,7 @@
 			],
 			"armorProficiencies": [
 				{
-					"shield|phb": true
+					"shield": true
 				}
 			],
 			"entries": [
