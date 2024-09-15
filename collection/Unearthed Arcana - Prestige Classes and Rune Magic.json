@@ -207,7 +207,7 @@
 			"name": "Opal of the Ild Rune",
 			"source": "UAPrestigeClassesRunMagic",
 			"page": 4,
-			"type": "MR",
+			"type": "MR|UAPrestigeClassesRunMagic",
 			"resist": [
 				"cold"
 			],
@@ -265,7 +265,7 @@
 			"name": "Orb of the Stein Rune",
 			"source": "UAPrestigeClassesRunMagic",
 			"page": 5,
-			"type": "MR",
+			"type": "MR|UAPrestigeClassesRunMagic",
 			"rarity": "rare",
 			"reqAttune": true,
 			"entries": [
@@ -320,7 +320,7 @@
 			"name": "Pennant of the Vind Rune",
 			"source": "UAPrestigeClassesRunMagic",
 			"page": 5,
-			"type": "MR",
+			"type": "MR|UAPrestigeClassesRunMagic",
 			"rarity": "rare",
 			"reqAttune": true,
 			"entries": [
@@ -375,7 +375,7 @@
 			"name": "Shard of the Kalt Rune",
 			"source": "UAPrestigeClassesRunMagic",
 			"page": 6,
-			"type": "MR",
+			"type": "MR|UAPrestigeClassesRunMagic",
 			"resist": [
 				"fire"
 			],
@@ -428,6 +428,14 @@
 					]
 				}
 			]
+		}
+	],
+	"itemType": [
+		{
+			"name": "Master Rune",
+			"abbreviation": "MR",
+			"source": "UAPrestigeClassesRunMagic",
+			"page": 4
 		}
 	],
 	"variantrule": [
