@@ -21,7 +21,8 @@
 		],
 		"dateAdded": 1701616429,
 		"dateLastModified": 1709418572,
-		"_dateLastModifiedHash": "6b466c12f7"
+		"_dateLastModifiedHash": "6b466c12f7",
+		"edition": "classic"
 	},
 	"subclass": [
 		{
@@ -32,8 +33,8 @@
 			"classSource": "PHB",
 			"_copy": {
 				"name": "Mage of Lorehold (UA)",
-				"shortName": "Lorehold (UA)",
 				"source": "UA2021MagesOfStrixhaven",
+				"shortName": "Lorehold (UA)",
 				"className": "Generic",
 				"classSource": "Generic",
 				"_preserve": {
@@ -85,8 +86,8 @@
 			"classSource": "PHB",
 			"_copy": {
 				"name": "Mage of Lorehold (UA)",
-				"shortName": "Lorehold (UA)",
 				"source": "UA2021MagesOfStrixhaven",
+				"shortName": "Lorehold (UA)",
 				"className": "Generic",
 				"classSource": "Generic",
 				"_preserve": {
@@ -102,8 +103,8 @@
 			"classSource": "PHB",
 			"_copy": {
 				"name": "Mage of Lorehold (UA)",
-				"shortName": "Lorehold (UA)",
 				"source": "UA2021MagesOfStrixhaven",
+				"shortName": "Lorehold (UA)",
 				"className": "Generic",
 				"classSource": "Generic",
 				"_preserve": {
@@ -119,8 +120,8 @@
 			"classSource": "PHB",
 			"_copy": {
 				"name": "Mage of Prismari (UA)",
-				"shortName": "Prismari (UA)",
 				"source": "UA2021MagesOfStrixhaven",
+				"shortName": "Prismari (UA)",
 				"className": "Generic",
 				"classSource": "Generic",
 				"_preserve": {
@@ -150,8 +151,8 @@
 			"classSource": "PHB",
 			"_copy": {
 				"name": "Mage of Prismari (UA)",
-				"shortName": "Prismari (UA)",
 				"source": "UA2021MagesOfStrixhaven",
+				"shortName": "Prismari (UA)",
 				"className": "Generic",
 				"classSource": "Generic",
 				"_preserve": {
@@ -167,8 +168,8 @@
 			"classSource": "PHB",
 			"_copy": {
 				"name": "Mage of Prismari (UA)",
-				"shortName": "Prismari (UA)",
 				"source": "UA2021MagesOfStrixhaven",
+				"shortName": "Prismari (UA)",
 				"className": "Generic",
 				"classSource": "Generic",
 				"_preserve": {
@@ -220,8 +221,8 @@
 			"classSource": "PHB",
 			"_copy": {
 				"name": "Mage of Quandrix (UA)",
-				"shortName": "Quandrix (UA)",
 				"source": "UA2021MagesOfStrixhaven",
+				"shortName": "Quandrix (UA)",
 				"className": "Generic",
 				"classSource": "Generic",
 				"_preserve": {
@@ -237,8 +238,8 @@
 			"classSource": "PHB",
 			"_copy": {
 				"name": "Mage of Quandrix (UA)",
-				"shortName": "Quandrix (UA)",
 				"source": "UA2021MagesOfStrixhaven",
+				"shortName": "Quandrix (UA)",
 				"className": "Generic",
 				"classSource": "Generic",
 				"_preserve": {
@@ -254,8 +255,8 @@
 			"classSource": "PHB",
 			"_copy": {
 				"name": "Mage of Silverquill (UA)",
-				"shortName": "Silverquill (UA)",
 				"source": "UA2021MagesOfStrixhaven",
+				"shortName": "Silverquill (UA)",
 				"className": "Generic",
 				"classSource": "Generic",
 				"_preserve": {
@@ -285,8 +286,8 @@
 			"classSource": "PHB",
 			"_copy": {
 				"name": "Mage of Silverquill (UA)",
-				"shortName": "Silverquill (UA)",
 				"source": "UA2021MagesOfStrixhaven",
+				"shortName": "Silverquill (UA)",
 				"className": "Generic",
 				"classSource": "Generic",
 				"_preserve": {
@@ -302,8 +303,8 @@
 			"classSource": "PHB",
 			"_copy": {
 				"name": "Mage of Silverquill (UA)",
-				"shortName": "Silverquill (UA)",
 				"source": "UA2021MagesOfStrixhaven",
+				"shortName": "Silverquill (UA)",
 				"className": "Generic",
 				"classSource": "Generic",
 				"_preserve": {
@@ -319,8 +320,8 @@
 			"classSource": "PHB",
 			"_copy": {
 				"name": "Mage of Witherbloom (UA)",
-				"shortName": "Witherbloom (UA)",
 				"source": "UA2021MagesOfStrixhaven",
+				"shortName": "Witherbloom (UA)",
 				"className": "Generic",
 				"classSource": "Generic",
 				"_preserve": {
@@ -372,8 +373,8 @@
 			"classSource": "PHB",
 			"_copy": {
 				"name": "Mage of Witherbloom (UA)",
-				"shortName": "Witherbloom (UA)",
 				"source": "UA2021MagesOfStrixhaven",
+				"shortName": "Witherbloom (UA)",
 				"className": "Generic",
 				"classSource": "Generic",
 				"_preserve": {

@@ -24,7 +24,8 @@
 		},
 		"dateAdded": 1691158917,
 		"dateLastModified": 1726408082,
-		"_dateLastModifiedHash": "36171f234f"
+		"_dateLastModifiedHash": "36171f234f",
+		"edition": "classic"
 	},
 	"class": [
 		{
@@ -1973,8 +1974,8 @@
 			"page": 22,
 			"_copy": {
 				"name": "Aberrant Mind",
-				"shortName": "Aberrant Mind",
 				"source": "TCE",
+				"shortName": "Aberrant Mind",
 				"className": "Sorcerer",
 				"classSource": "PHB"
 			}
@@ -2118,8 +2119,8 @@
 			"page": 22,
 			"_copy": {
 				"name": "Clockwork Soul",
-				"shortName": "Clockwork Soul",
 				"source": "TCE",
+				"shortName": "Clockwork Soul",
 				"className": "Sorcerer",
 				"classSource": "PHB"
 			}
