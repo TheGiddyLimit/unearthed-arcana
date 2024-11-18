@@ -5230,7 +5230,13 @@
 								],
 								[
 									"8",
-									"{@spell Antipathy/Sympathy Enchantment 8 Holy Aura}",
+									"{@spell Antipathy/Sympathy}",
+									"Enchantment",
+									"No"
+								],
+								[
+									"8",
+									"{@spell Holy Aura}",
 									"Abjuration",
 									"No"
 								],
