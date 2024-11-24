@@ -1,0 +1,2054 @@
+{
+	"_meta": {
+		"sources": [
+			{
+				"json": "UAMagicItemsofEberron",
+				"abbreviation": "UAMIoE",
+				"full": "Unearthed Arcana: Magic Items of Eberron",
+				"authors": [
+					"Wizards of the Coast"
+				],
+				"convertedBy": [
+					"Lyra [he/him]"
+				],
+				"version": "1.0.0",
+				"url": "https://media.wizards.com/2018/dnd/downloads/UA_Magic_Items_of_Eberron.pdf",
+				"dateReleased": "2018-10-08"
+			}
+		],
+		"dependencies": {
+			"baseitem": [
+				"PHB"
+			]
+		},
+		"internalCopies": [
+			"itemFluff"
+		],
+		"edition": "classic",
+		"dateAdded": 1732050258,
+		"dateLastModified": 1732050258
+	},
+	"baseitem": [
+		{
+			"name": "Armblade (Club)",
+			"source": "UAMagicItemsofEberron",
+			"page": 3,
+			"reprintedAs": [
+				"Armblade|ERLW"
+			],
+			"_copy": {
+				"name": "Club",
+				"source": "PHB",
+				"_mod": {
+					"entries": [
+						{
+							"mode": "prependArr",
+							"items": [
+								"An armblade is a weapon designed to integrate with the forearm of a warforged. If you're a warforged, you can attach an armblade by attuning to it. An attached armblade cannot be disarmed or removed from you against your will, but while the weapon is attached you cannot use that hand for other actions. You can spend one minute to end the attunement and remove the armblade."
+							]
+						}
+					]
+				}
+			},
+			"rarity": "common",
+			"reqAttune": "by a warforged",
+			"reqAttuneTags": [
+				{
+					"race": "warforged|erlw"
+				}
+			],
+			"hasFluff": true
+		},
+		{
+			"name": "Armblade (Dagger)",
+			"source": "UAMagicItemsofEberron",
+			"page": 3,
+			"reprintedAs": [
+				"Armblade|ERLW"
+			],
+			"_copy": {
+				"name": "Dagger",
+				"source": "PHB",
+				"_mod": {
+					"entries": [
+						{
+							"mode": "prependArr",
+							"items": [
+								"An armblade is a weapon designed to integrate with the forearm of a warforged. If you're a warforged, you can attach an armblade by attuning to it. An attached armblade cannot be disarmed or removed from you against your will, but while the weapon is attached you cannot use that hand for other actions. You can spend one minute to end the attunement and remove the armblade."
+							]
+						}
+					]
+				}
+			},
+			"rarity": "common",
+			"reqAttune": "by a warforged",
+			"reqAttuneTags": [
+				{
+					"race": "warforged|erlw"
+				}
+			],
+			"hasFluff": true
+		},
+		{
+			"name": "Armblade (Flail)",
+			"source": "UAMagicItemsofEberron",
+			"page": 3,
+			"reprintedAs": [
+				"Armblade|ERLW"
+			],
+			"_copy": {
+				"name": "Flail",
+				"source": "PHB",
+				"_mod": {
+					"entries": [
+						{
+							"mode": "prependArr",
+							"items": [
+								"An armblade is a weapon designed to integrate with the forearm of a warforged. If you're a warforged, you can attach an armblade by attuning to it. An attached armblade cannot be disarmed or removed from you against your will, but while the weapon is attached you cannot use that hand for other actions. You can spend one minute to end the attunement and remove the armblade."
+							]
+						}
+					]
+				}
+			},
+			"rarity": "common",
+			"reqAttune": "by a warforged",
+			"reqAttuneTags": [
+				{
+					"race": "warforged|erlw"
+				}
+			],
+			"hasFluff": true
+		},
+		{
+			"name": "Armblade (Handaxe)",
+			"source": "UAMagicItemsofEberron",
+			"page": 3,
+			"reprintedAs": [
+				"Armblade|ERLW"
+			],
+			"_copy": {
+				"name": "Handaxe",
+				"source": "PHB",
+				"_mod": {
+					"entries": [
+						{
+							"mode": "prependArr",
+							"items": [
+								"An armblade is a weapon designed to integrate with the forearm of a warforged. If you're a warforged, you can attach an armblade by attuning to it. An attached armblade cannot be disarmed or removed from you against your will, but while the weapon is attached you cannot use that hand for other actions. You can spend one minute to end the attunement and remove the armblade."
+							]
+						}
+					]
+				}
+			},
+			"rarity": "common",
+			"reqAttune": "by a warforged",
+			"reqAttuneTags": [
+				{
+					"race": "warforged|erlw"
+				}
+			],
+			"hasFluff": true
+		},
+		{
+			"name": "Armblade (Javelin)",
+			"source": "UAMagicItemsofEberron",
+			"page": 3,
+			"reprintedAs": [
+				"Armblade|ERLW"
+			],
+			"_copy": {
+				"name": "Javelin",
+				"source": "PHB",
+				"_mod": {
+					"entries": [
+						{
+							"mode": "prependArr",
+							"items": [
+								"An armblade is a weapon designed to integrate with the forearm of a warforged. If you're a warforged, you can attach an armblade by attuning to it. An attached armblade cannot be disarmed or removed from you against your will, but while the weapon is attached you cannot use that hand for other actions. You can spend one minute to end the attunement and remove the armblade."
+							]
+						}
+					]
+				}
+			},
+			"rarity": "common",
+			"reqAttune": "by a warforged",
+			"reqAttuneTags": [
+				{
+					"race": "warforged|erlw"
+				}
+			],
+			"hasFluff": true
+		},
+		{
+			"name": "Armblade (Light Hammer)",
+			"source": "UAMagicItemsofEberron",
+			"page": 3,
+			"reprintedAs": [
+				"Armblade|ERLW"
+			],
+			"_copy": {
+				"name": "Light Hammer",
+				"source": "PHB",
+				"_mod": {
+					"entries": [
+						{
+							"mode": "prependArr",
+							"items": [
+								"An armblade is a weapon designed to integrate with the forearm of a warforged. If you're a warforged, you can attach an armblade by attuning to it. An attached armblade cannot be disarmed or removed from you against your will, but while the weapon is attached you cannot use that hand for other actions. You can spend one minute to end the attunement and remove the armblade."
+							]
+						}
+					]
+				}
+			},
+			"rarity": "common",
+			"reqAttune": "by a warforged",
+			"reqAttuneTags": [
+				{
+					"race": "warforged|erlw"
+				}
+			],
+			"hasFluff": true
+		},
+		{
+			"name": "Armblade (Mace)",
+			"source": "UAMagicItemsofEberron",
+			"page": 3,
+			"reprintedAs": [
+				"Armblade|ERLW"
+			],
+			"_copy": {
+				"name": "Mace",
+				"source": "PHB",
+				"_mod": {
+					"entries": [
+						{
+							"mode": "prependArr",
+							"items": [
+								"An armblade is a weapon designed to integrate with the forearm of a warforged. If you're a warforged, you can attach an armblade by attuning to it. An attached armblade cannot be disarmed or removed from you against your will, but while the weapon is attached you cannot use that hand for other actions. You can spend one minute to end the attunement and remove the armblade."
+							]
+						}
+					]
+				}
+			},
+			"rarity": "common",
+			"reqAttune": "by a warforged",
+			"reqAttuneTags": [
+				{
+					"race": "warforged|erlw"
+				}
+			],
+			"hasFluff": true
+		},
+		{
+			"name": "Armblade (Morningstar)",
+			"source": "UAMagicItemsofEberron",
+			"page": 3,
+			"reprintedAs": [
+				"Armblade|ERLW"
+			],
+			"_copy": {
+				"name": "Morningstar",
+				"source": "PHB",
+				"_mod": {
+					"entries": [
+						{
+							"mode": "prependArr",
+							"items": [
+								"An armblade is a weapon designed to integrate with the forearm of a warforged. If you're a warforged, you can attach an armblade by attuning to it. An attached armblade cannot be disarmed or removed from you against your will, but while the weapon is attached you cannot use that hand for other actions. You can spend one minute to end the attunement and remove the armblade."
+							]
+						}
+					]
+				}
+			},
+			"rarity": "common",
+			"reqAttune": "by a warforged",
+			"reqAttuneTags": [
+				{
+					"race": "warforged|erlw"
+				}
+			],
+			"hasFluff": true
+		},
+		{
+			"name": "Armblade (Rapier)",
+			"source": "UAMagicItemsofEberron",
+			"page": 3,
+			"reprintedAs": [
+				"Armblade|ERLW"
+			],
+			"_copy": {
+				"name": "Rapier",
+				"source": "PHB",
+				"_mod": {
+					"entries": [
+						{
+							"mode": "prependArr",
+							"items": [
+								"An armblade is a weapon designed to integrate with the forearm of a warforged. If you're a warforged, you can attach an armblade by attuning to it. An attached armblade cannot be disarmed or removed from you against your will, but while the weapon is attached you cannot use that hand for other actions. You can spend one minute to end the attunement and remove the armblade."
+							]
+						}
+					]
+				}
+			},
+			"rarity": "common",
+			"reqAttune": "by a warforged",
+			"reqAttuneTags": [
+				{
+					"race": "warforged|erlw"
+				}
+			],
+			"hasFluff": true
+		},
+		{
+			"name": "Armblade (Scimitar)",
+			"source": "UAMagicItemsofEberron",
+			"page": 3,
+			"reprintedAs": [
+				"Armblade|ERLW"
+			],
+			"_copy": {
+				"name": "Scimitar",
+				"source": "PHB",
+				"_mod": {
+					"entries": [
+						{
+							"mode": "prependArr",
+							"items": [
+								"An armblade is a weapon designed to integrate with the forearm of a warforged. If you're a warforged, you can attach an armblade by attuning to it. An attached armblade cannot be disarmed or removed from you against your will, but while the weapon is attached you cannot use that hand for other actions. You can spend one minute to end the attunement and remove the armblade."
+							]
+						}
+					]
+				}
+			},
+			"rarity": "common",
+			"reqAttune": "by a warforged",
+			"reqAttuneTags": [
+				{
+					"race": "warforged|erlw"
+				}
+			],
+			"hasFluff": true
+		},
+		{
+			"name": "Armblade (Shortsword)",
+			"source": "UAMagicItemsofEberron",
+			"page": 3,
+			"reprintedAs": [
+				"Armblade|ERLW"
+			],
+			"_copy": {
+				"name": "Shortsword",
+				"source": "PHB",
+				"_mod": {
+					"entries": [
+						{
+							"mode": "prependArr",
+							"items": [
+								"An armblade is a weapon designed to integrate with the forearm of a warforged. If you're a warforged, you can attach an armblade by attuning to it. An attached armblade cannot be disarmed or removed from you against your will, but while the weapon is attached you cannot use that hand for other actions. You can spend one minute to end the attunement and remove the armblade."
+							]
+						}
+					]
+				}
+			},
+			"rarity": "common",
+			"reqAttune": "by a warforged",
+			"reqAttuneTags": [
+				{
+					"race": "warforged|erlw"
+				}
+			],
+			"hasFluff": true
+		},
+		{
+			"name": "Armblade (Sickle)",
+			"source": "UAMagicItemsofEberron",
+			"page": 3,
+			"reprintedAs": [
+				"Armblade|ERLW"
+			],
+			"_copy": {
+				"name": "Sickle",
+				"source": "PHB",
+				"_mod": {
+					"entries": [
+						{
+							"mode": "prependArr",
+							"items": [
+								"An armblade is a weapon designed to integrate with the forearm of a warforged. If you're a warforged, you can attach an armblade by attuning to it. An attached armblade cannot be disarmed or removed from you against your will, but while the weapon is attached you cannot use that hand for other actions. You can spend one minute to end the attunement and remove the armblade."
+							]
+						}
+					]
+				}
+			},
+			"rarity": "common",
+			"reqAttune": "by a warforged",
+			"reqAttuneTags": [
+				{
+					"race": "warforged|erlw"
+				}
+			],
+			"hasFluff": true
+		},
+		{
+			"name": "Armblade (War Pick)",
+			"source": "UAMagicItemsofEberron",
+			"page": 3,
+			"reprintedAs": [
+				"Armblade|ERLW"
+			],
+			"_copy": {
+				"name": "War Pick",
+				"source": "PHB",
+				"_mod": {
+					"entries": [
+						{
+							"mode": "prependArr",
+							"items": [
+								"An armblade is a weapon designed to integrate with the forearm of a warforged. If you're a warforged, you can attach an armblade by attuning to it. An attached armblade cannot be disarmed or removed from you against your will, but while the weapon is attached you cannot use that hand for other actions. You can spend one minute to end the attunement and remove the armblade."
+							]
+						}
+					]
+				}
+			},
+			"rarity": "common",
+			"reqAttune": "by a warforged",
+			"reqAttuneTags": [
+				{
+					"race": "warforged|erlw"
+				}
+			],
+			"hasFluff": true
+		},
+		{
+			"name": "Armblade (Whip)",
+			"source": "UAMagicItemsofEberron",
+			"page": 3,
+			"reprintedAs": [
+				"Armblade|ERLW"
+			],
+			"_copy": {
+				"name": "Whip",
+				"source": "PHB",
+				"_mod": {
+					"entries": [
+						{
+							"mode": "prependArr",
+							"items": [
+								"An armblade is a weapon designed to integrate with the forearm of a warforged. If you're a warforged, you can attach an armblade by attuning to it. An attached armblade cannot be disarmed or removed from you against your will, but while the weapon is attached you cannot use that hand for other actions. You can spend one minute to end the attunement and remove the armblade."
+							]
+						}
+					]
+				}
+			},
+			"rarity": "common",
+			"reqAttune": "by a warforged",
+			"reqAttuneTags": [
+				{
+					"race": "warforged|erlw"
+				}
+			],
+			"hasFluff": true
+		}
+	],
+	"item": [
+		{
+			"name": "Band of Loyalty",
+			"source": "UAMagicItemsofEberron",
+			"page": 2,
+			"reprintedAs": [
+				"Band of Loyalty|UAWayfindersGuideToEberron"
+			],
+			"type": "RG|DMG",
+			"rarity": "common",
+			"reqAttune": true,
+			"entries": [
+				"If you are reduced to zero hit points while wearing this ring, you instantly die. These rings are favored by spies who can't afford to fall into enemy hands."
+			]
+		},
+		{
+			"name": "Cleansing Stone",
+			"source": "UAMagicItemsofEberron",
+			"page": 2,
+			"reprintedAs": [
+				"Cleansing Stone|ERLW"
+			],
+			"rarity": "common",
+			"wondrous": true,
+			"entries": [
+				"A cleansing stone is a stone sphere one foot in diameter, engraved with mystic sigils. When touching the stone, you can use an action to activate it and remove dirt and grime from your garments and your person. Cleansing stones are often embedded into pedestals in public squares in Aundair or found in high-end Ghallanda inns."
+			]
+		},
+		{
+			"name": "Docent",
+			"source": "UAMagicItemsofEberron",
+			"page": 3,
+			"reprintedAs": [
+				"Docent|ERLW"
+			],
+			"rarity": "very rare",
+			"reqAttune": "by a warforged",
+			"reqAttuneTags": [
+				{
+					"race": "warforged|erlw"
+				}
+			],
+			"wondrous": true,
+			"sentient": true,
+			"entries": [
+				"A docent is a small metal sphere, approximately 2 inches across, studded with dragonshards. Despite a strong magical aura, it has no obvious abilities. When you attune to a docent, the sphere becomes embedded in your chest and comes to life\u2014literally.",
+				{
+					"type": "entries",
+					"name": "Sentience",
+					"page": 3,
+					"entries": [
+						"A docent is a sentient item of any alignment with an Intelligence of 16, a Wisdom of 14, and a Charisma of 14. It can perceive the world through your senses.",
+						"A docent communicates telepathically with its wielder and can speak, read, and understand {@language Common} and {@language Giant}."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Personality",
+					"page": 3,
+					"entries": [
+						"A docent is designed to advise and assist the warforged it's attached to. One of the simple functions of a docent is to serve as a translator. The docent's properties are under its control, and if you have a bad relationship with your docent it may refuse to assist you... or simply lie about information that it obtains. However, if you treat your docent well it could serve as a useful ally.",
+						"The origin of docents is a great mystery. House Cannith created the first warforged thirty years ago. But the docents come from the distant land of Xen'drik and appear to be thousands of years old. Were they created to interface with some other form of construct? Or are the modern warforged a new interpretation of an ancient design? The docents claim to have forgotten their creators... but this is a mystery waiting to be unraveled. While all docents come from Xen'drik, some have been brought to Khorvaire by explorers and it's possible to encounter them in the Five Nations."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Languages",
+					"page": 3,
+					"entries": [
+						"All docents understand {@language Common} and {@language Giant}, but a docent knows up to four additional languages. {@language Elvish} and {@language Draconic} are common options. If a docent knows less than six languages in total, it can add new languages to its repertoire after encountering them. So a docent found in Xen'drik may have never encountered a dwarf before... but after spending some time in Khorvaire studying dwarves, it could pick up the {@language Dwarvish} language."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Properties",
+					"page": 4,
+					"entries": [
+						"A docent possesses up to three of the following properties:",
+						{
+							"type": "list",
+							"items": [
+								"The docent can cast the {@spell detect magic} spell at will.",
+								"The docent can cast the {@spell detect evil and good} spell at will.",
+								"The docent can detect any form of divination or scrying targeting it and its warforged host.",
+								"The docent has a {@skillCheck arcana +7} bonus to Intelligence ({@skill Arcana}) checks.",
+								"The docent has a {@skillCheck  history +7} bonus to Intelligence ({@skill History}) checks.",
+								"The docent has a {@skillCheck  investigation +7} bonus to Intelligence ({@skill Investigation}) checks.",
+								"The docent has a {@skillCheck nature +7} bonus to Intelligence ({@skill Nature}) checks.",
+								"The docent has a {@skillCheck insight +6} bonus to Wisdom ({@skill Insight}) checks.",
+								"The docent has a {@skillCheck perception +6} bonus to Wisdom ({@skill Perception}) checks.",
+								"The docent has a {@skillCheck medicine +6} bonus to Wisdom ({@skill Medicine}) checks targeting its warforged host. If the host is rendered {@condition unconscious}, the docent will automatically attempt to stabilize them once each turn."
+							]
+						}
+					]
+				},
+				"You can use a bonus action on your turn to request that the docent use one of its properties on your behalf."
+			],
+			"attachedSpells": [
+				"detect magic",
+				"detect evil and good"
+			],
+			"hasFluff": true
+		},
+		{
+			"name": "Everbright Lantern",
+			"source": "UAMagicItemsofEberron",
+			"page": 2,
+			"reprintedAs": [
+				"Everbright Lantern|ERLW"
+			],
+			"rarity": "common",
+			"wondrous": true,
+			"entries": [
+				"An everbright lantern contains an Eberron dragonshard imbued with the effect of a {@spell continual flame} spell. This bright light is mounted inside a normal {@item bullseye lantern|PHB}, allowing the light to be shuttered off. An everbright lantern provides clear illumination in a 60-foot cone and shadowy illumination in a 120-foot cone, just like a mundane {@item bullseye lantern|PHB}, but its flame never goes out."
+			]
+		},
+		{
+			"name": "Feather Token",
+			"source": "UAMagicItemsofEberron",
+			"page": 2,
+			"reprintedAs": [
+				"Feather Token|ERLW"
+			],
+			"rarity": "common",
+			"wondrous": true,
+			"entries": [
+				"This small metal disk is inscribed with the image of a feather. When you fall while the token is in your possession, you descend 60 feet per round and take no damage from falling. The token becomes nonmagical after you land. While it's an expensive form of insurance, frequent airship travelers and citizens of Sharn often appreciate the security it provides."
+			]
+		},
+		{
+			"name": "Glamerweave",
+			"source": "UAMagicItemsofEberron",
+			"page": 2,
+			"reprintedAs": [
+				"Glamerweave|ERLW"
+			],
+			"rarity": "common",
+			"wondrous": true,
+			"entries": [
+				"Glamerweave clothing is imbued with cosmetic illusions. Traditionally, these patterns are contained within the cloth, but higher-end glamerweave can have more dramatic effects. You could have a gown that appears to be wreathed in flames, or a hat that's orbited by illusory butterflies. Regardless of the design, these are cosmetic effects and have no impact on combat."
+			]
+		},
+		{
+			"name": "Shiftweave",
+			"source": "UAMagicItemsofEberron",
+			"page": 2,
+			"reprintedAs": [
+				"Shiftweave|ERLW"
+			],
+			"rarity": "common",
+			"wondrous": true,
+			"entries": [
+				"Transmutation magic is woven into the fabric of shiftweave clothing. When a suit of shiftweave is created, up to five different outfits can be embedded into the cloth. While wearing this outfit, you can utter a command word as an action to transform your shiftweave outfit into one of the other designs contained within it. To determine the price of a suit of shiftweave, combine the value of all of the outfits it contains and add 25 gp to that amount."
+			]
+		},
+		{
+			"name": "Spellshard",
+			"source": "UAMagicItemsofEberron",
+			"page": 3,
+			"reprintedAs": [
+				"Spellshard|ERLW"
+			],
+			"rarity": "common",
+			"wondrous": true,
+			"entries": [
+				"A spellshard is a polished Eberron dragonshard, sized to fit into the palm of a hand. The shard is imbued with a particular work of literature. By holding the shard and concentrating, you can see its pages in your mind's eye. Thinking of a particular phrase or topic will draw you to the first section that addresses it, and a simple ritual allows you to add content to the shard.",
+				"A wizard can use a spellshard instead of a {@item spellbook|PHB}; the spellshard costs 1 gp per \"page\" in the shard, and otherwise functions as a mundane {@item spellbook|PHB}. Spellshards can also be used as diaries or journals. More advanced (and uncommon) shards can require a particular mental passphrase to access the contents of the shard."
+			]
+		},
+		{
+			"name": "Wand Sheath",
+			"source": "UAMagicItemsofEberron",
+			"page": 4,
+			"reprintedAs": [
+				"Wand Sheath|ERLW"
+			],
+			"rarity": "common",
+			"reqAttune": "by a warforged",
+			"reqAttuneTags": [
+				{
+					"race": "warforged|erlw"
+				}
+			],
+			"wondrous": true,
+			"entries": [
+				"A wand sheath is designed to integrate with the forearm of a {@race warforged|ERLW}. If you're a {@race warforged|ERLW}, you can attach a wand sheath by attuning to it. While the wand sheath is attached, it cannot be removed from you against your will. You can spend one minute to end the attunement and remove the wand sheath.",
+				"You can insert a wand into the sheath as an action. While the wand is sheathed, you gain the following benefits:",
+				{
+					"type": "list",
+					"items": [
+						"You can retract the wand into your forearm or extend it from your forearm as a bonus action. While it is retracted, it cannot be damaged or removed.",
+						"While the wand is extended, you can use it as if you were holding it, but your hand remains free for other actions.",
+						"If the sheathed wand requires attunement, you must attune to the wand before you can use it. However, the wand sheath and the attached wand only count as a single item for purposes of the maximum number of items you can be attuned to. If you remove the wand from the sheath, you immediately lose your attunement to the wand."
+					]
+				}
+			],
+			"hasFluff": true
+		}
+	],
+	"itemGroup": [
+		{
+			"name": "Armblade",
+			"source": "UAMagicItemsofEberron",
+			"page": 3,
+			"reprintedAs": [
+				"Armblade|ERLW"
+			],
+			"rarity": "common",
+			"reqAttune": "by a warforged",
+			"reqAttuneTags": [
+				{
+					"race": "warforged|erlw"
+				}
+			],
+			"entries": [
+				"{@i any one-handed melee weapon}",
+				"An armblade is a weapon designed to integrate with the forearm of a warforged. If you're a warforged, you can attach an armblade by attuning to it. An attached armblade cannot be disarmed or removed from you against your will, but while the weapon is attached you cannot use that hand for other actions. You can spend one minute to end the attunement and remove the armblade."
+			],
+			"items": [
+				"Armblade (Club)|UAMagicItemsofEberron",
+				"Armblade (Dagger)|UAMagicItemsofEberron",
+				"Armblade (Flail)|UAMagicItemsofEberron",
+				"Armblade (Handaxe)|UAMagicItemsofEberron",
+				"Armblade (Javelin)|UAMagicItemsofEberron",
+				"Armblade (Light Hammer)|UAMagicItemsofEberron",
+				"Armblade (Mace)|UAMagicItemsofEberron",
+				"Armblade (Morningstar)|UAMagicItemsofEberron",
+				"Armblade (Rapier)|UAMagicItemsofEberron",
+				"Armblade (Scimitar)|UAMagicItemsofEberron",
+				"Armblade (Shortsword)|UAMagicItemsofEberron",
+				"Armblade (Sickle)|UAMagicItemsofEberron",
+				"Armblade (War Pick)|UAMagicItemsofEberron",
+				"Armblade (Whip)|UAMagicItemsofEberron"
+			],
+			"hasFluff": true
+		},
+		{
+			"name": "Imbued Wood",
+			"source": "UAMagicItemsofEberron",
+			"page": 1,
+			"reprintedAs": [
+				"Imbued Wood Focus|ERLW"
+			],
+			"type": "SCF",
+			"scfType": "arcane",
+			"rarity": "common",
+			"reqAttune": true,
+			"wondrous": true,
+			"entries": [
+				"Powerful manifest zones can infuse local trees with planar energies. A gifted artificer can tap into this to create a wand, staff, or rod that is especially effective at channeling a particular type of energy.",
+				"When you cast a spell that deals damage of the type associated with the material your arcane focus is made from, the spell gains a +1 bonus to one damage roll of that spell. The materials and their associated damage types are listed below.",
+				{
+					"type": "list",
+					"items": [
+						{
+							"type": "item",
+							"name": "{@item Imbued Wood (Fernian Ash)|UAMagicItemsofEberron|Fernian Ash}:",
+							"style": "italic",
+							"entries": [
+								"Fire damage."
+							]
+						},
+						{
+							"type": "item",
+							"name": "{@item Imbued Wood (Irian rosewood)|UAMagicItemsofEberron|Irian rosewood}:",
+							"style": "italic",
+							"entries": [
+								"Radiant damage."
+							]
+						},
+						{
+							"type": "item",
+							"name": "{@item Imbued Wood (Kythrian manchineel)|UAMagicItemsofEberron|Kythrian manchineel}:",
+							"style": "italic",
+							"entries": [
+								"Acid or poison damage."
+							]
+						},
+						{
+							"type": "item",
+							"name": "{@item Imbued Wood (Lamannian oak)|UAMagicItemsofEberron|Lamannian oak}:",
+							"style": "italic",
+							"entries": [
+								"Lightning or thunder damage."
+							]
+						},
+						{
+							"type": "item",
+							"name": "{@item Imbued Wood (Mabaran ebony)|UAMagicItemsofEberron|Mabaran ebony}:",
+							"style": "italic",
+							"entries": [
+								"Necrotic damage."
+							]
+						},
+						{
+							"type": "item",
+							"name": "{@item Imbued Wood (Quori beech)|UAMagicItemsofEberron|Quori beech}, {@item Imbued Wood (Xorian wenge)|UAMagicItemsofEberron|Xorian wenge}:",
+							"style": "italic",
+							"entries": [
+								"Psychic damage."
+							]
+						},
+						{
+							"type": "item",
+							"name": "{@item Imbued Wood (Risian pine)|UAMagicItemsofEberron|Risian pine}:",
+							"style": "italic",
+							"entries": [
+								"Cold damage."
+							]
+						},
+						{
+							"type": "item",
+							"name": "{@item Imbued Wood (Shavarran birch)|UAMagicItemsofEberron|Shavarran birch}:",
+							"style": "italic",
+							"entries": [
+								"Force damage."
+							]
+						}
+					]
+				}
+			],
+			"items": [
+				"Imbued Wood (Fernian Ash)|UAMagicItemsofEberron",
+				"Imbued Wood (Irian Rosewood)|UAMagicItemsofEberron",
+				"Imbued Wood (Kythrian Manchineel)|UAMagicItemsofEberron",
+				"Imbued Wood (Lamannian Oak)|UAMagicItemsofEberron",
+				"Imbued Wood (Mabaran Ebony)|UAMagicItemsofEberron",
+				"Imbued Wood (Quori beech)|UAMagicItemsofEberron",
+				"Imbued Wood (Risian Pine)|UAMagicItemsofEberron",
+				"Imbued Wood (Shavarran Birch)|UAMagicItemsofEberron",
+				"Imbued Wood (Xorian Wenge)|UAMagicItemsofEberron"
+			],
+			"itemsHidden": true,
+			"hasFluff": true
+		},
+		{
+			"name": "Orb of Shielding",
+			"source": "UAMagicItemsofEberron",
+			"page": 1,
+			"reprintedAs": [
+				"Orb of Shielding|ERLW"
+			],
+			"type": "SCF",
+			"scfType": "arcane",
+			"rarity": "common",
+			"reqAttune": true,
+			"wondrous": true,
+			"entries": [
+				"An orb of shielding is made from crystal or stone aligned to one of the planes. While you are holding the orb and take damage of the type associated with the material your orb is made from, you can use your reaction to reduce the damage by {@dice 1d4}. The materials and their associated damage types are listed below.",
+				{
+					"type": "list",
+					"items": [
+						{
+							"type": "item",
+							"name": "{@item Orb of Shielding (Fernian Basalt)|UAMagicItemsofEberron|Fernian Basalt}:",
+							"style": "italic",
+							"entries": [
+								"Fire damage"
+							]
+						},
+						{
+							"type": "item",
+							"name": "{@item Orb of Shielding (Irian Quartz)|UAMagicItemsofEberron|Irian Quartz}:",
+							"style": "italic",
+							"entries": [
+								"Radiant damage"
+							]
+						},
+						{
+							"type": "item",
+							"name": "{@item Orb of Shielding (Kythrian Skarn)|UAMagicItemsofEberron|Kythrian Skarn}:",
+							"style": "italic",
+							"entries": [
+								"Acid or poison damage"
+							]
+						},
+						{
+							"type": "item",
+							"name": "{@item Orb of Shielding (Lamannian Flint)|UAMagicItemsofEberron|Lamannian Flint}:",
+							"style": "italic",
+							"entries": [
+								"Lightning or thunder damage"
+							]
+						},
+						{
+							"type": "item",
+							"name": "{@item Orb of Shielding (Mabaran Obsidian)|UAMagicItemsofEberron|Mabaran Obsidian}:",
+							"style": "italic",
+							"entries": [
+								"Necrotic damage"
+							]
+						},
+						{
+							"type": "item",
+							"name": "{@item Orb of Shielding (Quori Celestine)|UAMagicItemsofEberron|Quori Celestine}, {@item Orb of Shielding (Xorian Marble)|UAMagicItemsofEberron|Xorian Marble}:",
+							"style": "italic",
+							"entries": [
+								"Psychic damage"
+							]
+						},
+						{
+							"type": "item",
+							"name": "{@item Orb of Shielding (Risian Shale)|UAMagicItemsofEberron|Risian Shale}:",
+							"style": "italic",
+							"entries": [
+								"Cold damage"
+							]
+						},
+						{
+							"type": "item",
+							"name": "{@item Orb of Shielding (Shavaran Chert)|UAMagicItemsofEberron|Shavaran Chert}:",
+							"style": "italic",
+							"entries": [
+								"Force damage"
+							]
+						}
+					]
+				}
+			],
+			"items": [
+				"Orb of Shielding (Fernian Basalt)|UAMagicItemsofEberron",
+				"Orb of Shielding (Irian Quartz)|UAMagicItemsofEberron",
+				"Orb of Shielding (Kythrian Skarn)|UAMagicItemsofEberron",
+				"Orb of Shielding (Lamannian Flint)|UAMagicItemsofEberron",
+				"Orb of Shielding (Mabaran Obsidian)|UAMagicItemsofEberron",
+				"Orb of Shielding (Quori Celestine)|UAMagicItemsofEberron",
+				"Orb of Shielding (Risian Shale)|UAMagicItemsofEberron",
+				"Orb of Shielding (Shavaran Chert)|UAMagicItemsofEberron",
+				"Orb of Shielding (Xorian Marble)|UAMagicItemsofEberron"
+			],
+			"itemsHidden": true,
+			"hasFluff": true
+		}
+	],
+	"magicvariant": [
+		{
+			"name": "Imbued Wood (Fernian Ash)",
+			"type": "GV|DMG",
+			"requires": [
+				{
+					"type": "SCF",
+					"scfType": "arcane"
+				},
+				{
+					"type": "SCF|XPHB",
+					"scfType": "arcane"
+				}
+			],
+			"excludes": {
+				"name": [
+					"Crystal",
+					"Orb"
+				]
+			},
+			"inherits": {
+				"namePrefix": "Fernian Ash ",
+				"source": "UAMagicItemsofEberron",
+				"page": 1,
+				"reprintedAs": [
+					"Imbued Wood (Fernian Ash)|ERLW"
+				],
+				"rarity": "common",
+				"reqAttune": true,
+				"wondrous": true,
+				"bonusSpellDamage": "+1",
+				"entries": [
+					"Powerful manifest zones can infuse local trees with planar energies. A gifted artificer can tap into this to create a wand, staff, or rod that is especially effective at channeling a particular type of energy.",
+					"When you cast a spell that deals fire damage, the spell gains a +1 bonus to one fire damage roll of that spell."
+				]
+			},
+			"hasFluff": true
+		},
+		{
+			"name": "Imbued Wood (Irian Rosewood)",
+			"type": "GV|DMG",
+			"requires": [
+				{
+					"type": "SCF",
+					"scfType": "arcane"
+				},
+				{
+					"type": "SCF|XPHB",
+					"scfType": "arcane"
+				}
+			],
+			"excludes": {
+				"name": [
+					"Crystal",
+					"Orb"
+				]
+			},
+			"inherits": {
+				"namePrefix": "Irian Rosewood ",
+				"source": "UAMagicItemsofEberron",
+				"page": 1,
+				"reprintedAs": [
+					"Imbued Wood (Irian Rosewood)|ERLW"
+				],
+				"rarity": "common",
+				"reqAttune": true,
+				"wondrous": true,
+				"bonusSpellDamage": "+1",
+				"entries": [
+					"Powerful manifest zones can infuse local trees with planar energies. A gifted artificer can tap into this to create a wand, staff, or rod that is especially effective at channeling a particular type of energy.",
+					"When you cast a spell that deals radiant damage, the spell gains a +1 bonus to one radiant damage roll of that spell."
+				]
+			},
+			"hasFluff": true
+		},
+		{
+			"name": "Imbued Wood (Kythrian Manchineel)",
+			"type": "GV|DMG",
+			"requires": [
+				{
+					"type": "SCF",
+					"scfType": "arcane"
+				},
+				{
+					"type": "SCF|XPHB",
+					"scfType": "arcane"
+				}
+			],
+			"excludes": {
+				"name": [
+					"Crystal",
+					"Orb"
+				]
+			},
+			"inherits": {
+				"namePrefix": "Kythrian Manchineel ",
+				"source": "UAMagicItemsofEberron",
+				"page": 1,
+				"reprintedAs": [
+					"Imbued Wood (Kythrian Manchineel)|ERLW"
+				],
+				"rarity": "common",
+				"reqAttune": true,
+				"wondrous": true,
+				"bonusSpellDamage": "+1",
+				"entries": [
+					"Powerful manifest zones can infuse local trees with planar energies. A gifted artificer can tap into this to create a wand, staff, or rod that is especially effective at channeling a particular type of energy.",
+					"When you cast a spell that deals acid or poison damage, the spell gains a +1 bonus to one acid or poison damage roll of that spell."
+				]
+			},
+			"hasFluff": true
+		},
+		{
+			"name": "Imbued Wood (Lamannian Oak)",
+			"type": "GV|DMG",
+			"requires": [
+				{
+					"type": "SCF",
+					"scfType": "arcane"
+				},
+				{
+					"type": "SCF|XPHB",
+					"scfType": "arcane"
+				}
+			],
+			"excludes": {
+				"name": [
+					"Crystal",
+					"Orb"
+				]
+			},
+			"inherits": {
+				"namePrefix": "Lamannian Oak ",
+				"source": "UAMagicItemsofEberron",
+				"page": 1,
+				"reprintedAs": [
+					"Imbued Wood (Lamannian Oak)|ERLW"
+				],
+				"rarity": "common",
+				"reqAttune": true,
+				"wondrous": true,
+				"bonusSpellDamage": "+1",
+				"entries": [
+					"Powerful manifest zones can infuse local trees with planar energies. A gifted artificer can tap into this to create a wand, staff, or rod that is especially effective at channeling a particular type of energy.",
+					"When you cast a spell that deals lightning or thunder damage, the spell gains a +1 bonus to one lightning or thunder damage roll of that spell."
+				]
+			},
+			"hasFluff": true
+		},
+		{
+			"name": "Imbued Wood (Mabaran Ebony)",
+			"type": "GV|DMG",
+			"requires": [
+				{
+					"type": "SCF",
+					"scfType": "arcane"
+				},
+				{
+					"type": "SCF|XPHB",
+					"scfType": "arcane"
+				}
+			],
+			"excludes": {
+				"name": [
+					"Crystal",
+					"Orb"
+				]
+			},
+			"inherits": {
+				"namePrefix": "Mabaran Ebony ",
+				"source": "UAMagicItemsofEberron",
+				"page": 1,
+				"reprintedAs": [
+					"Imbued Wood (Mabaran Ebony)|ERLW"
+				],
+				"rarity": "common",
+				"reqAttune": true,
+				"wondrous": true,
+				"bonusSpellDamage": "+1",
+				"entries": [
+					"Powerful manifest zones can infuse local trees with planar energies. A gifted artificer can tap into this to create a wand, staff, or rod that is especially effective at channeling a particular type of energy.",
+					"When you cast a spell that deals necrotic damage, the spell gains a +1 bonus to one necrotic damage roll of that spell."
+				]
+			},
+			"hasFluff": true
+		},
+		{
+			"name": "Imbued Wood (Quori Beech)",
+			"type": "GV|DMG",
+			"requires": [
+				{
+					"type": "SCF",
+					"scfType": "arcane"
+				},
+				{
+					"type": "SCF|XPHB",
+					"scfType": "arcane"
+				}
+			],
+			"excludes": {
+				"name": [
+					"Crystal",
+					"Orb"
+				]
+			},
+			"inherits": {
+				"namePrefix": "Quori Beech ",
+				"source": "UAMagicItemsofEberron",
+				"page": 1,
+				"reprintedAs": [
+					"Imbued Wood (Quori Beech)|ERLW"
+				],
+				"rarity": "common",
+				"reqAttune": true,
+				"wondrous": true,
+				"bonusSpellDamage": "+1",
+				"entries": [
+					"Powerful manifest zones can infuse local trees with planar energies. A gifted artificer can tap into this to create a wand, staff, or rod that is especially effective at channeling a particular type of energy.",
+					"When you cast a spell that deals psychic damage, the spell gains a +1 bonus to one psychic damage roll of that spell."
+				]
+			},
+			"hasFluff": true
+		},
+		{
+			"name": "Imbued Wood (Risian Pine)",
+			"type": "GV|DMG",
+			"requires": [
+				{
+					"type": "SCF",
+					"scfType": "arcane"
+				},
+				{
+					"type": "SCF|XPHB",
+					"scfType": "arcane"
+				}
+			],
+			"excludes": {
+				"name": [
+					"Crystal",
+					"Orb"
+				]
+			},
+			"inherits": {
+				"namePrefix": "Risian Pine ",
+				"source": "UAMagicItemsofEberron",
+				"page": 1,
+				"reprintedAs": [
+					"Imbued Wood (Risian Pine)|ERLW"
+				],
+				"rarity": "common",
+				"reqAttune": true,
+				"wondrous": true,
+				"bonusSpellDamage": "+1",
+				"entries": [
+					"Powerful manifest zones can infuse local trees with planar energies. A gifted artificer can tap into this to create a wand, staff, or rod that is especially effective at channeling a particular type of energy.",
+					"When you cast a spell that deals cold damage, the spell gains a +1 bonus to one cold damage roll of that spell."
+				]
+			},
+			"hasFluff": true
+		},
+		{
+			"name": "Imbued Wood (Shavarran Birch)",
+			"type": "GV|DMG",
+			"requires": [
+				{
+					"type": "SCF",
+					"scfType": "arcane"
+				},
+				{
+					"type": "SCF|XPHB",
+					"scfType": "arcane"
+				}
+			],
+			"excludes": {
+				"name": [
+					"Crystal",
+					"Orb"
+				]
+			},
+			"inherits": {
+				"namePrefix": "Shavarran Birch ",
+				"source": "UAMagicItemsofEberron",
+				"page": 1,
+				"reprintedAs": [
+					"Imbued Wood (Shavarran Birch)|ERLW"
+				],
+				"rarity": "common",
+				"reqAttune": true,
+				"wondrous": true,
+				"bonusSpellDamage": "+1",
+				"entries": [
+					"Powerful manifest zones can infuse local trees with planar energies. A gifted artificer can tap into this to create a wand, staff, or rod that is especially effective at channeling a particular type of energy.",
+					"When you cast a spell that deals force damage, the spell gains a +1 bonus to one force damage roll of that spell."
+				]
+			},
+			"hasFluff": true
+		},
+		{
+			"name": "Imbued Wood (Xorian Wenge)",
+			"type": "GV|DMG",
+			"requires": [
+				{
+					"type": "SCF",
+					"scfType": "arcane"
+				},
+				{
+					"type": "SCF|XPHB",
+					"scfType": "arcane"
+				}
+			],
+			"excludes": {
+				"name": [
+					"Crystal",
+					"Orb"
+				]
+			},
+			"inherits": {
+				"namePrefix": "Xorian Wenge ",
+				"source": "UAMagicItemsofEberron",
+				"page": 1,
+				"reprintedAs": [
+					"Imbued Wood (Xorian Wenge)|ERLW"
+				],
+				"rarity": "common",
+				"reqAttune": true,
+				"wondrous": true,
+				"bonusSpellDamage": "+1",
+				"entries": [
+					"Powerful manifest zones can infuse local trees with planar energies. A gifted artificer can tap into this to create a wand, staff, or rod that is especially effective at channeling a particular type of energy.",
+					"When you cast a spell that deals psychic damage, the spell gains a +1 bonus to one psychic damage roll of that spell."
+				]
+			},
+			"hasFluff": true
+		},
+		{
+			"name": "Orb of Shielding (Fernian Basalt)",
+			"type": "GV|DMG",
+			"requires": [
+				{
+					"type": "SCF",
+					"scfType": "arcane"
+				},
+				{
+					"type": "SCF|XPHB",
+					"scfType": "arcane"
+				}
+			],
+			"excludes": {
+				"name": [
+					"Staff",
+					"Rod",
+					"Wand"
+				]
+			},
+			"inherits": {
+				"namePrefix": "Fernian Basalt ",
+				"source": "UAMagicItemsofEberron",
+				"page": 1,
+				"reprintedAs": [
+					"Orb of Shielding (Fernian Basalt)|ERLW"
+				],
+				"rarity": "common",
+				"reqAttune": true,
+				"wondrous": true,
+				"entries": [
+					"An {@i orb of shielding} is made from crystal or stone aligned to one of the planes. While you are holding the orb and take fire damage, you can use your reaction to reduce the fire damage by {@dice 1d4}."
+				]
+			},
+			"hasFluff": true
+		},
+		{
+			"name": "Orb of Shielding (Irian Quartz)",
+			"type": "GV|DMG",
+			"requires": [
+				{
+					"type": "SCF",
+					"scfType": "arcane"
+				},
+				{
+					"type": "SCF|XPHB",
+					"scfType": "arcane"
+				}
+			],
+			"excludes": {
+				"name": [
+					"Staff",
+					"Rod",
+					"Wand"
+				]
+			},
+			"inherits": {
+				"namePrefix": "Irian Quartz ",
+				"source": "UAMagicItemsofEberron",
+				"page": 1,
+				"reprintedAs": [
+					"Orb of Shielding (Irian Quartz)|ERLW"
+				],
+				"rarity": "common",
+				"reqAttune": true,
+				"wondrous": true,
+				"entries": [
+					"An {@i orb of shielding} is made from crystal or stone aligned to one of the planes. While you are holding the orb and take radiant damage, you can use your reaction to reduce the radiant damage by {@dice 1d4}."
+				]
+			},
+			"hasFluff": true
+		},
+		{
+			"name": "Orb of Shielding (Kythrian Skarn)",
+			"type": "GV|DMG",
+			"requires": [
+				{
+					"type": "SCF",
+					"scfType": "arcane"
+				},
+				{
+					"type": "SCF|XPHB",
+					"scfType": "arcane"
+				}
+			],
+			"excludes": {
+				"name": [
+					"Staff",
+					"Rod",
+					"Wand"
+				]
+			},
+			"inherits": {
+				"namePrefix": "Kythrian Skarn ",
+				"source": "UAMagicItemsofEberron",
+				"page": 1,
+				"reprintedAs": [
+					"Orb of Shielding (Kythrian Skarn)|ERLW"
+				],
+				"rarity": "common",
+				"reqAttune": true,
+				"wondrous": true,
+				"entries": [
+					"An {@i orb of shielding} is made from crystal or stone aligned to one of the planes. While you are holding the orb and take acid or poison damage, you can use your reaction to reduce the acid or poison damage by {@dice 1d4}."
+				]
+			},
+			"hasFluff": true
+		},
+		{
+			"name": "Orb of Shielding (Lamannian Flint)",
+			"type": "GV|DMG",
+			"requires": [
+				{
+					"type": "SCF",
+					"scfType": "arcane"
+				},
+				{
+					"type": "SCF|XPHB",
+					"scfType": "arcane"
+				}
+			],
+			"excludes": {
+				"name": [
+					"Staff",
+					"Rod",
+					"Wand"
+				]
+			},
+			"inherits": {
+				"namePrefix": "Lamannian Flint ",
+				"source": "UAMagicItemsofEberron",
+				"page": 1,
+				"reprintedAs": [
+					"Orb of Shielding (Lamannian Flint)|ERLW"
+				],
+				"rarity": "common",
+				"reqAttune": true,
+				"wondrous": true,
+				"entries": [
+					"An {@i orb of shielding} is made from crystal or stone aligned to one of the planes. While you are holding the orb and take lightning or thunder damage, you can use your reaction to reduce the lightning or thunder damage by {@dice 1d4}."
+				]
+			},
+			"hasFluff": true
+		},
+		{
+			"name": "Orb of Shielding (Mabaran Obsidian)",
+			"type": "GV|DMG",
+			"requires": [
+				{
+					"type": "SCF",
+					"scfType": "arcane"
+				},
+				{
+					"type": "SCF|XPHB",
+					"scfType": "arcane"
+				}
+			],
+			"excludes": {
+				"name": [
+					"Staff",
+					"Rod",
+					"Wand"
+				]
+			},
+			"inherits": {
+				"namePrefix": "Mabaran Obsidian ",
+				"source": "UAMagicItemsofEberron",
+				"page": 1,
+				"reprintedAs": [
+					"Orb of Shielding (Mabaran Obsidian)|ERLW"
+				],
+				"rarity": "common",
+				"reqAttune": true,
+				"wondrous": true,
+				"entries": [
+					"An {@i orb of shielding} is made from crystal or stone aligned to one of the planes. While you are holding the orb and take necrotic damage, you can use your reaction to reduce the necrotic damage by {@dice 1d4}."
+				]
+			},
+			"hasFluff": true
+		},
+		{
+			"name": "Orb of Shielding (Quori Celestine)",
+			"type": "GV|DMG",
+			"requires": [
+				{
+					"type": "SCF",
+					"scfType": "arcane"
+				},
+				{
+					"type": "SCF|XPHB",
+					"scfType": "arcane"
+				}
+			],
+			"excludes": {
+				"name": [
+					"Staff",
+					"Rod",
+					"Wand"
+				]
+			},
+			"inherits": {
+				"namePrefix": "Quori Celestine ",
+				"source": "UAMagicItemsofEberron",
+				"page": 1,
+				"reprintedAs": [
+					"Orb of Shielding (Quori Celestine)|ERLW"
+				],
+				"rarity": "common",
+				"reqAttune": true,
+				"wondrous": true,
+				"entries": [
+					"An {@i orb of shielding} is made from crystal or stone aligned to one of the planes. While you are holding the orb and take psychic damage, you can use your reaction to reduce the psychic damage by {@dice 1d4}."
+				]
+			},
+			"hasFluff": true
+		},
+		{
+			"name": "Orb of Shielding (Risian Shale)",
+			"type": "GV|DMG",
+			"requires": [
+				{
+					"type": "SCF",
+					"scfType": "arcane"
+				},
+				{
+					"type": "SCF|XPHB",
+					"scfType": "arcane"
+				}
+			],
+			"excludes": {
+				"name": [
+					"Staff",
+					"Rod",
+					"Wand"
+				]
+			},
+			"inherits": {
+				"namePrefix": "Risian Shale ",
+				"source": "UAMagicItemsofEberron",
+				"page": 1,
+				"reprintedAs": [
+					"Orb of Shielding (Risian Shale)|ERLW"
+				],
+				"rarity": "common",
+				"reqAttune": true,
+				"wondrous": true,
+				"entries": [
+					"An {@i orb of shielding} is made from crystal or stone aligned to one of the planes. While you are holding the orb and take cold damage, you can use your reaction to reduce the cold damage by {@dice 1d4}."
+				]
+			},
+			"hasFluff": true
+		},
+		{
+			"name": "Orb of Shielding (Shavaran Chert)",
+			"type": "GV|DMG",
+			"requires": [
+				{
+					"type": "SCF",
+					"scfType": "arcane"
+				},
+				{
+					"type": "SCF|XPHB",
+					"scfType": "arcane"
+				}
+			],
+			"excludes": {
+				"name": [
+					"Staff",
+					"Rod",
+					"Wand"
+				]
+			},
+			"inherits": {
+				"namePrefix": "Shavaran Chert ",
+				"source": "UAMagicItemsofEberron",
+				"page": 1,
+				"reprintedAs": [
+					"Orb of Shielding (Shavaran Chert)|ERLW"
+				],
+				"rarity": "common",
+				"reqAttune": true,
+				"wondrous": true,
+				"entries": [
+					"An {@i orb of shielding} is made from crystal or stone aligned to one of the planes. While you are holding the orb and take force damage, you can use your reaction to reduce the force damage by {@dice 1d4}."
+				]
+			},
+			"hasFluff": true
+		},
+		{
+			"name": "Orb of Shielding (Xorian Marble)",
+			"type": "GV|DMG",
+			"requires": [
+				{
+					"type": "SCF",
+					"scfType": "arcane"
+				},
+				{
+					"type": "SCF|XPHB",
+					"scfType": "arcane"
+				}
+			],
+			"excludes": {
+				"name": [
+					"Staff",
+					"Rod",
+					"Wand"
+				]
+			},
+			"inherits": {
+				"namePrefix": "Xorian Marble ",
+				"source": "UAMagicItemsofEberron",
+				"page": 1,
+				"reprintedAs": [
+					"Orb of Shielding (Xorian Marble)|ERLW"
+				],
+				"rarity": "common",
+				"reqAttune": true,
+				"wondrous": true,
+				"entries": [
+					"An {@i orb of shielding} is made from crystal or stone aligned to one of the planes. While you are holding the orb and take psychic damage, you can use your reaction to reduce the psychic damage by {@dice 1d4}."
+				]
+			},
+			"hasFluff": true
+		}
+	],
+	"itemFluff": [
+		{
+			"name": "Armblade",
+			"source": "UAMagicItemsofEberron",
+			"_copy": {
+				"name": "Docent",
+				"source": "UAMagicItemsofEberron",
+				"_mod": {
+					"entries": {
+						"mode": "appendArr",
+						"items": [
+							{
+								"type": "inset",
+								"name": "Magic Armblades",
+								"page": 3,
+								"entries": [
+									"An {@item armblade|UAMagicItemsofEberron} isn't inherently considered to be a magic weapon for purposes of overcoming damage resistance. However, any sort of magical melee weapon could be created as an armblade, so you could acquire a {@item Vicious Weapon||vicious} armblade or a {@item Vorpal Sword||vorpal} armblade."
+								]
+							}
+						]
+					}
+				}
+			}
+		},
+		{
+			"name": "Armblade (Club)",
+			"source": "UAMagicItemsofEberron",
+			"_copy": {
+				"name": "Armblade",
+				"source": "UAMagicItemsofEberron"
+			}
+		},
+		{
+			"name": "Armblade (Dagger)",
+			"source": "UAMagicItemsofEberron",
+			"_copy": {
+				"name": "Armblade",
+				"source": "UAMagicItemsofEberron"
+			}
+		},
+		{
+			"name": "Armblade (Flail)",
+			"source": "UAMagicItemsofEberron",
+			"_copy": {
+				"name": "Armblade",
+				"source": "UAMagicItemsofEberron"
+			}
+		},
+		{
+			"name": "Armblade (Handaxe)",
+			"source": "UAMagicItemsofEberron",
+			"_copy": {
+				"name": "Armblade",
+				"source": "UAMagicItemsofEberron"
+			}
+		},
+		{
+			"name": "Armblade (Javelin)",
+			"source": "UAMagicItemsofEberron",
+			"_copy": {
+				"name": "Armblade",
+				"source": "UAMagicItemsofEberron"
+			}
+		},
+		{
+			"name": "Armblade (Light Hammer)",
+			"source": "UAMagicItemsofEberron",
+			"_copy": {
+				"name": "Armblade",
+				"source": "UAMagicItemsofEberron"
+			}
+		},
+		{
+			"name": "Armblade (Mace)",
+			"source": "UAMagicItemsofEberron",
+			"_copy": {
+				"name": "Armblade",
+				"source": "UAMagicItemsofEberron"
+			}
+		},
+		{
+			"name": "Armblade (Morningstar)",
+			"source": "UAMagicItemsofEberron",
+			"_copy": {
+				"name": "Armblade",
+				"source": "UAMagicItemsofEberron"
+			}
+		},
+		{
+			"name": "Armblade (Rapier)",
+			"source": "UAMagicItemsofEberron",
+			"_copy": {
+				"name": "Armblade",
+				"source": "UAMagicItemsofEberron"
+			}
+		},
+		{
+			"name": "Armblade (Scimitar)",
+			"source": "UAMagicItemsofEberron",
+			"_copy": {
+				"name": "Armblade",
+				"source": "UAMagicItemsofEberron"
+			}
+		},
+		{
+			"name": "Armblade (Shortsword)",
+			"source": "UAMagicItemsofEberron",
+			"_copy": {
+				"name": "Armblade",
+				"source": "UAMagicItemsofEberron"
+			}
+		},
+		{
+			"name": "Armblade (Sickle)",
+			"source": "UAMagicItemsofEberron",
+			"_copy": {
+				"name": "Armblade",
+				"source": "UAMagicItemsofEberron"
+			}
+		},
+		{
+			"name": "Armblade (War Pick)",
+			"source": "UAMagicItemsofEberron",
+			"_copy": {
+				"name": "Armblade",
+				"source": "UAMagicItemsofEberron"
+			}
+		},
+		{
+			"name": "Armblade (Whip)",
+			"source": "UAMagicItemsofEberron",
+			"_copy": {
+				"name": "Armblade",
+				"source": "UAMagicItemsofEberron"
+			}
+		},
+		{
+			"name": "Docent",
+			"source": "UAMagicItemsofEberron",
+			"entries": [
+				"The {@race warforged|ERLW} are living constructs. House Cannith has designed a number of magic items that can interface directly with the body of a {@race warforged|ERLW}. Once attached, a component cannot be removed unless the {@race warforged|ERLW} allows it.",
+				"The {@item armblade|UAMagicItemsofEberron} is an example of an item created by House Cannith. {@item Docent|UAMagicItemsofEberron|Docents} are mysterious wondrous items discovered in Xen'drik. These are just a few of the components that can be encountered across Eberron."
+			]
+		},
+		{
+			"name": "Imbued Wood",
+			"source": "UAMagicItemsofEberron",
+			"entries": [
+				"Go to the Bazaar in Sharn or any enclave of House Cannith and you'll find a wide selection of arcane focuses to choose from. For a wandslinger, the choice of an arcane focus carries the same weight as a duelist deciding between a rapier or a maul. Do you use a {@item Fernian Ash Wand|UAMagicItemsofEberron|wand of Fernian ash} to focus your {@spell fire bolt}, or do you harness defensive energies with a {@item Orb of Shielding (Risian Shale)|UAMagicItemsofEberron|Risian orb}?",
+				"An arcane focus is a tool, and only provides its benefits while you're actively using it.",
+				"In Khorvaire, arcane focus items are recognized as weapons: if guards are securing swords and bows, they'll also require you to turn over your staff."
+			]
+		},
+		{
+			"name": "Imbued Wood (Fernian Ash)",
+			"source": "UAMagicItemsofEberron",
+			"_copy": {
+				"name": "Imbued Wood",
+				"source": "UAMagicItemsofEberron"
+			}
+		},
+		{
+			"name": "Imbued Wood (Irian Rosewood)",
+			"source": "UAMagicItemsofEberron",
+			"_copy": {
+				"name": "Imbued Wood",
+				"source": "UAMagicItemsofEberron"
+			}
+		},
+		{
+			"name": "Imbued Wood (Kythrian Manchineel)",
+			"source": "UAMagicItemsofEberron",
+			"_copy": {
+				"name": "Imbued Wood",
+				"source": "UAMagicItemsofEberron"
+			}
+		},
+		{
+			"name": "Imbued Wood (Lamannian Oak)",
+			"source": "UAMagicItemsofEberron",
+			"_copy": {
+				"name": "Imbued Wood",
+				"source": "UAMagicItemsofEberron"
+			}
+		},
+		{
+			"name": "Imbued Wood (Mabaran Ebony)",
+			"source": "UAMagicItemsofEberron",
+			"_copy": {
+				"name": "Imbued Wood",
+				"source": "UAMagicItemsofEberron"
+			}
+		},
+		{
+			"name": "Imbued Wood (Quori Beech)",
+			"source": "UAMagicItemsofEberron",
+			"_copy": {
+				"name": "Imbued Wood",
+				"source": "UAMagicItemsofEberron"
+			}
+		},
+		{
+			"name": "Imbued Wood (Risian Pine)",
+			"source": "UAMagicItemsofEberron",
+			"_copy": {
+				"name": "Imbued Wood",
+				"source": "UAMagicItemsofEberron"
+			}
+		},
+		{
+			"name": "Imbued Wood (Shavarran Birch)",
+			"source": "UAMagicItemsofEberron",
+			"_copy": {
+				"name": "Imbued Wood",
+				"source": "UAMagicItemsofEberron"
+			}
+		},
+		{
+			"name": "Imbued Wood (Xorian Wenge)",
+			"source": "UAMagicItemsofEberron",
+			"_copy": {
+				"name": "Imbued Wood",
+				"source": "UAMagicItemsofEberron"
+			}
+		},
+		{
+			"name": "Orb of Shielding",
+			"source": "UAMagicItemsofEberron",
+			"_copy": {
+				"name": "Imbued Wood",
+				"source": "UAMagicItemsofEberron"
+			}
+		},
+		{
+			"name": "Orb of Shielding (Fernian Basalt)",
+			"source": "UAMagicItemsofEberron",
+			"_copy": {
+				"name": "Imbued Wood",
+				"source": "UAMagicItemsofEberron"
+			}
+		},
+		{
+			"name": "Orb of Shielding (Irian Quartz)",
+			"source": "UAMagicItemsofEberron",
+			"_copy": {
+				"name": "Imbued Wood",
+				"source": "UAMagicItemsofEberron"
+			}
+		},
+		{
+			"name": "Orb of Shielding (Kythrian Skarn)",
+			"source": "UAMagicItemsofEberron",
+			"_copy": {
+				"name": "Imbued Wood",
+				"source": "UAMagicItemsofEberron"
+			}
+		},
+		{
+			"name": "Orb of Shielding (Lamannian Flint)",
+			"source": "UAMagicItemsofEberron",
+			"_copy": {
+				"name": "Imbued Wood",
+				"source": "UAMagicItemsofEberron"
+			}
+		},
+		{
+			"name": "Orb of Shielding (Mabaran Obsidian)",
+			"source": "UAMagicItemsofEberron",
+			"_copy": {
+				"name": "Imbued Wood",
+				"source": "UAMagicItemsofEberron"
+			}
+		},
+		{
+			"name": "Orb of Shielding (Quori Celestine)",
+			"source": "UAMagicItemsofEberron",
+			"_copy": {
+				"name": "Imbued Wood",
+				"source": "UAMagicItemsofEberron"
+			}
+		},
+		{
+			"name": "Orb of Shielding (Risian Shale)",
+			"source": "UAMagicItemsofEberron",
+			"_copy": {
+				"name": "Imbued Wood",
+				"source": "UAMagicItemsofEberron"
+			}
+		},
+		{
+			"name": "Orb of Shielding (Shavaran Chert)",
+			"source": "UAMagicItemsofEberron",
+			"_copy": {
+				"name": "Imbued Wood",
+				"source": "UAMagicItemsofEberron"
+			}
+		},
+		{
+			"name": "Orb of Shielding (Xorian Marble)",
+			"source": "UAMagicItemsofEberron",
+			"_copy": {
+				"name": "Imbued Wood",
+				"source": "UAMagicItemsofEberron"
+			}
+		},
+		{
+			"name": "Wand Sheath",
+			"source": "UAMagicItemsofEberron",
+			"_copy": {
+				"name": "Docent",
+				"source": "UAMagicItemsofEberron"
+			}
+		}
+	],
+	"variantrule": [
+		{
+			"name": "Two-Handed Arcane Focuses",
+			"source": "UAMagicItemsofEberron",
+			"page": 2,
+			"reprintedAs": [
+				"Two-Handed Arcane Focuses|UAWayfindersGuideToEberron"
+			],
+			"ruleType": "O",
+			"entries": [
+				"In Eberron, an arcane focus is a weapon. As such, it can be interesting to give a focus some of the same trade-offs as mundane weapons: do you sacrifice your free hand for greater power?",
+				"If you use this optional rule, when a caster uses a two-handed arcane focus to cast an offensive cantrip (a cantrip requiring a saving throw or an attack roll), the range of the cantrip is increased by 50 percent.",
+				"By this rule, a staff always requires two hands, while rods can be used with either one or two hands. Using a two-handed arcane focus fulfills the somatic component requirement for a spell."
+			]
+		}
+	],
+	"book": [
+		{
+			"name": "Unearthed Arcana: Magic Items of Eberron",
+			"id": "UAMagicItemsofEberron",
+			"source": "UAMagicItemsofEberron",
+			"group": "prerelease",
+			"cover": {
+				"type": "internal",
+				"path": "covers/blank.webp"
+			},
+			"published": "2018-10-08",
+			"author": "Wizards of the Coast",
+			"contents": [
+				{
+					"name": "Unearthed Arcana: Magic Items of Eberron",
+					"headers": [
+						"Arcane Focuses",
+						"Common Magic Items",
+						"Warforged Components"
+					]
+				}
+			]
+		}
+	],
+	"bookData": [
+		{
+			"id": "UAMagicItemsofEberron",
+			"source": "UAMagicItemsofEberron",
+			"data": [
+				{
+					"type": "section",
+					"name": "Unearthed Arcana: Dragonmarks",
+					"page": 1,
+					"entries": [
+						"This document a selection of magic items drawn from the D&D world of Eberron that can be incorporated into your campaign. For more information about Eberron, see the {@loader Wayfinder's Guide to Eberron|collection/Wayfinder's Guide to Eberron.json|prerelease}, available on the Dungeon Master's Guild ({@link DMsGuild.com|https://www.dmsguild.com/product/247882/Wayfinders-Guide-to-Eberron-5e}).",
+						{
+							"type": "inset",
+							"name": "This Is Playtest Content",
+							"page": 1,
+							"entries": [
+								"The material here is presented for playtesting and to spark your imagination. These game mechanics are in draft form, usable in your campaign but not refined by final game design and editing. They aren't officially part of the game and aren't permitted in D&D Adventurers League events.",
+								"If we decide to make this material official, it will be refined based on your feedback, and then it will appear in a D&D book."
+							]
+						},
+						"Arcane magic plays a vital role in the world of Eberron. Common magic items are part of everyday life. In the nation of Aundair, wandslingers are beginning to outnumber those who use swords and bows.",
+						{
+							"type": "section",
+							"name": "Arcane Focuses",
+							"page": 1,
+							"entries": [
+								"Go to the Bazaar in Sharn or any enclave of House Cannith and you'll find a wide selection of arcane focuses to choose from. For a wandslinger, the choice of an arcane focus carries the same weight as a duelist deciding between a rapier or a maul. Do you use a {@item Imbued Wood (Fernian Ash)|UAMagicItemsofEberron|wand of Fernian ash} to focus your {@spell fire bolt}, or do you harness defensive energies with a {@item Orb of Shielding (Risian Shale)|UAMagicItemsofEberron|Risian orb}?",
+								"An arcane focus is a tool, and only provides its benefits while you're actively using it.",
+								"In Khorvaire, arcane focus items are recognized as weapons: if guards are securing swords and bows, they'll also require you to turn over your staff.",
+								{
+									"type": "statblock",
+									"tag": "item",
+									"source": "UAMagicItemsofEberron",
+									"name": "Imbued Wood",
+									"page": 1
+								},
+								{
+									"type": "statblock",
+									"tag": "item",
+									"source": "UAMagicItemsofEberron",
+									"name": "Orb of Shielding",
+									"page": 1
+								},
+								{
+									"type": "statblock",
+									"tag": "variantrule",
+									"source": "UAMagicItemsofEberron",
+									"name": "Two-Handed Arcane Focuses",
+									"page": 2,
+									"style": "inset",
+									"displayName": "Optional Rule: Two-Handed Arcane Focuses"
+								}
+							]
+						},
+						{
+							"type": "section",
+							"name": "Common Magic Items",
+							"page": 2,
+							"entries": [
+								"Arcane magic is a part of everyday life in the Five Nations of Khorvaire. Powerful magic items remain rare and remarkable, but the streets are lit with everbright lanterns and nobles flaunt their wealth with fine glamerweave clothing. These are just a few examples of common items you might find in Eberron.",
+								{
+									"type": "statblock",
+									"tag": "item",
+									"source": "UAMagicItemsofEberron",
+									"name": "Band of Loyalty",
+									"page": 2
+								},
+								{
+									"type": "statblock",
+									"tag": "item",
+									"source": "UAMagicItemsofEberron",
+									"name": "Cleansing Stone",
+									"page": 2
+								},
+								{
+									"type": "statblock",
+									"tag": "item",
+									"source": "UAMagicItemsofEberron",
+									"name": "Everbright Lantern",
+									"page": 2
+								},
+								{
+									"type": "statblock",
+									"tag": "item",
+									"source": "UAMagicItemsofEberron",
+									"name": "Feather Token",
+									"page": 2
+								},
+								{
+									"type": "statblock",
+									"tag": "item",
+									"source": "UAMagicItemsofEberron",
+									"name": "Glamerweave",
+									"page": 2
+								},
+								{
+									"type": "statblock",
+									"tag": "item",
+									"source": "UAMagicItemsofEberron",
+									"name": "Shiftweave",
+									"page": 2
+								},
+								{
+									"type": "statblock",
+									"tag": "item",
+									"source": "UAMagicItemsofEberron",
+									"name": "Spellshard",
+									"page": 3
+								}
+							]
+						},
+						{
+							"type": "section",
+							"name": "Warforged Components",
+							"page": 3,
+							"entries": [
+								"The {@race warforged|ERLW} are living constructs. House Cannith has designed a number of magic items that can interface directly with the body of a {@race warforged|ERLW}. Once attached, a component cannot be removed unless the {@race warforged|ERLW} allows it.",
+								"The {@item armblade|UAMagicItemsofEberron} is an example of an item created by House Cannith. {@item Docent|UAMagicItemsofEberron|Docents} are mysterious wondrous items discovered in Xen'drik. These are just a few of the components that can be encountered across Eberron.",
+								{
+									"type": "statblock",
+									"tag": "item",
+									"source": "UAMagicItemsofEberron",
+									"name": "Armblade",
+									"page": 3
+								},
+								{
+									"type": "inset",
+									"name": "Magic Armblades",
+									"page": 3,
+									"entries": [
+										"An {@item armblade|UAMagicItemsofEberron} isn't inherently considered to be a magic weapon for purposes of overcoming damage resistance. However, any sort of magical melee weapon could be created as an armblade, so you could acquire a {@item Vicious Weapon||vicious} armblade or a {@item Vorpal Sword||vorpal} armblade."
+									]
+								},
+								{
+									"type": "statblock",
+									"tag": "item",
+									"source": "UAMagicItemsofEberron",
+									"name": "Docent",
+									"page": 3
+								},
+								{
+									"type": "statblock",
+									"tag": "item",
+									"source": "UAMagicItemsofEberron",
+									"name": "Wand Sheath",
+									"page": 4
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	]
+}
