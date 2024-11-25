@@ -1,4 +1,5 @@
 {
+	"$schema": "https://raw.githubusercontent.com/TheGiddyLimit/5etools-utils/master/schema/ua-fast/homebrew.json",
 	"_meta": {
 		"sources": [
 			{
@@ -16,11 +17,6 @@
 				"dateReleased": "2018-10-08"
 			}
 		],
-		"dependencies": {
-			"baseitem": [
-				"PHB"
-			]
-		},
 		"internalCopies": [
 			"itemFluff"
 		],
@@ -28,428 +24,6 @@
 		"dateAdded": 1732050258,
 		"dateLastModified": 1732050258
 	},
-	"baseitem": [
-		{
-			"name": "Armblade (Club)",
-			"source": "UAMagicItemsofEberron",
-			"page": 3,
-			"reprintedAs": [
-				"Armblade|ERLW"
-			],
-			"_copy": {
-				"name": "Club",
-				"source": "PHB",
-				"_mod": {
-					"entries": [
-						{
-							"mode": "prependArr",
-							"items": [
-								"An armblade is a weapon designed to integrate with the forearm of a warforged. If you're a warforged, you can attach an armblade by attuning to it. An attached armblade cannot be disarmed or removed from you against your will, but while the weapon is attached you cannot use that hand for other actions. You can spend one minute to end the attunement and remove the armblade."
-							]
-						}
-					]
-				}
-			},
-			"rarity": "common",
-			"reqAttune": "by a warforged",
-			"reqAttuneTags": [
-				{
-					"race": "warforged|erlw"
-				}
-			],
-			"hasFluff": true
-		},
-		{
-			"name": "Armblade (Dagger)",
-			"source": "UAMagicItemsofEberron",
-			"page": 3,
-			"reprintedAs": [
-				"Armblade|ERLW"
-			],
-			"_copy": {
-				"name": "Dagger",
-				"source": "PHB",
-				"_mod": {
-					"entries": [
-						{
-							"mode": "prependArr",
-							"items": [
-								"An armblade is a weapon designed to integrate with the forearm of a warforged. If you're a warforged, you can attach an armblade by attuning to it. An attached armblade cannot be disarmed or removed from you against your will, but while the weapon is attached you cannot use that hand for other actions. You can spend one minute to end the attunement and remove the armblade."
-							]
-						}
-					]
-				}
-			},
-			"rarity": "common",
-			"reqAttune": "by a warforged",
-			"reqAttuneTags": [
-				{
-					"race": "warforged|erlw"
-				}
-			],
-			"hasFluff": true
-		},
-		{
-			"name": "Armblade (Flail)",
-			"source": "UAMagicItemsofEberron",
-			"page": 3,
-			"reprintedAs": [
-				"Armblade|ERLW"
-			],
-			"_copy": {
-				"name": "Flail",
-				"source": "PHB",
-				"_mod": {
-					"entries": [
-						{
-							"mode": "prependArr",
-							"items": [
-								"An armblade is a weapon designed to integrate with the forearm of a warforged. If you're a warforged, you can attach an armblade by attuning to it. An attached armblade cannot be disarmed or removed from you against your will, but while the weapon is attached you cannot use that hand for other actions. You can spend one minute to end the attunement and remove the armblade."
-							]
-						}
-					]
-				}
-			},
-			"rarity": "common",
-			"reqAttune": "by a warforged",
-			"reqAttuneTags": [
-				{
-					"race": "warforged|erlw"
-				}
-			],
-			"hasFluff": true
-		},
-		{
-			"name": "Armblade (Handaxe)",
-			"source": "UAMagicItemsofEberron",
-			"page": 3,
-			"reprintedAs": [
-				"Armblade|ERLW"
-			],
-			"_copy": {
-				"name": "Handaxe",
-				"source": "PHB",
-				"_mod": {
-					"entries": [
-						{
-							"mode": "prependArr",
-							"items": [
-								"An armblade is a weapon designed to integrate with the forearm of a warforged. If you're a warforged, you can attach an armblade by attuning to it. An attached armblade cannot be disarmed or removed from you against your will, but while the weapon is attached you cannot use that hand for other actions. You can spend one minute to end the attunement and remove the armblade."
-							]
-						}
-					]
-				}
-			},
-			"rarity": "common",
-			"reqAttune": "by a warforged",
-			"reqAttuneTags": [
-				{
-					"race": "warforged|erlw"
-				}
-			],
-			"hasFluff": true
-		},
-		{
-			"name": "Armblade (Javelin)",
-			"source": "UAMagicItemsofEberron",
-			"page": 3,
-			"reprintedAs": [
-				"Armblade|ERLW"
-			],
-			"_copy": {
-				"name": "Javelin",
-				"source": "PHB",
-				"_mod": {
-					"entries": [
-						{
-							"mode": "prependArr",
-							"items": [
-								"An armblade is a weapon designed to integrate with the forearm of a warforged. If you're a warforged, you can attach an armblade by attuning to it. An attached armblade cannot be disarmed or removed from you against your will, but while the weapon is attached you cannot use that hand for other actions. You can spend one minute to end the attunement and remove the armblade."
-							]
-						}
-					]
-				}
-			},
-			"rarity": "common",
-			"reqAttune": "by a warforged",
-			"reqAttuneTags": [
-				{
-					"race": "warforged|erlw"
-				}
-			],
-			"hasFluff": true
-		},
-		{
-			"name": "Armblade (Light Hammer)",
-			"source": "UAMagicItemsofEberron",
-			"page": 3,
-			"reprintedAs": [
-				"Armblade|ERLW"
-			],
-			"_copy": {
-				"name": "Light Hammer",
-				"source": "PHB",
-				"_mod": {
-					"entries": [
-						{
-							"mode": "prependArr",
-							"items": [
-								"An armblade is a weapon designed to integrate with the forearm of a warforged. If you're a warforged, you can attach an armblade by attuning to it. An attached armblade cannot be disarmed or removed from you against your will, but while the weapon is attached you cannot use that hand for other actions. You can spend one minute to end the attunement and remove the armblade."
-							]
-						}
-					]
-				}
-			},
-			"rarity": "common",
-			"reqAttune": "by a warforged",
-			"reqAttuneTags": [
-				{
-					"race": "warforged|erlw"
-				}
-			],
-			"hasFluff": true
-		},
-		{
-			"name": "Armblade (Mace)",
-			"source": "UAMagicItemsofEberron",
-			"page": 3,
-			"reprintedAs": [
-				"Armblade|ERLW"
-			],
-			"_copy": {
-				"name": "Mace",
-				"source": "PHB",
-				"_mod": {
-					"entries": [
-						{
-							"mode": "prependArr",
-							"items": [
-								"An armblade is a weapon designed to integrate with the forearm of a warforged. If you're a warforged, you can attach an armblade by attuning to it. An attached armblade cannot be disarmed or removed from you against your will, but while the weapon is attached you cannot use that hand for other actions. You can spend one minute to end the attunement and remove the armblade."
-							]
-						}
-					]
-				}
-			},
-			"rarity": "common",
-			"reqAttune": "by a warforged",
-			"reqAttuneTags": [
-				{
-					"race": "warforged|erlw"
-				}
-			],
-			"hasFluff": true
-		},
-		{
-			"name": "Armblade (Morningstar)",
-			"source": "UAMagicItemsofEberron",
-			"page": 3,
-			"reprintedAs": [
-				"Armblade|ERLW"
-			],
-			"_copy": {
-				"name": "Morningstar",
-				"source": "PHB",
-				"_mod": {
-					"entries": [
-						{
-							"mode": "prependArr",
-							"items": [
-								"An armblade is a weapon designed to integrate with the forearm of a warforged. If you're a warforged, you can attach an armblade by attuning to it. An attached armblade cannot be disarmed or removed from you against your will, but while the weapon is attached you cannot use that hand for other actions. You can spend one minute to end the attunement and remove the armblade."
-							]
-						}
-					]
-				}
-			},
-			"rarity": "common",
-			"reqAttune": "by a warforged",
-			"reqAttuneTags": [
-				{
-					"race": "warforged|erlw"
-				}
-			],
-			"hasFluff": true
-		},
-		{
-			"name": "Armblade (Rapier)",
-			"source": "UAMagicItemsofEberron",
-			"page": 3,
-			"reprintedAs": [
-				"Armblade|ERLW"
-			],
-			"_copy": {
-				"name": "Rapier",
-				"source": "PHB",
-				"_mod": {
-					"entries": [
-						{
-							"mode": "prependArr",
-							"items": [
-								"An armblade is a weapon designed to integrate with the forearm of a warforged. If you're a warforged, you can attach an armblade by attuning to it. An attached armblade cannot be disarmed or removed from you against your will, but while the weapon is attached you cannot use that hand for other actions. You can spend one minute to end the attunement and remove the armblade."
-							]
-						}
-					]
-				}
-			},
-			"rarity": "common",
-			"reqAttune": "by a warforged",
-			"reqAttuneTags": [
-				{
-					"race": "warforged|erlw"
-				}
-			],
-			"hasFluff": true
-		},
-		{
-			"name": "Armblade (Scimitar)",
-			"source": "UAMagicItemsofEberron",
-			"page": 3,
-			"reprintedAs": [
-				"Armblade|ERLW"
-			],
-			"_copy": {
-				"name": "Scimitar",
-				"source": "PHB",
-				"_mod": {
-					"entries": [
-						{
-							"mode": "prependArr",
-							"items": [
-								"An armblade is a weapon designed to integrate with the forearm of a warforged. If you're a warforged, you can attach an armblade by attuning to it. An attached armblade cannot be disarmed or removed from you against your will, but while the weapon is attached you cannot use that hand for other actions. You can spend one minute to end the attunement and remove the armblade."
-							]
-						}
-					]
-				}
-			},
-			"rarity": "common",
-			"reqAttune": "by a warforged",
-			"reqAttuneTags": [
-				{
-					"race": "warforged|erlw"
-				}
-			],
-			"hasFluff": true
-		},
-		{
-			"name": "Armblade (Shortsword)",
-			"source": "UAMagicItemsofEberron",
-			"page": 3,
-			"reprintedAs": [
-				"Armblade|ERLW"
-			],
-			"_copy": {
-				"name": "Shortsword",
-				"source": "PHB",
-				"_mod": {
-					"entries": [
-						{
-							"mode": "prependArr",
-							"items": [
-								"An armblade is a weapon designed to integrate with the forearm of a warforged. If you're a warforged, you can attach an armblade by attuning to it. An attached armblade cannot be disarmed or removed from you against your will, but while the weapon is attached you cannot use that hand for other actions. You can spend one minute to end the attunement and remove the armblade."
-							]
-						}
-					]
-				}
-			},
-			"rarity": "common",
-			"reqAttune": "by a warforged",
-			"reqAttuneTags": [
-				{
-					"race": "warforged|erlw"
-				}
-			],
-			"hasFluff": true
-		},
-		{
-			"name": "Armblade (Sickle)",
-			"source": "UAMagicItemsofEberron",
-			"page": 3,
-			"reprintedAs": [
-				"Armblade|ERLW"
-			],
-			"_copy": {
-				"name": "Sickle",
-				"source": "PHB",
-				"_mod": {
-					"entries": [
-						{
-							"mode": "prependArr",
-							"items": [
-								"An armblade is a weapon designed to integrate with the forearm of a warforged. If you're a warforged, you can attach an armblade by attuning to it. An attached armblade cannot be disarmed or removed from you against your will, but while the weapon is attached you cannot use that hand for other actions. You can spend one minute to end the attunement and remove the armblade."
-							]
-						}
-					]
-				}
-			},
-			"rarity": "common",
-			"reqAttune": "by a warforged",
-			"reqAttuneTags": [
-				{
-					"race": "warforged|erlw"
-				}
-			],
-			"hasFluff": true
-		},
-		{
-			"name": "Armblade (War Pick)",
-			"source": "UAMagicItemsofEberron",
-			"page": 3,
-			"reprintedAs": [
-				"Armblade|ERLW"
-			],
-			"_copy": {
-				"name": "War Pick",
-				"source": "PHB",
-				"_mod": {
-					"entries": [
-						{
-							"mode": "prependArr",
-							"items": [
-								"An armblade is a weapon designed to integrate with the forearm of a warforged. If you're a warforged, you can attach an armblade by attuning to it. An attached armblade cannot be disarmed or removed from you against your will, but while the weapon is attached you cannot use that hand for other actions. You can spend one minute to end the attunement and remove the armblade."
-							]
-						}
-					]
-				}
-			},
-			"rarity": "common",
-			"reqAttune": "by a warforged",
-			"reqAttuneTags": [
-				{
-					"race": "warforged|erlw"
-				}
-			],
-			"hasFluff": true
-		},
-		{
-			"name": "Armblade (Whip)",
-			"source": "UAMagicItemsofEberron",
-			"page": 3,
-			"reprintedAs": [
-				"Armblade|ERLW"
-			],
-			"_copy": {
-				"name": "Whip",
-				"source": "PHB",
-				"_mod": {
-					"entries": [
-						{
-							"mode": "prependArr",
-							"items": [
-								"An armblade is a weapon designed to integrate with the forearm of a warforged. If you're a warforged, you can attach an armblade by attuning to it. An attached armblade cannot be disarmed or removed from you against your will, but while the weapon is attached you cannot use that hand for other actions. You can spend one minute to end the attunement and remove the armblade."
-							]
-						}
-					]
-				}
-			},
-			"rarity": "common",
-			"reqAttune": "by a warforged",
-			"reqAttuneTags": [
-				{
-					"race": "warforged|erlw"
-				}
-			],
-			"hasFluff": true
-		}
-	],
 	"item": [
 		{
 			"name": "Band of Loyalty",
@@ -651,42 +225,6 @@
 	],
 	"itemGroup": [
 		{
-			"name": "Armblade",
-			"source": "UAMagicItemsofEberron",
-			"page": 3,
-			"reprintedAs": [
-				"Armblade|ERLW"
-			],
-			"rarity": "common",
-			"reqAttune": "by a warforged",
-			"reqAttuneTags": [
-				{
-					"race": "warforged|erlw"
-				}
-			],
-			"entries": [
-				"{@i any one-handed melee weapon}",
-				"An armblade is a weapon designed to integrate with the forearm of a warforged. If you're a warforged, you can attach an armblade by attuning to it. An attached armblade cannot be disarmed or removed from you against your will, but while the weapon is attached you cannot use that hand for other actions. You can spend one minute to end the attunement and remove the armblade."
-			],
-			"items": [
-				"Armblade (Club)|UAMagicItemsofEberron",
-				"Armblade (Dagger)|UAMagicItemsofEberron",
-				"Armblade (Flail)|UAMagicItemsofEberron",
-				"Armblade (Handaxe)|UAMagicItemsofEberron",
-				"Armblade (Javelin)|UAMagicItemsofEberron",
-				"Armblade (Light Hammer)|UAMagicItemsofEberron",
-				"Armblade (Mace)|UAMagicItemsofEberron",
-				"Armblade (Morningstar)|UAMagicItemsofEberron",
-				"Armblade (Rapier)|UAMagicItemsofEberron",
-				"Armblade (Scimitar)|UAMagicItemsofEberron",
-				"Armblade (Shortsword)|UAMagicItemsofEberron",
-				"Armblade (Sickle)|UAMagicItemsofEberron",
-				"Armblade (War Pick)|UAMagicItemsofEberron",
-				"Armblade (Whip)|UAMagicItemsofEberron"
-			],
-			"hasFluff": true
-		},
-		{
 			"name": "Imbued Wood",
 			"source": "UAMagicItemsofEberron",
 			"page": 1,
@@ -886,7 +424,46 @@
 	],
 	"magicvariant": [
 		{
+			"name": "Armblade",
+			"edition": "classic",
+			"type": "GV|DMG",
+			"requires": [
+				{
+					"type": "M"
+				},
+				{
+					"type": "M|XPHB"
+				}
+			],
+			"excludes": {
+				"property": [
+					"2H",
+					"2H|XPHB"
+				]
+			},
+			"inherits": {
+				"nameSuffix": " Armblade",
+				"source": "UAMagicItemsofEberron",
+				"page": 3,
+				"reprintedAs": [
+					"Armblade|ERLW"
+				],
+				"rarity": "common",
+				"reqAttune": "by a warforged",
+				"reqAttuneTags": [
+					{
+						"race": "warforged|erlw"
+					}
+				],
+				"entries": [
+					"An armblade is a weapon designed to integrate with the forearm of a warforged. If you're a warforged, you can attach an armblade by attuning to it. An attached armblade cannot be disarmed or removed from you against your will, but while the weapon is attached you cannot use that hand for other actions. You can spend one minute to end the attunement and remove the armblade."
+				]
+			},
+			"hasFluff": true
+		},
+		{
 			"name": "Imbued Wood (Fernian Ash)",
+			"edition": "classic",
 			"type": "GV|DMG",
 			"requires": [
 				{
@@ -924,6 +501,7 @@
 		},
 		{
 			"name": "Imbued Wood (Irian Rosewood)",
+			"edition": "classic",
 			"type": "GV|DMG",
 			"requires": [
 				{
@@ -961,6 +539,7 @@
 		},
 		{
 			"name": "Imbued Wood (Kythrian Manchineel)",
+			"edition": "classic",
 			"type": "GV|DMG",
 			"requires": [
 				{
@@ -998,6 +577,7 @@
 		},
 		{
 			"name": "Imbued Wood (Lamannian Oak)",
+			"edition": "classic",
 			"type": "GV|DMG",
 			"requires": [
 				{
@@ -1035,6 +615,7 @@
 		},
 		{
 			"name": "Imbued Wood (Mabaran Ebony)",
+			"edition": "classic",
 			"type": "GV|DMG",
 			"requires": [
 				{
@@ -1072,6 +653,7 @@
 		},
 		{
 			"name": "Imbued Wood (Quori Beech)",
+			"edition": "classic",
 			"type": "GV|DMG",
 			"requires": [
 				{
@@ -1109,6 +691,7 @@
 		},
 		{
 			"name": "Imbued Wood (Risian Pine)",
+			"edition": "classic",
 			"type": "GV|DMG",
 			"requires": [
 				{
@@ -1146,6 +729,7 @@
 		},
 		{
 			"name": "Imbued Wood (Shavarran Birch)",
+			"edition": "classic",
 			"type": "GV|DMG",
 			"requires": [
 				{
@@ -1183,6 +767,7 @@
 		},
 		{
 			"name": "Imbued Wood (Xorian Wenge)",
+			"edition": "classic",
 			"type": "GV|DMG",
 			"requires": [
 				{
@@ -1220,6 +805,7 @@
 		},
 		{
 			"name": "Orb of Shielding (Fernian Basalt)",
+			"edition": "classic",
 			"type": "GV|DMG",
 			"requires": [
 				{
@@ -1256,6 +842,7 @@
 		},
 		{
 			"name": "Orb of Shielding (Irian Quartz)",
+			"edition": "classic",
 			"type": "GV|DMG",
 			"requires": [
 				{
@@ -1292,6 +879,7 @@
 		},
 		{
 			"name": "Orb of Shielding (Kythrian Skarn)",
+			"edition": "classic",
 			"type": "GV|DMG",
 			"requires": [
 				{
@@ -1328,6 +916,7 @@
 		},
 		{
 			"name": "Orb of Shielding (Lamannian Flint)",
+			"edition": "classic",
 			"type": "GV|DMG",
 			"requires": [
 				{
@@ -1364,6 +953,7 @@
 		},
 		{
 			"name": "Orb of Shielding (Mabaran Obsidian)",
+			"edition": "classic",
 			"type": "GV|DMG",
 			"requires": [
 				{
@@ -1400,6 +990,7 @@
 		},
 		{
 			"name": "Orb of Shielding (Quori Celestine)",
+			"edition": "classic",
 			"type": "GV|DMG",
 			"requires": [
 				{
@@ -1436,6 +1027,7 @@
 		},
 		{
 			"name": "Orb of Shielding (Risian Shale)",
+			"edition": "classic",
 			"type": "GV|DMG",
 			"requires": [
 				{
@@ -1472,6 +1064,7 @@
 		},
 		{
 			"name": "Orb of Shielding (Shavaran Chert)",
+			"edition": "classic",
 			"type": "GV|DMG",
 			"requires": [
 				{
@@ -1508,6 +1101,7 @@
 		},
 		{
 			"name": "Orb of Shielding (Xorian Marble)",
+			"edition": "classic",
 			"type": "GV|DMG",
 			"requires": [
 				{
@@ -1541,6 +1135,100 @@
 				]
 			},
 			"hasFluff": true
+		},
+		{
+			"name": "Vicious Armblade",
+			"edition": "classic",
+			"type": "GV|DMG",
+			"requires": [
+				{
+					"type": "M"
+				},
+				{
+					"type": "M|XPHB"
+				}
+			],
+			"excludes": {
+				"property": [
+					"2H",
+					"2H|XPHB"
+				]
+			},
+			"entries": [
+				"An armblade is a weapon designed to integrate with the forearm of a warforged. If you're a warforged, you can attach an armblade by attuning to it. An attached armblade cannot be disarmed or removed from you against your will, but while the weapon is attached you cannot use that hand for other actions. You can spend one minute to end the attunement and remove the armblade.",
+				"When you roll a 20 with this magic weapon, the target takes an extra 7 damage of the weapon's type.",
+				"{@note Note: According to the SRD, it is an extra {@dice 2d6} damage, although {@link this is incorrect|https://rpg.stackexchange.com/a/174522/53884}.}"
+			],
+			"inherits": {
+				"namePrefix": "Vicious ",
+				"nameSuffix": " Armblade",
+				"source": "UAMagicItemsofEberron",
+				"page": 3,
+				"reprintedAs": [
+					"Armblade|ERLW"
+				],
+				"tier": "major",
+				"rarity": "rare",
+				"reqAttune": "by a warforged",
+				"reqAttuneTags": [
+					{
+						"race": "warforged|erlw"
+					}
+				],
+				"entries": [
+					"An armblade is a weapon designed to integrate with the forearm of a warforged. If you're a warforged, you can attach an armblade by attuning to it. An attached armblade cannot be disarmed or removed from you against your will, but while the weapon is attached you cannot use that hand for other actions. You can spend one minute to end the attunement and remove the armblade.",
+					"When you roll a 20 with this magic weapon, the target takes an extra 7 {=dmgType} damage.",
+					"{@note Note: According to the SRD, it is an extra {@dice 2d6} {=dmgType} damage, although {@link this is incorrect|https://rpg.stackexchange.com/a/174522/53884}.}"
+				]
+			},
+			"hasFluff": true
+		},
+		{
+			"name": "Vorpal Armblade",
+			"edition": "classic",
+			"type": "GV|DMG",
+			"requires": [
+				{
+					"sword": true,
+					"dmgType": "S",
+					"type": "M"
+				},
+				{
+					"sword": true,
+					"dmgType": "S",
+					"type": "M|XPHB"
+				}
+			],
+			"excludes": {
+				"property": [
+					"2H",
+					"2H|XPHB"
+				]
+			},
+			"inherits": {
+				"namePrefix": "Vorpal ",
+				"nameSuffix": " Armblade",
+				"source": "UAMagicItemsofEberron",
+				"page": 3,
+				"reprintedAs": [
+					"Armblade|ERLW"
+				],
+				"tier": "major",
+				"rarity": "legendary",
+				"reqAttune": "by a warforged",
+				"reqAttuneTags": [
+					{
+						"race": "warforged|erlw"
+					}
+				],
+				"bonusWeapon": "+3",
+				"entries": [
+					"An armblade is a weapon designed to integrate with the forearm of a warforged. If you're a warforged, you can attach an armblade by attuning to it. An attached armblade cannot be disarmed or removed from you against your will, but while the weapon is attached you cannot use that hand for other actions. You can spend one minute to end the attunement and remove the armblade.",
+					"You gain a +3 bonus to attack and damage rolls made with this magic weapon. In addition, the weapon ignores resistance to slashing damage.",
+					"When you attack a creature that has at least one head with this weapon and roll a 20 on the attack roll, you cut off one of the creature's heads. The creature dies if it can't survive without the lost head. A creature is immune to this effect if it is immune to slashing damage, doesn't have or need a head, has legendary actions, or the DM decides that the creature is too big for its head to be cut off with this weapon. Such a creature instead takes an extra {@dice 6d8} slashing damage from the hit."
+				]
+			},
+			"hasFluff": true
 		}
 	],
 	"itemFluff": [
@@ -1559,124 +1247,12 @@
 								"name": "Magic Armblades",
 								"page": 3,
 								"entries": [
-									"An {@item armblade|UAMagicItemsofEberron} isn't inherently considered to be a magic weapon for purposes of overcoming damage resistance. However, any sort of magical melee weapon could be created as an armblade, so you could acquire a {@item Vicious Weapon||vicious} armblade or a {@item Vorpal Sword||vorpal} armblade."
+									"An {@item armblade|UAMagicItemsofEberron} isn't inherently considered to be a magic weapon for purposes of overcoming damage resistance. However, any sort of magical melee weapon could be created as an armblade, so you could acquire a {@item vicious armblade|UAMagicItemsofEberron} or a {@item vorpal armblade|UAMagicItemsofEberron}."
 								]
 							}
 						]
 					}
 				}
-			}
-		},
-		{
-			"name": "Armblade (Club)",
-			"source": "UAMagicItemsofEberron",
-			"_copy": {
-				"name": "Armblade",
-				"source": "UAMagicItemsofEberron"
-			}
-		},
-		{
-			"name": "Armblade (Dagger)",
-			"source": "UAMagicItemsofEberron",
-			"_copy": {
-				"name": "Armblade",
-				"source": "UAMagicItemsofEberron"
-			}
-		},
-		{
-			"name": "Armblade (Flail)",
-			"source": "UAMagicItemsofEberron",
-			"_copy": {
-				"name": "Armblade",
-				"source": "UAMagicItemsofEberron"
-			}
-		},
-		{
-			"name": "Armblade (Handaxe)",
-			"source": "UAMagicItemsofEberron",
-			"_copy": {
-				"name": "Armblade",
-				"source": "UAMagicItemsofEberron"
-			}
-		},
-		{
-			"name": "Armblade (Javelin)",
-			"source": "UAMagicItemsofEberron",
-			"_copy": {
-				"name": "Armblade",
-				"source": "UAMagicItemsofEberron"
-			}
-		},
-		{
-			"name": "Armblade (Light Hammer)",
-			"source": "UAMagicItemsofEberron",
-			"_copy": {
-				"name": "Armblade",
-				"source": "UAMagicItemsofEberron"
-			}
-		},
-		{
-			"name": "Armblade (Mace)",
-			"source": "UAMagicItemsofEberron",
-			"_copy": {
-				"name": "Armblade",
-				"source": "UAMagicItemsofEberron"
-			}
-		},
-		{
-			"name": "Armblade (Morningstar)",
-			"source": "UAMagicItemsofEberron",
-			"_copy": {
-				"name": "Armblade",
-				"source": "UAMagicItemsofEberron"
-			}
-		},
-		{
-			"name": "Armblade (Rapier)",
-			"source": "UAMagicItemsofEberron",
-			"_copy": {
-				"name": "Armblade",
-				"source": "UAMagicItemsofEberron"
-			}
-		},
-		{
-			"name": "Armblade (Scimitar)",
-			"source": "UAMagicItemsofEberron",
-			"_copy": {
-				"name": "Armblade",
-				"source": "UAMagicItemsofEberron"
-			}
-		},
-		{
-			"name": "Armblade (Shortsword)",
-			"source": "UAMagicItemsofEberron",
-			"_copy": {
-				"name": "Armblade",
-				"source": "UAMagicItemsofEberron"
-			}
-		},
-		{
-			"name": "Armblade (Sickle)",
-			"source": "UAMagicItemsofEberron",
-			"_copy": {
-				"name": "Armblade",
-				"source": "UAMagicItemsofEberron"
-			}
-		},
-		{
-			"name": "Armblade (War Pick)",
-			"source": "UAMagicItemsofEberron",
-			"_copy": {
-				"name": "Armblade",
-				"source": "UAMagicItemsofEberron"
-			}
-		},
-		{
-			"name": "Armblade (Whip)",
-			"source": "UAMagicItemsofEberron",
-			"_copy": {
-				"name": "Armblade",
-				"source": "UAMagicItemsofEberron"
 			}
 		},
 		{
@@ -1845,6 +1421,22 @@
 			"source": "UAMagicItemsofEberron",
 			"_copy": {
 				"name": "Imbued Wood",
+				"source": "UAMagicItemsofEberron"
+			}
+		},
+		{
+			"name": "Vicious Armblade",
+			"source": "UAMagicItemsofEberron",
+			"_copy": {
+				"name": "Armblade",
+				"source": "UAMagicItemsofEberron"
+			}
+		},
+		{
+			"name": "Vorpal Armblade",
+			"source": "UAMagicItemsofEberron",
+			"_copy": {
+				"name": "Armblade",
 				"source": "UAMagicItemsofEberron"
 			}
 		},
@@ -2027,7 +1619,7 @@
 									"name": "Magic Armblades",
 									"page": 3,
 									"entries": [
-										"An {@item armblade|UAMagicItemsofEberron} isn't inherently considered to be a magic weapon for purposes of overcoming damage resistance. However, any sort of magical melee weapon could be created as an armblade, so you could acquire a {@item Vicious Weapon||vicious} armblade or a {@item Vorpal Sword||vorpal} armblade."
+										"An {@item armblade|UAMagicItemsofEberron} isn't inherently considered to be a magic weapon for purposes of overcoming damage resistance. However, any sort of magical melee weapon could be created as an armblade, so you could acquire a {@item vicious armblade|UAMagicItemsofEberron} or a {@item vorpal armblade|UAMagicItemsofEberron}."
 									]
 								},
 								{
