@@ -17,8 +17,8 @@
 			}
 		],
 		"dateAdded": 1672604449,
-		"dateLastModified": 1729637619,
-		"_dateLastModifiedHash": "ffa3168658",
+		"dateLastModified": 1732568402,
+		"_dateLastModifiedHash": "19f1891e3b",
 		"edition": "classic"
 	},
 	"trap": [
@@ -27,8 +27,12 @@
 			"source": "UATrapsRevisited",
 			"page": 2,
 			"trapHazType": "SMPL",
-			"tier": 1,
-			"threat": "dangerous",
+			"rating": [
+				{
+					"tier": 1,
+					"threat": "dangerous"
+				}
+			],
 			"effect": [
 				"The trap makes an attack against the triggering creature. The attack has a +8 attack bonus and deals 5 ({@damage 1d10}) piercing damage on a hit. This attack can't gain advantage or disadvantage. A creature hit by the trap has its speed reduced to 0. It can't move until it breaks free of the trap with a successful Strength check ({@dc 15}) made by it or another creature adjacent to the trap."
 			],
@@ -47,8 +51,12 @@
 			"source": "UATrapsRevisited",
 			"page": 2,
 			"trapHazType": "SMPL",
-			"tier": 1,
-			"threat": "dangerous",
+			"rating": [
+				{
+					"tier": 1,
+					"threat": "dangerous"
+				}
+			],
 			"effect": [
 				"The trap makes two attacks against the triggering creature. Each attack has a +8 attack bonus and deals 5 ({@damage 1d10}) piercing damage on a hit. This attack can't gain advantage or disadvantage."
 			],
@@ -67,8 +75,12 @@
 			"source": "UATrapsRevisited",
 			"page": 2,
 			"trapHazType": "SMPL",
-			"tier": 1,
-			"threat": "deadly",
+			"rating": [
+				{
+					"tier": 1,
+					"threat": "deadly"
+				}
+			],
 			"effect": [
 				"The trap causes an iron gate to drop from the ceiling, blocking the exit from the maze. Countermeasures. A {@dc 20} Wisdom ({@skill Perception}) check reveals the pressure plate. A {@dc 20} Dexterity check made with thieves' tools disables it, but a check result of 5 or less triggers the trap."
 			],
@@ -87,8 +99,12 @@
 			"source": "UATrapsRevisited",
 			"page": 2,
 			"trapHazType": "SMPL",
-			"tier": 2,
-			"threat": "dangerous",
+			"rating": [
+				{
+					"tier": 2,
+					"threat": "dangerous"
+				}
+			],
 			"effect": [
 				"A 15-foot cone of fire erupts, covering the pressure plate and the area around it. Each creature in the cone must make a {@dc 15} Dexterity saving throw, taking 24 ({@damage 7d6}) fire damage on a failed save, or half as much damage on a successful one."
 			],
@@ -107,8 +123,12 @@
 			"source": "UATrapsRevisited",
 			"page": 3,
 			"trapHazType": "SMPL",
-			"tier": 1,
-			"threat": "dangerous",
+			"rating": [
+				{
+					"tier": 1,
+					"threat": "dangerous"
+				}
+			],
 			"effect": [
 				"A net covering a 10-foot-by-10-foot area centered on the tripwire falls to the floor as a bell rings. Any creature fully within this area must succeed on a {@dc 15} Dexterity saving throw or be {@condition restrained}. A creature can use its action to make a {@dc 10} Strength check to try to free itself or another creature in the net. Dealing 5 slashing damage to the net (AC 10) also frees a creature without harming the creature."
 			],
@@ -127,8 +147,12 @@
 			"source": "UATrapsRevisited",
 			"page": 7,
 			"trapHazType": "CMPX",
-			"tier": 1,
-			"threat": "dangerous",
+			"rating": [
+				{
+					"tier": 1,
+					"threat": "dangerous"
+				}
+			],
 			"trigger": [
 				"This trap activates as soon as a nonundead creature enters the hallway, and it remains active while any non-undead creature is within it."
 			],
@@ -244,8 +268,12 @@
 			"source": "UATrapsRevisited",
 			"page": 3,
 			"trapHazType": "SMPL",
-			"tier": 1,
-			"threat": "moderate",
+			"rating": [
+				{
+					"tier": 1,
+					"threat": "moderate"
+				}
+			],
 			"effect": [
 				"The triggering creature must make a {@dc 10} Dexterity saving throw. On a successful save, the creature catches on the pit's edge or instinctively steps back. Otherwise, the creature falls into the pit and takes 3 ({@damage 1d6}) bludgeoning damage from the fall."
 			],
@@ -264,8 +292,12 @@
 			"source": "UATrapsRevisited",
 			"page": 3,
 			"trapHazType": "SMPL",
-			"tier": 1,
-			"threat": "deadly",
+			"rating": [
+				{
+					"tier": 1,
+					"threat": "deadly"
+				}
+			],
 			"effect": [
 				"The triggering creature must make a {@dc 20} Constitution saving throw. On a failed save, the creature takes 14 ({@damage 4d6}) poison damage and is {@condition poisoned} for 10 minutes. While {@condition poisoned} in this way, the creature is {@condition paralyzed}. On a successful save, the creature takes half as much damage and isn't {@condition poisoned}."
 			],
@@ -284,8 +316,12 @@
 			"source": "UATrapsRevisited",
 			"page": 9,
 			"trapHazType": "CMPX",
-			"tier": 3,
-			"threat": "deadly",
+			"rating": [
+				{
+					"tier": 3,
+					"threat": "deadly"
+				}
+			],
 			"trigger": [
 				"This trap activates when a ruby is pried from one of the statues. Each statue's mouth slides open, revealing a 1-foot-wide pipe running down its throat."
 			],
@@ -396,8 +432,12 @@
 			"source": "UATrapsRevisited",
 			"page": 3,
 			"trapHazType": "SMPL",
-			"tier": 2,
-			"threat": "dangerous",
+			"rating": [
+				{
+					"tier": 2,
+					"threat": "dangerous"
+				}
+			],
 			"effect": [
 				"Each Medium or larger creature in a 5foot-wide and 20-foot-long area must make a {@dc 15} Dexterity saving throw, taking 14 ({@damage 4d6}) slashing damage on a failed save, or half as much damage on a successful one."
 			],
@@ -416,8 +456,12 @@
 			"source": "UATrapsRevisited",
 			"page": 3,
 			"trapHazType": "SMPL",
-			"tier": 3,
-			"threat": "deadly",
+			"rating": [
+				{
+					"tier": 3,
+					"threat": "deadly"
+				}
+			],
 			"effect": [
 				"When activated, this trap casts a {@spell sleep} spell centered on the pressure plate using a 9th-level spell slot."
 			],
@@ -436,8 +480,12 @@
 			"source": "UATrapsRevisited",
 			"page": 8,
 			"trapHazType": "CMPX",
-			"tier": 2,
-			"threat": "deadly",
+			"rating": [
+				{
+					"tier": 2,
+					"threat": "deadly"
+				}
+			],
 			"trigger": [
 				"This trap activates as soon as the lid to the jester's coffin is opened. A magical portal opens at the northern end of the hallway and disgorges a giant, steel sphere, which hurtles down the slope. When it reaches the bottom of the slope, a second portal briefly appears and teleports the sphere back to the top of the slope to begin the process again."
 			],

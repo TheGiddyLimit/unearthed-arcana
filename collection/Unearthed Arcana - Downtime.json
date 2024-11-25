@@ -3,7 +3,7 @@
 		"sources": [
 			{
 				"json": "UADowntime",
-				"abbreviation": "UAD",
+				"abbreviation": "UADown",
 				"full": "Unearthed Arcana: Downtime",
 				"authors": [
 					"Wizards of the Coast"
@@ -17,8 +17,8 @@
 			}
 		],
 		"dateAdded": 1672604449,
-		"dateLastModified": 1729637619,
-		"_dateLastModifiedHash": "12362ef63f",
+		"dateLastModified": 1732566410,
+		"_dateLastModifiedHash": "67a7d10b70",
 		"edition": "classic"
 	},
 	"variantrule": [
@@ -1719,7 +1719,7 @@
 	"book": [
 		{
 			"name": "Unearthed Arcana: Downtime",
-			"id": "UAD",
+			"id": "UADown",
 			"source": "UADowntime",
 			"group": "prerelease",
 			"cover": {
@@ -1743,7 +1743,7 @@
 	],
 	"bookData": [
 		{
-			"id": "UAD",
+			"id": "UADown",
 			"source": "UADowntime",
 			"data": [
 				{

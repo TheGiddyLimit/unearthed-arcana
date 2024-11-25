@@ -1,0 +1,1971 @@
+{
+	"$schema": "https://raw.githubusercontent.com/TheGiddyLimit/5etools-utils/master/schema/ua-fast/homebrew.json",
+	"_meta": {
+		"sources": [
+			{
+				"json": "UADragonmarks",
+				"abbreviation": "UADrgM",
+				"full": "Unearthed Arcana: Dragonmarks",
+				"authors": [
+					"Wizards of the Coast"
+				],
+				"convertedBy": [
+					"Lyra [he/him]"
+				],
+				"version": "1.0.0",
+				"url": "https://media.wizards.com/2018/dnd/downloads/UA_Dragonmarks.pdf",
+				"dateReleased": "2018-09-10"
+			}
+		],
+		"edition": "classic",
+		"dateAdded": 1732050258,
+		"dateLastModified": 1732050258,
+		"_dateLastModifiedHash": "a355917850"
+	},
+	"subrace": [
+		{
+			"name": "Mark of Warding",
+			"source": "UADragonmarks",
+			"raceName": "Dwarf",
+			"raceSource": "PHB",
+			"page": 7,
+			"reprintedAs": [
+				"Dwarf (Mark of Warding)|ERLW"
+			],
+			"ability": [
+				{
+					"dex": 1,
+					"int": 1
+				}
+			],
+			"traitTags": [
+				"Dragonmark",
+				"Skill Bonus Dice",
+				"Tool Bonus Dice"
+			],
+			"additionalSpells": [
+				{
+					"ability": "int",
+					"known": {
+						"1": {
+							"ritual": [
+								"alarm"
+							]
+						},
+						"3": {
+							"daily": {
+								"1": [
+									"arcane lock"
+								]
+							}
+						}
+					}
+				}
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Master of Locks",
+					"entries": [
+						"When you make an Intelligence ({@skill History}), Intelligence ({@skill Investigation}), or {@item Thieves' Tools|PHB} check involving lock and trap mechanisms, you can roll one Intuition die, a {@dice d4}, and add the number rolled to the ability check."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Wards and Seals",
+					"entries": [
+						"You can use your mark to cast the {@spell alarm} spell as a ritual. Starting at 3rd level you can cast {@spell arcane lock} once with this trait and you regain the ability to do so when you finish a long rest. Intelligence is your spellcasting ability for these spells."
+					]
+				}
+			],
+			"hasFluff": true
+		},
+		{
+			"name": "Mark of Shadow",
+			"source": "UADragonmarks",
+			"raceName": "Elf",
+			"raceSource": "PHB",
+			"page": 6,
+			"reprintedAs": [
+				"Elf (Mark of Shadow)|ERLW"
+			],
+			"ability": [
+				{
+					"cha": 1
+				}
+			],
+			"traitTags": [
+				"Dragonmark",
+				"Skill Bonus Dice",
+				"Skill Proficiency",
+				"Tool Proficiency"
+			],
+			"skillToolLanguageProficiencies": [
+				{
+					"anyMusicalInstrument": 1
+				},
+				{
+					"performance": true
+				}
+			],
+			"additionalSpells": [
+				{
+					"ability": "cha",
+					"known": {
+						"1": [
+							"minor illusion#c"
+						]
+					}
+				}
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Natural Talent",
+					"entries": [
+						"You gain proficiency with one {@filter musical instrument|items|source=|type=instrument|category=|miscellaneous=} or the {@skill Performance} skill."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Gift of the Shadows",
+					"entries": [
+						"When you make a Charisma ({@skill Performance}) or Dexterity ({@skill Stealth}) check, you can roll one Intuition die, a {@dice d4}, and add the number rolled to the ability check."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Shape Shadows",
+					"entries": [
+						"You know the {@spell minor illusion} cantrip. Charisma is your spellcasting ability for this trait."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Slip Into Shadow",
+					"entries": [
+						"You can use the {@action Hide} action as a bonus action, even if you have no cover or if you're under observation. Regardless of whether you succeed or fail, once you use this ability, you can't use it again until you finish a short or long rest."
+					]
+				}
+			],
+			"hasFluff": true
+		},
+		{
+			"name": "Mark of Scribing",
+			"source": "UADragonmarks",
+			"raceName": "Gnome",
+			"raceSource": "PHB",
+			"page": 5,
+			"reprintedAs": [
+				"Gnome (Mark of Scribing)|ERLW"
+			],
+			"ability": [
+				{
+					"cha": 1
+				}
+			],
+			"traitTags": [
+				"Dragonmark",
+				"Tool Bonus Dice",
+				"Tool Proficiency"
+			],
+			"languageProficiencies": [
+				{
+					"any": 1
+				}
+			],
+			"toolProficiencies": [
+				{
+					"calligrapher's supplies": true,
+					"forgery kit": true
+				}
+			],
+			"additionalSpells": [
+				{
+					"innate": {
+						"1": {
+							"daily": {
+								"1": [
+									"comprehend languages"
+								]
+							}
+						}
+					},
+					"ability": "int",
+					"known": {
+						"1": [
+							"message#c"
+						]
+					}
+				}
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Gifted Scribe",
+					"entries": [
+						"You are proficient with {@item calligrapher's supplies|PHB} and {@item forgery kit|PHB|forgery kits}. When you make an ability check using either one of these tools, you can roll one Intuition die, a {@dice d4}, and add the number rolled to the ability check."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Scribe's Insight",
+					"entries": [
+						"You can cast {@spell comprehend languages} once with this trait, and you regain the ability to do so when you finish a long rest. Intelligence is your spellcasting ability for it."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Whispering Wind",
+					"entries": [
+						"You know the {@spell message} cantrip. Intelligence is your spellcasting ability for it."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Extra Language",
+					"entries": [
+						"You can speak, read, and write one extra language of your choice."
+					]
+				}
+			],
+			"hasFluff": true
+		},
+		{
+			"name": "Variant; Mark of Detection",
+			"source": "UADragonmarks",
+			"raceName": "Half-Elf",
+			"raceSource": "PHB",
+			"page": 2,
+			"reprintedAs": [
+				"Half-Elf (Variant; Mark of Detection)|ERLW"
+			],
+			"ability": [
+				{
+					"int": 1,
+					"cha": 1,
+					"choose": {
+						"from": [
+							"str",
+							"dex",
+							"con",
+							"int",
+							"wis",
+							"cha"
+						],
+						"count": 1
+					}
+				}
+			],
+			"traitTags": [
+				"Dragonmark",
+				"Language Proficiency",
+				"Skill Bonus Dice"
+			],
+			"skillProficiencies": null,
+			"languageProficiencies": [
+				{
+					"common": true,
+					"elvish": true
+				}
+			],
+			"additionalSpells": [
+				{
+					"innate": {
+						"1": {
+							"ritual": [
+								"detect magic",
+								"detect poison and disease"
+							]
+						}
+					},
+					"ability": "int"
+				}
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Deductive Intuition",
+					"entries": [
+						"When you make an Intelligence ({@skill Investigation}) or Wisdom ({@skill Insight}) check, you can roll one Intuition die, a {@dice d4}, and add the number rolled to the ability check."
+					],
+					"data": {
+						"overwrite": "Skill Versatility"
+					}
+				},
+				{
+					"type": "entries",
+					"name": "Sense Threats",
+					"entries": [
+						"You can cast the {@spell detect magic} and {@spell detect poison and disease} spells, but only as rituals. Intelligence is your spellcasting ability for these spells."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Languages",
+					"entries": [
+						"You can speak, read, and write {@language Common} and {@language Elvish}."
+					],
+					"data": {
+						"overwrite": "Languages"
+					}
+				}
+			],
+			"overwrite": {
+				"ability": true,
+				"languageProficiencies": true
+			},
+			"hasFluff": true
+		},
+		{
+			"name": "Variant; Mark of Storm",
+			"source": "UADragonmarks",
+			"raceName": "Half-Elf",
+			"raceSource": "PHB",
+			"page": 6,
+			"reprintedAs": [
+				"Half-Elf (Variant; Mark of Storm)|ERLW"
+			],
+			"speed": {
+				"walk": 30,
+				"swim": 30
+			},
+			"ability": [
+				{
+					"cha": 1,
+					"dex": 1,
+					"choose": {
+						"from": [
+							"str",
+							"dex",
+							"con",
+							"int",
+							"wis",
+							"cha"
+						],
+						"count": 1
+					}
+				}
+			],
+			"traitTags": [
+				"Dragonmark",
+				"Skill Bonus Dice",
+				"Tool Bonus Dice"
+			],
+			"skillProficiencies": null,
+			"languageProficiencies": [
+				{
+					"common": true,
+					"elvish": true
+				}
+			],
+			"resist": [
+				"lightning"
+			],
+			"additionalSpells": [
+				{
+					"ability": "cha",
+					"known": {
+						"1": [
+							"gust|xge#c"
+						],
+						"3": {
+							"daily": {
+								"1": [
+									"gust of wind"
+								]
+							}
+						}
+					}
+				}
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Sea Monkey",
+					"entries": [
+						"Your base walking speed is 30 feet, and you have a swim speed of 30 feet."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Windwright's Intuition",
+					"entries": [
+						"When you make a Dexterity ({@skill Acrobatics}) check or any ability check involving operating or maintaining a {@filter water or air vehicle|items|source=phb;dmg|miscellaneous=mundane|type=vehicle (air);vehicle (water)}, you can roll one Intuition die, a {@dice d4}, and add the number rolled to the ability check."
+					],
+					"data": {
+						"overwrite": "Skill Versatility"
+					}
+				},
+				{
+					"type": "entries",
+					"name": "Storm's Blessing",
+					"entries": [
+						"You have resistance to lightning damage."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Headwinds",
+					"entries": [
+						"You know the {@spell gust|XGE} cantrip. When you reach 3rd level, you can cast the {@spell gust of wind} spell once with this trait and regain the ability to do so when you finish a long rest."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Languages",
+					"entries": [
+						"You can speak, read, and write {@language Common} and {@language Elvish}."
+					],
+					"data": {
+						"overwrite": "Languages"
+					}
+				}
+			],
+			"overwrite": {
+				"ability": true
+			},
+			"hasFluff": true
+		},
+		{
+			"name": "Variant; Mark of Finding",
+			"source": "UADragonmarks",
+			"raceName": "Half-Orc",
+			"raceSource": "PHB",
+			"page": 2,
+			"reprintedAs": [
+				"Half-Orc (Variant; Mark of Finding)|ERLW",
+				"Human (Variant; Mark of Finding)|ERLW"
+			],
+			"ability": [
+				{
+					"str": 1,
+					"wis": 1,
+					"choose": {
+						"from": [
+							"str",
+							"dex",
+							"con",
+							"int",
+							"wis",
+							"cha"
+						],
+						"count": 1
+					}
+				}
+			],
+			"traitTags": [
+				"Dragonmark",
+				"Skill Bonus Dice"
+			],
+			"additionalSpells": [
+				{
+					"innate": {
+						"3": {
+							"ritual": [
+								"locate animals or plants"
+							]
+						}
+					}
+				}
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Hunter's Intuition",
+					"entries": [
+						"Your mark sharpens your senses and helps you find your prey. When you make a Wisdom ({@skill Perception}) or Wisdom ({@skill Survival}) check, you can roll one Intuition die, a {@dice d4}, and add the number rolled to the ability check."
+					],
+					"data": {
+						"overwrite": "Menacing"
+					}
+				},
+				{
+					"type": "entries",
+					"name": "Imprint Prey",
+					"entries": [
+						"As a bonus action, choose one creature you can see within 30 feet of you. The target is imprinted in your mind until it dies or you use this trait again. Alternatively, you can imprint a creature as your quarry whenever you succeed on a Wisdom ({@skill Survival}) check to track it.",
+						"When you are tracking your quarry, double the result of your Intuition die. When your quarry is within 60 feet of you, you have a general sense of its location. Your attacks against it ignore half cover. If you can't see the target when you attack it, your inability to see it doesn't impose disadvantage on the attack roll. Likewise, your quarry doesn't doesn't gain advantage on attack rolls against you due to being hidden or {@condition invisible}. Once you use this trait, you cannot use it again until you finish a short or long rest."
+					],
+					"data": {
+						"overwrite": "Relentless Endurance"
+					}
+				},
+				{
+					"type": "entries",
+					"name": "Nature's Voice",
+					"entries": [
+						"When you reach 3rd level you gain the ability to cast {@spell locate animals or plants}, but only as a ritual."
+					],
+					"data": {
+						"overwrite": "Savage Attacks"
+					}
+				}
+			],
+			"overwrite": {
+				"ability": true
+			},
+			"hasFluff": true
+		},
+		{
+			"name": "Mark of Healing",
+			"source": "UADragonmarks",
+			"raceName": "Halfling",
+			"raceSource": "PHB",
+			"page": 3,
+			"reprintedAs": [
+				"Halfling (Mark of Healing)|ERLW"
+			],
+			"ability": [
+				{
+					"wis": 1
+				}
+			],
+			"traitTags": [
+				"Dragonmark",
+				"Skill Bonus Dice",
+				"Tool Bonus Dice"
+			],
+			"additionalSpells": [
+				{
+					"innate": {
+						"1": [
+							"spare the dying#c"
+						]
+					},
+					"ability": "wis"
+				}
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Medical Intuition",
+					"entries": [
+						"When you make a Wisdom ({@skill Medicine}) check, you can roll one Intuition die, a {@dice d4}, and add the number rolled to the ability check."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Healing Touch",
+					"entries": [
+						"As an action, you can draw power from your dragonmark to spend one of your Hit Dice and revitalize yourself or a creature you touch. Roll the die, add your Wisdom modifier, and the creature regains a number of hit points equal to the total. Once you use this trait, you can't use it again until you finish a short or long rest."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Jorasco's Blessing",
+					"entries": [
+						"You know the cantrip {@spell spare the dying}. Wisdom is your spellcasting ability for this."
+					]
+				}
+			],
+			"hasFluff": true
+		},
+		{
+			"name": "Mark of Hospitality",
+			"source": "UADragonmarks",
+			"raceName": "Halfling",
+			"raceSource": "PHB",
+			"page": 4,
+			"reprintedAs": [
+				"Halfling (Mark of Hospitality)|ERLW"
+			],
+			"ability": [
+				{
+					"cha": 1
+				}
+			],
+			"traitTags": [
+				"Dragonmark",
+				"Skill Bonus Dice",
+				"Tool Bonus Dice"
+			],
+			"additionalSpells": [
+				{
+					"ability": "cha",
+					"known": {
+						"1": [
+							"friends#c",
+							"prestidigitation#c"
+						]
+					}
+				}
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Innkeeper's Charms",
+					"entries": [
+						"You know the cantrips {@spell friends} and {@spell prestidigitation}. Charisma is your spellcasting ability for them."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Ever Hospitable",
+					"entries": [
+						"When you make a Charisma ({@skill Persuasion}) check or an ability check involving {@item brewer's supplies|PHB} or {@item cook's utensils|PHB}, you can roll one Intuition die (a {@dice d4}) and add the number rolled to the ability check."
+					]
+				}
+			],
+			"hasFluff": true
+		},
+		{
+			"name": "Mark of Handling",
+			"source": "UADragonmarks",
+			"raceName": "Human",
+			"raceSource": "PHB",
+			"page": 3,
+			"reprintedAs": [
+				"Human (Mark of Handling)|ERLW"
+			],
+			"ability": [
+				{
+					"dex": 1,
+					"wis": 1,
+					"choose": {
+						"from": [
+							"str",
+							"dex",
+							"con",
+							"int",
+							"wis",
+							"cha"
+						],
+						"count": 1
+					}
+				}
+			],
+			"traitTags": [
+				"Dragonmark",
+				"Skill Bonus Dice"
+			],
+			"additionalSpells": [
+				{
+					"ability": "wis",
+					"known": {
+						"1": {
+							"rest": {
+								"1": [
+									"animal friendship"
+								]
+							}
+						}
+					}
+				}
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Wild Intuition",
+					"entries": [
+						"When you make a Wisdom ({@skill Animal Handling}) or Intelligence ({@skill Nature}) check, you can roll one Intuition die, a {@dice d4}, and add the number rolled to the ability check."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Expert Handling",
+					"entries": [
+						"You can use the {@action Help} action to aid an ally animal companion or mount within 30 feet of you, rather than 5 feet of you."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Primal Connection",
+					"entries": [
+						"You can cast {@spell animal friendship} once with this trait and regain the ability to do so when you finish a short or long rest. Wisdom is your spellcasting ability for this spell."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "The Bigger They Are",
+					"entries": [
+						"When you cast a spell that affects only beasts, it also affects {@filter monstrosities with an Intelligence score of 3 or lower|bestiary|source=|Challenge Rating=[&0;&3]|type=monstrosity|miscellaneous=}."
+					]
+				}
+			],
+			"overwrite": {
+				"ability": true
+			},
+			"hasFluff": true
+		},
+		{
+			"name": "Mark of Making",
+			"source": "UADragonmarks",
+			"raceName": "Human",
+			"raceSource": "PHB",
+			"page": 4,
+			"reprintedAs": [
+				"Human (Mark of Making)|ERLW"
+			],
+			"ability": [
+				{
+					"int": 1,
+					"dex": 1,
+					"choose": {
+						"from": [
+							"str",
+							"dex",
+							"con",
+							"int",
+							"wis",
+							"cha"
+						],
+						"count": 1
+					}
+				}
+			],
+			"traitTags": [
+				"Dragonmark",
+				"Skill Bonus Dice",
+				"Tool Bonus Dice",
+				"Tool Proficiency"
+			],
+			"toolProficiencies": [
+				{
+					"anyArtisansTool": 1
+				}
+			],
+			"additionalSpells": [
+				{
+					"ability": "int",
+					"known": {
+						"1": [
+							"mending#c"
+						]
+					}
+				}
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Artisan's Intuition",
+					"entries": [
+						"When you make an ability check with {@filter artisan's tools|items|source=phb|miscellaneous=mundane|type=artisan's tools}, roll {@dice 1d4} and add it to the result."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Maker's Gift",
+					"entries": [
+						"You know the cantrip {@spell mending}. You gain proficiency with one type of artisan's tools."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Magecraft",
+					"entries": [
+						"You can create a temporary magic item out of common materials. Choose a {@filter cantrip from the wizard spell list|spells|source=|level=0|class=wizard|components & miscellaneous=}. Describe the item connected to it. As long as you possess the item, you know that cantrip. At the end of a long rest, you can replace this with a new item and select a new cantrip from the wizard spell list. Intelligence is your spellcasting ability for these cantrips."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Spellsmith",
+					"entries": [
+						"You can spend one minute to weave a temporary enchantment into a nonmagical suit of armor or weapon. For the next hour the object becomes a magic item, gaining a +1 bonus to AC if it's armor or a +1 bonus to hit and damage if it's a weapon. Once you use this trait, you can't use it again until you finish a long rest."
+					]
+				}
+			],
+			"overwrite": {
+				"ability": true
+			},
+			"hasFluff": true
+		},
+		{
+			"name": "Mark of Passage",
+			"source": "UADragonmarks",
+			"raceName": "Human",
+			"raceSource": "PHB",
+			"page": 4,
+			"reprintedAs": [
+				"Human (Mark of Passage)|ERLW"
+			],
+			"speed": 40,
+			"ability": [
+				{
+					"dex": 2,
+					"choose": {
+						"from": [
+							"str",
+							"con",
+							"int",
+							"wis",
+							"cha"
+						],
+						"count": 1
+					}
+				}
+			],
+			"traitTags": [
+				"Dragonmark"
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Courier's Speed",
+					"entries": [
+						"Your base walking speed increases to 40 ft."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Intuitive Motion",
+					"entries": [
+						"When you make a Strength ({@skill Athletics}) check or any ability check to operate or maintain a {@filter land vehicle|items|source=phb;dmg|miscellaneous=mundane|type=vehicle (land)}, you can roll one Intuition die, a {@dice d4}, and add the number rolled to the ability check."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Orien's Grace",
+					"entries": [
+						"During your turn, you can spend an amount of movement equal to half your speed to activate this trait. Once you activate Orien's Grace, you don't provoke {@action opportunity attack|PHB|opportunity attacks} for the rest of the turn."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Shared Passage",
+					"entries": [
+						"You can use your bonus action to teleport up to your speed to an unoccupied space that you can see. You can bring one willing creature of your size or smaller who is carrying gear up to its carrying capacity. The creature must be within 5 feet of you. Once you use this trait, you can't use it again until you finish a long rest."
+					]
+				}
+			],
+			"overwrite": {
+				"ability": true
+			},
+			"hasFluff": true
+		},
+		{
+			"name": "Mark of Sentinel",
+			"source": "UADragonmarks",
+			"raceName": "Human",
+			"raceSource": "PHB",
+			"page": 5,
+			"reprintedAs": [
+				"Human (Mark of Sentinel)|ERLW"
+			],
+			"ability": [
+				{
+					"str": 1,
+					"wis": 1,
+					"choose": {
+						"from": [
+							"str",
+							"dex",
+							"con",
+							"int",
+							"wis",
+							"cha"
+						],
+						"count": 1
+					}
+				}
+			],
+			"traitTags": [
+				"Dragonmark",
+				"Skill Bonus Dice"
+			],
+			"additionalSpells": [
+				{
+					"ability": "wis",
+					"innate": {
+						"1": [
+							"bladeward#c"
+						]
+					},
+					"known": {
+						"1": {
+							"rest": {
+								"1": [
+									"shield"
+								]
+							}
+						}
+					}
+				}
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Sentinel's Intuition",
+					"entries": [
+						"When you roll for Initiative or make a Wisdom ({@skill Perception}) check to notice a threat, you can roll one Intuition die, a {@dice d4}, and add the number rolled to the ability check."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Sentinel's Shield",
+					"entries": [
+						"You know the {@spell blade ward} cantrip. You can cast the {@spell shield} spell once with this trait and you regain ability to do so after you finish a short or long rest."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Vigilant Guardian",
+					"entries": [
+						"As an action, you can designate an ally you can see as your ward. You have advantage on Wisdom ({@skill Insight}) and Wisdom ({@skill Perception}) checks made to spot threats to your ward. In addition, when you are within 5 feet of your ward, and that creature is the target of an attack that you can see, you can use your reaction to swap places with your ward. When you do, you become the target of the attack."
+					]
+				}
+			],
+			"overwrite": {
+				"ability": true
+			},
+			"hasFluff": true
+		}
+	],
+	"raceFluff": [
+		{
+			"name": "Dwarf (Mark of Warding)",
+			"source": "UADragonmarks",
+			"entries": [
+				"The Mark of Warding helps its bearers protect things of value. Using the mark, a dwarf can weave wards and seal portals with mystic force. It also provides its bearer with an intuitive understanding of locks and mechanisms used to protect and seal. The decision each heir has to make is whether they'll use this power to keep things safe, or whether they're more interested in opening locks and taking what's inside.",
+				"The Mark of Warding manifests exclusively on dwarves. If your character has the Mark of Warding, this is your dwarf subrace."
+			]
+		},
+		{
+			"name": "Elf (Mark of Shadow)",
+			"source": "UADragonmarks",
+			"entries": [
+				"The Mark of Shadows lets an elf weave illusions from shadows, crafting sounds and images to distract or delight. The mark also allows its bearer to draw on the shadows, making it an easy matter to avoid detection or even disappear while in plain sight. It is a valuable tool for an {@background entertainer}, a {@background spy}, or an assassin; each elf who bears it will have to decide which path to follow.",
+				"The Mark of Shadow only manifests on elves. If your character has the Mark of Shadow, this is your elf subrace."
+			]
+		},
+		{
+			"name": "Gnome (Mark of Scribing)",
+			"source": "UADragonmarks",
+			"entries": [
+				"The Mark of Scribing deals with communication\u2014both the written and spoken word. A gnome who bears the mark can feel words as though they are living creatures, struggling to make their meaning known. The mark provides a range of gifts. It translates languages, but it also allows its bearer to speak to others at a distance and to inscribe their words wherever they wish.",
+				"The Mark of Scribing manifests exclusively on gnomes. If your character has the Mark of Scribing, this is your gnome subrace."
+			]
+		},
+		{
+			"name": "Half-Elf (Variant; Mark of Detection)",
+			"source": "UADragonmarks",
+			"entries": [
+				"The Mark of Detection is an inquisitive's dream. It sharpens powers of observation and intuition, allowing the bearer to draw connections and interpret clues others might miss. By actively drawing on its powers, the bearer can detect poisons and study the energies of magic.",
+				"The Mark of Detection manifests exclusively on half-elves. If your character has the Mark of Detection, these traits replace the half-elf's Ability Score Increase, Skill Versatility, and Languages given in the {@book Player's Handbook|PHB}."
+			]
+		},
+		{
+			"name": "Half-Elf (Variant; Mark of Storm)",
+			"source": "UADragonmarks",
+			"entries": [
+				"Wind and water welcome the half-elf who carries the Mark of Storms. The wind catches them when they fall, and they swim with remarkable speed. Those who possess the Greater Dragonmark and dragonshard focus items can call on even greater powers, shaping the weather and calling on the power of the storm.",
+				"The Mark of Storm manifests exclusively on half-elves. If your character has the Mark of Detection, these traits replace the half-elf's Ability Score Increase, Skill Versatility, and Languages given in the {@book Player's Handbook|PHB}."
+			]
+		},
+		{
+			"name": "Half-Orc (Variant; Mark of Finding)",
+			"source": "UADragonmarks",
+			"entries": [
+				"The Mark of Finding sharpens the senses of those who carry it, guiding the hunter to their prey. In Eberron, it first appeared in the Shadow Marches, where clan hunters used it to find their prey. The mark helped unite humans and orcs in the Marches and brought House Tharashk to the Five Nations.",
+				"The Mark of Finding only manifests on half-orcs. If your character has the Mark of Finding, these traits replace the Ability Score Increase, Menacing, Relentless Endurance, and Savage Attacks given in the {@book Player's Handbook|PHB}. Despite their orcish blood, heirs of the Mark of Finding often resemble their human parents in appearance and temperament. When you create your character, decide if the signs of your orcish ancestry are obvious or subtle."
+			]
+		},
+		{
+			"name": "Halfling (Mark of Healing)",
+			"source": "UADragonmarks",
+			"entries": [
+				"A halfling with the Mark of Healing can save a life with a touch, restoring vitality and the will to live. When dealing with mundane medicine, the mark helps its bearer sense the nature of maladies and afflictions and find the best solution. When enhanced by dragonshard focus items, the mark can even draw the dead back to life.",
+				"The Mark of Healing manifests exclusively on halflings. If your character has the Mark of Healing, this is your halfling subrace."
+			]
+		},
+		{
+			"name": "Halfling (Mark of Hospitality)",
+			"source": "UADragonmarks",
+			"entries": [
+				"They may not always have gold, but a halfling with the Mark of Hospitality is sure to be rich in friends. The magic of the mark allows the bearer to keep a place clean, and to heat, chill, and season food. But it also helps the bearer connect with others, setting troubled minds at ease\u2014a powerful tool, though it can cause anger if abused.",
+				"The Mark of Hospitality manifests exclusively on halflings. If your character has the Mark of Hospitality, this is your halfling subrace."
+			]
+		},
+		{
+			"name": "Human (Mark of Handling)",
+			"source": "UADragonmarks",
+			"entries": [
+				"The Mark of Handling gives its bearer a primal connection to beasts and the natural world, granting the power to calm and coax. This extends beyond purely natural animals; the mark allows its bearer to guide a {@creature hippogriff} as easily as a {@creature riding horse||horse}.",
+				"The Mark of Handling only manifests on humans. If your character has the Mark of Handing, these traits replace the human's Ability Score Increase trait given in the {@book Player's Handbook|PHB}."
+			]
+		},
+		{
+			"name": "Human (Mark of Making)",
+			"source": "UADragonmarks",
+			"entries": [
+				"The Mark of Making guides its bearer through any act of creation. The bearer of the mark can mend broken things with a touch, and always has a minor magic item they've been working on. An artificer or a wizard will get the most out of the mark, but anyone can find a use for an enchanted blade.",
+				"The Mark of Making only manifests on humans. If your character has the Mark of Making, these traits replace the human's Ability Score Increase trait given in the {@book Player's Handbook|PHB}."
+			]
+		},
+		{
+			"name": "Human (Mark of Passage)",
+			"source": "UADragonmarks",
+			"entries": [
+				"The Mark of Passage governs motion, allowing its bearer to move with uncanny speed and precision. Running, leaping, climbing\u2014the Mark of Passage enhances every form of movement. The bearer of the mark can even slip through space, leaping from point to point in the blink of an eye.",
+				"The Mark of Passage only manifests on humans. If your character has the Mark of Passage, these traits replace the human's Ability Score Increase trait given in the {@book Player's Handbook|PHB}."
+			]
+		},
+		{
+			"name": "Human (Mark of Sentinel)",
+			"source": "UADragonmarks",
+			"entries": [
+				"The Mark of Sentinel warns and protects. It heightens senses and reflexes, allowing an heir to respond to threats with uncanny speed. It can shield its bearer from harm. Whether on the battlefield or the ballroom, someone who carries the Mark of Sentinel is always prepared for danger.",
+				"The Mark of Sentinel only manifests on humans. If your character has the Mark of Sentinel, these traits replace the human's Ability Score Increase trait given in the {@book Player's Handbook|PHB}."
+			]
+		}
+	],
+	"feat": [
+		{
+			"name": "Aberrant Dragonmark",
+			"source": "UADragonmarks",
+			"page": 9,
+			"reprintedAs": [
+				"Aberrant Dragonmark|ERLW"
+			],
+			"prerequisite": [
+				{
+					"otherSummary": {
+						"entry": "No existing dragonmark",
+						"entrySummary": "No dragonmark"
+					}
+				}
+			],
+			"ability": [
+				{
+					"con": 1
+				}
+			],
+			"additionalSpells": [
+				{
+					"ability": "con",
+					"innate": {
+						"_": {
+							"daily": {
+								"1": [
+									{
+										"choose": "level=1|class=Sorcerer"
+									}
+								]
+							}
+						}
+					},
+					"known": {
+						"_": [
+							{
+								"choose": "level=0|class=Sorcerer"
+							}
+						]
+					}
+				}
+			],
+			"entries": [
+				"You have manifested an aberrant dragonmark. Determine its appearance and the flaw associated with it. You gain the following benefits.",
+				{
+					"type": "list",
+					"items": [
+						"You learn a {@filter cantrip from the sorcerer spell list|spells|level=0|class=Sorcerer}. In addition, choose a {@filter 1st-level spell from the sorcerer spell list|spells|level=1|class=Sorcerer}. You learn that spell and can cast it at its lowest level. Once you cast it, you must finish a long rest before you can cast it again. Constitution is your spellcasting ability for these spells.",
+						"You can increase the power of your aberrant spells at the risk of your own vitality. When you cast a spell with your aberrant mark, you can use one of your Hit Die to increase the spell's level by 1. Immediately after you cast the spell, roll the Hit Die. You take damage equal to the number rolled."
+					]
+				}
+			],
+			"hasFluff": true
+		},
+		{
+			"name": "Greater Dragonmark",
+			"source": "UADragonmarks",
+			"page": 7,
+			"prerequisite": [
+				{
+					"level": 8,
+					"otherSummary": {
+						"entry": "Character must possess a dragonmark",
+						"entrySummary": "Dragonmarked"
+					}
+				}
+			],
+			"ability": [
+				{
+					"choose": {
+						"from": [
+							"cha",
+							"int"
+						],
+						"amount": 1
+					},
+					"hidden": true
+				},
+				{
+					"choose": {
+						"from": [
+							"dex",
+							"str",
+							"wis"
+						],
+						"amount": 1
+					},
+					"hidden": true
+				},
+				{
+					"choose": {
+						"from": [
+							"dex",
+							"wis"
+						],
+						"amount": 1
+					},
+					"hidden": true
+				},
+				{
+					"choose": {
+						"from": [
+							"dex",
+							"wis"
+						],
+						"amount": 1
+					},
+					"hidden": true
+				},
+				{
+					"choose": {
+						"from": [
+							"cha",
+							"dex"
+						],
+						"amount": 1
+					},
+					"hidden": true
+				},
+				{
+					"choose": {
+						"from": [
+							"dex",
+							"int"
+						],
+						"amount": 1
+					},
+					"hidden": true
+				},
+				{
+					"choose": {
+						"from": [
+							"dex",
+							"con"
+						],
+						"amount": 1
+					},
+					"hidden": true
+				},
+				{
+					"choose": {
+						"from": [
+							"int",
+							"cha"
+						],
+						"amount": 1
+					},
+					"hidden": true
+				},
+				{
+					"choose": {
+						"from": [
+							"str",
+							"wis"
+						],
+						"amount": 1
+					},
+					"hidden": true
+				},
+				{
+					"choose": {
+						"from": [
+							"cha",
+							"dex"
+						],
+						"amount": 1
+					},
+					"hidden": true
+				},
+				{
+					"choose": {
+						"from": [
+							"cha",
+							"dex"
+						],
+						"amount": 1
+					},
+					"hidden": true
+				},
+				{
+					"choose": {
+						"from": [
+							"dex",
+							"int"
+						],
+						"amount": 1
+					},
+					"hidden": true
+				}
+			],
+			"additionalSpells": [
+				{
+					"ability": "int",
+					"name": "Detection",
+					"innate": {
+						"_": {
+							"daily": {
+								"1e": [
+									"see invisibility",
+									"true seeing"
+								]
+							}
+						}
+					}
+				},
+				{
+					"ability": "wis",
+					"name": "Finding",
+					"innate": {
+						"_": {
+							"daily": {
+								"1e": [
+									"find the path",
+									"locate creature"
+								]
+							}
+						}
+					}
+				},
+				{
+					"ability": "wis",
+					"name": "Handling",
+					"innate": {
+						"_": {
+							"daily": {
+								"1e": [
+									"beast sense",
+									"dominate beast"
+								]
+							}
+						}
+					}
+				},
+				{
+					"ability": "wis",
+					"name": "Healing",
+					"innate": {
+						"_": {
+							"daily": {
+								"1e": [
+									"greater restoration",
+									"mass healing word"
+								]
+							}
+						}
+					}
+				},
+				{
+					"ability": "cha",
+					"name": "Hospitality",
+					"innate": {
+						"_": {
+							"daily": {
+								"1e": [
+									"Mordenkainen's magnificent mansion",
+									"sanctuary"
+								]
+							}
+						}
+					}
+				},
+				{
+					"ability": "int",
+					"name": "Making",
+					"innate": {
+						"_": {
+							"daily": {
+								"1e": [
+									"creation",
+									"fabricate"
+								]
+							}
+						}
+					}
+				},
+				{
+					"ability": "con",
+					"name": "Passage",
+					"innate": {
+						"_": {
+							"daily": {
+								"1e": [
+									"blink",
+									"teleportation circle"
+								]
+							}
+						}
+					}
+				},
+				{
+					"ability": "int",
+					"name": "Scribing",
+					"innate": {
+						"_": {
+							"rest": {
+								"1e": [
+									"sending",
+									"tongues"
+								]
+							}
+						}
+					}
+				},
+				{
+					"ability": "wis",
+					"name": "Sentinel",
+					"innate": {
+						"_": {
+							"rest": {
+								"1e": [
+									"compelled duel",
+									"warding bond"
+								]
+							}
+						}
+					}
+				},
+				{
+					"ability": "cha",
+					"name": "Shadow",
+					"innate": {
+						"_": {
+							"daily": {
+								"1e": [
+									"nondetection",
+									"mislead"
+								]
+							}
+						}
+					}
+				},
+				{
+					"ability": "cha",
+					"name": "Storm",
+					"innate": {
+						"_": {
+							"daily": {
+								"1e": [
+									"control water",
+									"control winds|XGE"
+								]
+							}
+						}
+					}
+				},
+				{
+					"ability": "int",
+					"name": "Warding",
+					"innate": {
+						"_": {
+							"daily": {
+								"1e": [
+									"glyph of warding",
+									"knock",
+									"Leomund's secret chest"
+								]
+							}
+						}
+					}
+				}
+			],
+			"entries": [
+				"Your dragonmark has grown in size and power. This enhances your existing dragonmark, and the benefits are based on the mark that you already possess. A greater dragonmark provides the following benefits:",
+				{
+					"type": "list",
+					"items": [
+						"The die type of your dragonmarked Intuition Die increases by one.",
+						"Increase one ability score by 1, to a maximum of 20. The abilities available to you are based on your mark, as shown on the {@table Greater Dragonmark Benefits|UADragonmarks} table.",
+						"You learn a set of spells, each of which you can cast once without expending a spell slot or using a material component. The list of spells, the spellcasting ability for these spells, and the type of rest you must complete in order to regain the use of these spells are shown on the {@table Greater Dragonmark Benefits|UADragonmarks} table."
+					]
+				},
+				{
+					"type": "statblock",
+					"tag": "table",
+					"source": "UADragonmarks",
+					"name": "Greater Dragonmark Benefits",
+					"page": 7
+				}
+			],
+			"hasFluff": true
+		}
+	],
+	"featFluff": [
+		{
+			"name": "Aberrant Dragonmark",
+			"source": "UADragonmarks",
+			"entries": [
+				"The twelve dragonmarks are tied to specific bloodlines and passed down through families. They are reliable and predictable, and their powers are constructive. They create; they heal; they protect.",
+				"But there is another kind of dragonmark: marks that are unpredictable and dangerous to both the bearer and the people around them. Someone with such a mark can kill with a touch or control minds with a glance. Aberrant marks often appear when people from different dragonmarked families produce a child, and for this reason such unions are absolutely forbidden by the Twelve. But aberrant dragonmarks can appear on members of any race, at any age, regardless of bloodline. No two aberrant dragonmarks are exactly alike; even if they grant the same power, they may appear and manifest in different ways. If two aberrant marks might grant {@spell fire bolt}, one mark may be formed from scar tissue while another is traced on the skin in lines of cold fire.",
+				"While aberrant dragonmarks can be disturbing, on the surface an aberrant mark seems no more dangerous or threatening than the powers of a sorcerer. So, what makes them significant? Aberrant marks always have flaws. These may not actively hurt a character, but they are always a burden in some way\u2014a burden that could drive a weak-willed person to madness. If you develop an aberrant mark, you can choose a flaw from this list, or you and the DM can develop a unique flaw of your own.",
+				{
+					"type": "statblock",
+					"tag": "table",
+					"source": "UADragonmarks",
+					"name": "Aberrant Mark Flaw",
+					"page": 8
+				}
+			]
+		},
+		{
+			"name": "Greater Dragonmark",
+			"source": "UADragonmarks",
+			"entries": [
+				"The {@feat Greater Dragonmark|UADragonmarks} feat represents the evolution of a dragonmark\u2014an exponential increase in both the size of the dragonmark and the powers it bestows.",
+				"Only a fraction of dragonmarked heirs ever develop a {@feat Greater Dragonmark|UADragonmarks}. The powers that they possess are more powerful than the wide magic that serves as the foundation of the magical economy. Teleportation, instant communication across vast distances\u2014these services are rare, remarkable, and largely unique to the dragonmarked houses."
+			]
+		}
+	],
+	"table": [
+		{
+			"name": "Aberrant Mark Flaw",
+			"source": "UADragonmarks",
+			"page": 8,
+			"colLabels": [
+				"1d8",
+				"Aberrant Mark Flaw"
+			],
+			"colStyles": [
+				"col-2 text-center",
+				"col-10"
+			],
+			"rows": [
+				[
+					"1",
+					"Your mark is a source of constant pain."
+				],
+				[
+					"2",
+					"Your mark whispers to you, though you may not understand what it says."
+				],
+				[
+					"3",
+					"In times of stress, your mark may trigger a cantrip effect involuntarily."
+				],
+				[
+					"4",
+					"The skin around your mark has an unusual appearance: burned, scaly, withered, etc."
+				],
+				[
+					"5",
+					"Mundane animals become uneasy around you."
+				],
+				[
+					"6",
+					"You have dramatic mood swings any time you use your mark."
+				],
+				[
+					"7",
+					"Your appearance changes in some minor way every time you use your mark."
+				],
+				[
+					"8",
+					"You have horrific nightmares after you use your mark."
+				]
+			]
+		},
+		{
+			"name": "Dragonmark Quirks",
+			"source": "UADragonmarks",
+			"page": 2,
+			"colLabels": [
+				"1d6",
+				"Quirk"
+			],
+			"colStyles": [
+				"col-2 text-center",
+				"col-10"
+			],
+			"rows": [
+				[
+					"1",
+					"Your dragonmark is unusually small or remarkably large."
+				],
+				[
+					"2",
+					"Your dragonmark slowly moves around your body."
+				],
+				[
+					"3",
+					"Your dragonmark glows dramatically when you use it."
+				],
+				[
+					"4",
+					"Your dragonmark tingles when you're near someone with the same mark."
+				],
+				[
+					"5",
+					"Your dragonmark tickles when you use it."
+				],
+				[
+					"6",
+					"Your dragonmark is an unusual color but a normal shape."
+				]
+			]
+		},
+		{
+			"name": "Greater Dragonmark Benefits",
+			"source": "UADragonmarks",
+			"page": 7,
+			"colLabels": [
+				"Dragonmark",
+				"Ability Score Increase",
+				"Spells",
+				"Spellcasting Ability",
+				"Rest Required"
+			],
+			"colStyles": [
+				"col-2",
+				"col-3",
+				"col-3",
+				"col-2",
+				"col-2"
+			],
+			"rows": [
+				[
+					"{@race Half-Elf (Variant; Mark of Detection)|UADragonmarks|Detection}",
+					"Charisma or Intelligence",
+					"{@spell see invisibility}, {@spell true seeing}",
+					"Intelligence",
+					"Long"
+				],
+				[
+					"{@race Half-Orc (Variant; Mark of Finding)|UADragonmarks|Finding}",
+					"Dexterity, Strength, or Wisdom",
+					"{@spell find the path}, {@spell locate creature}",
+					"Wisdom",
+					"Long"
+				],
+				[
+					"{@race Human (Mark of Handling)|UADragonmarks|Handling}",
+					"Dexterity or Wisdom",
+					"{@spell beast sense}, {@spell dominate beast}",
+					"Wisdom",
+					"Long"
+				],
+				[
+					"{@race Halfling (Mark of Healing)|UADragonmarks|Healing}",
+					"Dexterity or Wisdom",
+					"{@spell greater restoration}, {@spell mass healing word}",
+					"Wisdom",
+					"Long"
+				],
+				[
+					"{@race Halfling (Mark of Hospitality)|UADragonmarks|Hospitality}",
+					"Charisma or Dexterity",
+					"{@spell Mordenkainen's magnificent mansion}, {@spell sanctuary}",
+					"Charisma",
+					"Long"
+				],
+				[
+					"{@race Human (Mark of Making)|UADragonmarks|Making}",
+					"Dexterity or Intelligence",
+					"{@spell creation}, {@spell fabricate}",
+					"Intelligence",
+					"Long"
+				],
+				[
+					"{@race Human (Mark of Passage)|UADragonmarks|Passage}",
+					"Dexterity or Constitution",
+					"{@spell blink}, {@spell teleportation circle}",
+					"Constitution",
+					"Long"
+				],
+				[
+					"{@race Gnome (Mark of Scribing)|UADragonmarks|Scribing}",
+					"Intelligence or Charisma",
+					"{@spell sending}, {@spell tongues}",
+					"Intelligence",
+					"Long or Short"
+				],
+				[
+					"{@race Human (Mark of Sentinel)|UADragonmarks|Sentinel}",
+					"Strength or Wisdom",
+					"{@spell compelled duel}, {@spell warding bond}",
+					"Wisdom",
+					"Long or Short"
+				],
+				[
+					"{@race Elf (Mark of Shadow)|UADragonmarks|Shadow}",
+					"Charisma or Dexterity",
+					"{@spell nondetection}, {@spell mislead}",
+					"Charisma",
+					"Long"
+				],
+				[
+					"{@race Half-Elf (Variant; Mark of Storm)|UADragonmarks|Storm}",
+					"Charisma or Dexterity",
+					"{@spell control water}, {@spell control winds|XGE}",
+					"Charisma",
+					"Long"
+				],
+				[
+					"{@race Dwarf (Mark of Warding)|UADragonmarks|Warding}",
+					"Dexterity or Intelligence",
+					"{@spell glyph of warding}, {@spell knock}, {@spell Leomund's secret chest}*",
+					"Intelligence",
+					"Long"
+				]
+			],
+			"footnotes": [
+				"* To cast {@spell Leomund's secret chest} using this feat and the {@race Dwarf (Mark of Warding)|UADragonmarks|Mark of Warding}, you must have a Siberys dragonshard with a value of at least 100 gp. While you have this dragonshard in hand, it serves as the spell's focus, and you can use it to summon and dismiss the chest."
+			]
+		}
+	],
+	"book": [
+		{
+			"name": "Unearthed Arcana: Dragonmarks",
+			"id": "UADragonmarks",
+			"source": "UADragonmarks",
+			"group": "prerelease",
+			"cover": {
+				"type": "internal",
+				"path": "covers/blank.webp"
+			},
+			"published": "2018-09-10",
+			"author": "Wizards of the Coast",
+			"contents": [
+				{
+					"name": "Unearthed Arcana: Dragonmarks",
+					"headers": [
+						"Creating a Dragonmarked Character",
+						"Dragonmark Appearance",
+						"The Mark of Detection",
+						"The Mark of Finding",
+						"The Mark of Handling",
+						"The Mark of Healing",
+						"The Mark of Hospitality",
+						"The Mark of Making",
+						"The Mark of Passage",
+						"The Mark of Scribing",
+						"The Mark of Sentinel",
+						"The Mark of Shadow",
+						"The Mark of Storm",
+						"The Mark of Warding",
+						"New Feat: Greater Dragonmarks",
+						"Aberrant Dragonmarks"
+					]
+				}
+			]
+		}
+	],
+	"bookData": [
+		{
+			"id": "UADragonmarks",
+			"source": "UADragonmarks",
+			"data": [
+				{
+					"type": "section",
+					"name": "Unearthed Arcana: Dragonmarks",
+					"page": 1,
+					"entries": [
+						"This document presents dragonmarks, a playtest option from the D&D world of Eberron that can be incorporated when you choose your character's race. For more information about Eberron, see the {@loader Wayfinder's Guide to Eberron|collection/Wayfinder's Guide to Eberron.json|prerelease}, available on the Dungeon Master's Guild ({@link DMsGuild.com|https://www.dmsguild.com/product/247882/Wayfinders-Guide-to-Eberron-5e}).",
+						{
+							"type": "inset",
+							"name": "This Is Playtest Content",
+							"page": 1,
+							"entries": [
+								"The material here is presented for playtesting and to spark your imagination. These game mechanics are in draft form, usable in your campaign but not refined by final game design and editing. They aren't officially part of the game and aren't permitted in D&D Adventurers League events.",
+								"If we decide to make this material official, it will be refined based on your feedback, and then it will appear in a D&D book."
+							]
+						},
+						"A dragonmark is a mystic sigil that appears on the skin. The mark is a source of mystical power and enhances the bearer's ability to perform certain tasks. In Eberron, each mark is tied to specific bloodlines. The families that carry these marks joined together to form the Dragonmarked Houses, powerful forces that dominate different industries. Not every member of a given family possesses a dragonmark; conversely, merely possessing a dragonmark does not grant special status within the house. In creating a dragonmarked character, your background can help to establish your relationship to the house. A dragonmarked {@background noble} may be part of the ruling family. A {@background guild artisan} or {@background entertainer} can work in one of the house guilds. A {@background criminal} may have been exiled from their house, while an {@background urchin} could be an orphan who never knew they had a tie to one of the dragonmarked families.",
+						{
+							"type": "section",
+							"name": "Creating a Dragonmarked Character",
+							"page": 1,
+							"entries": [
+								"Dragonmarks are associated with race and are represented by a combination of variant races and subraces.",
+								{
+									"type": "list",
+									"items": [
+										"For humans, a dragonmark is a variant race that replaces the normal traits associated with those races.",
+										"For half-elves and half-orcs, a dragonmark is a variant race. You keep some of the standard half-elf traits and replace others with the traits associated with your mark.",
+										"For dwarves, elves, gnomes, and halflings, the dragonmark replaces your subrace. So, if you're making an elf character, you can choose to take the Mark of Shadow instead of being a {@race Elf (Wood)|PHB|wood elf} or {@race Elf (High)|PHB|high elf}."
+									]
+								},
+								"There are two additional options related to dragonmarks. As your dragonmarked character grows in level, you can take the {@feat Greater Dragonmark|UADragonmarks} feat to reflect the growing power of your dragonmark. Alternatively, the {@feat Aberrant Dragonmark|UADragonmarks} feat grants limited but dangerous magical abilities. Aberrant dragonmarks aren't tied to the dragonmark houses and can be taken by any character.",
+								{
+									"type": "entries",
+									"name": "Intuition Dice",
+									"page": 1,
+									"entries": [
+										"A dragonmark improves your ability to perform a specific type of task. The Mark of Finding sharpens your senses and improves your {@skill perception}, while the Mark of Making guides your hands when you work with artisan's tools.",
+										"Each dragonmark has a trait that allows you to roll an {@b Intuition die}, a {@dice d4}, when you perform an ability check with a particular skill or tool. You add the number rolled to the ability check. You don't have to be proficient with the skill or tool to gain this benefit.",
+										"Feats, magic items, and other features may improve your Intuition die. This increases the type of die you roll by one size ({@dice d6}, {@dice d8}, {@dice d10}) to a maximum of a {@dice d10}. You can only roll one Intuition die for a check; if you receive Intuition dice from multiple sources, increase one die by one type and roll that one.",
+										"For example, if a dragonmarked trait and feat both grant intuition with Dexterity ({@skill Stealth}) checks, you roll a {@dice d6}, instead of a {@dice d4}. Three instances would increase your Intuition Die to a {@dice d8}, and so on."
+									]
+								}
+							]
+						},
+						{
+							"type": "section",
+							"name": "Dragonmark Appearance",
+							"page": 2,
+							"entries": [
+								"A dragonmark is a distinctive symbol that appears on the skin. There are twelve known dragonmarks, each unique in design and power. A dragonmark can appear on any part of the body. One half-elf could have the Mark of Detection across an eye, while another has it in the palm of their hand. Dragonmarks are painted in vivid shades of blue and purple and seem to shimmer or even move slightly. When used, they grow warm to the touch and may glow (though this doesn't produce useful illumination). A dragonmark can't be removed\u2014even if a limb bearing a dragonmark is cut away, the mark eventually manifests on another part of the bearer's body. All dragonmarks share the same initial appearance but a dragonmark can grow in size and complexity if a character takes the {@feat Greater Dragonmark|UADragonmarks} feat or if the mark is tied to class abilities.",
+								"While dragonmarks share the same general appearance, your dragonmark could have a unique quality. If you'd like to explore this, roll on the {@table Dragonmark Quirks|UADragonmarks} table.",
+								{
+									"type": "statblock",
+									"tag": "table",
+									"source": "UADragonmarks",
+									"name": "Dragonmark Quirks",
+									"page": 2
+								}
+							]
+						},
+						{
+							"type": "section",
+							"name": "The Mark of Detection",
+							"page": 2,
+							"entries": [
+								"The Mark of Detection is an inquisitive's dream. It sharpens powers of observation and intuition, allowing the bearer to draw connections and interpret clues others might miss. By actively drawing on its powers, the bearer can detect poisons and study the energies of magic.",
+								"The Mark of Detection manifests exclusively on half-elves. If your character has the Mark of Detection, these traits replace the half-elf's Ability Score Increase, Skill Versatility, and Languages given in the {@book Player's Handbook|PHB}.",
+								{
+									"type": "statblock",
+									"tag": "race",
+									"source": "UADragonmarks",
+									"name": "Half-Elf (Variant; Mark of Detection)",
+									"page": 2
+								}
+							]
+						},
+						{
+							"type": "section",
+							"name": "The Mark of Finding",
+							"page": 2,
+							"entries": [
+								"The Mark of Finding sharpens the senses of those who carry it, guiding the hunter to their prey. In Eberron, it first appeared in the Shadow Marches, where clan hunters used it to find their prey. The mark helped unite humans and orcs in the Marches and brought House Tharashk to the Five Nations.",
+								"The Mark of Finding only manifests on half-orcs. If your character has the Mark of Finding, these traits replace the Ability Score Increase, Menacing, Relentless Endurance, and Savage Attacks given in the {@book Player's Handbook|PHB}. Despite their orcish blood, heirs of the Mark of Finding often resemble their human parents in appearance and temperament. When you create your character, decide if the signs of your orcish ancestry are obvious or subtle.",
+								{
+									"type": "statblock",
+									"tag": "race",
+									"source": "UADragonmarks",
+									"name": "Half-Orc (Variant; Mark of Finding)",
+									"page": 2
+								}
+							]
+						},
+						{
+							"type": "section",
+							"name": "The Mark of Handling",
+							"page": 3,
+							"entries": [
+								"The Mark of Handling gives its bearer a primal connection to beasts and the natural world, granting the power to calm and coax. This extends beyond purely natural animals; the mark allows its bearer to guide a {@creature hippogriff} as easily as a {@creature riding horse||horse}.",
+								"The Mark of Handling only manifests on humans. If your character has the Mark of Handing, these traits replace the human's Ability Score Increase trait given in the {@book Player's Handbook|PHB}.",
+								{
+									"type": "statblock",
+									"tag": "race",
+									"source": "UADragonmarks",
+									"name": "Human (Mark of Handling)",
+									"page": 3
+								}
+							]
+						},
+						{
+							"type": "section",
+							"name": "The Mark of Healing",
+							"page": 3,
+							"entries": [
+								"A halfling with the Mark of Healing can save a life with a touch, restoring vitality and the will to live. When dealing with mundane medicine, the mark helps its bearer sense the nature of maladies and afflictions and find the best solution. When enhanced by dragonshard focus items, the mark can even draw the dead back to life.",
+								"The Mark of Healing manifests exclusively on halflings. If your character has the Mark of Healing, this is your halfling subrace.",
+								{
+									"type": "statblock",
+									"tag": "race",
+									"source": "UADragonmarks",
+									"name": "Halfling (Mark of Healing)",
+									"page": 3
+								}
+							]
+						},
+						{
+							"type": "section",
+							"name": "The Mark of Hospitality",
+							"page": 4,
+							"entries": [
+								"They may not always have gold, but a halfling with the Mark of Hospitality is sure to be rich in friends. The magic of the mark allows the bearer to keep a place clean, and to heat, chill, and season food. But it also helps the bearer connect with others, setting troubled minds at ease\u2014a powerful tool, though it can cause anger if abused.",
+								"The Mark of Hospitality manifests exclusively on halflings. If your character has the Mark of Hospitality, this is your halfling subrace.",
+								{
+									"type": "statblock",
+									"tag": "race",
+									"source": "UADragonmarks",
+									"name": "Halfling (Mark of Hospitality)",
+									"page": 4
+								}
+							]
+						},
+						{
+							"type": "section",
+							"name": "The Mark of Making",
+							"page": 4,
+							"entries": [
+								"The Mark of Making guides its bearer through any act of creation. The bearer of the mark can mend broken things with a touch, and always has a minor magic item they've been working on. An artificer or a wizard will get the most out of the mark, but anyone can find a use for an enchanted blade.",
+								"The Mark of Making only manifests on humans. If your character has the Mark of Making, these traits replace the human's Ability Score Increase trait given in the {@book Player's Handbook|PHB}.",
+								{
+									"type": "statblock",
+									"tag": "race",
+									"source": "UADragonmarks",
+									"name": "Human (Mark of Making)",
+									"page": 4
+								}
+							]
+						},
+						{
+							"type": "section",
+							"name": "The Mark of Passage",
+							"page": 4,
+							"entries": [
+								"The Mark of Passage governs motion, allowing its bearer to move with uncanny speed and precision. Running, leaping, climbing\u2014the Mark of Passage enhances every form of movement. The bearer of the mark can even slip through space, leaping from point to point in the blink of an eye.",
+								"The Mark of Passage only manifests on humans. If your character has the Mark of Passage, these traits replace the human's Ability Score Increase trait given in the {@book Player's Handbook|PHB}.",
+								{
+									"type": "statblock",
+									"tag": "race",
+									"source": "UADragonmarks",
+									"name": "Human (Mark of Passage)",
+									"page": 4
+								}
+							]
+						},
+						{
+							"type": "section",
+							"name": "The Mark of Scribing",
+							"page": 5,
+							"entries": [
+								"The Mark of Scribing deals with communication\u2014both the written and spoken word. A gnome who bears the mark can feel words as though they are living creatures, struggling to make their meaning known. The mark provides a range of gifts. It translates languages, but it also allows its bearer to speak to others at a distance and to inscribe their words wherever they wish.",
+								"The Mark of Scribing manifests exclusively on gnomes. If your character has the Mark of Scribing, this is your gnome subrace.",
+								{
+									"type": "statblock",
+									"tag": "race",
+									"source": "UADragonmarks",
+									"name": "Gnome (Mark of Scribing)",
+									"page": 5
+								}
+							]
+						},
+						{
+							"type": "section",
+							"name": "The Mark of Sentinel",
+							"page": 5,
+							"entries": [
+								"The Mark of Sentinel warns and protects. It heightens senses and reflexes, allowing an heir to respond to threats with uncanny speed. It can shield its bearer from harm. Whether on the battlefield or the ballroom, someone who carries the Mark of Sentinel is always prepared for danger.",
+								"The Mark of Sentinel only manifests on humans. If your character has the Mark of Sentinel, these traits replace the human's Ability Score Increase trait given in the {@book Player's Handbook|PHB}.",
+								{
+									"type": "statblock",
+									"tag": "race",
+									"source": "UADragonmarks",
+									"name": "Human (Mark of Sentinel)",
+									"page": 5
+								}
+							]
+						},
+						{
+							"type": "section",
+							"name": "The Mark of Shadow",
+							"page": 5,
+							"entries": [
+								"The Mark of Shadows lets an elf weave illusions from shadows, crafting sounds and images to distract or delight. The mark also allows its bearer to draw on the shadows, making it an easy matter to avoid detection or even disappear while in plain sight. It is a valuable tool for an {@background entertainer}, a {@background spy}, or an assassin; each elf who bears it will have to decide which path to follow.",
+								"The Mark of Shadow only manifests on elves. If your character has the Mark of Shadow, this is your elf subrace.",
+								{
+									"type": "statblock",
+									"tag": "race",
+									"source": "UADragonmarks",
+									"name": "Elf (Mark of Shadow)",
+									"page": 6
+								}
+							]
+						},
+						{
+							"type": "section",
+							"name": "The Mark of Storm",
+							"page": 5,
+							"entries": [
+								"Wind and water welcome the half-elf who carries the Mark of Storms. The wind catches them when they fall, and they swim with remarkable speed. Those who possess the Greater Dragonmark and dragonshard focus items can call on even greater powers, shaping the weather and calling on the power of the storm.",
+								"The Mark of Storm manifests exclusively on half-elves. If your character has the Mark of Detection, these traits replace the half-elf's Ability Score Increase, Skill Versatility, and Languages given in the {@book Player's Handbook|PHB}.",
+								{
+									"type": "statblock",
+									"tag": "race",
+									"source": "UADragonmarks",
+									"name": "Half-Elf (Variant; Mark of Storm)",
+									"page": 6
+								},
+								{
+									"type": "statblock",
+									"tag": "spell",
+									"source": "XGE",
+									"name": "Gust",
+									"page": 6
+								}
+							]
+						},
+						{
+							"type": "section",
+							"name": "The Mark of Warding",
+							"page": 6,
+							"entries": [
+								"The Mark of Warding helps its bearers protect things of value. Using the mark, a dwarf can weave wards and seal portals with mystic force. It also provides its bearer with an intuitive understanding of locks and mechanisms used to protect and seal. The decision each heir has to make is whether they'll use this power to keep things safe, or whether they're more interested in opening locks and taking what's inside.",
+								"The Mark of Warding manifests exclusively on dwarves. If your character has the Mark of Warding, this is your dwarf subrace.",
+								{
+									"type": "statblock",
+									"tag": "race",
+									"source": "UADragonmarks",
+									"name": "Dwarf (Mark of Warding)",
+									"page": 7
+								}
+							]
+						},
+						{
+							"type": "section",
+							"name": "New Feat: Greater Dragonmarks",
+							"page": 7,
+							"entries": [
+								"The {@feat Greater Dragonmark|UADragonmarks} feat represents the evolution of a dragonmark\u2014an exponential increase in both the size of the dragonmark and the powers it bestows.",
+								"Only a fraction of dragonmarked heirs ever develop a {@feat Greater Dragonmark|UADragonmarks}. The powers that they possess are more powerful than the wide magic that serves as the foundation of the magical economy. Teleportation, instant communication across vast distances\u2014these services are rare, remarkable, and largely unique to the dragonmarked houses.",
+								{
+									"type": "statblock",
+									"tag": "feat",
+									"source": "UADragonmarks",
+									"name": "Greater Dragonmark",
+									"page": 7
+								},
+								{
+									"type": "statblock",
+									"tag": "spell",
+									"source": "XGE",
+									"name": "Control Winds",
+									"page": 8
+								}
+							]
+						},
+						{
+							"type": "section",
+							"name": "Aberrant Dragonmarks",
+							"page": 8,
+							"entries": [
+								"The twelve dragonmarks are tied to specific bloodlines and passed down through families. They are reliable and predictable, and their powers are constructive. They create; they heal; they protect.",
+								"But there is another kind of dragonmark: marks that are unpredictable and dangerous to both the bearer and the people around them. Someone with such a mark can kill with a touch or control minds with a glance. Aberrant marks often appear when people from different dragonmarked families produce a child, and for this reason such unions are absolutely forbidden by the Twelve. But aberrant dragonmarks can appear on members of any race, at any age, regardless of bloodline. No two aberrant dragonmarks are exactly alike; even if they grant the same power, they may appear and manifest in different ways. If two aberrant marks might grant {@spell fire bolt}, one mark may be formed from scar tissue while another is traced on the skin in lines of cold fire.",
+								"While aberrant dragonmarks can be disturbing, on the surface an aberrant mark seems no more dangerous or threatening than the powers of a sorcerer. So, what makes them significant? Aberrant marks always have flaws. These may not actively hurt a character, but they are always a burden in some way\u2014a burden that could drive a weak-willed person to madness. If you develop an aberrant mark, you can choose a flaw from this list, or you and the DM can develop a unique flaw of your own.",
+								{
+									"type": "statblock",
+									"tag": "table",
+									"source": "UADragonmarks",
+									"name": "Aberrant Mark Flaw",
+									"page": 8
+								},
+								{
+									"type": "statblock",
+									"tag": "feat",
+									"source": "UADragonmarks",
+									"name": "Aberrant Dragonmark",
+									"page": 9
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	]
+}

@@ -23,8 +23,8 @@
 			]
 		},
 		"dateAdded": 1691158917,
-		"dateLastModified": 1729637619,
-		"_dateLastModifiedHash": "1ffb23fde2",
+		"dateLastModified": 1732568539,
+		"_dateLastModifiedHash": "c47721956e",
 		"edition": "classic"
 	},
 	"class": [
@@ -70,7 +70,6 @@
 				]
 			},
 			"startingEquipment": {
-				"additionalFromBackground": false,
 				"default": [
 					"{@item Explorer's Pack|phb}",
 					"(a) {@item Greataxe|phb} or (b) {@item Battleaxe|phb}, {@item shield|phb}, and 10 GP",

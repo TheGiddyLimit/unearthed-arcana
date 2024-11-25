@@ -26,8 +26,8 @@
 			]
 		},
 		"dateAdded": 1701114642,
-		"dateLastModified": 1729637619,
-		"_dateLastModifiedHash": "6f58330ea4",
+		"dateLastModified": 1732568539,
+		"_dateLastModifiedHash": "c403dc5f63",
 		"edition": "classic"
 	},
 	"class": [
@@ -70,7 +70,6 @@
 				]
 			},
 			"startingEquipment": {
-				"additionalFromBackground": false,
 				"default": [
 					"{@item Explorer's Pack|phb}",
 					"(a) {@item Greataxe|phb} or (b) {@item Battleaxe|phb}, {@item shield|phb}, and 10 GP",
@@ -406,7 +405,6 @@
 				]
 			},
 			"startingEquipment": {
-				"additionalFromBackground": false,
 				"default": [
 					"{@item Druidic Focus|phb|Druidic Focus (Quarterstaff)}",
 					"{@item Leather Armor|phb}",
@@ -857,7 +855,6 @@
 				]
 			},
 			"startingEquipment": {
-				"additionalFromBackground": false,
 				"default": [
 					"{@item Artisan's Tools|phb}",
 					"{@item Musical Instrument|phb}",

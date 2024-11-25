@@ -22,8 +22,8 @@
 			]
 		},
 		"dateAdded": 1663844222,
-		"dateLastModified": 1729637619,
-		"_dateLastModifiedHash": "d00e0c104f",
+		"dateLastModified": 1732568539,
+		"_dateLastModifiedHash": "ee4026cae4",
 		"edition": "classic"
 	},
 	"class": [
@@ -108,7 +108,6 @@
 				]
 			},
 			"startingEquipment": {
-				"additionalFromBackground": false,
 				"default": [
 					"{@item Druidic Focus|phb|Druidic Focus (Quarterstaff)}",
 					"{@item Leather Armor|phb}",
@@ -616,7 +615,6 @@
 				]
 			},
 			"startingEquipment": {
-				"additionalFromBackground": false,
 				"default": [
 					"{@item Chain Mail|phb}",
 					"{@item Priest's Pack|XUA2023DruidAndPaladin}",

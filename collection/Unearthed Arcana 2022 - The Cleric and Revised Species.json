@@ -22,8 +22,8 @@
 			]
 		},
 		"dateAdded": 1672604449,
-		"dateLastModified": 1729637619,
-		"_dateLastModifiedHash": "fa5412e752",
+		"dateLastModified": 1732568539,
+		"_dateLastModifiedHash": "e6921dfcc3",
 		"edition": "classic"
 	},
 	"class": [
@@ -97,7 +97,6 @@
 				]
 			},
 			"startingEquipment": {
-				"additionalFromBackground": false,
 				"default": [
 					"{@item Chain shirt|phb}",
 					"{@item Priest's Pack|XUA2022ClericAndRevisedSpecies}",
