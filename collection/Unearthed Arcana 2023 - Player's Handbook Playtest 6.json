@@ -117,7 +117,6 @@
 				]
 			},
 			"startingEquipment": {
-				"additionalFromBackground": false,
 				"default": [
 					"{@item Dagger|phb} (2)",
 					"{@item Entertainer's Pack|phb}",
@@ -802,7 +801,6 @@
 				]
 			},
 			"startingEquipment": {
-				"additionalFromBackground": false,
 				"default": [
 					"{@item Chain shirt|phb}",
 					"{@item Priest's Pack|XUA2023PlayersHandbookP6}",
@@ -1284,7 +1282,6 @@
 				]
 			},
 			"startingEquipment": {
-				"additionalFromBackground": false,
 				"default": [
 					"{@item Druidic Focus|phb|Druidic Focus (Quarterstaff)}",
 					"{@item Leather Armor|phb}",
@@ -1735,7 +1732,6 @@
 				]
 			},
 			"startingEquipment": {
-				"additionalFromBackground": false,
 				"default": [
 					"{@item Artisan's Tools|phb}",
 					"{@item Musical Instrument|phb}",
@@ -2206,7 +2202,6 @@
 				]
 			},
 			"startingEquipment": {
-				"additionalFromBackground": false,
 				"default": [
 					"{@item Chain Mail|phb}",
 					"{@item Priest's Pack|XUA2023PlayersHandbookP6}",
@@ -2578,7 +2573,6 @@
 				]
 			},
 			"startingEquipment": {
-				"additionalFromBackground": false,
 				"default": [
 					"{@item Arrow|phb|Arrows (20)}",
 					"{@item Explorer's Pack|phb}",
@@ -2950,7 +2944,6 @@
 				]
 			},
 			"startingEquipment": {
-				"additionalFromBackground": false,
 				"default": [
 					"{@item Arrow|phb|Arrows (20)}",
 					"{@item Burglar's Pack|phb}",

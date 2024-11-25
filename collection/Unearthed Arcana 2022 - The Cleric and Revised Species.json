@@ -97,7 +97,6 @@
 				]
 			},
 			"startingEquipment": {
-				"additionalFromBackground": false,
 				"default": [
 					"{@item Chain shirt|phb}",
 					"{@item Priest's Pack|XUA2022ClericAndRevisedSpecies}",

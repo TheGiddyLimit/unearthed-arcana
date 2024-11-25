@@ -108,7 +108,6 @@
 				]
 			},
 			"startingEquipment": {
-				"additionalFromBackground": false,
 				"default": [
 					"{@item Druidic Focus|phb|Druidic Focus (Quarterstaff)}",
 					"{@item Leather Armor|phb}",
@@ -616,7 +615,6 @@
 				]
 			},
 			"startingEquipment": {
-				"additionalFromBackground": false,
 				"default": [
 					"{@item Chain Mail|phb}",
 					"{@item Priest's Pack|XUA2023DruidAndPaladin}",

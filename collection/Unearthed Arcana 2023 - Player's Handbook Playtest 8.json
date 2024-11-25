@@ -70,7 +70,6 @@
 				]
 			},
 			"startingEquipment": {
-				"additionalFromBackground": false,
 				"default": [
 					"{@item Explorer's Pack|phb}",
 					"(a) {@item Greataxe|phb} or (b) {@item Battleaxe|phb}, {@item shield|phb}, and 10 GP",
@@ -406,7 +405,6 @@
 				]
 			},
 			"startingEquipment": {
-				"additionalFromBackground": false,
 				"default": [
 					"{@item Druidic Focus|phb|Druidic Focus (Quarterstaff)}",
 					"{@item Leather Armor|phb}",
@@ -857,7 +855,6 @@
 				]
 			},
 			"startingEquipment": {
-				"additionalFromBackground": false,
 				"default": [
 					"{@item Artisan's Tools|phb}",
 					"{@item Musical Instrument|phb}",

@@ -70,7 +70,6 @@
 				]
 			},
 			"startingEquipment": {
-				"additionalFromBackground": false,
 				"default": [
 					"{@item Explorer's Pack|phb}",
 					"(a) {@item Greataxe|phb} or (b) {@item Battleaxe|phb}, {@item shield|phb}, and 10 GP",
