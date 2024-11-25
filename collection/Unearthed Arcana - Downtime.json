@@ -3,7 +3,7 @@
 		"sources": [
 			{
 				"json": "UADowntime",
-				"abbreviation": "UAD",
+				"abbreviation": "UADown",
 				"full": "Unearthed Arcana: Downtime",
 				"authors": [
 					"Wizards of the Coast"
@@ -1719,7 +1719,7 @@
 	"book": [
 		{
 			"name": "Unearthed Arcana: Downtime",
-			"id": "UAD",
+			"id": "UADown",
 			"source": "UADowntime",
 			"group": "prerelease",
 			"cover": {
@@ -1743,7 +1743,7 @@
 	],
 	"bookData": [
 		{
-			"id": "UAD",
+			"id": "UADown",
 			"source": "UADowntime",
 			"data": [
 				{
