@@ -10449,7 +10449,8 @@
 							"name": "Learn More on YouTube",
 							"entries": [
 								"To learn more about the design in this article, we invite you to view the videos about it on YouTube ({@link www.youtube.com/DNDWizards})."
-							]
+							],
+							"id": "001"
 						},
 						{
 							"type": "section",
@@ -10514,7 +10515,8 @@
 												"We invite you to try out this material in play. When you do so, you're welcome to combine this article with the other articles in this series, starting with \"{@loader Character Origins.|collection/Unearthed Arcana 2022 - Character Origins.json|prerelease}\"",
 												"If you do combine this article with any previous one, use only the rules glossary found here. In this {@i Unearthed Arcana} series, the rules glossary of each article supersedes the glossary of any previous article.",
 												"To play with this material, you may either incorporate it into your campaign or run one or more special playtest sessions. For such a session, you may create an adventure of your own or use a short adventure from a source like {@adventure Keys from the Golden Vault|KftGV}, {@adventure Journeys through the Radiant Citadel|JttRC}, or {@adventure Candlekeep Mysteries|CM}."
-											]
+											],
+											"id": "004"
 										},
 										{
 											"type": "entries",
@@ -10522,7 +10524,8 @@
 											"page": 1,
 											"entries": [
 												"The character options you read here might be more or less powerful than options in the 2014 {@book Player's Handbook|PHB}. If a design survives playtesting, we adjust its power to the desirable level before publication. This means an option could be more or less powerful in its final form."
-											]
+											],
+											"id": "005"
 										},
 										{
 											"type": "entries",
@@ -10531,13 +10534,17 @@
 											"entries": [
 												"The best way for you to give us feedback on this material is in the survey we'll release on D&D Beyond. If we make this material official, it will be refined based on your feedback, and then it will appear in a D&D book.",
 												"Providing feedback on this document is one way you can help shape the next generation of D&D!"
-											]
+											],
+											"id": "006"
 										}
-									]
+									],
+									"id": "003"
 								}
-							]
+							],
+							"id": "002"
 						}
-					]
+					],
+					"id": "000"
 				},
 				{
 					"type": "section",
@@ -10634,7 +10641,8 @@
 												}
 											]
 										}
-									]
+									],
+									"id": "009"
 								},
 								{
 									"type": "statblock",
@@ -10675,7 +10683,8 @@
 																}
 															]
 														}
-													]
+													],
+													"id": "00c"
 												},
 												{
 													"type": "statblock",
@@ -10687,7 +10696,8 @@
 													"page": 5,
 													"collapsed": true
 												}
-											]
+											],
+											"id": "00b"
 										},
 										{
 											"type": "entries",
@@ -10741,7 +10751,8 @@
 																}
 															]
 														}
-													]
+													],
+													"id": "00e"
 												},
 												{
 													"type": "statblock",
@@ -10753,7 +10764,8 @@
 													"page": 5,
 													"collapsed": true
 												}
-											]
+											],
+											"id": "00d"
 										},
 										{
 											"type": "entries",
@@ -10776,9 +10788,11 @@
 													"name": "Design Note: Voluntarily Failing s Save",
 													"entries": [
 														"The 2024 {@i Player's Handbook} will clarify that any creature can voluntarily fail any saving throw."
-													]
+													],
+													"id": "010"
 												}
-											]
+											],
+											"id": "00f"
 										},
 										{
 											"type": "entries",
@@ -10829,7 +10843,8 @@
 																}
 															]
 														}
-													]
+													],
+													"id": "012"
 												},
 												{
 													"type": "statblock",
@@ -10841,11 +10856,14 @@
 													"page": 7,
 													"collapsed": true
 												}
-											]
+											],
+											"id": "011"
 										}
-									]
+									],
+									"id": "00a"
 								}
-							]
+							],
+							"id": "008"
 						},
 						{
 							"type": "section",
@@ -10960,7 +10978,8 @@
 												}
 											]
 										}
-									]
+									],
+									"id": "014"
 								},
 								{
 									"type": "statblock",
@@ -11017,7 +11036,8 @@
 																}
 															]
 														}
-													]
+													],
+													"id": "017"
 												},
 												{
 													"type": "statblock",
@@ -11029,7 +11049,8 @@
 													"page": 12,
 													"collapsed": true
 												}
-											]
+											],
+											"id": "016"
 										},
 										{
 											"type": "entries",
@@ -11137,7 +11158,8 @@
 																}
 															]
 														}
-													]
+													],
+													"id": "019"
 												},
 												{
 													"type": "statblock",
@@ -11299,7 +11321,8 @@
 													"page": 14,
 													"collapsed": true
 												}
-											]
+											],
+											"id": "018"
 										},
 										{
 											"type": "entries",
@@ -11312,7 +11335,8 @@
 													"name": "Design Note: Magic Items for Unarmed Strikes and Improvised Weapons",
 													"entries": [
 														"The 2024 Dungeon Master's Guide will include magic items that enhance {@variantrule Unarmed Strike|XUA2023PlayersHandbookP7|Unarmed Strikes} and Improvised Weapons. These items will support the Monk, Brawler Fighter, and College of Dance Bard, along with other characters who rely on {@variantrule Unarmed Strike|XUA2023PlayersHandbookP7|Unarmed Strikes} or Improvised Weapons."
-													]
+													],
+													"id": "01b"
 												},
 												{
 													"type": "statblock",
@@ -11324,7 +11348,8 @@
 													"page": 14,
 													"collapsed": true
 												}
-											]
+											],
+											"id": "01a"
 										},
 										{
 											"type": "entries",
@@ -11359,7 +11384,8 @@
 																}
 															]
 														}
-													]
+													],
+													"id": "01d"
 												},
 												{
 													"type": "statblock",
@@ -11371,7 +11397,8 @@
 													"page": 15,
 													"collapsed": true
 												}
-											]
+											],
+											"id": "01c"
 										},
 										{
 											"type": "entries",
@@ -11414,7 +11441,8 @@
 																}
 															]
 														}
-													]
+													],
+													"id": "01f"
 												},
 												{
 													"type": "statblock",
@@ -11426,11 +11454,14 @@
 													"page": 15,
 													"collapsed": true
 												}
-											]
+											],
+											"id": "01e"
 										}
-									]
+									],
+									"id": "015"
 								}
-							]
+							],
+							"id": "013"
 						},
 						{
 							"type": "section",
@@ -11521,7 +11552,8 @@
 												}
 											]
 										}
-									]
+									],
+									"id": "021"
 								},
 								{
 									"type": "statblock",
@@ -11584,7 +11616,8 @@
 																}
 															]
 														}
-													]
+													],
+													"id": "024"
 												},
 												{
 													"type": "statblock",
@@ -11666,9 +11699,11 @@
 													"page": 22,
 													"collapsed": true
 												}
-											]
+											],
+											"id": "023"
 										}
-									]
+									],
+									"id": "022"
 								},
 								{
 									"type": "entries",
@@ -11717,7 +11752,8 @@
 																}
 															]
 														}
-													]
+													],
+													"id": "027"
 												},
 												{
 													"type": "statblock",
@@ -11730,7 +11766,8 @@
 													"collapsed": true,
 													"displayName": "Draconic Sorcery"
 												}
-											]
+											],
+											"id": "026"
 										},
 										{
 											"type": "entries",
@@ -11781,7 +11818,8 @@
 																}
 															]
 														}
-													]
+													],
+													"id": "029"
 												},
 												{
 													"type": "statblock",
@@ -11794,7 +11832,8 @@
 													"collapsed": true,
 													"displayName": "Wild Magic Sorcery"
 												}
-											]
+											],
+											"id": "028"
 										},
 										{
 											"type": "entries",
@@ -11821,11 +11860,14 @@
 													"collapsed": true,
 													"displayName": "Clockwork Sorcery"
 												}
-											]
+											],
+											"id": "02a"
 										}
-									]
+									],
+									"id": "025"
 								}
-							]
+							],
+							"id": "020"
 						},
 						{
 							"type": "section",
@@ -11909,7 +11951,8 @@
 												}
 											]
 										}
-									]
+									],
+									"id": "02c"
 								},
 								{
 									"type": "statblock",
@@ -12132,7 +12175,8 @@
 																}
 															]
 														}
-													]
+													],
+													"id": "02f"
 												},
 												{
 													"type": "statblock",
@@ -12350,9 +12394,11 @@
 													"page": 31,
 													"collapsed": true
 												}
-											]
+											],
+											"id": "02e"
 										}
-									]
+									],
+									"id": "02d"
 								},
 								{
 									"type": "entries",
@@ -12417,7 +12463,8 @@
 																}
 															]
 														}
-													]
+													],
+													"id": "032"
 												},
 												{
 													"type": "statblock",
@@ -12430,7 +12477,8 @@
 													"collapsed": true,
 													"displayName": "Archfey Patron"
 												}
-											]
+											],
+											"id": "031"
 										},
 										{
 											"type": "entries",
@@ -12465,7 +12513,8 @@
 																}
 															]
 														}
-													]
+													],
+													"id": "034"
 												},
 												{
 													"type": "statblock",
@@ -12478,7 +12527,8 @@
 													"collapsed": true,
 													"displayName": "Celestial Patron"
 												}
-											]
+											],
+											"id": "033"
 										},
 										{
 											"type": "entries",
@@ -12529,7 +12579,8 @@
 																}
 															]
 														}
-													]
+													],
+													"id": "036"
 												},
 												{
 													"type": "statblock",
@@ -12542,7 +12593,8 @@
 													"collapsed": true,
 													"displayName": "Fiend Patron"
 												}
-											]
+											],
+											"id": "035"
 										},
 										{
 											"type": "entries",
@@ -12609,7 +12661,8 @@
 																}
 															]
 														}
-													]
+													],
+													"id": "038"
 												},
 												{
 													"type": "statblock",
@@ -12622,11 +12675,14 @@
 													"collapsed": true,
 													"displayName": "Great Old One Patron"
 												}
-											]
+											],
+											"id": "037"
 										}
-									]
+									],
+									"id": "030"
 								}
-							]
+							],
+							"id": "02b"
 						},
 						{
 							"type": "section",
@@ -12709,7 +12765,8 @@
 												}
 											]
 										}
-									]
+									],
+									"id": "03a"
 								},
 								{
 									"type": "statblock",
@@ -12766,7 +12823,8 @@
 																}
 															]
 														}
-													]
+													],
+													"id": "03d"
 												},
 												{
 													"type": "statblock",
@@ -12778,7 +12836,8 @@
 													"page": 39,
 													"collapsed": true
 												}
-											]
+											],
+											"id": "03c"
 										},
 										{
 											"type": "entries",
@@ -12813,7 +12872,8 @@
 																}
 															]
 														}
-													]
+													],
+													"id": "03f"
 												},
 												{
 													"type": "statblock",
@@ -12825,7 +12885,8 @@
 													"page": 40,
 													"collapsed": true
 												}
-											]
+											],
+											"id": "03e"
 										},
 										{
 											"type": "entries",
@@ -12868,7 +12929,8 @@
 																}
 															]
 														}
-													]
+													],
+													"id": "041"
 												},
 												{
 													"type": "statblock",
@@ -12880,7 +12942,8 @@
 													"page": 41,
 													"collapsed": true
 												}
-											]
+											],
+											"id": "040"
 										},
 										{
 											"type": "entries",
@@ -12931,7 +12994,8 @@
 																}
 															]
 														}
-													]
+													],
+													"id": "043"
 												},
 												{
 													"type": "statblock",
@@ -12943,13 +13007,17 @@
 													"page": 42,
 													"collapsed": true
 												}
-											]
+											],
+											"id": "042"
 										}
-									]
+									],
+									"id": "03b"
 								}
-							]
+							],
+							"id": "039"
 						}
-					]
+					],
+					"id": "007"
 				},
 				{
 					"type": "section",
@@ -12963,7 +13031,8 @@
 							"page": 43,
 							"entries": [
 								"A spell's description contains one or more tags indicating the class spell lists that contain the spell. For example, if a spell has the \"Wizard\" tag, the spell is on the Wizard spell list."
-							]
+							],
+							"id": "045"
 						},
 						{
 							"type": "entries",
@@ -13024,7 +13093,8 @@
 												}
 											]
 										}
-									]
+									],
+									"id": "047"
 								},
 								{
 									"type": "statblock",
@@ -13058,9 +13128,11 @@
 									"page": 44,
 									"collapsed": true
 								}
-							]
+							],
+							"id": "046"
 						}
-					]
+					],
+					"id": "044"
 				},
 				{
 					"type": "section",
@@ -13102,7 +13174,8 @@
 										}
 									]
 								}
-							]
+							],
+							"id": "049"
 						},
 						{
 							"type": "statblock",
@@ -13127,9 +13200,11 @@
 									"name": "Ability Score Improvement",
 									"page": 44
 								}
-							]
+							],
+							"id": "04a"
 						}
-					]
+					],
+					"id": "048"
 				},
 				{
 					"type": "section",
@@ -13158,7 +13233,8 @@
 										"The {@b War Pick} now has the Sap property."
 									]
 								}
-							]
+							],
+							"id": "04c"
 						},
 						{
 							"type": "entries",
@@ -13193,7 +13269,8 @@
 									"name": "Martial Weapons: Ranged",
 									"page": 45
 								}
-							]
+							],
+							"id": "04d"
 						},
 						{
 							"type": "entries",
@@ -13207,7 +13284,8 @@
 									"page": 46,
 									"entries": [
 										"A Heavy weapon is unwieldy compared to other weapons. You have Disadvantage on your attack rolls with a Heavy weapon if it's a melee weapon and your Strength score isn't at least 13 and if it's a ranged weapon and your Dexterity score isn't at least 13."
-									]
+									],
+									"id": "04f"
 								},
 								{
 									"type": "entries",
@@ -13216,7 +13294,8 @@
 									"entries": [
 										"When you take the {@action Attack|XUA2023PlayersHandbookP7} action on your turn and attack with a Light weapon, you can make one extra attack as a Bonus Action later on the same turn. That extra attack must be made with a different Light weapon, and you don't add your ability modifier to the extra attack's damage, unless that modifier is negative.",
 										"For example, if you take the {@action Attack|XUA2023PlayersHandbookP7} action on your turn and have a Shortsword in one hand and a Dagger in the other\u2014each of which has the Light property\u2014you can make one attack with each weapon, using your action and a Bonus Action, but you don't add your Strength or Dexterity modifier to the damage roll of the Bonus Action, unless that modifier is negative."
-									]
+									],
+									"id": "050"
 								},
 								{
 									"type": "entries",
@@ -13225,9 +13304,11 @@
 									"entries": [
 										"If a weapon has the Thrown property, you can throw the weapon to make a ranged attack, and you can draw that weapon as part of the attack.",
 										"If the weapon is a melee weapon, you use the same ability modifier for that attack roll and damage roll that you would use for a melee attack with the weapon. For example, if you throw a Handaxe, you use your Strength, but if you throw a Dagger, you can use either your Strength or your Dexterity, since the Dagger has the Finesse property."
-									]
+									],
+									"id": "051"
 								}
-							]
+							],
+							"id": "04e"
 						},
 						{
 							"type": "entries",
@@ -13293,9 +13374,11 @@
 									"name": "Vex",
 									"page": 47
 								}
-							]
+							],
+							"id": "052"
 						}
-					]
+					],
+					"id": "04b"
 				},
 				{
 					"type": "section",
@@ -13317,7 +13400,8 @@
 							"name": "Priest's Pack",
 							"page": 47
 						}
-					]
+					],
+					"id": "053"
 				},
 				{
 					"type": "section",
@@ -13332,7 +13416,8 @@
 							"name": "Design Note: Rules Glossary Update",
 							"entries": [
 								"The section on death saving throws has been removed."
-							]
+							],
+							"id": "055"
 						},
 						{
 							"type": "statblock",
@@ -13598,7 +13683,8 @@
 							"page": 54,
 							"collapsed": true
 						}
-					]
+					],
+					"id": "054"
 				}
 			]
 		}

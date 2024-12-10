@@ -80,7 +80,8 @@
 													"page": 1,
 													"entries": [
 														"Each round of combat represents 1 minute."
-													]
+													],
+													"id": "004"
 												},
 												{
 													"type": "entries",
@@ -88,7 +89,8 @@
 													"page": 1,
 													"entries": [
 														"A single square measures 20 feet on each side."
-													]
+													],
+													"id": "005"
 												},
 												{
 													"type": "entries",
@@ -96,11 +98,14 @@
 													"page": 1,
 													"entries": [
 														"Diagonally contiguous squares (those that touch only at a corner) are not considered adjacent; each is 1 square away from the other. Stands and solos cannot move diagonally. When determining the distance between one square and another, do not count squares diagonally."
-													]
+													],
+													"id": "006"
 												}
-											]
+											],
+											"id": "003"
 										}
-									]
+									],
+									"id": "002"
 								},
 								{
 									"type": "entries",
@@ -142,7 +147,8 @@
 																]
 															]
 														}
-													]
+													],
+													"id": "009"
 												},
 												{
 													"type": "entries",
@@ -150,7 +156,8 @@
 													"page": 1,
 													"entries": [
 														"A stand uses the statistics and special abilities of the creatures within the stand, such as Armor Class, hit points, attack and damage capabilities, and so on."
-													]
+													],
+													"id": "00a"
 												},
 												{
 													"type": "entries",
@@ -158,11 +165,14 @@
 													"page": 1,
 													"entries": [
 														"The speed of a stand is measured in squares, and is equal to the speed of an individual creature divided by 5. For example, a stand of hobgoblins (individual speed 30 feet) has a speed of 6 squares."
-													]
+													],
+													"id": "00b"
 												}
-											]
+											],
+											"id": "008"
 										}
-									]
+									],
+									"id": "007"
 								},
 								{
 									"type": "entries",
@@ -193,7 +203,8 @@
 																"To keep from becoming isolated (see \"Unit Integrity\" below), each stand within a skirmisher unit must be no more than 1 square away from another stand in that unit at the end of a turn."
 															]
 														}
-													]
+													],
+													"id": "00e"
 												},
 												{
 													"type": "entries",
@@ -201,7 +212,8 @@
 													"page": 2,
 													"entries": [
 														"Regiment units move in strict ranks, creating a tight formation. Although they are slower than skirmisher units, regiments are adept at delivering powerful attacks and holding key points on the battlefield."
-													]
+													],
+													"id": "00f"
 												},
 												{
 													"type": "entries",
@@ -220,7 +232,8 @@
 																"To keep from becoming isolated (see \"Unit Integrity\" below), each stand in a regiment unit must be adjacent to at least one other stand in that unit at the end of a turn."
 															]
 														}
-													]
+													],
+													"id": "010"
 												},
 												{
 													"type": "entries",
@@ -240,11 +253,14 @@
 																"To keep from becoming isolated (see \"Unit Integrity\" below), an unattached solo must be no more than 1 square away from any allied stand at the end of a turn."
 															]
 														}
-													]
+													],
+													"id": "011"
 												}
-											]
+											],
+											"id": "00d"
 										}
-									]
+									],
+									"id": "00c"
 								},
 								{
 									"type": "entries",
@@ -261,7 +277,8 @@
 											"page": 3,
 											"entries": [
 												"A commander can order its unit to be more wary by making a {@dc 15} Charisma ({@skill Intimidation} or {@skill Persuasion}) check. If it succeeds, the unit gains advantage on all saving throws until the end of the commander's next turn."
-											]
+											],
+											"id": "013"
 										},
 										{
 											"type": "entries",
@@ -269,7 +286,8 @@
 											"page": 3,
 											"entries": [
 												"A commander can try to inspire the soldiers of its unit to greater effort by making a {@dc 15} Charisma ({@skill Intimidation} or {@skill Persuasion}) check. If it succeeds, the unit gains advantage on all attack rolls it makes on its next turn."
-											]
+											],
+											"id": "014"
 										},
 										{
 											"type": "entries",
@@ -277,9 +295,11 @@
 											"page": 3,
 											"entries": [
 												"A commander can reverse the effects of a failed morale check by rallying troops so that they are willing to resume fighting. See \"Check Morale\" below."
-											]
+											],
+											"id": "015"
 										}
-									]
+									],
+									"id": "012"
 								},
 								{
 									"type": "entries",
@@ -298,7 +318,8 @@
 													"page": 3,
 													"entries": [
 														"A stand in a regiment unit is isolated if it is not adjacent to another stand in its unit."
-													]
+													],
+													"id": "018"
 												},
 												{
 													"type": "entries",
@@ -306,7 +327,8 @@
 													"page": 3,
 													"entries": [
 														"A stand in a skirmisher unit is isolated if it is more than 1 square away from another stand in its unit."
-													]
+													],
+													"id": "019"
 												},
 												{
 													"type": "entries",
@@ -314,11 +336,14 @@
 													"page": 3,
 													"entries": [
 														"An unattached solo is isolated if it is more than 1 square away from any allied stand regardless of that stand's unit."
-													]
+													],
+													"id": "01a"
 												}
-											]
+											],
+											"id": "017"
 										}
-									]
+									],
+									"id": "016"
 								},
 								{
 									"type": "entries",
@@ -336,7 +361,8 @@
 													"page": 3,
 													"entries": [
 														"Clear terrain offers no special benefits or hindrances. Clear squares filled with rubble or broken ground are {@quickref difficult terrain||3}."
-													]
+													],
+													"id": "01d"
 												},
 												{
 													"type": "entries",
@@ -344,7 +370,8 @@
 													"page": 3,
 													"entries": [
 														"If the last square of a stand's movement takes it into a road square, the stand can move 1 more square regardless of its remaining speed. Road squares are never {@quickref difficult terrain||3} unless they are successfully targeted with the Destruction objective (see \"Creating Objectives\" below)."
-													]
+													],
+													"id": "01e"
 												},
 												{
 													"type": "entries",
@@ -352,7 +379,8 @@
 													"page": 3,
 													"entries": [
 														"A stand in a forest square gains half cover against all attacks. Forest is always {@quickref difficult terrain||3}."
-													]
+													],
+													"id": "01f"
 												},
 												{
 													"type": "entries",
@@ -360,7 +388,8 @@
 													"page": 3,
 													"entries": [
 														"Water squares are either deep or shallow water. Shallow water is {@quickref difficult terrain||3}. Only a stand made up of creatures that have a swimming speed, or a solo that has a swimming speed, can enter deep water."
-													]
+													],
+													"id": "020"
 												},
 												{
 													"type": "entries",
@@ -370,13 +399,17 @@
 														"Any terrain other than water can also have this additional trait. An area of high ground is given a number that represents its relative height (in multiples of 20 feet) compared to nearby squares of a lower elevation. A stand or solo on high ground has advantage on melee attack rolls made against targets that are at a lower elevation.",
 														"Moving into higher ground costs 1 square of movement for each 20 feet of difference in elevation between the stand or solo's current location and its destination square.",
 														"If the higher ground is also {@quickref difficult terrain||3}, the cost of entering it is doubled."
-													]
+													],
+													"id": "021"
 												}
-											]
+											],
+											"id": "01c"
 										}
-									]
+									],
+									"id": "01b"
 								}
-							]
+							],
+							"id": "001"
 						},
 						{
 							"type": "section",
@@ -400,7 +433,8 @@
 										},
 										"A bit of bookkeeping on the side is also recommended. Make a list of which stands belong to which units, so that you can tell when a stand becomes isolated or when a unit might become broken (see \"Check Morale\" below).",
 										"After all these tasks are taken care of, it's time to start the fight."
-									]
+									],
+									"id": "023"
 								},
 								{
 									"type": "entries",
@@ -409,7 +443,8 @@
 									"entries": [
 										"Each unit rolls for initiative using the highest or lowest Dexterity modifier among its stands (depending on whether the unit is a skirmisher or a regiment). This includes solos that are attached to a unit at the start of the turn (see \"Join\" below).",
 										"The DM might also rule that some units or unattached solos are surprised, based on the situation at the start of the battle."
-									]
+									],
+									"id": "024"
 								},
 								{
 									"type": "entries",
@@ -426,7 +461,8 @@
 													"page": 4,
 													"entries": [
 														"There are no opportunity attacks in these rules. Instead, a stand cannot move once it becomes adjacent to an enemy stand, unless its unit takes the Retreat action. This restriction does not prevent other stands in the unit from moving normally\u2014only those stands that are adjacent to enemy stands."
-													]
+													],
+													"id": "027"
 												},
 												{
 													"type": "entries",
@@ -434,11 +470,14 @@
 													"page": 4,
 													"entries": [
 														"If a stand willingly or unwillingly moves off the area covered by the grid, it is considered to have fled the battlefield and is eliminated."
-													]
+													],
+													"id": "028"
 												}
-											]
+											],
+											"id": "026"
 										}
-									]
+									],
+									"id": "025"
 								},
 								{
 									"type": "entries",
@@ -462,7 +501,8 @@
 													"page": 5,
 													"entries": [
 														"A stand that makes a melee attack must be able to target a stand or a solo in an adjacent square."
-													]
+													],
+													"id": "02b"
 												},
 												{
 													"type": "entries",
@@ -470,7 +510,8 @@
 													"page": 5,
 													"entries": [
 														"A stand that has a reach of 10 feet or greater with its melee attack makes a bonus attack as part of its Attack action. This benefit represents the stand's ability to bring more of its members to bear when making an attack."
-													]
+													],
+													"id": "02c"
 												},
 												{
 													"type": "entries",
@@ -478,9 +519,11 @@
 													"page": 5,
 													"entries": [
 														"Determine range as normal (and remember that each square is 20 feet on a side). If the range of an attack extends at least 10 feet into a square, the attack affects that square in its entirety. Similarly, even if an attack's range is less than 20 feet, the attack can still target a stand or a solo in an adjacent square."
-													]
+													],
+													"id": "02d"
 												}
-											]
+											],
+											"id": "02a"
 										},
 										{
 											"type": "entries",
@@ -495,7 +538,8 @@
 													"page": 5,
 													"entries": [
 														"Determine the range of a spell the same as for a ranged attack with a weapon (see above). If the range of a spell extends at least 10 feet into a square, the attack affects that square in its entirety. Similarly, even if a spell's range is less than 20 feet, the spell can still target a stand or a solo in an adjacent square."
-													]
+													],
+													"id": "02f"
 												},
 												{
 													"type": "entries",
@@ -505,7 +549,8 @@
 														"If a spell requires a target, a stand of casters can target another stand within range. A spell that targets multiple creatures can affect one stand or unattached solo per creature it can target.",
 														"For spells requiring an attack roll by a stand against an isolated solo, the stand has advantage on the attack roll and the spell deals double damage. If the spell allows a saving throw, the solo has disadvantage on the saving throw and takes double damage if the saving throw fails.",
 														"A solo can cast a targeted spell against another solo, following the normal rules for the spell. Such a spell is effective against a stand only if the spell normally targets five or more creatures."
-													]
+													],
+													"id": "030"
 												},
 												{
 													"type": "entries",
@@ -515,7 +560,8 @@
 														"A spell that covers an area affects all the stands in its area. If the area does not include all of the squares a stand occupies, the spell either deals half damage to that stand (if it deals damage) or has no effect.",
 														"If a stand casts such a spell, assume all the casters use the same area of effect. Targets make saving throws as normal but take double damage from the spell. Solos cast area spells as normal against solos or stands within the area.",
 														"If an area spell has a range of \"Self,\" its point of origin is the midpoint of one of the sides of the caster's space. If the spell has any other range, the distance to its point of origin is measured starting at the midpoint of one of the sides of the caster's space."
-													]
+													],
+													"id": "031"
 												},
 												{
 													"type": "entries",
@@ -523,7 +569,8 @@
 													"page": 5,
 													"entries": [
 														"The length of a cone on the battlefield is 1 square for every 20 feet. Each square of the area beyond the first one must be adjacent to the square that is closer to the point of origin. A cone is wider the farther it extends from the point of origin. The cone's width at any place along its length equals the number of squares between that square and the point of origin. Add squares of length as evenly as possible to both sides of the cone."
-													]
+													],
+													"id": "032"
 												},
 												{
 													"type": "entries",
@@ -531,7 +578,8 @@
 													"page": 5,
 													"entries": [
 														"The size of a cube or the radius of a cylinder or a sphere on the battlefield is 1 square for every 20 feet. Any square in the area beyond the one that contains the point of origin must be within 1 square of the origin square. If the area extends beyond those squares, each additional square must be within 2 squares of the origin square."
-													]
+													],
+													"id": "033"
 												},
 												{
 													"type": "entries",
@@ -539,9 +587,11 @@
 													"page": 6,
 													"entries": [
 														"The length of a line on the battlefield is 1 square for every 20 feet. Each square of the area beyond the first one must be adjacent to the square that is closer to the point of origin."
-													]
+													],
+													"id": "034"
 												}
-											]
+											],
+											"id": "02e"
 										},
 										{
 											"type": "entries",
@@ -557,7 +607,8 @@
 													"entries": [
 														"When a unit in the aid configuration uses the Attack action to make a melee attack, individual stands in the unit can forgo their attacks to support the melee attacks of other stands. A stand that does so grants advantage on melee attack rolls made by an adjacent stand in its unit. A stand can grant advantage in this manner even if it has no legal target for an attack of its own (representing soldiers pushing forward to replace casualties, covering an exposed flank against a counterattack, or distracting the enemy with ranged fire).",
 														"A unit in the aid configuration moves at half speed (rounding down if necessary) to reflect the fact that some of its members are moving around within the ranks instead of pressing forward."
-													]
+													],
+													"id": "036"
 												},
 												{
 													"type": "entries",
@@ -566,7 +617,8 @@
 													"entries": [
 														"When a unit is in the defend configuration, all stands in the regiment gain a +2 bonus to AC. The unit can't use the Attack action while it remains in this configuration.",
 														"A unit in the defend configuration moves at half speed (rounding down if necessary) to reflect the fact that its members are focusing on protecting themselves instead of pressing forward."
-													]
+													],
+													"id": "037"
 												},
 												{
 													"type": "entries",
@@ -574,9 +626,11 @@
 													"page": 6,
 													"entries": [
 														"A regiment in the march configuration moves at its full speed."
-													]
+													],
+													"id": "038"
 												}
-											]
+											],
+											"id": "035"
 										},
 										{
 											"type": "entries",
@@ -585,7 +639,8 @@
 											"entries": [
 												"A unit that takes the Dash action gains a bonus to its speed equal to its normal speed.",
 												"A regiment that is configured to aid or defend and takes the Dash action can move at its full speed (not half speed) on that turn."
-											]
+											],
+											"id": "039"
 										},
 										{
 											"type": "entries",
@@ -595,7 +650,8 @@
 												"{@b (Skirmishers and solos only)}",
 												"Taking this action follows the standard combat rules. Make a Dexterity ({@skill Stealth}) check for each stand in a unit that attempts to hide. Conditions such as obscuring terrain and lack of illumination might mean that some stands in a unit can attempt to hide while others can't.",
 												"A stand that cannot hide (or that chooses not to make the attempt) cannot take any other action during the unit's current turn."
-											]
+											],
+											"id": "03a"
 										},
 										{
 											"type": "entries",
@@ -610,7 +666,8 @@
 												"When a solo is joined with a stand, it is considered part of that stand for the purpose of being targeted by a spell, though it continues to use its own AC and saving throws against the spell.",
 												"When the stand moves, the solo automatically moves with it. On its turn, the solo takes its action as normal but does not take its own move. In place of its move, it can either leave the stand (entering an empty adjacent space) or immediately join another adjacent stand in its unit.",
 												"If the stand is eliminated (see \"Eliminate Casualties\" below), any solos that were joined with the stand remain in play. A newly unattached solo can immediately join an adjacent stand in its unit or remain unattached and occupy one or more of the squares the stand formerly occupied."
-											]
+											],
+											"id": "03b"
 										},
 										{
 											"type": "entries",
@@ -618,9 +675,11 @@
 											"page": 7,
 											"entries": [
 												"Any stand in a unit that takes this action can move even if it begins its turn adjacent to an enemy stand or becomes adjacent to an enemy stand during movement."
-											]
+											],
+											"id": "03c"
 										}
-									]
+									],
+									"id": "029"
 								},
 								{
 									"type": "entries",
@@ -629,7 +688,8 @@
 									"entries": [
 										"Apply damage to a stand's hit points as though it were an individual creature. If a stand takes damage in excess of its current hit points, apply the excess damage to an adjacent identical stand in its unit, if there is one.",
 										"Because the action in a round is considered to be simultaneous, a stand is not immediately destroyed when it is reduced to 0 hit points. The stand becomes a casualty but remains in play until the end of the round, taking actions (including attacks) and moving as normal if it had not already taken its turn in the current round. Treat the stand as if it had 1 hit point remaining. You can push the stand's miniature onto its side or otherwise mark it to represent that it is a casualty"
-									]
+									],
+									"id": "03d"
 								},
 								{
 									"type": "entries",
@@ -650,9 +710,11 @@
 													"page": 7,
 													"entries": [
 														"Solos use all of the standard combat rules for damage, death, and dying (in the case of player characters). A dying solo makes up to ten death saves at the end of the round, one at a time, to determine its fate."
-													]
+													],
+													"id": "040"
 												}
-											]
+											],
+											"id": "03f"
 										},
 										{
 											"type": "entries",
@@ -669,13 +731,17 @@
 													"page": 7,
 													"entries": [
 														"If a broken unit has a commander, the unit has a chance to rally at the start of its turn. The unit makes another {@dc 10} Wisdom saving throw, with a bonus equal to the commander's Charisma modifier. If the save succeeds, the unit is no longer broken. It takes its turn as normal."
-													]
+													],
+													"id": "042"
 												}
-											]
+											],
+											"id": "041"
 										}
-									]
+									],
+									"id": "03e"
 								}
-							]
+							],
+							"id": "022"
 						},
 						{
 							"type": "section",
@@ -701,7 +767,8 @@
 													"page": 8,
 													"entries": [
 														"One side simply seeks to wear down the other. For each enemy unit eliminated, the army with this objective earns a number of victory points, as determined by the DM and based on the number of units in the battle."
-													]
+													],
+													"id": "046"
 												},
 												{
 													"type": "entries",
@@ -711,7 +778,8 @@
 														"An army seeks to deny the enemy a valuable resource, such as by destroying a bridge over a river or laying waste to crops that could otherwise sustain an invading force.",
 														"If this objective is in play, the DM chooses a number of squares on the battlefield that represent the valuable resource and assigns each square a hit point value from 10 to 100. A stand or a solo can attack an objective square the same way it attacks an enemy. A square is automatically hit by any melee attacks against it and automatically fails all saving throws. The square takes damage from spells whose area of effect completely covers it. Targeted spells cast by stands can damage a square, but not those cast by solos.",
 														"An army with this objective scores victory points for reducing a designated square to 0 hit points. The DM assigns each square a VP point value from 1 to 5, depending on the objective's importance."
-													]
+													],
+													"id": "047"
 												},
 												{
 													"type": "entries",
@@ -720,7 +788,8 @@
 													"entries": [
 														"This objective involves defending a key position or resource from an attacker. It is always used in conjunction with the Destruction objective above.",
 														"At the end of each round, an army with this objective scores 1 victory point if it has two or more stands adjacent to an objective that has not been reduced to 0 hit points, and if no enemy stands or solos are within 2 squares of the objective."
-													]
+													],
+													"id": "048"
 												},
 												{
 													"type": "entries",
@@ -729,9 +798,11 @@
 													"entries": [
 														"To create a unique objective, simply assign a VP value, generally from 1 to 5, to a specific action or condition that an army must fulfill to achieve its goal.",
 														"A unique objective might involve killing or disabling a commander, forcing an opposing army into a specific confined area, or occupying and holding a particular location."
-													]
+													],
+													"id": "049"
 												}
-											]
+											],
+											"id": "045"
 										},
 										{
 											"type": "entries",
@@ -741,9 +812,11 @@
 												"Once you have established objectives for the battle, check to ensure that both armies have the opportunity to score roughly equal numbers of victory points. It's okay if there is a slight disparity (not all battles are fair), but keep in mind that the army with more ways to score victory points has a much better chance of emerging the overall victor. If you want to ensure an even match, try to give both sides an equal number of opportunities.",
 												"In a battle where each army has a single specific objective, this job is easy. For example, destroying a bridge is worth 10 VP, while keeping it from being destroyed is worth 10 VP.",
 												"In a more fluid situation with multiple objectives in play, give each side at least five opportunities to score victory points, and assign VP values that add up to more than 10 per side (say, 12 to 15). Spreading out the objectives and their rewards in this way gives commanders a few options for victory and keeps battles flexible."
-											]
+											],
+											"id": "04a"
 										}
-									]
+									],
+									"id": "044"
 								},
 								{
 									"type": "entries",
@@ -755,11 +828,14 @@
 										"If one side has 1 or 2 VP more than the other, the winner has scored a tactical victory. The loser withdraws from the field with its remaining forces, while both sides tend to their wounded . . . and perhaps make plans to meet again.",
 										"If both sides have an equal number of victory points at the battle's end, the DM can declare the battle a draw, or the armies can fight one more round to try to determine a winner.",
 										"Because of how objectives inform the action of a conflict, the army that loses the battle can still come away with positive results. Even if the player characters fought on the losing side, they and their army might have achieved the objectives necessary to fulfill some of their strategic goals in the campaign."
-									]
+									],
+									"id": "04b"
 								}
-							]
+							],
+							"id": "043"
 						}
-					]
+					],
+					"id": "000"
 				}
 			]
 		}

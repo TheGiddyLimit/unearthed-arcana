@@ -603,7 +603,8 @@
 											"page": 1,
 											"entries": [
 												"A trap's level is expressed as a range of levels to give you an idea of its relative strength (levels 1\u20134, 5\u201310, 11\u201316, and 17\u201320). It is then labeled as a moderate, dangerous, or deadly threat. The trap's label tells you how powerful the trap is compared to others of its level range."
-											]
+											],
+											"id": "003"
 										},
 										{
 											"type": "entries",
@@ -611,7 +612,8 @@
 											"page": 1,
 											"entries": [
 												"A simple trap has a trigger that describes what causes the trap to activate. The trigger's description includes its location and the action that causes it to activate."
-											]
+											],
+											"id": "004"
 										},
 										{
 											"type": "entries",
@@ -619,7 +621,8 @@
 											"page": 1,
 											"entries": [
 												"A trap's effect describes what happens when its trigger activates. The trap might fire a dart, unleash a cloud of poison gas, cause a hidden point to open, and so on. The effect specifies who the trap targets, its attack bonus or saving throw DC, and what happens on a hit or failed saving throw."
-											]
+											],
+											"id": "005"
 										},
 										{
 											"type": "entries",
@@ -627,9 +630,11 @@
 											"page": 1,
 											"entries": [
 												"A trap can be defeated in a variety of ways. This section of a trap's description details the checks or spells that can detect and disable it. It also specifies what happens, if anything, on a failed attempt to disable it."
-											]
+											],
+											"id": "006"
 										}
-									]
+									],
+									"id": "002"
 								},
 								{
 									"type": "entries",
@@ -640,9 +645,11 @@
 										"When a trap triggers, apply its effects as specified in its description. Be sure of the players' intended actions before a trap activates so that it springs into action based on what the players want to do, rather than a course of action they're arguing about or merely considering. If the players discover a trap, be open to adjudicating their ideas for defeating it. The trap's description is a starting point for countermeasures, rather than a complete definition.",
 										"The players should be specific in how they want to defeat the trap. Simply stating the desire to make a check isn't enough. Ask the players where their characters are positioned and what they intend to do to defeat the trap. A player can't just say, \"I use thieves' tools to disable it.\" That's too murky. The player instead should describe something like, \"I use my thieves' tools to examine the lock and attempt to disable the poison needle inside it.\" The last thing you want is confusion over where the characters are located if a trap activates.",
 										"As a default, overcoming a simple trap offers no experience point reward. If the characters uncover the trap and avoid or disable it, their reward is dodging a threatening element of the dungeon. If they stumble into it, they must cope with the consequences of a more dangerous situation."
-									]
+									],
+									"id": "007"
 								}
-							]
+							],
+							"id": "001"
 						},
 						{
 							"type": "entries",
@@ -665,7 +672,8 @@
 										"{@trap Sleep of Ages|UATrapsRevisited}"
 									]
 								}
-							]
+							],
+							"id": "008"
 						},
 						{
 							"type": "entries",
@@ -684,7 +692,8 @@
 											"page": 4,
 											"entries": [
 												"An alarm trap is designed to alert an area's occupants of intruders. It might cause a bell or gong to sound. This type of trap rarely involves a saving throw."
-											]
+											],
+											"id": "00b"
 										},
 										{
 											"type": "entries",
@@ -692,7 +701,8 @@
 											"page": 4,
 											"entries": [
 												"These traps serve to slow down intruders, giving a dungeon's inhabitants time to mount a defense or flee. A hidden pit is the classic example of this trap. A 10-foot-deep pit usually deals little damage and is easy to escape, but it slows down intruders. Other examples include collapsing walls, a portcullis that drops from the ceiling, and a locking mechanism that shuts and bars a door. These traps, when they directly threaten characters, usually require a Dexterity saving throw to avoid."
-											]
+											],
+											"id": "00c"
 										},
 										{
 											"type": "entries",
@@ -700,7 +710,8 @@
 											"page": 4,
 											"entries": [
 												"A restraining trap tries to keep its victims in place, leaving them unable to move. These traps are most useful when combined with a regular guard patrol, but in ancient dungeons the guards might be long gone. These traps usually require a Strength saving throw to avoid, but some don't allow saves. In addition to dealing damage, they also render a creature unable to move. A subsequent, successful Strength check (use the saving throw DC) or damage against the trap can break it and free the captive. Examples include a bear trap, a cage that drops from a ceiling, or a device that flings a net."
-											]
+											],
+											"id": "00d"
 										},
 										{
 											"type": "entries",
@@ -708,9 +719,11 @@
 											"page": 4,
 											"entries": [
 												"These traps are designed to eliminate intruders. They include {@condition poisoned} needles that spring out when a lock is tampered with, blasts of fire that fill a room, poison gas, and so on. Saving throws\u2014usually Dexterity or Constitution\u2014allow creatures to avoid or mitigate the trap's effects."
-											]
+											],
+											"id": "00e"
 										}
-									]
+									],
+									"id": "00a"
 								},
 								{
 									"type": "entries",
@@ -838,7 +851,8 @@
 												]
 											]
 										}
-									]
+									],
+									"id": "00f"
 								},
 								{
 									"type": "entries",
@@ -868,9 +882,11 @@
 											"entries": [
 												"A Wisdom ({@skill Perception}) check that reveals a tripwire doesn't tell the players what happens if they break the tripwire. They spot it before blundering into it, but must still decide what to do next. The nature of the item is not in question, but you might not spot it. A successful check reveals it.",
 												"An Intelligence ({@skill Investigation}) check reveals that the scuff marks and wear pattern show that a doorknob can turn both ways, but is most often turned clockwise. The players must still decide how to open the door. The item is obvious, but its true nature is obscured. A successful check reveals the clues that point to the item's purpose."
-											]
+											],
+											"id": "011"
 										}
-									]
+									],
+									"id": "010"
 								},
 								{
 									"type": "entries",
@@ -880,7 +896,8 @@
 										"Designing a trap's effects is a straightforward process. The tables for save DCs, attack bonuses, damage, and the like give you a starting point for most simple traps that deal damage.",
 										"For traps with more complex effects, your best starting point is to use the Spell Equivalent by Level table to find the best match for your trap's intended effect. Spells are a good starting point because they are compact pieces of game design that deliver specific effects.",
 										"Once you have chosen the effect the trap delivers, choose its damage, attack bonus, and save DC. If you are using a spell as a starting point, check to see if you need to tweak its effects to fit the trap's nature. For instance, you can easily change the damage type a spell delivers or the saving throw it requires."
-									]
+									],
+									"id": "012"
 								},
 								{
 									"type": "entries",
@@ -893,7 +910,8 @@
 										"Strength checks are useful for traps that can be destroyed or held back through brute force. A scything blade can be broken, a collapsing roof held in place, a net torn apart.",
 										"Magical traps can be disabled by someone who can undermine the magic used to power them. An Intelligence ({@skill Arcana}) check allows a character to figure out how the trap functions and how to disable its magic. A statue that belches a jet of magical flame might be disabled when one of its glass eyes is shattered, disrupting the magic that powers it.",
 										"Finally, decide if there are any drawbacks to a failed attempt to disable the trap. If so, pick a threshold for the check result or decide that any failure activates the trap. If the result hits that threshold or lower, the trap activates. This option is a useful tool to make a trap feel dangerous even if the characters have discovered it. A trap that can be disabled without any danger is like a monster that can't fight back. Of course, use logic to guide your decisions. This element makes a trap interesting, but it shouldn't come at the cost of making your game feel illogical or arbitrary. For instance, let's say your trap is a section of floor that opens to send characters tumbling into a pit. If the rogue attempting to disarm the pit stands next to the trap, it makes no sense for the rogue to fall in if the trap activates. Of course, you can remedy this by specifying that the character must lean over the trap or have one foot on it to reach and disable the mechanism."
-									]
+									],
+									"id": "013"
 								},
 								{
 									"type": "entries",
@@ -906,9 +924,11 @@
 										"Alarm traps, since they pose no direct physical threat, are ideal for areas that are used by a dungeon's denizens. If a stumbling goblin activates an alarm trap, there's no real harm done. The alarm sounds, the guards arrive, they berate the clumsy goblin, and then they reset the trap. Of course, an alarm trap that is triggered on accident too often might fail to generate a quick response from defenders.",
 										"Above all else, place traps logically and with consideration to the time and effort needed to make them. If your adventures are sown with too many traps, the game grinds to a halt as the players search every square inch of a dungeon for tripwires and pressure plates.",
 										"It's all right if the players correctly deduce a trap's presence. That means your trap was placed logically and the players are engaged with the game."
-									]
+									],
+									"id": "014"
 								}
-							]
+							],
+							"id": "009"
 						},
 						{
 							"type": "entries",
@@ -929,7 +949,8 @@
 											"page": 7,
 											"entries": [
 												"A complex trap uses the same level bands and ratings for its lethality as a simple trap does."
-											]
+											],
+											"id": "017"
 										},
 										{
 											"type": "entries",
@@ -937,7 +958,8 @@
 											"page": 7,
 											"entries": [
 												"Just like a simple trap, a complex one has a trigger. Some complex traps have multiple triggers."
-											]
+											],
+											"id": "018"
 										},
 										{
 											"type": "entries",
@@ -945,7 +967,8 @@
 											"page": 7,
 											"entries": [
 												"A complex trap takes turns like a creature does. Complex traps are slow (initiative 10), fast (initiative 20), or very fast (initiative 20 and 10)."
-											]
+											],
+											"id": "019"
 										},
 										{
 											"type": "entries",
@@ -953,7 +976,8 @@
 											"page": 7,
 											"entries": [
 												"On a trap's turn, it activates specific effects that are detailed in its description. The trap might have multiple active elements, a table you roll on to determine its effect at random, or options for you to choose from."
-											]
+											],
+											"id": "01a"
 										},
 										{
 											"type": "entries",
@@ -961,7 +985,8 @@
 											"page": 7,
 											"entries": [
 												"Many complex traps feature a changing threat. The trap's description tells you how the trap changes over time. Usually, these changes take effect at the end of each of its turns or in response to the characters' actions."
-											]
+											],
+											"id": "01b"
 										},
 										{
 											"type": "entries",
@@ -969,7 +994,8 @@
 											"page": 7,
 											"entries": [
 												"A complex trap poses a threat even when it is not its turn. The constant elements describe how these parts of the trap function. Most make an attack or force a saving throw against creatures that end their turns within certain areas."
-											]
+											],
+											"id": "01c"
 										},
 										{
 											"type": "entries",
@@ -978,9 +1004,11 @@
 											"entries": [
 												"A trap can be defeated in a variety of ways. A trap's description details the checks or spells that can detect and disable it. It also specifies what happens, if anything, on a failed attempt to disable it.",
 												"Disabling a complex trap is like disarming a simple trap, except that a complex trap requires more checks. It typically takes three successful checks to disable one of a complex trap's elements. Many of these traps have multiple elements, requiring a lot of work to shut down every part of the trap. Usually, a successful check reduces a trap element's effectiveness if it doesn't disable it."
-											]
+											],
+											"id": "01d"
 										}
-									]
+									],
+									"id": "016"
 								},
 								{
 									"type": "entries",
@@ -990,9 +1018,11 @@
 										"A complex trap functions in play like a legendary monster. When activated, the trap's active elements act on either initiative 20 or 10 (or both, for very fast traps). On that initiative count, after all creatures with that same initiative have acted, the trap's features activate. Apply the effects detailed in the trap's description.",
 										"After resolving the effects of the trap's active elements, check its dynamic elements to see if anything changes about the trap. Many complex traps have effects that vary over the course of an encounter. A magical aura might do more damage the longer it is active, or a swinging blade might shift which area of a chamber it attacks.",
 										"The trap's constant elements allow it to have effects when it isn't the trap's turn. At the end of each creature's turn, look at the trap's constant elements to see if any of its effects trigger."
-									]
+									],
+									"id": "01e"
 								}
-							]
+							],
+							"id": "015"
 						},
 						{
 							"type": "entries",
@@ -1009,7 +1039,8 @@
 										"{@trap Poisoned Tempest|UATrapsRevisited}"
 									]
 								}
-							]
+							],
+							"id": "01f"
 						},
 						{
 							"type": "entries",
@@ -1024,7 +1055,8 @@
 									"page": 10,
 									"entries": [
 										"Complex traps are typically designed to protect an area by killing or disabling intruders. It is worth your time to consider who made the trap, the trap's purpose, and its desired result. Does the trap protect a treasure? Does it target only certain intruders? Use the advice given for simple traps as a starting point."
-									]
+									],
+									"id": "021"
 								},
 								{
 									"type": "entries",
@@ -1032,7 +1064,8 @@
 									"page": 10,
 									"entries": [
 										"Complex traps use the same level bands and lethality ratings as simple traps. Refer back to that section for a discussion of how level and lethality help determine save and check DCs, attacks bonuses, and other numerical elements of a complex trap."
-									]
+									],
+									"id": "022"
 								},
 								{
 									"type": "entries",
@@ -1043,7 +1076,8 @@
 										"Don't limit yourself to one room. Look at the passages and rooms around the area of the trap and think about the role they can play. The trap might cause doors to lock and gates to fall into place to prevent escape. It could cause darts to fire from the walls in one area, forcing characters to enter rooms where other devices trigger and threaten them.",
 										"Consider how terrain and furniture can add to the trap's danger. A chasm or pit might create the distance that allows a trap to send bolts of magic at the characters while making it difficult or even impossible to reach the runes the party must deface to foil it.",
 										"Think of your map like a script. Where do the characters want to go? What does the trap protect? How can the characters get there? What are their likely escape routes? Answering those questions tells you where the trap's various elements should be placed."
-									]
+									],
+									"id": "023"
 								},
 								{
 									"type": "entries",
@@ -1053,7 +1087,8 @@
 										"A complex trap's active elements work the same way as a simple trap's effects, except that a complex trap activates every round. Otherwise, the guidelines for picking save DCs, attack bonuses, and damage are the same. To make your trap logically consistent, make sure the elements you design can activate each round. For instance, crossbows rigged to fire at the characters need a mechanism to reload them.",
 										"In terms of lethality, it's better to have multiple dangerous effects in a trap than a single deadly one. As a rule of thumb, build your trap with two dangerous trap elements and one moderate one.",
 										"It's useful to create multiple active elements, each affecting a different area covered by the trap. It is also a good idea to use a variety of effects. Some parts of the trap might cause damage, and others might immobilize characters or isolate them from the rest of the party. Think about how the elements can work together. A bashing lever might knock characters into the area engulfed by jets of flame."
-									]
+									],
+									"id": "024"
 								},
 								{
 									"type": "entries",
@@ -1063,7 +1098,8 @@
 										"In addition to the active steps a complex trap takes, it should also present a continual hazard. Often, the active and constant effects are the same thing. Imagine a hallway filled with whirling saw blades. On the trap's turn, the blades attack anyone in the hall. In addition, anyone who lingers in the hallway takes damage at the end of each of their turns, representing the constant threat the blades pose.",
 										"A constant element should apply its effect to any character who ends their turn in that element's area. If an active element presents a threat when it isn't its turn, determine the threat it poses as a constant element. As a rule of thumb, keep the saving throw DC or attack bonus the same but reduce the damage by half.",
 										"Avoid filling the entire encounter area with constant elements. Part of the puzzle of a complex trap lies in figuring out which areas are safe. A moment's respite can help add an element of pacing to a complex trap and give the characters the feeling that they aren't in constant peril. For example, walls that slam together might need to reset between slams, leaving them harmless when it isn't their turn."
-									]
+									],
+									"id": "025"
 								},
 								{
 									"type": "entries",
@@ -1077,7 +1113,8 @@
 										"A trap's dynamic elements also make for a good timer. For example, the damage dealt by poison gas in a room starts at 11, but doubles each time the trap takes its turn. Smart players see that they only have a few rounds to overcome the trap before they must flee or risk death.",
 										"Random dynamic elements are fun because they keep the players on their toes and make any plan made to foil it dependent on the luck of the dice. In this case, you create a table and roll on it to see how the trap changes. The players can never be sure what might happen next. As a rule of thumb, one random element for a complex trap is a good limit. A trap that is too random can feel arbitrary and frustrating. You want to make planning harder, not impossible.",
 										"The dynamic elements should change after the trap's turn. The water level rises after the trap's active element takes its turn. The blades speed up and deal an additional die of damage each time they miss a character, their damage returning to its starting point after the impact of a successful attack causes them to slow down."
-									]
+									],
+									"id": "026"
 								},
 								{
 									"type": "entries",
@@ -1087,7 +1124,8 @@
 										"The advice on triggers given for simple traps applies to complex ones, with one exception. Complex traps feature multiple triggers, or are designed such that avoiding a trigger prevents intruders from reaching the area the trap guards. Other complex traps use magical triggers that activate on specific cues, such as when a door opens or someone enters an area without wearing the correct badge, amulet, or robe.",
 										"Look at your map and consider when you want the trap to spring into action. It's best to have a complex trap trigger after the characters have committed to exploring an area. A simple trap might trigger when the characters open a door. A complex one that triggers that early leaves the PCs looking into the trapped room and perhaps opting to close the door and move on. A simple trap aims to keep intruders out. A complex trap wants to lure them in, so that when it activates, the intruders must deal with it to escape.",
 										"In general, the trigger for a complex trap should be as foolproof as you can make it. A complex trap represents a serious expenditure of effort and magical power. No one builds one and makes it easy to avoid. Wisdom ({@skill Perception}) and Intelligence ({@skill Investigation}) checks might be unable to spot a trigger, especially a magical one, but they can still give hints about the trap before it triggers. Blood stains, ashes, gouges in the floor, and so on can point to the trap's effects and give a warning."
-									]
+									],
+									"id": "027"
 								},
 								{
 									"type": "entries",
@@ -1101,7 +1139,8 @@
 											"page": 12,
 											"entries": [
 												"These traps take time to build up their effects. Their active elements take place on initiative 10. This option is good for a trap that works alongside monsters or other guardians, as it can give guards the chance to move out of its active areas or force characters into them before triggering."
-											]
+											],
+											"id": "029"
 										},
 										{
 											"type": "entries",
@@ -1109,7 +1148,8 @@
 											"page": 12,
 											"entries": [
 												"These traps are designed to surprise intruders and hit them before they can react. Such a trap acts on initiative 20. This setting is your best option for a complex trap. Think of it as the default approach. It acts quickly enough to surprise slower characters, with fast characters like rogues, rangers, and monks having the best chance to move out of the trap before it activates."
-											]
+											],
+											"id": "02a"
 										},
 										{
 											"type": "entries",
@@ -1124,11 +1164,14 @@
 													"entries": [
 														"A complex trap is like a legendary monster in some ways. It has several tricks it can use on its turn. It remains a threat throughout the round, not just on its turn. The trap's active elements are like a legendary creature's normal actions, and its constant elements are equivalent to legendary actions (except they are tied to specific areas in the trapped room).",
 														"While a legendary creature can move, improvise actions, and so forth, a trap is set to a specific script, with the potential to make a complex trap stale. That's where dynamic elements come in. They keep the players on their toes and make dealing with a complex trap feel like a challenging, evolving situation."
-													]
+													],
+													"id": "02c"
 												}
-											]
+											],
+											"id": "02b"
 										}
-									]
+									],
+									"id": "028"
 								},
 								{
 									"type": "entries",
@@ -1143,11 +1186,14 @@
 										"For trap components that don't attack, allow each check to reduce that element's effectiveness by one-third. A lock's DC is reduced or a gate opens wide enough to allow a Small character to squeeze through it. A mechanism pumping poison gas into the room slows down, causing the gas's damage to increase slowly or not at all.",
 										"It takes time to work on a trap. Three characters can't make checks right after one another to disarm it in 6 seconds. They would get in each other's way and disrupt their efforts. Once a character succeeds on a check, another character can't attempt the same check to disable the same trap element until the end of the successful character's next turn.",
 										"Not all of the characters' options must be focused on stopping a trap. Think of what characters can do to mitigate or avoid a trap's effects. This approach is a good way to make characters who might be ill -suited to disarm a trap feel useful. An Intelligence ({@skill Investigation}) check might reveal the pattern a swinging blade follows, giving disadvantage on its attack rolls until the start of the character's next turn. A character with a shield can stand in front of a dart trap, making themself a target each time other characters trigger it."
-									]
+									],
+									"id": "02d"
 								}
-							]
+							],
+							"id": "020"
 						}
-					]
+					],
+					"id": "000"
 				}
 			]
 		}

@@ -3830,7 +3830,8 @@
 							"name": "Learn More on YouTube",
 							"entries": [
 								"To learn more about the design in this article, we invite you to view the videos about it on YouTube ({@link www.youtube.com/DNDWizards})."
-							]
+							],
+							"id": "001"
 						},
 						{
 							"type": "section",
@@ -3872,7 +3873,8 @@
 											"entries": [
 												"We invite you to try out this material in play. When you do so, you can use characters created using the {@book 2014 Player's Handbook|PHB} or ones made with the \"Player's Handbook Playtest\" series, starting with \"{@loader Character Origins.|collection/Unearthed Arcana 2022 - Character Origins.json|prerelease}\"",
 												"To play with this material, you may either incorporate it into your campaign or run one or more special playtest sessions. For a session testing the Bastion rules, you don't need an adventure prepared; just focus on creating Bastions and resolving Bastion turns. For testing the cantrips, you may create an adventure of your own or use a short adventure from a source like {@adventure Keys from the Golden Vault|KftGV}, {@adventure Journeys through the Radiant Citadel|JttRC}, or {@adventure Candlekeep Mysteries|CM}."
-											]
+											],
+											"id": "004"
 										},
 										{
 											"type": "entries",
@@ -3881,13 +3883,17 @@
 											"entries": [
 												"The best way for you to give us feedback on this material is in the survey we'll release on D&D Beyond. If we make this material official, it will be refined based on your feedback, and then it will appear in a D&D book.",
 												"Providing feedback on this document is one way you can help shape the next generation of D&D!"
-											]
+											],
+											"id": "005"
 										}
-									]
+									],
+									"id": "003"
 								}
-							]
+							],
+							"id": "002"
 						}
-					]
+					],
+					"id": "000"
 				},
 				{
 					"type": "section",
@@ -3910,16 +3916,19 @@
 									"name": "Defenders and Hirelings",
 									"entries": [
 										"To ease the burden on players, we don't present or require statistics for Bastion hirelings and defenders. All a player needs to track is the number of each in their Bastion. Players can assign names and personalities to their Bastions' occupants as they see fit."
-									]
+									],
+									"id": "008"
 								},
 								{
 									"type": "entries",
 									"name": "GP Expenditure",
 									"entries": [
 										"Bastions give characters new ways to spend their gold, but we want the gold they spend to make them happy (as opposed to feeling like mortgage payments)."
-									]
+									],
+									"id": "009"
 								}
-							]
+							],
+							"id": "007"
 						},
 						{
 							"type": "section",
@@ -3934,7 +3943,8 @@
 									"page": 2,
 									"collapsed": true
 								}
-							]
+							],
+							"id": "00a"
 						},
 						{
 							"type": "section",
@@ -3949,7 +3959,8 @@
 									"page": 2,
 									"collapsed": true
 								}
-							]
+							],
+							"id": "00b"
 						},
 						{
 							"type": "section",
@@ -3964,7 +3975,8 @@
 									"page": 3,
 									"collapsed": true
 								}
-							]
+							],
+							"id": "00c"
 						},
 						{
 							"type": "section",
@@ -3993,9 +4005,11 @@
 											"name": "Special Facilities",
 											"page": 6
 										}
-									]
+									],
+									"id": "00e"
 								}
-							]
+							],
+							"id": "00d"
 						},
 						{
 							"type": "section",
@@ -4010,7 +4024,8 @@
 									"page": 19,
 									"collapsed": true
 								}
-							]
+							],
+							"id": "00f"
 						},
 						{
 							"type": "section",
@@ -4025,9 +4040,11 @@
 									"page": 20,
 									"collapsed": true
 								}
-							]
+							],
+							"id": "010"
 						}
-					]
+					],
+					"id": "006"
 				},
 				{
 					"type": "section",
@@ -4041,7 +4058,8 @@
 							"page": 21,
 							"entries": [
 								"A spell's description contains one or more tags indicating the class spell lists that contain the spell. For example, if a spell has the \"Wizard\" tag, the spell is on the Wizard spell list."
-							]
+							],
+							"id": "012"
 						},
 						{
 							"type": "entries",
@@ -4141,7 +4159,8 @@
 												}
 											]
 										}
-									]
+									],
+									"id": "014"
 								},
 								{
 									"type": "statblock",
@@ -4223,9 +4242,11 @@
 									"page": 23,
 									"collapsed": true
 								}
-							]
+							],
+							"id": "013"
 						}
-					]
+					],
+					"id": "011"
 				}
 			]
 		}
