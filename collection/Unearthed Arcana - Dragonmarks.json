@@ -1670,7 +1670,8 @@
 							"entries": [
 								"The material here is presented for playtesting and to spark your imagination. These game mechanics are in draft form, usable in your campaign but not refined by final game design and editing. They aren't officially part of the game and aren't permitted in D&D Adventurers League events.",
 								"If we decide to make this material official, it will be refined based on your feedback, and then it will appear in a D&D book."
-							]
+							],
+							"id": "001"
 						},
 						"A dragonmark is a mystic sigil that appears on the skin. The mark is a source of mystical power and enhances the bearer's ability to perform certain tasks. In Eberron, each mark is tied to specific bloodlines. The families that carry these marks joined together to form the Dragonmarked Houses, powerful forces that dominate different industries. Not every member of a given family possesses a dragonmark; conversely, merely possessing a dragonmark does not grant special status within the house. In creating a dragonmarked character, your background can help to establish your relationship to the house. A dragonmarked {@background noble} may be part of the ruling family. A {@background guild artisan} or {@background entertainer} can work in one of the house guilds. A {@background criminal} may have been exiled from their house, while an {@background urchin} could be an orphan who never knew they had a tie to one of the dragonmarked families.",
 						{
@@ -1697,9 +1698,11 @@
 										"Each dragonmark has a trait that allows you to roll an {@b Intuition die}, a {@dice d4}, when you perform an ability check with a particular skill or tool. You add the number rolled to the ability check. You don't have to be proficient with the skill or tool to gain this benefit.",
 										"Feats, magic items, and other features may improve your Intuition die. This increases the type of die you roll by one size ({@dice d6}, {@dice d8}, {@dice d10}) to a maximum of a {@dice d10}. You can only roll one Intuition die for a check; if you receive Intuition dice from multiple sources, increase one die by one type and roll that one.",
 										"For example, if a dragonmarked trait and feat both grant intuition with Dexterity ({@skill Stealth}) checks, you roll a {@dice d6}, instead of a {@dice d4}. Three instances would increase your Intuition Die to a {@dice d8}, and so on."
-									]
+									],
+									"id": "003"
 								}
-							]
+							],
+							"id": "002"
 						},
 						{
 							"type": "section",
@@ -1715,7 +1718,8 @@
 									"name": "Dragonmark Quirks",
 									"page": 2
 								}
-							]
+							],
+							"id": "004"
 						},
 						{
 							"type": "section",
@@ -1731,7 +1735,8 @@
 									"name": "Half-Elf (Variant; Mark of Detection)",
 									"page": 2
 								}
-							]
+							],
+							"id": "005"
 						},
 						{
 							"type": "section",
@@ -1747,7 +1752,8 @@
 									"name": "Half-Orc (Variant; Mark of Finding)",
 									"page": 2
 								}
-							]
+							],
+							"id": "006"
 						},
 						{
 							"type": "section",
@@ -1763,7 +1769,8 @@
 									"name": "Human (Mark of Handling)",
 									"page": 3
 								}
-							]
+							],
+							"id": "007"
 						},
 						{
 							"type": "section",
@@ -1779,7 +1786,8 @@
 									"name": "Halfling (Mark of Healing)",
 									"page": 3
 								}
-							]
+							],
+							"id": "008"
 						},
 						{
 							"type": "section",
@@ -1795,7 +1803,8 @@
 									"name": "Halfling (Mark of Hospitality)",
 									"page": 4
 								}
-							]
+							],
+							"id": "009"
 						},
 						{
 							"type": "section",
@@ -1811,7 +1820,8 @@
 									"name": "Human (Mark of Making)",
 									"page": 4
 								}
-							]
+							],
+							"id": "00a"
 						},
 						{
 							"type": "section",
@@ -1827,7 +1837,8 @@
 									"name": "Human (Mark of Passage)",
 									"page": 4
 								}
-							]
+							],
+							"id": "00b"
 						},
 						{
 							"type": "section",
@@ -1843,7 +1854,8 @@
 									"name": "Gnome (Mark of Scribing)",
 									"page": 5
 								}
-							]
+							],
+							"id": "00c"
 						},
 						{
 							"type": "section",
@@ -1859,7 +1871,8 @@
 									"name": "Human (Mark of Sentinel)",
 									"page": 5
 								}
-							]
+							],
+							"id": "00d"
 						},
 						{
 							"type": "section",
@@ -1875,7 +1888,8 @@
 									"name": "Elf (Mark of Shadow)",
 									"page": 6
 								}
-							]
+							],
+							"id": "00e"
 						},
 						{
 							"type": "section",
@@ -1898,7 +1912,8 @@
 									"name": "Gust",
 									"page": 6
 								}
-							]
+							],
+							"id": "00f"
 						},
 						{
 							"type": "section",
@@ -1914,7 +1929,8 @@
 									"name": "Dwarf (Mark of Warding)",
 									"page": 7
 								}
-							]
+							],
+							"id": "010"
 						},
 						{
 							"type": "section",
@@ -1937,7 +1953,8 @@
 									"name": "Control Winds",
 									"page": 8
 								}
-							]
+							],
+							"id": "011"
 						},
 						{
 							"type": "section",
@@ -1961,9 +1978,11 @@
 									"name": "Aberrant Dragonmark",
 									"page": 9
 								}
-							]
+							],
+							"id": "012"
 						}
-					]
+					],
+					"id": "000"
 				}
 			]
 		}

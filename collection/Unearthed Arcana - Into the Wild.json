@@ -89,7 +89,8 @@
 											"page": 2,
 											"entries": [
 												"These rules introduce a new concept called the navigation DC. Some destinations can be found automatically, but others have a DC that measures the difficulty of finding a path to reach them. The Navigation DC table provides some examples."
-											]
+											],
+											"id": "003"
 										},
 										"Some locations might be difficult or even impossible to find without the characters first meeting a specific prerequisite. Reaching an {@condition invisible} tower floating in the air might require a special magic item that leads the characters to it. Or if a mundane location is hidden within a thick mist that fills a valley, characters who find a way to disperse the mist can lower the navigation DC for that location significantly.",
 										{
@@ -130,7 +131,8 @@
 												]
 											]
 										}
-									]
+									],
+									"id": "002"
 								},
 								{
 									"type": "entries",
@@ -138,7 +140,8 @@
 									"page": 2,
 									"entries": [
 										"Each player undertakes an activity while traveling, choosing from among the options offered in chapter 8 of the Player's Handbook\u2014but with one modification. In any case where the destination has a navigation DC, at least one character must choose to navigate in order to give the party a chance to reach its destination."
-									]
+									],
+									"id": "004"
 								},
 								{
 									"type": "entries",
@@ -152,7 +155,8 @@
 											"page": 2,
 											"entries": [
 												"If the party's destination has a navigation DC, one character must make a Wisdom ({@skill Survival}) check against that DC, applying normal modifiers for the party's travel pace and other factors. With a successful check, the characters make progress toward their destination, perhaps even reaching it if they move quickly enough. If the check fails, or if no character makes a check when the destination has a navigation DC, the party becomes lost."
-											]
+											],
+											"id": "006"
 										},
 										{
 											"type": "entries",
@@ -182,7 +186,8 @@
 														]
 													]
 												}
-											]
+											],
+											"id": "007"
 										},
 										{
 											"type": "entries",
@@ -190,7 +195,8 @@
 											"page": 2,
 											"entries": [
 												"While traveling using these rules, use the normal guidelines for random encounters found in the Dungeon Master's Guide. As an optional rule for when the characters are lost, roll twice for each random encounter check to reflect that the characters might blunder into a monster lair or other unusual threat."
-											]
+											],
+											"id": "008"
 										},
 										{
 											"type": "entries",
@@ -198,11 +204,14 @@
 											"page": 2,
 											"entries": [
 												"After determining if a group becomes lost or has a random encounter, check your map to determine the characters' route during the day. From their starting location, track how far they travel toward their destination. Narrate any changes in terrain or any special locations the characters find along the way, resolving encounters as needed."
-											]
+											],
+											"id": "009"
 										}
-									]
+									],
+									"id": "005"
 								}
-							]
+							],
+							"id": "001"
 						},
 						{
 							"type": "section",
@@ -225,7 +234,8 @@
 											"page": 3,
 											"entries": [
 												"Consider each of the potential adventure locations on your map, and assign navigation DCs to them as appropriate. Take into account the creatures that dwell nearby, a site's notoriety, the presence of any paths or roads leading there, and so forth."
-											]
+											],
+											"id": "00c"
 										},
 										{
 											"type": "entries",
@@ -233,7 +243,8 @@
 											"page": 3,
 											"entries": [
 												"Review the monsters that lair in your wilderness, and determine if any exert regional effects that you need to account for. Regional effects (described in the Monster Manual) are a great tool for showing the players how the presence of a powerful creature can alter the environment. They also add an element of magic and strangeness to areas that might otherwise seem mundane."
-											]
+											],
+											"id": "00d"
 										},
 										{
 											"type": "entries",
@@ -247,7 +258,8 @@
 													"page": 3,
 													"entries": [
 														"You might require characters to attempt Strength ({@skill Athletics}) checks to navigate {@quickref difficult terrain||3} such as broken ground or mountain peaks, with failure slowing the party and causing injury."
-													]
+													],
+													"id": "00f"
 												},
 												{
 													"type": "entries",
@@ -255,7 +267,8 @@
 													"page": 3,
 													"entries": [
 														"A successful Intelligence ({@skill History}) check might allow a character to locate a forgotten road, identify the origin of ruins, or find a site mentioned in myth or legend."
-													]
+													],
+													"id": "010"
 												},
 												{
 													"type": "entries",
@@ -263,7 +276,8 @@
 													"page": 3,
 													"entries": [
 														"By attempting Intelligence ({@skill Nature}) checks, characters might identify what sorts of creatures dwell in an area based on subtle clues, or spot the effect of magic on a natural ecosystem."
-													]
+													],
+													"id": "011"
 												},
 												{
 													"type": "entries",
@@ -271,7 +285,8 @@
 													"page": 3,
 													"entries": [
 														"It's good to call for Dexterity ({@skill Stealth}) checks in areas that are heavily patrolled or under the watch of a specific creature. Failing the check or moving too quickly to be stealthy brings the characters under scrutiny."
-													]
+													],
+													"id": "012"
 												},
 												{
 													"type": "entries",
@@ -279,11 +294,14 @@
 													"page": 3,
 													"entries": [
 														"In an area infested with deadly plants or other natural hazards, successful Wisdom ({@skill Survival}) checks can allow the characters to avoid gathering and eating poisonous plants, to spot quicksand and other hazards, and to avoid paths or areas where dangerous creatures prowl."
-													]
+													],
+													"id": "013"
 												}
-											]
+											],
+											"id": "00e"
 										}
-									]
+									],
+									"id": "00b"
 								},
 								{
 									"type": "entries",
@@ -293,9 +311,11 @@
 										"As a final useful tool, consider creating a quick table to help you generate terrain for random encounters, or for other events that require a more detailed view as the characters explore. A random table filled with iconic terrain for an area can help inspire you in the moment, and ensures that the interesting key elements of a region remain part of the action.",
 										"Start off with at least one or two noteworthy features that are always present. Then think of a few simple but distinctive features that you'd expect to find in specific areas. If flat grasslands are a dominant feature, you might also have low hills, ruins, watering holes, thorny bushes, and other less common features to break things up.",
 										"Once you are done, create a list of all your terrain features and assign each one a percentage chance to be present in an area (including 100 percent for dominant features). Then when you need to create an encounter area quickly, you can roll for each feature to see if it is present\u2014thinking of these key features as tactical features that can have an impact on the encounter."
-									]
+									],
+									"id": "014"
 								}
-							]
+							],
+							"id": "00a"
 						},
 						{
 							"type": "section",
@@ -321,7 +341,8 @@
 												"The variety of terrain and features makes travel in the Moon Hills challenging. Any experienced traveler can attempt to navigate this place, but the lack of clear sight lines and the difficulty of long-distance navigation can make things daunting for the inexperienced."
 											]
 										}
-									]
+									],
+									"id": "016"
 								},
 								{
 									"type": "entries",
@@ -329,7 +350,8 @@
 									"page": 4,
 									"entries": [
 										"An attack on any of the farms or manors in the Moon Hills draws the notice of travelers or locals within a day or two. While the area has its secrets, the countryside is civilized overall."
-									]
+									],
+									"id": "017"
 								},
 								{
 									"type": "entries",
@@ -347,7 +369,8 @@
 												"An earth cult might establish a hidden base in the area."
 											]
 										}
-									]
+									],
+									"id": "018"
 								},
 								{
 									"type": "entries",
@@ -365,23 +388,27 @@
 													"name": "Navigation",
 													"entries": [
 														"The steep hills and the winding paths between them can be confusing, but the sparse vegetation of the hills allows clear views of the sky. If the characters are off the roads or paths that wind through this area, they must always navigate to avoid becoming lost\u2014even if their destination does not normally require a check. In that case, the check DC is 10."
-													]
+													],
+													"id": "01b"
 												},
 												{
 													"type": "entries",
 													"name": "Foraging",
 													"entries": [
 														"{@dc 10}; water and light game are plentiful."
-													]
+													],
+													"id": "01c"
 												},
 												{
 													"type": "entries",
 													"name": "Special Rules",
 													"entries": [
 														"If the characters take a long rest here, roll on the planar confluence table."
-													]
+													],
+													"id": "01d"
 												}
-											]
+											],
+											"id": "01a"
 										},
 										{
 											"type": "entries",
@@ -435,7 +462,8 @@
 														]
 													]
 												}
-											]
+											],
+											"id": "01e"
 										},
 										{
 											"type": "entries",
@@ -473,7 +501,8 @@
 														]
 													]
 												}
-											]
+											],
+											"id": "01f"
 										},
 										{
 											"type": "entries",
@@ -519,13 +548,17 @@
 														]
 													]
 												}
-											]
+											],
+											"id": "020"
 										}
-									]
+									],
+									"id": "019"
 								}
-							]
+							],
+							"id": "015"
 						}
-					]
+					],
+					"id": "000"
 				}
 			]
 		}

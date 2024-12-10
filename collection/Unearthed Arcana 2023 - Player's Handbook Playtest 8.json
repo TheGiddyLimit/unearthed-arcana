@@ -6542,7 +6542,8 @@
 							"name": "Learn More on YouTube",
 							"entries": [
 								"To learn more about the design in this article, we invite you to view the videos about it on YouTube ({@link www.youtube.com/DNDWizards})."
-							]
+							],
+							"id": "001"
 						},
 						{
 							"type": "section",
@@ -6607,7 +6608,8 @@
 												"We invite you to try out this material in play. When you do so, you're welcome to combine this article with the other articles in this series, starting with \"{@loader Character Origins.|collection/Unearthed Arcana 2022 - Character Origins.json|prerelease}\"",
 												"If you do combine this article with any previous one, use only the rules glossary found here. In this {@i Unearthed Arcana} series, the rules glossary of each article supersedes the glossary of any previous article.",
 												"To play with this material, you may either incorporate it into your campaign or run one or more special playtest sessions. For such a session, you may create an adventure of your own or use a short adventure from a source like {@adventure Keys from the Golden Vault|KftGV}, {@adventure Journeys through the Radiant Citadel|JttRC}, or {@adventure Candlekeep Mysteries|CM}."
-											]
+											],
+											"id": "004"
 										},
 										{
 											"type": "entries",
@@ -6615,7 +6617,8 @@
 											"page": 1,
 											"entries": [
 												"The character options you read here might be more or less powerful than options in the 2014 {@book Player's Handbook|PHB}. If a design survives playtesting, we adjust its power to the desirable level before publication. This means an option could be more or less powerful in its final form."
-											]
+											],
+											"id": "005"
 										},
 										{
 											"type": "entries",
@@ -6624,13 +6627,17 @@
 											"entries": [
 												"The best way for you to give us feedback on this material is in the survey we'll release on D&D Beyond. If we make this material official, it will be refined based on your feedback, and then it will appear in a D&D book.",
 												"Providing feedback on this document is one way you can help shape the next generation of D&D!"
-											]
+											],
+											"id": "006"
 										}
-									]
+									],
+									"id": "003"
 								}
-							]
+							],
+							"id": "002"
 						}
-					]
+					],
+					"id": "000"
 				},
 				{
 					"type": "section",
@@ -6687,7 +6694,8 @@
 												}
 											]
 										}
-									]
+									],
+									"id": "009"
 								},
 								{
 									"type": "statblock",
@@ -6752,7 +6760,8 @@
 																}
 															]
 														}
-													]
+													],
+													"id": "00c"
 												},
 												{
 													"type": "statblock",
@@ -6764,11 +6773,14 @@
 													"page": 5,
 													"collapsed": true
 												}
-											]
+											],
+											"id": "00b"
 										}
-									]
+									],
+									"id": "00a"
 								}
-							]
+							],
+							"id": "008"
 						},
 						{
 							"type": "section",
@@ -6795,7 +6807,8 @@
 												}
 											]
 										}
-									]
+									],
+									"id": "00e"
 								},
 								{
 									"type": "statblock",
@@ -6861,7 +6874,8 @@
 																}
 															]
 														}
-													]
+													],
+													"id": "011"
 												},
 												{
 													"type": "statblock",
@@ -6873,11 +6887,14 @@
 													"page": 11,
 													"collapsed": true
 												}
-											]
+											],
+											"id": "010"
 										}
-									]
+									],
+									"id": "00f"
 								}
-							]
+							],
+							"id": "00d"
 						},
 						{
 							"type": "section",
@@ -7008,7 +7025,8 @@
 												}
 											]
 										}
-									]
+									],
+									"id": "013"
 								},
 								{
 									"type": "statblock",
@@ -7073,7 +7091,8 @@
 																}
 															]
 														}
-													]
+													],
+													"id": "016"
 												},
 												{
 													"type": "statblock",
@@ -7085,13 +7104,17 @@
 													"page": 17,
 													"collapsed": true
 												}
-											]
+											],
+											"id": "015"
 										}
-									]
+									],
+									"id": "014"
 								}
-							]
+							],
+							"id": "012"
 						}
-					]
+					],
+					"id": "007"
 				},
 				{
 					"type": "section",
@@ -7105,7 +7128,8 @@
 							"page": 18,
 							"entries": [
 								"A spell's description contains one or more tags indicating the class spell lists that contain the spell. For example, if a spell has the \"Wizard\" tag, the spell is on the Wizard spell list."
-							]
+							],
+							"id": "018"
 						},
 						{
 							"type": "entries",
@@ -7189,7 +7213,8 @@
 												}
 											]
 										}
-									]
+									],
+									"id": "01a"
 								},
 								{
 									"type": "statblock",
@@ -7295,9 +7320,11 @@
 									"page": 20,
 									"collapsed": true
 								}
-							]
+							],
+							"id": "019"
 						}
-					]
+					],
+					"id": "017"
 				},
 				{
 					"type": "section",
@@ -7345,7 +7372,8 @@
 										}
 									]
 								}
-							]
+							],
+							"id": "01c"
 						},
 						{
 							"type": "entries",
@@ -7361,9 +7389,11 @@
 									"name": "Ability Score Improvement",
 									"page": 21
 								}
-							]
+							],
+							"id": "01d"
 						}
-					]
+					],
+					"id": "01b"
 				},
 				{
 					"type": "section",
@@ -7404,7 +7434,8 @@
 									"name": "Martial Weapons: Ranged",
 									"page": 22
 								}
-							]
+							],
+							"id": "01f"
 						},
 						{
 							"type": "entries",
@@ -7418,7 +7449,8 @@
 									"page": 22,
 									"entries": [
 										"A Heavy weapon is unwieldy compared to other weapons. You have Disadvantage on your attack rolls with a Heavy weapon if it's a melee weapon and your Strength score isn't at least 13 and if it's a ranged weapon and your Dexterity score isn't at least 13."
-									]
+									],
+									"id": "021"
 								},
 								{
 									"type": "entries",
@@ -7427,7 +7459,8 @@
 									"entries": [
 										"When you take the {@action Attack|XUA2023PlayersHandbookP8} action on your turn and attack with a Light weapon, you can make one extra attack as a Bonus Action later on the same turn. That extra attack must be made with a different Light weapon, and you don't add your ability modifier to the extra attack's damage, unless that modifier is negative.",
 										"For example, if you take the {@action Attack|XUA2023PlayersHandbookP8} action on your turn and have a Shortsword in one hand and a Dagger in the other\u2014each of which has the Light property\u2014you can make one attack with each weapon, using your action and a Bonus Action, but you don't add your Strength or Dexterity modifier to the damage roll of the Bonus Action, unless that modifier is negative."
-									]
+									],
+									"id": "022"
 								},
 								{
 									"type": "entries",
@@ -7436,9 +7469,11 @@
 									"entries": [
 										"If a weapon has the Thrown property, you can throw the weapon to make a ranged attack, and you can draw that weapon as part of the attack.",
 										"If the weapon is a melee weapon, you use the same ability modifier for that attack roll and damage roll that you would use for a melee attack with the weapon. For example, if you throw a Handaxe, you use your Strength, but if you throw a Dagger, you can use either your Strength or your Dexterity, since the Dagger has the Finesse property."
-									]
+									],
+									"id": "023"
 								}
-							]
+							],
+							"id": "020"
 						},
 						{
 							"type": "entries",
@@ -7504,9 +7539,11 @@
 									"name": "Vex",
 									"page": 23
 								}
-							]
+							],
+							"id": "024"
 						}
-					]
+					],
+					"id": "01e"
 				},
 				{
 					"type": "section",
@@ -7528,7 +7565,8 @@
 							"name": "Priest's Pack",
 							"page": 24
 						}
-					]
+					],
+					"id": "025"
 				},
 				{
 					"type": "section",
@@ -7801,7 +7839,8 @@
 							"page": 30,
 							"collapsed": true
 						}
-					]
+					],
+					"id": "026"
 				}
 			]
 		}

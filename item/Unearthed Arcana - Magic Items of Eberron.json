@@ -1508,7 +1508,8 @@
 							"entries": [
 								"The material here is presented for playtesting and to spark your imagination. These game mechanics are in draft form, usable in your campaign but not refined by final game design and editing. They aren't officially part of the game and aren't permitted in D&D Adventurers League events.",
 								"If we decide to make this material official, it will be refined based on your feedback, and then it will appear in a D&D book."
-							]
+							],
+							"id": "001"
 						},
 						"Arcane magic plays a vital role in the world of Eberron. Common magic items are part of everyday life. In the nation of Aundair, wandslingers are beginning to outnumber those who use swords and bows.",
 						{
@@ -1542,7 +1543,8 @@
 									"style": "inset",
 									"displayName": "Optional Rule: Two-Handed Arcane Focuses"
 								}
-							]
+							],
+							"id": "002"
 						},
 						{
 							"type": "section",
@@ -1599,7 +1601,8 @@
 									"name": "Spellshard",
 									"page": 3
 								}
-							]
+							],
+							"id": "003"
 						},
 						{
 							"type": "section",
@@ -1621,7 +1624,8 @@
 									"page": 3,
 									"entries": [
 										"An {@item armblade|UAMagicItemsofEberron} isn't inherently considered to be a magic weapon for purposes of overcoming damage resistance. However, any sort of magical melee weapon could be created as an armblade, so you could acquire a {@item vicious armblade|UAMagicItemsofEberron} or a {@item vorpal armblade|UAMagicItemsofEberron}."
-									]
+									],
+									"id": "005"
 								},
 								{
 									"type": "statblock",
@@ -1637,9 +1641,11 @@
 									"name": "Wand Sheath",
 									"page": 4
 								}
-							]
+							],
+							"id": "004"
 						}
-					]
+					],
+					"id": "000"
 				}
 			]
 		}

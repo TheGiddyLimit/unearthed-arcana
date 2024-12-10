@@ -66,7 +66,8 @@
 							"page": 1,
 							"entries": [
 								"To build an encounter using this system, first take stock of the player characters. This system uses the characters' levels to determine the number and challenge rating of creatures you can pit them against without making a fight too hard or too easy. But though character level is important, you should also take note of each characters' hit point maximum and saving throw modifiers, as well as how much damage the strongest combatants or spellcasters can inflict with a single attack. Even though character level and challenge rating are useful tools for defining the difficulty of an encounter, they don't tell the whole story, and you'll make use of these additional character statistics when you select monsters for an encounter in step 4."
-							]
+							],
+							"id": "001"
 						},
 						{
 							"type": "entries",
@@ -74,7 +75,8 @@
 							"page": 1,
 							"entries": [
 								"Determine if you want to create a battle that pits one legendary creature against the characters, or if you want to use multiple monsters. If you want to use a single monster, you're typically best off using a legendary monster, all of which are specifically designed to make life interesting for a group."
-							]
+							],
+							"id": "002"
 						},
 						{
 							"type": "entries",
@@ -738,11 +740,14 @@
 											"page": 3,
 											"entries": [
 												"To save space on the tables and keep them simple, some of the lower challenge ratings are missing from the higher-level tables. For low challenge ratings not appearing on the table, assume a 1:12 ratio, indicating that twelve creatures of those challenge ratings are worth one character of a specific level."
-											]
+											],
+											"id": "005"
 										}
-									]
+									],
+									"id": "004"
 								}
-							]
+							],
+							"id": "003"
 						},
 						{
 							"type": "entries",
@@ -752,7 +757,8 @@
 								"Having used the tables above to determine the challenge ratings of the monsters in your encounter, you're ready to pick individual monsters. However, this process is more of an art than a science.",
 								"In addition to assessing monsters by challenge rating, it's important to look at how specific monsters might stack up against your group. Hit points, attacks, and saving throws are all useful indicators. Compare the damage a monster can deal to the hit point maximum of each character. Be wary of any monster capable of dropping a character with a single att ack, unless you intend the fight to be deadly. In the same way, consider the monsters' hit points as compared to the damage output of the party's strongest combatants and spellcasters. Having a significant number of foes drop in the first rounds of combat can make an encounter too easy. Likewise, look at whether a monster's best attacks are made against saving throws that most of the party members are weak with, and compare the characters' attacks to the monsters' saving throws in the same way.",
 								"If the only creatures you can choose from at the desired challenge rating aren't a good match for the characters' statistics, don't be afraid to go back to step 3. By altering your challenge rating targets and adjusting the number of creatures in the encounter, you can come up with different options for building the encounter."
-							]
+							],
+							"id": "006"
 						},
 						{
 							"type": "entries",
@@ -812,7 +818,8 @@
 												]
 											]
 										}
-									]
+									],
+									"id": "008"
 								},
 								{
 									"type": "entries",
@@ -858,7 +865,8 @@
 												]
 											]
 										}
-									]
+									],
+									"id": "009"
 								},
 								{
 									"type": "entries",
@@ -867,7 +875,8 @@
 									"entries": [
 										"A few elements that make the battlefield interesting can go a long way toward making an encounter more memorable. As a good rule of thumb, try to set up the area of the battle so that it would be challenging even without a fight taking place there. What things might draw the characters' attention? Why are monsters lurking here? Interesting area features can help prompt improvisation and keep things fresh.",
 										"To add details to an encounter area at random, look to the tables in appendix A, \"Random Dungeons,\" of the Dungeon Master's Guide to determine room and area features, potential hazards, obstacles, traps, and more."
-									]
+									],
+									"id": "00a"
 								},
 								{
 									"type": "entries",
@@ -876,11 +885,14 @@
 									"entries": [
 										"Consider what might happen in an encounter area if the characters were to never enter it. Do the guards rotate in shifts? What other characters or monsters might visit? Do creatures gather there to eat or gossip? Are there any natural phenomena such as strong winds, earth tremors, or rain squalls that sometimes take place in the area? Random events are fun because they add an element of the unexpected to an encounter. Just when you think a fight's outcome is clear, an unexpected event can make things more interesting.",
 										"A number of the tables in the Dungeon Master's Guide can suggest random events to be added to a location, depending on the nature of the encounter setup. The tables used for encounter location, weird locales, and wilderness weather in chapter 5, \"Adventure Environments,\" of the Dungeon Master's Guide are a good starting point for outdoor encounters. The tables in appendix A, \"Random Dungeons,\" can be useful for indoor and outdoor encounters\u2014especially the tables for obstacles, traps, and tricks."
-									]
+									],
+									"id": "00b"
 								}
-							]
+							],
+							"id": "007"
 						}
-					]
+					],
+					"id": "000"
 				}
 			]
 		}
