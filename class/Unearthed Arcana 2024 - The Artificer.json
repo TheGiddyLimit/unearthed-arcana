@@ -1,0 +1,1472 @@
+{
+	"$schema": "https://raw.githubusercontent.com/TheGiddyLimit/5etools-utils/master/schema/ua-fast/homebrew.json",
+	"_meta": {
+		"sources": [
+			{
+				"json": "XUA2024Artificer",
+				"abbreviation": "XUA24A",
+				"full": "Unearthed Arcana 2024: The Artificer",
+				"authors": [
+					"Wizards of the Coast"
+				],
+				"convertedBy": [
+					"Lyra [he/him]"
+				],
+				"version": "1.0.0",
+				"url": "https://media.dndbeyond.com/compendium-images/ua/the-artificer/AzQEA72K8EMf9HmU/UA2024-Artificer.pdf",
+				"dateReleased": "2024-12-17"
+			}
+		],
+		"edition": "one",
+		"status": "ready",
+		"dateAdded": 1734452950,
+		"dateLastModified": 1734452950
+	},
+	"classFluff": [
+		{
+			"name": "Artificer",
+			"source": "XUA2024Artificer",
+			"entries": [
+				"{@i A Magical Crafter and an Inventor of Wonders}",
+				"Masters of invention, Artificers use ingenuity and magic to unlock extraordinary capabilities in objects. They see magic as a complex system waiting to be decoded and then harnessed in their spells and inventions. You can find everything you need to play one of these inventors in the next few sections."
+			]
+		}
+	],
+	"subclassFluff": [
+		{
+			"name": "Alchemist",
+			"shortName": "Alchemist",
+			"source": "XUA2024Artificer",
+			"className": "Artificer",
+			"classSource": "PHB",
+			"entries": [
+				"{@i Craft Magic Elixirs and Potions}",
+				{
+					"type": "inset",
+					"name": "Design Note: Alchemist Updates",
+					"page": 7,
+					"entries": [
+						"Here are the main updates in this subclass since its appearance in {@book Tasha's Cauldron of Everything|TCE}:",
+						{
+							"type": "list",
+							"page": 7,
+							"items": [
+								{
+									"type": "item",
+									"name": "Alchemist Spells",
+									"nameDot": false,
+									"entries": [
+										"has replaced {@spell Blight|PHB} with {@spell Vitriolic Sphere|XPHB}. "
+									]
+								},
+								{
+									"type": "item",
+									"name": "Tool Proficiency",
+									"nameDot": false,
+									"entries": [
+										"now allows the Artificer to craft potions faster. "
+									]
+								},
+								{
+									"type": "item",
+									"name": "Experimental Elixir",
+									"nameDot": false,
+									"entries": [
+										"now produces more elixirs, the healing of the Healing elixir has increased, and the sixth row of the table now lets you choose an elixir's effect. "
+									]
+								},
+								{
+									"type": "item",
+									"name": "Restorative Reagents",
+									"nameDot": false,
+									"entries": [
+										"has been changed to connect the Temporary Hit Points to your level. "
+									]
+								},
+								{
+									"type": "item",
+									"name": "Chemical Mastery",
+									"nameDot": false,
+									"entries": [
+										"has been redesigned. It now includes extra damage, Resistance, and the ability to cast {@spell Tasha's Bubbling Cauldron|XPHB}. "
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Armorer",
+			"shortName": "Armorer",
+			"source": "XUA2024Artificer",
+			"className": "Artificer",
+			"classSource": "PHB",
+			"entries": [
+				"{@i Craft Magic Armor to Enhance Your Abilities}",
+				{
+					"type": "inset",
+					"name": "Design Note: Armorer",
+					"page": 8,
+					"entries": [
+						"Here are the main updates in this subclass since its appearance in {@book Tasha's Cauldron of Everything|TCE}:",
+						{
+							"type": "list",
+							"page": 8,
+							"items": [
+								{
+									"type": "item",
+									"name": "Tools of the Trade",
+									"nameDot": false,
+									"entries": [
+										"now allows the Artificer to craft armor faster."
+									]
+								},
+								{
+									"type": "item",
+									"name": "Armor Model",
+									"nameDot": false,
+									"entries": [
+										"includes a new armor option: Dreadnaught. In the Guardian option, Defensive Field now relies on you being {@variantrule Bloodied|XPHB} rather than having limited uses."
+									]
+								},
+								{
+									"type": "item",
+									"name": "Armor Modifications",
+									"nameDot": false,
+									"entries": [
+										"has been replaced by a new feature, {@subclassFeature Armor Replication|Artificer|XUA2024Artificer|Armorer|XUA2024Artificer|9|XUA2024Artificer}."
+									]
+								},
+								{
+									"type": "item",
+									"name": "Perfected Armor",
+									"nameDot": false,
+									"entries": [
+										"now increases the damage of your Thunder Gauntlets and Lightning Launchers."
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Artillerist",
+			"shortName": "Artillerist",
+			"source": "XUA2024Artificer",
+			"className": "Artificer",
+			"classSource": "PHB",
+			"entries": [
+				"{@i Wield Destructive Power from Afar}",
+				{
+					"type": "inset",
+					"name": "Design Note: Artillerist Updates",
+					"page": 10,
+					"entries": [
+						"Here are the main updates in this subclass since its appearance in {@book Tasha's Cauldron of Everything|TCE}:",
+						{
+							"type": "list",
+							"page": 10,
+							"items": [
+								{
+									"type": "item",
+									"name": "Tool Proficiency",
+									"nameDot": false,
+									"entries": [
+										"now allows the Artificer to craft magic {@item Wand|XPHB|Wands} faster. "
+									]
+								},
+								{
+									"type": "item",
+									"name": "Eldritch Cannon",
+									"nameDot": false,
+									"entries": [
+										"now allows each cannon to use the Flamethrower, Force Ballista, and Protector options. "
+									]
+								},
+								{
+									"type": "item",
+									"name": "Explosive Cannon",
+									"nameDot": false,
+									"entries": [
+										"now detonates as a {@variantrule Reaction|XPHB}, instead of an action, and its damage has been increased."
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Battle Smith",
+			"shortName": "Battle Smith",
+			"source": "XUA2024Artificer",
+			"className": "Artificer",
+			"classSource": "PHB",
+			"entries": [
+				"{@i Command a Construct Guardian}",
+				{
+					"type": "inset",
+					"name": "Design Note: Battle Smith Updates",
+					"page": 11,
+					"entries": [
+						"Here are the main updates in this subclass since its appearance in {@book Tasha's Cauldron of Everything|TCE}:",
+						{
+							"type": "list",
+							"page": 11,
+							"items": [
+								{
+									"type": "item",
+									"name": "Tool Proficiency",
+									"nameDot": false,
+									"entries": [
+										"now allows the Artificer to craft weapons faster. "
+									]
+								},
+								{
+									"type": "item",
+									"name": "Steel Defender",
+									"nameDot": false,
+									"entries": [
+										"has its HP and Force-Empowered Rend adjusted."
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	],
+	"table": [
+		{
+			"name": "Artificer Spell List",
+			"source": "XUA2024Artificer",
+			"page": 5,
+			"type": "tableGroup",
+			"tables": [
+				{
+					"name": "Cantrips (Level 0 Artificer Spells)",
+					"source": "XUA2024Artificer",
+					"page": 5,
+					"type": "table",
+					"caption": "Cantrips (Level 0 Artificer Spells)",
+					"colLabels": [
+						"Spell",
+						"School",
+						"Special"
+					],
+					"colStyles": [
+						"col-6",
+						"col-4",
+						"col-2 text-center"
+					],
+					"rows": [
+						[
+							"{@spell Acid Splash|XPHB}",
+							"Evocation",
+							"\u2014"
+						],
+						[
+							"{@spell Dancing Lights|XPHB}",
+							"Illusion",
+							"C"
+						],
+						[
+							"{@spell Elementalism|XPHB}",
+							"Transmutation",
+							"\u2014"
+						],
+						[
+							"{@spell Fire Bolt|XPHB}",
+							"Evocation",
+							"\u2014"
+						],
+						[
+							"{@spell Guidance|XPHB}",
+							"Divination",
+							"C"
+						],
+						[
+							"{@spell Light|XPHB}",
+							"Evocation",
+							"\u2014"
+						],
+						[
+							"{@spell Mage Hand|XPHB}",
+							"Conjuration",
+							"\u2014"
+						],
+						[
+							"{@spell Mending|XPHB}",
+							"Transmutation",
+							"\u2014"
+						],
+						[
+							"{@spell Message|XPHB}",
+							"Transmutation",
+							"\u2014"
+						],
+						[
+							"{@spell Poison Spray|XPHB}",
+							"Necromancy",
+							"\u2014"
+						],
+						[
+							"{@spell Prestidigitation|XPHB}",
+							"Transmutation",
+							"\u2014"
+						],
+						[
+							"{@spell Ray of Frost|XPHB}",
+							"Evocation",
+							"\u2014"
+						],
+						[
+							"{@spell Resistance|XPHB}",
+							"Abjuration",
+							"C"
+						],
+						[
+							"{@spell Shocking Grasp|XPHB}",
+							"Evocation",
+							"\u2014"
+						],
+						[
+							"{@spell Spare the Dying|XPHB}",
+							"Necromancy",
+							"\u2014"
+						],
+						[
+							"{@spell Thorn Whip|XPHB}",
+							"Transmutation",
+							"\u2014"
+						],
+						[
+							"{@spell Thunderclap|XPHB}",
+							"Evocation",
+							"\u2014"
+						],
+						[
+							"{@spell True Strike|XPHB}",
+							"Divination",
+							"M"
+						]
+					]
+				},
+				{
+					"name": "Level 1 Artificer Spells",
+					"source": "XUA2024Artificer",
+					"page": 6,
+					"type": "table",
+					"caption": "Level 1 Artificer Spells",
+					"colLabels": [
+						"Spell",
+						"School",
+						"Special"
+					],
+					"colStyles": [
+						"col-6",
+						"col-4",
+						"col-2 text-center"
+					],
+					"rows": [
+						[
+							"{@spell Alarm|XPHB}",
+							"Abjuration",
+							"R"
+						],
+						[
+							"{@spell Cure Wounds|XPHB}",
+							"Abjuration",
+							"\u2014"
+						],
+						[
+							"{@spell Detect Magic|XPHB}",
+							"Divination",
+							"C, R"
+						],
+						[
+							"{@spell Disguise Self|XPHB}",
+							"Illusion",
+							"\u2014"
+						],
+						[
+							"{@spell Expeditious Retreat|XPHB}",
+							"Transmutation",
+							"C"
+						],
+						[
+							"{@spell Faerie Fire|XPHB}",
+							"Evocation",
+							"C"
+						],
+						[
+							"{@spell False Life|XPHB}",
+							"Necromancy",
+							"\u2014"
+						],
+						[
+							"{@spell Feather Fall|XPHB}",
+							"Transmutation",
+							"\u2014"
+						],
+						[
+							"{@spell Grease|XPHB}",
+							"Conjuration",
+							"\u2014"
+						],
+						[
+							"{@spell Identify|XPHB}",
+							"Divination",
+							"R, M"
+						],
+						[
+							"{@spell Jump|XPHB}",
+							"Transmutation",
+							"\u2014"
+						],
+						[
+							"{@spell Longstrider|XPHB}",
+							"Transmutation",
+							"\u2014"
+						],
+						[
+							"{@spell Purify Food and Drink|XPHB}",
+							"Transmutation",
+							"R"
+						],
+						[
+							"{@spell Sanctuary|XPHB}",
+							"Abjuration",
+							"\u2014"
+						]
+					]
+				},
+				{
+					"name": "Level 2 Artificer Spells",
+					"source": "XUA2024Artificer",
+					"page": 6,
+					"type": "table",
+					"caption": "Level 2 Artificer Spells",
+					"colLabels": [
+						"Spell",
+						"School",
+						"Special"
+					],
+					"colStyles": [
+						"col-6",
+						"col-4",
+						"col-2 text-center"
+					],
+					"rows": [
+						[
+							"{@spell Aid|XPHB}",
+							"Abjuration",
+							"\u2014"
+						],
+						[
+							"{@spell Alter Self|XPHB}",
+							"Transmutation",
+							"C"
+						],
+						[
+							"{@spell Arcane Lock|XPHB}",
+							"Abjuration",
+							"M"
+						],
+						[
+							"{@spell Arcane Vigor|XPHB}",
+							"Abjuration",
+							"\u2014"
+						],
+						[
+							"{@spell Blur|XPHB}",
+							"Illusion",
+							"C"
+						],
+						[
+							"{@spell Continual Flame|XPHB}",
+							"Evocation",
+							"M"
+						],
+						[
+							"{@spell Darkvision|XPHB}",
+							"Transmutation",
+							"\u2014"
+						],
+						[
+							"{@spell Dragon's Breath|XPHB}",
+							"Transmutation",
+							"C"
+						],
+						[
+							"{@spell Enhance Ability|XPHB}",
+							"Transmutation",
+							"C"
+						],
+						[
+							"{@spell Enlarge/Reduce|XPHB}",
+							"Transmutation",
+							"C"
+						],
+						[
+							"{@spell Heat Metal|XPHB}",
+							"Transmutation",
+							"C"
+						],
+						[
+							"{@spell Homunculus Servant|XUA2024Artificer} (appears in this UA)",
+							"Conjuration",
+							"R, M"
+						],
+						[
+							"{@spell Invisibility|XPHB}",
+							"Illusion",
+							"C"
+						],
+						[
+							"{@spell Lesser Restoration|XPHB}",
+							"Abjuration",
+							"\u2014"
+						],
+						[
+							"{@spell Levitate|XPHB}",
+							"Transmutation",
+							"C"
+						],
+						[
+							"{@spell Magic Mouth|XPHB}",
+							"Illusion",
+							"R, M"
+						],
+						[
+							"{@spell Magic Weapon|XPHB}",
+							"Transmutation",
+							"\u2014"
+						],
+						[
+							"{@spell Protection from Poison|XPHB}",
+							"Abjuration",
+							"\u2014"
+						],
+						[
+							"{@spell Rope Trick|XPHB}",
+							"Transmutation",
+							"\u2014"
+						],
+						[
+							"{@spell See Invisibility|XPHB}",
+							"Divination",
+							"\u2014"
+						],
+						[
+							"{@spell Spider Climb|XPHB}",
+							"Transmutation",
+							"C"
+						],
+						[
+							"{@spell Web|XPHB}",
+							"Conjuration",
+							"C"
+						]
+					]
+				},
+				{
+					"name": "Level 3 Artificer Spells",
+					"source": "XUA2024Artificer",
+					"page": 6,
+					"type": "table",
+					"caption": "Level 3 Artificer Spells",
+					"colLabels": [
+						"Spell",
+						"School",
+						"Special"
+					],
+					"colStyles": [
+						"col-6",
+						"col-4",
+						"col-2 text-center"
+					],
+					"rows": [
+						[
+							"{@spell Blink|XPHB}",
+							"Transmutation",
+							"\u2014"
+						],
+						[
+							"{@spell Create Food and Water|XPHB}",
+							"Conjuration",
+							"\u2014"
+						],
+						[
+							"{@spell Dispel Magic|XPHB}",
+							"Abjuration",
+							"\u2014"
+						],
+						[
+							"{@spell Elemental Weapon|XPHB}",
+							"Transmutation",
+							"C"
+						],
+						[
+							"{@spell Fly|XPHB}",
+							"Transmutation",
+							"C"
+						],
+						[
+							"{@spell Glyph of Warding|XPHB}",
+							"Abjuration",
+							"M"
+						],
+						[
+							"{@spell Haste|XPHB}",
+							"Transmutation",
+							"C"
+						],
+						[
+							"{@spell Protection from Energy|XPHB}",
+							"Abjuration",
+							"C"
+						],
+						[
+							"{@spell Revivify|XPHB}",
+							"Necromancy",
+							"M"
+						],
+						[
+							"{@spell Water Breathing|XPHB}",
+							"Transmutation",
+							"R"
+						],
+						[
+							"{@spell Water Walk|XPHB}",
+							"Transmutation",
+							"R"
+						]
+					]
+				},
+				{
+					"name": "Level 4 Artificer Spells",
+					"source": "XUA2024Artificer",
+					"page": 6,
+					"type": "table",
+					"caption": "Level 4 Artificer Spells",
+					"colLabels": [
+						"Spell",
+						"School",
+						"Special"
+					],
+					"colStyles": [
+						"col-6",
+						"col-4",
+						"col-2 text-center"
+					],
+					"rows": [
+						[
+							"{@spell Arcane Eye|XPHB}",
+							"Divination",
+							"C"
+						],
+						[
+							"{@spell Fabricate|XPHB}",
+							"Transmutation",
+							"\u2014"
+						],
+						[
+							"{@spell Freedom of Movement|XPHB}",
+							"Abjuration",
+							"\u2014"
+						],
+						[
+							"{@spell Leomund's Secret Chest|XPHB}",
+							"Conjuration",
+							"M"
+						],
+						[
+							"{@spell Mordenkainen's Faithful Hound|XPHB}",
+							"Conjuration",
+							"\u2014"
+						],
+						[
+							"{@spell Mordenkainen's Private Sanctum|XPHB}",
+							"Abjuration",
+							"\u2014"
+						],
+						[
+							"{@spell Otiluke's Resilient Sphere|XPHB}",
+							"Abjuration",
+							"C"
+						],
+						[
+							"{@spell Stone Shape|XPHB}",
+							"Transmutation",
+							"\u2014"
+						],
+						[
+							"{@spell Stoneskin|XPHB}",
+							"Transmutation",
+							"C, M"
+						],
+						[
+							"{@spell Summon Construct|XPHB}",
+							"Conjuration",
+							"C, M"
+						]
+					]
+				},
+				{
+					"name": "Level 5 Artificer Spells",
+					"source": "XUA2024Artificer",
+					"page": 6,
+					"type": "table",
+					"caption": "Level 5 Artificer Spells",
+					"colLabels": [
+						"Spell",
+						"School",
+						"Special"
+					],
+					"colStyles": [
+						"col-6",
+						"col-4",
+						"col-2 text-center"
+					],
+					"rows": [
+						[
+							"{@spell Animate Objects|XPHB}",
+							"Transmutation",
+							"C"
+						],
+						[
+							"{@spell Bigby's Hand|XPHB}",
+							"Evocation",
+							"C"
+						],
+						[
+							"{@spell Circle of Power|XPHB}",
+							"Abjuration",
+							"C"
+						],
+						[
+							"{@spell Creation|XPHB}",
+							"Illusion",
+							"\u2014"
+						],
+						[
+							"{@spell Greater Restoration|XPHB}",
+							"Abjuration",
+							"M"
+						],
+						[
+							"{@spell Wall of Stone|XPHB}",
+							"Evocation",
+							"C"
+						]
+					]
+				}
+			]
+		},
+		{
+			"name": "Core Artificer Traits",
+			"source": "XUA2024Artificer",
+			"page": 1,
+			"colStyles": [
+				"col-4 bold",
+				"col-8"
+			],
+			"rows": [
+				[
+					"Primary Ability",
+					"Intelligence"
+				],
+				[
+					"Hit Point Die",
+					"{@dice D8} per Artificer level"
+				],
+				[
+					"Saving Throw Proficiencies",
+					"Constitution and Intelligence"
+				],
+				[
+					"Skill Proficiencies",
+					"{@i Choose 2:} {@skill Arcana|XPHB}, {@skill History|XPHB}, {@skill Investigation|XPHB}, {@skill Medicine|XPHB}, {@skill Nature|XPHB}, {@skill Perception|XPHB}, or {@skill Sleight of Hand|XPHB}"
+				],
+				[
+					"Weapon Proficiencies",
+					"Simple weapons"
+				],
+				[
+					"Tool Proficiencies",
+					"{@item Thieves' Tools|XPHB}, {@item Tinker's Tools|XPHB}, and one type of Artisan's Tools of your choice"
+				],
+				[
+					"Armor Training",
+					"Light and Medium armor and Shields"
+				],
+				[
+					"Starting Equipment",
+					"Choose A or B: (A) {@item Studded Leather Armor|XPHB}, {@item Dagger|XPHB}, {@item Thieves' Tools|XPHB}, {@item Tinker's Tools|XPHB}, {@item Dungeoneer's Pack|XPHB}, and 16 GP; or (B) 150 GP"
+				]
+			]
+		}
+	],
+	"book": [
+		{
+			"name": "Unearthed Arcana 2024: The Artificer",
+			"id": "XUA2024Artificer",
+			"source": "XUA2024Artificer",
+			"group": "prerelease",
+			"cover": {
+				"type": "internal",
+				"path": "covers/blank.webp"
+			},
+			"published": "2024-12-17",
+			"author": "Wizards of the Coast",
+			"contents": [
+				{
+					"name": "Unearthed Arcana 2024: The Artificer",
+					"headers": [
+						"What's Inside",
+						"Artificer",
+						{
+							"header": "Artificer Spell List",
+							"depth": 1
+						},
+						"Artificer Subclasses",
+						{
+							"header": "Alchemist",
+							"depth": 1
+						},
+						{
+							"header": "Armorer",
+							"depth": 1
+						},
+						{
+							"header": "Artillerist",
+							"depth": 1
+						},
+						{
+							"header": "Battle Smith",
+							"depth": 1
+						},
+						"Spells",
+						"Magic Items"
+					]
+				}
+			]
+		}
+	],
+	"bookData": [
+		{
+			"id": "XUA2024Artificer",
+			"source": "XUA2024Artificer",
+			"data": [
+				{
+					"type": "section",
+					"name": "Unearthed Arcana 2024: The Artificer",
+					"page": 1,
+					"entries": [
+						"This playtest document is part of a series of {@i Unearthed Arcana} articles that present material designed for upcoming books. The material here uses the rules in the {@book 2024 Player's Handbook|XPHB}.",
+						{
+							"type": "inset",
+							"name": "Learn More on YouTube",
+							"page": 1,
+							"entries": [
+								"To learn more about the design in this article, we invite you to view the videos about it on YouTube ({@link www.youtube.com/DNDWizards})."
+							]
+						},
+						{
+							"type": "section",
+							"name": "What's Inside",
+							"page": 1,
+							"entries": [
+								{
+									"type": "list",
+									"style": "list-hang-notitle",
+									"page": 1,
+									"items": [
+										{
+											"type": "item",
+											"name": "Artificer",
+											"entries": [
+												"A revised Artificer is the star of the show."
+											]
+										},
+										{
+											"type": "item",
+											"name": "Additional Magic Options",
+											"entries": [
+												"A new spell and a collection of magic items enhance the options available to Artificers."
+											]
+										}
+									]
+								},
+								{
+									"type": "inset",
+									"name": "This Is Playtest Material",
+									"page": 1,
+									"entries": [
+										"This article is presented for playtesting and feedback. The options here are experimental and in draft form. They aren't officially part of the game. Your feedback will help determine whether we adopt it as official.",
+										{
+											"type": "list",
+											"style": "list-hang-notitle",
+											"page": 1,
+											"items": [
+												{
+													"type": "item",
+													"name": "How to Playtest This UA",
+													"entries": [
+														"We invite you to try out this material in play. To play with this material, you may either incorporate it into your campaign or run one or more special playtest sessions. For such a session, you may create an adventure of your own or use a short adventure from a source like {@adventure Quests from the Infinite Staircase|QftIS}."
+													]
+												},
+												{
+													"type": "item",
+													"name": "Power Level",
+													"entries": [
+														"The character options you read here might be more or less powerful than options in the {@book 2024 Player's Handbook|XPHB}. If a design survives playtesting, we adjust its power to the desirable level before publication. This means an option could be more or less powerful in its final form."
+													]
+												},
+												{
+													"type": "item",
+													"name": "Feedback",
+													"entries": [
+														"The best way for you to give us feedback on this material is in the survey we'll release on D&D Beyond. If we make this material official, it will be refined based on your feedback, and then it will appear in a D&D book.",
+														"Providing feedback on this document is one way you can help shape the future of D&D!"
+													]
+												}
+											]
+										}
+									]
+								}
+							]
+						},
+						{
+							"type": "section",
+							"name": "Artificer",
+							"page": 1,
+							"entries": [
+								"{@i A Magical Crafter and an Inventor of Wonders}",
+								"Masters of invention, Artificers use ingenuity and magic to unlock extraordinary capabilities in objects. They see magic as a complex system waiting to be decoded and then harnessed in their spells and inventions. You can find everything you need to play one of these inventors in the next few sections.",
+								{
+									"type": "statblock",
+									"tag": "table",
+									"source": "XUA2024Artificer",
+									"name": "Core Artificer Traits",
+									"page": 1
+								},
+								{
+									"type": "entries",
+									"name": "Becoming an Artificer...",
+									"page": 1,
+									"entries": [
+										{
+											"type": "list",
+											"page": 1,
+											"name": "As a Level 1 Character",
+											"items": [
+												"Gain all the traits in the Core Artificer Traits table.",
+												"Gain the Artificer's level 1 features, which are listed in the Artificer Features table."
+											]
+										},
+										{
+											"type": "list",
+											"page": 1,
+											"name": "As a Multiclass Character",
+											"items": [
+												"Gain the following traits from the {@table Core Artificer Traits|XUA2024Artificer} table: Hit Point Die, proficiency with {@item Tinker's Tools|XPHB}, proficiency in one skill of your choice from the Artificer's skill list, and training with Light and Medium armor and Shields.",
+												"Gain the Artificer's level 1 features, which are listed in the Artificer Features table. See the multiclassing rules in the {@book Player's Handbook|XPHB|2|Multiclassing} to determine your available spell slots, adding half your Artificer levels (round up)."
+											]
+										}
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Artificer Class Features",
+									"page": 2,
+									"entries": [
+										"As an Artificer, you gain the following class features when you reach the specified Artificer levels. These features are listed on the Artificer Features table.",
+										{
+											"type": "inset",
+											"name": "Design Note: Artificer Updates",
+											"page": 2,
+											"entries": [
+												"Here are the main updates in this class since its appearance in {@book Tasha's Cauldron of Everything|TCE}:",
+												{
+													"type": "list",
+													"page": 2,
+													"items": [
+														{
+															"type": "item",
+															"name": "Magical Tinkering",
+															"nameDot": false,
+															"entries": [
+																"now allows the Artificer to craft low-cost items quickly."
+															]
+														},
+														{
+															"type": "item",
+															"name": "Spellcasting",
+															"nameDot": false,
+															"entries": [
+																"now allows the Artificer to change one cantrip after each Long Rest."
+															]
+														},
+														{
+															"type": "item",
+															"name": "Infuse Item",
+															"nameDot": false,
+															"entries": [
+																"has been redesigned and renamed to {@classFeature Replicate Magic Item|Artificer|XUA2024Artificer|2|XUA2024Artificer}. The feature allows the Artificer to replicate any magic item of a qualifying rarity and item type."
+															]
+														},
+														{
+															"type": "item",
+															"name": "Magic Item Tinker",
+															"nameDot": false,
+															"entries": [
+																"replaces {@classFeature Tool Expertise|Artificer|TCE|6|TCE} and lets you turn a magic item into a spell slot."
+															]
+														},
+														{
+															"type": "item",
+															"name": "Flash of Genius",
+															"nameDot": false,
+															"entries": [
+																"is now used in response to an ability check or a saving throw failing."
+															]
+														},
+														{
+															"type": "item",
+															"name": "Spell-Storing Item",
+															"nameDot": false,
+															"entries": [
+																"has been changed to include level 3 Artificer spells."
+															]
+														},
+														{
+															"type": "item",
+															"name": "Soul of Artifice",
+															"nameDot": false,
+															"entries": [
+																"no longer requires a {@variantrule Reaction|XPHB} to cheat death, and it restores you to 20 Hit Points instead of 1. The feature's other benefit now enhances ability checks."
+															]
+														}
+													]
+												}
+											]
+										},
+										{
+											"type": "statblock",
+											"tag": "class",
+											"source": "XUA2024Artificer",
+											"name": "Artificer",
+											"page": 2
+										}
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Artificer Spell List",
+									"page": 5,
+									"entries": [
+										"This section presents the Artificer spell list. The spells are organized by spell level and then alphabetized, and each spell's school of magic is listed. In the Special column, {@i C} means the spell requires {@status Concentration|XPHB}, {@i R} means it's a {@variantrule Ritual|XPHB}, and {@i M} means it requires a specific Material component.",
+										{
+											"type": "inset",
+											"name": "Design Note: Spell List Updates",
+											"page": 5,
+											"entries": [
+												"The Artificer spell list includes the following new spells:",
+												{
+													"type": "list",
+													"page": 5,
+													"items": [
+														{
+															"type": "item",
+															"name": "Cantrips:",
+															"entries": [
+																"{@spell Elementalism|XPHB}, {@spell True Strike|XPHB}"
+															]
+														},
+														{
+															"type": "item",
+															"name": "Level 2:",
+															"entries": [
+																"{@spell Arcane Vigor|XPHB}, {@spell Dragon's Breath|XPHB}, {@spell Homunculus Servant|XUA2024Artificer}"
+															]
+														},
+														{
+															"type": "item",
+															"name": "Level 5:",
+															"entries": [
+																"{@spell Circle of Power|XPHB}"
+															]
+														}
+													]
+												},
+												"The list includes only spells from the {@book Player's Handbook|XPHB} and this article. If you have {@book Tasha's Cauldron of Everything|XPHB}, your Artificer can continue to use {@filter the class's spells in that book|spells|source=tce|class=artificer}."
+											]
+										},
+										{
+											"type": "statblock",
+											"tag": "table",
+											"source": "XUA2024Artificer",
+											"name": "Artificer Spell List",
+											"page": 5
+										}
+									]
+								}
+							]
+						},
+						{
+							"type": "section",
+							"name": "Artificer Subclasses",
+							"page": 6,
+							"entries": [
+								"An Artificer subclass is a specialization that grants you features at certain Artificer levels, as specified in the subclass. This section presents the {@subclass Alchemist|Artificer|XUA2024Artificer|XUA2024Artificer}, {@subclass Armorer|Artificer|XUA2024Artificer|XUA2024Artificer}, {@subclass Artillerist|Artificer|XUA2024Artificer|XUA2024Artificer}, and {@subclass Battle Smith|Artificer|XUA2024Artificer|XUA2024Artificer}.",
+								{
+									"type": "entries",
+									"name": "Alchemist",
+									"page": 6,
+									"entries": [
+										"{@i Craft Magic Elixirs and Potions}",
+										{
+											"type": "inset",
+											"name": "Design Note: Alchemist Updates",
+											"page": 7,
+											"entries": [
+												"Here are the main updates in this subclass since its appearance in {@book Tasha's Cauldron of Everything|TCE}:",
+												{
+													"type": "list",
+													"page": 7,
+													"items": [
+														{
+															"type": "item",
+															"name": "Alchemist Spells",
+															"nameDot": false,
+															"entries": [
+																"has replaced {@spell Blight|PHB} with {@spell Vitriolic Sphere|XPHB}."
+															]
+														},
+														{
+															"type": "item",
+															"name": "Tool Proficiency",
+															"nameDot": false,
+															"entries": [
+																"now allows the Artificer to craft potions faster."
+															]
+														},
+														{
+															"type": "item",
+															"name": "Experimental Elixir",
+															"nameDot": false,
+															"entries": [
+																"now produces more elixirs, the healing of the Healing elixir has increased, and the sixth row of the table now lets you choose an elixir's effect."
+															]
+														},
+														{
+															"type": "item",
+															"name": "Restorative Reagents",
+															"nameDot": false,
+															"entries": [
+																"has been changed to connect the Temporary Hit Points to your level."
+															]
+														},
+														{
+															"type": "item",
+															"name": "Chemical Mastery",
+															"nameDot": false,
+															"entries": [
+																"has been redesigned. It now includes extra damage, Resistance, and the ability to cast {@spell Tasha's Bubbling Cauldron|XPHB}."
+															]
+														}
+													]
+												}
+											]
+										},
+										{
+											"type": "statblock",
+											"prop": "subclass",
+											"source": "XUA2024Artificer",
+											"name": "Alchemist",
+											"className": "Artificer",
+											"classSource": "XUA2024Artificer",
+											"page": 7
+										}
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Armorer",
+									"page": 8,
+									"entries": [
+										"{@i Craft Magic Armor to Enhance Your Abilities}",
+										{
+											"type": "inset",
+											"name": "Design Note: Armorer",
+											"page": 8,
+											"entries": [
+												"Here are the main updates in this subclass since its appearance in {@book Tasha's Cauldron of Everything|TCE}:",
+												{
+													"type": "list",
+													"page": 8,
+													"items": [
+														{
+															"type": "item",
+															"name": "Tools of the Trade",
+															"nameDot": false,
+															"entries": [
+																"now allows the Artificer to craft armor faster."
+															]
+														},
+														{
+															"type": "item",
+															"name": "Armor Model",
+															"nameDot": false,
+															"entries": [
+																"includes a new armor option: Dreadnaught. In the Guardian option, Defensive Field now relies on you being {@variantrule Bloodied|XPHB} rather than having limited uses."
+															]
+														},
+														{
+															"type": "item",
+															"name": "Armor Modifications",
+															"nameDot": false,
+															"entries": [
+																"has been replaced by a new feature, {@subclassFeature Armor Replication|Artificer|XUA2024Artificer|Armorer|XUA2024Artificer|9|XUA2024Artificer}."
+															]
+														},
+														{
+															"type": "item",
+															"name": "Perfected Armor",
+															"nameDot": false,
+															"entries": [
+																"now increases the damage of your Thunder Gauntlets and Lightning Launchers."
+															]
+														}
+													]
+												}
+											]
+										},
+										{
+											"type": "statblock",
+											"prop": "subclass",
+											"source": "XUA2024Artificer",
+											"name": "Armorer",
+											"className": "Artificer",
+											"classSource": "XUA2024Artificer",
+											"page": 8
+										}
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Artillerist",
+									"page": 10,
+									"entries": [
+										"{@i Wield Destructive Power from Afar}",
+										{
+											"type": "inset",
+											"name": "Design Note: Artillerist Updates",
+											"page": 10,
+											"entries": [
+												"Here are the main updates in this subclass since its appearance in {@book Tasha's Cauldron of Everything|TCE}:",
+												{
+													"type": "list",
+													"page": 10,
+													"items": [
+														{
+															"type": "item",
+															"name": "Tool Proficiency",
+															"nameDot": false,
+															"entries": [
+																"now allows the Artificer to craft magic {@item Wand|XPHB|Wands} faster. "
+															]
+														},
+														{
+															"type": "item",
+															"name": "Eldritch Cannon",
+															"nameDot": false,
+															"entries": [
+																"now allows each cannon to use the Flamethrower, Force Ballista, and Protector options. "
+															]
+														},
+														{
+															"type": "item",
+															"name": "Explosive Cannon",
+															"nameDot": false,
+															"entries": [
+																"now detonates as a {@variantrule Reaction|XPHB}, instead of an action, and its damage has been increased."
+															]
+														}
+													]
+												}
+											]
+										},
+										{
+											"type": "statblock",
+											"prop": "subclass",
+											"source": "XUA2024Artificer",
+											"name": "Artillerist",
+											"className": "Artificer",
+											"classSource": "XUA2024Artificer",
+											"page": 10
+										}
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Battle Smith",
+									"page": 11,
+									"entries": [
+										"{@i Command a Construct Guardian}",
+										{
+											"type": "inset",
+											"name": "Design Note: Battle Smith Updates",
+											"page": 11,
+											"entries": [
+												"Here are the main updates in this subclass since its appearance in {@book Tasha's Cauldron of Everything|TCE}:",
+												{
+													"type": "list",
+													"page": 11,
+													"items": [
+														{
+															"type": "item",
+															"name": "Tool Proficiency",
+															"nameDot": false,
+															"entries": [
+																"now allows the Artificer to craft weapons faster. "
+															]
+														},
+														{
+															"type": "item",
+															"name": "Steel Defender",
+															"nameDot": false,
+															"entries": [
+																"has its HP and Force-Empowered Rend adjusted."
+															]
+														}
+													]
+												}
+											]
+										},
+										{
+											"type": "statblock",
+											"prop": "subclass",
+											"source": "XUA2024Artificer",
+											"name": "Battle Smith",
+											"className": "Artificer",
+											"classSource": "XUA2024Artificer",
+											"page": 11
+										}
+									]
+								}
+							]
+						},
+						{
+							"type": "section",
+							"name": "Spells",
+							"page": 12,
+							"entries": [
+								"Spells are presented in alphabetical order.",
+								{
+									"type": "statblock",
+									"tag": "spell",
+									"source": "XUA2024Artificer",
+									"name": "Homunculus Servant",
+									"page": 12
+								}
+							]
+						},
+						{
+							"type": "section",
+							"name": "Magic Items",
+							"page": 13,
+							"entries": [
+								"Magic items are presented in alphabetical order.",
+								{
+									"type": "inset",
+									"name": "Design Note: Magic Items",
+									"page": 13,
+									"entries": [
+										"The magic items presented here appeared as Artificer infusions in {@book Tasha's Cauldron of Everything|TCE}. As magic items, they can be created with an Artificer's {@classFeature Replicate Magic Item|Artificer|XUA2024Artificer|2|XUA2024Artificer} feature, and they can also be found as treasure or crafted using the rules in the {@book Dungeon Master's Guide|XDMG|6}.",
+										"The following infusions from {@book Tasha's Cauldron of Everything|TCE} have been replaced with other options:",
+										{
+											"type": "list",
+											"page": 13,
+											"items": [
+												"Instead of the {@optfeature Enhanced Arcane Focus|TCE} infusion, an Artificer can use {@classFeature Replicate Magic Item|Artificer|XUA2024Artificer|2|XUA2024Artificer} to make a {@item +1 Wand of the War Mage|XDMG}.",
+												"Instead of the {@optfeature Enhanced Defense|TCE} infusion, an Artificer can use {@classFeature Replicate Magic Item|Artificer|XUA2024Artificer|2|XUA2024Artificer} to make {@item +1 Armor|XDMG} or a {@item +1 Shield|XDMG}.",
+												"Instead of the {@optfeature Enhanced Weapon|TCE} infusion, an Artificer can use {@classFeature Replicate Magic Item|Artificer|XUA2024Artificer|2|XUA2024Artificer} to make a {@item +1 Weapon|XDMG}.",
+												"The {@optfeature Homunculus Servant|TCE} infusion is replaced by {@spell Homunculus Servant|XUA2024Artificer|a spell of the same name} (in the previous section)."
+											]
+										},
+										"In addition, the {@optfeature Mind Sharpener|TCE} infusion is now a magic ring rather than an infusion that can be applied to armor or robes."
+									]
+								},
+								{
+									"type": "statblock",
+									"tag": "item",
+									"source": "XUA2024Artificer",
+									"name": "Boots of the Winding Path",
+									"page": 13
+								},
+								{
+									"type": "statblock",
+									"tag": "item",
+									"source": "XUA2024Artificer",
+									"name": "Helm of Awareness",
+									"page": 13
+								},
+								{
+									"type": "statblock",
+									"tag": "item",
+									"source": "XUA2024Artificer",
+									"name": "Mind Sharpener",
+									"page": 13
+								},
+								{
+									"type": "statblock",
+									"tag": "item",
+									"source": "XUA2024Artificer",
+									"name": "Radiant Weapon",
+									"page": 13
+								},
+								{
+									"type": "statblock",
+									"tag": "item",
+									"source": "XUA2024Artificer",
+									"name": "Repeating Shot",
+									"page": 14
+								},
+								{
+									"type": "statblock",
+									"tag": "item",
+									"source": "XUA2024Artificer",
+									"name": "Repulsion Shield",
+									"page": 14
+								},
+								{
+									"type": "statblock",
+									"tag": "item",
+									"source": "XUA2024Artificer",
+									"name": "Returning Weapon",
+									"page": 14
+								},
+								{
+									"type": "statblock",
+									"tag": "item",
+									"source": "XUA2024Artificer",
+									"name": "Spell-Refueling Ring",
+									"page": 14
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	]
+}
