@@ -667,7 +667,7 @@
 					"innate": {
 						"9": {
 							"daily": {
-								"1": [
+								"int": [
 									"lesser restoration|XPHB"
 								]
 							}
@@ -2141,7 +2141,7 @@
 							"page": 9,
 							"entries": [
 								"The damage die of your Thunder Gauntlets increases to {@damage 1d10} Thunder damage.",
-								"In addition, when a Huge or smaller creature you can see ends its turn within 30 feet of you, you can take a {@variantrule Reaction|XPHB} to magically force that creature to make a Strength saving throw against your spell save DC. On a failed save, you pull the creature up to 25 feet directly to an unoccupied space. If you pull the target to a space within 5 feet of yourself, you can make a melee weapon attack against it as part of this {@variantrule Reaction|XPHB}. You can take this {@variantrule Reaction|XPHB} a number of times equal to your Intelligence modifier (minimum of once), and you regain all expended uses when you finish a {@variantrule Long Rest|XPHB}."
+								"In addition, when a Huge or smaller creature you can see ends its turn within 30 feet of you, you can take a {@variantrule Reaction|XPHB} to magically force that creature to make a Strength saving throw against {@dcYourSpellSave}. On a failed save, you pull the creature up to 25 feet directly to an unoccupied space. If you pull the target to a space within 5 feet of yourself, you can make a melee weapon attack against it as part of this {@variantrule Reaction|XPHB}. You can take this {@variantrule Reaction|XPHB} a number of times equal to your Intelligence modifier (minimum of once), and you regain all expended uses when you finish a {@variantrule Long Rest|XPHB}."
 							]
 						},
 						{
@@ -2271,7 +2271,7 @@
 							"type": "item",
 							"name": "Detonate",
 							"entries": [
-								"When your cannon is reduced to 0 Hit Points, you can take a {@variantrule Reaction|XPHB} to command the cannon to detonate if you are within 60 feet of it. Doing so destroys the cannon and forces each creature within 20 feet of it to make a Dexterity saving throw against your spell save DC, taking {@damage 3d10} Force damage on a failed save or half as much damage on a successful one."
+								"When your cannon is reduced to 0 Hit Points, you can take a {@variantrule Reaction|XPHB} to command the cannon to detonate if you are within 60 feet of it. Doing so destroys the cannon and forces each creature within 20 feet of it to make a Dexterity saving throw against {@dcYourSpellSave}, taking {@damage 3d10} Force damage on a failed save or half as much damage on a successful one."
 							]
 						},
 						{
@@ -2543,6 +2543,120 @@
 					]
 				}
 			]
+		}
+	],
+	"foundrySubclassFeature": [
+		{
+			"name": "Tool Proficiency",
+			"source": "XUA2024Artificer",
+			"className": "Artificer",
+			"classSource": "XUA2024Artificer",
+			"subclassShortName": "Alchemist",
+			"subclassSource": "XUA2024Artificer",
+			"level": 3,
+			"entryData": {
+				"toolProficiencies": [
+					{
+						"alchemist's supplies": true
+					},
+					{
+						"anyArtisansTool": 1
+					}
+				]
+			}
+		},
+		{
+			"name": "Chemical Mastery",
+			"source": "XUA2024Artificer",
+			"className": "Artificer",
+			"classSource": "XUA2024Artificer",
+			"subclassShortName": "Alchemist",
+			"subclassSource": "XUA2024Artificer",
+			"level": 15,
+			"entryData": {
+				"resist": [
+					"acid",
+					"poison"
+				]
+			}
+		},
+		{
+			"name": "Tools of the Trade",
+			"source": "XUA2024Artificer",
+			"className": "Artificer",
+			"classSource": "XUA2024Artificer",
+			"subclassShortName": "Armorer",
+			"subclassSource": "XUA2024Artificer",
+			"level": 3,
+			"entryData": {
+				"armorProficiencies": [
+					{
+						"heavy": true
+					}
+				],
+				"toolProficiencies": [
+					{
+						"smith's tools": true
+					},
+					{
+						"anyArtisansTool": 1
+					}
+				]
+			}
+		},
+		{
+			"name": "Tool Proficiency",
+			"source": "XUA2024Artificer",
+			"className": "Artificer",
+			"classSource": "XUA2024Artificer",
+			"subclassShortName": "Artillerist",
+			"subclassSource": "XUA2024Artificer",
+			"level": 3,
+			"entryData": {
+				"toolProficiencies": [
+					{
+						"woodcarver's tools": true
+					},
+					{
+						"anyArtisansTool": 1
+					}
+				]
+			}
+		},
+		{
+			"name": "Battle Ready",
+			"source": "XUA2024Artificer",
+			"className": "Artificer",
+			"classSource": "XUA2024Artificer",
+			"subclassShortName": "Battle Smith",
+			"subclassSource": "XUA2024Artificer",
+			"level": 3,
+			"entryData": {
+				"weaponProficiencies": [
+					{
+						"martial": true
+					}
+				]
+			}
+		},
+		{
+			"name": "Tool Proficiency",
+			"source": "XUA2024Artificer",
+			"className": "Artificer",
+			"classSource": "XUA2024Artificer",
+			"subclassShortName": "Battle Smith",
+			"subclassSource": "XUA2024Artificer",
+			"level": 3,
+			"entryData": {
+				"toolProficiencies": [
+					{
+						"smith's tools": true
+					},
+					{
+						"anyArtisansTool": 1
+					}
+				]
+			}
 		}
 	],
 	"spell": [
