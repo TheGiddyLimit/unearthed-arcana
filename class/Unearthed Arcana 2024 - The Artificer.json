@@ -22,6 +22,600 @@
 		"dateAdded": 1734452950,
 		"dateLastModified": 1734452950
 	},
+	"class": [
+		{
+			"name": "Artificer",
+			"source": "XUA2024Artificer",
+			"page": 1,
+			"edition": "one",
+			"primaryAbility": [
+				{
+					"int": true
+				}
+			],
+			"hd": {
+				"number": 1,
+				"faces": 8
+			},
+			"proficiency": [
+				"con",
+				"int"
+			],
+			"spellcastingAbility": "int",
+			"casterProgression": "artificer",
+			"preparedSpellsProgression": [
+				2,
+				3,
+				4,
+				5,
+				6,
+				6,
+				7,
+				7,
+				9,
+				9,
+				10,
+				10,
+				11,
+				11,
+				12,
+				12,
+				14,
+				14,
+				15,
+				15
+			],
+			"preparedSpellsChange": "restLong",
+			"cantripProgression": [
+				2,
+				2,
+				2,
+				2,
+				2,
+				2,
+				2,
+				2,
+				2,
+				3,
+				3,
+				3,
+				3,
+				4,
+				4,
+				4,
+				4,
+				4,
+				4,
+				4
+			],
+			"classSpells": [
+				"Acid Splash|XPHB",
+				"Dancing Lights|XPHB",
+				"Elementalism|XPHB",
+				"Fire Bolt|XPHB",
+				"Guidance|XPHB",
+				"Light|XPHB",
+				"Mage Hand|XPHB",
+				"Mending|XPHB",
+				"Message|XPHB",
+				"Poison Spray|XPHB",
+				"Prestidigitation|XPHB",
+				"Ray of Frost|XPHB",
+				"Resistance|XPHB",
+				"Shocking Grasp|XPHB",
+				"Spare the Dying|XPHB",
+				"Thorn Whip|XPHB",
+				"Thunderclap|XPHB",
+				"True Strike|XPHB",
+				"Alarm|XPHB",
+				"Cure Wounds|XPHB",
+				"Detect Magic|XPHB",
+				"Disguise Self|XPHB",
+				"Expeditious Retreat|XPHB",
+				"Faerie Fire|XPHB",
+				"False Life|XPHB",
+				"Feather Fall|XPHB",
+				"Grease|XPHB",
+				"Identify|XPHB",
+				"Jump|XPHB",
+				"Longstrider|XPHB",
+				"Purify Food and Drink|XPHB",
+				"Sanctuary|XPHB",
+				"Aid|XPHB",
+				"Alter Self|XPHB",
+				"Arcane Lock|XPHB",
+				"Arcane Vigor|XPHB",
+				"Blur|XPHB",
+				"Continual Flame|XPHB",
+				"Darkvision|XPHB",
+				"Dragon's Breath|XPHB",
+				"Enhance Ability|XPHB",
+				"Enlarge/Reduce|XPHB",
+				"Heat Metal|XPHB",
+				"Homunculus Servant|XUA2024Artificer",
+				"Invisibility|XPHB",
+				"Lesser Restoration|XPHB",
+				"Levitate|XPHB",
+				"Magic Mouth|XPHB",
+				"Magic Weapon|XPHB",
+				"Protection from Poison|XPHB",
+				"Rope Trick|XPHB",
+				"See Invisibility|XPHB",
+				"Spider Climb|XPHB",
+				"Web|XPHB",
+				"Blink|XPHB",
+				"Create Food and Water|XPHB",
+				"Dispel Magic|XPHB",
+				"Elemental Weapon|XPHB",
+				"Fly|XPHB",
+				"Glyph of Warding|XPHB",
+				"Haste|XPHB",
+				"Protection from Energy|XPHB",
+				"Revivify|XPHB",
+				"Water Breathing|XPHB",
+				"Water Walk|XPHB",
+				"Arcane Eye|XPHB",
+				"Fabricate|XPHB",
+				"Freedom of Movement|XPHB",
+				"Leomund's Secret Chest|XPHB",
+				"Mordenkainen's Faithful Hound|XPHB",
+				"Mordenkainen's Private Sanctum|XPHB",
+				"Otiluke's Resilient Sphere|XPHB",
+				"Stone Shape|XPHB",
+				"Stoneskin|XPHB",
+				"Summon Construct|XPHB",
+				"Animate Objects|XPHB",
+				"Bigby's Hand|XPHB",
+				"Circle of Power|XPHB",
+				"Creation|XPHB",
+				"Greater Restoration|XPHB",
+				"Wall of Stone|XPHB",
+				"Booming Blade|TCE",
+				"Green-Flame Blade|TCE",
+				"Intellect Fortress|TCE",
+				"Lightning Lure|TCE",
+				"Sword Burst|TCE",
+				"Tasha's Caustic Brew|TCE"
+			],
+			"featProgression": [
+				{
+					"name": "Epic Boon",
+					"category": [
+						"EB"
+					],
+					"progression": {
+						"19": 1
+					}
+				}
+			],
+			"startingProficiencies": {
+				"armor": [
+					"light",
+					"medium",
+					"shield"
+				],
+				"weapons": [
+					"simple"
+				],
+				"tools": [
+					"{@item thieves' tools|XPHB}",
+					"{@item tinker's tools|XPHB}",
+					"one type of {@item artisan's tools|XPHB} of your choice"
+				],
+				"toolProficiencies": [
+					{
+						"thieves' tools": true,
+						"tinker's tools": true,
+						"anyArtisansTool": 1
+					}
+				],
+				"skills": [
+					{
+						"choose": {
+							"from": [
+								"arcana",
+								"history",
+								"investigation",
+								"medicine",
+								"nature",
+								"perception",
+								"sleight of hand"
+							],
+							"count": 2
+						}
+					}
+				]
+			},
+			"startingEquipment": {
+				"additionalFromBackground": true,
+				"defaultData": [
+					{
+						"A": [
+							{
+								"item": "studded leather armor|xphb"
+							},
+							{
+								"item": "dagger|xphb"
+							},
+							{
+								"item": "thieves' tools|xphb"
+							},
+							{
+								"item": "tinker's tools|xphb"
+							},
+							{
+								"item": "dungeoneer's pack|xphb"
+							},
+							{
+								"value": 1600
+							}
+						],
+						"B": [
+							{
+								"value": 15000
+							}
+						]
+					}
+				],
+				"entries": [
+					"{@i Choose A or B:} (A) {@item Studded Leather Armor|XPHB}, {@item Dagger|XPHB}, {@item Thieves' Tools|XPHB}, {@item Tinker's Tools|XPHB}, {@item Dungeoneer's Pack|XPHB}, and 16 GP; or (B) 150 GP"
+				]
+			},
+			"multiclassing": {
+				"proficienciesGained": {
+					"armor": [
+						"light",
+						"medium",
+						"shield"
+					],
+					"tools": [
+						"{@item tinker's tools|PHB}"
+					],
+					"toolProficiencies": [
+						{
+							"tinker's tools": true
+						}
+					],
+					"skills": [
+						{
+							"choose": {
+								"from": [
+									"arcana",
+									"history",
+									"investigation",
+									"medicine",
+									"nature",
+									"perception",
+									"sleight of hand"
+								],
+								"count": 1
+							}
+						}
+					]
+				}
+			},
+			"classTableGroups": [
+				{
+					"colLabels": [
+						"Plans Known",
+						"Magic Items",
+						"{@filter Cantrips Known|spells|source=|level=0|class=artificer (xua24a)}",
+						"Prepared Spells"
+					],
+					"rows": [
+						[
+							"\u2014",
+							"\u2014",
+							2,
+							2
+						],
+						[
+							4,
+							2,
+							2,
+							3
+						],
+						[
+							4,
+							2,
+							2,
+							4
+						],
+						[
+							4,
+							2,
+							2,
+							5
+						],
+						[
+							4,
+							2,
+							2,
+							6
+						],
+						[
+							5,
+							3,
+							2,
+							6
+						],
+						[
+							5,
+							3,
+							2,
+							7
+						],
+						[
+							5,
+							3,
+							2,
+							7
+						],
+						[
+							5,
+							3,
+							2,
+							9
+						],
+						[
+							6,
+							4,
+							3,
+							9
+						],
+						[
+							6,
+							4,
+							3,
+							10
+						],
+						[
+							6,
+							4,
+							3,
+							10
+						],
+						[
+							6,
+							4,
+							3,
+							11
+						],
+						[
+							7,
+							5,
+							4,
+							11
+						],
+						[
+							7,
+							5,
+							4,
+							12
+						],
+						[
+							7,
+							5,
+							4,
+							12
+						],
+						[
+							7,
+							5,
+							4,
+							14
+						],
+						[
+							8,
+							6,
+							4,
+							14
+						],
+						[
+							8,
+							6,
+							4,
+							15
+						],
+						[
+							8,
+							6,
+							4,
+							15
+						]
+					]
+				},
+				{
+					"title": "Spell Slots per Spell Level",
+					"colLabels": [
+						"{@filter 1st|spells|level=1|class=artificer (xua24a)}",
+						"{@filter 2nd|spells|level=2|class=artificer (xua24a)}",
+						"{@filter 3rd|spells|level=3|class=artificer (xua24a)}",
+						"{@filter 4th|spells|level=4|class=artificer (xua24a)}",
+						"{@filter 5th|spells|level=5|class=artificer (xua24a)}"
+					],
+					"rowsSpellProgression": [
+						[
+							2,
+							0,
+							0,
+							0,
+							0
+						],
+						[
+							2,
+							0,
+							0,
+							0,
+							0
+						],
+						[
+							3,
+							0,
+							0,
+							0,
+							0
+						],
+						[
+							3,
+							0,
+							0,
+							0,
+							0
+						],
+						[
+							4,
+							2,
+							0,
+							0,
+							0
+						],
+						[
+							4,
+							2,
+							0,
+							0,
+							0
+						],
+						[
+							4,
+							3,
+							0,
+							0,
+							0
+						],
+						[
+							4,
+							3,
+							0,
+							0,
+							0
+						],
+						[
+							4,
+							3,
+							2,
+							0,
+							0
+						],
+						[
+							4,
+							3,
+							2,
+							0,
+							0
+						],
+						[
+							4,
+							3,
+							3,
+							0,
+							0
+						],
+						[
+							4,
+							3,
+							3,
+							0,
+							0
+						],
+						[
+							4,
+							3,
+							3,
+							1,
+							0
+						],
+						[
+							4,
+							3,
+							3,
+							1,
+							0
+						],
+						[
+							4,
+							3,
+							3,
+							2,
+							0
+						],
+						[
+							4,
+							3,
+							3,
+							2,
+							0
+						],
+						[
+							4,
+							3,
+							3,
+							3,
+							1
+						],
+						[
+							4,
+							3,
+							3,
+							3,
+							1
+						],
+						[
+							4,
+							3,
+							3,
+							3,
+							2
+						],
+						[
+							4,
+							3,
+							3,
+							3,
+							2
+						]
+					]
+				}
+			],
+			"classFeatures": [
+				"Magical Tinkering|Artificer|XUA2024Artificer|1|XUA2024Artificer",
+				"Spellcasting|Artificer|XUA2024Artificer|1|XUA2024Artificer",
+				"Replicate Magic Item|Artificer|XUA2024Artificer|2|XUA2024Artificer",
+				{
+					"classFeature": "Artificer Subclass|Artificer|XUA2024Artificer|3|XUA2024Artificer",
+					"gainSubclassFeature": true
+				},
+				"Right Tool for the Job|Artificer|XUA2024Artificer|3|XUA2024Artificer",
+				"Ability Score Improvement|Artificer|XUA2024Artificer|4|XUA2024Artificer",
+				{
+					"classFeature": "Subclass feature|Artificer|XUA2024Artificer|5|XUA2024Artificer",
+					"gainSubclassFeature": true
+				},
+				"Magic Item Tinker|Artificer|XUA2024Artificer|6|XUA2024Artificer",
+				"Flash of Genius|Artificer|XUA2024Artificer|7|XUA2024Artificer",
+				"Ability Score Improvement|Artificer|XUA2024Artificer|8|XUA2024Artificer",
+				{
+					"classFeature": "Subclass feature|Artificer|XUA2024Artificer|9|XUA2024Artificer",
+					"gainSubclassFeature": true
+				},
+				"Magic Item Adept|Artificer|XUA2024Artificer|10|XUA2024Artificer",
+				"Spell-Storing Item|Artificer|XUA2024Artificer|11|XUA2024Artificer",
+				"Ability Score Improvement|Artificer|XUA2024Artificer|12|XUA2024Artificer",
+				"Magic Item Savant|Artificer|XUA2024Artificer|14|XUA2024Artificer",
+				{
+					"classFeature": "Subclass Feature|Artificer|XUA2024Artificer|15|XUA2024Artificer",
+					"gainSubclassFeature": true
+				},
+				"Ability Score Improvement|Artificer|XUA2024Artificer|16|XUA2024Artificer",
+				"Magic Item Master|Artificer|XUA2024Artificer|18|XUA2024Artificer",
+				"Epic Boon|Artificer|XUA2024Artificer|19|XUA2024Artificer",
+				"Soul of Artifice|Artificer|XUA2024Artificer|20|XUA2024Artificer"
+			],
+			"subclassTitle": "Artificer Subclass",
+			"hasFluff": true
+		}
+	],
 	"classFluff": [
 		{
 			"name": "Artificer",
@@ -235,6 +829,473 @@
 										"has its HP and Force-Empowered Rend adjusted."
 									]
 								}
+							]
+						}
+					]
+				}
+			]
+		}
+	],
+	"classFeature": [
+		{
+			"name": "Magical Tinkering",
+			"source": "XUA2024Artificer",
+			"page": 2,
+			"className": "Artificer",
+			"classSource": "XUA2024Artificer",
+			"level": 1,
+			"entries": [
+				"As a Magic action while holding {@item Tinker's Tools|XPHB}, you can create one item in an unoccupied space within 5 feet of yourself, choosing the item from the following list:",
+				{
+					"type": "list",
+					"style": "list-hang",
+					"columns": 4,
+					"page": 2,
+					"items": [
+						"{@item Ball Bearings|XPHB}",
+						"{@item Basket|XPHB}",
+						"{@item Bedroll|XPHB}",
+						"{@item Bell|XPHB}",
+						"{@item Blanket|XPHB}",
+						"{@item Block and Tackle|XPHB}",
+						"{@item Bucket|XPHB}",
+						"{@item Caltrops|XPHB}",
+						"{@item Candle|XPHB}",
+						"{@item Crowbar|XPHB}",
+						"{@item Flask|XPHB}",
+						"{@item Jug|XPHB}",
+						"{@item Lamp|XPHB}",
+						"{@item Net|XPHB}",
+						"{@item Oil|XPHB}",
+						"{@item Paper|XPHB}",
+						"{@item Parchment|XPHB}",
+						"{@item Pole|XPHB}",
+						"{@item Pouch|XPHB}",
+						"{@item Rope|XPHB}",
+						"{@item Sack|XPHB}",
+						"{@item Shovel|XPHB}",
+						"{@item String|XPHB}",
+						"{@item Tinderbox|XPHB}",
+						"{@item Torch|XPHB}",
+						"{@item Vial|XPHB}"
+					]
+				},
+				"See the rules for the item in the {@book Player's Handbook|XPHB}. The item vanishes after 1 hour.",
+				"You can use this feature a number of times equal to your Intelligence modifier (minimum of once), and you regain all expended uses when you finish a {@variantrule Long Rest|XPHB}."
+			]
+		},
+		{
+			"name": "Spellcasting",
+			"source": "XUA2024Artificer",
+			"page": 2,
+			"className": "Artificer",
+			"classSource": "XUA2024Artificer",
+			"level": 1,
+			"entries": [
+				"You have learned how to channel magical energy through objects. See the {@book Player's Handbook|XPHB} for the rules on spellcasting. The information below details how you use those rules with Artificer spells, which appear in the {@table Artificer spell list|XUA2024Artificer} later in the class's description.",
+				{
+					"type": "entries",
+					"entries": [
+						{
+							"type": "entries",
+							"name": "Tools Required",
+							"page": 2,
+							"entries": [
+								"You produce your Artificer spells through tools. You can use {@item Thieves' Tools|XPHB}, {@item Tinker's Tools|XPHB}, or another kind of {@item Artisan's Tools|XPHB} with which you have proficiency as a Spellcasting Focus, and you must have one of those focuses in hand when you cast an Artificer spell (meaning the spell has an \"M\" component when you cast it)."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Cantrips",
+							"page": 2,
+							"entries": [
+								"You know two Artificer cantrips of your choice. {@spell Acid Splash|XPHB} and {@spell Prestidigitation|XPHB} are recommended.",
+								"Whenever you finish a {@variantrule Long Rest|XPHB}, you can replace one of your cantrips from this feature with another Artificer cantrip of your choice.",
+								"When you reach Artificer levels 10 and 14, you learn another Artificer cantrip of your choice, as shown in the Cantrips column of the Artificer Features table."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Spell Slots",
+							"page": 2,
+							"entries": [
+								"The Artificer Features table shows how many spell slots you have to cast your level 1+ spells. You regain all expended spell slots when you finish a {@variantrule Long Rest|XPHB}."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Prepared Spells of Level 1+",
+							"page": 2,
+							"entries": [
+								"You prepare the list of level 1+ spells that are available for you to cast with this feature. To start, choose two level 1 Artificer spells. {@spell Cure Wounds|XPHB} and {@spell Grease|XPHB} are recommended.",
+								"The number of spells on your list increases as you gain Artificer levels, as shown in the Prepared Spells column of the Artificer Features table. Whenever that number increases, choose additional Artificer spells until the number of spells on your list matches the number on the table. The chosen spells must be of a level for which you have spell slots. For example, if you're a level 5 Artificer, your list of prepared spells can include six Artificer spells of levels 1 and 2 in any combination.",
+								"If another Artificer feature gives you spells that you always have prepared, those don't count against the number of spells you can prepare with this feature, but those spells otherwise count as Artificer spells for you."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Changing Your Prepared Spells",
+							"page": 3,
+							"entries": [
+								"Whenever you finish a {@variantrule Long Rest|XPHB}, you can change your list of prepared spells, replacing any of the spells there with other Artificer spells for which you have spell slots."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Spellcasting Ability",
+							"page": 3,
+							"entries": [
+								"Intelligence is your spellcasting ability for your Artificer spells."
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Replicate Magic Item",
+			"source": "XUA2024Artificer",
+			"page": 3,
+			"className": "Artificer",
+			"classSource": "XUA2024Artificer",
+			"level": 2,
+			"entries": [
+				"You have learned arcane plans that you use to make magic items.",
+				{
+					"type": "entries",
+					"entries": [
+						{
+							"type": "entries",
+							"name": "Plans Known",
+							"page": 3,
+							"entries": [
+								"When you gain this feature, choose four plans to learn from the {@table Magic Item Plans (Artificer Level 2+)|XUA2024Artificer} table (see the {@book Dungeon Master's Guide|XDMG} for the items' descriptions). {@item Bag of Holding|XDMG}, {@item Cap of Water Breathing|XDMG}, {@item Sending Stones|XDMG}, and {@item +1 Wand of the War Mage|XDMG|Wand of the War Mage +1} are recommended. Whenever you gain an Artificer level, you can replace one of the plans you know with a new plan for which you qualify.",
+								"You learn another plan of your choice when you reach certain Artificer levels, as shown in the Plans Known column of the Artificer Features table."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Creating an Item",
+							"page": 3,
+							"entries": [
+								"When you finish a {@variantrule Long Rest|XPHB}, you can create one or two different magic items if you have {@item Tinker's Tools|XPHB} in hand. Each item is based on one of the plans you know for this feature.",
+								"If a created item requires {@variantrule Attunement|XPHB}, you can attune yourself to it the instant you create it. If you decide to attune to the item later, you must do so using the normal process for {@variantrule Attunement|XPHB}.",
+								"When you reach certain Artificer levels specified in the Magic Items column of the Artificer Features table, the number of magic items you can create at the end of a Long Rest increases. Each item you create must be based on a different plan you know.",
+								"If you try to exceed your maximum number of magic items for this feature, the oldest item vanishes, and then the new item appears."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Duration",
+							"page": 3,
+							"entries": [
+								"A magic item created by this feature functions exactly like the normal magic item, except its magic isn't permanent. When you die, the magic item vanishes after {@dice 1d4} of days.",
+								"If an item that you created with this feature is a container, such as a {@item Bag of Holding|XDMG}, and it vanishes, its contents harmlessly appear in and around its space."
+							]
+						},
+						{
+							"type": "statblock",
+							"tag": "table",
+							"source": "XUA2024Artificer",
+							"name": "Magic Item Plans (Artificer Level 2+)",
+							"page": 4,
+							"collapsed": true
+						},
+						{
+							"type": "statblock",
+							"tag": "table",
+							"source": "XUA2024Artificer",
+							"name": "Magic Item Plans (Artificer Level 6+)",
+							"page": 4,
+							"collapsed": true
+						},
+						{
+							"type": "statblock",
+							"tag": "table",
+							"source": "XUA2024Artificer",
+							"name": "Magic Item Plans (Artificer Level 10+)",
+							"page": 4,
+							"collapsed": true
+						},
+						{
+							"type": "statblock",
+							"tag": "table",
+							"source": "XUA2024Artificer",
+							"name": "Magic Item Plans (Artificer Level 14+)",
+							"page": 4,
+							"collapsed": true
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Artificer Subclass",
+			"source": "XUA2024Artificer",
+			"page": 4,
+			"className": "Artificer",
+			"classSource": "XUA2024Artificer",
+			"level": 3,
+			"entries": [
+				"You gain an Artificer subclass of your choice. The {@subclass Alchemist|Artificer|XUA2024Artificer|XUA2024Artificer}, {@subclass Armorer|Artificer|XUA2024Artificer|XUA2024Artificer}, {@subclass Artillerist|Artificer|XUA2024Artificer|XUA2024Artificer}, and {@subclass Battle Smith|Artificer|XUA2024Artificer|XUA2024Artificer} subclasses are detailed after this class's description. A subclass is a specialization that grants you features at certain Artificer levels. For the rest of your career, you gain each of your subclass's features that are of your Artificer level or lower."
+			]
+		},
+		{
+			"name": "Right Tool for the Job",
+			"source": "XUA2024Artificer",
+			"page": 4,
+			"className": "Artificer",
+			"classSource": "XUA2024Artificer",
+			"level": 3,
+			"entries": [
+				"The list of items you can create with Magical Tinkering now includes {@item Artisan's Tools|XPHB}, which are described in the {@book Player's Handbook|XPHB}."
+			]
+		},
+		{
+			"name": "Ability Score Improvement",
+			"source": "XUA2024Artificer",
+			"page": 4,
+			"className": "Artificer",
+			"classSource": "XUA2024Artificer",
+			"level": 4,
+			"entries": [
+				"You gain the {@feat Ability Score Improvement|XPHB} feat or another feat of your choice for which you qualify. You gain this feature again at Artificer levels 8, 12, and 16."
+			]
+		},
+		{
+			"name": "Subclass feature",
+			"source": "XUA2024Artificer",
+			"page": 3,
+			"className": "Artificer",
+			"classSource": "XUA2024Artificer",
+			"level": 5,
+			"entries": [
+				"You gain a feature from your Artificer Subclass."
+			]
+		},
+		{
+			"name": "Magic Item Tinker",
+			"source": "XUA2024Artificer",
+			"page": 4,
+			"className": "Artificer",
+			"classSource": "XUA2024Artificer",
+			"level": 6,
+			"entries": [
+				"Your {@classFeature Replicate Magic Item|Artificer|XUA2024Artificer|2|XUA2024Artificer} feature improves as follows:",
+				{
+					"type": "entries",
+					"entries": [
+						{
+							"type": "entries",
+							"name": "Drain Magic Item",
+							"page": 4,
+							"entries": [
+								"As a {@variantrule Bonus Action|XPHB}, you can touch a magic item within 5 feet of yourself that you created with {@classFeature Replicate Magic Item|Artificer|XUA2024Artificer|2|XUA2024Artificer} and cause the item to vanish, converting its magical energy into a spell slot. The slot is level 1 if the item is Common or level 2 if the item is Uncommon or Rare. Once you use this feature, you can't do so again until you finish a {@variantrule Long Rest|XPHB}. Any spell slot you create with this feature vanishes when you finish a {@variantrule Long Rest|XPHB}."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Expanded Replication",
+							"page": 4,
+							"entries": [
+								"When you learn a plan for your {@classFeature Replicate Magic Item|Artificer|XUA2024Artificer|2|XUA2024Artificer} feature, you can now also choose from the {@table Magic Item Plans (Artificer Level 6+)|XUA2024Artificer} table."
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Flash of Genius",
+			"source": "XUA2024Artificer",
+			"page": 4,
+			"className": "Artificer",
+			"classSource": "XUA2024Artificer",
+			"level": 7,
+			"entries": [
+				"When you or a creature you can see within 30 feet of you fails an ability check or a saving throw, you can take a {@variantrule Reaction|XPHB} to add a bonus to the roll, potentially causing it to succeed. The bonus equals your Intelligence modifier.",
+				"You can take this {@variantrule Reaction|XPHB} a number of times equal to your Intelligence modifier (minimum of once). You regain all expended uses when you finish a {@variantrule Long Rest|XPHB}."
+			]
+		},
+		{
+			"name": "Ability Score Improvement",
+			"source": "XUA2024Artificer",
+			"page": 4,
+			"className": "Artificer",
+			"classSource": "XUA2024Artificer",
+			"level": 8,
+			"entries": [
+				"You gain the {@feat Ability Score Improvement|XPHB} feat or another feat of your choice for which you qualify."
+			]
+		},
+		{
+			"name": "Subclass feature",
+			"source": "XUA2024Artificer",
+			"page": 3,
+			"className": "Artificer",
+			"classSource": "XUA2024Artificer",
+			"level": 9,
+			"entries": [
+				"You gain a feature from your Artificer Subclass."
+			]
+		},
+		{
+			"name": "Magic Item Adept",
+			"source": "XUA2024Artificer",
+			"page": 4,
+			"className": "Artificer",
+			"classSource": "XUA2024Artificer",
+			"level": 10,
+			"entries": [
+				"You've achieved a profound understanding of how to use and make magic items, granting you the following benefits:",
+				{
+					"type": "entries",
+					"entries": [
+						{
+							"type": "entries",
+							"name": "Additional Attunement",
+							"page": 5,
+							"entries": [
+								"You can attune to up to four magic items at once rather than three."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Expanded Replication",
+							"page": 5,
+							"entries": [
+								"When you learn a plan for your {@classFeature Replicate Magic Item|Artificer|XUA2024Artificer|2|XUA2024Artificer} feature, you can now also choose from the {@table Magic Item Plans (Artificer Level 10+)|XUA2024Artificer} table."
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Spell-Storing Item",
+			"source": "XUA2024Artificer",
+			"page": 4,
+			"className": "Artificer",
+			"classSource": "XUA2024Artificer",
+			"level": 11,
+			"entries": [
+				"Whenever you finish a Long Rest, you can touch one Simple or Martial weapon or one item that you can use as a Spellcasting Focus, and you store a spell in it, choosing a level 1, 2, or 3 Artificer spell that has a casting time of an action (you needn't have the spell prepared).",
+				"While holding the object, a creature can take an action to produce the spell's effect from it, using your spellcasting ability modifier. If the spell requires {@status Concentration|XPHB}, the creature must concentrate. The spell stays in the object until it's been used a number of times equal to twice your Intelligence modifier (minimum of twice) or until you use this feature again to store a spell in an object."
+			]
+		},
+		{
+			"name": "Ability Score Improvement",
+			"source": "XUA2024Artificer",
+			"page": 4,
+			"className": "Artificer",
+			"classSource": "XUA2024Artificer",
+			"level": 12,
+			"entries": [
+				"You gain the {@feat Ability Score Improvement|XPHB} feat or another feat of your choice for which you qualify."
+			]
+		},
+		{
+			"name": "Magic Item Savant",
+			"source": "XUA2024Artificer",
+			"page": 4,
+			"className": "Artificer",
+			"classSource": "XUA2024Artificer",
+			"level": 14,
+			"entries": [
+				"Your skill with magic items deepens, granting you the following benefits:",
+				{
+					"type": "entries",
+					"entries": [
+						{
+							"type": "entries",
+							"name": "Additional Attunement",
+							"page": 5,
+							"entries": [
+								"You can attune to up to five magic items at once rather than three."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Expanded Replication",
+							"page": 5,
+							"entries": [
+								"When you learn a plan for your {@classFeature Replicate Magic Item|Artificer|XUA2024Artificer|2|XUA2024Artificer} feature, you can now also choose from the {@table Magic Item Plans (Artificer Level 14+)|XUA2024Artificer} table. You can have no more than three Rare items created by {@classFeature Replicate Magic Item|Artificer|XUA2024Artificer|2|XUA2024Artificer} at a time."
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Subclass feature",
+			"source": "XUA2024Artificer",
+			"page": 3,
+			"className": "Artificer",
+			"classSource": "XUA2024Artificer",
+			"level": 15,
+			"entries": [
+				"You gain a feature from your Artificer Subclass."
+			]
+		},
+		{
+			"name": "Ability Score Improvement",
+			"source": "XUA2024Artificer",
+			"page": 4,
+			"className": "Artificer",
+			"classSource": "XUA2024Artificer",
+			"level": 16,
+			"entries": [
+				"You gain the {@feat Ability Score Improvement|XPHB} feat or another feat of your choice for which you qualify."
+			]
+		},
+		{
+			"name": "Magic Item Master",
+			"source": "XUA2024Artificer",
+			"page": 4,
+			"className": "Artificer",
+			"classSource": "XUA2024Artificer",
+			"level": 18,
+			"entries": [
+				"You can now attune to up to six magic items at once rather than three."
+			]
+		},
+		{
+			"name": "Epic Boon",
+			"source": "XUA2024Artificer",
+			"page": 4,
+			"className": "Artificer",
+			"classSource": "XUA2024Artificer",
+			"level": 19,
+			"entries": [
+				"You gain an Epic Boon feat or another feat of your choice for which you qualify. {@feat Boon of Energy Resistance|XPHB} is recommended."
+			]
+		},
+		{
+			"name": "Soul of Artifice",
+			"source": "XUA2024Artificer",
+			"page": 4,
+			"className": "Artificer",
+			"classSource": "XUA2024Artificer",
+			"level": 20,
+			"entries": [
+				"You have developed a mystical connection to your magic items, which you can draw on for aid. You gain the following benefits:",
+				{
+					"type": "entries",
+					"entries": [
+						{
+							"type": "entries",
+							"name": "Cheat Death",
+							"page": 5,
+							"entries": [
+								"If you're reduced to 0 {@variantrule Hit Points|XPHB} but not killed outright, you can disintegrate one Uncommon or Rare magic item created by your {@classFeature Replicate Magic Item|Artificer|XUA2024Artificer|2|XUA2024Artificer} feature, changing your {@variantrule Hit Points|XPHB} to 20 instead of 0."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Magical Guidance",
+							"page": 5,
+							"entries": [
+								"While you have {@variantrule Attunement|XPHB} to at least one magic item, you can add {@dice 1d6} to any ability check you make. You decide to add the die after rolling the d20, and you can use this benefit only once per turn."
 							]
 						}
 					]
@@ -1281,6 +2342,158 @@
 				[
 					"Starting Equipment",
 					"Choose A or B: (A) {@item Studded Leather Armor|XPHB}, {@item Dagger|XPHB}, {@item Thieves' Tools|XPHB}, {@item Tinker's Tools|XPHB}, {@item Dungeoneer's Pack|XPHB}, and 16 GP; or (B) 150 GP"
+				]
+			]
+		},
+		{
+			"name": "Magic Item Plans (Artificer Level 10+)",
+			"source": "XUA2024Artificer",
+			"page": 4,
+			"colLabels": [
+				"Magic Item Plan",
+				"Attunement"
+			],
+			"colStyles": [
+				"col-9",
+				"col-3 text-center"
+			],
+			"rows": [
+				[
+					"{@filter Uncommon Ring or Wondrous Item that isn't cursed|items|source=|type=wondrous item;ring|rarity=uncommon|category=|miscellaneous=!cursed} (you can learn this option multiple times and must select a different item each time; each item selected counts as a different plan)",
+					"Varies"
+				]
+			]
+		},
+		{
+			"name": "Magic Item Plans (Artificer Level 14+)",
+			"source": "XUA2024Artificer",
+			"page": 4,
+			"colLabels": [
+				"Magic Item Plan",
+				"Attunement"
+			],
+			"colStyles": [
+				"col-9",
+				"col-3 text-center"
+			],
+			"rows": [
+				[
+					"{@filter Rare Armor, Ring, Wand, Weapon, or Wondrous Item that isn't cursed|items|source=|type=wondrous item;simple weapon;wand;ring;light armor;martial weapon;heavy armor;medium armor|rarity=rare|category=|miscellaneous=!cursed} (you can learn this option multiple times and must select a different item each time; each item selected counts as a different plan)",
+					"Varies"
+				]
+			]
+		},
+		{
+			"name": "Magic Item Plans (Artificer Level 2+)",
+			"source": "XUA2024Artificer",
+			"page": 4,
+			"colLabels": [
+				"Magic Item Plan",
+				"Attunement"
+			],
+			"colStyles": [
+				"col-9",
+				"col-3 text-center"
+			],
+			"rows": [
+				[
+					"{@item Alchemy Jug|XDMG}",
+					"No"
+				],
+				[
+					"{@item Bag of Holding|XDMG}",
+					"No"
+				],
+				[
+					"{@item Cap of Water Breathing|XDMG}",
+					"No"
+				],
+				[
+					"{@filter Common magic item that isn't a Potion, a Scroll, or cursed|items|source=|type=!potion;!scroll|rarity=common|category=|miscellaneous=!cursed} (you can learn this option multiple times and must select a different item each time; each item selected counts as a different plan)",
+					"Varies"
+				],
+				[
+					"{@item Goggles of Night|XDMG}",
+					"No"
+				],
+				[
+					"{@item Rope of Climbing|XDMG}",
+					"No"
+				],
+				[
+					"{@item Sending Stones|XDMG}",
+					"No"
+				],
+				[
+					"{@item +1 Shield|XDMG|Shield +1}",
+					"No"
+				],
+				[
+					"{@item Wand of Magic Detection|XDMG}",
+					"No"
+				],
+				[
+					"{@item Wand of Secrets|XDMG}",
+					"No"
+				],
+				[
+					"{@item +1 Wand of the War Mage|XDMG|Wand of the War Mage +1}",
+					"Yes"
+				],
+				[
+					"{@item +1 Weapon|XDMG|Weapon +1}",
+					"No"
+				]
+			]
+		},
+		{
+			"name": "Magic Item Plans (Artificer Level 6+)",
+			"source": "XUA2024Artificer",
+			"page": 4,
+			"colLabels": [
+				"Magic Item Plan",
+				"Attunement"
+			],
+			"colStyles": [
+				"col-9",
+				"col-3 text-center"
+			],
+			"rows": [
+				[
+					"{@item +1 Armor|XDMG|Armor +1}",
+					"No"
+				],
+				[
+					"{@item Boots of Elvenkind|XDMG}",
+					"No"
+				],
+				[
+					"{@item Cloak of Elvenkind|XDMG}",
+					"Yes"
+				],
+				[
+					"{@item Cloak of the Manta Ray|XDMG}",
+					"No"
+				],
+				[
+					"{@item Eyes of Charming|XDMG}",
+					"Yes"
+				],
+				[
+					"{@item Gloves of Thievery|XDMG}",
+					"No"
+				],
+				[
+					"{@item Lantern of Revealing|XDMG}",
+					"No"
+				],
+				[
+					"{@item Pipes of Haunting|XDMG}",
+					"No"
+				],
+				[
+					"{@filter Uncommon Armor, Wand, or Weapon that isn't cursed|items|source=|type=simple weapon;wand;light armor;martial weapon;heavy armor;medium armor|rarity=uncommon|category=|miscellaneous=!cursed} (you can learn this option multiple times and must select a different item each time; each item selected counts as a different plan)",
+					"Varies"
 				]
 			]
 		}
