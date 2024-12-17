@@ -242,6 +242,477 @@
 			]
 		}
 	],
+	"spell": [
+		{
+			"name": "Homunculus Servant",
+			"source": "XUA2024Artificer",
+			"page": 12,
+			"level": 2,
+			"school": "C",
+			"time": [
+				{
+					"number": 1,
+					"unit": "hour"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 10
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": {
+					"text": "a gem or crystal worth 100+ GP, which the spell consumes",
+					"cost": 10000,
+					"consume": true
+				}
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"meta": {
+				"ritual": true
+			},
+			"entries": [
+				"You summon a special homunculus in an unoccupied space within range. This creature uses the {@creature Homunculus Servant|XUA2024Artificer} stat block. If you already have a homunculus from this spell, the homunculus is replaced by the new one.",
+				"You determine the homunculus's appearance, such as a mechanical-looking bird; winged vials; or miniature, animate cauldrons.",
+				{
+					"type": "statblock",
+					"tag": "creature",
+					"source": "XUA2024Artificer",
+					"name": "Homunculus Servant",
+					"page": 13,
+					"collapsed": true
+				},
+				{
+					"type": "entries",
+					"name": "Combat",
+					"entries": [
+						"The homunculus is an ally to you and your allies. In combat, it shares your {@variantrule Initiative|XPHB} count, but it takes its turn immediately after yours. It obeys your commands (no action required by you). If you don't issue any, it takes the {@action Dodge|XPHB} action and uses its movement to avoid danger."
+					]
+				}
+			],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "Using a Higher-Level Spell Slot",
+					"entries": [
+						"Use the spell slot's level for the spell's level in the stat block."
+					]
+				}
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Artificer",
+						"source": "XUA2024Artificer"
+					}
+				]
+			},
+			"miscTags": [
+				"SMN"
+			]
+		}
+	],
+	"item": [
+		{
+			"name": "Boots of the Winding Path",
+			"source": "XUA2024Artificer",
+			"page": 13,
+			"rarity": "uncommon",
+			"reqAttune": true,
+			"wondrous": true,
+			"entries": [
+				"While wearing these boots, you can take a {@variantrule Bonus Action|XPHB} to teleport up to 15 feet to an unoccupied space you can see. You must have occupied that space at some point during the current turn."
+			]
+		},
+		{
+			"name": "Helm of Awareness",
+			"source": "XUA2024Artificer",
+			"page": 13,
+			"rarity": "uncommon",
+			"reqAttune": true,
+			"wondrous": true,
+			"entries": [
+				"While wearing this helmet, you have {@variantrule Advantage|XPHB} on {@variantrule Initiative|XPHB} rolls."
+			]
+		},
+		{
+			"name": "Mind Sharpener",
+			"source": "XUA2024Artificer",
+			"page": 13,
+			"type": "RG|XDMG",
+			"rarity": "uncommon",
+			"reqAttune": true,
+			"recharge": "dawn",
+			"rechargeAmount": "{@dice 1d4}",
+			"charges": 4,
+			"entries": [
+				"The item has 4 charges. When you fail a Constitution saving throw to maintain {@status Concentration|XPHB}, you can take a {@variantrule Reaction|XPHB} and expend 1 of the item's charges to succeed instead. The item regains {@dice 1d4} expended charges daily at dawn."
+			]
+		},
+		{
+			"name": "Repulsion Shield",
+			"source": "XUA2024Artificer",
+			"page": 14,
+			"baseItem": "shield|xphb",
+			"type": "S|XPHB",
+			"rarity": "uncommon",
+			"weight": 6,
+			"ac": 2,
+			"bonusAc": "+1",
+			"recharge": "dawn",
+			"rechargeAmount": "{@dice 1d4}",
+			"charges": 4,
+			"entries": [
+				"You gain a +1 bonus to {@variantrule Armor Class|XPHB} while wielding this shield.",
+				"The shield has 4 charges. While holding it, you can take a {@variantrule Reaction|XPHB} immediately after being hit by a melee attack roll to expend 1 of the shield's charges and push the attacker up to 15 feet away. The shield regains {@dice 1d4} expended charges daily at dawn."
+			]
+		},
+		{
+			"name": "Spell-Refueling Ring",
+			"source": "XUA2024Artificer",
+			"page": 14,
+			"type": "RG|XDMG",
+			"rarity": "uncommon",
+			"reqAttune": "by a spellcaster",
+			"reqAttuneTags": [
+				{
+					"spellcasting": true
+				}
+			],
+			"recharge": "dawn",
+			"entries": [
+				"While wearing this ring, you can recover one expended spell slot as a {@variantrule Bonus Action|XPHB}. The recovered slot can be of level 3 or lower. Once used, the ring can't be used again until the next dawn."
+			]
+		}
+	],
+	"magicvariant": [
+		{
+			"name": "Radiant Weapon",
+			"type": "GV|XDMG",
+			"requires": [
+				{
+					"weaponCategory": "simple"
+				},
+				{
+					"weaponCategory": "martial"
+				}
+			],
+			"inherits": {
+				"namePrefix": "Radiant ",
+				"source": "XUA2024Artificer",
+				"page": 13,
+				"rarity": "rare",
+				"reqAttune": "by a spellcaster",
+				"reqAttuneTags": [
+					{
+						"spellcasting": true
+					}
+				],
+				"bonusWeapon": "+1",
+				"recharge": "dawn",
+				"rechargeAmount": "{@dice 1d4}",
+				"charges": 4,
+				"entries": [
+					"This magic weapon grants a {=bonusWeapon} bonus to attack and damage rolls made with it. While holding it, you can take a {@variantrule Bonus Action|XPHB} to cause it to shed {@variantrule Bright Light|XPHB} in a 30-foot radius and {@variantrule Dim Light|XPHB} for an additional 30 feet. You can extinguish the light as a {@variantrule Bonus Action|XPHB}.",
+					"The weapon has 4 charges. You can take a {@variantrule Reaction|XPHB} immediately after being hit by an attack roll to expend 1 of the weapon's charges and force the attacker to make a {@dc 15} Constitution saving throw. On a failed save, the attacker has the {@condition Blinded|XPHB} condition until the end of its next turn. The weapon regains {@dice 1d4} expended charges daily at dawn."
+				]
+			}
+		},
+		{
+			"name": "Repeating Shot",
+			"type": "GV|XDMG",
+			"requires": [
+				{
+					"weaponCategory": "simple",
+					"property": "A|XPHB"
+				},
+				{
+					"weaponCategory": "martial",
+					"property": "A|XPHB"
+				}
+			],
+			"inherits": {
+				"namePrefix": "Repeating Shot ",
+				"source": "XUA2024Artificer",
+				"page": 14,
+				"rarity": "uncommon",
+				"reqAttune": true,
+				"propertyRemove": [
+					"LD|XPHB"
+				],
+				"bonusWeapon": "+1",
+				"entries": [
+					"This magic weapon grants a {=bonusWeapon} bonus to attack and damage rolls made with it when it's used to make a ranged attack roll, and it ignores {@itemProperty LD|XPHB|Loading} if it has it.",
+					"If the weapon lacks ammunition, it produces its own, automatically creating one piece of magic ammunition when the wielder makes a ranged attack with it. The ammunition created by the weapon vanishes the instant after it hits or misses a target."
+				]
+			}
+		},
+		{
+			"name": "Returning Weapon",
+			"type": "GV|XDMG",
+			"requires": [
+				{
+					"weaponCategory": "simple",
+					"property": "T|XPHB"
+				},
+				{
+					"weaponCategory": "martial",
+					"property": "T|XPHB"
+				}
+			],
+			"inherits": {
+				"namePrefix": "Returning ",
+				"source": "XUA2024Artificer",
+				"page": 14,
+				"rarity": "uncommon",
+				"bonusWeapon": "+1",
+				"entries": [
+					"This magic weapon grants a {=bonusWeapon} bonus to attack and damage rolls made with it, and it returns to your hand immediately after it is used to make a ranged attack roll."
+				]
+			}
+		}
+	],
+	"monster": [
+		{
+			"name": "Homunculus Servant",
+			"source": "XUA2024Artificer",
+			"page": 13,
+			"summonedBySpell": "Homunculus Servant|XUA2024Artificer",
+			"summonedBySpellLevel": 2,
+			"size": [
+				"T"
+			],
+			"type": "construct",
+			"alignment": [
+				"N"
+			],
+			"ac": [
+				13
+			],
+			"hp": {
+				"special": "5 + 5 per spell level (the homunculus has a number of Hit Dice [d4s] equal to the spell's level)"
+			},
+			"speed": {
+				"walk": 20,
+				"fly": 30
+			},
+			"str": 4,
+			"dex": 15,
+			"con": 12,
+			"int": 10,
+			"wis": 10,
+			"cha": 7,
+			"passive": 10,
+			"immune": [
+				"poison"
+			],
+			"conditionImmune": [
+				"exhaustion",
+				"poisoned"
+			],
+			"languages": [
+				"telepathy 1 mile (works only with you)"
+			],
+			"pbNote": "equals your Proficiency Bonus",
+			"trait": [
+				{
+					"name": "Evasion",
+					"entries": [
+						"If the homunculus is subjected to an effect that allows it to make a Dexterity saving throw to take only half damage, the homunculus instead takes no damage if it succeeds on the save and only half damage if it fails. It can't use this trait if it has the {@condition Incapacitated|XPHB} condition."
+					]
+				},
+				{
+					"name": "Magic Bond",
+					"entries": [
+						"Add the spell level to any ability check or saving throw the homunculus makes."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Force Strike",
+					"entries": [
+						"{@atkr m,r} Bonus equals {@hitYourSpellAttack}, reach 5 ft. or range 30 ft. {@h}{@dice 1d6} plus the spell's level of Force damage."
+					]
+				}
+			],
+			"reaction": [
+				{
+					"name": "Channel Magic",
+					"entries": [
+						"{@actTrigger} You cast a spell that has a range of touch while the homunculus is within 120 feet of you. {@actResponse} The homunculus delivers the spell through its touch."
+					]
+				}
+			],
+			"tokenHref": {
+				"type": "external",
+				"url": "https://raw.githubusercontent.com/TheGiddyLimit/unearthed-arcana/master/_img/XUA2024Artificer/tokens/Homunculus Servant.webp"
+			},
+			"languageTags": [
+				"TP"
+			],
+			"miscTags": [
+				"MA",
+				"RA"
+			],
+			"conditionInflict": [
+				"incapacitated"
+			]
+		},
+		{
+			"name": "Steel Defender",
+			"source": "XUA2024Artificer",
+			"page": 12,
+			"summonedByClass": "Artificer|XUA2024Artificer",
+			"size": [
+				"M"
+			],
+			"type": "construct",
+			"ac": [
+				15
+			],
+			"hp": {
+				"special": "5 + five times your Artificer level (the defender has a number of Hit Dice [d8s] equal to your Artificer level)"
+			},
+			"speed": {
+				"walk": 40
+			},
+			"str": 14,
+			"dex": 12,
+			"con": 14,
+			"int": 4,
+			"wis": 10,
+			"cha": 6,
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"passive": 10,
+			"immune": [
+				"poison"
+			],
+			"conditionImmune": [
+				"charmed",
+				"exhaustion",
+				"poisoned"
+			],
+			"languages": [
+				"understands the languages you know"
+			],
+			"pbNote": "equals your Proficiency Bonus",
+			"trait": [
+				{
+					"name": "Steel Bond",
+					"entries": [
+						"Add your Proficiency Bonus to any ability check or saving throw the defender makes."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Force-Empowered Rend",
+					"entries": [
+						"{@atkr m} Bonus equals {@hitYourSpellAttack}, reach 5 ft. {@h}{@dice 1d8 + 2} plus your Intelligence modifier Force damage."
+					]
+				},
+				{
+					"name": "Repair (3/Day)",
+					"entries": [
+						"The defender, or one Construct or object it can see within 5 feet of it, regains a number of {@variantrule Hit Points|XPHB} equal to {@dice 2d8} plus your Intelligence modifier."
+					]
+				}
+			],
+			"reaction": [
+				{
+					"name": "Deflect Attack",
+					"entries": [
+						"{@actTrigger} A creature the defender can see within 5 feet of it makes an attack roll targeting a different creature. {@actResponse} The triggering creature makes the attack roll with {@variantrule Disadvantage|XPHB}."
+					]
+				}
+			],
+			"tokenHref": {
+				"type": "external",
+				"url": "https://raw.githubusercontent.com/TheGiddyLimit/unearthed-arcana/master/_img/XUA2024Artificer/tokens/Steel Defender.webp"
+			},
+			"senseTags": [
+				"D"
+			],
+			"miscTags": [
+				"MA"
+			]
+		}
+	],
+	"object": [
+		{
+			"name": "Eldritch Cannon",
+			"source": "XUA2024Artificer",
+			"page": 10,
+			"size": [
+				"T",
+				"S"
+			],
+			"objectType": "U",
+			"ac": 18,
+			"hp": {
+				"special": "5 × your artificer level (casting {@spell mending|XPHB} on the cannon restores {@dice 2d6} hit points to it"
+			},
+			"immune": [
+				"poison",
+				"psychic"
+			],
+			"entries": [
+				"{@note Created by the {@subclassFeature Eldritch Cannon|Artificer|XUA2024Artificer|Artillerist|XUA2024Artificer|3} subclass feature.}"
+			],
+			"actionEntries": [
+				{
+					"type": "entries",
+					"name": "Activate Cannon (Requires You to be within 60 Feet of the Cannon)",
+					"entries": [
+						"As a {@variantrule Bonus Action|XPHB}, you order the cannon to use the Flamethrower, Force Ballista, or Protector option below; you can direct the cannon to move up to 15 feet before or after that option:",
+						{
+							"type": "list",
+							"style": "list-hang-notitle",
+							"page": 10,
+							"items": [
+								{
+									"type": "item",
+									"name": "Flamethrower",
+									"entries": [
+										"The cannon exhales fire in a 15-foot {@variantrule Cone [Area of Effect]|XPHB|Cone}. Each creature in that area makes a Dexterity saving throw against {@dcYourSpellSave}, taking {@damage 2d8} Fire damage on a failed save or half as much damage on a successful one. Flammable objects in the {@variantrule Cone [Area of Effect]|XPHB|Cone} that aren't being worn or carried start burning."
+									]
+								},
+								{
+									"type": "item",
+									"name": "Force Ballista",
+									"entries": [
+										"Make a ranged spell attack originating from the cannon at one creature or object within 120 feet of it. On a hit, the target takes {@damage 2d8} Force damage, and if the target is a creature, it is pushed up to 5 feet away from the cannon."
+									]
+								},
+								{
+									"type": "item",
+									"name": "Protector",
+									"entries": [
+										"The cannon emits a burst of positive energy that grants itself and each creature of your choice within 10 feet of it a number of {@variantrule Temporary Hit Points|XPHB} equal to {@dice 1d8} plus your Intelligence modifier (minimum of 1)."
+									]
+								}
+							]
+						}
+					]
+				}
+			],
+			"tokenHref": {
+				"type": "external",
+				"url": "https://raw.githubusercontent.com/TheGiddyLimit/unearthed-arcana/master/_img/XUA2024Artificer/tokens/Eldritch Cannon.webp"
+			}
+		}
+	],
 	"table": [
 		{
 			"name": "Artificer Spell List",
