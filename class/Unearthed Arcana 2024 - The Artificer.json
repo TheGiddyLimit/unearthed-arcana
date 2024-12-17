@@ -621,9 +621,247 @@
 			"name": "Artificer",
 			"source": "XUA2024Artificer",
 			"entries": [
-				"{@i A Magical Crafter and an Inventor of Wonders}",
-				"Masters of invention, Artificers use ingenuity and magic to unlock extraordinary capabilities in objects. They see magic as a complex system waiting to be decoded and then harnessed in their spells and inventions. You can find everything you need to play one of these inventors in the next few sections."
+				{
+					"type": "section",
+					"page": 1,
+					"entries": [
+						"{@i A Magical Crafter and an Inventor of Wonders}",
+						"Masters of invention, Artificers use ingenuity and magic to unlock extraordinary capabilities in objects. They see magic as a complex system waiting to be decoded and then harnessed in their spells and inventions. You can find everything you need to play one of these inventors in the next few sections."
+					]
+				}
 			]
+		}
+	],
+	"subclass": [
+		{
+			"name": "Alchemist",
+			"shortName": "Alchemist",
+			"source": "XUA2024Artificer",
+			"className": "Artificer",
+			"classSource": "XUA2024Artificer",
+			"page": 6,
+			"additionalSpells": [
+				{
+					"prepared": {
+						"3": [
+							"Healing Word|XPHB",
+							"Ray of Sickness|XPHB"
+						],
+						"5": [
+							"Flaming Sphere|XPHB",
+							"Melf's Acid Arrow|XPHB"
+						],
+						"9": [
+							"Gaseous Form|XPHB",
+							"Mass Healing Word|XPHB"
+						],
+						"13": [
+							"Death Ward|XPHB",
+							"Vitriolic Sphere|XPHB"
+						],
+						"17": [
+							"Cloudkill|XPHB",
+							"Raise Dead|XPHB"
+						]
+					},
+					"innate": {
+						"9": {
+							"daily": {
+								"1": [
+									"lesser restoration|XPHB"
+								]
+							}
+						},
+						"15": {
+							"daily": {
+								"1": [
+									"Tasha's Bubbling Cauldron|XPHB"
+								]
+							}
+						}
+					}
+				}
+			],
+			"subclassSpells": [
+				"Healing Word|XPHB",
+				"Ray of Sickness|XPHB",
+				"Flaming Sphere|XPHB",
+				"Melf's Acid Arrow|XPHB",
+				"Gaseous Form|XPHB",
+				"Mass Healing Word|XPHB",
+				"Death Ward|XPHB",
+				"Vitriolic Sphere|XPHB",
+				"Cloudkill|XPHB",
+				"Raise Dead|XPHB",
+				"Lesser Restoration|XPHB",
+				"Tasha's Bubbling Cauldron|XPHB"
+			],
+			"subclassFeatures": [
+				"Alchemist|Artificer|XUA2024Artificer|Alchemist|XUA2024Artificer|3|XUA2024Artificer",
+				"Alchemical Savant|Artificer|XUA2024Artificer|Alchemist|XUA2024Artificer|5|XUA2024Artificer",
+				"Restorative Reagents|Artificer|XUA2024Artificer|Alchemist|XUA2024Artificer|9|XUA2024Artificer",
+				"Chemical Mastery|Artificer|XUA2024Artificer|Alchemist|XUA2024Artificer|15|XUA2024Artificer"
+			],
+			"hasFluff": true
+		},
+		{
+			"name": "Armorer",
+			"shortName": "Armorer",
+			"source": "XUA2024Artificer",
+			"className": "Artificer",
+			"classSource": "XUA2024Artificer",
+			"page": 8,
+			"additionalSpells": [
+				{
+					"prepared": {
+						"3": [
+							"Magic Missile|XPHB",
+							"Thunderwave|XPHB"
+						],
+						"5": [
+							"Mirror Image|XPHB",
+							"Shatter|XPHB"
+						],
+						"9": [
+							"Hypnotic Pattern|XPHB",
+							"Lightning Bolt|XPHB"
+						],
+						"13": [
+							"Fire Shield|XPHB",
+							"Greater Invisibility|XPHB"
+						],
+						"17": [
+							"Passwall|XPHB",
+							"Wall of Force|XPHB"
+						]
+					}
+				}
+			],
+			"subclassSpells": [
+				"Magic Missile|XPHB",
+				"Thunderwave|XPHB",
+				"Mirror Image|XPHB",
+				"Shatter|XPHB",
+				"Hypnotic Pattern|XPHB",
+				"Lightning Bolt|XPHB",
+				"Fire Shield|XPHB",
+				"Greater Invisibility|XPHB",
+				"Passwall|XPHB",
+				"Wall of Force|XPHB"
+			],
+			"subclassFeatures": [
+				"Armorer|Artificer|XUA2024Artificer|Armorer|XUA2024Artificer|3|XUA2024Artificer",
+				"Extra Attack|Artificer|XUA2024Artificer|Armorer|XUA2024Artificer|5|XUA2024Artificer",
+				"Armor Replication|Artificer|XUA2024Artificer|Armorer|XUA2024Artificer|9|XUA2024Artificer",
+				"Perfected Armor|Artificer|XUA2024Artificer|Armorer|XUA2024Artificer|15|XUA2024Artificer"
+			],
+			"hasFluff": true
+		},
+		{
+			"name": "Artillerist",
+			"shortName": "Artillerist",
+			"source": "XUA2024Artificer",
+			"className": "Artificer",
+			"classSource": "XUA2024Artificer",
+			"page": 10,
+			"additionalSpells": [
+				{
+					"prepared": {
+						"3": [
+							"Shield|XPHB",
+							"Thunderwave|XPHB"
+						],
+						"5": [
+							"Scorching Ray|XPHB",
+							"Shatter|XPHB"
+						],
+						"9": [
+							"Fireball|XPHB",
+							"Wind Wall|XPHB"
+						],
+						"13": [
+							"Ice Storm|XPHB",
+							"Wall of Fire|XPHB"
+						],
+						"17": [
+							"Cone of Cold|XPHB",
+							"Wall of Force|XPHB"
+						]
+					}
+				}
+			],
+			"subclassSpells": [
+				"Shield|XPHB",
+				"Thunderwave|XPHB",
+				"Scorching Ray|XPHB",
+				"Shatter|XPHB",
+				"Fireball|XPHB",
+				"Wind Wall|XPHB",
+				"Ice Storm|XPHB",
+				"Wall of Fire|XPHB",
+				"Cone of Cold|XPHB",
+				"Wall of Force|XPHB"
+			],
+			"subclassFeatures": [
+				"Artillerist|Artificer|XUA2024Artificer|Artillerist|XUA2024Artificer|3|XUA2024Artificer",
+				"Arcane Firearm|Artificer|XUA2024Artificer|Artillerist|XUA2024Artificer|5|XUA2024Artificer",
+				"Explosive Cannon|Artificer|XUA2024Artificer|Artillerist|XUA2024Artificer|9|XUA2024Artificer",
+				"Fortified Position|Artificer|XUA2024Artificer|Artillerist|XUA2024Artificer|15|XUA2024Artificer"
+			],
+			"hasFluff": true
+		},
+		{
+			"name": "Battle Smith",
+			"shortName": "Battle Smith",
+			"source": "XUA2024Artificer",
+			"className": "Artificer",
+			"classSource": "XUA2024Artificer",
+			"page": 11,
+			"additionalSpells": [
+				{
+					"prepared": {
+						"3": [
+							"Heroism|XPHB",
+							"Shield|XPHB"
+						],
+						"5": [
+							"Shining Smite|XPHB",
+							"Warding Bond|XPHB"
+						],
+						"9": [
+							"Aura of Vitality|XPHB",
+							"Conjure Barrage|XPHB"
+						],
+						"13": [
+							"Aura of Purity|XPHB",
+							"Fire Shield|XPHB"
+						],
+						"17": [
+							"Banishing Smite|XPHB",
+							"Mass Cure Wounds|XPHB"
+						]
+					}
+				}
+			],
+			"subclassSpells": [
+				"Heroism|XPHB",
+				"Shield|XPHB",
+				"Shining Smite|XPHB",
+				"Warding Bond|XPHB",
+				"Aura of Vitality|XPHB",
+				"Conjure Barrage|XPHB",
+				"Aura of Purity|XPHB",
+				"Fire Shield|XPHB",
+				"Banishing Smite|XPHB",
+				"Mass Cure Wounds|XPHB"
+			],
+			"subclassFeatures": [
+				"Battle Smith|Artificer|XUA2024Artificer|Battle Smith|XUA2024Artificer|3|XUA2024Artificer",
+				"Extra Attack|Artificer|XUA2024Artificer|Battle Smith|XUA2024Artificer|5|XUA2024Artificer",
+				"Arcane Jolt|Artificer|XUA2024Artificer|Battle Smith|XUA2024Artificer|9|XUA2024Artificer",
+				"Improved Defender|Artificer|XUA2024Artificer|Battle Smith|XUA2024Artificer|15|XUA2024Artificer"
+			],
+			"hasFluff": true
 		}
 	],
 	"subclassFluff": [
@@ -632,7 +870,7 @@
 			"shortName": "Alchemist",
 			"source": "XUA2024Artificer",
 			"className": "Artificer",
-			"classSource": "PHB",
+			"classSource": "XUA2024Artificer",
 			"entries": [
 				"{@i Craft Magic Elixirs and Potions}",
 				{
@@ -687,7 +925,10 @@
 								}
 							]
 						}
-					]
+					],
+					"data": {
+						"isNoOutline": true
+					}
 				}
 			]
 		},
@@ -696,7 +937,7 @@
 			"shortName": "Armorer",
 			"source": "XUA2024Artificer",
 			"className": "Artificer",
-			"classSource": "PHB",
+			"classSource": "XUA2024Artificer",
 			"entries": [
 				"{@i Craft Magic Armor to Enhance Your Abilities}",
 				{
@@ -743,7 +984,10 @@
 								}
 							]
 						}
-					]
+					],
+					"data": {
+						"isNoOutline": true
+					}
 				}
 			]
 		},
@@ -752,7 +996,7 @@
 			"shortName": "Artillerist",
 			"source": "XUA2024Artificer",
 			"className": "Artificer",
-			"classSource": "PHB",
+			"classSource": "XUA2024Artificer",
 			"entries": [
 				"{@i Wield Destructive Power from Afar}",
 				{
@@ -791,7 +1035,10 @@
 								}
 							]
 						}
-					]
+					],
+					"data": {
+						"isNoOutline": true
+					}
 				}
 			]
 		},
@@ -800,7 +1047,7 @@
 			"shortName": "Battle Smith",
 			"source": "XUA2024Artificer",
 			"className": "Artificer",
-			"classSource": "PHB",
+			"classSource": "XUA2024Artificer",
 			"entries": [
 				"{@i Command a Construct Guardian}",
 				{
@@ -831,7 +1078,10 @@
 								}
 							]
 						}
-					]
+					],
+					"data": {
+						"isNoOutline": true
+					}
 				}
 			]
 		}
@@ -901,7 +1151,7 @@
 							"name": "Tools Required",
 							"page": 2,
 							"entries": [
-								"You produce your Artificer spells through tools. You can use {@item Thieves' Tools|XPHB}, {@item Tinker's Tools|XPHB}, or another kind of {@item Artisan's Tools|XPHB} with which you have proficiency as a Spellcasting Focus, and you must have one of those focuses in hand when you cast an Artificer spell (meaning the spell has an \"M\" component when you cast it)."
+								"You produce your Artificer spells through tools. You can use {@item Thieves' Tools|XPHB}, {@item Tinker's Tools|XPHB}, or another kind of {@item Artisan's Tools|XPHB} with which you have proficiency as a {@variantrule Spellcasting Focus|XPHB}, and you must have one of those focuses in hand when you cast an Artificer spell (meaning the spell has an \"M\" component when you cast it)."
 							]
 						},
 						{
@@ -1179,7 +1429,7 @@
 			"classSource": "XUA2024Artificer",
 			"level": 11,
 			"entries": [
-				"Whenever you finish a Long Rest, you can touch one Simple or Martial weapon or one item that you can use as a Spellcasting Focus, and you store a spell in it, choosing a level 1, 2, or 3 Artificer spell that has a casting time of an action (you needn't have the spell prepared).",
+				"Whenever you finish a Long Rest, you can touch one Simple or Martial weapon or one item that you can use as a {@variantrule Spellcasting Focus|XPHB}, and you store a spell in it, choosing a level 1, 2, or 3 Artificer spell that has a casting time of an action (you needn't have the spell prepared).",
 				"While holding the object, a creature can take an action to produce the spell's effect from it, using your spellcasting ability modifier. If the spell requires {@status Concentration|XPHB}, the creature must concentrate. The spell stays in the object until it's been used a number of times equal to twice your Intelligence modifier (minimum of twice) or until you use this feature again to store a spell in an object."
 			]
 		},
@@ -1296,6 +1546,998 @@
 							"page": 5,
 							"entries": [
 								"While you have {@variantrule Attunement|XPHB} to at least one magic item, you can add {@dice 1d6} to any ability check you make. You decide to add the die after rolling the d20, and you can use this benefit only once per turn."
+							]
+						}
+					]
+				}
+			]
+		}
+	],
+	"subclassFeature": [
+		{
+			"name": "Alchemist",
+			"source": "XUA2024Artificer",
+			"page": 7,
+			"className": "Artificer",
+			"classSource": "XUA2024Artificer",
+			"subclassShortName": "Alchemist",
+			"subclassSource": "XUA2024Artificer",
+			"level": 3,
+			"entries": [
+				"An Alchemist is an expert at combining reagents to produce magical effects. Alchemists use their creations to give life and to leech it away.",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Tool Proficiency|Artificer|XUA2024Artificer|Alchemist|XUA2024Artificer|3|XUA2024Artificer"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Alchemist Spells|Artificer|XUA2024Artificer|Alchemist|XUA2024Artificer|3|XUA2024Artificer"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Experimental Elixir|Artificer|XUA2024Artificer|Alchemist|XUA2024Artificer|3|XUA2024Artificer"
+				}
+			]
+		},
+		{
+			"name": "Alchemist Spells",
+			"source": "XUA2024Artificer",
+			"page": 7,
+			"className": "Artificer",
+			"classSource": "XUA2024Artificer",
+			"subclassShortName": "Alchemist",
+			"subclassSource": "XUA2024Artificer",
+			"level": 3,
+			"entries": [
+				"When you reach an Artificer level specified in the {@table Alchemist Spells|XUA2024Artificer} table, you thereafter always have the listed spells prepared.",
+				{
+					"type": "statblock",
+					"tag": "table",
+					"source": "XUA2024Artificer",
+					"name": "Alchemist Spells",
+					"page": 7
+				}
+			]
+		},
+		{
+			"name": "Experimental Elixir",
+			"source": "XUA2024Artificer",
+			"page": 7,
+			"className": "Artificer",
+			"classSource": "XUA2024Artificer",
+			"subclassShortName": "Alchemist",
+			"subclassSource": "XUA2024Artificer",
+			"level": 3,
+			"entries": [
+				"Whenever you finish a {@variantrule Long Rest|XPHB} while holding {@item Alchemist's Supplies|XPHB}, you can use that tool to magically produce two elixirs. For each elixir, roll on the {@table Experimental Elixir|XUA2024Artificer} table for the elixir's effect, which is triggered when someone drinks the elixir. The elixir appears in a vial, and the vial vanishes when the elixir is drunk or poured out. If any elixir remains when you finish a {@variantrule Long Rest|XPHB}, the elixir and its vial vanish.",
+				{
+					"type": "entries",
+					"name": "Drinking an Elixir",
+					"page": 7,
+					"entries": [
+						"As a {@variantrule Bonus Action|XPHB}, a creature can drink the elixir or administer it to another creature within 5 feet of itself."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Creating Additional Elixirs",
+					"page": 7,
+					"entries": [
+						"As a {@action Magic|XPHB} action while holding {@item Alchemist's Supplies|XPHB}, you can expend one spell slot to create another elixir. When you do so, you choose its effect from the {@table Experimental Elixir|XUA2024Artificer} table rather than rolling. When you reach certain Artificer levels, you can make an additional elixir at the end of each {@variantrule Long Rest|XPHB}: a total of three at level 5, four at level 9, and 5 at level 15."
+					]
+				},
+				{
+					"type": "statblock",
+					"tag": "table",
+					"source": "XUA2024Artificer",
+					"name": "Experimental Elixir",
+					"page": 7
+				}
+			]
+		},
+		{
+			"name": "Tool Proficiency",
+			"source": "XUA2024Artificer",
+			"page": 7,
+			"className": "Artificer",
+			"classSource": "XUA2024Artificer",
+			"subclassShortName": "Alchemist",
+			"subclassSource": "XUA2024Artificer",
+			"level": 3,
+			"entries": [
+				"You gain proficiency with {@item Alchemist's Supplies|XPHB}. If you already have this proficiency, you gain proficiency with one other type of {@item Artisan's Tools|XPHB} of your choice.",
+				"In addition, when you brew a potion using the crafting rules in the {@book Dungeon Master's Guide|XDMG}, the amount of time required to craft it is halved."
+			]
+		},
+		{
+			"name": "Alchemical Savant",
+			"source": "XUA2024Artificer",
+			"page": 7,
+			"className": "Artificer",
+			"classSource": "XUA2024Artificer",
+			"subclassShortName": "Alchemist",
+			"subclassSource": "XUA2024Artificer",
+			"level": 5,
+			"entries": [
+				"Whenever you cast a spell using your {@item Alchemist's Supplies|XPHB} as the {@variantrule Spellcasting Focus|XPHB}, you gain a bonus to one roll of the spell. That roll must restore {@variantrule Hit Points|XPHB} or be a damage roll that deals Acid, Fire, Necrotic, or Poison damage. The bonus equals your Intelligence modifier (minimum bonus of +1)."
+			]
+		},
+		{
+			"name": "Restorative Reagents",
+			"source": "XUA2024Artificer",
+			"page": 7,
+			"className": "Artificer",
+			"classSource": "XUA2024Artificer",
+			"subclassShortName": "Alchemist",
+			"subclassSource": "XUA2024Artificer",
+			"level": 9,
+			"entries": [
+				"You can incorporate restorative reagents into some of your works, granting the following benefits:",
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"page": 7,
+					"items": [
+						{
+							"type": "item",
+							"name": "Fortify",
+							"entries": [
+								"Whenever a creature drinks an elixir you created with the {@table Experimental Elixir|XUA2024Artificer} feature, the creature gains {@variantrule Temporary Hit Points|XPHB} equal to your Intelligence modifier plus your Artificer level."
+							]
+						},
+						{
+							"type": "item",
+							"name": "Restore",
+							"entries": [
+								"You can cast {@spell Lesser Restoration|XPHB} without expending a spell slot and without preparing the spell, provided you use {@item Alchemist's Supplies|XPHB} as the {@variantrule Spellcasting Focus|XPHB}. You can do so a number of times equal to your Intelligence modifier (minimum of once), and you regain all expended uses when you finish a {@variantrule Long Rest|XPHB}."
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Chemical Mastery",
+			"source": "XUA2024Artificer",
+			"page": 8,
+			"className": "Artificer",
+			"classSource": "XUA2024Artificer",
+			"subclassShortName": "Alchemist",
+			"subclassSource": "XUA2024Artificer",
+			"level": 15,
+			"entries": [
+				"You gain the following benefits:",
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"page": 8,
+					"items": [
+						{
+							"type": "item",
+							"name": "Alchemical Eruption",
+							"entries": [
+								"When you cast an Artificer spell that deals Acid, Fire, Necrotic, or Poison damage to a target, you can also deal {@damage 2d8} Force damage to that target. You can use this benefit only once on each of your turns."
+							]
+						},
+						{
+							"type": "item",
+							"name": "Chemical Resistance",
+							"page": 8,
+							"entries": [
+								"You gain {@variantrule Resistance|XPHB} to Acid damage and Poison damage."
+							]
+						},
+						{
+							"type": "item",
+							"name": "Conjured Cauldron",
+							"page": 8,
+							"entries": [
+								"You can cast {@spell Tasha's Bubbling Cauldron|XPHB} without expending a spell slot, without preparing the spell, and without Material components, provided you use {@item Alchemist's Supplies|XPHB} as the {@variantrule Spellcasting Focus|XPHB}. Once you use this feature, you can't use it again until you finish a {@variantrule Long Rest|XPHB}."
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Arcane Armor",
+			"source": "XUA2024Artificer",
+			"page": 8,
+			"className": "Artificer",
+			"classSource": "XUA2024Artificer",
+			"subclassShortName": "Armorer",
+			"subclassSource": "XUA2024Artificer",
+			"level": 3,
+			"entries": [
+				"As a {@action Magic|XPHB} action while you have {@item Smith's Tools|XPHB} in hand, you can turn a suit of armor you are wearing into Arcane Armor. The armor continues to be Arcane Armor until you don another suit of armor or you die.",
+				"You gain the following benefits while wearing your Arcane Armor:",
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"page": 8,
+					"items": [
+						{
+							"type": "item",
+							"name": "No Strength Requirement",
+							"entries": [
+								"If the armor normally has a Strength requirement, the Arcane Armor lacks this requirement for you."
+							]
+						},
+						{
+							"type": "item",
+							"name": "Quick Don and Doff",
+							"entries": [
+								"You can don or doff the armor as a {@action Utilize|XPHB} action."
+							]
+						},
+						{
+							"type": "item",
+							"name": "Second Skin",
+							"entries": [
+								"The armor attaches to you and can't be removed against your will. It also expands to cover your entire body, although you can retract or deploy the helmet as a {@variantrule Bonus Action|XPHB}. The armor replaces missing limbs, functioning identically to a limb it replaces."
+							]
+						},
+						{
+							"type": "item",
+							"name": "Spellcasting Focus",
+							"entries": [
+								"You can use the Arcane Armor as a Spellcasting Focus for your Artificer spells."
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Armor Model",
+			"source": "XUA2024Artificer",
+			"page": 8,
+			"className": "Artificer",
+			"classSource": "XUA2024Artificer",
+			"subclassShortName": "Armorer",
+			"subclassSource": "XUA2024Artificer",
+			"level": 3,
+			"entries": [
+				"You can customize your Arcane Armor. When you do so, choose one of the following armor models: {@subclassFeature Dreadnaught|Artificer|XUA2024Artificer|Armorer|XUA2024Artificer|3|XUA2024Artificer}, {@subclassFeature Guardian|XUA2024Artificer|Armorer|XUA2024Artificer|3|XUA2024Artificer}, or {@subclassFeature Infiltrator|XUA2024Artificer|Armorer|XUA2024Artificer|3|XUA2024Artificer}. The model you choose gives you special benefits while you wear it.",
+				"Each model includes a special weapon. When you attack with that weapon, you can add your Intelligence modifier, instead of Strength or Dexterity modifier, to the attack and damage rolls.",
+				"You can change the armor's model whenever you finish a {@variantrule Short Rest|XPHB|Short} or {@variantrule Long Rest|XPHB} if you have {@item Smith's Tools|XPHB} in hand.",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Dreadnaught|Artificer|XUA2024Artificer|Armorer|XUA2024Artificer|3|XUA2024Artificer"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Guardian|Artificer|XUA2024Artificer|Armorer|XUA2024Artificer|3|XUA2024Artificer"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Infiltrator|Artificer|XUA2024Artificer|Armorer|XUA2024Artificer|3|XUA2024Artificer"
+				}
+			]
+		},
+		{
+			"name": "Armorer",
+			"source": "XUA2024Artificer",
+			"page": 8,
+			"className": "Artificer",
+			"classSource": "XUA2024Artificer",
+			"subclassShortName": "Armorer",
+			"subclassSource": "XUA2024Artificer",
+			"level": 3,
+			"entries": [
+				"An Artificer who specializes as an Armorer modifies armor to function almost like a second skin. The armor is enhanced to hone the Artificer's magic, unleash potent attacks, and generate a formidable defense.",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Tools of the Trade|Artificer|XUA2024Artificer|Armorer|XUA2024Artificer|3|XUA2024Artificer"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Armorer Spells|Artificer|XUA2024Artificer|Armorer|XUA2024Artificer|3|XUA2024Artificer"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Arcane Armor|Artificer|XUA2024Artificer|Armorer|XUA2024Artificer|3|XUA2024Artificer"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Armor Model|Artificer|XUA2024Artificer|Armorer|XUA2024Artificer|3|XUA2024Artificer"
+				}
+			]
+		},
+		{
+			"name": "Armorer Spells",
+			"source": "XUA2024Artificer",
+			"page": 8,
+			"className": "Artificer",
+			"classSource": "XUA2024Artificer",
+			"subclassShortName": "Armorer",
+			"subclassSource": "XUA2024Artificer",
+			"level": 3,
+			"entries": [
+				"When you reach an Artificer level specified in the {@table Armorer Spells|XUA2024Artificer} table, you thereafter always have the listed spells prepared.",
+				{
+					"type": "statblock",
+					"tag": "table",
+					"source": "XUA2024Artificer",
+					"name": "Armorer Spells",
+					"page": 8
+				}
+			]
+		},
+		{
+			"name": "Dreadnaught",
+			"source": "XUA2024Artificer",
+			"page": 9,
+			"className": "Artificer",
+			"classSource": "XUA2024Artificer",
+			"subclassShortName": "Armorer",
+			"subclassSource": "XUA2024Artificer",
+			"level": 3,
+			"entries": [
+				"You design your armor to become a towering juggernaut in battle. It has the following features:",
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"page": 9,
+					"items": [
+						{
+							"type": "item",
+							"name": "Armor Flail",
+							"entries": [
+								"An iron ball on a chain appears on one of your armor's gauntlets and has the following traits:",
+								{
+									"type": "list",
+									"style": "list-hang-notitle",
+									"page": 9,
+									"items": [
+										{
+											"type": "item",
+											"name": "Weapon Category:",
+											"entries": [
+												"Simple Melee"
+											]
+										},
+										{
+											"type": "item",
+											"name": "Damage on a Hit:",
+											"entries": [
+												"{@damage 1d10} Bludgeoning plus the ability modifier used for the attack roll"
+											]
+										},
+										{
+											"type": "item",
+											"name": "Properties:",
+											"entries": [
+												"{@itemProperty R|XPHB|Reach}"
+											]
+										}
+									]
+								}
+							]
+						},
+						{
+							"type": "item",
+							"name": "Giant Stature",
+							"entries": [
+								"As a {@variantrule Bonus Action|XPHB}, you transform and enlarge your armor for 1 minute. For the duration, your reach increases by 5 feet, and if you are smaller than Large, you become Large, along with anything you are wearing. If there isn't enough room for you to increase your size, your size doesn't change. You can use this {@variantrule Bonus Action|XPHB} a number of times equal to your Intelligence modifier (minimum of once). You regain all expended uses when you finish a {@variantrule Long Rest|XPHB}."
+							]
+						},
+						{
+							"type": "item",
+							"name": "Wrecking Ball",
+							"entries": [
+								"If you hit a creature that is at least one size smaller than you with the flail, you can push the creature up to 10 feet straight away from yourself or pull the creature up to 10 feet toward yourself."
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Guardian",
+			"source": "XUA2024Artificer",
+			"page": 9,
+			"className": "Artificer",
+			"classSource": "XUA2024Artificer",
+			"subclassShortName": "Armorer",
+			"subclassSource": "XUA2024Artificer",
+			"level": 3,
+			"entries": [
+				"You design your armor to be in the front line of conflict. It has the following features:",
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"page": 9,
+					"items": [
+						{
+							"type": "item",
+							"name": "Thunder Gauntlets",
+							"entries": [
+								"Each of the armor's gauntlets has the following traits:",
+								{
+									"type": "list",
+									"style": "list-hang-notitle",
+									"page": 9,
+									"items": [
+										{
+											"type": "item",
+											"name": "Weapon Category:",
+											"entries": [
+												"Simple Melee"
+											]
+										},
+										{
+											"type": "item",
+											"name": "Damage on a Hit:",
+											"entries": [
+												"{@damage 1d8} Thunder plus the ability modifier used for the attack roll"
+											]
+										}
+									]
+								}
+							]
+						},
+						{
+							"type": "item",
+							"name": "Distracting Pulse",
+							"entries": [
+								"A creature hit by the gauntlet has {@variantrule Disadvantage|XPHB} on attack rolls against targets other than you until the start of your next turn."
+							]
+						},
+						{
+							"type": "item",
+							"name": "Defensive Field",
+							"entries": [
+								"While you are {@variantrule Bloodied|XPHB}, you can take a {@variantrule Bonus Action|XPHB} to gain {@variantrule Temporary Hit Points|XPHB} equal to your Artificer level. You lose these {@variantrule Temporary Hit Points|XPHB} if you doff the armor."
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Infiltrator",
+			"source": "XUA2024Artificer",
+			"page": 9,
+			"className": "Artificer",
+			"classSource": "XUA2024Artificer",
+			"subclassShortName": "Armorer",
+			"subclassSource": "XUA2024Artificer",
+			"level": 3,
+			"entries": [
+				"You customize your armor for subtle undertakings. It has the following features:",
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"page": 9,
+					"items": [
+						{
+							"type": "item",
+							"name": "Lightning Launcher",
+							"entries": [
+								"A gemlike node appears on one of the armor's gauntlets or on the armor's chest (your choice). It has the following traits:",
+								{
+									"type": "list",
+									"style": "list-hang-notitle",
+									"page": 9,
+									"items": [
+										{
+											"type": "item",
+											"name": "Weapon Category:",
+											"entries": [
+												"Simple Ranged"
+											]
+										},
+										{
+											"type": "item",
+											"name": "Damage on a Hit:",
+											"entries": [
+												"{@damage 1d6} Lightning plus the ability modifier used for the attack roll"
+											]
+										},
+										{
+											"type": "item",
+											"name": "Properties:",
+											"entries": [
+												"{@itemProperty T|XPHB|Thrown} (Range 90/300 feet)"
+											]
+										}
+									]
+								}
+							]
+						},
+						{
+							"type": "item",
+							"name": "Lightning Jolt",
+							"entries": [
+								"Once on each of your turns when you hit a creature with your Lightning Launcher, you can deal an extra {@damage 1d6} Lightning damage to that target."
+							]
+						},
+						{
+							"type": "item",
+							"name": "Powered Steps",
+							"entries": [
+								"Your {@variantrule Speed|XPHB} increases by 5 feet."
+							]
+						},
+						{
+							"type": "item",
+							"name": "Dampening Field",
+							"entries": [
+								"You have {@variantrule Advantage|XPHB} on Dexterity ({@skill Stealth|XPHB}) checks. If the armor normally imposes {@variantrule Disadvantage|XPHB} on such checks, the {@variantrule Advantage|XPHB} and {@variantrule Disadvantage|XPHB} cancel each other, as normal."
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Tools of the Trade",
+			"source": "XUA2024Artificer",
+			"page": 8,
+			"className": "Artificer",
+			"classSource": "XUA2024Artificer",
+			"subclassShortName": "Armorer",
+			"subclassSource": "XUA2024Artificer",
+			"level": 3,
+			"entries": [
+				"You gain training with Heavy armor. You also gain proficiency with {@item Smith's Tools|XPHB}. If you already have this tool proficiency, you gain proficiency with one other type of {@item Artisan's Tools|XPHB} of your choice.",
+				"In addition, when you craft nonmagical or magic armor, the amount of time required to craft it is halved."
+			]
+		},
+		{
+			"name": "Extra Attack",
+			"source": "XUA2024Artificer",
+			"page": 9,
+			"className": "Artificer",
+			"classSource": "XUA2024Artificer",
+			"subclassShortName": "Armorer",
+			"subclassSource": "XUA2024Artificer",
+			"level": 5,
+			"entries": [
+				"You can attack twice instead of once whenever you take the {@action Attack|XPHB} action on your turn."
+			]
+		},
+		{
+			"name": "Armor Replication",
+			"source": "XUA2024Artificer",
+			"page": 9,
+			"className": "Artificer",
+			"classSource": "XUA2024Artificer",
+			"subclassShortName": "Armorer",
+			"subclassSource": "XUA2024Artificer",
+			"level": 9,
+			"entries": [
+				"You learn an additional plan for your {@classFeature Replicate Magic Item|Artificer|XUA2024Artificer|2|XUA2024Artificer} feature, and it must be in the Armor category. If you replace that plan, you must replace it with another Armor plan.",
+				"In addition, you can create an additional item with that feature, and the item must also be in the Armor category."
+			]
+		},
+		{
+			"name": "Perfected Armor",
+			"source": "XUA2024Artificer",
+			"page": 9,
+			"className": "Artificer",
+			"classSource": "XUA2024Artificer",
+			"subclassShortName": "Armorer",
+			"subclassSource": "XUA2024Artificer",
+			"level": 15,
+			"entries": [
+				"Your Arcane Armor gains additional benefits based on its model, as detailed below.",
+				{
+					"type": "entries",
+					"entries": [
+						{
+							"type": "entries",
+							"name": "Dreadnaught",
+							"page": 9,
+							"entries": [
+								"The damage die of your Armor Flail increases to {@damage 2d6} Bludgeoning damage.",
+								"In addition, when you use your Giant Stature, your reach increases by 10 feet, your size can increase to Large or Huge (your choice), and you gain a {@variantrule Fly Speed|XPHB} equal to your Speed."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Guardian",
+							"page": 9,
+							"entries": [
+								"The damage die of your Thunder Gauntlets increases to {@damage 1d10} Thunder damage.",
+								"In addition, when a Huge or smaller creature you can see ends its turn within 30 feet of you, you can take a {@variantrule Reaction|XPHB} to magically force that creature to make a Strength saving throw against your spell save DC. On a failed save, you pull the creature up to 25 feet directly to an unoccupied space. If you pull the target to a space within 5 feet of yourself, you can make a melee weapon attack against it as part of this {@variantrule Reaction|XPHB}. You can take this {@variantrule Reaction|XPHB} a number of times equal to your Intelligence modifier (minimum of once), and you regain all expended uses when you finish a {@variantrule Long Rest|XPHB}."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Infiltrator",
+							"page": 10,
+							"entries": [
+								"The damage die of your Lightning Launcher increases to {@damage 2d6}. Any creature that takes Lightning damage from your Lightning Launcher glimmers with magical light until the start of your next turn. The glimmering creature sheds {@variantrule Dim Light|XPHB} in a 5-foot radius, and it has {@variantrule Disadvantage|XPHB} on attack rolls against you, as the light jolts it if it attacks you."
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Artillerist",
+			"source": "XUA2024Artificer",
+			"page": 10,
+			"className": "Artificer",
+			"classSource": "XUA2024Artificer",
+			"subclassShortName": "Artillerist",
+			"subclassSource": "XUA2024Artificer",
+			"level": 3,
+			"entries": [
+				"An Artillerist specializes in using magic to hurl energy, projectiles, and explosions on a battlefield.",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Tool Proficiency|Artificer|XUA2024Artificer|Artillerist|XUA2024Artificer|3|XUA2024Artificer"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Artillerist Spells|Artificer|XUA2024Artificer|Artillerist|XUA2024Artificer|3|XUA2024Artificer"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Eldritch Cannon|Artificer|XUA2024Artificer|Artillerist|XUA2024Artificer|3|XUA2024Artificer"
+				}
+			]
+		},
+		{
+			"name": "Artillerist Spells",
+			"source": "XUA2024Artificer",
+			"page": 10,
+			"className": "Artificer",
+			"classSource": "XUA2024Artificer",
+			"subclassShortName": "Artillerist",
+			"subclassSource": "XUA2024Artificer",
+			"level": 3,
+			"entries": [
+				"When you reach an Artificer level specified in the {@table Artillerist Spells|XUA2024Artificer} table, you thereafter always have the listed spells prepared.",
+				{
+					"type": "statblock",
+					"tag": "table",
+					"source": "XUA2024Artificer",
+					"name": "Artillerist Spells",
+					"page": 10
+				}
+			]
+		},
+		{
+			"name": "Eldritch Cannon",
+			"source": "XUA2024Artificer",
+			"page": 10,
+			"className": "Artificer",
+			"classSource": "XUA2024Artificer",
+			"subclassShortName": "Artillerist",
+			"subclassSource": "XUA2024Artificer",
+			"level": 3,
+			"entries": [
+				"Using {@item Woodcarver's Tools|XPHB} or {@item Smith's Tools|XPHB}, you can take a {@action Magic|XPHB} action to create a Small or Tiny {@object Eldritch Cannon|XUA2024Artificer} in an unoccupied space on a horizontal surface within 5 feet of yourself. The cannon's game statistics appear below. You determine its appearance, which includes your choice of legs or wheels. It disappears if it is reduced to 0 Hit Points or after 1 hour. You can dismiss it early as a {@action Magic|XPHB} action.",
+				"Once you create a cannon, you can't do so again until you finish a {@variantrule Long Rest|XPHB} or expend a spell slot to create one. You can have only one cannon at a time and can't create one while your cannon is present.",
+				{
+					"type": "statblock",
+					"tag": "object",
+					"source": "XUA2024Artificer",
+					"name": "Eldritch Cannon",
+					"page": 10,
+					"collapsed": true
+				}
+			]
+		},
+		{
+			"name": "Tool Proficiency",
+			"source": "XUA2024Artificer",
+			"page": 10,
+			"className": "Artificer",
+			"classSource": "XUA2024Artificer",
+			"subclassShortName": "Artillerist",
+			"subclassSource": "XUA2024Artificer",
+			"level": 3,
+			"entries": [
+				"You gain proficiency with {@item Woodcarver's Tools|XPHB}. If you already have this proficiency, you gain proficiency with one other type of {@item Artisan's Tools|XPHB} of your choice.",
+				"In addition, when you craft a magic {@item Wand|XPHB}, the amount of time required to craft it is halved."
+			]
+		},
+		{
+			"name": "Arcane Firearm",
+			"source": "XUA2024Artificer",
+			"page": 10,
+			"className": "Artificer",
+			"classSource": "XUA2024Artificer",
+			"subclassShortName": "Artillerist",
+			"subclassSource": "XUA2024Artificer",
+			"level": 5,
+			"entries": [
+				"When you finish a {@variantrule Long Rest|XPHB}, you can use {@item Woodcarver's Tools|XPHB} to carve special sigils into a {@item Rod|XPHB}, {@item Staff|XPHB}, or {@item Wand|XPHB} and thereby turn it into your arcane firearm. The sigils disappear from the object if you later carve them on a different item. The sigils otherwise last indefinitely.",
+				"You can use your arcane firearm as a {@variantrule Spellcasting Focus|XPHB} for your Artificer spells. When you cast an Artificer spell through the firearm, roll {@damage 1d8}, and you gain a bonus to one of the spell's damage rolls equal to the number rolled."
+			]
+		},
+		{
+			"name": "Explosive Cannon",
+			"source": "XUA2024Artificer",
+			"page": 11,
+			"className": "Artificer",
+			"classSource": "XUA2024Artificer",
+			"subclassShortName": "Artillerist",
+			"subclassSource": "XUA2024Artificer",
+			"level": 9,
+			"entries": [
+				"Every {@object Eldritch Cannon|XUA2024Artificer} you create is now more destructive. You gain the following benefits:",
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"page": 11,
+					"items": [
+						{
+							"type": "item",
+							"name": "Detonate",
+							"entries": [
+								"When your cannon is reduced to 0 Hit Points, you can take a {@variantrule Reaction|XPHB} to command the cannon to detonate if you are within 60 feet of it. Doing so destroys the cannon and forces each creature within 20 feet of it to make a Dexterity saving throw against your spell save DC, taking {@damage 3d10} Force damage on a failed save or half as much damage on a successful one."
+							]
+						},
+						{
+							"type": "item",
+							"name": "Firepower",
+							"entries": [
+								"The cannon's damage rolls increase by {@damage 1d8}."
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Fortified Position",
+			"source": "XUA2024Artificer",
+			"page": 10,
+			"className": "Artificer",
+			"classSource": "XUA2024Artificer",
+			"subclassShortName": "Artillerist",
+			"subclassSource": "XUA2024Artificer",
+			"level": 15,
+			"entries": [
+				"You're a master at forming well-defended emplacements using your {@object Eldritch Cannon|XUA2024Artificer}. You gain the following benefits:",
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"page": 11,
+					"items": [
+						{
+							"type": "item",
+							"name": "Double Firepower",
+							"entries": [
+								"You can now have two cannons at the same time. You can create two with the same {@action Magic|XPHB} action (but not with the same spell slot), and you can activate both of them with the same {@variantrule Bonus Action|XPHB}, ordering them to use the same activation option or different ones. You can't create a third cannon while you have two."
+							]
+						},
+						{
+							"type": "item",
+							"name": "Shimmering Field Projection",
+							"entries": [
+								"You and your allies have {@variantrule Cover|XPHB|Half Cover} while within 10 feet of your {@object Eldritch Cannon|XUA2024Artificer}."
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Battle Ready",
+			"source": "XUA2024Artificer",
+			"page": 11,
+			"className": "Artificer",
+			"classSource": "XUA2024Artificer",
+			"subclassShortName": "Battle Smith",
+			"subclassSource": "XUA2024Artificer",
+			"level": 3,
+			"entries": [
+				"Your combat training and your experiments with magic have paid off in two ways:",
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"page": 11,
+					"items": [
+						{
+							"type": "item",
+							"name": "Arcane Empowerment",
+							"entries": [
+								"When you attack with a magic weapon, you can use your Intelligence modifier, instead of Strength or Dexterity modifier, for the attack and damage rolls."
+							]
+						},
+						{
+							"type": "item",
+							"name": "Weapon Knowledge",
+							"entries": [
+								"You gain proficiency with Martial weapons."
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Battle Smith",
+			"source": "XUA2024Artificer",
+			"page": 11,
+			"className": "Artificer",
+			"classSource": "XUA2024Artificer",
+			"subclassShortName": "Battle Smith",
+			"subclassSource": "XUA2024Artificer",
+			"level": 3,
+			"entries": [
+				"An Battle Smith is an expert at combining reagents to produce magical effects. Battle Smiths use their creations to give life and to leech it away.",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Tool Proficiency|Artificer|XUA2024Artificer|Battle Smith|XUA2024Artificer|3|XUA2024Artificer"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Battle Smith Spells|Artificer|XUA2024Artificer|Battle Smith|XUA2024Artificer|3|XUA2024Artificer"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Battle Ready|Artificer|XUA2024Artificer|Battle Smith|XUA2024Artificer|3|XUA2024Artificer"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Steel Defender|Artificer|XUA2024Artificer|Battle Smith|XUA2024Artificer|3|XUA2024Artificer"
+				}
+			]
+		},
+		{
+			"name": "Battle Smith Spells",
+			"source": "XUA2024Artificer",
+			"page": 11,
+			"className": "Artificer",
+			"classSource": "XUA2024Artificer",
+			"subclassShortName": "Battle Smith",
+			"subclassSource": "XUA2024Artificer",
+			"level": 3,
+			"entries": [
+				"When you reach an Artificer level specified in the {@table Battle Smith Spells|XUA2024Artificer} table, you thereafter always have the listed spells prepared.",
+				{
+					"type": "statblock",
+					"tag": "table",
+					"source": "XUA2024Artificer",
+					"name": "Battle Smith Spells",
+					"page": 11
+				}
+			]
+		},
+		{
+			"name": "Steel Defender",
+			"source": "XUA2024Artificer",
+			"page": 11,
+			"className": "Artificer",
+			"classSource": "XUA2024Artificer",
+			"subclassShortName": "Battle Smith",
+			"subclassSource": "XUA2024Artificer",
+			"level": 3,
+			"entries": [
+				"Your tinkering has borne you a companion, a {@creature Steel Defender|XUA2024Artificer} (see the stat block). You determine the defender's appearance and whether it has two legs or four; your choices don't affect the defender's game statistics.",
+				"The {@creature Steel Defender|XUA2024Artificer} is Friendly to you and your allies and obeys you. It vanishes if you die.",
+				{
+					"type": "entries",
+					"name": "The Defender in Combat",
+					"page": 11,
+					"entries": [
+						"In combat, the defender acts during your turn. It can move and take its {@variantrule Reaction|XPHB} on its own, but the only action it takes is the {@action Dodge|XPHB} action unless you take a {@variantrule Bonus Action|XPHB} to command it to take an action. If you have the {@condition Incapacitated|XPHB} condition, the defender acts on its own and isn't limited to the {@action Dodge|XPHB} action."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Restoring or Replacing the Defender",
+					"page": 12,
+					"entries": [
+						"If the defender has died within the last hour, you can take a {@action Magic|XPHB} action to touch it and expend a spell slot. The defender returns to life after 1 minute with all its Hit Points restored.",
+						"Whenever you finish a {@variantrule Long Rest|XPHB}, you can create a new {@creature Steel Defender|XUA2024Artificer} if you have {@item Smith's Tools|XPHB} in hand. If you already have a defender from this feature, the first one vanishes."
+					]
+				},
+				{
+					"type": "statblock",
+					"tag": "creature",
+					"source": "XUA2024Artificer",
+					"name": "Steel Defender",
+					"page": 12,
+					"collapsed": true
+				}
+			]
+		},
+		{
+			"name": "Tool Proficiency",
+			"source": "XUA2024Artificer",
+			"page": 11,
+			"className": "Artificer",
+			"classSource": "XUA2024Artificer",
+			"subclassShortName": "Battle Smith",
+			"subclassSource": "XUA2024Artificer",
+			"level": 3,
+			"entries": [
+				"You gain proficiency with {@item Smith's Tools|XPHB}. If you already have this proficiency, you gain proficiency with one other type of {@item Artisan's Tools|PHB} of your choice.",
+				"In addition, when you craft an ordinary or magic weapon, the amount of time required to craft it is halved."
+			]
+		},
+		{
+			"name": "Extra Attack",
+			"source": "XUA2024Artificer",
+			"page": 12,
+			"className": "Artificer",
+			"classSource": "XUA2024Artificer",
+			"subclassShortName": "Battle Smith",
+			"subclassSource": "XUA2024Artificer",
+			"level": 5,
+			"entries": [
+				"You can attack twice instead of once whenever you take the {@action Attack|XPHB} action on your turn."
+			]
+		},
+		{
+			"name": "Arcane Jolt",
+			"source": "XUA2024Artificer",
+			"page": 12,
+			"className": "Artificer",
+			"classSource": "XUA2024Artificer",
+			"subclassShortName": "Battle Smith",
+			"subclassSource": "XUA2024Artificer",
+			"level": 9,
+			"entries": [
+				"When either you hit a target with an attack roll using a magic weapon or your {@creature Steel Defender|XUA2024Artificer} hits a target, you can channel magical energy through the strike to create one of the following effects:",
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"page": 12,
+					"items": [
+						{
+							"type": "item",
+							"name": "Destructive Energy",
+							"entries": [
+								"The target takes an extra {@damage 2d6} Force damage."
+							]
+						},
+						{
+							"type": "item",
+							"name": "Restorative Energy",
+							"entries": [
+								"Choose one creature or object you can see within 30 feet of the target. Healing energy flows into the chosen recipient, restoring {@dice 2d6} Hit Points to it."
+							]
+						}
+					]
+				},
+				"You can use this energy a number of times equal to your Intelligence modifier (minimum of once), but you can do so no more than once a turn. You regain all expended uses when you finish a {@variantrule Long Rest|XPHB}."
+			]
+		},
+		{
+			"name": "Improved Defender",
+			"source": "XUA2024Artificer",
+			"page": 12,
+			"className": "Artificer",
+			"classSource": "XUA2024Artificer",
+			"subclassShortName": "Battle Smith",
+			"subclassSource": "XUA2024Artificer",
+			"level": 15,
+			"entries": [
+				"Your {@subclassFeature Arcane Jolt|Artificer|XUA2024Artificer|Battle Smith|XUA2024Artificer|9|XUA2024Artificer} and {@creature Steel Defender|XUA2024Artificer} have become more powerful, granting these benefits:",
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"page": 12,
+					"items": [
+						{
+							"type": "item",
+							"name": "Improved Jolt",
+							"entries": [
+								"The extra damage and healing of your {@subclassFeature Arcane Jolt|Artificer|XUA2024Artificer|Battle Smith|XUA2024Artificer|9|XUA2024Artificer} both increase to {@dice 4d6}."
+							]
+						},
+						{
+							"type": "item",
+							"name": "Fortified Defender",
+							"entries": [
+								"Your {@creature Steel Defender|XUA2024Artificer} gains a +2 bonus to {@variantrule Armor Class|XPHB}."
+							]
+						},
+						{
+							"type": "item",
+							"name": "Improved Deflection",
+							"entries": [
+								"Whenever your {@creature Steel Defender|XUA2024Artificer} uses its Deflect Attack, the attacker takes Force damage equal to {@damage 1d4} plus your Intelligence modifier."
 							]
 						}
 					]
@@ -1775,6 +3017,76 @@
 		}
 	],
 	"table": [
+		{
+			"name": "Alchemist Spells",
+			"source": "XUA2024Artificer",
+			"page": 7,
+			"colLabels": [
+				"Artificer Level",
+				"Spells"
+			],
+			"colStyles": [
+				"col-3 text-center",
+				"col-9"
+			],
+			"rows": [
+				[
+					"3",
+					"{@spell Healing Word|XPHB}, {@spell Ray of Sickness|XPHB}"
+				],
+				[
+					"5",
+					"{@spell Flaming Sphere|XPHB}, {@spell Melf's Acid Arrow|XPHB}"
+				],
+				[
+					"9",
+					"{@spell Gaseous Form|XPHB}, {@spell Mass Healing Word|XPHB}"
+				],
+				[
+					"13",
+					"{@spell Death Ward|XPHB}, {@spell Vitriolic Sphere|XPHB}"
+				],
+				[
+					"17",
+					"{@spell Cloudkill|XPHB}, {@spell Raise Dead|XPHB}"
+				]
+			]
+		},
+		{
+			"name": "Armorer Spells",
+			"source": "XUA2024Artificer",
+			"page": 8,
+			"colLabels": [
+				"Artificer Level",
+				"Spells"
+			],
+			"colStyles": [
+				"col-3 text-center",
+				"col-9"
+			],
+			"rows": [
+				[
+					"3",
+					"{@spell Magic Missile|XPHB}, {@spell Thunderwave|XPHB}"
+				],
+				[
+					"5",
+					"{@spell Mirror Image|XPHB}, {@spell Shatter|XPHB}"
+				],
+				[
+					"9",
+					"{@spell Hypnotic Pattern|XPHB}, {@spell Lightning Bolt|XPHB}"
+				],
+				[
+					"13",
+					"{@spell Fire Shield|XPHB}, {@spell Greater Invisibility|XPHB}"
+				],
+				[
+					"17",
+					"{@spell Passwall|XPHB}, {@spell Wall of Force|XPHB}"
+				]
+			]
+		},
 		{
 			"name": "Artificer Spell List",
 			"source": "XUA2024Artificer",
@@ -2303,6 +3615,76 @@
 			]
 		},
 		{
+			"name": "Artillerist Spells",
+			"source": "XUA2024Artificer",
+			"page": 10,
+			"colLabels": [
+				"Artificer Level",
+				"Spells"
+			],
+			"colStyles": [
+				"col-3 text-center",
+				"col-9"
+			],
+			"rows": [
+				[
+					"3",
+					"{@spell Shield|XPHB}, {@spell Thunderwave|XPHB}"
+				],
+				[
+					"5",
+					"{@spell Scorching Ray|XPHB}, {@spell Shatter|XPHB}"
+				],
+				[
+					"9",
+					"{@spell Fireball|XPHB}, {@spell Wind Wall|XPHB}"
+				],
+				[
+					"13",
+					"{@spell Ice Storm|XPHB}, {@spell Wall of Fire|XPHB}"
+				],
+				[
+					"17",
+					"{@spell Cone of Cold|XPHB}, {@spell Wall of Force|XPHB}"
+				]
+			]
+		},
+		{
+			"name": "Battle Smith Spells",
+			"source": "XUA2024Artificer",
+			"page": 11,
+			"colLabels": [
+				"Artificer Level",
+				"Spells"
+			],
+			"colStyles": [
+				"col-3 text-center",
+				"col-9"
+			],
+			"rows": [
+				[
+					"3",
+					"{@spell Heroism|XPHB}, {@spell Shield|XPHB}"
+				],
+				[
+					"5",
+					"{@spell Shining Smite|XPHB}, {@spell Warding Bond|XPHB}"
+				],
+				[
+					"9",
+					"{@spell Aura of Vitality|XPHB}, {@spell Conjure Barrage|XPHB}"
+				],
+				[
+					"13",
+					"{@spell Aura of Purity|XPHB}, {@spell Fire Shield|XPHB}"
+				],
+				[
+					"17",
+					"{@spell Banishing Smite|XPHB}, {@spell Mass Cure Wounds|XPHB}"
+				]
+			]
+		},
+		{
 			"name": "Core Artificer Traits",
 			"source": "XUA2024Artificer",
 			"page": 1,
@@ -2342,6 +3724,45 @@
 				[
 					"Starting Equipment",
 					"Choose A or B: (A) {@item Studded Leather Armor|XPHB}, {@item Dagger|XPHB}, {@item Thieves' Tools|XPHB}, {@item Tinker's Tools|XPHB}, {@item Dungeoneer's Pack|XPHB}, and 16 GP; or (B) 150 GP"
+				]
+			]
+		},
+		{
+			"name": "Experimental Elixir",
+			"source": "XUA2024Artificer",
+			"page": 7,
+			"colLabels": [
+				"D6",
+				"Effect"
+			],
+			"colStyles": [
+				"col-2 text-center",
+				"col-10"
+			],
+			"rows": [
+				[
+					"1",
+					"{@b Healing.} The drinker regains a number of {@variantrule Hit Points|XPHB} equal to {@dice 2d8} plus your Intelligence modifier."
+				],
+				[
+					"2",
+					"{@b Swiftness.} The drinker's {@variantrule Speed|XPHB} increases by 10 feet for 1 hour."
+				],
+				[
+					"3",
+					"{@b Resilience.} The drinker gains a +1 bonus to AC for 10 minutes."
+				],
+				[
+					"4",
+					"{@b Boldness.} The drinker can roll {@dice 1d4} and add the number rolled to every attack roll and saving throw they make for the next minute."
+				],
+				[
+					"5",
+					"{@b Flight.} The drinker gains a {@variantrule Fly Speed|XPHB} of 10 feet for 10 minutes."
+				],
+				[
+					"6",
+					"You determine the elixir's effect by choosing one of the other rows in this table."
 				]
 			]
 		},
