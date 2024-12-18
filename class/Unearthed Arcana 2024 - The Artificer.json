@@ -20,8 +20,8 @@
 		"edition": "one",
 		"status": "ready",
 		"dateAdded": 1734452950,
-		"dateLastModified": 1734452950,
-		"_dateLastModifiedHash": "079ecceb49"
+		"dateLastModified": 1734479356,
+		"_dateLastModifiedHash": "2b23a6a975"
 	},
 	"class": [
 		{
@@ -2970,9 +2970,9 @@
 					]
 				}
 			],
-			"tokenHref": {
-				"type": "external",
-				"url": "https://raw.githubusercontent.com/TheGiddyLimit/unearthed-arcana/master/_img/XUA2024Artificer/tokens/Homunculus Servant.webp"
+			"token": {
+				"name": "Homunculus Servant",
+				"source": "TCE"
 			},
 			"languageTags": [
 				"TP"
@@ -3055,9 +3055,9 @@
 					]
 				}
 			],
-			"tokenHref": {
-				"type": "external",
-				"url": "https://raw.githubusercontent.com/TheGiddyLimit/unearthed-arcana/master/_img/XUA2024Artificer/tokens/Steel Defender.webp"
+			"token": {
+				"name": "Steel Defender",
+				"source": "TCE"
 			},
 			"senseTags": [
 				"D"
