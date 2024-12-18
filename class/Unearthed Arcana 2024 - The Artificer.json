@@ -3125,9 +3125,9 @@
 					]
 				}
 			],
-			"tokenHref": {
-				"type": "external",
-				"url": "https://raw.githubusercontent.com/TheGiddyLimit/unearthed-arcana/master/_img/XUA2024Artificer/tokens/Eldritch Cannon.webp"
+			"token": {
+				"name": "Eldritch Cannon",
+				"source": "TCE"
 			}
 		}
 	],
