@@ -36,6 +36,11 @@
 			"page": 1,
 			"additionalSpells": [
 				{
+					"known": {
+						"1": [
+							"on/off|uamodernmagic#c"
+						]
+					},
 					"prepared": {
 						"1": [
 							"comprehend languages",
@@ -78,6 +83,11 @@
 			"page": 2,
 			"additionalSpells": [
 				{
+					"known": {
+						"1": [
+							"on/off|uamodernmagic#c"
+						]
+					},
 					"expanded": {
 						"s1": [
 							"infallible relay (ua)|uamodernmagic",
