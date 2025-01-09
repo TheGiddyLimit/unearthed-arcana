@@ -1401,7 +1401,7 @@
 			]
 		},
 		{
-			"name": "Sealing a Magic Item",
+			"name": "Selling a Magic Item",
 			"source": "UADowntime",
 			"page": 12,
 			"ruleType": "VO",
@@ -2151,7 +2151,7 @@
 										"{@variantrule Religious Service|UADowntime}",
 										"{@variantrule Research|UADowntime}",
 										"{@variantrule Scribing a Spell Scroll|UADowntime}",
-										"{@variantrule Sealing a Magic Item|UADowntime}",
+										"{@variantrule Selling a Magic Item|UADowntime}",
 										"{@variantrule Training|UADowntime}",
 										"{@variantrule Work|UADowntime}"
 									]
