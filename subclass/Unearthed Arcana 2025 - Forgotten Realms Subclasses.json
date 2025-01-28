@@ -1,0 +1,1862 @@
+{
+	"$schema": "https://raw.githubusercontent.com/TheGiddyLimit/5etools-utils/master/schema/ua-fast/homebrew.json",
+	"_meta": {
+		"sources": [
+			{
+				"json": "XUA2025ForgottenRealmsSubclasses",
+				"abbreviation": "XUA25FRS",
+				"full": "Unearthed Arcana 2025: Forgotten Realms Subclasses",
+				"authors": [
+					"Wizards of the Coast"
+				],
+				"convertedBy": [
+					"Lyra [he/him]"
+				],
+				"version": "1.0.0",
+				"url": "https://media.dndbeyond.com/compendium-images/ua/forgotten-realms-subclasses/OXcW3UjTCurUcQy7/UA2025-RealmsSubclasses.pdf",
+				"dateReleased": "2025-01-28"
+			}
+		],
+		"edition": "one",
+		"status": "ready",
+		"dateAdded": 1738085408,
+		"dateLastModified": 1738085408
+	},
+	"subclass": [
+		{
+			"name": "College of the Moon",
+			"shortName": "Moon",
+			"source": "XUA2025ForgottenRealmsSubclasses",
+			"className": "Bard",
+			"classSource": "XPHB",
+			"page": 1,
+			"edition": "one",
+			"additionalSpells": [
+				{
+					"innate": {
+						"3": [
+							{
+								"choose": "level=0|class=druid (phb2024)",
+								"count": 1
+							}
+						]
+					},
+					"prepared": {
+						"6": {
+							"daily": {
+								"1e": [
+									"moonbeam|XPHB"
+								]
+							}
+						}
+					}
+				}
+			],
+			"subclassSpells": [
+				"moonbeam|XPHB"
+			],
+			"subclassFeatures": [
+				"College of the Moon|Bard|XPHB|Moon|XUA2025ForgottenRealmsSubclasses|3|XUA2025ForgottenRealmsSubclasses",
+				"Blessing Of The Moonwells|Bard|XPHB|Moon|XUA2025ForgottenRealmsSubclasses|6|XUA2025ForgottenRealmsSubclasses",
+				"Bolstered Folktales|Bard|XPHB|Moon|XUA2025ForgottenRealmsSubclasses|14|XUA2025ForgottenRealmsSubclasses"
+			],
+			"hasFluff": true
+		},
+		{
+			"name": "Knowledge Domain",
+			"shortName": "Knowledge",
+			"source": "XUA2025ForgottenRealmsSubclasses",
+			"className": "Cleric",
+			"classSource": "XPHB",
+			"page": 2,
+			"edition": "one",
+			"additionalSpells": [
+				{
+					"prepared": {
+						"3": [
+							"Command|XPHB",
+							"Comprehend Languages|XPHB",
+							"Detect Magic|XPHB",
+							"Detect Thoughts|XPHB",
+							"Identify|XPHB",
+							"Mind Spike|XPHB"
+						],
+						"5": [
+							"Dispel Magic|XPHB",
+							"Nondetection|XPHB",
+							"Tongues|XPHB"
+						],
+						"7": [
+							"Arcane Eye|XPHB",
+							"Banishment|XPHB",
+							"Confusion|XPHB"
+						],
+						"9": [
+							"Legend Lore|XPHB",
+							"Scrying|XPHB",
+							"Synaptic Static|XPHB"
+						]
+					}
+				}
+			],
+			"subclassSpells": [
+				"Command|XPHB",
+				"Comprehend Languages|XPHB",
+				"Detect Magic|XPHB",
+				"Detect Thoughts|XPHB",
+				"Identify|XPHB",
+				"Mind Spike|XPHB",
+				"Dispel Magic|XPHB",
+				"Nondetection|XPHB",
+				"Tongues|XPHB",
+				"Arcane Eye|XPHB",
+				"Banishment|XPHB",
+				"Confusion|XPHB",
+				"Legend Lore|XPHB",
+				"Scrying|XPHB",
+				"Synaptic Static|XPHB"
+			],
+			"subclassFeatures": [
+				"Knowledge Domain|Cleric|XPHB|Knowledge|XUA2025ForgottenRealmsSubclasses|3|XUA2025ForgottenRealmsSubclasses",
+				"Unfettered Mind|Cleric|XPHB|Knowledge|XUA2025ForgottenRealmsSubclasses|6|XUA2025ForgottenRealmsSubclasses",
+				"Divine Foreknowledge|Cleric|XPHB|Knowledge|XUA2025ForgottenRealmsSubclasses|17|XUA2025ForgottenRealmsSubclasses"
+			],
+			"hasFluff": true
+		},
+		{
+			"name": "Oath of the Noble Genies",
+			"shortName": "Noble Genies",
+			"source": "XUA2025ForgottenRealmsSubclasses",
+			"className": "Paladin",
+			"classSource": "XPHB",
+			"page": 4,
+			"edition": "one",
+			"additionalSpells": [
+				{
+					"prepared": {
+						"3": [
+							"Chromatic Orb|XPHB",
+							"Elementalism|XPHB#c",
+							"Thunderous Smite|XPHB"
+						],
+						"5": [
+							"Mirror Image|XPHB",
+							"Phantasmal Force|XPHB"
+						],
+						"9": [
+							"Fly|XPHB",
+							"Gaseous Form|XPHB"
+						],
+						"13": [
+							"Conjure Minor Elementals|XPHB",
+							"Summon Elemental|XPHB"
+						],
+						"17": [
+							"Banishing Smite|XPHB",
+							"Contact Other Plane|XPHB"
+						]
+					}
+				}
+			],
+			"subclassSpells": [
+				"Chromatic Orb|XPHB",
+				"Elementalism|XPHB",
+				"Thunderous Smite|XPHB",
+				"Mirror Image|XPHB",
+				"Phantasmal Force|XPHB",
+				"Fly|XPHB",
+				"Gaseous Form|XPHB",
+				"Conjure Minor Elementals|XPHB",
+				"Summon Elemental|XPHB",
+				"Banishing Smite|XPHB",
+				"Contact Other Plane|XPHB"
+			],
+			"subclassFeatures": [
+				"Oath of the Noble Genies|Paladin|XPHB|Noble Genies|XUA2025ForgottenRealmsSubclasses|3|XUA2025ForgottenRealmsSubclasses",
+				"Aura of Elemental Shielding|Paladin|XPHB|Noble Genies|XUA2025ForgottenRealmsSubclasses|7|XUA2025ForgottenRealmsSubclasses",
+				"Elemental Rebuke|Paladin|XPHB|Noble Genies|XUA2025ForgottenRealmsSubclasses|15|XUA2025ForgottenRealmsSubclasses",
+				"Noble Scion|Paladin|XPHB|Noble Genies|XUA2025ForgottenRealmsSubclasses|20|XUA2025ForgottenRealmsSubclasses"
+			],
+			"hasFluff": true
+		},
+		{
+			"name": "Purple Dragon Knight",
+			"shortName": "Purple Dragon Knight",
+			"source": "XUA2025ForgottenRealmsSubclasses",
+			"className": "Fighter",
+			"classSource": "XPHB",
+			"page": 3,
+			"edition": "one",
+			"additionalSpells": [
+				{
+					"innate": {
+						"3": {
+							"ritual": [
+								"Comprehend Languages|XPHB"
+							]
+						}
+					},
+					"ability": "int"
+				}
+			],
+			"subclassSpells": [
+				"Comprehend Languages|XPHB"
+			],
+			"subclassFeatures": [
+				"Purple Dragon Knight|Fighter|XPHB|Purple Dragon Knight|XUA2025ForgottenRealmsSubclasses|3|XUA2025ForgottenRealmsSubclasses",
+				"Dragon Rider|Fighter|XPHB|Purple Dragon Knight|XUA2025ForgottenRealmsSubclasses|7|XUA2025ForgottenRealmsSubclasses",
+				"Rallying Surge|Fighter|XPHB|Purple Dragon Knight|XUA2025ForgottenRealmsSubclasses|10|XUA2025ForgottenRealmsSubclasses",
+				"Amethyst Pinnacle|Fighter|XPHB|Purple Dragon Knight|XUA2025ForgottenRealmsSubclasses|15|XUA2025ForgottenRealmsSubclasses",
+				"Enduring Commander|Fighter|XPHB|Purple Dragon Knight|XUA2025ForgottenRealmsSubclasses|18|XUA2025ForgottenRealmsSubclasses"
+			],
+			"hasFluff": true
+		}
+	],
+	"subclassFluff": [
+		{
+			"name": "Bladesinger",
+			"shortName": "Bladesinger",
+			"source": "XUA2025ForgottenRealmsSubclasses",
+			"className": "Wizard",
+			"classSource": "XPHB",
+			"entries": [
+				"{@i Wield Sword and Sorcery in Elegant Tandem}",
+				{
+					"type": "inset",
+					"name": "Design Note: Bladesinger Updates",
+					"page": 8,
+					"entries": [
+						"Here are the main updates in this subclass since its appearance in {@book Tasha's Cauldron of Everything|TCE}:",
+						{
+							"type": "list",
+							"page": 8,
+							"items": [
+								{
+									"type": "item",
+									"name": "Bladesong",
+									"nameDot": false,
+									"entries": [
+										"now allows you to use your Intelligence modifier for attack and damage rolls while the song is active. The number of uses is now tied to your Intelligence modifier."
+									]
+								},
+								{
+									"type": "item",
+									"name": "Training in War and Song",
+									"nameDot": false,
+									"entries": [
+										"now grants you proficiency in a skill chosen from a list of options. Expanded weapon proficiencies have replaced armor training, and you can now use a weapon as a {@variantrule Spellcasting Focus|XPHB}."
+									]
+								},
+								{
+									"type": "item",
+									"name": "Song of Victory",
+									"nameDot": false,
+									"entries": [
+										"now allows you to make a weapon attack as a {@variantrule Bonus Action|XPHB} after casting a spell with an action."
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "College of the Moon",
+			"shortName": "Moon",
+			"source": "XUA2025ForgottenRealmsSubclasses",
+			"className": "Bard",
+			"classSource": "XPHB",
+			"entries": [
+				"{@i Inspire Allies with Primal Tales}"
+			]
+		},
+		{
+			"name": "Knowledge Domain",
+			"shortName": "Knowledge",
+			"source": "XUA2025ForgottenRealmsSubclasses",
+			"className": "Cleric",
+			"classSource": "XPHB",
+			"entries": [
+				"{@i Unearth Secrets and Master the Mind}",
+				{
+					"type": "inset",
+					"name": "Design Note: Knowledge Domain Updates",
+					"page": 2,
+					"entries": [
+						"Here are the main updates in this subclass since its appearance in the {@book Player's Handbook (2014)|PHB}:",
+						{
+							"type": "list",
+							"page": 2,
+							"items": [
+								{
+									"type": "item",
+									"name": "Blessings of Knowledge",
+									"nameDot": false,
+									"entries": [
+										"now gives you proficiency with a type of {@item Artisan's Tools|XPHB}."
+									]
+								},
+								{
+									"type": "item",
+									"name": "Knowledge Domain Spells",
+									"nameDot": false,
+									"entries": [
+										"have been updated to include more damaging and combat-relevant options. The number of spells has also increased."
+									]
+								},
+								{
+									"type": "item",
+									"name": "Mind Magic",
+									"nameDot": false,
+									"entries": [
+										"is a new feature that allows you to expend a use of {@classFeature Channel Divinity|Cleric|XPHB|2|XPHB} to cast one of your domain spells without expending a spell slot."
+									]
+								},
+								{
+									"type": "item",
+									"name": "Unfettered Mind",
+									"nameDot": false,
+									"entries": [
+										"is a new feature that grants you telepathy and consistent Intelligence checks."
+									]
+								},
+								{
+									"type": "item",
+									"name": "Divine Foreknowledge",
+									"nameDot": false,
+									"entries": [
+										"is a new feature that allows you to gain {@variantrule Advantage|XPHB} on {@variantrule D20 Test|XPHB|D20 Tests} for 1 hour."
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Oath of the Noble Genies",
+			"shortName": "Noble Genies",
+			"source": "XUA2025ForgottenRealmsSubclasses",
+			"className": "Paladin",
+			"classSource": "XPHB",
+			"entries": [
+				"{@i Brandish the Elemental Splendor of Genies}"
+			]
+		},
+		{
+			"name": "Purple Dragon Knight",
+			"shortName": "Purple Dragon Knight",
+			"source": "XUA2025ForgottenRealmsSubclasses",
+			"className": "Fighter",
+			"classSource": "XPHB",
+			"entries": [
+				"{@i Herald the Majesty of Amethyst Dragons}",
+				{
+					"type": "inset",
+					"name": "Design Note: Purple Dragon Knight Updates",
+					"page": 3,
+					"entries": [
+						"Here are the main updates in this subclass since its appearance in {@book Sword Coast Adventurer's Guide|SCAG}:",
+						{
+							"type": "list",
+							"page": 3,
+							"items": [
+								{
+									"type": "item",
+									"name": "Knightly Envoy",
+									"nameDot": false,
+									"entries": [
+										"(formerly {@subclassFeature Royal Envoy|Fighter|PHB|Purple Dragon Knight (Banneret)|SCAG|7|SCAG}) has been moved to level 3. It now lets you learn an additional language and cast the {@spell Comprehend Languages|XPHB} spell as a {@variantrule Ritual|XPHB}."
+									]
+								},
+								{
+									"type": "item",
+									"name": "Purple Dragon Companion",
+									"nameDot": false,
+									"entries": [
+										"is a new feature that gives the Purple Dragon Knight a dragon companion."
+									]
+								},
+								{
+									"type": "item",
+									"name": "Dragon Rider",
+									"nameDot": false,
+									"entries": [
+										"is a new feature that improves the dragon companion, allowing you to heal it with your {@classFeature Second Wind|Fighter|XPHB|1|XPHB} and ride it in a limited capacity."
+									]
+								},
+								{
+									"type": "item",
+									"name": "Rallying Surge",
+									"nameDot": false,
+									"entries": [
+										"(formerly {@subclassFeature Inspiring Surge|Fighter|PHB|Purple Dragon Knight (Banneret)|SCAG|10|SCAG}) now lets you choose up to three creatures within a more limited radius. It also gives chosen creatures a retreat option."
+									]
+								},
+								{
+									"type": "item",
+									"name": "Amethyst Pinnacle",
+									"nameDot": false,
+									"entries": [
+										"is a new feature that again improves your dragon companion, allowing you to ride it unrestricted and attack in tandem."
+									]
+								},
+								{
+									"type": "item",
+									"name": "Enduring Commander",
+									"nameDot": false,
+									"entries": [
+										"is a new feature that grants both you and your dragon companion {@variantrule Resistance|XPHB|Resistances}."
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Scion of the Three",
+			"shortName": "Scion of the Three",
+			"source": "XUA2025ForgottenRealmsSubclasses",
+			"className": "Rogue",
+			"classSource": "XPHB",
+			"entries": [
+				"{@i Become a Gruesome Agent of Malice}"
+			]
+		},
+		{
+			"name": "Spellfire Sorcery",
+			"shortName": "Spellfire",
+			"source": "XUA2025ForgottenRealmsSubclasses",
+			"className": "Sorcerer",
+			"classSource": "XPHB",
+			"entries": [
+				"{@i Radiate Raw Magic Potential}"
+			]
+		},
+		{
+			"name": "Winter Walker",
+			"shortName": "Winter Walker",
+			"source": "XUA2025ForgottenRealmsSubclasses",
+			"className": "Ranger",
+			"classSource": "XPHB",
+			"entries": [
+				"{@i Withstand the Horrors of Frigid Wastelands}"
+			]
+		}
+	],
+	"subclassFeature": [
+		{
+			"name": "College of the Moon",
+			"source": "XUA2025ForgottenRealmsSubclasses",
+			"page": 1,
+			"className": "Bard",
+			"classSource": "XPHB",
+			"subclassShortName": "Moon",
+			"subclassSource": "XUA2025ForgottenRealmsSubclasses",
+			"level": 3,
+			"entries": [
+				"The College of the Moon traces its origins to the ancient druidic circles of the Moonshae Isles, who entrusted the first Bards of this tradition with chronicling the stories of the islands and their people. Bards of this college draw from the isles' Fey magic and the primal power of the moonwells to bolster their allies, protect the natural world, and inspire their bardic works. Such works tend to be based on well-known Moonshae myths such as the whimsy of fairy pranksters, the viciousness of the Beast, and the mysteries of the moonwells.",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Moonshae Folktales|Bard|XPHB|Moon|XUA2025ForgottenRealmsSubclasses|3|XUA2025ForgottenRealmsSubclasses"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Primal Lorist|Bard|XPHB|Moon|XUA2025ForgottenRealmsSubclasses|3|XUA2025ForgottenRealmsSubclasses"
+				}
+			]
+		},
+		{
+			"name": "Moonshae Folktales",
+			"source": "XUA2025ForgottenRealmsSubclasses",
+			"page": 1,
+			"className": "Bard",
+			"classSource": "XPHB",
+			"subclassShortName": "Moon",
+			"subclassSource": "XUA2025ForgottenRealmsSubclasses",
+			"level": 3,
+			"entries": [
+				"As a {@action Magic|XPHB} action, you can invoke the power of a folktale, imbuing yourself with primal magic until you use this feature again. When you use this feature, choose which of the following folktales you invoke; your choice gives you certain benefits while this magic is active.",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Tale of Life|Bard|XPHB|Moon|XUA2025ForgottenRealmsSubclasses|3|XUA2025ForgottenRealmsSubclasses"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Tale of Gloam|Bard|XPHB|Moon|XUA2025ForgottenRealmsSubclasses|3|XUA2025ForgottenRealmsSubclasses"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Tale of Mirth|Bard|XPHB|Moon|XUA2025ForgottenRealmsSubclasses|3|XUA2025ForgottenRealmsSubclasses"
+				}
+			]
+		},
+		{
+			"name": "Primal Lorist",
+			"source": "XUA2025ForgottenRealmsSubclasses",
+			"page": 2,
+			"className": "Bard",
+			"classSource": "XPHB",
+			"subclassShortName": "Moon",
+			"subclassSource": "XUA2025ForgottenRealmsSubclasses",
+			"level": 3,
+			"entries": [
+				"You learn {@language Druidic|XPHB} and one {@filter cantrip from the Druid spell list|spells|level=0|class=druid (phb2024)}. It counts as a {@class Bard|XPHB} spell for you but doesn't count against the number of cantrips you know.",
+				"Additionally, choose one of the following skills: {@skill Animal Handling|XPHB}, {@skill Insight|XPHB}, {@skill Medicine|XPHB}, {@skill Nature|XPHB}, {@skill Perception|XPHB}, or {@skill Survival|XPHB}. You have proficiency in that skill."
+			]
+		},
+		{
+			"name": "Tale of Gloam",
+			"source": "XUA2025ForgottenRealmsSubclasses",
+			"page": 1,
+			"className": "Bard",
+			"classSource": "XPHB",
+			"subclassShortName": "Moon",
+			"subclassSource": "XUA2025ForgottenRealmsSubclasses",
+			"level": 3,
+			"entries": [
+				"You invoke a tale of mystery and secrets. When you use a {@variantrule Bonus Action|XPHB} to give a creature a {@classFeature Bardic Inspiration|Bard|XPHB|1|XPHB} die, you can take the {@action Disengage|XPHB} or {@action Hide|XPHB} action as part of that {@variantrule Bonus Action|XPHB}."
+			]
+		},
+		{
+			"name": "Tale of Life",
+			"source": "XUA2025ForgottenRealmsSubclasses",
+			"page": 1,
+			"className": "Bard",
+			"classSource": "XPHB",
+			"subclassShortName": "Moon",
+			"subclassSource": "XUA2025ForgottenRealmsSubclasses",
+			"level": 3,
+			"entries": [
+				"You invoke a tale of vitality and thriving earth. When you restore {@variantrule Hit Points|XPHB} to a creature with a spell, you can expend a {@classFeature Bardic Inspiration|Bard|XPHB|1|XPHB} die and increase the amount of {@variantrule Hit Points|XPHB} restored by a number equal to a roll of the {@classFeature Bardic Inspiration|Bard|XPHB|1|XPHB} die. You can do this only once per turn."
+			]
+		},
+		{
+			"name": "Tale of Mirth",
+			"source": "XUA2025ForgottenRealmsSubclasses",
+			"page": 1,
+			"className": "Bard",
+			"classSource": "XPHB",
+			"subclassShortName": "Moon",
+			"subclassSource": "XUA2025ForgottenRealmsSubclasses",
+			"level": 3,
+			"entries": [
+				"You invoke a tale of merriment and fey guile. When an enemy you can see within 60 feet of yourself succeeds on a saving throw, you can take a {@variantrule Reaction|XPHB} to expend a {@classFeature Bardic Inspiration|Bard|XPHB|1|XPHB} die. The creature then must roll the {@classFeature Bardic Inspiration|Bard|XPHB|1|XPHB} die and subtract the number rolled from the save's total, possibly causing the save to fail."
+			]
+		},
+		{
+			"name": "Blessing of the Moonwells",
+			"source": "XUA2025ForgottenRealmsSubclasses",
+			"page": 2,
+			"className": "Bard",
+			"classSource": "XPHB",
+			"subclassShortName": "Moon",
+			"subclassSource": "XUA2025ForgottenRealmsSubclasses",
+			"level": 6,
+			"header": 2,
+			"entries": [
+				"You always have the {@spell Moonbeam|XPHB} spell prepared.",
+				"As a {@variantrule Bonus Action|XPHB}, you can cast {@spell Moonbeam|XPHB} without expending a spell slot. When you cast it using this feature, you glow faintly while you maintain {@status Concentration|XPHB} on the spell. While glowing, you shed {@variantrule Dim Light|XPHB} out to 5 feet, and whenever a creature fails its saving throw against the effects of this {@spell Moonbeam|XPHB}, another creature of your choice that you can see within 60 feet of you regains {@dice 2d4} {@variantrule Hit Points|XPHB}.",
+				"Once you use this feature, you can't use it again until you finish a {@variantrule Long Rest|XPHB}. You can also restore your use of it by expending a level 3+ spell slot (no action required)."
+			]
+		},
+		{
+			"name": "Bolstered Folktales",
+			"source": "XUA2025ForgottenRealmsSubclasses",
+			"page": 2,
+			"className": "Bard",
+			"classSource": "XPHB",
+			"subclassShortName": "Moon",
+			"subclassSource": "XUA2025ForgottenRealmsSubclasses",
+			"level": 14,
+			"header": 2,
+			"entries": [
+				"The power of your {@subclassFeature Moonshae Folktales|Bard|XPHB|Moon|XUA2025ForgottenRealmsSubclasses|3|XUA2025ForgottenRealmsSubclasses} improves. When you use your {@subclassFeature Tale of Life|Bard|XPHB|Moon|XUA2025ForgottenRealmsSubclasses|3|XUA2025ForgottenRealmsSubclasses} or {@subclassFeature Tale of Mirth|Bard|XPHB|Moon|XUA2025ForgottenRealmsSubclasses|3|XUA2025ForgottenRealmsSubclasses}, you can roll {@dice 1d6} and use the number rolled in place of expending a {@classFeature Bardic Inspiration|Bard|XPHB|1|XPHB} die, and when you use your {@subclassFeature Tale of Gloam|Bard|XPHB|Moon|XUA2025ForgottenRealmsSubclasses|3|XUA2025ForgottenRealmsSubclasses}, you can also teleport up to 30 feet to an unoccupied space you can see as part of that {@variantrule Bonus Action|XPHB}."
+			]
+		},
+		{
+			"name": "Blessings of Knowledge",
+			"source": "XUA2025ForgottenRealmsSubclasses",
+			"page": 2,
+			"className": "Cleric",
+			"classSource": "XPHB",
+			"subclassShortName": "Knowledge",
+			"subclassSource": "XUA2025ForgottenRealmsSubclasses",
+			"level": 3,
+			"entries": [
+				"You gain proficiency with one type of {@item Artisan's Tools|XPHB} of your choice and in two of the following skills of your choice: {@skill Arcana|XPHB}, {@skill History|XPHB}, {@skill Nature|XPHB}, or {@skill Religion|XPHB}. You have {@variantrule Expertise|XPHB} in those two skills."
+			]
+		},
+		{
+			"name": "Knowledge Domain",
+			"source": "XUA2025ForgottenRealmsSubclasses",
+			"page": 2,
+			"className": "Cleric",
+			"classSource": "XPHB",
+			"subclassShortName": "Knowledge",
+			"subclassSource": "XUA2025ForgottenRealmsSubclasses",
+			"level": 3,
+			"entries": [
+				"The Knowledge Domain values learning and understanding above all. Clerics who tap into this domain study esoteric lore, collect old tomes, delve into the secret places of the earth, and examine the process of the mind itself.",
+				"Gods of knowledge vary from masters of arcane magic to patrons of craft and invention. To them, knowledge is more valuable than material wealth, and the desire to learn is an act of worship. Libraries, universities, and other institutions dedicated to education also draw on the power of the Knowledge Domain. On Faerûn, Clerics of the Knowledge Domain worship deities of learning and ingenuity like {@deity Oghma|Faerûnian|SCAG} and {@deity Gond|Faerûnian|SCAG}. Other powerful deities\u2014such as {@deity Asmodeus|Faerûnian|SCAG}, {@deity Mystra|Faerûnian|SCAG}, {@deity Savras|Faerûnian|SCAG}, and {@deity Jergal|Faerûnian|SCAG}\u2014also count Clerics of the Knowledge Domain among their devotees, as do less-common divinities like {@deity Deneir|Faerûnian|SCAG}, the Scribe of {@deity Oghma|Faerûnian|SCAG}, and {@deity Azuth|Faerûnian|SCAG}, servant of {@deity Mystra|Faerûnian|SCAG}.",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Blessings of Knowledge|Cleric|XPHB|Knowledge|XUA2025ForgottenRealmsSubclasses|3|XUA2025ForgottenRealmsSubclasses"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Knowledge Domain Spells|Cleric|XPHB|Knowledge|XUA2025ForgottenRealmsSubclasses|3|XUA2025ForgottenRealmsSubclasses"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Mind Magic|Cleric|XPHB|Knowledge|XUA2025ForgottenRealmsSubclasses|3|XUA2025ForgottenRealmsSubclasses"
+				}
+			]
+		},
+		{
+			"name": "Knowledge Domain Spells",
+			"source": "XUA2025ForgottenRealmsSubclasses",
+			"page": 2,
+			"className": "Cleric",
+			"classSource": "XPHB",
+			"subclassShortName": "Knowledge",
+			"subclassSource": "XUA2025ForgottenRealmsSubclasses",
+			"level": 3,
+			"entries": [
+				"When you reach a Cleric level specified in the {@table Knowledge Domain Spells|XUA2025ForgottenRealmsSubclasses} table, you thereafter always have the listed spells prepared.",
+				{
+					"type": "statblock",
+					"tag": "table",
+					"source": "XUA2025ForgottenRealmsSubclasses",
+					"name": "Knowledge Domain Spells",
+					"page": 2
+				}
+			]
+		},
+		{
+			"name": "Mind Magic",
+			"source": "XUA2025ForgottenRealmsSubclasses",
+			"page": 3,
+			"className": "Cleric",
+			"classSource": "XPHB",
+			"subclassShortName": "Knowledge",
+			"subclassSource": "XUA2025ForgottenRealmsSubclasses",
+			"level": 3,
+			"consumes": {
+				"name": "Channel Divinity",
+				"amount": 1
+			},
+			"entries": [
+				"As a {@action Magic|XPHB} action, you can expend one use of your {@classFeature Channel Divinity|Cleric|XPHB|2|XPHB} to manifest your magical knowledge. Choose one spell from the {@table Knowledge Domain Spells|XUA2025ForgottenRealmsSubclasses} table that you have prepared. As part of that action, you cast that spell without expending a spell slot or needing Material components."
+			]
+		},
+		{
+			"name": "Unfettered Mind",
+			"source": "XUA2025ForgottenRealmsSubclasses",
+			"page": 3,
+			"className": "Cleric",
+			"classSource": "XPHB",
+			"subclassShortName": "Knowledge",
+			"subclassSource": "XUA2025ForgottenRealmsSubclasses",
+			"level": 6,
+			"header": 2,
+			"entries": [
+				"You gain {@variantrule telepathy|XPHB} out to 60 feet. When you use this {@variantrule telepathy|XPHB}, you can simultaneously contact a number of creatures equal to your Wisdom modifier (minimum of one). Additionally, if your total for an Intelligence check is lower than your Wisdom score, you can use that score in place of the total."
+			]
+		},
+		{
+			"name": "Divine Foreknowledge",
+			"source": "XUA2025ForgottenRealmsSubclasses",
+			"page": 3,
+			"className": "Cleric",
+			"classSource": "XPHB",
+			"subclassShortName": "Knowledge",
+			"subclassSource": "XUA2025ForgottenRealmsSubclasses",
+			"level": 17,
+			"header": 2,
+			"entries": [
+				"As a {@variantrule Bonus Action|XPHB}, you magically expand your mind to the possibilities of the future. For 1 hour, you have {@variantrule Advantage|XPHB} on {@variantrule D20 Test|XPHB|D20 Tests}. Once you use this feature, you can't use it again until you finish a {@variantrule Long Rest|XPHB}. You can also restore your use of this feature by expending a level 6+ spell slot (no action required)."
+			]
+		},
+		{
+			"name": "Knightly Envoy",
+			"source": "XUA2025ForgottenRealmsSubclasses",
+			"page": 3,
+			"className": "Fighter",
+			"classSource": "XPHB",
+			"subclassShortName": "Purple Dragon Knight",
+			"subclassSource": "XUA2025ForgottenRealmsSubclasses",
+			"level": 3,
+			"entries": [
+				"You learn one language of your choice, which you choose from the language tables in the {@book Player's Handbook|XPHB}.",
+				"Additionally, you can cast the {@spell Comprehend Languages|XPHB} spell but only as a {@variantrule Ritual|XPHB}. Intelligence is your spellcasting ability for it."
+			]
+		},
+		{
+			"name": "Purple Dragon Companion",
+			"source": "XUA2025ForgottenRealmsSubclasses",
+			"page": 3,
+			"className": "Fighter",
+			"classSource": "XPHB",
+			"subclassShortName": "Purple Dragon Knight",
+			"subclassSource": "XUA2025ForgottenRealmsSubclasses",
+			"level": 3,
+			"entries": [
+				"You are bonded with an amethyst dragon hatchling that serves as your purple dragon companion and uses the {@creature Purple Dragon Companion|XUA2025ForgottenRealmsSubclasses} stat block. The purple dragon is {@variantrule Friendly [Attitude]|XPHB|Friendly} to you and your allies and obeys your commands.",
+				{
+					"type": "entries",
+					"name": "The Dragon in Combat",
+					"page": 3,
+					"entries": [
+						"In combat, the dragon acts during your turn. It can move and use its {@variantrule Reaction|XPHB} on its own, but the only action it takes is the {@action Dodge} action unless you take a {@variantrule Bonus Action|XPHB} to command it to take an action in its stat block or some other action. If you have the {@condition Incapacitated|XPHB} condition, the dragon acts on its own and isn't limited to the {@action Dodge|XPHB} action."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Resurrecting the Dragon",
+					"page": 3,
+					"entries": [
+						"If the dragon companion has died within the last hour, you can take a {@action Magic|XPHB} action to touch the dragon and expend a use of your {@classFeature Second Wind|Fighter|XPHB|1|XPHB}. The dragon returns to life after 1 minute with all its {@variantrule Hit Points|XPHB} restored.",
+						"Otherwise, you can perform a 1-hour ceremony to resurrect the dragon; this ceremony can be performed as part of a {@variantrule Short Rest|XPHB|Short} or {@variantrule Long Rest|XPHB}."
+					]
+				},
+				{
+					"type": "statblock",
+					"tag": "creature",
+					"source": "XUA2025ForgottenRealmsSubclasses",
+					"name": "Purple Dragon Companion",
+					"page": 4,
+					"collapsed": true,
+					"style": "inset"
+				}
+			]
+		},
+		{
+			"name": "Purple Dragon Knight",
+			"source": "XUA2025ForgottenRealmsSubclasses",
+			"page": 3,
+			"className": "Fighter",
+			"classSource": "XPHB",
+			"subclassShortName": "Purple Dragon Knight",
+			"subclassSource": "XUA2025ForgottenRealmsSubclasses",
+			"level": 3,
+			"entries": [
+				"The Purple Dragon Knights are paragons of valor and leadership who partner with amethyst dragons. Such knights aspire to protect the innocent and rally fellow adventurers to the causes of justice and freedom. Although the Purple Dragons were originally founded in Cormyr, new recruits are enlisted from any realms where chivalry is in abundance, including the Silver Marches, Damara, and Chessenta.",
+				"Characters with this subclass are special among the order. Unlike most Purple Dragons, who partner with amethyst dragons who've already reached adulthood, a Purple Dragon Knight character psionically bonds with an amethyst dragon hatchling. This bond irrevocably transforms both dragon and knight, allowing the dragon to grow in strength alongside its partner knight.",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Knightly Envoy|Fighter|XPHB|Purple Dragon Knight|XUA2025ForgottenRealmsSubclasses|3|XUA2025ForgottenRealmsSubclasses"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Purple Dragon Companion|Fighter|XPHB|Purple Dragon Knight|XUA2025ForgottenRealmsSubclasses|3|XUA2025ForgottenRealmsSubclasses"
+				}
+			]
+		},
+		{
+			"name": "Dragon Rider",
+			"source": "XUA2025ForgottenRealmsSubclasses",
+			"page": 4,
+			"className": "Fighter",
+			"classSource": "XPHB",
+			"subclassShortName": "Purple Dragon Knight",
+			"subclassSource": "XUA2025ForgottenRealmsSubclasses",
+			"level": 7,
+			"header": 2,
+			"entries": [
+				"You and your purple dragon gain the following benefits.",
+				{
+					"type": "entries",
+					"name": "Dragon Mount",
+					"page": 4,
+					"entries": [
+						"The dragon grows to Medium size. You can use the dragon as a mount if you are Medium or smaller, but while you're riding it, the dragon falls at the end of a turn if it's airborne and the only thing holding it aloft is its {@variantrule Fly Speed|XPHB}. It takes you only 5 feet of movement to mount or dismount the dragon."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Improved Gravity Breath",
+					"page": 4,
+					"entries": [
+						"The dragon's Gravity Breath becomes a 30-foot {@variantrule Cone [Area of Effect]|XPHB|Cone}. When a creature fails its saving throw against that Gravity Breath, the creature also takes {@damage 2d6} Force damage."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Shared Second Wind",
+					"page": 4,
+					"entries": [
+						"When you use your {@classFeature Second Wind|Fighter|XPHB|1|XPHB} to regain {@variantrule Hit Points|XPHB}, the dragon also regains {@variantrule Hit Points|XPHB} equal to {@dice 1d6} plus your {@class Fighter|XPHB} level, and it regains one use of its Gravity Breath."
+					]
+				}
+			]
+		},
+		{
+			"name": "Advance",
+			"source": "XUA2025ForgottenRealmsSubclasses",
+			"page": 4,
+			"className": "Fighter",
+			"classSource": "XPHB",
+			"subclassShortName": "Purple Dragon Knight",
+			"subclassSource": "XUA2025ForgottenRealmsSubclasses",
+			"level": 10,
+			"entries": [
+				"The ally makes one attack with a weapon or an {@variantrule Unarmed Strike|XPHB}. If your purple dragon is one of the allies using Advance, the dragon can make one Rend attack."
+			]
+		},
+		{
+			"name": "Retreat",
+			"source": "XUA2025ForgottenRealmsSubclasses",
+			"page": 4,
+			"className": "Fighter",
+			"classSource": "XPHB",
+			"subclassShortName": "Purple Dragon Knight",
+			"subclassSource": "XUA2025ForgottenRealmsSubclasses",
+			"level": 10,
+			"entries": [
+				"The ally moves up to half its {@variantrule Speed|XPHB} without provoking {@action Opportunity Attack|XPHB|Opportunity Attacks}."
+			]
+		},
+		{
+			"name": "Rallying Surge",
+			"source": "XUA2025ForgottenRealmsSubclasses",
+			"page": 4,
+			"className": "Fighter",
+			"classSource": "XPHB",
+			"subclassShortName": "Purple Dragon Knight",
+			"subclassSource": "XUA2025ForgottenRealmsSubclasses",
+			"level": 10,
+			"header": 2,
+			"entries": [
+				"When you use your {@classFeature Action Surge|Fighter|XPHB|2|XPHB}, you can choose up to three allies within a 30-foot {@variantrule Emanation [Area of Effect]|XPHB|Emanation} originating from you. Each ally can take a {@variantrule Reaction|XPHB} to use one of the following options.",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Advance|Fighter|XPHB|Purple Dragon Knight|XUA2025ForgottenRealmsSubclasses|10|XUA2025ForgottenRealmsSubclasses"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Retreat|Fighter|XPHB|Purple Dragon Knight|XUA2025ForgottenRealmsSubclasses|10|XUA2025ForgottenRealmsSubclasses"
+				}
+			]
+		},
+		{
+			"name": "Superior Mount",
+			"source": "XUA2025ForgottenRealmsSubclasses",
+			"page": 4,
+			"className": "Fighter",
+			"classSource": "XPHB",
+			"subclassShortName": "Purple Dragon Knight",
+			"subclassSource": "XUA2025ForgottenRealmsSubclasses",
+			"level": 15,
+			"entries": [
+				"The purple dragon grows to Large size, and both its {@variantrule Speed|XPHB} and its {@variantrule Fly Speed|XPHB} increase to 40 feet. Additionally, the dragon no longer falls at the end of a turn if airborne while you're riding it."
+			]
+		},
+		{
+			"name": "Tandem Attack",
+			"source": "XUA2025ForgottenRealmsSubclasses",
+			"page": 4,
+			"className": "Fighter",
+			"classSource": "XPHB",
+			"subclassShortName": "Purple Dragon Knight",
+			"subclassSource": "XUA2025ForgottenRealmsSubclasses",
+			"level": 15,
+			"entries": [
+				"When you take the {@action Attack|XPHB} action on your turn, you can forego one of your attacks to command the dragon to make one Rend attack. Alternatively, you can forego two of your attacks to command the dragon to use Gravity Breath."
+			]
+		},
+		{
+			"name": "Amethyst Pinnacle",
+			"source": "XUA2025ForgottenRealmsSubclasses",
+			"page": 4,
+			"className": "Fighter",
+			"classSource": "XPHB",
+			"subclassShortName": "Purple Dragon Knight",
+			"subclassSource": "XUA2025ForgottenRealmsSubclasses",
+			"level": 15,
+			"header": 2,
+			"entries": [
+				"You and your purple dragon gain the following benefits.",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Superior Mount|Fighter|XPHB|Purple Dragon Knight|XUA2025ForgottenRealmsSubclasses|15|XUA2025ForgottenRealmsSubclasses"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Tandem Attack|Fighter|XPHB|Purple Dragon Knight|XUA2025ForgottenRealmsSubclasses|15|XUA2025ForgottenRealmsSubclasses"
+				}
+			]
+		},
+		{
+			"name": "Enduring Commander",
+			"source": "XUA2025ForgottenRealmsSubclasses",
+			"page": 4,
+			"className": "Fighter",
+			"classSource": "XPHB",
+			"subclassShortName": "Purple Dragon Knight",
+			"subclassSource": "XUA2025ForgottenRealmsSubclasses",
+			"level": 18,
+			"header": 2,
+			"entries": [
+				"You and your purple dragon have {@variantrule Resistance|XPHB} to Force and Psychic damage."
+			]
+		},
+		{
+			"name": "Dao's Crush",
+			"source": "XUA2025ForgottenRealmsSubclasses",
+			"page": 5,
+			"className": "Paladin",
+			"classSource": "XPHB",
+			"subclassShortName": "Noble Genies",
+			"subclassSource": "XUA2025ForgottenRealmsSubclasses",
+			"level": 3,
+			"consumes": {
+				"name": "Channel Divinity",
+				"amount": 1
+			},
+			"entries": [
+				"The target has the {@condition Grappled|XPHB} condition (escape DC equal to your spell save DC). While {@condition Grappled|XPHB}, the target has the {@condition Restrained|XPHB} condition."
+			]
+		},
+		{
+			"name": "Djinni's Escape",
+			"source": "XUA2025ForgottenRealmsSubclasses",
+			"page": 5,
+			"className": "Paladin",
+			"classSource": "XPHB",
+			"subclassShortName": "Noble Genies",
+			"subclassSource": "XUA2025ForgottenRealmsSubclasses",
+			"level": 3,
+			"consumes": {
+				"name": "Channel Divinity",
+				"amount": 1
+			},
+			"entries": [
+				"You {@variantrule Teleportation|XPHB|teleport} to an unoccupied space you can see within 30 feet of yourself and take on a mist-like form, which lasts until the end of your next turn. While in this form, you have {@variantrule Immunity|XPHB} to the {@condition Grappled|XPHB}, {@condition Prone|XPHB}, and {@condition Restrained|XPHB} conditions."
+			]
+		},
+		{
+			"name": "Efreeti's Fury",
+			"source": "XUA2025ForgottenRealmsSubclasses",
+			"page": 5,
+			"className": "Paladin",
+			"classSource": "XPHB",
+			"subclassShortName": "Noble Genies",
+			"subclassSource": "XUA2025ForgottenRealmsSubclasses",
+			"level": 3,
+			"consumes": {
+				"name": "Channel Divinity",
+				"amount": 1
+			},
+			"entries": [
+				"The target takes an extra {@damage 2d4} Fire damage."
+			]
+		},
+		{
+			"name": "Elemental Smite",
+			"source": "XUA2025ForgottenRealmsSubclasses",
+			"page": 5,
+			"className": "Paladin",
+			"classSource": "XPHB",
+			"subclassShortName": "Noble Genies",
+			"subclassSource": "XUA2025ForgottenRealmsSubclasses",
+			"level": 3,
+			"entries": [
+				"Immediately after you cast {@spell Divine Smite|XPHB}, you can expend one use of your {@classFeature Channel Divinity|Paladin|XPHB|3|XPHB} and invoke one of the following effects.",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Dao's Crush|Paladin|XPHB|Noble Genies|XUA2025ForgottenRealmsSubclasses|3|XUA2025ForgottenRealmsSubclasses"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Djinni's Escape|Paladin|XPHB|Noble Genies|XUA2025ForgottenRealmsSubclasses|3|XUA2025ForgottenRealmsSubclasses"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Efreeti's Fury|Paladin|XPHB|Noble Genies|XUA2025ForgottenRealmsSubclasses|3|XUA2025ForgottenRealmsSubclasses"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Marid's Surge|Paladin|XPHB|Noble Genies|XUA2025ForgottenRealmsSubclasses|3|XUA2025ForgottenRealmsSubclasses"
+				}
+			]
+		},
+		{
+			"name": "Genie Spells",
+			"source": "XUA2025ForgottenRealmsSubclasses",
+			"page": 5,
+			"className": "Paladin",
+			"classSource": "XPHB",
+			"subclassShortName": "Noble Genies",
+			"subclassSource": "XUA2025ForgottenRealmsSubclasses",
+			"level": 3,
+			"entries": [
+				"When you reach a {@class Paladin|XPHB} level specified in the {@table Genie Spells|XUA2025ForgottenRealmsSubclasses} table, you thereafter always have the listed spells prepared.",
+				{
+					"type": "statblock",
+					"tag": "table",
+					"source": "XUA2025ForgottenRealmsSubclasses",
+					"name": "Genie Spells",
+					"page": 5
+				}
+			]
+		},
+		{
+			"name": "Genie's Splendor",
+			"source": "XUA2025ForgottenRealmsSubclasses",
+			"page": 5,
+			"className": "Paladin",
+			"classSource": "XPHB",
+			"subclassShortName": "Noble Genies",
+			"subclassSource": "XUA2025ForgottenRealmsSubclasses",
+			"level": 3,
+			"entries": [
+				"When you aren’t wearing Medium or Heavy armor, you gain a bonus to your AC equal to your Charisma modifier (minimum of +1). You also gain proficiency in one of the following skills of your choice: {@skill Acrobatics|XPHB}, {@skill Intimidation|XPHB}, {@skill Performance|XPHB}, or {@skill Persuasion|XPHB}."
+			]
+		},
+		{
+			"name": "Marid's Surge",
+			"source": "XUA2025ForgottenRealmsSubclasses",
+			"page": 5,
+			"className": "Paladin",
+			"classSource": "XPHB",
+			"subclassShortName": "Noble Genies",
+			"subclassSource": "XUA2025ForgottenRealmsSubclasses",
+			"level": 3,
+			"consumes": {
+				"name": "Channel Divinity",
+				"amount": 1
+			},
+			"entries": [
+				"The target and each creature of your choice in a 10-foot {@variantrule Emanation [Area of Effect]|XPHB|Emanation} originating from you makes a Strength saving throw against your spell save DC. On a failed save, the creature is pushed 15 feet straight away from you and has the {@condition Prone|XPHB} condition."
+			]
+		},
+		{
+			"name": "Oath of the Noble Genies",
+			"source": "XUA2025ForgottenRealmsSubclasses",
+			"page": 4,
+			"className": "Paladin",
+			"classSource": "XPHB",
+			"subclassShortName": "Noble Genies",
+			"subclassSource": "XUA2025ForgottenRealmsSubclasses",
+			"level": 3,
+			"entries": [
+				"Paladins sworn to the Oath of the Noble Genies revere the forces of the Elemental Planes. Through taking this oath, Paladins draw power from the four different types of genies\u2014{@creature dao|XMM}, masters of earth; {@creature Djinni|XMM|djinn}, masters of air; {@creature Efreeti|XMM|efreet}, masters of fire; and {@creature Marid|XMM|marids}, masters of water\u2014to create splendid and destructive displays of elemental might.",
+				"On Faerûn, many Paladins who swear this oath hail from Calimshan, a land rife with genie-kind. Despite their strong local ties, these Calishite Paladins often undertake quests that take them all over the Realms and across the multiverse\u2014including, naturally, the Elemental Planes.",
+				"These paladins share the following tenets:",
+				{
+					"type": "list",
+					"page": 5,
+					"items": [
+						"Beget creation with destruction.",
+						"Lead with splendor and grace.",
+						"Respect the elements, and fear their wrath."
+					]
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Elemental Smite|Paladin|XPHB|Noble Genies|XUA2025ForgottenRealmsSubclasses|3|XUA2025ForgottenRealmsSubclasses"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Genie Spells|Paladin|XPHB|Noble Genies|XUA2025ForgottenRealmsSubclasses|3|XUA2025ForgottenRealmsSubclasses"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Genie's Splendor|Paladin|XPHB|Noble Genies|XUA2025ForgottenRealmsSubclasses|3|XUA2025ForgottenRealmsSubclasses"
+				}
+			]
+		},
+		{
+			"name": "Aura of Elemental Shielding",
+			"source": "XUA2025ForgottenRealmsSubclasses",
+			"page": 5,
+			"className": "Paladin",
+			"classSource": "XPHB",
+			"subclassShortName": "Noble Genies",
+			"subclassSource": "XUA2025ForgottenRealmsSubclasses",
+			"level": 7,
+			"header": 2,
+			"entries": [
+				"Choose one of the following damage types: Acid, Cold, Fire, Lightning, or Thunder damage. You and your allies have {@variantrule Resistance|XPHB} to that damage type while in your {@classFeature Aura of Protection|Paladin|XPHB|6|XPHB}. At the start of each of your turns, you can change the damage type affected by this feature to one of the other listed options (no action required)."
+			]
+		},
+		{
+			"name": "Elemental Rebuke",
+			"source": "XUA2025ForgottenRealmsSubclasses",
+			"page": 5,
+			"className": "Paladin",
+			"classSource": "XPHB",
+			"subclassShortName": "Noble Genies",
+			"subclassSource": "XUA2025ForgottenRealmsSubclasses",
+			"level": 15,
+			"header": 2,
+			"entries": [
+				"When you are hit by an attack roll, you can take a {@variantrule Reaction|XPHB} to halve the attack’s damage against yourself (round down) and force the attacker to make a Dexterity saving throw against your spell save DC. On a failed save, the attacker takes damage equal to {@damage 4d10} plus your Charisma modifier; the damage is one of the following types (your choice): Acid, Cold, Fire, Lightning, or Thunder. On a successful save, the attacker takes half as much damage.",
+				"You can use this feature a number of times equal to your Charisma modifier (minimum of once), and you regain all expended uses when you finish a {@variantrule Long Rest|XPHB}."
+			]
+		},
+		{
+			"name": "Noble Scion",
+			"source": "XUA2025ForgottenRealmsSubclasses",
+			"page": 5,
+			"className": "Paladin",
+			"classSource": "XPHB",
+			"subclassShortName": "Noble Genies",
+			"subclassSource": "XUA2025ForgottenRealmsSubclasses",
+			"level": 20,
+			"header": 2,
+			"entries": [
+				"As a {@variantrule Bonus Action|XPHB}, you gain the benefits below for 10 minutes or until you end them (no action required). Once you use this feature, you can’t use it again until you finish a {@variantrule Long Rest|XPHB}. You can also restore your use of it by expending a level 5 spell slot (no action required).",
+				{
+					"type": "entries",
+					"name": "Flight",
+					"page": 5,
+					"entries": [
+						"You have a {@variantrule Fly Speed|XPHB} of 60 feet and can hover."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Minor Wish",
+					"page": 5,
+					"entries": [
+						"When you or an ally in your {@classFeature Aura of Protection|Paladin|XPHB|6|XPHB} fails a {@variantrule D20 Test|XPHB}, you can take a {@variantrule Reaction|XPHB} to make the {@variantrule D20 Test|XPHB} succeed instead."
+					]
+				}
+			]
+		}
+	],
+	"foundrySubclassFeature": [
+		{
+			"name": "Primal Lorist",
+			"source": "XUA2025ForgottenRealmsSubclasses",
+			"className": "Bard",
+			"classSource": "XPHB",
+			"subclassShortName": "Moon",
+			"subclassSource": "XUA2025ForgottenRealmsSubclasses",
+			"level": 3,
+			"entryData": {
+				"languageProficiencies": [
+					{
+						"druidic": true
+					}
+				],
+				"skillProficiencies": [
+					{
+						"choose": {
+							"from": [
+								"animal handling",
+								"insight",
+								"medicine",
+								"nature",
+								"perception",
+								"survival"
+							],
+							"count": 1
+						}
+					}
+				]
+			}
+		},
+		{
+			"name": "Blessings of Knowledge",
+			"source": "XUA2025ForgottenRealmsSubclasses",
+			"className": "Cleric",
+			"classSource": "XPHB",
+			"subclassShortName": "Knowledge",
+			"subclassSource": "XUA2025ForgottenRealmsSubclasses",
+			"level": 3,
+			"entries": [
+				"You gain proficiency with one type of {@item Artisan's Tools|XPHB} of your choice and in two of the following skills of your choice: {@skill Arcana|XPHB}, {@skill History|XPHB}, {@skill Nature|XPHB}, or {@skill Religion|XPHB}. You have {@variantrule Expertise|XPHB} in those two skills."
+			],
+			"entryData": {
+				"toolProficiencies": [
+					{
+						"anyArtisansTool": 1
+					}
+				],
+				"expertise": [
+					{
+						"choose": {
+							"from": [
+								"arcana",
+								"history",
+								"nature",
+								"religion"
+							],
+							"count": 2
+						}
+					}
+				]
+			}
+		},
+		{
+			"name": "Knightly Envoy",
+			"source": "XUA2025ForgottenRealmsSubclasses",
+			"className": "Fighter",
+			"classSource": "XPHB",
+			"subclassShortName": "Purple Dragon Knight",
+			"subclassSource": "XUA2025ForgottenRealmsSubclasses",
+			"level": 3,
+			"entryData": {
+				"languageProficiencies": [
+					{
+						"anyStandard": 1
+					},
+					{
+						"anyRare": 1
+					}
+				]
+			}
+		},
+		{
+			"name": "Enduring Commander",
+			"source": "XUA2025ForgottenRealmsSubclasses",
+			"className": "Fighter",
+			"classSource": "XPHB",
+			"subclassShortName": "Purple Dragon Knight",
+			"subclassSource": "XUA2025ForgottenRealmsSubclasses",
+			"level": 18,
+			"entryData": {
+				"resist": [
+					"force",
+					"psychic"
+				]
+			}
+		},
+		{
+			"name": "Genie's Splendor",
+			"source": "XUA2025ForgottenRealmsSubclasses",
+			"className": "Paladin",
+			"classSource": "XPHB",
+			"subclassShortName": "Noble Genies",
+			"subclassSource": "XUA2025ForgottenRealmsSubclasses",
+			"level": 3,
+			"entryData": {
+				"skillProficiencies": [
+					{
+						"choose": {
+							"from": [
+								"acrobatics",
+								"intimidation",
+								"performance",
+								"persuasion"
+							],
+							"count": 1
+						}
+					}
+				]
+			}
+		},
+		{
+			"name": "Aura of Elemental Shielding",
+			"source": "XUA2025ForgottenRealmsSubclasses",
+			"className": "Paladin",
+			"classSource": "XPHB",
+			"subclassShortName": "Noble Genies",
+			"subclassSource": "XUA2025ForgottenRealmsSubclasses",
+			"level": 7,
+			"entryData": {
+				"resist": [
+					{
+						"choose": {
+							"from": [
+								"acid",
+								"cold",
+								"fire",
+								"lightning",
+								"thunder"
+							],
+							"count": 1
+						}
+					}
+				]
+			}
+		}
+	],
+	"monster": [
+		{
+			"name": "Purple Dragon Companion",
+			"source": "XUA2025ForgottenRealmsSubclasses",
+			"page": 4,
+			"summonedByClass": "Fighter|XPHB",
+			"size": [
+				"S"
+			],
+			"type": "dragon",
+			"alignment": [
+				"N"
+			],
+			"ac": [
+				{
+					"special": "13 + your Intelligence modifier"
+				}
+			],
+			"hp": {
+				"special": "4 plus four times your Fighter level (the dragon has a number of Hit Dice [d6s] equal to your Fighter level)"
+			},
+			"speed": {
+				"walk": 30,
+				"fly": 30,
+				"swim": 30
+			},
+			"str": 16,
+			"dex": 16,
+			"con": 12,
+			"int": 8,
+			"wis": 13,
+			"cha": 10,
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"passive": 11,
+			"languages": [
+				"understands the languages you know; telepathy 30 ft."
+			],
+			"pbNote": "equals your Proficiency Bonus",
+			"trait": [
+				{
+					"name": "Amphibious",
+					"entries": [
+						"The dragon can breathe both air and water."
+					]
+				},
+				{
+					"name": "Stalwart Bond",
+					"entries": [
+						"Add half your {@variantrule Proficiency|XPHB|Proficiency Bonus} (round down) to any ability check or saving throw the dragon makes."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Rend",
+					"entries": [
+						"{@atkr m} +3 plus your Intelligence modifier, reach 5 ft. {@h}{@damage 1d6} plus your Intelligence modifier Force damage."
+					]
+				},
+				{
+					"name": "Gravity Breath (2/Day)",
+					"entries": [
+						"{@actSave con} {@dc 8} plus your {@variantrule Proficiency|XPHB|Proficiency Bonus} plus your Intelligence modifier, each creature in a 15-foot {@variantrule Cone [Area of Effect]|XPHB|Cone}. {@actSaveFail} The target is either pulled up to 15 feet straight toward the dragon or pushed 15 feet straight away from the dragon (your choice)."
+					]
+				}
+			],
+			"traitTags": [
+				"Amphibious"
+			],
+			"actionTags": [
+				"Breath Weapon"
+			],
+			"languageTags": [
+				"TP"
+			],
+			"miscTags": [
+				"MA"
+			]
+		}
+	],
+	"table": [
+		{
+			"name": "Genie Spells",
+			"source": "XUA2025ForgottenRealmsSubclasses",
+			"page": 5,
+			"colLabels": [
+				"Paladin Level",
+				"Spells"
+			],
+			"colStyles": [
+				"col-3 text-center",
+				"col-9"
+			],
+			"rows": [
+				[
+					"3",
+					"{@spell Chromatic Orb|XPHB}, {@spell Elementalism|XPHB}, {@spell Thunderous Smite|XPHB}"
+				],
+				[
+					"5",
+					"{@spell Mirror Image|XPHB}, {@spell Phantasmal Force|XPHB}"
+				],
+				[
+					"9",
+					"{@spell Fly|XPHB}, {@spell Gaseous Form|XPHB}"
+				],
+				[
+					"13",
+					"{@spell Conjure Minor Elementals|XPHB}, {@spell Summon Elemental|XPHB}"
+				],
+				[
+					"17",
+					"{@spell Banishing Smite|XPHB}, {@spell Contact Other Plane|XPHB}"
+				]
+			]
+		},
+		{
+			"name": "Knowledge Domain Spells",
+			"source": "XUA2025ForgottenRealmsSubclasses",
+			"page": 2,
+			"colLabels": [
+				"Cleric Level",
+				"Prepared Spells"
+			],
+			"colStyles": [
+				"col-3 text-center",
+				"col-9"
+			],
+			"rows": [
+				[
+					"3",
+					"{@spell Command|XPHB}, {@spell Comprehend Languages|XPHB}, {@spell Detect Magic|XPHB}, {@spell Detect Thoughts|XPHB}, {@spell Identify|XPHB}, {@spell Mind Spike|XPHB}"
+				],
+				[
+					"5",
+					"{@spell Dispel Magic|XPHB}, {@spell Nondetection|XPHB}, {@spell Tongues|XPHB}"
+				],
+				[
+					"7",
+					"{@spell Arcane Eye|XPHB}, {@spell Banishment|XPHB}, {@spell Confusion|XPHB}"
+				],
+				[
+					"9",
+					"{@spell Legend Lore|XPHB}, {@spell Scrying|XPHB}, {@spell Synaptic Static|XPHB}"
+				]
+			]
+		}
+	],
+	"book": [
+		{
+			"name": "Unearthed Arcana 2025: Forgotten Realms Subclasses",
+			"id": "XUA2025ForgottenRealmsSubclasses",
+			"source": "XUA2025ForgottenRealmsSubclasses",
+			"group": "prerelease",
+			"cover": {
+				"type": "internal",
+				"path": "covers/blank.webp"
+			},
+			"published": "2025-01-28",
+			"author": "Wizards of the Coast",
+			"contents": [
+				{
+					"name": "Unearthed Arcana 2025: Forgotten Realms Subclasses",
+					"headers": [
+						"What's Inside",
+						"Subclasses",
+						{
+							"header": "College of the Moon (Bard)",
+							"depth": 1
+						},
+						{
+							"header": "Knowledge Domain (Cleric)",
+							"depth": 1
+						},
+						{
+							"header": "Purple Dragon Knight (Fighter)",
+							"depth": 1
+						},
+						{
+							"header": "Oath of the Noble Genies (Paladin)",
+							"depth": 1
+						},
+						{
+							"header": "Winter Walker (Ranger)",
+							"depth": 1
+						},
+						{
+							"header": "Scion of the Three (Rogue)",
+							"depth": 1
+						},
+						{
+							"header": "Spellfire Sorcery (Sorcerer)",
+							"depth": 1
+						},
+						{
+							"header": "Bladesinger (Wizard)",
+							"depth": 1
+						}
+					]
+				}
+			]
+		}
+	],
+	"bookData": [
+		{
+			"id": "XUA2025ForgottenRealmsSubclasses",
+			"source": "XUA2025ForgottenRealmsSubclasses",
+			"data": [
+				{
+					"type": "section",
+					"name": "Unearthed Arcana 2025: Forgotten Realms Subclasses",
+					"page": 1,
+					"entries": [
+						"This playtest document is part of a series of {@i Unearthed Arcana} articles that present material designed for upcoming products. The material here uses the rules in the {@book 2024 Player's Handbook|XPHB}.",
+						{
+							"type": "inset",
+							"name": "Learn More on YouTube",
+							"page": 1,
+							"entries": [
+								"To learn more about the design in this article, we invite you to view the videos about it on YouTube ({@link www.youtube.com/DNDWizards})."
+							]
+						},
+						{
+							"type": "section",
+							"name": "What's Inside",
+							"page": 1,
+							"entries": [
+								"This document presents eight subclasses: revised subclasses for the {@class Cleric|XPHB} ({@subclass Knowledge|Cleric|XPHB|XUA2025ForgottenRealmsSubclasses|Knowledge Domain}), {@class Fighter|XPHB} ({@subclass Purple Dragon Knight|Fighter|XPHB|XUA2025ForgottenRealmsSubclasses}), and {@class Wizard|XPHB} ({@subclass Bladesinger|Wizard|XPHB|XUA2025ForgottenRealmsSubclasses}) and new subclasses for the {@class Bard|XPHB} ({@subclass Moon|Bard|XPHB|XUA2025ForgottenRealmsSubclasses|College of the Moon}), {@class Paladin|XPHB} ({@subclass Noble Genies|Paladin|XPHB|XUA2025ForgottenRealmsSubclasses|Oath of the Noble Genies}), {@class Ranger|XPHB} ({@subclass Winter Walker|Ranger|XPHB|XUA2025ForgottenRealmsSubclasses}), {@class Rogue|XPHB} ({@subclass Scion of the Three|Rogue|XPHB|XUA2025ForgottenRealmsSubclasses}), and {@class Sorcerer|XPHB} ({@subclass Spellfire|Sorcerer|XPHB|XUA2025ForgottenRealmsSubclasses|Spellfire Sorcery}).",
+								{
+									"type": "inset",
+									"name": "This Is Playtest Material",
+									"page": 1,
+									"entries": [
+										"This article is presented for playtesting and feedback. The options here are experimental and in draft form. They aren't officially part of the game. Your feedback will help determine whether we adopt it as official.",
+										{
+											"type": "list",
+											"style": "list-hang-notitle",
+											"page": 1,
+											"items": [
+												{
+													"type": "item",
+													"name": "How to Playtest This UA",
+													"entries": [
+														"We invite you to try out this material in play. To play with this material, you may either incorporate it into your campaign or run one or more special playtest sessions. For such a session, you may create an adventure of your own or use a short adventure from a source like {@adventure Quests from the Infinite Staircase|QftIS}."
+													]
+												},
+												{
+													"type": "item",
+													"name": "Power Level",
+													"entries": [
+														"The character options you read here might be more or less powerful than options in the {@book 2024 Player's Handbook|XPHB}. If a design survives playtesting, we adjust its power to the desirable level before publication. This means an option could be more or less powerful in its final form."
+													]
+												},
+												{
+													"type": "item",
+													"name": "Feedback",
+													"entries": [
+														"The best way for you to give us feedback on this material is in the survey we'll release on D&D Beyond. If we make this material official, it will be refined based on your feedback, and then it will appear in a D&D book.",
+														"Providing feedback on this document is one way you can help shape the future of D&D!"
+													]
+												}
+											]
+										}
+									]
+								}
+							]
+						},
+						{
+							"type": "section",
+							"name": "Subclasses",
+							"page": 1,
+							"entries": [
+								"This section presents the following subclasses: {@subclass Moon|Bard|XPHB|XUA2025ForgottenRealmsSubclasses|College of the Moon}, {@subclass Knowledge|Cleric|XPHB|XUA2025ForgottenRealmsSubclasses|Knowledge Domain}, {@subclass Purple Dragon Knight|Fighter|XPHB|XUA2025ForgottenRealmsSubclasses}, {@subclass Noble Genies|Paladin|XPHB|XUA2025ForgottenRealmsSubclasses|Oath of the Noble Genies}, {@subclass Winter Walker|Ranger|XPHB|XUA2025ForgottenRealmsSubclasses}, {@subclass Scion of the Three|Rogue|XPHB|XUA2025ForgottenRealmsSubclasses}, {@subclass Spellfire|Sorcerer|XPHB|XUA2025ForgottenRealmsSubclasses|Spellfire Sorcery}, and {@subclass Bladesinger|Wizard|XPHB|XUA2025ForgottenRealmsSubclasses}.",
+								{
+									"type": "entries",
+									"name": "College of the Moon (Bard)",
+									"page": 1,
+									"entries": [
+										"{@i Inspire Allies with Primal Tales}",
+										{
+											"type": "statblock",
+											"prop": "subclass",
+											"source": "XUA2025ForgottenRealmsSubclasses",
+											"name": "Moon",
+											"className": "Bard",
+											"classSource": "XPHB",
+											"page": 1
+										}
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Knowledge Domain (Cleric)",
+									"page": 2,
+									"entries": [
+										"{@i Unearth Secrets and Master the Mind}",
+										{
+											"type": "inset",
+											"name": "Design Note: Knowledge Domain Updates",
+											"page": 2,
+											"entries": [
+												"Here are the main updates in this subclass since its appearance in the {@book Player's Handbook (2014)|PHB}:",
+												{
+													"type": "list",
+													"page": 2,
+													"items": [
+														{
+															"type": "item",
+															"name": "Blessings of Knowledge",
+															"nameDot": false,
+															"entries": [
+																"now gives you proficiency with a type of {@item Artisan's Tools|XPHB}."
+															]
+														},
+														{
+															"type": "item",
+															"name": "Knowledge Domain Spells",
+															"nameDot": false,
+															"entries": [
+																"have been updated to include more damaging and combat-relevant options. The number of spells has also increased."
+															]
+														},
+														{
+															"type": "item",
+															"name": "Mind Magic",
+															"nameDot": false,
+															"entries": [
+																"is a new feature that allows you to expend a use of {@classFeature Channel Divinity|Cleric|XPHB|2|XPHB} to cast one of your domain spells without expending a spell slot."
+															]
+														},
+														{
+															"type": "item",
+															"name": "Unfettered Mind",
+															"nameDot": false,
+															"entries": [
+																"is a new feature that grants you telepathy and consistent Intelligence checks."
+															]
+														},
+														{
+															"type": "item",
+															"name": "Divine Foreknowledge",
+															"nameDot": false,
+															"entries": [
+																"is a new feature that allows you to gain {@variantrule Advantage|XPHB} on {@variantrule D20 Test|XPHB|D20 Tests} for 1 hour."
+															]
+														}
+													]
+												}
+											]
+										},
+										{
+											"type": "statblock",
+											"prop": "subclass",
+											"source": "XUA2025ForgottenRealmsSubclasses",
+											"name": "Knowledge",
+											"className": "Cleric",
+											"classSource": "XPHB",
+											"page": 2
+										}
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Purple Dragon Knight (Fighter)",
+									"page": 3,
+									"entries": [
+										"{@i Herald the Majesty of Amethyst Dragons}",
+										{
+											"type": "inset",
+											"name": "Design Note: Purple Dragon Knight Updates",
+											"page": 3,
+											"entries": [
+												"Here are the main updates in this subclass since its appearance in {@book Sword Coast Adventurer's Guide|SCAG}:",
+												{
+													"type": "list",
+													"page": 3,
+													"items": [
+														{
+															"type": "item",
+															"name": "Knightly Envoy",
+															"nameDot": false,
+															"entries": [
+																"(formerly {@subclassFeature Royal Envoy|Fighter|PHB|Purple Dragon Knight (Banneret)|SCAG|7|SCAG}) has been moved to level 3. It now lets you learn an additional language and cast the {@spell Comprehend Languages|XPHB} spell as a {@variantrule Ritual|XPHB}."
+															]
+														},
+														{
+															"type": "item",
+															"name": "Purple Dragon Companion",
+															"nameDot": false,
+															"entries": [
+																"is a new feature that gives the Purple Dragon Knight a dragon companion."
+															]
+														},
+														{
+															"type": "item",
+															"name": "Dragon Rider",
+															"nameDot": false,
+															"entries": [
+																"is a new feature that improves the dragon companion, allowing you to heal it with your {@classFeature Second Wind|Fighter|XPHB|1|XPHB} and ride it in a limited capacity."
+															]
+														},
+														{
+															"type": "item",
+															"name": "Rallying Surge",
+															"nameDot": false,
+															"entries": [
+																"(formerly {@subclassFeature Inspiring Surge|Fighter|PHB|Purple Dragon Knight (Banneret)|SCAG|10|SCAG}) now lets you choose up to three creatures within a more limited radius. It also gives chosen creatures a retreat option."
+															]
+														},
+														{
+															"type": "item",
+															"name": "Amethyst Pinnacle",
+															"nameDot": false,
+															"entries": [
+																"is a new feature that again improves your dragon companion, allowing you to ride it unrestricted and attack in tandem."
+															]
+														},
+														{
+															"type": "item",
+															"name": "Enduring Commander",
+															"nameDot": false,
+															"entries": [
+																"is a new feature that grants both you and your dragon companion {@variantrule Resistance|XPHB|Resistances}."
+															]
+														}
+													]
+												}
+											]
+										},
+										{
+											"type": "statblock",
+											"prop": "subclass",
+											"source": "XUA2025ForgottenRealmsSubclasses",
+											"name": "Purple Dragon Knight",
+											"className": "Fighter",
+											"classSource": "XPHB",
+											"page": 3
+										},
+										{
+											"type": "statblock",
+											"tag": "creature",
+											"source": "XUA2025ForgottenRealmsSubclasses",
+											"name": "Purple Dragon Companion",
+											"page": 4,
+											"style": "inset"
+										}
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Oath of the Noble Genies (Paladin)",
+									"page": 4,
+									"entries": [
+										"{@i Brandish the Elemental Splendor of Genies}",
+										{
+											"type": "statblock",
+											"prop": "subclass",
+											"source": "XUA2025ForgottenRealmsSubclasses",
+											"name": "Noble Genies",
+											"className": "Paladin",
+											"classSource": "XPHB",
+											"page": 4
+										}
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Winter Walker (Ranger)",
+									"page": 5,
+									"entries": [
+										"{@i Withstand the Horrors of Frigid Wastelands}",
+										{
+											"type": "statblock",
+											"prop": "subclass",
+											"source": "XUA2025ForgottenRealmsSubclasses",
+											"name": "Winter Walker",
+											"className": "Ranger",
+											"classSource": "XPHB",
+											"page": 5
+										}
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Scion of the Three (Rogue)",
+									"page": 6,
+									"entries": [
+										"{@i Become a Gruesome Agent of Malice}",
+										{
+											"type": "statblock",
+											"prop": "subclass",
+											"source": "XUA2025ForgottenRealmsSubclasses",
+											"name": "Scion of the Three",
+											"className": "Rogue",
+											"classSource": "XPHB",
+											"page": 6
+										}
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Spellfire Sorcery (Sorcerer)",
+									"page": 7,
+									"entries": [
+										"{@i Radiate Raw Magic Potential}",
+										{
+											"type": "statblock",
+											"prop": "subclass",
+											"source": "XUA2025ForgottenRealmsSubclasses",
+											"name": "Spellfire",
+											"className": "Sorcerer",
+											"classSource": "XPHB",
+											"page": 7
+										}
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Bladesinger (Wizard)",
+									"page": 8,
+									"entries": [
+										"{@i Wield Sword and Sorcery in Elegant Tandem}",
+										{
+											"type": "inset",
+											"name": "Design Note: Bladesinger Updates",
+											"page": 8,
+											"entries": [
+												"Here are the main updates in this subclass since its appearance in {@book Tasha's Cauldron of Everything|TCE}:",
+												{
+													"type": "list",
+													"page": 8,
+													"items": [
+														{
+															"type": "item",
+															"name": "Bladesong",
+															"nameDot": false,
+															"entries": [
+																"now allows you to use your Intelligence modifier for attack and damage rolls while the song is active. The number of uses is now tied to your Intelligence modifier."
+															]
+														},
+														{
+															"type": "item",
+															"name": "Training in War and Song",
+															"nameDot": false,
+															"entries": [
+																"now grants you proficiency in a skill chosen from a list of options. Expanded weapon proficiencies have replaced armor training, and you can now use a weapon as a {@variantrule Spellcasting Focus|XPHB}."
+															]
+														},
+														{
+															"type": "item",
+															"name": "Song of Victory",
+															"nameDot": false,
+															"entries": [
+																"now allows you to make a weapon attack as a {@variantrule Bonus Action|XPHB} after casting a spell with an action."
+															]
+														}
+													]
+												}
+											]
+										},
+										{
+											"type": "statblock",
+											"prop": "subclass",
+											"source": "XUA2025ForgottenRealmsSubclasses",
+											"name": "Bladesinger",
+											"className": "Wizard",
+											"classSource": "XPHB",
+											"page": 8
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	]
+}
