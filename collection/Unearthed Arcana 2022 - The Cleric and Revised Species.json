@@ -21,10 +21,10 @@
 				"PHB"
 			]
 		},
+		"edition": "classic",
 		"dateAdded": 1672604449,
 		"dateLastModified": 1732568539,
-		"_dateLastModifiedHash": "e6921dfcc3",
-		"edition": "classic"
+		"_dateLastModifiedHash": "e6921dfcc3"
 	},
 	"class": [
 		{

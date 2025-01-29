@@ -19,10 +19,10 @@
 		"optionalFeatureTypes": {
 			"BF": "Bastion Facility"
 		},
+		"edition": "classic",
 		"dateAdded": 1696529407,
 		"dateLastModified": 1733837795,
-		"_dateLastModifiedHash": "57e2831a84",
-		"edition": "classic"
+		"_dateLastModifiedHash": "57e2831a84"
 	},
 	"optionalfeature": [
 		{

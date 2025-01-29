@@ -21,10 +21,10 @@
 				"UAClassFeatureVariants"
 			]
 		},
+		"edition": "classic",
 		"dateAdded": 1701616429,
-		"dateLastModified": 1729637619,
-		"_dateLastModifiedHash": "a9dc5283f8",
-		"edition": "classic"
+		"dateLastModified": 1735770386,
+		"_dateLastModifiedHash": "bec5001844"
 	},
 	"subclass": [
 		{

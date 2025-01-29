@@ -16,10 +16,10 @@
 				"dateReleased": "2020-07-13"
 			}
 		],
+		"edition": "classic",
 		"dateAdded": 1701616429,
 		"dateLastModified": 1729637619,
-		"_dateLastModifiedHash": "9dae0e5425",
-		"edition": "classic"
+		"_dateLastModifiedHash": "9dae0e5425"
 	},
 	"feat": [
 		{
