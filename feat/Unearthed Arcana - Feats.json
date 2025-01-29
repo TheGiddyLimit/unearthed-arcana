@@ -16,10 +16,10 @@
 				"dateReleased": "2016-06-06"
 			}
 		],
+		"edition": "classic",
 		"dateAdded": 1701616429,
 		"dateLastModified": 1729637619,
-		"_dateLastModifiedHash": "691adef658",
-		"edition": "classic"
+		"_dateLastModifiedHash": "691adef658"
 	},
 	"feat": [
 		{

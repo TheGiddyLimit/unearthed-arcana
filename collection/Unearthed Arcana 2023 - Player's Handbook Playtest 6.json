@@ -16,10 +16,10 @@
 				"dateReleased": "2023-06-28"
 			}
 		],
+		"edition": "classic",
 		"dateAdded": 1691158917,
 		"dateLastModified": 1732568539,
-		"_dateLastModifiedHash": "eae6657f60",
-		"edition": "classic"
+		"_dateLastModifiedHash": "eae6657f60"
 	},
 	"class": [
 		{

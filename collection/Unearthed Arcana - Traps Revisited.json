@@ -16,10 +16,10 @@
 				"dateReleased": "2017-02-27"
 			}
 		],
+		"edition": "classic",
 		"dateAdded": 1672604449,
 		"dateLastModified": 1733837795,
-		"_dateLastModifiedHash": "f3da3df38e",
-		"edition": "classic"
+		"_dateLastModifiedHash": "f3da3df38e"
 	},
 	"trap": [
 		{

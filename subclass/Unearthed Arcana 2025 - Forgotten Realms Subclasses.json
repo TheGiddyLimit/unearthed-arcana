@@ -20,7 +20,8 @@
 		"edition": "one",
 		"status": "ready",
 		"dateAdded": 1738085408,
-		"dateLastModified": 1738085408
+		"dateLastModified": 1738085408,
+		"_dateLastModifiedHash": "46a955a6d1"
 	},
 	"subclass": [
 		{

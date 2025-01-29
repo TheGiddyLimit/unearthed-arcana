@@ -23,10 +23,10 @@
 				"UAWaterborneAdventures"
 			]
 		},
+		"edition": "classic",
 		"dateAdded": 1701616429,
 		"dateLastModified": 1729637619,
-		"_dateLastModifiedHash": "e5840bc030",
-		"edition": "classic"
+		"_dateLastModifiedHash": "e5840bc030"
 	},
 	"class": [
 		{

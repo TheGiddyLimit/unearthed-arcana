@@ -25,10 +25,10 @@
 				"monk"
 			]
 		},
+		"edition": "classic",
 		"dateAdded": 1701114642,
 		"dateLastModified": 1733837795,
-		"_dateLastModifiedHash": "f2e5b62c4d",
-		"edition": "classic"
+		"_dateLastModifiedHash": "f2e5b62c4d"
 	},
 	"class": [
 		{

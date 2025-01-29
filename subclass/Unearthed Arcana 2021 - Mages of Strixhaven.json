@@ -19,10 +19,10 @@
 		"internalCopies": [
 			"subclass"
 		],
+		"edition": "classic",
 		"dateAdded": 1701616429,
 		"dateLastModified": 1729637619,
-		"_dateLastModifiedHash": "891c2742f7",
-		"edition": "classic"
+		"_dateLastModifiedHash": "891c2742f7"
 	},
 	"subclass": [
 		{
