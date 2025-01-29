@@ -21,10 +21,10 @@
 				"PHB"
 			]
 		},
+		"edition": "classic",
 		"dateAdded": 1672604449,
 		"dateLastModified": 1732568539,
-		"_dateLastModifiedHash": "f0f4b62b64",
-		"edition": "classic"
+		"_dateLastModifiedHash": "f0f4b62b64"
 	},
 	"class": [
 		{
@@ -4162,12 +4162,14 @@
 			"additionalSpells": [
 				{
 					"innate": {
-						"ritual": [
-							{
-								"choose": "level=1|list=Arcane;Divine;Primal",
-								"count": 2
-							}
-						]
+						"_": {
+							"ritual": [
+								{
+									"choose": "level=1|list=Arcane;Divine;Primal",
+									"count": 2
+								}
+							]
+						}
 					},
 					"ability": {
 						"choose": [
