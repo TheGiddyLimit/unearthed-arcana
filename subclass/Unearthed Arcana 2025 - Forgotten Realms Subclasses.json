@@ -1911,15 +1911,28 @@
 				],
 				"expertise": [
 					{
-						"choose": {
-							"from": [
-								"arcana",
-								"history",
-								"nature",
-								"religion"
-							],
-							"count": 2
-						}
+						"arcana": true,
+						"history": true
+					},
+					{
+						"arcana": true,
+						"nature": true
+					},
+					{
+						"arcana": true,
+						"religion": true
+					},
+					{
+						"history": true,
+						"nature": true
+					},
+					{
+						"history": true,
+						"religion": true
+					},
+					{
+						"nature": true,
+						"religion": true
 					}
 				]
 			}
