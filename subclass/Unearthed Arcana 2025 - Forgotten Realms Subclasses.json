@@ -24,6 +24,22 @@
 	},
 	"subclass": [
 		{
+			"name": "Bladesinger",
+			"shortName": "Bladesinger",
+			"source": "XUA2025ForgottenRealmsSubclasses",
+			"className": "Wizard",
+			"classSource": "XPHB",
+			"page": 8,
+			"edition": "one",
+			"subclassFeatures": [
+				"Bladesinger|Wizard|XPHB|Bladesinger|XUA2025ForgottenRealmsSubclasses|3|XUA2025ForgottenRealmsSubclasses",
+				"Extra Attack|Wizard|XPHB|Bladesinger|XUA2025ForgottenRealmsSubclasses|6|XUA2025ForgottenRealmsSubclasses",
+				"Song of Defense|Wizard|XPHB|Bladesinger|XUA2025ForgottenRealmsSubclasses|10|XUA2025ForgottenRealmsSubclasses",
+				"Song of Victory|Wizard|XPHB|Bladesinger|XUA2025ForgottenRealmsSubclasses|14|XUA2025ForgottenRealmsSubclasses"
+			],
+			"hasFluff": true
+		},
+		{
 			"name": "College of the Moon",
 			"shortName": "Moon",
 			"source": "XUA2025ForgottenRealmsSubclasses",
@@ -208,6 +224,146 @@
 				"Rallying Surge|Fighter|XPHB|Purple Dragon Knight|XUA2025ForgottenRealmsSubclasses|10|XUA2025ForgottenRealmsSubclasses",
 				"Amethyst Pinnacle|Fighter|XPHB|Purple Dragon Knight|XUA2025ForgottenRealmsSubclasses|15|XUA2025ForgottenRealmsSubclasses",
 				"Enduring Commander|Fighter|XPHB|Purple Dragon Knight|XUA2025ForgottenRealmsSubclasses|18|XUA2025ForgottenRealmsSubclasses"
+			],
+			"hasFluff": true
+		},
+		{
+			"name": "Scion of the Three",
+			"shortName": "Scion of the Three",
+			"source": "XUA2025ForgottenRealmsSubclasses",
+			"className": "Rogue",
+			"classSource": "XPHB",
+			"page": 6,
+			"edition": "one",
+			"additionalSpells": [
+				{
+					"innate": {
+						"3": [
+							{
+								"choose": {
+									"from": [
+										"minor illusion|XPHB#c",
+										"blade ward|XPHB#c",
+										"chill touch|XPHB#c"
+									],
+									"count": 1
+								}
+							}
+						]
+					},
+					"ability": "int"
+				}
+			],
+			"subclassSpells": [
+				"minor illusion|XPHB",
+				"blade ward|XPHB",
+				"chill touch|XPHB"
+			],
+			"subclassFeatures": [
+				"Scion of the Three|Rogue|XPHB|Scion of the Three|XUA2025ForgottenRealmsSubclasses|3|XUA2025ForgottenRealmsSubclasses",
+				"Strike Fear|Rogue|XPHB|Scion of the Three|XUA2025ForgottenRealmsSubclasses|9|XUA2025ForgottenRealmsSubclasses",
+				"Aura of Malevolence|Rogue|XPHB|Scion of the Three|XUA2025ForgottenRealmsSubclasses|13|XUA2025ForgottenRealmsSubclasses",
+				"Dread Incarnate|Rogue|XPHB|Scion of the Three|XUA2025ForgottenRealmsSubclasses|17|XUA2025ForgottenRealmsSubclasses"
+			],
+			"hasFluff": true
+		},
+		{
+			"name": "Spellfire Sorcery",
+			"shortName": "Spellfire",
+			"source": "XUA2025ForgottenRealmsSubclasses",
+			"className": "Sorcerer",
+			"classSource": "XPHB",
+			"page": 7,
+			"edition": "one",
+			"additionalSpells": [
+				{
+					"prepared": {
+						"3": [
+							"Cure Wounds|XPHB",
+							"Guiding Bolt|XPHB",
+							"Lesser Restoration|XPHB",
+							"Scorching Ray|XPHB"
+						],
+						"5": [
+							"Aura of Vitality|XPHB",
+							"Dispel Magic|XPHB"
+						],
+						"6": [
+							"Counterspell|XPHB"
+						],
+						"7": [
+							"Fire Shield|XPHB",
+							"Wall of Fire|XPHB"
+						],
+						"9": [
+							"Greater Restoration|XPHB",
+							"Flame Strike|XPHB"
+						]
+					}
+				}
+			],
+			"subclassSpells": [
+				"Cure Wounds|XPHB",
+				"Guiding Bolt|XPHB",
+				"Lesser Restoration|XPHB",
+				"Scorching Ray|XPHB",
+				"Aura of Vitality|XPHB",
+				"Dispel Magic|XPHB",
+				"Fire Shield|XPHB",
+				"Wall of Fire|XPHB",
+				"Greater Restoration|XPHB",
+				"Flame Strike|XPHB",
+				"Counterspell|XPHB"
+			],
+			"subclassFeatures": [
+				"Spellfire Sorcery|Sorcerer|XPHB|Spellfire|XUA2025ForgottenRealmsSubclasses|3|XUA2025ForgottenRealmsSubclasses",
+				"Absorb Spells|Sorcerer|XPHB|Spellfire|XUA2025ForgottenRealmsSubclasses|6|XUA2025ForgottenRealmsSubclasses",
+				"Honed Spellfire|Sorcerer|XPHB|Spellfire|XUA2025ForgottenRealmsSubclasses|14|XUA2025ForgottenRealmsSubclasses",
+				"Crown of Spellfire|Sorcerer|XPHB|Spellfire|XUA2025ForgottenRealmsSubclasses|18|XUA2025ForgottenRealmsSubclasses"
+			],
+			"hasFluff": true
+		},
+		{
+			"name": "Winter Walker",
+			"shortName": "Winter Walker",
+			"source": "XUA2025ForgottenRealmsSubclasses",
+			"className": "Ranger",
+			"classSource": "XPHB",
+			"page": 5,
+			"edition": "one",
+			"additionalSpells": [
+				{
+					"prepared": {
+						"3": [
+							"Ice Knife|XPHB"
+						],
+						"5": [
+							"Pass Without Trace|XPHB"
+						],
+						"9": [
+							"Remove Curse|XPHB"
+						],
+						"13": [
+							"Ice Storm|XPHB"
+						],
+						"17": [
+							"Cone of Cold|XPHB"
+						]
+					}
+				}
+			],
+			"subclassSpells": [
+				"Ice Knife|XPHB",
+				"Pass Without Trace|XPHB",
+				"Remove Curse|XPHB",
+				"Ice Storm|XPHB",
+				"Cone of Cold|XPHB"
+			],
+			"subclassFeatures": [
+				"Winter Walker|Ranger|XPHB|Winter Walker|XUA2025ForgottenRealmsSubclasses|3|XUA2025ForgottenRealmsSubclasses",
+				"Fortifying Soul|Ranger|XPHB|Winter Walker|XUA2025ForgottenRealmsSubclasses|7|XUA2025ForgottenRealmsSubclasses",
+				"Chilling Retribution|Ranger|XPHB|Winter Walker|XUA2025ForgottenRealmsSubclasses|11|XUA2025ForgottenRealmsSubclasses",
+				"Frozen Haunt|Ranger|XPHB|Winter Walker|XUA2025ForgottenRealmsSubclasses|15|XUA2025ForgottenRealmsSubclasses"
 			],
 			"hasFluff": true
 		}
@@ -505,7 +661,7 @@
 			"subclassSource": "XUA2025ForgottenRealmsSubclasses",
 			"level": 3,
 			"entries": [
-				"You learn {@language Druidic|XPHB} and one {@filter cantrip from the Druid spell list|spells|level=0|class=druid (phb2024)}. It counts as a {@class Bard|XPHB} spell for you but doesn't count against the number of cantrips you know.",
+				"You learn {@language Druidic|XPHB} and one {@filter cantrip from the Druid spell list|spells|level=0|class=druid}. It counts as a {@class Bard|XPHB} spell for you but doesn't count against the number of cantrips you know.",
 				"Additionally, choose one of the following skills: {@skill Animal Handling|XPHB}, {@skill Insight|XPHB}, {@skill Medicine|XPHB}, {@skill Nature|XPHB}, {@skill Perception|XPHB}, or {@skill Survival|XPHB}. You have proficiency in that skill."
 			]
 		},
@@ -1015,7 +1171,7 @@
 			"subclassSource": "XUA2025ForgottenRealmsSubclasses",
 			"level": 3,
 			"entries": [
-				"When you aren’t wearing Medium or Heavy armor, you gain a bonus to your AC equal to your Charisma modifier (minimum of +1). You also gain proficiency in one of the following skills of your choice: {@skill Acrobatics|XPHB}, {@skill Intimidation|XPHB}, {@skill Performance|XPHB}, or {@skill Persuasion|XPHB}."
+				"When you aren't wearing Medium or Heavy armor, you gain a bonus to your AC equal to your Charisma modifier (minimum of +1). You also gain proficiency in one of the following skills of your choice: {@skill Acrobatics|XPHB}, {@skill Intimidation|XPHB}, {@skill Performance|XPHB}, or {@skill Persuasion|XPHB}."
 			]
 		},
 		{
@@ -1096,7 +1252,7 @@
 			"level": 15,
 			"header": 2,
 			"entries": [
-				"When you are hit by an attack roll, you can take a {@variantrule Reaction|XPHB} to halve the attack’s damage against yourself (round down) and force the attacker to make a Dexterity saving throw against your spell save DC. On a failed save, the attacker takes damage equal to {@damage 4d10} plus your Charisma modifier; the damage is one of the following types (your choice): Acid, Cold, Fire, Lightning, or Thunder. On a successful save, the attacker takes half as much damage.",
+				"When you are hit by an attack roll, you can take a {@variantrule Reaction|XPHB} to halve the attack's damage against yourself (round down) and force the attacker to make a Dexterity saving throw against your spell save DC. On a failed save, the attacker takes damage equal to {@damage 4d10} plus your Charisma modifier; the damage is one of the following types (your choice): Acid, Cold, Fire, Lightning, or Thunder. On a successful save, the attacker takes half as much damage.",
 				"You can use this feature a number of times equal to your Charisma modifier (minimum of once), and you regain all expended uses when you finish a {@variantrule Long Rest|XPHB}."
 			]
 		},
@@ -1111,7 +1267,7 @@
 			"level": 20,
 			"header": 2,
 			"entries": [
-				"As a {@variantrule Bonus Action|XPHB}, you gain the benefits below for 10 minutes or until you end them (no action required). Once you use this feature, you can’t use it again until you finish a {@variantrule Long Rest|XPHB}. You can also restore your use of it by expending a level 5 spell slot (no action required).",
+				"As a {@variantrule Bonus Action|XPHB}, you gain the benefits below for 10 minutes or until you end them (no action required). Once you use this feature, you can't use it again until you finish a {@variantrule Long Rest|XPHB}. You can also restore your use of it by expending a level 5 spell slot (no action required).",
 				{
 					"type": "entries",
 					"name": "Flight",
@@ -1128,6 +1284,579 @@
 						"When you or an ally in your {@classFeature Aura of Protection|Paladin|XPHB|6|XPHB} fails a {@variantrule D20 Test|XPHB}, you can take a {@variantrule Reaction|XPHB} to make the {@variantrule D20 Test|XPHB} succeed instead."
 					]
 				}
+			]
+		},
+		{
+			"name": "Frigid Explorer",
+			"source": "XUA2025ForgottenRealmsSubclasses",
+			"page": 6,
+			"className": "Ranger",
+			"classSource": "XPHB",
+			"subclassShortName": "Winter Walker",
+			"subclassSource": "XUA2025ForgottenRealmsSubclasses",
+			"level": 3,
+			"entries": [
+				"You gain the following benefits.",
+				{
+					"type": "entries",
+					"name": "Frost Resistance",
+					"page": 6,
+					"entries": [
+						"You have {@variantrule Resistance|XPHB} to Cold damage."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Polar Strikes",
+					"page": 6,
+					"entries": [
+						"When you hit a creature with a weapon, you can deal an extra {@damage 1d4} Cold damage to the target, which can take this extra damage only once per turn. This extra damage ignores {@variantrule Resistance|XPHB} to Cold damage. When you reach {@class Ranger|XPHB} level 11, this extra damage increases to {@damage 1d6}."
+					]
+				}
+			]
+		},
+		{
+			"name": "Hunter's Rime",
+			"source": "XUA2025ForgottenRealmsSubclasses",
+			"page": 6,
+			"className": "Ranger",
+			"classSource": "XPHB",
+			"subclassShortName": "Winter Walker",
+			"subclassSource": "XUA2025ForgottenRealmsSubclasses",
+			"level": 3,
+			"entries": [
+				"Ice rimes you and your prey, protecting you and slowing them. When you cast {@spell Hunter's Mark|XPHB}, you gain {@variantrule Temporary Hit Points|XPHB} equal to {@dice 1d10} plus your {@class Ranger|XPHB} level.",
+				"Additionally, while a creature is marked by your {@spell Hunter's Mark|XPHB}, it can't take the {@action Disengage|XPHB} action."
+			]
+		},
+		{
+			"name": "Winter Walker",
+			"source": "XUA2025ForgottenRealmsSubclasses",
+			"page": 5,
+			"className": "Ranger",
+			"classSource": "XPHB",
+			"subclassShortName": "Winter Walker",
+			"subclassSource": "XUA2025ForgottenRealmsSubclasses",
+			"level": 3,
+			"entries": [
+				"Winter Walkers hone their craft in the bleak and frozen wilds of places like Icewind Dale. Rimed with ice, these ruthless Rangers hunt the monsters that haunt arctic wastelands, eventually becoming frigid terrors themselves.",
+				"More so than any other Rangers of Icewind Dale, Winter Walkers are known to be well versed in the paranormal phenomena specific to the realm, including the latent magic of fallen Netherese cities, endemic monsters like {@creature yeti|XMM|yetis} and {@creature crag cat|SKT|crag cats}, and the rising threat of Underdark invaders. In exchange for their cold pragmatism, terrifying magic, and mastery of the region, these Winter Walkers are regarded with equal parts respect and fear.",
+				"Ten-Towns citizens say that it is Winter Walkers' frequent exposure to malignant entities that gives them their fearsome powers. Many Reghed nomads, on the other hand, believe that nature spirits bestow Winter Walkers with a unique curse.",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Frigid Explorer|Ranger|XPHB|Winter Walker|XUA2025ForgottenRealmsSubclasses|3|XUA2025ForgottenRealmsSubclasses"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Hunter's Rime|Ranger|XPHB|Winter Walker|XUA2025ForgottenRealmsSubclasses|3|XUA2025ForgottenRealmsSubclasses"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Winter Walker Spells|Ranger|XPHB|Winter Walker|XUA2025ForgottenRealmsSubclasses|3|XUA2025ForgottenRealmsSubclasses"
+				}
+			]
+		},
+		{
+			"name": "Winter Walker Spells",
+			"source": "XUA2025ForgottenRealmsSubclasses",
+			"page": 6,
+			"className": "Ranger",
+			"classSource": "XPHB",
+			"subclassShortName": "Winter Walker",
+			"subclassSource": "XUA2025ForgottenRealmsSubclasses",
+			"level": 3,
+			"entries": [
+				"When you reach a {@class Ranger|XPHB} level specified in the {@table Winter Walker Spells|XUA2025ForgottenRealmsSubclasses} table, you thereafter always have the listed spells prepared.",
+				{
+					"type": "statblock",
+					"tag": "table",
+					"source": "XUA2025ForgottenRealmsSubclasses",
+					"name": "Winter Walker Spells",
+					"page": 6
+				}
+			]
+		},
+		{
+			"name": "Fortifying Soul",
+			"source": "XUA2025ForgottenRealmsSubclasses",
+			"page": 6,
+			"className": "Ranger",
+			"classSource": "XPHB",
+			"subclassShortName": "Winter Walker",
+			"subclassSource": "XUA2025ForgottenRealmsSubclasses",
+			"level": 7,
+			"header": 2,
+			"entries": [
+				"Your experience surviving harrowing environments allows you to bolster your allies in addition to yourself. When you finish a {@variantrule Short Rest|XPHB}, you can choose a number of creatures you can see equal to your Wisdom modifier (minimum of one). A chosen creature regains {@variantrule Hit Points|XPHB} equal to {@dice 1d10} plus your {@class Ranger|XPHB} level and has {@variantrule Advantage|XPHB} on saving throws to avoid or end the {@condition Frightened|XPHB} condition for 1 hour.",
+				"Once you use this feature, you can't use it again until you finish a {@variantrule Long Rest|XPHB}."
+			]
+		},
+		{
+			"name": "Chilling Retribution",
+			"source": "XUA2025ForgottenRealmsSubclasses",
+			"page": 6,
+			"className": "Ranger",
+			"classSource": "XPHB",
+			"subclassShortName": "Winter Walker",
+			"subclassSource": "XUA2025ForgottenRealmsSubclasses",
+			"level": 11,
+			"header": 2,
+			"entries": [
+				"When a creature hits you with an attack roll, you can take a {@variantrule Reaction|XPHB} to force the creature to make a Wisdom saving throw against your spell save DC. On a failed save, the target has the {@condition Frightened|XPHB} condition until the end of your next turn. While {@condition Frightened|XPHB}, a target's {@variantrule Speed|XPHB} is reduced to 0 feet.",
+				"You can use this {@variantrule Reaction|XPHB} a number of times equal to your Wisdom modifier (minimum of once), and you regain all expended uses when you finish a {@variantrule Long Rest|XPHB}."
+			]
+		},
+		{
+			"name": "Frozen Haunt",
+			"source": "XUA2025ForgottenRealmsSubclasses",
+			"page": 6,
+			"className": "Ranger",
+			"classSource": "XPHB",
+			"subclassShortName": "Winter Walker",
+			"subclassSource": "XUA2025ForgottenRealmsSubclasses",
+			"level": 15,
+			"header": 2,
+			"entries": [
+				"When you cast {@spell Hunter's Mark|XPHB}, you can adopt a ghostly, snowy form. This form lasts until the spell ends, and while you are in this form, you gain the following benefits. Once you use this feature, you can't use it again until you finish a {@variantrule Long Rest|XPHB} unless you expend a level 4+ spell slot (no action required).",
+				{
+					"type": "entries",
+					"name": "Frozen Soul",
+					"page": 6,
+					"entries": [
+						"You have {@variantrule Immunity|XPHB} to Cold damage. When you first adopt this form and at the start of each of your subsequent turns, each creature of your choice in a 15-foot {@variantrule Emanation [Area of Effect]|XPHB|Emanation} originating from you takes {@damage 2d4} Cold damage."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Partially Incorporeal",
+					"page": 6,
+					"entries": [
+						"You have {@variantrule Immunity|XPHB} to the {@condition Grappled|XPHB}, {@condition Prone|XPHB}, and {@condition Restrained|XPHB} conditions. You can move through creatures and objects as if they were {@variantrule Difficult Terrain|XPHB}, but you take {@damage 1d10} Force damage if you end your turn inside a creature or an object. If the form ends while you are inside a creature or an object, you are shunted to the nearest unoccupied space."
+					]
+				}
+			]
+		},
+		{
+			"name": "Bloodthirst",
+			"source": "XUA2025ForgottenRealmsSubclasses",
+			"page": 7,
+			"className": "Rogue",
+			"classSource": "XPHB",
+			"subclassShortName": "Scion of the Three",
+			"subclassSource": "XUA2025ForgottenRealmsSubclasses",
+			"level": 3,
+			"entries": [
+				"If your {@classFeature Sneak Attack|Rogue|XPHB|1|XPHB} hits a {@variantrule Bloodied|XPHB} creature, the target takes extra damage of the weapon's type equal to half your {@class Rogue|XPHB} level (round up).",
+				"In addition, when an enemy you can see is reduced to 0 {@variantrule Hit Points|XPHB}, you can take a {@variantrule Reaction|XPHB} and {@variantrule Teleportation|XPHB|teleport} to an unoccupied space you can see within 30 feet of yourself. You can then make one melee attack. You can use this {@variantrule Reaction|XPHB} a number of times equal to your Intelligence modifier (minimum of once), and you regain all expended uses when you finish a {@variantrule Long Rest|XPHB}."
+			]
+		},
+		{
+			"name": "Dread Allegiance",
+			"source": "XUA2025ForgottenRealmsSubclasses",
+			"page": 7,
+			"className": "Rogue",
+			"classSource": "XPHB",
+			"subclassShortName": "Scion of the Three",
+			"subclassSource": "XUA2025ForgottenRealmsSubclasses",
+			"level": 3,
+			"entries": [
+				"Choose one of the Dead Three: {@deity Bane|Faerûnian|SCAG}, {@deity Bhaal|Faerûnian|SCAG}, or {@deity Myrkul|Faerûnian|SCAG}. You gain {@variantrule Resistance|XPHB} to one type of damage and the ability to cast a cantrip, as detailed in the table below; Intelligence is your spellcasting ability for this cantrip. When you finish a {@variantrule Long Rest|XPHB}, you can change your choice.",
+				{
+					"type": "table",
+					"page": 7,
+					"colLabels": [
+						"God",
+						"Damage Resistance",
+						"Cantrip"
+					],
+					"colStyles": [
+						"col-4",
+						"col-4",
+						"col-4"
+					],
+					"rows": [
+						[
+							"{@deity Bane|Faerûnian|SCAG}",
+							"Psychic",
+							"{@spell Minor Illusion|XPHB}"
+						],
+						[
+							"{@deity Bhaal|Faerûnian|SCAG}",
+							"Poison",
+							"{@spell Blade Ward|XPHB}"
+						],
+						[
+							"{@deity Myrkul|Faerûnian|SCAG}",
+							"Necrotic",
+							"{@spell Chill Touch|XPHB}"
+						]
+					]
+				}
+			]
+		},
+		{
+			"name": "Scion of the Three",
+			"source": "XUA2025ForgottenRealmsSubclasses",
+			"page": 6,
+			"className": "Rogue",
+			"classSource": "XPHB",
+			"subclassShortName": "Scion of the Three",
+			"subclassSource": "XUA2025ForgottenRealmsSubclasses",
+			"level": 3,
+			"entries": [
+				"A Scion of the Three draws power from a group of malevolent gods known as the Dead Three: {@deity Bane|Faerûnian|SCAG}, deity of tyranny; {@deity Bhaal|Faerûnian|SCAG}, deity of violence and murder; and {@deity Myrkul|Faerûnian|SCAG}, deity of death. While some Rogues of this subclass pledge themselves ardently to those three macabre gods, others find themselves thrust on this path by a curse. Either way, a scion's power manifests as various occult gifts, as well as an uncanny talent for striking and terrifying foes.",
+				"Scions of the Three are most common in Baldur's Gate, where the Dead Three have long competed for influence over mortal hearts. Underground cults to {@deity Bane|Faerûnian|SCAG}, {@deity Bhaal|Faerûnian|SCAG}, and {@deity Myrkul|Faerûnian|SCAG} often count Scions of the Three among their most useful agents. Outside Baldur's Gate, secular thieves' guilds such as the Shadow Thieves of Amn or Xanathar's guild in Waterdeep might cautiously call on a Scion of the Three to undertake an especially violent contract.",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Bloodthirst|Rogue|XPHB|Scion of the Three|XUA2025ForgottenRealmsSubclasses|3|XUA2025ForgottenRealmsSubclasses"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Dread Allegiance|Rogue|XPHB|Scion of the Three|XUA2025ForgottenRealmsSubclasses|3|XUA2025ForgottenRealmsSubclasses"
+				}
+			]
+		},
+		{
+			"name": "Strike Fear",
+			"source": "XUA2025ForgottenRealmsSubclasses",
+			"page": 7,
+			"className": "Rogue",
+			"classSource": "XPHB",
+			"subclassShortName": "Scion of the Three",
+			"subclassSource": "XUA2025ForgottenRealmsSubclasses",
+			"level": 9,
+			"header": 2,
+			"entries": [
+				"You gain the following {@classFeature Cunning Strike|Rogue|XPHB|5|XPHB} option.",
+				{
+					"type": "entries",
+					"name": "Terrify (Cost: {@dice 1d6})",
+					"page": 7,
+					"entries": [
+						"The target must succeed on a Wisdom saving throw, or it has the {@condition Frightened|XPHB} condition for 1 minute. The {@condition Frightened|XPHB} target repeats the save at the end of each of its turns, ending the effect on itself on a success."
+					]
+				}
+			]
+		},
+		{
+			"name": "Aura of Malevolence",
+			"source": "XUA2025ForgottenRealmsSubclasses",
+			"page": 7,
+			"className": "Rogue",
+			"classSource": "XPHB",
+			"subclassShortName": "Scion of the Three",
+			"subclassSource": "XUA2025ForgottenRealmsSubclasses",
+			"level": 13,
+			"header": 2,
+			"entries": [
+				"You radiate malignant power associated with one of the Dead Three. At the start of each of your turns, each creature of your choice within a 10-foot {@variantrule Emanation [Area of Effect]|XPHB|Emanation} originating from you takes damage equal to your Intelligence modifier (minimum of 1); the damage type is the same as the damage {@variantrule Resistance|XPHB} granted by your choice in the {@subclassFeature Dread Allegiance|Rogue|XPHB|Scion of the Three|XUA2025ForgottenRealmsSubclasses|3|XUA2025ForgottenRealmsSubclasses} feature.",
+				"Damage dealt by this aura ignores {@variantrule Resistance|XPHB}. The aura is inactive while you have the {@condition Incapacitated|XPHB} condition."
+			]
+		},
+		{
+			"name": "Dread Incarnate",
+			"source": "XUA2025ForgottenRealmsSubclasses",
+			"page": 7,
+			"className": "Rogue",
+			"classSource": "XPHB",
+			"subclassShortName": "Scion of the Three",
+			"subclassSource": "XUA2025ForgottenRealmsSubclasses",
+			"level": 17,
+			"header": 2,
+			"entries": [
+				"You gain the following benefits.",
+				{
+					"type": "entries",
+					"name": "Battle Tyrant",
+					"page": 7,
+					"entries": [
+						"You have {@variantrule Advantage|XPHB} on attack rolls against any creature with the {@condition Frightened|XPHB} condition."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Murderous Intent",
+					"page": 7,
+					"entries": [
+						"When you roll for your {@classFeature Sneak Attack|Rogue|XPHB|1|XPHB} damage, you can treat a roll of a 1 or 2 on the die as a 3."
+					]
+				}
+			]
+		},
+		{
+			"name": "Bolstering Flames",
+			"source": "XUA2025ForgottenRealmsSubclasses",
+			"page": 8,
+			"className": "Sorcerer",
+			"classSource": "XPHB",
+			"subclassShortName": "Spellfire",
+			"subclassSource": "XUA2025ForgottenRealmsSubclasses",
+			"level": 3,
+			"entries": [
+				"You or one creature you can see within 30 feet of yourself gains {@variantrule Temporary Hit Points|XPHB} equal to {@dice 1d4} plus your Charisma modifier."
+			]
+		},
+		{
+			"name": "Radiant Fire",
+			"source": "XUA2025ForgottenRealmsSubclasses",
+			"page": 8,
+			"className": "Sorcerer",
+			"classSource": "XPHB",
+			"subclassShortName": "Spellfire",
+			"subclassSource": "XUA2025ForgottenRealmsSubclasses",
+			"level": 3,
+			"entries": [
+				"One creature you can see within 30 feet of yourself must succeed on a Dexterity saving throw against your spell save DC or take {@damage 1d6} Fire or Radiant damage (your choice)."
+			]
+		},
+		{
+			"name": "Spellfire Burst",
+			"source": "XUA2025ForgottenRealmsSubclasses",
+			"page": 7,
+			"className": "Sorcerer",
+			"classSource": "XPHB",
+			"subclassShortName": "Spellfire",
+			"subclassSource": "XUA2025ForgottenRealmsSubclasses",
+			"level": 3,
+			"entries": [
+				"When you spend at least 1 Sorcery Point as part of the {@action Magic|XPHB} action or a {@variantrule Bonus Action|XPHB} on your turn, you can unleash one of the following magical effects of your choice. You can do so only once per turn.",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Bolstering Flames|Sorcerer|XPHB|Spellfire|XUA2025ForgottenRealmsSubclasses|3|XUA2025ForgottenRealmsSubclasses"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Radiant Fire|Sorcerer|XPHB|Spellfire|XUA2025ForgottenRealmsSubclasses|3|XUA2025ForgottenRealmsSubclasses"
+				}
+			]
+		},
+		{
+			"name": "Spellfire Sorcery",
+			"source": "XUA2025ForgottenRealmsSubclasses",
+			"page": 7,
+			"className": "Sorcerer",
+			"classSource": "XPHB",
+			"subclassShortName": "Spellfire",
+			"subclassSource": "XUA2025ForgottenRealmsSubclasses",
+			"level": 3,
+			"entries": [
+				"Your innate power stems from the source of magic itself: the Weave. This connection manifests as a rare ability known as spellfire, and you surge with radiant bursts of this raw magic. Your talent with spellfire allows you to heal allies, sear enemies, and absorb powerful spells.",
+				"Wielders of spellfire tend to be adventurous souls with penchants for wandering. Many travel between cosmopolitan settlements, such as those along the Sword Coast, and wield their magic in service of the common good. Others prioritize the realization of their own strange powers by roaming equally strange lands, from the magic-blasted wastes of the Anauroch Desert to the god-touched wilds of the Old Empires. Wherever they go in the Realms, spellfire Sorcerers are often courted by factions with interests in the arcane arts, such as the Harpers and the Cult of the Dragon.",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Spellfire Burst|Sorcerer|XPHB|Spellfire|XUA2025ForgottenRealmsSubclasses|3|XUA2025ForgottenRealmsSubclasses"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Spellfire Spells|Sorcerer|XPHB|Spellfire|XUA2025ForgottenRealmsSubclasses|3|XUA2025ForgottenRealmsSubclasses"
+				}
+			]
+		},
+		{
+			"name": "Spellfire Spells",
+			"source": "XUA2025ForgottenRealmsSubclasses",
+			"page": 8,
+			"className": "Sorcerer",
+			"classSource": "XPHB",
+			"subclassShortName": "Spellfire",
+			"subclassSource": "XUA2025ForgottenRealmsSubclasses",
+			"level": 3,
+			"entries": [
+				"When you reach a {@class Sorcerer|XPHB} level specified in the {@table Spellfire Spells|XUA2025ForgottenRealmsSubclasses} table, you thereafter always have the listed spells prepared.",
+				{
+					"type": "statblock",
+					"tag": "table",
+					"source": "XUA2025ForgottenRealmsSubclasses",
+					"name": "Spellfire Spells",
+					"page": 8
+				}
+			]
+		},
+		{
+			"name": "Absorb Spells",
+			"source": "XUA2025ForgottenRealmsSubclasses",
+			"page": 8,
+			"className": "Sorcerer",
+			"classSource": "XPHB",
+			"subclassShortName": "Spellfire",
+			"subclassSource": "XUA2025ForgottenRealmsSubclasses",
+			"level": 6,
+			"header": 2,
+			"entries": [
+				"You always have {@spell Counterspell|XPHB} prepared.",
+				"Additionally, whenever a target fails the saving throw against a {@spell Counterspell|XPHB} you cast, you regain {@dice 1d4} Sorcery Points."
+			]
+		},
+		{
+			"name": "Honed Spellfire",
+			"source": "XUA2025ForgottenRealmsSubclasses",
+			"page": 8,
+			"className": "Sorcerer",
+			"classSource": "XPHB",
+			"subclassShortName": "Spellfire",
+			"subclassSource": "XUA2025ForgottenRealmsSubclasses",
+			"level": 14,
+			"header": 2,
+			"entries": [
+				"Your {@subclassFeature Spellfire Burst|Sorcerer|XPHB|Spellfire|XUA2025ForgottenRealmsSubclasses|3|XUA2025ForgottenRealmsSubclasses} improves. You add your {@class Sorcerer|XPHB} level to the {@variantrule Temporary Hit Points|XPHB} gained from {@subclassFeature Bolstering Flames|Sorcerer|XPHB|Spellfire|XUA2025ForgottenRealmsSubclasses|3|XUA2025ForgottenRealmsSubclasses}, and the {@dice 1d6} of {@subclassFeature Radiant Fire|Sorcerer|XPHB|Spellfire|XUA2025ForgottenRealmsSubclasses|3|XUA2025ForgottenRealmsSubclasses} increases to {@dice 3d6}."
+			]
+		},
+		{
+			"name": "Crown of Spellfire",
+			"source": "XUA2025ForgottenRealmsSubclasses",
+			"page": 8,
+			"className": "Sorcerer",
+			"classSource": "XPHB",
+			"subclassShortName": "Spellfire",
+			"subclassSource": "XUA2025ForgottenRealmsSubclasses",
+			"level": 18,
+			"header": 2,
+			"consumes": {
+				"name": "Sorcery Point",
+				"amount": 7
+			},
+			"entries": [
+				"As a {@variantrule Bonus Action|XPHB}, you gain the following benefits for 1 minute. Once you use this {@variantrule Bonus Action|XPHB}, you can't use it again until you finish a {@variantrule Long Rest|XPHB} unless you spend 7 Sorcery Points (no action required) to restore your use of it.",
+				{
+					"type": "entries",
+					"name": "Burning Life Force",
+					"page": 8,
+					"entries": [
+						"Once per turn when you are hit by an attack roll, you can expend a number of {@variantrule Hit Point Dice|XPHB|Hit Dice}, up to a maximum equal to your Charisma modifier (minimum of one). Roll the expended dice and reduce the amount of damage from that attack equal to the total rolled plus your {@class Sorcerer|XPHB} level."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Flight",
+					"page": 8,
+					"entries": [
+						"You gain a {@variantrule Fly Speed|XPHB} of 60 feet and can hover."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Spell Avoidance",
+					"page": 8,
+					"entries": [
+						"When you're subjected to a spell or magical effect that allows you to make a saving throw to take only half damage, you instead take no damage if you succeed on the saving throw and only half damage if you fail. You can't use this benefit if you have the {@condition Incapacitated|XPHB} condition."
+					]
+				}
+			]
+		},
+		{
+			"name": "Bladesinger",
+			"source": "XUA2025ForgottenRealmsSubclasses",
+			"page": 8,
+			"className": "Wizard",
+			"classSource": "XPHB",
+			"subclassShortName": "Bladesinger",
+			"subclassSource": "XUA2025ForgottenRealmsSubclasses",
+			"level": 3,
+			"entries": [
+				"Bladesingers master a tradition of wizardry that incorporates swordplay and dance. In combat, a Bladesinger uses a series of intricate, elegant maneuvers that fend off harm and allow the Bladesinger to channel magic into devastating attacks and a cunning defense. Many who have observed a Bladesinger at work remember the display as one of the more beautiful experiences in their life, a glorious dance accompanied by a singing blade.",
+				"Bladesinging is strongly associated with the ancient elven societies that first mastered the art and coined the term. Even today, most Bladesingers still hail from old elven realms, such as Cormanthyr, or from non-elven societies that share land and history with elves, such as the Silver Marches. Wherever they hail from, Bladesingers are known for taking their talents all across the Realms in order to help common people and perform heroic deeds. Few communities greet the arrival of a Bladesinger as anything but a good omen.",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Bladesong|Wizard|XPHB|Bladesinger|XUA2025ForgottenRealmsSubclasses|3|XUA2025ForgottenRealmsSubclasses"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Training in War and Song|Wizard|XPHB|Bladesinger|XUA2025ForgottenRealmsSubclasses|3|XUA2025ForgottenRealmsSubclasses"
+				}
+			]
+		},
+		{
+			"name": "Bladesong",
+			"source": "XUA2025ForgottenRealmsSubclasses",
+			"page": 8,
+			"className": "Wizard",
+			"classSource": "XPHB",
+			"subclassShortName": "Bladesinger",
+			"subclassSource": "XUA2025ForgottenRealmsSubclasses",
+			"level": 3,
+			"entries": [
+				"As a {@variantrule Bonus Action|XPHB}, you invoke an elven magic called the Bladesong, provided you aren't wearing armor or using a {@item Shield|XPHB}.",
+				"The Bladesong lasts for 1 minute and ends early if you have the {@condition Incapacitated|XPHB} condition, if you don armor or a {@item Shield|XPHB}, or if you use two hands to make an attack with a weapon. You can dismiss the Bladesong at any time (no action required). While the Bladesong is active, you gain the following benefits. You can invoke the Bladesong a number of times equal to your Intelligence modifier (minimum of once), and you regain all expended uses when you finish a {@variantrule Long Rest|XPHB}.",
+				{
+					"type": "entries",
+					"name": "Agility",
+					"page": 9,
+					"entries": [
+						"You gain a bonus to your AC equal to your Intelligence modifier (minimum of +1), and your {@variantrule Speed|XPHB} increases by 10 feet."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Bladework",
+					"page": 9,
+					"entries": [
+						"Whenever you attack with a weapon with which you have proficiency, you can use your Intelligence modifier for the attack and damage rolls instead of using Strength or Dexterity."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Focus",
+					"page": 9,
+					"entries": [
+						"When you make a Constitution saving throw to maintain {@status Concentration|XPHB}, you can add your Intelligence modifier to the total."
+					]
+				}
+			]
+		},
+		{
+			"name": "Training in War and Song",
+			"source": "XUA2025ForgottenRealmsSubclasses",
+			"page": 9,
+			"className": "Wizard",
+			"classSource": "XPHB",
+			"subclassShortName": "Bladesinger",
+			"subclassSource": "XUA2025ForgottenRealmsSubclasses",
+			"level": 3,
+			"entries": [
+				"You gain proficiency with all Melee Martial weapons that don't have the {@itemProperty 2H|XPHB|Two-Handed} or {@itemProperty H|XPHB|Heavy} property. You can use a Melee weapon with which you have proficiency as a {@variantrule Spellcasting Focus|XPHB} for your {@class Wizard|XPHB} spells.",
+				"You also gain proficiency in one of the following skills of your choice: {@skill Acrobatics|XPHB}, {@skill Athletics|XPHB}, {@skill Performance|XPHB}, or {@skill Persuasion|XPHB}."
+			]
+		},
+		{
+			"name": "Extra Attack",
+			"source": "XUA2025ForgottenRealmsSubclasses",
+			"page": 9,
+			"className": "Wizard",
+			"classSource": "XPHB",
+			"subclassShortName": "Bladesinger",
+			"subclassSource": "XUA2025ForgottenRealmsSubclasses",
+			"level": 6,
+			"header": 2,
+			"entries": [
+				"You can attack twice, instead of once, whenever you take the {@action Attack|XPHB} action on your turn. Moreover, you can cast {@filter one of your Wizard cantrips that has a casting time of an action|spells|level=0|class=wizard|cast time=action} in place of one of those attacks."
+			]
+		},
+		{
+			"name": "Song of Defense",
+			"source": "XUA2025ForgottenRealmsSubclasses",
+			"page": 9,
+			"className": "Wizard",
+			"classSource": "XPHB",
+			"subclassShortName": "Bladesinger",
+			"subclassSource": "XUA2025ForgottenRealmsSubclasses",
+			"level": 10,
+			"header": 2,
+			"entries": [
+				"When you take damage while your Bladesong is active, you can take a {@variantrule Reaction|XPHB} to expend one spell slot and reduce the damage taken by an amount equal to five times the spell slot's level."
+			]
+		},
+		{
+			"name": "Song of Victory",
+			"source": "XUA2025ForgottenRealmsSubclasses",
+			"page": 9,
+			"className": "Wizard",
+			"classSource": "XPHB",
+			"subclassShortName": "Bladesinger",
+			"subclassSource": "XUA2025ForgottenRealmsSubclasses",
+			"level": 14,
+			"header": 2,
+			"entries": [
+				"After you cast a spell that has a casting time of an action, you can make one attack with a weapon as a {@variantrule Bonus Action|XPHB}."
 			]
 		}
 	],
@@ -1273,6 +2002,73 @@
 								"thunder"
 							],
 							"count": 1
+						}
+					}
+				]
+			}
+		},
+		{
+			"name": "Frigid Explorer",
+			"source": "XUA2025ForgottenRealmsSubclasses",
+			"className": "Ranger",
+			"classSource": "XPHB",
+			"subclassShortName": "Winter Walker",
+			"subclassSource": "XUA2025ForgottenRealmsSubclasses",
+			"level": 3,
+			"entryData": {
+				"resist": [
+					"cold"
+				]
+			}
+		},
+		{
+			"name": "Dread Allegiance",
+			"source": "XUA2025ForgottenRealmsSubclasses",
+			"className": "Rogue",
+			"classSource": "XPHB",
+			"subclassShortName": "Scion of the Three",
+			"subclassSource": "XUA2025ForgottenRealmsSubclasses",
+			"level": 3,
+			"entryData": {
+				"resist": [
+					{
+						"choose": {
+							"from": [
+								"psychic",
+								"poison",
+								"necrotic"
+							]
+						}
+					}
+				]
+			}
+		},
+		{
+			"name": "Training in War and Song",
+			"source": "XUA2025ForgottenRealmsSubclasses",
+			"className": "Wizard",
+			"classSource": "XPHB",
+			"subclassShortName": "Bladesinger",
+			"subclassSource": "XUA2025ForgottenRealmsSubclasses",
+			"level": 3,
+			"entryData": {
+				"skillProficiencies": [
+					{
+						"choose": {
+							"from": [
+								"acrobatics",
+								"athletics",
+								"performance",
+								"persuasion"
+							],
+							"count": 1
+						}
+					}
+				],
+				"weaponProficiencies": [
+					{
+						"all": {
+							"fromFilter": "type=melee weapon;martial weapon|property=!heavy;!two-handed|category=basic"
 						}
 					}
 				]
@@ -1425,6 +2221,72 @@
 				[
 					"9",
 					"{@spell Legend Lore|XPHB}, {@spell Scrying|XPHB}, {@spell Synaptic Static|XPHB}"
+				]
+			]
+		},
+		{
+			"name": "Spellfire Spells",
+			"source": "XUA2025ForgottenRealmsSubclasses",
+			"page": 8,
+			"colLabels": [
+				"Sorcerer Level",
+				"Spells"
+			],
+			"colStyles": [
+				"col-3 text-center",
+				"col-9"
+			],
+			"rows": [
+				[
+					"3",
+					"{@spell Cure Wounds|XPHB}, {@spell Guiding Bolt|XPHB}, {@spell Lesser Restoration|XPHB}, {@spell Scorching Ray|XPHB}"
+				],
+				[
+					"5",
+					"{@spell Aura of Vitality|XPHB}, {@spell Dispel Magic|XPHB}"
+				],
+				[
+					"7",
+					"{@spell Fire Shield|XPHB}, {@spell Wall of Fire|XPHB}"
+				],
+				[
+					"9",
+					"{@spell Greater Restoration|XPHB}, {@spell Flame Strike|XPHB}"
+				]
+			]
+		},
+		{
+			"name": "Winter Walker Spells",
+			"source": "XUA2025ForgottenRealmsSubclasses",
+			"page": 6,
+			"colLabels": [
+				"Ranger Level",
+				"Spell"
+			],
+			"colStyles": [
+				"col-3 text-center",
+				"col-9"
+			],
+			"rows": [
+				[
+					"3",
+					"{@spell Ice Knife|XPHB}"
+				],
+				[
+					"5",
+					"{@spell Pass Without Trace|XPHB}"
+				],
+				[
+					"9",
+					"{@spell Remove Curse|XPHB}"
+				],
+				[
+					"13",
+					"{@spell Ice Storm|XPHB}"
+				],
+				[
+					"17",
+					"{@spell Cone of Cold|XPHB}"
 				]
 			]
 		}
