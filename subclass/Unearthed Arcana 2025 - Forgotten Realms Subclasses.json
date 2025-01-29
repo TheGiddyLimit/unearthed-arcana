@@ -52,7 +52,7 @@
 					"innate": {
 						"3": [
 							{
-								"choose": "level=0|class=druid (phb2024)",
+								"choose": "level=0|class=druid",
 								"count": 1
 							}
 						]
