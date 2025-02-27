@@ -2665,6 +2665,12 @@
 			"name": "Homunculus Servant",
 			"source": "XUA2024Artificer",
 			"page": 12,
+			"otherSources": [
+				{
+					"source": "XUA2025EberronUpdates",
+					"page": 7
+				}
+			],
 			"level": 2,
 			"school": "C",
 			"time": [
@@ -2743,6 +2749,12 @@
 			"name": "Boots of the Winding Path",
 			"source": "XUA2024Artificer",
 			"page": 13,
+			"otherSources": [
+				{
+					"source": "XUA2025EberronUpdates",
+					"page": 8
+				}
+			],
 			"rarity": "uncommon",
 			"reqAttune": true,
 			"wondrous": true,
@@ -2754,6 +2766,12 @@
 			"name": "Helm of Awareness",
 			"source": "XUA2024Artificer",
 			"page": 13,
+			"otherSources": [
+				{
+					"source": "XUA2025EberronUpdates",
+					"page": 8
+				}
+			],
 			"rarity": "uncommon",
 			"reqAttune": true,
 			"wondrous": true,
@@ -2765,6 +2783,12 @@
 			"name": "Mind Sharpener",
 			"source": "XUA2024Artificer",
 			"page": 13,
+			"otherSources": [
+				{
+					"source": "XUA2025EberronUpdates",
+					"page": 8
+				}
+			],
 			"type": "RG|XDMG",
 			"rarity": "uncommon",
 			"reqAttune": true,
@@ -2779,6 +2803,12 @@
 			"name": "Repulsion Shield",
 			"source": "XUA2024Artificer",
 			"page": 14,
+			"otherSources": [
+				{
+					"source": "XUA2025EberronUpdates",
+					"page": 9
+				}
+			],
 			"baseItem": "shield|xphb",
 			"type": "S|XPHB",
 			"rarity": "uncommon",
@@ -2797,6 +2827,12 @@
 			"name": "Spell-Refueling Ring",
 			"source": "XUA2024Artificer",
 			"page": 14,
+			"otherSources": [
+				{
+					"source": "XUA2025EberronUpdates",
+					"page": 9
+				}
+			],
 			"type": "RG|XDMG",
 			"rarity": "uncommon",
 			"reqAttune": "by a spellcaster",
@@ -2827,6 +2863,12 @@
 				"namePrefix": "Radiant ",
 				"source": "XUA2024Artificer",
 				"page": 13,
+				"otherSources": [
+					{
+						"source": "XUA2025EberronUpdates",
+						"page": 8
+					}
+				],
 				"rarity": "rare",
 				"reqAttune": "by a spellcaster",
 				"reqAttuneTags": [
@@ -2861,6 +2903,12 @@
 				"namePrefix": "Repeating Shot ",
 				"source": "XUA2024Artificer",
 				"page": 14,
+				"otherSources": [
+					{
+						"source": "XUA2025EberronUpdates",
+						"page": 8
+					}
+				],
 				"rarity": "uncommon",
 				"reqAttune": true,
 				"propertyRemove": [
@@ -2890,6 +2938,12 @@
 				"namePrefix": "Returning ",
 				"source": "XUA2024Artificer",
 				"page": 14,
+				"otherSources": [
+					{
+						"source": "XUA2025EberronUpdates",
+						"page": 9
+					}
+				],
 				"rarity": "uncommon",
 				"bonusWeapon": "+1",
 				"entries": [
@@ -2903,6 +2957,12 @@
 			"name": "Homunculus Servant",
 			"source": "XUA2024Artificer",
 			"page": 13,
+			"otherSources": [
+				{
+					"source": "XUA2025EberronUpdates",
+					"page": 8
+				}
+			],
 			"summonedBySpell": "Homunculus Servant|XUA2024Artificer",
 			"summonedBySpellLevel": 2,
 			"size": [
@@ -3803,6 +3863,12 @@
 			"name": "Core Artificer Traits",
 			"source": "XUA2024Artificer",
 			"page": 1,
+			"otherSources": [
+				{
+					"source": "XUA2025EberronUpdates",
+					"page": 1
+				}
+			],
 			"colStyles": [
 				"col-4 bold",
 				"col-8"
