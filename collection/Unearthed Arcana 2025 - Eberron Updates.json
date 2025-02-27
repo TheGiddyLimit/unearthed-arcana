@@ -13,7 +13,7 @@
 					"Lyra [he/him]"
 				],
 				"version": "1.0.0",
-				"url": "https://media.dndbeyond.com/compendium-images/ua/the-artificer/AzQEA72K8EMf9HmU/UA2024-Artificer.pdf",
+				"url": "https://media.dndbeyond.com/compendium-images/ua/eberron-updates/Lhg25Ggx5iY3rETH/UA2025-CartographerArtificer.pdf",
 				"dateReleased": "2025-02-27"
 			}
 		],
@@ -22,6 +22,9 @@
 				"XUA2024Artificer"
 			],
 			"subclass": [
+				"XUA2024Artificer"
+			],
+			"subclassFluff": [
 				"XUA2024Artificer"
 			]
 		},
@@ -1408,6 +1411,726 @@
 			]
 		},
 		{
+			"name": "Boon of Siberys",
+			"source": "XUA2025EberronUpdates",
+			"page": 15,
+			"category": "EB",
+			"prerequisite": [
+				{
+					"level": 19,
+					"campaign": [
+						"Eberron"
+					]
+				}
+			],
+			"ability": [
+				{
+					"choose": {
+						"from": [
+							"str",
+							"dex",
+							"con",
+							"int",
+							"wis",
+							"cha"
+						]
+					},
+					"max": 30
+				}
+			],
+			"additionalSpells": [
+				{
+					"ability": {
+						"choose": [
+							"int",
+							"wis",
+							"cha"
+						]
+					},
+					"prepared": {
+						"_": {
+							"rest": {
+								"1e": [
+									{
+										"choose": {
+											"from": [
+												"True Seeing|XPHB",
+												"Teleport|XPHB",
+												"Animal Shapes|XPHB",
+												"Regenerate|XPHB",
+												"Heroes' Feast|XPHB",
+												"Demiplane|XPHB",
+												"Plane Shift|XPHB",
+												"Symbol|XPHB",
+												"Mind Blank|XPHB",
+												"Project Image|XPHB",
+												"Control Weather|XPHB",
+												"Maze|XPHB"
+											]
+										}
+									},
+									{
+										"choose": "class=sorcerer",
+										"count": 1
+									}
+								]
+							}
+						}
+					}
+				}
+			],
+			"entries": [
+				"You gain the following benefits.",
+				{
+					"type": "entries",
+					"name": "Aberrant Magic",
+					"entries": [
+						"Choose {@filter a spell of any level from the Sorcerer spell list|spells|source=|class=sorcerer|components & miscellaneous=} or a spell from the Siberys Dragonmarks table. You always have that spell prepared. You can cast it once without a spell slot, and you regain the ability to cast it in that way when you finish a {@variantrule Short Rest|XPHB|Short} or {@variantrule Long Rest|XPHB}. You can also cast this spell using any spell slots you have. Intelligence, Wisdom, or Charisma is your spellcasting ability for this spell (choose when you gain this feat).",
+						{
+							"type": "table",
+							"caption": "Siberys Dragonmarks",
+							"page": 15,
+							"colLabels": [
+								"Dragonmark",
+								"Spell"
+							],
+							"colStyles": [
+								"col-4",
+								"col-8"
+							],
+							"rows": [
+								[
+									"{@feat Mark of Detection|XUA2025EberronUpdates|Detection}",
+									"{@spell True Seeing|XPHB}"
+								],
+								[
+									"{@feat Mark of Finding|XUA2025EberronUpdates|Finding}",
+									"{@spell Teleport|XPHB}"
+								],
+								[
+									"{@feat Mark of Handling|XUA2025EberronUpdates|Handling}",
+									"{@spell Animal Shapes|XPHB}"
+								],
+								[
+									"{@feat Mark of Healing|XUA2025EberronUpdates|Healing}",
+									"{@spell Regenerate|XPHB}"
+								],
+								[
+									"{@feat Mark of Hospitality|XUA2025EberronUpdates|Hospitality}",
+									"{@spell Heroes' Feast|XPHB}"
+								],
+								[
+									"{@feat Mark of Making|XUA2025EberronUpdates|Making}",
+									"{@spell Demiplane|XPHB}"
+								],
+								[
+									"{@feat Mark of Passage|XUA2025EberronUpdates|Passage}",
+									"{@spell Plane Shift|XPHB}"
+								],
+								[
+									"{@feat Mark of Scribing|XUA2025EberronUpdates|Scribing}",
+									"{@spell Symbol|XPHB}"
+								],
+								[
+									"{@feat Mark of Sentinel|XUA2025EberronUpdates|Sentinel}",
+									"{@spell Mind Blank|XPHB}"
+								],
+								[
+									"{@feat Mark of Shadow|XUA2025EberronUpdates|Shadow}",
+									"{@spell Project Image|XPHB}"
+								],
+								[
+									"{@feat Mark of Storm|XUA2025EberronUpdates|Storm}",
+									"{@spell Control Weather|XPHB}"
+								],
+								[
+									"{@feat Mark of Warding|XUA2025EberronUpdates|Warding}",
+									"{@spell Maze|XPHB}"
+								]
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Greater Aberrant Mark",
+			"source": "XUA2025EberronUpdates",
+			"page": 13,
+			"category": "G",
+			"prerequisite": [
+				{
+					"level": 4,
+					"feat": [
+						"Aberrant Dragonmark|XUA2025EberronUpdates"
+					]
+				}
+			],
+			"ability": [
+				{
+					"con": 1
+				}
+			],
+			"entries": [
+				"You gain the following benefits.",
+				{
+					"type": "entries",
+					"name": "Improved Intuition",
+					"entries": [
+						"When you use the Aberrant Fortitude benefit of your {@feat Aberrant Dragonmark|XUA2025EberronUpdates} feat, you can roll {@dice 1d6} instead of {@dice 1d4}."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Mark of Inspiration",
+					"entries": [
+						"When you cast a cantrip, you can expend one of your {@variantrule Hit Point Dice|XPHB} and roll it. You gain a number of {@variantrule Temporary Hit Points|XPHB} equal to the number rolled, and one creature of your choice within 30 feet of you (not including you) takes Force damage equal to the number rolled.",
+						"You can use this benefit a number of times equal to your Constitution modifier (minimum of once), and you regain all expended uses when you finish a {@variantrule Long Rest|XPHB}."
+					]
+				}
+			]
+		},
+		{
+			"name": "Greater Mark of Detection",
+			"source": "XUA2025EberronUpdates",
+			"page": 13,
+			"category": "G",
+			"prerequisite": [
+				{
+					"level": 4,
+					"feat": [
+						"mark of detection|XUA2025EberronUpdates"
+					]
+				}
+			],
+			"ability": [
+				{
+					"choose": {
+						"from": [
+							"str",
+							"dex",
+							"con",
+							"int",
+							"wis",
+							"cha"
+						]
+					}
+				}
+			],
+			"entries": [
+				"You gain the following benefits.",
+				{
+					"type": "entries",
+					"name": "Improved Intuition",
+					"entries": [
+						"When you use the Deductive Intuition benefit of your {@feat Mark of Detection|XUA2025EberronUpdates} feat, you can roll {@dice 1d6} instead of {@dice 1d4}."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Improved Detection",
+					"entries": [
+						"When you cast {@spell See Invisibility|XPHB|See Invisibliity}, you can modify it so that for the duration of the spell, you have {@variantrule Advantage|XPHB} on {@variantrule Initiative|XPHB} rolls and enemies that roll {@variantrule Initiative|XPHB} within 30 feet of you can't gain {@variantrule Advantage|XPHB} on the roll. Once you modify the spell with this benefit, you can't do so again until you finish a {@variantrule Long Rest|XPHB}."
+					]
+				}
+			]
+		},
+		{
+			"name": "Greater Mark of Finding",
+			"source": "XUA2025EberronUpdates",
+			"page": 13,
+			"category": "G",
+			"prerequisite": [
+				{
+					"level": 4,
+					"feat": [
+						"mark of finding|XUA2025EberronUpdates"
+					]
+				}
+			],
+			"ability": [
+				{
+					"choose": {
+						"from": [
+							"str",
+							"dex",
+							"con",
+							"int",
+							"wis",
+							"cha"
+						]
+					}
+				}
+			],
+			"entries": [
+				"You gain the following benefits.",
+				{
+					"type": "entries",
+					"name": "Improved Intuition",
+					"entries": [
+						"When you use the Hunter's Intuition benefit of your {@feat Mark of Finding|XUA2025EberronUpdates} feat, you can roll {@dice 1d6} instead of {@dice 1d4}."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Improved Finding",
+					"entries": [
+						"When you cast {@spell Hunter's Mark|XPHB}, you can modify it so that the target can't benefit from the {@condition Invisible|XPHB} condition for the duration of the spell. Once you modify the spell with this benefit, you can't do so again until you finish a {@variantrule Long Rest|XPHB}."
+					]
+				}
+			]
+		},
+		{
+			"name": "Greater Mark of Handling",
+			"source": "XUA2025EberronUpdates",
+			"page": 13,
+			"category": "G",
+			"prerequisite": [
+				{
+					"level": 4,
+					"feat": [
+						"mark of handling|XUA2025EberronUpdates"
+					]
+				}
+			],
+			"ability": [
+				{
+					"choose": {
+						"from": [
+							"str",
+							"dex",
+							"con",
+							"int",
+							"wis",
+							"cha"
+						]
+					}
+				}
+			],
+			"entries": [
+				"You gain the following benefits.",
+				{
+					"type": "entries",
+					"name": "Improved Intuition",
+					"entries": [
+						"When you use the Wild Intuition benefit of your {@feat Mark of Handling|XUA2025EberronUpdates} feat, you can roll {@dice 1d6} instead of {@dice 1d4}."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Improved Handling",
+					"entries": [
+						"While mounted, immediately after you hit a target within 5 feet of your mount with a melee attack roll, your mount can take a {@variantrule Reaction|XPHB} to move up to its {@variantrule Speed|XPHB} or take the {@action Attack|XPHB} action to make one attack only (your choice)."
+					]
+				}
+			]
+		},
+		{
+			"name": "Greater Mark of Healing",
+			"source": "XUA2025EberronUpdates",
+			"page": 14,
+			"category": "G",
+			"prerequisite": [
+				{
+					"level": 4,
+					"feat": [
+						"mark of healing|XUA2025EberronUpdates"
+					]
+				}
+			],
+			"ability": [
+				{
+					"choose": {
+						"from": [
+							"str",
+							"dex",
+							"con",
+							"int",
+							"wis",
+							"cha"
+						]
+					}
+				}
+			],
+			"entries": [
+				"You gain the following benefits.",
+				{
+					"type": "entries",
+					"name": "Improved Intuition",
+					"entries": [
+						"When you use the Medical Intuition benefit of your {@feat Mark of Healing|XPHB} feat, you can roll {@dice 1d6} instead of {@dice 1d4}."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Improved Healing",
+					"entries": [
+						"When you cast {@spell Cure Wounds|XPHB} and roll dice to determine the number of {@variantrule Hit Points|XPHB} restored, you can treat any 1 or 2 on a roll as a 3."
+					]
+				}
+			]
+		},
+		{
+			"name": "Greater Mark of Hospitality",
+			"source": "XUA2025EberronUpdates",
+			"page": 14,
+			"category": "G",
+			"prerequisite": [
+				{
+					"level": 4,
+					"feat": [
+						"mark of hospitality|XUA2025EberronUpdates"
+					]
+				}
+			],
+			"ability": [
+				{
+					"choose": {
+						"from": [
+							"str",
+							"dex",
+							"con",
+							"int",
+							"wis",
+							"cha"
+						]
+					}
+				}
+			],
+			"entries": [
+				"You gain the following benefits.",
+				{
+					"type": "entries",
+					"name": "Improved Intuition",
+					"entries": [
+						"When you use the Ever Hospitable benefit of your {@feat Mark of Hospitality|XUA2025EberronUpdates} feat, you can roll {@dice 1d6} instead of {@dice 1d4}."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Inspired Hospitality",
+					"entries": [
+						"When you cast {@spell Purify Food and Drink|XPHB}, you can modify the spell so that each creature of your choice within 30 feet of you is magically refreshed. Each affected creature's {@condition Exhaustion|XPHB} level is reduced by 1, and the creature gains {@variantrule Temporary Hit Points|XPHB} equal to your {@variantrule Proficiency|XPHB|Proficiency Bonus} plus your Intelligence, Charisma, or Wisdom modifier (choose when you select this feat). Once you modify the spell with this benefit, you can't do so again until you finish a {@variantrule Long Rest|XPHB}."
+					]
+				}
+			]
+		},
+		{
+			"name": "Greater Mark of Making",
+			"source": "XUA2025EberronUpdates",
+			"page": 14,
+			"category": "G",
+			"prerequisite": [
+				{
+					"level": 4,
+					"feat": [
+						"mark of making|XUA2025EberronUpdates"
+					]
+				}
+			],
+			"ability": [
+				{
+					"choose": {
+						"from": [
+							"str",
+							"dex",
+							"con",
+							"int",
+							"wis",
+							"cha"
+						]
+					}
+				}
+			],
+			"entries": [
+				"You gain the following benefits.",
+				{
+					"type": "entries",
+					"name": "Improved Intuition",
+					"entries": [
+						"When you use the Artisan's Intuition benefit of your {@feat Mark of Making|XUA2025EberronUpdates} feat, you can roll {@dice 1d6} instead of {@dice 1d4}."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Improved Making",
+					"entries": [
+						"When you cast {@spell Magic Weapon|XPHB}, you can modify the spell so that the first time you attack with the weapon on each of your turns, you can transfer some or all of the weapon's bonus to your {@variantrule Armor Class|XPHB}. For example, if the bonus is +2, you could reduce the bonus to your attack rolls and damage rolls to +1 and gain a +1 bonus to {@variantrule Armor Class|XPHB}. The adjusted bonus remains in effect until the start of your next turn, although you must hold the weapon to gain a bonus to AC from it. Once you modify the spell using this benefit, you can't do so again until you finish a {@variantrule Long Rest|XPHB}."
+					]
+				}
+			]
+		},
+		{
+			"name": "Greater Mark of Passage",
+			"source": "XUA2025EberronUpdates",
+			"page": 14,
+			"category": "G",
+			"prerequisite": [
+				{
+					"level": 4,
+					"feat": [
+						"mark of passage|XUA2025EberronUpdates"
+					]
+				}
+			],
+			"ability": [
+				{
+					"choose": {
+						"from": [
+							"str",
+							"dex",
+							"con",
+							"int",
+							"wis",
+							"cha"
+						]
+					}
+				}
+			],
+			"entries": [
+				"You gain the following benefits.",
+				{
+					"type": "entries",
+					"name": "Improved Intuition",
+					"entries": [
+						"When you use the Intuitive Motion benefit of your {@feat Mark of Passage|XUA2025EberronUpdates} feat, you can roll {@dice 1d6} instead of {@dice 1d4}."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Inspired Passage",
+					"entries": [
+						"When you cast {@spell Misty Step|XPHB}, you can modify the spell so that you can bring one willing creature you are touching with you. That creature teleports to an unoccupied space of your choice within 5 feet of your destination space. Once you modify the spell with this benefit, you can't do so again until you finish a {@variantrule Long Rest|XPHB}."
+					]
+				}
+			]
+		},
+		{
+			"name": "Greater Mark of Scribing",
+			"source": "XUA2025EberronUpdates",
+			"page": 14,
+			"category": "G",
+			"prerequisite": [
+				{
+					"level": 4,
+					"feat": [
+						"mark of scribing|XUA2025EberronUpdates"
+					]
+				}
+			],
+			"ability": [
+				{
+					"choose": {
+						"from": [
+							"str",
+							"dex",
+							"con",
+							"int",
+							"wis",
+							"cha"
+						]
+					}
+				}
+			],
+			"entries": [
+				"You gain the following benefits.",
+				{
+					"type": "entries",
+					"name": "Improved Intuition",
+					"entries": [
+						"When you use the Gifted Scribe benefit of your {@feat Mark of Scribing|XUA2025EberronUpdates} feat, you can roll {@dice 1d6} instead of {@dice 1d4}."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Inspired Scribing",
+					"entries": [
+						"When you cast {@spell Comprehend Languages|XPHB}, you can modify the spell to cause a sigil to appear in the air above a creature you can see within 30 feet of yourself, which lasts for the duration of the spell. While the sigil persists, your enemies within 30 feet of the creature must spend 2 feet of movement for every 1 foot they move closer to that creature. The sigil disappears if the creature makes an attack roll, casts a spell, or deals damage."
+					]
+				}
+			]
+		},
+		{
+			"name": "Greater Mark of Sentinel",
+			"source": "XUA2025EberronUpdates",
+			"page": 14,
+			"category": "G",
+			"prerequisite": [
+				{
+					"level": 4,
+					"feat": [
+						"mark of sentinel|XUA2025EberronUpdates"
+					]
+				}
+			],
+			"ability": [
+				{
+					"choose": {
+						"from": [
+							"str",
+							"dex",
+							"con",
+							"int",
+							"wis",
+							"cha"
+						]
+					}
+				}
+			],
+			"entries": [
+				"You gain the following benefits.",
+				{
+					"type": "entries",
+					"name": "Improved Intuition",
+					"entries": [
+						"When you use the Sentinel's Intuition benefit of your {@feat Mark of Sentinel|XUA2025EberronUpdates} feat, you can roll {@dice 1d6} instead of {@dice 1d4}."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Improved Sentinel",
+					"entries": [
+						"When you cast {@spell Shield|XPHB}, you can modify the spell so that it magically marks a creature you can see within 30 feet of you until the end of its next turn. While marked, the target must spend 2 feet of movement for every 1 foot they move away from you."
+					]
+				}
+			]
+		},
+		{
+			"name": "Greater Mark of Shadow",
+			"source": "XUA2025EberronUpdates",
+			"page": 15,
+			"category": "G",
+			"prerequisite": [
+				{
+					"level": 4,
+					"feat": [
+						"mark of shadow|XUA2025EberronUpdates"
+					]
+				}
+			],
+			"ability": [
+				{
+					"choose": {
+						"from": [
+							"str",
+							"dex",
+							"con",
+							"int",
+							"wis",
+							"cha"
+						]
+					}
+				}
+			],
+			"entries": [
+				"You gain the following benefits.",
+				{
+					"type": "entries",
+					"name": "Improved Intuition",
+					"entries": [
+						"When you use the Cunning Intuition benefit of your {@feat Mark of Shadow|XUA2025EberronUpdates} feat, you can roll {@dice 1d6} instead of {@dice 1d4}."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Improved Shadow",
+					"entries": [
+						"When you cast {@spell Invisibility|XPHB} on yourself, you can modify the spell to also affect one willing creature within 5 feet of yourself. The {@condition Invisible|XPHB} condition ends immediately for an affected creature after it makes an attack roll, deals damage, or casts a spell. Once you modify the spell with this benefit, you can't do so again until you finish {@variantrule Long Rest|XPHB}."
+					]
+				}
+			]
+		},
+		{
+			"name": "Greater Mark of Storm",
+			"source": "XUA2025EberronUpdates",
+			"page": 15,
+			"category": "G",
+			"prerequisite": [
+				{
+					"level": 4,
+					"feat": [
+						"mark of storm|XUA2025EberronUpdates"
+					]
+				}
+			],
+			"ability": [
+				{
+					"choose": {
+						"from": [
+							"str",
+							"dex",
+							"con",
+							"int",
+							"wis",
+							"cha"
+						]
+					}
+				}
+			],
+			"entries": [
+				"You gain the following benefits.",
+				{
+					"type": "entries",
+					"name": "Improved Intuition",
+					"entries": [
+						"When you use the Windwright's Intuition benefit of your {@feat Mark of Storm|XUA2025EberronUpdates} feat, you can roll {@dice 1d6} instead of {@dice 1d4}."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Improved Storm",
+					"entries": [
+						"When you cast {@spell Gust of Wind|XPHB}, you modify the spell so that you gain a {@variantrule Fly Speed|XPHB} equal to half your {@variantrule Speed|XPHB} (round down) for the duration of the spell. Once you modify the spell with this benefit, you can't do so again until you finish a {@variantrule Long Rest|XPHB}."
+					]
+				}
+			]
+		},
+		{
+			"name": "Greater Mark of Warding",
+			"source": "XUA2025EberronUpdates",
+			"page": 15,
+			"category": "G",
+			"prerequisite": [
+				{
+					"level": 4,
+					"feat": [
+						"mark of warding|XUA2025EberronUpdates"
+					]
+				}
+			],
+			"ability": [
+				{
+					"choose": {
+						"from": [
+							"str",
+							"dex",
+							"con",
+							"int",
+							"wis",
+							"cha"
+						]
+					}
+				}
+			],
+			"entries": [
+				"You gain the following benefits.",
+				{
+					"type": "entries",
+					"name": "Improved Intuition",
+					"entries": [
+						"When you use the Warder's Intuition benefit of your {@feat Mark of Warding|XUA2025EberronUpdates} feat, you can roll {@dice 1d6} instead of {@dice 1d4}."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Improved Warding",
+					"entries": [
+						"When you cast {@spell Mage Armor|XPHB} on yourself, you can modify the spell to also affect one willing creature you can see within 30 feet of yourself. Once you modify the spell with this benefit, you can't do so again until you finish a {@variantrule Long Rest|XPHB}."
+					]
+				}
+			]
+		},
+		{
 			"name": "Mark of Detection",
 			"source": "XUA2025EberronUpdates",
 			"page": 9,
@@ -1995,7 +2718,7 @@
 						{
 							"type": "table",
 							"caption": "Mark of Hospitality Spells",
-							"page": 10,
+							"page": 11,
 							"colLabels": [
 								"Spell Level",
 								"Spells"
@@ -2117,7 +2840,7 @@
 						{
 							"type": "table",
 							"caption": "Mark of Making Spells",
-							"page": 10,
+							"page": 11,
 							"colLabels": [
 								"Spell Level",
 								"Spells"
@@ -2149,6 +2872,817 @@
 								]
 							]
 						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Mark of Passage",
+			"source": "XUA2025EberronUpdates",
+			"page": 11,
+			"category": "D",
+			"prerequisite": [
+				{
+					"campaign": [
+						"Eberron"
+					],
+					"otherSummary": {
+						"entry": "Can't Have Another Dragonmark Feat",
+						"entrySummary": "One Dragonmark"
+					}
+				}
+			],
+			"additionalSpells": [
+				{
+					"ability": {
+						"choose": [
+							"int",
+							"wis",
+							"cha"
+						]
+					},
+					"prepared": {
+						"_": {
+							"daily": {
+								"1e": [
+									"Misty Step|XPHB"
+								]
+							}
+						}
+					},
+					"expanded": {
+						"s1": [
+							"Expeditious Retreat|XPHB",
+							"Jump|XPHB"
+						],
+						"s2": [
+							"Pass without Trace|XPHB",
+							"Find Steed|XPHB"
+						],
+						"s3": [
+							"Blink|XPHB",
+							"Phantom Steed|XPHB"
+						],
+						"s4": [
+							"Dimension Door|XPHB",
+							"Freedom of Movement|XPHB"
+						],
+						"s5": [
+							"Teleportation Circle|XPHB"
+						]
+					}
+				}
+			],
+			"entries": [
+				"You gain the following benefits.",
+				{
+					"type": "entries",
+					"name": "Courier's Speed",
+					"entries": [
+						"Your {@variantrule Speed|XPHB} increases by 5 feet."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Intuitive Motion",
+					"entries": [
+						"When you make a Strength ({@skill Athletics|XPHB}) or Dexterity ({@skill Acrobatics|XPHB}) check, you can roll {@dice 1d4} and add the number rolled to the ability check."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Magical Passage",
+					"entries": [
+						"You always have the {@spell Misty Step|XPHB} spell prepared. You can cast it once without a spell slot, and you regain the ability to cast it in that way when you finish a {@variantrule Long Rest|XPHB}. You can also cast it using any spell slots you have. Intelligence, Wisdom, or Charisma is your spellcasting ability for this spell (choose when you select this feat)."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Spells of the Mark",
+					"entries": [
+						"If you have the Spellcasting or Pact Magic feature, the spells on the Mark of Passage Spells table are added to that feature's spell list.",
+						{
+							"type": "table",
+							"caption": "Mark of Passage Spells",
+							"page": 11,
+							"colLabels": [
+								"Spell Level",
+								"Spells"
+							],
+							"colStyles": [
+								"col-3 text-center",
+								"col-9"
+							],
+							"rows": [
+								[
+									"1",
+									"{@spell Expeditious Retreat|XPHB}, {@spell Jump|XPHB}"
+								],
+								[
+									"2",
+									"{@spell Pass without Trace|XPHB}, {@spell Find Steed|XPHB}"
+								],
+								[
+									"3",
+									"{@spell Blink|XPHB}, {@spell Phantom Steed|XPHB}"
+								],
+								[
+									"4",
+									"{@spell Dimension Door|XPHB}, {@spell Freedom of Movement|XPHB}"
+								],
+								[
+									"5",
+									"{@spell Teleportation Circle|XPHB}"
+								]
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Mark of Scribing",
+			"source": "XUA2025EberronUpdates",
+			"page": 11,
+			"category": "D",
+			"prerequisite": [
+				{
+					"campaign": [
+						"Eberron"
+					],
+					"otherSummary": {
+						"entry": "Can't Have Another Dragonmark Feat",
+						"entrySummary": "One Dragonmark"
+					}
+				}
+			],
+			"additionalSpells": [
+				{
+					"ability": {
+						"choose": [
+							"int",
+							"wis",
+							"cha"
+						]
+					},
+					"known": {
+						"_": [
+							"Message|XPHB#c"
+						]
+					},
+					"prepared": {
+						"3": {
+							"daily": {
+								"1e": [
+									"Magic Mouth|XPHB"
+								]
+							}
+						},
+						"_": {
+							"daily": {
+								"1e": [
+									"Comprehend Languages|XPHB"
+								]
+							}
+						}
+					},
+					"expanded": {
+						"s1": [
+							"Command|XPHB",
+							"Illusory Script|XPHB"
+						],
+						"s2": [
+							"Animal Messenger|XPHB",
+							"Silence|XPHB"
+						],
+						"s3": [
+							"Sending|XPHB",
+							"Tongues|XPHB"
+						],
+						"s4": [
+							"Arcane Eye|XPHB",
+							"Confusion|XPHB"
+						],
+						"s5": [
+							"Dream|XPHB"
+						]
+					}
+				}
+			],
+			"entries": [
+				"You gain the following benefits.",
+				{
+					"type": "entries",
+					"name": "Gifted Scribe",
+					"entries": [
+						"When you make an Intelligence ({@skill History|XPHB}) check or an ability check using {@item Calligrapher's Supplies|XPHB}, you can roll {@dice 1d4} and add the number rolled to the ability check."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Scribe's Insight",
+					"entries": [
+						"You know the {@spell Message|XPHB} cantrip. You also always have the {@spell Comprehend Languages|XPHB} spell prepared. You can cast it once without a spell slot, and you regain the ability to cast it in that way when you finish a {@variantrule Long Rest|XPHB}. You can also cast it using any spell slots you have. Intelligence, Wisdom, or Charisma is your spellcasting ability for these spells (choose when you select this feat).",
+						"When you reach character level 3, you also always have the {@spell Magic Mouth|XPHB} spell prepared and can cast it the same way."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Spells of the Mark",
+					"entries": [
+						"If you have the Spellcasting or Pact Magic feature, the spells on the Mark of Scribing Spells table are added to that feature's spell list.",
+						{
+							"type": "table",
+							"caption": "Mark of Scribing Spells",
+							"page": 12,
+							"colLabels": [
+								"Spell Level",
+								"Spells"
+							],
+							"colStyles": [
+								"col-3 text-center",
+								"col-9"
+							],
+							"rows": [
+								[
+									"1",
+									"{@spell Command|XPHB}, {@spell Illusory Script|XPHB}"
+								],
+								[
+									"2",
+									"{@spell Animal Messenger|XPHB}, {@spell Silence|XPHB}"
+								],
+								[
+									"3",
+									"{@spell Sending|XPHB}, {@spell Tongues|XPHB}"
+								],
+								[
+									"4",
+									"{@spell Arcane Eye|XPHB}, {@spell Confusion|XPHB}"
+								],
+								[
+									"5",
+									"{@spell Dream|XPHB}"
+								]
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Mark of Sentinel",
+			"source": "XUA2025EberronUpdates",
+			"page": 12,
+			"category": "D",
+			"prerequisite": [
+				{
+					"campaign": [
+						"Eberron"
+					],
+					"otherSummary": {
+						"entry": "Can't Have Another Dragonmark Feat",
+						"entrySummary": "One Dragonmark"
+					}
+				}
+			],
+			"additionalSpells": [
+				{
+					"ability": {
+						"choose": [
+							"int",
+							"wis",
+							"cha"
+						]
+					},
+					"prepared": {
+						"_": {
+							"daily": {
+								"1e": [
+									"Shield|XPHB"
+								]
+							}
+						}
+					},
+					"expanded": {
+						"s1": [
+							"Compelled Duel|XPHB",
+							"Shield of Faith|XPHB"
+						],
+						"s2": [
+							"Warding Bond|XPHB",
+							"Zone of Truth|XPHB"
+						],
+						"s3": [
+							"Counterspell|XPHB",
+							"Protection from Energy|XPHB"
+						],
+						"s4": [
+							"Death Ward|XPHB",
+							"Guardian of Faith|XPHB"
+						],
+						"s5": [
+							"Bigby's Hand|XPHB"
+						]
+					}
+				}
+			],
+			"entries": [
+				"You gain the following benefits.",
+				{
+					"type": "entries",
+					"name": "Sentinel's Intuition",
+					"entries": [
+						"When you make a Wisdom ({@skill Insight|XPHB} or {@skill Perception|XPHB}) check, you can roll {@dice 1d4} and add the number rolled to the ability check."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Guardian's Shield",
+					"entries": [
+						"You always have the {@spell Shield|XPHB} spell prepared. You can cast it once without a spell slot, and you regain the ability to cast it in that way when you finish a {@variantrule Long Rest|XPHB}. You can also cast it using any spell slots you have. Intelligence, Wisdom, or Charisma is your spellcasting ability for these spells (choose when you select this feat)."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Vigilant Guardian",
+					"entries": [
+						"When a creature you can see within 5 feet of you is hit by an attack roll, you can take a {@variantrule Reaction|XPHB} to swap places with that creature, and you are hit by the attack instead. Once you use this feature, you can't do so again until you finish a {@variantrule Long Rest|XPHB}."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Spells of the Mark",
+					"entries": [
+						"If you have the Spellcasting or Pact Magic feature, the spells on the Mark of Sentinel Spells table are added to that feature's spell list.",
+						{
+							"type": "table",
+							"caption": "Mark of Sentinel Spells",
+							"page": 12,
+							"colLabels": [
+								"Spell Level",
+								"Spells"
+							],
+							"colStyles": [
+								"col-3 text-center",
+								"col-9"
+							],
+							"rows": [
+								[
+									"1",
+									"{@spell Compelled Duel|XPHB}, {@spell Shield of Faith|XPHB}"
+								],
+								[
+									"2",
+									"{@spell Warding Bond|XPHB}, {@spell Zone of Truth|XPHB}"
+								],
+								[
+									"3",
+									"{@spell Counterspell|XPHB}, {@spell Protection from Energy|XPHB}"
+								],
+								[
+									"4",
+									"{@spell Death Ward|XPHB}, {@spell Guardian of Faith|XPHB}"
+								],
+								[
+									"5",
+									"{@spell Bigby's Hand|XPHB}"
+								]
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Mark of Shadow",
+			"source": "XUA2025EberronUpdates",
+			"page": 12,
+			"category": "D",
+			"prerequisite": [
+				{
+					"campaign": [
+						"Eberron"
+					],
+					"otherSummary": {
+						"entry": "Can't Have Another Dragonmark Feat",
+						"entrySummary": "One Dragonmark"
+					}
+				}
+			],
+			"additionalSpells": [
+				{
+					"ability": {
+						"choose": [
+							"int",
+							"wis",
+							"cha"
+						]
+					},
+					"known": {
+						"_": [
+							"Minor Illusion|XPHB#c"
+						]
+					},
+					"prepared": {
+						"_": {
+							"daily": {
+								"1e": [
+									"Invisibility|XPHB"
+								]
+							}
+						}
+					},
+					"expanded": {
+						"s1": [
+							"Disguise Self|XPHB",
+							"Silent Image|XPHB"
+						],
+						"s2": [
+							"Darkness|XPHB",
+							"Pass without Trace|XPHB"
+						],
+						"s3": [
+							"Clairvoyance|XPHB",
+							"Major Image|XPHB"
+						],
+						"s4": [
+							"Greater Invisibility|XPHB",
+							"Hallucinatory Terrain|XPHB"
+						],
+						"s5": [
+							"Mislead|XPHB"
+						]
+					}
+				}
+			],
+			"entries": [
+				"You gain the following benefits.",
+				{
+					"type": "entries",
+					"name": "Cunning Intuition",
+					"entries": [
+						"When you make a Dexterity ({@skill Stealth|XPHB}) or Charisma ({@skill Performance|XPHB}) check, you can roll {@dice 1d4} and add the number rolled to the ability check."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Shape Shadows",
+					"entries": [
+						"You know the {@spell Minor Illusion|XPHB} cantrip. You also always have the {@spell Invisibility|XPHB} spell prepared. You can cast it once without a spell slot, and you regain the ability to cast it in that way when you finish a {@variantrule Long Rest|XPHB}. You can also cast it using any spell slots you have. Intelligence, Wisdom, or Charisma is your spellcasting ability for these spells (choose when you select this feat)."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Spells of the Mark",
+					"entries": [
+						"If you have the Spellcasting or Pact Magic feature, the spells on the Mark of Shadow Spells table are added to that feature's spell list.",
+						{
+							"type": "table",
+							"caption": "Mark of Shadow Spells",
+							"page": 12,
+							"colLabels": [
+								"Spell Level",
+								"Spells"
+							],
+							"colStyles": [
+								"col-3 text-center",
+								"col-9"
+							],
+							"rows": [
+								[
+									"1",
+									"{@spell Disguise Self|XPHB}, {@spell Silent Image|XPHB}"
+								],
+								[
+									"2",
+									"{@spell Darkness|XPHB}, {@spell Pass without Trace|XPHB}"
+								],
+								[
+									"3",
+									"{@spell Clairvoyance|XPHB}, {@spell Major Image|XPHB}"
+								],
+								[
+									"4",
+									"{@spell Greater Invisibility|XPHB}, {@spell Hallucinatory Terrain|XPHB}"
+								],
+								[
+									"5",
+									"{@spell Mislead|XPHB}"
+								]
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Mark of Storm",
+			"source": "XUA2025EberronUpdates",
+			"page": 12,
+			"category": "D",
+			"prerequisite": [
+				{
+					"campaign": [
+						"Eberron"
+					],
+					"otherSummary": {
+						"entry": "Can't Have Another Dragonmark Feat",
+						"entrySummary": "One Dragonmark"
+					}
+				}
+			],
+			"resist": [
+				"lightning"
+			],
+			"additionalSpells": [
+				{
+					"ability": {
+						"choose": [
+							"int",
+							"wis",
+							"cha"
+						]
+					},
+					"known": {
+						"_": [
+							"Thunderclap|XPHB#c"
+						]
+					},
+					"prepared": {
+						"3": {
+							"daily": {
+								"1e": [
+									"Gust of Wind|XPHB"
+								]
+							}
+						}
+					},
+					"expanded": {
+						"s1": [
+							"Feather Fall|XPHB",
+							"Fog Cloud|XPHB"
+						],
+						"s2": [
+							"Levitate|XPHB",
+							"Shatter|XPHB"
+						],
+						"s3": [
+							"Sleet Storm|XPHB",
+							"Wind Wall|XPHB"
+						],
+						"s4": [
+							"Conjure Minor Elemental|XPHB",
+							"Control Water|XPHB"
+						],
+						"s5": [
+							"Conjure Elemental|XPHB"
+						]
+					}
+				}
+			],
+			"entries": [
+				"You gain the following benefits.",
+				{
+					"type": "entries",
+					"name": "Windwright's Intuition",
+					"entries": [
+						"When you make a Dexterity ({@skill Acrobatics|XPHB}) check or an ability check using {@item Navigator's Tools|XPHB}, you can roll {@dice 1d4} and add the number rolled to the ability check."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Storm's Boon",
+					"entries": [
+						"You have {@variantrule Resistance|XPHB} to Lightning damage."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Storm Magic",
+					"entries": [
+						"You know the {@spell Thunderclap|XPHB} cantrip. When you reach character level 3, you also always have the {@spell Gust of Wind|XPHB} spell prepared. You can cast it once without a spell slot, and you regain the ability to cast it in that way when you finish a {@variantrule Long Rest|XPHB}. You can also cast it using any spell slots you have. Intelligence, Wisdom, or Charisma is your spellcasting ability for these spells (choose when you select this feat)."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Spells of the Mark",
+					"entries": [
+						"If you have the Spellcasting or Pact Magic feature, the spells on the Mark of Storm Spells table are added to that feature's spell list.",
+						{
+							"type": "table",
+							"caption": "Mark of Storm Spells",
+							"page": 12,
+							"colLabels": [
+								"Spell Level",
+								"Spells"
+							],
+							"colStyles": [
+								"col-3 text-center",
+								"col-9"
+							],
+							"rows": [
+								[
+									"1",
+									"{@spell Feather Fall|XPHB}, {@spell Fog Cloud|XPHB}"
+								],
+								[
+									"2",
+									"{@spell Levitate|XPHB}, {@spell Shatter|XPHB}"
+								],
+								[
+									"3",
+									"{@spell Sleet Storm|XPHB}, {@spell Wind Wall|XPHB}"
+								],
+								[
+									"4",
+									"{@spell Conjure Minor Elemental|XPHB}, {@spell Control Water|XPHB}"
+								],
+								[
+									"5",
+									"{@spell Conjure Elemental|XPHB}"
+								]
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Mark of Warding",
+			"source": "XUA2025EberronUpdates",
+			"page": 13,
+			"category": "D",
+			"prerequisite": [
+				{
+					"campaign": [
+						"Eberron"
+					],
+					"otherSummary": {
+						"entry": "Can't Have Another Dragonmark Feat",
+						"entrySummary": "One Dragonmark"
+					}
+				}
+			],
+			"additionalSpells": [
+				{
+					"ability": {
+						"choose": [
+							"int",
+							"wis",
+							"cha"
+						]
+					},
+					"prepared": {
+						"3": {
+							"daily": {
+								"1e": [
+									"Arcane Lock|XPHB"
+								]
+							}
+						},
+						"_": {
+							"daily": {
+								"1e": [
+									"Alarm|XPHB",
+									"Mage Armor|XPHB"
+								]
+							}
+						}
+					},
+					"expanded": {
+						"s1": [
+							"Armor of Agathys|XPHB",
+							"Sanctuary|XPHB"
+						],
+						"s2": [
+							"Knock|XPHB",
+							"Nystul's Magic Aura|XPHB"
+						],
+						"s3": [
+							"Glyph of Warding|XPHB",
+							"Magic Circle|XPHB"
+						],
+						"s4": [
+							"Leomund's Secret Chest|XPHB",
+							"Mordenkainen's Faithful Hound|XPHB"
+						],
+						"s5": [
+							"Antilife Shell|XPHB"
+						]
+					}
+				}
+			],
+			"entries": [
+				"You gain the following benefits.",
+				{
+					"type": "entries",
+					"name": "Warder's Intuition",
+					"entries": [
+						"When you make an Intelligence ({@skill Investigation|XPHB}) check or an ability check using {@item Thieves' Tools|XPHB}, you can roll {@dice 1d4} and add the number rolled to the ability check."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Wards and Seals",
+					"entries": [
+						"You always have the {@spell Alarm|XPHB} and {@spell Mage Armor|XPHB} spells prepared. You can cast each spell once without a spell slot, and you regain the ability to cast it in that way when you finish a {@variantrule Long Rest|XPHB}. You can also cast these spells using any spell slots you have. Intelligence, Wisdom, or Charisma is your spellcasting ability for these spells (choose when you select this feat).",
+						"When you reach character level 3, you also always have the {@spell Arcane Lock|XPHB} spell prepared and can cast it the same way."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Spells of the Mark",
+					"entries": [
+						"If you have the Spellcasting or Pact Magic feature, the spells on the Mark of Warding Spells table are added to that feature's spell list.",
+						{
+							"type": "table",
+							"caption": "Mark of Warding Spells",
+							"page": 13,
+							"colLabels": [
+								"Spell Level",
+								"Spells"
+							],
+							"colStyles": [
+								"col-3 text-center",
+								"col-9"
+							],
+							"rows": [
+								[
+									"1",
+									"{@spell Armor of Agathys|XPHB}, {@spell Sanctuary|XPHB}"
+								],
+								[
+									"2",
+									"{@spell Knock|XPHB}, {@spell Nystul's Magic Aura|XPHB}"
+								],
+								[
+									"3",
+									"{@spell Glyph of Warding|XPHB}, {@spell Magic Circle|XPHB}"
+								],
+								[
+									"4",
+									"{@spell Leomund's Secret Chest|XPHB}, {@spell Mordenkainen's Faithful Hound|XPHB}"
+								],
+								[
+									"5",
+									"{@spell Antilife Shell|XPHB}"
+								]
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Potent Dragonmark",
+			"source": "XUA2025EberronUpdates",
+			"page": 15,
+			"category": "G",
+			"prerequisite": [
+				{
+					"level": 4,
+					"otherSummary": {
+						"entry": "Any Dragonmark Feat",
+						"entrySummary": "Any Dragonmark"
+					}
+				}
+			],
+			"ability": [
+				{
+					"choose": {
+						"from": [
+							"str",
+							"dex",
+							"con",
+							"int",
+							"wis",
+							"cha"
+						]
+					}
+				}
+			],
+			"entries": [
+				"You gain the following benefits.",
+				{
+					"type": "entries",
+					"name": "Ability Score Increase",
+					"entries": [
+						"Increase the spellcasting ability score used by your Dragonmark feat by 1, to a maximum of 20."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Dragonmark Preparation",
+					"entries": [
+						"You always have the spells on your Dragonmark feat's Spells of the Mark list (if any) prepared."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Dragonmark Spellcasting",
+					"entries": [
+						"You have one spell slot to cast the spells granted by your Dragonmark feat. The spell slot's level is one-half your level (round up), to a maximum of level 5. You regain the expended slot when you finish a {@variantrule Short Rest|XPHB|Short} or {@variantrule Long Rest|XPHB}. You can use this spell slot to cast only a spell that you have prepared because of your Dragonmark feat or the Dragonmark Preparation benefit of this feat."
 					]
 				}
 			]
