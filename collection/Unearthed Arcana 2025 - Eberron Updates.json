@@ -1,0 +1,3750 @@
+{
+	"$schema": "https://raw.githubusercontent.com/TheGiddyLimit/5etools-utils/master/schema/ua/homebrew.json",
+	"_meta": {
+		"sources": [
+			{
+				"json": "XUA2025EberronUpdates",
+				"abbreviation": "XUA2025EU",
+				"full": "Unearthed Arcana 2025: Eberron Updates",
+				"authors": [
+					"Wizards of the Coast"
+				],
+				"convertedBy": [
+					"Lyra [he/him]"
+				],
+				"version": "1.0.0",
+				"url": "https://media.dndbeyond.com/compendium-images/ua/the-artificer/AzQEA72K8EMf9HmU/UA2024-Artificer.pdf",
+				"dateReleased": "2025-02-27"
+			}
+		],
+		"dependencies": {
+			"class": [
+				"XUA2024Artificer"
+			],
+			"subclass": [
+				"XUA2024Artificer"
+			]
+		},
+		"edition": "one",
+		"status": "ready",
+		"dateAdded": 1740677812,
+		"dateLastModified": 1740677812
+	},
+	"class": [
+		{
+			"name": "Artificer",
+			"source": "XUA2025EberronUpdates",
+			"page": 1,
+			"edition": "one",
+			"primaryAbility": [
+				{
+					"int": true
+				}
+			],
+			"hd": {
+				"number": 1,
+				"faces": 8
+			},
+			"proficiency": [
+				"con",
+				"int"
+			],
+			"spellcastingAbility": "int",
+			"casterProgression": "artificer",
+			"preparedSpellsProgression": [
+				2,
+				3,
+				4,
+				5,
+				6,
+				6,
+				7,
+				7,
+				9,
+				9,
+				10,
+				10,
+				11,
+				11,
+				12,
+				12,
+				14,
+				14,
+				15,
+				15
+			],
+			"preparedSpellsChange": "restLong",
+			"cantripProgression": [
+				2,
+				2,
+				2,
+				2,
+				2,
+				2,
+				2,
+				2,
+				2,
+				3,
+				3,
+				3,
+				3,
+				4,
+				4,
+				4,
+				4,
+				4,
+				4,
+				4
+			],
+			"additionalSpells": [
+				{
+					"known": {
+						"1": [
+							"mending|XPHB#c"
+						]
+					}
+				}
+			],
+			"classSpells": [
+				"Acid Splash|XPHB",
+				"Dancing Lights|XPHB",
+				"Elementalism|XPHB",
+				"Fire Bolt|XPHB",
+				"Guidance|XPHB",
+				"Light|XPHB",
+				"Mage Hand|XPHB",
+				"Mending|XPHB",
+				"Message|XPHB",
+				"Poison Spray|XPHB",
+				"Prestidigitation|XPHB",
+				"Ray of Frost|XPHB",
+				"Resistance|XPHB",
+				"Shocking Grasp|XPHB",
+				"Spare the Dying|XPHB",
+				"Thorn Whip|XPHB",
+				"Thunderclap|XPHB",
+				"True Strike|XPHB",
+				"Alarm|XPHB",
+				"Cure Wounds|XPHB",
+				"Detect Magic|XPHB",
+				"Disguise Self|XPHB",
+				"Expeditious Retreat|XPHB",
+				"Faerie Fire|XPHB",
+				"False Life|XPHB",
+				"Feather Fall|XPHB",
+				"Grease|XPHB",
+				"Identify|XPHB",
+				"Jump|XPHB",
+				"Longstrider|XPHB",
+				"Purify Food and Drink|XPHB",
+				"Sanctuary|XPHB",
+				"Aid|XPHB",
+				"Alter Self|XPHB",
+				"Arcane Lock|XPHB",
+				"Arcane Vigor|XPHB",
+				"Blur|XPHB",
+				"Continual Flame|XPHB",
+				"Darkvision|XPHB",
+				"Dragon's Breath|XPHB",
+				"Enhance Ability|XPHB",
+				"Enlarge/Reduce|XPHB",
+				"Heat Metal|XPHB",
+				"Homunculus Servant|XUA2024Artificer",
+				"Invisibility|XPHB",
+				"Lesser Restoration|XPHB",
+				"Levitate|XPHB",
+				"Magic Mouth|XPHB",
+				"Magic Weapon|XPHB",
+				"Protection from Poison|XPHB",
+				"Rope Trick|XPHB",
+				"See Invisibility|XPHB",
+				"Spider Climb|XPHB",
+				"Web|XPHB",
+				"Blink|XPHB",
+				"Create Food and Water|XPHB",
+				"Dispel Magic|XPHB",
+				"Elemental Weapon|XPHB",
+				"Fly|XPHB",
+				"Glyph of Warding|XPHB",
+				"Haste|XPHB",
+				"Protection from Energy|XPHB",
+				"Revivify|XPHB",
+				"Water Breathing|XPHB",
+				"Water Walk|XPHB",
+				"Arcane Eye|XPHB",
+				"Fabricate|XPHB",
+				"Freedom of Movement|XPHB",
+				"Leomund's Secret Chest|XPHB",
+				"Mordenkainen's Faithful Hound|XPHB",
+				"Mordenkainen's Private Sanctum|XPHB",
+				"Otiluke's Resilient Sphere|XPHB",
+				"Stone Shape|XPHB",
+				"Stoneskin|XPHB",
+				"Summon Construct|XPHB",
+				"Animate Objects|XPHB",
+				"Bigby's Hand|XPHB",
+				"Circle of Power|XPHB",
+				"Creation|XPHB",
+				"Greater Restoration|XPHB",
+				"Wall of Stone|XPHB",
+				"Booming Blade|TCE",
+				"Green-Flame Blade|TCE",
+				"Intellect Fortress|TCE",
+				"Lightning Lure|TCE",
+				"Sword Burst|TCE",
+				"Tasha's Caustic Brew|TCE"
+			],
+			"featProgression": [
+				{
+					"name": "Epic Boon",
+					"category": [
+						"EB"
+					],
+					"progression": {
+						"19": 1
+					}
+				}
+			],
+			"startingProficiencies": {
+				"armor": [
+					"light",
+					"medium",
+					"shield"
+				],
+				"weapons": [
+					"simple"
+				],
+				"tools": [
+					"{@item thieves' tools|XPHB}",
+					"{@item tinker's tools|XPHB}",
+					"one type of {@item artisan's tools|XPHB} of your choice"
+				],
+				"toolProficiencies": [
+					{
+						"thieves' tools": true,
+						"tinker's tools": true,
+						"anyArtisansTool": 1
+					}
+				],
+				"skills": [
+					{
+						"choose": {
+							"from": [
+								"arcana",
+								"history",
+								"investigation",
+								"medicine",
+								"nature",
+								"perception",
+								"sleight of hand"
+							],
+							"count": 2
+						}
+					}
+				]
+			},
+			"startingEquipment": {
+				"additionalFromBackground": true,
+				"defaultData": [
+					{
+						"A": [
+							{
+								"item": "studded leather armor|xphb"
+							},
+							{
+								"item": "dagger|xphb"
+							},
+							{
+								"item": "thieves' tools|xphb"
+							},
+							{
+								"item": "tinker's tools|xphb"
+							},
+							{
+								"item": "dungeoneer's pack|xphb"
+							},
+							{
+								"value": 1600
+							}
+						],
+						"B": [
+							{
+								"value": 15000
+							}
+						]
+					}
+				],
+				"entries": [
+					"{@i Choose A or B:} (A) {@item Studded Leather Armor|XPHB}, {@item Dagger|XPHB}, {@item Thieves' Tools|XPHB}, {@item Tinker's Tools|XPHB}, {@item Dungeoneer's Pack|XPHB}, and 16 GP; or (B) 150 GP"
+				]
+			},
+			"multiclassing": {
+				"proficienciesGained": {
+					"armor": [
+						"light",
+						"medium",
+						"shield"
+					],
+					"tools": [
+						"{@item tinker's tools|PHB}"
+					],
+					"toolProficiencies": [
+						{
+							"tinker's tools": true
+						}
+					],
+					"skills": [
+						{
+							"choose": {
+								"from": [
+									"arcana",
+									"history",
+									"investigation",
+									"medicine",
+									"nature",
+									"perception",
+									"sleight of hand"
+								],
+								"count": 1
+							}
+						}
+					]
+				}
+			},
+			"classTableGroups": [
+				{
+					"colLabels": [
+						"Plans Known",
+						"Magic Items",
+						"{@filter Cantrips Known|spells|source=|level=0|class=artificer (xua2025eu)}",
+						"Prepared Spells"
+					],
+					"rows": [
+						[
+							"\u2014",
+							"\u2014",
+							2,
+							2
+						],
+						[
+							4,
+							2,
+							2,
+							3
+						],
+						[
+							4,
+							2,
+							2,
+							4
+						],
+						[
+							4,
+							2,
+							2,
+							5
+						],
+						[
+							4,
+							2,
+							2,
+							6
+						],
+						[
+							5,
+							3,
+							2,
+							6
+						],
+						[
+							5,
+							3,
+							2,
+							7
+						],
+						[
+							5,
+							3,
+							2,
+							7
+						],
+						[
+							5,
+							3,
+							2,
+							9
+						],
+						[
+							6,
+							4,
+							3,
+							9
+						],
+						[
+							6,
+							4,
+							3,
+							10
+						],
+						[
+							6,
+							4,
+							3,
+							10
+						],
+						[
+							6,
+							4,
+							3,
+							11
+						],
+						[
+							7,
+							5,
+							4,
+							11
+						],
+						[
+							7,
+							5,
+							4,
+							12
+						],
+						[
+							7,
+							5,
+							4,
+							12
+						],
+						[
+							7,
+							5,
+							4,
+							14
+						],
+						[
+							8,
+							6,
+							4,
+							14
+						],
+						[
+							8,
+							6,
+							4,
+							15
+						],
+						[
+							8,
+							6,
+							4,
+							15
+						]
+					]
+				},
+				{
+					"title": "Spell Slots per Spell Level",
+					"colLabels": [
+						"{@filter 1st|spells|level=1|class=artificer (xua2025eu)}",
+						"{@filter 2nd|spells|level=2|class=artificer (xua2025eu)}",
+						"{@filter 3rd|spells|level=3|class=artificer (xua2025eu)}",
+						"{@filter 4th|spells|level=4|class=artificer (xua2025eu)}",
+						"{@filter 5th|spells|level=5|class=artificer (xua2025eu)}"
+					],
+					"rowsSpellProgression": [
+						[
+							2,
+							0,
+							0,
+							0,
+							0
+						],
+						[
+							2,
+							0,
+							0,
+							0,
+							0
+						],
+						[
+							3,
+							0,
+							0,
+							0,
+							0
+						],
+						[
+							3,
+							0,
+							0,
+							0,
+							0
+						],
+						[
+							4,
+							2,
+							0,
+							0,
+							0
+						],
+						[
+							4,
+							2,
+							0,
+							0,
+							0
+						],
+						[
+							4,
+							3,
+							0,
+							0,
+							0
+						],
+						[
+							4,
+							3,
+							0,
+							0,
+							0
+						],
+						[
+							4,
+							3,
+							2,
+							0,
+							0
+						],
+						[
+							4,
+							3,
+							2,
+							0,
+							0
+						],
+						[
+							4,
+							3,
+							3,
+							0,
+							0
+						],
+						[
+							4,
+							3,
+							3,
+							0,
+							0
+						],
+						[
+							4,
+							3,
+							3,
+							1,
+							0
+						],
+						[
+							4,
+							3,
+							3,
+							1,
+							0
+						],
+						[
+							4,
+							3,
+							3,
+							2,
+							0
+						],
+						[
+							4,
+							3,
+							3,
+							2,
+							0
+						],
+						[
+							4,
+							3,
+							3,
+							3,
+							1
+						],
+						[
+							4,
+							3,
+							3,
+							3,
+							1
+						],
+						[
+							4,
+							3,
+							3,
+							3,
+							2
+						],
+						[
+							4,
+							3,
+							3,
+							3,
+							2
+						]
+					]
+				}
+			],
+			"classFeatures": [
+				"Spellcasting|Artificer|XUA2024Artificer|1|XUA2024Artificer",
+				"Tinker's Magic|Artificer|XUA2025EberronUpdates|1|XUA2025EberronUpdates",
+				"Replicate Magic Item|Artificer|XUA2025EberronUpdates|2|XUA2025EberronUpdates",
+				{
+					"classFeature": "Artificer Subclass|Artificer|XUA2025EberronUpdates|3|XUA2025EberronUpdates",
+					"gainSubclassFeature": true
+				},
+				"Ability Score Improvement|Artificer|XUA2024Artificer|4|XUA2024Artificer",
+				{
+					"classFeature": "Subclass feature|Artificer|XUA2024Artificer|5|XUA2024Artificer",
+					"gainSubclassFeature": true
+				},
+				"Magic Item Tinker|Artificer|XUA2025EberronUpdates|6|XUA2025EberronUpdates",
+				"Flash of Genius|Artificer|XUA2024Artificer|7|XUA2024Artificer",
+				"Ability Score Improvement|Artificer|XUA2024Artificer|8|XUA2024Artificer",
+				{
+					"classFeature": "Subclass feature|Artificer|XUA2024Artificer|9|XUA2024Artificer",
+					"gainSubclassFeature": true
+				},
+				"Magic Item Adept|Artificer|XUA2025EberronUpdates|10|XUA2025EberronUpdates",
+				"Spell-Storing Item|Artificer|XUA2025EberronUpdates|11|XUA2025EberronUpdates",
+				"Ability Score Improvement|Artificer|XUA2024Artificer|12|XUA2024Artificer",
+				"Magic Item Savant|Artificer|XUA2025EberronUpdates|14|XUA2025EberronUpdates",
+				{
+					"classFeature": "Subclass Feature|Artificer|XUA2024Artificer|15|XUA2024Artificer",
+					"gainSubclassFeature": true
+				},
+				"Ability Score Improvement|Artificer|XUA2024Artificer|16|XUA2024Artificer",
+				"Magic Item Master|Artificer|XUA2024Artificer|18|XUA2024Artificer",
+				"Epic Boon|Artificer|XUA2024Artificer|19|XUA2024Artificer",
+				"Soul of Artifice|Artificer|XUA2025EberronUpdates|20|XUA2025EberronUpdates"
+			],
+			"subclassTitle": "Artificer Subclass",
+			"hasFluff": true
+		}
+	],
+	"classFluff": [
+		{
+			"name": "Artificer",
+			"source": "XUA2025EberronUpdates",
+			"entries": [
+				{
+					"type": "section",
+					"page": 1,
+					"entries": [
+						"{@i A Magical Crafter and an Inventor of Wonders}",
+						"Masters of invention, Artificers use ingenuity and magic to unlock extraordinary capabilities in objects. They see magic as a complex system waiting to be decoded and then harnessed in their spells and inventions. You can find everything you need to play one of these inventors in the next few sections."
+					]
+				}
+			]
+		}
+	],
+	"subclass": [
+		{
+			"name": "Alchemist",
+			"shortName": "Alchemist",
+			"source": "XUA2025EberronUpdates",
+			"className": "Artificer",
+			"classSource": "XUA2025EberronUpdates",
+			"_copy": {
+				"name": "Alchemist",
+				"source": "XUA2024Artificer",
+				"shortName": "Alchemist",
+				"className": "Artificer",
+				"classSource": "XUA2024Artificer",
+				"_preserve": {
+					"hasFluff": true
+				}
+			}
+		},
+		{
+			"name": "Armorer",
+			"shortName": "Armorer",
+			"source": "XUA2025EberronUpdates",
+			"className": "Artificer",
+			"classSource": "XUA2025EberronUpdates",
+			"_copy": {
+				"name": "Armorer",
+				"source": "XUA2024Artificer",
+				"shortName": "Armorer",
+				"className": "Artificer",
+				"classSource": "XUA2024Artificer",
+				"_preserve": {
+					"hasFluff": true
+				}
+			}
+		},
+		{
+			"name": "Artillerist",
+			"shortName": "Artillerist",
+			"source": "XUA2025EberronUpdates",
+			"className": "Artificer",
+			"classSource": "XUA2025EberronUpdates",
+			"_copy": {
+				"name": "Artillerist",
+				"source": "XUA2024Artificer",
+				"shortName": "Artillerist",
+				"className": "Artificer",
+				"classSource": "XUA2024Artificer",
+				"_preserve": {
+					"hasFluff": true
+				}
+			}
+		},
+		{
+			"name": "Battle Smith",
+			"shortName": "Battle Smith",
+			"source": "XUA2025EberronUpdates",
+			"className": "Artificer",
+			"classSource": "XUA2025EberronUpdates",
+			"_copy": {
+				"name": "Battle Smith",
+				"source": "XUA2024Artificer",
+				"shortName": "Battle Smith",
+				"className": "Artificer",
+				"classSource": "XUA2024Artificer",
+				"_preserve": {
+					"hasFluff": true
+				}
+			}
+		},
+		{
+			"name": "Cartographer",
+			"shortName": "Cartographer",
+			"source": "XUA2025EberronUpdates",
+			"className": "Artificer",
+			"classSource": "XUA2025EberronUpdates",
+			"page": 6,
+			"additionalSpells": [
+				{
+					"prepared": {
+						"3": [
+							"faerie fire|XPHB",
+							"guiding bolt|XPHB",
+							"healing word|XPHB"
+						],
+						"5": [
+							"locate object|XPHB",
+							"mind spike|XPHB"
+						],
+						"9": [
+							"clairvoyance|XPHB",
+							"haste|XPHB"
+						],
+						"13": [
+							"freedom of movement|XPHB",
+							"locate creature|XPHB"
+						],
+						"17": [
+							"scrying|XPHB",
+							"teleportation circle|XPHB"
+						]
+					},
+					"innate": {
+						"3": {
+							"daily": {
+								"int": [
+									"faerie fire|XPHB"
+								]
+							}
+						},
+						"15": {
+							"daily": {
+								"1": [
+									"find the path|XPHB"
+								]
+							}
+						}
+					}
+				}
+			],
+			"subclassSpells": [
+				"faerie fire|XPHB",
+				"guiding bolt|XPHB",
+				"healing word|XPHB",
+				"locate object|XPHB",
+				"mind spike|XPHB",
+				"clairvoyance|XPHB",
+				"haste|XPHB",
+				"freedom of movement|XPHB",
+				"locate creature|XPHB",
+				"scrying|XPHB",
+				"teleportation circle|XPHB",
+				"find the path|XPHB"
+			],
+			"subclassFeatures": [
+				"Cartographer|Artificer|XUA2025EberronUpdates|Cartographer|XUA2025EberronUpdates|3|XUA2025EberronUpdates",
+				"Portal Jump|Artificer|XUA2025EberronUpdates|Cartographer|XUA2025EberronUpdates|5|XUA2025EberronUpdates",
+				"Ingenious Movement|Artificer|XUA2025EberronUpdates|Cartographer|XUA2025EberronUpdates|9|XUA2025EberronUpdates",
+				"Superior Atlas|Artificer|XUA2025EberronUpdates|Cartographer|XUA2025EberronUpdates|15|XUA2025EberronUpdates"
+			],
+			"hasFluff": true
+		}
+	],
+	"subclassFluff": [
+		{
+			"name": "Alchemist",
+			"shortName": "Alchemist",
+			"source": "XUA2025EberronUpdates",
+			"className": "Artificer",
+			"classSource": "XUA2025EberronUpdates",
+			"_copy": {
+				"name": "Alchemist",
+				"source": "XUA2024Artificer",
+				"shortName": "Alchemist",
+				"className": "Artificer",
+				"classSource": "XUA2024Artificer"
+			}
+		},
+		{
+			"name": "Armorer",
+			"shortName": "Armorer",
+			"source": "XUA2025EberronUpdates",
+			"className": "Artificer",
+			"classSource": "XUA2025EberronUpdates",
+			"_copy": {
+				"name": "Armorer",
+				"source": "XUA2024Artificer",
+				"shortName": "Armorer",
+				"className": "Artificer",
+				"classSource": "XUA2024Artificer"
+			}
+		},
+		{
+			"name": "Artillerist",
+			"shortName": "Artillerist",
+			"source": "XUA2025EberronUpdates",
+			"className": "Artificer",
+			"classSource": "XUA2025EberronUpdates",
+			"_copy": {
+				"name": "Artillerist",
+				"source": "XUA2024Artificer",
+				"shortName": "Artillerist",
+				"className": "Artificer",
+				"classSource": "XUA2024Artificer"
+			}
+		},
+		{
+			"name": "Battle Smith",
+			"shortName": "Battle Smith",
+			"source": "XUA2025EberronUpdates",
+			"className": "Artificer",
+			"classSource": "XUA2025EberronUpdates",
+			"_copy": {
+				"name": "Battle Smith",
+				"source": "XUA2024Artificer",
+				"shortName": "Battle Smith",
+				"className": "Artificer",
+				"classSource": "XUA2024Artificer"
+			}
+		},
+		{
+			"name": "Cartographer",
+			"shortName": "Cartographer",
+			"source": "XUA2025EberronUpdates",
+			"className": "Artificer",
+			"classSource": "XUA2025EberronUpdates",
+			"entries": [
+				"{@i Chart Advantageous Courses through Turmoil}"
+			]
+		}
+	],
+	"classFeature": [
+		{
+			"name": "Tinker's Magic",
+			"source": "XUA2025EberronUpdates",
+			"page": 3,
+			"className": "Artificer",
+			"classSource": "XUA2025EberronUpdates",
+			"level": 1,
+			"entries": [
+				"You know the {@spell Mending|XPHB} cantrip.",
+				"As a {@action Magic|XPHB} action while holding {@item Tinker's Tools|XPHB}, you can create one item in an unoccupied space within 5 feet of yourself, choosing the item from the following list:",
+				{
+					"type": "list",
+					"style": "list-hang",
+					"columns": 4,
+					"page": 2,
+					"items": [
+						"{@item Ball Bearings|XPHB}",
+						"{@item Basket|XPHB}",
+						"{@item Bedroll|XPHB}",
+						"{@item Bell|XPHB}",
+						"{@item Blanket|XPHB}",
+						"{@item Block and Tackle|XPHB}",
+						"{@item Bucket|XPHB}",
+						"{@item Caltrops|XPHB}",
+						"{@item Candle|XPHB}",
+						"{@item Crowbar|XPHB}",
+						"{@item Flask|XPHB}",
+						"{@item Jug|XPHB}",
+						"{@item Lamp|XPHB}",
+						"{@item Net|XPHB}",
+						"{@item Oil|XPHB}",
+						"{@item Paper|XPHB}",
+						"{@item Parchment|XPHB}",
+						"{@item Pole|XPHB}",
+						"{@item Pouch|XPHB}",
+						"{@item Rope|XPHB}",
+						"{@item Sack|XPHB}",
+						"{@item Shovel|XPHB}",
+						"{@item String|XPHB}",
+						"{@item Tinderbox|XPHB}",
+						"{@item Torch|XPHB}",
+						"{@item Vial|XPHB}"
+					]
+				},
+				"See the rules for the item in the {@book Player's Handbook|XPHB}. The item lasts until you finish a {@variantrule Long Rest|XPHB}, at which point it vanishes.",
+				"You can use this feature a number of times equal to your Intelligence modifier (minimum of once), and you regain all expended uses when you finish a {@variantrule Long Rest|XPHB}."
+			]
+		},
+		{
+			"name": "Replicate Magic Item",
+			"source": "XUA2025EberronUpdates",
+			"page": 3,
+			"className": "Artificer",
+			"classSource": "XUA2025EberronUpdates",
+			"level": 2,
+			"entries": [
+				"You have learned arcane plans that you use to make magic items.",
+				{
+					"type": "entries",
+					"entries": [
+						{
+							"type": "entries",
+							"name": "Plans Known",
+							"page": 3,
+							"entries": [
+								"When you gain this feature, choose four plans to learn from the {@table Magic Item Plans (Artificer Level 2+)|XUA2025EberronUpdates} table (see the {@book Dungeon Master's Guide|XDMG} for the items' descriptions). {@item Bag of Holding|XDMG}, {@item Cap of Water Breathing|XDMG}, {@item Sending Stones|XDMG}, and {@item +1 Wand of the War Mage|XDMG|Wand of the War Mage +1} are recommended. Whenever you gain an Artificer level, you can replace one of the plans you know with a new plan for which you qualify.",
+								"You learn another plan of your choice when you reach certain Artificer levels, as shown in the Plans Known column of the Artificer Features table.",
+								"When you choose a plan to learn, you choose it from any Magic Item Plans table for which you qualify; your qualification is based on your Artificer level."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Creating an Item",
+							"page": 3,
+							"entries": [
+								"When you finish a {@variantrule Long Rest|XPHB}, you can create one or two different magic items if you have {@item Tinker's Tools|XPHB} in hand. Each item is based on one of the plans you know for this feature.",
+								"If a created item requires {@variantrule Attunement|XPHB}, you can attune yourself to it the instant you create it. If you decide to attune to the item later, you must do so using the normal process for {@variantrule Attunement|XPHB}.",
+								"When you reach certain Artificer levels specified in the Magic Items column of the Artificer Features table, the number of magic items you can create at the end of a Long Rest increases. Each item you create must be based on a different plan you know.",
+								"If you try to exceed your maximum number of magic items for this feature, the oldest item vanishes, and then the new item appears."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Duration",
+							"page": 3,
+							"entries": [
+								"A magic item created by this feature functions as the normal magic item, except its magic isn't permanent. When you die, the magic item vanishes after {@dice 1d4} days. If you replace a plan you know with a new plan, any magic item created with the replaced plan immediately vanishes.",
+								"If an item that you created with this feature is a container, such as a {@item Bag of Holding|XDMG}, and it vanishes, its contents harmlessly appear in and around its space."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Spellcasting Focus",
+							"page": 3,
+							"entries": [
+								"You can use any {@item Wand|XPHB} or Weapon created by this feature as a {@variantrule Spellcasting Focus|XPHB} in lieu of using a set of {@item Artisan's Tools|XPHB}."
+							]
+						},
+						{
+							"type": "statblock",
+							"tag": "table",
+							"source": "XUA2025EberronUpdates",
+							"name": "Magic Item Plans (Artificer Level 2+)",
+							"page": 4,
+							"collapsed": true
+						},
+						{
+							"type": "statblock",
+							"tag": "table",
+							"source": "XUA2025EberronUpdates",
+							"name": "Magic Item Plans (Artificer Level 6+)",
+							"page": 4,
+							"collapsed": true
+						},
+						{
+							"type": "statblock",
+							"tag": "table",
+							"source": "XUA2025EberronUpdates",
+							"name": "Magic Item Plans (Artificer Level 10+)",
+							"page": 4,
+							"collapsed": true
+						},
+						{
+							"type": "statblock",
+							"tag": "table",
+							"source": "XUA2025EberronUpdates",
+							"name": "Magic Item Plans (Artificer Level 14+)",
+							"page": 4,
+							"collapsed": true
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Artificer Subclass",
+			"source": "XUA2025EberronUpdates",
+			"page": 4,
+			"className": "Artificer",
+			"classSource": "XUA2025EberronUpdates",
+			"level": 3,
+			"entries": [
+				"You gain an Artificer subclass of your choice. The {@subclass Cartographer|Artificer|XUA2025EberronUpdates|XUA2025EberronUpdates} subclass is detailed after this class's description. A subclass is a specialization that grants you features at certain Artificer levels. For the rest of your career, you gain each of your subclass's features that are of your Artificer level or lower."
+			]
+		},
+		{
+			"name": "Magic Item Tinker",
+			"source": "XUA2025EberronUpdates",
+			"page": 4,
+			"className": "Artificer",
+			"classSource": "XUA2025EberronUpdates",
+			"level": 6,
+			"entries": [
+				"Your {@classFeature Replicate Magic Item|Artificer|XUA2025EberronUpdates|2|XUA2025EberronUpdates} feature gains the following options. ",
+				{
+					"type": "entries",
+					"entries": [
+						{
+							"type": "entries",
+							"name": "Charge Magic Item",
+							"page": 4,
+							"entries": [
+								"As a {@variantrule Bonus Action|XPHB}, you can touch a magic item within 5 feet of yourself that you created with {@classFeature Replicate Magic Item|Artificer|XUA2025EberronUpdates|2|XUA2025EberronUpdates} and uses charges. You recharge the item and expend a level 1+ spell slot. The number of charges an item regains is equal to the level of spell slot expended."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Drain Magic Item",
+							"page": 4,
+							"entries": [
+								"As a {@variantrule Bonus Action|XPHB}, you can touch a magic item within 5 feet of yourself that you created with {@classFeature Replicate Magic Item|Artificer|XUA2025EberronUpdates|2|XUA2025EberronUpdates} and cause the item to vanish, converting its magical energy into a spell slot. The slot is level 1 if the item is Common or level 2 if the item is Uncommon or Rare. Once you use this feature, you can't do so again until you finish a {@variantrule Long Rest|XPHB}. Any spell slot you create with this feature vanishes when you finish a {@variantrule Long Rest|XPHB}."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Transmute Magic Item",
+							"page": 5,
+							"entries": [
+								"As a {@action Magic|XPHB} action, you can touch one magic item within 5 feet of yourself that you created with {@classFeature Replicate Magic Item|Artificer|XUA2025EberronUpdates|2|XUA2025EberronUpdates} and transform it into a different magic item. The resulting item must be based on a magic item plan you know. Once you use this feature, you can't do so again until you finish a {@variantrule Long Rest|XPHB}."
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Magic Item Adept",
+			"source": "XUA2025EberronUpdates",
+			"page": 5,
+			"className": "Artificer",
+			"classSource": "XUA2025EberronUpdates",
+			"level": 10,
+			"entries": [
+				"You can attune to up to four magic items at once rather than three."
+			]
+		},
+		{
+			"name": "Spell-Storing Item",
+			"source": "XUA2025EberronUpdates",
+			"page": 5,
+			"className": "Artificer",
+			"classSource": "XUA2025EberronUpdates",
+			"level": 11,
+			"entries": [
+				"Whenever you finish a {@variantrule Long Rest|XPHB}, you can touch one Simple or Martial weapon or one item that you can use as a {@variantrule Spellcasting Focus|XPHB}, and you store a spell in it, choosing a {@filter level 1, 2, or 3 Artificer spell that has a casting time of an action and doesn't require a Material component that is consumed by the spell|spells|source=|level=1;2;3|class=artificer (xua2025eu)|components & miscellaneous=!material is consumed|cast time=action} (you needn't have the spell prepared).",
+				"While holding the object, a creature can take action to produce the spell's effect from it, using your spellcasting ability modifier. If the spell requires {@status Concentration|XPHB}, the creature must {@status Concentration|XPHB|concentrate}. Once a creature has used the object to produce the spell's effect, the object can't be used this way again until the start of the creature's next turn.",
+				"The spell stays in the object until it's been used a number of times equal to twice your Intelligence modifier (minimum of twice) or until you use this feature again to store a spell in an object. "
+			]
+		},
+		{
+			"name": "Magic Item Savant",
+			"source": "XUA2025EberronUpdates",
+			"page": 5,
+			"className": "Artificer",
+			"classSource": "XUA2025EberronUpdates",
+			"level": 14,
+			"entries": [
+				"You can now attune to up to five magic items at once rather than three."
+			]
+		},
+		{
+			"name": "Soul of Artifice",
+			"source": "XUA2025EberronUpdates",
+			"page": 5,
+			"className": "Artificer",
+			"classSource": "XUA2025EberronUpdates",
+			"level": 20,
+			"entries": [
+				"You have developed a mystical connection to your magic items, which you can draw on for aid. You gain the following benefits:",
+				{
+					"type": "entries",
+					"entries": [
+						{
+							"type": "entries",
+							"name": "Cheat Death",
+							"page": 5,
+							"entries": [
+								"If you're reduced to 0 {@variantrule Hit Points|XPHB} but not killed outright, you can disintegrate any number of Uncommon or Rare magic items created by your {@classFeature Replicate Magic Item|Artificer|XUA2025EberronUpdates|2|XUA2025EberronUpdates} feature. If you do so, you instead drop to a number of {@variantrule Hit Points|XPHB} equal to 20 times the number of magic items disintegrated."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Magical Guidance",
+							"page": 5,
+							"entries": [
+								"Whenever you use your {@classFeature Flash of Genius|Artificer|XUA2024Artificer|7|XUA2024Artificer} and the affected ability check or saving throw still fails, that use of {@classFeature Flash of Genius|Artificer|XUA2024Artificer|7|XUA2024Artificer} isn't expended if you have {@variantrule Attunement|XPHB|Attunment} to at least one magic item."
+							]
+						}
+					]
+				}
+			]
+		}
+	],
+	"subclassFeature": [
+		{
+			"name": "Adventurer's Atlas",
+			"source": "XUA2025EberronUpdates",
+			"page": 7,
+			"className": "Artificer",
+			"classSource": "XUA2025EberronUpdates",
+			"subclassShortName": "Cartographer",
+			"subclassSource": "XUA2025EberronUpdates",
+			"level": 3,
+			"entries": [
+				"Whenever you finish a {@variantrule Long Rest|XPHB} while holding {@item Cartographer's Tools|XPHB}, you can use that tool to create a set of magical maps by touching at least two creatures (one of whom can be yourself), up to a maximum number of creatures equal to 1 plus your Intelligence modifier (minimum of two creatures). Each target receives a magical map, which is illegible to all others. The maps last until you die or until you use this feature again, at which point any existing maps created by this feature immediately vanish.",
+				"While carrying the map, a target gains the following benefits.",
+				{
+					"type": "entries",
+					"entries": [
+						{
+							"type": "entries",
+							"name": "Awareness",
+							"page": 7,
+							"entries": [
+								"The target adds {@dice 1d4} to its {@variantrule Initiative|XPHB} rolls."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Positioning",
+							"page": 7,
+							"entries": [
+								"The target knows the location of all other map holders that are on the same plane of existence as itself. When casting a spell or creating an effect that requires being able to see the target, a map holder can target another map holder regardless of sight, so long as the other map holder is still within the spell or effect's range."
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Cartographer",
+			"source": "XUA2025EberronUpdates",
+			"page": 6,
+			"className": "Artificer",
+			"classSource": "XUA2025EberronUpdates",
+			"subclassShortName": "Cartographer",
+			"subclassSource": "XUA2025EberronUpdates",
+			"level": 3,
+			"entries": [
+				"Cartographers are the premier navigators and reconnaissance agents. Using their creations, Cartographers can highlight threats, safeguard their allies, and carve portals to distant locations.",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Tool Proficiencies|Artificer|XUA2025EberronUpdates|Cartographer|XUA2025EberronUpdates|3|XUA2025EberronUpdates"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Cartographer Spells|Artificer|XUA2025EberronUpdates|Cartographer|XUA2025EberronUpdates|3|XUA2025EberronUpdates"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Adventurer's Atlas|Artificer|XUA2025EberronUpdates|Cartographer|XUA2025EberronUpdates|3|XUA2025EberronUpdates"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Scouting Gadgets|Artificer|XUA2025EberronUpdates|Cartographer|XUA2025EberronUpdates|3|XUA2025EberronUpdates"
+				}
+			]
+		},
+		{
+			"name": "Cartographer Spells",
+			"source": "XUA2025EberronUpdates",
+			"page": 6,
+			"className": "Artificer",
+			"classSource": "XUA2025EberronUpdates",
+			"subclassShortName": "Cartographer",
+			"subclassSource": "XUA2025EberronUpdates",
+			"level": 3,
+			"entries": [
+				"When you reach an Artificer level specified in the {@table Cartographer Spells|XUA2025EberronUpdates} table, you thereafter always have the listed spells prepared.",
+				{
+					"type": "statblock",
+					"tag": "table",
+					"source": "XUA2025EberronUpdates",
+					"name": "Cartographer Spells",
+					"page": 7
+				}
+			]
+		},
+		{
+			"name": "Scouting Gadgets",
+			"source": "XUA2025EberronUpdates",
+			"page": 7,
+			"className": "Artificer",
+			"classSource": "XUA2025EberronUpdates",
+			"subclassShortName": "Cartographer",
+			"subclassSource": "XUA2025EberronUpdates",
+			"level": 3,
+			"entries": [
+				"You gain the following benefits.",
+				{
+					"type": "entries",
+					"entries": [
+						{
+							"type": "entries",
+							"name": "Boost",
+							"page": 7,
+							"entries": [
+								"On your turn, you can expend half your movement to teleport to an unoccupied space you can see within 10 feet of yourself. You can't use this benefit if your {@variantrule Speed|XPHB} is 0."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Radar",
+							"page": 7,
+							"entries": [
+								"You can cast {@spell Faerie Fire|XPHB} without expending a spell slot. You can do so a number of times equal to your Intelligence modifier (minimum of once), and you regain all expended uses when you finish a Long Rest."
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Tool Proficiencies",
+			"source": "XUA2025EberronUpdates",
+			"page": 6,
+			"className": "Artificer",
+			"classSource": "XUA2025EberronUpdates",
+			"subclassShortName": "Cartographer",
+			"subclassSource": "XUA2025EberronUpdates",
+			"level": 3,
+			"entries": [
+				"You gain proficiency with {@item Calligrapher's Supplies|XPHB} and {@item Cartographer's Tools|XPHB}. If you already have one of these proficiencies, you gain proficiency with one other type of {@item Artisan's Tools|XPHB} of your choice. In addition, when you scribe a {@item Spell Scroll|XDMG} using {@book the crafting rules in the Player's Handbook|XPHB|6|Scribing Spell Scrolls}, the amount of time required to craft it is halved."
+			]
+		},
+		{
+			"name": "Portal Jump",
+			"source": "XUA2025EberronUpdates",
+			"page": 7,
+			"className": "Artificer",
+			"classSource": "XUA2025EberronUpdates",
+			"subclassShortName": "Cartographer",
+			"subclassSource": "XUA2025EberronUpdates",
+			"level": 5,
+			"entries": [
+				"As a {@variantrule Bonus Action|XPHB}, you teleport up to 60 feet to an unoccupied space you can see.",
+				"You can use this feature a number of times equal to your Intelligence modifier (minimum of once). You regain all expended uses when you finish a {@variantrule Long Rest|XPHB}.",
+				"You can also use this ability without expending a use if the destination space is within 5 feet of a creature carrying a map created with your {@subclassFeature Adventurer's Atlas|Artificer|XUA2025EberronUpdates|Cartographer|XUA2025EberronUpdates|3|XUA2025EberronUpdates}. Doing so destroys the map that creature carries."
+			]
+		},
+		{
+			"name": "Ingenious Movement",
+			"source": "XUA2025EberronUpdates",
+			"page": 7,
+			"className": "Artificer",
+			"classSource": "XUA2025EberronUpdates",
+			"subclassShortName": "Cartographer",
+			"subclassSource": "XUA2025EberronUpdates",
+			"level": 9,
+			"entries": [
+				"When you use your {@classFeature Flash of Genius|Artificer|XUA2024Artificer|7|XUA2024Artificer}, you or a willing creature of your choice you can see within 30 feet of yourself can teleport up to 30 feet to an unoccupied space you can see as part of that same {@variantrule Reaction|XPHB}."
+			]
+		},
+		{
+			"name": "Superior Atlas",
+			"source": "XUA2025EberronUpdates",
+			"page": 7,
+			"className": "Artificer",
+			"classSource": "XUA2025EberronUpdates",
+			"subclassShortName": "Cartographer",
+			"subclassSource": "XUA2025EberronUpdates",
+			"level": 15,
+			"entries": [
+				"Your {@subclassFeature Adventurer's Atlas|Artificer|XUA2025EberronUpdates|Cartographer|XUA2025EberronUpdates|3|XUA2025EberronUpdates} improves, gaining the following benefits.",
+				{
+					"type": "entries",
+					"entries": [
+						{
+							"type": "entries",
+							"name": "Safe Haven",
+							"page": 7,
+							"entries": [
+								"When a map holder is reduced to 0 {@variantrule Hit Points|XPHB} but not killed outright, that creature can destroy its map. The creature is then teleported to an unoccupied space within 5 feet of you or another map holder of its choice and is {@variantrule Stable|XPHB}."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Unerring Path",
+							"page": 7,
+							"entries": [
+								"If you are one of the map holders for your {@subclassFeature Adventurer's Atlas|Artificer|XUA2025EberronUpdates|Cartographer|XUA2025EberronUpdates|3|XUA2025EberronUpdates}, you can cast {@spell Find the Path|XPHB} without expending a spell slot, without preparing the spell, and without needing spell components. Once you use this feature, you can't use it again until you finish a {@variantrule Long Rest|XPHB}."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Unshakable Mind",
+							"page": 7,
+							"entries": [
+								"While at least one map created with your {@subclassFeature Adventurer's Atlas|Artificer|XUA2025EberronUpdates|Cartographer|XUA2025EberronUpdates|3|XUA2025EberronUpdates} still exists, taking damage can't cause you to lose {@status Concentration|XPHB} on your Artificer spells."
+							]
+						}
+					]
+				}
+			]
+		}
+	],
+	"foundrySubclassFeature": [
+		{
+			"name": "Tool Proficiencies",
+			"source": "XUA2025EberronUpdates",
+			"className": "Artificer",
+			"classSource": "XUA2025EberronUpdates",
+			"subclassShortName": "Cartographer",
+			"subclassSource": "XUA2025EberronUpdates",
+			"level": 3,
+			"entryData": {
+				"toolProficiencies": [
+					{
+						"calligrapher's supplies": true,
+						"cartographer's tools": true
+					},
+					{
+						"calligrapher's supplies": true,
+						"anyArtisansTool": 1
+					},
+					{
+						"cartographer's tools": true,
+						"anyArtisansTool": 1
+					}
+				]
+			}
+		}
+	],
+	"feat": [
+		{
+			"name": "Aberrant Dragonmark",
+			"source": "XUA2025EberronUpdates",
+			"page": 9,
+			"category": "D",
+			"prerequisite": [
+				{
+					"campaign": [
+						"Eberron"
+					],
+					"otherSummary": {
+						"entry": "Can't Have Another Dragonmark Feat",
+						"entrySummary": "One Dragonmark"
+					}
+				}
+			],
+			"additionalSpells": [
+				{
+					"ability": "con",
+					"known": {
+						"_": [
+							{
+								"choose": "level=0|class=Sorcerer"
+							}
+						]
+					},
+					"prepared": {
+						"_": {
+							"rest": {
+								"1": [
+									{
+										"choose": "level=1|class=Sorcerer"
+									}
+								]
+							}
+						}
+					}
+				}
+			],
+			"entries": [
+				"You gain the following benefits.",
+				{
+					"type": "entries",
+					"name": "Aberrant Fortitude",
+					"entries": [
+						"When you make a Constitution saving throw, you can roll {@dice 1d4} and add the number rolled to the save. You can use this benefit a number of times equal to your {@variantrule Proficiency|XPHB|Proficiency Bonus} and regain all expended uses when you finish a {@variantrule Long Rest|XPHB}."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Aberrant Magic",
+					"entries": [
+						"You know one {@filter cantrip of your choice from the Sorcerer spell list|spells|source=|level=0|class=sorcerer|components & miscellaneous=}. Also, choose {@filter a level 1 spell from that spell list|spells|source=|level=1|class=sorcerer|components & miscellaneous=}. You always have that spell prepared. You can cast it once without a spell slot, and you regain the ability to cast it in that way when you finish a {@variantrule Short Rest|XPHB|Short} or {@variantrule Long Rest|XPHB}. You can also cast this spell using any spell slots you have. Constitution is your spellcasting ability for this spell."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Aberrant Surge",
+					"entries": [
+						"When you cast the level 1 spell from this feat, you can expend one of your {@variantrule Hit Point Dice|XPHB} and roll it. If you roll an even number, you gain a number of {@variantrule Temporary Hit Points|XPHB} equal to the number rolled. If you roll an odd number, one creature within 30 feet of you (not including you) takes Force damage equal to the number rolled. If no other creatures are in range, you take the damage."
+					]
+				}
+			]
+		},
+		{
+			"name": "Mark of Detection",
+			"source": "XUA2025EberronUpdates",
+			"page": 9,
+			"category": "D",
+			"prerequisite": [
+				{
+					"campaign": [
+						"Eberron"
+					],
+					"otherSummary": {
+						"entry": "Can't Have Another Dragonmark Feat",
+						"entrySummary": "One Dragonmark"
+					}
+				}
+			],
+			"additionalSpells": [
+				{
+					"ability": {
+						"choose": [
+							"int",
+							"wis",
+							"cha"
+						]
+					},
+					"prepared": {
+						"3": {
+							"daily": {
+								"1e": [
+									"See Invisibility|XPHB"
+								]
+							}
+						},
+						"_": {
+							"daily": {
+								"1e": [
+									"Detect Magic|XPHB",
+									"Detect Poison and Disease|XPHB"
+								]
+							}
+						}
+					},
+					"expanded": {
+						"s1": [
+							"Detect Evil and Good|XPHB",
+							"Identify|XPHB"
+						],
+						"s2": [
+							"Detect Thoughts|XPHB",
+							"Find Traps|XPHB"
+						],
+						"s3": [
+							"Clairvoyance|XPHB",
+							"Nondetection|XPHB"
+						],
+						"s4": [
+							"Arcane Eye|XPHB",
+							"Divination|XPHB"
+						],
+						"s5": [
+							"Legend Lore|XPHB"
+						]
+					}
+				}
+			],
+			"entries": [
+				"You gain the following benefits.",
+				{
+					"type": "entries",
+					"name": "Deductive Intuition",
+					"entries": [
+						"When you make a Wisdom ({@skill Insight|XPHB} or {@skill Perception|XPHB}) check, you can roll {@dice 1d4} and add the number rolled to the ability check."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Magical Detection",
+					"entries": [
+						"You always have the {@spell Detect Magic|XPHB} and {@spell Detect Poison and Disease|XPHB} spells prepared. You can cast each spell once without a spell slot, and you regain the ability to cast it in that way when you finish a {@variantrule Long Rest|XPHB}. You can also cast these spells using any spell slots you have. Intelligence, Wisdom, or Charisma is your spellcasting ability for these spells (choose when you select this feat).",
+						"When you reach character level 3, you also always have the {@spell See Invisibility|XPHB} spell prepared and can cast it the same way."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Spells of the Mark",
+					"entries": [
+						"If you have the Spellcasting or Pact Magic feature, the spells on the Mark of Detection Spells table are added to that feature's spell list.",
+						{
+							"type": "table",
+							"caption": "Mark of Detection Spells",
+							"page": 10,
+							"colLabels": [
+								"Spell Level",
+								"Spells"
+							],
+							"colStyles": [
+								"col-3 text-center",
+								"col-9"
+							],
+							"rows": [
+								[
+									"1",
+									"{@spell Detect Evil and Good|XPHB}, {@spell Identify|XPHB}"
+								],
+								[
+									"2",
+									"{@spell Detect Thoughts|XPHB}, {@spell Find Traps|XPHB}"
+								],
+								[
+									"3",
+									"{@spell Clairvoyance|XPHB}, {@spell Nondetection|XPHB}"
+								],
+								[
+									"4",
+									"{@spell Arcane Eye|XPHB}, {@spell Divination|XPHB}"
+								],
+								[
+									"5",
+									"{@spell Legend Lore|XPHB}"
+								]
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Mark of Finding",
+			"source": "XUA2025EberronUpdates",
+			"page": 10,
+			"category": "D",
+			"prerequisite": [
+				{
+					"campaign": [
+						"Eberron"
+					],
+					"otherSummary": {
+						"entry": "Can't Have Another Dragonmark Feat",
+						"entrySummary": "One Dragonmark"
+					}
+				}
+			],
+			"additionalSpells": [
+				{
+					"ability": {
+						"choose": [
+							"int",
+							"wis",
+							"cha"
+						]
+					},
+					"prepared": {
+						"3": {
+							"daily": {
+								"1e": [
+									"Locate Object|XPHB"
+								]
+							}
+						},
+						"_": {
+							"daily": {
+								"1e": [
+									"Hunter's Mark|XPHB"
+								]
+							}
+						}
+					},
+					"expanded": {
+						"s1": [
+							"Faerie Fire|XPHB",
+							"Longstrider|XPHB"
+						],
+						"s2": [
+							"Locate Animals or Plants|XPHB",
+							"Mind Spike|XPHB"
+						],
+						"s3": [
+							"Clairvoyance|XPHB",
+							"Speak with Plants|XPHB"
+						],
+						"s4": [
+							"Divination|XPHB",
+							"Locate Creature|XPHB"
+						],
+						"s5": [
+							"Commune with Nature|XPHB"
+						]
+					}
+				}
+			],
+			"entries": [
+				"You gain the following benefits.",
+				{
+					"type": "entries",
+					"name": "Hunter's Intuition",
+					"entries": [
+						"When you make a Wisdom ({@skill Perception|XPHB} or {@skill Survival|XPHB}) check, you can roll {@dice 1d4} and add the number rolled to the ability check."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Finder's Magic",
+					"entries": [
+						"You always have the {@spell Hunter's Mark|XPHB} spell prepared. You can cast it once without a spell slot, and you regain the ability to cast it in that way when you finish a {@variantrule Long Rest|XPHB}. You can also cast it using any spell slots you have. Intelligence, Wisdom, or Charisma is your spellcasting ability for these spells (choose when you select this feat).",
+						"When you reach character level 3, you also always have the {@spell Locate Object|XPHB} spell prepared and can cast it the same way."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Spells of the Mark",
+					"entries": [
+						"If you have the Spellcasting or Pact Magic feature, the spells on the Mark of Finding Spells table are added to that feature's spell list.",
+						{
+							"type": "table",
+							"caption": "Mark of Finding Spells",
+							"page": 10,
+							"colLabels": [
+								"Spell Level",
+								"Spells"
+							],
+							"colStyles": [
+								"col-3 text-center",
+								"col-9"
+							],
+							"rows": [
+								[
+									"1",
+									"{@spell Faerie Fire|XPHB}, {@spell Longstrider|XPHB}"
+								],
+								[
+									"2",
+									"{@spell Locate Animals or Plants|XPHB}, {@spell Mind Spike|XPHB}"
+								],
+								[
+									"3",
+									"{@spell Clairvoyance|XPHB}, {@spell Speak with Plants|XPHB}"
+								],
+								[
+									"4",
+									"{@spell Divination|XPHB}, {@spell Locate Creature|XPHB}"
+								],
+								[
+									"5",
+									"{@spell Commune with Nature|XPHB}"
+								]
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Mark of Handling",
+			"source": "XUA2025EberronUpdates",
+			"page": 10,
+			"category": "D",
+			"prerequisite": [
+				{
+					"campaign": [
+						"Eberron"
+					],
+					"otherSummary": {
+						"entry": "Can't Have Another Dragonmark Feat",
+						"entrySummary": "One Dragonmark"
+					}
+				}
+			],
+			"additionalSpells": [
+				{
+					"ability": {
+						"choose": [
+							"int",
+							"wis",
+							"cha"
+						]
+					},
+					"prepared": {
+						"_": {
+							"daily": {
+								"1e": [
+									"Animal Friendship|XPHB",
+									"Speak with Animals|XPHB"
+								]
+							}
+						}
+					},
+					"expanded": {
+						"s1": [
+							"Command|XPHB",
+							"Find Familiar|XPHB"
+						],
+						"s2": [
+							"Beast Sense|XPHB",
+							"Calm Emotions|XPHB"
+						],
+						"s3": [
+							"Beacon of Hope|XPHB",
+							"Conjure Animals|XPHB"
+						],
+						"s4": [
+							"Aura of Life|XPHB",
+							"Dominate Beast|XPHB"
+						],
+						"s5": [
+							"Awaken|XPHB"
+						]
+					}
+				}
+			],
+			"entries": [
+				"You gain the following benefits.",
+				{
+					"type": "entries",
+					"name": "Wild Intuition",
+					"entries": [
+						"When you make an Intelligence ({@skill Nature|XPHB}) or Wisdom ({@skill Animal Handling|XPHB}) check, you can roll {@dice 1d4} and add the number rolled to the ability check."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Primal Connection",
+					"entries": [
+						"You always have the {@spell Animal Friendship|XPHB} and {@spell Speak with Animals|XPHB} spells prepared. You can cast each spell once without a spell slot, and you regain the ability to cast it in that way when you finish a {@variantrule Long Rest|XPHB}. You can also cast these spells using any spell slots you have. Intelligence, Wisdom, or Charisma is your spellcasting ability for these spells (choose when you select this feat)."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "The Bigger They Are",
+					"entries": [
+						"When you reach character level 3, you can target a Monstrosity when you cast {@spell Animal Friendship|XPHB} or {@spell Speak with Animals|XPHB} if the creature's Intelligence score is 3 or lower."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Spells of the Mark",
+					"entries": [
+						"If you have the Spellcasting or Pact Magic feature, the spells on the Mark of Handling Spells table are added to that feature's spell list.",
+						{
+							"type": "table",
+							"caption": "Mark of Handling Spells",
+							"page": 10,
+							"colLabels": [
+								"Spell Level",
+								"Spells"
+							],
+							"colStyles": [
+								"col-3 text-center",
+								"col-9"
+							],
+							"rows": [
+								[
+									"1",
+									"{@spell Command|XPHB}, {@spell Find Familiar|XPHB}"
+								],
+								[
+									"2",
+									"{@spell Beast Sense|XPHB}, {@spell Calm Emotions|XPHB}"
+								],
+								[
+									"3",
+									"{@spell Beacon of Hope|XPHB}, {@spell Conjure Animals|XPHB}"
+								],
+								[
+									"4",
+									"{@spell Aura of Life|XPHB}, {@spell Dominate Beast|XPHB}"
+								],
+								[
+									"5",
+									"{@spell Awaken|XPHB}"
+								]
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Mark of Healing",
+			"source": "XUA2025EberronUpdates",
+			"page": 10,
+			"category": "D",
+			"prerequisite": [
+				{
+					"campaign": [
+						"Eberron"
+					],
+					"otherSummary": {
+						"entry": "Can't Have Another Dragonmark Feat",
+						"entrySummary": "One Dragonmark"
+					}
+				}
+			],
+			"additionalSpells": [
+				{
+					"ability": {
+						"choose": [
+							"int",
+							"wis",
+							"cha"
+						]
+					},
+					"prepared": {
+						"3": {
+							"daily": {
+								"1e": [
+									"Lesser Restoration|XPHB"
+								]
+							}
+						},
+						"_": {
+							"daily": {
+								"1e": [
+									"Cure Wounds|XPHB"
+								]
+							}
+						}
+					},
+					"expanded": {
+						"s1": [
+							"False Life|XPHB",
+							"Healing Word|XPHB"
+						],
+						"s2": [
+							"Arcane Vigor|XPHB",
+							"Prayer of Healing|XPHB"
+						],
+						"s3": [
+							"Aura of Vitality|XPHB",
+							"Mass Healing Word|XPHB"
+						],
+						"s4": [
+							"Aura of Life|XPHB",
+							"Aura of Purity|XPHB"
+						],
+						"s5": [
+							"Greater Restoration|XPHB"
+						]
+					}
+				}
+			],
+			"entries": [
+				"You gain the following benefits.",
+				{
+					"type": "entries",
+					"name": "Medical Intuition",
+					"entries": [
+						"When you make an Intelligence ({@item Herbalism Kit|XPHB}) or Wisdom ({@skill Medicine|XPHB}) check, you can roll {@dice 1d4} and add the number rolled to the ability check."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Healing Touch",
+					"entries": [
+						"You always have the {@spell Cure Wounds|XPHB} spell prepared. You can cast it once without a spell slot, and you regain the ability to cast it in that way when you finish a {@variantrule Long Rest|XPHB}. You can also cast it using any spell slots you have. Intelligence, Wisdom, or Charisma is your spellcasting ability for these spells (choose when you select this feat).",
+						"When you reach character level 3, you also always have the {@spell Lesser Restoration|XPHB} spell prepared and can cast it the same way."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Spells of the Mark",
+					"entries": [
+						"If you have the Spellcasting or Pact Magic feature, the spells on the Mark of Healing Spells table are added to that feature's spell list.",
+						{
+							"type": "table",
+							"caption": "Mark of Healing Spells",
+							"page": 10,
+							"colLabels": [
+								"Spell Level",
+								"Spells"
+							],
+							"colStyles": [
+								"col-3 text-center",
+								"col-9"
+							],
+							"rows": [
+								[
+									"1",
+									"{@spell False Life|XPHB}, {@spell Healing Word|XPHB}"
+								],
+								[
+									"2",
+									"{@spell Arcane Vigor|XPHB}, {@spell Prayer of Healing|XPHB}"
+								],
+								[
+									"3",
+									"{@spell Aura of Vitality|XPHB}, {@spell Mass Healing Word|XPHB}"
+								],
+								[
+									"4",
+									"{@spell Aura of Life|XPHB}, {@spell Aura of Purity|XPHB}"
+								],
+								[
+									"5",
+									"{@spell Greater Restoration|XPHB}"
+								]
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Mark of Hospitality",
+			"source": "XUA2025EberronUpdates",
+			"page": 11,
+			"category": "D",
+			"prerequisite": [
+				{
+					"campaign": [
+						"Eberron"
+					],
+					"otherSummary": {
+						"entry": "Can't Have Another Dragonmark Feat",
+						"entrySummary": "One Dragonmark"
+					}
+				}
+			],
+			"additionalSpells": [
+				{
+					"ability": {
+						"choose": [
+							"int",
+							"wis",
+							"cha"
+						]
+					},
+					"known": {
+						"_": [
+							"Prestidigitation|XPHB#c"
+						]
+					},
+					"prepared": {
+						"_": {
+							"daily": {
+								"1e": [
+									"Purify Food and Drink|XPHB",
+									"Unseen Servant|XPHB"
+								]
+							}
+						}
+					},
+					"expanded": {
+						"s1": [
+							"Goodberry|XPHB",
+							"Sleep|XPHB"
+						],
+						"s2": [
+							"Aid|XPHB",
+							"Calm Emotions|XPHB"
+						],
+						"s3": [
+							"Create Food and Water|XPHB",
+							"Leomund's Tiny Hut|XPHB"
+						],
+						"s4": [
+							"Aura of Purity|XPHB",
+							"Mordenkainen's Private Sanctum|XPHB"
+						],
+						"s5": [
+							"Hallow|XPHB"
+						]
+					}
+				}
+			],
+			"entries": [
+				"You gain the following benefits.",
+				{
+					"type": "entries",
+					"name": "Ever Hospitable",
+					"entries": [
+						"When you make a Charisma ({@skill Persuasion|XPHB}) check or an ability check using {@item Brewer's Supplies|XPHB} or {@item Cook's Utensils|XPHB}, you can roll {@dice 1d4} and add the number rolled to the ability check."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Innkeeper's Magic",
+					"entries": [
+						"You know the {@spell Prestidigitation|XPHB} cantrip. You also always have the {@spell Purify Food and Drink|XPHB} and {@spell Unseen Servant|XPHB} spells prepared. You can cast each spell once without a spell slot, and you regain the ability to cast it in that way when you finish a {@variantrule Long Rest|XPHB}. You can also cast these spells using any spell slots you have. Intelligence, Wisdom, or Charisma is your spellcasting ability for these spells (choose when you select this feat)."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Spells of the Mark",
+					"entries": [
+						"If you have the Spellcasting or Pact Magic feature, the spells on the Mark of Hospitality Spells table are added to that feature's spell list.",
+						{
+							"type": "table",
+							"caption": "Mark of Hospitality Spells",
+							"page": 10,
+							"colLabels": [
+								"Spell Level",
+								"Spells"
+							],
+							"colStyles": [
+								"col-3 text-center",
+								"col-9"
+							],
+							"rows": [
+								[
+									"1",
+									"{@spell Goodberry|XPHB}, {@spell Sleep|XPHB}"
+								],
+								[
+									"2",
+									"{@spell Aid|XPHB}, {@spell Calm Emotions|XPHB}"
+								],
+								[
+									"3",
+									"{@spell Create Food and Water|XPHB}, {@spell Leomund's Tiny Hut|XPHB}"
+								],
+								[
+									"4",
+									"{@spell Aura of Purity|XPHB}, {@spell Mordenkainen's Private Sanctum|XPHB}"
+								],
+								[
+									"5",
+									"{@spell Hallow|XPHB}"
+								]
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Mark of Making",
+			"source": "XUA2025EberronUpdates",
+			"page": 11,
+			"category": "D",
+			"prerequisite": [
+				{
+					"campaign": [
+						"Eberron"
+					],
+					"otherSummary": {
+						"entry": "Can't Have Another Dragonmark Feat",
+						"entrySummary": "One Dragonmark"
+					}
+				}
+			],
+			"additionalSpells": [
+				{
+					"ability": {
+						"choose": [
+							"int",
+							"wis",
+							"cha"
+						]
+					},
+					"known": {
+						"_": [
+							"mending|XPHB#c"
+						]
+					},
+					"prepared": {
+						"_": {
+							"daily": {
+								"1e": [
+									"Magic Weapon|XPHB"
+								]
+							}
+						}
+					},
+					"expanded": {
+						"s1": [
+							"Identify|XPHB",
+							"Tenser's Floating Disk|XPHB"
+						],
+						"s2": [
+							"Continual Flame|XPHB",
+							"Spiritual Weapon|XPHB"
+						],
+						"s3": [
+							"Conjure Barrage|XPHB",
+							"Elemental Weapon|XPHB"
+						],
+						"s4": [
+							"Fabricate|XPHB",
+							"Stone Shape|XPHB"
+						],
+						"s5": [
+							"Creation|XPHB"
+						]
+					}
+				}
+			],
+			"entries": [
+				"You gain the following benefits.",
+				{
+					"type": "entries",
+					"name": "Artisan's Intuition",
+					"entries": [
+						"When you make an Intelligence ({@skill Arcana|XPHB}) check or an ability check using {@item Artisan's Tools|XPHB}, you can roll {@dice 1d4} and add the number rolled to the ability check."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Spellsmith",
+					"entries": [
+						"You know the {@spell Mending|XPHB} cantrip. You also always have the {@spell Magic Weapon|XPHB} spell prepared. You can cast it once without a spell slot, and you regain the ability to cast it in that way when you finish a {@variantrule Long Rest|XPHB}. You can also cast it using any spell slots you have. Intelligence, Wisdom, or Charisma is your spellcasting ability for these spells (choose when you select this feat)."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Spells of the Mark",
+					"entries": [
+						"If you have the Spellcasting or Pact Magic feature, the spells on the Mark of Making Spells table are added to that feature's spell list.",
+						{
+							"type": "table",
+							"caption": "Mark of Making Spells",
+							"page": 10,
+							"colLabels": [
+								"Spell Level",
+								"Spells"
+							],
+							"colStyles": [
+								"col-3 text-center",
+								"col-9"
+							],
+							"rows": [
+								[
+									"1",
+									"{@spell Identify|XPHB}, {@spell Tenser's Floating Disk|XPHB}"
+								],
+								[
+									"2",
+									"{@spell Continual Flame|XPHB}, {@spell Spiritual Weapon|XPHB}"
+								],
+								[
+									"3",
+									"{@spell Conjure Barrage|XPHB}, {@spell Elemental Weapon|XPHB}"
+								],
+								[
+									"4",
+									"{@spell Fabricate|XPHB}, {@spell Stone Shape|XPHB}"
+								],
+								[
+									"5",
+									"{@spell Creation|XPHB}"
+								]
+							]
+						}
+					]
+				}
+			]
+		}
+	],
+	"item": [
+		{
+			"name": "Manifold Tool",
+			"source": "XUA2025EberronUpdates",
+			"page": 8,
+			"rarity": "common",
+			"reqAttune": true,
+			"wondrous": true,
+			"grantsProficiency": true,
+			"entries": [
+				"This tool takes the form of a wrench, screwdriver, or other basic tool. As a {@action Magic|XPHB} action, you can touch the item and transform it into a type of {@item Artisan's Tools|XPHB} of your choice. Whatever form the tool takes, you have proficiency with it when you use it."
+			]
+		}
+	],
+	"table": [
+		{
+			"name": "Artificer Spell List",
+			"source": "XUA2025EberronUpdates",
+			"page": 5,
+			"type": "tableGroup",
+			"tables": [
+				{
+					"name": "Cantrips (Level 0 Artificer Spells)",
+					"source": "XUA2025EberronUpdates",
+					"page": 5,
+					"type": "table",
+					"caption": "Cantrips (Level 0 Artificer Spells)",
+					"colLabels": [
+						"Spell",
+						"School",
+						"Special"
+					],
+					"colStyles": [
+						"col-6",
+						"col-4",
+						"col-2 text-center"
+					],
+					"rows": [
+						[
+							"{@spell Acid Splash|XPHB}",
+							"Evocation",
+							"\u2014"
+						],
+						[
+							"{@spell Dancing Lights|XPHB}",
+							"Illusion",
+							"C"
+						],
+						[
+							"{@spell Elementalism|XPHB}",
+							"Transmutation",
+							"\u2014"
+						],
+						[
+							"{@spell Fire Bolt|XPHB}",
+							"Evocation",
+							"\u2014"
+						],
+						[
+							"{@spell Guidance|XPHB}",
+							"Divination",
+							"C"
+						],
+						[
+							"{@spell Light|XPHB}",
+							"Evocation",
+							"\u2014"
+						],
+						[
+							"{@spell Mage Hand|XPHB}",
+							"Conjuration",
+							"\u2014"
+						],
+						[
+							"{@spell Message|XPHB}",
+							"Transmutation",
+							"\u2014"
+						],
+						[
+							"{@spell Poison Spray|XPHB}",
+							"Necromancy",
+							"\u2014"
+						],
+						[
+							"{@spell Prestidigitation|XPHB}",
+							"Transmutation",
+							"\u2014"
+						],
+						[
+							"{@spell Ray of Frost|XPHB}",
+							"Evocation",
+							"\u2014"
+						],
+						[
+							"{@spell Resistance|XPHB}",
+							"Abjuration",
+							"C"
+						],
+						[
+							"{@spell Shocking Grasp|XPHB}",
+							"Evocation",
+							"\u2014"
+						],
+						[
+							"{@spell Spare the Dying|XPHB}",
+							"Necromancy",
+							"\u2014"
+						],
+						[
+							"{@spell Thorn Whip|XPHB}",
+							"Transmutation",
+							"\u2014"
+						],
+						[
+							"{@spell Thunderclap|XPHB}",
+							"Evocation",
+							"\u2014"
+						],
+						[
+							"{@spell True Strike|XPHB}",
+							"Divination",
+							"M"
+						]
+					]
+				},
+				{
+					"name": "Level 1 Artificer Spells",
+					"source": "XUA2025EberronUpdates",
+					"page": 5,
+					"type": "table",
+					"caption": "Level 1 Artificer Spells",
+					"colLabels": [
+						"Spell",
+						"School",
+						"Special"
+					],
+					"colStyles": [
+						"col-6",
+						"col-4",
+						"col-2 text-center"
+					],
+					"rows": [
+						[
+							"{@spell Alarm|XPHB}",
+							"Abjuration",
+							"R"
+						],
+						[
+							"{@spell Cure Wounds|XPHB}",
+							"Abjuration",
+							"\u2014"
+						],
+						[
+							"{@spell Detect Magic|XPHB}",
+							"Divination",
+							"C, R"
+						],
+						[
+							"{@spell Disguise Self|XPHB}",
+							"Illusion",
+							"\u2014"
+						],
+						[
+							"{@spell Expeditious Retreat|XPHB}",
+							"Transmutation",
+							"C"
+						],
+						[
+							"{@spell Faerie Fire|XPHB}",
+							"Evocation",
+							"C"
+						],
+						[
+							"{@spell False Life|XPHB}",
+							"Necromancy",
+							"\u2014"
+						],
+						[
+							"{@spell Feather Fall|XPHB}",
+							"Transmutation",
+							"\u2014"
+						],
+						[
+							"{@spell Grease|XPHB}",
+							"Conjuration",
+							"\u2014"
+						],
+						[
+							"{@spell Identify|XPHB}",
+							"Divination",
+							"R, M"
+						],
+						[
+							"{@spell Jump|XPHB}",
+							"Transmutation",
+							"\u2014"
+						],
+						[
+							"{@spell Longstrider|XPHB}",
+							"Transmutation",
+							"\u2014"
+						],
+						[
+							"{@spell Purify Food and Drink|XPHB}",
+							"Transmutation",
+							"R"
+						],
+						[
+							"{@spell Sanctuary|XPHB}",
+							"Abjuration",
+							"\u2014"
+						]
+					]
+				},
+				{
+					"name": "Level 2 Artificer Spells",
+					"source": "XUA2025EberronUpdates",
+					"page": 6,
+					"type": "table",
+					"caption": "Level 2 Artificer Spells",
+					"colLabels": [
+						"Spell",
+						"School",
+						"Special"
+					],
+					"colStyles": [
+						"col-6",
+						"col-4",
+						"col-2 text-center"
+					],
+					"rows": [
+						[
+							"{@spell Aid|XPHB}",
+							"Abjuration",
+							"\u2014"
+						],
+						[
+							"{@spell Alter Self|XPHB}",
+							"Transmutation",
+							"C"
+						],
+						[
+							"{@spell Arcane Lock|XPHB}",
+							"Abjuration",
+							"M"
+						],
+						[
+							"{@spell Arcane Vigor|XPHB}",
+							"Abjuration",
+							"\u2014"
+						],
+						[
+							"{@spell Blur|XPHB}",
+							"Illusion",
+							"C"
+						],
+						[
+							"{@spell Continual Flame|XPHB}",
+							"Evocation",
+							"M"
+						],
+						[
+							"{@spell Darkvision|XPHB}",
+							"Transmutation",
+							"\u2014"
+						],
+						[
+							"{@spell Dragon's Breath|XPHB}",
+							"Transmutation",
+							"C"
+						],
+						[
+							"{@spell Enhance Ability|XPHB}",
+							"Transmutation",
+							"C"
+						],
+						[
+							"{@spell Enlarge/Reduce|XPHB}",
+							"Transmutation",
+							"C"
+						],
+						[
+							"{@spell Heat Metal|XPHB}",
+							"Transmutation",
+							"C"
+						],
+						[
+							"{@spell Homunculus Servant|XUA2024Artificer} (appears in this UA)",
+							"Conjuration",
+							"R, M"
+						],
+						[
+							"{@spell Invisibility|XPHB}",
+							"Illusion",
+							"C"
+						],
+						[
+							"{@spell Lesser Restoration|XPHB}",
+							"Abjuration",
+							"\u2014"
+						],
+						[
+							"{@spell Levitate|XPHB}",
+							"Transmutation",
+							"C"
+						],
+						[
+							"{@spell Magic Mouth|XPHB}",
+							"Illusion",
+							"R, M"
+						],
+						[
+							"{@spell Magic Weapon|XPHB}",
+							"Transmutation",
+							"\u2014"
+						],
+						[
+							"{@spell Protection from Poison|XPHB}",
+							"Abjuration",
+							"\u2014"
+						],
+						[
+							"{@spell Rope Trick|XPHB}",
+							"Transmutation",
+							"\u2014"
+						],
+						[
+							"{@spell See Invisibility|XPHB}",
+							"Divination",
+							"\u2014"
+						],
+						[
+							"{@spell Spider Climb|XPHB}",
+							"Transmutation",
+							"C"
+						],
+						[
+							"{@spell Web|XPHB}",
+							"Conjuration",
+							"C"
+						]
+					]
+				},
+				{
+					"name": "Level 3 Artificer Spells",
+					"source": "XUA2025EberronUpdates",
+					"page": 6,
+					"type": "table",
+					"caption": "Level 3 Artificer Spells",
+					"colLabels": [
+						"Spell",
+						"School",
+						"Special"
+					],
+					"colStyles": [
+						"col-6",
+						"col-4",
+						"col-2 text-center"
+					],
+					"rows": [
+						[
+							"{@spell Blink|XPHB}",
+							"Transmutation",
+							"\u2014"
+						],
+						[
+							"{@spell Create Food and Water|XPHB}",
+							"Conjuration",
+							"\u2014"
+						],
+						[
+							"{@spell Dispel Magic|XPHB}",
+							"Abjuration",
+							"\u2014"
+						],
+						[
+							"{@spell Elemental Weapon|XPHB}",
+							"Transmutation",
+							"C"
+						],
+						[
+							"{@spell Fly|XPHB}",
+							"Transmutation",
+							"C"
+						],
+						[
+							"{@spell Glyph of Warding|XPHB}",
+							"Abjuration",
+							"M"
+						],
+						[
+							"{@spell Haste|XPHB}",
+							"Transmutation",
+							"C"
+						],
+						[
+							"{@spell Protection from Energy|XPHB}",
+							"Abjuration",
+							"C"
+						],
+						[
+							"{@spell Revivify|XPHB}",
+							"Necromancy",
+							"M"
+						],
+						[
+							"{@spell Water Breathing|XPHB}",
+							"Transmutation",
+							"R"
+						],
+						[
+							"{@spell Water Walk|XPHB}",
+							"Transmutation",
+							"R"
+						]
+					]
+				},
+				{
+					"name": "Level 4 Artificer Spells",
+					"source": "XUA2025EberronUpdates",
+					"page": 6,
+					"type": "table",
+					"caption": "Level 4 Artificer Spells",
+					"colLabels": [
+						"Spell",
+						"School",
+						"Special"
+					],
+					"colStyles": [
+						"col-6",
+						"col-4",
+						"col-2 text-center"
+					],
+					"rows": [
+						[
+							"{@spell Arcane Eye|XPHB}",
+							"Divination",
+							"C"
+						],
+						[
+							"{@spell Fabricate|XPHB}",
+							"Transmutation",
+							"\u2014"
+						],
+						[
+							"{@spell Freedom of Movement|XPHB}",
+							"Abjuration",
+							"\u2014"
+						],
+						[
+							"{@spell Leomund's Secret Chest|XPHB}",
+							"Conjuration",
+							"M"
+						],
+						[
+							"{@spell Mordenkainen's Faithful Hound|XPHB}",
+							"Conjuration",
+							"\u2014"
+						],
+						[
+							"{@spell Mordenkainen's Private Sanctum|XPHB}",
+							"Abjuration",
+							"\u2014"
+						],
+						[
+							"{@spell Otiluke's Resilient Sphere|XPHB}",
+							"Abjuration",
+							"C"
+						],
+						[
+							"{@spell Stone Shape|XPHB}",
+							"Transmutation",
+							"\u2014"
+						],
+						[
+							"{@spell Stoneskin|XPHB}",
+							"Transmutation",
+							"C, M"
+						],
+						[
+							"{@spell Summon Construct|XPHB}",
+							"Conjuration",
+							"C, M"
+						]
+					]
+				},
+				{
+					"name": "Level 5 Artificer Spells",
+					"source": "XUA2025EberronUpdates",
+					"page": 6,
+					"type": "table",
+					"caption": "Level 5 Artificer Spells",
+					"colLabels": [
+						"Spell",
+						"School",
+						"Special"
+					],
+					"colStyles": [
+						"col-6",
+						"col-4",
+						"col-2 text-center"
+					],
+					"rows": [
+						[
+							"{@spell Animate Objects|XPHB}",
+							"Transmutation",
+							"C"
+						],
+						[
+							"{@spell Bigby's Hand|XPHB}",
+							"Evocation",
+							"C"
+						],
+						[
+							"{@spell Circle of Power|XPHB}",
+							"Abjuration",
+							"C"
+						],
+						[
+							"{@spell Creation|XPHB}",
+							"Illusion",
+							"\u2014"
+						],
+						[
+							"{@spell Greater Restoration|XPHB}",
+							"Abjuration",
+							"M"
+						],
+						[
+							"{@spell Wall of Stone|XPHB}",
+							"Evocation",
+							"C"
+						]
+					]
+				}
+			]
+		},
+		{
+			"name": "Cartographer Spells",
+			"source": "XUA2025EberronUpdates",
+			"page": 7,
+			"colLabels": [
+				"Cartographer Level",
+				"Spells"
+			],
+			"colStyles": [
+				"col-3 text-center",
+				"col-9"
+			],
+			"rows": [
+				[
+					"3",
+					"{@spell Faerie Fire|XPHB}, {@spell Guiding Bolt|XPHB}, {@spell Healing Word|XPHB}"
+				],
+				[
+					"5",
+					"{@spell Locate Object|XPHB}, {@spell Mind Spike|XPHB}"
+				],
+				[
+					"9",
+					"{@spell Clairvoyance|XPHB}, {@spell Haste|XPHB}"
+				],
+				[
+					"13",
+					"{@spell Freedom of Movement|XPHB}, {@spell Locate Creature|XPHB}"
+				],
+				[
+					"17",
+					"{@spell Scrying|XPHB}, {@spell Teleportation Circle|XPHB}"
+				]
+			]
+		},
+		{
+			"name": "Feat List",
+			"source": "XUA2025EberronUpdates",
+			"page": 9,
+			"colLabels": [
+				"Feat",
+				"Category"
+			],
+			"colStyles": [
+				"col-8",
+				"col-4"
+			],
+			"rows": [
+				[
+					"{@feat Aberrant Dragonmark|XUA2025EberronUpdates}",
+					"Dragonmark"
+				],
+				[
+					"{@feat Boon of Siberys|XUA2025EberronUpdates}",
+					"Epic Boon"
+				],
+				[
+					"{@feat Greater Aberrant Mark|XUA2025EberronUpdates}",
+					"General"
+				],
+				[
+					"{@feat Greater Mark of Detection|XUA2025EberronUpdates}",
+					"General"
+				],
+				[
+					"{@feat Greater Mark of Finding|XUA2025EberronUpdates}",
+					"General"
+				],
+				[
+					"{@feat Greater Mark of Handling|XUA2025EberronUpdates}",
+					"General"
+				],
+				[
+					"{@feat Greater Mark of Healing|XUA2025EberronUpdates}",
+					"General"
+				],
+				[
+					"{@feat Greater Mark of Hospitality|XUA2025EberronUpdates}",
+					"General"
+				],
+				[
+					"{@feat Greater Mark of Making|XUA2025EberronUpdates}",
+					"General"
+				],
+				[
+					"{@feat Greater Mark of Passage|XUA2025EberronUpdates}",
+					"General"
+				],
+				[
+					"{@feat Greater Mark of Scribing|XUA2025EberronUpdates}",
+					"General"
+				],
+				[
+					"{@feat Greater Mark of Sentinel|XUA2025EberronUpdates}",
+					"General"
+				],
+				[
+					"{@feat Greater Mark of Shadow|XUA2025EberronUpdates}",
+					"General"
+				],
+				[
+					"{@feat Greater Mark of Storm|XUA2025EberronUpdates}",
+					"General"
+				],
+				[
+					"{@feat Greater Mark of Warding|XUA2025EberronUpdates}",
+					"General"
+				],
+				[
+					"{@feat Mark of Detection|XUA2025EberronUpdates}",
+					"Dragonmark"
+				],
+				[
+					"{@feat Mark of Finding|XUA2025EberronUpdates}",
+					"Dragonmark"
+				],
+				[
+					"{@feat Mark of Handling|XUA2025EberronUpdates}",
+					"Dragonmark"
+				],
+				[
+					"{@feat Mark of Healing|XUA2025EberronUpdates}",
+					"Dragonmark"
+				],
+				[
+					"{@feat Mark of Hospitality|XUA2025EberronUpdates}",
+					"Dragonmark"
+				],
+				[
+					"{@feat Mark of Making|XUA2025EberronUpdates}",
+					"Dragonmark"
+				],
+				[
+					"{@feat Mark of Passage|XUA2025EberronUpdates}",
+					"Dragonmark"
+				],
+				[
+					"{@feat Mark of Scribing|XUA2025EberronUpdates}",
+					"Dragonmark"
+				],
+				[
+					"{@feat Mark of Sentinel|XUA2025EberronUpdates}",
+					"Dragonmark"
+				],
+				[
+					"{@feat Mark of Shadow|XUA2025EberronUpdates}",
+					"Dragonmark"
+				],
+				[
+					"{@feat Mark of Storm|XUA2025EberronUpdates}",
+					"Dragonmark"
+				],
+				[
+					"{@feat Mark of Warding|XUA2025EberronUpdates}",
+					"Dragonmark"
+				],
+				[
+					"{@feat Potent Dragonmark|XUA2025EberronUpdates}",
+					"General"
+				]
+			]
+		},
+		{
+			"name": "Magic Item Plans (Artificer Level 10+)",
+			"source": "XUA2025EberronUpdates",
+			"page": 4,
+			"colLabels": [
+				"Magic Item Plan",
+				"Attunement"
+			],
+			"colStyles": [
+				"col-9",
+				"col-3 text-center"
+			],
+			"rows": [
+				[
+					"{@item Armor of Resistance|XDMG}",
+					"Yes"
+				],
+				[
+					"{@item Dagger of Venom|XDMG}",
+					"No"
+				],
+				[
+					"{@item Elven Chain|XDMG}",
+					"No"
+				],
+				[
+					"{@item Ring of Feather Falling|XDMG}",
+					"Yes"
+				],
+				[
+					"{@item Ring of Jumping|XDMG}",
+					"Yes"
+				],
+				[
+					"{@item Ring of Mind Shielding|XDMG}",
+					"Yes"
+				],
+				[
+					"{@item +2 Shield|XDMG|Shield +2}",
+					"No"
+				],
+				[
+					"{@filter Uncommon Wondrous Item that isn't cursed|items|source=|type=wondrous item|rarity=uncommon|category=|miscellaneous=!cursed} (you can learn this option multiple times and must select a different item each time; each item selected counts as a different plan)",
+					"Varies"
+				],
+				[
+					"{@item +2 Wand of the War Mage|XDMG|Wand of the War Mage +2}",
+					"Yes"
+				],
+				[
+					"{@item +2 Weapon|XDMG|Weapon +2}",
+					"No"
+				],
+				[
+					"{@item +2 Wraps of Unarmed Power|XDMG|Wraps of Unarmed Power +2}",
+					"No"
+				]
+			]
+		},
+		{
+			"name": "Magic Item Plans (Artificer Level 14+)",
+			"source": "XUA2025EberronUpdates",
+			"page": 4,
+			"colLabels": [
+				"Magic Item Plan",
+				"Attunement"
+			],
+			"colStyles": [
+				"col-9",
+				"col-3 text-center"
+			],
+			"rows": [
+				[
+					"{@item +2 Armor|XDMG|Armor +2}",
+					"No"
+				],
+				[
+					"{@item Arrow-Catching Shield|XDMG}",
+					"Yes"
+				],
+				[
+					"{@item Flame Tongue|XDMG}",
+					"Yes"
+				],
+				[
+					"{@filter Rare Wondrous Item that isn't cursed|items|source=|type=wondrous item|rarity=rare|category=|miscellaneous=!cursed} (you can learn this option multiple times and must select a different item each time; each item selected counts as a different plan)",
+					"Varies"
+				],
+				[
+					"{@item Ring of Free Action|XDMG}",
+					"Yes"
+				],
+				[
+					"{@item Ring of Protection|XDMG}",
+					"Yes"
+				],
+				[
+					"{@item Ring of the Ram|XDMG}",
+					"Yes"
+				]
+			]
+		},
+		{
+			"name": "Magic Item Plans (Artificer Level 2+)",
+			"source": "XUA2025EberronUpdates",
+			"page": 4,
+			"colLabels": [
+				"Magic Item Plan",
+				"Attunement"
+			],
+			"colStyles": [
+				"col-9",
+				"col-3 text-center"
+			],
+			"rows": [
+				[
+					"{@item Alchemy Jug|XDMG}",
+					"No"
+				],
+				[
+					"{@item Bag of Holding|XDMG}",
+					"No"
+				],
+				[
+					"{@item Cap of Water Breathing|XDMG}",
+					"No"
+				],
+				[
+					"{@filter Common magic item that isn't a Potion, a Scroll, or cursed|items|source=|type=!potion;!scroll|rarity=common|category=|miscellaneous=!cursed} (you can learn this option multiple times and must select a different item each time; each item selected counts as a different plan)",
+					"Varies"
+				],
+				[
+					"{@item Goggles of Night|XDMG}",
+					"No"
+				],
+				[
+					"{@item Manifold Tool|XUA2025EberronUpdates} (appears in this UA)",
+					"Yes"
+				],
+				[
+					"{@item Repeating Shot|XUA2024Artificer} (appears in this UA)",
+					"Yes"
+				],
+				[
+					"{@item Returning Weapon|XUA2024Artificer} (appears in this UA)",
+					"No"
+				],
+				[
+					"{@item Rope of Climbing|XDMG}",
+					"No"
+				],
+				[
+					"{@item Sending Stones|XDMG}",
+					"No"
+				],
+				[
+					"{@item +1 Shield|XDMG|Shield +1}",
+					"No"
+				],
+				[
+					"{@item Wand of Magic Detection|XDMG}",
+					"No"
+				],
+				[
+					"{@item Wand of Secrets|XDMG}",
+					"No"
+				],
+				[
+					"{@item +1 Wand of the War Mage|XDMG|Wand of the War Mage +1}",
+					"Yes"
+				],
+				[
+					"{@item +1 Weapon|XDMG|Weapon +1}",
+					"No"
+				],
+				[
+					"{@item +1 Wraps of Unarmed Power|XDMG|Wraps of Unarmed Power +1}",
+					"No"
+				]
+			]
+		},
+		{
+			"name": "Magic Item Plans (Artificer Level 6+)",
+			"source": "XUA2025EberronUpdates",
+			"page": 4,
+			"colLabels": [
+				"Magic Item Plan",
+				"Attunement"
+			],
+			"colStyles": [
+				"col-9",
+				"col-3 text-center"
+			],
+			"rows": [
+				[
+					"{@item +1 Armor|XDMG|Armor +1}",
+					"No"
+				],
+				[
+					"{@item Boots of Elvenkind|XDMG}",
+					"No"
+				],
+				[
+					"{@item Boots of the Winding Path|XUA2024Artificer} (appears in this UA)",
+					"Yes"
+				],
+				[
+					"{@item Cloak of Elvenkind|XDMG}",
+					"Yes"
+				],
+				[
+					"{@item Cloak of the Manta Ray|XDMG}",
+					"No"
+				],
+				[
+					"{@item Eyes of Charming|XDMG}",
+					"Yes"
+				],
+				[
+					"{@item Eyes of Minute Seeing|XDMG}",
+					"No"
+				],
+				[
+					"{@item Gloves of Thievery|XDMG}",
+					"No"
+				],
+				[
+					"{@item Lantern of Revealing|XDMG}",
+					"No"
+				],
+				[
+					"{@item Mind Sharpener|XUA2024Artificer} (appears in this UA)",
+					"Yes"
+				],
+				[
+					"{@item Necklace of Adaptation|XDMG}",
+					"Yes"
+				],
+				[
+					"{@item Pipes of Haunting|XDMG}",
+					"No"
+				],
+				[
+					"{@item Radiant Weapon|XUA2024Artificer} (appears in this UA)",
+					"Yes"
+				],
+				[
+					"{@item Repulsion Shield|XUA2024Artificer} (appears in this UA)",
+					"No"
+				],
+				[
+					"{@item Ring of Swimming|XDMG}",
+					"No"
+				],
+				[
+					"{@item Ring of Water Walking|XDMG}",
+					"No"
+				],
+				[
+					"{@item Sentinel Shield|XDMG}",
+					"No"
+				],
+				[
+					"{@item Spell-Refueling Ring|XUA2024Artificer} (appears in this UA)",
+					"Yes"
+				],
+				[
+					"{@item Wand of Magic Missiles|XDMG}",
+					"No"
+				],
+				[
+					"{@item Wand of Web|XDMG}",
+					"Yes"
+				],
+				[
+					"{@item Weapon of Warning|XDMG}",
+					"Yes"
+				]
+			]
+		}
+	],
+	"book": [
+		{
+			"name": "Unearthed Arcana 2025: Eberron Updates",
+			"id": "XUA2025EberronUpdates",
+			"source": "XUA2025EberronUpdates",
+			"group": "prerelease",
+			"cover": {
+				"type": "internal",
+				"path": "covers/blank.webp"
+			},
+			"published": "2025-02-27",
+			"author": "Wizards of the Coast",
+			"contents": [
+				{
+					"name": "Unearthed Arcana 2025: Eberron Updates",
+					"headers": [
+						"What's Inside",
+						"Artificer",
+						{
+							"header": "Artificer Spell List",
+							"depth": 1
+						},
+						"Artificer Subclass",
+						{
+							"header": "Cartographer",
+							"depth": 1
+						},
+						"Spells",
+						"Magic Items",
+						"Feats",
+						{
+							"header": "Dragonmark Feats",
+							"depth": 1
+						},
+						{
+							"header": "General Feats",
+							"depth": 1
+						},
+						{
+							"header": "Epic Boon Feats",
+							"depth": 1
+						}
+					]
+				}
+			]
+		}
+	],
+	"bookData": [
+		{
+			"id": "XUA2025EberronUpdates",
+			"source": "XUA2025EberronUpdates",
+			"data": [
+				{
+					"type": "section",
+					"name": "Unearthed Arcana 2025: Eberron Updates",
+					"page": 1,
+					"entries": [
+						"This playtest document is part of a series of {@i Unearthed Arcana} articles that present material designed for upcoming books. The material here uses the rules in the {@book 2024 Player's Handbook|XPHB}.",
+						{
+							"type": "inset",
+							"name": "Learn More on YouTube",
+							"page": 1,
+							"entries": [
+								"To learn more about the design in this article, we invite you to view the videos about it on YouTube ({@link www.youtube.com/DNDWizards})."
+							]
+						},
+						{
+							"type": "section",
+							"name": "What's Inside",
+							"page": 1,
+							"entries": [
+								{
+									"type": "list",
+									"style": "list-hang-notitle",
+									"page": 1,
+									"items": [
+										{
+											"type": "item",
+											"name": "Artificer",
+											"entries": [
+												"The Artificer class appears again, with some updates since its last appearance in Unearthed Arcana."
+											]
+										},
+										{
+											"type": "item",
+											"name": "New Subclass: Cartographer",
+											"entries": [
+												"A new subclass for the Artificer, the Cartographer, provides new ways for the Artificer to demonstrate its ingenuity."
+											]
+										},
+										{
+											"type": "item",
+											"name": "Additional Magic Options",
+											"entries": [
+												"Updated versions of the new spell and new magic items compatible with the Artificer are presented here."
+											]
+										},
+										{
+											"type": "item",
+											"name": "Dragonmarks",
+											"entries": [
+												"Also included are a collection of feats that provide a new way to join the dragonmarked houses of Eberron. These feats allow characters of any species to take and improve their dragonmarks. Backgrounds representing a character's connection will be included with these feats in a future book if they become official, but in the meantime a character who takes the House Agent background can choose a Dragonmarked feat, and any character can choose one of these feats when their class normally allows a feat choice."
+											]
+										}
+									]
+								},
+								{
+									"type": "inset",
+									"name": "This Is Playtest Material",
+									"page": 1,
+									"entries": [
+										"This article is presented for playtesting and feedback. The options here are experimental and in draft form. They aren't officially part of the game. Your feedback will help determine whether we adopt it as official.",
+										{
+											"type": "list",
+											"style": "list-hang-notitle",
+											"page": 1,
+											"items": [
+												{
+													"type": "item",
+													"name": "How to Playtest This UA",
+													"entries": [
+														"We invite you to try out this material in play. To play with this material, you may either incorporate it into your campaign or run one or more special playtest sessions. For such a session, you may create an adventure of your own or use a short adventure from a source like {@adventure Quests from the Infinite Staircase|QftIS}."
+													]
+												},
+												{
+													"type": "item",
+													"name": "Power Level",
+													"entries": [
+														"The character options you read here might be more or less powerful than options in the {@book 2024 Player's Handbook|XPHB}. If a design survives playtesting, we adjust its power to the desirable level before publication. This means an option could be more or less powerful in its final form."
+													]
+												},
+												{
+													"type": "item",
+													"name": "Feedback",
+													"entries": [
+														"The best way for you to give us feedback on this material is in the survey we'll release on D&D Beyond. If we make this material official, it will be refined based on your feedback, and then it will appear in a D&D book.",
+														"Providing feedback on this document is one way you can help shape the future of D&D!"
+													]
+												}
+											]
+										}
+									]
+								}
+							]
+						},
+						{
+							"type": "section",
+							"name": "Artificer",
+							"page": 1,
+							"entries": [
+								"{@i A Magical Crafter and an Inventor of Wonders}",
+								"Masters of invention, Artificers use ingenuity and magic to unlock extraordinary capabilities in objects. They see magic as a complex system waiting to be decoded and then harnessed in their spells and inventions. You can find everything you need to play one of these inventors in the next few sections.",
+								{
+									"type": "statblock",
+									"tag": "table",
+									"source": "XUA2024Artificer",
+									"name": "Core Artificer Traits",
+									"page": 1
+								},
+								{
+									"type": "entries",
+									"name": "Becoming an Artificer...",
+									"page": 1,
+									"entries": [
+										{
+											"type": "list",
+											"page": 1,
+											"name": "As a Level 1 Character",
+											"items": [
+												"Gain all the traits in the Core Artificer Traits table.",
+												"Gain the Artificer's level 1 features, which are listed in the Artificer Features table."
+											]
+										},
+										{
+											"type": "list",
+											"page": 1,
+											"name": "As a Multiclass Character",
+											"items": [
+												"Gain the following traits from the {@table Core Artificer Traits|XUA2024Artificer} table: Hit Point Die, proficiency with {@item Tinker's Tools|XPHB}, proficiency in one skill of your choice from the Artificer's skill list, and training with Light and Medium armor and Shields.",
+												"Gain the Artificer's level 1 features, which are listed in the Artificer Features table. See the multiclassing rules in the {@book Player's Handbook|XPHB|2|Multiclassing} to determine your available spell slots, adding half your Artificer levels (round up)."
+											]
+										}
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Artificer Class Features",
+									"page": 2,
+									"entries": [
+										"As an Artificer, you gain the following class features when you reach the specified Artificer levels. These features are listed on the Artificer Features table.",
+										{
+											"type": "inset",
+											"name": "Design Note: Artificer Updates",
+											"page": 2,
+											"entries": [
+												"Here are the main updates in this class since its last appearance in {@book Unearthed Arcana|XUA2024Artificer}:",
+												{
+													"type": "list",
+													"page": 2,
+													"items": [
+														{
+															"type": "item",
+															"name": "Tinker's Magic",
+															"nameDot": false,
+															"entries": [
+																"(formerly {@classFeature Magical Tinkering|Artificer|XUA2024Artificer|1|XUA2024Artificer}) now gives the {@spell Mending|XPHB} cantrip, and items created with this feature last until you finish a Long Rest."
+															]
+														},
+														{
+															"type": "item",
+															"name": "Replicate Magic Item",
+															"nameDot": false,
+															"entries": [
+																"'s tables have been revised. You can now use a {@item Wand|XPHB} or Weapon created by this feature as a {@variantrule Spellcasting Focus|XPHB}."
+															]
+														},
+														{
+															"type": "item",
+															"name": "Magic Item Tinker",
+															"nameDot": false,
+															"entries": [
+																"has been expanded to allow you to recharge magic items by expending spell slots and transform one magic item into a different item."
+															]
+														},
+														{
+															"type": "item",
+															"name": "Soul of Artifice",
+															"nameDot": false,
+															"entries": [
+																"now lets you disintegrate any number of items to increase the number of regained Hit Points and allows for more reliable usage of {@classFeature Flash of Genius|Artificer|XUA2024Artificer|7|XUA2024Artificer}."
+															]
+														}
+													]
+												}
+											]
+										},
+										{
+											"type": "statblock",
+											"tag": "class",
+											"source": "XUA2025EberronUpdates",
+											"name": "Artificer",
+											"page": 2
+										}
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Artificer Spell List",
+									"page": 5,
+									"entries": [
+										"This section presents the Artificer spell list. The spells are organized by spell level and then alphabetized, and each spell's school of magic is listed. In the Special column, {@i C} means the spell requires {@status Concentration|XPHB}, {@i R} means it's a {@variantrule Ritual|XPHB}, and {@i M} means it requires a specific Material component.",
+										{
+											"type": "statblock",
+											"tag": "table",
+											"source": "XUA2025EberronUpdates",
+											"name": "Artificer Spell List",
+											"page": 5
+										}
+									]
+								}
+							]
+						},
+						{
+							"type": "section",
+							"name": "Artificer Subclass",
+							"page": 6,
+							"entries": [
+								"An Artificer subclass is a specialization that grants you features at certain Artificer levels, as specified in the subclass. This section presents a new subclass, the {@subclass Cartographer|Artificer|XUA2025EberronUpdates|XUA2025EberronUpdates}.",
+								{
+									"type": "entries",
+									"name": "Cartographer",
+									"page": 6,
+									"entries": [
+										"{@i Chart Advantageous Courses through Turmoil}",
+										{
+											"type": "statblock",
+											"prop": "subclass",
+											"source": "XUA2025EberronUpdates",
+											"name": "Cartographer",
+											"className": "Artificer",
+											"classSource": "XUA2025EberronUpdates",
+											"page": 6
+										}
+									]
+								}
+							]
+						},
+						{
+							"type": "section",
+							"name": "Spells",
+							"page": 7,
+							"entries": [
+								"Spells are presented in alphabetical order.",
+								{
+									"type": "statblock",
+									"tag": "spell",
+									"source": "XUA2024Artificer",
+									"name": "Homunculus Servant",
+									"page": 7
+								}
+							]
+						},
+						{
+							"type": "section",
+							"name": "Magic Items",
+							"page": 8,
+							"entries": [
+								"Magic items are presented in alphabetical order.",
+								{
+									"type": "statblock",
+									"tag": "item",
+									"source": "XUA2024Artificer",
+									"name": "Boots of the Winding Path",
+									"page": 8
+								},
+								{
+									"type": "statblock",
+									"tag": "item",
+									"source": "XUA2024Artificer",
+									"name": "Helm of Awareness",
+									"page": 8
+								},
+								{
+									"type": "statblock",
+									"tag": "item",
+									"source": "XUA2025EberronUpdates",
+									"name": "Manifold Tool",
+									"page": 8
+								},
+								{
+									"type": "statblock",
+									"tag": "item",
+									"source": "XUA2024Artificer",
+									"name": "Mind Sharpener",
+									"page": 8
+								},
+								{
+									"type": "statblock",
+									"tag": "item",
+									"source": "XUA2024Artificer",
+									"name": "Radiant Weapon",
+									"page": 8
+								},
+								{
+									"type": "statblock",
+									"tag": "item",
+									"source": "XUA2024Artificer",
+									"name": "Repeating Shot",
+									"page": 8
+								},
+								{
+									"type": "statblock",
+									"tag": "item",
+									"source": "XUA2024Artificer",
+									"name": "Repulsion Shield",
+									"page": 8
+								},
+								{
+									"type": "statblock",
+									"tag": "item",
+									"source": "XUA2024Artificer",
+									"name": "Returning Weapon",
+									"page": 8
+								},
+								{
+									"type": "statblock",
+									"tag": "item",
+									"source": "XUA2024Artificer",
+									"name": "Spell-Refueling Ring",
+									"page": 8
+								}
+							]
+						},
+						{
+							"type": "section",
+							"name": "Feats",
+							"page": 9,
+							"entries": [
+								"This section presents twenty-eight new feats.",
+								{
+									"type": "statblock",
+									"tag": "table",
+									"source": "XUA2025EberronUpdates",
+									"name": "Feat List",
+									"page": 9
+								},
+								{
+									"type": "entries",
+									"name": "Dragonmark Feats",
+									"page": 9,
+									"entries": [
+										"These feats are in the Dragonmark category.",
+										{
+											"type": "statblock",
+											"tag": "feat",
+											"source": "XUA2025EberronUpdates",
+											"name": "Aberrant Dragonmark",
+											"page": 9
+										},
+										{
+											"type": "statblock",
+											"tag": "feat",
+											"source": "XUA2025EberronUpdates",
+											"name": "Mark of Detection",
+											"page": 9
+										},
+										{
+											"type": "statblock",
+											"tag": "feat",
+											"source": "XUA2025EberronUpdates",
+											"name": "Mark of Finding",
+											"page": 10
+										},
+										{
+											"type": "statblock",
+											"tag": "feat",
+											"source": "XUA2025EberronUpdates",
+											"name": "Mark of Handling",
+											"page": 10
+										},
+										{
+											"type": "statblock",
+											"tag": "feat",
+											"source": "XUA2025EberronUpdates",
+											"name": "Mark of Healing",
+											"page": 10
+										},
+										{
+											"type": "statblock",
+											"tag": "feat",
+											"source": "XUA2025EberronUpdates",
+											"name": "Mark of Hospitality",
+											"page": 11
+										},
+										{
+											"type": "statblock",
+											"tag": "feat",
+											"source": "XUA2025EberronUpdates",
+											"name": "Mark of Making",
+											"page": 11
+										},
+										{
+											"type": "statblock",
+											"tag": "feat",
+											"source": "XUA2025EberronUpdates",
+											"name": "Mark of Passage",
+											"page": 11
+										},
+										{
+											"type": "statblock",
+											"tag": "feat",
+											"source": "XUA2025EberronUpdates",
+											"name": "Mark of Scribing",
+											"page": 11
+										},
+										{
+											"type": "statblock",
+											"tag": "feat",
+											"source": "XUA2025EberronUpdates",
+											"name": "Mark of Sentinel",
+											"page": 12
+										},
+										{
+											"type": "statblock",
+											"tag": "feat",
+											"source": "XUA2025EberronUpdates",
+											"name": "Mark of Shadow",
+											"page": 12
+										},
+										{
+											"type": "statblock",
+											"tag": "feat",
+											"source": "XUA2025EberronUpdates",
+											"name": "Mark of Storm",
+											"page": 12
+										},
+										{
+											"type": "statblock",
+											"tag": "feat",
+											"source": "XUA2025EberronUpdates",
+											"name": "Mark of Warding",
+											"page": 13
+										}
+									]
+								},
+								{
+									"type": "entries",
+									"name": "General Feats",
+									"page": 13,
+									"entries": [
+										"These new feats are in the General category.",
+										{
+											"type": "statblock",
+											"tag": "feat",
+											"source": "XUA2025EberronUpdates",
+											"name": "Greater Aberrant Mark",
+											"page": 13
+										},
+										{
+											"type": "statblock",
+											"tag": "feat",
+											"source": "XUA2025EberronUpdates",
+											"name": "Greater Mark of Detection",
+											"page": 13
+										},
+										{
+											"type": "statblock",
+											"tag": "feat",
+											"source": "XUA2025EberronUpdates",
+											"name": "Greater Mark of Finding",
+											"page": 13
+										},
+										{
+											"type": "statblock",
+											"tag": "feat",
+											"source": "XUA2025EberronUpdates",
+											"name": "Greater Mark of Handling",
+											"page": 13
+										},
+										{
+											"type": "statblock",
+											"tag": "feat",
+											"source": "XUA2025EberronUpdates",
+											"name": "Greater Mark of Healing",
+											"page": 14
+										},
+										{
+											"type": "statblock",
+											"tag": "feat",
+											"source": "XUA2025EberronUpdates",
+											"name": "Greater Mark of Hospitality",
+											"page": 14
+										},
+										{
+											"type": "statblock",
+											"tag": "feat",
+											"source": "XUA2025EberronUpdates",
+											"name": "Greater Mark of Making",
+											"page": 14
+										},
+										{
+											"type": "statblock",
+											"tag": "feat",
+											"source": "XUA2025EberronUpdates",
+											"name": "Greater Mark of Passage",
+											"page": 14
+										},
+										{
+											"type": "statblock",
+											"tag": "feat",
+											"source": "XUA2025EberronUpdates",
+											"name": "Greater Mark of Scribing",
+											"page": 14
+										},
+										{
+											"type": "statblock",
+											"tag": "feat",
+											"source": "XUA2025EberronUpdates",
+											"name": "Greater Mark of Sentinel",
+											"page": 14
+										},
+										{
+											"type": "statblock",
+											"tag": "feat",
+											"source": "XUA2025EberronUpdates",
+											"name": "Greater Mark of Shadow",
+											"page": 15
+										},
+										{
+											"type": "statblock",
+											"tag": "feat",
+											"source": "XUA2025EberronUpdates",
+											"name": "Greater Mark of Storm",
+											"page": 15
+										},
+										{
+											"type": "statblock",
+											"tag": "feat",
+											"source": "XUA2025EberronUpdates",
+											"name": "Greater Mark of Warding",
+											"page": 15
+										},
+										{
+											"type": "statblock",
+											"tag": "feat",
+											"source": "XUA2025EberronUpdates",
+											"name": "Potent Dragonmark",
+											"page": 15
+										}
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Epic Boon Feats",
+									"page": 15,
+									"entries": [
+										"This feat is in the Epic Boon category.",
+										{
+											"type": "statblock",
+											"tag": "feat",
+											"source": "XUA2025EberronUpdates",
+											"name": "Boon of Siberys",
+											"page": 15
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	]
+}
