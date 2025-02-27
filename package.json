@@ -20,7 +20,7 @@
 	"author": "Giddy",
 	"license": "MIT",
 	"devDependencies": {
-		"5etools-utils": "^0.13.2",
+		"5etools-utils": "^0.13.5",
 		"eslint": "^8.34.0"
 	}
 }
