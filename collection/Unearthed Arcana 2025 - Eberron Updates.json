@@ -3658,19 +3658,14 @@
 							"int",
 							"wis",
 							"cha"
-						]
+						],
+						"amount": 1,
+						"entry": "Increase the spellcasting ability score used by your Dragonmark feat by 1, to a maximum of 20."
 					}
 				}
 			],
 			"entries": [
 				"You gain the following benefits.",
-				{
-					"type": "entries",
-					"name": "Ability Score Increase",
-					"entries": [
-						"Increase the spellcasting ability score used by your Dragonmark feat by 1, to a maximum of 20."
-					]
-				},
 				{
 					"type": "entries",
 					"name": "Dragonmark Preparation",
