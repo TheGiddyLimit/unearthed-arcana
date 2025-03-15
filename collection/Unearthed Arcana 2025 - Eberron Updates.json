@@ -3433,7 +3433,7 @@
 							"Wind Wall|XPHB"
 						],
 						"s4": [
-							"Conjure Minor Elemental|XPHB",
+							"Conjure Minor Elementals|XPHB",
 							"Control Water|XPHB"
 						],
 						"s5": [
@@ -3497,7 +3497,7 @@
 								],
 								[
 									"4",
-									"{@spell Conjure Minor Elemental|XPHB}, {@spell Control Water|XPHB}"
+									"{@spell Conjure Minor Elementals|XPHB}, {@spell Control Water|XPHB}"
 								],
 								[
 									"5",
