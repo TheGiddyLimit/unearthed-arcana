@@ -7312,8 +7312,6 @@
 			"name": "Net",
 			"source": "XUA2023PlayersHandbookP5",
 			"page": 4,
-			"srd": true,
-			"basicRules": true,
 			"type": "R",
 			"rarity": "none",
 			"weight": 3,

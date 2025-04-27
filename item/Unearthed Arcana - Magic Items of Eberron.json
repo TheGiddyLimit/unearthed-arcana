@@ -122,10 +122,12 @@
 				},
 				"You can use a bonus action on your turn to request that the docent use one of its properties on your behalf."
 			],
-			"attachedSpells": [
-				"detect magic",
-				"detect evil and good"
-			],
+			"attachedSpells": {
+				"will": [
+					"detect magic",
+					"detect evil and good"
+				]
+			},
 			"hasFluff": true
 		},
 		{
