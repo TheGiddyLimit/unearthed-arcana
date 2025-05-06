@@ -1,0 +1,3136 @@
+{
+	"$schema": "https://raw.githubusercontent.com/TheGiddyLimit/5etools-utils/master/schema/ua-fast/homebrew.json",
+	"_meta": {
+		"sources": [
+			{
+				"json": "XUA2025HorrorSubclasses",
+				"abbreviation": "XUA25HS",
+				"full": "Unearthed Arcana 2025: Horror Subclasses",
+				"authors": [
+					"Wizards of the Coast"
+				],
+				"convertedBy": [
+					"Lyra [he/him]"
+				],
+				"version": "1.0.0",
+				"url": "https://media.dndbeyond.com/compendium-images/ua/horror-subclasses/gPZTjw31gGeVdQKl/UA2025-HorrorSubclasses.pdf",
+				"dateReleased": "2025-05-06"
+			}
+		],
+		"edition": "one",
+		"status": "ready",
+		"dateAdded": 1746541631,
+		"dateLastModified": 1746541631
+	},
+	"subclass": [
+		{
+			"name": "College of Spirits",
+			"shortName": "Spirits",
+			"source": "XUA2025HorrorSubclasses",
+			"className": "Bard",
+			"classSource": "XPHB",
+			"page": 3,
+			"additionalSpells": [
+				{
+					"known": {
+						"3": [
+							"Guidance|XPHB#c"
+						]
+					},
+					"prepared": {
+						"6": {
+							"daily": {
+								"1e": [
+									"Spirit Guardians|XPHB"
+								]
+							}
+						}
+					}
+				}
+			],
+			"subclassSpells": [
+				"Guidance|XPHB",
+				"Spirit Guardians|XPHB"
+			],
+			"subclassFeatures": [
+				"College of Spirits|Bard|XPHB|Spirits|XUA2025HorrorSubclasses|3|XUA2025HorrorSubclasses",
+				"Empowered Channeling|Bard|XPHB|Spirits|XUA2025HorrorSubclasses|6|XUA2025HorrorSubclasses",
+				"Mystical Connection|Bard|XPHB|Spirits|XUA2025HorrorSubclasses|14|XUA2025HorrorSubclasses"
+			],
+			"hasFluff": true
+		},
+		{
+			"name": "Grave Domain",
+			"shortName": "Grave",
+			"source": "XUA2025HorrorSubclasses",
+			"className": "Cleric",
+			"classSource": "XPHB",
+			"page": 4,
+			"additionalSpells": [
+				{
+					"prepared": {
+						"3": [
+							"Bane|XPHB",
+							"Chill Touch|XPHB#c",
+							"Detect Evil and Good|XPHB",
+							"Gentle Repose|XPHB",
+							"Ray of Enfeeblement|XPHB"
+						],
+						"5": [
+							"Revivify|XPHB",
+							"Vampiric Touch|XPHB"
+						],
+						"7": [
+							"Blight|XPHB",
+							"Dispel Evil and Good|XPHB"
+						],
+						"9": [
+							"Hold Monster|XPHB",
+							"Raise Dead|XPHB"
+						]
+					}
+				}
+			],
+			"subclassSpells": [
+				"Bane|XPHB",
+				"Chill Touch|XPHB",
+				"Detect Evil and Good|XPHB",
+				"Gentle Repose|XPHB",
+				"Ray of Enfeeblement|XPHB",
+				"Revivify|XPHB",
+				"Vampiric Touch|XPHB",
+				"Blight|XPHB",
+				"Dispel Evil and Good|XPHB",
+				"Hold Monster|XPHB",
+				"Raise Dead|XPHB"
+			],
+			"subclassFeatures": [
+				"Grave Domain|Cleric|XPHB|Grave|XUA2025HorrorSubclasses|3|XUA2025HorrorSubclasses",
+				"Sentinel at Death's Door|Cleric|XPHB|Grave|XUA2025HorrorSubclasses|6|XUA2025HorrorSubclasses",
+				"Divine Reaper|Cleric|XPHB|Grave|XUA2025HorrorSubclasses|17|XUA2025HorrorSubclasses"
+			],
+			"hasFluff": true
+		},
+		{
+			"name": "Hexblade Patron",
+			"shortName": "Hexblade",
+			"source": "XUA2025HorrorSubclasses",
+			"className": "Warlock",
+			"classSource": "XPHB",
+			"page": 7,
+			"additionalSpells": [
+				{
+					"prepared": {
+						"3": [
+							"Arcane Vigor|XPHB",
+							"Hex|XPHB",
+							"Magic Weapon|XPHB",
+							"Shield|XPHB",
+							"Wrathful Smite|XPHB"
+						],
+						"5": [
+							"Conjure Barrage|XPHB",
+							"Dispel Magic|XPHB"
+						],
+						"7": [
+							"Freedom of Movement|XPHB",
+							"Staggering Smite|XPHB"
+						],
+						"9": [
+							"Animate Objects|XPHB",
+							"Steel Wind Strike|XPHB"
+						]
+					},
+					"innate": {
+						"3": {
+							"daily": {
+								"cha": [
+									"Hex|XPHB"
+								]
+							}
+						}
+					}
+				}
+			],
+			"subclassSpells": [
+				"Arcane Vigor|XPHB",
+				"Hex|XPHB",
+				"Magic Weapon|XPHB",
+				"Shield|XPHB",
+				"Wrathful Smite|XPHB",
+				"Conjure Barrage|XPHB",
+				"Dispel Magic|XPHB",
+				"Freedom of Movement|XPHB",
+				"Staggering Smite|XPHB",
+				"Animate Objects|XPHB",
+				"Steel Wind Strike|XPHB"
+			],
+			"subclassFeatures": [
+				"Hexblade Patron|Warlock|XPHB|Hexblade|XUA2025HorrorSubclasses|3|XUA2025HorrorSubclasses",
+				"Life Stealer|Warlock|XPHB|Hexblade|XUA2025HorrorSubclasses|6|XUA2025HorrorSubclasses",
+				"Armor of Hexes|Warlock|XPHB|Hexblade|XUA2025HorrorSubclasses|10|XUA2025HorrorSubclasses",
+				"Masterful Hex|Warlock|XPHB|Hexblade|XUA2025HorrorSubclasses|14|XUA2025HorrorSubclasses"
+			],
+			"hasFluff": true
+		},
+		{
+			"name": "Hollow Warden",
+			"shortName": "Hollow Warden",
+			"source": "XUA2025HorrorSubclasses",
+			"className": "Ranger",
+			"classSource": "XPHB",
+			"page": 5,
+			"additionalSpells": [
+				{
+					"prepared": {
+						"3": [
+							"Wrathful Smite|XPHB"
+						],
+						"5": [
+							"Spike Growth|XPHB"
+						],
+						"9": [
+							"Phantom Steed|XPHB"
+						],
+						"13": [
+							"Hallucinatory Terrain|XPHB"
+						],
+						"17": [
+							"Awaken|XPHB"
+						]
+					}
+				}
+			],
+			"subclassSpells": [
+				"Wrathful Smite|XPHB",
+				"Spike Growth|XPHB",
+				"Phantom Steed|XPHB",
+				"Hallucinatory Terrain|XPHB",
+				"Awaken|XPHB"
+			],
+			"subclassFeatures": [
+				"Hollow Warden|Ranger|XPHB|Hollow Warden|XUA2025HorrorSubclasses|3|XUA2025HorrorSubclasses",
+				"Hungering Might|Ranger|XPHB|Hollow Warden|XUA2025HorrorSubclasses|7|XUA2025HorrorSubclasses",
+				"Rot and Violence|Ranger|XPHB|Hollow Warden|XUA2025HorrorSubclasses|11|XUA2025HorrorSubclasses",
+				"Ancient Endurance|Ranger|XPHB|Hollow Warden|XUA2025HorrorSubclasses|15|XUA2025HorrorSubclasses"
+			],
+			"hasFluff": true
+		},
+		{
+			"name": "Phantom",
+			"shortName": "Phantom",
+			"source": "XUA2025HorrorSubclasses",
+			"className": "Rogue",
+			"classSource": "XPHB",
+			"page": 6,
+			"additionalSpells": [
+				{
+					"innate": {
+						"9": {
+							"resource": {
+								"1": [
+									"Augury|XPHB"
+								]
+							},
+							"rest": {
+								"1e": [
+									"Speak with Dead|XPHB"
+								]
+							}
+						}
+					},
+					"ability": "dex"
+				}
+			],
+			"subclassSpells": [
+				"Augury|XPHB",
+				"Speak with Dead|XPHB"
+			],
+			"subclassFeatures": [
+				"Phantom|Rogue|XPHB|Phantom|XUA2025HorrorSubclasses|3|XUA2025HorrorSubclasses",
+				"Tokens of the Departed|Rogue|XPHB|Phantom|XUA2025HorrorSubclasses|9|XUA2025HorrorSubclasses",
+				"Voice of Death|Rogue|XPHB|Phantom|XUA2025HorrorSubclasses|9|XUA2025HorrorSubclasses",
+				"Ghost Walk|Rogue|XPHB|Phantom|XUA2025HorrorSubclasses|13|XUA2025HorrorSubclasses",
+				"Death's Friend|Rogue|XPHB|Phantom|XUA2025HorrorSubclasses|17|XUA2025HorrorSubclasses"
+			],
+			"hasFluff": true
+		},
+		{
+			"name": "Reanimator",
+			"shortName": "Reanimator",
+			"source": "XUA2025HorrorSubclasses",
+			"className": "Artificer",
+			"classSource": "XUA2025EberronUpdates",
+			"page": 1,
+			"additionalSpells": [
+				{
+					"prepared": {
+						"3": [
+							"False Life|XPHB",
+							"Spare the Dying|XPHB#c",
+							"Witch Bolt|XPHB"
+						],
+						"5": [
+							"Blindness/Deafness|XPHB",
+							"Enhance Ability|XPHB"
+						],
+						"9": [
+							"Animate Dead|XPHB",
+							"Lightning Bolt|XPHB"
+						],
+						"13": [
+							"Blight|XPHB",
+							"Death Ward|XPHB"
+						],
+						"17": [
+							"Antilife Shell|XPHB",
+							"Raise Dead|XPHB"
+						]
+					}
+				}
+			],
+			"subclassSpells": [
+				"False Life|XPHB",
+				"Spare the Dying|XPHB",
+				"Blindness/Deafness|XPHB",
+				"Enhance Ability|XPHB",
+				"Animate Dead|XPHB",
+				"Lightning Bolt|XPHB",
+				"Blight|XPHB",
+				"Death Ward|XPHB",
+				"Antilife Shell|XPHB",
+				"Raise Dead|XPHB",
+				"Witch Bolt|XPHB"
+			],
+			"subclassFeatures": [
+				"Reanimator|Artificer|XUA2025EberronUpdates|Reanimator|XUA2025HorrorSubclasses|3|XUA2025HorrorSubclasses",
+				"Strange Modifications|Artificer|XUA2025EberronUpdates|Reanimator|XUA2025HorrorSubclasses|5|XUA2025HorrorSubclasses",
+				"Improved Reanimation|Artificer|XUA2025EberronUpdates|Reanimator|XUA2025HorrorSubclasses|9|XUA2025HorrorSubclasses",
+				"Promethean Reanimation|Artificer|XUA2025EberronUpdates|Reanimator|XUA2025HorrorSubclasses|15|XUA2025HorrorSubclasses"
+			],
+			"hasFluff": true
+		},
+		{
+			"name": "Shadow Sorcery",
+			"shortName": "Shadow",
+			"source": "XUA2025HorrorSubclasses",
+			"className": "Sorcerer",
+			"classSource": "XPHB",
+			"page": 7,
+			"additionalSpells": [
+				{
+					"prepared": {
+						"3": [
+							"Bane|XPHB",
+							"Darkness|XPHB",
+							"Inflict Wounds|XPHB",
+							"Pass Without Trace|XPHB"
+						],
+						"5": [
+							"Hunger of Hadar|XPHB",
+							"Summon Undead|XPHB"
+						],
+						"7": [
+							"Greater Invisibility|XPHB",
+							"Phantasmal Killer|XPHB"
+						],
+						"9": [
+							"Contagion|XPHB",
+							"Creation|XPHB"
+						]
+					},
+					"innate": {
+						"6": {
+							"daily": {
+								"1e": [
+									"Summon Undead|XPHB"
+								]
+							}
+						}
+					}
+				}
+			],
+			"subclassSpells": [
+				"Bane|XPHB",
+				"Darkness|XPHB",
+				"Inflict Wounds|XPHB",
+				"Pass Without Trace|XPHB",
+				"Hunger of Hadar|XPHB",
+				"Summon Undead|XPHB",
+				"Greater Invisibility|XPHB",
+				"Phantasmal Killer|XPHB",
+				"Contagion|XPHB",
+				"Creation|XPHB"
+			],
+			"subclassFeatures": [
+				"Shadow Sorcery|Sorcerer|XPHB|Shadow|XUA2025HorrorSubclasses|3|XUA2025HorrorSubclasses",
+				"Spirits of Ill Omen|Sorcerer|XPHB|Shadow|XUA2025HorrorSubclasses|6|XUA2025HorrorSubclasses",
+				"Shadow Walk|Sorcerer|XPHB|Shadow|XUA2025HorrorSubclasses|14|XUA2025HorrorSubclasses",
+				"Umbral Form|Sorcerer|XPHB|Shadow|XUA2025HorrorSubclasses|18|XUA2025HorrorSubclasses"
+			],
+			"hasFluff": true
+		},
+		{
+			"name": "Undead Patron",
+			"shortName": "Undead",
+			"source": "XUA2025HorrorSubclasses",
+			"className": "Warlock",
+			"classSource": "XPHB",
+			"page": 7,
+			"additionalSpells": [
+				{
+					"prepared": {
+						"3": [
+							"Blindness/Deafness|XPHB",
+							"False Life|XPHB",
+							"Phantasmal Force|XPHB",
+							"Ray of Sickness|XPHB"
+						],
+						"5": [
+							"Speak with Dead|XPHB",
+							"Vampiric Touch|XPHB"
+						],
+						"7": [
+							"Death Ward|XPHB",
+							"Phantasmal Killer|XPHB"
+						],
+						"9": [
+							"Antilife Shell|XPHB",
+							"Cloudkill|XPHB"
+						]
+					}
+				}
+			],
+			"subclassSpells": [
+				"Blindness/Deafness|XPHB",
+				"False Life|XPHB",
+				"Phantasmal Force|XPHB",
+				"Ray of Sickness|XPHB",
+				"Speak with Dead|XPHB",
+				"Vampiric Touch|XPHB",
+				"Death Ward|XPHB",
+				"Phantasmal Killer|XPHB",
+				"Antilife Shell|XPHB",
+				"Cloudkill|XPHB"
+			],
+			"subclassFeatures": [
+				"Undead Patron|Warlock|XPHB|Undead|XUA2025HorrorSubclasses|3|XUA2025HorrorSubclasses",
+				"Grave Touched|Warlock|XPHB|Undead|XUA2025HorrorSubclasses|6|XUA2025HorrorSubclasses",
+				"Necrotic Husk|Warlock|XPHB|Undead|XUA2025HorrorSubclasses|10|XUA2025HorrorSubclasses",
+				"Superior Dread|Warlock|XPHB|Undead|XUA2025HorrorSubclasses|14|XUA2025HorrorSubclasses"
+			],
+			"hasFluff": true
+		}
+	],
+	"subclassFluff": [
+		{
+			"name": "College of Spirits",
+			"shortName": "Spirits",
+			"source": "XUA2025HorrorSubclasses",
+			"className": "Bard",
+			"classSource": "XPHB",
+			"entries": [
+				"{@i Call Forth Spirits from Beyond the Grave}",
+				{
+					"type": "inset",
+					"name": "Design Note: College of Spirits Updates",
+					"page": 3,
+					"entries": [
+						"Here are the main updates in this subclass since its appearance in {@book Van Richten's Guide to Ravenloft|VRGR}:",
+						{
+							"type": "list",
+							"page": 3,
+							"items": [
+								{
+									"type": "item",
+									"name": "Guiding Whispers",
+									"nameDot": false,
+									"entries": [
+										"and {@b Spiritual Focus} are now combined into a single feature, {@subclassFeature Channeler|Bard|XPHB|Spirits|XUA2025HorrorSubclasses|3|XUA2025HorrorSubclasses}. This new feature also grants you proficiency with {@item playing cards|XPHB}. "
+									]
+								},
+								{
+									"type": "item",
+									"name": "Spirits from Beyond",
+									"nameDot": false,
+									"entries": [
+										"(formerly {@subclassFeature Tales from Beyond|Bard|PHB|Spirits|VRGR|3|VRGR}) has been reworked to improve its action economy and produce more immediate effects. The options on the feature's table have been revised as well. "
+									]
+								},
+								{
+									"type": "item",
+									"name": "Empowered Channeling",
+									"nameDot": false,
+									"entries": [
+										"is a new feature that allows the {@class Bard|XPHB} to cast and alter the {@spell Spirit Guardians|XPHB} spell."
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Grave Domain",
+			"shortName": "Grave",
+			"source": "XUA2025HorrorSubclasses",
+			"className": "Cleric",
+			"classSource": "XPHB",
+			"entries": [
+				"{@i Embody Deific Forces of Death}",
+				{
+					"type": "inset",
+					"name": "Design Note: Grave Domain Updates",
+					"page": 4,
+					"entries": [
+						"Here are the main updates in this subclass since its appearance in {@book Xanathar's Guide to Everything|XGE}:",
+						{
+							"type": "list",
+							"page": 4,
+							"items": [
+								{
+									"type": "item",
+									"name": "Circle of Mortality",
+									"nameDot": false,
+									"entries": [
+										"now also grants you a small damage boost against {@variantrule Bloodied|XPHB} creatures. "
+									]
+								},
+								{
+									"type": "item",
+									"name": "Grave Domain Spells",
+									"nameDot": false,
+									"entries": [
+										"has been updated to include more versatility and combat-relevant spells. "
+									]
+								},
+								{
+									"type": "item",
+									"name": "Path to the Grave",
+									"nameDot": false,
+									"entries": [
+										"now produces an ongoing curse effect in addition to boosting the damage of an attack. "
+									]
+								},
+								{
+									"type": "item",
+									"name": "Sentinel at Death's Door",
+									"nameDot": false,
+									"entries": [
+										"now can trigger on any attack, not just {@variantrule Critical Hit|XPHB|Critical Hits}. "
+									]
+								},
+								{
+									"type": "item",
+									"name": "Divine Reaper",
+									"nameDot": false,
+									"entries": [
+										"is a new feature that absorbs the previous benefits of {@subclassFeature Keeper of Souls|Cleric|PHB|Grave|XGE|17|XGE} and provides a boost to the Cleric's Necromancy spells."
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Hexblade Patron",
+			"shortName": "Hexblade",
+			"source": "XUA2025HorrorSubclasses",
+			"className": "Warlock",
+			"classSource": "XPHB",
+			"entries": [
+				{
+					"type": "inset",
+					"name": "Design Note: Hexblade Patron Updates",
+					"page": 8,
+					"entries": [
+						"Here are the main updates in this subclass since its appearance in {@book Xanathar's Guide to Everything|XGE}:",
+						{
+							"type": "list",
+							"page": 8,
+							"items": [
+								{
+									"type": "item",
+									"name": "Hexblade Spells",
+									"nameDot": false,
+									"entries": [
+										"(formerly {@subclassFeature The Hexblade|Warlock|PHB|Hexblade|XGE|1|XGE|Expanded Spell List}) now gives you a list of always prepared spells. The spells granted have been revised. "
+									]
+								},
+								{
+									"type": "item",
+									"name": "Hexblade Manifest",
+									"nameDot": false,
+									"entries": [
+										"is a new feature, allowing you to cast {@spell Hex|XPHB} a number of times without a spell slot. It also grants you a handful of unique ways to interact with your cursed target. "
+									]
+								},
+								{
+									"type": "item",
+									"name": "Life Stealer",
+									"nameDot": false,
+									"entries": [
+										"is a new feature that interacts with the {@spell Hex|XPHB} spell to provide healing and reliable damage. "
+									]
+								},
+								{
+									"type": "item",
+									"name": "Armor of Hexes",
+									"nameDot": false,
+									"entries": [
+										"now more reliably reduces damage taken. "
+									]
+								},
+								{
+									"type": "item",
+									"name": "Masterful Hex",
+									"nameDot": false,
+									"entries": [
+										"is a new feature that boosts the power of {@subclassFeature Hexblade Manifest|Warlock|XPHB|Hexblade|XUA2025HorrorSubclasses|3|XUA2025HorrorSubclasses}."
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Hollow Warden",
+			"shortName": "Hollow Warden",
+			"source": "XUA2025HorrorSubclasses",
+			"className": "Ranger",
+			"classSource": "XPHB",
+			"entries": [
+				"{@i Draw on the Might of Ancient Wild Terrors}"
+			]
+		},
+		{
+			"name": "Phantom",
+			"shortName": "Phantom",
+			"source": "XUA2025HorrorSubclasses",
+			"className": "Rogue",
+			"classSource": "XPHB",
+			"entries": [
+				"{@i Embrace Death and Wield Ghostly Power}",
+				{
+					"type": "inset",
+					"name": "Design Note: Phantom Updates",
+					"page": 6,
+					"entries": [
+						"Here are the main updates in this subclass since its appearance in {@book Tasha's Cauldron of Everything|TCE}:",
+						{
+							"type": "list",
+							"page": 6,
+							"items": [
+								{
+									"type": "item",
+									"name": "Wails from the Grave",
+									"nameDot": false,
+									"entries": [
+										"now links its number of uses to the Rogue's Dexterity modifier. "
+									]
+								},
+								{
+									"type": "item",
+									"name": "Tokens of the Departed",
+									"nameDot": false,
+									"entries": [
+										"now provides soul trinkets whenever you finish a {@variantrule Long Rest|XPHB}, allowing more reliable usage of the feature's benefits. "
+									]
+								},
+								{
+									"type": "item",
+									"name": "Voice of Death",
+									"nameDot": false,
+									"entries": [
+										"is a new feature that allows you to cast {@spell Speak with Dead|XPHB}. "
+									]
+								},
+								{
+									"type": "item",
+									"name": "Death's Friend",
+									"nameDot": false,
+									"entries": [
+										"now lets you gain a soul trinket when you roll {@variantrule Initiative|XPHB} and have no soul trinkets."
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Reanimator",
+			"shortName": "Reanimator",
+			"source": "XUA2025HorrorSubclasses",
+			"className": "Artificer",
+			"classSource": "XUA2025EberronUpdates",
+			"entries": [
+				"{@i Reassemble Corpses to Raise the Dead}"
+			]
+		},
+		{
+			"name": "Shadow Sorcery",
+			"shortName": "Shadow",
+			"source": "XUA2025HorrorSubclasses",
+			"className": "Sorcerer",
+			"classSource": "XPHB",
+			"entries": [
+				"{@i Bend Darkness and Doom to Your Will}",
+				{
+					"type": "inset",
+					"name": "Design Note: Shadow Sorcery Updates",
+					"page": 7,
+					"entries": [
+						"Here are the main updates in this subclass since its appearance in {@book Xanathar's Guide to Everything|XGE}:",
+						{
+							"type": "list",
+							"page": 7,
+							"items": [
+								{
+									"type": "item",
+									"name": "Eyes of the Dark",
+									"nameDot": false,
+									"entries": [
+										"now also grants you {@sense Blindsight|XPHB} and the ability to see through the {@variantrule Darkness|XPHB} of any spell you cast. "
+									]
+								},
+								{
+									"type": "item",
+									"name": "Shadow Spells",
+									"nameDot": false,
+									"entries": [
+										"is a new feature that provides a list of always prepared spells. "
+									]
+								},
+								{
+									"type": "item",
+									"name": "Spirits of Ill Omen",
+									"nameDot": false,
+									"entries": [
+										"(formerly {@subclassFeature Hound of Ill Omen|Sorcerer|PHB|Shadow|XGE|6|XGE}) now uses the {@spell Summon Undead|XPHB} spell, allowing for more versatility and scaling. "
+									]
+								},
+								{
+									"type": "item",
+									"name": "Umbral Form",
+									"nameDot": false,
+									"entries": [
+										"now gives you one free use of the form per {@variantrule Long Rest|XPHB}. {@subclassFeature Strength of the Grave|Sorcerer|PHB|Shadow|XGE|1|XGE} has been improved and moved to the benefits of this form."
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Undead Patron",
+			"shortName": "Undead",
+			"source": "XUA2025HorrorSubclasses",
+			"className": "Warlock",
+			"classSource": "XPHB",
+			"entries": [
+				"{@i Defy Death for Profane Power}",
+				{
+					"type": "inset",
+					"name": "Design Note: Undead Patron Updates",
+					"page": 9,
+					"entries": [
+						"Here are the main updates in this subclass since its appearance in {@book Van Richten's Guide to Ravenloft|VRGR}:",
+						{
+							"type": "list",
+							"page": 9,
+							"items": [
+								{
+									"type": "item",
+									"name": "Undead Spells",
+									"nameDot": false,
+									"entries": [
+										"(formerly {@subclassFeature The Undead|Warlock|PHB|Undead|VRGR|1|VRGR|Expanded Spell List}) now gives you a list of always prepared spells. "
+									]
+								},
+								{
+									"type": "item",
+									"name": "Grave Touched",
+									"nameDot": false,
+									"entries": [
+										"now allows your spells and attacks to ignore {@variantrule Resistance|XPHB} to Necrotic damage. "
+									]
+								},
+								{
+									"type": "item",
+									"name": "Necrotic Husk",
+									"nameDot": false,
+									"entries": [
+										"no longer requires a {@variantrule Reaction|XPHB} to use its secondary feature, and it restores you to a number of {@variantrule Hit Points|XPHB} equal to 10 times your Charisma modifier. "
+									]
+								},
+								{
+									"type": "item",
+									"name": "Superior Dread",
+									"nameDot": false,
+									"entries": [
+										"is a new feature that improves your {@subclassFeature Form of Dread|Warlock|XPHB|Undead|XUA2025HorrorSubclasses|3|XUA2025HorrorSubclasses}, allowing you to fly, regain {@variantrule Hit Points|XPHB}, and improve your spellcasting."
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	],
+	"subclassFeature": [
+		{
+			"name": "College of Spirits",
+			"source": "XUA2025HorrorSubclasses",
+			"page": 3,
+			"className": "Bard",
+			"classSource": "XPHB",
+			"subclassShortName": "Spirits",
+			"subclassSource": "XUA2025HorrorSubclasses",
+			"level": 3,
+			"header": 1,
+			"entries": [
+				"Using occult trappings, Bards of the College of Spirits conjure legendary and long-dead spirits to change the world once more. But such entities are capricious, and what a Bard summons isn't always entirely under their control.",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Channeler|Bard|XPHB|Spirits|XUA2025HorrorSubclasses|3|XUA2025HorrorSubclasses"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Spirits from Beyond|Bard|XPHB|Spirits|XUA2025HorrorSubclasses|3|XUA2025HorrorSubclasses"
+				}
+			]
+		},
+		{
+			"name": "Channeler",
+			"source": "XUA2025HorrorSubclasses",
+			"page": 3,
+			"className": "Bard",
+			"classSource": "XPHB",
+			"subclassShortName": "Spirits",
+			"subclassSource": "XUA2025HorrorSubclasses",
+			"level": 3,
+			"header": 2,
+			"entries": [
+				"You learn how to contact spirits beyond the grave, letting their power and knowledge flow through you. You gain the following benefits.",
+				{
+					"type": "entries",
+					"name": "Guiding Whispers",
+					"entries": [
+						"You know the {@spell Guidance|XPHB} cantrip. It has a range of 60 feet when you cast it."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Spiritual Focus",
+					"entries": [
+						"You employ tools that aid you in channeling spirits. You gain a {@item Playing Cards|XPHB|Gaming Set (Playing Cards)}. You have proficiency with this {@item Gaming Set|XPHB}, and you can use the cards or one of the following items as a {@variantrule Spellcasting Focus|XPHB} for your Bard spells: {@item Arcane Focus|XPHB} ({@item Crystal|XPHB} or {@item Orb|XPHB}), {@item Candle|XPHB}, or {@item Ink Pen|XPHB}."
+					]
+				}
+			]
+		},
+		{
+			"name": "Spirits from Beyond",
+			"source": "XUA2025HorrorSubclasses",
+			"page": 3,
+			"className": "Bard",
+			"classSource": "XPHB",
+			"subclassShortName": "Spirits",
+			"subclassSource": "XUA2025HorrorSubclasses",
+			"level": 3,
+			"header": 2,
+			"entries": [
+				"While holding a {@variantrule Spellcasting Focus|XPHB}, you can take a {@variantrule Bonus Action|XPHB} to expend one use of your {@classFeature Bardic Inspiration|Bard|XPHB|1|XPHB} and call forth the powers of a spirit. Roll the {@classFeature Bardic Inspiration|Bard|XPHB|1|XPHB} die and refer to the {@table Spirits from Beyond|XUA2025HorrorSubclasses} table to determine the spirit you channel, then choose one creature you can see within 30 feet of yourself as the spirit's target. The spirit immediately takes effect; if a spirit's effect requires a saving throw, the DC equals your Bard spell save DC.",
+				{
+					"type": "statblock",
+					"tag": "table",
+					"source": "XUA2025HorrorSubclasses",
+					"name": "Spirits from Beyond",
+					"page": 3
+				}
+			]
+		},
+		{
+			"name": "Empowered Channeling",
+			"source": "XUA2025HorrorSubclasses",
+			"page": 4,
+			"className": "Bard",
+			"classSource": "XPHB",
+			"subclassShortName": "Spirits",
+			"subclassSource": "XUA2025HorrorSubclasses",
+			"level": 6,
+			"header": 2,
+			"entries": [
+				"Your ability to channel spirits improves. You gain the following benefits.",
+				{
+					"type": "entries",
+					"name": "Power from Beyond",
+					"entries": [
+						"Once per turn, when you cast a Bard spell that deals damage or restores Hit Points, roll a {@dice d6}. You gain a bonus to one of the spell's damage rolls or to the total {@variantrule Hit Points|XPHB} the spell restores equal to the number rolled."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Spiritual Manifestation",
+					"entries": [
+						"You always have the {@spell Spirit Guardians|XPHB} spell prepared. You can cast the spell once without a spell slot, and you regain the ability to cast it in this way when you finish a {@variantrule Long Rest|XPHB}.",
+						"Whenever you start casting the spell, you can modify it so the spirits also guard against worldly threats. When cast in this way, you and allies within the spell's {@variantrule Emanation [Area of Effect]|XPHB|Emanation} have {@variantrule Cover|XPHB|Half Cover}. Once you modify the spell in this way, you can't do so again until you finish a {@variantrule Short Rest|XPHB|Short} or {@variantrule Long Rest|XPHB}."
+					]
+				}
+			]
+		},
+		{
+			"name": "Mystical Connection",
+			"source": "XUA2025HorrorSubclasses",
+			"page": 4,
+			"className": "Bard",
+			"classSource": "XPHB",
+			"subclassShortName": "Spirits",
+			"subclassSource": "XUA2025HorrorSubclasses",
+			"level": 14,
+			"header": 2,
+			"entries": [
+				"You gain mastery over the spirits you call forth. Whenever you roll on the {@table Spirits from Beyond|XUA2025HorrorSubclasses} table, you can roll the die twice and choose which of the two effects to bestow."
+			]
+		},
+		{
+			"name": "Grave Domain",
+			"source": "XUA2025HorrorSubclasses",
+			"page": 4,
+			"className": "Cleric",
+			"classSource": "XPHB",
+			"subclassShortName": "Grave",
+			"subclassSource": "XUA2025HorrorSubclasses",
+			"level": 3,
+			"header": 1,
+			"entries": [
+				"The Grave Domain concerns itself with the boundary between life and death. To those who tap into this domain's power, death is a foundational, natural, and inevitable part of the multiverse. Such Clerics seek to destroy Undead and strive to shepherd spirits to the afterlife (whether those spirits want to go or not).",
+				"The magic of this domain also allows these Clerics to stave off death for a time, particularly for those who still have some great work to accomplish in the world. But this is merely a delay of death, not a denial of it, for the grave will always claim its due.",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Circle of Mortality|Cleric|XPHB|Grave|XUA2025HorrorSubclasses|3|XUA2025HorrorSubclasses"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Grave Domain Spells|Cleric|XPHB|Grave|XUA2025HorrorSubclasses|3|XUA2025HorrorSubclasses"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Path to the Grave|Cleric|XPHB|Grave|XUA2025HorrorSubclasses|3|XUA2025HorrorSubclasses"
+				}
+			]
+		},
+		{
+			"name": "Circle of Mortality",
+			"source": "XUA2025HorrorSubclasses",
+			"page": 4,
+			"className": "Cleric",
+			"classSource": "XPHB",
+			"subclassShortName": "Grave",
+			"subclassSource": "XUA2025HorrorSubclasses",
+			"level": 3,
+			"header": 2,
+			"entries": [
+				"You gain the ability to manipulate the balance between life and death, granting you the following benefits.",
+				{
+					"type": "entries",
+					"name": "Pull of Death",
+					"entries": [
+						"Once per turn, when you cast a spell or hit with an attack roll and deal damage to a {@variantrule Bloodied|XPHB} creature, that creature takes an extra {@damage 1d4} Necrotic damage."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Return to Life",
+					"entries": [
+						"When you would normally roll one or more dice to restore {@variantrule Hit Points|XPHB} to a creature at 0 {@variantrule Hit Points|XPHB} with a spell or {@classFeature Channel Divinity|Cleric|XPHB|2|XPHB}, don't roll those dice for the healing; instead use the highest number possible for each die. For example, instead of restoring {@dice 2d4} {@variantrule Hit Points|XPHB} to a creature at 0 {@variantrule Hit Points|XPHB} with a spell, you restore 8."
+					]
+				}
+			]
+		},
+		{
+			"name": "Grave Domain Spells",
+			"source": "XUA2025HorrorSubclasses",
+			"page": 4,
+			"className": "Cleric",
+			"classSource": "XPHB",
+			"subclassShortName": "Grave",
+			"subclassSource": "XUA2025HorrorSubclasses",
+			"level": 3,
+			"header": 2,
+			"entries": [
+				"Your connection to this divine domain ensures you always have certain spells ready. When you reach a Cleric level specified in the {@table Grave Domain Spells|XUA2025HorrorSubclasses} table, you thereafter always have the listed spells prepared.",
+				{
+					"type": "statblock",
+					"tag": "table",
+					"source": "XUA2025HorrorSubclasses",
+					"name": "Grave Domain Spells",
+					"page": 4
+				}
+			]
+		},
+		{
+			"name": "Path to the Grave",
+			"source": "XUA2025HorrorSubclasses",
+			"page": 5,
+			"className": "Cleric",
+			"classSource": "XPHB",
+			"subclassShortName": "Grave",
+			"subclassSource": "XUA2025HorrorSubclasses",
+			"level": 3,
+			"header": 2,
+			"consumes": {
+				"name": "Channel Divinity"
+			},
+			"entries": [
+				"As a {@variantrule Bonus Action|XPHB}, you present your {@item Holy Symbol|XPHB} and expend a use of your {@classFeature Channel Divinity|Cleric|XPHB|2|XPHB} to curse one creature you can see within 30 feet of yourself until the start of your next turn. While cursed, the creature has {@variantrule Disadvantage|XPHB} on attack rolls and saving throws.",
+				"When you or an ally you can see hits the cursed target with an attack roll, you can end the curse early (no action required) to make the attack deal extra Necrotic or Radiant damage (your choice) equal to {@damage 1d8} plus your Cleric level."
+			]
+		},
+		{
+			"name": "Sentinel at Death's Door",
+			"source": "XUA2025HorrorSubclasses",
+			"page": 5,
+			"className": "Cleric",
+			"classSource": "XPHB",
+			"subclassShortName": "Grave",
+			"subclassSource": "XUA2025HorrorSubclasses",
+			"level": 6,
+			"header": 2,
+			"entries": [
+				"When you or a {@variantrule Bloodied|XPHB} creature you can see within 30 feet of yourself is hit with an attack roll, you can take a {@variantrule Reaction|XPHB} to halve that attack's damage.",
+				"You can use this feature a number of times equal to your Wisdom modifier (minimum of once). You regain all expended uses when you finish a {@variantrule Long Rest|XPHB}."
+			]
+		},
+		{
+			"name": "Divine Reaper",
+			"source": "XUA2025HorrorSubclasses",
+			"page": 5,
+			"className": "Cleric",
+			"classSource": "XPHB",
+			"subclassShortName": "Grave",
+			"subclassSource": "XUA2025HorrorSubclasses",
+			"level": 17,
+			"header": 2,
+			"consumes": {
+				"name": "Channel Divinity"
+			},
+			"entries": [
+				"Your deep connection to this domain renders you a hallowed harbinger of death, granting you the following benefits.",
+				{
+					"type": "entries",
+					"name": "Enhanced Necromancy",
+					"entries": [
+						"When you cast {@filter a spell of level 5 or lower from the Necromancy school that targets one creature|spells|source=|level=0;1;2;3;4;5|components & miscellaneous=|school=n|area style=st} or a spell from the {@table Grave Domain Spells|XUA2025HorrorSubclasses} table, you can expend a use of {@classFeature Channel Divinity|Cleric|XPHB|2|XPHB} to target a second creature within the spell's range. If the spell requires costly or consumed Material components, you must provide Material components for each target."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Keeper of Souls",
+					"entries": [
+						"When an enemy dies within 60 feet of you, you or one creature you can see within 60 feet of yourself regains {@variantrule Hit Points|XPHB} equal to three times your Cleric level. You can't use this feature if you have the {@condition Incapacitated|XPHB} condition. Once you use this feature, you can't use it again until you finish a {@variantrule Short Rest|XPHB|Short} or {@variantrule Long Rest|XPHB}."
+					]
+				}
+			]
+		},
+		{
+			"name": "Hollow Warden",
+			"source": "XUA2025HorrorSubclasses",
+			"page": 5,
+			"className": "Ranger",
+			"classSource": "XPHB",
+			"subclassShortName": "Hollow Warden",
+			"subclassSource": "XUA2025HorrorSubclasses",
+			"level": 3,
+			"header": 1,
+			"entries": [
+				"Legends tell that the most ancient and fearsome terrors lurk deep within the old places of the earth\u2014unfathomable and bloodthirsty entities of fallow soil and sharpened claws. Hollow Wardens venerate and draw power from such beings, transforming themselves into similarly merciless and monstrous guardians that stalk along jagged coastlines, across steep mountain crags, and through other dark and wild places.",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Hollow Warden Spells|Ranger|XPHB|Hollow Warden|XUA2025HorrorSubclasses|3|XUA2025HorrorSubclasses"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Wrath of the Wild|Ranger|XPHB|Hollow Warden|XUA2025HorrorSubclasses|3|XUA2025HorrorSubclasses"
+				}
+			]
+		},
+		{
+			"name": "Hollow Warden Spells",
+			"source": "XUA2025HorrorSubclasses",
+			"page": 5,
+			"className": "Ranger",
+			"classSource": "XPHB",
+			"subclassShortName": "Hollow Warden",
+			"subclassSource": "XUA2025HorrorSubclasses",
+			"level": 3,
+			"header": 2,
+			"entries": [
+				"When you reach a Ranger level specified in the {@table Hollow Warden Spells|XUA2025HorrorSubclasses} table, you thereafter always have the listed spell prepared.",
+				{
+					"type": "statblock",
+					"tag": "table",
+					"source": "XUA2025HorrorSubclasses",
+					"name": "Hollow Warden Spells",
+					"page": 5
+				}
+			]
+		},
+		{
+			"name": "Wrath of the Wild",
+			"source": "XUA2025HorrorSubclasses",
+			"page": 5,
+			"className": "Ranger",
+			"classSource": "XPHB",
+			"subclassShortName": "Hollow Warden",
+			"subclassSource": "XUA2025HorrorSubclasses",
+			"level": 3,
+			"header": 2,
+			"entries": [
+				"You draw on the strange and ancient horrors of the land for power. When you cast {@spell Hunter's Mark|XPHB}, you transform, gaining the following benefits for the duration of the spell.",
+				{
+					"type": "entries",
+					"name": "Ancient Armor",
+					"entries": [
+						"You gain a bonus to your AC equal to your Wisdom modifier (minimum of +1). Your body is wreathed in rotten bark or beastly bristles."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Unnerving Aura",
+					"entries": [
+						"When an enemy starts its turn within a 10-foot {@variantrule Emanation [Area of Effect]|XPHB|Emanation} originating from you, it makes a Wisdom saving throw against {@dcYourSpellSave}. On a failed save, it can take either an {@variantrule Action|XPHB} or a {@variantrule Bonus Action|XPHB} on this turn, not both. Your shadow lengthens and twists around you, or you sprout unnatural growths like bloody antlers or putrid fangs."
+					]
+				}
+			]
+		},
+		{
+			"name": "Hungering Might",
+			"source": "XUA2025HorrorSubclasses",
+			"page": 5,
+			"className": "Ranger",
+			"classSource": "XPHB",
+			"subclassShortName": "Hollow Warden",
+			"subclassSource": "XUA2025HorrorSubclasses",
+			"level": 7,
+			"header": 2,
+			"entries": [
+				"You gain a bonus to Constitution saving throws equal to your Wisdom modifier (minimum of +1).",
+				"In addition, once per turn when you hit a creature with an attack roll while you are transformed using {@subclassFeature Wrath of the Wild|Ranger|XPHB|Hollow Warden|XUA2025HorrorSubclasses|3|XUA2025HorrorSubclasses}, you regain a number of {@variantrule Hit Points|XPHB} equal to {@dice 1d10} plus your Wisdom modifier, provided you are {@variantrule Bloodied|XPHB} when you hit."
+			]
+		},
+		{
+			"name": "Rot and Violence",
+			"source": "XUA2025HorrorSubclasses",
+			"page": 5,
+			"className": "Ranger",
+			"classSource": "XPHB",
+			"subclassShortName": "Hollow Warden",
+			"subclassSource": "XUA2025HorrorSubclasses",
+			"level": 11,
+			"header": 2,
+			"entries": [
+				"Your dedication to eldritch forest beings alters you further. When transformed using {@subclassFeature Wrath of the Wild|Ranger|XPHB|Hollow Warden|XUA2025HorrorSubclasses|3|XUA2025HorrorSubclasses}, you gain the following additional benefits.",
+				{
+					"type": "entries",
+					"name": "Eerie Aura",
+					"entries": [
+						"When a creature fails its saving throw against your {@subclassFeature Wrath of the Wild|Ranger|XPHB|Hollow Warden|XUA2025HorrorSubclasses|3|XUA2025HorrorSubclasses|Unnerving Aura}, it also takes Necrotic, Poison, or Psychic damage (your choice) equal to your Ranger level. This damage ignores {@variantrule Resistance|XPHB}."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Strangling Roots",
+					"entries": [
+						"When you hit a creature with an attack roll using a weapon, you can activate the {@itemMastery Sap|XPHB} or {@itemMastery Slow|XPHB} mastery property in addition to a different mastery property you're using with that weapon."
+					]
+				}
+			]
+		},
+		{
+			"name": "Ancient Endurance",
+			"source": "XUA2025HorrorSubclasses",
+			"page": 6,
+			"className": "Ranger",
+			"classSource": "XPHB",
+			"subclassShortName": "Hollow Warden",
+			"subclassSource": "XUA2025HorrorSubclasses",
+			"level": 15,
+			"header": 2,
+			"entries": [
+				"You become wholly suffused with the forest's ancient power, granting you the following benefits.",
+				{
+					"type": "entries",
+					"name": "Persistent Hunt",
+					"entries": [
+						"If you drop to 0 {@variantrule Hit Points|XPHB} while transformed using {@subclassFeature Wrath of the Wild|Ranger|XPHB|Hollow Warden|XUA2025HorrorSubclasses|3|XUA2025HorrorSubclasses} and don't die outright, you can expend a level 4+ spell slot (no action required). Your {@variantrule Hit Points|XPHB} then instead change to an amount equal to five times the level of the spell slot expended."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Timeless",
+					"entries": [
+						"You have {@variantrule Immunity|XPHB} to the {@condition Exhaustion|XPHB} condition."
+					]
+				}
+			]
+		},
+		{
+			"name": "Phantom",
+			"source": "XUA2025HorrorSubclasses",
+			"page": 6,
+			"className": "Rogue",
+			"classSource": "XPHB",
+			"subclassShortName": "Phantom",
+			"subclassSource": "XUA2025HorrorSubclasses",
+			"level": 3,
+			"header": 1,
+			"entries": [
+				"Some Rogues walk along the veil between life and death, shepherding opponents to the grave and slipping through the world as undetectable as a spirit. In these pursuits, a Rogue might discover a mystical connection to death itself. Such an individual becomes immersed in negative energy, infusing their strikes with deathly energy and stealing knowledge from souls who have passed on. Thieves' guilds value Rogues of this persuasion as highly effective information gatherers and spies.",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Wails from the Grave|Rogue|XPHB|Phantom|XUA2025HorrorSubclasses|3|XUA2025HorrorSubclasses"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Whispers of the Dead|Rogue|XPHB|Phantom|XUA2025HorrorSubclasses|3|XUA2025HorrorSubclasses"
+				}
+			]
+		},
+		{
+			"name": "Wails from the Grave",
+			"source": "XUA2025HorrorSubclasses",
+			"page": 6,
+			"className": "Rogue",
+			"classSource": "XPHB",
+			"subclassShortName": "Phantom",
+			"subclassSource": "XUA2025HorrorSubclasses",
+			"level": 3,
+			"header": 2,
+			"entries": [
+				"Immediately after you deal your {@classFeature Sneak Attack|Rogue|XPHB|1|XPHB} damage to a creature on your turn, you can target a second creature that you can see within 30 feet of the first creature. Roll half the number of {@classFeature Sneak Attack|Rogue|XPHB|1|XPHB} dice for your level (round up), and the second creature takes Necrotic damage equal to the roll's total as wails of the dead momentarily sound around them.",
+				"You can use this feature a number of times equal to your Dexterity modifier (minimum of once), and you regain all expended uses when you finish a {@variantrule Long Rest|XPHB}."
+			]
+		},
+		{
+			"name": "Whispers of the Dead",
+			"source": "XUA2025HorrorSubclasses",
+			"page": 6,
+			"className": "Rogue",
+			"classSource": "XPHB",
+			"subclassShortName": "Phantom",
+			"subclassSource": "XUA2025HorrorSubclasses",
+			"level": 3,
+			"header": 2,
+			"entries": [
+				"Whenever you finish a {@variantrule Short Rest|XPHB|Short} or {@variantrule Long Rest|XPHB}, you can choose one skill or tool proficiency that you lack and gain it, as a ghostly presence shares its knowledge with you. You lose this proficiency when you use this benefit again to choose a different proficiency."
+			]
+		},
+		{
+			"name": "Tokens of the Departed",
+			"source": "XUA2025HorrorSubclasses",
+			"page": 6,
+			"className": "Rogue",
+			"classSource": "XPHB",
+			"subclassShortName": "Phantom",
+			"subclassSource": "XUA2025HorrorSubclasses",
+			"level": 9,
+			"header": 2,
+			"entries": [
+				"The spirits of the dead are drawn to you, and echoes of their past lives magically manifest as strange curios with resonant power.",
+				"Whenever you finish a {@variantrule Long Rest|XPHB}, you gain two soul trinkets; each soul trinket is a Tiny object (the DM determines the trinket's form or has you roll on the {@item Trinket|XPHB|Trinkets} table in the {@book Player's Handbook|XPHB} to generate it). These trinkets last until you finish another {@variantrule Long Rest|XPHB}, at which point they disintegrate. If you ever move more than 30 feet from a trinket, the trinket immediately teleports to you, appearing somewhere on your person.",
+				"The number of soul trinkets you gain when you finish a {@variantrule Long Rest|XPHB} increases when you reach Rogue levels 13 (three trinkets) and 17 (four trinkets).",
+				{
+					"type": "entries",
+					"name": "Using Soul Trinkets",
+					"page": 6,
+					"entries": [
+						"You can use soul trinkets in the following ways:",
+						{
+							"type": "refSubclassFeature",
+							"subclassFeature": "Death's Knell|Rogue|XPHB|Phantom|XUA2025HorrorSubclasses|9|XUA2025HorrorSubclasses"
+						},
+						{
+							"type": "refSubclassFeature",
+							"subclassFeature": "Life Essence|Rogue|XPHB|Phantom|XUA2025HorrorSubclasses|9|XUA2025HorrorSubclasses"
+						},
+						{
+							"type": "refSubclassFeature",
+							"subclassFeature": "Spirit Query|Rogue|XPHB|Phantom|XUA2025HorrorSubclasses|9|XUA2025HorrorSubclasses"
+						}
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Regaining Soul Trinkets",
+					"page": 6,
+					"entries": [
+						"When a creature you can see within 30 feet of you dies, you can take a {@variantrule Reaction|XPHB} to regain one expended soul trinket."
+					]
+				}
+			]
+		},
+		{
+			"name": "Voice of Death",
+			"source": "XUA2025HorrorSubclasses",
+			"page": 6,
+			"className": "Rogue",
+			"classSource": "XPHB",
+			"subclassShortName": "Phantom",
+			"subclassSource": "XUA2025HorrorSubclasses",
+			"level": 9,
+			"header": 2,
+			"entries": [
+				"You can cast {@spell Speak with Dead|XPHB} once without a spell slot, requiring no spell components and using Dexterity as the spellcasting modifier. You regain the ability to cast it this way when you finish a {@variantrule Short Rest|XPHB|Short} or {@variantrule Long Rest|XPHB}."
+			]
+		},
+		{
+			"name": "Death's Knell",
+			"source": "XUA2025HorrorSubclasses",
+			"page": 6,
+			"className": "Rogue",
+			"classSource": "XPHB",
+			"subclassShortName": "Phantom",
+			"subclassSource": "XUA2025HorrorSubclasses",
+			"level": 9,
+			"header": 3,
+			"entries": [
+				"When you deal {@classFeature Sneak Attack|Rogue|XPHB|1|XPHB} damage on your turn, you can expend one soul trinket and immediately use {@subclassFeature Wails from the Grave|Rogue|XPHB|Phantom|XUA2025HorrorSubclasses|3|XUA2025HorrorSubclasses} without expending a use of that feature. The expended trinket is destroyed."
+			]
+		},
+		{
+			"name": "Life Essence",
+			"source": "XUA2025HorrorSubclasses",
+			"page": 6,
+			"className": "Rogue",
+			"classSource": "XPHB",
+			"subclassShortName": "Phantom",
+			"subclassSource": "XUA2025HorrorSubclasses",
+			"level": 9,
+			"header": 3,
+			"entries": [
+				"While you have at least one soul trinket, you have {@variantrule Advantage|XPHB} on {@variantrule Death Saving Throws|XScreen} and Constitution saving throws."
+			]
+		},
+		{
+			"name": "Spirit Query",
+			"source": "XUA2025HorrorSubclasses",
+			"page": 6,
+			"className": "Rogue",
+			"classSource": "XPHB",
+			"subclassShortName": "Phantom",
+			"subclassSource": "XUA2025HorrorSubclasses",
+			"level": 9,
+			"header": 3,
+			"entries": [
+				"You can take a {@action Magic|XPHB} action to expend one soul trinket and immediately cast the {@spell Augury|XPHB} spell, requiring no spell components and using Dexterity as the spellcasting modifier. The expended trinket is destroyed."
+			]
+		},
+		{
+			"name": "Ghost Walk",
+			"source": "XUA2025HorrorSubclasses",
+			"page": 6,
+			"className": "Rogue",
+			"classSource": "XPHB",
+			"subclassShortName": "Phantom",
+			"subclassSource": "XUA2025HorrorSubclasses",
+			"level": 13,
+			"header": 2,
+			"entries": [
+				"As a {@variantrule Bonus Action|XPHB}, you assume a spectral form, gaining the benefits below for 10 minutes or until you end them (no action required). Once you use this feature, you can't use it again until you finish a {@variantrule Long Rest|XPHB} unless you expend and destroy one of your soul trinkets from {@subclassFeature Tokens of the Departed|Rogue|XPHB|Phantom|XUA2025HorrorSubclasses|9|XUA2025HorrorSubclasses} (no action required) to restore your use of it.",
+				{
+					"type": "entries",
+					"name": "Flight",
+					"entries": [
+						"You gain a {@variantrule Fly Speed|XPHB} of 10 feet and can hover."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Hazy Form",
+					"page": 7,
+					"entries": [
+						"Attack rolls have {@variantrule Disadvantage|XPHB} against you."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Incorporeal Movement",
+					"page": 7,
+					"entries": [
+						"You can move through occupied spaces as if they were {@variantrule Difficult Terrain|XPHB}. If you end your turn in such a space, you take {@damage 1d10} Force damage."
+					]
+				}
+			]
+		},
+		{
+			"name": "Death's Friend",
+			"source": "XUA2025HorrorSubclasses",
+			"page": 7,
+			"className": "Rogue",
+			"classSource": "XPHB",
+			"subclassShortName": "Phantom",
+			"subclassSource": "XUA2025HorrorSubclasses",
+			"level": 17,
+			"header": 2,
+			"entries": [
+				"Your association with death has become so close that you gain the following benefits.",
+				{
+					"type": "entries",
+					"name": "Death's Lament",
+					"entries": [
+						"When you use your {@subclassFeature Wails from the Grave|Rogue|XPHB|Phantom|XUA2025HorrorSubclasses|3|XUA2025HorrorSubclasses} feature, you can deal the Necrotic damage to both the first and the second creature."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Draw of Death",
+					"entries": [
+						"When you roll {@variantrule Initiative|XPHB}, you regain one soul trinket for your {@subclassFeature Tokens of the Departed|Rogue|XPHB|Phantom|XUA2025HorrorSubclasses|9|XUA2025HorrorSubclasses} if you have none remaining."
+					]
+				}
+			]
+		},
+		{
+			"name": "Shadow Sorcery",
+			"source": "XUA2025HorrorSubclasses",
+			"page": 7,
+			"className": "Sorcerer",
+			"classSource": "XPHB",
+			"subclassShortName": "Shadow",
+			"subclassSource": "XUA2025HorrorSubclasses",
+			"level": 3,
+			"header": 1,
+			"entries": [
+				"Your innate magic comes from the Shadowfell itself. You might trace your lineage to an entity from that place, or perhaps you were exposed to the Shadowfell's sinister energy and were transformed by it. Your shadowy magic allows you to command darkness, undeath, and woe with ease.",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Eyes of the Dark|Sorcerer|XPHB|Shadow|XUA2025HorrorSubclasses|3|XUA2025HorrorSubclasses"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Shadow Spells|Sorcerer|XPHB|Shadow|XUA2025HorrorSubclasses|3|XUA2025HorrorSubclasses"
+				}
+			]
+		},
+		{
+			"name": "Eyes of the Dark",
+			"source": "XUA2025HorrorSubclasses",
+			"page": 7,
+			"className": "Sorcerer",
+			"classSource": "XPHB",
+			"subclassShortName": "Shadow",
+			"subclassSource": "XUA2025HorrorSubclasses",
+			"level": 3,
+			"header": 2,
+			"entries": [
+				"You have {@sense Darkvision|XPHB} with a range of 120 feet and {@sense Blindsight|XPHB} with a range of 10 feet.",
+				"In addition, if a spell you cast creates an area of {@variantrule Darkness|XPHB}, you can see normally through that spell's {@variantrule Darkness|XPHB}."
+			]
+		},
+		{
+			"name": "Shadow Spells",
+			"source": "XUA2025HorrorSubclasses",
+			"page": 7,
+			"className": "Sorcerer",
+			"classSource": "XPHB",
+			"subclassShortName": "Shadow",
+			"subclassSource": "XUA2025HorrorSubclasses",
+			"level": 3,
+			"header": 2,
+			"entries": [
+				"When you reach a Sorcerer level specified in the {@table Shadow Spells|XUA2025HorrorSubclasses} table, you thereafter always have the listed spells prepared.",
+				{
+					"type": "statblock",
+					"tag": "table",
+					"source": "XUA2025HorrorSubclasses",
+					"name": "Shadow Spells",
+					"page": 7
+				}
+			]
+		},
+		{
+			"name": "Spirits of Ill Omen",
+			"source": "XUA2025HorrorSubclasses",
+			"page": 7,
+			"className": "Sorcerer",
+			"classSource": "XPHB",
+			"subclassShortName": "Shadow",
+			"subclassSource": "XUA2025HorrorSubclasses",
+			"level": 6,
+			"header": 2,
+			"entries": [
+				"You can cast {@spell Summon Undead|XPHB} without a Material component. You can also cast it once without a spell slot, and you regain the ability to cast it in this way when you finish a {@variantrule Long Rest|XPHB}.",
+				"Whenever you start casting the spell, you can modify it so that it doesn't require {@status Concentration|XPHB}. If you do so, the spell's duration becomes 1 minute for that casting, and the spell ends early if you cast it again."
+			]
+		},
+		{
+			"name": "Shadow Walk",
+			"source": "XUA2025HorrorSubclasses",
+			"page": 7,
+			"className": "Sorcerer",
+			"classSource": "XPHB",
+			"subclassShortName": "Shadow",
+			"subclassSource": "XUA2025HorrorSubclasses",
+			"level": 14,
+			"header": 2,
+			"entries": [
+				"While you are in {@variantrule Dim Light|XPHB} or {@variantrule Darkness|XPHB}, you can take a {@variantrule Bonus Action|XPHB} to {@variantrule Teleportation|XPHB|teleport} up to 120 feet to an unoccupied space you can see that is also in {@variantrule Dim Light|XPHB} or {@variantrule Darkness|XPHB}."
+			]
+		},
+		{
+			"name": "Umbral Form",
+			"source": "XUA2025HorrorSubclasses",
+			"page": 7,
+			"className": "Sorcerer",
+			"classSource": "XPHB",
+			"subclassShortName": "Shadow",
+			"subclassSource": "XUA2025HorrorSubclasses",
+			"level": 18,
+			"header": 2,
+			"consumes": {
+				"name": "Sorcery Point",
+				"amount": 6
+			},
+			"entries": [
+				"As a {@variantrule Bonus Action|XPHB}, you adopt a shadowy form, gaining the benefits below for 1 minute, until you have the {@condition Incapacitated|XPHB} condition, or until you end the form (no action required). Once you use this feature, you can't use it again until you finish a {@variantrule Long Rest|XPHB} unless you spend 6 Sorcery Points (no action required) to restore your use of it.",
+				{
+					"type": "entries",
+					"name": "Incorporeal Movement",
+					"entries": [
+						"You can move through occupied spaces as if they were {@variantrule Difficult Terrain|XPHB}. If you end your turn in such a space, you take {@damage 1d10} Force damage."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Shadow Resilience",
+					"entries": [
+						"You have {@variantrule Resistance|XPHB} to all damage except Force and Radiant damage."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Strength of the Grave",
+					"entries": [
+						"If you would drop to 0 {@variantrule Hit Points|XPHB} and not die outright, you can make a Charisma saving throw (DC 5 plus half the damage taken). If you succeed, your {@variantrule Hit Points|XPHB} instead change to a number equal to three times your Sorcerer level."
+					]
+				}
+			]
+		},
+		{
+			"name": "Hexblade Patron",
+			"source": "XUA2025HorrorSubclasses",
+			"page": 8,
+			"className": "Warlock",
+			"classSource": "XPHB",
+			"subclassShortName": "Hexblade",
+			"subclassSource": "XUA2025HorrorSubclasses",
+			"level": 3,
+			"header": 1,
+			"entries": [
+				"You've made a pact with a sentient magic weapon and the cursed forces contained within its blade. Such a weapon could be the sword sheathed at a Warlock's side, or it could be an infamous magic weapon stored elsewhere, projecting its power across the multiverse to further its cunning plans. To those who are willing to follow this weapon's whims, these inscrutable patrons offer the power to bestow malignant curses, deliver punishing blows, and bolster the wielder.",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Hexblade Spells|Warlock|XPHB|Hexblade|XUA2025HorrorSubclasses|3|XUA2025HorrorSubclasses"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Hexblade Manifest|Warlock|XPHB|Hexblade|XUA2025HorrorSubclasses|3|XUA2025HorrorSubclasses"
+				}
+			]
+		},
+		{
+			"name": "Hexblade Manifest",
+			"source": "XUA2025HorrorSubclasses",
+			"page": 8,
+			"className": "Warlock",
+			"classSource": "XPHB",
+			"subclassShortName": "Hexblade",
+			"subclassSource": "XUA2025HorrorSubclasses",
+			"level": 3,
+			"header": 2,
+			"entries": [
+				"Your patron grants you the power to summon cursed echoes of its blade to hinder your foes. You gain the following benefits.",
+				{
+					"type": "entries",
+					"name": "Hexblade's Curse",
+					"page": 8,
+					"entries": [
+						"You can cast {@spell Hex|XPHB} without expending a spell slot a number of times equal to your Charisma modifier (minimum of once), and you regain all expended uses when you finish a {@variantrule Long Rest|XPHB}. When you cast {@spell Hex|XPHB}, a spectral weapon resembling your patron orbits the cursed target."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Hexblade's Maneuvers",
+					"page": 8,
+					"entries": [
+						"Once per turn, when you hit a target cursed by your {@spell Hex|XPHB} with an attack roll, you can cause one of these additional effects:",
+						{
+							"type": "entries",
+							"name": "Draining Slash",
+							"entries": [
+								"The target makes a Constitution saving throw against {@dcYourSpellSave}. On a failed save, the target can't make {@action Opportunity Attack|XPHB|Opportunity Attacks} and its {@variantrule Speed|XPHB} is halved until the start of your next turn."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Harrowing Blade",
+							"entries": [
+								"The target makes a Wisdom saving throw against {@dcYourSpellSave}. On a failed save, the next time the target makes an attack roll against a creature other than you before the start of your next turn, the target takes Necrotic damage equal to your Charisma modifier."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Stymying Mark",
+							"entries": [
+								"The target has {@variantrule Disadvantage|XPHB} on the next saving throw it makes before the start of your next turn."
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Hexblade Spells",
+			"source": "XUA2025HorrorSubclasses",
+			"page": 8,
+			"className": "Warlock",
+			"classSource": "XPHB",
+			"subclassShortName": "Hexblade",
+			"subclassSource": "XUA2025HorrorSubclasses",
+			"level": 3,
+			"header": 2,
+			"entries": [
+				"The magic of your patron ensures you always have certain spells ready; when you reach a Warlock level specified in the {@table Hexblade Spells|XUA2025HorrorSubclasses} table, you thereafter always have the listed spells prepared.",
+				{
+					"type": "statblock",
+					"tag": "table",
+					"source": "XUA2025HorrorSubclasses",
+					"name": "Hexblade Spells",
+					"page": 8
+				}
+			]
+		},
+		{
+			"name": "Life Stealer",
+			"source": "XUA2025HorrorSubclasses",
+			"page": 8,
+			"className": "Warlock",
+			"classSource": "XPHB",
+			"subclassShortName": "Hexblade",
+			"subclassSource": "XUA2025HorrorSubclasses",
+			"level": 6,
+			"header": 2,
+			"entries": [
+				"Your patron's might allows you to drain vitality from those you curse, granting you the following benefits.",
+				{
+					"type": "entries",
+					"name": "Hungering Hex",
+					"entries": [
+						"Whenever the target cursed by your {@spell Hex|XPHB} drops to 0 {@variantrule Hit Points|XPHB}, you regain {@variantrule Hit Points|XPHB} equal to {@dice 1d8} plus your Charisma modifier."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Inevitable Blade",
+					"entries": [
+						"Once per turn, if you make an attack roll against the target cursed by your {@spell Hex|XPHB} and miss, you can deal Necrotic damage to that creature equal to your Charisma modifier (minimum of 1 Necrotic damage)."
+					]
+				}
+			]
+		},
+		{
+			"name": "Armor of Hexes",
+			"source": "XUA2025HorrorSubclasses",
+			"page": 8,
+			"className": "Warlock",
+			"classSource": "XPHB",
+			"subclassShortName": "Hexblade",
+			"subclassSource": "XUA2025HorrorSubclasses",
+			"level": 10,
+			"header": 2,
+			"entries": [
+				"When you take damage from the cursed target of your {@spell Hex|XPHB}, you can take a {@variantrule Reaction|XPHB} to reduce the damage taken by an amount equal to {@dice 2d8} plus your Charisma modifier. You can use this feature a number of times equal to your Charisma modifier, and you regain all expended uses when you finish a {@variantrule Long Rest|XPHB}."
+			]
+		},
+		{
+			"name": "Masterful Hex",
+			"source": "XUA2025HorrorSubclasses",
+			"page": 8,
+			"className": "Warlock",
+			"classSource": "XPHB",
+			"subclassShortName": "Hexblade",
+			"subclassSource": "XUA2025HorrorSubclasses",
+			"level": 14,
+			"header": 2,
+			"entries": [
+				"Your patron's accursed might flows even more strongly through you, granting the following benefits.",
+				{
+					"type": "entries",
+					"name": "Accursed Critical",
+					"entries": [
+						"Any attack roll you make against the target cursed by your {@spell Hex|XPHB} scores a {@variantrule Critical Hit|XPHB} on a roll of a 19 or 20 on the {@dice d20}."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Infectious Hex",
+					"entries": [
+						"When you use one of your {@subclassFeature Hexblade Manifest|Warlock|XPHB|Hexblade|XUA2025HorrorSubclasses|3|XUA2025HorrorSubclasses|Hexblade's Maneuvers}, you can target one additional creature within 30 feet of the cursed target. The additional target takes {@damage 1d6} Necrotic damage."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Resilitent Hex",
+					"entries": [
+						"Taking damage can't break your {@status Concentration|XPHB} on {@spell Hex|XPHB}."
+					]
+				}
+			]
+		},
+		{
+			"name": "Undead Patron",
+			"source": "XUA2025HorrorSubclasses",
+			"page": 8,
+			"className": "Warlock",
+			"classSource": "XPHB",
+			"subclassShortName": "Undead",
+			"subclassSource": "XUA2025HorrorSubclasses",
+			"level": 3,
+			"header": 1,
+			"entries": [
+				"You've made a pact with a creature that defies the cycle of life and death: a powerful lich, vampire, or other entity of undeath. Having once been mortal themselves, these ancient patrons know firsthand the paths of ambition and the routes past the doors of death. They eagerly share this profane knowledge, along with other secrets, with those who work their will among the living.",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Form of Dread|Warlock|XPHB|Undead|XUA2025HorrorSubclasses|3|XUA2025HorrorSubclasses"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Undead Spells|Warlock|XPHB|Undead|XUA2025HorrorSubclasses|3|XUA2025HorrorSubclasses"
+				}
+			]
+		},
+		{
+			"name": "Form of Dread",
+			"source": "XUA2025HorrorSubclasses",
+			"page": 9,
+			"className": "Warlock",
+			"classSource": "XPHB",
+			"subclassShortName": "Undead",
+			"subclassSource": "XUA2025HorrorSubclasses",
+			"level": 3,
+			"header": 2,
+			"entries": [
+				"As a {@variantrule Bonus Action|XPHB}, you transform into an avatar of your patron's dreadful power, gaining the benefits below for 1 minute, until you have the {@condition Incapacitated|XPHB} condition, or until you end the form (no action required). You can transform a number of times equal to your Charisma modifier (minimum of once), and you regain all expended uses when you finish a {@variantrule Long Rest|XPHB}.",
+				{
+					"type": "entries",
+					"name": "Facsimile of Life",
+					"entries": [
+						"You gain {@variantrule Temporary Hit Points|XPHB} equal to {@dice 1d10} plus your Warlock level."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Frightful Avatar",
+					"entries": [
+						"You have {@variantrule Immunity|XPHB} to the {@condition Frightened|XPHB} condition. Additionally, once per turn, when you hit a creature with an attack roll, you can force it to make a Wisdom saving throw against {@dcYourSpellSave}. On a failed save, the target has the {@condition Frightened|XPHB} condition until the end of your next turn."
+					]
+				}
+			]
+		},
+		{
+			"name": "Undead Spells",
+			"source": "XUA2025HorrorSubclasses",
+			"page": 9,
+			"className": "Warlock",
+			"classSource": "XPHB",
+			"subclassShortName": "Undead",
+			"subclassSource": "XUA2025HorrorSubclasses",
+			"level": 3,
+			"header": 2,
+			"entries": [
+				"The magic of your patron ensures you always have certain spells ready; when you reach a Warlock level specified in the {@table Undead Spells|XUA2025HorrorSubclasses} table, you thereafter always have the listed spells prepared.",
+				{
+					"type": "statblock",
+					"tag": "table",
+					"source": "XUA2025HorrorSubclasses",
+					"name": "Undead Spells",
+					"page": 9
+				}
+			]
+		},
+		{
+			"name": "Grave Touched",
+			"source": "XUA2025HorrorSubclasses",
+			"page": 9,
+			"className": "Warlock",
+			"classSource": "XPHB",
+			"subclassShortName": "Undead",
+			"subclassSource": "XUA2025HorrorSubclasses",
+			"level": 6,
+			"header": 2,
+			"entries": [
+				"Your patron's powers have a profound effect on your body and magic, granting you the following benefits.",
+				{
+					"type": "entries",
+					"name": "Arcane Necrosis",
+					"entries": [
+						"Whenever you cast a spell or hit a creature with an attack roll and deal Necrotic damage, the damage dealt ignores {@variantrule Resistance|XPHB} to Necrotic damage.",
+						"Additionally, once per turn when you cast a spell that deals damage while using your {@subclassFeature Form of Dread|Warlock|XPHB|Undead|XUA2025HorrorSubclasses|3|XUA2025HorrorSubclasses}, you can change that spell's damage type to Necrotic."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Undead Endurance",
+					"entries": [
+						"You don't gain {@condition Exhaustion|XPHB} levels from dehydration, malnutrition, or suffocation. In addition, you don't need to sleep, and magic can't put you to sleep."
+					]
+				}
+			]
+		},
+		{
+			"name": "Necrotic Husk",
+			"source": "XUA2025HorrorSubclasses",
+			"page": 9,
+			"className": "Warlock",
+			"classSource": "XPHB",
+			"subclassShortName": "Undead",
+			"subclassSource": "XUA2025HorrorSubclasses",
+			"level": 10,
+			"header": 2,
+			"entries": [
+				"Your connection to undeath now saturates your body. You gain the following benefits.",
+				{
+					"type": "entries",
+					"name": "Necrotic Resilience",
+					"entries": [
+						"You have {@variantrule Resistance|XPHB} to Necrotic damage. While using your {@subclassFeature Form of Dread|Warlock|XPHB|Undead|XUA2025HorrorSubclasses|3|XUA2025HorrorSubclasses}, you have {@variantrule Immunity|XPHB} to Necrotic damage."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Unholy Resuscitation",
+					"entries": [
+						"If you drop to 0 {@variantrule Hit Points|XPHB} and don't die outright, you can cause your body to erupt with deathly energy. Each creature of your choice in a 30-foot {@variantrule Emanation [Area of Effect]|XPHB|Emanation} originating from you makes a Constitution saving throw against {@dcYourSpellSave}, taking Necrotic damage equal to {@damage 2d10} plus your Warlock level on a failure or half as much damage on a success. Your {@variantrule Hit Points|XPHB} then change to 10 times your Charisma modifier (minimum of 10 {@variantrule Hit Points|XPHB}), and you gain 1 {@condition Exhaustion|XPHB} level.",
+						"Once you use this benefit, you can't use it again until you finish a {@variantrule Short Rest|XPHB|Short} or {@variantrule Long Rest|XPHB}."
+					]
+				}
+			]
+		},
+		{
+			"name": "Superior Dread",
+			"source": "XUA2025HorrorSubclasses",
+			"page": 9,
+			"className": "Warlock",
+			"classSource": "XPHB",
+			"subclassShortName": "Undead",
+			"subclassSource": "XUA2025HorrorSubclasses",
+			"level": 14,
+			"header": 2,
+			"entries": [
+				"Your {@subclassFeature Form of Dread|Warlock|XPHB|Undead|XUA2025HorrorSubclasses|3|XUA2025HorrorSubclasses} improves, granting you the following benefits while you are using it.",
+				{
+					"type": "entries",
+					"name": "Flight",
+					"entries": [
+						"You have a {@variantrule Fly Speed|XPHB} equal to your {@variantrule Speed|XPHB} and can hover."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Profane Casting",
+					"entries": [
+						"Whenever you cast {@filter a Warlock spell from the Conjuration or Necromancy school|spells|class=warlock|school=c;n}, you cast it without any Verbal, Somatic, or Material components, except Material components that are consumed by the spell or that have a cost specified in the spell."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Vitality Siphon",
+					"entries": [
+						"Once per turn when you deal Necrotic damage to a creature, you regain {@variantrule Hit Points|XPHB} equal to your Charisma modifier (minimum of 1 {@variantrule Hit Points|XPHB|Hit Point})."
+					]
+				}
+			]
+		},
+		{
+			"name": "Reanimator",
+			"source": "XUA2025HorrorSubclasses",
+			"page": 1,
+			"className": "Artificer",
+			"classSource": "XUA2025EberronUpdates",
+			"subclassShortName": "Reanimator",
+			"subclassSource": "XUA2025HorrorSubclasses",
+			"level": 3,
+			"header": 1,
+			"entries": [
+				"Reanimators defy the laws of nature in pursuit of gruesome experiment. These grim Artificers stitch together servants from disparate corpses, use foul magic to strengthen the living, and transform the art of necromancy into a terrifying science.",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Reanimator Spells|Artificer|XUA2025EberronUpdates|Reanimator|XUA2025HorrorSubclasses|3|XUA2025HorrorSubclasses"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Jolt to Life|Artificer|XUA2025EberronUpdates|Reanimator|XUA2025HorrorSubclasses|3|XUA2025HorrorSubclasses"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Reanimated Companion|Artificer|XUA2025EberronUpdates|Reanimator|XUA2025HorrorSubclasses|3|XUA2025HorrorSubclasses"
+				}
+			]
+		},
+		{
+			"name": "Jolt to Life",
+			"source": "XUA2025HorrorSubclasses",
+			"page": 1,
+			"className": "Artificer",
+			"classSource": "XUA2025EberronUpdates",
+			"subclassShortName": "Reanimator",
+			"subclassSource": "XUA2025HorrorSubclasses",
+			"level": 3,
+			"header": 2,
+			"entries": [
+				"When you cast {@spell Spare the Dying|XPHB}, you can modify the spell so that it sends a jolt of electricity through the target, reviving it. The target regains 1 Hit Point, and each creature in a 10-foot {@variantrule Emanation [Area of Effect]|XPHB|Emanation} originating from the target makes a Dexterity saving throw against your spell save DC, taking Lightning damage equal to {@damage 1d4} plus half your Artificer level (round up) on a failed save or half as much damage on a successful one.",
+				"You can modify the spell this way a number of times equal to your Intelligence modifier, and you regain all expended uses when you finish a {@variantrule Long Rest|XPHB}."
+			]
+		},
+		{
+			"name": "Reanimated Companion",
+			"source": "XUA2025HorrorSubclasses",
+			"page": 1,
+			"className": "Artificer",
+			"classSource": "XUA2025EberronUpdates",
+			"subclassShortName": "Reanimator",
+			"subclassSource": "XUA2025HorrorSubclasses",
+			"level": 3,
+			"header": 2,
+			"entries": [
+				"Using {@item Tinker's Tools|XPHB} or another type of {@item Artisan's Tools|XPHB} with which you have proficiency, you can take a {@action Magic|XPHB} action to create a {@creature Reanimated Companion|XUA2025HorrorSubclasses} {@homebrew |(see the stat block)} through the power of necromancy and science. The companion manifests in an unoccupied space within 5 feet of you. You determine the companion's appearance; your choices don't affect the companion's game statistics.",
+				"The companion is {@variantrule Friendly [Attitude]|XPHB|Friendly} to you and your allies and obeys you. It lasts until you finish a {@variantrule Long Rest|XPHB} or until you take a {@action Magic|XPHB} action to dismiss it early, at which point it harmlessly collapses into a pile of viscera. It immediately drops to 0 {@variantrule Hit Points|XPHB} and dies (triggering its Death Burst trait) if you die.",
+				"Once you create a companion, you can't do so again until you finish a {@variantrule Long Rest|XPHB} or expend a spell slot to create one. You can have only one companion at a time and can't create one while your companion is present.",
+				{
+					"type": "entries",
+					"name": "The Companion in Combat",
+					"page": 2,
+					"entries": [
+						"In combat, the companion acts during your turn. It can move and take its {@variantrule Reaction|XPHB} on its own, but the only action it takes is the {@action Dodge|XPHB} action unless you take a {@variantrule Bonus Action|XPHb} to command it to take an action. If you have the {@condition Incapacitated|XPHB} condition, the companion acts on its own and isn't limited to the {@action Dodge|XPHB} action."
+					]
+				},
+				{
+					"type": "statblock",
+					"tag": "creature",
+					"source": "XUA2025HorrorSubclasses",
+					"name": "Reanimated Companion",
+					"page": 2,
+					"collapsed": true
+				}
+			]
+		},
+		{
+			"name": "Reanimator Spells",
+			"source": "XUA2025HorrorSubclasses",
+			"page": 1,
+			"className": "Artificer",
+			"classSource": "XUA2025EberronUpdates",
+			"subclassShortName": "Reanimator",
+			"subclassSource": "XUA2025HorrorSubclasses",
+			"level": 3,
+			"header": 2,
+			"entries": [
+				"When you reach an Artificer level specified in the {@table Reanimator Spells|XUA2025HorrorSubclasses} table, you thereafter always have the listed spells prepared.",
+				{
+					"type": "statblock",
+					"tag": "table",
+					"source": "XUA2025HorrorSubclasses",
+					"name": "Reanimator Spells",
+					"page": 1
+				}
+			]
+		},
+		{
+			"name": "Strange Modifications",
+			"source": "XUA2025HorrorSubclasses",
+			"page": 2,
+			"className": "Artificer",
+			"classSource": "XUA2025EberronUpdates",
+			"subclassShortName": "Reanimator",
+			"subclassSource": "XUA2025HorrorSubclasses",
+			"level": 5,
+			"header": 2,
+			"entries": [
+				"Whenever you create a {@creature Reanimated Companion|XUA2025HorrorSubclasses}, it gains one of the following options of your choice; choose when you create the companion.",
+				{
+					"type": "entries",
+					"name": "Arcane Conduit",
+					"entries": [
+						"You can cast spells as though you were in the companion's space, but you must use your own senses. Once per turn, when you cast {@filter an Artificer spell from the Evocation or Necromancy schools|spells|class=artificer|school=v;n} and deal damage while your companion is within 120 feet of you, you can add your Intelligence modifier to one damage roll of that spell."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Ferocity",
+					"entries": [
+						"When you command your companion to take the Dreadful Swipe action, the companion can use it twice."
+					]
+				}
+			]
+		},
+		{
+			"name": "Improved Reanimation",
+			"source": "XUA2025HorrorSubclasses",
+			"page": 2,
+			"className": "Artificer",
+			"classSource": "XUA2025EberronUpdates",
+			"subclassShortName": "Reanimator",
+			"subclassSource": "XUA2025HorrorSubclasses",
+			"level": 9,
+			"header": 2,
+			"entries": [
+				"You experiment and alter your companion further. Whenever you create a {@creature Reanimated Companion|XUA2025HorrorSubclasses}, it gains one of the following options of your choice; choose when you create the companion.",
+				{
+					"type": "entries",
+					"name": "Bloated",
+					"entries": [
+						"The companion becomes Large or Medium (your choice). Whenever it hits a Large or smaller creature with its Dreadful Swipe action, that creature can also be pushed up to 10 feet away from the companion. Additionally, you can add your Intelligence modifier to the damage dealt by the companion's Death Burst."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Gaunt",
+					"entries": [
+						"The companion's {@variantrule Speed|XPHB} increases to 45 feet, and it gains a {@variantrule Climb Speed|XPHB} equal to its {@variantrule Speed|XPHB}. It can climb difficult surfaces, including along ceilings, without needing to make an ability check. In addition, whenever a creature of your choice starts its turn within a 10-foot {@variantrule Emanation [Area of Effect]|XPHB|Emanation} originating from your companion, the creature must succeed on a Wisdom saving throw against {@dcYourSpellSave} or have the {@condition Frightened|XPHB} condition until the start of its next turn."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Moist",
+					"entries": [
+						"The companion gains a {@variantrule Swim Speed|XPHB} equal to its {@variantrule Speed|XPHB}. In addition, whenever the companion is hit by an attack roll from a creature within 10 feet of it, the attacker takes Acid damage equal to your Intelligence modifier."
+					]
+				}
+			]
+		},
+		{
+			"name": "Promethean Reanimation",
+			"source": "XUA2025HorrorSubclasses",
+			"page": 2,
+			"className": "Artificer",
+			"classSource": "XUA2025EberronUpdates",
+			"subclassShortName": "Reanimator",
+			"subclassSource": "XUA2025HorrorSubclasses",
+			"level": 15,
+			"header": 2,
+			"entries": [
+				"You have mastered the science of revivification, granting you the following benefits.",
+				{
+					"type": "entries",
+					"name": "Facilitated Revival",
+					"entries": [
+						"When you cast {@spell Revivify|XPHB} or {@spell Raise Dead|XPHB}, the cost of any Material components needed for that spell is halved."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Improved Companion",
+					"entries": [
+						"The damage of your {@creature Reanimated Companion|XUA2025HorrorSubclasses|Reanimated Companion's} Death Burst increases to {@damage 4d6}. Necrotic damage dealt by your companion ignores {@variantrule Resistance|XPHb}."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Life Transfer",
+					"entries": [
+						"You can siphon the animating magic of your companion to bolster yourself. When you take damage, you can take a {@variantrule Reaction|XPHB} to cause your {@creature Reanimated Companion|XUA2025HorrorSubclasses} to drop to 0 {@variantrule Hit Points|XPHB}. The companion immediately dies (triggering its Death Burst trait), and you regain a number of {@variantrule Hit Points|XPHB} equal to your Artificer level."
+					]
+				}
+			]
+		}
+	],
+	"foundrySubclassFeature": [
+		{
+			"name": "Channeler",
+			"source": "XUA2025HorrorSubclasses",
+			"className": "Bard",
+			"classSource": "XPHB",
+			"subclassShortName": "Spirits",
+			"subclassSource": "XUA2025HorrorSubclasses",
+			"level": 3,
+			"entries": [
+				"You learn how to contact spirits beyond the grave, letting their power and knowledge flow through you. You gain the following benefits.",
+				{
+					"type": "entries",
+					"name": "Guiding Whispers",
+					"entries": [
+						"You know the {@spell Guidance|XPHB} cantrip. It has a range of 60 feet when you cast it."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Spiritual Focus",
+					"entries": [
+						"You employ tools that aid you in channeling spirits. You gain a {@item Playing Cards|XPHB|Gaming Set (Playing Cards)}. You have proficiency with this {@item Gaming Set|XPHB}, and you can use the cards or one of the following items as a {@variantrule Spellcasting Focus|XPHB} for your Bard spells: {@item Arcane Focus|XPHB} ({@item Crystal|XPHB} or {@item Orb|XPHB}), {@item Candle|XPHB}, or {@item Ink Pen|XPHB}."
+					]
+				}
+			],
+			"entryData": {
+				"toolProficiencies": [
+					{
+						"playing card set": true
+					}
+				]
+			}
+		},
+		{
+			"name": "Ancient Endurance",
+			"source": "XUA2025HorrorSubclasses",
+			"className": "Ranger",
+			"classSource": "XPHB",
+			"subclassShortName": "Hollow Warden",
+			"subclassSource": "XUA2025HorrorSubclasses",
+			"level": 15,
+			"entryData": {
+				"conditionImmune": [
+					"exhaustion"
+				]
+			}
+		},
+		{
+			"name": "Eyes of the Dark",
+			"source": "XUA2025HorrorSubclasses",
+			"className": "Sorcerer",
+			"classSource": "XPHB",
+			"subclassShortName": "Shadow",
+			"subclassSource": "XUA2025HorrorSubclasses",
+			"level": 3,
+			"entryData": {
+				"senses": [
+					{
+						"blindsight": 10,
+						"darkvision": 120
+					}
+				]
+			}
+		},
+		{
+			"name": "Form of Dread",
+			"source": "XUA2025HorrorSubclasses",
+			"className": "Warlock",
+			"classSource": "XPHB",
+			"subclassShortName": "Undead",
+			"subclassSource": "XUA2025HorrorSubclasses",
+			"level": 3,
+			"entryData": {
+				"conditionImmune": [
+					"frightened"
+				]
+			}
+		},
+		{
+			"name": "Necrotic Husk",
+			"source": "XUA2025HorrorSubclasses",
+			"className": "Warlock",
+			"classSource": "XPHB",
+			"subclassShortName": "Undead",
+			"subclassSource": "XUA2025HorrorSubclasses",
+			"level": 10,
+			"entryData": {
+				"resist": [
+					"necrotic"
+				]
+			}
+		}
+	],
+	"monster": [
+		{
+			"name": "Reanimated Companion",
+			"source": "XUA2025HorrorSubclasses",
+			"page": 2,
+			"size": [
+				"S"
+			],
+			"type": "undead",
+			"alignment": [
+				"N"
+			],
+			"ac": [
+				{
+					"special": "10 + your Intelligence modifier"
+				}
+			],
+			"hp": {
+				"special": "4 + four times your Artificer level (the companion has a number of Hit Dice [d6s] equal to your Artificer level)"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 14,
+			"dex": 10,
+			"con": 16,
+			"int": 4,
+			"wis": 10,
+			"cha": 6,
+			"senses": [
+				"Blindsight 60 ft."
+			],
+			"passive": 10,
+			"resist": [
+				"necrotic",
+				"poison"
+			],
+			"immune": [
+				"lightning"
+			],
+			"conditionImmune": [
+				"charmed",
+				"exhaustion",
+				"poisoned"
+			],
+			"languages": [
+				"understands the languages you know"
+			],
+			"pbNote": "equals your Proficiency Bonus",
+			"trait": [
+				{
+					"name": "Death Burst",
+					"entries": [
+						"The companion explodes when it dies. {@actSave dex} DC equals {@dcYourSpellSave}, each creature in a 10-foot {@variantrule Emanation [Area of Effect]|XPHB|Emanation} originating from the companion. {@actSaveFail} {@damage 2d6} Necrotic damage."
+					]
+				},
+				{
+					"name": "Lightning Absorption",
+					"entries": [
+						"Whenever the companion is subjected to Lightning damage, it regains a number of {@variantrule Hit Points|XPHB} equal to the Lightning damage dealt."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Dreadful Swipe",
+					"entries": [
+						"{@atkr m} {@hitYourSpellAttack Bonus equals your spell attack modifier}, reach 5 ft. {@h}{@damage 1d4 + 2} plus your Intelligence modifier Necrotic damage, and the target can't take {@action Opportunity Attack|XPHB|Opportunity Attacks} until the start of its next turn."
+					]
+				}
+			],
+			"traitTags": [
+				"Damage Absorption",
+				"Death Burst"
+			],
+			"senseTags": [
+				"B"
+			],
+			"damageTags": [
+				"N"
+			],
+			"miscTags": [
+				"MA"
+			],
+			"savingThrowForced": [
+				"dexterity"
+			]
+		}
+	],
+	"table": [
+		{
+			"name": "Grave Domain Spells",
+			"source": "XUA2025HorrorSubclasses",
+			"page": 4,
+			"type": "table",
+			"colLabels": [
+				"Cleric Level",
+				"Spells"
+			],
+			"colStyles": [
+				"col-3 text-center",
+				"col-9"
+			],
+			"rows": [
+				[
+					"3",
+					"{@spell Bane|XPHB}, {@spell Chill Touch|XPHB}, {@spell Detect Evil and Good|XPHB}, {@spell Gentle Repose|XPHB}, {@spell Ray of Enfeeblement|XPHB}"
+				],
+				[
+					"5",
+					"{@spell Revivify|XPHB}, {@spell Vampiric Touch|XPHB}"
+				],
+				[
+					"7",
+					"{@spell Blight|XPHB}, {@spell Dispel Evil and Good|XPHB}"
+				],
+				[
+					"9",
+					"{@spell Hold Monster|XPHB}, {@spell Raise Dead|XPHB}"
+				]
+			]
+		},
+		{
+			"name": "Hexblade Spells",
+			"source": "XUA2025HorrorSubclasses",
+			"page": 8,
+			"type": "table",
+			"colLabels": [
+				"Warlock Level",
+				"Spells"
+			],
+			"colStyles": [
+				"col-3 text-center",
+				"col-9"
+			],
+			"rows": [
+				[
+					"3",
+					"{@spell Arcane Vigor|XPHB}, {@spell Hex|XPHB}, {@spell Magic Weapon|XPHB}, {@spell Shield|XPHB}, {@spell Wrathful Smite|XPHB}"
+				],
+				[
+					"5",
+					"{@spell Conjure Barrage|XPHB}, {@spell Dispel Magic|XPHB}"
+				],
+				[
+					"7",
+					"{@spell Freedom of Movement|XPHB}, {@spell Staggering Smite|XPHB}"
+				],
+				[
+					"9",
+					"{@spell Animate Objects|XPHB}, {@spell Steel Wind Strike|XPHB}"
+				]
+			]
+		},
+		{
+			"name": "Hollow Warden Spells",
+			"source": "XUA2025HorrorSubclasses",
+			"page": 5,
+			"type": "table",
+			"colLabels": [
+				"Ranger Level",
+				"Spells"
+			],
+			"colStyles": [
+				"col-3 text-center",
+				"col-9"
+			],
+			"rows": [
+				[
+					"3",
+					"{@spell Wrathful Smite|XPHB}"
+				],
+				[
+					"5",
+					"{@spell Spike Growth|XPHB}"
+				],
+				[
+					"9",
+					"{@spell Phantom Steed|XPHB}"
+				],
+				[
+					"13",
+					"{@spell Hallucinatory Terrain|XPHB}"
+				],
+				[
+					"17",
+					"{@spell Awaken|XPHB}"
+				]
+			]
+		},
+		{
+			"name": "Reanimator Spells",
+			"source": "XUA2025HorrorSubclasses",
+			"page": 1,
+			"type": "table",
+			"colLabels": [
+				"Artificer Level",
+				"Spells"
+			],
+			"colStyles": [
+				"col-3 text-center",
+				"col-9"
+			],
+			"rows": [
+				[
+					"3",
+					"{@spell False Life|XPHB}, {@spell Spare the Dying|XPHB}, {@spell Witch Bolt|XPHB}"
+				],
+				[
+					"5",
+					"{@spell Blindness/Deafness|XPHB}, {@spell Enhance Ability|XPHB}"
+				],
+				[
+					"9",
+					"{@spell Animate Dead|XPHB}, {@spell Lightning Bolt|XPHB}"
+				],
+				[
+					"13",
+					"{@spell Blight|XPHB}, {@spell Death Ward|XPHB}"
+				],
+				[
+					"17",
+					"{@spell Antilife Shell|XPHB}, {@spell Raise Dead|XPHB}"
+				]
+			]
+		},
+		{
+			"name": "Shadow Spells",
+			"source": "XUA2025HorrorSubclasses",
+			"page": 7,
+			"type": "table",
+			"colLabels": [
+				"Sorcerer Level",
+				"Spells"
+			],
+			"colStyles": [
+				"col-3 text-center",
+				"col-9"
+			],
+			"rows": [
+				[
+					"3",
+					"{@spell Bane|XPHB}, {@spell Darkness|XPHB}, {@spell Inflict Wounds|XPHB}, {@spell Pass Without Trace|XPHB}"
+				],
+				[
+					"5",
+					"{@spell Hunger of Hadar|XPHB}, {@spell Summon Undead|XPHB}"
+				],
+				[
+					"7",
+					"{@spell Greater Invisibility|XPHB}, {@spell Phantasmal Killer|XPHB}"
+				],
+				[
+					"9",
+					"{@spell Contagion|XPHB}, {@spell Creation|XPHB}"
+				]
+			]
+		},
+		{
+			"name": "Spirits from Beyond",
+			"source": "XUA2025HorrorSubclasses",
+			"page": 3,
+			"type": "table",
+			"colLabels": [
+				"Bardic Inspiration Die",
+				"Spirit"
+			],
+			"colStyles": [
+				"col-2 text-center",
+				"col-10"
+			],
+			"rows": [
+				[
+					"1",
+					{
+						"type": "item",
+						"name": "Beloved",
+						"entries": [
+							"The target regains {@variantrule Hit Points|XPHB} equal to one roll of your {@classFeature Bardic Inspiration|Bard|XPHB|1|XPHB} die plus your Charisma modifier."
+						]
+					}
+				],
+				[
+					"2",
+					{
+						"type": "item",
+						"name": "Sharpshooter",
+						"entries": [
+							"The target takes Force damage equal to one roll of your {@classFeature Bardic Inspiration|Bard|XPHB|1|XPHB} die plus your Charisma modifier."
+						]
+					}
+				],
+				[
+					"3",
+					{
+						"type": "item",
+						"name": "Avenger",
+						"entries": [
+							"Until the end of your next turn, any creature that hits the target with a melee attack roll takes Force damage equal to a roll of your {@classFeature Bardic Inspiration|Bard|XPHB|1|XPHB} die."
+						]
+					}
+				],
+				[
+					"4",
+					{
+						"type": "item",
+						"name": "Renegade",
+						"entries": [
+							"The target can immediately take a {@variantrule Reaction|XPHB} to teleport up to 30 feet to an unoccupied space it can see."
+						]
+					}
+				],
+				[
+					"5",
+					{
+						"type": "item",
+						"name": "Fortune Teller",
+						"entries": [
+							"The target has {@variantrule Advantage|XPHB} on {@variantrule D20 Test|XPHB|D20 Tests} until the start of your next turn."
+						]
+					}
+				],
+				[
+					"6",
+					{
+						"type": "item",
+						"name": "Wayfarer",
+						"entries": [
+							"The target gains {@variantrule Temporary Hit Points|XPHB} equal to a roll of your {@classFeature Bardic Inspiration|Bard|XPHB|1|XPHB} die plus your Bard level. While it has these {@variantrule Temporary Hit Points|XPHB}, the target's {@variantrule Speed|XPHB} increases by 10 feet."
+						]
+					}
+				],
+				[
+					"7",
+					{
+						"type": "item",
+						"name": "Trickster",
+						"entries": [
+							"The target makes a Wisdom saving throw. On a failed save, the target takes Psychic damage equal to two rolls of your {@classFeature Bardic Inspiration|Bard|XPHB|1|XPHB} die and has the {@condition Charmed|XPHB} condition until the start of your next turn. On a successful save, the target takes half as much damage only."
+						]
+					}
+				],
+				[
+					"8",
+					{
+						"type": "item",
+						"name": "Shade",
+						"entries": [
+							"The target gains the {@condition Invisible|XPHb} condition until the end of its next turn or until the target makes an attack roll, deals damage, or casts a spell. When the invisibility ends, each creature in a 5-foot {@variantrule Emanation [Area of Effect]|XPHB|Emanation} originating from the target must succeed on a Constitution saving throw or take Necrotic damage equal to two rolls of your {@classFeature Bardic Inspiration|Bard|XPHB|1|XPHB} die."
+						]
+					}
+				],
+				[
+					"9",
+					{
+						"type": "item",
+						"name": "Arsonist",
+						"entries": [
+							"The target makes a Dexterity saving throw, taking Fire damage equal to four rolls of your {@classFeature Bardic Inspiration|Bard|XPHB|1|XPHB} die on a failed save or half as much on a successful one."
+						]
+					}
+				],
+				[
+					"10",
+					{
+						"type": "item",
+						"name": "Coward",
+						"entries": [
+							"The target and each creature of your choice in a 30-foot {@variantrule Emanation [Area of Effect]|XPHB|Emanation} originating from the target must succeed on a Wisdom saving throw or have the {@condition Frightened|XPHB} condition until the start of your next turn. While {@condition Frightened|XPHB}, a creature's {@variantrule Speed|XPHB} is halved, and it can take either an {@variantrule Action|XPHB} or a {@variantrule Bonus Action|XPHB}, not both."
+						]
+					}
+				],
+				[
+					"11",
+					{
+						"type": "item",
+						"name": "Brute",
+						"entries": [
+							"Each creature of your choice in a 30-foot {@variantrule Emanation [Area of Effect]|XPHB|Emanation} originating from the target makes a Strength saving throw. On a failed save, a creature takes Thunder damage equal to three rolls of your {@classFeature Bardic Inspiration|Bard|XPHB|1|XPHB} die and has the {@condition Prone|XPHB} condition. On a successful save, a creature takes half as much damage only."
+						]
+					}
+				],
+				[
+					"12",
+					{
+						"type": "item",
+						"name": "Controlled Channeling",
+						"entries": [
+							"You determine the spirit's effect by choosing one of the other rows in this table."
+						]
+					}
+				]
+			]
+		},
+		{
+			"name": "Undead Spells",
+			"source": "XUA2025HorrorSubclasses",
+			"page": 9,
+			"type": "table",
+			"colLabels": [
+				"Warlock Level",
+				"Spells"
+			],
+			"colStyles": [
+				"col-3 text-center",
+				"col-9"
+			],
+			"rows": [
+				[
+					"3",
+					"{@spell Blindness/Deafness|XPHB}, {@spell False Life|XPHB}, {@spell Phantasmal Force|XPHB}, {@spell Ray of Sickness|XPHB}"
+				],
+				[
+					"5",
+					"{@spell Speak with Dead|XPHB}, {@spell Vampiric Touch|XPHB}"
+				],
+				[
+					"7",
+					"{@spell Death Ward|XPHB}, {@spell Phantasmal Killer|XPHB}"
+				],
+				[
+					"9",
+					"{@spell Antilife Shell|XPHB}, {@spell Cloudkill|XPHB}"
+				]
+			]
+		}
+	],
+	"book": [
+		{
+			"name": "Unearthed Arcana 2025: Horror Subclasses",
+			"id": "XUA2025HorrorSubclasses",
+			"source": "XUA2025HorrorSubclasses",
+			"group": "prerelease",
+			"cover": {
+				"type": "internal",
+				"path": "covers/blank.webp"
+			},
+			"published": "2025-05-06",
+			"author": "Wizards of the Coast",
+			"contents": [
+				{
+					"name": "Unearthed Arcana 2025: Horror Subclasses",
+					"headers": [
+						"What's Inside",
+						"Subclasses",
+						{
+							"header": "Artificer: Reanimator",
+							"depth": 1
+						},
+						{
+							"header": "Bard: College of Spirits",
+							"depth": 1
+						},
+						{
+							"header": "Cleric: Grave Domain",
+							"depth": 1
+						},
+						{
+							"header": "Ranger: Hollow Warden",
+							"depth": 1
+						},
+						{
+							"header": "Rogue: Phantom",
+							"depth": 1
+						},
+						{
+							"header": "Sorcerer: Shadow Sorcery",
+							"depth": 1
+						},
+						{
+							"header": "Warlock: Hexblade Patron",
+							"depth": 1
+						},
+						{
+							"header": "Warlock: Undead Patron",
+							"depth": 1
+						}
+					]
+				}
+			]
+		}
+	],
+	"bookData": [
+		{
+			"id": "XUA2025HorrorSubclasses",
+			"source": "XUA2025HorrorSubclasses",
+			"data": [
+				{
+					"type": "section",
+					"name": "Unearthed Arcana 2025: Horror Subclasses",
+					"page": 1,
+					"entries": [
+						"This playtest document is part of a series of {@i Unearthed Arcana} articles that present material designed for upcoming products. The material here uses the rules in the {@book 2024 Player's Handbook|XPHB}.",
+						{
+							"type": "inset",
+							"name": "Learn More on YouTube",
+							"page": 1,
+							"entries": [
+								"To learn more about the design in this article, we invite you to view the videos about it on YouTube ({@link www.youtube.com/DNDWizards})."
+							]
+						},
+						{
+							"type": "section",
+							"name": "What's Inside",
+							"page": 1,
+							"entries": [
+								"This document presents eight subclasses: revised subclasses for the {@class Bard|XPHB} ({@class Bard|XPHB|College of Spirits|Spirits|XUA2025HorrorSubclasses}), {@class Cleric|XPHB} ({@class Cleric|XPHB|Grave Domain|Grave|XUA2025HorrorSubclasses}), {@class Rogue|XPHB} ({@class Rogue|XPHB|Phantom|Phantom|XUA2025HorrorSubclasses}), {@class Sorcerer|XPHB} ({@class Sorcerer|XPHB|Shadow Sorcery|Shadow|XUA2025HorrorSubclasses}), and {@class Warlock|XPHB} ({@class Warlock|XPHB|Hexblade Patron|Hexblade|XUA2025HorrorSubclasses} and {@class Warlock|XPHB|Undead Patron|Undead|XUA2025HorrorSubclasses}) as well as new subclasses for the {@class Artificer|XPHB} ({@class Artificer|XPHB|Reanimator|Reanimator|XUA2025HorrorSubclasses}) and {@class Ranger|XPHB} ({@class Ranger|XPHB|Hollow Warden|Hollow Warden|XUA2025HorrorSubclasses}).",
+								{
+									"type": "inset",
+									"name": "This Is Playtest Material",
+									"page": 1,
+									"entries": [
+										"This article is presented for playtesting and feedback. The options here are experimental and in draft form. They aren't officially part of the game. Your feedback will help determine whether we adopt it as official.",
+										{
+											"type": "list",
+											"style": "list-hang-notitle",
+											"page": 1,
+											"items": [
+												{
+													"type": "item",
+													"name": "How to Playtest This UA",
+													"entries": [
+														"We invite you to try out this material in play. To play with this material, you may either incorporate it into your campaign or run one or more special playtest sessions. For such a session, you may create an adventure of your own or use a short adventure from a source like {@adventure Quests from the Infinite Staircase|QftIS}."
+													]
+												},
+												{
+													"type": "item",
+													"name": "Power Level",
+													"entries": [
+														"The character options you read here might be more or less powerful than options in the {@book 2024 Player's Handbook|XPHB}. If a design survives playtesting, we adjust its power to the desirable level before publication. This means an option could be more or less powerful in its final form."
+													]
+												},
+												{
+													"type": "item",
+													"name": "Feedback",
+													"entries": [
+														"The best way for you to give us feedback on this material is in the survey we'll release on D&D Beyond. If we make this material official, it will be refined based on your feedback, and then it will appear in a D&D book.",
+														"Providing feedback on this document is one way you can help shape the future of D&D!"
+													]
+												}
+											]
+										}
+									]
+								}
+							]
+						},
+						{
+							"type": "section",
+							"name": "Subclasses",
+							"page": 1,
+							"entries": [
+								"This section presents the following subclasses: the {@class Artificer|XPHB|Reanimator|Reanimator|XUA2025HorrorSubclasses}, {@class Bard|XPHB|College of Spirits|Spirits|XUA2025HorrorSubclasses}, {@class Cleric|XPHB|Grave Domain|Grave|XUA2025HorrorSubclasses}, {@class Ranger|XPHB|Hollow Warden|Hollow Warden|XUA2025HorrorSubclasses}, {@class Rogue|XPHB|Phantom|Phantom|XUA2025HorrorSubclasses}, {@class Sorcerer|XPHB|Shadow Sorcery|Shadow|XUA2025HorrorSubclasses}, {@class Warlock|XPHB|Hexblade Patron|Hexblade|XUA2025HorrorSubclasses}, and {@class Warlock|XPHB|Undead Patron|Undead|XUA2025HorrorSubclasses}.",
+								{
+									"type": "entries",
+									"name": "Artificer: Reanimator",
+									"page": 1,
+									"entries": [
+										"{@i Reassemble Corpses to Raise the Dead}",
+										{
+											"type": "statblock",
+											"prop": "subclass",
+											"source": "XUA2025HorrorSubclasses",
+											"name": "Reanimator",
+											"className": "Artificer",
+											"classSource": "XUA2025EberronUpdates",
+											"page": 1
+										},
+										{
+											"type": "statblock",
+											"tag": "creature",
+											"source": "XUA2025HorrorSubclasses",
+											"name": "Reanimated Companion",
+											"page": 2
+										}
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Bard: College of Spirits",
+									"page": 3,
+									"entries": [
+										"{@i Call Forth Spirits from Beyond the Grave}",
+										{
+											"type": "inset",
+											"name": "Design Note: College of Spirits Updates",
+											"page": 3,
+											"entries": [
+												"Here are the main updates in this subclass since its appearance in {@book Van Richten's Guide to Ravenloft|VRGR}:",
+												{
+													"type": "list",
+													"page": 3,
+													"items": [
+														{
+															"type": "item",
+															"name": "Guiding Whispers",
+															"nameDot": false,
+															"entries": [
+																"and {@b Spiritual Focus} are now combined into a single feature, {@subclassFeature Channeler|Bard|XPHB|Spirits|XUA2025HorrorSubclasses|3|XUA2025HorrorSubclasses}. This new feature also grants you proficiency with {@item playing cards|XPHB}. "
+															]
+														},
+														{
+															"type": "item",
+															"name": "Spirits from Beyond",
+															"nameDot": false,
+															"entries": [
+																"(formerly {@subclassFeature Tales from Beyond|Bard|PHB|Spirits|VRGR|3|VRGR}) has been reworked to improve its action economy and produce more immediate effects. The options on the feature's table have been revised as well. "
+															]
+														},
+														{
+															"type": "item",
+															"name": "Empowered Channeling",
+															"nameDot": false,
+															"entries": [
+																"is a new feature that allows the {@class Bard|XPHB} to cast and alter the {@spell Spirit Guardians|XPHB} spell."
+															]
+														}
+													]
+												}
+											]
+										},
+										{
+											"type": "statblock",
+											"prop": "subclass",
+											"source": "XUA2025HorrorSubclasses",
+											"name": "Spirits",
+											"className": "Bard",
+											"classSource": "XPHB",
+											"page": 3
+										}
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Cleric: Grave Domain",
+									"page": 4,
+									"entries": [
+										"{@i Herald the Majesty of Amethyst Dragons}",
+										{
+											"type": "inset",
+											"name": "Design Note: Grave Domain Updates",
+											"page": 4,
+											"entries": [
+												"Here are the main updates in this subclass since its appearance in {@book Xanathar's Guide to Everything|XGE}:",
+												{
+													"type": "list",
+													"page": 4,
+													"items": [
+														{
+															"type": "item",
+															"name": "Circle of Mortality",
+															"nameDot": false,
+															"entries": [
+																"now also grants you a small damage boost against {@variantrule Bloodied|XPHB} creatures. "
+															]
+														},
+														{
+															"type": "item",
+															"name": "Grave Domain Spells",
+															"nameDot": false,
+															"entries": [
+																"has been updated to include more versatility and combat-relevant spells. "
+															]
+														},
+														{
+															"type": "item",
+															"name": "Path to the Grave",
+															"nameDot": false,
+															"entries": [
+																"now produces an ongoing curse effect in addition to boosting the damage of an attack. "
+															]
+														},
+														{
+															"type": "item",
+															"name": "Sentinel at Death's Door",
+															"nameDot": false,
+															"entries": [
+																"now can trigger on any attack, not just {@variantrule Critical Hit|XPHB|Critical Hits}. "
+															]
+														},
+														{
+															"type": "item",
+															"name": "Divine Reaper",
+															"nameDot": false,
+															"entries": [
+																"is a new feature that absorbs the previous benefits of {@subclassFeature Keeper of Souls|Cleric|PHB|Grave|XGE|17|XGE} and provides a boost to the Cleric's Necromancy spells."
+															]
+														}
+													]
+												}
+											]
+										},
+										{
+											"type": "statblock",
+											"prop": "subclass",
+											"source": "XUA2025HorrorSubclasses",
+											"name": "Grave",
+											"className": "Cleric",
+											"classSource": "XPHB",
+											"page": 4
+										}
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Ranger: Hollow Warden",
+									"page": 5,
+									"entries": [
+										"{@i Draw on the Might of Ancient Wild Terrors}",
+										{
+											"type": "statblock",
+											"prop": "subclass",
+											"source": "XUA2025HorrorSubclasses",
+											"name": "Hollow Warden",
+											"className": "Ranger",
+											"classSource": "XPHB",
+											"page": 5
+										}
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Rogue: Phantom",
+									"page": 6,
+									"entries": [
+										"{@i Embrace Death and Wield Ghostly Power}",
+										{
+											"type": "inset",
+											"name": "Design Note: Phantom Updates",
+											"page": 6,
+											"entries": [
+												"Here are the main updates in this subclass since its appearance in {@book Tasha's Cauldron of Everything|TCE}:",
+												{
+													"type": "list",
+													"page": 6,
+													"items": [
+														{
+															"type": "item",
+															"name": "Wails from the Grave",
+															"nameDot": false,
+															"entries": [
+																"now links its number of uses to the Rogue's Dexterity modifier. "
+															]
+														},
+														{
+															"type": "item",
+															"name": "Tokens of the Departed",
+															"nameDot": false,
+															"entries": [
+																"now provides soul trinkets whenever you finish a {@variantrule Long Rest|XPHB}, allowing more reliable usage of the feature's benefits. "
+															]
+														},
+														{
+															"type": "item",
+															"name": "Voice of Death",
+															"nameDot": false,
+															"entries": [
+																"is a new feature that allows you to cast {@spell Speak with Dead|XPHB}. "
+															]
+														},
+														{
+															"type": "item",
+															"name": "Death's Friend",
+															"nameDot": false,
+															"entries": [
+																"now lets you gain a soul trinket when you roll {@variantrule Initiative|XPHB} and have no soul trinkets."
+															]
+														}
+													]
+												}
+											]
+										},
+										{
+											"type": "statblock",
+											"prop": "subclass",
+											"source": "XUA2025HorrorSubclasses",
+											"name": "Phantom",
+											"className": "Rogue",
+											"classSource": "XPHB",
+											"page": 6
+										}
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Sorcerer: Shadow Sorcery",
+									"page": 7,
+									"entries": [
+										"{@i Bend Darkness and Doom to Your Will}",
+										{
+											"type": "inset",
+											"name": "Design Note: Shadow Sorcery Updates",
+											"page": 7,
+											"entries": [
+												"Here are the main updates in this subclass since its appearance in {@book Xanathar's Guide to Everything|XGE}:",
+												{
+													"type": "list",
+													"page": 7,
+													"items": [
+														{
+															"type": "item",
+															"name": "Eyes of the Dark",
+															"nameDot": false,
+															"entries": [
+																"now also grants you {@sense Blindsight|XPHB} and the ability to see through the {@variantrule Darkness|XPHB} of any spell you cast. "
+															]
+														},
+														{
+															"type": "item",
+															"name": "Shadow Spells",
+															"nameDot": false,
+															"entries": [
+																"is a new feature that provides a list of always prepared spells. "
+															]
+														},
+														{
+															"type": "item",
+															"name": "Spirits of Ill Omen",
+															"nameDot": false,
+															"entries": [
+																"(formerly {@subclassFeature Hound of Ill Omen|Sorcerer|PHB|Shadow|XGE|6|XGE}) now uses the {@spell Summon Undead|XPHB} spell, allowing for more versatility and scaling. "
+															]
+														},
+														{
+															"type": "item",
+															"name": "Umbral Form",
+															"nameDot": false,
+															"entries": [
+																"now gives you one free use of the form per {@variantrule Long Rest|XPHB}. {@subclassFeature Strength of the Grave|Sorcerer|PHB|Shadow|XGE|1|XGE} has been improved and moved to the benefits of this form."
+															]
+														}
+													]
+												}
+											]
+										},
+										{
+											"type": "statblock",
+											"prop": "subclass",
+											"source": "XUA2025HorrorSubclasses",
+											"name": "Shadow",
+											"className": "Sorcerer",
+											"classSource": "XPHB",
+											"page": 7
+										}
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Warlock: Hexblade Patron",
+									"page": 7,
+									"entries": [
+										{
+											"type": "inset",
+											"name": "Design Note: Hexblade Patron Updates",
+											"page": 8,
+											"entries": [
+												"Here are the main updates in this subclass since its appearance in {@book Xanathar's Guide to Everything|XGE}:",
+												{
+													"type": "list",
+													"page": 8,
+													"items": [
+														{
+															"type": "item",
+															"name": "Hexblade Spells",
+															"nameDot": false,
+															"entries": [
+																"(formerly {@subclassFeature The Hexblade|Warlock|PHB|Hexblade|XGE|1|XGE|Expanded Spell List}) now gives you a list of always prepared spells. The spells granted have been revised. "
+															]
+														},
+														{
+															"type": "item",
+															"name": "Hexblade Manifest",
+															"nameDot": false,
+															"entries": [
+																"is a new feature, allowing you to cast {@spell Hex|XPHB} a number of times without a spell slot. It also grants you a handful of unique ways to interact with your cursed target. "
+															]
+														},
+														{
+															"type": "item",
+															"name": "Life Stealer",
+															"nameDot": false,
+															"entries": [
+																"is a new feature that interacts with the {@spell Hex|XPHB} spell to provide healing and reliable damage. "
+															]
+														},
+														{
+															"type": "item",
+															"name": "Armor of Hexes",
+															"nameDot": false,
+															"entries": [
+																"now more reliably reduces damage taken. "
+															]
+														},
+														{
+															"type": "item",
+															"name": "Masterful Hex",
+															"nameDot": false,
+															"entries": [
+																"is a new feature that boosts the power of {@subclassFeature Hexblade Manifest|Warlock|XPHB|Hexblade|XUA2025HorrorSubclasses|3|XUA2025HorrorSubclasses}."
+															]
+														}
+													]
+												}
+											]
+										},
+										{
+											"type": "statblock",
+											"prop": "subclass",
+											"source": "XUA2025HorrorSubclasses",
+											"name": "Hexblade",
+											"className": "Warlock",
+											"classSource": "XPHB",
+											"page": 7
+										}
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Warlock: Undead Patron",
+									"page": 8,
+									"entries": [
+										"{@i Defy Death for Profane Power}",
+										{
+											"type": "inset",
+											"name": "Design Note: Undead Patron Updates",
+											"page": 9,
+											"entries": [
+												"Here are the main updates in this subclass since its appearance in {@book Van Richten's Guide to Ravenloft|VRGR}:",
+												{
+													"type": "list",
+													"page": 9,
+													"items": [
+														{
+															"type": "item",
+															"name": "Undead Spells",
+															"nameDot": false,
+															"entries": [
+																"(formerly {@subclassFeature The Undead|Warlock|PHB|Undead|VRGR|1|VRGR|Expanded Spell List}) now gives you a list of always prepared spells. "
+															]
+														},
+														{
+															"type": "item",
+															"name": "Grave Touched",
+															"nameDot": false,
+															"entries": [
+																"now allows your spells and attacks to ignore {@variantrule Resistance|XPHB} to Necrotic damage. "
+															]
+														},
+														{
+															"type": "item",
+															"name": "Necrotic Husk",
+															"nameDot": false,
+															"entries": [
+																"no longer requires a {@variantrule Reaction|XPHB} to use its secondary feature, and it restores you to a number of {@variantrule Hit Points|XPHB} equal to 10 times your Charisma modifier. "
+															]
+														},
+														{
+															"type": "item",
+															"name": "Superior Dread",
+															"nameDot": false,
+															"entries": [
+																"is a new feature that improves your {@subclassFeature Form of Dread|Warlock|XPHB|Undead|XUA2025HorrorSubclasses|3|XUA2025HorrorSubclasses}, allowing you to fly, regain {@variantrule Hit Points|XPHB}, and improve your spellcasting."
+															]
+														}
+													]
+												}
+											]
+										},
+										{
+											"type": "statblock",
+											"prop": "subclass",
+											"source": "XUA2025HorrorSubclasses",
+											"name": "Undead",
+											"className": "Warlock",
+											"classSource": "XPHB",
+											"page": 8
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	]
+}
