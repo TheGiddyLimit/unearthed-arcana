@@ -17,6 +17,11 @@
 				"dateReleased": "2025-05-06"
 			}
 		],
+		"dependencies": {
+			"class": [
+				"XUA2025EberronUpdates"
+			]
+		},
 		"edition": "one",
 		"status": "ready",
 		"dateAdded": 1746541631,
