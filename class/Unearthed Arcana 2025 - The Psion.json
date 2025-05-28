@@ -1,0 +1,2881 @@
+{
+	"$schema": "https://raw.githubusercontent.com/TheGiddyLimit/5etools-utils/master/schema/ua-fast/homebrew.json",
+	"_meta": {
+		"sources": [
+			{
+				"json": "XUA2025Psion",
+				"abbreviation": "XUA25P",
+				"full": "Unearthed Arcana 2025: The Psion",
+				"authors": [
+					"Wizards of the Coast"
+				],
+				"convertedBy": [
+					"Lyra [he/him]"
+				],
+				"version": "1.1.0",
+				"url": "https://media.dndbeyond.com/compendium-images/ua/the-psion/mXCPWlh2yy5tBKqP/UA2025-ThePsion.pdf",
+				"dateReleased": "2025-05-27"
+			}
+		],
+		"optionalFeatureTypes": {
+			"PD": "Psionic Discipline"
+		},
+		"edition": "one",
+		"status": "ready",
+		"dateAdded": 1748424864,
+		"dateLastModified": 1748424864
+	},
+	"class": [
+		{
+			"name": "Psion",
+			"source": "XUA2025Psion",
+			"classFeatures": []
+		}
+	],
+	"optionalfeature": [
+		{
+			"name": "Biofeedback",
+			"source": "XUA2025Psion",
+			"page": 4,
+			"featureType": [
+				"PD"
+			],
+			"entries": [
+				"When you cast {@filter a Psion spell from the Necromancy or Transmutation school|spells|class=psion (xua25p)|school=n;t}, you can expend one Psionic Energy Die and roll it. You gain a number of {@variantrule Temporary Hit Points|XPHB} equal to the number rolled plus your Intelligence modifier (minimum of one)."
+			]
+		},
+		{
+			"name": "Destructive Thoughts",
+			"source": "XUA2025Psion",
+			"page": 4,
+			"featureType": [
+				"PD"
+			],
+			"entries": [
+				"When you cast {@filter a Psion spell from the Conjuration or Evocation school|spells|class=psion (xua25p)|school=c;v} and a creature you can see succeeds on a saving throw against the spell, you can expend one Psionic Energy Die and roll it. The creature takes Psychic damage equal to the number rolled plus your Intelligence modifier (minimum of one)."
+			]
+		},
+		{
+			"name": "Devilish Tongue",
+			"source": "XUA2025Psion",
+			"page": 4,
+			"featureType": [
+				"PD"
+			],
+			"entries": [
+				"When you take the {@action Influence|XPHB} action, you can expend one Psionic Energy Die, roll it, and add the number rolled to the ability check."
+			]
+		},
+		{
+			"name": "Ego Whip",
+			"source": "XUA2025Psion",
+			"page": 4,
+			"featureType": [
+				"PD"
+			],
+			"entries": [
+				"When a creature provokes an {@action Opportunity Attack|XPHB} from you by leaving your reach, you can take a {@variantrule Reaction|XPHB} to roll one Psionic Energy Die and force the creature to make an Intelligence saving throw. On a failed save, the target's {@variantrule Speed|XPHB} is reduced by 10 feet and it subtracts the number rolled from the next damage roll it makes before the end of its next turn. The die is expended only if the target fails the saving throw."
+			]
+		},
+		{
+			"name": "Expanded Awareness",
+			"source": "XUA2025Psion",
+			"page": 4,
+			"featureType": [
+				"PD"
+			],
+			"entries": [
+				"When you take the {@action Search|XPHB} action, you can expend one Psionic Energy Die, roll it, and add the number rolled to the ability check."
+			]
+		},
+		{
+			"name": "Id Insinuation",
+			"source": "XUA2025Psion",
+			"page": 4,
+			"featureType": [
+				"PD"
+			],
+			"entries": [
+				"When you cast {@filter a Psion spell from the Enchantment or Illusion school|spells|class=psion (xua25p)|school=e;i|saving throw=strength;dexterity;constitution;intelligence;wisdom;charisma} that forces a creature to make a saving throw, you can expend two Psionic Energy Dice and roll one Psionic Energy Die. One target of the spell you can see subtracts the number rolled from its saving throw against the spell."
+			]
+		},
+		{
+			"name": "Inerrant Aim",
+			"source": "XUA2025Psion",
+			"page": 4,
+			"featureType": [
+				"PD"
+			],
+			"entries": [
+				"When you make an attack roll against a creature and miss, you can roll one Psionic Energy Die and add the number rolled to the attack roll, potentially turning the miss into a hit. If this causes the attack to hit, the die is expended."
+			]
+		},
+		{
+			"name": "Psionic Backlash",
+			"source": "XUA2025Psion",
+			"page": 4,
+			"featureType": [
+				"PD"
+			],
+			"entries": [
+				"Immediately after a creature you can see hits you with an attack roll, you can take a {@variantrule Reaction|XPHB} to expend one Psionic Energy Die, roll two Psionic Energy Dice, and subtract the number rolled on each die from the total. In addition, you can force the attacker to make a Wisdom saving throw. On a failed save, the target takes Psychic damage equal to the amount rolled on the two Psionic Energy Dice."
+			]
+		},
+		{
+			"name": "Psionic Guards",
+			"source": "XUA2025Psion",
+			"page": 5,
+			"featureType": [
+				"PD"
+			],
+			"entries": [
+				"At the start of your turn, you can expend one Psionic Energy Die. Until the start of your next turn, you have {@variantrule Immunity|XPHB} to the {@condition Charmed|XPHB} and {@condition Frightened|XPHB} conditions and {@variantrule Advantage|XPHB} on Intelligence saving throws. If you are {@condition Charmed|XPHB} or {@condition Frightened|XPHB} when you use this discipline, the condition ends on you.",
+				"When you use Psionic Guards, you can also use a different Psionic Discipline this turn."
+			]
+		},
+		{
+			"name": "Swift Precognition",
+			"source": "XUA2025Psion",
+			"page": 5,
+			"featureType": [
+				"PD"
+			],
+			"entries": [
+				"When you cast {@filter a Psion spell from the Abjuration or Divination school with a casting time of an action|spells|class=psion (xua25p)|school=a;d|cast time=action}, you can expend a number of Psionic Energy Dice to change the casting time to a {@variantrule Bonus Action|XPHB} for this casting. The number of dice equals one plus the spell's level."
+			]
+		},
+		{
+			"name": "Tactical Mind",
+			"source": "XUA2025Psion",
+			"page": 5,
+			"featureType": [
+				"PD"
+			],
+			"entries": [
+				"When you take the {@action Study|XPHB} action, you can expend one Psionic Energy Die, roll it, and add the number rolled to the ability check."
+			]
+		}
+	],
+	"feat": [
+		{
+			"name": "Atmokinesis",
+			"source": "XUA2025Psion",
+			"page": 11,
+			"category": "WT",
+			"prerequisite": [
+				{
+					"otherSummary": {
+						"entry": "Can't Have Another Wild Talent Feat",
+						"entrySummary": "no Wild Talent"
+					}
+				}
+			],
+			"additionalSpells": [
+				{
+					"ability": {
+						"choose": [
+							"int",
+							"wis",
+							"cha"
+						]
+					},
+					"innate": {
+						"_": {
+							"_": [
+								"shocking grasp|XPHB#c"
+							]
+						}
+					},
+					"prepared": {
+						"3": {
+							"daily": {
+								"1e": [
+									"gust of wind|XPHB"
+								]
+							}
+						},
+						"_": {
+							"daily": {
+								"1e": [
+									"fog cloud|XPHB"
+								]
+							}
+						}
+					}
+				}
+			],
+			"entries": [
+				"You gain the following benefits.",
+				{
+					"type": "list",
+					"style": "list-no-bullets",
+					"items": [
+						{
+							"type": "item",
+							"name": "Lightning Jolt",
+							"entries": [
+								"Once per turn when you cast a spell or hit with an attack roll and deal Bludgeoning, Piercing, Slashing, or Psychic damage, you can change the damage type to Lightning damage."
+							]
+						},
+						{
+							"type": "item",
+							"name": "Psionic Talent",
+							"entries": [
+								"You know the {@spell Shocking Grasp|XPHB} cantrip. You also always have the {@spell Fog Cloud|XPHB} spell prepared. You can cast it once without a spell slot, and you regain the ability to cast it in that way when you finish a {@variantrule Long Rest|XPHB}. You can also cast it using any spell slots you have of the appropriate level. When you cast these spells, they require no Verbal or Material components, and Intelligence, Wisdom, or Charisma is your spellcasting ability for them (choose when you select this feat).",
+								"When you reach character level 3, you also always have the {@spell Gust of Wind|XPHB} spell prepared and can cast it the same way."
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Biokinesis",
+			"source": "XUA2025Psion",
+			"page": 12,
+			"category": "WT",
+			"prerequisite": [
+				{
+					"otherSummary": {
+						"entry": "Can't Have Another Wild Talent Feat",
+						"entrySummary": "no Wild Talent"
+					}
+				}
+			],
+			"additionalSpells": [
+				{
+					"ability": {
+						"choose": [
+							"int",
+							"wis",
+							"cha"
+						]
+					},
+					"innate": {
+						"_": {
+							"_": [
+								"spare the dying|XPHB#c"
+							]
+						}
+					},
+					"prepared": {
+						"3": {
+							"daily": {
+								"1e": [
+									"arcane vigor|XPHB"
+								]
+							}
+						},
+						"_": {
+							"daily": {
+								"1e": [
+									"healing word|XPHB"
+								]
+							}
+						}
+					}
+				}
+			],
+			"entries": [
+				"You gain the following benefits.",
+				{
+					"type": "list",
+					"style": "list-no-bullets",
+					"items": [
+						{
+							"type": "item",
+							"name": "Bend Life Energy",
+							"entries": [
+								"When a spell you cast restores {@variantrule Hit Points|XPHB} to a creature, you can roll {@dice 1d4} and add the number rolled to the total {@variantrule Hit Points|XPHB} restored. You can use this benefit a number of times equal to your {@variantrule Proficiency|XPHB|Proficiency Bonus}, and you regain all expended uses when you finish a {@variantrule Long Rest|XPHB}."
+							]
+						},
+						{
+							"type": "item",
+							"name": "Psionic Talent",
+							"entries": [
+								"You know the {@spell Spare the Dying|XPHB} cantrip. You also always have the {@spell Healing Word|XPHB} spell prepared. You can cast it once without a spell slot, and you regain the ability to cast it in that way when you finish a {@variantrule Long Rest|XPHB}. You can also cast it using any spell slots you have of the appropriate level. When you cast these spells, they require no Verbal or Material components, and Intelligence, Wisdom, or Charisma is your spellcasting ability for them (choose when you select this feat).",
+								"When you reach character level 3, you also always have the {@spell Arcane Vigor|XPHB} spell prepared and can cast it the same way."
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Clairsentience",
+			"source": "XUA2025Psion",
+			"page": 12,
+			"category": "WT",
+			"prerequisite": [
+				{
+					"otherSummary": {
+						"entry": "Can't Have Another Wild Talent Feat",
+						"entrySummary": "no Wild Talent"
+					}
+				}
+			],
+			"additionalSpells": [
+				{
+					"ability": {
+						"choose": [
+							"int",
+							"wis",
+							"cha"
+						]
+					},
+					"innate": {
+						"_": {
+							"_": [
+								"guidance|XPHB#c"
+							]
+						}
+					},
+					"prepared": {
+						"3": {
+							"daily": {
+								"1e": [
+									"See Invisibility|XPHB"
+								]
+							}
+						},
+						"_": {
+							"daily": {
+								"1e": [
+									"Detect Evil and Good|XPHB"
+								]
+							}
+						}
+					}
+				}
+			],
+			"entries": [
+				"You gain the following benefits.",
+				{
+					"type": "list",
+					"style": "list-no-bullets",
+					"items": [
+						{
+							"type": "item",
+							"name": "Minor Foreknowledge",
+							"entries": [
+								"When you take the {@action Search|XPHB} action, you can give yourself {@variantrule Advantage|XPHB} on any ability check made as part of that action. You can use this benefit a number of times equal to your {@variantrule Proficiency|XPHB|Proficiency Bonus}, and you regain all expended uses when you finish a {@variantrule Long Rest|XPHB}."
+							]
+						},
+						{
+							"type": "item",
+							"name": "Psionic Talent",
+							"entries": [
+								"You know the {@spell Guidance|XPHB} cantrip. You also always have the {@spell Detect Evil and Good|XPHB} spell prepared. You can cast it once without a spell slot, and you regain the ability to cast it in that way when you finish a {@variantrule Long Rest|XPHB}. You can also cast it using any spell slots you have of the appropriate level. When you cast these spells, they require no Verbal or Material components, and Intelligence, Wisdom, or Charisma is your spellcasting ability for these spells (choose when you select this feat).",
+								"When you reach character level 3, you also always have the {@spell See Invisibility|XPHB} spell prepared and can cast it the same way."
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Cryokinesis",
+			"source": "XUA2025Psion",
+			"page": 12,
+			"category": "WT",
+			"prerequisite": [
+				{
+					"otherSummary": {
+						"entry": "Can't Have Another Wild Talent Feat",
+						"entrySummary": "no Wild Talent"
+					}
+				}
+			],
+			"additionalSpells": [
+				{
+					"ability": {
+						"choose": [
+							"int",
+							"wis",
+							"cha"
+						]
+					},
+					"innate": {
+						"_": {
+							"_": [
+								"Ray of Frost|XPHB#c"
+							]
+						}
+					},
+					"prepared": {
+						"_": {
+							"daily": {
+								"1e": [
+									"Armor of Agathys|XPHB",
+									"Ice Knife|XPHB"
+								]
+							}
+						}
+					}
+				}
+			],
+			"entries": [
+				"You gain the following benefits.",
+				{
+					"type": "list",
+					"style": "list-no-bullets",
+					"items": [
+						{
+							"type": "entries",
+							"name": "Ice Manipulation",
+							"entries": [
+								"Once per turn when you cast a spell or hit with an attack roll and deal Bludgeoning, Piercing, Slashing, or Psychic damage, you can change the damage type to Cold damage."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Psionic Talent",
+							"entries": [
+								"You know the {@spell Ray of Frost|XPHB} cantrip. You also always have the {@spell Armor of Agathys|XPHB} and {@spell Ice Knife|XPHB} spells prepared. You can cast each spell once without a spell slot, and you regain the ability to cast it in that way when you finish a {@variantrule Long Rest|XPHB}. You can also cast these spells using any spell slots you have. When you cast these spells, they require no Verbal or Material components, and Intelligence, Wisdom, or Charisma is your spellcasting ability for them (choose when you select this feat)."
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Empath",
+			"source": "XUA2025Psion",
+			"page": 12,
+			"category": "WT",
+			"prerequisite": [
+				{
+					"otherSummary": {
+						"entry": "Can't Have Another Wild Talent Feat",
+						"entrySummary": "no Wild Talent"
+					}
+				}
+			],
+			"additionalSpells": [
+				{
+					"ability": {
+						"choose": [
+							"int",
+							"wis",
+							"cha"
+						]
+					},
+					"prepared": {
+						"3": {
+							"daily": {
+								"1e": [
+									"Calm Emotions|XPHB"
+								]
+							}
+						},
+						"_": {
+							"daily": {
+								"1e": [
+									"Charm Person|XPHB"
+								]
+							}
+						}
+					}
+				}
+			],
+			"entries": [
+				"You gain the following benefits.",
+				{
+					"type": "list",
+					"style": "list-no-bullets",
+					"items": [
+						{
+							"type": "entries",
+							"name": "Emotional Sense",
+							"entries": [
+								"When you take the {@action Influence|XPHB} action, you can give yourself {@variantrule Advantage|XPHB} on any ability check made as part of that action. You can use this benefit a number of times equal to your {@variantrule Proficiency|XPHB|Proficiency Bonus}, and you regain all expended uses when you finish a {@variantrule Long Rest|XPHB}."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Psionic Talent",
+							"entries": [
+								"You always have the {@spell Charm Person|XPHB} spell prepared. You can cast it once without a spell slot, and you regain the ability to cast it in that way when you finish a {@variantrule Long Rest|XPHB}. You can also cast it using any spell slots you have of the appropriate level. When you cast the spell, it requires no Verbal components, and Intelligence, Wisdom, or Charisma is your spellcasting ability for this spell (choose when you select this feat).",
+								"When you reach character level 3, you also always have the {@spell Calm Emotions|XPHB} spell prepared and can cast it the same way."
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Flesh Morpher",
+			"source": "XUA2025Psion",
+			"page": 13,
+			"category": "WT",
+			"prerequisite": [
+				{
+					"otherSummary": {
+						"entry": "Can't Have Another Wild Talent Feat",
+						"entrySummary": "no Wild Talent"
+					}
+				}
+			],
+			"additionalSpells": [
+				{
+					"ability": {
+						"choose": [
+							"int",
+							"wis",
+							"cha"
+						]
+					},
+					"prepared": {
+						"3": {
+							"daily": {
+								"1e": [
+									"Alter Self|XPHB"
+								]
+							}
+						},
+						"_": {
+							"daily": {
+								"1e": [
+									"Longstrider|XPHB"
+								]
+							}
+						}
+					}
+				}
+			],
+			"entries": [
+				"You gain the following benefits.",
+				{
+					"type": "list",
+					"style": "list-no-bullets",
+					"items": [
+						{
+							"type": "entries",
+							"name": "Flexible Flesh",
+							"entries": [
+								"When you make a Dexterity ({@skill Acrobatics|XPHB} or {@skill Sleight of Hand|XPHB}) check, you gain a bonus equal to your Intelligence modifier (minimum of +1). You can use this benefit a number of times equal to your {@variantrule Proficiency|XPHB|Proficiency Bonus}, and you regain all expended uses when you finish a {@variantrule Long Rest|XPHB}."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Psionic Talent",
+							"entries": [
+								"You always have the {@spell Longstrider|XPHB} spell prepared. You can cast it once without a spell slot, and you regain the ability to cast it in that way when you finish a {@variantrule Long Rest|XPHB}. You can also cast it using any spell slots you have of the appropriate level. When you cast the spell, it requires no Verbal components, and Intelligence, Wisdom, or Charisma is your spellcasting ability for this spell (choose when you select this feat).",
+								"When you reach character level 3, you also always have the {@spell Alter Self|XPHB} spell prepared and can cast it the same way."
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Mind Whisperer",
+			"source": "XUA2025Psion",
+			"page": 13,
+			"category": "WT",
+			"prerequisite": [
+				{
+					"otherSummary": {
+						"entry": "Can't Have Another Wild Talent Feat",
+						"entrySummary": "no Wild Talent"
+					}
+				}
+			],
+			"additionalSpells": [
+				{
+					"ability": {
+						"choose": [
+							"int",
+							"wis",
+							"cha"
+						]
+					},
+					"innate": {
+						"_": {
+							"_": [
+								"Mind Sliver|XPHB#c"
+							]
+						}
+					},
+					"prepared": {
+						"_": {
+							"daily": {
+								"1e": [
+									"Dissonant Whispers|XPHB"
+								]
+							}
+						}
+					}
+				}
+			],
+			"entries": [
+				"You gain the following benefits.",
+				{
+					"type": "list",
+					"style": "list-no-bullets",
+					"items": [
+						{
+							"type": "entries",
+							"name": "Limited Telepathy",
+							"entries": [
+								"As a {@action Magic|XPHB} action, choose one creature you can see within 120 feet of yourself. You form a telepathic connection to that creature. For 1 hour, you and the chosen creature can communicate telepathically with each other while within 120 feet of each other. To understand each other, you each must mentally use a language the other knows.",
+								"Once you use this benefit, you can't do so again until you finish a {@variantrule Short Rest|XPHB|Short} or {@variantrule Long Rest|XPHB}."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Psionic Talent",
+							"entries": [
+								"You know the {@spell Mind Sliver|XPHB} cantrip. You also always have the {@spell Dissonant Whispers|XPHB} spell prepared. You can cast it once without a spell slot, and you regain the ability to cast it in that way when you finish a {@variantrule Long Rest|XPHB}. You can also cast it using any spell slots you have. When you cast these spells, they require no Verbal or Material components, and Intelligence, Wisdom, or Charisma is your spellcasting ability for them (choose when you select this feat)."
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Psi Trickster",
+			"source": "XUA2025Psion",
+			"page": 13,
+			"category": "WT",
+			"prerequisite": [
+				{
+					"otherSummary": {
+						"entry": "Can't Have Another Wild Talent Feat",
+						"entrySummary": "no Wild Talent"
+					}
+				}
+			],
+			"additionalSpells": [
+				{
+					"ability": {
+						"choose": [
+							"int",
+							"wis",
+							"cha"
+						]
+					},
+					"innate": {
+						"_": {
+							"_": [
+								"Minor Illusion|XPHB#c"
+							]
+						}
+					},
+					"prepared": {
+						"_": {
+							"daily": {
+								"1e": [
+									"Disguise Self|XPHB"
+								]
+							}
+						}
+					}
+				}
+			],
+			"entries": [
+				"You gain the following benefits.",
+				{
+					"type": "list",
+					"style": "list-no-bullets",
+					"items": [
+						{
+							"type": "entries",
+							"name": "Cunning Mind",
+							"entries": [
+								"When you make a Charisma ({@skill Deception|XPHB} or {@skill Persuasion|XPHB}) check, you gain a bonus equal to your Intelligence modifier (minimum bonus of +1). You can use this benefit a number of times equal to your {@variantrule Proficiency|XPHB|Proficiency Bonus}, and you regain all expended uses when you finish a {@variantrule Long Rest|XPHB}."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Psionic Talent",
+							"entries": [
+								"You know the {@spell Minor Illusion|XPHB} cantrip. You also always have the {@spell Disguise Self|XPHB} spell prepared. You can cast it once without a spell slot, and you regain the ability to cast it in that way when you finish a {@variantrule Long Rest|XPHB}. You can also cast it using any spell slots you have. When you cast these spells, they require no Verbal or Material components, and Intelligence, Wisdom, or Charisma is your spellcasting ability for them (choose when you select this feat)."
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Psykineticist",
+			"source": "XUA2025Psion",
+			"page": 13,
+			"category": "WT",
+			"prerequisite": [
+				{
+					"otherSummary": {
+						"entry": "Can't Have Another Wild Talent Feat",
+						"entrySummary": "no Wild Talent"
+					}
+				}
+			],
+			"additionalSpells": [
+				{
+					"ability": {
+						"choose": [
+							"int",
+							"wis",
+							"cha"
+						]
+					},
+					"innate": {
+						"_": {
+							"_": [
+								"Telekinetic Fling|XUA2025Psion#c"
+							]
+						}
+					},
+					"prepared": {
+						"_": {
+							"daily": {
+								"1e": [
+									"Thunderwave|XPHB"
+								]
+							}
+						}
+					}
+				}
+			],
+			"entries": [
+				"You gain the following benefits.",
+				{
+					"type": "list",
+					"style": "list-no-bullets",
+					"items": [
+						{
+							"type": "entries",
+							"name": "Psi Boost",
+							"entries": [
+								"When you take the {@action Dash|XPHB} action, you can increase your {@variantrule Speed|XPHB} by 10 feet until the start of your next turn. You can do this a number of times equal to your {@variantrule Proficiency|XPHB|Proficiency Bonus}, and you regain all expended uses when you finish a {@variantrule Long Rest|XPHB}."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Psionic Talent",
+							"entries": [
+								"You know the {@spell Telekinetic Fling|XUA2025Psion} cantrip (included in this UA). You also always have the {@spell Thunderwave|XPHB} spell prepared. You can cast it once without a spell slot, and you regain the ability to cast it in that way when you finish a {@variantrule Long Rest|XPHB}. You can also cast it using any spell slots you have. When you cast these spells, they require no Verbal components, and Intelligence, Wisdom, or Charisma is your spellcasting ability for them (choose when you select this feat)."
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Pyrokinesis",
+			"source": "XUA2025Psion",
+			"page": 13,
+			"category": "WT",
+			"prerequisite": [
+				{
+					"otherSummary": {
+						"entry": "Can't Have Another Wild Talent Feat",
+						"entrySummary": "no Wild Talent"
+					}
+				}
+			],
+			"additionalSpells": [
+				{
+					"ability": {
+						"choose": [
+							"int",
+							"wis",
+							"cha"
+						]
+					},
+					"innate": {
+						"_": {
+							"_": [
+								"Produce Flame|XPHB#c"
+							]
+						}
+					},
+					"prepared": {
+						"3": {
+							"daily": {
+								"1e": [
+									"Scorching Ray|XPHB"
+								]
+							}
+						},
+						"_": {
+							"daily": {
+								"1e": [
+									"Burning Hands|XPHB"
+								]
+							}
+						}
+					}
+				}
+			],
+			"entries": [
+				"You gain the following benefits.",
+				{
+					"type": "list",
+					"style": "list-no-bullets",
+					"items": [
+						{
+							"type": "entries",
+							"name": "Firestarter",
+							"entries": [
+								"Once per turn when you cast a spell or hit with an attack roll and deal Bludgeoning, Piercing, Slashing, or Psychic damage, you can change the damage type to Fire damage."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Psionic Talent",
+							"entries": [
+								"You know the {@spell Produce Flame|XPHB} cantrip. You also always have the {@spell Burning Hands|XPHB} spell prepared. You can cast it once without a spell slot, and you regain the ability to cast it in that way when you finish a {@variantrule Long Rest|XPHB}. You can also cast it using any spell slots you have of the appropriate level. When you cast these spells, they require no Verbal or Material components, and Intelligence, Wisdom, or Charisma is your spellcasting ability for them (choose when you select this feat).",
+								"When you reach character level 3, you also always have the {@spell Scorching Ray|XPHB} spell prepared and can cast it the same way."
+							]
+						}
+					]
+				}
+			]
+		}
+	],
+	"spell": [
+		{
+			"name": "Intellect Fortress",
+			"source": "XUA2025Psion",
+			"page": 10,
+			"level": 3,
+			"school": "A",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 30
+				}
+			},
+			"components": {
+				"v": true
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "hour",
+						"amount": 1
+					},
+					"concentration": true
+				}
+			],
+			"entries": [
+				"For the duration, one willing creature you can see within range has {@variantrule Resistance|XPHB} to Psychic damage, as well as {@variantrule Advantage|XPHB} on Intelligence, Wisdom, and Charisma saving throws."
+			],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "Using a Higher-Level Spell Slot",
+					"entries": [
+						"You can target one additional creature for each spell slot level above 3."
+					]
+				}
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Artificer",
+						"source": "XUA2025EberronUpdates"
+					},
+					{
+						"name": "Bard",
+						"source": "XPHB"
+					},
+					{
+						"name": "Psion",
+						"source": "XUA2025Psion"
+					},
+					{
+						"name": "Sorcerer",
+						"source": "XPHB"
+					},
+					{
+						"name": "Warlock",
+						"source": "XPHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "XPHB"
+					}
+				]
+			},
+			"savingThrow": [
+				"charisma"
+			],
+			"miscTags": [
+				"SCT",
+				"SGT"
+			]
+		},
+		{
+			"name": "Psychic Scream",
+			"source": "XUA2025Psion",
+			"page": 10,
+			"level": 9,
+			"school": "E",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 90
+				}
+			},
+			"components": {
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"entries": [
+				"You unleash the power of your mind to blast the intellect of up to ten creatures of your choice that you can see within range. Creatures that have an Intelligence score of 2 or lower are unaffected.",
+				"Each target must make an Intelligence saving throw. On a failed save, a target takes {@damage 14d6} Psychic damage and has the {@condition Stunned|XPHB} condition. On a successful save, a target takes half as much damage only. If the target is reduced to 0 {@variantrule Hit Points|XPHB} by this damage, its head explodes, assuming it has one.",
+				"At the end of each of its turns, the {@condition Stunned|XPHB} target repeats the save, ending the condition on itself on a success."
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Bard",
+						"source": "XPHB"
+					},
+					{
+						"name": "Psion",
+						"source": "XUA2025Psion"
+					},
+					{
+						"name": "Sorcerer",
+						"source": "XPHB"
+					},
+					{
+						"name": "Warlock",
+						"source": "XPHB"
+					}
+				]
+			},
+			"damageInflict": [
+				"psychic"
+			],
+			"conditionInflict": [
+				"stunned"
+			],
+			"savingThrow": [
+				"intelligence"
+			],
+			"miscTags": [
+				"SGT"
+			]
+		},
+		{
+			"name": "Raulothim's Psychic Lance",
+			"source": "XUA2025Psion",
+			"page": 10,
+			"level": 4,
+			"school": "E",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 120
+				}
+			},
+			"components": {
+				"v": true
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"entries": [
+				"You unleash a shimmering lance of psychic power from your forehead at a creature that you can see within range. Alternatively, you can utter a creature's name (a pseudonym, title, or nickname doesn't work). If the named target is within range, it becomes the spell's target even if you can't see it. If the named target isn't within range or you use an invalid name, the lance dissipates without effect.",
+				"The target must make an Intelligence saving throw. On a failed save, the target takes {@damage 7d6} Psychic damage and has the {@condition Incapacitated|XPHB} condition until the start of your next turn. On a successful save, the target takes half as much damage only."
+			],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "Using a Higher-Level Spell Slot",
+					"entries": [
+						"The damage increases by {@dice 1d6} for each spell slot level above 4."
+					]
+				}
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Bard",
+						"source": "XPHB"
+					},
+					{
+						"name": "Psion",
+						"source": "XUA2025Psion"
+					},
+					{
+						"name": "Sorcerer",
+						"source": "XPHB"
+					},
+					{
+						"name": "Warlock",
+						"source": "XPHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "XPHB"
+					}
+				]
+			},
+			"damageInflict": [
+				"psychic"
+			],
+			"conditionInflict": [
+				"incapacitated"
+			],
+			"savingThrow": [
+				"intelligence"
+			],
+			"miscTags": [
+				"SGT"
+			]
+		},
+		{
+			"name": "Summon Astral Entity",
+			"source": "XUA2025Psion",
+			"page": 10,
+			"level": 3,
+			"school": "C",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 90
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": {
+					"text": "a gem or crystal worth 300+ GP",
+					"cost": 30000
+				}
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "hour",
+						"amount": 1
+					},
+					"concentration": true
+				}
+			],
+			"entries": [
+				"You call forth the spirit of a psionic entity. It manifests in an unoccupied space that you can see within range and uses the {@creature Psionic Spirit|XUA2025Psion} stat block. When you cast the spell, choose Crystal Entity, Ectoplasmic Entity, or Ghostly Entity. The creature resembles an astral entity of that kind, which determines certain details in its stat block. The creature disappears when it drops to 0 {@variantrule Hit Points|XPHB} or when the spell ends.",
+				"The creature is an ally to you and your allies. In combat, the creature shares your {@variantrule Initiative|XPHB} count, but it takes its turn immediately after yours. It obeys your verbal commands (no action required by you). If you don't issue any, it takes the {@action Dodge|XPHB} action and uses its movement to avoid danger.",
+				{
+					"type": "statblock",
+					"tag": "creature",
+					"source": "XUA2025Psion",
+					"name": "Psionic Spirit",
+					"page": 11,
+					"collapsed": true
+				}
+			],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "Using a Higher-Level Spell Slot",
+					"entries": [
+						"Use the spell slot's level for the spell's level in the stat block."
+					]
+				}
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Psion",
+						"source": "XUA2025Psion"
+					},
+					{
+						"name": "Sorcerer",
+						"source": "XPHB"
+					},
+					{
+						"name": "Warlock",
+						"source": "XPHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "XPHB"
+					}
+				]
+			},
+			"miscTags": [
+				"SGT",
+				"SMN"
+			]
+		},
+		{
+			"name": "Tasha's Mind Whip",
+			"source": "XUA2025Psion",
+			"page": 11,
+			"level": 2,
+			"school": "E",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 90
+				}
+			},
+			"components": {
+				"v": true
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"entries": [
+				"You psychically lash out at one creature you can see within range. The target must make an Intelligence saving throw. On a failed save, the target takes {@damage 3d6} Psychic damage, and it can't make {@action Opportunity Attack|XPHB|Opportunity Attacks} until the end of its next turn. Moreover, on its next turn, it can take either an action or a {@variantrule Bonus Action|XPHB}, not both. On a successful save, the target takes half as much damage only."
+			],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "Using a Higher-Level Spell Slot",
+					"entries": [
+						"You can target one additional creature for each spell slot level above 2."
+					]
+				}
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Psion",
+						"source": "XUA2025Psion"
+					},
+					{
+						"name": "Sorcerer",
+						"source": "XPHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "XPHB"
+					}
+				]
+			},
+			"damageInflict": [
+				"psychic"
+			],
+			"savingThrow": [
+				"intelligence"
+			],
+			"miscTags": [
+				"SCT",
+				"SGT",
+				"UBA"
+			]
+		},
+		{
+			"name": "Telekinetic Crush",
+			"source": "XUA2025Psion",
+			"page": 11,
+			"level": 3,
+			"school": "T",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 120
+				}
+			},
+			"components": {
+				"v": true
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"entries": [
+				"You create a field of crushing telekinetic force in a 30-foot {@variantrule Cube [Area of Effect]|XPHB|Cube} within range. Each creature in the area makes a Strength saving throw. On a failed save, a target takes {@damage 5d6} Force damage and has the {@condition Prone|XPHB} condition. On a successful save, a target takes half as much damage only."
+			],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "Using a Higher-Level Spell Slot",
+					"entries": [
+						"The damage increases by {@dice 1d6} for each spell slot level above 3."
+					]
+				}
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Psion",
+						"source": "XUA2025Psion"
+					},
+					{
+						"name": "Sorcerer",
+						"source": "XPHB"
+					},
+					{
+						"name": "Warlock",
+						"source": "XPHB"
+					}
+				]
+			},
+			"damageInflict": [
+				"force"
+			],
+			"conditionInflict": [
+				"prone"
+			],
+			"savingThrow": [
+				"strength"
+			]
+		},
+		{
+			"name": "Telekinetic Fling",
+			"source": "XUA2025Psion",
+			"page": 11,
+			"level": 0,
+			"school": "V",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 60
+				}
+			},
+			"components": {
+				"v": true,
+				"m": {
+					"text": "an Arrow, Bolt, Bullet, or Needle worth at least 1 CP",
+					"cost": 1
+				}
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"entries": [
+				"You brandish the ammunition used to cast this spell and fire it at a creature within range using psionic energy. Make a ranged spell attack against the target. On a hit, the target takes {@damage 1d10} Force damage, and the ammunition is destroyed."
+			],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "Cantrip Upgrade",
+					"entries": [
+						"The damage increases by {@dice 1d10} when you reach levels 5 ({@dice 2d10}), 11 ({@dice 3d10}), and 17 ({@dice 4d10})."
+					]
+				}
+			],
+			"scalingLevelDice": {
+				"label": "force damage",
+				"scaling": {
+					"1": "1d10",
+					"5": "2d10",
+					"11": "3d10",
+					"17": "4d10"
+				}
+			},
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Psion",
+						"source": "XUA2025Psion"
+					}
+				]
+			},
+			"damageInflict": [
+				"force"
+			],
+			"spellAttack": [
+				"R"
+			],
+			"miscTags": [
+				"SCL"
+			]
+		}
+	],
+	"monster": [
+		{
+			"name": "Psionic Spirit",
+			"source": "XUA2025Psion",
+			"page": 11,
+			"summonedBySpell": "Summon Astral Entity|XUA2025Psion",
+			"size": [
+				"M"
+			],
+			"type": "aberration",
+			"alignment": [
+				"N"
+			],
+			"ac": [
+				{
+					"special": "11 + the spell's level + 2 (Crystal Entity only)"
+				}
+			],
+			"hp": {
+				"special": "40 + 10 for each spell level above 3"
+			},
+			"speed": {
+				"walk": 30,
+				"fly": {
+					"number": 30,
+					"condition": "(Ghostly Entity only)"
+				}
+			},
+			"str": 16,
+			"dex": 12,
+			"con": 11,
+			"int": 16,
+			"wis": 12,
+			"cha": 10,
+			"senses": [
+				"Darkvision 60 ft."
+			],
+			"passive": 11,
+			"immune": [
+				"psychic"
+			],
+			"languages": [
+				"Deep Speech; telepathy 60 ft."
+			],
+			"pbNote": "equals your Proficiency Bonus",
+			"trait": [
+				{
+					"name": "Incorporeal Passage (Ectoplasmic Entity and Ghostly Entity Only)",
+					"entries": [
+						"The spirit can move through other creatures and objects as if they were {@variantrule Difficult Terrain|XPHB}. If the spirit ends its turn in such a space, it is shunted to the nearest unoccupied space and takes {@damage 1d10} Force damage for every 5 feet traveled."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The spirit makes a number of attacks equal to half this spell's level (round down)."
+					]
+				},
+				{
+					"name": "Crystal Strike (Crystal Entity Only)",
+					"entries": [
+						"{@atkr m} {@hitYourSpellAttack Bonus equals your spell attack modifier}, reach 5 ft. {@h}{@damage 1d10 + 3} + the spell's level Piercing damage."
+					]
+				},
+				{
+					"name": "Ectoplasmic Splash (Ectoplasmic Entity Only)",
+					"entries": [
+						"{@atkr r} {@hitYourSpellAttack Bonus equals your spell attack modifier}, range 30 feet. {@h}{@damage 1d6 + 3} + the spell's level Psychic damage. {@hom}Each creature in a 5-foot {@variantrule Emanation [Area of Effect]|XPHB|Emanation} originating from and including the target has its {@variantrule Speed|XPHB} reduced by 5 feet until the end of its next turn."
+					]
+				},
+				{
+					"name": "Ephemeral Ray (Ghostly Entity Only)",
+					"entries": [
+						"{@atkr r} {@hitYourSpellAttack Bonus equals your spell attack modifier}, range 120 ft. {@h}{@damage 1d8 + 3} + the spell's level Psychic damage."
+					]
+				}
+			],
+			"reaction": [
+				{
+					"name": "Shard Swarm (Crystal Entity Only)",
+					"entries": [
+						"{@actTrigger} The spirit is hit by a melee attack roll. {@actResponse} The spirit halves the damage (round down) it takes from that attack. The spirit can then teleport to an unoccupied space it can see within 30 feet of itself."
+					]
+				}
+			],
+			"traitTags": [
+				"Incorporeal Movement"
+			],
+			"senseTags": [
+				"D"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"languageTags": [
+				"DS",
+				"TP"
+			],
+			"damageTags": [
+				"O",
+				"P",
+				"Y"
+			],
+			"miscTags": [
+				"MA",
+				"RA"
+			]
+		}
+	],
+	"table": [
+		{
+			"name": "Psion Spell List",
+			"source": "XUA2025Psion",
+			"page": 5,
+			"type": "tableGroup",
+			"tables": [
+				{
+					"name": "Cantrips (Level 0 Psion Spells)",
+					"source": "XUA2025Psion",
+					"page": 5,
+					"type": "table",
+					"caption": "Cantrips (Level 0 Psion Spells)",
+					"colLabels": [
+						"Spell",
+						"School",
+						"Special"
+					],
+					"colStyles": [
+						"col-6",
+						"col-4",
+						"col-2 text-center"
+					],
+					"rows": [
+						[
+							"{@spell Blade Ward|XPHB}",
+							"Abjuration",
+							"C"
+						],
+						[
+							"{@spell Dancing Lights|XPHB}",
+							"Illusion",
+							"C"
+						],
+						[
+							"{@spell Friends|XPHB}",
+							"Enchantment",
+							"C"
+						],
+						[
+							"{@spell Light|XPHB}",
+							"Evocation",
+							"\u2014"
+						],
+						[
+							"{@spell Mage Hand|XPHB}",
+							"Conjuration",
+							"\u2014"
+						],
+						[
+							"{@spell Mending|XPHB}",
+							"Transmutation",
+							"\u2014"
+						],
+						[
+							"{@spell Message|XPHB}",
+							"Transmutation",
+							"\u2014"
+						],
+						[
+							"{@spell Mind Sliver|XPHB}",
+							"Enchantment",
+							"\u2014"
+						],
+						[
+							"{@spell Minor Illusion|XPHB}",
+							"Illusion",
+							"\u2014"
+						],
+						[
+							"{@spell Prestidigitation|XPHB}",
+							"Transmutation",
+							"\u2014"
+						],
+						[
+							"{@spell Telekinetic Fling|XUA2025Psion} (appears in this UA)",
+							"Evocation",
+							"\u2014"
+						],
+						[
+							"{@spell True Strike|XPHB}",
+							"Divination",
+							"\u2014"
+						]
+					]
+				},
+				{
+					"name": "Level 1 Psion Spells",
+					"source": "XUA2025Psion",
+					"page": 5,
+					"type": "table",
+					"caption": "Level 1 Psion Spells",
+					"colLabels": [
+						"Spell",
+						"School",
+						"Special"
+					],
+					"colStyles": [
+						"col-6",
+						"col-4",
+						"col-2 text-center"
+					],
+					"rows": [
+						[
+							"{@spell Animal Friendship|XPHB}",
+							"Enchantment",
+							"\u2014"
+						],
+						[
+							"{@spell Charm Person|XPHB}",
+							"Enchantment",
+							"\u2014"
+						],
+						[
+							"{@spell Command|XPHB}",
+							"Enchantment",
+							"\u2014"
+						],
+						[
+							"{@spell Comprehend Languages|XPHB}",
+							"Divination",
+							"R"
+						],
+						[
+							"{@spell Detect Magic|XPHB}",
+							"Divination",
+							"C, R"
+						],
+						[
+							"{@spell Dissonant Whispers|XPHB}",
+							"Enchantment",
+							"\u2014"
+						],
+						[
+							"{@spell Feather Fall|XPHB}",
+							"Transmutation",
+							"\u2014"
+						],
+						[
+							"{@spell Identify|XPHB}",
+							"Divination",
+							"R, M"
+						],
+						[
+							"{@spell Jump|XPHB}",
+							"Transmutation",
+							"\u2014"
+						],
+						[
+							"{@spell Longstrider|XPHB}",
+							"Transmutation",
+							"\u2014"
+						],
+						[
+							"{@spell Mage Armor|XPHB}",
+							"Abjuration",
+							"\u2014"
+						],
+						[
+							"{@spell Silent Image|XPHB}",
+							"Illusion",
+							"C"
+						],
+						[
+							"{@spell Sleep|XPHB}",
+							"Enchantment",
+							"C"
+						],
+						[
+							"{@spell Speak with Animals|XPHB}",
+							"Divination",
+							"R"
+						],
+						[
+							"{@spell Tasha's Hideous Laughter|XPHB}",
+							"Enchantment",
+							"C"
+						],
+						[
+							"{@spell Tenser's Floating Disk|XPHB}",
+							"Conjuration",
+							"R"
+						]
+					]
+				},
+				{
+					"name": "Level 2 Psion Spells",
+					"source": "XUA2025Psion",
+					"page": 5,
+					"type": "table",
+					"caption": "Level 2 Psion Spells",
+					"colLabels": [
+						"Spell",
+						"School",
+						"Special"
+					],
+					"colStyles": [
+						"col-6",
+						"col-4",
+						"col-2 text-center"
+					],
+					"rows": [
+						[
+							"{@spell Animal Messenger|XPHB}",
+							"Enchantment",
+							"R"
+						],
+						[
+							"{@spell Blindness/Deafness|XPHB}",
+							"Transmutation",
+							"\u2014"
+						],
+						[
+							"{@spell Calm Emotions|XPHB}",
+							"Enchantment",
+							"C"
+						],
+						[
+							"{@spell Crown of Madness|XPHB}",
+							"Enchantment",
+							"C"
+						],
+						[
+							"{@spell Detect Thoughts|XPHB}",
+							"Divination",
+							"C"
+						],
+						[
+							"{@spell Enhance Ability|XPHB}",
+							"Transmutation",
+							"C"
+						],
+						[
+							"{@spell Enlarge/Reduce|XPHB}",
+							"Transmutation",
+							"C"
+						],
+						[
+							"{@spell Enthrall|XPHB}",
+							"Enchantment",
+							"C"
+						],
+						[
+							"{@spell Heat Metal|XPHB}",
+							"Transmutation",
+							"C"
+						],
+						[
+							"{@spell Hold Person|XPHB}",
+							"Enchantment",
+							"C"
+						],
+						[
+							"{@spell Invisibility|XPHB}",
+							"Illusion",
+							"C"
+						],
+						[
+							"{@spell Knock|XPHB}",
+							"Transmutation",
+							"\u2014"
+						],
+						[
+							"{@spell Locate Animals or Plants|XPHB}",
+							"Divination",
+							"R"
+						],
+						[
+							"{@spell Locate Object|XPHB}",
+							"Divination",
+							"C"
+						],
+						[
+							"{@spell Magic Mouth|XPHB}",
+							"Illusion",
+							"R, M"
+						],
+						[
+							"{@spell Mind Spike|XPHB}",
+							"Divination",
+							"C"
+						],
+						[
+							"{@spell Mirror Image|XPHB}",
+							"Illusion",
+							"\u2014"
+						],
+						[
+							"{@spell Phantasmal Force|XPHB}",
+							"Illusion",
+							"C"
+						],
+						[
+							"{@spell See Invisibility|XPHB}",
+							"Divination",
+							"\u2014"
+						],
+						[
+							"{@spell Shatter|XPHB}",
+							"Evocation",
+							"\u2014"
+						],
+						[
+							"{@spell Silence|XPHB}",
+							"Illusion",
+							"C, R"
+						],
+						[
+							"{@spell Suggestion|XPHB}",
+							"Enchantment",
+							"C"
+						],
+						[
+							"{@spell Tasha's Mind Whip|XUA2025Psion} (appears in this UA)",
+							"Enchantment",
+							"\u2014"
+						],
+						[
+							"{@spell Zone of Truth|XPHB}",
+							"Enchantment",
+							"\u2014"
+						]
+					]
+				},
+				{
+					"name": "Level 3 Psion Spells",
+					"source": "XUA2025Psion",
+					"page": 6,
+					"type": "table",
+					"caption": "Level 3 Psion Spells",
+					"colLabels": [
+						"Spell",
+						"School",
+						"Special"
+					],
+					"colStyles": [
+						"col-6",
+						"col-4",
+						"col-2 text-center"
+					],
+					"rows": [
+						[
+							"{@spell Animate Dead|XPHB}",
+							"Necromancy",
+							"\u2014"
+						],
+						[
+							"{@spell Bestow Curse|XPHB}",
+							"Necromancy",
+							"C"
+						],
+						[
+							"{@spell Clairvoyance|XPHB}",
+							"Divination",
+							"C, M"
+						],
+						[
+							"{@spell Dispel Magic|XPHB}",
+							"Abjuration",
+							"\u2014"
+						],
+						[
+							"{@spell Fear|XPHB}",
+							"Illusion",
+							"C"
+						],
+						[
+							"{@spell Fly|XPHB}",
+							"Transmutation",
+							"C"
+						],
+						[
+							"{@spell Hypnotic Pattern|XPHB}",
+							"Illusion",
+							"C"
+						],
+						[
+							"{@spell Intellect Fortress|XUA2025Psion} (appears in this UA)",
+							"Abjuration",
+							"C"
+						],
+						[
+							"{@spell Major Image|XPHB}",
+							"Illusion",
+							"C"
+						],
+						[
+							"{@spell Nondetection|XPHB}",
+							"Abjuration",
+							"M"
+						],
+						[
+							"{@spell Sending|XPHB}",
+							"Divination",
+							"\u2014"
+						],
+						[
+							"{@spell Summon Astral Entity|XUA2025Psion} (appears in this UA)",
+							"Conjuration",
+							"C, M"
+						],
+						[
+							"{@spell Telekinetic Crush|XUA2025Psion} (appears in this UA)",
+							"Transmutation",
+							"\u2014"
+						],
+						[
+							"{@spell Tongues|XPHB}",
+							"Divination",
+							"\u2014"
+						]
+					]
+				},
+				{
+					"name": "Level 4 Artificer Spells",
+					"source": "XUA2025Psion",
+					"page": 6,
+					"type": "table",
+					"caption": "Level 4 Artificer Spells",
+					"colLabels": [
+						"Spell",
+						"School",
+						"Special"
+					],
+					"colStyles": [
+						"col-6",
+						"col-4",
+						"col-2 text-center"
+					],
+					"rows": [
+						[
+							"{@spell Arcane Eye|XPHB}",
+							"Divination",
+							"C"
+						],
+						[
+							"{@spell Banishment|XPHB}",
+							"Abjuration",
+							"C"
+						],
+						[
+							"{@spell Charm Monster|XPHB}",
+							"Enchantment",
+							"\u2014"
+						],
+						[
+							"{@spell Compulsion|XPHB}",
+							"Enchantment",
+							"C"
+						],
+						[
+							"{@spell Confusion|XPHB}",
+							"Enchantment",
+							"C"
+						],
+						[
+							"{@spell Dimension Door|XPHB}",
+							"Conjuration",
+							"\u2014"
+						],
+						[
+							"{@spell Freedom of Movement|XPHB}",
+							"Abjuration",
+							"\u2014"
+						],
+						[
+							"{@spell Greater Invisibility|XPHB}",
+							"Illusion",
+							"C"
+						],
+						[
+							"{@spell Hallucinatory Terrain|XPHB}",
+							"Illusion",
+							"\u2014"
+						],
+						[
+							"{@spell Locate Creature|XPHB}",
+							"Divination",
+							"C"
+						],
+						[
+							"{@spell Phantasmal Killer|XPHB}",
+							"Illusion",
+							"C"
+						],
+						[
+							"{@spell Polymorph|XPHB}",
+							"Transmutation",
+							"C"
+						],
+						[
+							"{@spell Raulothim's Psychic Lance|XUA2025Psion} (appears in this UA)",
+							"Enchantment",
+							"\u2014"
+						],
+						[
+							"{@spell Summon Aberration|XPHB}",
+							"Conjuration",
+							"C, M"
+						]
+					]
+				},
+				{
+					"name": "Level 5 Psion Spells",
+					"source": "XUA2025Psion",
+					"page": 6,
+					"type": "table",
+					"caption": "Level 5 Psion Spells",
+					"colLabels": [
+						"Spell",
+						"School",
+						"Special"
+					],
+					"colStyles": [
+						"col-6",
+						"col-4",
+						"col-2 text-center"
+					],
+					"rows": [
+						[
+							"{@spell Animate Objects|XPHB}",
+							"Transmutation",
+							"C"
+						],
+						[
+							"{@spell Awaken|XPHB}",
+							"Transmutation",
+							"M"
+						],
+						[
+							"{@spell Contact Other Plane|XPHB}",
+							"Divination",
+							"R"
+						],
+						[
+							"{@spell Dominate Person|XPHB}",
+							"Enchantment",
+							"C"
+						],
+						[
+							"{@spell Dream|XPHB}",
+							"Illusion",
+							"\u2014"
+						],
+						[
+							"{@spell Geas|XPHB}",
+							"Enchantment",
+							"\u2014"
+						],
+						[
+							"{@spell Hold Monster|XPHB}",
+							"Enchantment",
+							"C"
+						],
+						[
+							"{@spell Legend Lore|XPHB}",
+							"Divination",
+							"M"
+						],
+						[
+							"{@spell Mislead|XPHB}",
+							"Illusion",
+							"C"
+						],
+						[
+							"{@spell Modify Memory|XPHB}",
+							"Enchantment",
+							"C"
+						],
+						[
+							"{@spell Rary's Telepathic Bond|XPHB}",
+							"Divination",
+							"R"
+						],
+						[
+							"{@spell Scrying|XPHB}",
+							"Divination",
+							"C, M"
+						],
+						[
+							"{@spell Seeming|XPHB}",
+							"Illusion",
+							"\u2014"
+						],
+						[
+							"{@spell Synaptic Static|XPHB}",
+							"Enchantment",
+							"\u2014"
+						],
+						[
+							"{@spell Telekinesis|XPHB}",
+							"Transmutation",
+							"C"
+						],
+						[
+							"{@spell Teleportation Circle|XPHB}",
+							"Conjuration",
+							"M"
+						]
+					]
+				},
+				{
+					"name": "Level 6 Psion Spells",
+					"source": "XUA2025Psion",
+					"page": 6,
+					"type": "table",
+					"caption": "Level 6 Psion Spells",
+					"colLabels": [
+						"Spell",
+						"School",
+						"Special"
+					],
+					"colStyles": [
+						"col-6",
+						"col-4",
+						"col-2 text-center"
+					],
+					"rows": [
+						[
+							"{@spell Blade Barrier|XPHB}",
+							"Evocation",
+							"C"
+						],
+						[
+							"{@spell Disintegrate|XPHB}",
+							"Transmutation",
+							"\u2014"
+						],
+						[
+							"{@spell Eyebite|XPHB}",
+							"Necromancy",
+							"C"
+						],
+						[
+							"{@spell Find the Path|XPHB}",
+							"Divination",
+							"C, M"
+						],
+						[
+							"{@spell Mass Suggestion|XPHB}",
+							"Enchantment",
+							"\u2014"
+						],
+						[
+							"{@spell Move Earth|XPHB}",
+							"Transmutation",
+							"C"
+						],
+						[
+							"{@spell Otto's Irresistible Dance|XPHB}",
+							"Enchantment",
+							"C"
+						],
+						[
+							"{@spell Programmed Illusion|XPHB}",
+							"Illusion",
+							"M"
+						],
+						[
+							"{@spell True Seeing|XPHB}",
+							"Divination",
+							"M"
+						]
+					]
+				},
+				{
+					"name": "Level 7 Psion Spells",
+					"source": "XUA2025Psion",
+					"page": 6,
+					"type": "table",
+					"caption": "Level 7 Psion Spells",
+					"colLabels": [
+						"Spell",
+						"School",
+						"Special"
+					],
+					"colStyles": [
+						"col-6",
+						"col-4",
+						"col-2 text-center"
+					],
+					"rows": [
+						[
+							"{@spell Etherealness|XPHB}",
+							"Conjuration",
+							"\u2014"
+						],
+						[
+							"{@spell Forcecage|XPHB}",
+							"Evocation",
+							"C, M"
+						],
+						[
+							"{@spell Mirage Arcane|XPHB}",
+							"Illusion",
+							"\u2014"
+						],
+						[
+							"{@spell Plane Shift|XPHB}",
+							"Conjuration",
+							"M"
+						],
+						[
+							"{@spell Power Word Fortify|XPHB}",
+							"Enchantment",
+							"\u2014"
+						],
+						[
+							"{@spell Project Image|XPHB}",
+							"Illusion",
+							"C, M"
+						],
+						[
+							"{@spell Reverse Gravity|XPHB}",
+							"Transmutation",
+							"C"
+						],
+						[
+							"{@spell Teleport|XPHB}",
+							"Conjuration",
+							"\u2014"
+						]
+					]
+				},
+				{
+					"name": "Level 8 Psion Spells",
+					"source": "XUA2025Psion",
+					"page": 6,
+					"type": "table",
+					"caption": "Level 8 Psion Spells",
+					"colLabels": [
+						"Spell",
+						"School",
+						"Special"
+					],
+					"colStyles": [
+						"col-6",
+						"col-4",
+						"col-2 text-center"
+					],
+					"rows": [
+						[
+							"{@spell Antipathy/Sympathy|XPHB}",
+							"Enchantment",
+							"\u2014"
+						],
+						[
+							"{@spell Befuddlement|XPHB}",
+							"Enchantment",
+							"\u2014"
+						],
+						[
+							"{@spell Dominate Monster|XPHB}",
+							"Enchantment",
+							"C"
+						],
+						[
+							"{@spell Glibness|XPHB}",
+							"Enchantment",
+							"\u2014"
+						],
+						[
+							"{@spell Maze|XPHB}",
+							"Conjuration",
+							"C"
+						],
+						[
+							"{@spell Mind Blank|XPHB}",
+							"Abjuration",
+							"\u2014"
+						],
+						[
+							"{@spell Power Word Stun|XPHB}",
+							"Enchantment",
+							"\u2014"
+						],
+						[
+							"{@spell Telepathy|XPHB}",
+							"Divination",
+							"\u2014"
+						]
+					]
+				},
+				{
+					"name": "Level 9 Psion Spells",
+					"source": "XUA2025Psion",
+					"page": 6,
+					"type": "table",
+					"caption": "Level 9 Psion Spells",
+					"colLabels": [
+						"Spell",
+						"School",
+						"Special"
+					],
+					"colStyles": [
+						"col-6",
+						"col-4",
+						"col-2 text-center"
+					],
+					"rows": [
+						[
+							"{@spell Astral Projection|XPHB}",
+							"Necromancy",
+							"M"
+						],
+						[
+							"{@spell Foresight|XPHB}",
+							"Divination",
+							"\u2014"
+						],
+						[
+							"{@spell Power Word Heal|XPHB}",
+							"Enchantment",
+							"\u2014"
+						],
+						[
+							"{@spell Power Word Kill|XPHB}",
+							"Enchantment",
+							"\u2014"
+						],
+						[
+							"{@spell Psychic Scream|XUA2025Psion} (appears in this UA)",
+							"Enchantment",
+							"\u2014"
+						],
+						[
+							"{@spell Shapechange|XPHB}",
+							"Transmutation",
+							"C, M"
+						],
+						[
+							"{@spell Time Stop|XPHB}",
+							"Transmutation",
+							"\u2014"
+						],
+						[
+							"{@spell Weird|XPHB}",
+							"Illusion",
+							"C"
+						]
+					]
+				}
+			]
+		}
+	],
+	"book": [
+		{
+			"name": "Unearthed Arcana 2025: The Psion",
+			"id": "XUA2025Psion",
+			"source": "XUA2025Psion",
+			"group": "prerelease",
+			"cover": {
+				"type": "internal",
+				"path": "covers/blank.webp"
+			},
+			"published": "2025-05-27",
+			"author": "Wizards of the Coast",
+			"contents": [
+				{
+					"name": "Unearthed Arcana 2025: The Psion",
+					"headers": [
+						"What's Inside",
+						"Psion",
+						{
+							"header": "Psionic Discipline Options",
+							"depth": 1
+						},
+						{
+							"header": "Psion Spell List",
+							"depth": 1
+						},
+						"Psion Subclasses",
+						{
+							"header": "Metamorph",
+							"depth": 1
+						},
+						{
+							"header": "Psi Warper",
+							"depth": 1
+						},
+						{
+							"header": "Psykinetic",
+							"depth": 1
+						},
+						{
+							"header": "Telepath",
+							"depth": 1
+						},
+						"Spells",
+						"Feats"
+					]
+				}
+			]
+		}
+	],
+	"bookData": [
+		{
+			"id": "XUA2025Psion",
+			"source": "XUA2025Psion",
+			"data": [
+				{
+					"type": "section",
+					"name": "Unearthed Arcana 2025: The Psion",
+					"page": 1,
+					"entries": [
+						"This playtest document is part of a series of {@i Unearthed Arcana} articles that present material designed for upcoming books. The material here uses the rules in the {@book 2024 Player's Handbook|XPHB}.",
+						{
+							"type": "inset",
+							"name": "Learn More on YouTube",
+							"page": 1,
+							"entries": [
+								"To learn more about the design in this article, we invite you to view the videos about it on YouTube ({@link www.youtube.com/DNDWizards})."
+							]
+						},
+						{
+							"type": "section",
+							"name": "What's Inside",
+							"page": 1,
+							"entries": [
+								{
+									"type": "list",
+									"style": "list-hang-notitle",
+									"page": 1,
+									"items": [
+										{
+											"type": "item",
+											"name": "Psion",
+											"entries": [
+												"The first new class since the {@class Artificer|XUA2025EberronUpdates}, the Psion weaves magic through the power of their mind."
+											]
+										},
+										{
+											"type": "item",
+											"name": "Subclasses",
+											"entries": [
+												"Four subclasses provide unique identities for a Psion character: {@class Psion|XUA2025Psion||Metamorph|XUA2025Psion}, {@class Psion|XUA2025Psion||Psi Warper|XUA2025Psion}, {@class Psion|XUA2025Psion||Psykinetic|XUA2025Psion}, and {@class Psion|XUA2025Psion||Telepath|XUA2025Psion}."
+											]
+										},
+										{
+											"type": "item",
+											"name": "Spells",
+											"entries": [
+												"A collection of spells, both familiar and new, enhance the options available to the Psion."
+											]
+										},
+										{
+											"type": "item",
+											"name": "Wild Talents",
+											"entries": [
+												"Also included are a collection of feats that provide characters with a way to tap into psionic powers. Backgrounds representing their connection to wild talents will be included with these feats in a future book if they become official, but in the meantime a character who takes the {@background Noble|XPHB} or {@background Sage|XPHB} background can choose a Wild Talent feat in place of that background's Origin feat, and any character can choose one of these feats when their class normally allows a feat choice."
+											]
+										}
+									]
+								},
+								{
+									"type": "inset",
+									"name": "This Is Playtest Material",
+									"page": 1,
+									"entries": [
+										"This article is presented for playtesting and feedback. The options here are experimental and in draft form. They aren't officially part of the game. Your feedback will help determine whether we adopt it as official.",
+										{
+											"type": "list",
+											"style": "list-hang-notitle",
+											"page": 1,
+											"items": [
+												{
+													"type": "item",
+													"name": "How to Playtest This UA",
+													"entries": [
+														"We invite you to try out this material in play. To play with this material, you may either incorporate it into your campaign or run one or more special playtest sessions. For such a session, you may create an adventure of your own or use a short adventure from a source like {@adventure Quests from the Infinite Staircase|QftIS}."
+													]
+												},
+												{
+													"type": "item",
+													"name": "Power Level",
+													"entries": [
+														"The character options you read here might be more or less powerful than options in the {@book 2024 Player's Handbook|XPHB}. If a design survives playtesting, we adjust its power to the desirable level before publication. This means an option could be more or less powerful in its final form."
+													]
+												},
+												{
+													"type": "item",
+													"name": "Feedback",
+													"entries": [
+														"The best way for you to give us feedback on this material is in the survey we'll release on D&D Beyond. If we make this material official, it will be refined based on your feedback, and then it will appear in a D&D book.",
+														"Providing feedback on this document is one way you can help shape the future of D&D!"
+													]
+												}
+											]
+										}
+									]
+								}
+							]
+						},
+						{
+							"type": "section",
+							"name": "Psion",
+							"page": 1,
+							"entries": [
+								"{@i A Master of Psionic Power}",
+								"Psions weave magic and extraordinary powers through the power of their minds. They develop their minds as fonts of power that manifest spells and grow stronger over the course of their adventuring careers. You can find everything you need to play one of these psionic powerhouses in the next few sections.",
+								{
+									"type": "inset",
+									"name": "What is a Psion?",
+									"page": 1,
+									"entries": [
+										"Psions are spellcasters who use innate mental powers to gain extraordinary abilities and unleash the magic of their minds. Psions and their magic (sometimes called \"psionics\") can trace their history back to the appendix of the first edition {@i Player's Handbook}, and a psionics-using class first appeared in {@i The Complete Psionics Handbook} in 1991. Psionics have taken numerous forms in D&D, from alternative magic systems to options that dovetail with other D&D rules. In the fifth edition, psychic power is synonymous with magic, and the magic of the mind flavors numerous spells, monsters, and subclasses\u2014like the {@class Fighter|XPHB|Psi Warrior Fighter|Psi Warrior|XPHB} and the {@class Sorcerer|XPHB|Aberrant Sorcery Sorcerer|Aberrant Sorcery|XPHB} in the {@book Player's Handbook|XPHB}. In this edition, the Psion is a spellcaster who interfaces with magic and spellcasting similarly to other classes in the game.",
+										"This UA provides the Psion with unique twists to spellcasting using Psionic Energy Dice and the {@classFeature Psionic Spellcasting|Psion|XUA2025Psion|1|XUA2025Psion} feature, carving out a space to make the Psion stand out from its spellcasting peers."
+									]
+								},
+								{
+									"type": "statblock",
+									"tag": "table",
+									"source": "XUA2025Psion",
+									"name": "Core Psion Traits",
+									"page": 1
+								},
+								{
+									"type": "entries",
+									"name": "Becoming a Psion...",
+									"page": 2,
+									"entries": [
+										{
+											"type": "list",
+											"page": 2,
+											"name": "As a Level 1 Character",
+											"items": [
+												"Gain all the traits in the {@table Core Psion Traits|XUA2025Psion} table.",
+												"Gain the Psion's level 1 features, which are listed in the Psion Features table."
+											]
+										},
+										{
+											"type": "list",
+											"page": 2,
+											"name": "As a Multiclass Character",
+											"items": [
+												"Gain the Hit Point Die from the {@table Core Psion Traits|XUA2025Psion} table.",
+												"Gain the Psion's level 1 features, which are listed in the Psion Features table. See the {@variantrule Multiclassing|XPHB} rules in the {@book Player's Handbook|XPHB} to determine your available spell slots, adding all your Psion levels."
+											]
+										}
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Psion Class Features",
+									"page": 2,
+									"entries": [
+										"As a Psion, you gain the following class features when you reach the specified Psion levels. These features are listed on the Psion Features table.",
+										{
+											"type": "statblock",
+											"tag": "class",
+											"source": "XUA2025Psion",
+											"name": "Psion",
+											"page": 2
+										}
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Psionic Discipline Options",
+									"page": 4,
+									"entries": [
+										"Psionic Discipline options appear in alphabetical order.",
+										{
+											"type": "statblock",
+											"tag": "optfeature",
+											"source": "XUA2025Psion",
+											"name": "Biofeedback",
+											"page": 4
+										},
+										{
+											"type": "statblock",
+											"tag": "optfeature",
+											"source": "XUA2025Psion",
+											"name": "Destructive Thoughts",
+											"page": 4
+										},
+										{
+											"type": "statblock",
+											"tag": "optfeature",
+											"source": "XUA2025Psion",
+											"name": "Devilish Tongue",
+											"page": 4
+										},
+										{
+											"type": "statblock",
+											"tag": "optfeature",
+											"source": "XUA2025Psion",
+											"name": "Ego Whip",
+											"page": 4
+										},
+										{
+											"type": "statblock",
+											"tag": "optfeature",
+											"source": "XUA2025Psion",
+											"name": "Expanded Awareness",
+											"page": 4
+										},
+										{
+											"type": "statblock",
+											"tag": "optfeature",
+											"source": "XUA2025Psion",
+											"name": "Id Insinuation",
+											"page": 4
+										},
+										{
+											"type": "statblock",
+											"tag": "optfeature",
+											"source": "XUA2025Psion",
+											"name": "Inerrant Aim",
+											"page": 4
+										},
+										{
+											"type": "statblock",
+											"tag": "optfeature",
+											"source": "XUA2025Psion",
+											"name": "Psionic Backlash",
+											"page": 4
+										},
+										{
+											"type": "statblock",
+											"tag": "optfeature",
+											"source": "XUA2025Psion",
+											"name": "Psionic Guards",
+											"page": 5
+										},
+										{
+											"type": "statblock",
+											"tag": "optfeature",
+											"source": "XUA2025Psion",
+											"name": "Swift Precognition",
+											"page": 5
+										},
+										{
+											"type": "statblock",
+											"tag": "optfeature",
+											"source": "XUA2025Psion",
+											"name": "Tactical Mind",
+											"page": 5
+										}
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Psion Spell List",
+									"page": 5,
+									"entries": [
+										"This section presents the Psion spell list. The spells are organized by spell level and then alphabetized, and each spell's school of magic is listed. In the Special column, {@i C} means the spell requires {@status Concentration|XPHB}, {@i R} means it's a {@variantrule Ritual|XPHB}, and {@i M} means it requires a specific Material component.",
+										{
+											"type": "statblock",
+											"tag": "table",
+											"source": "XUA2025Psion",
+											"name": "Psion Spell List",
+											"page": 5
+										}
+									]
+								}
+							]
+						},
+						{
+							"type": "section",
+							"name": "Psion Subclasses",
+							"page": 7,
+							"entries": [
+								"A Psion subclass is a specialization that grants you features at certain Psion levels, as specified in the subclass. This section presents the {@class Psion|XUA2025Psion||Metamorph|XUA2025Psion}, {@class Psion|XUA2025Psion||Psi Warper|XUA2025Psion}, {@class Psion|XUA2025Psion||Psykinetic|XUA2025Psion}, and {@class Psion|XUA2025Psion||Telepath|XUA2025Psion} subclasses.",
+								{
+									"type": "entries",
+									"name": "Metamorph",
+									"page": 7,
+									"entries": [
+										"{@i Psychically Sculpt Life and Flesh}",
+										{
+											"type": "statblock",
+											"prop": "subclass",
+											"source": "XUA2025Psion",
+											"name": "Metamorph",
+											"className": "Psion",
+											"classSource": "XUA2025Psion",
+											"page": 7
+										}
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Psi Warper",
+									"page": 8,
+									"entries": [
+										"{@i Warp Space with the Power of Your Mind}",
+										{
+											"type": "statblock",
+											"prop": "subclass",
+											"source": "XUA2025Psion",
+											"name": "Psi Warper",
+											"className": "Psion",
+											"classSource": "XUA2025Psion",
+											"page": 8
+										}
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Psykinetic",
+									"page": 8,
+									"entries": [
+										"{@i Mold Psionic Force for Creation and Destruction}",
+										{
+											"type": "statblock",
+											"prop": "subclass",
+											"source": "XUA2025Psion",
+											"name": "Psykinetic",
+											"className": "Psion",
+											"classSource": "XUA2025Psion",
+											"page": 8
+										}
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Telepath",
+									"page": 9,
+									"entries": [
+										"{@i Master Tactics in the Landscape of the Mind}",
+										{
+											"type": "statblock",
+											"prop": "subclass",
+											"source": "XUA2025Psion",
+											"name": "Telepath",
+											"className": "Psion",
+											"classSource": "XUA2025Psion",
+											"page": 9
+										}
+									]
+								}
+							]
+						},
+						{
+							"type": "section",
+							"name": "Spells",
+							"page": 10,
+							"entries": [
+								"Spells are presented in alphabetical order. If a spell includes the {@class Artificer|XUA2025EberronUpdates} in the parentheses after the spell's school of magic, that spell is added to the Artificer's spell list (use the most recent version of the {@class Artificer|XUA2025EberronUpdates} that appeared in Unearthed Arcana).",
+								{
+									"type": "inset",
+									"name": "Design Note: Spell Updates",
+									"page": 10,
+									"entries": [
+										"Several spells from {@book Tasha's Cauldron of Everything|TCE} return in this article, alongside some brand-new spells. Here are the main updates to spells in this article:",
+										{
+											"type": "list",
+											"page": 10,
+											"items": [
+												{
+													"type": "item",
+													"name": "General Updates",
+													"entries": [
+														"Returning spells have been refined and brought in line with revisions in the {@book 2024 Player's Handbook|XPHB}."
+													]
+												},
+												{
+													"type": "item",
+													"name": "New Spells",
+													"entries": [
+														"New spells in this article\u2014{@spell Summon Astral Entity|XUA2025Psion} and {@spell Telekinetic Crush|XUA2025Psion}\u2014add new options to various classes' spell lists. The {@class Psion|XUA2025Psion} also receives a unique cantrip, {@spell Telekinetic Fling|XUA2025Psion}."
+													]
+												},
+												{
+													"type": "item",
+													"name": "Raulothim's Psychic Lance",
+													"entries": [
+														"This spell has more guidance around using a creature's name to target it."
+													]
+												},
+												{
+													"type": "item",
+													"name": "Tasha's Mind Whip",
+													"entries": [
+														"The spell now restricts only the target's ability to make {@action Opportunity Attack|XPHB|Opportunity Attacks} on a failed saving throw."
+													]
+												}
+											]
+										}
+									]
+								},
+								{
+									"type": "statblock",
+									"tag": "spell",
+									"source": "XUA2025Psion",
+									"name": "Intellect Fortress",
+									"page": 10
+								},
+								{
+									"type": "statblock",
+									"tag": "spell",
+									"source": "XUA2025Psion",
+									"name": "Psychic Scream",
+									"page": 10
+								},
+								{
+									"type": "statblock",
+									"tag": "spell",
+									"source": "XUA2025Psion",
+									"name": "Raulothim's Psychic Lance",
+									"page": 10
+								},
+								{
+									"type": "statblock",
+									"tag": "spell",
+									"source": "XUA2025Psion",
+									"name": "Summon Astral Entity",
+									"page": 10
+								},
+								{
+									"type": "statblock",
+									"tag": "creature",
+									"source": "XUA2025Psion",
+									"name": "Psionic Spirit",
+									"page": 11,
+									"collapsed": true
+								},
+								{
+									"type": "statblock",
+									"tag": "spell",
+									"source": "XUA2025Psion",
+									"name": "Tasha's Mind Whip",
+									"page": 11
+								},
+								{
+									"type": "statblock",
+									"tag": "spell",
+									"source": "XUA2025Psion",
+									"name": "Telekinetic Crush",
+									"page": 11
+								},
+								{
+									"type": "statblock",
+									"tag": "spell",
+									"source": "XUA2025Psion",
+									"name": "Telekinetic Fling",
+									"page": 11
+								}
+							]
+						},
+						{
+							"type": "section",
+							"name": "Feats",
+							"page": 11,
+							"entries": [
+								"These feats are in the Wild Talent category.",
+								{
+									"type": "statblock",
+									"tag": "feat",
+									"source": "XUA2025Psion",
+									"name": "Atmokinesis",
+									"page": 11
+								},
+								{
+									"type": "statblock",
+									"tag": "feat",
+									"source": "XUA2025Psion",
+									"name": "Biokinesis",
+									"page": 12
+								},
+								{
+									"type": "statblock",
+									"tag": "feat",
+									"source": "XUA2025Psion",
+									"name": "Clairsentience",
+									"page": 12
+								},
+								{
+									"type": "statblock",
+									"tag": "feat",
+									"source": "XUA2025Psion",
+									"name": "Cryokinesis",
+									"page": 12
+								},
+								{
+									"type": "statblock",
+									"tag": "feat",
+									"source": "XUA2025Psion",
+									"name": "Empath",
+									"page": 12
+								},
+								{
+									"type": "statblock",
+									"tag": "feat",
+									"source": "XUA2025Psion",
+									"name": "Flesh Morpher",
+									"page": 13
+								},
+								{
+									"type": "statblock",
+									"tag": "feat",
+									"source": "XUA2025Psion",
+									"name": "Mind Whisperer",
+									"page": 13
+								},
+								{
+									"type": "statblock",
+									"tag": "feat",
+									"source": "XUA2025Psion",
+									"name": "Psi Trickster",
+									"page": 13
+								},
+								{
+									"type": "statblock",
+									"tag": "feat",
+									"source": "XUA2025Psion",
+									"name": "Psykineticist",
+									"page": 13
+								},
+								{
+									"type": "statblock",
+									"tag": "feat",
+									"source": "XUA2025Psion",
+									"name": "Pyrokinesis",
+									"page": 13
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	]
+}
