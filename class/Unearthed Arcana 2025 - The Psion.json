@@ -1485,6 +1485,25 @@
 	],
 	"foundryClassFeature": [
 		{
+			"name": "Psionic Power",
+			"source": "XUA2025Psion",
+			"className": "Psion",
+			"classSource": "XUA2025Psion",
+			"level": 1,
+			"entryData": {
+				"resources": [
+					{
+						"name": "Psionic Energy Die",
+						"type": "dicePool",
+						"recharge": "restLong",
+						"count": "@scale.psion.die.number",
+						"number": 1,
+						"faces": "@scale.psion.die.faces"
+					}
+				]
+			}
+		},
+		{
 			"name": "Psionic Discipline Options",
 			"source": "XUA2025Psion",
 			"className": "Psion",
