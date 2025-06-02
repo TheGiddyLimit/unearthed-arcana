@@ -1381,7 +1381,8 @@
 			"classSource": "XUA2025Psion",
 			"level": 7,
 			"entries": [
-				"When you roll {@variantrule Initiative|XPHB}, you can expend one of your {@variantrule Hit Point Dice|XPHB} and regain one expended use of {@classFeature Psionic Modes|Psion|XUA2025Psion|2|XUA2025Psion}."
+				"When you roll {@variantrule Initiative|XPHB}, you can expend one of your {@variantrule Hit Point Dice|XPHB} and regain one expended use of {@classFeature Psionic Modes|Psion|XUA2025Psion|2|XUA2025Psion}.",
+				"In addition, after you roll one or more Psionic Energy Dice, you can expend one of your {@variantrule Hit Point Dice|XPHB} and treat any roll of 1, 2, or 3 on those Psionic Energy Dice as a 4."
 			]
 		},
 		{
