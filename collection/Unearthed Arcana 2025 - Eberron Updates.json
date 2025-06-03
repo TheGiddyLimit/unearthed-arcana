@@ -4671,8 +4671,8 @@
 			"source": "XUA2025EberronUpdates",
 			"group": "prerelease",
 			"cover": {
-				"type": "internal",
-				"path": "covers/blank.webp"
+				"type": "external",
+				"url": "https://raw.githubusercontent.com/unknown117343/unearthed-arcana/refs/heads/covers/_img/XUA2025EberronUpdates/cover.webp"
 			},
 			"published": "2025-02-27",
 			"author": "Wizards of the Coast",

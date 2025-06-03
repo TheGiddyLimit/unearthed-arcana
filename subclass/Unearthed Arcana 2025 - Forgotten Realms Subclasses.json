@@ -2312,8 +2312,8 @@
 			"source": "XUA2025ForgottenRealmsSubclasses",
 			"group": "prerelease",
 			"cover": {
-				"type": "internal",
-				"path": "covers/blank.webp"
+				"type": "external",
+				"url": "https://raw.githubusercontent.com/unknown117343/unearthed-arcana/refs/heads/covers/_img/XUA2025ForgottenRealmsSubclasses/cover.webp"
 			},
 			"published": "2025-01-28",
 			"author": "Wizards of the Coast",
