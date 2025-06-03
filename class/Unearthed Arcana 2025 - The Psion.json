@@ -4746,8 +4746,8 @@
 			"source": "XUA2025Psion",
 			"group": "prerelease",
 			"cover": {
-				"type": "internal",
-				"path": "covers/blank.webp"
+				"type": "external",
+				"url": "https://raw.githubusercontent.com/TheGiddyLimit/unearthed-arcana/refs/heads/master/_img/XUA2025Psion/cover.webp"
 			},
 			"published": "2025-05-27",
 			"author": "Wizards of the Coast",

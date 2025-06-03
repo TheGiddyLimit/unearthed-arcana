@@ -4107,8 +4107,8 @@
 			"source": "XUA2024Artificer",
 			"group": "prerelease",
 			"cover": {
-				"type": "internal",
-				"path": "covers/blank.webp"
+				"type": "external",
+				"url": "https://raw.githubusercontent.com/TheGiddyLimit/unearthed-arcana/refs/heads/master/_img/XUA2024Artificer/cover.webp"
 			},
 			"published": "2024-12-17",
 			"author": "Wizards of the Coast",

@@ -2588,8 +2588,8 @@
 			"source": "XUA2025HorrorSubclasses",
 			"group": "prerelease",
 			"cover": {
-				"type": "internal",
-				"path": "covers/blank.webp"
+				"type": "external",
+				"url": "https://raw.githubusercontent.com/TheGiddyLimit/unearthed-arcana/refs/heads/master/_img/XUA2025HorrorSubclasses/cover.webp"
 			},
 			"published": "2025-05-06",
 			"author": "Wizards of the Coast",
