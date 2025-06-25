@@ -335,8 +335,8 @@
 					"colLabels": [
 						"Energy Die",
 						"Number of Dice",
-						"{@filter Cantrips|spells|level=0|class=psion (xua25p)}",
-						"{@filter Prepared Spells|spells|level=!0|class=psion (xua25p)}"
+						"{@filter Cantrips|spells|level=0|class=psion (xua25p)|source=XUA2025Psion==extend}",
+						"{@filter Prepared Spells|spells|level=!0|class=psion (xua25p)|source=XUA2025Psion==extend}"
 					],
 					"rows": [
 						[
@@ -464,15 +464,15 @@
 				{
 					"title": "Spell Slots per Spell Level",
 					"colLabels": [
-						"{@filter 1st|spells|level=1|class=psion (xua25p)}",
-						"{@filter 2nd|spells|level=2|class=psion (xua25p)}",
-						"{@filter 3rd|spells|level=3|class=psion (xua25p)}",
-						"{@filter 4th|spells|level=4|class=psion (xua25p)}",
-						"{@filter 5th|spells|level=5|class=psion (xua25p)}",
-						"{@filter 6th|spells|level=6|class=psion (xua25p)}",
-						"{@filter 7th|spells|level=7|class=psion (xua25p)}",
-						"{@filter 8th|spells|level=8|class=psion (xua25p)}",
-						"{@filter 9th|spells|level=9|class=psion (xua25p)}"
+						"{@filter 1st|spells|level=1|class=psion (xua25p)|source=XUA2025Psion==extend}",
+						"{@filter 2nd|spells|level=2|class=psion (xua25p)|source=XUA2025Psion==extend}",
+						"{@filter 3rd|spells|level=3|class=psion (xua25p)|source=XUA2025Psion==extend}",
+						"{@filter 4th|spells|level=4|class=psion (xua25p)|source=XUA2025Psion==extend}",
+						"{@filter 5th|spells|level=5|class=psion (xua25p)|source=XUA2025Psion==extend}",
+						"{@filter 6th|spells|level=6|class=psion (xua25p)|source=XUA2025Psion==extend}",
+						"{@filter 7th|spells|level=7|class=psion (xua25p)|source=XUA2025Psion==extend}",
+						"{@filter 8th|spells|level=8|class=psion (xua25p)|source=XUA2025Psion==extend}",
+						"{@filter 9th|spells|level=9|class=psion (xua25p)|source=XUA2025Psion==extend}"
 					],
 					"rowsSpellProgression": [
 						[
@@ -2277,7 +2277,7 @@
 				"amount": 1
 			},
 			"entries": [
-				"When you cast {@filter a Psion spell from the Necromancy or Transmutation school|spells|class=psion (xua25p)|school=n;t}, you can expend one Psionic Energy Die and roll it. You gain a number of {@variantrule Temporary Hit Points|XPHB} equal to the number rolled plus your Intelligence modifier (minimum of one)."
+				"When you cast {@filter a Psion spell from the Necromancy or Transmutation school|spells|class=psion (xua25p)|school=n;t|source=XUA2025Psion==extend}, you can expend one Psionic Energy Die and roll it. You gain a number of {@variantrule Temporary Hit Points|XPHB} equal to the number rolled plus your Intelligence modifier (minimum of one)."
 			]
 		},
 		{
@@ -2292,7 +2292,7 @@
 				"amount": 1
 			},
 			"entries": [
-				"When you cast {@filter a Psion spell from the Conjuration or Evocation school|spells|class=psion (xua25p)|school=c;v} and a creature you can see succeeds on a saving throw against the spell, you can expend one Psionic Energy Die and roll it. The creature takes Psychic damage equal to the number rolled plus your Intelligence modifier (minimum of one)."
+				"When you cast {@filter a Psion spell from the Conjuration or Evocation school|spells|class=psion (xua25p)|school=c;v|source=XUA2025Psion==extend} and a creature you can see succeeds on a saving throw against the spell, you can expend one Psionic Energy Die and roll it. The creature takes Psychic damage equal to the number rolled plus your Intelligence modifier (minimum of one)."
 			]
 		},
 		{
@@ -2352,7 +2352,7 @@
 				"amount": 2
 			},
 			"entries": [
-				"When you cast {@filter a Psion spell from the Enchantment or Illusion school|spells|class=psion (xua25p)|school=e;i|saving throw=strength;dexterity;constitution;intelligence;wisdom;charisma} that forces a creature to make a saving throw, you can expend two Psionic Energy Dice and roll one Psionic Energy Die. One target of the spell you can see subtracts the number rolled from its saving throw against the spell."
+				"When you cast {@filter a Psion spell from the Enchantment or Illusion school|spells|class=psion (xua25p)|school=e;i|saving throw=strength;dexterity;constitution;intelligence;wisdom;charisma|source=XUA2025Psion==extend} that forces a creature to make a saving throw, you can expend two Psionic Energy Dice and roll one Psionic Energy Die. One target of the spell you can see subtracts the number rolled from its saving throw against the spell."
 			]
 		},
 		{
@@ -2414,7 +2414,7 @@
 				"amountMax": 10
 			},
 			"entries": [
-				"When you cast {@filter a Psion spell from the Abjuration or Divination school with a casting time of an action|spells|class=psion (xua25p)|school=a;d|cast time=action}, you can expend a number of Psionic Energy Dice to change the casting time to a {@variantrule Bonus Action|XPHB} for this casting. The number of dice equals one plus the spell's level."
+				"When you cast {@filter a Psion spell from the Abjuration or Divination school with a casting time of an action|spells|class=psion (xua25p)|school=a;d|cast time=action|source=XUA2025Psion==extend}, you can expend a number of Psionic Energy Dice to change the casting time to a {@variantrule Bonus Action|XPHB} for this casting. The number of dice equals one plus the spell's level."
 			]
 		},
 		{
