@@ -1696,7 +1696,7 @@
 				},
 				{
 					"type": "entries",
-					"name": "Resilitent Hex",
+					"name": "Resilient Hex",
 					"entries": [
 						"Taking damage can't break your {@status Concentration|XPHB} on {@spell Hex|XPHB}."
 					]
