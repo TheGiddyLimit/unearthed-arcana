@@ -2865,7 +2865,7 @@
 				}
 			],
 			"entries": [
-				"You have a {@variantrule Fly Speed|XPHB} of 10 feet and can hover. Additionally, you can expend 3 Focus Points to cast Counterspell."
+				"You have a {@variantrule Fly Speed|XPHB} of 10 feet and can hover. Additionally, you can expend 3 Focus Points to cast {@spell Counterspell|XPHB}."
 			]
 		},
 		{
