@@ -4,7 +4,7 @@
 		"sources": [
 			{
 				"json": "XUA2025ArcaneSubclasses",
-				"abbreviation": "XUA25AS",
+				"abbreviation": "XUA25ArS",
 				"full": "Unearthed Arcana 2025: Arcane Subclasses",
 				"authors": [
 					"Wizards of the Coast"
@@ -2329,7 +2329,7 @@
 			"header": 2,
 			"entries": [
 				"You have learned more secrets about the nuances of life and death. When you finish a {@variantrule Long Rest|XPHB}, you can expend a level 4+ spell slot to protect yourself from death. Until you finish a {@variantrule Long Rest|XPHB}, the next time you would drop to 0 {@variantrule Hit Points|XPHB}, your {@variantrule Hit Points|XPHB} instead change to a number equal to ten times the spell slot expended.",
-				"In addition, immediately after you take damage and are {@variantrule Bloodied|XPHB} after taking that damage but not killed outright, you can take a {@variantrule Reaction|XPHB} and teleport to an unoccupied space up to 60 feet from yourself, and each creature within 10 feet of the space you left takes {@damage 2d10} Necrotic damage."
+				"In addition, immediately after you take damage and are {@status Bloodied|XPHB} after taking that damage but not killed outright, you can take a {@variantrule Reaction|XPHB} and teleport to an unoccupied space up to 60 feet from yourself, and each creature within 10 feet of the space you left takes {@damage 2d10} Necrotic damage."
 			]
 		},
 		{

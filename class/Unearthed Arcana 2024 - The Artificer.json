@@ -964,7 +964,7 @@
 									"name": "Armor Model",
 									"nameDot": false,
 									"entries": [
-										"includes a new armor option: Dreadnaught. In the Guardian option, Defensive Field now relies on you being {@variantrule Bloodied|XPHB} rather than having limited uses."
+										"includes a new armor option: Dreadnaught. In the Guardian option, Defensive Field now relies on you being {@status Bloodied|XPHB} rather than having limited uses."
 									]
 								},
 								{
@@ -1989,7 +1989,7 @@
 							"type": "item",
 							"name": "Defensive Field",
 							"entries": [
-								"While you are {@variantrule Bloodied|XPHB}, you can take a {@variantrule Bonus Action|XPHB} to gain {@variantrule Temporary Hit Points|XPHB} equal to your Artificer level. You lose these {@variantrule Temporary Hit Points|XPHB} if you doff the armor."
+								"While you are {@status Bloodied|XPHB}, you can take a {@variantrule Bonus Action|XPHB} to gain {@variantrule Temporary Hit Points|XPHB} equal to your Artificer level. You lose these {@variantrule Temporary Hit Points|XPHB} if you doff the armor."
 							]
 						}
 					]
@@ -4513,7 +4513,7 @@
 															"name": "Armor Model",
 															"nameDot": false,
 															"entries": [
-																"includes a new armor option: Dreadnaught. In the Guardian option, Defensive Field now relies on you being {@variantrule Bloodied|XPHB} rather than having limited uses."
+																"includes a new armor option: Dreadnaught. In the Guardian option, Defensive Field now relies on you being {@status Bloodied|XPHB} rather than having limited uses."
 															]
 														},
 														{
