@@ -1,0 +1,1415 @@
+{
+	"$schema": "https://raw.githubusercontent.com/TheGiddyLimit/5etools-utils/master/schema/ua-fast/homebrew.json",
+	"_meta": {
+		"sources": [
+			{
+				"json": "XUA2025ApocalypticSubclasses",
+				"abbreviation": "XUA25ApS",
+				"full": "Unearthed Arcana 2025: Apocalyptic Subclasses",
+				"authors": [
+					"Wizards of the Coast"
+				],
+				"convertedBy": [
+					"Lyra [he/him]"
+				],
+				"version": "1.0.0",
+				"url": "https://media.dndbeyond.com/compendium-images/ua/apocalyptic-subclasses/KKvJvHGmsJiNaafX/UA2025-ApocalypticSubclasses.pdf",
+				"dateReleased": "2025-08-21"
+			}
+		],
+		"edition": "one",
+		"status": "ready",
+		"dateAdded": 1755803795,
+		"dateLastModified": 1755803795
+	},
+	"subclass": [
+		{
+			"name": "Circle of Preservation",
+			"shortName": "Preservation",
+			"source": "XUA2025ApocalypticSubclasses",
+			"className": "Druid",
+			"classSource": "XPHB",
+			"page": 2,
+			"edition": "one",
+			"additionalSpells": [
+				{
+					"prepared": {
+						"3": [
+							"Bless|XPHB",
+							"Lesser Restoration|XPHB",
+							"Protection from Poison|XPHB",
+							"Sanctuary|XPHB"
+						],
+						"5": [
+							"Beacon of Hope|XPHB",
+							"Plant Growth|XPHB"
+						],
+						"7": [
+							"Aura of Life|XPHB",
+							"Death Ward|XPHB"
+						],
+						"9": [
+							"Greater Restoration|XPHB",
+							"Hallow|XPHB"
+						]
+					},
+					"innate": {
+						"10": {
+							"daily": {
+								"wis": [
+									"Lesser Restoration|XPHB",
+									"Greater Restoration|XPHB"
+								]
+							}
+						}
+					}
+				}
+			],
+			"subclassSpells": [
+				"Bless|XPHB",
+				"Lesser Restoration|XPHB",
+				"Protection from Poison|XPHB",
+				"Sanctuary|XPHB",
+				"Beacon of Hope|XPHB",
+				"Plant Growth|XPHB",
+				"Aura of Life|XPHB",
+				"Death Ward|XPHB",
+				"Greater Restoration|XPHB",
+				"Hallow|XPHB"
+			],
+			"subclassFeatures": [
+				"Circle of Preservation|Druid|XPHB|Preservation|XUA2025ApocalypticSubclasses|3|XUA2025ApocalypticSubclasses",
+				"Improved Preservation|Druid|XPHB|Preservation|XUA2025ApocalypticSubclasses|6|XUA2025ApocalypticSubclasses",
+				"Facilitated Restoration|Druid|XPHB|Preservation|XUA2025ApocalypticSubclasses|10|XUA2025ApocalypticSubclasses",
+				"Sacrosanct Land|Druid|XPHB|Preservation|XUA2025ApocalypticSubclasses|14|XUA2025ApocalypticSubclasses"
+			],
+			"hasFluff": true
+		},
+		{
+			"name": "Defiled Sorcery",
+			"shortName": "Defiled",
+			"source": "XUA2025ApocalypticSubclasses",
+			"className": "Sorcerer",
+			"classSource": "XPHB",
+			"page": 4,
+			"edition": "one",
+			"additionalSpells": [
+				{
+					"prepared": {
+						"3": [
+							"Blindness/Deafness|XPHB",
+							"Inflict Wounds|XPHB",
+							"Ray of Enfeeblement|XPHB",
+							"Ray of Sickness|XPHB"
+						],
+						"5": [
+							"Bestow Curse|XPHB",
+							"Vampiric Touch|XPHB"
+						],
+						"7": [
+							"Blight|XPHB",
+							"Hallucinatory Terrain|XPHB"
+						],
+						"9": [
+							"Antilife Shell|XPHB",
+							"Contagion|XPHB"
+						]
+					}
+				}
+			],
+			"subclassSpells": [
+				"Inflict Wounds|XPHB",
+				"Ray of Enfeeblement|XPHB",
+				"Ray of Sickness|XPHB",
+				"Bestow Curse|XPHB",
+				"Vampiric Touch|XPHB",
+				"Blight|XPHB",
+				"Hallucinatory Terrain|XPHB",
+				"Antilife Shell|XPHB",
+				"Contagion|XPHB"
+			],
+			"subclassFeatures": [
+				"Defiled Sorcery|Sorcerer|XPHB|Defiled|XUA2025ApocalypticSubclasses|3|XUA2025ApocalypticSubclasses",
+				"Corrupted Caster|Sorcerer|XPHB|Defiled|XUA2025ApocalypticSubclasses|6|XUA2025ApocalypticSubclasses",
+				"Withering Aura|Sorcerer|XPHB|Defiled|XUA2025ApocalypticSubclasses|14|XUA2025ApocalypticSubclasses",
+				"Superior Defiler|Sorcerer|XPHB|Defiled|XUA2025ApocalypticSubclasses|18|XUA2025ApocalypticSubclasses"
+			],
+			"hasFluff": true
+		},
+		{
+			"name": "Gladiator",
+			"shortName": "Gladiator",
+			"source": "XUA2025ApocalypticSubclasses",
+			"className": "Fighter",
+			"classSource": "XPHB",
+			"page": 3,
+			"edition": "one",
+			"subclassFeatures": [
+				"Gladiator|Fighter|XPHB|Gladiator|XUA2025ApocalypticSubclasses|3|XUA2025ApocalypticSubclasses",
+				"Flourish Parry|Fighter|XPHB|Gladiator|XUA2025ApocalypticSubclasses|7|XUA2025ApocalypticSubclasses",
+				"Bolder Brutalities|Fighter|XPHB|Gladiator|XUA2025ApocalypticSubclasses|10|XUA2025ApocalypticSubclasses",
+				"Brutal Resurgence|Fighter|XPHB|Gladiator|XUA2025ApocalypticSubclasses|15|XUA2025ApocalypticSubclasses",
+				"Mutilate|Fighter|XPHB|Gladiator|XUA2025ApocalypticSubclasses|18|XUA2025ApocalypticSubclasses"
+			],
+			"hasFluff": true
+		},
+		{
+			"name": "Sorcerer-King Patron",
+			"shortName": "Sorcerer-King",
+			"source": "XUA2025ApocalypticSubclasses",
+			"className": "Warlock",
+			"classSource": "XPHB",
+			"page": 5,
+			"edition": "one",
+			"additionalSpells": [
+				{
+					"prepared": {
+						"3": [
+							"Command|XPHB",
+							"Compelled Duel|XPHB",
+							"Hold Person|XPHB",
+							"Mind Spike|XPHB",
+							"Wrathful Smite|XPHB"
+						],
+						"5": [
+							"Fear|XPHB",
+							"Sending|XPHB"
+						],
+						"7": [
+							"Compulsion|XPHB",
+							"Staggering Smite|XPHB"
+						],
+						"9": [
+							"Dominate Person|XPHB",
+							"Synaptic Static|XPHB"
+						]
+					},
+					"innate": {
+						"3": {
+							"daily": {
+								"cha": [
+									"Command|XPHB"
+								]
+							}
+						}
+					}
+				}
+			],
+			"subclassSpells": [
+				"Command|XPHB",
+				"Compelled Duel|XPHB",
+				"Hold Person|XPHB",
+				"Mind Spike|XPHB",
+				"Wrathful Smite|XPHB",
+				"Fear|XPHB",
+				"Sending|XPHB",
+				"Compulsion|XPHB",
+				"Staggering Smite|XPHB",
+				"Dominate Person|XPHB",
+				"Synaptic Static|XPHB"
+			],
+			"subclassFeatures": [
+				"Sorcerer-King Patron|Warlock|XPHB|Sorcerer-King|XUA2025ApocalypticSubclasses|3|XUA2025ApocalypticSubclasses",
+				"Decisive Edict|Warlock|XPHB|Sorcerer-King|XUA2025ApocalypticSubclasses|6|XUA2025ApocalypticSubclasses",
+				"Vindictive Rebuke|Warlock|XPHB|Sorcerer-King|XUA2025ApocalypticSubclasses|10|XUA2025ApocalypticSubclasses",
+				"Absolute Tyranny|Warlock|XPHB|Sorcerer-King|XUA2025ApocalypticSubclasses|14|XUA2025ApocalypticSubclasses"
+			],
+			"hasFluff": true
+		}
+	],
+	"subclassFluff": [
+		{
+			"name": "Circle of Preservation",
+			"shortName": "Preservation",
+			"source": "XUA2025ApocalypticSubclasses",
+			"className": "Druid",
+			"classSource": "XPHB",
+			"entries": [
+				"{@i Safeguard Nature and Heal the World}"
+			]
+		},
+		{
+			"name": "Defiled Sorcery",
+			"shortName": "Defiled",
+			"source": "XUA2025ApocalypticSubclasses",
+			"className": "Sorcerer",
+			"classSource": "XPHB",
+			"entries": [
+				"{@i Siphon Life into Catastrophic Spells}",
+				{
+					"type": "inset",
+					"name": "Design Note: Hit Point Dice",
+					"page": 4,
+					"entries": [
+						"{@variantrule Monster|XPHB|Monsters}, like {@variantrule Player Character|XPHB|player characters}, have {@variantrule Hit Point Dice|XPHB}. The size and number of a monster's {@variantrule Hit Point Dice|XPHB|Hit Dice} are typically denoted in the monster's {@variantrule stat block|XPHB} as part of the parenthetical after the monster's average {@variantrule Hit Points|XPHB}. Any creature\u2014both {@variantrule Player Character|XPHB|characters} and {@variantrule Monster|XPHB|monsters}\u2014can expend {@variantrule Hit Point Dice|XPHB|Hit Dice} during a {@variantrule Short Rest|XPHB} to regain {@variantrule Hit Points|XPHB}.",
+						"When a {@variantrule monster|XPHb} is first encountered, assume that it hasn't expended any of its {@variantrule Hit Point Dice|XPHB|Hit Dice}."
+					]
+				}
+			]
+		},
+		{
+			"name": "Gladiator",
+			"shortName": "Gladiator",
+			"source": "XUA2025ApocalypticSubclasses",
+			"className": "Fighter",
+			"classSource": "XPHB",
+			"entries": [
+				"{@i Master Brutality and Blood Sport}"
+			]
+		},
+		{
+			"name": "Sorcerer-King Patron",
+			"shortName": "Sorcerer-King",
+			"source": "XUA2025ApocalypticSubclasses",
+			"className": "Warlock",
+			"classSource": "XPHB",
+			"entries": [
+				"{@i Herald Tyrannical Might of Monstrous Rulers}"
+			]
+		}
+	],
+	"subclassFeature": [
+		{
+			"name": "Circle of Preservation",
+			"source": "XUA2025ApocalypticSubclasses",
+			"page": 2,
+			"className": "Druid",
+			"classSource": "XPHB",
+			"subclassShortName": "Preservation",
+			"subclassSource": "XUA2025ApocalypticSubclasses",
+			"level": 3,
+			"header": 1,
+			"entries": [
+				"Druids of the Circle of Preservation work tirelessly to conserve natural resources and restore places once ruined by greed and exploitation. Through a combination of conservation and restorative magic, Druids of this order shield and spread life across the land. The most powerful members of this order can return vitality to barren fields, transforming wastelands into thriving wildernesses once more.",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Circle of Preservation Spells|Druid|XPHB|Preservation|XUA2025ApocalypticSubclasses|3|XUA2025ApocalypticSubclasses"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Preserved Land|Druid|XPHB|Preservation|XUA2025ApocalypticSubclasses|3|XUA2025ApocalypticSubclasses"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Student of Preservation|Druid|XPHB|Preservation|XUA2025ApocalypticSubclasses|3|XUA2025ApocalypticSubclasses"
+				}
+			]
+		},
+		{
+			"name": "Circle of Preservation Spells",
+			"source": "XUA2025ApocalypticSubclasses",
+			"page": 2,
+			"className": "Druid",
+			"classSource": "XPHB",
+			"subclassShortName": "Preservation",
+			"subclassSource": "XUA2025ApocalypticSubclasses",
+			"level": 3,
+			"header": 2,
+			"entries": [
+				"When you reach a {@class Druid|XPHB} level specified in the {@table Circle of Preservation Spells|XUA2025ApocalypticSubclasses} table, you thereafter always have the listed spells prepared.",
+				{
+					"type": "statblock",
+					"tag": "table",
+					"source": "XUA2025ApocalypticSubclasses",
+					"name": "Circle of Preservation Spells",
+					"page": 2
+				}
+			]
+		},
+		{
+			"name": "Preserved Land",
+			"source": "XUA2025ApocalypticSubclasses",
+			"page": 2,
+			"className": "Druid",
+			"classSource": "XPHB",
+			"subclassShortName": "Preservation",
+			"subclassSource": "XUA2025ApocalypticSubclasses",
+			"level": 3,
+			"header": 2,
+			"entries": [
+				"As a {@variantrule Bonus Action|XPHB}, you can expend a use of your {@classFeature Wild Shape|Druid|XPHB|2|XPHB} to fill a 15-foot {@variantrule Cube [Area of Effect]|XPHB|Cube} originating from a point on the ground you can see within 120 feet of yourself with revitalizing energy. The effect lasts for 1 minute or until you have the {@condition Incapacitated} condition, are more than 120 feet away from the {@variantrule Cube [Area of Effect]|XPHB|Cube}, or die.",
+				"Whenever a creature (including you) ends its turn in the {@variantrule Cube [Area of Effect]|XPHB|Cube}, you can grant the creature one of the following benefits:",
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"page": 2,
+					"items": [
+						{
+							"type": "item",
+							"name": "Bolster",
+							"entries": [
+								"The creature gains {@variantrule Temporary Hit Points|XPHB} equal to {@dice 1d4} plus your Druid level."
+							]
+						},
+						{
+							"type": "item",
+							"name": "Purify",
+							"entries": [
+								"You end one effect on the creature causing it to have the {@condition Frightened} or {@condition Poisoned} condition."
+							]
+						}
+					]
+				},
+				"In addition, nonmagical vegetation native to the region sprouts on ground within the {@variantrule Cube [Area of Effect]|XPHB|Cube}. This vegetation disappears when the effect ends.",
+				"As a {@variantrule Bonus Action|XPHB} on subsequent turns, you can move the {@variantrule Cube [Area of Effect]|XPHB|Cube} up to 30 feet to another area on the ground within 120 feet of yourself."
+			]
+		},
+		{
+			"name": "Student of Preservation",
+			"source": "XUA2025ApocalypticSubclasses",
+			"page": 2,
+			"className": "Druid",
+			"classSource": "XPHB",
+			"subclassShortName": "Preservation",
+			"subclassSource": "XUA2025ApocalypticSubclasses",
+			"level": 3,
+			"header": 2,
+			"entries": [
+				"Your studies have improved your understanding of the order and resilience of nature, granting you the following benefits.",
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"page": 2,
+					"items": [
+						{
+							"type": "item",
+							"name": "Frugal Casting",
+							"entries": [
+								"When you cast a {@class Druid|XPHB} spell, you can cast it without Material components, except Material components that are consumed by the spell or that have a cost specified in the spell.",
+								"Additionally, whenever you cast a {@class Druid|XPHB} spell that requires a Material component that is consumed by the spell, there is a {@chance 10} chance that the component isn't consumed as part of that casting."
+							]
+						},
+						{
+							"type": "item",
+							"name": "Tool Proficiency",
+							"entries": [
+								"You gain {@variantrule proficiency|XPHB} with one type of {@item Artisan's Tools|XPHB} of your choice."
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Improved Preservation",
+			"source": "XUA2025ApocalypticSubclasses",
+			"page": 2,
+			"className": "Druid",
+			"classSource": "XPHB",
+			"subclassShortName": "Preservation",
+			"subclassSource": "XUA2025ApocalypticSubclasses",
+			"level": 6,
+			"header": 2,
+			"entries": [
+				"Your {@subclassFeature Preserved Land|Druid|XPHB|Preservation|XUA2025ApocalypticSubclasses|3|XUA2025ApocalypticSubclasses} becomes more powerful in the following ways.",
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"page": 2,
+					"items": [
+						{
+							"type": "item",
+							"name": "Fortify Protectors",
+							"entries": [
+								"While inside the {@variantrule Cube [Area of Effect]|XPHB|Cube} created by your {@subclassFeature Preserved Land|Druid|XPHB|Preservation|XUA2025ApocalypticSubclasses|3|XUA2025ApocalypticSubclasses}, you and your allies gain a bonus to Constitution saving throws equal to your Wisdom modifier (minimum of +1)."
+							]
+						},
+						{
+							"type": "item",
+							"name": "Reject Desecrators",
+							"entries": [
+								"Whenever the {@variantrule Cube [Area of Effect]|XPHB|Cube} created by your {@subclassFeature Preserved Land|Druid|XPHB|Preservation|XUA2025ApocalypticSubclasses|3|XUA2025ApocalypticSubclasses} enters an enemy's space and whenever an enemy enters the {@variantrule Cube [Area of Effect]|XPHB|Cube} or ends its turn there, that enemy makes a Wisdom saving throw against your spell save DC. On a failed save, the enemy takes {@damage 2d10} Radiant damage, and its {@variantrule Speed|XPHB} is halved until the end of its next turn as new growth rises to hinder it. On a successful save, the enemy takes half as much damage only. An enemy makes this save only once per turn."
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Facilitated Restoration",
+			"source": "XUA2025ApocalypticSubclasses",
+			"page": 2,
+			"className": "Druid",
+			"classSource": "XPHB",
+			"subclassShortName": "Preservation",
+			"subclassSource": "XUA2025ApocalypticSubclasses",
+			"level": 10,
+			"header": 2,
+			"entries": [
+				"You can cast {@spell Lesser Restoration|XPHB} or {@spell Greater Restoration|XPHB} without expending a spell slot or requiring spell components. You can use this feature to cast a spell in this way a number of times equal to your Wisdom modifier (minimum of once), and you regain all expended uses when you finish a {@variantrule Long Rest|XPHB}."
+			]
+		},
+		{
+			"name": "Sacrosanct Land",
+			"source": "XUA2025ApocalypticSubclasses",
+			"page": 2,
+			"className": "Druid",
+			"classSource": "XPHB",
+			"subclassShortName": "Preservation",
+			"subclassSource": "XUA2025ApocalypticSubclasses",
+			"level": 14,
+			"header": 2,
+			"entries": [
+				"The size of the {@variantrule Cube [Area of Effect]|XPHB|Cube} created by your {@subclassFeature Preserved Land|Druid|XPHB|Preservation|XUA2025ApocalypticSubclasses|3|XUA2025ApocalypticSubclasses} increases to a 30-foot {@variantrule Cube [Area of Effect]|XPHB|Cube}.",
+				"In addition, when a creature you can see in the area of your {@subclassFeature Preserved Land|Druid|XPHB|Preservation|XUA2025ApocalypticSubclasses|3|XUA2025ApocalypticSubclasses} is hit by an attack roll, you can take a {@variantrule Reaction|XPHB} to halve that attack's damage against the creature."
+			]
+		},
+		{
+			"name": "Gladiator",
+			"source": "XUA2025ApocalypticSubclasses",
+			"page": 3,
+			"className": "Fighter",
+			"classSource": "XPHB",
+			"subclassShortName": "Gladiator",
+			"subclassSource": "XUA2025ApocalypticSubclasses",
+			"level": 3,
+			"header": 1,
+			"entries": [
+				"Gladiators are just as much performers as they are warriors. Whether brawling in underground fighting rings or fighting for survival in bloodstained arenas, a Gladiator combines martial skill with theatrics to awe and intimidate their audiences.",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Brutality|Fighter|XPHB|Gladiator|XUA2025ApocalypticSubclasses|3|XUA2025ApocalypticSubclasses"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Combat Theatrics|Fighter|XPHB|Gladiator|XUA2025ApocalypticSubclasses|3|XUA2025ApocalypticSubclasses"
+				}
+			]
+		},
+		{
+			"name": "Brutality",
+			"source": "XUA2025ApocalypticSubclasses",
+			"page": 3,
+			"className": "Fighter",
+			"classSource": "XPHB",
+			"subclassShortName": "Gladiator",
+			"subclassSource": "XUA2025ApocalypticSubclasses",
+			"level": 3,
+			"header": 2,
+			"entries": [
+				"Shaped by the intensity of the arena, you've learned to execute brutal martial moves. Once per turn, when you hit a creature with an attack roll using a Melee weapon, you can add one of the following Brutality effects of your choice. You can do this a number of times equal to your Charisma modifier (minimum of once), and you regain all expended uses when you finish a {@variantrule Short Rest|XPHB|Short} or {@variantrule Long Rest|XPHB}.",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Bleed|Fighter|XPHB|Gladiator|XUA2025ApocalypticSubclasses|3|XUA2025ApocalypticSubclasses"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Bluff|Fighter|XPHB|Gladiator|XUA2025ApocalypticSubclasses|3|XUA2025ApocalypticSubclasses"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Stumble|Fighter|XPHB|Gladiator|XUA2025ApocalypticSubclasses|3|XUA2025ApocalypticSubclasses"
+				}
+			]
+		},
+		{
+			"name": "Combat Theatrics",
+			"source": "XUA2025ApocalypticSubclasses",
+			"page": 3,
+			"className": "Fighter",
+			"classSource": "XPHB",
+			"subclassShortName": "Gladiator",
+			"subclassSource": "XUA2025ApocalypticSubclasses",
+			"level": 3,
+			"header": 2,
+			"entries": [
+				"You've honed your combat skills to entertain, devastating opponents and dazzling onlookers. You gain the following benefits.",
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"page": 3,
+					"items": [
+						{
+							"type": "item",
+							"name": "Athletic Flair",
+							"entries": [
+								"Whenever you make a Dexterity ({@skill Acrobatics}) or Strength ({@skill Athletics}) check, you gain a bonus to the check equal to your Charisma modifier (minimum of +1)."
+							]
+						},
+						{
+							"type": "item",
+							"name": "Bonus Proficiency",
+							"entries": [
+								"You gain {@variantrule proficiency|XPHB} in one of these skills of your choice: {@skill Acrobatics}, {@skill Athletics}, {@skill Deception}, {@skill Intimidation}, or {@skill Performance}."
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Bleed",
+			"source": "XUA2025ApocalypticSubclasses",
+			"page": 3,
+			"className": "Fighter",
+			"classSource": "XPHB",
+			"subclassShortName": "Gladiator",
+			"subclassSource": "XUA2025ApocalypticSubclasses",
+			"level": 3,
+			"header": 3,
+			"entries": [
+				"You can activate the {@itemMastery Sap|XPHB} mastery property in addition to a different mastery property you're using with that weapon, and the target takes extra damage equal to your Charisma modifier (minimum of 1 damage). The extra damage's type is the same type as the weapon's type"
+			]
+		},
+		{
+			"name": "Bluff",
+			"source": "XUA2025ApocalypticSubclasses",
+			"page": 3,
+			"className": "Fighter",
+			"classSource": "XPHB",
+			"subclassShortName": "Gladiator",
+			"subclassSource": "XUA2025ApocalypticSubclasses",
+			"level": 3,
+			"header": 3,
+			"entries": [
+				"You can activate the {@itemMastery Vex|XPHB} mastery property in addition to a different mastery property you're using with that weapon, and you have {@variantrule Advantage|XPHB} on the next saving throw you make before the end of your next turn."
+			]
+		},
+		{
+			"name": "Stumble",
+			"source": "XUA2025ApocalypticSubclasses",
+			"page": 3,
+			"className": "Fighter",
+			"classSource": "XPHB",
+			"subclassShortName": "Gladiator",
+			"subclassSource": "XUA2025ApocalypticSubclasses",
+			"level": 3,
+			"header": 3,
+			"entries": [
+				"You can activate the {@itemMastery Topple|XPHB} mastery property in addition to a different mastery property you're using with that weapon, and on its next turn, the target can take only an {@variantrule action|XPHB} or a {@variantrule Bonus Action|XPHB}, not both."
+			]
+		},
+		{
+			"name": "Flourish Parry",
+			"source": "XUA2025ApocalypticSubclasses",
+			"page": 3,
+			"className": "Fighter",
+			"classSource": "XPHB",
+			"subclassShortName": "Gladiator",
+			"subclassSource": "XUA2025ApocalypticSubclasses",
+			"level": 7,
+			"header": 2,
+			"entries": [
+				"You've learned to stylishly counter blows from your opponents. When an enemy hits you with a melee attack roll, you can take a {@variantrule Reaction|XPHB} to add your Charisma modifier (minimum of +1) to your AC against the attack, potentially causing the attack to miss.",
+				{
+					"type": "entries",
+					"name": "Flourish Counter",
+					"page": 3,
+					"entries": [
+						"If this {@variantrule Reaction|XPHB} causes the attack to miss, you can retaliate with a powerful counterattack as part of the same {@variantrule Reaction|XPHB}. Make an attack roll with a Melee weapon against the triggering creature. If this attack hits, you can use one of your {@subclassFeature Brutality|Fighter|XPHB|Gladiator|XUA2025ApocalypticSubclasses|3|XUA2025ApocalypticSubclasses} effects on the target without expending a use of that feature.",
+						"Once this counterattack hits, you can't use this feature to make another counterattack until you finish a {@variantrule Long Rest|XPHB}. You can also restore your use of this counterattack by expending a use of {@classFeature Second Wind|Fighter|XPHB|1|XPHB} (no action required)."
+					]
+				}
+			]
+		},
+		{
+			"name": "Bolder Brutalities",
+			"source": "XUA2025ApocalypticSubclasses",
+			"page": 3,
+			"className": "Fighter",
+			"classSource": "XPHB",
+			"subclassShortName": "Gladiator",
+			"subclassSource": "XUA2025ApocalypticSubclasses",
+			"level": 10,
+			"header": 2,
+			"entries": [
+				"Your brutal martial prowess has improved. The following effects are added to your {@subclassFeature Brutality|Fighter|XPHB|Gladiator|XUA2025ApocalypticSubclasses|3|XUA2025ApocalypticSubclasses} options.",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Rive|Fighter|XPHB|Gladiator|XUA2025ApocalypticSubclasses|10|XUA2025ApocalypticSubclasses"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Rush|Fighter|XPHB|Gladiator|XUA2025ApocalypticSubclasses|10|XUA2025ApocalypticSubclasses"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Stagger|Fighter|XPHB|Gladiator|XUA2025ApocalypticSubclasses|10|XUA2025ApocalypticSubclasses"
+				}
+			]
+		},
+		{
+			"name": "Rive",
+			"source": "XUA2025ApocalypticSubclasses",
+			"page": 3,
+			"className": "Fighter",
+			"classSource": "XPHB",
+			"subclassShortName": "Gladiator",
+			"subclassSource": "XUA2025ApocalypticSubclasses",
+			"level": 10,
+			"header": 3,
+			"entries": [
+				"You can activate the {@itemMastery Cleave|XPHB} mastery property in addition to a different mastery property you're using with that weapon, and you can add your ability modifier to the damage of the additional attack made as part of that property's activation."
+			]
+		},
+		{
+			"name": "Rush",
+			"source": "XUA2025ApocalypticSubclasses",
+			"page": 3,
+			"className": "Fighter",
+			"classSource": "XPHB",
+			"subclassShortName": "Gladiator",
+			"subclassSource": "XUA2025ApocalypticSubclasses",
+			"level": 10,
+			"header": 3,
+			"entries": [
+				"You can activate the {@itemMastery Push|XPHB} mastery property in addition to a different mastery property you're using with that weapon, and you can immediately move up to your {@variantrule Speed|XPHB} without provoking {@action Opportunity Attack|XPHB|Opportunity Attacks}."
+			]
+		},
+		{
+			"name": "Stagger",
+			"source": "XUA2025ApocalypticSubclasses",
+			"page": 3,
+			"className": "Fighter",
+			"classSource": "XPHB",
+			"subclassShortName": "Gladiator",
+			"subclassSource": "XUA2025ApocalypticSubclasses",
+			"level": 10,
+			"header": 3,
+			"entries": [
+				"You can activate the {@itemMastery Slow|XPHB} mastery property in addition to a different mastery property you're using with that weapon, and the target has {@variantrule Disadvantage|XPHB} on the next saving throw it makes before the end of your next turn."
+			]
+		},
+		{
+			"name": "Brutal Resurgence",
+			"source": "XUA2025ApocalypticSubclasses",
+			"page": 3,
+			"className": "Fighter",
+			"classSource": "XPHB",
+			"subclassShortName": "Gladiator",
+			"subclassSource": "XUA2025ApocalypticSubclasses",
+			"level": 15,
+			"header": 2,
+			"entries": [
+				"Whenever you use your {@classFeature Second Wind|Fighter|XPHB|1|XPHB} to regain {@variantrule Hit Points|XPHB}, you regain an expended use of {@subclassFeature Brutality|Fighter|XPHB|Gladiator|XUA2025ApocalypticSubclasses|3|XUA2025ApocalypticSubclasses}. You also regain an expended use of {@subclassFeature Brutality|Fighter|XPHB|Gladiator|XUA2025ApocalypticSubclasses|3|XUA2025ApocalypticSubclasses} whenever you use your {@classFeature Action Surge|Fighter|XPHB|2|XPHB}."
+			]
+		},
+		{
+			"name": "Mutilate",
+			"source": "XUA2025ApocalypticSubclasses",
+			"page": 3,
+			"className": "Fighter",
+			"classSource": "XPHB",
+			"subclassShortName": "Gladiator",
+			"subclassSource": "XUA2025ApocalypticSubclasses",
+			"level": 18,
+			"header": 2,
+			"entries": [
+				"When you hit a {@status Bloodied|XPHB} creature with an attack roll, you can attempt to critically injure it. The target makes a Constitution saving throw ({@dc 8} plus your Charisma modifier and {@table Proficiency Bonus|XPHB}). On a failed save, the target suffers the following effects:",
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"page": 3,
+					"items": [
+						{
+							"type": "item",
+							"name": "Maimed",
+							"entries": [
+								"If the target takes the {@action Attack|XPHB} action, it can make only one attack."
+							]
+						},
+						{
+							"type": "item",
+							"name": "Sluggish",
+							"entries": [
+								"The target's {@variantrule Speed|XPHB} is halved, and it has a \u22122 penalty to its {@variantrule Armor Class|XPHB}."
+							]
+						}
+					]
+				},
+				"These effects last until the target regains {@variantrule Hit Points|XPHB}.",
+				"Once a target fails its saving throw against this feature, you can't use it again until you finish a {@variantrule Long Rest|XPHB}."
+			]
+		},
+		{
+			"name": "Defiled Sorcery",
+			"source": "XUA2025ApocalypticSubclasses",
+			"page": 4,
+			"className": "Sorcerer",
+			"classSource": "XPHB",
+			"subclassShortName": "Defiled",
+			"subclassSource": "XUA2025ApocalypticSubclasses",
+			"level": 3,
+			"header": 1,
+			"entries": [
+				"Your innate power siphons life essence from the surrounding world. At your command, creatures grow sick and plants wither to husks. You draw power from the corruption of life itself, draining vitality to fuel destructive magic.",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Defile and Empower|Sorcerer|XPHB|Defiled|XUA2025ApocalypticSubclasses|3|XUA2025ApocalypticSubclasses"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Defiler Spells|Sorcerer|XPHB|Defiled|XUA2025ApocalypticSubclasses|3|XUA2025ApocalypticSubclasses"
+				}
+			]
+		},
+		{
+			"name": "Defile and Empower",
+			"source": "XUA2025ApocalypticSubclasses",
+			"page": 4,
+			"className": "Sorcerer",
+			"classSource": "XPHB",
+			"subclassShortName": "Defiled",
+			"subclassSource": "XUA2025ApocalypticSubclasses",
+			"level": 3,
+			"header": 2,
+			"consumes": {
+				"name": "Sorcery Point",
+				"amount": 3
+			},
+			"entries": [
+				"Once per turn when you roll damage for a spell you cast using a spell slot, you can siphon your life energy into the spell and empower it. Roll a number of your unexpended {@variantrule Hit Point Dice|XPHB}, up to a number equal to half the level of spell slot expended (round up, minimum of one die), and add the total rolled to one damage roll of the spell. Those {@variantrule Hit Point Dice|XPHB} are then expended.",
+				{
+					"type": "entries",
+					"name": "Life Steal",
+					"page": 4,
+					"entries": [
+						"Instead of drawing on your own life force when you use this feature, you can try to steal life from another creature you can see within 30 feet of yourself. That creature makes a Constitution saving throw against your spell save DC; creatures that have {@variantrule Immunity|XPHB} to the {@condition Exhaustion|XPHB} condition automatically succeed on the save. On a failed save, in place of rolling your {@variantrule Hit Point Dice|XPHB}, roll a number of the creature's unexpended {@variantrule Hit Point Dice|XPHB}, up to a number equal to half the level of slot expended (round down, minimum of one die); you then add that total rolled to one damage roll of the spell, and those {@variantrule Hit Point Dice|XPHB} are expended for the creature.",
+						"Once a creature fails its save against Life Steal, you can't use Life Steal again until you finish a {@variantrule Long Rest|XPHB} unless you expend 3 Sorcery Points (no action required) to restore your use of it."
+					]
+				}
+			]
+		},
+		{
+			"name": "Defiler Spells",
+			"source": "XUA2025ApocalypticSubclasses",
+			"page": 4,
+			"className": "Sorcerer",
+			"classSource": "XPHB",
+			"subclassShortName": "Defiled",
+			"subclassSource": "XUA2025ApocalypticSubclasses",
+			"level": 3,
+			"header": 2,
+			"entries": [
+				"Whenever you reach a {@class Sorcerer|XPHB} level specified in the {@table Defiler Spells|XUA2025ApocalypticSubclasses} table, you thereafter always have the listed spells prepared.",
+				{
+					"type": "statblock",
+					"tag": "table",
+					"source": "XUA2025ApocalypticSubclasses",
+					"name": "Defiler Spells",
+					"page": 4
+				}
+			]
+		},
+		{
+			"name": "Corrupted Caster",
+			"source": "XUA2025ApocalypticSubclasses",
+			"page": 4,
+			"className": "Sorcerer",
+			"classSource": "XPHB",
+			"subclassShortName": "Defiled",
+			"subclassSource": "XUA2025ApocalypticSubclasses",
+			"level": 6,
+			"header": 2,
+			"entries": [
+				"You learn further ways to tap into the corrupting magic within yourself, granting you the following benefits.",
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"page": 4,
+					"items": [
+						{
+							"type": "item",
+							"name": "Defiler's Ward",
+							"entries": [
+								"When you take a {@variantrule Bonus Action|XPHB} to transform Sorcery Points into a spell slot, you can wreathe your body in a protective web of defiling energy. Roll a number of {@dice d6|d6s} equal to the level of spell slot created. You gain {@variantrule Temporary Hit Points|XPHB} equal to the total rolled.",
+								"If a creature hits you with a melee attack roll while you have {@variantrule Temporary Hit Points|XPHB}, the creature takes Necrotic or Poison damage (your choice) equal to your Charisma modifier."
+							]
+						},
+						{
+							"type": "item",
+							"name": "Strengthened Rot",
+							"entries": [
+								"Damage dealt by your Sorcerer spells and Sorcerer features ignores {@variantrule Resistance|XPHB} to Necrotic and Poison damage."
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Withering Aura",
+			"source": "XUA2025ApocalypticSubclasses",
+			"page": 4,
+			"className": "Sorcerer",
+			"classSource": "XPHB",
+			"subclassShortName": "Defiled",
+			"subclassSource": "XUA2025ApocalypticSubclasses",
+			"level": 14,
+			"header": 2,
+			"entries": [
+				"When you use your {@classFeature Innate Sorcery|Sorcerer|XPHB|1|XPHB}, an aura of defiling magic fills a 15-foot {@variantrule Emanation [Area of Effect]|XPHB|Emanation} originating from you while your {@classFeature Innate Sorcery|Sorcerer|XPHB|1|XPHB} is active, granting you the following additional benefits.",
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"page": 4,
+					"items": [
+						{
+							"type": "item",
+							"name": "Defiling Shroud",
+							"entries": [
+								"When an enemy within the aura hits you with an attack roll, you can reduce that attack's total damage against you. The reduction equals your Charisma modifier."
+							]
+						},
+						{
+							"type": "item",
+							"name": "Essence Siphon",
+							"entries": [
+								"When an enemy dies within the aura, you regain {@dice 1d4} Sorcery Points. Once you use this benefit, you can't regain Sorcery Points in this way until you use {@classFeature Innate Sorcery|Sorcerer|XPHB|1|XPHB} again."
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Superior Defiler",
+			"source": "XUA2025ApocalypticSubclasses",
+			"page": 4,
+			"className": "Sorcerer",
+			"classSource": "XPHB",
+			"subclassShortName": "Defiled",
+			"subclassSource": "XUA2025ApocalypticSubclasses",
+			"level": 18,
+			"header": 2,
+			"entries": [
+				"You've perfected your ability to control and channel defiling magic, granting you the following benefits.",
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"page": 4,
+					"items": [
+						{
+							"type": "item",
+							"name": "Fouled Soul",
+							"entries": [
+								"You have {@variantrule Immunity|XPHB} to the {@condition Poisoned} and {@condition Exhaustion} conditions."
+							]
+						},
+						{
+							"type": "item",
+							"name": "Furthered Defilement",
+							"entries": [
+								"The size of your {@subclassFeature Withering Aura|Sorcerer|XPHB|Defiled|XUA2025ApocalypticSubclasses|14|XUA2025ApocalypticSubclasses} increases to a 30-foot {@variantrule Emanation [Area of Effect]|XPHB|Emanation}. In addition, enemies can't regain {@variantrule Hit Points|XPHB} while in your aura."
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Sorcerer-King Patron",
+			"source": "XUA2025ApocalypticSubclasses",
+			"page": 5,
+			"className": "Warlock",
+			"classSource": "XPHB",
+			"subclassShortName": "Sorcerer-King",
+			"subclassSource": "XUA2025ApocalypticSubclasses",
+			"level": 3,
+			"header": 1,
+			"entries": [
+				"Your pact draws from the power of a monstrous, tyrannical force akin to a demigod or an overwhelmingly powerful magic-user. Through your pact, you herald this tyrant's interests in the world, channeling their influence and mind-bending, psionic power.",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Sorcerer-King Spells|Warlock|XPHB|Sorcerer-King|XUA2025ApocalypticSubclasses|3|XUA2025ApocalypticSubclasses"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Tyrant's Herald|Warlock|XPHB|Sorcerer-King|XUA2025ApocalypticSubclasses|3|XUA2025ApocalypticSubclasses"
+				}
+			]
+		},
+		{
+			"name": "Sorcerer-King Spells",
+			"source": "XUA2025ApocalypticSubclasses",
+			"page": 5,
+			"className": "Warlock",
+			"classSource": "XPHB",
+			"subclassShortName": "Sorcerer-King",
+			"subclassSource": "XUA2025ApocalypticSubclasses",
+			"level": 3,
+			"header": 2,
+			"entries": [
+				"The magic of your patron ensures you always have certain spells ready; whenever you reach a {@class Warlock|XPHB} level specified in the {@table Sorcerer-King Spells|XUA2025ApocalypticSubclasses} table, you thereafter always have the listed spells prepared.",
+				{
+					"type": "entries",
+					"name": "Psionic Casting",
+					"page": 5,
+					"entries": [
+						"When you cast a spell from the {@table Sorcerer-King Spells|XUA2025ApocalypticSubclasses} table, you can do so without Verbal or Material components, except Material components that are consumed by the spell or that have a cost specified in the spell."
+					]
+				},
+				{
+					"type": "statblock",
+					"tag": "table",
+					"source": "XUA2025ApocalypticSubclasses",
+					"name": "Sorcerer-King Spells",
+					"page": 5
+				}
+			]
+		},
+		{
+			"name": "Tyrant's Herald",
+			"source": "XUA2025ApocalypticSubclasses",
+			"page": 5,
+			"className": "Warlock",
+			"classSource": "XPHB",
+			"subclassShortName": "Sorcerer-King",
+			"subclassSource": "XUA2025ApocalypticSubclasses",
+			"level": 3,
+			"header": 2,
+			"entries": [
+				"You gain the following benefits.",
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"page": 5,
+					"items": [
+						{
+							"type": "item",
+							"name": "Intimidating Presence",
+							"entries": [
+								"You gain {@variantrule proficiency|XPHB} in the {@skill Intimidation|XPHB} skill if you don't already have it. You also have {@variantrule Expertise|XPHB} in {@skill Intimidation|XPHB}."
+							]
+						},
+						{
+							"type": "item",
+							"name": "Voice of Tyranny",
+							"entries": [
+								"You can cast {@spell Command|XPHB} as a {@variantrule Bonus Action|XPHB} without expending a spell slot. You can do so a number of times equal to your Charisma modifier (minimum of once), and you regain all expended uses when you finish a {@variantrule Long Rest|XPHB}."
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Decisive Edict",
+			"source": "XUA2025ApocalypticSubclasses",
+			"page": 5,
+			"className": "Warlock",
+			"classSource": "XPHB",
+			"subclassShortName": "Sorcerer-King",
+			"subclassSource": "XUA2025ApocalypticSubclasses",
+			"level": 6,
+			"header": 2,
+			"entries": [
+				"Your patron's power surges through you, allowing you to rally your allies and subjugate your enemies. When you cast a spell using a {@classFeature Pact Magic|Warlock|XPHB|1|XPHB} spell slot, you can cause profane power to erupt in a 30-foot {@variantrule Emanation [Area of Effect]|XPHB|Emanation} originating from you. For each creature you can see in the {@variantrule Emanation [Area of Effect]|XPHB|Emanation}, choose one of the following effects:",
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"page": 5,
+					"items": [
+						{
+							"type": "item",
+							"name": "Marshal",
+							"entries": [
+								"The creature has {@variantrule Advantage|XPHB} on attack rolls until the end of its next turn."
+							]
+						},
+						{
+							"type": "item",
+							"name": "Oppress",
+							"entries": [
+								"The creature must succeed on a Wisdom saving throw against your spell save DC or have the {@condition Frightened|XPHB} condition until the end of its next turn."
+							]
+						}
+					]
+				},
+				"Once you use this feature, you can't do so again until you finish a {@variantrule Short Rest|XPHB|Short} or {@variantrule Long Rest|XPHB}. You also regain use of this feature when you use {@classFeature Magical Cunning|Warlock|XPHB|2|XPHB}."
+			]
+		},
+		{
+			"name": "Vindictive Rebuke",
+			"source": "XUA2025ApocalypticSubclasses",
+			"page": 5,
+			"className": "Warlock",
+			"classSource": "XPHB",
+			"subclassShortName": "Sorcerer-King",
+			"subclassSource": "XUA2025ApocalypticSubclasses",
+			"level": 10,
+			"header": 2,
+			"entries": [
+				"You learn to rebuff those who challenge you or the might of your patron. When an enemy hits you with an attack roll, you can take a {@variantrule Reaction|XPHB} to force the enemy to reroll the {@dice d20}, and the enemy must use the new roll. If this {@variantrule Reaction|XPHB} turns the attack roll into a miss, the triggering creature takes Psychic damage equal to your {@class Warlock|XPHB} level.",
+				"You can use this feature a number of times equal to your Charisma modifier (minimum of once), and you regain all expended uses when you finish a {@variantrule Long Rest|XPHB}."
+			]
+		},
+		{
+			"name": "Absolute Tyranny",
+			"source": "XUA2025ApocalypticSubclasses",
+			"page": 5,
+			"className": "Warlock",
+			"classSource": "XPHB",
+			"subclassShortName": "Sorcerer-King",
+			"subclassSource": "XUA2025ApocalypticSubclasses",
+			"level": 14,
+			"header": 2,
+			"entries": [
+				"You wield your patron's tyrannical might with absolute conviction. Whenever you cast {@spell Command|XPHB}, you can target one additional creature within the spell's range. Additionally, a creature {@condition Frightened|XPHB} by you automatically fails its saving throw against any {@spell Command|XPHB} you cast."
+			]
+		}
+	],
+	"foundrySubclassFeature": [
+		{
+			"name": "Student of Preservation",
+			"source": "XUA2025ApocalypticSubclasses",
+			"className": "Druid",
+			"classSource": "XPHB",
+			"subclassShortName": "Preservation",
+			"subclassSource": "XUA2025ApocalypticSubclasses",
+			"level": 3,
+			"entryData": {
+				"toolProficiencies": [
+					{
+						"anyArtisansTool": 1
+					}
+				]
+			}
+		},
+		{
+			"name": "Combat Theatrics",
+			"source": "XUA2025ApocalypticSubclasses",
+			"className": "Fighter",
+			"classSource": "XPHB",
+			"subclassShortName": "Gladiator",
+			"subclassSource": "XUA2025ApocalypticSubclasses",
+			"level": 3,
+			"entryData": {
+				"skillProficiencies": [
+					{
+						"choose": {
+							"from": [
+								"acrobatics",
+								"athletics",
+								"deception",
+								"intimidation",
+								"performance"
+							],
+							"count": 1
+						}
+					}
+				]
+			}
+		},
+		{
+			"name": "Superior Defiler",
+			"source": "XUA2025ApocalypticSubclasses",
+			"className": "Sorcerer",
+			"classSource": "XPHB",
+			"subclassShortName": "Defiled",
+			"subclassSource": "XUA2025ApocalypticSubclasses",
+			"level": 18,
+			"entryData": {
+				"conditionImmune": [
+					"poisoned",
+					"exhaustion"
+				]
+			}
+		},
+		{
+			"name": "Tyrant's Herald",
+			"source": "XUA2025ApocalypticSubclasses",
+			"className": "Warlock",
+			"classSource": "XPHB",
+			"subclassShortName": "Sorcerer-King",
+			"subclassSource": "XUA2025ApocalypticSubclasses",
+			"level": 3,
+			"entryData": {
+				"skillProficiencies": [
+					{
+						"intimidation": true
+					}
+				],
+				"expertise": [
+					{
+						"intimidation": true
+					}
+				]
+			}
+		}
+	],
+	"table": [
+		{
+			"name": "Circle of Preservation Spells",
+			"source": "XUA2025ApocalypticSubclasses",
+			"page": 2,
+			"type": "table",
+			"colLabels": [
+				"Druid Level",
+				"Spells"
+			],
+			"colStyles": [
+				"col-3 text-center",
+				"col-9"
+			],
+			"rows": [
+				[
+					"3",
+					"{@spell Bless|XPHB}, {@spell Lesser Restoration|XPHB}, {@spell Protection from Poison|XPHB}, {@spell Sanctuary|XPHB}"
+				],
+				[
+					"5",
+					"{@spell Beacon of Hope|XPHB}, {@spell Plant Growth|XPHB}"
+				],
+				[
+					"7",
+					"{@spell Aura of Life|XPHB}, {@spell Death Ward|XPHB}"
+				],
+				[
+					"9",
+					"{@spell Greater Restoration|XPHB}, {@spell Hallow|XPHB}"
+				]
+			]
+		},
+		{
+			"name": "Defiler Spells",
+			"source": "XUA2025ApocalypticSubclasses",
+			"page": 4,
+			"type": "table",
+			"colLabels": [
+				"Sorcerer Level",
+				"Spells"
+			],
+			"colStyles": [
+				"col-3 text-center",
+				"col-9"
+			],
+			"rows": [
+				[
+					"3",
+					"{@spell Blindness/Deafness|XPHB}, {@spell Inflict Wounds|XPHB}, {@spell Ray of Enfeeblement|XPHB}, {@spell Ray of Sickness|XPHB}"
+				],
+				[
+					"5",
+					"{@spell Bestow Curse|XPHB}, {@spell Vampiric Touch|XPHB}"
+				],
+				[
+					"7",
+					"{@spell Blight|XPHB}, {@spell Hallucinatory Terrain|XPHB}"
+				],
+				[
+					"9",
+					"{@spell Antilife Shell|XPHB}, {@spell Contagion|XPHB}"
+				]
+			]
+		},
+		{
+			"name": "Sorcerer-King Spells",
+			"source": "XUA2025ApocalypticSubclasses",
+			"page": 5,
+			"type": "table",
+			"colLabels": [
+				"Warlock Level",
+				"Spells"
+			],
+			"colStyles": [
+				"col-3 text-center",
+				"col-9"
+			],
+			"rows": [
+				[
+					"3",
+					"{@spell Command|XPHB}, {@spell Compelled Duel|XPHB}, {@spell Hold Person|XPHB}, {@spell Mind Spike|XPHB}, {@spell Wrathful Smite|XPHB}"
+				],
+				[
+					"5",
+					"{@spell Fear|XPHB}, {@spell Sending|XPHB}"
+				],
+				[
+					"7",
+					"{@spell Compulsion|XPHB}, {@spell Staggering Smite|XPHB}"
+				],
+				[
+					"9",
+					"{@spell Dominate Person|XPHB}, {@spell Synaptic Static|XPHB}"
+				]
+			]
+		}
+	],
+	"book": [
+		{
+			"name": "Unearthed Arcana 2025: Apocalyptic Subclasses",
+			"id": "XUA2025ApocalypticSubclasses",
+			"source": "XUA2025ApocalypticSubclasses",
+			"group": "prerelease",
+			"cover": {
+				"type": "external",
+				"url": "https://raw.githubusercontent.com/TheGiddyLimit/unearthed-arcana/refs/heads/master/_img/XUA2025ApocalypticSubclasses/cover.webp"
+			},
+			"published": "2025-08-21",
+			"author": "Wizards of the Coast",
+			"contents": [
+				{
+					"name": "Unearthed Arcana 2025: Apocalyptic Subclasses",
+					"headers": [
+						"What's Inside",
+						"Subclasses",
+						{
+							"header": "Circle of Preservation (Druid)",
+							"depth": 1
+						},
+						{
+							"header": "Gladiator (Fighter)",
+							"depth": 1
+						},
+						{
+							"header": "Defiled Sorcery (Sorcerer)",
+							"depth": 1
+						},
+						{
+							"header": "Sorcerer-King Patron (Warlock)",
+							"depth": 1
+						}
+					]
+				}
+			]
+		}
+	],
+	"bookData": [
+		{
+			"id": "XUA2025ApocalypticSubclasses",
+			"source": "XUA2025ApocalypticSubclasses",
+			"data": [
+				{
+					"type": "section",
+					"name": "Unearthed Arcana 2025: Apocalyptic Subclasses",
+					"page": 1,
+					"entries": [
+						"This playtest document is part of a series of {@i Unearthed Arcana} articles that present material designed for upcoming products. The material here uses the rules in the {@book 2024 Player's Handbook|XPHB}.",
+						{
+							"type": "section",
+							"name": "What's Inside",
+							"page": 1,
+							"entries": [
+								"This document presents four new subclasses for the {@class Druid|XPHB} ({@class Druid|XPHB|Circle of Preservation|Preservation|XUA2025ApocalypticSubclasses}), {@class Fighter|XPHB} ({@class Fighter|XPHB|Gladiator|Gladiator|XUA2025ApocalypticSubclasses}), {@class Sorcerer|XPHB} ({@class Sorcerer|XPHB|Defiled Sorcery|Defiled|XUA2025ApocalypticSubclasses}), and {@class Warlock|XPHB} ({@class Warlock|XPHB|Sorcerer-King Patron|Sorcerer-King|XUA2025ApocalypticSubclasses}).",
+								{
+									"type": "inset",
+									"name": "This Is Playtest Material",
+									"page": 1,
+									"entries": [
+										"This article is presented for playtesting and feedback. The options here are experimental and in draft form. They aren't officially part of the game. Your feedback will help determine whether we adopt it as official.",
+										{
+											"type": "list",
+											"style": "list-hang-notitle",
+											"page": 1,
+											"items": [
+												{
+													"type": "item",
+													"name": "How to Playtest This UA",
+													"entries": [
+														"We invite you to try out this material in play. To play with this material, you may either incorporate it into your campaign or run one or more special playtest sessions. For such a session, you may create an adventure of your own or use a short adventure from a source like {@adventure Quests from the Infinite Staircase|QftIS}."
+													]
+												},
+												{
+													"type": "item",
+													"name": "Power Level",
+													"entries": [
+														"The character options you read here might be more or less powerful than options in the {@book 2024 Player's Handbook|XPHB}. If a design survives playtesting, we adjust its power to the desirable level before publication. This means an option could be more or less powerful in its final form."
+													]
+												},
+												{
+													"type": "item",
+													"name": "Feedback",
+													"entries": [
+														"The best way for you to give us feedback on this material is in the survey we'll release on D&D Beyond. If we make this material official, it will be refined based on your feedback, and then it will appear in a D&D book.",
+														"Providing feedback on this document is one way you can help shape the future of D&D!"
+													]
+												}
+											]
+										}
+									]
+								}
+							]
+						},
+						{
+							"type": "section",
+							"name": "Subclasses",
+							"page": 1,
+							"entries": [
+								"The following section presents the following subclasses: {@class Druid|XPHB|Circle of Preservation|Preservation|XUA2025ApocalypticSubclasses}, {@class Fighter|XPHB|Gladiator|Gladiator|XUA2025ApocalypticSubclasses}, {@class Sorcerer|XPHB|Defiled Sorcery|Defiled|XUA2025ApocalypticSubclasses}, and {@class Warlock|XPHB|Sorcerer-King Patron|Sorcerer-King|XUA2025ApocalypticSubclasses}.",
+								"These subclasses are presented starting on the following page.",
+								{
+									"type": "entries",
+									"name": "Circle of Preservation (Druid)",
+									"page": 2,
+									"entries": [
+										"{@i Safeguard Nature and Heal the World}",
+										{
+											"type": "statblock",
+											"prop": "subclass",
+											"source": "XUA2025ApocalypticSubclasses",
+											"name": "Preservation",
+											"className": "Druid",
+											"classSource": "XPHB",
+											"page": 2
+										}
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Gladiator (Fighter)",
+									"page": 3,
+									"entries": [
+										"{@i Master Brutality and Blood Sport}",
+										{
+											"type": "statblock",
+											"prop": "subclass",
+											"source": "XUA2025ApocalypticSubclasses",
+											"name": "Gladiator",
+											"className": "Fighter",
+											"classSource": "XPHB",
+											"page": 3
+										}
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Defiled Sorcery (Sorcerer)",
+									"page": 4,
+									"entries": [
+										"{@i Siphon Life into Catastrophic Spells}",
+										{
+											"type": "inset",
+											"name": "Design Note: Hit Point Dice",
+											"page": 4,
+											"entries": [
+												"{@variantrule Monster|XPHB|Monsters}, like {@variantrule Player Character|XPHB|player characters}, have {@variantrule Hit Point Dice|XPHB}. The size and number of a monster's {@variantrule Hit Point Dice|XPHB|Hit Dice} are typically denoted in the monster's {@variantrule stat block|XPHB} as part of the parenthetical after the monster's average {@variantrule Hit Points|XPHB}. Any creature\u2014both {@variantrule Player Character|XPHB|characters} and {@variantrule Monster|XPHB|monsters}\u2014can expend {@variantrule Hit Point Dice|XPHB|Hit Dice} during a {@variantrule Short Rest|XPHB} to regain {@variantrule Hit Points|XPHB}.",
+												"When a {@variantrule monster|XPHb} is first encountered, assume that it hasn't expended any of its {@variantrule Hit Point Dice|XPHB|Hit Dice}."
+											]
+										},
+										{
+											"type": "statblock",
+											"prop": "subclass",
+											"source": "XUA2025ApocalypticSubclasses",
+											"name": "Defiled",
+											"className": "Sorcerer",
+											"classSource": "XPHB",
+											"page": 4
+										}
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Sorcerer-King Patron (Warlock)",
+									"page": 5,
+									"entries": [
+										"{@i Herald Tyrannical Might of Monstrous Rulers}",
+										{
+											"type": "statblock",
+											"prop": "subclass",
+											"source": "XUA2025ApocalypticSubclasses",
+											"name": "Sorcerer-King",
+											"className": "Warlock",
+											"classSource": "XPHB",
+											"page": 5
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	]
+}

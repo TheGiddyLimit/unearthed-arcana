@@ -1447,7 +1447,7 @@
 			"subclassSource": "XUA2025ForgottenRealmsSubclasses",
 			"level": 3,
 			"entries": [
-				"If your {@classFeature Sneak Attack|Rogue|XPHB|1|XPHB} hits a {@variantrule Bloodied|XPHB} creature, the target takes extra damage of the weapon's type equal to half your {@class Rogue|XPHB} level (round up).",
+				"If your {@classFeature Sneak Attack|Rogue|XPHB|1|XPHB} hits a {@status Bloodied|XPHB} creature, the target takes extra damage of the weapon's type equal to half your {@class Rogue|XPHB} level (round up).",
 				"In addition, when an enemy you can see is reduced to 0 {@variantrule Hit Points|XPHB}, you can take a {@variantrule Reaction|XPHB} and {@variantrule Teleportation|XPHB|teleport} to an unoccupied space you can see within 30 feet of yourself. You can then make one melee attack. You can use this {@variantrule Reaction|XPHB} a number of times equal to your Intelligence modifier (minimum of once), and you regain all expended uses when you finish a {@variantrule Long Rest|XPHB}."
 			]
 		},

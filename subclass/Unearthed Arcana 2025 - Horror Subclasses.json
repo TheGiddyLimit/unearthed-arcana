@@ -500,7 +500,7 @@
 									"name": "Circle of Mortality",
 									"nameDot": false,
 									"entries": [
-										"now also grants you a small damage boost against {@variantrule Bloodied|XPHB} creatures. "
+										"now also grants you a small damage boost against {@status Bloodied|XPHB} creatures. "
 									]
 								},
 								{
@@ -951,7 +951,7 @@
 					"type": "entries",
 					"name": "Pull of Death",
 					"entries": [
-						"Once per turn, when you cast a spell or hit with an attack roll and deal damage to a {@variantrule Bloodied|XPHB} creature, that creature takes an extra {@damage 1d4} Necrotic damage."
+						"Once per turn, when you cast a spell or hit with an attack roll and deal damage to a {@status Bloodied|XPHB} creature, that creature takes an extra {@damage 1d4} Necrotic damage."
 					]
 				},
 				{
@@ -1013,7 +1013,7 @@
 			"level": 6,
 			"header": 2,
 			"entries": [
-				"When you or a {@variantrule Bloodied|XPHB} creature you can see within 30 feet of yourself is hit with an attack roll, you can take a {@variantrule Reaction|XPHB} to halve that attack's damage.",
+				"When you or a {@status Bloodied|XPHB} creature you can see within 30 feet of yourself is hit with an attack roll, you can take a {@variantrule Reaction|XPHB} to halve that attack's damage.",
 				"You can use this feature a number of times equal to your Wisdom modifier (minimum of once). You regain all expended uses when you finish a {@variantrule Long Rest|XPHB}."
 			]
 		},
@@ -1131,7 +1131,7 @@
 			"header": 2,
 			"entries": [
 				"You gain a bonus to Constitution saving throws equal to your Wisdom modifier (minimum of +1).",
-				"In addition, once per turn when you hit a creature with an attack roll while you are transformed using {@subclassFeature Wrath of the Wild|Ranger|XPHB|Hollow Warden|XUA2025HorrorSubclasses|3|XUA2025HorrorSubclasses}, you regain a number of {@variantrule Hit Points|XPHB} equal to {@dice 1d10} plus your Wisdom modifier, provided you are {@variantrule Bloodied|XPHB} when you hit."
+				"In addition, once per turn when you hit a creature with an attack roll while you are transformed using {@subclassFeature Wrath of the Wild|Ranger|XPHB|Hollow Warden|XUA2025HorrorSubclasses|3|XUA2025HorrorSubclasses}, you regain a number of {@variantrule Hit Points|XPHB} equal to {@dice 1d10} plus your Wisdom modifier, provided you are {@status Bloodied|XPHB} when you hit."
 			]
 		},
 		{
@@ -2806,7 +2806,7 @@
 															"name": "Circle of Mortality",
 															"nameDot": false,
 															"entries": [
-																"now also grants you a small damage boost against {@variantrule Bloodied|XPHB} creatures. "
+																"now also grants you a small damage boost against {@status Bloodied|XPHB} creatures. "
 															]
 														},
 														{
