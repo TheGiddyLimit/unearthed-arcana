@@ -1,0 +1,544 @@
+{
+	"$schema": "https://raw.githubusercontent.com/TheGiddyLimit/5etools-utils/master/schema/ua-fast/homebrew.json",
+	"_meta": {
+		"sources": [
+			{
+				"json": "XUA2025ArcaneUpdates",
+				"abbreviation": "XUA25ArU",
+				"full": "Unearthed Arcana 2025: Arcane Updates",
+				"authors": [
+					"Wizards of the Coast"
+				],
+				"convertedBy": [
+					"Lyra [he/him]"
+				],
+				"version": "1.0.0",
+				"url": "https://media.dndbeyond.com/compendium-images/ua/arcane-subclasses-update/LEwFmioFBYHWqzpd/UA2025-ArcaneSubclassesUpdate.pdf",
+				"dateReleased": "2025-09-18"
+			}
+		],
+		"dependencies": {
+			"classFeature": [
+				"XUA2025ArcaneSubclasses"
+			]
+		},
+		"optionalFeatureTypes": {
+			"MT": "Magic Tattoo"
+		},
+		"edition": "one",
+		"status": "ready",
+		"dateAdded": 1758306933,
+		"dateLastModified": 1758306933
+	},
+	"book": [
+		{
+			"name": "Unearthed Arcana 2025: Arcane Updates",
+			"id": "XUA2025ArcaneUpdates",
+			"source": "XUA2025ArcaneUpdates",
+			"group": "prerelease",
+			"cover": {
+				"type": "external",
+				"url": "https://raw.githubusercontent.com/TheGiddyLimit/unearthed-arcana/refs/heads/master/_img/XUA2025ArcaneUpdates/cover.webp"
+			},
+			"published": "2025-09-18",
+			"author": "Wizards of the Coast",
+			"contents": [
+				{
+					"name": "Unearthed Arcana 2025: Arcane Updates",
+					"headers": [
+						"What's Inside",
+						"Subclasses",
+						{
+							"header": "Arcane Archer (Fighter)",
+							"depth": 1
+						},
+						{
+							"header": "Tattooed Warrior (Monk)",
+							"depth": 1
+						},
+						{
+							"header": "Conjurer (Wizard)",
+							"depth": 1
+						},
+						{
+							"header": "Enchanter (Wizard)",
+							"depth": 1
+						},
+						{
+							"header": "Necromancer (Wizard)",
+							"depth": 1
+						},
+						{
+							"header": "Transmuter (Wizard)",
+							"depth": 1
+						}
+					]
+				}
+			]
+		}
+	],
+	"bookData": [
+		{
+			"id": "XUA2025ArcaneUpdates",
+			"source": "XUA2025ArcaneUpdates",
+			"data": [
+				{
+					"type": "section",
+					"name": "Unearthed Arcana 2025: Arcane Subclasses",
+					"page": 1,
+					"entries": [
+						"This playtest document is part of a series of {@i Unearthed Arcana} articles that present material designed for upcoming products. The material here uses the rules in the {@book 2024 Player's Handbook|XPHB}.",
+						{
+							"type": "section",
+							"name": "What's Inside",
+							"page": 1,
+							"entries": [
+								"This document presents six subclasses revised after their last appearance in Unearthed Arcana: {@class Fighter|XPHB|Arcane Archer|Arcane Archer|XUA2025ArcaneUpdates} ({@class Fighter|XPHB}), {@class Monk|XPHB} ({@class Monk|XPHB|Tattooed Warrior|Tattooed Warrior|XUA2025ArcaneUpdates}), {@class Wizard|XPHB|Conjurer|Conjurer|XUA2025ArcaneUpdates} ({@class Wizard|XPHB}), {@class Wizard|XPHB|Enchanter|Enchanter|XUA2025ArcaneUpdates} ({@class Wizard|XPHB}), {@class Wizard|XPHB|Necromancer|Necromancer|XUA2025ArcaneUpdates} ({@class Wizard|XPHB}), and {@class Wizard|XPHB|Transmuter|Transmuter|XUA2025ArcaneUpdates} ({@class Wizard|XPHB}).",
+								{
+									"type": "inset",
+									"name": "This Is Playtest Material",
+									"page": 1,
+									"entries": [
+										"This article is presented for playtesting and feedback. The options here are experimental and in draft form. They aren't officially part of the game. Your feedback will help determine whether we adopt it as official.",
+										{
+											"type": "list",
+											"style": "list-hang-notitle",
+											"page": 1,
+											"items": [
+												{
+													"type": "item",
+													"name": "How to Playtest This UA",
+													"entries": [
+														"We invite you to try out this material in play. To play with this material, you may either incorporate it into your campaign or run one or more special playtest sessions. For such a session, you may create an adventure of your own or use a short adventure from a source like {@adventure Quests from the Infinite Staircase|QftIS}."
+													]
+												},
+												{
+													"type": "item",
+													"name": "Power Level",
+													"entries": [
+														"The character options you read here might be more or less powerful than options in the {@book 2024 Player's Handbook|XPHB}. If a design survives playtesting, we adjust its power to the desirable level before publication. This means an option could be more or less powerful in its final form."
+													]
+												},
+												{
+													"type": "item",
+													"name": "Feedback",
+													"entries": [
+														"The best way for you to give us feedback on this material is in the survey we'll release on D&D Beyond. If we make this material official, it will be refined based on your feedback, and then it will appear in a D&D book.",
+														"Providing feedback on this document is one way you can help shape the future of D&D!"
+													]
+												}
+											]
+										}
+									]
+								}
+							]
+						},
+						{
+							"type": "section",
+							"name": "Subclasses",
+							"page": 1,
+							"entries": [
+								"This section presents the following subclasses: {@class Fighter|XPHB|Arcane Archer|Arcane Archer|XUA2025ArcaneUpdates}, {@class Monk|XPHB|Tattooed Warrior|Tattooed Warrior|XUA2025ArcaneUpdates}, {@class Wizard|XPHB|Conjurer|Conjurer|XUA2025ArcaneUpdates}, {@class Wizard|XPHB|Enchanter|Enchanter|XUA2025ArcaneUpdates}, {@class Wizard|XPHB|Necromancer|Necromancer|XUA2025ArcaneUpdates}, and {@class Wizard|XPHB|Transmuter|Transmuter|XUA2025ArcaneUpdates}.",
+								{
+									"type": "entries",
+									"name": "Arcane Archer (Fighter)",
+									"page": 1,
+									"entries": [
+										"{@i Deploy Magical Effects through Enchanted Ammunition}",
+										{
+											"type": "inset",
+											"name": "Design Note: Arcane Archer Updates",
+											"page": 1,
+											"entries": [
+												"Here are the main updates in this subclass since its appearance in {@class Fighter|XPHB|Unearthed Arcana|Arcane Archer|XUA2025ArcaneSubclasses}:",
+												{
+													"type": "list",
+													"page": 1,
+													"items": [
+														{
+															"type": "item",
+															"name": "Curving Shot",
+															"nameDot": false,
+															"entries": [
+																"has been revised to use the same ammunition but a new attack roll."
+															]
+														},
+														{
+															"type": "item",
+															"name": "Magical Ammunition",
+															"nameDot": false,
+															"entries": [
+																"is a new feature that grants magical effects to your ammunition that can be used outside of combat."
+															]
+														},
+														{
+															"type": "item",
+															"name": "Ever-Ready Shot",
+															"nameDot": false,
+															"entries": [
+																"is now available at a later level but always regains one expended Arcane Shot Die."
+															]
+														},
+														{
+															"type": "item",
+															"name": "Arcane Burst",
+															"nameDot": false,
+															"entries": [
+																"is a new feature that grants an additional effect to {@classFeature Indomitable|Fighter|XPHB|9|XPHB}."
+															]
+														},
+														{
+															"type": "item",
+															"name": "Masterful Shots",
+															"nameDot": false,
+															"entries": [
+																"has been redesigned and now allows you to reposition and attack."
+															]
+														}
+													]
+												}
+											]
+										},
+										{
+											"type": "statblock",
+											"prop": "subclass",
+											"source": "XUA2025ArcaneUpdates",
+											"name": "Arcane Archer",
+											"className": "Fighter",
+											"classSource": "XPHB",
+											"page": 1
+										}
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Tattooed Warrior (Monk)",
+									"page": 4,
+									"entries": [
+										"{@i Enhance Martial Arts with Your Magic Tattoos}",
+										{
+											"type": "inset",
+											"name": "Design Note: Tattooed Warrior Updates",
+											"page": 1,
+											"entries": [
+												"Here are the main updates in this subclass since its last appearance in {@class Monk|XPHB|Unearthed Arcana|Tattooed Warrior|XUA2025ArcaneSubclasses}:",
+												{
+													"type": "list",
+													"page": 1,
+													"items": [
+														"The Tattooed Warrior has been redesigned. With some exceptions, the tattoos now focus on additional abilities instead of spells.",
+														{
+															"type": "item",
+															"name": "Beast Tattoos",
+															"nameDot": false,
+															"entries": [
+																"still grant a cantrip, but now each option provides a benefit that isn't tied to a level 1 spell."
+															]
+														},
+														{
+															"type": "item",
+															"name": "Celestial Tattoo",
+															"nameDot": false,
+															"entries": [
+																"has been redesigned to provide uses of Focus Points outside of combat."
+															]
+														},
+														{
+															"type": "item",
+															"name": "Nature Tattoo",
+															"nameDot": false,
+															"entries": [
+																"has been condensed to provide Damage {@variantrule Resistance|XPHB} to a small suite of choices that can change."
+															]
+														},
+														{
+															"type": "item",
+															"name": "Monster Tattoos",
+															"nameDot": false,
+															"entries": [
+																"has been redesigned with new options."
+															]
+														}
+													]
+												}
+											]
+										},
+										{
+											"type": "statblock",
+											"prop": "subclass",
+											"source": "XUA2025ArcaneUpdates",
+											"name": "Tattooed Warrior",
+											"className": "Monk",
+											"classSource": "XPHB",
+											"page": 4
+										}
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Conjurer (Wizard)",
+									"page": 5,
+									"entries": [
+										"{@i Step Across Space and Call Creatures from Thin Air}",
+										{
+											"type": "inset",
+											"name": "Design Note: Conjurer Updates",
+											"page": 5,
+											"entries": [
+												"Here are the main updates in this subclass since its appearance in {@class Wizard|XPHB|Unearthed Arcana|Conjurer|XUA2025ArcaneSubclasses}:",
+												{
+													"type": "list",
+													"page": 5,
+													"items": [
+														{
+															"type": "item",
+															"name": "Benign Transposition",
+															"nameDot": false,
+															"entries": [
+																"is now a {@variantrule Bonus Action|XPHB} and can be used more often."
+															]
+														},
+														{
+															"type": "item",
+															"name": "Durable Summons",
+															"nameDot": false,
+															"entries": [
+																"now gives the summoned creature {@variantrule Resistance|XPHB} to multiple damage types while it has {@variantrule Temporary Hit Points|XPHB}."
+															]
+														},
+														{
+															"type": "item",
+															"name": "Splintered Summons",
+															"nameDot": false,
+															"entries": [
+																"is a new feature that allows you to summon a second creature when you cast one of the summoning spells listed."
+															]
+														}
+													]
+												}
+											]
+										},
+										{
+											"type": "statblock",
+											"prop": "subclass",
+											"source": "XUA2025ArcaneUpdates",
+											"name": "Conjurer",
+											"className": "Wizard",
+											"classSource": "XPHB",
+											"page": 5
+										}
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Enchanter (Wizard)",
+									"page": 6,
+									"entries": [
+										"{@i Entrance and Beguile Others}",
+										{
+											"type": "inset",
+											"name": "Design Note: Enchanter Updates",
+											"page": 6,
+											"entries": [
+												"Here are the main updates in this subclass since its appearance in {@homebrew {@class Wizard|XPHB|Unearthed Arcana|Enchanter|XUA2025ArcaneSubclasses}|the {@book 2014 Player's Handbook|PHB}}:",
+												{
+													"type": "list",
+													"page": 6,
+													"items": [
+														{
+															"type": "item",
+															"name": "Hypnotic Presence",
+															"nameDot": false,
+															"entries": [
+																"replaces {@subclassFeature Vexing Movement|Wizard|XPHB|Enchanter|XUA2025ArcaneSubclasses|3|XUA2025ArcaneSubclasses} and has been redesigned to use {@status Concentration|XPHB}, freeing up your actions on subsequent turns."
+															]
+														},
+														{
+															"type": "item",
+															"name": "Split Enchantment",
+															"nameDot": false,
+															"entries": [
+																"is available at an earlier level."
+															]
+														},
+														{
+															"type": "item",
+															"name": "Instinctive Charm",
+															"nameDot": false,
+															"entries": [
+																"returns and is redesigned to turn a hit against you into a miss, with the potential to redirect the attack at a new target."
+															]
+														},
+														{
+															"type": "item",
+															"name": "Alter Memories",
+															"nameDot": false,
+															"entries": [
+																"returns and has been redesigned to allow {@spell Modify Memory|XPHB} to target multiple creatures."
+															]
+														}
+													]
+												}
+											]
+										},
+										{
+											"type": "statblock",
+											"prop": "subclass",
+											"source": "XUA2025ArcaneUpdates",
+											"name": "Enchanter",
+											"className": "Wizard",
+											"classSource": "XPHB",
+											"page": 6
+										}
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Necromancer (Wizard)",
+									"page": 7,
+									"entries": [
+										"{@i Command the Powers of Death and Undeath}",
+										{
+											"type": "inset",
+											"name": "Design Note: Necromancer Updates",
+											"page": 7,
+											"entries": [
+												"Here are the main updates in this subclass since its appearance in {@class Wizard|XPHB|Unearthed Arcana|Necromancer|XUA2025ArcaneSubclasses}:",
+												{
+													"type": "list",
+													"page": 7,
+													"items": [
+														{
+															"type": "item",
+															"name": "Necromancy Spellbook",
+															"nameDot": false,
+															"entries": [
+																"now lets you use the {@spell Find Familiar|XPHB} spell to summon a {@creature Skeleton|XMM} or {@creature Zombie|XMM}, and {@subclassFeature Grim Harvest|Wizard|XPHB|Necromancer|XUA2025ArcaneUpdates|3|XUA2025ArcaneUpdates} now restores {@variantrule Hit Points|XPHB} to an Undead creature of your choice."
+															]
+														},
+														{
+															"type": "item",
+															"name": "Undead Thralls",
+															"nameDot": false,
+															"entries": [
+																"has been redesigned to use the {@spell Animate Dead|XPHB} spell and provides additional bonuses."
+															]
+														},
+														{
+															"type": "item",
+															"name": "Harvest Undead",
+															"nameDot": false,
+															"entries": [
+																"(formerly {@subclassFeature Undead Secrets|Wizard|XPHB|Necromancer|XUA2025ArcaneSubclasses|10|XUA2025ArcaneSubclasses}) has been redesigned to restore {@variantrule Hit Points|XPHB} to you when you destroy an Undead creature you control."
+															]
+														},
+														{
+															"type": "item",
+															"name": "Death's Master",
+															"nameDot": false,
+															"entries": [
+																"now allows you to create bursts of necrotic energy when an Undead is reduced to 0 {@variantrule Hit Points|XPHB}."
+															]
+														}
+													]
+												}
+											]
+										},
+										{
+											"type": "statblock",
+											"prop": "subclass",
+											"source": "XUA2025ArcaneUpdates",
+											"name": "Necromancer",
+											"className": "Wizard",
+											"classSource": "XPHB",
+											"page": 7
+										}
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Transmuter (Wizard)",
+									"page": 9,
+									"entries": [
+										"{@i Transform Energy and Matter}",
+										{
+											"type": "inset",
+											"name": "Design Note: Transmuter Updates",
+											"page": 9,
+											"entries": [
+												"Here are the main updates in this subclass since its appearance in {@class Wizard|XPHB|Unearthed Arcana|Transmuter|XUA2025ArcaneSubclasses}:",
+												{
+													"type": "list",
+													"page": 9,
+													"items": [
+														{
+															"type": "item",
+															"name": "Transmuter's Stone",
+															"nameDot": false,
+															"entries": [
+																"now gives the bearer proficiency in Constitution saving throws in addition to another benefit. The stone can now also be used as a {@variantrule Spellcasting Focus|XPHB}."
+															]
+														},
+														{
+															"type": "item",
+															"name": "Wondrous Alteration",
+															"nameDot": false,
+															"entries": [
+																"replaces {@subclassFeature Wondrous Enhancement|Wizard|XPHB|Transmuter|XUA2025ArcaneSubclasses|3|XUA2025ArcaneSubclasses} and grants benefits to the {@spell Alter Self|XPHB} spell."
+															]
+														},
+														{
+															"type": "item",
+															"name": "Empowered Transmutation",
+															"nameDot": false,
+															"entries": [
+																"replaces {@subclassFeature Split Transmutation|Wizard|XPHB|Transmuter|XUA2025ArcaneSubclasses|6|XUA2025ArcaneSubclasses|Twinned Transmutation} and applies to any Transmutation spell that can be cast with a higher-level spell slot."
+															]
+														},
+														{
+															"type": "item",
+															"name": "Potent Stone",
+															"nameDot": false,
+															"entries": [
+																"now grants additional options for the transmutation stone."
+															]
+														},
+														{
+															"type": "item",
+															"name": "Shapechanger",
+															"nameDot": false,
+															"entries": [
+																"returns, allows the Wizard to modify the {@spell Polymorph|XPHB} spell when casting it on themself."
+															]
+														},
+														{
+															"type": "item",
+															"name": "Master Transmuter",
+															"nameDot": false,
+															"entries": [
+																"now allows you to prevent the stone's destruction by expending a spell slot."
+															]
+														}
+													]
+												}
+											]
+										},
+										{
+											"type": "statblock",
+											"prop": "subclass",
+											"source": "XUA2025ArcaneUpdates",
+											"name": "Transmuter",
+											"className": "Wizard",
+											"classSource": "XPHB",
+											"page": 9
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	]
+}
