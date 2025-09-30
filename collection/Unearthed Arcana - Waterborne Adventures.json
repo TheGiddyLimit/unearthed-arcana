@@ -1,4 +1,5 @@
 {
+	"$schema": "https://raw.githubusercontent.com/TheGiddyLimit/5etools-utils/master/schema/ua-fast/homebrew.json",
 	"_meta": {
 		"sources": [
 			{
@@ -18,72 +19,223 @@
 		],
 		"edition": "classic",
 		"dateAdded": 1701616429,
-		"dateLastModified": 1729637619,
+		"dateLastModified": 1759265092,
 		"_dateLastModifiedHash": "a8a30ae1c5"
 	},
 	"subclass": [
 		{
-			"name": "Storm Sorcery (UA)",
-			"shortName": "Storm (UA)",
+			"name": "Storm Sorcery",
+			"shortName": "Storm",
 			"source": "UAWaterborneAdventures",
 			"className": "Sorcerer",
 			"classSource": "PHB",
 			"page": 4,
 			"isReprinted": true,
+			"reprintedAs": [
+				"Storm|Sorcerer|PHB|XGE"
+			],
+			"edition": "classic",
 			"additionalSpells": [
 				{
 					"known": {
 						"1": [
-							"fog cloud",
-							"thunderwave"
+							"fog cloud|PHB",
+							"thunderwave|PHB"
 						],
 						"3": [
-							"gust of wind",
-							"levitate"
+							"gust of wind|PHB",
+							"levitate|PHB"
 						],
 						"5": [
-							"call lightning",
-							"sleet storm"
+							"call lightning|PHB",
+							"sleet storm|PHB"
 						],
 						"7": [
-							"conjure minor elementals",
-							"ice storm"
+							"conjure minor elementals|PHB",
+							"ice storm|PHB"
 						],
 						"9": [
-							"conjure elemental"
+							"conjure elemental|PHB"
 						]
 					}
 				}
 			],
+			"subclassSpells": [
+				"fog cloud|PHB",
+				"thunderwave|PHB",
+				"gust of wind|PHB",
+				"levitate|PHB",
+				"call lightning|PHB",
+				"sleet storm|PHB",
+				"conjure minor elementals|PHB",
+				"ice storm|PHB",
+				"conjure elemental|PHB"
+			],
 			"subclassFeatures": [
-				"Storm Sorcery|Sorcerer||Storm (UA)|UAWaterborneAdventures|1",
-				"Heart of the Storm|Sorcerer||Storm (UA)|UAWaterborneAdventures|6",
-				"Storm Guide|Sorcerer||Storm (UA)|UAWaterborneAdventures|6",
-				"Storm's Fury|Sorcerer||Storm (UA)|UAWaterborneAdventures|14",
-				"Wind Soul|Sorcerer||Storm (UA)|UAWaterborneAdventures|18"
+				"Storm Sorcery|Sorcerer|PHB|Storm|UAWaterborneAdventures|1",
+				"Heart of the Storm|Sorcerer|PHB|Storm|UAWaterborneAdventures|6",
+				"Storm Guide|Sorcerer|PHB|Storm|UAWaterborneAdventures|6",
+				"Storm's Fury|Sorcerer|PHB|Storm|UAWaterborneAdventures|14",
+				"Wind Soul|Sorcerer|PHB|Storm|UAWaterborneAdventures|18"
+			]
+		},
+		{
+			"name": "Swashbuckler",
+			"shortName": "Swashbuckler",
+			"source": "UAWaterborneAdventures",
+			"className": "Rogue",
+			"classSource": "PHB",
+			"page": 3,
+			"isReprinted": true,
+			"reprintedAs": [
+				"Swashbuckler|Rogue|PHB|XGE"
+			],
+			"edition": "classic",
+			"subclassFeatures": [
+				"Swashbuckler|Rogue|PHB|Swashbuckler|UAWaterborneAdventures|3",
+				"Panache|Rogue|PHB|Swashbuckler|UAWaterborneAdventures|9",
+				"Elegant Maneuver|Rogue|PHB|Swashbuckler|UAWaterborneAdventures|13",
+				"Master Duelist|Rogue|PHB|Swashbuckler|UAWaterborneAdventures|17"
+			],
+			"hasFluff": true
+		}
+	],
+	"subclassFluff": [
+		{
+			"name": "Swashbuckler",
+			"shortName": "Swashbuckler",
+			"source": "UAWaterborneAdventures",
+			"className": "Rogue",
+			"classSource": "PHB",
+			"entries": [
+				{
+					"type": "inset",
+					"name": "Swashbucklers and Two-Weapon Fighting",
+					"page": 4,
+					"entries": [
+						"The swashbuckler relies on a good understanding of the D&D rules to realize its potential, specifically when it comes to fighting with two weapons. Other characters must use a bonus action to {@action Disengage} if they want to escape a melee, but a swashbuckler's Fancy Footwork ability bundles a more limited version of {@action Disengage} within your attack. This allows you to use your bonus action to fight with two weapons, and then safely evade each foe you attacked."
+					]
+				}
 			]
 		}
 	],
 	"subclassFeature": [
+		{
+			"name": "Swashbuckler",
+			"source": "UAWaterborneAdventures",
+			"page": 3,
+			"className": "Rogue",
+			"classSource": "PHB",
+			"subclassShortName": "Swashbuckler",
+			"subclassSource": "UAWaterborneAdventures",
+			"level": 3,
+			"header": 1,
+			"entries": [
+				"You focus your training on the art of the blade, relying on speed, elegance, and charisma in equal parts. While other warriors are brutes clad in heavy armor, your method of fighting looks more like performance. Rakes, duelists, and pirates typically follow this archetype.",
+				"A swashbuckler excels in single combat, and can fight with two weapons while safely darting away from an opponent. Swashbucklers are especially talented at making difficult maneuvers to escape enemies or attack from an unexpected direction.",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Fancy Footwork|Rogue|PHB|Swashbuckler|UAWaterborneAdventures|3"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Toujours l'Audace|Rogue|PHB|Swashbuckler|UAWaterborneAdventures|3"
+				}
+			]
+		},
+		{
+			"name": "Fancy Footwork",
+			"source": "UAWaterborneAdventures",
+			"page": 3,
+			"className": "Rogue",
+			"classSource": "PHB",
+			"subclassShortName": "Swashbuckler",
+			"subclassSource": "UAWaterborneAdventures",
+			"level": 3,
+			"header": 2,
+			"entries": [
+				"Starting at 3rd level, you are a continuous blur of motion in battle as you dart in, attack, and slip away to safety. During your turn, if you make a melee attack against a creature, that creature cannot make {@action opportunity attack|PHB|opportunity attacks} against you for the rest of your turn."
+			]
+		},
+		{
+			"name": "Toujours l'Audace",
+			"source": "UAWaterborneAdventures",
+			"page": 3,
+			"className": "Rogue",
+			"classSource": "PHB",
+			"subclassShortName": "Swashbuckler",
+			"subclassSource": "UAWaterborneAdventures",
+			"level": 3,
+			"header": 2,
+			"entries": [
+				"At 3rd level, your unmistakable confidence propels you into battle. You add your Charisma modifier to your initiative rolls.",
+				"In addition, you can use {@classFeature Sneak Attack|Rogue|PHB|1} with any melee attack made against a target that has none of your allies adjacent to it."
+			]
+		},
+		{
+			"name": "Panache",
+			"source": "UAWaterborneAdventures",
+			"page": 3,
+			"className": "Rogue",
+			"classSource": "PHB",
+			"subclassShortName": "Swashbuckler",
+			"subclassSource": "UAWaterborneAdventures",
+			"level": 9,
+			"header": 2,
+			"entries": [
+				"At 9th level, your charm becomes as sharp and dangerous as your blade. As an action, you can make a Charisma ({@skill Persuasion}) check contested by a creature's Wisdom ({@skill Insight}) check. The creature must be able to hear you, and the two of you must share a language.",
+				"If you succeed on the check and the creature is hostile, it must target you with any attacks it makes and cannot willingly move farther away from you. This effect lasts for 1 minute or until you move more than 60 feet away from the target.",
+				"If you succeed on the check and the creature is not hostile, it is {@condition charmed} by you for 1 minute. While {@condition charmed}, it regards you as a friendly acquaintance."
+			]
+		},
+		{
+			"name": "Elegant Maneuver",
+			"source": "UAWaterborneAdventures",
+			"page": 3,
+			"className": "Rogue",
+			"classSource": "PHB",
+			"subclassShortName": "Swashbuckler",
+			"subclassSource": "UAWaterborneAdventures",
+			"level": 13,
+			"header": 2,
+			"entries": [
+				"You complete difficult maneuvers with practiced ease. Starting at 13th level, you can use a bonus action to gain advantage on the next Dexterity ({@skill Acrobatics}) or Strength ({@skill Athletics}) check you make on your turn."
+			]
+		},
+		{
+			"name": "Master Duelist",
+			"source": "UAWaterborneAdventures",
+			"page": 3,
+			"className": "Rogue",
+			"classSource": "PHB",
+			"subclassShortName": "Swashbuckler",
+			"subclassSource": "UAWaterborneAdventures",
+			"level": 17,
+			"header": 2,
+			"entries": [
+				"At 17th level your mastery of the blade lets you turn failure to success in combat. If you miss with an attack, you can choose to roll the attack again with advantage. Once you use this ability, you cannot use it again until you finish a short or long rest."
+			]
+		},
 		{
 			"name": "Storm Sorcery",
 			"source": "UAWaterborneAdventures",
 			"page": 4,
 			"className": "Sorcerer",
 			"classSource": "PHB",
-			"subclassShortName": "Storm (UA)",
+			"subclassShortName": "Storm",
 			"subclassSource": "UAWaterborneAdventures",
 			"level": 1,
+			"header": 1,
 			"entries": [
 				"Your innate magic comes from the power of elemental air. Perhaps you were born during a howling gale so powerful that folk still tell stories of it. Your lineage might include the influence of potent air creatures such as vaati or djinni. Whatever the case, the magic of the storm permeates your soul.",
 				"Storm sorcerers are invaluable members of a ship's crew. Their magic allows them to exert control over wind and weather in their immediate area. Their abilities also prove useful in repelling attacks by sahuagin, pirates, and other waterborne threats.",
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Stormborn|Sorcerer||Storm (UA)|UAWaterborneAdventures|1"
+					"subclassFeature": "Stormborn|Sorcerer|PHB|Storm|UAWaterborneAdventures|1"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Tempestuous Magic|Sorcerer||Storm (UA)|UAWaterborneAdventures|1"
+					"subclassFeature": "Tempestuous Magic|Sorcerer|PHB|Storm|UAWaterborneAdventures|1"
 				}
 			]
 		},
@@ -93,49 +245,18 @@
 			"page": 4,
 			"className": "Sorcerer",
 			"classSource": "PHB",
-			"subclassShortName": "Storm (UA)",
+			"subclassShortName": "Storm",
 			"subclassSource": "UAWaterborneAdventures",
 			"level": 1,
-			"header": 1,
+			"header": 2,
 			"entries": [
 				"The arcane magic you command is infused with elemental air. You can speak, read, and write {@language Primordial}. In addition, you gain the following spells at the listed sorcerer level. These spells do not count against the number of sorcerer spells you know.",
 				{
-					"type": "table",
-					"caption": "Storm Sorcerer Bonus Spells",
-					"colLabels": [
-						"Sorcerer Level",
-						"Spells"
-					],
-					"colStyles": [
-						"col-2 text-center",
-						"col-10"
-					],
-					"rows": [
-						[
-							"1st",
-							"{@spell Fog cloud}, {@spell thunderwave}"
-						],
-						[
-							"3rd",
-							"{@spell Gust of wind}, {@spell levitate}"
-						],
-						[
-							"5th",
-							"{@spell Call lightning}, {@spell sleet storm}"
-						],
-						[
-							"7th",
-							"{@spell Conjure minor elementals}*, {@spell ice storm}"
-						],
-						[
-							"9th",
-							"{@spell Conjure elemental}**"
-						]
-					],
-					"footnotes": [
-						"* Unless you gain this spell from another source, you can summon only {@creature smoke mephit||smoke mephits}, {@creature steam mephit||steam mephits}, {@creature ice mephit||ice mephits}, or {@creature dust mephit||dust mephits} with it.",
-						"**Unless you gain this spell from another source, you can summon only {@creature air elemental||air elementals} with it."
-					]
+					"type": "statblock",
+					"tag": "table",
+					"source": "UAWaterborneAdventures",
+					"name": "Storm Sorcerer Bonus Spells",
+					"page": 5
 				}
 			]
 		},
@@ -145,12 +266,12 @@
 			"page": 4,
 			"className": "Sorcerer",
 			"classSource": "PHB",
-			"subclassShortName": "Storm (UA)",
+			"subclassShortName": "Storm",
 			"subclassSource": "UAWaterborneAdventures",
 			"level": 1,
-			"header": 1,
+			"header": 2,
 			"entries": [
-				"At 1st level, you are attuned to elemental air magic. Whenever you cast a spell other than a cantrip during your turn, whirling gusts of elemental air surround you. You can use a bonus action to fly 10 feet without provoking opportunity attacks."
+				"At 1st level, you are attuned to elemental air magic. Whenever you cast a spell other than a cantrip during your turn, whirling gusts of elemental air surround you. You can use a bonus action to fly 10 feet without provoking {@action opportunity attack|PHB|opportunity attacks}."
 			]
 		},
 		{
@@ -159,7 +280,7 @@
 			"page": 4,
 			"className": "Sorcerer",
 			"classSource": "PHB",
-			"subclassShortName": "Storm (UA)",
+			"subclassShortName": "Storm",
 			"subclassSource": "UAWaterborneAdventures",
 			"level": 6,
 			"header": 2,
@@ -173,7 +294,7 @@
 			"page": 4,
 			"className": "Sorcerer",
 			"classSource": "PHB",
-			"subclassShortName": "Storm (UA)",
+			"subclassShortName": "Storm",
 			"subclassSource": "UAWaterborneAdventures",
 			"level": 6,
 			"header": 2,
@@ -189,7 +310,7 @@
 			"page": 4,
 			"className": "Sorcerer",
 			"classSource": "PHB",
-			"subclassShortName": "Storm (UA)",
+			"subclassShortName": "Storm",
 			"subclassSource": "UAWaterborneAdventures",
 			"level": 14,
 			"header": 2,
@@ -203,13 +324,74 @@
 			"page": 4,
 			"className": "Sorcerer",
 			"classSource": "PHB",
-			"subclassShortName": "Storm (UA)",
+			"subclassShortName": "Storm",
 			"subclassSource": "UAWaterborneAdventures",
 			"level": 18,
 			"header": 2,
 			"entries": [
-				"At 18th level, you gain a flying speed of 60 feet and immunity to lightning and thunder damage. As an action, you can reduce your flying speed to 30 feet for one hour and choose a number of creatures within 30 feet of you equal to 3 + your Charisma modifier. The chosen creatures gain a flying speed of 30 feet for 1 hour."
+				"At 18th level, you gain a flying speed of 60 feet and immunity to lightning and thunder damage.",
+				"As an action, you can reduce your flying speed to 30 feet for one hour and choose a number of creatures within 30 feet of you equal to 3 + your Charisma modifier. The chosen creatures gain a flying speed of 30 feet for 1 hour."
 			]
+		}
+	],
+	"foundrySubclassFeature": [
+		{
+			"name": "Stormborn",
+			"source": "UAWaterborneAdventures",
+			"className": "Sorcerer",
+			"classSource": "PHB",
+			"subclassShortName": "Storm",
+			"subclassSource": "UAWaterborneAdventures",
+			"level": 1,
+			"entryData": {
+				"languageProficiencies": [
+					{
+						"primordial": true
+					}
+				]
+			}
+		},
+		{
+			"name": "Heart of the Storm",
+			"source": "UAWaterborneAdventures",
+			"className": "Sorcerer",
+			"classSource": "PHB",
+			"subclassShortName": "Storm",
+			"subclassSource": "UAWaterborneAdventures",
+			"level": 6,
+			"entryData": {
+				"resist": [
+					"lightning",
+					"thunder"
+				]
+			}
+		},
+		{
+			"name": "Wind Soul",
+			"source": "UAWaterborneAdventures",
+			"className": "Sorcerer",
+			"classSource": "PHB",
+			"subclassShortName": "Storm",
+			"subclassSource": "UAWaterborneAdventures",
+			"level": 18,
+			"effects": [
+				{
+					"name": "Wind Soul",
+					"changes": [
+						{
+							"key": "system.attributes.movement.fly",
+							"mode": "UPGRADE",
+							"value": 60
+						}
+					]
+				}
+			],
+			"entryData": {
+				"immune": [
+					"lightning",
+					"thunder"
+				]
+			}
 		}
 	],
 	"optionalfeature": [
@@ -224,6 +406,54 @@
 			],
 			"entries": [
 				"As long as you are not wearing heavy armor or using a shield, you have a swimming speed and a climbing speed equal to your normal speed, and you gain a +1 bonus to AC."
+			],
+			"hasFluff": true
+		}
+	],
+	"optionalfeatureFluff": [
+		{
+			"name": "Mariner",
+			"source": "UAWaterborneAdventures",
+			"entries": [
+				"The following new option can be selected by fighters, paladins, and rangers for the Fighting Style class feature.",
+				"Whether a buccaneer, an experienced sailor, or a specially trained marine, a mariner can scale a ship's rigging and swim through choppy water with ease. Adapted to wearing light and medium armor, mariners can defend themselves without relying on heavy armor or bulky shields. Most of them thus wield {@itemProperty 2H|PHB|two-handed} weapons or fight with a pair of blades.",
+				{
+					"type": "inset",
+					"name": "Mariner Design Notes",
+					"page": 3,
+					"entries": [
+						"Fighting Style is a good way to introduce a specific flavor of game play for multiple characters at once. In a sea-based campaign, you can expect lots of battles in the water and on board ships. Swimming and climbing speeds are very handy in such environments, but they can also prove useful in other areas.",
+						"The mariner's AC bonus comes with conditions, but it plays into the restrictions a mariner must observe to gain a swimming or climbing speed. In addition, a ship-based campaign lends itself to fighters who wield {@item scimitar|PHB|scimitars} (representing a cutlass) and a {@item dagger|PHB}, and who wear light armor. This specific AC bonus helps support that character option."
+					]
+				}
+			]
+		}
+	],
+	"foundryOptionalfeature": [
+		{
+			"name": "Mariner",
+			"source": "UAWaterborneAdventures",
+			"effects": [
+				{
+					"name": "Mariner",
+					"changes": [
+						{
+							"key": "system.attributes.movement.swim",
+							"mode": "UPGRADE",
+							"value": "system.attributes.movement.walk"
+						},
+						{
+							"key": "system.attributes.movement.climb",
+							"mode": "UPGRADE",
+							"value": "system.attributes.movement.walk"
+						},
+						{
+							"key": "system.attributes.ac.bonus",
+							"mode": "ADD",
+							"value": 1
+						}
+					]
+				}
 			]
 		}
 	],
@@ -262,7 +492,14 @@
 					"common": true
 				}
 			],
+			"toolProficiencies": [
+				{
+					"navigator's tools": true,
+					"vehicles (water)": true
+				}
+			],
 			"entries": [
+				"Your minotaur character possesses a number of traits that reflect the power and superiority of your kind.",
 				{
 					"name": "Age",
 					"type": "entries",
@@ -278,60 +515,496 @@
 					]
 				},
 				{
-					"type": "entries",
 					"name": "Size",
+					"type": "entries",
 					"entries": [
 						"Minotaurs typically stand well over 6 feet tall and weigh an average of 300 pounds. Your size is Medium."
 					]
 				},
 				{
 					"name": "Conqueror's Virtue",
+					"type": "entries",
 					"entries": [
 						"From a young age, you focused on one of the three virtues of strength, cunning, or intellect. Your choice of your Strength, Intelligence, or Wisdom score increases by 1."
-					],
-					"type": "entries"
+					]
 				},
 				{
 					"name": "Horns",
+					"type": "entries",
 					"entries": [
-						"You are never unarmed. You are proficient with your horns, which are a melee weapon that deals {@dice 1d10} piercing damage. Your horns grant you advantage on all checks made to shove a creature, but not to avoid being shoved yourself."
-					],
-					"type": "entries"
+						"You are never unarmed. You are proficient with your horns, which are a melee weapon that deals {@damage 1d10} piercing damage. Your horns grant you advantage on all checks made to {@action shove} a creature, but not to avoid being shoved yourself."
+					]
 				},
 				{
 					"name": "Goring Rush",
+					"type": "entries",
 					"entries": [
 						"When you use the {@action Dash} action during your turn, you can make a melee attack with your horns as a bonus action."
-					],
-					"type": "entries"
+					]
 				},
 				{
 					"name": "Hammering Horns",
+					"type": "entries",
 					"entries": [
-						"When you use the {@action Attack} action during your turn to make a melee attack, you can attempt to shove a creature with your horns as a bonus action. You cannot use this shove attempt to knock a creature {@condition prone}."
-					],
-					"type": "entries"
+						"When you use the {@action Attack} action during your turn to make a melee attack, you can attempt to {@action shove} a creature with your horns as a bonus action. You cannot use this {@action shove} attempt to knock a creature {@condition prone}."
+					]
 				},
 				{
 					"name": "Labyrinthine Recall",
+					"type": "entries",
 					"entries": [
 						"You can perfectly recall any path you have traveled."
-					],
-					"type": "entries"
+					]
 				},
 				{
 					"name": "Sea Reaver",
+					"type": "entries",
 					"entries": [
 						"You gain proficiency with {@item navigator's tools|phb} and {@filter vehicles (water)|items|source=phb;dmg|miscellaneous=mundane|type=vehicle (water)}."
-					],
-					"type": "entries"
+					]
 				},
 				{
 					"name": "Languages",
+					"type": "entries",
 					"entries": [
-						"You can speak, read, and write Common."
-					],
-					"type": "entries"
+						"You can speak, read, and write {@language Common}."
+					]
+				}
+			],
+			"hasFluff": true
+		}
+	],
+	"raceFluff": [
+		{
+			"name": "Minotaur (Krynn)",
+			"source": "UAWaterborneAdventures",
+			"entries": [
+				"In the world of Krynn, the setting of the Dragonlance saga, minotaurs live in an honor-based society where strength determines power in both the gladiatorial arenas and in daily life. At home on both land and sea, the minotaurs of Krynn are ferocious sea raiders who rank as the ablest and most dangerous sailors in the world.",
+				{
+					"type": "entries",
+					"name": "Arrogant Conquerors",
+					"page": 1,
+					"entries": [
+						"Minotaurs embrace the notion that the weak should perish and that the strong must rule\u2014and that they themselves are the strongest and most powerful race on Krynn. They believe their destiny is to rule the world, and that their dominion will be one of conquest and military might. To that end, all minotaurs are trained in weapons, armor, and tactics from a young age.",
+						"The minotaurs' arrogance stems from a combination of strength, cunning, and intellect\u2014three virtues they hold dear, and which they deem the foundation of their greatness. They believe that this combination of traits is what sets them apart from their rivals."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Trial by Combat",
+					"page": 1,
+					"entries": [
+						"Minotaur society is built on the principle that might makes right, and that considerations of justice are unnecessary. The minotaurs are led by an emperor served by a council of eight minotaurs called the Supreme Circle. All posts within the government, including the emperor's, are won by the strongest and cleverest minotaurs, as proved by combat in the Circus.",
+						"The Circus is the only means by which a minotaur can rise in society. It is a grand, annual display of single combat in which minotaurs battle each other for supremacy. Minotaur youths must prove themselves in the Circus to earn their passage to adulthood.",
+						"Participation in the Circus is yet another reason why minotaurs look down on other folk. To the minotaurs, death and glory in battle are a natural process. Combat is the key to ensuring that the strong survive, and that the weak are set aside before they can undermine their superiors' grand schemes of conquest."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Honor above All",
+					"page": 1,
+					"entries": [
+						"For all their cruelty, minotaurs are bound by a powerful sense of honor. Each victory brings greater honor to both individual minotaurs and their families. Defeat invokes a stain that only death can fully wash away.",
+						"Honor demands that minotaurs keep their word once it is offered, and each minotaur remains faithful to friends and clan above all else. Minotaurs rarely befriend folk of other races, as they all too often encounter them only in battle. If a minotaur does strike up a friendship, it is typically with other creatures that display the minotaurs' virtues and love of battle. To such friends, a minotaur becomes an ally whose support will never waver."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Sea Reavers",
+					"page": 2,
+					"entries": [
+						"In the world of Krynn, the minotaurs rule a chain of islands dominated by the isles of Mithas and Kothas. Bound by the sea on all sides, the minotaurs focused their tenacity, strength, and cunning to become some of the most skilled and ferocious mariners in the world. They range across the water in their ships, raiding and pillaging as they wish. Minotaurs sometimes engage in trade, but they much prefer to take what they want by force. After all, as the strongest of all folk, they deserve the treasures and goods that lesser creatures have gathered."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Minotaur Names",
+					"page": 2,
+					"entries": [
+						"Minotaur clan names originate with a great hero whose descendants take on that name as their own, doing their best to live up to the ideals of their ancestor. On Krynn, clan names are always preceded by the prefix \"es-\" for minotaurs from lands controlled by the island of Mithas, or \"de-\" for minotaurs from areas under the sway of Kothas.",
+						{
+							"type": "list",
+							"style": "list-hang-notitle",
+							"items": [
+								{
+									"type": "item",
+									"name": "Male Names:",
+									"entry": "Beliminorgath, Cinmac, Dastrun, Edder, Galdar, Ganthirogani, Hecariverani, Kyris, Tosher, Zurgas"
+								},
+								{
+									"type": "item",
+									"name": "Female Names:",
+									"entry": "Ayasha, Calina, Fliara, Helati, Keeli, Kyri, Mogara, Sekra, Tariki, Telia"
+								},
+								{
+									"type": "item",
+									"name": "Clan Names:",
+									"entry": "Athak, Bregan, Entragath, Kaziganthi, Lagrangli, Mascun, Orilg, Sumarr, Teskos, Zhakan"
+								}
+							]
+						}
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Minotaur Bonds",
+					"page": 2,
+					"entries": [
+						"When creating a minotaur character rooted in Krynn (or in any campaign that draws on the backstory presented here), you can use the following table of bonds to help flesh out your character. Use this table in addition to or in place of your background's bond or a bond of your creation.",
+						{
+							"type": "statblock",
+							"tag": "table",
+							"source": "UAWaterborneAdventures",
+							"name": "Minotaur Bonds",
+							"page": 3
+						}
+					]
+				},
+				{
+					"type": "inset",
+					"name": "Minotaurs in Your Campaign",
+					"page": 3,
+					"entries": [
+						"We chose the minotaurs of Krynn as the model for our depiction of this race for a very specific reason. Tying them to the sea and a distinct culture helps give minotaurs more flavor than serving as just another big, brutish monster race. After all, we already have {@race half-orc|PHB|half-orcs} in the {@book Player's Handbook|PHB} and the {@race goliath|VGM} in our {@i Elemental Evil Player's Companion}. As an added bonus, these minotaurs are Medium (as opposed to Large for {@creature Minotaur|MM|the monstrous version}) and are thus much easier to balance against the {@book Player's Handbook|PHB} races.",
+						"Casting minotaurs as conquest-minded, honorable pirates gives them a distinct flavor while providing many roleplaying hooks for players. When adding a new race to your own campaign, itfs always a good idea to think about its culture, its relationship to other folk, and how the two can combine to give it a unique place in your world. Creating a table of bonds such as the one provided for minotaurs can be a good place to start.",
+						"Casting minotaurs as mariners has some interesting implications for a setting. The Labyrinthine Recall ability makes minotaurs perfect sailors, as they can travel the seas with little fear of becoming lost or losing their way. A minotaur navigator is an unmatched master of the sea. When adapting races to your campaign, look for similar hooks that might be buried in special abilities or elements of a creature's story that you might otherwise overlook.",
+						"Remember that the story we provide is only a starting point. Modifying this minotaur to move it away from its roots in Krynn is as easy as swapping the proficiencies provided by Sea Reaver for some other option that better reflects your setting. As a guideline, consider swapping the tool proficiencies for proficiency in any one skill, for proficiency with {@item thieves' tools|PHB}, or for proficiency with two tools other than {@item thieves' tools|PHB}."
+					]
+				}
+			]
+		}
+	],
+	"table": [
+		{
+			"name": "Minotaur Bonds",
+			"source": "UAWaterborneAdventures",
+			"page": 3,
+			"colLabels": [
+				"d6",
+				"Bond"
+			],
+			"colStyles": [
+				"col-2 text-center",
+				"col-10"
+			],
+			"rows": [
+				[
+					"1",
+					"My opponent in the Circus for my trial of adulthood was chosen years ago. Though we sparred only once, I fell deeply in love. Rather than fight my beloved to the death, I fled from home and have been branded a coward."
+				],
+				[
+					"2",
+					"I'm the last of my clan. If I die without achieving great deeds, the hero who is my clan's patron will be forgotten."
+				],
+				[
+					"3",
+					"I was part of a raiding party that was defeated and enslaved. I've escaped and sworn revenge."
+				],
+				[
+					"4",
+					"I never shared my people's love of violence. I'm part of a conspiracy to topple the emperor's violent regime."
+				],
+				[
+					"5",
+					"I claim that I am an exile from my people, but in truth I have been sent to serve as a spy. I'm expected to leave secret messages telling my folk of villages and towns that are ripe targets for conquest."
+				],
+				[
+					"6",
+					"I'm the last survivor of a ship wrecked in a storm. Occasionally, the spirits of my shipmates appear in my dreams and ask me to complete tasks they left unfinished in life."
+				]
+			]
+		},
+		{
+			"name": "Storm Sorcerer Bonus Spells",
+			"source": "UAWaterborneAdventures",
+			"page": 5,
+			"colLabels": [
+				"Sorcerer Level",
+				"Spells"
+			],
+			"colStyles": [
+				"col-2 text-center",
+				"col-10"
+			],
+			"rows": [
+				[
+					"1st",
+					"{@spell Fog cloud|PHB}, {@spell thunderwave|PHB}"
+				],
+				[
+					"3rd",
+					"{@spell Gust of wind|PHB}, {@spell levitate|PHB}"
+				],
+				[
+					"5th",
+					"{@spell Call lightning|PHB}, {@spell sleet storm|PHB}"
+				],
+				[
+					"7th",
+					"{@spell Conjure minor elementals|PHB}*, {@spell ice storm|PHB}"
+				],
+				[
+					"9th",
+					"{@spell Conjure elemental|PHB}**"
+				]
+			],
+			"footnotes": [
+				"* Unless you gain this spell from another source, you can summon only {@creature smoke mephit|MM|smoke mephits}, {@creature steam mephit|MM|steam mephits}, {@creature ice mephit|MM|ice mephits}, or {@creature dust mephit|MM|dust mephits} with it.",
+				"** Unless you gain this spell from another source, you can summon only {@creature air elemental|MM|air elementals} with it."
+			]
+		}
+	],
+	"book": [
+		{
+			"name": "Unearthed Arcana: Waterborne Adventures",
+			"id": "UAWaterborneAdventures",
+			"source": "UAWaterborneAdventures",
+			"group": "prerelease",
+			"cover": {
+				"type": "internal",
+				"path": "covers/blank.webp"
+			},
+			"published": "2015-05-04",
+			"author": "Wizards of the Coast",
+			"contents": [
+				{
+					"name": "Unearthed Arcana: Waterborne Adventures",
+					"headers": [
+						"Minotaur (Krynn)",
+						"Fighting Style: Mariner",
+						"Roguish Archetype: Swashbuckler",
+						"Sorcerous Origin: Storm"
+					]
+				}
+			]
+		}
+	],
+	"bookData": [
+		{
+			"id": "UAWaterborneAdventures",
+			"source": "UAWaterborneAdventures",
+			"data": [
+				{
+					"type": "section",
+					"name": "Unearthed Arcana: Waterborne Adventures",
+					"page": 1,
+					"entries": [
+						{
+							"type": "quote",
+							"entries": [
+								"Believe me, my young friend, there is nothing\u2014absolutely nothing\u2014half so much worth doing as simply messing about in boats."
+							],
+							"by": "Kenneth Grahame",
+							"from": "The Wind in the Willows"
+						},
+						"The following new character options showcase a simple design approach to adventure on the high seas. These rules were created to be specifically useful for nautical D&D campaigns, but they are general enough that they can be useful in any campaign.",
+						"The {@book Dungeon Master's Guide|DMG} contains the rules for managing ships at sea, along with encounter tables, rules for weather, and other useful tools. By combining those rules with these new options, your campaign will be ready to set sail.",
+						{
+							"type": "entries",
+							"entries": [
+								{
+									"type": "entries",
+									"entries": [
+										{
+											"type": "entries",
+											"name": "What Is Unearthed Arcana?",
+											"page": 1,
+											"entries": [
+												"You can think of the material presented in Unearthed Arcana as similar to the first wave of the fifth edition D&D playtest. These game mechanics are in draft form, usable in your campaign but not fully tempered by playtests and design iterations. They are highly volatile and might be unstable; if you use them, be ready to rule on any issues that come up. They're written in pencil, not ink. For these reasons, material in this column is not legal in D&D Organized Play events."
+											]
+										}
+									]
+								}
+							]
+						},
+						{
+							"type": "section",
+							"name": "Minotaur (Krynn)",
+							"page": 1,
+							"entries": [
+								"In the world of Krynn, the setting of the Dragonlance saga, minotaurs live in an honor-based society where strength determines power in both the gladiatorial arenas and in daily life. At home on both land and sea, the minotaurs of Krynn are ferocious sea raiders who rank as the ablest and most dangerous sailors in the world.",
+								{
+									"type": "entries",
+									"name": "Arrogant Conquerors",
+									"page": 1,
+									"entries": [
+										"Minotaurs embrace the notion that the weak should perish and that the strong must rule\u2014and that they themselves are the strongest and most powerful race on Krynn. They believe their destiny is to rule the world, and that their dominion will be one of conquest and military might. To that end, all minotaurs are trained in weapons, armor, and tactics from a young age.",
+										"The minotaurs' arrogance stems from a combination of strength, cunning, and intellect\u2014three virtues they hold dear, and which they deem the foundation of their greatness. They believe that this combination of traits is what sets them apart from their rivals."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Trial by Combat",
+									"page": 1,
+									"entries": [
+										"Minotaur society is built on the principle that might makes right, and that considerations of justice are unnecessary. The minotaurs are led by an emperor served by a council of eight minotaurs called the Supreme Circle. All posts within the government, including the emperor's, are won by the strongest and cleverest minotaurs, as proved by combat in the Circus.",
+										"The Circus is the only means by which a minotaur can rise in society. It is a grand, annual display of single combat in which minotaurs battle each other for supremacy. Minotaur youths must prove themselves in the Circus to earn their passage to adulthood.",
+										"Participation in the Circus is yet another reason why minotaurs look down on other folk. To the minotaurs, death and glory in battle are a natural process. Combat is the key to ensuring that the strong survive, and that the weak are set aside before they can undermine their superiors' grand schemes of conquest."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Honor above All",
+									"page": 1,
+									"entries": [
+										"For all their cruelty, minotaurs are bound by a powerful sense of honor. Each victory brings greater honor to both individual minotaurs and their families. Defeat invokes a stain that only death can fully wash away.",
+										"Honor demands that minotaurs keep their word once it is offered, and each minotaur remains faithful to friends and clan above all else. Minotaurs rarely befriend folk of other races, as they all too often encounter them only in battle. If a minotaur does strike up a friendship, it is typically with other creatures that display the minotaurs' virtues and love of battle. To such friends, a minotaur becomes an ally whose support will never waver."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Sea Reavers",
+									"page": 2,
+									"entries": [
+										"In the world of Krynn, the minotaurs rule a chain of islands dominated by the isles of Mithas and Kothas. Bound by the sea on all sides, the minotaurs focused their tenacity, strength, and cunning to become some of the most skilled and ferocious mariners in the world. They range across the water in their ships, raiding and pillaging as they wish. Minotaurs sometimes engage in trade, but they much prefer to take what they want by force. After all, as the strongest of all folk, they deserve the treasures and goods that lesser creatures have gathered."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Minotaur Names",
+									"page": 2,
+									"entries": [
+										"Minotaur clan names originate with a great hero whose descendants take on that name as their own, doing their best to live up to the ideals of their ancestor. On Krynn, clan names are always preceded by the prefix \"es-\" for minotaurs from lands controlled by the island of Mithas, or \"de-\" for minotaurs from areas under the sway of Kothas.",
+										{
+											"type": "list",
+											"style": "list-hang-notitle",
+											"items": [
+												{
+													"type": "item",
+													"name": "Male Names:",
+													"entry": "Beliminorgath, Cinmac, Dastrun, Edder, Galdar, Ganthirogani, Hecariverani, Kyris, Tosher, Zurgas"
+												},
+												{
+													"type": "item",
+													"name": "Female Names:",
+													"entry": "Ayasha, Calina, Fliara, Helati, Keeli, Kyri, Mogara, Sekra, Tariki, Telia"
+												},
+												{
+													"type": "item",
+													"name": "Clan Names:",
+													"entry": "Athak, Bregan, Entragath, Kaziganthi, Lagrangli, Mascun, Orilg, Sumarr, Teskos, Zhakan"
+												}
+											]
+										}
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Minotaur Traits",
+									"page": 2,
+									"entries": [
+										{
+											"type": "statblock",
+											"tag": "race",
+											"source": "UAWaterborneAdventures",
+											"name": "Minotaur (Krynn)",
+											"page": 2
+										}
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Minotaur Bonds",
+									"page": 2,
+									"entries": [
+										"When creating a minotaur character rooted in Krynn (or in any campaign that draws on the backstory presented here), you can use the following table of bonds to help flesh out your character. Use this table in addition to or in place of your background's bond or a bond of your creation.",
+										{
+											"type": "statblock",
+											"tag": "table",
+											"source": "UAWaterborneAdventures",
+											"name": "Minotaur Bonds",
+											"page": 3
+										}
+									]
+								},
+								{
+									"type": "inset",
+									"name": "Minotaurs in Your Campaign",
+									"page": 3,
+									"entries": [
+										"We chose the minotaurs of Krynn as the model for our depiction of this race for a very specific reason. Tying them to the sea and a distinct culture helps give minotaurs more flavor than serving as just another big, brutish monster race. After all, we already have {@race half-orc|PHB|half-orcs} in the {@book Player's Handbook|PHB} and the {@race goliath|VGM} in our {@book Elemental Evil Player's Companion|EEPC}. As an added bonus, these minotaurs are Medium (as opposed to Large for {@creature Minotaur|MM|the monstrous version}) and are thus much easier to balance against the {@book Player's Handbook|PHB} races.",
+										"Casting minotaurs as conquest-minded, honorable pirates gives them a distinct flavor while providing many roleplaying hooks for players. When adding a new race to your own campaign, itfs always a good idea to think about its culture, its relationship to other folk, and how the two can combine to give it a unique place in your world. Creating a table of bonds such as the one provided for minotaurs can be a good place to start.",
+										"Casting minotaurs as mariners has some interesting implications for a setting. The Labyrinthine Recall ability makes minotaurs perfect sailors, as they can travel the seas with little fear of becoming lost or losing their way. A minotaur navigator is an unmatched master of the sea. When adapting races to your campaign, look for similar hooks that might be buried in special abilities or elements of a creature's story that you might otherwise overlook.",
+										"Remember that the story we provide is only a starting point. Modifying this minotaur to move it away from its roots in Krynn is as easy as swapping the proficiencies provided by Sea Reaver for some other option that better reflects your setting. As a guideline, consider swapping the tool proficiencies for proficiency in any one skill, for proficiency with {@item thieves' tools|PHB}, or for proficiency with two tools other than {@item thieves' tools|PHB}."
+									]
+								}
+							]
+						},
+						{
+							"type": "section",
+							"name": "Fighting Style: Mariner",
+							"page": 3,
+							"entries": [
+								"The following new option can be selected by fighters, paladins, and rangers for the Fighting Style class feature.",
+								"Whether a buccaneer, an experienced sailor, or a specially trained marine, a mariner can scale a ship's rigging and swim through choppy water with ease. Adapted to wearing light and medium armor, mariners can defend themselves without relying on heavy armor or bulky shields. Most of them thus wield {@itemProperty 2H|PHB|two-handed} weapons or fight with a pair of blades.",
+								{
+									"type": "statblock",
+									"tag": "optfeature",
+									"source": "UAWaterborneAdventures",
+									"name": "Mariner",
+									"page": 3
+								},
+								{
+									"type": "inset",
+									"name": "Mariner Design Notes",
+									"page": 3,
+									"entries": [
+										"Fighting Style is a good way to introduce a specific flavor of game play for multiple characters at once. In a sea-based campaign, you can expect lots of battles in the water and on board ships. Swimming and climbing speeds are very handy in such environments, but they can also prove useful in other areas.",
+										"The mariner's AC bonus comes with conditions, but it plays into the restrictions a mariner must observe to gain a swimming or climbing speed. In addition, a ship-based campaign lends itself to fighters who wield {@item scimitar|PHB|scimitars} (representing a cutlass) and a {@item dagger|PHB}, and who wear light armor. This specific AC bonus helps support that character option."
+									]
+								}
+							]
+						},
+						{
+							"type": "section",
+							"name": "Roguish Archetype: Swashbuckler",
+							"page": 3,
+							"entries": [
+								{
+									"type": "statblock",
+									"prop": "subclass",
+									"source": "UAWaterborneAdventures",
+									"name": "Swashbuckler",
+									"className": "Rogue",
+									"classSource": "PHB",
+									"page": 3
+								},
+								{
+									"type": "inset",
+									"name": "Swashbucklers and Two-Weapon Fighting",
+									"page": 4,
+									"entries": [
+										"The swashbuckler relies on a good understanding of the D&D rules to realize its potential, specifically when it comes to fighting with two weapons. Other characters must use a bonus action to {@action Disengage} if they want to escape a melee, but a swashbuckler's Fancy Footwork ability bundles a more limited version of {@action Disengage} within your attack. This allows you to use your bonus action to fight with two weapons, and then safely evade each foe you attacked."
+									]
+								}
+							]
+						},
+						{
+							"type": "section",
+							"name": "Sorcerous Origin: Storm",
+							"page": 4,
+							"entries": [
+								{
+									"type": "statblock",
+									"prop": "subclass",
+									"source": "UAWaterborneAdventures",
+									"name": "Storm",
+									"className": "Sorcerer",
+									"classSource": "PHB",
+									"page": 4
+								},
+								{
+									"type": "inset",
+									"name": "Ribbons",
+									"page": 5,
+									"entries": [
+										"On the R&D team, any ability meant to convey flavor rather than a mechanical advantage is referred to as a ribbon\u2014a thing that's mostly for show. {@classFeature Thieves' Cant|Rogue|PHB|1|PHB} is a great example of a ribbon ability, and {@subclassFeature Storm Guide|Sorcerer|PHB|Storm|UAWaterborneAdventures|6|UAWaterborneAdventures} also falls into this category.",
+										"We don't weigh ribbons when balancing one class or option against another. For example, {@subclassFeature Heart of the Storm|Sorcerer|PHB|Storm|UAWaterborneAdventures|6|UAWaterborneAdventures} carries the power load at 6th level for the storm sorcerer, while {@subclassFeature Storm Guide|Sorcerer|PHB|Storm|UAWaterborneAdventures|6|UAWaterborneAdventures} is here only to show how these sorcerers can excel as sailors. It isn't meant to help in combat, but it's potentially very useful in maneuvering a ship."
+									]
+								}
+							]
+						}
+					]
 				}
 			]
 		}
