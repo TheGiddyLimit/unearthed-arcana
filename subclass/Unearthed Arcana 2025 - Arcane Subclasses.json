@@ -2605,25 +2605,6 @@
 			"subclassShortName": "Arcana",
 			"subclassSource": "XUA2025ArcaneSubclasses",
 			"level": 3,
-			"entries": [
-				"You learn magical theory and secrets of nature, granting you the following benefits.",
-				{
-					"type": "entries",
-					"name": "Cantrip",
-					"page": 2,
-					"entries": [
-						"You know either the {@spell Druidcraft|XPHB} or {@spell Prestidigitation|XPHB} cantrip. Intelligence is your spellcasting ability for it."
-					]
-				},
-				{
-					"type": "entries",
-					"name": "Skills",
-					"page": 2,
-					"entries": [
-						"You gain proficiency in the {@skill Arcana|XPHB} and {@skill Nature|XPHB} skills. If you already have one of these proficiencies, you instead gain proficiency in a different skill of your choice (or with two other skills if you have both)."
-					]
-				}
-			],
 			"entryData": {
 				"skillProficiencies": [
 					{
