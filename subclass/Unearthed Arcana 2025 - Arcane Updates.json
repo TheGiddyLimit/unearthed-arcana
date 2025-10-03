@@ -59,6 +59,76 @@
 			"hasFluff": true
 		},
 		{
+			"name": "Conjurer",
+			"shortName": "Conjurer",
+			"source": "XUA2025ArcaneUpdates",
+			"className": "Wizard",
+			"classSource": "XPHB",
+			"page": 7,
+			"additionalSpells": [
+				{
+					"known": {
+						"3": [
+							{
+								"choose": "level=0;1;2|class=wizard|school=c",
+								"count": 2
+							}
+						],
+						"5": [
+							{
+								"choose": "level=0;1;2;3|class=wizard|school=c",
+								"count": 1
+							}
+						],
+						"7": [
+							{
+								"choose": "level=0;1;2;3;4|class=wizard|school=c",
+								"count": 1
+							}
+						],
+						"9": [
+							{
+								"choose": "level=0;1;2;3;4;5|class=wizard|school=c",
+								"count": 1
+							}
+						],
+						"11": [
+							{
+								"choose": "level=0;1;2;3;4;5;6|class=wizard|school=c",
+								"count": 1
+							}
+						],
+						"13": [
+							{
+								"choose": "level=0;1;2;3;4;5;6;7|class=wizard|school=c",
+								"count": 1
+							}
+						],
+						"15": [
+							{
+								"choose": "level=0;1;2;3;4;5;6;7;8|class=wizard|school=c",
+								"count": 1
+							}
+						],
+						"17": [
+							{
+								"choose": "level=0;1;2;3;4;5;6;7;8;9|class=wizard|school=c",
+								"count": 1
+							}
+						]
+					}
+				}
+			],
+			"subclassFeatures": [
+				"Conjurer|Wizard|XPHB|Conjurer|XUA2025ArcaneUpdates|3|XUA2025ArcaneUpdates",
+				"Distant Transposition|Wizard|XPHB|Conjurer|XUA2025ArcaneUpdates|6|XUA2025ArcaneUpdates",
+				"Durable Summons|Wizard|XPHB|Conjurer|XUA2025ArcaneUpdates|6|XUA2025ArcaneUpdates",
+				"Focused Conjuration|Wizard|XPHB|Conjurer|XUA2025ArcaneSubclasses|10|XUA2025ArcaneSubclasses",
+				"Splintered Summons|Wizard|XPHB|Conjurer|XUA2025ArcaneUpdates|14|XUA2025ArcaneUpdates"
+			],
+			"hasFluff": true
+		},
+		{
 			"name": "Tattooed Warrior",
 			"shortName": "Tattooed Warrior",
 			"source": "XUA2025ArcaneUpdates",
@@ -665,6 +735,86 @@
 						}
 					]
 				}
+			]
+		},
+		{
+			"name": "Conjurer",
+			"source": "XUA2025ArcaneUpdates",
+			"page": 5,
+			"className": "Wizard",
+			"classSource": "XPHB",
+			"subclassShortName": "Conjurer",
+			"subclassSource": "XUA2025ArcaneUpdates",
+			"level": 3,
+			"header": 1,
+			"entries": [
+				"You consider distance and matter to be flexible guidelines rather than physical laws. Conjurers harness the power of magic that moves creatures instantly through space and summons creatures to fight on their behalf.",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Benign Transposition|Wizard|XPHB|Conjurer|XUA2025ArcaneUpdates|3|XUA2025ArcaneUpdates"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Conjuration Savant|Wizard|XPHB|Conjurer|XUA2025ArcaneSubclasses|3|XUA2025ArcaneSubclasses"
+				}
+			]
+		},
+		{
+			"name": "Benign Transposition",
+			"source": "XUA2025ArcaneUpdates",
+			"page": 5,
+			"className": "Wizard",
+			"classSource": "XPHB",
+			"subclassShortName": "Conjurer",
+			"subclassSource": "XUA2025ArcaneUpdates",
+			"level": 3,
+			"header": 2,
+			"entries": [
+				"As a {@variantrule Bonus Action|XPHB}, you teleport up to 30 feet to an unoccupied space that you can see. Alternatively, you can choose a space within range that is occupied by a Medium or smaller creature. If that creature is willing, you both teleport, swapping places.",
+				"You can use this feature a number of times equal to your Intelligence modifier (minimum of once), and you regain all expended uses when you finish a {@variantrule Long Rest|XPHB}."
+			]
+		},
+		{
+			"name": "Distant Transposition",
+			"source": "XUA2025ArcaneUpdates",
+			"page": 5,
+			"className": "Wizard",
+			"classSource": "XPHB",
+			"subclassShortName": "Conjurer",
+			"subclassSource": "XUA2025ArcaneUpdates",
+			"level": 6,
+			"header": 2,
+			"entries": [
+				"The range of your {@subclassFeature Benign Transposition|Wizard|XPHB|Conjurer|XUA2025ArcaneUpdates|3|XUA2025ArcaneUpdates} feature increases to 60 feet. Additionally, you now regain all expended uses of it when you finish a {@variantrule Short Rest|XPHB|Short} or {@variantrule Long Rest|XPHB}."
+			]
+		},
+		{
+			"name": "Durable Summons",
+			"source": "XUA2025ArcaneUpdates",
+			"page": 6,
+			"className": "Wizard",
+			"classSource": "XPHB",
+			"subclassShortName": "Conjurer",
+			"subclassSource": "XUA2025ArcaneUpdates",
+			"level": 6,
+			"header": 2,
+			"entries": [
+				"When you cast a Conjuration spell to summon or create a creature using a spell slot, that creature gains {@variantrule Temporary Hit Points|XPHB} equal to twice your Wizard level when it first appears. While it has these {@variantrule Temporary Hit Points|XPHB}, the creature has {@variantrule Resistance|XPHB} to every damage type except Force, Necrotic, Psychic, and Radiant."
+			]
+		},
+		{
+			"name": "Splintered Summons",
+			"source": "XUA2025ArcaneUpdates",
+			"page": 6,
+			"className": "Wizard",
+			"classSource": "XPHB",
+			"subclassShortName": "Conjurer",
+			"subclassSource": "XUA2025ArcaneUpdates",
+			"level": 14,
+			"header": 2,
+			"entries": [
+				"When you cast {@spell Summon Aberration|XPHB}, {@spell Summon Construct|XPHB}, {@spell Summon Dragon|XPHB}, {@spell Summon Elemental|XPHB}, or {@spell Summon Fey|XPHB} using a spell slot, you can modify the spell to summon two creatures with the spell instead of one. Each creature is of the same kind, uses the stat block and rules denoted by the spell, and manifests in a different unoccupied space of your choice within the spell's range, but the summoned creatures' {@variantrule Hit Points|XPHB} are halved. If you lose {@status Concentration|XPHB} on the spell, both creatures disappear.",
+				"Once you use this feature to modify a spell in this way, you must finish a {@variantrule Long Rest|XPHB} before you do so again. You can also restore your use of it by expending a level 5+ spell slot (no action required)."
 			]
 		}
 	],
