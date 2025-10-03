@@ -64,7 +64,7 @@
 			"source": "XUA2025ArcaneUpdates",
 			"className": "Wizard",
 			"classSource": "XPHB",
-			"page": 7,
+			"page": 5,
 			"additionalSpells": [
 				{
 					"known": {
@@ -125,6 +125,83 @@
 				"Durable Summons|Wizard|XPHB|Conjurer|XUA2025ArcaneUpdates|6|XUA2025ArcaneUpdates",
 				"Focused Conjuration|Wizard|XPHB|Conjurer|XUA2025ArcaneSubclasses|10|XUA2025ArcaneSubclasses",
 				"Splintered Summons|Wizard|XPHB|Conjurer|XUA2025ArcaneUpdates|14|XUA2025ArcaneUpdates"
+			],
+			"hasFluff": true
+		},
+		{
+			"name": "Enchanter",
+			"shortName": "Enchanter",
+			"source": "XUA2025ArcaneUpdates",
+			"className": "Wizard",
+			"classSource": "XPHB",
+			"page": 6,
+			"additionalSpells": [
+				{
+					"known": {
+						"3": [
+							{
+								"choose": "level=0;1;2|class=wizard|school=e",
+								"count": 2
+							}
+						],
+						"5": [
+							{
+								"choose": "level=0;1;2;3|class=wizard|school=e",
+								"count": 1
+							}
+						],
+						"7": [
+							{
+								"choose": "level=0;1;2;3;4|class=wizard|school=e",
+								"count": 1
+							}
+						],
+						"9": [
+							{
+								"choose": "level=0;1;2;3;4;5|class=wizard|school=e",
+								"count": 1
+							}
+						],
+						"11": [
+							{
+								"choose": "level=0;1;2;3;4;5;6|class=wizard|school=e",
+								"count": 1
+							}
+						],
+						"13": [
+							{
+								"choose": "level=0;1;2;3;4;5;6;7|class=wizard|school=e",
+								"count": 1
+							}
+						],
+						"15": [
+							{
+								"choose": "level=0;1;2;3;4;5;6;7;8|class=wizard|school=e",
+								"count": 1
+							}
+						],
+						"17": [
+							{
+								"choose": "level=0;1;2;3;4;5;6;7;8;9|class=wizard|school=e",
+								"count": 1
+							}
+						]
+					},
+					"prepared": {
+						"14": [
+							"Modify Memory|XPHB"
+						]
+					}
+				}
+			],
+			"subclassSpells": [
+				"Modify Memory|XPHB"
+			],
+			"subclassFeatures": [
+				"Enchanter|Wizard|XPHB|Enchanter|XUA2025ArcaneUpdates|3|XUA2025ArcaneUpdates",
+				"Instinctive Charm|Wizard|XPHB|Enchanter|XUA2025ArcaneUpdates|10|XUA2025ArcaneUpdates",
+				"Split Enchantment|Wizard|XPHB|Enchanter|XUA2025ArcaneUpdates|6|XUA2025ArcaneUpdates",
+				"Alter Memories|Wizard|XPHB|Enchanter|XUA2025ArcaneUpdates|14|XUA2025ArcaneUpdates"
 			],
 			"hasFluff": true
 		},
@@ -816,6 +893,106 @@
 				"When you cast {@spell Summon Aberration|XPHB}, {@spell Summon Construct|XPHB}, {@spell Summon Dragon|XPHB}, {@spell Summon Elemental|XPHB}, or {@spell Summon Fey|XPHB} using a spell slot, you can modify the spell to summon two creatures with the spell instead of one. Each creature is of the same kind, uses the stat block and rules denoted by the spell, and manifests in a different unoccupied space of your choice within the spell's range, but the summoned creatures' {@variantrule Hit Points|XPHB} are halved. If you lose {@status Concentration|XPHB} on the spell, both creatures disappear.",
 				"Once you use this feature to modify a spell in this way, you must finish a {@variantrule Long Rest|XPHB} before you do so again. You can also restore your use of it by expending a level 5+ spell slot (no action required)."
 			]
+		},
+		{
+			"name": "Enchanter",
+			"source": "XUA2025ArcaneUpdates",
+			"page": 6,
+			"className": "Wizard",
+			"classSource": "XPHB",
+			"subclassShortName": "Enchanter",
+			"subclassSource": "XUA2025ArcaneUpdates",
+			"level": 3,
+			"header": 1,
+			"entries": [
+				"Your magic clouds or captivates minds. Some Enchanters use their abilities to encourage peace and soften cruelty, while others use their mind-altering magic for selfish ends. Many Enchanters fall somewhere in between.",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Enchanting Conversationalist|Wizard|XPHB|Enchanter|XUA2025ArcaneUpdates|3|XUA2025ArcaneUpdates"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Enchantment Savant|Wizard|XPHB|Enchanter|XUA2025ArcaneSubclasses|3|XUA2025ArcaneSubclasses"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Hypnotic Presence|Wizard|XPHB|Enchanter|XUA2025ArcaneUpdates|3|XUA2025ArcaneUpdates"
+				}
+			]
+		},
+		{
+			"name": "Enchanting Conversationalist",
+			"source": "XUA2025ArcaneUpdates",
+			"page": 6,
+			"className": "Wizard",
+			"classSource": "XPHB",
+			"subclassShortName": "Enchanter",
+			"subclassSource": "XUA2025ArcaneUpdates",
+			"level": 3,
+			"header": 2,
+			"entries": [
+				"You gain proficiency in one of the following skills of your choice:  {@skill Deception}, {@skill Intimidation}, or {@skill Persuasion}.",
+				"In addition, when you make an ability check with the chosen skill, you gain a bonus to the check equal to your Intelligence modifier (minimum of +1)."
+			]
+		},
+		{
+			"name": "Hypnotic Presence",
+			"source": "XUA2025ArcaneUpdates",
+			"page": 6,
+			"className": "Wizard",
+			"classSource": "XPHB",
+			"subclassShortName": "Enchanter",
+			"subclassSource": "XUA2025ArcaneUpdates",
+			"level": 3,
+			"header": 2,
+			"entries": [
+				"Your charming words and enchanting gaze can enthrall another creature. As a {@action Magic|XPHB} action, choose one creature that you can see within 10 feet of yourself. If the target can see or hear you, it must succeed on a Wisdom saving throw against your spell save DC or have the {@condition Charmed|XPHB} condition for 1 minute or until your {@status Concentration|XPHB} ends, the target is more than 10 feet away from you, the target can neither see nor hear you, or the target takes damage. While {@condition Charmed|XPHB} in this way, the target has the {@condition Incapacitated|XPHB} condition and a {@variantrule Speed|XPHB} of 0.",
+				"Once you use this feature, you can't do so again until you finish a {@variantrule Long Rest|XPHB}. You can also restore your use of it by expending a level 1+ spell slot (no action required)."
+			]
+		},
+		{
+			"name": "Split Enchantment",
+			"source": "XUA2025ArcaneUpdates",
+			"page": 7,
+			"className": "Wizard",
+			"classSource": "XPHB",
+			"subclassShortName": "Enchanter",
+			"subclassSource": "XUA2025ArcaneUpdates",
+			"level": 6,
+			"header": 2,
+			"entries": [
+				"When you cast an Enchantment spell, such as {@spell Charm Person|XPHB}, that can be cast with a higher-level spell slot to target an additional creature, increase the spell's effective level by 1.",
+				"You can use this feature a number of times equal to your Intelligence modifier and regain all expended uses when you finish a {@variantrule Long Rest|XPHB}."
+			]
+		},
+		{
+			"name": "Instinctive Charm",
+			"source": "XUA2025ArcaneUpdates",
+			"page": 7,
+			"className": "Wizard",
+			"classSource": "XPHB",
+			"subclassShortName": "Enchanter",
+			"subclassSource": "XUA2025ArcaneUpdates",
+			"level": 10,
+			"header": 2,
+			"entries": [
+				"When a creature within 30 feet of you that you can see hits you with an attack roll, you can take a {@variantrule Reaction|XPHB} to force the attacker to make a Wisdom saving throw against your spell save DC. On a failed save, the attack misses instead, and if there is another creature within range of the attack other than the attacker, the attacker targets that creature with the triggering attack, using the same attack roll. If multiple creatures are within the attack's range, you choose which one to target.",
+				"Once you use this {@variantrule Reaction|XPHB}, you can't do so again until you finish a {@variantrule Long Rest|XPHB}. You can also restore your use of it by casting an Enchantment spell with a spell slot."
+			]
+		},
+		{
+			"name": "Alter Memories",
+			"source": "XUA2025ArcaneUpdates",
+			"page": 7,
+			"className": "Wizard",
+			"classSource": "XPHB",
+			"subclassShortName": "Enchanter",
+			"subclassSource": "XUA2025ArcaneUpdates",
+			"level": 14,
+			"header": 2,
+			"entries": [
+				"You can reliably enchant creatures and alter their memories. You always have the {@spell Modify Memory|XPHB} spell prepared. When you cast the spell, you can target a second creature with it if that creature is within range of the spell."
+			]
 		}
 	],
 	"foundrySubclassFeature": [
@@ -877,6 +1054,29 @@
 			"subclassSource": "XUA2025ArcaneUpdates",
 			"level": 3,
 			"isIgnored": true
+		},
+		{
+			"name": "Enchanting Conversationalist",
+			"source": "XUA2025ArcaneUpdates",
+			"className": "Wizard",
+			"classSource": "XPHB",
+			"subclassShortName": "Enchanter",
+			"subclassSource": "XUA2025ArcaneUpdates",
+			"level": 3,
+			"entryData": {
+				"skillProficiencies": [
+					{
+						"choose": {
+							"from": [
+								"deception",
+								"intimidation",
+								"persuasion"
+							],
+							"count": 1
+						}
+					}
+				]
+			}
 		}
 	],
 	"optionalfeature": [
