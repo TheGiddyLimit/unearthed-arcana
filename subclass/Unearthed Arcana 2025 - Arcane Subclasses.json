@@ -172,6 +172,9 @@
 			"className": "Fighter",
 			"classSource": "XPHB",
 			"page": 2,
+			"reprintedAs": [
+				"Arcane Archer|Fighter|XPHB|XUA2025ArcaneUpdates"
+			],
 			"additionalSpells": [
 				{
 					"known": {
@@ -510,6 +513,9 @@
 			"className": "Monk",
 			"classSource": "XPHB",
 			"page": 4,
+			"reprintedAs": [
+				"Tattooed Warrior|Monk|XPHB|XUA2025ArcaneUpdates"
+			],
 			"subclassFeatures": [
 				"Tattooed Warrior|Monk|XPHB|Tattooed Warrior|XUA2025ArcaneSubclasses|3|XUA2025ArcaneSubclasses",
 				"Celestial Tattoo|Monk|XPHB|Tattooed Warrior|XUA2025ArcaneSubclasses|6|XUA2025ArcaneSubclasses",

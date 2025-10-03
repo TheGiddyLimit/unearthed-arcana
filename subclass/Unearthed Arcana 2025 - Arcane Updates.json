@@ -57,6 +57,21 @@
 				"Masterful Shots|Fighter|XPHB|Arcane Archer|XUA2025ArcaneUpdates|18|XUA2025ArcaneUpdates"
 			],
 			"hasFluff": true
+		},
+		{
+			"name": "Tattooed Warrior",
+			"shortName": "Tattooed Warrior",
+			"source": "XUA2025ArcaneUpdates",
+			"className": "Monk",
+			"classSource": "XPHB",
+			"page": 4,
+			"subclassFeatures": [
+				"Tattooed Warrior|Monk|XPHB|Tattooed Warrior|XUA2025ArcaneUpdates|3|XUA2025ArcaneUpdates",
+				"Celestial Tattoo|Monk|XPHB|Tattooed Warrior|XUA2025ArcaneUpdates|6|XUA2025ArcaneUpdates",
+				"Nature Tattoo|Monk|XPHB|Tattooed Warrior|XUA2025ArcaneUpdates|11|XUA2025ArcaneUpdates",
+				"Monster Tattoo|Monk|XPHB|Tattooed Warrior|XUA2025ArcaneUpdates|17|XUA2025ArcaneUpdates"
+			],
+			"hasFluff": true
 		}
 	],
 	"foundrySubclass": [
@@ -153,6 +168,63 @@
 									"nameDot": false,
 									"entries": [
 										"has been redesigned and now allows you to reposition and attack."
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Tattooed Warrior",
+			"shortName": "Tattooed Warrior",
+			"source": "XUA2025ArcaneUpdates",
+			"className": "Monk",
+			"classSource": "XPHB",
+			"entries": [
+				"{@i Enhance Martial Arts with Your Magic Tattoos}",
+				{
+					"type": "inset",
+					"name": "Design Note: Tattooed Warrior Updates",
+					"page": 1,
+					"entries": [
+						"Here are the main updates in this subclass since its last appearance in {@class Monk|XPHB|Unearthed Arcana|Tattooed Warrior|XUA2025ArcaneSubclasses}:",
+						{
+							"type": "list",
+							"page": 1,
+							"items": [
+								"The Tattooed Warrior has been redesigned. With some exceptions, the tattoos now focus on additional abilities instead of spells.",
+								{
+									"type": "item",
+									"name": "Beast Tattoos",
+									"nameDot": false,
+									"entries": [
+										"still grant a cantrip, but now each option provides a benefit that isn't tied to a level 1 spell."
+									]
+								},
+								{
+									"type": "item",
+									"name": "Celestial Tattoo",
+									"nameDot": false,
+									"entries": [
+										"has been redesigned to provide uses of Focus Points outside of combat."
+									]
+								},
+								{
+									"type": "item",
+									"name": "Nature Tattoo",
+									"nameDot": false,
+									"entries": [
+										"has been condensed to provide Damage {@variantrule Resistance|XPHB} to a small suite of choices that can change."
+									]
+								},
+								{
+									"type": "item",
+									"name": "Monster Tattoos",
+									"nameDot": false,
+									"entries": [
+										"has been redesigned with new options."
 									]
 								}
 							]
@@ -420,6 +492,180 @@
 			"entries": [
 				"You employ agility in your sharpshooting When a creature you can see misses you with an attack roll, you can take a {@variantrule Reaction|XPHB} to move up to half your {@variantrule Speed|XPHB} away from the attacker without provoking {@action Opportunity Attack|XPHB|Opportunity Attacks}. You can then make a ranged attack roll against the attacker as part of this {@variantrule Reaction|XPHB} if the attacker is within the weapon's range."
 			]
+		},
+		{
+			"name": "Tattooed Warrior",
+			"source": "XUA2025ArcaneUpdates",
+			"page": 4,
+			"className": "Monk",
+			"classSource": "XPHB",
+			"subclassShortName": "Tattooed Warrior",
+			"subclassSource": "XUA2025ArcaneUpdates",
+			"level": 3,
+			"header": 1,
+			"entries": [
+				"Drawing from body-marking traditions from across the multiverse, Tattooed Warriors can use arcane power imbued in their magic tattoos. These Monks gain tattoos as they grow in martial prowess and insight. Tattooed Warriors can reshape their tattoos to access a suite of physical and magical effects.",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Magic Tattoos|Monk|XPHB|Tattooed Warrior|XUA2025ArcaneUpdates|3|XUA2025ArcaneUpdates"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Beast Tattoos|Monk|XPHB|Tattooed Warrior|XUA2025ArcaneUpdates|3|XUA2025ArcaneUpdates"
+				}
+			]
+		},
+		{
+			"name": "Beast Tattoos",
+			"source": "XUA2025ArcaneUpdates",
+			"page": 4,
+			"className": "Monk",
+			"classSource": "XPHB",
+			"subclassShortName": "Tattooed Warrior",
+			"subclassSource": "XUA2025ArcaneUpdates",
+			"level": 3,
+			"header": 2,
+			"entries": [
+				"You gain two animal tattoos. Choose two tattoos from the following options.",
+				{
+					"type": "options",
+					"count": 2,
+					"entries": [
+						{
+							"type": "refOptionalfeature",
+							"optionalfeature": "Bat|XUA2025ArcaneUpdates"
+						},
+						{
+							"type": "refOptionalfeature",
+							"optionalfeature": "Butterfly|XUA2025ArcaneUpdates"
+						},
+						{
+							"type": "refOptionalfeature",
+							"optionalfeature": "Crane|XUA2025ArcaneUpdates"
+						},
+						{
+							"type": "refOptionalfeature",
+							"optionalfeature": "Horse|XUA2025ArcaneUpdates"
+						},
+						{
+							"type": "refOptionalfeature",
+							"optionalfeature": "Tortoise|XUA2025ArcaneUpdates"
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Magic Tattoos",
+			"source": "XUA2025ArcaneUpdates",
+			"page": 4,
+			"className": "Monk",
+			"classSource": "XPHB",
+			"subclassShortName": "Tattooed Warrior",
+			"subclassSource": "XUA2025ArcaneUpdates",
+			"level": 3,
+			"header": 2,
+			"entries": [
+				"You gain the magic tattoos described by other features of this subclass. The tattoos appear on your body wherever you wish. Damage or injury doesn't impair your magic tattoos' function. A magic tattoo can look like a brand, scarification, a birthmark, patterns of scales, or any other cosmetic alteration.",
+				"If a tattoo's effect requires a saving throw, the DC equals 8 plus your Wisdom modifier plus your {@variantrule Proficiency|XPHB|Proficiency Bonus}. Your spellcasting ability for spells granted by a tattoo is Wisdom.",
+				"Whenever you finish a {@variantrule Long Rest|XPHB}, you can reshape one of your magic tattoos, changing the option you chose from one list to another option on the same list."
+			]
+		},
+		{
+			"name": "Celestial Tattoo",
+			"source": "XUA2025ArcaneUpdates",
+			"page": 4,
+			"className": "Monk",
+			"classSource": "XPHB",
+			"subclassShortName": "Tattooed Warrior",
+			"subclassSource": "XUA2025ArcaneUpdates",
+			"level": 6,
+			"header": 2,
+			"entries": [
+				"You gain an additional magic tattoo depicting a celestial phenomenon. Choose a tattoo from the following options.",
+				{
+					"type": "options",
+					"count": 1,
+					"entries": [
+						{
+							"type": "refOptionalfeature",
+							"optionalfeature": "Comet|XUA2025ArcaneUpdates"
+						},
+						{
+							"type": "refOptionalfeature",
+							"optionalfeature": "Eclipse|XUA2025ArcaneUpdates"
+						},
+						{
+							"type": "refOptionalfeature",
+							"optionalfeature": "Sunburst|XUA2025ArcaneUpdates"
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Nature Tattoo",
+			"source": "XUA2025ArcaneUpdates",
+			"page": 4,
+			"className": "Monk",
+			"classSource": "XPHB",
+			"subclassShortName": "Tattooed Warrior",
+			"subclassSource": "XUA2025ArcaneUpdates",
+			"level": 11,
+			"header": 2,
+			"entries": [
+				"You gain an additional magic tattoo depicting a natural feature. Choose a tattoo from the following options.",
+				{
+					"type": "options",
+					"count": 1,
+					"entries": [
+						{
+							"type": "refOptionalfeature",
+							"optionalfeature": "Sea Storm|XUA2025ArcaneUpdates"
+						},
+						{
+							"type": "refOptionalfeature",
+							"optionalfeature": "Volcano|XUA2025ArcaneUpdates"
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Monster Tattoo",
+			"source": "XUA2025ArcaneUpdates",
+			"page": 5,
+			"className": "Monk",
+			"classSource": "XPHB",
+			"subclassShortName": "Tattooed Warrior",
+			"subclassSource": "XUA2025ArcaneUpdates",
+			"level": 17,
+			"header": 2,
+			"entries": [
+				"You gain a magic tattoo depicting a mighty creature. Choose a tattoo from the following options.",
+				{
+					"type": "options",
+					"count": 1,
+					"entries": [
+						{
+							"type": "refOptionalfeature",
+							"optionalfeature": "Beholder|XUA2025ArcaneUpdates"
+						},
+						{
+							"type": "refOptionalfeature",
+							"optionalfeature": "Chromatic Dragon|XUA2025ArcaneUpdates"
+						},
+						{
+							"type": "refOptionalfeature",
+							"optionalfeature": "Displacer Beast|XUA2025ArcaneUpdates"
+						},
+						{
+							"type": "refOptionalfeature",
+							"optionalfeature": "Troll|XUA2025ArcaneUpdates"
+						}
+					]
+				}
+			]
 		}
 	],
 	"foundrySubclassFeature": [
@@ -496,6 +742,42 @@
 			]
 		},
 		{
+			"name": "Bat",
+			"source": "XUA2025ArcaneUpdates",
+			"page": 4,
+			"featureType": [
+				"MT"
+			],
+			"prerequisite": [
+				{
+					"level": {
+						"level": 3,
+						"class": {
+							"name": "Monk",
+							"source": "XPHB"
+						},
+						"subclass": {
+							"name": "Tattooed Warrior",
+							"source": "XUA2025ArcaneUpdates"
+						}
+					}
+				}
+			],
+			"additionalSpells": [
+				{
+					"known": {
+						"_": [
+							"dancing lights|XPHB#c"
+						]
+					},
+					"ability": "wis"
+				}
+			],
+			"entries": [
+				"You know the {@spell Dancing Lights|XPHB} cantrip. You also gain {@sense Blindsight|XPHB} with a range of 10 feet."
+			]
+		},
+		{
 			"name": "Beguiling Shot",
 			"source": "XUA2025ArcaneUpdates",
 			"page": 3,
@@ -507,6 +789,241 @@
 			]
 		},
 		{
+			"name": "Beholder",
+			"source": "XUA2025ArcaneUpdates",
+			"page": 5,
+			"featureType": [
+				"MT"
+			],
+			"prerequisite": [
+				{
+					"level": {
+						"level": 17,
+						"class": {
+							"name": "Monk",
+							"source": "XPHB"
+						},
+						"subclass": {
+							"name": "Tattooed Warrior",
+							"source": "XUA2025ArcaneUpdates"
+						}
+					}
+				}
+			],
+			"consumes": {
+				"name": "Focus Point",
+				"amount": 1
+			},
+			"entries": [
+				"At the start of your turn, you can expend 1 Focus Point to gain a {@variantrule Fly Speed|XPHB} equal to your {@variantrule Speed|XPHB} for 10 minutes. While you have this {@variantrule Fly Speed|XPHB}, you can hover.",
+				"Additionally, as a {@action Magic|XPHB} action, you can expend 1 Focus Point to fire four rays from your eyes. You can fire them at one target you can see within 120 feet or at several. Make a ranged spell attack for each ray, using Wisdom as your spellcasting ability. On a hit, the attack deals Force damage equal to one roll of your Martial Arts die plus your Wisdom modifier."
+			]
+		},
+		{
+			"name": "Butterfly",
+			"source": "XUA2025ArcaneUpdates",
+			"page": 4,
+			"featureType": [
+				"MT"
+			],
+			"prerequisite": [
+				{
+					"level": {
+						"level": 3,
+						"class": {
+							"name": "Monk",
+							"source": "XPHB"
+						},
+						"subclass": {
+							"name": "Tattooed Warrior",
+							"source": "XUA2025ArcaneUpdates"
+						}
+					}
+				}
+			],
+			"additionalSpells": [
+				{
+					"known": {
+						"_": [
+							"dancing lights|XPHB#c"
+						]
+					},
+					"resourceName": "Focus Point",
+					"ability": "wis"
+				}
+			],
+			"entries": [
+				"You know the {@spell Light|XPHB} cantrip. When you make a {@variantrule High Jump|XPHB}, you can use your Dexterity modifier instead of your Strength modifier to determine how high you can jump."
+			]
+		},
+		{
+			"name": "Chromatic Dragon",
+			"source": "XUA2025ArcaneUpdates",
+			"page": 5,
+			"featureType": [
+				"MT"
+			],
+			"prerequisite": [
+				{
+					"level": {
+						"level": 17,
+						"class": {
+							"name": "Monk",
+							"source": "XPHB"
+						},
+						"subclass": {
+							"name": "Tattooed Warrior",
+							"source": "XUA2025ArcaneUpdates"
+						}
+					}
+				}
+			],
+			"consumes": {
+				"name": "Focus Point",
+				"amount": 1
+			},
+			"entries": [
+				"When you take the {@action Attack|XPHB} action on your turn, you can expend 1 Focus Point to replace one of your attacks with an exhalation of magical energy in a 30-foot {@variantrule Cone [Area of Effect]|XPHB|Cone}. Choose a damage type: Acid, Cold, Fire, Lightning, or Poison. Each creature in that area makes a Dexterity saving throw. On a failed save, a creature takes damage of the chosen type equal to two rolls of your Martial Arts die plus your Wisdom modifier. On a successful save, a creature takes half as much damage."
+			]
+		},
+		{
+			"name": "Comet",
+			"source": "XUA2025ArcaneUpdates",
+			"page": 4,
+			"featureType": [
+				"MT"
+			],
+			"prerequisite": [
+				{
+					"level": {
+						"level": 6,
+						"class": {
+							"name": "Monk",
+							"source": "XPHB"
+						},
+						"subclass": {
+							"name": "Tattooed Warrior",
+							"source": "XUA2025ArcaneUpdates"
+						}
+					}
+				}
+			],
+			"consumes": {
+				"name": "Focus Point",
+				"amount": 1
+			},
+			"entries": [
+				"When you take the {@action Search|XPHB} action, you can expend 1 Focus Point to roll your Martial Arts die and add the number rolled to the Wisdom check."
+			]
+		},
+		{
+			"name": "Crane",
+			"source": "XUA2025ArcaneUpdates",
+			"page": 4,
+			"featureType": [
+				"MT"
+			],
+			"prerequisite": [
+				{
+					"level": {
+						"level": 3,
+						"class": {
+							"name": "Monk",
+							"source": "XPHB"
+						},
+						"subclass": {
+							"name": "Tattooed Warrior",
+							"source": "XUA2025ArcaneUpdates"
+						}
+					}
+				}
+			],
+			"additionalSpells": [
+				{
+					"known": {
+						"_": [
+							"guidance|XPHB#c"
+						]
+					},
+					"ability": "wis"
+				}
+			],
+			"entries": [
+				"You know the {@spell Guidance|XPHB} cantrip. When you miss a creature with an attack granted by your {@classFeature Flurry of Blows|Monk|XPHB|2|XPHB}, you have {@variantrule Advantage|XPHB} on your next attack roll against that creature before the end of your next turn."
+			]
+		},
+		{
+			"name": "Displacer Beast",
+			"source": "XUA2025ArcaneUpdates",
+			"page": 5,
+			"featureType": [
+				"MT"
+			],
+			"prerequisite": [
+				{
+					"level": {
+						"level": 17,
+						"class": {
+							"name": "Monk",
+							"source": "XPHB"
+						},
+						"subclass": {
+							"name": "Tattooed Warrior",
+							"source": "XUA2025ArcaneUpdates"
+						}
+					}
+				}
+			],
+			"additionalSpells": [
+				{
+					"innate": {
+						"_": {
+							"resource": {
+								"1e": [
+									"mirror image|XPHB"
+								]
+							}
+						}
+					},
+					"resourceName": "Focus Point",
+					"ability": "wis"
+				}
+			],
+			"entries": [
+				"When you expend a Focus Point to use {@classFeature Flurry of Blows|Monk|XPHB|2|XPHB} or {@classFeature Step of the Wind|Monk|XPHB|2|XPHB}, you can expend 1 Focus Point to cast the {@spell Mirror Image|XPHB} spell as part of that {@variantrule Bonus Action|XPHB}."
+			]
+		},
+		{
+			"name": "Eclipse",
+			"source": "XUA2025ArcaneUpdates",
+			"page": 4,
+			"featureType": [
+				"MT"
+			],
+			"prerequisite": [
+				{
+					"level": {
+						"level": 6,
+						"class": {
+							"name": "Monk",
+							"source": "XPHB"
+						},
+						"subclass": {
+							"name": "Tattooed Warrior",
+							"source": "XUA2025ArcaneUpdates"
+						}
+					}
+				}
+			],
+			"consumes": {
+				"name": "Focus Point",
+				"amount": 1
+			},
+			"entries": [
+				"When you take the {@action Hide|XPHB} action, you can expend 1 Focus Point to roll your Martial Arts die and add the number rolled to the Dexterity ({@skill Stealth}) check."
+			]
+		},
+		{
 			"name": "Grasping Shot",
 			"source": "XUA2025ArcaneUpdates",
 			"page": 3,
@@ -515,6 +1032,69 @@
 			],
 			"entries": [
 				"Your ammunition creates clutching brambles around your target. The creature you hit takes additional Slashing damage equal to one roll of your Arcane Shot Die and must succeed on a Strength saving throw or have the {@condition Restrained} condition for 1 minute or until you use this option again. The target or a creature within reach of it can take an action to make a Strength ({@skill Athletics|XPHB}) check against your Arcane Shot DC, removing the brambles and ending the {@condition Restrained} condition on the target on a successful check."
+			]
+		},
+		{
+			"name": "Horse",
+			"source": "XUA2025ArcaneUpdates",
+			"page": 4,
+			"featureType": [
+				"MT"
+			],
+			"prerequisite": [
+				{
+					"level": {
+						"level": 3,
+						"class": {
+							"name": "Monk",
+							"source": "XPHB"
+						},
+						"subclass": {
+							"name": "Tattooed Warrior",
+							"source": "XUA2025ArcaneUpdates"
+						}
+					}
+				}
+			],
+			"additionalSpells": [
+				{
+					"known": {
+						"_": [
+							"Message|XPHB#c"
+						]
+					},
+					"resourceName": "Focus Point",
+					"ability": "wis"
+				}
+			],
+			"entries": [
+				"You know the {@spell Message|XPHB} cantrip. When you expend 1 Focus Point to use {@classFeature Step of the Wind|Monk|XPHB|2|XPHB}, your {@variantrule Speed|XPHB} increases by 10 feet until the start of your next turn."
+			]
+		},
+		{
+			"name": "Sea Storm",
+			"source": "XUA2025ArcaneUpdates",
+			"page": 4,
+			"featureType": [
+				"MT"
+			],
+			"prerequisite": [
+				{
+					"level": {
+						"level": 11,
+						"class": {
+							"name": "Monk",
+							"source": "XPHB"
+						},
+						"subclass": {
+							"name": "Tattooed Warrior",
+							"source": "XUA2025ArcaneUpdates"
+						}
+					}
+				}
+			],
+			"entries": [
+				"You gain {@variantrule Resistance|XPHB} to one of the following damage types of your choice: Cold, Lightning, or Thunder. Whenever you finish a {@variantrule Short Rest|XPHB|Short} or {@variantrule Long Rest|XPHB}, or use your {@classFeature Uncanny Metabolism|Monk|XPHB|2|XPHB} feature, you can change this choice."
 			]
 		},
 		{
@@ -537,6 +1117,125 @@
 			],
 			"entries": [
 				"Your ammunition occludes your foe's vision with shadows. The creature you hit takes additional Psychic damage equal to one roll of your Arcane Shot Die, and it must succeed on a Wisdom saving throw or have the {@condition Blinded|XPHB} condition until the end of its next turn."
+			]
+		},
+		{
+			"name": "Sunburst",
+			"source": "XUA2025ArcaneUpdates",
+			"page": 5,
+			"featureType": [
+				"MT"
+			],
+			"prerequisite": [
+				{
+					"level": {
+						"level": 6,
+						"class": {
+							"name": "Monk",
+							"source": "XPHB"
+						},
+						"subclass": {
+							"name": "Tattooed Warrior",
+							"source": "XUA2025ArcaneUpdates"
+						}
+					}
+				}
+			],
+			"consumes": {
+				"name": "Focus Point",
+				"amount": 1
+			},
+			"entries": [
+				"When you take the {@action Study|XPHB} action, you can expend 1 Focus Point to roll your Martial Arts die and add the number rolled to the Intelligence check."
+			]
+		},
+		{
+			"name": "Tortoise",
+			"source": "XUA2025ArcaneUpdates",
+			"page": 4,
+			"featureType": [
+				"MT"
+			],
+			"prerequisite": [
+				{
+					"level": {
+						"level": 3,
+						"class": {
+							"name": "Monk",
+							"source": "XPHB"
+						},
+						"subclass": {
+							"name": "Tattooed Warrior",
+							"source": "XUA2025ArcaneUpdates"
+						}
+					}
+				}
+			],
+			"additionalSpells": [
+				{
+					"known": {
+						"_": [
+							"spare the dying|XPHB#c"
+						]
+					},
+					"resourceName": "Focus Point",
+					"ability": "wis"
+				}
+			],
+			"entries": [
+				"You know the {@spell Spare the Dying|XPHB} cantrip. When you expend 1 Focus Point to use {@classFeature Patient Defense|Monk|XPHB|2|XPHB}, you have a +1 bonus to AC until the start of your next turn."
+			]
+		},
+		{
+			"name": "Troll",
+			"source": "XUA2025ArcaneUpdates",
+			"page": 5,
+			"featureType": [
+				"MT"
+			],
+			"prerequisite": [
+				{
+					"level": {
+						"level": 17,
+						"class": {
+							"name": "Monk",
+							"source": "XPHB"
+						},
+						"subclass": {
+							"name": "Tattooed Warrior",
+							"source": "XUA2025ArcaneUpdates"
+						}
+					}
+				}
+			],
+			"entries": [
+				"At the start of each of your turns, you regain {@variantrule Hit Points|XPHB} equal to 5 plus your Wisdom modifier if you are {@status Bloodied|XPHB} and have at least 1 {@variantrule Hit Points|XPHB|Hit Point}. Any severed body part regrows after you finish a {@variantrule Short Rest|XPHB|Short} or {@variantrule Long Rest|XPHB}."
+			]
+		},
+		{
+			"name": "Volcano",
+			"source": "XUA2025ArcaneUpdates",
+			"page": 4,
+			"featureType": [
+				"MT"
+			],
+			"prerequisite": [
+				{
+					"level": {
+						"level": 11,
+						"class": {
+							"name": "Monk",
+							"source": "XPHB"
+						},
+						"subclass": {
+							"name": "Tattooed Warrior",
+							"source": "XUA2025ArcaneUpdates"
+						}
+					}
+				}
+			],
+			"entries": [
+				"You gain {@variantrule Resistance|XPHB} to one of the following damage types of your choice: Acid, Fire, or Poison. Whenever you finish a {@variantrule Short Rest|XPHB|Short} or {@variantrule Long Rest|XPHB}, or use your {@classFeature Uncanny Metabolism|Monk|XPHB|2|XPHB} feature, you can change this choice."
 			]
 		}
 	],
