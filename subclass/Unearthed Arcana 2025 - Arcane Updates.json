@@ -206,6 +206,92 @@
 			"hasFluff": true
 		},
 		{
+			"name": "Necromancer",
+			"shortName": "Necromancer",
+			"source": "XUA2025ArcaneUpdates",
+			"className": "Wizard",
+			"classSource": "XPHB",
+			"page": 7,
+			"additionalSpells": [
+				{
+					"known": {
+						"3": [
+							{
+								"choose": "level=0;1;2|class=wizard|school=n",
+								"count": 2
+							}
+						],
+						"5": [
+							{
+								"choose": "level=0;1;2;3|class=wizard|school=n",
+								"count": 1
+							}
+						],
+						"7": [
+							{
+								"choose": "level=0;1;2;3;4|class=wizard|school=n",
+								"count": 1
+							}
+						],
+						"9": [
+							{
+								"choose": "level=0;1;2;3;4;5|class=wizard|school=n",
+								"count": 1
+							}
+						],
+						"11": [
+							{
+								"choose": "level=0;1;2;3;4;5;6|class=wizard|school=n",
+								"count": 1
+							}
+						],
+						"13": [
+							{
+								"choose": "level=0;1;2;3;4;5;6;7|class=wizard|school=n",
+								"count": 1
+							}
+						],
+						"15": [
+							{
+								"choose": "level=0;1;2;3;4;5;6;7;8|class=wizard|school=n",
+								"count": 1
+							}
+						],
+						"17": [
+							{
+								"choose": "level=0;1;2;3;4;5;6;7;8;9|class=wizard|school=n",
+								"count": 1
+							}
+						]
+					},
+					"prepared": {
+						"3": [
+							"Find Familiar|XPHB"
+						],
+						"6": {
+							"daily": {
+								"1e": [
+									"Animate Dead|XPHB"
+								]
+							}
+						}
+					}
+				}
+			],
+			"subclassSpells": [
+				"Animate Dead|XPHB",
+				"Find Familiar|XPHB"
+			],
+			"subclassFeatures": [
+				"Necromancer|Wizard|XPHB|Necromancer|XUA2025ArcaneUpdates|3|XUA2025ArcaneUpdates",
+				"Grave Power|Wizard|XPHB|Necromancer|XUA2025ArcaneSubclasses|6|XUA2025ArcaneSubclasses",
+				"Undead Thralls|Wizard|XPHB|Necromancer|XUA2025ArcaneUpdates|6|XUA2025ArcaneUpdates",
+				"Harvest Undead|Wizard|XPHB|Necromancer|XUA2025ArcaneUpdates|10|XUA2025ArcaneUpdates",
+				"Death's Master|Wizard|XPHB|Necromancer|XUA2025ArcaneUpdates|14|XUA2025ArcaneUpdates"
+			],
+			"hasFluff": true
+		},
+		{
 			"name": "Tattooed Warrior",
 			"shortName": "Tattooed Warrior",
 			"source": "XUA2025ArcaneUpdates",
@@ -993,6 +1079,147 @@
 			"entries": [
 				"You can reliably enchant creatures and alter their memories. You always have the {@spell Modify Memory|XPHB} spell prepared. When you cast the spell, you can target a second creature with it if that creature is within range of the spell."
 			]
+		},
+		{
+			"name": "Necromancer",
+			"source": "XUA2025ArcaneUpdates",
+			"page": 7,
+			"className": "Wizard",
+			"classSource": "XPHB",
+			"subclassShortName": "Necromancer",
+			"subclassSource": "XUA2025ArcaneUpdates",
+			"level": 3,
+			"header": 1,
+			"entries": [
+				"You explore the cosmic forces of life, death, and undeath. As a Necromancer, you learn to manipulate the energy that animates all creatures. As you progress, you learn to use magic to drain the life force from a creature and transform its vital energy into magical power. Many see Necromancers as menacing or villainous, though not all Necromancers are evil. Nevertheless, the manipulation of life and death is considered taboo in many societies.",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Necromancy Savant|Wizard|XPHB|Necromancer|XUA2025ArcaneSubclasses|3|XUA2025ArcaneSubclasses"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Necromancy Spellbook|Wizard|XPHB|Necromancer|XUA2025ArcaneUpdates|3|XUA2025ArcaneUpdates"
+				}
+			]
+		},
+		{
+			"name": "Necromancy Spellbook",
+			"source": "XUA2025ArcaneUpdates",
+			"page": 8,
+			"className": "Wizard",
+			"classSource": "XPHB",
+			"subclassShortName": "Necromancer",
+			"subclassSource": "XUA2025ArcaneUpdates",
+			"level": 3,
+			"header": 2,
+			"entries": [
+				"The necromantic secrets in your spellbook grant you additional powers. You gain the following benefits.",
+				{
+					"type": "entries",
+					"name": "Necrotic Resistance",
+					"page": 8,
+					"entries": [
+						"You have {@variantrule Resistance|XPHB} to Necrotic damage."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Grim Harvest",
+					"page": 8,
+					"entries": [
+						"When you cast a Necromancy spell using a spell slot, you can choose an Undead creature you can see within 60 feet of yourself to regain a number of {@variantrule Hit Points|XPHB} equal to the level of the spell slot expended plus your Wizard level."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Undead Familiar",
+					"page": 8,
+					"entries": [
+						"The {@spell Find Familiar|XPHB} spell appears in your spellbook. When you cast the spell, you choose one of the normal forms for your familiar or one of the following special forms: {@creature Skeleton|XMM} or {@creature Zombie|XMM} (see {@book appendix B|XPHB|9} of the {@book Player's Handbook|XPHB} for the familiar's stat block)."
+					]
+				}
+			]
+		},
+		{
+			"name": "Undead Thralls",
+			"source": "XUA2025ArcaneUpdates",
+			"page": 8,
+			"className": "Wizard",
+			"classSource": "XPHB",
+			"subclassShortName": "Necromancer",
+			"subclassSource": "XUA2025ArcaneUpdates",
+			"level": 6,
+			"header": 2,
+			"entries": [
+				"You always have {@spell Animate Dead|XPHB} prepared and can cast it once without expending a spell slot. Whenever you start casting the spell, you can modify it so that the spell's effective level is increased by 1.",
+				"In addition, whenever you cast a Necromancy spell using a spell slot that creates or summons an Undead, the Undead gains the benefits below.",
+				{
+					"type": "entries",
+					"name": "Undead Fortitude",
+					"page": 8,
+					"entries": [
+						"The Undead's Hit Point maximum and current {@variantrule Hit points|XPHB} increase by a number equal to the level of the spell slot used plus your Intelligence modifier for the duration of the spell."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Withering Strike",
+					"page": 8,
+					"entries": [
+						"Whenever the Undead hits a creature with an attack roll, the Undead deals extra Necrotic damage equal to your Intelligence modifier (minimum of 1 Necrotic damage)."
+					]
+				}
+			]
+		},
+		{
+			"name": "Harvest Undead",
+			"source": "XUA2025ArcaneUpdates",
+			"page": 8,
+			"className": "Wizard",
+			"classSource": "XPHB",
+			"subclassShortName": "Necromancer",
+			"subclassSource": "XUA2025ArcaneUpdates",
+			"level": 10,
+			"header": 2,
+			"entries": [
+				"You have learned more secrets about the nuances of life and death. Immediately after you become {@status Bloodied|XPHB} but aren't killed outright from taking damage, you can take a {@variantrule Reaction|XPHB} to reduce an Undead creature under your control that you can see to 0 {@variantrule Hit Points|XPHB}. You then immediately regain a number of {@variantrule Hit Points|XPHB} equal to your Wizard level."
+			]
+		},
+		{
+			"name": "Death's Master",
+			"source": "XUA2025ArcaneUpdates",
+			"page": 8,
+			"className": "Wizard",
+			"classSource": "XPHB",
+			"subclassShortName": "Necromancer",
+			"subclassSource": "XUA2025ArcaneUpdates",
+			"level": 14,
+			"header": 2,
+			"entries": [
+				"Abstruse rituals within your spellbook allow you mastery over forces of death. While holding your spellbook, you gain the following benefits.",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Bolster Undead|Wizard|XPHB|Necromancer|XUA2025ArcaneSubclasses|14|XUA2025ArcaneSubclasses"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Extinguish Undead|Wizard|XPHB|Necromancer|XUA2025ArcaneUpdates|14|XUA2025ArcaneUpdates"
+				}
+			]
+		},
+		{
+			"name": "Extinguish Undead",
+			"source": "XUA2025ArcaneUpdates",
+			"page": 8,
+			"className": "Wizard",
+			"classSource": "XPHB",
+			"subclassShortName": "Necromancer",
+			"subclassSource": "XUA2025ArcaneUpdates",
+			"level": 14,
+			"header": 3,
+			"entries": [
+				"When an Undead creature you can see is reduced to 0 {@variantrule Hit Points|XPHB}, you can cause it to explode with necrotic energy. Roll a number of {@dice d6|d6s} equal to half the creature's unexpended {@variantrule Hit Dice|XPHB} (round up, minimum of {@dice 1d6}) and add them together. Each creature in a 10-foot {@variantrule Emanation [Area of Effect]|XPHB|Emanation} originating from the Undead makes a Dexterity saving throw. On a failed save, a target takes Necrotic damage equal to the number rolled and can't take {@variantrule Reaction|XPHB|Reactions} until the start of its next turn. On a successful save, a target takes half as much damage only. When you use this feature to explode an Undead creature you don't control, you must take a {@variantrule Reaction|XPHB} and expend a level 5+ spell slot to do so."
+			]
 		}
 	],
 	"foundrySubclassFeature": [
@@ -1075,6 +1302,20 @@
 							"count": 1
 						}
 					}
+				]
+			}
+		},
+		{
+			"name": "Necromancy Spellbook",
+			"source": "XUA2025ArcaneUpdates",
+			"className": "Wizard",
+			"classSource": "XPHB",
+			"subclassShortName": "Necromancer",
+			"subclassSource": "XUA2025ArcaneUpdates",
+			"level": 3,
+			"entryData": {
+				"resist": [
+					"necrotic"
 				]
 			}
 		}
