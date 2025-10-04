@@ -440,6 +440,7 @@
 			"effects": [
 				{
 					"name": "Carapace",
+					"disabled": true,
 					"transfer": true,
 					"changes": [
 						{
@@ -447,8 +448,7 @@
 							"mode": "ADD",
 							"value": "+ 1"
 						}
-					],
-					"disabled": true
+					]
 				}
 			]
 		},

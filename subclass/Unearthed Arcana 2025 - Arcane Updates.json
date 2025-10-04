@@ -1,0 +1,2709 @@
+{
+	"$schema": "https://raw.githubusercontent.com/TheGiddyLimit/5etools-utils/master/schema/ua-fast/homebrew.json",
+	"_meta": {
+		"sources": [
+			{
+				"json": "XUA2025ArcaneUpdates",
+				"abbreviation": "XUA25ArU",
+				"full": "Unearthed Arcana 2025: Arcane Updates",
+				"authors": [
+					"Wizards of the Coast"
+				],
+				"convertedBy": [
+					"Lyra [he/him]"
+				],
+				"version": "1.0.0",
+				"url": "https://media.dndbeyond.com/compendium-images/ua/arcane-subclasses-update/LEwFmioFBYHWqzpd/UA2025-ArcaneSubclassesUpdate.pdf",
+				"dateReleased": "2025-09-18"
+			}
+		],
+		"dependencies": {
+			"subclassFeature": [
+				"XUA2025ArcaneSubclasses"
+			],
+			"subclass": [
+				"XUA2025ArcaneSubclasses"
+			]
+		},
+		"optionalFeatureTypes": {
+			"MT": "Magic Tattoo"
+		},
+		"edition": "one",
+		"status": "ready",
+		"dateAdded": 1758306933,
+		"dateLastModified": 1758306933
+	},
+	"subclass": [
+		{
+			"name": "Arcane Archer",
+			"shortName": "Arcane Archer",
+			"source": "XUA2025ArcaneUpdates",
+			"className": "Fighter",
+			"classSource": "XPHB",
+			"page": 1,
+			"_copy": {
+				"name": "Arcane Archer",
+				"source": "XUA2025ArcaneSubclasses",
+				"shortName": "Arcane Archer",
+				"className": "Fighter",
+				"classSource": "XPHB"
+			},
+			"subclassFeatures": [
+				"Arcane Archer|Fighter|XPHB|Arcane Archer|XUA2025ArcaneUpdates|3|XUA2025ArcaneUpdates",
+				"Curving Shot|Fighter|XPHB|Arcane Archer|XUA2025ArcaneUpdates|7|XUA2025ArcaneUpdates",
+				"Magical Ammunition|Fighter|XPHB|Arcane Archer|XUA2025ArcaneUpdates|7|XUA2025ArcaneUpdates",
+				"Ever-Ready Shot|Fighter|XPHB|Arcane Archer|XUA2025ArcaneUpdates|10|XUA2025ArcaneUpdates",
+				"Arcane Burst|Fighter|XPHB|Arcane Archer|XUA2025ArcaneUpdates|15|XUA2025ArcaneUpdates",
+				"Masterful Shots|Fighter|XPHB|Arcane Archer|XUA2025ArcaneUpdates|18|XUA2025ArcaneUpdates"
+			],
+			"hasFluff": true
+		},
+		{
+			"name": "Conjurer",
+			"shortName": "Conjurer",
+			"source": "XUA2025ArcaneUpdates",
+			"className": "Wizard",
+			"classSource": "XPHB",
+			"page": 5,
+			"additionalSpells": [
+				{
+					"known": {
+						"3": [
+							{
+								"choose": "level=0;1;2|class=wizard|school=c",
+								"count": 2
+							}
+						],
+						"5": [
+							{
+								"choose": "level=0;1;2;3|class=wizard|school=c",
+								"count": 1
+							}
+						],
+						"7": [
+							{
+								"choose": "level=0;1;2;3;4|class=wizard|school=c",
+								"count": 1
+							}
+						],
+						"9": [
+							{
+								"choose": "level=0;1;2;3;4;5|class=wizard|school=c",
+								"count": 1
+							}
+						],
+						"11": [
+							{
+								"choose": "level=0;1;2;3;4;5;6|class=wizard|school=c",
+								"count": 1
+							}
+						],
+						"13": [
+							{
+								"choose": "level=0;1;2;3;4;5;6;7|class=wizard|school=c",
+								"count": 1
+							}
+						],
+						"15": [
+							{
+								"choose": "level=0;1;2;3;4;5;6;7;8|class=wizard|school=c",
+								"count": 1
+							}
+						],
+						"17": [
+							{
+								"choose": "level=0;1;2;3;4;5;6;7;8;9|class=wizard|school=c",
+								"count": 1
+							}
+						]
+					}
+				}
+			],
+			"subclassFeatures": [
+				"Conjurer|Wizard|XPHB|Conjurer|XUA2025ArcaneUpdates|3|XUA2025ArcaneUpdates",
+				"Distant Transposition|Wizard|XPHB|Conjurer|XUA2025ArcaneUpdates|6|XUA2025ArcaneUpdates",
+				"Durable Summons|Wizard|XPHB|Conjurer|XUA2025ArcaneUpdates|6|XUA2025ArcaneUpdates",
+				"Focused Conjuration|Wizard|XPHB|Conjurer|XUA2025ArcaneSubclasses|10|XUA2025ArcaneSubclasses",
+				"Splintered Summons|Wizard|XPHB|Conjurer|XUA2025ArcaneUpdates|14|XUA2025ArcaneUpdates"
+			],
+			"hasFluff": true
+		},
+		{
+			"name": "Enchanter",
+			"shortName": "Enchanter",
+			"source": "XUA2025ArcaneUpdates",
+			"className": "Wizard",
+			"classSource": "XPHB",
+			"page": 6,
+			"additionalSpells": [
+				{
+					"known": {
+						"3": [
+							{
+								"choose": "level=0;1;2|class=wizard|school=e",
+								"count": 2
+							}
+						],
+						"5": [
+							{
+								"choose": "level=0;1;2;3|class=wizard|school=e",
+								"count": 1
+							}
+						],
+						"7": [
+							{
+								"choose": "level=0;1;2;3;4|class=wizard|school=e",
+								"count": 1
+							}
+						],
+						"9": [
+							{
+								"choose": "level=0;1;2;3;4;5|class=wizard|school=e",
+								"count": 1
+							}
+						],
+						"11": [
+							{
+								"choose": "level=0;1;2;3;4;5;6|class=wizard|school=e",
+								"count": 1
+							}
+						],
+						"13": [
+							{
+								"choose": "level=0;1;2;3;4;5;6;7|class=wizard|school=e",
+								"count": 1
+							}
+						],
+						"15": [
+							{
+								"choose": "level=0;1;2;3;4;5;6;7;8|class=wizard|school=e",
+								"count": 1
+							}
+						],
+						"17": [
+							{
+								"choose": "level=0;1;2;3;4;5;6;7;8;9|class=wizard|school=e",
+								"count": 1
+							}
+						]
+					},
+					"prepared": {
+						"14": [
+							"Modify Memory|XPHB"
+						]
+					}
+				}
+			],
+			"subclassSpells": [
+				"Modify Memory|XPHB"
+			],
+			"subclassFeatures": [
+				"Enchanter|Wizard|XPHB|Enchanter|XUA2025ArcaneUpdates|3|XUA2025ArcaneUpdates",
+				"Instinctive Charm|Wizard|XPHB|Enchanter|XUA2025ArcaneUpdates|10|XUA2025ArcaneUpdates",
+				"Split Enchantment|Wizard|XPHB|Enchanter|XUA2025ArcaneUpdates|6|XUA2025ArcaneUpdates",
+				"Alter Memories|Wizard|XPHB|Enchanter|XUA2025ArcaneUpdates|14|XUA2025ArcaneUpdates"
+			],
+			"hasFluff": true
+		},
+		{
+			"name": "Necromancer",
+			"shortName": "Necromancer",
+			"source": "XUA2025ArcaneUpdates",
+			"className": "Wizard",
+			"classSource": "XPHB",
+			"page": 7,
+			"additionalSpells": [
+				{
+					"known": {
+						"3": [
+							{
+								"choose": "level=0;1;2|class=wizard|school=n",
+								"count": 2
+							}
+						],
+						"5": [
+							{
+								"choose": "level=0;1;2;3|class=wizard|school=n",
+								"count": 1
+							}
+						],
+						"7": [
+							{
+								"choose": "level=0;1;2;3;4|class=wizard|school=n",
+								"count": 1
+							}
+						],
+						"9": [
+							{
+								"choose": "level=0;1;2;3;4;5|class=wizard|school=n",
+								"count": 1
+							}
+						],
+						"11": [
+							{
+								"choose": "level=0;1;2;3;4;5;6|class=wizard|school=n",
+								"count": 1
+							}
+						],
+						"13": [
+							{
+								"choose": "level=0;1;2;3;4;5;6;7|class=wizard|school=n",
+								"count": 1
+							}
+						],
+						"15": [
+							{
+								"choose": "level=0;1;2;3;4;5;6;7;8|class=wizard|school=n",
+								"count": 1
+							}
+						],
+						"17": [
+							{
+								"choose": "level=0;1;2;3;4;5;6;7;8;9|class=wizard|school=n",
+								"count": 1
+							}
+						]
+					},
+					"prepared": {
+						"3": [
+							"Find Familiar|XPHB"
+						],
+						"6": {
+							"daily": {
+								"1e": [
+									"Animate Dead|XPHB"
+								]
+							}
+						}
+					}
+				}
+			],
+			"subclassSpells": [
+				"Animate Dead|XPHB",
+				"Find Familiar|XPHB"
+			],
+			"subclassFeatures": [
+				"Necromancer|Wizard|XPHB|Necromancer|XUA2025ArcaneUpdates|3|XUA2025ArcaneUpdates",
+				"Grave Power|Wizard|XPHB|Necromancer|XUA2025ArcaneSubclasses|6|XUA2025ArcaneSubclasses",
+				"Undead Thralls|Wizard|XPHB|Necromancer|XUA2025ArcaneUpdates|6|XUA2025ArcaneUpdates",
+				"Harvest Undead|Wizard|XPHB|Necromancer|XUA2025ArcaneUpdates|10|XUA2025ArcaneUpdates",
+				"Death's Master|Wizard|XPHB|Necromancer|XUA2025ArcaneUpdates|14|XUA2025ArcaneUpdates"
+			],
+			"hasFluff": true
+		},
+		{
+			"name": "Tattooed Warrior",
+			"shortName": "Tattooed Warrior",
+			"source": "XUA2025ArcaneUpdates",
+			"className": "Monk",
+			"classSource": "XPHB",
+			"page": 4,
+			"subclassFeatures": [
+				"Tattooed Warrior|Monk|XPHB|Tattooed Warrior|XUA2025ArcaneUpdates|3|XUA2025ArcaneUpdates",
+				"Celestial Tattoo|Monk|XPHB|Tattooed Warrior|XUA2025ArcaneUpdates|6|XUA2025ArcaneUpdates",
+				"Nature Tattoo|Monk|XPHB|Tattooed Warrior|XUA2025ArcaneUpdates|11|XUA2025ArcaneUpdates",
+				"Monster Tattoo|Monk|XPHB|Tattooed Warrior|XUA2025ArcaneUpdates|17|XUA2025ArcaneUpdates"
+			],
+			"hasFluff": true
+		},
+		{
+			"name": "Transmuter",
+			"shortName": "Transmuter",
+			"source": "XUA2025ArcaneUpdates",
+			"className": "Wizard",
+			"classSource": "XPHB",
+			"page": 9,
+			"additionalSpells": [
+				{
+					"known": {
+						"3": [
+							{
+								"choose": "level=0;1;2|class=wizard|school=t",
+								"count": 2
+							}
+						],
+						"5": [
+							{
+								"choose": "level=0;1;2;3|class=wizard|school=t",
+								"count": 1
+							}
+						],
+						"7": [
+							{
+								"choose": "level=0;1;2;3;4|class=wizard|school=t",
+								"count": 1
+							}
+						],
+						"9": [
+							{
+								"choose": "level=0;1;2;3;4;5|class=wizard|school=t",
+								"count": 1
+							}
+						],
+						"11": [
+							{
+								"choose": "level=0;1;2;3;4;5;6|class=wizard|school=t",
+								"count": 1
+							}
+						],
+						"13": [
+							{
+								"choose": "level=0;1;2;3;4;5;6;7|class=wizard|school=t",
+								"count": 1
+							}
+						],
+						"15": [
+							{
+								"choose": "level=0;1;2;3;4;5;6;7;8|class=wizard|school=t",
+								"count": 1
+							}
+						],
+						"17": [
+							{
+								"choose": "level=0;1;2;3;4;5;6;7;8;9|class=wizard|school=t",
+								"count": 1
+							}
+						]
+					},
+					"prepared": {
+						"3": {
+							"daily": {
+								"1e": [
+									"Alter Self|XPHB"
+								]
+							}
+						},
+						"10": {
+							"daily": {
+								"1e": [
+									"Polymorph|XPHB"
+								]
+							}
+						},
+						"14": {
+							"daily": {
+								"1e": [
+									"Raise Dead|XPHB"
+								]
+							}
+						}
+					}
+				}
+			],
+			"subclassSpells": [
+				"Alter Self|XPHB",
+				"Polymorph|XPHB",
+				"Raise Dead|XPHB"
+			],
+			"subclassFeatures": [
+				"Transmuter|Wizard|XPHB|Transmuter|XUA2025ArcaneUpdates|3|XUA2025ArcaneUpdates",
+				"Empowered Transmutation|Wizard|XPHB|Transmuter|XUA2025ArcaneUpdates|6|XUA2025ArcaneUpdates",
+				"Potent Stone|Wizard|XPHB|Transmuter|XUA2025ArcaneUpdates|10|XUA2025ArcaneUpdates",
+				"Shapechanger|Wizard|XPHB|Transmuter|XUA2025ArcaneUpdates|10|XUA2025ArcaneUpdates",
+				"Master Transmuter|Wizard|XPHB|Transmuter|XUA2025ArcaneUpdates|14|XUA2025ArcaneUpdates"
+			],
+			"hasFluff": true
+		}
+	],
+	"foundrySubclass": [
+		{
+			"name": "Arcane Archer",
+			"shortName": "Arcane Archer",
+			"source": "XUA2025ArcaneUpdates",
+			"className": "Fighter",
+			"classSource": "XPHB",
+			"advancement": [
+				{
+					"type": "ScaleValue",
+					"configuration": {
+						"identifier": "die",
+						"type": "dice",
+						"scale": {
+							"3": {
+								"faces": 6,
+								"number": 1
+							},
+							"10": {
+								"faces": 8,
+								"number": 1
+							},
+							"15": {
+								"faces": 10,
+								"number": 1
+							},
+							"18": {
+								"faces": 12,
+								"number": 1
+							}
+						}
+					},
+					"title": "Arcane Shot Die"
+				}
+			]
+		}
+	],
+	"subclassFluff": [
+		{
+			"name": "Arcane Archer",
+			"shortName": "Arcane Archer",
+			"source": "XUA2025ArcaneUpdates",
+			"className": "Fighter",
+			"classSource": "XPHB",
+			"entries": [
+				"{@i Deploy Magical Effects through Enchanted Ammunition}",
+				{
+					"type": "inset",
+					"name": "Design Note: Arcane Archer Updates",
+					"page": 1,
+					"entries": [
+						"Here are the main updates in this subclass since its appearance in {@class Fighter|XPHB|Unearthed Arcana|Arcane Archer|XUA2025ArcaneSubclasses}:",
+						{
+							"type": "list",
+							"page": 1,
+							"items": [
+								{
+									"type": "item",
+									"name": "Curving Shot",
+									"nameDot": false,
+									"entries": [
+										"has been revised to use the same ammunition but a new attack roll."
+									]
+								},
+								{
+									"type": "item",
+									"name": "Magical Ammunition",
+									"nameDot": false,
+									"entries": [
+										"is a new feature that grants magical effects to your ammunition that can be used outside of combat."
+									]
+								},
+								{
+									"type": "item",
+									"name": "Ever-Ready Shot",
+									"nameDot": false,
+									"entries": [
+										"is now available at a later level but always regains one expended Arcane Shot Die."
+									]
+								},
+								{
+									"type": "item",
+									"name": "Arcane Burst",
+									"nameDot": false,
+									"entries": [
+										"is a new feature that grants an additional effect to {@classFeature Indomitable|Fighter|XPHB|9|XPHB}."
+									]
+								},
+								{
+									"type": "item",
+									"name": "Masterful Shots",
+									"nameDot": false,
+									"entries": [
+										"has been redesigned and now allows you to reposition and attack."
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Tattooed Warrior",
+			"shortName": "Tattooed Warrior",
+			"source": "XUA2025ArcaneUpdates",
+			"className": "Monk",
+			"classSource": "XPHB",
+			"entries": [
+				"{@i Enhance Martial Arts with Your Magic Tattoos}",
+				{
+					"type": "inset",
+					"name": "Design Note: Tattooed Warrior Updates",
+					"page": 1,
+					"entries": [
+						"Here are the main updates in this subclass since its last appearance in {@class Monk|XPHB|Unearthed Arcana|Tattooed Warrior|XUA2025ArcaneSubclasses}:",
+						{
+							"type": "list",
+							"page": 1,
+							"items": [
+								"The Tattooed Warrior has been redesigned. With some exceptions, the tattoos now focus on additional abilities instead of spells.",
+								{
+									"type": "item",
+									"name": "Beast Tattoos",
+									"nameDot": false,
+									"entries": [
+										"still grant a cantrip, but now each option provides a benefit that isn't tied to a level 1 spell."
+									]
+								},
+								{
+									"type": "item",
+									"name": "Celestial Tattoo",
+									"nameDot": false,
+									"entries": [
+										"has been redesigned to provide uses of Focus Points outside of combat."
+									]
+								},
+								{
+									"type": "item",
+									"name": "Nature Tattoo",
+									"nameDot": false,
+									"entries": [
+										"has been condensed to provide Damage {@variantrule Resistance|XPHB} to a small suite of choices that can change."
+									]
+								},
+								{
+									"type": "item",
+									"name": "Monster Tattoos",
+									"nameDot": false,
+									"entries": [
+										"has been redesigned with new options."
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	],
+	"subclassFeature": [
+		{
+			"name": "Arcane Archer",
+			"source": "XUA2025ArcaneUpdates",
+			"page": 2,
+			"className": "Fighter",
+			"classSource": "XPHB",
+			"subclassShortName": "Arcane Archer",
+			"subclassSource": "XUA2025ArcaneUpdates",
+			"level": 3,
+			"header": 1,
+			"entries": [
+				"An Arcane Archer studies a unique elven method of archery that weaves magic into attacks to produce supernatural effects. The first Arcane Archers stood watch over their communities and used magic-infused arrows to defeat monsters and invaders. Over the centuries, other species have learned this method of blending magical aptitude with archery. These archers have broadened this method's application to ranged weapons of many kinds and to aspects of adventuring life outside of combat.",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Arcane Archer Lore|Fighter|XPHB|Arcane Archer|XUA2025ArcaneSubclasses|3|XUA2025ArcaneSubclasses"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Arcane Shot|Fighter|XPHB|Arcane Archer|XUA2025ArcaneUpdates|3|XUA2025ArcaneUpdates"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Arcane Shot Options|Fighter|XPHB|Arcane Archer|XUA2025ArcaneUpdates|3|XUA2025ArcaneUpdates"
+				}
+			]
+		},
+		{
+			"name": "Arcane Shot",
+			"source": "XUA2025ArcaneUpdates",
+			"page": 2,
+			"className": "Fighter",
+			"classSource": "XPHB",
+			"subclassShortName": "Arcane Archer",
+			"subclassSource": "XUA2025ArcaneUpdates",
+			"level": 3,
+			"header": 2,
+			"entries": [
+				"You learn to unleash special magical effects with your shots.",
+				{
+					"type": "entries",
+					"name": "Arcane Shot Options",
+					"page": 2,
+					"entries": [
+						"You learn two Arcane Shot options of your choice from the \"{@subclassFeature Arcane Shot Options|Fighter|XPHB|Arcane Archer|XUA2025ArcaneUpdates|3|XUA2025ArcaneUpdates}\" section later in this subclass's description.",
+						"You learn an additional Arcane Shot option of your choice when you reach Fighter levels 7, 10, 15, and 18. Each time you learn a new Arcane Shot option, you can also replace one option you know with a different one."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Using Arcane Shot",
+					"page": 3,
+					"entries": [
+						"Once per turn when you make a ranged attack using a weapon with the {@itemProperty A|XPHB|Ammunition} property, you can apply one of your Arcane Shot options to that attack. You decide to use the option when you hit a creature and deal damage to it unless the option doesn't involve an attack roll.",
+						"You can use this feature a number of times equal to your Intelligence modifier (minimum of once). You regain all expended uses when you finish a {@variantrule Short Rest|XPHB|Short} or {@variantrule Long Rest|XPHB}."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Arcane Shot Die",
+					"page": 3,
+					"entries": [
+						"Arcane Shot options refer to your Arcane Shot Die. Your Arcane Shot Die is a {@dice d6}."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Saving Throws",
+					"page": 3,
+					"entries": [
+						"If an Arcane Shot option requires a saving throw, the DC equals 8 plus your Intelligence modifier plus your {@variantrule Proficiency|XPHB|Proficiency Bonus}."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "At Higher Levels",
+					"page": 3,
+					"entries": [
+						"Your Arcane Shot Die changes when you reach certain {@class Fighter|XPHB} levels. The die becomes a {@dice d8} at level 10, a {@dice d10} at level 15, and a {@dice d12} at level 18."
+					]
+				}
+			]
+		},
+		{
+			"name": "Arcane Shot Options",
+			"source": "XUA2025ArcaneUpdates",
+			"page": 3,
+			"className": "Fighter",
+			"classSource": "XPHB",
+			"subclassShortName": "Arcane Archer",
+			"subclassSource": "XUA2025ArcaneUpdates",
+			"level": 3,
+			"header": 2,
+			"entries": [
+				"The Arcane Shot options are presented here in alphabetical order.",
+				{
+					"type": "options",
+					"entries": [
+						{
+							"type": "refOptionalfeature",
+							"optionalfeature": "Banishing Shot|XUA2025ArcaneUpdates"
+						},
+						{
+							"type": "refOptionalfeature",
+							"optionalfeature": "Beguiling Shot|XUA2025ArcaneUpdates"
+						},
+						{
+							"type": "refOptionalfeature",
+							"optionalfeature": "Bursting Shot|XUA2025ArcaneSubclasses"
+						},
+						{
+							"type": "refOptionalfeature",
+							"optionalfeature": "Enfeebling Shot|XUA2025ArcaneSubclasses"
+						},
+						{
+							"type": "refOptionalfeature",
+							"optionalfeature": "Grasping Shot|XUA2025ArcaneUpdates"
+						},
+						{
+							"type": "refOptionalfeature",
+							"optionalfeature": "Piercing Shot|XUA2025ArcaneSubclasses"
+						},
+						{
+							"type": "refOptionalfeature",
+							"optionalfeature": "Seeking Shot|XUA2025ArcaneUpdates"
+						},
+						{
+							"type": "refOptionalfeature",
+							"optionalfeature": "Shadow Shot|XUA2025ArcaneUpdates"
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Curving Shot",
+			"source": "XUA2025ArcaneUpdates",
+			"page": 2,
+			"className": "Fighter",
+			"classSource": "XPHB",
+			"subclassShortName": "Arcane Archer",
+			"subclassSource": "XUA2025ArcaneUpdates",
+			"level": 7,
+			"header": 2,
+			"entries": [
+				"You learn how to direct an errant shot toward a new target. If you make an attack roll with a weapon with the {@itemProperty A|XPHB|Ammunition} property and miss, you can cause the shot to ricochet toward a new target as a {@variantrule Bonus Action|XPHB} immediately after the attack misses. The new target must be a creature you can see within the weapon's range and within 60 feet of the attack's original target. Make an attack roll against the new target."
+			]
+		},
+		{
+			"name": "Magical Ammunition",
+			"source": "XUA2025ArcaneUpdates",
+			"page": 2,
+			"className": "Fighter",
+			"classSource": "XPHB",
+			"subclassShortName": "Arcane Archer",
+			"subclassSource": "XUA2025ArcaneUpdates",
+			"level": 7,
+			"header": 2,
+			"entries": [
+				"You learn to imbue your ammunition with magical properties. As a {@action Magic|XPHB} action, you can imbue a piece of nonmagical ammunition with one of the following magical properties and fire it at a solid surface you can see within the weapon's range. On a hit, the ammunition's effect activates, and the ammunition attaches to the surface it hit for the duration of the effect; when the effect ends, the ammunition is destroyed.",
+				"Once you use this feature, you can't do so again until you finish a {@variantrule Short Rest|XPHB|Short} or {@variantrule Long Rest|XPHB}. You can also restore your use of this feature by expending a use of your {@classFeature Second Wind|Fighter|XPHB|1|XPHB} (no action required).",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Darkening Shot|Fighter|XPHB|Arcane Archer|XUA2025ArcaneUpdates|7|XUA2025ArcaneUpdates"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Unlocking Shot|Fighter|XPHB|Arcane Archer|XUA2025ArcaneUpdates|7|XUA2025ArcaneUpdates"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Vine Shot|Fighter|XPHB|Arcane Archer|XUA2025ArcaneUpdates|7|XUA2025ArcaneUpdates"
+				}
+			]
+		},
+		{
+			"name": "Darkening Shot",
+			"source": "XUA2025ArcaneUpdates",
+			"page": 2,
+			"className": "Fighter",
+			"classSource": "XPHB",
+			"subclassShortName": "Arcane Archer",
+			"subclassSource": "XUA2025ArcaneUpdates",
+			"level": 7,
+			"header": 3,
+			"entries": [
+				"Magical shadows fill a 15-foot {@variantrule Emanation [Area of Effect]|XPHB|Emanation} originating from the ammunition for 1 minute. Nonmagical flames in the {@variantrule Emanation [Area of Effect]|XPHB|Emanation} are extinguished, and creatures in the {@variantrule Emanation [Area of Effect]|XPHB|Emanation} have a \u22125 penalty to Wisdom ({@skill Perception|XPHB}) checks and {@variantrule Passive Perception|XPHB}."
+			]
+		},
+		{
+			"name": "Unlocking Shot",
+			"source": "XUA2025ArcaneUpdates",
+			"page": 2,
+			"className": "Fighter",
+			"classSource": "XPHB",
+			"subclassShortName": "Arcane Archer",
+			"subclassSource": "XUA2025ArcaneUpdates",
+			"level": 7,
+			"header": 3,
+			"entries": [
+				"A burst of magic fills a 15-foot {@variantrule Emanation [Area of Effect]|XPHB|Emanation} originating from the ammunition. A loud knock, audible up to 300 feet away, also emits from the ammunition. Any object in the {@variantrule Emanation [Area of Effect]|XPHB|Emanation} that is held shut by a mundane lock or that is stuck or barred becomes unlocked, unstuck, or unbarred. If the object has multiple locks, only one of them is unlocked."
+			]
+		},
+		{
+			"name": "Vine Shot",
+			"source": "XUA2025ArcaneUpdates",
+			"page": 2,
+			"className": "Fighter",
+			"classSource": "XPHB",
+			"subclassShortName": "Arcane Archer",
+			"subclassSource": "XUA2025ArcaneUpdates",
+			"level": 7,
+			"header": 3,
+			"entries": [
+				"A 60-foot-long vine grows from the ammunition. You and other creatures can then climb it. The vine withers away after 10 minutes."
+			]
+		},
+		{
+			"name": "Ever-Ready Shot",
+			"source": "XUA2025ArcaneUpdates",
+			"page": 2,
+			"className": "Fighter",
+			"classSource": "XPHB",
+			"subclassShortName": "Arcane Archer",
+			"subclassSource": "XUA2025ArcaneUpdates",
+			"level": 10,
+			"header": 2,
+			"entries": [
+				"When you roll {@variantrule Initiative|XPHB}, you can regain one expended use of Arcane Shot."
+			]
+		},
+		{
+			"name": "Arcane Burst",
+			"source": "XUA2025ArcaneUpdates",
+			"page": 2,
+			"className": "Fighter",
+			"classSource": "XPHB",
+			"subclassShortName": "Arcane Archer",
+			"subclassSource": "XUA2025ArcaneUpdates",
+			"level": 15,
+			"header": 2,
+			"entries": [
+				"You can push creatures away from you with your arcane mastery. When you use {@classFeature Indomitable|Fighter|XPHB|9|XPHB}, each creature of your choice in a 10-foot {@variantrule Emanation [Area of Effect]|XPHB|Emanation} originating from you must succeed on a Strength saving throw against your Arcane Shot DC or be pushed up to 20 feet straight away from you."
+			]
+		},
+		{
+			"name": "Masterful Shots",
+			"source": "XUA2025ArcaneUpdates",
+			"page": 3,
+			"className": "Fighter",
+			"classSource": "XPHB",
+			"subclassShortName": "Arcane Archer",
+			"subclassSource": "XUA2025ArcaneUpdates",
+			"level": 18,
+			"header": 2,
+			"entries": [
+				"You employ agility in your sharpshooting When a creature you can see misses you with an attack roll, you can take a {@variantrule Reaction|XPHB} to move up to half your {@variantrule Speed|XPHB} away from the attacker without provoking {@action Opportunity Attack|XPHB|Opportunity Attacks}. You can then make a ranged attack roll against the attacker as part of this {@variantrule Reaction|XPHB} if the attacker is within the weapon's range."
+			]
+		},
+		{
+			"name": "Tattooed Warrior",
+			"source": "XUA2025ArcaneUpdates",
+			"page": 4,
+			"className": "Monk",
+			"classSource": "XPHB",
+			"subclassShortName": "Tattooed Warrior",
+			"subclassSource": "XUA2025ArcaneUpdates",
+			"level": 3,
+			"header": 1,
+			"entries": [
+				"Drawing from body-marking traditions from across the multiverse, Tattooed Warriors can use arcane power imbued in their magic tattoos. These Monks gain tattoos as they grow in martial prowess and insight. Tattooed Warriors can reshape their tattoos to access a suite of physical and magical effects.",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Magic Tattoos|Monk|XPHB|Tattooed Warrior|XUA2025ArcaneUpdates|3|XUA2025ArcaneUpdates"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Beast Tattoos|Monk|XPHB|Tattooed Warrior|XUA2025ArcaneUpdates|3|XUA2025ArcaneUpdates"
+				}
+			]
+		},
+		{
+			"name": "Beast Tattoos",
+			"source": "XUA2025ArcaneUpdates",
+			"page": 4,
+			"className": "Monk",
+			"classSource": "XPHB",
+			"subclassShortName": "Tattooed Warrior",
+			"subclassSource": "XUA2025ArcaneUpdates",
+			"level": 3,
+			"header": 2,
+			"entries": [
+				"You gain two animal tattoos. Choose two tattoos from the following options.",
+				{
+					"type": "options",
+					"count": 2,
+					"entries": [
+						{
+							"type": "refOptionalfeature",
+							"optionalfeature": "Bat|XUA2025ArcaneUpdates"
+						},
+						{
+							"type": "refOptionalfeature",
+							"optionalfeature": "Butterfly|XUA2025ArcaneUpdates"
+						},
+						{
+							"type": "refOptionalfeature",
+							"optionalfeature": "Crane|XUA2025ArcaneUpdates"
+						},
+						{
+							"type": "refOptionalfeature",
+							"optionalfeature": "Horse|XUA2025ArcaneUpdates"
+						},
+						{
+							"type": "refOptionalfeature",
+							"optionalfeature": "Tortoise|XUA2025ArcaneUpdates"
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Magic Tattoos",
+			"source": "XUA2025ArcaneUpdates",
+			"page": 4,
+			"className": "Monk",
+			"classSource": "XPHB",
+			"subclassShortName": "Tattooed Warrior",
+			"subclassSource": "XUA2025ArcaneUpdates",
+			"level": 3,
+			"header": 2,
+			"entries": [
+				"You gain the magic tattoos described by other features of this subclass. The tattoos appear on your body wherever you wish. Damage or injury doesn't impair your magic tattoos' function. A magic tattoo can look like a brand, scarification, a birthmark, patterns of scales, or any other cosmetic alteration.",
+				"If a tattoo's effect requires a saving throw, the DC equals 8 plus your Wisdom modifier plus your {@variantrule Proficiency|XPHB|Proficiency Bonus}. Your spellcasting ability for spells granted by a tattoo is Wisdom.",
+				"Whenever you finish a {@variantrule Long Rest|XPHB}, you can reshape one of your magic tattoos, changing the option you chose from one list to another option on the same list."
+			]
+		},
+		{
+			"name": "Celestial Tattoo",
+			"source": "XUA2025ArcaneUpdates",
+			"page": 4,
+			"className": "Monk",
+			"classSource": "XPHB",
+			"subclassShortName": "Tattooed Warrior",
+			"subclassSource": "XUA2025ArcaneUpdates",
+			"level": 6,
+			"header": 2,
+			"entries": [
+				"You gain an additional magic tattoo depicting a celestial phenomenon. Choose a tattoo from the following options.",
+				{
+					"type": "options",
+					"count": 1,
+					"entries": [
+						{
+							"type": "refOptionalfeature",
+							"optionalfeature": "Comet|XUA2025ArcaneUpdates"
+						},
+						{
+							"type": "refOptionalfeature",
+							"optionalfeature": "Eclipse|XUA2025ArcaneUpdates"
+						},
+						{
+							"type": "refOptionalfeature",
+							"optionalfeature": "Sunburst|XUA2025ArcaneUpdates"
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Nature Tattoo",
+			"source": "XUA2025ArcaneUpdates",
+			"page": 4,
+			"className": "Monk",
+			"classSource": "XPHB",
+			"subclassShortName": "Tattooed Warrior",
+			"subclassSource": "XUA2025ArcaneUpdates",
+			"level": 11,
+			"header": 2,
+			"entries": [
+				"You gain an additional magic tattoo depicting a natural feature. Choose a tattoo from the following options.",
+				{
+					"type": "options",
+					"count": 1,
+					"entries": [
+						{
+							"type": "refOptionalfeature",
+							"optionalfeature": "Sea Storm|XUA2025ArcaneUpdates"
+						},
+						{
+							"type": "refOptionalfeature",
+							"optionalfeature": "Volcano|XUA2025ArcaneUpdates"
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Monster Tattoo",
+			"source": "XUA2025ArcaneUpdates",
+			"page": 5,
+			"className": "Monk",
+			"classSource": "XPHB",
+			"subclassShortName": "Tattooed Warrior",
+			"subclassSource": "XUA2025ArcaneUpdates",
+			"level": 17,
+			"header": 2,
+			"entries": [
+				"You gain a magic tattoo depicting a mighty creature. Choose a tattoo from the following options.",
+				{
+					"type": "options",
+					"count": 1,
+					"entries": [
+						{
+							"type": "refOptionalfeature",
+							"optionalfeature": "Beholder|XUA2025ArcaneUpdates"
+						},
+						{
+							"type": "refOptionalfeature",
+							"optionalfeature": "Chromatic Dragon|XUA2025ArcaneUpdates"
+						},
+						{
+							"type": "refOptionalfeature",
+							"optionalfeature": "Displacer Beast|XUA2025ArcaneUpdates"
+						},
+						{
+							"type": "refOptionalfeature",
+							"optionalfeature": "Troll|XUA2025ArcaneUpdates"
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Conjurer",
+			"source": "XUA2025ArcaneUpdates",
+			"page": 5,
+			"className": "Wizard",
+			"classSource": "XPHB",
+			"subclassShortName": "Conjurer",
+			"subclassSource": "XUA2025ArcaneUpdates",
+			"level": 3,
+			"header": 1,
+			"entries": [
+				"You consider distance and matter to be flexible guidelines rather than physical laws. Conjurers harness the power of magic that moves creatures instantly through space and summons creatures to fight on their behalf.",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Benign Transposition|Wizard|XPHB|Conjurer|XUA2025ArcaneUpdates|3|XUA2025ArcaneUpdates"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Conjuration Savant|Wizard|XPHB|Conjurer|XUA2025ArcaneSubclasses|3|XUA2025ArcaneSubclasses"
+				}
+			]
+		},
+		{
+			"name": "Benign Transposition",
+			"source": "XUA2025ArcaneUpdates",
+			"page": 5,
+			"className": "Wizard",
+			"classSource": "XPHB",
+			"subclassShortName": "Conjurer",
+			"subclassSource": "XUA2025ArcaneUpdates",
+			"level": 3,
+			"header": 2,
+			"entries": [
+				"As a {@variantrule Bonus Action|XPHB}, you teleport up to 30 feet to an unoccupied space that you can see. Alternatively, you can choose a space within range that is occupied by a Medium or smaller creature. If that creature is willing, you both teleport, swapping places.",
+				"You can use this feature a number of times equal to your Intelligence modifier (minimum of once), and you regain all expended uses when you finish a {@variantrule Long Rest|XPHB}."
+			]
+		},
+		{
+			"name": "Distant Transposition",
+			"source": "XUA2025ArcaneUpdates",
+			"page": 5,
+			"className": "Wizard",
+			"classSource": "XPHB",
+			"subclassShortName": "Conjurer",
+			"subclassSource": "XUA2025ArcaneUpdates",
+			"level": 6,
+			"header": 2,
+			"entries": [
+				"The range of your {@subclassFeature Benign Transposition|Wizard|XPHB|Conjurer|XUA2025ArcaneUpdates|3|XUA2025ArcaneUpdates} feature increases to 60 feet. Additionally, you now regain all expended uses of it when you finish a {@variantrule Short Rest|XPHB|Short} or {@variantrule Long Rest|XPHB}."
+			]
+		},
+		{
+			"name": "Durable Summons",
+			"source": "XUA2025ArcaneUpdates",
+			"page": 6,
+			"className": "Wizard",
+			"classSource": "XPHB",
+			"subclassShortName": "Conjurer",
+			"subclassSource": "XUA2025ArcaneUpdates",
+			"level": 6,
+			"header": 2,
+			"entries": [
+				"When you cast a Conjuration spell to summon or create a creature using a spell slot, that creature gains {@variantrule Temporary Hit Points|XPHB} equal to twice your Wizard level when it first appears. While it has these {@variantrule Temporary Hit Points|XPHB}, the creature has {@variantrule Resistance|XPHB} to every damage type except Force, Necrotic, Psychic, and Radiant."
+			]
+		},
+		{
+			"name": "Splintered Summons",
+			"source": "XUA2025ArcaneUpdates",
+			"page": 6,
+			"className": "Wizard",
+			"classSource": "XPHB",
+			"subclassShortName": "Conjurer",
+			"subclassSource": "XUA2025ArcaneUpdates",
+			"level": 14,
+			"header": 2,
+			"entries": [
+				"When you cast {@spell Summon Aberration|XPHB}, {@spell Summon Construct|XPHB}, {@spell Summon Dragon|XPHB}, {@spell Summon Elemental|XPHB}, or {@spell Summon Fey|XPHB} using a spell slot, you can modify the spell to summon two creatures with the spell instead of one. Each creature is of the same kind, uses the stat block and rules denoted by the spell, and manifests in a different unoccupied space of your choice within the spell's range, but the summoned creatures' {@variantrule Hit Points|XPHB} are halved. If you lose {@status Concentration|XPHB} on the spell, both creatures disappear.",
+				"Once you use this feature to modify a spell in this way, you must finish a {@variantrule Long Rest|XPHB} before you do so again. You can also restore your use of it by expending a level 5+ spell slot (no action required)."
+			]
+		},
+		{
+			"name": "Enchanter",
+			"source": "XUA2025ArcaneUpdates",
+			"page": 6,
+			"className": "Wizard",
+			"classSource": "XPHB",
+			"subclassShortName": "Enchanter",
+			"subclassSource": "XUA2025ArcaneUpdates",
+			"level": 3,
+			"header": 1,
+			"entries": [
+				"Your magic clouds or captivates minds. Some Enchanters use their abilities to encourage peace and soften cruelty, while others use their mind-altering magic for selfish ends. Many Enchanters fall somewhere in between.",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Enchanting Conversationalist|Wizard|XPHB|Enchanter|XUA2025ArcaneUpdates|3|XUA2025ArcaneUpdates"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Enchantment Savant|Wizard|XPHB|Enchanter|XUA2025ArcaneSubclasses|3|XUA2025ArcaneSubclasses"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Hypnotic Presence|Wizard|XPHB|Enchanter|XUA2025ArcaneUpdates|3|XUA2025ArcaneUpdates"
+				}
+			]
+		},
+		{
+			"name": "Enchanting Conversationalist",
+			"source": "XUA2025ArcaneUpdates",
+			"page": 6,
+			"className": "Wizard",
+			"classSource": "XPHB",
+			"subclassShortName": "Enchanter",
+			"subclassSource": "XUA2025ArcaneUpdates",
+			"level": 3,
+			"header": 2,
+			"entries": [
+				"You gain proficiency in one of the following skills of your choice:  {@skill Deception}, {@skill Intimidation}, or {@skill Persuasion}.",
+				"In addition, when you make an ability check with the chosen skill, you gain a bonus to the check equal to your Intelligence modifier (minimum of +1)."
+			]
+		},
+		{
+			"name": "Hypnotic Presence",
+			"source": "XUA2025ArcaneUpdates",
+			"page": 6,
+			"className": "Wizard",
+			"classSource": "XPHB",
+			"subclassShortName": "Enchanter",
+			"subclassSource": "XUA2025ArcaneUpdates",
+			"level": 3,
+			"header": 2,
+			"entries": [
+				"Your charming words and enchanting gaze can enthrall another creature. As a {@action Magic|XPHB} action, choose one creature that you can see within 10 feet of yourself. If the target can see or hear you, it must succeed on a Wisdom saving throw against your spell save DC or have the {@condition Charmed|XPHB} condition for 1 minute or until your {@status Concentration|XPHB} ends, the target is more than 10 feet away from you, the target can neither see nor hear you, or the target takes damage. While {@condition Charmed|XPHB} in this way, the target has the {@condition Incapacitated|XPHB} condition and a {@variantrule Speed|XPHB} of 0.",
+				"Once you use this feature, you can't do so again until you finish a {@variantrule Long Rest|XPHB}. You can also restore your use of it by expending a level 1+ spell slot (no action required)."
+			]
+		},
+		{
+			"name": "Split Enchantment",
+			"source": "XUA2025ArcaneUpdates",
+			"page": 7,
+			"className": "Wizard",
+			"classSource": "XPHB",
+			"subclassShortName": "Enchanter",
+			"subclassSource": "XUA2025ArcaneUpdates",
+			"level": 6,
+			"header": 2,
+			"entries": [
+				"When you cast an Enchantment spell, such as {@spell Charm Person|XPHB}, that can be cast with a higher-level spell slot to target an additional creature, increase the spell's effective level by 1.",
+				"You can use this feature a number of times equal to your Intelligence modifier and regain all expended uses when you finish a {@variantrule Long Rest|XPHB}."
+			]
+		},
+		{
+			"name": "Instinctive Charm",
+			"source": "XUA2025ArcaneUpdates",
+			"page": 7,
+			"className": "Wizard",
+			"classSource": "XPHB",
+			"subclassShortName": "Enchanter",
+			"subclassSource": "XUA2025ArcaneUpdates",
+			"level": 10,
+			"header": 2,
+			"entries": [
+				"When a creature within 30 feet of you that you can see hits you with an attack roll, you can take a {@variantrule Reaction|XPHB} to force the attacker to make a Wisdom saving throw against your spell save DC. On a failed save, the attack misses instead, and if there is another creature within range of the attack other than the attacker, the attacker targets that creature with the triggering attack, using the same attack roll. If multiple creatures are within the attack's range, you choose which one to target.",
+				"Once you use this {@variantrule Reaction|XPHB}, you can't do so again until you finish a {@variantrule Long Rest|XPHB}. You can also restore your use of it by casting an Enchantment spell with a spell slot."
+			]
+		},
+		{
+			"name": "Alter Memories",
+			"source": "XUA2025ArcaneUpdates",
+			"page": 7,
+			"className": "Wizard",
+			"classSource": "XPHB",
+			"subclassShortName": "Enchanter",
+			"subclassSource": "XUA2025ArcaneUpdates",
+			"level": 14,
+			"header": 2,
+			"entries": [
+				"You can reliably enchant creatures and alter their memories. You always have the {@spell Modify Memory|XPHB} spell prepared. When you cast the spell, you can target a second creature with it if that creature is within range of the spell."
+			]
+		},
+		{
+			"name": "Necromancer",
+			"source": "XUA2025ArcaneUpdates",
+			"page": 7,
+			"className": "Wizard",
+			"classSource": "XPHB",
+			"subclassShortName": "Necromancer",
+			"subclassSource": "XUA2025ArcaneUpdates",
+			"level": 3,
+			"header": 1,
+			"entries": [
+				"You explore the cosmic forces of life, death, and undeath. As a Necromancer, you learn to manipulate the energy that animates all creatures. As you progress, you learn to use magic to drain the life force from a creature and transform its vital energy into magical power. Many see Necromancers as menacing or villainous, though not all Necromancers are evil. Nevertheless, the manipulation of life and death is considered taboo in many societies.",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Necromancy Savant|Wizard|XPHB|Necromancer|XUA2025ArcaneSubclasses|3|XUA2025ArcaneSubclasses"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Necromancy Spellbook|Wizard|XPHB|Necromancer|XUA2025ArcaneUpdates|3|XUA2025ArcaneUpdates"
+				}
+			]
+		},
+		{
+			"name": "Necromancy Spellbook",
+			"source": "XUA2025ArcaneUpdates",
+			"page": 8,
+			"className": "Wizard",
+			"classSource": "XPHB",
+			"subclassShortName": "Necromancer",
+			"subclassSource": "XUA2025ArcaneUpdates",
+			"level": 3,
+			"header": 2,
+			"entries": [
+				"The necromantic secrets in your spellbook grant you additional powers. You gain the following benefits.",
+				{
+					"type": "entries",
+					"name": "Necrotic Resistance",
+					"page": 8,
+					"entries": [
+						"You have {@variantrule Resistance|XPHB} to Necrotic damage."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Grim Harvest",
+					"page": 8,
+					"entries": [
+						"When you cast a Necromancy spell using a spell slot, you can choose an Undead creature you can see within 60 feet of yourself to regain a number of {@variantrule Hit Points|XPHB} equal to the level of the spell slot expended plus your Wizard level."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Undead Familiar",
+					"page": 8,
+					"entries": [
+						"The {@spell Find Familiar|XPHB} spell appears in your spellbook. When you cast the spell, you choose one of the normal forms for your familiar or one of the following special forms: {@creature Skeleton|XMM} or {@creature Zombie|XMM} (see {@book appendix B|XPHB|9} of the {@book Player's Handbook|XPHB} for the familiar's stat block)."
+					]
+				}
+			]
+		},
+		{
+			"name": "Undead Thralls",
+			"source": "XUA2025ArcaneUpdates",
+			"page": 8,
+			"className": "Wizard",
+			"classSource": "XPHB",
+			"subclassShortName": "Necromancer",
+			"subclassSource": "XUA2025ArcaneUpdates",
+			"level": 6,
+			"header": 2,
+			"entries": [
+				"You always have {@spell Animate Dead|XPHB} prepared and can cast it once without expending a spell slot. Whenever you start casting the spell, you can modify it so that the spell's effective level is increased by 1.",
+				"In addition, whenever you cast a Necromancy spell using a spell slot that creates or summons an Undead, the Undead gains the benefits below.",
+				{
+					"type": "entries",
+					"name": "Undead Fortitude",
+					"page": 8,
+					"entries": [
+						"The Undead's Hit Point maximum and current {@variantrule Hit points|XPHB} increase by a number equal to the level of the spell slot used plus your Intelligence modifier for the duration of the spell."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Withering Strike",
+					"page": 8,
+					"entries": [
+						"Whenever the Undead hits a creature with an attack roll, the Undead deals extra Necrotic damage equal to your Intelligence modifier (minimum of 1 Necrotic damage)."
+					]
+				}
+			]
+		},
+		{
+			"name": "Harvest Undead",
+			"source": "XUA2025ArcaneUpdates",
+			"page": 8,
+			"className": "Wizard",
+			"classSource": "XPHB",
+			"subclassShortName": "Necromancer",
+			"subclassSource": "XUA2025ArcaneUpdates",
+			"level": 10,
+			"header": 2,
+			"entries": [
+				"You have learned more secrets about the nuances of life and death. Immediately after you become {@status Bloodied|XPHB} but aren't killed outright from taking damage, you can take a {@variantrule Reaction|XPHB} to reduce an Undead creature under your control that you can see to 0 {@variantrule Hit Points|XPHB}. You then immediately regain a number of {@variantrule Hit Points|XPHB} equal to your Wizard level."
+			]
+		},
+		{
+			"name": "Death's Master",
+			"source": "XUA2025ArcaneUpdates",
+			"page": 8,
+			"className": "Wizard",
+			"classSource": "XPHB",
+			"subclassShortName": "Necromancer",
+			"subclassSource": "XUA2025ArcaneUpdates",
+			"level": 14,
+			"header": 2,
+			"entries": [
+				"Abstruse rituals within your spellbook allow you mastery over forces of death. While holding your spellbook, you gain the following benefits.",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Bolster Undead|Wizard|XPHB|Necromancer|XUA2025ArcaneSubclasses|14|XUA2025ArcaneSubclasses"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Extinguish Undead|Wizard|XPHB|Necromancer|XUA2025ArcaneUpdates|14|XUA2025ArcaneUpdates"
+				}
+			]
+		},
+		{
+			"name": "Extinguish Undead",
+			"source": "XUA2025ArcaneUpdates",
+			"page": 8,
+			"className": "Wizard",
+			"classSource": "XPHB",
+			"subclassShortName": "Necromancer",
+			"subclassSource": "XUA2025ArcaneUpdates",
+			"level": 14,
+			"header": 3,
+			"entries": [
+				"When an Undead creature you can see is reduced to 0 {@variantrule Hit Points|XPHB}, you can cause it to explode with necrotic energy. Roll a number of {@dice d6|d6s} equal to half the creature's unexpended {@variantrule Hit Dice|XPHB} (round up, minimum of {@dice 1d6}) and add them together. Each creature in a 10-foot {@variantrule Emanation [Area of Effect]|XPHB|Emanation} originating from the Undead makes a Dexterity saving throw. On a failed save, a target takes Necrotic damage equal to the number rolled and can't take {@variantrule Reaction|XPHB|Reactions} until the start of its next turn. On a successful save, a target takes half as much damage only. When you use this feature to explode an Undead creature you don't control, you must take a {@variantrule Reaction|XPHB} and expend a level 5+ spell slot to do so."
+			]
+		},
+		{
+			"name": "Transmuter",
+			"source": "XUA2025ArcaneUpdates",
+			"page": 9,
+			"className": "Wizard",
+			"classSource": "XPHB",
+			"subclassShortName": "Transmuter",
+			"subclassSource": "XUA2025ArcaneUpdates",
+			"level": 3,
+			"header": 1,
+			"entries": [
+				"You study spells that modify energy and matter. To you, the world is not a fixed thing, but eminently mutable. Your magic gives you the tools to become a smith at reality's forge.",
+				"Some Transmuters are tinkerers and pranksters. Others pursue their magical studies with deadly seriousness, seeking the power make and destroy worlds.",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Transmutation Savant|Wizard|XPHB|Transmuter|XUA2025ArcaneSubclasses|3|XUA2025ArcaneSubclasses"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Transmuter's Stone|Wizard|XPHB|Transmuter|XUA2025ArcaneUpdates|3|XUA2025ArcaneUpdates"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Wondrous Enhancement|Wizard|XPHB|Transmuter|XUA2025ArcaneUpdates|3|XUA2025ArcaneUpdates"
+				}
+			]
+		},
+		{
+			"name": "Transmuter's Stone",
+			"source": "XUA2025ArcaneUpdates",
+			"page": 9,
+			"className": "Wizard",
+			"classSource": "XPHB",
+			"subclassShortName": "Transmuter",
+			"subclassSource": "XUA2025ArcaneUpdates",
+			"level": 3,
+			"header": 2,
+			"entries": [
+				"When you finish a {@variantrule Long Rest|XPHB}, you can create a magic stone that lasts until you use this feature again. The stone is a Tiny object, and you can use it as a {@variantrule Spellcasting Focus|XPHB} for your Wizard spells. A creature with the stone in its possession gains proficiency in Constitution saving throws and one of the following benefits, which you choose when you create the stone. You can change the stone's benefit when you cast a Transmutation spell using a spell slot.",
+				{
+					"type": "entries",
+					"name": "Darkvision",
+					"page": 9,
+					"entries": [
+						"The bearer gains {@sense Darkvision|XPHB} with a range of 60 feet or increases the range of its {@sense Darkvision|XPHB} by 60 feet."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Speed",
+					"page": 9,
+					"entries": [
+						"The bearer's {@variantrule Speed|XPHB} increases by 10 feet."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Resistance",
+					"page": 9,
+					"entries": [
+						"The bearer gains Resistance to Acid, Cold, Fire, Lightning, Poison, or Thunder damage (your choice each time you choose this benefit)."
+					]
+				}
+			]
+		},
+		{
+			"name": "Wondrous Enhancement",
+			"source": "XUA2025ArcaneUpdates",
+			"page": 9,
+			"className": "Wizard",
+			"classSource": "XPHB",
+			"subclassShortName": "Transmuter",
+			"subclassSource": "XUA2025ArcaneUpdates",
+			"level": 3,
+			"header": 2,
+			"entries": [
+				"You always have the {@spell Alter Self|XPHB} spell prepared and can cast it once without expending a spell slot. You regain the ability to cast it in this way when you finish a {@variantrule Long Rest|XPHB}.",
+				"While under the effects of {@spell Alter Self|XPHB}, you gain an additional benefit for each of its options.",
+				{
+					"type": "entries",
+					"name": "Aquatic Adaptation",
+					"page": 9,
+					"entries": [
+						"While underwater, you can take the {@action Dash|XPHB} action as a {@variantrule Bonus Action|XPHB}."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Change Appearance",
+					"page": 9,
+					"entries": [
+						"You have {@variantrule Advantage|XPHB} on Charisma ({@skill Deception|XPHB}) checks."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Natural Weapons",
+					"page": 9,
+					"entries": [
+						"The damage of your new growth increases to {@damage 2d6} damage of the type associated with the growth. You also have {@variantrule Advantage|XPHB} on Constitution saving throws to maintain {@status Concentration|XPHB}."
+					]
+				}
+			]
+		},
+		{
+			"name": "Empowered Transmutation",
+			"source": "XUA2025ArcaneUpdates",
+			"page": 9,
+			"className": "Wizard",
+			"classSource": "XPHB",
+			"subclassShortName": "Transmuter",
+			"subclassSource": "XUA2025ArcaneUpdates",
+			"level": 6,
+			"header": 2,
+			"entries": [
+				"When you cast a Transmutation spell that doesn't deal damage, such as {@spell Fly|XPHB} or {@spell Magical Weapon|XPHB}, using a spell slot, you can treat the spell as if it were cast using a spell slot 1 level above the slot expended.",
+				"You can use this feature a number of times equal to your Intelligence modifier (minimum of once), and you regain all expended uses when you finish a {@variantrule Long Rest|XPHB}."
+			]
+		},
+		{
+			"name": "Potent Stone",
+			"source": "XUA2025ArcaneUpdates",
+			"page": 9,
+			"className": "Wizard",
+			"classSource": "XPHB",
+			"subclassShortName": "Transmuter",
+			"subclassSource": "XUA2025ArcaneUpdates",
+			"level": 10,
+			"header": 2,
+			"entries": [
+				"Your Transmuter's Stone is more versatile. When you create your Transmuter's Stone, you can choose up to two benefits. You can choose each option other than Resistance only once. If you choose Resistance twice, you must choose different damage types. You can change either or both benefits when you cast a Transmutation spell using a spell slot.",
+				"In addition, the following are now among your benefit options for Transmuter's Stone.",
+				{
+					"type": "entries",
+					"name": "Mighty Build",
+					"page": 10,
+					"entries": [
+						"The bearer has {@variantrule Advantage|XPHB} on Strength saving throws. The bearer also counts as one size larger when determining its carrying capacity."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Tremorsense",
+					"page": 10,
+					"entries": [
+						"The bearer gains {@sense Tremorsense|XPHB} with a range of 30 feet."
+					]
+				}
+			]
+		},
+		{
+			"name": "Shapechanger",
+			"source": "XUA2025ArcaneUpdates",
+			"page": 10,
+			"className": "Wizard",
+			"classSource": "XPHB",
+			"subclassShortName": "Transmuter",
+			"subclassSource": "XUA2025ArcaneUpdates",
+			"level": 10,
+			"header": 2,
+			"entries": [
+				"You always have the {@spell Polymorph|XPHB} spell prepared and can cast it once without expending a spell slot. You regain the ability to cast it in this way when you finish a {@variantrule Long Rest|XPHB}.",
+				"In addition, when you target yourself with the spell, you can modify the spell to gain the benefits below. Once you modify the spell using this feature, you can't do so again until you finish a {@variantrule Long Rest|XPHB}.",
+				{
+					"type": "entries",
+					"name": "Game Statistics",
+					"page": 10,
+					"entries": [
+						"You retain your personality, memories, and ability to speak. You also retain your Intelligence, Wisdom, and Charisma scores; class features; languages; and feats."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Transmute Spells",
+					"page": 10,
+					"entries": [
+						"You can cast Transmutation spells while shape-shifted, except for any spell with a Material component that has a cost specified or is consumed by the spell."
+					]
+				}
+			]
+		},
+		{
+			"name": "Master Transmuter",
+			"source": "XUA2025ArcaneUpdates",
+			"page": 10,
+			"className": "Wizard",
+			"classSource": "XPHB",
+			"subclassShortName": "Transmuter",
+			"subclassSource": "XUA2025ArcaneUpdates",
+			"level": 14,
+			"header": 2,
+			"entries": [
+				"While you carry your Transmuter's Stone, you can take a {@action Magic|XPHB} action to consume the reserve of transmutation magic stored inside and choose one of the following benefits. After you use your Transmuter's Stone in this way, the stone crumbles to dust. You can prevent the stone from crumbling by expending a level 5+ spell slot as part of the {@action Magic|XPHB} action you take using this feature.",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Major Transformation|Wizard|XPHB|Transmuter|XUA2025ArcaneUpdates|14|XUA2025ArcaneUpdates"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Panacea|Wizard|XPHB|Transmuter|XUA2025ArcaneUpdates|14|XUA2025ArcaneUpdates"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Restore Life|Wizard|XPHB|Transmuter|XUA2025ArcaneUpdates|14|XUA2025ArcaneUpdates"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Restore Youth|Wizard|XPHB|Transmuter|XUA2025ArcaneUpdates|14|XUA2025ArcaneUpdates"
+				}
+			]
+		},
+		{
+			"name": "Major Transformation",
+			"source": "XUA2025ArcaneUpdates",
+			"page": 10,
+			"className": "Wizard",
+			"classSource": "XPHB",
+			"subclassShortName": "Transmuter",
+			"subclassSource": "XUA2025ArcaneUpdates",
+			"level": 14,
+			"header": 3,
+			"entries": [
+				"You can transmute one nonmagical object\u2014no larger than a 10-foot {@variantrule Cube [Area of Effect]|XPHB|Cube} or eight connected 5-foot {@variantrule Cube [Area of Effect]|XPHB|Cubes}\u2014into another nonmagical object of similar size and mass and of equal or lesser value. You must spend 10 minutes handling the object to transform it."
+			]
+		},
+		{
+			"name": "Panacea",
+			"source": "XUA2025ArcaneUpdates",
+			"page": 10,
+			"className": "Wizard",
+			"classSource": "XPHB",
+			"subclassShortName": "Transmuter",
+			"subclassSource": "XUA2025ArcaneUpdates",
+			"level": 14,
+			"header": 3,
+			"entries": [
+				"You touch a creature as part of this {@action Magic|XPHB} action, and the target regains a number of {@variantrule Hit Points|XPHB} equal to half its Hit Point maximum (round down). The target is cured of all magical contagions, and any curses affecting the target are lifted, including the target's {@variantrule Attunement|XPHB} to a cursed item. If the target has the {@condition Poisoned|XPHB} or {@condition Petrified|XPHB} conditions, those conditions end."
+			]
+		},
+		{
+			"name": "Restore Life",
+			"source": "XUA2025ArcaneUpdates",
+			"page": 10,
+			"className": "Wizard",
+			"classSource": "XPHB",
+			"subclassShortName": "Transmuter",
+			"subclassSource": "XUA2025ArcaneUpdates",
+			"level": 14,
+			"header": 3,
+			"entries": [
+				"You cast the {@spell Raise Dead|XPHB} spell without expending a spell slot, using the stone in place of the required Material components."
+			]
+		},
+		{
+			"name": "Restore Youth",
+			"source": "XUA2025ArcaneUpdates",
+			"page": 10,
+			"className": "Wizard",
+			"classSource": "XPHB",
+			"subclassShortName": "Transmuter",
+			"subclassSource": "XUA2025ArcaneUpdates",
+			"level": 14,
+			"header": 3,
+			"entries": [
+				"You touch one willing creature as part of this {@action Magic|XPHB} action, and the target's {@condition Exhaustion|XPHB} level, if any, decreases to 0 and it permanently appears {@dice 3d10} years younger, to a minimum of young adulthood."
+			]
+		}
+	],
+	"foundrySubclassFeature": [
+		{
+			"name": "Arcane Archer Lore",
+			"source": "XUA2025ArcaneUpdates",
+			"className": "Fighter",
+			"classSource": "XPHB",
+			"subclassShortName": "Arcana",
+			"subclassSource": "XUA2025ArcaneUpdates",
+			"level": 3,
+			"entryData": {
+				"skillProficiencies": [
+					{
+						"arcana": true,
+						"nature": true
+					},
+					{
+						"arcana": true,
+						"any": 1
+					},
+					{
+						"nature": true,
+						"any": 1
+					},
+					{
+						"any": 2
+					}
+				]
+			}
+		},
+		{
+			"name": "Arcane Shot",
+			"source": "XUA2025ArcaneUpdates",
+			"className": "Fighter",
+			"classSource": "XPHB",
+			"subclassShortName": "Arcane Archer",
+			"subclassSource": "XUA2025ArcaneUpdates",
+			"level": 3,
+			"entryData": {
+				"resources": [
+					{
+						"name": "Arcane Shot Die",
+						"type": "dicePool",
+						"recharge": "restShort",
+						"count": "@scale.arcane-archer.die.number",
+						"number": 1,
+						"faces": "@scale.arcane-archer.die.faces"
+					}
+				]
+			}
+		},
+		{
+			"name": "Arcane Shot Options",
+			"source": "XUA2025ArcaneUpdates",
+			"className": "Fighter",
+			"classSource": "XPHB",
+			"subclassShortName": "Arcane Archer",
+			"subclassSource": "XUA2025ArcaneUpdates",
+			"level": 3,
+			"isIgnored": true
+		},
+		{
+			"name": "Enchanting Conversationalist",
+			"source": "XUA2025ArcaneUpdates",
+			"className": "Wizard",
+			"classSource": "XPHB",
+			"subclassShortName": "Enchanter",
+			"subclassSource": "XUA2025ArcaneUpdates",
+			"level": 3,
+			"entryData": {
+				"skillProficiencies": [
+					{
+						"choose": {
+							"from": [
+								"deception",
+								"intimidation",
+								"persuasion"
+							],
+							"count": 1
+						}
+					}
+				]
+			}
+		},
+		{
+			"name": "Necromancy Spellbook",
+			"source": "XUA2025ArcaneUpdates",
+			"className": "Wizard",
+			"classSource": "XPHB",
+			"subclassShortName": "Necromancer",
+			"subclassSource": "XUA2025ArcaneUpdates",
+			"level": 3,
+			"entryData": {
+				"resist": [
+					"necrotic"
+				]
+			}
+		}
+	],
+	"optionalfeature": [
+		{
+			"name": "Banishing Shot",
+			"source": "XUA2025ArcaneUpdates",
+			"page": 3,
+			"featureType": [
+				"AS"
+			],
+			"entries": [
+				"Your ammunition temporarily sequesters your target in a harmless demiplane. The creature you hit takes additional Psychic damage equal to one roll of your Arcane Shot Die and must succeed on a Charisma saving throw or be banished. While banished, the creature has the {@condition Incapacitated} condition and a {@variantrule Speed|XPHB} of 0. At the end of its next turn, the target reappears in the space it left or, if that space is occupied, in the nearest unoccupied space."
+			]
+		},
+		{
+			"name": "Bat",
+			"source": "XUA2025ArcaneUpdates",
+			"page": 4,
+			"featureType": [
+				"MT"
+			],
+			"prerequisite": [
+				{
+					"level": {
+						"level": 3,
+						"class": {
+							"name": "Monk",
+							"source": "XPHB"
+						},
+						"subclass": {
+							"name": "Tattooed Warrior",
+							"source": "XUA2025ArcaneUpdates"
+						}
+					}
+				}
+			],
+			"additionalSpells": [
+				{
+					"known": {
+						"_": [
+							"dancing lights|XPHB#c"
+						]
+					},
+					"ability": "wis"
+				}
+			],
+			"entries": [
+				"You know the {@spell Dancing Lights|XPHB} cantrip. You also gain {@sense Blindsight|XPHB} with a range of 10 feet."
+			]
+		},
+		{
+			"name": "Beguiling Shot",
+			"source": "XUA2025ArcaneUpdates",
+			"page": 3,
+			"featureType": [
+				"AS"
+			],
+			"entries": [
+				"Your ammunition beguiles your target. The creature you hit takes additional Psychic damage equal to two rolls of your Arcane Shot Die and must succeed on a Wisdom saving throw or have the {@condition Charmed} condition until the start of your next turn, treating either you or one of your allies within 30 feet of the target (your choice) as the charmer. The {@condition Charmed} condition ends early if the charmer attacks the target, deals damage to it, or forces it to make a saving throw."
+			]
+		},
+		{
+			"name": "Beholder",
+			"source": "XUA2025ArcaneUpdates",
+			"page": 5,
+			"featureType": [
+				"MT"
+			],
+			"prerequisite": [
+				{
+					"level": {
+						"level": 17,
+						"class": {
+							"name": "Monk",
+							"source": "XPHB"
+						},
+						"subclass": {
+							"name": "Tattooed Warrior",
+							"source": "XUA2025ArcaneUpdates"
+						}
+					}
+				}
+			],
+			"consumes": {
+				"name": "Focus Point",
+				"amount": 1
+			},
+			"entries": [
+				"At the start of your turn, you can expend 1 Focus Point to gain a {@variantrule Fly Speed|XPHB} equal to your {@variantrule Speed|XPHB} for 10 minutes. While you have this {@variantrule Fly Speed|XPHB}, you can hover.",
+				"Additionally, as a {@action Magic|XPHB} action, you can expend 1 Focus Point to fire four rays from your eyes. You can fire them at one target you can see within 120 feet or at several. Make a ranged spell attack for each ray, using Wisdom as your spellcasting ability. On a hit, the attack deals Force damage equal to one roll of your Martial Arts die plus your Wisdom modifier."
+			]
+		},
+		{
+			"name": "Butterfly",
+			"source": "XUA2025ArcaneUpdates",
+			"page": 4,
+			"featureType": [
+				"MT"
+			],
+			"prerequisite": [
+				{
+					"level": {
+						"level": 3,
+						"class": {
+							"name": "Monk",
+							"source": "XPHB"
+						},
+						"subclass": {
+							"name": "Tattooed Warrior",
+							"source": "XUA2025ArcaneUpdates"
+						}
+					}
+				}
+			],
+			"additionalSpells": [
+				{
+					"known": {
+						"_": [
+							"dancing lights|XPHB#c"
+						]
+					},
+					"resourceName": "Focus Point",
+					"ability": "wis"
+				}
+			],
+			"entries": [
+				"You know the {@spell Light|XPHB} cantrip. When you make a {@variantrule High Jump|XPHB}, you can use your Dexterity modifier instead of your Strength modifier to determine how high you can jump."
+			]
+		},
+		{
+			"name": "Chromatic Dragon",
+			"source": "XUA2025ArcaneUpdates",
+			"page": 5,
+			"featureType": [
+				"MT"
+			],
+			"prerequisite": [
+				{
+					"level": {
+						"level": 17,
+						"class": {
+							"name": "Monk",
+							"source": "XPHB"
+						},
+						"subclass": {
+							"name": "Tattooed Warrior",
+							"source": "XUA2025ArcaneUpdates"
+						}
+					}
+				}
+			],
+			"consumes": {
+				"name": "Focus Point",
+				"amount": 1
+			},
+			"entries": [
+				"When you take the {@action Attack|XPHB} action on your turn, you can expend 1 Focus Point to replace one of your attacks with an exhalation of magical energy in a 30-foot {@variantrule Cone [Area of Effect]|XPHB|Cone}. Choose a damage type: Acid, Cold, Fire, Lightning, or Poison. Each creature in that area makes a Dexterity saving throw. On a failed save, a creature takes damage of the chosen type equal to two rolls of your Martial Arts die plus your Wisdom modifier. On a successful save, a creature takes half as much damage."
+			]
+		},
+		{
+			"name": "Comet",
+			"source": "XUA2025ArcaneUpdates",
+			"page": 4,
+			"featureType": [
+				"MT"
+			],
+			"prerequisite": [
+				{
+					"level": {
+						"level": 6,
+						"class": {
+							"name": "Monk",
+							"source": "XPHB"
+						},
+						"subclass": {
+							"name": "Tattooed Warrior",
+							"source": "XUA2025ArcaneUpdates"
+						}
+					}
+				}
+			],
+			"consumes": {
+				"name": "Focus Point",
+				"amount": 1
+			},
+			"entries": [
+				"When you take the {@action Search|XPHB} action, you can expend 1 Focus Point to roll your Martial Arts die and add the number rolled to the Wisdom check."
+			]
+		},
+		{
+			"name": "Crane",
+			"source": "XUA2025ArcaneUpdates",
+			"page": 4,
+			"featureType": [
+				"MT"
+			],
+			"prerequisite": [
+				{
+					"level": {
+						"level": 3,
+						"class": {
+							"name": "Monk",
+							"source": "XPHB"
+						},
+						"subclass": {
+							"name": "Tattooed Warrior",
+							"source": "XUA2025ArcaneUpdates"
+						}
+					}
+				}
+			],
+			"additionalSpells": [
+				{
+					"known": {
+						"_": [
+							"guidance|XPHB#c"
+						]
+					},
+					"ability": "wis"
+				}
+			],
+			"entries": [
+				"You know the {@spell Guidance|XPHB} cantrip. When you miss a creature with an attack granted by your {@classFeature Flurry of Blows|Monk|XPHB|2|XPHB}, you have {@variantrule Advantage|XPHB} on your next attack roll against that creature before the end of your next turn."
+			]
+		},
+		{
+			"name": "Displacer Beast",
+			"source": "XUA2025ArcaneUpdates",
+			"page": 5,
+			"featureType": [
+				"MT"
+			],
+			"prerequisite": [
+				{
+					"level": {
+						"level": 17,
+						"class": {
+							"name": "Monk",
+							"source": "XPHB"
+						},
+						"subclass": {
+							"name": "Tattooed Warrior",
+							"source": "XUA2025ArcaneUpdates"
+						}
+					}
+				}
+			],
+			"additionalSpells": [
+				{
+					"innate": {
+						"_": {
+							"resource": {
+								"1e": [
+									"mirror image|XPHB"
+								]
+							}
+						}
+					},
+					"resourceName": "Focus Point",
+					"ability": "wis"
+				}
+			],
+			"entries": [
+				"When you expend a Focus Point to use {@classFeature Flurry of Blows|Monk|XPHB|2|XPHB} or {@classFeature Step of the Wind|Monk|XPHB|2|XPHB}, you can expend 1 Focus Point to cast the {@spell Mirror Image|XPHB} spell as part of that {@variantrule Bonus Action|XPHB}."
+			]
+		},
+		{
+			"name": "Eclipse",
+			"source": "XUA2025ArcaneUpdates",
+			"page": 4,
+			"featureType": [
+				"MT"
+			],
+			"prerequisite": [
+				{
+					"level": {
+						"level": 6,
+						"class": {
+							"name": "Monk",
+							"source": "XPHB"
+						},
+						"subclass": {
+							"name": "Tattooed Warrior",
+							"source": "XUA2025ArcaneUpdates"
+						}
+					}
+				}
+			],
+			"consumes": {
+				"name": "Focus Point",
+				"amount": 1
+			},
+			"entries": [
+				"When you take the {@action Hide|XPHB} action, you can expend 1 Focus Point to roll your Martial Arts die and add the number rolled to the Dexterity ({@skill Stealth}) check."
+			]
+		},
+		{
+			"name": "Grasping Shot",
+			"source": "XUA2025ArcaneUpdates",
+			"page": 3,
+			"featureType": [
+				"AS"
+			],
+			"entries": [
+				"Your ammunition creates clutching brambles around your target. The creature you hit takes additional Slashing damage equal to one roll of your Arcane Shot Die and must succeed on a Strength saving throw or have the {@condition Restrained} condition for 1 minute or until you use this option again. The target or a creature within reach of it can take an action to make a Strength ({@skill Athletics|XPHB}) check against your Arcane Shot DC, removing the brambles and ending the {@condition Restrained} condition on the target on a successful check."
+			]
+		},
+		{
+			"name": "Horse",
+			"source": "XUA2025ArcaneUpdates",
+			"page": 4,
+			"featureType": [
+				"MT"
+			],
+			"prerequisite": [
+				{
+					"level": {
+						"level": 3,
+						"class": {
+							"name": "Monk",
+							"source": "XPHB"
+						},
+						"subclass": {
+							"name": "Tattooed Warrior",
+							"source": "XUA2025ArcaneUpdates"
+						}
+					}
+				}
+			],
+			"additionalSpells": [
+				{
+					"known": {
+						"_": [
+							"Message|XPHB#c"
+						]
+					},
+					"resourceName": "Focus Point",
+					"ability": "wis"
+				}
+			],
+			"entries": [
+				"You know the {@spell Message|XPHB} cantrip. When you expend 1 Focus Point to use {@classFeature Step of the Wind|Monk|XPHB|2|XPHB}, your {@variantrule Speed|XPHB} increases by 10 feet until the start of your next turn."
+			]
+		},
+		{
+			"name": "Sea Storm",
+			"source": "XUA2025ArcaneUpdates",
+			"page": 4,
+			"featureType": [
+				"MT"
+			],
+			"prerequisite": [
+				{
+					"level": {
+						"level": 11,
+						"class": {
+							"name": "Monk",
+							"source": "XPHB"
+						},
+						"subclass": {
+							"name": "Tattooed Warrior",
+							"source": "XUA2025ArcaneUpdates"
+						}
+					}
+				}
+			],
+			"entries": [
+				"You gain {@variantrule Resistance|XPHB} to one of the following damage types of your choice: Cold, Lightning, or Thunder. Whenever you finish a {@variantrule Short Rest|XPHB|Short} or {@variantrule Long Rest|XPHB}, or use your {@classFeature Uncanny Metabolism|Monk|XPHB|2|XPHB} feature, you can change this choice."
+			]
+		},
+		{
+			"name": "Seeking Shot",
+			"source": "XUA2025ArcaneUpdates",
+			"page": 4,
+			"featureType": [
+				"AS"
+			],
+			"entries": [
+				"Your ammunition can seek out a target. When you use this option, you don't make an attack roll for the attack. Instead, choose one creature you have seen in the last minute. The ammunition flies toward that creature, moving around corners if necessary and ignoring {@variantrule Cover|XPHB|Half Cover} and {@variantrule Cover|XPHB|Three-Quarters Cover}. If the target is within your weapon's long range, the target must make a Dexterity saving throw. On a failed save, the target takes damage as if it were hit plus additional Force damage equal to two rolls of your Arcane Shot Die, and you learn the target's current location. On a successful save, the target takes half as much damage only. If the target is beyond your weapon's long range, the ammunition disappears after traveling as far as it can."
+			]
+		},
+		{
+			"name": "Shadow Shot",
+			"source": "XUA2025ArcaneUpdates",
+			"page": 4,
+			"featureType": [
+				"AS"
+			],
+			"entries": [
+				"Your ammunition occludes your foe's vision with shadows. The creature you hit takes additional Psychic damage equal to one roll of your Arcane Shot Die, and it must succeed on a Wisdom saving throw or have the {@condition Blinded|XPHB} condition until the end of its next turn."
+			]
+		},
+		{
+			"name": "Sunburst",
+			"source": "XUA2025ArcaneUpdates",
+			"page": 5,
+			"featureType": [
+				"MT"
+			],
+			"prerequisite": [
+				{
+					"level": {
+						"level": 6,
+						"class": {
+							"name": "Monk",
+							"source": "XPHB"
+						},
+						"subclass": {
+							"name": "Tattooed Warrior",
+							"source": "XUA2025ArcaneUpdates"
+						}
+					}
+				}
+			],
+			"consumes": {
+				"name": "Focus Point",
+				"amount": 1
+			},
+			"entries": [
+				"When you take the {@action Study|XPHB} action, you can expend 1 Focus Point to roll your Martial Arts die and add the number rolled to the Intelligence check."
+			]
+		},
+		{
+			"name": "Tortoise",
+			"source": "XUA2025ArcaneUpdates",
+			"page": 4,
+			"featureType": [
+				"MT"
+			],
+			"prerequisite": [
+				{
+					"level": {
+						"level": 3,
+						"class": {
+							"name": "Monk",
+							"source": "XPHB"
+						},
+						"subclass": {
+							"name": "Tattooed Warrior",
+							"source": "XUA2025ArcaneUpdates"
+						}
+					}
+				}
+			],
+			"additionalSpells": [
+				{
+					"known": {
+						"_": [
+							"spare the dying|XPHB#c"
+						]
+					},
+					"resourceName": "Focus Point",
+					"ability": "wis"
+				}
+			],
+			"entries": [
+				"You know the {@spell Spare the Dying|XPHB} cantrip. When you expend 1 Focus Point to use {@classFeature Patient Defense|Monk|XPHB|2|XPHB}, you have a +1 bonus to AC until the start of your next turn."
+			]
+		},
+		{
+			"name": "Troll",
+			"source": "XUA2025ArcaneUpdates",
+			"page": 5,
+			"featureType": [
+				"MT"
+			],
+			"prerequisite": [
+				{
+					"level": {
+						"level": 17,
+						"class": {
+							"name": "Monk",
+							"source": "XPHB"
+						},
+						"subclass": {
+							"name": "Tattooed Warrior",
+							"source": "XUA2025ArcaneUpdates"
+						}
+					}
+				}
+			],
+			"entries": [
+				"At the start of each of your turns, you regain {@variantrule Hit Points|XPHB} equal to 5 plus your Wisdom modifier if you are {@status Bloodied|XPHB} and have at least 1 {@variantrule Hit Points|XPHB|Hit Point}. Any severed body part regrows after you finish a {@variantrule Short Rest|XPHB|Short} or {@variantrule Long Rest|XPHB}."
+			]
+		},
+		{
+			"name": "Volcano",
+			"source": "XUA2025ArcaneUpdates",
+			"page": 4,
+			"featureType": [
+				"MT"
+			],
+			"prerequisite": [
+				{
+					"level": {
+						"level": 11,
+						"class": {
+							"name": "Monk",
+							"source": "XPHB"
+						},
+						"subclass": {
+							"name": "Tattooed Warrior",
+							"source": "XUA2025ArcaneUpdates"
+						}
+					}
+				}
+			],
+			"entries": [
+				"You gain {@variantrule Resistance|XPHB} to one of the following damage types of your choice: Acid, Fire, or Poison. Whenever you finish a {@variantrule Short Rest|XPHB|Short} or {@variantrule Long Rest|XPHB}, or use your {@classFeature Uncanny Metabolism|Monk|XPHB|2|XPHB} feature, you can change this choice."
+			]
+		}
+	],
+	"book": [
+		{
+			"name": "Unearthed Arcana 2025: Arcane Updates",
+			"id": "XUA2025ArcaneUpdates",
+			"source": "XUA2025ArcaneUpdates",
+			"group": "prerelease",
+			"cover": {
+				"type": "external",
+				"url": "https://raw.githubusercontent.com/TheGiddyLimit/unearthed-arcana/refs/heads/master/_img/XUA2025ArcaneUpdates/cover.webp"
+			},
+			"published": "2025-09-18",
+			"author": "Wizards of the Coast",
+			"contents": [
+				{
+					"name": "Unearthed Arcana 2025: Arcane Updates",
+					"headers": [
+						"What's Inside",
+						"Subclasses",
+						{
+							"header": "Arcane Archer (Fighter)",
+							"depth": 1
+						},
+						{
+							"header": "Tattooed Warrior (Monk)",
+							"depth": 1
+						},
+						{
+							"header": "Conjurer (Wizard)",
+							"depth": 1
+						},
+						{
+							"header": "Enchanter (Wizard)",
+							"depth": 1
+						},
+						{
+							"header": "Necromancer (Wizard)",
+							"depth": 1
+						},
+						{
+							"header": "Transmuter (Wizard)",
+							"depth": 1
+						}
+					]
+				}
+			]
+		}
+	],
+	"bookData": [
+		{
+			"id": "XUA2025ArcaneUpdates",
+			"source": "XUA2025ArcaneUpdates",
+			"data": [
+				{
+					"type": "section",
+					"name": "Unearthed Arcana 2025: Arcane Subclasses",
+					"page": 1,
+					"entries": [
+						"This playtest document is part of a series of {@i Unearthed Arcana} articles that present material designed for upcoming products. The material here uses the rules in the {@book 2024 Player's Handbook|XPHB}.",
+						{
+							"type": "section",
+							"name": "What's Inside",
+							"page": 1,
+							"entries": [
+								"This document presents six subclasses revised after their last appearance in Unearthed Arcana: {@class Fighter|XPHB|Arcane Archer|Arcane Archer|XUA2025ArcaneUpdates} ({@class Fighter|XPHB}), {@class Monk|XPHB} ({@class Monk|XPHB|Tattooed Warrior|Tattooed Warrior|XUA2025ArcaneUpdates}), {@class Wizard|XPHB|Conjurer|Conjurer|XUA2025ArcaneUpdates} ({@class Wizard|XPHB}), {@class Wizard|XPHB|Enchanter|Enchanter|XUA2025ArcaneUpdates} ({@class Wizard|XPHB}), {@class Wizard|XPHB|Necromancer|Necromancer|XUA2025ArcaneUpdates} ({@class Wizard|XPHB}), and {@class Wizard|XPHB|Transmuter|Transmuter|XUA2025ArcaneUpdates} ({@class Wizard|XPHB}).",
+								{
+									"type": "inset",
+									"name": "This Is Playtest Material",
+									"page": 1,
+									"entries": [
+										"This article is presented for playtesting and feedback. The options here are experimental and in draft form. They aren't officially part of the game. Your feedback will help determine whether we adopt it as official.",
+										{
+											"type": "list",
+											"style": "list-hang-notitle",
+											"page": 1,
+											"items": [
+												{
+													"type": "item",
+													"name": "How to Playtest This UA",
+													"entries": [
+														"We invite you to try out this material in play. To play with this material, you may either incorporate it into your campaign or run one or more special playtest sessions. For such a session, you may create an adventure of your own or use a short adventure from a source like {@adventure Quests from the Infinite Staircase|QftIS}."
+													]
+												},
+												{
+													"type": "item",
+													"name": "Power Level",
+													"entries": [
+														"The character options you read here might be more or less powerful than options in the {@book 2024 Player's Handbook|XPHB}. If a design survives playtesting, we adjust its power to the desirable level before publication. This means an option could be more or less powerful in its final form."
+													]
+												},
+												{
+													"type": "item",
+													"name": "Feedback",
+													"entries": [
+														"The best way for you to give us feedback on this material is in the survey we'll release on D&D Beyond. If we make this material official, it will be refined based on your feedback, and then it will appear in a D&D book.",
+														"Providing feedback on this document is one way you can help shape the future of D&D!"
+													]
+												}
+											]
+										}
+									]
+								}
+							]
+						},
+						{
+							"type": "section",
+							"name": "Subclasses",
+							"page": 1,
+							"entries": [
+								"This section presents the following subclasses: {@class Fighter|XPHB|Arcane Archer|Arcane Archer|XUA2025ArcaneUpdates}, {@class Monk|XPHB|Tattooed Warrior|Tattooed Warrior|XUA2025ArcaneUpdates}, {@class Wizard|XPHB|Conjurer|Conjurer|XUA2025ArcaneUpdates}, {@class Wizard|XPHB|Enchanter|Enchanter|XUA2025ArcaneUpdates}, {@class Wizard|XPHB|Necromancer|Necromancer|XUA2025ArcaneUpdates}, and {@class Wizard|XPHB|Transmuter|Transmuter|XUA2025ArcaneUpdates}.",
+								{
+									"type": "entries",
+									"name": "Arcane Archer (Fighter)",
+									"page": 1,
+									"entries": [
+										"{@i Deploy Magical Effects through Enchanted Ammunition}",
+										{
+											"type": "inset",
+											"name": "Design Note: Arcane Archer Updates",
+											"page": 1,
+											"entries": [
+												"Here are the main updates in this subclass since its appearance in {@class Fighter|XPHB|Unearthed Arcana|Arcane Archer|XUA2025ArcaneSubclasses}:",
+												{
+													"type": "list",
+													"page": 1,
+													"items": [
+														{
+															"type": "item",
+															"name": "Curving Shot",
+															"nameDot": false,
+															"entries": [
+																"has been revised to use the same ammunition but a new attack roll."
+															]
+														},
+														{
+															"type": "item",
+															"name": "Magical Ammunition",
+															"nameDot": false,
+															"entries": [
+																"is a new feature that grants magical effects to your ammunition that can be used outside of combat."
+															]
+														},
+														{
+															"type": "item",
+															"name": "Ever-Ready Shot",
+															"nameDot": false,
+															"entries": [
+																"is now available at a later level but always regains one expended Arcane Shot Die."
+															]
+														},
+														{
+															"type": "item",
+															"name": "Arcane Burst",
+															"nameDot": false,
+															"entries": [
+																"is a new feature that grants an additional effect to {@classFeature Indomitable|Fighter|XPHB|9|XPHB}."
+															]
+														},
+														{
+															"type": "item",
+															"name": "Masterful Shots",
+															"nameDot": false,
+															"entries": [
+																"has been redesigned and now allows you to reposition and attack."
+															]
+														}
+													]
+												}
+											]
+										},
+										{
+											"type": "statblock",
+											"prop": "subclass",
+											"source": "XUA2025ArcaneUpdates",
+											"name": "Arcane Archer",
+											"className": "Fighter",
+											"classSource": "XPHB",
+											"page": 1
+										}
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Tattooed Warrior (Monk)",
+									"page": 4,
+									"entries": [
+										"{@i Enhance Martial Arts with Your Magic Tattoos}",
+										{
+											"type": "inset",
+											"name": "Design Note: Tattooed Warrior Updates",
+											"page": 1,
+											"entries": [
+												"Here are the main updates in this subclass since its last appearance in {@class Monk|XPHB|Unearthed Arcana|Tattooed Warrior|XUA2025ArcaneSubclasses}:",
+												{
+													"type": "list",
+													"page": 1,
+													"items": [
+														"The Tattooed Warrior has been redesigned. With some exceptions, the tattoos now focus on additional abilities instead of spells.",
+														{
+															"type": "item",
+															"name": "Beast Tattoos",
+															"nameDot": false,
+															"entries": [
+																"still grant a cantrip, but now each option provides a benefit that isn't tied to a level 1 spell."
+															]
+														},
+														{
+															"type": "item",
+															"name": "Celestial Tattoo",
+															"nameDot": false,
+															"entries": [
+																"has been redesigned to provide uses of Focus Points outside of combat."
+															]
+														},
+														{
+															"type": "item",
+															"name": "Nature Tattoo",
+															"nameDot": false,
+															"entries": [
+																"has been condensed to provide Damage {@variantrule Resistance|XPHB} to a small suite of choices that can change."
+															]
+														},
+														{
+															"type": "item",
+															"name": "Monster Tattoos",
+															"nameDot": false,
+															"entries": [
+																"has been redesigned with new options."
+															]
+														}
+													]
+												}
+											]
+										},
+										{
+											"type": "statblock",
+											"prop": "subclass",
+											"source": "XUA2025ArcaneUpdates",
+											"name": "Tattooed Warrior",
+											"className": "Monk",
+											"classSource": "XPHB",
+											"page": 4
+										}
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Conjurer (Wizard)",
+									"page": 5,
+									"entries": [
+										"{@i Step Across Space and Call Creatures from Thin Air}",
+										{
+											"type": "inset",
+											"name": "Design Note: Conjurer Updates",
+											"page": 5,
+											"entries": [
+												"Here are the main updates in this subclass since its appearance in {@class Wizard|XPHB|Unearthed Arcana|Conjurer|XUA2025ArcaneSubclasses}:",
+												{
+													"type": "list",
+													"page": 5,
+													"items": [
+														{
+															"type": "item",
+															"name": "Benign Transposition",
+															"nameDot": false,
+															"entries": [
+																"is now a {@variantrule Bonus Action|XPHB} and can be used more often."
+															]
+														},
+														{
+															"type": "item",
+															"name": "Durable Summons",
+															"nameDot": false,
+															"entries": [
+																"now gives the summoned creature {@variantrule Resistance|XPHB} to multiple damage types while it has {@variantrule Temporary Hit Points|XPHB}."
+															]
+														},
+														{
+															"type": "item",
+															"name": "Splintered Summons",
+															"nameDot": false,
+															"entries": [
+																"is a new feature that allows you to summon a second creature when you cast one of the summoning spells listed."
+															]
+														}
+													]
+												}
+											]
+										},
+										{
+											"type": "statblock",
+											"prop": "subclass",
+											"source": "XUA2025ArcaneUpdates",
+											"name": "Conjurer",
+											"className": "Wizard",
+											"classSource": "XPHB",
+											"page": 5
+										}
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Enchanter (Wizard)",
+									"page": 6,
+									"entries": [
+										"{@i Entrance and Beguile Others}",
+										{
+											"type": "inset",
+											"name": "Design Note: Enchanter Updates",
+											"page": 6,
+											"entries": [
+												"Here are the main updates in this subclass since its appearance in {@homebrew {@class Wizard|XPHB|Unearthed Arcana|Enchanter|XUA2025ArcaneSubclasses}|the {@book 2014 Player's Handbook|PHB}}:",
+												{
+													"type": "list",
+													"page": 6,
+													"items": [
+														{
+															"type": "item",
+															"name": "Hypnotic Presence",
+															"nameDot": false,
+															"entries": [
+																"replaces {@subclassFeature Vexing Movement|Wizard|XPHB|Enchanter|XUA2025ArcaneSubclasses|3|XUA2025ArcaneSubclasses} and has been redesigned to use {@status Concentration|XPHB}, freeing up your actions on subsequent turns."
+															]
+														},
+														{
+															"type": "item",
+															"name": "Split Enchantment",
+															"nameDot": false,
+															"entries": [
+																"is available at an earlier level."
+															]
+														},
+														{
+															"type": "item",
+															"name": "Instinctive Charm",
+															"nameDot": false,
+															"entries": [
+																"returns and is redesigned to turn a hit against you into a miss, with the potential to redirect the attack at a new target."
+															]
+														},
+														{
+															"type": "item",
+															"name": "Alter Memories",
+															"nameDot": false,
+															"entries": [
+																"returns and has been redesigned to allow {@spell Modify Memory|XPHB} to target multiple creatures."
+															]
+														}
+													]
+												}
+											]
+										},
+										{
+											"type": "statblock",
+											"prop": "subclass",
+											"source": "XUA2025ArcaneUpdates",
+											"name": "Enchanter",
+											"className": "Wizard",
+											"classSource": "XPHB",
+											"page": 6
+										}
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Necromancer (Wizard)",
+									"page": 7,
+									"entries": [
+										"{@i Command the Powers of Death and Undeath}",
+										{
+											"type": "inset",
+											"name": "Design Note: Necromancer Updates",
+											"page": 7,
+											"entries": [
+												"Here are the main updates in this subclass since its appearance in {@class Wizard|XPHB|Unearthed Arcana|Necromancer|XUA2025ArcaneSubclasses}:",
+												{
+													"type": "list",
+													"page": 7,
+													"items": [
+														{
+															"type": "item",
+															"name": "Necromancy Spellbook",
+															"nameDot": false,
+															"entries": [
+																"now lets you use the {@spell Find Familiar|XPHB} spell to summon a {@creature Skeleton|XMM} or {@creature Zombie|XMM}, and {@subclassFeature Grim Harvest|Wizard|XPHB|Necromancer|XUA2025ArcaneUpdates|3|XUA2025ArcaneUpdates} now restores {@variantrule Hit Points|XPHB} to an Undead creature of your choice."
+															]
+														},
+														{
+															"type": "item",
+															"name": "Undead Thralls",
+															"nameDot": false,
+															"entries": [
+																"has been redesigned to use the {@spell Animate Dead|XPHB} spell and provides additional bonuses."
+															]
+														},
+														{
+															"type": "item",
+															"name": "Harvest Undead",
+															"nameDot": false,
+															"entries": [
+																"(formerly {@subclassFeature Undead Secrets|Wizard|XPHB|Necromancer|XUA2025ArcaneSubclasses|10|XUA2025ArcaneSubclasses}) has been redesigned to restore {@variantrule Hit Points|XPHB} to you when you destroy an Undead creature you control."
+															]
+														},
+														{
+															"type": "item",
+															"name": "Death's Master",
+															"nameDot": false,
+															"entries": [
+																"now allows you to create bursts of necrotic energy when an Undead is reduced to 0 {@variantrule Hit Points|XPHB}."
+															]
+														}
+													]
+												}
+											]
+										},
+										{
+											"type": "statblock",
+											"prop": "subclass",
+											"source": "XUA2025ArcaneUpdates",
+											"name": "Necromancer",
+											"className": "Wizard",
+											"classSource": "XPHB",
+											"page": 7
+										}
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Transmuter (Wizard)",
+									"page": 9,
+									"entries": [
+										"{@i Transform Energy and Matter}",
+										{
+											"type": "inset",
+											"name": "Design Note: Transmuter Updates",
+											"page": 9,
+											"entries": [
+												"Here are the main updates in this subclass since its appearance in {@class Wizard|XPHB|Unearthed Arcana|Transmuter|XUA2025ArcaneSubclasses}:",
+												{
+													"type": "list",
+													"page": 9,
+													"items": [
+														{
+															"type": "item",
+															"name": "Transmuter's Stone",
+															"nameDot": false,
+															"entries": [
+																"now gives the bearer proficiency in Constitution saving throws in addition to another benefit. The stone can now also be used as a {@variantrule Spellcasting Focus|XPHB}."
+															]
+														},
+														{
+															"type": "item",
+															"name": "Wondrous Alteration",
+															"nameDot": false,
+															"entries": [
+																"replaces {@subclassFeature Wondrous Enhancement|Wizard|XPHB|Transmuter|XUA2025ArcaneSubclasses|3|XUA2025ArcaneSubclasses} and grants benefits to the {@spell Alter Self|XPHB} spell."
+															]
+														},
+														{
+															"type": "item",
+															"name": "Empowered Transmutation",
+															"nameDot": false,
+															"entries": [
+																"replaces {@subclassFeature Split Transmutation|Wizard|XPHB|Transmuter|XUA2025ArcaneSubclasses|6|XUA2025ArcaneSubclasses|Twinned Transmutation} and applies to any Transmutation spell that can be cast with a higher-level spell slot."
+															]
+														},
+														{
+															"type": "item",
+															"name": "Potent Stone",
+															"nameDot": false,
+															"entries": [
+																"now grants additional options for the transmutation stone."
+															]
+														},
+														{
+															"type": "item",
+															"name": "Shapechanger",
+															"nameDot": false,
+															"entries": [
+																"returns, allows the Wizard to modify the {@spell Polymorph|XPHB} spell when casting it on themself."
+															]
+														},
+														{
+															"type": "item",
+															"name": "Master Transmuter",
+															"nameDot": false,
+															"entries": [
+																"now allows you to prevent the stone's destruction by expending a spell slot."
+															]
+														}
+													]
+												}
+											]
+										},
+										{
+											"type": "statblock",
+											"prop": "subclass",
+											"source": "XUA2025ArcaneUpdates",
+											"name": "Transmuter",
+											"className": "Wizard",
+											"classSource": "XPHB",
+											"page": 9
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	]
+}
