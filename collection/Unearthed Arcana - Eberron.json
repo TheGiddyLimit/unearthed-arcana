@@ -749,6 +749,7 @@
 			"effects": [
 				{
 					"name": "Natural Armor",
+					"disabled": true,
 					"transfer": true,
 					"changes": [
 						{
@@ -756,8 +757,7 @@
 							"mode": "ADD",
 							"value": "+ 1"
 						}
-					],
-					"disabled": true
+					]
 				}
 			]
 		}

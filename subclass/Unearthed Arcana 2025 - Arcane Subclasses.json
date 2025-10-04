@@ -172,6 +172,9 @@
 			"className": "Fighter",
 			"classSource": "XPHB",
 			"page": 2,
+			"reprintedAs": [
+				"Arcane Archer|Fighter|XPHB|XUA2025ArcaneUpdates"
+			],
 			"additionalSpells": [
 				{
 					"known": {
@@ -510,6 +513,9 @@
 			"className": "Monk",
 			"classSource": "XPHB",
 			"page": 4,
+			"reprintedAs": [
+				"Tattooed Warrior|Monk|XPHB|XUA2025ArcaneUpdates"
+			],
 			"subclassFeatures": [
 				"Tattooed Warrior|Monk|XPHB|Tattooed Warrior|XUA2025ArcaneSubclasses|3|XUA2025ArcaneSubclasses",
 				"Celestial Tattoo|Monk|XPHB|Tattooed Warrior|XUA2025ArcaneSubclasses|6|XUA2025ArcaneSubclasses",
@@ -2605,25 +2611,6 @@
 			"subclassShortName": "Arcana",
 			"subclassSource": "XUA2025ArcaneSubclasses",
 			"level": 3,
-			"entries": [
-				"You learn magical theory and secrets of nature, granting you the following benefits.",
-				{
-					"type": "entries",
-					"name": "Cantrip",
-					"page": 2,
-					"entries": [
-						"You know either the {@spell Druidcraft|XPHB} or {@spell Prestidigitation|XPHB} cantrip. Intelligence is your spellcasting ability for it."
-					]
-				},
-				{
-					"type": "entries",
-					"name": "Skills",
-					"page": 2,
-					"entries": [
-						"You gain proficiency in the {@skill Arcana|XPHB} and {@skill Nature|XPHB} skills. If you already have one of these proficiencies, you instead gain proficiency in a different skill of your choice (or with two other skills if you have both)."
-					]
-				}
-			],
 			"entryData": {
 				"skillProficiencies": [
 					{

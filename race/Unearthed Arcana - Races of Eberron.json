@@ -746,6 +746,7 @@
 			"effects": [
 				{
 					"name": "Darkwood Core",
+					"disabled": true,
 					"transfer": true,
 					"changes": [
 						{
@@ -758,11 +759,11 @@
 							"mode": "OVERRIDE",
 							"value": "11 + @abilities.dex.mod + @attributes.prof"
 						}
-					],
-					"disabled": true
+					]
 				},
 				{
 					"name": "Composite Plating",
+					"disabled": true,
 					"transfer": true,
 					"changes": [
 						{
@@ -775,11 +776,11 @@
 							"mode": "OVERRIDE",
 							"value": "13 + {2, @abilities.dex.mod}kl + @attributes.prof"
 						}
-					],
-					"disabled": true
+					]
 				},
 				{
 					"name": "Heavy Plating",
+					"disabled": true,
 					"transfer": true,
 					"changes": [
 						{
@@ -792,8 +793,7 @@
 							"mode": "OVERRIDE",
 							"value": "16 + @attributes.prof"
 						}
-					],
-					"disabled": true
+					]
 				}
 			]
 		},
@@ -805,6 +805,7 @@
 			"effects": [
 				{
 					"name": "Natural Armor",
+					"disabled": true,
 					"transfer": true,
 					"changes": [
 						{
@@ -812,8 +813,7 @@
 							"mode": "ADD",
 							"value": "+ 1"
 						}
-					],
-					"disabled": true
+					]
 				}
 			]
 		}

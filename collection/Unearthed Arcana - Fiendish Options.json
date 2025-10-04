@@ -491,7 +491,7 @@
 			"cultists": {
 				"entry": "Any NPC or monster who has suffered a fall from grace"
 			},
-			"signaturespells": {
+			"signatureSpells": {
 				"entry": "{@spell Minor illusion} (cantrip), {@spell disguise self} (1st level), {@spell phantasmal force} (2nd level), {@spell major image} (3rd level)"
 			},
 			"entries": [
@@ -517,7 +517,7 @@
 			"cultists": {
 				"entry": "{@creature Acolyte}, {@creature bandit}, {@creature bandit captain}, {@creature cult fanatic}, {@creature cultist}, {@creature mage}, {@creature noble}, {@creature spy}"
 			},
-			"signaturespells": {
+			"signatureSpells": {
 				"entry": "{@spell Guidance} (cantrip), {@spell identify} (1st level), {@spell see invisibility} (2nd level), {@spell clairvoyance} (3rd level)"
 			},
 			"entries": [
@@ -551,7 +551,7 @@
 			"cultists": {
 				"entry": "{@creature Acolyte}, {@creature archmage}, {@creature bandit captain}, {@creature cult fanatic}, {@creature cultist}, {@creature knight}, {@creature noble}, {@creature priest}, {@creature spy}"
 			},
-			"signaturespells": {
+			"signatureSpells": {
 				"entry": "{@spell Friends} (cantrip), {@spell charm person} (1st level), {@spell suggestion} (2nd level), {@spell hypnotic pattern} (3rd level)"
 			},
 			"entries": [
@@ -584,7 +584,7 @@
 			"cultists": {
 				"entry": "{@creature Bandit}, {@creature bandit captain}, {@creature berserker}, {@creature cult fanatic}, {@creature cultist}, {@creature gladiator}, {@creature thug}, {@creature tribal warrior}, {@creature veteran||veterans}"
 			},
-			"signaturespells": {
+			"signatureSpells": {
 				"entry": "{@spell Shillelagh} (cantrip), {@spell wrathful smite} (1st level), {@spell enhance ability} (2nd level), {@spell aura of vitality} (3rd level)"
 			},
 			"entries": [
@@ -618,7 +618,7 @@
 			"cultists": {
 				"entry": "{@creature Bandit}, {@creature bandit captain}, {@creature cult fanatic}, {@creature cultist}, {@creature knight}, {@creature noble}, {@creature spy}, {@creature thug}"
 			},
-			"signaturespells": {
+			"signatureSpells": {
 				"entry": "{@spell Friends} (cantrip), {@spell charm person} (1st level), {@spell invisibility} (2nd level), {@spell haste} (3rd level)"
 			},
 			"entries": [
@@ -652,7 +652,7 @@
 			"cultists": {
 				"entry": "{@creature Assassin}, {@creature bandit captain}, {@creature cult fanatic}, {@creature cultist}, {@creature mage}, {@creature noble}, {@creature spy}, {@creature thug}"
 			},
-			"signaturespells": {
+			"signatureSpells": {
 				"entry": "{@spell Blade ward} (cantrip), {@spell expeditious retreat} (1st level), {@spell spider climb} (2nd level), {@spell gaseous form} (3rd level)"
 			},
 			"entries": [
@@ -680,7 +680,7 @@
 			"cultists": {
 				"entry": "{@creature Bandit}, {@creature bandit captain}, {@creature cult fanatic}, {@creature cultist}, {@creature noble}, {@creature spy}, {@creature thug}"
 			},
-			"signaturespells": {
+			"signatureSpells": {
 				"entry": "{@spell Mending} (cantrip), {@spell Tenser's floating disk} (1st level), {@spell arcane lock} (2nd level), {@spell glyph of warding} (3rd level)"
 			},
 			"entries": [
@@ -715,7 +715,7 @@
 			"cultists": {
 				"entry": "{@creature Archmage}, {@creature cult fanatic}, {@creature cultist}, {@creature mage}, {@creature priest}"
 			},
-			"signaturespells": {
+			"signatureSpells": {
 				"entry": "{@spell Fire bolt} (cantrip), {@spell burning hands} (1st level), {@spell flaming sphere} (2nd level), {@spell fireball} (3rd level)"
 			},
 			"entries": [
@@ -748,7 +748,7 @@
 			"cultists": {
 				"entry": "{@creature Berserker}, {@creature cult fanatic}, {@creature cultist}, {@creature gladiator}, {@creature guard}, {@creature knight}, {@creature veteran}"
 			},
-			"signaturespells": {
+			"signatureSpells": {
 				"entry": "{@spell True strike} (cantrip), {@spell heroism} (1st level), {@spell spiritual weapon} (2nd level), {@spell crusader's mantle} (3rd level)"
 			},
 			"entries": [
@@ -781,7 +781,7 @@
 			"ability": {
 				"entry": "Up to a +4 bonus to Strength, Wisdom, or both"
 			},
-			"signaturespells": {
+			"signatureSpells": {
 				"entry": "{@spell Hunter's mark} (1st level), {@spell beast sense} (2nd level), {@spell slow} (3rd level)"
 			},
 			"entries": [
@@ -817,7 +817,7 @@
 			"ability": {
 				"entry": "Up to a +4 bonus to Strength, Charisma, or both"
 			},
-			"signaturespells": {
+			"signatureSpells": {
 				"entry": "{@spell Charm person} (1st level), {@spell enlarge/reduce} (2nd level), {@spell vampiric touch} (3rd level)"
 			},
 			"entries": [
@@ -839,7 +839,7 @@
 			"ability": {
 				"entry": "Up to a +4 bonus to Wisdom, Charisma, or both"
 			},
-			"signaturespells": {
+			"signatureSpells": {
 				"entry": "{@spell Minor illusion} (cantrip), {@spell disguise self} (1st level), {@spell invisibility} (2nd level), {@spell hypnotic pattern} (3rd level)"
 			},
 			"entries": [
@@ -862,7 +862,7 @@
 			"ability": {
 				"entry": "Up to a +4 bonus to Constitution, Charisma, or both"
 			},
-			"signaturespells": {
+			"signatureSpells": {
 				"entry": "{@spell False life} (1st level), {@spell hold person} (2nd level), {@spell fear} (3rd level)"
 			},
 			"entries": [
@@ -918,7 +918,7 @@
 			"ability": {
 				"entry": "Up to a +4 bonus to Intelligence, Wisdom, or both"
 			},
-			"signaturespells": {
+			"signatureSpells": {
 				"entry": "{@spell False life} (1st level), {@spell ray of enfeeblement} (2nd level), {@spell animate dead} (3rd level)"
 			},
 			"entries": [
@@ -947,7 +947,7 @@
 			"ability": {
 				"entry": "Up to a +4 bonus to Strength and Dexterity, with an equal penalty to Intelligence and Charisma"
 			},
-			"signaturespells": {
+			"signatureSpells": {
 				"entry": "{@spell Tasha's hideous laughter} (1st level), {@spell crown of madness} (2nd level), {@spell fear} (3rd level)"
 			},
 			"entries": [
