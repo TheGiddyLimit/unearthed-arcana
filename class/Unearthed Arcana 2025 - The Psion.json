@@ -31,6 +31,9 @@
 			"name": "Psion",
 			"source": "XUA2025Psion",
 			"page": 1,
+			"reprintedAs": [
+				"Psion|XUA2025PsionUpdate"
+			],
 			"edition": "one",
 			"primaryAbility": [
 				{
@@ -810,6 +813,9 @@
 			"className": "Psion",
 			"classSource": "XUA2025Psion",
 			"page": 7,
+			"reprintedAs": [
+				"Metamorph|Psion|XUA2025PsionUpdate|XUA2025PsionUpdate"
+			],
 			"additionalSpells": [
 				{
 					"prepared": {
@@ -923,6 +929,9 @@
 			"className": "Psion",
 			"classSource": "XUA2025Psion",
 			"page": 8,
+			"reprintedAs": [
+				"Psykinetic|Psion|XUA2025PsionUpdate|XUA2025PsionUpdate"
+			],
 			"additionalSpells": [
 				{
 					"prepared": {
@@ -975,6 +984,9 @@
 			"className": "Psion",
 			"classSource": "XUA2025Psion",
 			"page": 9,
+			"reprintedAs": [
+				"Telepath|Psion|XUA2025PsionUpdate|XUA2025PsionUpdate"
+			],
 			"additionalSpells": [
 				{
 					"prepared": {
@@ -2269,6 +2281,9 @@
 			"name": "Biofeedback",
 			"source": "XUA2025Psion",
 			"page": 4,
+			"reprintedAs": [
+				"Biofeedback|XUA2025PsionUpdate"
+			],
 			"featureType": [
 				"PD"
 			],
@@ -2284,6 +2299,9 @@
 			"name": "Destructive Thoughts",
 			"source": "XUA2025Psion",
 			"page": 4,
+			"reprintedAs": [
+				"Destructive Thoughts|XUA2025PsionUpdate"
+			],
 			"featureType": [
 				"PD"
 			],
@@ -2299,6 +2317,9 @@
 			"name": "Devilish Tongue",
 			"source": "XUA2025Psion",
 			"page": 4,
+			"reprintedAs": [
+				"Devilish Tongue|XUA2025PsionUpdate"
+			],
 			"featureType": [
 				"PD"
 			],
@@ -2314,6 +2335,12 @@
 			"name": "Ego Whip",
 			"source": "XUA2025Psion",
 			"page": 4,
+			"reprintedAs": [
+				{
+					"uid": "Ego Whip|XUA2025PsionUpdate",
+					"tag": "spell"
+				}
+			],
 			"featureType": [
 				"PD"
 			],
@@ -2329,6 +2356,9 @@
 			"name": "Expanded Awareness",
 			"source": "XUA2025Psion",
 			"page": 4,
+			"reprintedAs": [
+				"Expanded Awareness|XUA2025PsionUpdate"
+			],
 			"featureType": [
 				"PD"
 			],
@@ -2344,6 +2374,9 @@
 			"name": "Id Insinuation",
 			"source": "XUA2025Psion",
 			"page": 4,
+			"reprintedAs": [
+				"Id Insinuation|XUA2025PsionUpdate"
+			],
 			"featureType": [
 				"PD"
 			],
@@ -2359,6 +2392,9 @@
 			"name": "Inerrant Aim",
 			"source": "XUA2025Psion",
 			"page": 4,
+			"reprintedAs": [
+				"Inerrant Aim|XUA2025PsionUpdate"
+			],
 			"featureType": [
 				"PD"
 			],
@@ -2374,6 +2410,9 @@
 			"name": "Psionic Backlash",
 			"source": "XUA2025Psion",
 			"page": 4,
+			"reprintedAs": [
+				"Psionic Backlash|XUA2025PsionUpdate"
+			],
 			"featureType": [
 				"PD"
 			],
@@ -2389,6 +2428,9 @@
 			"name": "Psionic Guards",
 			"source": "XUA2025Psion",
 			"page": 5,
+			"reprintedAs": [
+				"Psionic Guards|XUA2025PsionUpdate"
+			],
 			"featureType": [
 				"PD"
 			],
@@ -2405,6 +2447,9 @@
 			"name": "Swift Precognition",
 			"source": "XUA2025Psion",
 			"page": 5,
+			"reprintedAs": [
+				"Bolstering Precognition|XUA2025PsionUpdate"
+			],
 			"featureType": [
 				"PD"
 			],
@@ -2421,6 +2466,9 @@
 			"name": "Tactical Mind",
 			"source": "XUA2025Psion",
 			"page": 5,
+			"reprintedAs": [
+				"Observant Mind|XUA2025PsionUpdate"
+			],
 			"featureType": [
 				"PD"
 			],
@@ -3116,6 +3164,9 @@
 			"name": "Intellect Fortress",
 			"source": "XUA2025Psion",
 			"page": 10,
+			"reprintedAs": [
+				"Intellect Fortress|XUA2025PsionUpdate"
+			],
 			"level": 3,
 			"school": "A",
 			"time": [
@@ -3196,6 +3247,9 @@
 			"name": "Psychic Scream",
 			"source": "XUA2025Psion",
 			"page": 10,
+			"reprintedAs": [
+				"Psychic Scream|XUA2025PsionUpdate"
+			],
 			"level": 9,
 			"school": "E",
 			"time": [
@@ -3261,6 +3315,9 @@
 			"name": "Raulothim's Psychic Lance",
 			"source": "XUA2025Psion",
 			"page": 10,
+			"reprintedAs": [
+				"Raulothim's Psychic Lance|XUA2025PsionUpdate"
+			],
 			"level": 4,
 			"school": "E",
 			"time": [
@@ -3338,6 +3395,9 @@
 			"name": "Summon Astral Entity",
 			"source": "XUA2025Psion",
 			"page": 10,
+			"reprintedAs": [
+				"Summon Astral Entity|XUA2025PsionUpdate"
+			],
 			"level": 3,
 			"school": "C",
 			"time": [
@@ -3421,6 +3481,9 @@
 			"name": "Tasha's Mind Whip",
 			"source": "XUA2025Psion",
 			"page": 11,
+			"reprintedAs": [
+				"Tasha's Mind Whip|XUA2025PsionUpdate"
+			],
 			"level": 2,
 			"school": "E",
 			"time": [
@@ -3488,6 +3551,9 @@
 			"name": "Telekinetic Crush",
 			"source": "XUA2025Psion",
 			"page": 11,
+			"reprintedAs": [
+				"Telekinetic Crush|XUA2025PsionUpdate"
+			],
 			"level": 3,
 			"school": "T",
 			"time": [
@@ -3553,6 +3619,9 @@
 			"name": "Telekinetic Fling",
 			"source": "XUA2025Psion",
 			"page": 11,
+			"reprintedAs": [
+				"Telekinetic Fling|XUA2025PsionUpdate"
+			],
 			"level": 0,
 			"school": "V",
 			"time": [
@@ -3625,6 +3694,9 @@
 			"name": "Psionic Spirit",
 			"source": "XUA2025Psion",
 			"page": 11,
+			"reprintedAs": [
+				"Psionic Spirit|XUA2025PsionUpdate"
+			],
 			"summonedBySpell": "Summon Astral Entity|XUA2025Psion",
 			"size": [
 				"M"
