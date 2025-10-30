@@ -22,6 +22,42 @@
 		"dateAdded": 1761853046,
 		"dateLastModified": 1761853046
 	},
+	"subclass": [
+		{
+			"name": "Path of the Spiritual Guardian",
+			"shortName": "Spiritual Guardian",
+			"source": "XUA2025SubclassesUpdate",
+			"className": "Barbarian",
+			"classSource": "XPHB",
+			"page": 1,
+			"additionalSpells": [
+				{
+					"ability": "wis",
+					"innate": {
+						"10": {
+							"rest": {
+								"1": [
+									"augury|XPHB",
+									"clairvoyance|XPHB"
+								]
+							}
+						}
+					}
+				}
+			],
+			"subclassSpells": [
+				"augury|XPHB",
+				"clairvoyance|XPHB"
+			],
+			"subclassFeatures": [
+				"Path of the Spiritual Guardian|Barbarian|XPHB|Spiritual Guardian|XUA2025SubclassesUpdate|3|XUA2025SubclassesUpdate",
+				"Spirit Shield|Barbarian|XPHB|Spiritual Guardian|XUA2025SubclassesUpdate|6|XUA2025SubclassesUpdate",
+				"Consult the Spirits|Barbarian|XPHB|Spiritual Guardian|XUA2025SubclassesUpdate|10|XUA2025SubclassesUpdate",
+				"Vengeful Spirits|Barbarian|XPHB|Spiritual Guardian|XUA2025SubclassesUpdate|14|XUA2025SubclassesUpdate"
+			],
+			"hasFluff": true
+		}
+	],
 	"subclassFluff": [
 		{
 			"name": "Cavalier",
@@ -129,7 +165,7 @@
 		},
 		{
 			"name": "Path of the Spiritual Guardian",
-			"shortName": "Path of the Spiritual Guardian",
+			"shortName": "Spiritual Guardian",
 			"source": "XUA2025SubclassesUpdate",
 			"className": "Barbarian",
 			"classSource": "XPHB",
@@ -166,7 +202,7 @@
 									"name": "Vengeful Spirits",
 									"nameDot": false,
 									"entries": [
-										"(formerly {@subclassFeature Vengeful Ancestors|Barbarian|XPHB|Ancestral Guardian|XGE|14|XGE}) is a new feature that allows you to make an additional attack when you roll an 18 or higher on an attack roll."
+										"(formerly {@subclassFeature Vengeful Ancestors|Barbarian|PHB|Ancestral Guardian|XGE|14|XGE}) is a new feature that allows you to make an additional attack when you roll an 18 or higher on an attack roll."
 									]
 								}
 							]
@@ -177,7 +213,7 @@
 		},
 		{
 			"name": "Path of the Storm Herald",
-			"shortName": "Path of the Storm Herald",
+			"shortName": "Storm Herald",
 			"source": "XUA2025SubclassesUpdate",
 			"className": "Barbarian",
 			"classSource": "XPHB",
@@ -217,7 +253,7 @@
 		},
 		{
 			"name": "Warrior of Intoxication",
-			"shortName": "Warrior of Intoxication",
+			"shortName": "Intoxication",
 			"source": "XUA2025SubclassesUpdate",
 			"className": "Monk",
 			"classSource": "XPHB",
@@ -253,6 +289,137 @@
 						}
 					]
 				}
+			]
+		}
+	],
+	"subclassFeature": [
+		{
+			"name": "Path of the Spiritual Guardian",
+			"source": "XUA2025SubclassesUpdate",
+			"page": 1,
+			"className": "Barbarian",
+			"classSource": "XPHB",
+			"subclassShortName": "Spiritual Guardian",
+			"subclassSource": "XUA2025SubclassesUpdate",
+			"level": 3,
+			"header": 1,
+			"entries": [
+				"Barbarians who walk the Path of the Spiritual Guardian call upon spirits\u2014whether bestial spirits of nature, spirits of departed ancestors, or spirits of raw elemental power\u2014to guide and protect them. When these Barbarians rage, they contact the realm of the spirits and call on them for aid.",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Spiritual Protectors|Barbarian|XPHB|Spiritual Guardian|XUA2025SubclassesUpdate|3|XUA2025SubclassesUpdate"
+				}
+			]
+		},
+		{
+			"name": "Spiritual Protectors",
+			"source": "XUA2025SubclassesUpdate",
+			"page": 1,
+			"className": "Barbarian",
+			"classSource": "XPHB",
+			"subclassShortName": "Spiritual Guardian",
+			"subclassSource": "XUA2025SubclassesUpdate",
+			"level": 3,
+			"header": 2,
+			"entries": [
+				"Your {@classFeature Rage|Barbarian|XPHB|1|XPHB} summons spectral warriors to your aid. While your {@classFeature Rage|Barbarian|XPHB|1|XPHB} is active, when you hit a creature with a weapon or an {@variantrule Unarmed Strike|XPHB}, it becomes the target of the spirits, which cause one of the following effects of your choice.",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Distract|Barbarian|XPHB|Spiritual Guardian|XUA2025SubclassesUpdate|3|XUA2025SubclassesUpdate"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Protect|Barbarian|XPHB|Spiritual Guardian|XUA2025SubclassesUpdate|3|XUA2025SubclassesUpdate"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Strike|Barbarian|XPHB|Spiritual Guardian|XUA2025SubclassesUpdate|3|XUA2025SubclassesUpdate"
+				}
+			]
+		},
+		{
+			"name": "Distract",
+			"source": "XUA2025SubclassesUpdate",
+			"page": 1,
+			"className": "Barbarian",
+			"classSource": "XPHB",
+			"subclassShortName": "Spiritual Guardian",
+			"subclassSource": "XUA2025SubclassesUpdate",
+			"level": 3,
+			"header": 3,
+			"entries": [
+				"Until the start of your next turn, the target has {@variantrule Disadvantage|XPHB} attack rolls against targets other than you or another {@class Barbarian|XPHB} who has this feature."
+			]
+		},
+		{
+			"name": "Protect",
+			"source": "XUA2025SubclassesUpdate",
+			"page": 1,
+			"className": "Barbarian",
+			"classSource": "XPHB",
+			"subclassShortName": "Spiritual Guardian",
+			"subclassSource": "XUA2025SubclassesUpdate",
+			"level": 3,
+			"header": 3,
+			"entries": [
+				"Until the end of the target's next turn, the next time it hits a creature other than you with an attack roll, that creature has {@variantrule Resistance|XPHB} to the damage dealt by the attack."
+			]
+		},
+		{
+			"name": "Strike",
+			"source": "XUA2025SubclassesUpdate",
+			"page": 1,
+			"className": "Barbarian",
+			"classSource": "XPHB",
+			"subclassShortName": "Spiritual Guardian",
+			"subclassSource": "XUA2025SubclassesUpdate",
+			"level": 3,
+			"header": 3,
+			"entries": [
+				"The target takes an extra {@dice 1d6} damage, which can be Acid, Cold, Fire, Force, Lightning, or Thunder damage (your choice)."
+			]
+		},
+		{
+			"name": "Spirit Shield",
+			"source": "XUA2025SubclassesUpdate",
+			"page": 2,
+			"className": "Barbarian",
+			"classSource": "XPHB",
+			"subclassShortName": "Spiritual Guardian",
+			"subclassSource": "XUA2025SubclassesUpdate",
+			"level": 6,
+			"header": 2,
+			"entries": [
+				"Your guardian spirits can provide supernatural protection to those you defend. While your {@classFeature Rage|Barbarian|XPHB|1|XPHB} is active, when another creature you can see within 30 feet of you takes damage, you can take a {@variantrule Reaction|XPHB} to reduce that damage. To determine the amount the damage is reduced by, roll a number of {@dice d6|d6s} equal to your Rage Damage bonus, and add them together."
+			]
+		},
+		{
+			"name": "Consult the Spirits",
+			"source": "XUA2025SubclassesUpdate",
+			"page": 2,
+			"className": "Barbarian",
+			"classSource": "XPHB",
+			"subclassShortName": "Spiritual Guardian",
+			"subclassSource": "XUA2025SubclassesUpdate",
+			"level": 10,
+			"header": 2,
+			"entries": [
+				"You gain the ability to consult with your guardian spirits. When you do so, you cast the {@spell Augury|XPHB} or {@spell Clairvoyance|XPHB} spell, without expending a spell slot or needing Material components. Rather than creating a spherical sensor, this use of {@spell Clairvoyance|XPHB} invisibly summons one of your guardian spirits to the chosen location. Wisdom is your spellcasting ability for these spells.",
+				"After you cast either spell in this way, you can't use this feature again until you finish a {@variantrule Short Rest|XPHB|Short} or {@variantrule Long Rest|XPHB}."
+			]
+		},
+		{
+			"name": "Vengeful Spirits",
+			"source": "XUA2025SubclassesUpdate",
+			"page": 2,
+			"className": "Barbarian",
+			"classSource": "XPHB",
+			"subclassShortName": "Spiritual Guardian",
+			"subclassSource": "XUA2025SubclassesUpdate",
+			"level": 14,
+			"header": 2,
+			"entries": [
+				"When you make an attack roll with a Melee weapon as part of the {@action Attack|XPHB} action and roll 18\u201320 on the {@dice d20}, you can make one additional attack roll with the same weapon as part of that action. Once you use this feature, you can't do so again until the start of your next turn."
 			]
 		}
 	],
@@ -398,7 +565,7 @@
 															"name": "Vengeful Spirits",
 															"nameDot": false,
 															"entries": [
-																"(formerly {@subclassFeature Vengeful Ancestors|Barbarian|XPHB|Ancestral Guardian|XGE|14|XGE}) is a new feature that allows you to make an additional attack when you roll an 18 or higher on an attack roll."
+																"(formerly {@subclassFeature Vengeful Ancestors|Barbarian|PHB|Ancestral Guardian|XGE|14|XGE}) is a new feature that allows you to make an additional attack when you roll an 18 or higher on an attack roll."
 															]
 														}
 													]
