@@ -24,6 +24,22 @@
 	},
 	"subclass": [
 		{
+			"name": "Cavalier",
+			"shortName": "Cavalier",
+			"source": "XUA2025SubclassesUpdate",
+			"className": "Fighter",
+			"classSource": "XPHB",
+			"page": 3,
+			"subclassFeatures": [
+				"Cavalier|Fighter|XPHB|Cavalier|XUA2025SubclassesUpdate|3|XUA2025SubclassesUpdate",
+				"Warding Maneuver|Fighter|XPHB|Cavalier|XUA2025SubclassesUpdate|7|XUA2025SubclassesUpdate",
+				"Hold the Line|Fighter|XPHB|Cavalier|XUA2025SubclassesUpdate|10|XUA2025SubclassesUpdate",
+				"Ferocious Charger|Fighter|XPHB|Cavalier|XUA2025SubclassesUpdate|15|XUA2025SubclassesUpdate",
+				"Vigilant Defender|Fighter|XPHB|Cavalier|XUA2025SubclassesUpdate|18|XUA2025SubclassesUpdate"
+			],
+			"hasFluff": true
+		},
+		{
 			"name": "Path of the Spiritual Guardian",
 			"shortName": "Spiritual Guardian",
 			"source": "XUA2025SubclassesUpdate",
@@ -674,6 +690,134 @@
 			"entries": [
 				"Once per turn, when a creature you can see fails its saving throw against your {@subclassFeature Storm Aura|Barbarian|XPHB|Storm Herald|XUA2025SubclassesUpdate|3|XUA2025SubclassesUpdate} effect, you can cause it to take {@damage 2d4} Cold damage and its {@variantrule Speed|XPHB} is halved until the end of its next turn."
 			]
+		},
+		{
+			"name": "Cavalier",
+			"source": "XUA2025SubclassesUpdate",
+			"page": 3,
+			"className": "Fighter",
+			"classSource": "XPHB",
+			"subclassShortName": "Cavalier",
+			"subclassSource": "XUA2025SubclassesUpdate",
+			"level": 3,
+			"header": 1,
+			"entries": [
+				"Cavaliers excel at mounted combat and guard those in their charge, often protecting their superiors and the weak. A Cavalier is equally at home leading a cavalry charge or exchanging repartees at a state dinner.",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Bonus Proficiency|Fighter|XPHB|Cavalier|XUA2025SubclassesUpdate|3|XUA2025SubclassesUpdate"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Born to the Saddle|Fighter|XPHB|Cavalier|XUA2025SubclassesUpdate|3|XUA2025SubclassesUpdate"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Unwavering Mark|Fighter|XPHB|Cavalier|XUA2025SubclassesUpdate|3|XUA2025SubclassesUpdate"
+				}
+			]
+		},
+		{
+			"name": "Bonus Proficiency",
+			"source": "XUA2025SubclassesUpdate",
+			"page": 3,
+			"className": "Fighter",
+			"classSource": "XPHB",
+			"subclassShortName": "Cavalier",
+			"subclassSource": "XUA2025SubclassesUpdate",
+			"level": 3,
+			"header": 2,
+			"entries": [
+				"You gain proficiency in one the following skills of your choice: {@skill Animal Handling|XPHB}, {@skill History|XPHB}, {@skill Insight|XPHB}, {@skill Performance|XPHB}, or {@skill Persuasion|XPHB}. Alternatively, you learn one language of your choice."
+			]
+		},
+		{
+			"name": "Born to the Saddle",
+			"source": "XUA2025SubclassesUpdate",
+			"page": 3,
+			"className": "Fighter",
+			"classSource": "XPHB",
+			"subclassShortName": "Cavalier",
+			"subclassSource": "XUA2025SubclassesUpdate",
+			"level": 3,
+			"header": 2,
+			"entries": [
+				"You have {@variantrule Advantage|XPHB} on saving throws made to avoid falling off your mount. If you fall off your mount and descend no more than 10 feet, you can land on your feet if you don't have the {@condition Incapacitated|XPHB} condition.",
+				"In addition, mounting or dismounting a creature costs you only 5 feet of movement rather than half your {@variantrule Speed|XPHB}."
+			]
+		},
+		{
+			"name": "Unwavering Mark",
+			"source": "XUA2025SubclassesUpdate",
+			"page": 3,
+			"className": "Fighter",
+			"classSource": "XPHB",
+			"subclassShortName": "Cavalier",
+			"subclassSource": "XUA2025SubclassesUpdate",
+			"level": 3,
+			"header": 2,
+			"entries": [
+				"You can menace your foes, foiling their attacks and punishing them for harming others. When you hit a creature with a Melee weapon, you can mark the creature until the end of your next turn. This effect ends early if you have the {@condition Incapacitated|XPHB} condition, you die, or someone else marks the creature.",
+				"While it is within 5 feet of you, a creature marked by you has {@variantrule Disadvantage|XPHB} on attack rolls against creatures other than you.",
+				"In addition, if a creature marked by you hits a creature other than you with an attack roll, you have {@variantrule Advantage|XPHB} on attack rolls against the marked creature until the end of your next turn."
+			]
+		},
+		{
+			"name": "Warding Maneuver",
+			"source": "XUA2025SubclassesUpdate",
+			"page": 3,
+			"className": "Fighter",
+			"classSource": "XPHB",
+			"subclassShortName": "Cavalier",
+			"subclassSource": "XUA2025SubclassesUpdate",
+			"level": 7,
+			"header": 2,
+			"entries": [
+				"You learn to fend off strikes directed at you, your mount, or other creatures nearby. If you or a creature you can see within 5 feet of you is hit by an attack roll, you can roll {@dice 1d8} as a {@variantrule Reaction|XPHB} if you're wielding a Melee weapon or a {@item Shield|XPHB}. Roll the die, and add the number rolled to the target's AC against the triggering attack. If the attack still hits, the target has {@variantrule Resistance|XPHB} against the attack's damage.",
+				"You can use this feature a number of times equal to your Constitution modifier (minimum of once), and you regain all expended uses when you finish a {@variantrule Long Rest|XPHB}."
+			]
+		},
+		{
+			"name": "Hold the Line",
+			"source": "XUA2025SubclassesUpdate",
+			"page": 4,
+			"className": "Fighter",
+			"classSource": "XPHB",
+			"subclassShortName": "Cavalier",
+			"subclassSource": "XUA2025SubclassesUpdate",
+			"level": 10,
+			"header": 2,
+			"entries": [
+				"Creatures provoke an {@action Opportunity Attack|XPHB} from you when they move 5 feet or more while within your reach. When you hit a creature with an {@action Opportunity Attack|XPHB}, the target's {@variantrule Speed|XPHB} becomes 0 until the end of the current turn."
+			]
+		},
+		{
+			"name": "Ferocious Charger",
+			"source": "XUA2025SubclassesUpdate",
+			"page": 4,
+			"className": "Fighter",
+			"classSource": "XPHB",
+			"subclassShortName": "Cavalier",
+			"subclassSource": "XUA2025SubclassesUpdate",
+			"level": 15,
+			"header": 2,
+			"entries": [
+				"During the first round of each combat, you and your mount's {@variantrule Speed|XPHB} increases by 10 feet, and your movement doesn't provoke {@action Opportunity Attack|XPHB|Opportunity Attacks} for that round. When you move within 5 feet of a creature this round, that creature must succeed on a Strength saving throw (DC 8 plus your Strength modifier and {@table Proficiency bonus|XPHB}) or you either push it 5 feet away or cause it to have the {@condition Prone|XPHB} condition. A creature makes this save only once during a turn."
+			]
+		},
+		{
+			"name": "Vigilant Defender",
+			"source": "XUA2025SubclassesUpdate",
+			"page": 4,
+			"className": "Fighter",
+			"classSource": "XPHB",
+			"subclassShortName": "Cavalier",
+			"subclassSource": "XUA2025SubclassesUpdate",
+			"level": 18,
+			"header": 2,
+			"entries": [
+				"In combat, you get a special {@variantrule Reaction|XPHB} that you can take once on every creature's turn except your turn. You can take this {@variantrule Reaction|XPHB} only to make an {@action Opportunity Attack|XPHB}, and you can't take it on the same turn that you take your normal {@variantrule Reaction|XPHB}."
+			]
 		}
 	],
 	"foundrySubclassFeature": [
@@ -728,6 +872,34 @@
 			"entryData": {
 				"resist": [
 					"cold"
+				]
+			}
+		},
+		{
+			"name": "Bonus Proficiency",
+			"source": "XUA2025SubclassesUpdate",
+			"className": "Fighter",
+			"classSource": "XPHB",
+			"subclassShortName": "Cavalier",
+			"subclassSource": "XUA2025SubclassesUpdate",
+			"level": 3,
+			"entryData": {
+				"skillToolLanguageProficiencies": [
+					{
+						"choose": [
+							{
+								"from": [
+									"animal handling",
+									"history",
+									"insight",
+									"performance",
+									"persuasion",
+									"anyStandardLanguage"
+								],
+								"count": 1
+							}
+						]
+					}
 				]
 			}
 		}
