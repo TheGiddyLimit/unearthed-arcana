@@ -22,6 +22,240 @@
 		"dateAdded": 1761853046,
 		"dateLastModified": 1761853046
 	},
+	"subclassFluff": [
+		{
+			"name": "Cavalier",
+			"shortName": "Cavalier",
+			"source": "XUA2025SubclassesUpdate",
+			"className": "Fighter",
+			"classSource": "XPHB",
+			"entries": [
+				"{@i Defend Your Allies on Foot or from a Mount}",
+				{
+					"type": "inset",
+					"name": "Design Note: Cavalier Updates",
+					"page": 3,
+					"entries": [
+						"Here are the main updates in this subclass since its appearance in {@book Xanathar's Guide to Everything|XGE}:",
+						{
+							"type": "list",
+							"page": 3,
+							"items": [
+								{
+									"type": "item",
+									"name": "Unwavering Mark",
+									"nameDot": false,
+									"entries": [
+										"no longer has limited uses."
+									]
+								},
+								{
+									"type": "item",
+									"name": "Ferocious Charger",
+									"nameDot": false,
+									"entries": [
+										"has been redesigned to give a burst of speed during the first round of each combat."
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Oathbreaker",
+			"shortName": "Oathbreaker",
+			"source": "XUA2025SubclassesUpdate",
+			"className": "Paladin",
+			"classSource": "XPHB",
+			"entries": [
+				"{@i Obtain Great Power at Any Cost}",
+				{
+					"type": "inset",
+					"name": "Design Note: Oathbreaker Updates",
+					"page": 5,
+					"entries": [
+						"Here are the main updates in this subclass since its last appearance in the 2014 {@book Dungeon Master's Guide|DMG}:",
+						{
+							"type": "list",
+							"page": 5,
+							"items": [
+								{
+									"type": "item",
+									"name": "Conjure Undead",
+									"nameDot": false,
+									"entries": [
+										"(formerly {@subclassFeature Control Undead|Paladin|PHB|Oathbreaker|DMG|3|DMG}) now lets you briefly summon Undead to aid you."
+									]
+								},
+								{
+									"type": "item",
+									"name": "Dreadful Aspect",
+									"nameDot": false,
+									"entries": [
+										"now loops through the {@spell Divine Smite|XPHB} spell."
+									]
+								},
+								{
+									"type": "item",
+									"name": "Oathbreaker Spells",
+									"nameDot": false,
+									"entries": [
+										"has new spells."
+									]
+								},
+								{
+									"type": "item",
+									"name": "Aura of Hate",
+									"nameDot": false,
+									"entries": [
+										"now adds its effect to your {@classFeature Aura of Protection|Paladin|XPHB|6|XPHB}. The aura now benefits only Fiends and Undead that are your allies."
+									]
+								},
+								{
+									"type": "item",
+									"name": "Dread Lord",
+									"nameDot": false,
+									"entries": [
+										"now imbues your {@classFeature Aura of Protection|Paladin|XPHB|6|XPHB} and can be recharged by expending a level 5 spell slot."
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Path of the Spiritual Guardian",
+			"shortName": "Path of the Spiritual Guardian",
+			"source": "XUA2025SubclassesUpdate",
+			"className": "Barbarian",
+			"classSource": "XPHB",
+			"entries": [
+				"{@i Call on the Spirits for Combat Aid}",
+				{
+					"type": "inset",
+					"name": "Design Note: Path of the Spiritual Guardian Updates",
+					"page": 1,
+					"entries": [
+						"Here are the main updates in this subclass (formerly {@class Barbarian|PHB|Path of the Ancestral Guardian|Ancestral Guardian|XGE}) since its last appearance in {@book Xanathar's Guide to Everything|XGE}:",
+						{
+							"type": "list",
+							"page": 1,
+							"items": [
+								{
+									"type": "item",
+									"name": "Spiritual Protectors",
+									"nameDot": false,
+									"entries": [
+										"(formerly {@subclassFeature Ancestral Protectors|Barbarian|PHB|Ancestral Guardian|XGE|3|XGE}) has been redesigned. The feature now splits the effects of the original feature, along with new effects, as options when you hit a creature while your {@classFeature Rage|Barbarian|XPHB|1|XPHB} is active."
+									]
+								},
+								{
+									"type": "item",
+									"name": "Spirit Shield",
+									"nameDot": false,
+									"entries": [
+										"now scales with your Rage Damage bonus."
+									]
+								},
+								{
+									"type": "item",
+									"name": "Vengeful Spirits",
+									"nameDot": false,
+									"entries": [
+										"(formerly {@subclassFeature Vengeful Ancestors|Barbarian|XPHB|Ancestral Guardian|XGE|14|XGE}) is a new feature that allows you to make an additional attack when you roll an 18 or higher on an attack roll."
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Path of the Storm Herald",
+			"shortName": "Path of the Storm Herald",
+			"source": "XUA2025SubclassesUpdate",
+			"className": "Barbarian",
+			"classSource": "XPHB",
+			"entries": [
+				"{@i Wield the Fury of the Storm}",
+				{
+					"type": "inset",
+					"name": "Design Note: Path of the Storm Herald Updates",
+					"page": 3,
+					"entries": [
+						"Here are the main updates in this subclass since its appearance in {@book Xanathar's Guide to Everything|XGE}:",
+						{
+							"type": "list",
+							"page": 2,
+							"items": [
+								{
+									"type": "item",
+									"name": "Storm Aura",
+									"nameDot": false,
+									"entries": [
+										"now scales with your Rage Damage bonus. In addition, {@subclassFeature Tundra|Barbarian|XPHB|Storm Herald|XUA2025SubclassesUpdate|3|XUA2025SubclassesUpdate} has been redesigned to reduce a creature's damage instead of applying {@variantrule Temporary Hit Points|XPHB}."
+									]
+								},
+								{
+									"type": "item",
+									"name": "Raging Storm",
+									"nameDot": false,
+									"entries": [
+										"has each environment redesigned. {@subclassFeature Desert|Barbarian|XPHB|Storm Herald|XUA2025SubclassesUpdate|14|XUA2025SubclassesUpdate} now makes a creature that failed the saving throw start burning. {@subclassFeature Sea|Barbarian|XPHB|Storm Herald|XUA2025SubclassesUpdate|14|XUA2025SubclassesUpdate} can now chain the lightning bolt to another creature. {@subclassFeature Tundra|Barbarian|XPHB|Storm Herald|XUA2025SubclassesUpdate|14|XUA2025SubclassesUpdate} now deals Cold damage and halves a creature's {@variantrule Speed|XPHB}."
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Warrior of Intoxication",
+			"shortName": "Warrior of Intoxication",
+			"source": "XUA2025SubclassesUpdate",
+			"className": "Monk",
+			"classSource": "XPHB",
+			"entries": [
+				"{@i Drink Mystic Brews to Overwhelm and Confound Foes}",
+				{
+					"type": "inset",
+					"name": "Design Note: Warrior of Intoxication Updates",
+					"page": 4,
+					"entries": [
+						"Here are the main updates in this subclass (formerly {@class Monk|PHB|Way of the Drunken Master|Drunken Master|XGE}) since its last appearance in {@book Xanathar's Guide to Everything|XGE}:",
+						{
+							"type": "list",
+							"page": 4,
+							"items": [
+								{
+									"type": "item",
+									"name": "Mystic Brew",
+									"nameDot": false,
+									"entries": [
+										"is a new feature that lets the {@class Monk|XPHB} create magical brews that they can drink to gain long-lasting benefits."
+									]
+								},
+								{
+									"type": "item",
+									"name": "Master Brewer",
+									"nameDot": false,
+									"entries": [
+										"is a new feature that replaces {@subclassFeature Drunkard's Luck|Monk|PHB|Drunken Master|XGE|11|XGE}. The feature adds additional beverage options to {@subclassFeature Mystic Brew|Monk|XPHB|Intoxication|XUA2025SubclassesUpdate|6|XUA2025SubclassesUpdate}."
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	],
 	"book": [
 		{
 			"name": "Unearthed Arcana 2025: Subclasses Update",
@@ -211,7 +445,7 @@
 															"name": "Raging Storm",
 															"nameDot": false,
 															"entries": [
-																"has each environment redesigned. {@subclassFeature Desert|Barbarian|XPHB|Storm Herald|XUA2025SubclassesUpdate|14|XUA2025SubclassesUpdate} now makes a creature that failed the saving throw start burning. {@subclassFeature Sea|Barbarian|XPHB|Storm Herald|XUA2025SubclassesUpdate|14|XUA2025SubclassesUpdate} can now chain the lightning bolt to another creature. {@subclassFeature Tundra|Barbarian|XPHB|Storm Herald|XUA2025SubclassesUpdate|14|XUA2025SubclassesUpdate} now deals Cold damage and halves a creature’s {@variantrule Speed|XPHB}."
+																"has each environment redesigned. {@subclassFeature Desert|Barbarian|XPHB|Storm Herald|XUA2025SubclassesUpdate|14|XUA2025SubclassesUpdate} now makes a creature that failed the saving throw start burning. {@subclassFeature Sea|Barbarian|XPHB|Storm Herald|XUA2025SubclassesUpdate|14|XUA2025SubclassesUpdate} can now chain the lightning bolt to another creature. {@subclassFeature Tundra|Barbarian|XPHB|Storm Herald|XUA2025SubclassesUpdate|14|XUA2025SubclassesUpdate} now deals Cold damage and halves a creature's {@variantrule Speed|XPHB}."
 															]
 														}
 													]
@@ -305,7 +539,7 @@
 															"name": "Master Brewer",
 															"nameDot": false,
 															"entries": [
-																"is a new feature that replaces {@subclassFeature Drunkard’s Luck|Monk|PHB|Drunken Master|XGE|11|XGE}. The feature adds additional beverage options to {@subclassFeature Mystic Brew|Monk|XPHB|Intoxication|XUA2025SubclassesUpdate|6|XUA2025SubclassesUpdate}."
+																"is a new feature that replaces {@subclassFeature Drunkard's Luck|Monk|PHB|Drunken Master|XGE|11|XGE}. The feature adds additional beverage options to {@subclassFeature Mystic Brew|Monk|XPHB|Intoxication|XUA2025SubclassesUpdate|6|XUA2025SubclassesUpdate}."
 															]
 														}
 													]
@@ -334,7 +568,7 @@
 											"name": "Design Note: Oathbreaker Updates",
 											"page": 5,
 											"entries": [
-												"Here are the main updates in this subclass since its last appearance in the 2014 {@book Dungeon Master’s Guide|DMG}:",
+												"Here are the main updates in this subclass since its last appearance in the 2014 {@book Dungeon Master's Guide|DMG}:",
 												{
 													"type": "list",
 													"page": 5,
