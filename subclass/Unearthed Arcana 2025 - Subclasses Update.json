@@ -87,6 +87,22 @@
 				"Raging Storm|Barbarian|XPHB|Storm Herald|XUA2025SubclassesUpdate|14|XUA2025SubclassesUpdate"
 			],
 			"hasFluff": true
+		},
+		{
+			"name": "Warrior of Intoxication",
+			"shortName": "Intoxication",
+			"source": "XUA2025SubclassesUpdate",
+			"className": "Monk",
+			"classSource": "XPHB",
+			"page": 4,
+			"subclassFeatures": [
+				"Warrior of Intoxication|Monk|XPHB|Intoxication|XUA2025SubclassesUpdate|3|XUA2025SubclassesUpdate",
+				"Tipsy Sway|Monk|XPHB|Intoxication|XUA2025SubclassesUpdate|6|XUA2025SubclassesUpdate",
+				"Mystic Brew|Monk|XPHB|Intoxication|XUA2025SubclassesUpdate|6|XUA2025SubclassesUpdate",
+				"Master Brewer|Monk|XPHB|Intoxication|XUA2025SubclassesUpdate|11|XUA2025SubclassesUpdate",
+				"Intoxicated Frenzy|Monk|XPHB|Intoxication|XUA2025SubclassesUpdate|17|XUA2025SubclassesUpdate"
+			],
+			"hasFluff": true
 		}
 	],
 	"subclassFluff": [
@@ -818,6 +834,278 @@
 			"entries": [
 				"In combat, you get a special {@variantrule Reaction|XPHB} that you can take once on every creature's turn except your turn. You can take this {@variantrule Reaction|XPHB} only to make an {@action Opportunity Attack|XPHB}, and you can't take it on the same turn that you take your normal {@variantrule Reaction|XPHB}."
 			]
+		},
+		{
+			"name": "Warrior of Intoxication",
+			"source": "XUA2025SubclassesUpdate",
+			"page": 4,
+			"className": "Monk",
+			"classSource": "XPHB",
+			"subclassShortName": "Intoxication",
+			"subclassSource": "XUA2025SubclassesUpdate",
+			"level": 3,
+			"header": 1,
+			"entries": [
+				"Warriors of Intoxication move with the jerky, unpredictable movements typical of someone who is intoxicated. These Monks sway on unsteady feet to appear incompetent and then prove themselves frustrating to engage. Their apparently erratic stumbles conceal a carefully executed dance of blocks, parries, advances, attacks, and retreats.",
+				"Warriors of Intoxication often enjoy playing the fool to bring gladness to the downtrodden or to teach humility to the arrogant, but these Monks are maddening, masterful foes in battle.",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Bonus Proficiencies|Monk|XPHB|Intoxication|XUA2025SubclassesUpdate|3|XUA2025SubclassesUpdate"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Drunken Technique|Monk|XPHB|Intoxication|XUA2025SubclassesUpdate|3|XUA2025SubclassesUpdate"
+				}
+			]
+		},
+		{
+			"name": "Bonus Proficiencies",
+			"source": "XUA2025SubclassesUpdate",
+			"page": 4,
+			"className": "Monk",
+			"classSource": "XPHB",
+			"subclassShortName": "Intoxication",
+			"subclassSource": "XUA2025SubclassesUpdate",
+			"level": 3,
+			"header": 2,
+			"entries": [
+				"You gain proficiency in the {@skill Performance|XPHB} skill, or if you already have it, you gain proficiency in one skill of your choice from the skills available to Monks at level 1. You also gain proficiency with {@item Brewer's Supplies|XPHB} if you don't already have it."
+			]
+		},
+		{
+			"name": "Drunken Technique",
+			"source": "XUA2025SubclassesUpdate",
+			"page": 4,
+			"className": "Monk",
+			"classSource": "XPHB",
+			"subclassShortName": "Intoxication",
+			"subclassSource": "XUA2025SubclassesUpdate",
+			"level": 3,
+			"header": 2,
+			"entries": [
+				"You twist and turn quickly as part of your {@classFeature Flurry of Blows|Monk|XPHB|2|XPHB}. Whenever you use {@classFeature Flurry of Blows|Monk|XPHB|2|XPHB}, your {@variantrule Speed|XPHB} increases by 10 feet until the end of the current turn and your movement during that time doesn't provoke {@action Opportunity Attack|XPHB|Opportunity Attacks}."
+			]
+		},
+		{
+			"name": "Mystic Brew",
+			"source": "XUA2025SubclassesUpdate",
+			"page": 4,
+			"className": "Monk",
+			"classSource": "XPHB",
+			"subclassShortName": "Intoxication",
+			"subclassSource": "XUA2025SubclassesUpdate",
+			"level": 6,
+			"header": 2,
+			"consumes": {
+				"name": "Focus Point",
+				"amountMin": 0,
+				"amountMax": 1
+			},
+			"entries": [
+				"Whenever you finish a {@variantrule Short Rest|XPHB|Short} or {@variantrule Long Rest|XPHB} while holding {@item Brewer's Supplies|XPHB}, you can use that tool to magically produce one magical beverage, chosen from the following options: Cinnamon Dragon, Heavenly Spirit, or Refreshing Dip. The beverage appears in a bottle or cask, and the bottle vanishes when the beverage is drunk or poured out. If any beverage remains when you finish a {@variantrule Short Rest|XPHB|Short} or {@variantrule Long Rest|XPHB}, the beverage and its container vanish.",
+				{
+					"type": "entries",
+					"name": "Drinking a Magical Beverage",
+					"page": 4,
+					"entries": [
+						"Only you can gain the benefit of drinking the beverage. You must drink at least a pint of the beverage before gaining its benefit. You can spend 1 minute drinking a pint of the beverage. You then gain the benefits of the beverage for 1 hour, as described below."
+					]
+				},
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"page": 5,
+					"items": [
+						{
+							"type": "refSubclassFeature",
+							"subclassFeature": "Cinnamon Dragon|Monk|XPHB|Intoxication|XUA2025SubclassesUpdate|6|XUA2025SubclassesUpdate"
+						},
+						{
+							"type": "refSubclassFeature",
+							"subclassFeature": "Heavenly Spirit|Monk|XPHB|Intoxication|XUA2025SubclassesUpdate|6|XUA2025SubclassesUpdate"
+						},
+						{
+							"type": "refSubclassFeature",
+							"subclassFeature": "Refreshing Dip|Monk|XPHB|Intoxication|XUA2025SubclassesUpdate|6|XUA2025SubclassesUpdate"
+						}
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Enhancing a Magical Beverage",
+					"page": 5,
+					"entries": [
+						"When you create a magical beverage, you can expend 1 Focus Point. When you do so, the benefit's duration extends to 8 hours."
+					]
+				}
+			]
+		},
+		{
+			"name": "Tipsy Sway",
+			"source": "XUA2025SubclassesUpdate",
+			"page": 4,
+			"className": "Monk",
+			"classSource": "XPHB",
+			"subclassShortName": "Intoxication",
+			"subclassSource": "XUA2025SubclassesUpdate",
+			"level": 6,
+			"header": 2,
+			"entries": [
+				"You can move in sudden, swaying ways. You gain the following benefits.",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Leap to Your Feet|Monk|XPHB|Intoxication|XUA2025SubclassesUpdate|6|XUA2025SubclassesUpdate"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Redirect Attack|Monk|XPHB|Intoxication|XUA2025SubclassesUpdate|6|XUA2025SubclassesUpdate"
+				}
+			]
+		},
+		{
+			"name": "Cinnamon Dragon",
+			"source": "XUA2025SubclassesUpdate",
+			"page": 5,
+			"className": "Monk",
+			"classSource": "XPHB",
+			"subclassShortName": "Intoxication",
+			"subclassSource": "XUA2025SubclassesUpdate",
+			"level": 6,
+			"header": 3,
+			"entries": [
+				"You can take a {@action Magic|XPHB} action to exhale toxic flames in a 30-foot {@variantrule Cone [Area of Effect]|XPHB|Cone}. Each creature makes a Dexterity saving throw (DC 8 plus your Wisdom modifier and {@table Proficiency bonus|XPHB}). On a failed save, a creature takes Fire damage equal to four rolls of your {@classFeature Martial Arts die|Monk|XPHB|1|XPHB} and has the {@condition Poisoned|XPHB} condition until the end of its next turn. On a successful save, a creature takes half as much damage only."
+			]
+		},
+		{
+			"name": "Heavenly Spirit",
+			"source": "XUA2025SubclassesUpdate",
+			"page": 5,
+			"className": "Monk",
+			"classSource": "XPHB",
+			"subclassShortName": "Intoxication",
+			"subclassSource": "XUA2025SubclassesUpdate",
+			"level": 6,
+			"header": 3,
+			"entries": [
+				"You gain {@variantrule Resistance|XPHB} to Psychic and Radiant damage."
+			]
+		},
+		{
+			"name": "Leap to Your Feet",
+			"source": "XUA2025SubclassesUpdate",
+			"page": 4,
+			"className": "Monk",
+			"classSource": "XPHB",
+			"subclassShortName": "Intoxication",
+			"subclassSource": "XUA2025SubclassesUpdate",
+			"level": 6,
+			"header": 3,
+			"entries": [
+				"When you have the {@condition Prone|XPHB} condition, you can stand up by spending 5 feet of movement, rather than half your {@variantrule Speed|XPHB}."
+			]
+		},
+		{
+			"name": "Redirect Attack",
+			"source": "XUA2025SubclassesUpdate",
+			"page": 4,
+			"className": "Monk",
+			"classSource": "XPHB",
+			"subclassShortName": "Intoxication",
+			"subclassSource": "XUA2025SubclassesUpdate",
+			"level": 6,
+			"header": 3,
+			"consumes": {
+				"name": "Focus Point",
+				"amount": 1
+			},
+			"entries": [
+				"When a creature misses you with a melee attack roll, you can spend 1 Focus Point as a {@variantrule Reaction|XPHB} to cause that attack to hit one creature of your choice, other than the attacker, that you can see within 5 feet of yourself."
+			]
+		},
+		{
+			"name": "Refreshing Dip",
+			"source": "XUA2025SubclassesUpdate",
+			"page": 5,
+			"className": "Monk",
+			"classSource": "XPHB",
+			"subclassShortName": "Intoxication",
+			"subclassSource": "XUA2025SubclassesUpdate",
+			"level": 6,
+			"header": 3,
+			"entries": [
+				"Whenever you regain {@variantrule Hit Points|XPHB}, you regain additional {@variantrule Hit Points|XPHB} equal to a roll of your {@classFeature Martial Arts die|Monk|XPHB|1|XPHB}."
+			]
+		},
+		{
+			"name": "Master Brewer",
+			"source": "XUA2025SubclassesUpdate",
+			"page": 5,
+			"className": "Monk",
+			"classSource": "XPHB",
+			"subclassShortName": "Intoxication",
+			"subclassSource": "XUA2025SubclassesUpdate",
+			"level": 11,
+			"header": 2,
+			"entries": [
+				"You learn more complex flavors. The following beverages are added to your {@subclassFeature Mystic Brew|Monk|XPHB|Intoxication|XUA2025SubclassesUpdate|6|XUA2025SubclassesUpdate} options.",
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"page": 5,
+					"items": [
+						{
+							"type": "refSubclassFeature",
+							"subclassFeature": "Blue Lightning|Monk|XPHB|Intoxication|XUA2025SubclassesUpdate|11|XUA2025SubclassesUpdate"
+						},
+						{
+							"type": "refSubclassFeature",
+							"subclassFeature": "Drunkard's Luck|Monk|XPHB|Intoxication|XUA2025SubclassesUpdate|11|XUA2025SubclassesUpdate"
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Blue Lightning",
+			"source": "XUA2025SubclassesUpdate",
+			"page": 5,
+			"className": "Monk",
+			"classSource": "XPHB",
+			"subclassShortName": "Intoxication",
+			"subclassSource": "XUA2025SubclassesUpdate",
+			"level": 11,
+			"header": 3,
+			"entries": [
+				"Whenever you take a {@variantrule Reaction|XPHB} that isn't making an {@action Opportunity Attack|XPHB} or casting a spell, you can make one {@variantrule Unarmed Strike|XPHB} as part of that {@variantrule Reaction|XPHB}."
+			]
+		},
+		{
+			"name": "Drunkard's Luck",
+			"source": "XUA2025SubclassesUpdate",
+			"page": 5,
+			"className": "Monk",
+			"classSource": "XPHB",
+			"subclassShortName": "Intoxication",
+			"subclassSource": "XUA2025SubclassesUpdate",
+			"level": 11,
+			"header": 3,
+			"entries": [
+				"You gain {@variantrule Heroic Inspiration|XPHB} if you don't already have it. In addition, you can give yourself {@variantrule Heroic Inspiration|XPHB} when you roll {@variantrule Initiative|XPHB} without it."
+			]
+		},
+		{
+			"name": "Intoxicated Frenzy",
+			"source": "XUA2025SubclassesUpdate",
+			"page": 5,
+			"className": "Monk",
+			"classSource": "XPHB",
+			"subclassShortName": "Intoxication",
+			"subclassSource": "XUA2025SubclassesUpdate",
+			"level": 17,
+			"header": 3,
+			"entries": [
+				"You make an overwhelming number of attacks against a group of enemies. When you use {@classFeature Flurry of Blows|Monk|XPHB|2|XPHB}, you can make up to three additional {@variantrule Unarmed Strike|XPHB|Unarmed Strikes} with it (up to a total of six {@variantrule Unarmed Strike|XPHB|Unarmed Strikes}), provided that each strike targets a different creature this turn."
+			]
 		}
 	],
 	"foundrySubclassFeature": [
@@ -899,6 +1187,40 @@
 								"count": 1
 							}
 						]
+					}
+				]
+			}
+		},
+		{
+			"name": "Bonus Proficiencies",
+			"source": "XUA2025SubclassesUpdate",
+			"className": "Monk",
+			"classSource": "XPHB",
+			"subclassShortName": "Intoxication",
+			"subclassSource": "XUA2025SubclassesUpdate",
+			"level": 3,
+			"entryData": {
+				"skillProficiencies": [
+					{
+						"performance": true
+					},
+					{
+						"choose": {
+							"from": [
+								"acrobatics",
+								"athletics",
+								"history",
+								"insight",
+								"religion",
+								"stealth"
+							],
+							"count": 1
+						}
+					}
+				],
+				"toolProficiencies": [
+					{
+						"brewer's supplies": true
 					}
 				]
 			}
