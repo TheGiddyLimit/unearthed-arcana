@@ -1,0 +1,404 @@
+{
+	"$schema": "https://raw.githubusercontent.com/TheGiddyLimit/5etools-utils/master/schema/ua-fast/homebrew.json",
+	"_meta": {
+		"sources": [
+			{
+				"json": "XUA2025SubclassesUpdate",
+				"abbreviation": "XUA25SU",
+				"full": "Unearthed Arcana 2025: Subclasses Update",
+				"authors": [
+					"Wizards of the Coast"
+				],
+				"convertedBy": [
+					"Lyra [he/him]"
+				],
+				"version": "1.0.0",
+				"url": "https://media.dndbeyond.com/compendium-images/ua/subclasses-update/PWtmnmBuM6NVYAXE/UA2025+Updated+Subclasses.pdf",
+				"dateReleased": "2025-10-30"
+			}
+		],
+		"edition": "one",
+		"status": "ready",
+		"dateAdded": 1761853046,
+		"dateLastModified": 1761853046
+	},
+	"book": [
+		{
+			"name": "Unearthed Arcana 2025: Subclasses Update",
+			"id": "XUA2025SubclassesUpdate",
+			"source": "XUA2025SubclassesUpdate",
+			"group": "prerelease",
+			"cover": {
+				"type": "external",
+				"url": "https://raw.githubusercontent.com/TheGiddyLimit/unearthed-arcana/refs/heads/master/_img/XUA2025SubclassesUpdate/cover.webp"
+			},
+			"published": "2025-10-30",
+			"author": "Wizards of the Coast",
+			"contents": [
+				{
+					"name": "Unearthed Arcana 2025: Subclasses Update",
+					"headers": [
+						"What's Inside",
+						"Subclasses",
+						{
+							"header": "Path of the Spiritual Guardian (Barbarian)",
+							"depth": 1
+						},
+						{
+							"header": "Path of the Storm Herald (Barbarian)",
+							"depth": 1
+						},
+						{
+							"header": "Cavalier (Fighter)",
+							"depth": 1
+						},
+						{
+							"header": "Warrior of Intoxication (Monk)",
+							"depth": 1
+						},
+						{
+							"header": "Oathbreaker (Paladin)",
+							"depth": 1
+						}
+					]
+				}
+			]
+		}
+	],
+	"bookData": [
+		{
+			"id": "XUA2025SubclassesUpdate",
+			"source": "XUA2025SubclassesUpdate",
+			"data": [
+				{
+					"type": "section",
+					"name": "Unearthed Arcana 2025: Subclasses Update",
+					"page": 1,
+					"entries": [
+						"This playtest document is part of a series of {@i Unearthed Arcana} articles that present material designed for upcoming products. The material here uses the rules in the {@book 2024 Player's Handbook|XPHB}.",
+						{
+							"type": "section",
+							"name": "What's Inside",
+							"page": 1,
+							"entries": [
+								"This document presents five subclasses: revised subclasses for the {@class Barbarian|XPHB} ({@class Barbarian|XPHB|Path of the Spiritual Guardian|Spiritual Guardian|XUA2025SubclassesUpdate} and {@class Barbarian|XPHB|Path of the Storm Herald|Storm Herald|XUA2025SubclassesUpdate}), {@class Fighter|XPHB} ({@class Fighter|XPHB|Cavalier|Cavalier|XUA2025SubclassesUpdate}), {@class Monk|XPHB} ({@class Monk|XPHB|Warrior of Intoxication|Intoxication|XUA2025SubclassesUpdate}), and {@class Paladin|XPHB} ({@class Paladin|XPHB|Oathbreaker|Oathbreaker|XUA2025SubclassesUpdate}).",
+								{
+									"type": "inset",
+									"name": "This Is Playtest Material",
+									"page": 1,
+									"entries": [
+										"This article is presented for playtesting and feedback. The options here are experimental and in draft form. They aren't officially part of the game. Your feedback will help determine whether we adopt it as official.",
+										{
+											"type": "list",
+											"style": "list-hang-notitle",
+											"page": 1,
+											"items": [
+												{
+													"type": "item",
+													"name": "How to Playtest This UA",
+													"entries": [
+														"We invite you to try out this material in play. To play with this material, you may either incorporate it into your campaign or run one or more special playtest sessions. For such a session, you may create an adventure of your own or use a short adventure from a source like {@adventure Quests from the Infinite Staircase|QftIS}."
+													]
+												},
+												{
+													"type": "item",
+													"name": "Power Level",
+													"entries": [
+														"The character options you read here might be more or less powerful than options in the {@book 2024 Player's Handbook|XPHB}. If a design survives playtesting, we adjust its power to the desirable level before publication. This means an option could be more or less powerful in its final form."
+													]
+												},
+												{
+													"type": "item",
+													"name": "Feedback",
+													"entries": [
+														"The best way for you to give us feedback on this material is in the survey we'll release on D&D Beyond. If we make this material official, it will be refined based on your feedback, and then it will appear in a D&D book.",
+														"Providing feedback on this document is one way you can help shape the future of D&D!"
+													]
+												}
+											]
+										}
+									]
+								}
+							]
+						},
+						{
+							"type": "section",
+							"name": "Subclasses",
+							"page": 1,
+							"entries": [
+								"This section presents the following subclasses: {@class Barbarian|XPHB|Path of the Spiritual Guardian|Spiritual Guardian|XUA2025SubclassesUpdate}, {@class Barbarian|XPHB|Path of the Storm Herald|Storm Herald|XUA2025SubclassesUpdate}, {@class Fighter|XPHB|Cavalier|Cavalier|XUA2025SubclassesUpdate}, {@class Monk|XPHB|Warrior of Intoxication|Intoxication|XUA2025SubclassesUpdate}, and {@class Paladin|XPHB|Oathbreaker|Oathbreaker|XUA2025SubclassesUpdate}.",
+								{
+									"type": "entries",
+									"name": "Path of the Spiritual Guardian (Barbarian)",
+									"page": 1,
+									"entries": [
+										"{@i Call on the Spirits for Combat Aid}",
+										{
+											"type": "inset",
+											"name": "Design Note: Path of the Spiritual Guardian Updates",
+											"page": 1,
+											"entries": [
+												"Here are the main updates in this subclass (formerly {@class Barbarian|PHB|Path of the Ancestral Guardian|Ancestral Guardian|XGE}) since its last appearance in {@book Xanathar's Guide to Everything|XGE}:",
+												{
+													"type": "list",
+													"page": 1,
+													"items": [
+														{
+															"type": "item",
+															"name": "Spiritual Protectors",
+															"nameDot": false,
+															"entries": [
+																"(formerly {@subclassFeature Ancestral Protectors|Barbarian|PHB|Ancestral Guardian|XGE|3|XGE}) has been redesigned. The feature now splits the effects of the original feature, along with new effects, as options when you hit a creature while your {@classFeature Rage|Barbarian|XPHB|1|XPHB} is active."
+															]
+														},
+														{
+															"type": "item",
+															"name": "Spirit Shield",
+															"nameDot": false,
+															"entries": [
+																"now scales with your Rage Damage bonus."
+															]
+														},
+														{
+															"type": "item",
+															"name": "Vengeful Spirits",
+															"nameDot": false,
+															"entries": [
+																"(formerly {@subclassFeature Vengeful Ancestors|Barbarian|XPHB|Ancestral Guardian|XGE|14|XGE}) is a new feature that allows you to make an additional attack when you roll an 18 or higher on an attack roll."
+															]
+														}
+													]
+												}
+											]
+										},
+										{
+											"type": "statblock",
+											"prop": "subclass",
+											"source": "XUA2025SubclassesUpdate",
+											"name": "Spiritual Guardian",
+											"className": "Barbarian",
+											"classSource": "XPHB",
+											"page": 1
+										}
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Path of the Storm Herald (Barbarian)",
+									"page": 2,
+									"entries": [
+										"{@i Wield the Fury of the Storm}",
+										{
+											"type": "inset",
+											"name": "Design Note: Path of the Storm Herald Updates",
+											"page": 3,
+											"entries": [
+												"Here are the main updates in this subclass since its appearance in {@book Xanathar's Guide to Everything|XGE}:",
+												{
+													"type": "list",
+													"page": 2,
+													"items": [
+														{
+															"type": "item",
+															"name": "Storm Aura",
+															"nameDot": false,
+															"entries": [
+																"now scales with your Rage Damage bonus. In addition, {@subclassFeature Tundra|Barbarian|XPHB|Storm Herald|XUA2025SubclassesUpdate|3|XUA2025SubclassesUpdate} has been redesigned to reduce a creature's damage instead of applying {@variantrule Temporary Hit Points|XPHB}."
+															]
+														},
+														{
+															"type": "item",
+															"name": "Raging Storm",
+															"nameDot": false,
+															"entries": [
+																"has each environment redesigned. {@subclassFeature Desert|Barbarian|XPHB|Storm Herald|XUA2025SubclassesUpdate|14|XUA2025SubclassesUpdate} now makes a creature that failed the saving throw start burning. {@subclassFeature Sea|Barbarian|XPHB|Storm Herald|XUA2025SubclassesUpdate|14|XUA2025SubclassesUpdate} can now chain the lightning bolt to another creature. {@subclassFeature Tundra|Barbarian|XPHB|Storm Herald|XUA2025SubclassesUpdate|14|XUA2025SubclassesUpdate} now deals Cold damage and halves a creature’s {@variantrule Speed|XPHB}."
+															]
+														}
+													]
+												}
+											]
+										},
+										{
+											"type": "statblock",
+											"prop": "subclass",
+											"source": "XUA2025SubclassesUpdate",
+											"name": "Storm Herald",
+											"className": "Barbarian",
+											"classSource": "XPHB",
+											"page": 2
+										}
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Cavalier (Fighter)",
+									"page": 3,
+									"entries": [
+										"{@i Defend Your Allies on Foot or from a Mount}",
+										{
+											"type": "inset",
+											"name": "Design Note: Cavalier Updates",
+											"page": 3,
+											"entries": [
+												"Here are the main updates in this subclass since its appearance in {@book Xanathar's Guide to Everything|XGE}:",
+												{
+													"type": "list",
+													"page": 3,
+													"items": [
+														{
+															"type": "item",
+															"name": "Unwavering Mark",
+															"nameDot": false,
+															"entries": [
+																"no longer has limited uses."
+															]
+														},
+														{
+															"type": "item",
+															"name": "Ferocious Charger",
+															"nameDot": false,
+															"entries": [
+																"has been redesigned to give a burst of speed during the first round of each combat."
+															]
+														}
+													]
+												}
+											]
+										},
+										{
+											"type": "statblock",
+											"prop": "subclass",
+											"source": "XUA2025SubclassesUpdate",
+											"name": "Cavalier",
+											"className": "Fighter",
+											"classSource": "XPHB",
+											"page": 3
+										}
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Warrior of Intoxication (Monk)",
+									"page": 4,
+									"entries": [
+										"{@i Drink Mystic Brews to Overwhelm and Confound Foes}",
+										{
+											"type": "inset",
+											"name": "Design Note: Warrior of Intoxication Updates",
+											"page": 4,
+											"entries": [
+												"Here are the main updates in this subclass (formerly {@class Monk|PHB|Way of the Drunken Master|Drunken Master|XGE}) since its last appearance in {@book Xanathar's Guide to Everything|XGE}:",
+												{
+													"type": "list",
+													"page": 4,
+													"items": [
+														{
+															"type": "item",
+															"name": "Mystic Brew",
+															"nameDot": false,
+															"entries": [
+																"is a new feature that lets the {@class Monk|XPHB} create magical brews that they can drink to gain long-lasting benefits."
+															]
+														},
+														{
+															"type": "item",
+															"name": "Master Brewer",
+															"nameDot": false,
+															"entries": [
+																"is a new feature that replaces {@subclassFeature Drunkard’s Luck|Monk|PHB|Drunken Master|XGE|11|XGE}. The feature adds additional beverage options to {@subclassFeature Mystic Brew|Monk|XPHB|Intoxication|XUA2025SubclassesUpdate|6|XUA2025SubclassesUpdate}."
+															]
+														}
+													]
+												}
+											]
+										},
+										{
+											"type": "statblock",
+											"prop": "subclass",
+											"source": "XUA2025SubclassesUpdate",
+											"name": "Intoxication",
+											"className": "Monk",
+											"classSource": "XPHB",
+											"page": 4
+										}
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Oathbreaker (Paladin)",
+									"page": 5,
+									"entries": [
+										"{@i Obtain Great Power at Any Cost}",
+										{
+											"type": "inset",
+											"name": "Design Note: Oathbreaker Updates",
+											"page": 5,
+											"entries": [
+												"Here are the main updates in this subclass since its last appearance in the 2014 {@book Dungeon Master’s Guide|DMG}:",
+												{
+													"type": "list",
+													"page": 5,
+													"items": [
+														{
+															"type": "item",
+															"name": "Conjure Undead",
+															"nameDot": false,
+															"entries": [
+																"(formerly {@subclassFeature Control Undead|Paladin|PHB|Oathbreaker|DMG|3|DMG}) now lets you briefly summon Undead to aid you."
+															]
+														},
+														{
+															"type": "item",
+															"name": "Dreadful Aspect",
+															"nameDot": false,
+															"entries": [
+																"now loops through the {@spell Divine Smite|XPHB} spell."
+															]
+														},
+														{
+															"type": "item",
+															"name": "Oathbreaker Spells",
+															"nameDot": false,
+															"entries": [
+																"has new spells."
+															]
+														},
+														{
+															"type": "item",
+															"name": "Aura of Hate",
+															"nameDot": false,
+															"entries": [
+																"now adds its effect to your {@classFeature Aura of Protection|Paladin|XPHB|6|XPHB}. The aura now benefits only Fiends and Undead that are your allies."
+															]
+														},
+														{
+															"type": "item",
+															"name": "Dread Lord",
+															"nameDot": false,
+															"entries": [
+																"now imbues your {@classFeature Aura of Protection|Paladin|XPHB|6|XPHB} and can be recharged by expending a level 5 spell slot."
+															]
+														}
+													]
+												}
+											]
+										},
+										{
+											"type": "statblock",
+											"prop": "subclass",
+											"source": "XUA2025SubclassesUpdate",
+											"name": "Oathbreaker",
+											"className": "Paladin",
+											"classSource": "XPHB",
+											"page": 5
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	]
+}
