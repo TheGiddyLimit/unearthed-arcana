@@ -40,6 +40,59 @@
 			"hasFluff": true
 		},
 		{
+			"name": "Oathbreaker",
+			"shortName": "Oathbreaker",
+			"source": "XUA2025SubclassesUpdate",
+			"className": "Paladin",
+			"classSource": "XPHB",
+			"page": 5,
+			"additionalSpells": [
+				{
+					"prepared": {
+						"3": [
+							"Hellish Rebuke|XPHB",
+							"Witch Bolt|XPHB"
+						],
+						"5": [
+							"Crown of Madness|XPHB",
+							"Darkness|XPHB"
+						],
+						"9": [
+							"Fear|XPHB",
+							"Summon Undead|XPHB"
+						],
+						"13": [
+							"Blight|XPHB",
+							"Phantasmal Killer|XPHB"
+						],
+						"17": [
+							"Contagion|XPHB",
+							"Steel Wind Strike|XPHB"
+						]
+					}
+				}
+			],
+			"subclassSpells": [
+				"Hellish Rebuke|XPHB",
+				"Witch Bolt|XPHB",
+				"Crown of Madness|XPHB",
+				"Darkness|XPHB",
+				"Fear|XPHB",
+				"Summon Undead|XPHB",
+				"Blight|XPHB",
+				"Phantasmal Killer|XPHB",
+				"Contagion|XPHB",
+				"Steel Wind Strike|XPHB"
+			],
+			"subclassFeatures": [
+				"Oathbreaker|Paladin|XPHB|Oathbreaker|XUA2025SubclassesUpdate|3|XUA2025SubclassesUpdate",
+				"Aura of Hate|Paladin|XPHB|Oathbreaker|XUA2025SubclassesUpdate|7|XUA2025SubclassesUpdate",
+				"Supernatural Resistance|Paladin|XPHB|Oathbreaker|XUA2025SubclassesUpdate|15|XUA2025SubclassesUpdate",
+				"Dread Lord|Paladin|XPHB|Oathbreaker|XUA2025SubclassesUpdate|20|XUA2025SubclassesUpdate"
+			],
+			"hasFluff": true
+		},
+		{
 			"name": "Path of the Spiritual Guardian",
 			"shortName": "Spiritual Guardian",
 			"source": "XUA2025SubclassesUpdate",
@@ -1106,6 +1159,171 @@
 			"entries": [
 				"You make an overwhelming number of attacks against a group of enemies. When you use {@classFeature Flurry of Blows|Monk|XPHB|2|XPHB}, you can make up to three additional {@variantrule Unarmed Strike|XPHB|Unarmed Strikes} with it (up to a total of six {@variantrule Unarmed Strike|XPHB|Unarmed Strikes}), provided that each strike targets a different creature this turn."
 			]
+		},
+		{
+			"name": "Oathbreaker",
+			"source": "XUA2025SubclassesUpdate",
+			"page": 5,
+			"className": "Paladin",
+			"classSource": "XPHB",
+			"subclassShortName": "Oathbreaker",
+			"subclassSource": "XUA2025SubclassesUpdate",
+			"level": 3,
+			"header": 1,
+			"entries": [
+				"The power of a Paladin's oath is so great that it holds a distorted power even when it is violated. When a Paladin betrays the tenets of their oath because of corruption, pride, or thirst for power, they lose the blessing granted by their original oath but sometimes take on the sinister blessing of the Oathbreaker in its place. Oathbreakers use fear and overwhelming power to achieve their goals. While many Oathbreakers are beyond redemption, some Paladins bend this oath to achieve a great and noble deed to atone for their past evils.",
+				"At the DM's discretion, a Paladin of any level who violates the tenets of their oath can lose the benefits granted by their original subclass and gain the features of the Oathbreaker subclass instead. Alternatively, a Paladin can choose this subclass at level 3 based on the character's backstory of falling from grace.",
+				"These Paladins often share the following tenets:",
+				{
+					"type": "list",
+					"page": 5,
+					"items": [
+						"Fear is a tool in the hands of the powerful.",
+						"Strive for power at any cost.",
+						"Do what must be done, but never lose sight of your goal."
+					]
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Conjure Undead|Paladin|XPHB|Oathbreaker|XUA2025SubclassesUpdate|3|XUA2025SubclassesUpdate"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Dreadful Aspect|Paladin|XPHB|Oathbreaker|XUA2025SubclassesUpdate|3|XUA2025SubclassesUpdate"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Oathbreaker Spells|Paladin|XPHB|Oathbreaker|XUA2025SubclassesUpdate|3|XUA2025SubclassesUpdate"
+				}
+			]
+		},
+		{
+			"name": "Conjure Undead",
+			"source": "XUA2025SubclassesUpdate",
+			"page": 5,
+			"className": "Paladin",
+			"classSource": "XPHB",
+			"subclassShortName": "Oathbreaker",
+			"subclassSource": "XUA2025SubclassesUpdate",
+			"level": 3,
+			"header": 2,
+			"consumes": {
+				"name": "Channel Divinity",
+				"amount": 1
+			},
+			"entries": [
+				"As a {@variantrule Bonus Action|XPHB}, you can expend one use of your {@classFeature Channel Divinity|Paladin|XPHB|3|XPHB} to summon a number of Undead equal to half your Charisma modifier (round up; minimum of one Undead summoned). Each Undead appears in an unoccupied space you can see within 30 feet of you and is a type of your choice: {@creature Skeleton|XMM} or {@creature Zombie|XMM} (see {@book appendix B of the Player's Handbook|XPHB|9} for the stat blocks). The Undead are under your control for 1 minute, after which they dissolve into ash.",
+				"Each Undead is an ally to you and your allies. In combat, the Undead shares your {@variantrule Initiative|XPHB} count, but it takes its turn immediately after yours. It obeys your verbal commands (no action required by you). If you don't issue any, it takes the {@action Dodge|XPHB} action and uses its movement to avoid danger."
+			]
+		},
+		{
+			"name": "Dreadful Aspect",
+			"source": "XUA2025SubclassesUpdate",
+			"page": 6,
+			"className": "Paladin",
+			"classSource": "XPHB",
+			"subclassShortName": "Oathbreaker",
+			"subclassSource": "XUA2025SubclassesUpdate",
+			"level": 3,
+			"header": 2,
+			"consumes": {
+				"name": "Channel Divinity",
+				"amount": 1
+			},
+			"entries": [
+				"Immediately after you cast {@spell Divine Smite|XPHB}, you can expend one use of your {@classFeature Channel Divinity|Paladin|XPHB|3|XPHB} to channel a burst of magical menace. Each creature of your choice in a 30-foot {@variantrule Emanation [Area of Effect]|XPHB|Emanation} originating from you must succeed on a Wisdom saving throw or have the {@condition Frightened|XPHB} condition for 1 minute. A {@condition Frightened|XPHB} creature repeats the save at the end of each of its turns, ending the effect on itself on a success."
+			]
+		},
+		{
+			"name": "Oathbreaker Spells",
+			"source": "XUA2025SubclassesUpdate",
+			"page": 6,
+			"className": "Paladin",
+			"classSource": "XPHB",
+			"subclassShortName": "Oathbreaker",
+			"subclassSource": "XUA2025SubclassesUpdate",
+			"level": 3,
+			"header": 2,
+			"entries": [
+				"The magic of your oath ensures you always have certain spells ready; when you reach a {@class Paladin|XPHB} level specified in the {@table Oathbreaker Spells|XUA2025SubclassesUpdate} table, you thereafter always have the listed spells prepared.",
+				{
+					"type": "statblock",
+					"tag": "table",
+					"source": "XUA2025SubclassesUpdate",
+					"name": "Oathbreaker Spells",
+					"page": 6
+				}
+			]
+		},
+		{
+			"name": "Aura of Hate",
+			"source": "XUA2025SubclassesUpdate",
+			"page": 6,
+			"className": "Paladin",
+			"classSource": "XPHB",
+			"subclassShortName": "Oathbreaker",
+			"subclassSource": "XUA2025SubclassesUpdate",
+			"level": 7,
+			"header": 2,
+			"entries": [
+				"When you, as well as any Fiend or Undead in your {@classFeature Aura of Protection|Paladin|XPHB|6|XPHB} that is an ally, hits a creature with a melee attack, that attack deals extra Necrotic damage equal to your Charisma modifier."
+			]
+		},
+		{
+			"name": "Supernatural Resistance",
+			"source": "XUA2025SubclassesUpdate",
+			"page": 6,
+			"className": "Paladin",
+			"classSource": "XPHB",
+			"subclassShortName": "Oathbreaker",
+			"subclassSource": "XUA2025SubclassesUpdate",
+			"level": 15,
+			"header": 2,
+			"entries": [
+				"You gain {@variantrule Resistance|XPHB} to Bludgeoning, Piercing, and Slashing damage."
+			]
+		},
+		{
+			"name": "Dread Lord",
+			"source": "XUA2025SubclassesUpdate",
+			"page": 6,
+			"className": "Paladin",
+			"classSource": "XPHB",
+			"subclassShortName": "Oathbreaker",
+			"subclassSource": "XUA2025SubclassesUpdate",
+			"level": 20,
+			"header": 2,
+			"entries": [
+				"As a {@variantrule Bonus Action|XPHB}, you can imbue your {@classFeature Aura of Protection|Paladin|XPHB|6|XPHB} with unholy gloom, granting the benefits below for 10 minutes or until you end them (no action required). Once you use this feature, you can't use it again until you finish a {@variantrule Long Rest|XPHB}. You can also restore your use of it by expending a level 5 spell slot (no action required).",
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"page": 6,
+					"items": [
+						{
+							"type": "item",
+							"name": "Darkness",
+							"entries": [
+								"Magical {@variantrule Darkness|XPHB} fills your {@classFeature Aura of Protection|Paladin|XPHB|6|XPHB}. You and allies in your {@classFeature Aura of Protection|Paladin|XPHB|6|XPHB} can see within this magical {@variantrule Darkness|XPHB}."
+							]
+						},
+						{
+							"type": "item",
+							"name": "Fear",
+							"entries": [
+								"Whenever a creature with the {@condition Frightened|XPHB} condition starts its turn in your {@classFeature Aura of Protection|Paladin|XPHB|6|XPHB}, that creature takes {@damage 4d10} Psychic damage."
+							]
+						},
+						{
+							"type": "item",
+							"name": "Shadow Strike",
+							"entries": [
+								"As a {@variantrule Bonus Action|XPHB}, you can make a melee spell attack, shaping the gloom exuding from you into a blade that targets one creature in your {@classFeature Aura of Protection|Paladin|XPHB|6|XPHB}. On a hit, the attack deals Necrotic damage equal to {@damage 3d10} plus your Charisma modifier."
+							]
+						}
+					]
+				}
+			]
 		}
 	],
 	"foundrySubclassFeature": [
@@ -1224,6 +1442,60 @@
 					}
 				]
 			}
+		},
+		{
+			"name": "Supernatural Resistance",
+			"source": "XUA2025SubclassesUpdate",
+			"className": "Paladin",
+			"classSource": "XPHB",
+			"subclassShortName": "Oathbreaker",
+			"subclassSource": "XUA2025SubclassesUpdate",
+			"level": 7,
+			"entryData": {
+				"resist": [
+					"bludgeoning",
+					"piercing",
+					"slashing"
+				]
+			}
+		}
+	],
+	"table": [
+		{
+			"name": "Oathbreaker Spells",
+			"source": "XUA2025SubclassesUpdate",
+			"page": 6,
+			"type": "table",
+			"colLabels": [
+				"Paladin Level",
+				"Spells"
+			],
+			"colStyles": [
+				"col-3 text-center",
+				"col-9"
+			],
+			"rows": [
+				[
+					"3",
+					"{@spell Hellish Rebuke|XPHB}, {@spell Witch Bolt|XPHB}"
+				],
+				[
+					"5",
+					"{@spell Crown of Madness|XPHB}, {@spell Darkness|XPHB}"
+				],
+				[
+					"9",
+					"{@spell Fear|XPHB}, {@spell Summon Undead|XPHB}"
+				],
+				[
+					"13",
+					"{@spell Blight|XPHB}, {@spell Phantasmal Killer|XPHB}"
+				],
+				[
+					"17",
+					"{@spell Contagion|XPHB}, {@spell Steel Wind Strike|XPHB}"
+				]
+			]
 		}
 	],
 	"book": [
