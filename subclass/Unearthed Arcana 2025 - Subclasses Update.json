@@ -1,0 +1,1880 @@
+{
+	"$schema": "https://raw.githubusercontent.com/TheGiddyLimit/5etools-utils/master/schema/ua-fast/homebrew.json",
+	"_meta": {
+		"sources": [
+			{
+				"json": "XUA2025SubclassesUpdate",
+				"abbreviation": "XUA25SU",
+				"full": "Unearthed Arcana 2025: Subclasses Update",
+				"authors": [
+					"Wizards of the Coast"
+				],
+				"convertedBy": [
+					"Lyra [he/him]"
+				],
+				"version": "1.0.0",
+				"url": "https://media.dndbeyond.com/compendium-images/ua/subclasses-update/PWtmnmBuM6NVYAXE/UA2025+Updated+Subclasses.pdf",
+				"dateReleased": "2025-10-30"
+			}
+		],
+		"edition": "one",
+		"status": "ready",
+		"dateAdded": 1761853046,
+		"dateLastModified": 1761853046
+	},
+	"subclass": [
+		{
+			"name": "Cavalier",
+			"shortName": "Cavalier",
+			"source": "XUA2025SubclassesUpdate",
+			"className": "Fighter",
+			"classSource": "XPHB",
+			"page": 3,
+			"subclassFeatures": [
+				"Cavalier|Fighter|XPHB|Cavalier|XUA2025SubclassesUpdate|3|XUA2025SubclassesUpdate",
+				"Warding Maneuver|Fighter|XPHB|Cavalier|XUA2025SubclassesUpdate|7|XUA2025SubclassesUpdate",
+				"Hold the Line|Fighter|XPHB|Cavalier|XUA2025SubclassesUpdate|10|XUA2025SubclassesUpdate",
+				"Ferocious Charger|Fighter|XPHB|Cavalier|XUA2025SubclassesUpdate|15|XUA2025SubclassesUpdate",
+				"Vigilant Defender|Fighter|XPHB|Cavalier|XUA2025SubclassesUpdate|18|XUA2025SubclassesUpdate"
+			],
+			"hasFluff": true
+		},
+		{
+			"name": "Oathbreaker",
+			"shortName": "Oathbreaker",
+			"source": "XUA2025SubclassesUpdate",
+			"className": "Paladin",
+			"classSource": "XPHB",
+			"page": 5,
+			"additionalSpells": [
+				{
+					"prepared": {
+						"3": [
+							"Hellish Rebuke|XPHB",
+							"Witch Bolt|XPHB"
+						],
+						"5": [
+							"Crown of Madness|XPHB",
+							"Darkness|XPHB"
+						],
+						"9": [
+							"Fear|XPHB",
+							"Summon Undead|XPHB"
+						],
+						"13": [
+							"Blight|XPHB",
+							"Phantasmal Killer|XPHB"
+						],
+						"17": [
+							"Contagion|XPHB",
+							"Steel Wind Strike|XPHB"
+						]
+					}
+				}
+			],
+			"subclassSpells": [
+				"Hellish Rebuke|XPHB",
+				"Witch Bolt|XPHB",
+				"Crown of Madness|XPHB",
+				"Darkness|XPHB",
+				"Fear|XPHB",
+				"Summon Undead|XPHB",
+				"Blight|XPHB",
+				"Phantasmal Killer|XPHB",
+				"Contagion|XPHB",
+				"Steel Wind Strike|XPHB"
+			],
+			"subclassFeatures": [
+				"Oathbreaker|Paladin|XPHB|Oathbreaker|XUA2025SubclassesUpdate|3|XUA2025SubclassesUpdate",
+				"Aura of Hate|Paladin|XPHB|Oathbreaker|XUA2025SubclassesUpdate|7|XUA2025SubclassesUpdate",
+				"Supernatural Resistance|Paladin|XPHB|Oathbreaker|XUA2025SubclassesUpdate|15|XUA2025SubclassesUpdate",
+				"Dread Lord|Paladin|XPHB|Oathbreaker|XUA2025SubclassesUpdate|20|XUA2025SubclassesUpdate"
+			],
+			"hasFluff": true
+		},
+		{
+			"name": "Path of the Spiritual Guardian",
+			"shortName": "Spiritual Guardian",
+			"source": "XUA2025SubclassesUpdate",
+			"className": "Barbarian",
+			"classSource": "XPHB",
+			"page": 1,
+			"additionalSpells": [
+				{
+					"ability": "wis",
+					"innate": {
+						"10": {
+							"rest": {
+								"1": [
+									"augury|XPHB",
+									"clairvoyance|XPHB"
+								]
+							}
+						}
+					}
+				}
+			],
+			"subclassSpells": [
+				"augury|XPHB",
+				"clairvoyance|XPHB"
+			],
+			"subclassFeatures": [
+				"Path of the Spiritual Guardian|Barbarian|XPHB|Spiritual Guardian|XUA2025SubclassesUpdate|3|XUA2025SubclassesUpdate",
+				"Spirit Shield|Barbarian|XPHB|Spiritual Guardian|XUA2025SubclassesUpdate|6|XUA2025SubclassesUpdate",
+				"Consult the Spirits|Barbarian|XPHB|Spiritual Guardian|XUA2025SubclassesUpdate|10|XUA2025SubclassesUpdate",
+				"Vengeful Spirits|Barbarian|XPHB|Spiritual Guardian|XUA2025SubclassesUpdate|14|XUA2025SubclassesUpdate"
+			],
+			"hasFluff": true
+		},
+		{
+			"name": "Path of the Storm Herald",
+			"shortName": "Storm Herald",
+			"source": "XUA2025SubclassesUpdate",
+			"className": "Barbarian",
+			"classSource": "XPHB",
+			"page": 2,
+			"subclassFeatures": [
+				"Path of the Storm Herald|Barbarian|XPHB|Storm Herald|XUA2025SubclassesUpdate|3|XUA2025SubclassesUpdate",
+				"Storm Soul|Barbarian|XPHB|Storm Herald|XUA2025SubclassesUpdate|6|XUA2025SubclassesUpdate",
+				"Shielding Storm|Barbarian|XPHB|Storm Herald|XUA2025SubclassesUpdate|10|XUA2025SubclassesUpdate",
+				"Raging Storm|Barbarian|XPHB|Storm Herald|XUA2025SubclassesUpdate|14|XUA2025SubclassesUpdate"
+			],
+			"hasFluff": true
+		},
+		{
+			"name": "Warrior of Intoxication",
+			"shortName": "Intoxication",
+			"source": "XUA2025SubclassesUpdate",
+			"className": "Monk",
+			"classSource": "XPHB",
+			"page": 4,
+			"subclassFeatures": [
+				"Warrior of Intoxication|Monk|XPHB|Intoxication|XUA2025SubclassesUpdate|3|XUA2025SubclassesUpdate",
+				"Tipsy Sway|Monk|XPHB|Intoxication|XUA2025SubclassesUpdate|6|XUA2025SubclassesUpdate",
+				"Mystic Brew|Monk|XPHB|Intoxication|XUA2025SubclassesUpdate|6|XUA2025SubclassesUpdate",
+				"Master Brewer|Monk|XPHB|Intoxication|XUA2025SubclassesUpdate|11|XUA2025SubclassesUpdate",
+				"Intoxicated Frenzy|Monk|XPHB|Intoxication|XUA2025SubclassesUpdate|17|XUA2025SubclassesUpdate"
+			],
+			"hasFluff": true
+		}
+	],
+	"subclassFluff": [
+		{
+			"name": "Cavalier",
+			"shortName": "Cavalier",
+			"source": "XUA2025SubclassesUpdate",
+			"className": "Fighter",
+			"classSource": "XPHB",
+			"entries": [
+				"{@i Defend Your Allies on Foot or from a Mount}",
+				{
+					"type": "inset",
+					"name": "Design Note: Cavalier Updates",
+					"page": 3,
+					"entries": [
+						"Here are the main updates in this subclass since its appearance in {@book Xanathar's Guide to Everything|XGE}:",
+						{
+							"type": "list",
+							"page": 3,
+							"items": [
+								{
+									"type": "item",
+									"name": "Unwavering Mark",
+									"nameDot": false,
+									"entries": [
+										"no longer has limited uses."
+									]
+								},
+								{
+									"type": "item",
+									"name": "Ferocious Charger",
+									"nameDot": false,
+									"entries": [
+										"has been redesigned to give a burst of speed during the first round of each combat."
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Oathbreaker",
+			"shortName": "Oathbreaker",
+			"source": "XUA2025SubclassesUpdate",
+			"className": "Paladin",
+			"classSource": "XPHB",
+			"entries": [
+				"{@i Obtain Great Power at Any Cost}",
+				{
+					"type": "inset",
+					"name": "Design Note: Oathbreaker Updates",
+					"page": 5,
+					"entries": [
+						"Here are the main updates in this subclass since its last appearance in the 2014 {@book Dungeon Master's Guide|DMG}:",
+						{
+							"type": "list",
+							"page": 5,
+							"items": [
+								{
+									"type": "item",
+									"name": "Conjure Undead",
+									"nameDot": false,
+									"entries": [
+										"(formerly {@subclassFeature Control Undead|Paladin|PHB|Oathbreaker|DMG|3|DMG}) now lets you briefly summon Undead to aid you."
+									]
+								},
+								{
+									"type": "item",
+									"name": "Dreadful Aspect",
+									"nameDot": false,
+									"entries": [
+										"now loops through the {@spell Divine Smite|XPHB} spell."
+									]
+								},
+								{
+									"type": "item",
+									"name": "Oathbreaker Spells",
+									"nameDot": false,
+									"entries": [
+										"has new spells."
+									]
+								},
+								{
+									"type": "item",
+									"name": "Aura of Hate",
+									"nameDot": false,
+									"entries": [
+										"now adds its effect to your {@classFeature Aura of Protection|Paladin|XPHB|6|XPHB}. The aura now benefits only Fiends and Undead that are your allies."
+									]
+								},
+								{
+									"type": "item",
+									"name": "Dread Lord",
+									"nameDot": false,
+									"entries": [
+										"now imbues your {@classFeature Aura of Protection|Paladin|XPHB|6|XPHB} and can be recharged by expending a level 5 spell slot."
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Path of the Spiritual Guardian",
+			"shortName": "Spiritual Guardian",
+			"source": "XUA2025SubclassesUpdate",
+			"className": "Barbarian",
+			"classSource": "XPHB",
+			"entries": [
+				"{@i Call on the Spirits for Combat Aid}",
+				{
+					"type": "inset",
+					"name": "Design Note: Path of the Spiritual Guardian Updates",
+					"page": 1,
+					"entries": [
+						"Here are the main updates in this subclass (formerly {@class Barbarian|PHB|Path of the Ancestral Guardian|Ancestral Guardian|XGE}) since its last appearance in {@book Xanathar's Guide to Everything|XGE}:",
+						{
+							"type": "list",
+							"page": 1,
+							"items": [
+								{
+									"type": "item",
+									"name": "Spiritual Protectors",
+									"nameDot": false,
+									"entries": [
+										"(formerly {@subclassFeature Ancestral Protectors|Barbarian|PHB|Ancestral Guardian|XGE|3|XGE}) has been redesigned. The feature now splits the effects of the original feature, along with new effects, as options when you hit a creature while your {@classFeature Rage|Barbarian|XPHB|1|XPHB} is active."
+									]
+								},
+								{
+									"type": "item",
+									"name": "Spirit Shield",
+									"nameDot": false,
+									"entries": [
+										"now scales with your Rage Damage bonus."
+									]
+								},
+								{
+									"type": "item",
+									"name": "Vengeful Spirits",
+									"nameDot": false,
+									"entries": [
+										"(formerly {@subclassFeature Vengeful Ancestors|Barbarian|PHB|Ancestral Guardian|XGE|14|XGE}) is a new feature that allows you to make an additional attack when you roll an 18 or higher on an attack roll."
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Path of the Storm Herald",
+			"shortName": "Storm Herald",
+			"source": "XUA2025SubclassesUpdate",
+			"className": "Barbarian",
+			"classSource": "XPHB",
+			"entries": [
+				"{@i Wield the Fury of the Storm}",
+				{
+					"type": "inset",
+					"name": "Design Note: Path of the Storm Herald Updates",
+					"page": 3,
+					"entries": [
+						"Here are the main updates in this subclass since its appearance in {@book Xanathar's Guide to Everything|XGE}:",
+						{
+							"type": "list",
+							"page": 2,
+							"items": [
+								{
+									"type": "item",
+									"name": "Storm Aura",
+									"nameDot": false,
+									"entries": [
+										"now scales with your Rage Damage bonus. In addition, {@subclassFeature Tundra|Barbarian|XPHB|Storm Herald|XUA2025SubclassesUpdate|3|XUA2025SubclassesUpdate} has been redesigned to reduce a creature's damage instead of applying {@variantrule Temporary Hit Points|XPHB}."
+									]
+								},
+								{
+									"type": "item",
+									"name": "Raging Storm",
+									"nameDot": false,
+									"entries": [
+										"has each environment redesigned. {@subclassFeature Desert|Barbarian|XPHB|Storm Herald|XUA2025SubclassesUpdate|14|XUA2025SubclassesUpdate} now makes a creature that failed the saving throw start burning. {@subclassFeature Sea|Barbarian|XPHB|Storm Herald|XUA2025SubclassesUpdate|14|XUA2025SubclassesUpdate} can now chain the lightning bolt to another creature. {@subclassFeature Tundra|Barbarian|XPHB|Storm Herald|XUA2025SubclassesUpdate|14|XUA2025SubclassesUpdate} now deals Cold damage and halves a creature's {@variantrule Speed|XPHB}."
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Warrior of Intoxication",
+			"shortName": "Intoxication",
+			"source": "XUA2025SubclassesUpdate",
+			"className": "Monk",
+			"classSource": "XPHB",
+			"entries": [
+				"{@i Drink Mystic Brews to Overwhelm and Confound Foes}",
+				{
+					"type": "inset",
+					"name": "Design Note: Warrior of Intoxication Updates",
+					"page": 4,
+					"entries": [
+						"Here are the main updates in this subclass (formerly {@class Monk|PHB|Way of the Drunken Master|Drunken Master|XGE}) since its last appearance in {@book Xanathar's Guide to Everything|XGE}:",
+						{
+							"type": "list",
+							"page": 4,
+							"items": [
+								{
+									"type": "item",
+									"name": "Mystic Brew",
+									"nameDot": false,
+									"entries": [
+										"is a new feature that lets the {@class Monk|XPHB} create magical brews that they can drink to gain long-lasting benefits."
+									]
+								},
+								{
+									"type": "item",
+									"name": "Master Brewer",
+									"nameDot": false,
+									"entries": [
+										"is a new feature that replaces {@subclassFeature Drunkard's Luck|Monk|PHB|Drunken Master|XGE|11|XGE}. The feature adds additional beverage options to {@subclassFeature Mystic Brew|Monk|XPHB|Intoxication|XUA2025SubclassesUpdate|6|XUA2025SubclassesUpdate}."
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	],
+	"subclassFeature": [
+		{
+			"name": "Path of the Spiritual Guardian",
+			"source": "XUA2025SubclassesUpdate",
+			"page": 1,
+			"className": "Barbarian",
+			"classSource": "XPHB",
+			"subclassShortName": "Spiritual Guardian",
+			"subclassSource": "XUA2025SubclassesUpdate",
+			"level": 3,
+			"header": 1,
+			"entries": [
+				"Barbarians who walk the Path of the Spiritual Guardian call upon spirits\u2014whether bestial spirits of nature, spirits of departed ancestors, or spirits of raw elemental power\u2014to guide and protect them. When these Barbarians rage, they contact the realm of the spirits and call on them for aid.",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Spiritual Protectors|Barbarian|XPHB|Spiritual Guardian|XUA2025SubclassesUpdate|3|XUA2025SubclassesUpdate"
+				}
+			]
+		},
+		{
+			"name": "Spiritual Protectors",
+			"source": "XUA2025SubclassesUpdate",
+			"page": 1,
+			"className": "Barbarian",
+			"classSource": "XPHB",
+			"subclassShortName": "Spiritual Guardian",
+			"subclassSource": "XUA2025SubclassesUpdate",
+			"level": 3,
+			"header": 2,
+			"entries": [
+				"Your {@classFeature Rage|Barbarian|XPHB|1|XPHB} summons spectral warriors to your aid. While your {@classFeature Rage|Barbarian|XPHB|1|XPHB} is active, when you hit a creature with a weapon or an {@variantrule Unarmed Strike|XPHB}, it becomes the target of the spirits, which cause one of the following effects of your choice.",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Distract|Barbarian|XPHB|Spiritual Guardian|XUA2025SubclassesUpdate|3|XUA2025SubclassesUpdate"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Protect|Barbarian|XPHB|Spiritual Guardian|XUA2025SubclassesUpdate|3|XUA2025SubclassesUpdate"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Strike|Barbarian|XPHB|Spiritual Guardian|XUA2025SubclassesUpdate|3|XUA2025SubclassesUpdate"
+				}
+			]
+		},
+		{
+			"name": "Distract",
+			"source": "XUA2025SubclassesUpdate",
+			"page": 1,
+			"className": "Barbarian",
+			"classSource": "XPHB",
+			"subclassShortName": "Spiritual Guardian",
+			"subclassSource": "XUA2025SubclassesUpdate",
+			"level": 3,
+			"header": 3,
+			"entries": [
+				"Until the start of your next turn, the target has {@variantrule Disadvantage|XPHB} attack rolls against targets other than you or another {@class Barbarian|XPHB} who has this feature."
+			]
+		},
+		{
+			"name": "Protect",
+			"source": "XUA2025SubclassesUpdate",
+			"page": 1,
+			"className": "Barbarian",
+			"classSource": "XPHB",
+			"subclassShortName": "Spiritual Guardian",
+			"subclassSource": "XUA2025SubclassesUpdate",
+			"level": 3,
+			"header": 3,
+			"entries": [
+				"Until the end of the target's next turn, the next time it hits a creature other than you with an attack roll, that creature has {@variantrule Resistance|XPHB} to the damage dealt by the attack."
+			]
+		},
+		{
+			"name": "Strike",
+			"source": "XUA2025SubclassesUpdate",
+			"page": 1,
+			"className": "Barbarian",
+			"classSource": "XPHB",
+			"subclassShortName": "Spiritual Guardian",
+			"subclassSource": "XUA2025SubclassesUpdate",
+			"level": 3,
+			"header": 3,
+			"entries": [
+				"The target takes an extra {@dice 1d6} damage, which can be Acid, Cold, Fire, Force, Lightning, or Thunder damage (your choice)."
+			]
+		},
+		{
+			"name": "Spirit Shield",
+			"source": "XUA2025SubclassesUpdate",
+			"page": 2,
+			"className": "Barbarian",
+			"classSource": "XPHB",
+			"subclassShortName": "Spiritual Guardian",
+			"subclassSource": "XUA2025SubclassesUpdate",
+			"level": 6,
+			"header": 2,
+			"entries": [
+				"Your guardian spirits can provide supernatural protection to those you defend. While your {@classFeature Rage|Barbarian|XPHB|1|XPHB} is active, when another creature you can see within 30 feet of you takes damage, you can take a {@variantrule Reaction|XPHB} to reduce that damage. To determine the amount the damage is reduced by, roll a number of {@dice d6|d6s} equal to your Rage Damage bonus, and add them together."
+			]
+		},
+		{
+			"name": "Consult the Spirits",
+			"source": "XUA2025SubclassesUpdate",
+			"page": 2,
+			"className": "Barbarian",
+			"classSource": "XPHB",
+			"subclassShortName": "Spiritual Guardian",
+			"subclassSource": "XUA2025SubclassesUpdate",
+			"level": 10,
+			"header": 2,
+			"entries": [
+				"You gain the ability to consult with your guardian spirits. When you do so, you cast the {@spell Augury|XPHB} or {@spell Clairvoyance|XPHB} spell, without expending a spell slot or needing Material components. Rather than creating a spherical sensor, this use of {@spell Clairvoyance|XPHB} invisibly summons one of your guardian spirits to the chosen location. Wisdom is your spellcasting ability for these spells.",
+				"After you cast either spell in this way, you can't use this feature again until you finish a {@variantrule Short Rest|XPHB|Short} or {@variantrule Long Rest|XPHB}."
+			]
+		},
+		{
+			"name": "Vengeful Spirits",
+			"source": "XUA2025SubclassesUpdate",
+			"page": 2,
+			"className": "Barbarian",
+			"classSource": "XPHB",
+			"subclassShortName": "Spiritual Guardian",
+			"subclassSource": "XUA2025SubclassesUpdate",
+			"level": 14,
+			"header": 2,
+			"entries": [
+				"When you make an attack roll with a Melee weapon as part of the {@action Attack|XPHB} action and roll 18\u201320 on the {@dice d20}, you can make one additional attack roll with the same weapon as part of that action. Once you use this feature, you can't do so again until the start of your next turn."
+			]
+		},
+		{
+			"name": "Path of the Storm Herald",
+			"source": "XUA2025SubclassesUpdate",
+			"page": 2,
+			"className": "Barbarian",
+			"classSource": "XPHB",
+			"subclassShortName": "Storm Herald",
+			"subclassSource": "XUA2025SubclassesUpdate",
+			"level": 3,
+			"header": 1,
+			"entries": [
+				"Barbarians who follow the Path of the Storm Herald learn to harness their {@classFeature Rage|Barbarian|XPHB|1|XPHB} into a mantle of primal magic that swirls around them like a storm. When in their {@classFeature Rage|Barbarian|XPHB|1|XPHB}, these Barbarians tap into the elemental forces of nature to create powerful magical effects.",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Storm Aura|Barbarian|XPHB|Storm Herald|XUA2025SubclassesUpdate|3|XUA2025SubclassesUpdate"
+				}
+			]
+		},
+		{
+			"name": "Storm Aura",
+			"source": "XUA2025SubclassesUpdate",
+			"page": 2,
+			"className": "Barbarian",
+			"classSource": "XPHB",
+			"subclassShortName": "Storm Herald",
+			"subclassSource": "XUA2025SubclassesUpdate",
+			"level": 3,
+			"header": 2,
+			"entries": [
+				"Whenever you activate your {@classFeature Rage|Barbarian|XPHB|1|XPHB}, choose Desert, Sea, or Tundra. You extend an aura in a 10-foot {@variantrule Emanation [Area of Effect]|XPHB|Emanation} originating from yourself for the duration of your {@classFeature Rage|Barbarian|XPHB|1|XPHB}.",
+				"Your aura has an effect that activates when you enter your {@classFeature Rage|Barbarian|XPHB|1|XPHB}, and you can activate the effect again on each of your turns as a {@variantrule Bonus Action|XPHB}. Your aura's effect depends on the chosen environment, as detailed below.",
+				"If your aura's effect requires a saving throw, the DC equals 8 plus your {@table Proficiency bonus|XPHB} plus your Constitution modifier.",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Desert|Barbarian|XPHB|Storm Herald|XUA2025SubclassesUpdate|3|XUA2025SubclassesUpdate"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Sea|Barbarian|XPHB|Storm Herald|XUA2025SubclassesUpdate|3|XUA2025SubclassesUpdate"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Tundra|Barbarian|XPHB|Storm Herald|XUA2025SubclassesUpdate|3|XUA2025SubclassesUpdate"
+				}
+			]
+		},
+		{
+			"name": "Desert",
+			"source": "XUA2025SubclassesUpdate",
+			"page": 2,
+			"className": "Barbarian",
+			"classSource": "XPHB",
+			"subclassShortName": "Storm Herald",
+			"subclassSource": "XUA2025SubclassesUpdate",
+			"level": 3,
+			"header": 3,
+			"entries": [
+				"When this effect is activated, roll a number of {@dice d4|d4s} equal to your Rage Damage bonus, and add them together. Each creature in the aura must succeed on a Dexterity saving throw or take Fire damage equal to the number rolled. You can choose one creature you can see in your aura to automatically succeed on this saving throw."
+			]
+		},
+		{
+			"name": "Sea",
+			"source": "XUA2025SubclassesUpdate",
+			"page": 2,
+			"className": "Barbarian",
+			"classSource": "XPHB",
+			"subclassShortName": "Storm Herald",
+			"subclassSource": "XUA2025SubclassesUpdate",
+			"level": 3,
+			"header": 3,
+			"entries": [
+				"When this effect is activated, roll a number of {@dice d6|d6s} equal to your Rage Damage bonus, and add them together. You can then hurl a bolt of lightning at one other creature you can see within your aura. The target makes a Dexterity saving throw, taking Lightning damage equal to the number rolled on a failed save, or half as much damage on a successful one."
+			]
+		},
+		{
+			"name": "Tundra",
+			"source": "XUA2025SubclassesUpdate",
+			"page": 2,
+			"className": "Barbarian",
+			"classSource": "XPHB",
+			"subclassShortName": "Storm Herald",
+			"subclassSource": "XUA2025SubclassesUpdate",
+			"level": 3,
+			"header": 3,
+			"entries": [
+				"When this effect is activated, roll a number of {@dice d4|d4s} equal to your Rage Damage bonus, and add them together. You can choose one other creature you can see within your aura to harry with icy spirits. The target must succeed on a Strength saving throw or it subtracts the number rolled from the next damage roll it makes before the start of your next turn."
+			]
+		},
+		{
+			"name": "Storm Soul",
+			"source": "XUA2025SubclassesUpdate",
+			"page": 2,
+			"className": "Barbarian",
+			"classSource": "XPHB",
+			"subclassShortName": "Storm Herald",
+			"subclassSource": "XUA2025SubclassesUpdate",
+			"level": 6,
+			"header": 2,
+			"entries": [
+				"The storm grants you benefits even when your aura isn't active. The benefits are based on the environment you chose for your {@subclassFeature Storm Aura|Barbarian|XPHB|Storm Herald|XUA2025SubclassesUpdate|3|XUA2025SubclassesUpdate} the last time you entered your {@classFeature Rage|Barbarian|XPHB|1|XPHB}.",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Desert|Barbarian|XPHB|Storm Herald|XUA2025SubclassesUpdate|6|XUA2025SubclassesUpdate"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Sea|Barbarian|XPHB|Storm Herald|XUA2025SubclassesUpdate|6|XUA2025SubclassesUpdate"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Tundra|Barbarian|XPHB|Storm Herald|XUA2025SubclassesUpdate|6|XUA2025SubclassesUpdate"
+				}
+			]
+		},
+		{
+			"name": "Desert",
+			"source": "XUA2025SubclassesUpdate",
+			"page": 2,
+			"className": "Barbarian",
+			"classSource": "XPHB",
+			"subclassShortName": "Storm Herald",
+			"subclassSource": "XUA2025SubclassesUpdate",
+			"level": 6,
+			"header": 3,
+			"entries": [
+				"You gain {@variantrule Resistance|XPHB} to Fire damage. As a {@action Magic|XPHB} action, you can touch a flammable object that isn't being worn or carried by anyone else and cause the object to start burning."
+			]
+		},
+		{
+			"name": "Sea",
+			"source": "XUA2025SubclassesUpdate",
+			"page": 3,
+			"className": "Barbarian",
+			"classSource": "XPHB",
+			"subclassShortName": "Storm Herald",
+			"subclassSource": "XUA2025SubclassesUpdate",
+			"level": 6,
+			"header": 3,
+			"entries": [
+				"You gain {@variantrule Resistance|XPHB} to Lightning damage, and you can breathe underwater. You also gain a {@variantrule Swim Speed|XPHB} equal to your {@variantrule Speed|XPHB}."
+			]
+		},
+		{
+			"name": "Tundra",
+			"source": "XUA2025SubclassesUpdate",
+			"page": 3,
+			"className": "Barbarian",
+			"classSource": "XPHB",
+			"subclassShortName": "Storm Herald",
+			"subclassSource": "XUA2025SubclassesUpdate",
+			"level": 6,
+			"header": 3,
+			"entries": [
+				"You gain {@variantrule Resistance|XPHB} to Cold damage. As a {@action Magic|XPHB} action, you can touch water and turn a 5-foot {@variantrule Cube [Area of Effect]|XPHB|Cube} of it into ice, which melts after 1 minute. This action fails if a creature is in the {@variantrule Cube [Area of Effect]|XPHB|Cube}."
+			]
+		},
+		{
+			"name": "Shielding Storm",
+			"source": "XUA2025SubclassesUpdate",
+			"page": 3,
+			"className": "Barbarian",
+			"classSource": "XPHB",
+			"subclassShortName": "Storm Herald",
+			"subclassSource": "XUA2025SubclassesUpdate",
+			"level": 10,
+			"header": 2,
+			"entries": [
+				"You can use your mastery of the storm to protect others. Each creature of your choice within your {@subclassFeature Storm Aura|Barbarian|XPHB|Storm Herald|XUA2025SubclassesUpdate|3|XUA2025SubclassesUpdate} has the damage {@variantrule Resistance|XPHB} you have from the {@subclassFeature Storm Soul|Barbarian|XPHB|Storm Herald|XUA2025SubclassesUpdate|6|XUA2025SubclassesUpdate} feature."
+			]
+		},
+		{
+			"name": "Raging Storm",
+			"source": "XUA2025SubclassesUpdate",
+			"page": 3,
+			"className": "Barbarian",
+			"classSource": "XPHB",
+			"subclassShortName": "Storm Herald",
+			"subclassSource": "XUA2025SubclassesUpdate",
+			"level": 14,
+			"header": 2,
+			"entries": [
+				"The power of the storm you channel grows mightier, lashing out at your foes. The effect is based on the environment you choose for your {@subclassFeature Storm Aura|Barbarian|XPHB|Storm Herald|XUA2025SubclassesUpdate|3|XUA2025SubclassesUpdate}.",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Desert|Barbarian|XPHB|Storm Herald|XUA2025SubclassesUpdate|14|XUA2025SubclassesUpdate"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Sea|Barbarian|XPHB|Storm Herald|XUA2025SubclassesUpdate|14|XUA2025SubclassesUpdate"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Tundra|Barbarian|XPHB|Storm Herald|XUA2025SubclassesUpdate|14|XUA2025SubclassesUpdate"
+				}
+			]
+		},
+		{
+			"name": "Desert",
+			"source": "XUA2025SubclassesUpdate",
+			"page": 3,
+			"className": "Barbarian",
+			"classSource": "XPHB",
+			"subclassShortName": "Storm Herald",
+			"subclassSource": "XUA2025SubclassesUpdate",
+			"level": 14,
+			"header": 3,
+			"entries": [
+				"Once per turn, when a creature you can see fails its saving throw against your {@subclassFeature Storm Aura|Barbarian|XPHB|Storm Herald|XUA2025SubclassesUpdate|3|XUA2025SubclassesUpdate} effect, you can cause it to start burning for 1 minute or until your {@classFeature Rage|Barbarian|XPHB|1|XPHB} ends. A burning creature takes an extra {@damage 1d4} Fire damage ({@damage 2d4} Fire damage total) at the start of each of its turns."
+			]
+		},
+		{
+			"name": "Sea",
+			"source": "XUA2025SubclassesUpdate",
+			"page": 3,
+			"className": "Barbarian",
+			"classSource": "XPHB",
+			"subclassShortName": "Storm Herald",
+			"subclassSource": "XUA2025SubclassesUpdate",
+			"level": 14,
+			"header": 3,
+			"entries": [
+				"Whether the target fails or succeeds on its saving throw against your {@subclassFeature Storm Aura|Barbarian|XPHB|Storm Herald|XUA2025SubclassesUpdate|3|XUA2025SubclassesUpdate} effect, a bolt of lightning leaps from the target to another target of your choice, which must be within 30 feet of the first target. The new target makes the same Dexterity saving throw as the first target."
+			]
+		},
+		{
+			"name": "Tundra",
+			"source": "XUA2025SubclassesUpdate",
+			"page": 3,
+			"className": "Barbarian",
+			"classSource": "XPHB",
+			"subclassShortName": "Storm Herald",
+			"subclassSource": "XUA2025SubclassesUpdate",
+			"level": 14,
+			"header": 3,
+			"entries": [
+				"Once per turn, when a creature you can see fails its saving throw against your {@subclassFeature Storm Aura|Barbarian|XPHB|Storm Herald|XUA2025SubclassesUpdate|3|XUA2025SubclassesUpdate} effect, you can cause it to take {@damage 2d4} Cold damage and its {@variantrule Speed|XPHB} is halved until the end of its next turn."
+			]
+		},
+		{
+			"name": "Cavalier",
+			"source": "XUA2025SubclassesUpdate",
+			"page": 3,
+			"className": "Fighter",
+			"classSource": "XPHB",
+			"subclassShortName": "Cavalier",
+			"subclassSource": "XUA2025SubclassesUpdate",
+			"level": 3,
+			"header": 1,
+			"entries": [
+				"Cavaliers excel at mounted combat and guard those in their charge, often protecting their superiors and the weak. A Cavalier is equally at home leading a cavalry charge or exchanging repartees at a state dinner.",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Bonus Proficiency|Fighter|XPHB|Cavalier|XUA2025SubclassesUpdate|3|XUA2025SubclassesUpdate"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Born to the Saddle|Fighter|XPHB|Cavalier|XUA2025SubclassesUpdate|3|XUA2025SubclassesUpdate"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Unwavering Mark|Fighter|XPHB|Cavalier|XUA2025SubclassesUpdate|3|XUA2025SubclassesUpdate"
+				}
+			]
+		},
+		{
+			"name": "Bonus Proficiency",
+			"source": "XUA2025SubclassesUpdate",
+			"page": 3,
+			"className": "Fighter",
+			"classSource": "XPHB",
+			"subclassShortName": "Cavalier",
+			"subclassSource": "XUA2025SubclassesUpdate",
+			"level": 3,
+			"header": 2,
+			"entries": [
+				"You gain proficiency in one the following skills of your choice: {@skill Animal Handling|XPHB}, {@skill History|XPHB}, {@skill Insight|XPHB}, {@skill Performance|XPHB}, or {@skill Persuasion|XPHB}. Alternatively, you learn one language of your choice."
+			]
+		},
+		{
+			"name": "Born to the Saddle",
+			"source": "XUA2025SubclassesUpdate",
+			"page": 3,
+			"className": "Fighter",
+			"classSource": "XPHB",
+			"subclassShortName": "Cavalier",
+			"subclassSource": "XUA2025SubclassesUpdate",
+			"level": 3,
+			"header": 2,
+			"entries": [
+				"You have {@variantrule Advantage|XPHB} on saving throws made to avoid falling off your mount. If you fall off your mount and descend no more than 10 feet, you can land on your feet if you don't have the {@condition Incapacitated|XPHB} condition.",
+				"In addition, mounting or dismounting a creature costs you only 5 feet of movement rather than half your {@variantrule Speed|XPHB}."
+			]
+		},
+		{
+			"name": "Unwavering Mark",
+			"source": "XUA2025SubclassesUpdate",
+			"page": 3,
+			"className": "Fighter",
+			"classSource": "XPHB",
+			"subclassShortName": "Cavalier",
+			"subclassSource": "XUA2025SubclassesUpdate",
+			"level": 3,
+			"header": 2,
+			"entries": [
+				"You can menace your foes, foiling their attacks and punishing them for harming others. When you hit a creature with a Melee weapon, you can mark the creature until the end of your next turn. This effect ends early if you have the {@condition Incapacitated|XPHB} condition, you die, or someone else marks the creature.",
+				"While it is within 5 feet of you, a creature marked by you has {@variantrule Disadvantage|XPHB} on attack rolls against creatures other than you.",
+				"In addition, if a creature marked by you hits a creature other than you with an attack roll, you have {@variantrule Advantage|XPHB} on attack rolls against the marked creature until the end of your next turn."
+			]
+		},
+		{
+			"name": "Warding Maneuver",
+			"source": "XUA2025SubclassesUpdate",
+			"page": 3,
+			"className": "Fighter",
+			"classSource": "XPHB",
+			"subclassShortName": "Cavalier",
+			"subclassSource": "XUA2025SubclassesUpdate",
+			"level": 7,
+			"header": 2,
+			"entries": [
+				"You learn to fend off strikes directed at you, your mount, or other creatures nearby. If you or a creature you can see within 5 feet of you is hit by an attack roll, you can roll {@dice 1d8} as a {@variantrule Reaction|XPHB} if you're wielding a Melee weapon or a {@item Shield|XPHB}. Roll the die, and add the number rolled to the target's AC against the triggering attack. If the attack still hits, the target has {@variantrule Resistance|XPHB} against the attack's damage.",
+				"You can use this feature a number of times equal to your Constitution modifier (minimum of once), and you regain all expended uses when you finish a {@variantrule Long Rest|XPHB}."
+			]
+		},
+		{
+			"name": "Hold the Line",
+			"source": "XUA2025SubclassesUpdate",
+			"page": 4,
+			"className": "Fighter",
+			"classSource": "XPHB",
+			"subclassShortName": "Cavalier",
+			"subclassSource": "XUA2025SubclassesUpdate",
+			"level": 10,
+			"header": 2,
+			"entries": [
+				"Creatures provoke an {@action Opportunity Attack|XPHB} from you when they move 5 feet or more while within your reach. When you hit a creature with an {@action Opportunity Attack|XPHB}, the target's {@variantrule Speed|XPHB} becomes 0 until the end of the current turn."
+			]
+		},
+		{
+			"name": "Ferocious Charger",
+			"source": "XUA2025SubclassesUpdate",
+			"page": 4,
+			"className": "Fighter",
+			"classSource": "XPHB",
+			"subclassShortName": "Cavalier",
+			"subclassSource": "XUA2025SubclassesUpdate",
+			"level": 15,
+			"header": 2,
+			"entries": [
+				"During the first round of each combat, you and your mount's {@variantrule Speed|XPHB} increases by 10 feet, and your movement doesn't provoke {@action Opportunity Attack|XPHB|Opportunity Attacks} for that round. When you move within 5 feet of a creature this round, that creature must succeed on a Strength saving throw (DC 8 plus your Strength modifier and {@table Proficiency bonus|XPHB}) or you either push it 5 feet away or cause it to have the {@condition Prone|XPHB} condition. A creature makes this save only once during a turn."
+			]
+		},
+		{
+			"name": "Vigilant Defender",
+			"source": "XUA2025SubclassesUpdate",
+			"page": 4,
+			"className": "Fighter",
+			"classSource": "XPHB",
+			"subclassShortName": "Cavalier",
+			"subclassSource": "XUA2025SubclassesUpdate",
+			"level": 18,
+			"header": 2,
+			"entries": [
+				"In combat, you get a special {@variantrule Reaction|XPHB} that you can take once on every creature's turn except your turn. You can take this {@variantrule Reaction|XPHB} only to make an {@action Opportunity Attack|XPHB}, and you can't take it on the same turn that you take your normal {@variantrule Reaction|XPHB}."
+			]
+		},
+		{
+			"name": "Warrior of Intoxication",
+			"source": "XUA2025SubclassesUpdate",
+			"page": 4,
+			"className": "Monk",
+			"classSource": "XPHB",
+			"subclassShortName": "Intoxication",
+			"subclassSource": "XUA2025SubclassesUpdate",
+			"level": 3,
+			"header": 1,
+			"entries": [
+				"Warriors of Intoxication move with the jerky, unpredictable movements typical of someone who is intoxicated. These Monks sway on unsteady feet to appear incompetent and then prove themselves frustrating to engage. Their apparently erratic stumbles conceal a carefully executed dance of blocks, parries, advances, attacks, and retreats.",
+				"Warriors of Intoxication often enjoy playing the fool to bring gladness to the downtrodden or to teach humility to the arrogant, but these Monks are maddening, masterful foes in battle.",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Bonus Proficiencies|Monk|XPHB|Intoxication|XUA2025SubclassesUpdate|3|XUA2025SubclassesUpdate"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Drunken Technique|Monk|XPHB|Intoxication|XUA2025SubclassesUpdate|3|XUA2025SubclassesUpdate"
+				}
+			]
+		},
+		{
+			"name": "Bonus Proficiencies",
+			"source": "XUA2025SubclassesUpdate",
+			"page": 4,
+			"className": "Monk",
+			"classSource": "XPHB",
+			"subclassShortName": "Intoxication",
+			"subclassSource": "XUA2025SubclassesUpdate",
+			"level": 3,
+			"header": 2,
+			"entries": [
+				"You gain proficiency in the {@skill Performance|XPHB} skill, or if you already have it, you gain proficiency in one skill of your choice from the skills available to Monks at level 1. You also gain proficiency with {@item Brewer's Supplies|XPHB} if you don't already have it."
+			]
+		},
+		{
+			"name": "Drunken Technique",
+			"source": "XUA2025SubclassesUpdate",
+			"page": 4,
+			"className": "Monk",
+			"classSource": "XPHB",
+			"subclassShortName": "Intoxication",
+			"subclassSource": "XUA2025SubclassesUpdate",
+			"level": 3,
+			"header": 2,
+			"entries": [
+				"You twist and turn quickly as part of your {@classFeature Flurry of Blows|Monk|XPHB|2|XPHB}. Whenever you use {@classFeature Flurry of Blows|Monk|XPHB|2|XPHB}, your {@variantrule Speed|XPHB} increases by 10 feet until the end of the current turn and your movement during that time doesn't provoke {@action Opportunity Attack|XPHB|Opportunity Attacks}."
+			]
+		},
+		{
+			"name": "Mystic Brew",
+			"source": "XUA2025SubclassesUpdate",
+			"page": 4,
+			"className": "Monk",
+			"classSource": "XPHB",
+			"subclassShortName": "Intoxication",
+			"subclassSource": "XUA2025SubclassesUpdate",
+			"level": 6,
+			"header": 2,
+			"consumes": {
+				"name": "Focus Point",
+				"amountMin": 0,
+				"amountMax": 1
+			},
+			"entries": [
+				"Whenever you finish a {@variantrule Short Rest|XPHB|Short} or {@variantrule Long Rest|XPHB} while holding {@item Brewer's Supplies|XPHB}, you can use that tool to magically produce one magical beverage, chosen from the following options: Cinnamon Dragon, Heavenly Spirit, or Refreshing Dip. The beverage appears in a bottle or cask, and the bottle vanishes when the beverage is drunk or poured out. If any beverage remains when you finish a {@variantrule Short Rest|XPHB|Short} or {@variantrule Long Rest|XPHB}, the beverage and its container vanish.",
+				{
+					"type": "entries",
+					"name": "Drinking a Magical Beverage",
+					"page": 4,
+					"entries": [
+						"Only you can gain the benefit of drinking the beverage. You must drink at least a pint of the beverage before gaining its benefit. You can spend 1 minute drinking a pint of the beverage. You then gain the benefits of the beverage for 1 hour, as described below."
+					]
+				},
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"page": 5,
+					"items": [
+						{
+							"type": "refSubclassFeature",
+							"subclassFeature": "Cinnamon Dragon|Monk|XPHB|Intoxication|XUA2025SubclassesUpdate|6|XUA2025SubclassesUpdate"
+						},
+						{
+							"type": "refSubclassFeature",
+							"subclassFeature": "Heavenly Spirit|Monk|XPHB|Intoxication|XUA2025SubclassesUpdate|6|XUA2025SubclassesUpdate"
+						},
+						{
+							"type": "refSubclassFeature",
+							"subclassFeature": "Refreshing Dip|Monk|XPHB|Intoxication|XUA2025SubclassesUpdate|6|XUA2025SubclassesUpdate"
+						}
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Enhancing a Magical Beverage",
+					"page": 5,
+					"entries": [
+						"When you create a magical beverage, you can expend 1 Focus Point. When you do so, the benefit's duration extends to 8 hours."
+					]
+				}
+			]
+		},
+		{
+			"name": "Tipsy Sway",
+			"source": "XUA2025SubclassesUpdate",
+			"page": 4,
+			"className": "Monk",
+			"classSource": "XPHB",
+			"subclassShortName": "Intoxication",
+			"subclassSource": "XUA2025SubclassesUpdate",
+			"level": 6,
+			"header": 2,
+			"entries": [
+				"You can move in sudden, swaying ways. You gain the following benefits.",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Leap to Your Feet|Monk|XPHB|Intoxication|XUA2025SubclassesUpdate|6|XUA2025SubclassesUpdate"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Redirect Attack|Monk|XPHB|Intoxication|XUA2025SubclassesUpdate|6|XUA2025SubclassesUpdate"
+				}
+			]
+		},
+		{
+			"name": "Cinnamon Dragon",
+			"source": "XUA2025SubclassesUpdate",
+			"page": 5,
+			"className": "Monk",
+			"classSource": "XPHB",
+			"subclassShortName": "Intoxication",
+			"subclassSource": "XUA2025SubclassesUpdate",
+			"level": 6,
+			"header": 3,
+			"entries": [
+				"You can take a {@action Magic|XPHB} action to exhale toxic flames in a 30-foot {@variantrule Cone [Area of Effect]|XPHB|Cone}. Each creature makes a Dexterity saving throw (DC 8 plus your Wisdom modifier and {@table Proficiency bonus|XPHB}). On a failed save, a creature takes Fire damage equal to four rolls of your {@classFeature Martial Arts die|Monk|XPHB|1|XPHB} and has the {@condition Poisoned|XPHB} condition until the end of its next turn. On a successful save, a creature takes half as much damage only."
+			]
+		},
+		{
+			"name": "Heavenly Spirit",
+			"source": "XUA2025SubclassesUpdate",
+			"page": 5,
+			"className": "Monk",
+			"classSource": "XPHB",
+			"subclassShortName": "Intoxication",
+			"subclassSource": "XUA2025SubclassesUpdate",
+			"level": 6,
+			"header": 3,
+			"entries": [
+				"You gain {@variantrule Resistance|XPHB} to Psychic and Radiant damage."
+			]
+		},
+		{
+			"name": "Leap to Your Feet",
+			"source": "XUA2025SubclassesUpdate",
+			"page": 4,
+			"className": "Monk",
+			"classSource": "XPHB",
+			"subclassShortName": "Intoxication",
+			"subclassSource": "XUA2025SubclassesUpdate",
+			"level": 6,
+			"header": 3,
+			"entries": [
+				"When you have the {@condition Prone|XPHB} condition, you can stand up by spending 5 feet of movement, rather than half your {@variantrule Speed|XPHB}."
+			]
+		},
+		{
+			"name": "Redirect Attack",
+			"source": "XUA2025SubclassesUpdate",
+			"page": 4,
+			"className": "Monk",
+			"classSource": "XPHB",
+			"subclassShortName": "Intoxication",
+			"subclassSource": "XUA2025SubclassesUpdate",
+			"level": 6,
+			"header": 3,
+			"consumes": {
+				"name": "Focus Point",
+				"amount": 1
+			},
+			"entries": [
+				"When a creature misses you with a melee attack roll, you can spend 1 Focus Point as a {@variantrule Reaction|XPHB} to cause that attack to hit one creature of your choice, other than the attacker, that you can see within 5 feet of yourself."
+			]
+		},
+		{
+			"name": "Refreshing Dip",
+			"source": "XUA2025SubclassesUpdate",
+			"page": 5,
+			"className": "Monk",
+			"classSource": "XPHB",
+			"subclassShortName": "Intoxication",
+			"subclassSource": "XUA2025SubclassesUpdate",
+			"level": 6,
+			"header": 3,
+			"entries": [
+				"Whenever you regain {@variantrule Hit Points|XPHB}, you regain additional {@variantrule Hit Points|XPHB} equal to a roll of your {@classFeature Martial Arts die|Monk|XPHB|1|XPHB}."
+			]
+		},
+		{
+			"name": "Master Brewer",
+			"source": "XUA2025SubclassesUpdate",
+			"page": 5,
+			"className": "Monk",
+			"classSource": "XPHB",
+			"subclassShortName": "Intoxication",
+			"subclassSource": "XUA2025SubclassesUpdate",
+			"level": 11,
+			"header": 2,
+			"entries": [
+				"You learn more complex flavors. The following beverages are added to your {@subclassFeature Mystic Brew|Monk|XPHB|Intoxication|XUA2025SubclassesUpdate|6|XUA2025SubclassesUpdate} options.",
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"page": 5,
+					"items": [
+						{
+							"type": "refSubclassFeature",
+							"subclassFeature": "Blue Lightning|Monk|XPHB|Intoxication|XUA2025SubclassesUpdate|11|XUA2025SubclassesUpdate"
+						},
+						{
+							"type": "refSubclassFeature",
+							"subclassFeature": "Drunkard's Luck|Monk|XPHB|Intoxication|XUA2025SubclassesUpdate|11|XUA2025SubclassesUpdate"
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Blue Lightning",
+			"source": "XUA2025SubclassesUpdate",
+			"page": 5,
+			"className": "Monk",
+			"classSource": "XPHB",
+			"subclassShortName": "Intoxication",
+			"subclassSource": "XUA2025SubclassesUpdate",
+			"level": 11,
+			"header": 3,
+			"entries": [
+				"Whenever you take a {@variantrule Reaction|XPHB} that isn't making an {@action Opportunity Attack|XPHB} or casting a spell, you can make one {@variantrule Unarmed Strike|XPHB} as part of that {@variantrule Reaction|XPHB}."
+			]
+		},
+		{
+			"name": "Drunkard's Luck",
+			"source": "XUA2025SubclassesUpdate",
+			"page": 5,
+			"className": "Monk",
+			"classSource": "XPHB",
+			"subclassShortName": "Intoxication",
+			"subclassSource": "XUA2025SubclassesUpdate",
+			"level": 11,
+			"header": 3,
+			"entries": [
+				"You gain {@variantrule Heroic Inspiration|XPHB} if you don't already have it. In addition, you can give yourself {@variantrule Heroic Inspiration|XPHB} when you roll {@variantrule Initiative|XPHB} without it."
+			]
+		},
+		{
+			"name": "Intoxicated Frenzy",
+			"source": "XUA2025SubclassesUpdate",
+			"page": 5,
+			"className": "Monk",
+			"classSource": "XPHB",
+			"subclassShortName": "Intoxication",
+			"subclassSource": "XUA2025SubclassesUpdate",
+			"level": 17,
+			"header": 3,
+			"entries": [
+				"You make an overwhelming number of attacks against a group of enemies. When you use {@classFeature Flurry of Blows|Monk|XPHB|2|XPHB}, you can make up to three additional {@variantrule Unarmed Strike|XPHB|Unarmed Strikes} with it (up to a total of six {@variantrule Unarmed Strike|XPHB|Unarmed Strikes}), provided that each strike targets a different creature this turn."
+			]
+		},
+		{
+			"name": "Oathbreaker",
+			"source": "XUA2025SubclassesUpdate",
+			"page": 5,
+			"className": "Paladin",
+			"classSource": "XPHB",
+			"subclassShortName": "Oathbreaker",
+			"subclassSource": "XUA2025SubclassesUpdate",
+			"level": 3,
+			"header": 1,
+			"entries": [
+				"The power of a Paladin's oath is so great that it holds a distorted power even when it is violated. When a Paladin betrays the tenets of their oath because of corruption, pride, or thirst for power, they lose the blessing granted by their original oath but sometimes take on the sinister blessing of the Oathbreaker in its place. Oathbreakers use fear and overwhelming power to achieve their goals. While many Oathbreakers are beyond redemption, some Paladins bend this oath to achieve a great and noble deed to atone for their past evils.",
+				"At the DM's discretion, a Paladin of any level who violates the tenets of their oath can lose the benefits granted by their original subclass and gain the features of the Oathbreaker subclass instead. Alternatively, a Paladin can choose this subclass at level 3 based on the character's backstory of falling from grace.",
+				"These Paladins often share the following tenets:",
+				{
+					"type": "list",
+					"page": 5,
+					"items": [
+						"Fear is a tool in the hands of the powerful.",
+						"Strive for power at any cost.",
+						"Do what must be done, but never lose sight of your goal."
+					]
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Conjure Undead|Paladin|XPHB|Oathbreaker|XUA2025SubclassesUpdate|3|XUA2025SubclassesUpdate"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Dreadful Aspect|Paladin|XPHB|Oathbreaker|XUA2025SubclassesUpdate|3|XUA2025SubclassesUpdate"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Oathbreaker Spells|Paladin|XPHB|Oathbreaker|XUA2025SubclassesUpdate|3|XUA2025SubclassesUpdate"
+				}
+			]
+		},
+		{
+			"name": "Conjure Undead",
+			"source": "XUA2025SubclassesUpdate",
+			"page": 5,
+			"className": "Paladin",
+			"classSource": "XPHB",
+			"subclassShortName": "Oathbreaker",
+			"subclassSource": "XUA2025SubclassesUpdate",
+			"level": 3,
+			"header": 2,
+			"consumes": {
+				"name": "Channel Divinity",
+				"amount": 1
+			},
+			"entries": [
+				"As a {@variantrule Bonus Action|XPHB}, you can expend one use of your {@classFeature Channel Divinity|Paladin|XPHB|3|XPHB} to summon a number of Undead equal to half your Charisma modifier (round up; minimum of one Undead summoned). Each Undead appears in an unoccupied space you can see within 30 feet of you and is a type of your choice: {@creature Skeleton|XMM} or {@creature Zombie|XMM} (see {@book appendix B of the Player's Handbook|XPHB|9} for the stat blocks). The Undead are under your control for 1 minute, after which they dissolve into ash.",
+				"Each Undead is an ally to you and your allies. In combat, the Undead shares your {@variantrule Initiative|XPHB} count, but it takes its turn immediately after yours. It obeys your verbal commands (no action required by you). If you don't issue any, it takes the {@action Dodge|XPHB} action and uses its movement to avoid danger."
+			]
+		},
+		{
+			"name": "Dreadful Aspect",
+			"source": "XUA2025SubclassesUpdate",
+			"page": 6,
+			"className": "Paladin",
+			"classSource": "XPHB",
+			"subclassShortName": "Oathbreaker",
+			"subclassSource": "XUA2025SubclassesUpdate",
+			"level": 3,
+			"header": 2,
+			"consumes": {
+				"name": "Channel Divinity",
+				"amount": 1
+			},
+			"entries": [
+				"Immediately after you cast {@spell Divine Smite|XPHB}, you can expend one use of your {@classFeature Channel Divinity|Paladin|XPHB|3|XPHB} to channel a burst of magical menace. Each creature of your choice in a 30-foot {@variantrule Emanation [Area of Effect]|XPHB|Emanation} originating from you must succeed on a Wisdom saving throw or have the {@condition Frightened|XPHB} condition for 1 minute. A {@condition Frightened|XPHB} creature repeats the save at the end of each of its turns, ending the effect on itself on a success."
+			]
+		},
+		{
+			"name": "Oathbreaker Spells",
+			"source": "XUA2025SubclassesUpdate",
+			"page": 6,
+			"className": "Paladin",
+			"classSource": "XPHB",
+			"subclassShortName": "Oathbreaker",
+			"subclassSource": "XUA2025SubclassesUpdate",
+			"level": 3,
+			"header": 2,
+			"entries": [
+				"The magic of your oath ensures you always have certain spells ready; when you reach a {@class Paladin|XPHB} level specified in the {@table Oathbreaker Spells|XUA2025SubclassesUpdate} table, you thereafter always have the listed spells prepared.",
+				{
+					"type": "statblock",
+					"tag": "table",
+					"source": "XUA2025SubclassesUpdate",
+					"name": "Oathbreaker Spells",
+					"page": 6
+				}
+			]
+		},
+		{
+			"name": "Aura of Hate",
+			"source": "XUA2025SubclassesUpdate",
+			"page": 6,
+			"className": "Paladin",
+			"classSource": "XPHB",
+			"subclassShortName": "Oathbreaker",
+			"subclassSource": "XUA2025SubclassesUpdate",
+			"level": 7,
+			"header": 2,
+			"entries": [
+				"When you, as well as any Fiend or Undead in your {@classFeature Aura of Protection|Paladin|XPHB|6|XPHB} that is an ally, hits a creature with a melee attack, that attack deals extra Necrotic damage equal to your Charisma modifier."
+			]
+		},
+		{
+			"name": "Supernatural Resistance",
+			"source": "XUA2025SubclassesUpdate",
+			"page": 6,
+			"className": "Paladin",
+			"classSource": "XPHB",
+			"subclassShortName": "Oathbreaker",
+			"subclassSource": "XUA2025SubclassesUpdate",
+			"level": 15,
+			"header": 2,
+			"entries": [
+				"You gain {@variantrule Resistance|XPHB} to Bludgeoning, Piercing, and Slashing damage."
+			]
+		},
+		{
+			"name": "Dread Lord",
+			"source": "XUA2025SubclassesUpdate",
+			"page": 6,
+			"className": "Paladin",
+			"classSource": "XPHB",
+			"subclassShortName": "Oathbreaker",
+			"subclassSource": "XUA2025SubclassesUpdate",
+			"level": 20,
+			"header": 2,
+			"entries": [
+				"As a {@variantrule Bonus Action|XPHB}, you can imbue your {@classFeature Aura of Protection|Paladin|XPHB|6|XPHB} with unholy gloom, granting the benefits below for 10 minutes or until you end them (no action required). Once you use this feature, you can't use it again until you finish a {@variantrule Long Rest|XPHB}. You can also restore your use of it by expending a level 5 spell slot (no action required).",
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"page": 6,
+					"items": [
+						{
+							"type": "item",
+							"name": "Darkness",
+							"entries": [
+								"Magical {@variantrule Darkness|XPHB} fills your {@classFeature Aura of Protection|Paladin|XPHB|6|XPHB}. You and allies in your {@classFeature Aura of Protection|Paladin|XPHB|6|XPHB} can see within this magical {@variantrule Darkness|XPHB}."
+							]
+						},
+						{
+							"type": "item",
+							"name": "Fear",
+							"entries": [
+								"Whenever a creature with the {@condition Frightened|XPHB} condition starts its turn in your {@classFeature Aura of Protection|Paladin|XPHB|6|XPHB}, that creature takes {@damage 4d10} Psychic damage."
+							]
+						},
+						{
+							"type": "item",
+							"name": "Shadow Strike",
+							"entries": [
+								"As a {@variantrule Bonus Action|XPHB}, you can make a melee spell attack, shaping the gloom exuding from you into a blade that targets one creature in your {@classFeature Aura of Protection|Paladin|XPHB|6|XPHB}. On a hit, the attack deals Necrotic damage equal to {@damage 3d10} plus your Charisma modifier."
+							]
+						}
+					]
+				}
+			]
+		}
+	],
+	"foundrySubclassFeature": [
+		{
+			"name": "Desert",
+			"source": "XUA2025SubclassesUpdate",
+			"className": "Barbarian",
+			"classSource": "XPHB",
+			"subclassShortName": "Storm Herald",
+			"subclassSource": "XUA2025SubclassesUpdate",
+			"level": 6,
+			"entryData": {
+				"resist": [
+					"fire"
+				]
+			}
+		},
+		{
+			"name": "Sea",
+			"source": "XUA2025SubclassesUpdate",
+			"className": "Barbarian",
+			"classSource": "XPHB",
+			"subclassShortName": "Storm Herald",
+			"subclassSource": "XUA2025SubclassesUpdate",
+			"level": 6,
+			"effects": [
+				{
+					"name": "Sea",
+					"changes": [
+						{
+							"key": "system.attributes.movement.swim",
+							"mode": "UPGRADE",
+							"value": "system.attributes.movement.walk"
+						}
+					]
+				}
+			],
+			"entryData": {
+				"resist": [
+					"lightning"
+				]
+			}
+		},
+		{
+			"name": "Tundra",
+			"source": "XUA2025SubclassesUpdate",
+			"className": "Barbarian",
+			"classSource": "XPHB",
+			"subclassShortName": "Storm Herald",
+			"subclassSource": "XUA2025SubclassesUpdate",
+			"level": 6,
+			"entryData": {
+				"resist": [
+					"cold"
+				]
+			}
+		},
+		{
+			"name": "Bonus Proficiency",
+			"source": "XUA2025SubclassesUpdate",
+			"className": "Fighter",
+			"classSource": "XPHB",
+			"subclassShortName": "Cavalier",
+			"subclassSource": "XUA2025SubclassesUpdate",
+			"level": 3,
+			"entryData": {
+				"skillToolLanguageProficiencies": [
+					{
+						"choose": [
+							{
+								"from": [
+									"animal handling",
+									"history",
+									"insight",
+									"performance",
+									"persuasion",
+									"anyStandardLanguage"
+								],
+								"count": 1
+							}
+						]
+					}
+				]
+			}
+		},
+		{
+			"name": "Bonus Proficiencies",
+			"source": "XUA2025SubclassesUpdate",
+			"className": "Monk",
+			"classSource": "XPHB",
+			"subclassShortName": "Intoxication",
+			"subclassSource": "XUA2025SubclassesUpdate",
+			"level": 3,
+			"entryData": {
+				"skillProficiencies": [
+					{
+						"performance": true
+					},
+					{
+						"choose": {
+							"from": [
+								"acrobatics",
+								"athletics",
+								"history",
+								"insight",
+								"religion",
+								"stealth"
+							],
+							"count": 1
+						}
+					}
+				],
+				"toolProficiencies": [
+					{
+						"brewer's supplies": true
+					}
+				]
+			}
+		},
+		{
+			"name": "Supernatural Resistance",
+			"source": "XUA2025SubclassesUpdate",
+			"className": "Paladin",
+			"classSource": "XPHB",
+			"subclassShortName": "Oathbreaker",
+			"subclassSource": "XUA2025SubclassesUpdate",
+			"level": 7,
+			"entryData": {
+				"resist": [
+					"bludgeoning",
+					"piercing",
+					"slashing"
+				]
+			}
+		}
+	],
+	"table": [
+		{
+			"name": "Oathbreaker Spells",
+			"source": "XUA2025SubclassesUpdate",
+			"page": 6,
+			"type": "table",
+			"colLabels": [
+				"Paladin Level",
+				"Spells"
+			],
+			"colStyles": [
+				"col-3 text-center",
+				"col-9"
+			],
+			"rows": [
+				[
+					"3",
+					"{@spell Hellish Rebuke|XPHB}, {@spell Witch Bolt|XPHB}"
+				],
+				[
+					"5",
+					"{@spell Crown of Madness|XPHB}, {@spell Darkness|XPHB}"
+				],
+				[
+					"9",
+					"{@spell Fear|XPHB}, {@spell Summon Undead|XPHB}"
+				],
+				[
+					"13",
+					"{@spell Blight|XPHB}, {@spell Phantasmal Killer|XPHB}"
+				],
+				[
+					"17",
+					"{@spell Contagion|XPHB}, {@spell Steel Wind Strike|XPHB}"
+				]
+			]
+		}
+	],
+	"book": [
+		{
+			"name": "Unearthed Arcana 2025: Subclasses Update",
+			"id": "XUA2025SubclassesUpdate",
+			"source": "XUA2025SubclassesUpdate",
+			"group": "prerelease",
+			"cover": {
+				"type": "external",
+				"url": "https://raw.githubusercontent.com/TheGiddyLimit/unearthed-arcana/refs/heads/master/_img/XUA2025SubclassesUpdate/cover.webp"
+			},
+			"published": "2025-10-30",
+			"author": "Wizards of the Coast",
+			"contents": [
+				{
+					"name": "Unearthed Arcana 2025: Subclasses Update",
+					"headers": [
+						"What's Inside",
+						"Subclasses",
+						{
+							"header": "Path of the Spiritual Guardian (Barbarian)",
+							"depth": 1
+						},
+						{
+							"header": "Path of the Storm Herald (Barbarian)",
+							"depth": 1
+						},
+						{
+							"header": "Cavalier (Fighter)",
+							"depth": 1
+						},
+						{
+							"header": "Warrior of Intoxication (Monk)",
+							"depth": 1
+						},
+						{
+							"header": "Oathbreaker (Paladin)",
+							"depth": 1
+						}
+					]
+				}
+			]
+		}
+	],
+	"bookData": [
+		{
+			"id": "XUA2025SubclassesUpdate",
+			"source": "XUA2025SubclassesUpdate",
+			"data": [
+				{
+					"type": "section",
+					"name": "Unearthed Arcana 2025: Subclasses Update",
+					"page": 1,
+					"entries": [
+						"This playtest document is part of a series of {@i Unearthed Arcana} articles that present material designed for upcoming products. The material here uses the rules in the {@book 2024 Player's Handbook|XPHB}.",
+						{
+							"type": "section",
+							"name": "What's Inside",
+							"page": 1,
+							"entries": [
+								"This document presents five subclasses: revised subclasses for the {@class Barbarian|XPHB} ({@class Barbarian|XPHB|Path of the Spiritual Guardian|Spiritual Guardian|XUA2025SubclassesUpdate} and {@class Barbarian|XPHB|Path of the Storm Herald|Storm Herald|XUA2025SubclassesUpdate}), {@class Fighter|XPHB} ({@class Fighter|XPHB|Cavalier|Cavalier|XUA2025SubclassesUpdate}), {@class Monk|XPHB} ({@class Monk|XPHB|Warrior of Intoxication|Intoxication|XUA2025SubclassesUpdate}), and {@class Paladin|XPHB} ({@class Paladin|XPHB|Oathbreaker|Oathbreaker|XUA2025SubclassesUpdate}).",
+								{
+									"type": "inset",
+									"name": "This Is Playtest Material",
+									"page": 1,
+									"entries": [
+										"This article is presented for playtesting and feedback. The options here are experimental and in draft form. They aren't officially part of the game. Your feedback will help determine whether we adopt it as official.",
+										{
+											"type": "list",
+											"style": "list-hang-notitle",
+											"page": 1,
+											"items": [
+												{
+													"type": "item",
+													"name": "How to Playtest This UA",
+													"entries": [
+														"We invite you to try out this material in play. To play with this material, you may either incorporate it into your campaign or run one or more special playtest sessions. For such a session, you may create an adventure of your own or use a short adventure from a source like {@adventure Quests from the Infinite Staircase|QftIS}."
+													]
+												},
+												{
+													"type": "item",
+													"name": "Power Level",
+													"entries": [
+														"The character options you read here might be more or less powerful than options in the {@book 2024 Player's Handbook|XPHB}. If a design survives playtesting, we adjust its power to the desirable level before publication. This means an option could be more or less powerful in its final form."
+													]
+												},
+												{
+													"type": "item",
+													"name": "Feedback",
+													"entries": [
+														"The best way for you to give us feedback on this material is in the survey we'll release on D&D Beyond. If we make this material official, it will be refined based on your feedback, and then it will appear in a D&D book.",
+														"Providing feedback on this document is one way you can help shape the future of D&D!"
+													]
+												}
+											]
+										}
+									]
+								}
+							]
+						},
+						{
+							"type": "section",
+							"name": "Subclasses",
+							"page": 1,
+							"entries": [
+								"This section presents the following subclasses: {@class Barbarian|XPHB|Path of the Spiritual Guardian|Spiritual Guardian|XUA2025SubclassesUpdate}, {@class Barbarian|XPHB|Path of the Storm Herald|Storm Herald|XUA2025SubclassesUpdate}, {@class Fighter|XPHB|Cavalier|Cavalier|XUA2025SubclassesUpdate}, {@class Monk|XPHB|Warrior of Intoxication|Intoxication|XUA2025SubclassesUpdate}, and {@class Paladin|XPHB|Oathbreaker|Oathbreaker|XUA2025SubclassesUpdate}.",
+								{
+									"type": "entries",
+									"name": "Path of the Spiritual Guardian (Barbarian)",
+									"page": 1,
+									"entries": [
+										"{@i Call on the Spirits for Combat Aid}",
+										{
+											"type": "inset",
+											"name": "Design Note: Path of the Spiritual Guardian Updates",
+											"page": 1,
+											"entries": [
+												"Here are the main updates in this subclass (formerly {@class Barbarian|PHB|Path of the Ancestral Guardian|Ancestral Guardian|XGE}) since its last appearance in {@book Xanathar's Guide to Everything|XGE}:",
+												{
+													"type": "list",
+													"page": 1,
+													"items": [
+														{
+															"type": "item",
+															"name": "Spiritual Protectors",
+															"nameDot": false,
+															"entries": [
+																"(formerly {@subclassFeature Ancestral Protectors|Barbarian|PHB|Ancestral Guardian|XGE|3|XGE}) has been redesigned. The feature now splits the effects of the original feature, along with new effects, as options when you hit a creature while your {@classFeature Rage|Barbarian|XPHB|1|XPHB} is active."
+															]
+														},
+														{
+															"type": "item",
+															"name": "Spirit Shield",
+															"nameDot": false,
+															"entries": [
+																"now scales with your Rage Damage bonus."
+															]
+														},
+														{
+															"type": "item",
+															"name": "Vengeful Spirits",
+															"nameDot": false,
+															"entries": [
+																"(formerly {@subclassFeature Vengeful Ancestors|Barbarian|PHB|Ancestral Guardian|XGE|14|XGE}) is a new feature that allows you to make an additional attack when you roll an 18 or higher on an attack roll."
+															]
+														}
+													]
+												}
+											]
+										},
+										{
+											"type": "statblock",
+											"prop": "subclass",
+											"source": "XUA2025SubclassesUpdate",
+											"name": "Spiritual Guardian",
+											"className": "Barbarian",
+											"classSource": "XPHB",
+											"page": 1
+										}
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Path of the Storm Herald (Barbarian)",
+									"page": 2,
+									"entries": [
+										"{@i Wield the Fury of the Storm}",
+										{
+											"type": "inset",
+											"name": "Design Note: Path of the Storm Herald Updates",
+											"page": 3,
+											"entries": [
+												"Here are the main updates in this subclass since its appearance in {@book Xanathar's Guide to Everything|XGE}:",
+												{
+													"type": "list",
+													"page": 2,
+													"items": [
+														{
+															"type": "item",
+															"name": "Storm Aura",
+															"nameDot": false,
+															"entries": [
+																"now scales with your Rage Damage bonus. In addition, {@subclassFeature Tundra|Barbarian|XPHB|Storm Herald|XUA2025SubclassesUpdate|3|XUA2025SubclassesUpdate} has been redesigned to reduce a creature's damage instead of applying {@variantrule Temporary Hit Points|XPHB}."
+															]
+														},
+														{
+															"type": "item",
+															"name": "Raging Storm",
+															"nameDot": false,
+															"entries": [
+																"has each environment redesigned. {@subclassFeature Desert|Barbarian|XPHB|Storm Herald|XUA2025SubclassesUpdate|14|XUA2025SubclassesUpdate} now makes a creature that failed the saving throw start burning. {@subclassFeature Sea|Barbarian|XPHB|Storm Herald|XUA2025SubclassesUpdate|14|XUA2025SubclassesUpdate} can now chain the lightning bolt to another creature. {@subclassFeature Tundra|Barbarian|XPHB|Storm Herald|XUA2025SubclassesUpdate|14|XUA2025SubclassesUpdate} now deals Cold damage and halves a creature's {@variantrule Speed|XPHB}."
+															]
+														}
+													]
+												}
+											]
+										},
+										{
+											"type": "statblock",
+											"prop": "subclass",
+											"source": "XUA2025SubclassesUpdate",
+											"name": "Storm Herald",
+											"className": "Barbarian",
+											"classSource": "XPHB",
+											"page": 2
+										}
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Cavalier (Fighter)",
+									"page": 3,
+									"entries": [
+										"{@i Defend Your Allies on Foot or from a Mount}",
+										{
+											"type": "inset",
+											"name": "Design Note: Cavalier Updates",
+											"page": 3,
+											"entries": [
+												"Here are the main updates in this subclass since its appearance in {@book Xanathar's Guide to Everything|XGE}:",
+												{
+													"type": "list",
+													"page": 3,
+													"items": [
+														{
+															"type": "item",
+															"name": "Unwavering Mark",
+															"nameDot": false,
+															"entries": [
+																"no longer has limited uses."
+															]
+														},
+														{
+															"type": "item",
+															"name": "Ferocious Charger",
+															"nameDot": false,
+															"entries": [
+																"has been redesigned to give a burst of speed during the first round of each combat."
+															]
+														}
+													]
+												}
+											]
+										},
+										{
+											"type": "statblock",
+											"prop": "subclass",
+											"source": "XUA2025SubclassesUpdate",
+											"name": "Cavalier",
+											"className": "Fighter",
+											"classSource": "XPHB",
+											"page": 3
+										}
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Warrior of Intoxication (Monk)",
+									"page": 4,
+									"entries": [
+										"{@i Drink Mystic Brews to Overwhelm and Confound Foes}",
+										{
+											"type": "inset",
+											"name": "Design Note: Warrior of Intoxication Updates",
+											"page": 4,
+											"entries": [
+												"Here are the main updates in this subclass (formerly {@class Monk|PHB|Way of the Drunken Master|Drunken Master|XGE}) since its last appearance in {@book Xanathar's Guide to Everything|XGE}:",
+												{
+													"type": "list",
+													"page": 4,
+													"items": [
+														{
+															"type": "item",
+															"name": "Mystic Brew",
+															"nameDot": false,
+															"entries": [
+																"is a new feature that lets the {@class Monk|XPHB} create magical brews that they can drink to gain long-lasting benefits."
+															]
+														},
+														{
+															"type": "item",
+															"name": "Master Brewer",
+															"nameDot": false,
+															"entries": [
+																"is a new feature that replaces {@subclassFeature Drunkard's Luck|Monk|PHB|Drunken Master|XGE|11|XGE}. The feature adds additional beverage options to {@subclassFeature Mystic Brew|Monk|XPHB|Intoxication|XUA2025SubclassesUpdate|6|XUA2025SubclassesUpdate}."
+															]
+														}
+													]
+												}
+											]
+										},
+										{
+											"type": "statblock",
+											"prop": "subclass",
+											"source": "XUA2025SubclassesUpdate",
+											"name": "Intoxication",
+											"className": "Monk",
+											"classSource": "XPHB",
+											"page": 4
+										}
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Oathbreaker (Paladin)",
+									"page": 5,
+									"entries": [
+										"{@i Obtain Great Power at Any Cost}",
+										{
+											"type": "inset",
+											"name": "Design Note: Oathbreaker Updates",
+											"page": 5,
+											"entries": [
+												"Here are the main updates in this subclass since its last appearance in the 2014 {@book Dungeon Master's Guide|DMG}:",
+												{
+													"type": "list",
+													"page": 5,
+													"items": [
+														{
+															"type": "item",
+															"name": "Conjure Undead",
+															"nameDot": false,
+															"entries": [
+																"(formerly {@subclassFeature Control Undead|Paladin|PHB|Oathbreaker|DMG|3|DMG}) now lets you briefly summon Undead to aid you."
+															]
+														},
+														{
+															"type": "item",
+															"name": "Dreadful Aspect",
+															"nameDot": false,
+															"entries": [
+																"now loops through the {@spell Divine Smite|XPHB} spell."
+															]
+														},
+														{
+															"type": "item",
+															"name": "Oathbreaker Spells",
+															"nameDot": false,
+															"entries": [
+																"has new spells."
+															]
+														},
+														{
+															"type": "item",
+															"name": "Aura of Hate",
+															"nameDot": false,
+															"entries": [
+																"now adds its effect to your {@classFeature Aura of Protection|Paladin|XPHB|6|XPHB}. The aura now benefits only Fiends and Undead that are your allies."
+															]
+														},
+														{
+															"type": "item",
+															"name": "Dread Lord",
+															"nameDot": false,
+															"entries": [
+																"now imbues your {@classFeature Aura of Protection|Paladin|XPHB|6|XPHB} and can be recharged by expending a level 5 spell slot."
+															]
+														}
+													]
+												}
+											]
+										},
+										{
+											"type": "statblock",
+											"prop": "subclass",
+											"source": "XUA2025SubclassesUpdate",
+											"name": "Oathbreaker",
+											"className": "Paladin",
+											"classSource": "XPHB",
+											"page": 5
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	]
+}
