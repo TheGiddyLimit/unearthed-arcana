@@ -28,7 +28,7 @@ async function main () {
 
 	console.timeEnd(TIME_TAG);
 
-	return !outMessage;
+	if (outMessage) throw new Error(`Test failed! See above for more info`);
 }
 
 export default main();
