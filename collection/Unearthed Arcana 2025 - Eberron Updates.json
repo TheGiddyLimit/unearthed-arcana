@@ -39,6 +39,9 @@
 			"name": "Artificer",
 			"source": "XUA2025EberronUpdates",
 			"page": 1,
+			"reprintedAs": [
+				"Artificer|EFA"
+			],
 			"edition": "one",
 			"primaryAbility": [
 				{
@@ -659,6 +662,9 @@
 			"source": "XUA2025EberronUpdates",
 			"className": "Artificer",
 			"classSource": "XUA2025EberronUpdates",
+			"reprintedAs": [
+				"Alchemist|Artificer|EFA|EFA"
+			],
 			"_copy": {
 				"name": "Alchemist",
 				"source": "XUA2024Artificer",
@@ -676,6 +682,9 @@
 			"source": "XUA2025EberronUpdates",
 			"className": "Artificer",
 			"classSource": "XUA2025EberronUpdates",
+			"reprintedAs": [
+				"Armorer|Artificer|EFA|EFA"
+			],
 			"_copy": {
 				"name": "Armorer",
 				"source": "XUA2024Artificer",
@@ -693,6 +702,9 @@
 			"source": "XUA2025EberronUpdates",
 			"className": "Artificer",
 			"classSource": "XUA2025EberronUpdates",
+			"reprintedAs": [
+				"Artillerist|Artificer|EFA|EFA"
+			],
 			"_copy": {
 				"name": "Artillerist",
 				"source": "XUA2024Artificer",
@@ -710,6 +722,9 @@
 			"source": "XUA2025EberronUpdates",
 			"className": "Artificer",
 			"classSource": "XUA2025EberronUpdates",
+			"reprintedAs": [
+				"Battle Smith|Artificer|EFA|EFA"
+			],
 			"_copy": {
 				"name": "Battle Smith",
 				"source": "XUA2024Artificer",
@@ -728,6 +743,9 @@
 			"className": "Artificer",
 			"classSource": "XUA2025EberronUpdates",
 			"page": 6,
+			"reprintedAs": [
+				"Cartographer|Artificer|EFA|EFA"
+			],
 			"additionalSpells": [
 				{
 					"prepared": {
@@ -1351,16 +1369,18 @@
 			"name": "Aberrant Dragonmark",
 			"source": "XUA2025EberronUpdates",
 			"page": 9,
+			"reprintedAs": [
+				"Aberrant Dragonmark|EFA"
+			],
 			"category": "D",
 			"prerequisite": [
 				{
 					"campaign": [
 						"Eberron"
 					],
-					"otherSummary": {
-						"entry": "Can't Have Another Dragonmark Feat",
-						"entrySummary": "One Dragonmark"
-					}
+					"exclusiveFeatCategory": [
+						"D"
+					]
 				}
 			],
 			"additionalSpells": [
@@ -1415,6 +1435,9 @@
 			"name": "Boon of Siberys",
 			"source": "XUA2025EberronUpdates",
 			"page": 15,
+			"reprintedAs": [
+				"Boon of Siberys|EFA"
+			],
 			"category": "EB",
 			"prerequisite": [
 				{
@@ -1558,6 +1581,9 @@
 			"name": "Greater Aberrant Mark",
 			"source": "XUA2025EberronUpdates",
 			"page": 13,
+			"reprintedAs": [
+				"Greater Aberrant Mark|EFA"
+			],
 			"category": "G",
 			"prerequisite": [
 				{
@@ -1595,6 +1621,9 @@
 			"name": "Greater Mark of Detection",
 			"source": "XUA2025EberronUpdates",
 			"page": 13,
+			"reprintedAs": [
+				"Greater Mark of Detection|EFA"
+			],
 			"category": "G",
 			"prerequisite": [
 				{
@@ -1640,6 +1669,9 @@
 			"name": "Greater Mark of Finding",
 			"source": "XUA2025EberronUpdates",
 			"page": 13,
+			"reprintedAs": [
+				"Greater Mark of Finding|EFA"
+			],
 			"category": "G",
 			"prerequisite": [
 				{
@@ -1685,6 +1717,9 @@
 			"name": "Greater Mark of Handling",
 			"source": "XUA2025EberronUpdates",
 			"page": 13,
+			"reprintedAs": [
+				"Greater Mark of Handling|EFA"
+			],
 			"category": "G",
 			"prerequisite": [
 				{
@@ -1730,6 +1765,9 @@
 			"name": "Greater Mark of Healing",
 			"source": "XUA2025EberronUpdates",
 			"page": 14,
+			"reprintedAs": [
+				"Greater Mark of Healing|EFA"
+			],
 			"category": "G",
 			"prerequisite": [
 				{
@@ -1775,6 +1813,9 @@
 			"name": "Greater Mark of Hospitality",
 			"source": "XUA2025EberronUpdates",
 			"page": 14,
+			"reprintedAs": [
+				"Greater Mark of Hospitality|EFA"
+			],
 			"category": "G",
 			"prerequisite": [
 				{
@@ -1820,6 +1861,9 @@
 			"name": "Greater Mark of Making",
 			"source": "XUA2025EberronUpdates",
 			"page": 14,
+			"reprintedAs": [
+				"Greater Mark of Making|EFA"
+			],
 			"category": "G",
 			"prerequisite": [
 				{
@@ -1865,6 +1909,9 @@
 			"name": "Greater Mark of Passage",
 			"source": "XUA2025EberronUpdates",
 			"page": 14,
+			"reprintedAs": [
+				"Greater Mark of Passage|EFA"
+			],
 			"category": "G",
 			"prerequisite": [
 				{
@@ -1910,6 +1957,9 @@
 			"name": "Greater Mark of Scribing",
 			"source": "XUA2025EberronUpdates",
 			"page": 14,
+			"reprintedAs": [
+				"Greater Mark of Scribing|EFA"
+			],
 			"category": "G",
 			"prerequisite": [
 				{
@@ -1955,6 +2005,9 @@
 			"name": "Greater Mark of Sentinel",
 			"source": "XUA2025EberronUpdates",
 			"page": 14,
+			"reprintedAs": [
+				"Greater Mark of Sentinel|EFA"
+			],
 			"category": "G",
 			"prerequisite": [
 				{
@@ -2000,6 +2053,9 @@
 			"name": "Greater Mark of Shadow",
 			"source": "XUA2025EberronUpdates",
 			"page": 15,
+			"reprintedAs": [
+				"Greater Mark of Shadow|EFA"
+			],
 			"category": "G",
 			"prerequisite": [
 				{
@@ -2045,6 +2101,9 @@
 			"name": "Greater Mark of Storm",
 			"source": "XUA2025EberronUpdates",
 			"page": 15,
+			"reprintedAs": [
+				"Greater Mark of Storm|EFA"
+			],
 			"category": "G",
 			"prerequisite": [
 				{
@@ -2090,6 +2149,9 @@
 			"name": "Greater Mark of Warding",
 			"source": "XUA2025EberronUpdates",
 			"page": 15,
+			"reprintedAs": [
+				"Greater Mark of Warding|EFA"
+			],
 			"category": "G",
 			"prerequisite": [
 				{
@@ -2135,16 +2197,18 @@
 			"name": "Mark of Detection",
 			"source": "XUA2025EberronUpdates",
 			"page": 9,
+			"reprintedAs": [
+				"Mark of Detection|EFA"
+			],
 			"category": "D",
 			"prerequisite": [
 				{
 					"campaign": [
 						"Eberron"
 					],
-					"otherSummary": {
-						"entry": "Can't Have Another Dragonmark Feat",
-						"entrySummary": "One Dragonmark"
-					}
+					"exclusiveFeatCategory": [
+						"D"
+					]
 				}
 			],
 			"additionalSpells": [
@@ -2261,16 +2325,18 @@
 			"name": "Mark of Finding",
 			"source": "XUA2025EberronUpdates",
 			"page": 10,
+			"reprintedAs": [
+				"Mark of Finding|EFA"
+			],
 			"category": "D",
 			"prerequisite": [
 				{
 					"campaign": [
 						"Eberron"
 					],
-					"otherSummary": {
-						"entry": "Can't Have Another Dragonmark Feat",
-						"entrySummary": "One Dragonmark"
-					}
+					"exclusiveFeatCategory": [
+						"D"
+					]
 				}
 			],
 			"additionalSpells": [
@@ -2386,16 +2452,18 @@
 			"name": "Mark of Handling",
 			"source": "XUA2025EberronUpdates",
 			"page": 10,
+			"reprintedAs": [
+				"Mark of Handling|EFA"
+			],
 			"category": "D",
 			"prerequisite": [
 				{
 					"campaign": [
 						"Eberron"
 					],
-					"otherSummary": {
-						"entry": "Can't Have Another Dragonmark Feat",
-						"entrySummary": "One Dragonmark"
-					}
+					"exclusiveFeatCategory": [
+						"D"
+					]
 				}
 			],
 			"additionalSpells": [
@@ -2511,16 +2579,18 @@
 			"name": "Mark of Healing",
 			"source": "XUA2025EberronUpdates",
 			"page": 10,
+			"reprintedAs": [
+				"Mark of Healing|EFA"
+			],
 			"category": "D",
 			"prerequisite": [
 				{
 					"campaign": [
 						"Eberron"
 					],
-					"otherSummary": {
-						"entry": "Can't Have Another Dragonmark Feat",
-						"entrySummary": "One Dragonmark"
-					}
+					"exclusiveFeatCategory": [
+						"D"
+					]
 				}
 			],
 			"additionalSpells": [
@@ -2636,16 +2706,18 @@
 			"name": "Mark of Hospitality",
 			"source": "XUA2025EberronUpdates",
 			"page": 11,
+			"reprintedAs": [
+				"Mark of Hospitality|EFA"
+			],
 			"category": "D",
 			"prerequisite": [
 				{
 					"campaign": [
 						"Eberron"
 					],
-					"otherSummary": {
-						"entry": "Can't Have Another Dragonmark Feat",
-						"entrySummary": "One Dragonmark"
-					}
+					"exclusiveFeatCategory": [
+						"D"
+					]
 				}
 			],
 			"additionalSpells": [
@@ -2759,16 +2831,18 @@
 			"name": "Mark of Making",
 			"source": "XUA2025EberronUpdates",
 			"page": 11,
+			"reprintedAs": [
+				"Mark of Making|EFA"
+			],
 			"category": "D",
 			"prerequisite": [
 				{
 					"campaign": [
 						"Eberron"
 					],
-					"otherSummary": {
-						"entry": "Can't Have Another Dragonmark Feat",
-						"entrySummary": "One Dragonmark"
-					}
+					"exclusiveFeatCategory": [
+						"D"
+					]
 				}
 			],
 			"additionalSpells": [
@@ -2881,16 +2955,18 @@
 			"name": "Mark of Passage",
 			"source": "XUA2025EberronUpdates",
 			"page": 11,
+			"reprintedAs": [
+				"Mark of Passage|EFA"
+			],
 			"category": "D",
 			"prerequisite": [
 				{
 					"campaign": [
 						"Eberron"
 					],
-					"otherSummary": {
-						"entry": "Can't Have Another Dragonmark Feat",
-						"entrySummary": "One Dragonmark"
-					}
+					"exclusiveFeatCategory": [
+						"D"
+					]
 				}
 			],
 			"additionalSpells": [
@@ -3005,16 +3081,18 @@
 			"name": "Mark of Scribing",
 			"source": "XUA2025EberronUpdates",
 			"page": 11,
+			"reprintedAs": [
+				"Mark of Scribing|EFA"
+			],
 			"category": "D",
 			"prerequisite": [
 				{
 					"campaign": [
 						"Eberron"
 					],
-					"otherSummary": {
-						"entry": "Can't Have Another Dragonmark Feat",
-						"entrySummary": "One Dragonmark"
-					}
+					"exclusiveFeatCategory": [
+						"D"
+					]
 				}
 			],
 			"additionalSpells": [
@@ -3135,16 +3213,18 @@
 			"name": "Mark of Sentinel",
 			"source": "XUA2025EberronUpdates",
 			"page": 12,
+			"reprintedAs": [
+				"Mark of Sentinel|EFA"
+			],
 			"category": "D",
 			"prerequisite": [
 				{
 					"campaign": [
 						"Eberron"
 					],
-					"otherSummary": {
-						"entry": "Can't Have Another Dragonmark Feat",
-						"entrySummary": "One Dragonmark"
-					}
+					"exclusiveFeatCategory": [
+						"D"
+					]
 				}
 			],
 			"additionalSpells": [
@@ -3259,16 +3339,18 @@
 			"name": "Mark of Shadow",
 			"source": "XUA2025EberronUpdates",
 			"page": 12,
+			"reprintedAs": [
+				"Mark of Shadow|EFA"
+			],
 			"category": "D",
 			"prerequisite": [
 				{
 					"campaign": [
 						"Eberron"
 					],
-					"otherSummary": {
-						"entry": "Can't Have Another Dragonmark Feat",
-						"entrySummary": "One Dragonmark"
-					}
+					"exclusiveFeatCategory": [
+						"D"
+					]
 				}
 			],
 			"additionalSpells": [
@@ -3381,16 +3463,18 @@
 			"name": "Mark of Storm",
 			"source": "XUA2025EberronUpdates",
 			"page": 12,
+			"reprintedAs": [
+				"Mark of Storm|EFA"
+			],
 			"category": "D",
 			"prerequisite": [
 				{
 					"campaign": [
 						"Eberron"
 					],
-					"otherSummary": {
-						"entry": "Can't Have Another Dragonmark Feat",
-						"entrySummary": "One Dragonmark"
-					}
+					"exclusiveFeatCategory": [
+						"D"
+					]
 				}
 			],
 			"resist": [
@@ -3513,16 +3597,18 @@
 			"name": "Mark of Warding",
 			"source": "XUA2025EberronUpdates",
 			"page": 13,
+			"reprintedAs": [
+				"Mark of Warding|EFA"
+			],
 			"category": "D",
 			"prerequisite": [
 				{
 					"campaign": [
 						"Eberron"
 					],
-					"otherSummary": {
-						"entry": "Can't Have Another Dragonmark Feat",
-						"entrySummary": "One Dragonmark"
-					}
+					"exclusiveFeatCategory": [
+						"D"
+					]
 				}
 			],
 			"additionalSpells": [
@@ -3639,14 +3725,16 @@
 			"name": "Potent Dragonmark",
 			"source": "XUA2025EberronUpdates",
 			"page": 15,
+			"reprintedAs": [
+				"Potent Dragonmark|EFA"
+			],
 			"category": "G",
 			"prerequisite": [
 				{
 					"level": 4,
-					"otherSummary": {
-						"entry": "Any Dragonmark Feat",
-						"entrySummary": "Any Dragonmark"
-					}
+					"featCategory": [
+						"D"
+					]
 				}
 			],
 			"ability": [
@@ -3689,6 +3777,9 @@
 			"name": "Manifold Tool",
 			"source": "XUA2025EberronUpdates",
 			"page": 8,
+			"reprintedAs": [
+				"Manifold Tool|EFA"
+			],
 			"rarity": "common",
 			"reqAttune": true,
 			"wondrous": true,

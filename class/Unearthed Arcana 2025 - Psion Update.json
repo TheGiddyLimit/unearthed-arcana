@@ -5028,7 +5028,7 @@
 												{
 													"type": "list",
 													"items": [
-														"{@subclassFeature Mutable Form|Psion|XUA2025PsionUpdate|Metamorph|XUA2025PsionUpdate|3|XUA2025PsionUpdate} (formerly {@subclassFeature Extend Limbs|Psion|XUA2025Psion|Metamorph|XUA2025Psion|3|XUA2025Psion}}) now grants {@variantrule Temporary Hit Points|XPHB} from the expended Psionic Energy Die.",
+														"{@subclassFeature Mutable Form|Psion|XUA2025PsionUpdate|Metamorph|XUA2025PsionUpdate|3|XUA2025PsionUpdate} (formerly {@subclassFeature Extend Limbs|Psion|XUA2025Psion|Metamorph|XUA2025Psion|3|XUA2025Psion}) now grants {@variantrule Temporary Hit Points|XPHB} from the expended Psionic Energy Die.",
 														"{@subclassFeature Organic Weapons|Psion|XUA2025PsionUpdate|Metamorph|XUA2025PsionUpdate|3|XUA2025PsionUpdate} now regains its form until you change it or have the Unconscious condition. In addition, magic items that provide benefits to Organic Weapons will appear in a future product if this subclass is printed.",
 														"{@subclassFeature Flesh Weaver|Psion|XUA2025PsionUpdate|Metamorph|XUA2025PsionUpdate|6|XUA2025PsionUpdate} is a new feature.",
 														"{@subclassFeature Life-Bending Weapons|Psion|XUA2025PsionUpdate|Metamorph|XUA2025PsionUpdate|14|XUA2025PsionUpdate} now provides additional damage without expending a Psionic Energy Die."
