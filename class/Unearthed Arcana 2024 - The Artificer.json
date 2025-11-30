@@ -28,6 +28,9 @@
 			"name": "Artificer",
 			"source": "XUA2024Artificer",
 			"page": 1,
+			"reprintedAs": [
+				"Artificer|XUA2025EberronUpdates"
+			],
 			"edition": "one",
 			"primaryAbility": [
 				{
@@ -641,6 +644,9 @@
 			"className": "Artificer",
 			"classSource": "XUA2024Artificer",
 			"page": 6,
+			"reprintedAs": [
+				"Alchemist|Artificer|XUA2025EberronUpdates|XUA2025EberronUpdates"
+			],
 			"additionalSpells": [
 				{
 					"prepared": {
@@ -712,6 +718,9 @@
 			"className": "Artificer",
 			"classSource": "XUA2024Artificer",
 			"page": 8,
+			"reprintedAs": [
+				"Armorer|Artificer|XUA2025EberronUpdates|XUA2025EberronUpdates"
+			],
 			"additionalSpells": [
 				{
 					"prepared": {
@@ -765,6 +774,9 @@
 			"className": "Artificer",
 			"classSource": "XUA2024Artificer",
 			"page": 10,
+			"reprintedAs": [
+				"Artillerist|Artificer|XUA2025EberronUpdates|XUA2025EberronUpdates"
+			],
 			"additionalSpells": [
 				{
 					"prepared": {
@@ -818,6 +830,9 @@
 			"className": "Artificer",
 			"classSource": "XUA2024Artificer",
 			"page": 11,
+			"reprintedAs": [
+				"Battle Smith|Artificer|XUA2025EberronUpdates|XUA2025EberronUpdates"
+			],
 			"additionalSpells": [
 				{
 					"prepared": {
@@ -2671,6 +2686,9 @@
 					"page": 7
 				}
 			],
+			"reprintedAs": [
+				"Homunculus Servant|EFA"
+			],
 			"level": 2,
 			"school": "C",
 			"time": [
@@ -2755,6 +2773,9 @@
 					"page": 8
 				}
 			],
+			"reprintedAs": [
+				"Boots of the Winding Path|EFA"
+			],
 			"rarity": "uncommon",
 			"reqAttune": true,
 			"wondrous": true,
@@ -2772,6 +2793,9 @@
 					"page": 8
 				}
 			],
+			"reprintedAs": [
+				"Helm of Awareness|EFA"
+			],
 			"rarity": "uncommon",
 			"reqAttune": true,
 			"wondrous": true,
@@ -2788,6 +2812,9 @@
 					"source": "XUA2025EberronUpdates",
 					"page": 8
 				}
+			],
+			"reprintedAs": [
+				"Mind Sharpener|EFA"
 			],
 			"type": "RG|XDMG",
 			"rarity": "uncommon",
@@ -2808,6 +2835,9 @@
 					"source": "XUA2025EberronUpdates",
 					"page": 9
 				}
+			],
+			"reprintedAs": [
+				"Repulsion Shield|EFA"
 			],
 			"baseItem": "shield|xphb",
 			"type": "S|XPHB",
@@ -2869,6 +2899,9 @@
 						"page": 8
 					}
 				],
+				"reprintedAs": [
+					"Dazzling Weapon|EFA"
+				],
 				"rarity": "rare",
 				"reqAttune": "by a spellcaster",
 				"reqAttuneTags": [
@@ -2909,6 +2942,9 @@
 						"page": 8
 					}
 				],
+				"reprintedAs": [
+					"Repeating Shot|EFA"
+				],
 				"rarity": "uncommon",
 				"reqAttune": true,
 				"propertyRemove": [
@@ -2944,6 +2980,9 @@
 						"page": 9
 					}
 				],
+				"reprintedAs": [
+					"Returning Weapon|EFA"
+				],
 				"rarity": "uncommon",
 				"bonusWeapon": "+1",
 				"entries": [
@@ -2962,6 +3001,9 @@
 					"source": "XUA2025EberronUpdates",
 					"page": 8
 				}
+			],
+			"reprintedAs": [
+				"Homunculus Servant|EFA"
 			],
 			"summonedBySpell": "Homunculus Servant|XUA2024Artificer",
 			"summonedBySpellLevel": 2,
@@ -3049,6 +3091,9 @@
 			"name": "Steel Defender",
 			"source": "XUA2024Artificer",
 			"page": 12,
+			"reprintedAs": [
+				"Steel Defender|EFA"
+			],
 			"summonedByClass": "Artificer|XUA2024Artificer",
 			"size": [
 				"M"
@@ -3132,6 +3177,9 @@
 			"name": "Eldritch Cannon",
 			"source": "XUA2024Artificer",
 			"page": 10,
+			"reprintedAs": [
+				"Eldritch Cannon|EFA"
+			],
 			"size": [
 				"T",
 				"S"
