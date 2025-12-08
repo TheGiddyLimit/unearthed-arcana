@@ -1748,7 +1748,7 @@
 			"subclassSource": "XUA2025PsionUpdate",
 			"level": 10,
 			"entries": [
-				"While you aren't wearing armor, you can take the {@action Dash|XPHB} action as a {@variantrule Bonus Action|XPHB}, and you have a {@variantrule Climb Speed|XPHB} and {@variantrule Swim Speed|XPHB} equal to your {@variantrule Speed|XPHB}. Unnatural Flexibility. You gain a +1 bonus to AC, and your body\u2014along with any equipment you're wearing or carrying\u2014becomes pliable. You can move through any space as narrow as 1 inch, and you can spend 5 feet of movement to escape from nonmagical restraints or end the Grappled condition."
+				"While you aren't wearing armor, you can take the {@action Dash|XPHB} action as a {@variantrule Bonus Action|XPHB}, and you have a {@variantrule Climb Speed|XPHB} and {@variantrule Swim Speed|XPHB} equal to your {@variantrule Speed|XPHB}."
 			]
 		},
 		{
