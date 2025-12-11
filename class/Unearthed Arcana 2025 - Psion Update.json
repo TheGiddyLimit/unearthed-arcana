@@ -4099,11 +4099,11 @@
 					]
 				},
 				{
-					"name": "Level 4 Artificer Spells",
+					"name": "Level 4 Psion Spells",
 					"source": "XUA2025PsionUpdate",
 					"page": 6,
 					"type": "table",
-					"caption": "Level 4 Artificer Spells",
+					"caption": "Level 4 Psion Spells",
 					"colLabels": [
 						"Spell",
 						"School",
