@@ -2137,7 +2137,7 @@
 				"amount": 1
 			},
 			"entries": [
-				"When you cast a {@filter a Psion spell from the Necromancy or Transmutation school|spells|class=psion (xua25pu)|school=n;t|source=XUA2025PsionUpdate==extend}, you can expend a number of Psionic Energy Dice up to your Intelligence modifier, roll them, and gain a number of {@variantrule Temporary Hit Points|XPHB} equal to the total number rolled plus your Intelligence modifier (minimum of one)."
+				"When you cast a {@filter Psion spell from the Necromancy or Transmutation school|spells|class=psion (xua25pu)|school=n;t|source=XUA2025PsionUpdate==extend}, you can expend a number of Psionic Energy Dice up to your Intelligence modifier, roll them, and gain a number of {@variantrule Temporary Hit Points|XPHB} equal to the total number rolled plus your Intelligence modifier (minimum of one)."
 			]
 		},
 		{
@@ -2153,7 +2153,7 @@
 				"amountMax": 10
 			},
 			"entries": [
-				"When you cast a {@filter a Psion spell from the Abjuration or Divination school|spells|class=psion (xua25pu)|school=a;d|source=XUA2025PsionUpdate==extend}, you can expend one Psionic Energy Die. Roll the die and choose a creature you can see within 60 feet (which can be yourself). Until the end of your next turn, the creature gains a bonus to the next {@variantrule D20 Test|XPHB} it makes equal to the number rolled."
+				"When you cast a {@filter Psion spell from the Abjuration or Divination school|spells|class=psion (xua25pu)|school=a;d|source=XUA2025PsionUpdate==extend}, you can expend one Psionic Energy Die. Roll the die and choose a creature you can see within 60 feet (which can be yourself). Until the end of your next turn, the creature gains a bonus to the next {@variantrule D20 Test|XPHB} it makes equal to the number rolled."
 			]
 		},
 		{
@@ -2168,7 +2168,7 @@
 				"amount": 1
 			},
 			"entries": [
-				"When you cast a {@filter a Psion spell from the Conjuration or Evocation school|spells|class=psion (xua25pu)|school=c;v|source=XUA2025PsionUpdate==extend} that forces a creature you can see to make a saving throw against the spell, you can expend a number of Psionic Energy Dice up to your Intelligence modifier, and roll them. The creature takes Psychic damage equal to the total number rolled plus your Intelligence modifier (minimum of one), regardless of the result of the saving throw."
+				"When you cast a {@filter Psion spell from the Conjuration or Evocation school|spells|class=psion (xua25pu)|school=c;v|source=XUA2025PsionUpdate==extend} that forces a creature you can see to make a saving throw against the spell, you can expend a number of Psionic Energy Dice up to your Intelligence modifier, and roll them. The creature takes Psychic damage equal to the total number rolled plus your Intelligence modifier (minimum of one), regardless of the result of the saving throw."
 			]
 		},
 		{
@@ -2213,7 +2213,7 @@
 				"amount": 2
 			},
 			"entries": [
-				"When you cast a {@filter a Psion spell from the Enchantment or Illusion school|spells|class=psion (xua25pu)|school=e;i|saving throw=strength;dexterity;constitution;intelligence;wisdom;charisma|source=XUA2025PsionUpdate==extend} that forces a creature to make a saving throw, you can expend one Psionic Energy Dice and roll it. One target of the spell you can see subtracts half the number rolled (round up) from its saving throw against the spell."
+				"When you cast a {@filter Psion spell from the Enchantment or Illusion school|spells|class=psion (xua25pu)|school=e;i|saving throw=strength;dexterity;constitution;intelligence;wisdom;charisma|source=XUA2025PsionUpdate==extend} that forces a creature to make a saving throw, you can expend one Psionic Energy Dice and roll it. One target of the spell you can see subtracts half the number rolled (round up) from its saving throw against the spell."
 			]
 		},
 		{
@@ -3138,7 +3138,7 @@
 				}
 			],
 			"entries": [
-				"You call forth the spirit of a psionic entity. It manifests in an unoccupied space that you can see within range and uses the Psionic Spirit stat block.",
+				"You call forth the spirit of a psionic entity. It manifests in an unoccupied space that you can see within range and uses the {@creature Psionic Spirit|XUA2025PsionUpdate} stat block.",
 				"When you cast the spell, choose Crystal Entity, Ectoplasmic Entity, or Ghostly Entity. The creature resembles an astral entity of that kind, which determines certain details in its stat block. The creature disappears when it drops to 0 {@variantrule Hit Points|XPHB} or when the spell ends.",
 				"The creature is an ally to you and your allies. In combat, the creature shares your {@variantrule Initiative|XPHB} count, but it takes its turn immediately after yours. It obeys your verbal commands (no action required by you).",
 				"If you don't issue any, it takes the {@action Dodge|XPHB} action and uses its movement to avoid danger."
