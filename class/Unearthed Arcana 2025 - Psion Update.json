@@ -360,8 +360,8 @@
 				{
 					"colLabels": [
 						"Energy Die",
-						"{@filter Cantrips|spells|level=0|class=psion (xua25p)|source=XUA2025PsionUpdate==extend}",
-						"{@filter Prepared Spells|spells|level=!0|class=psion (xua25p)|source=XUA2025PsionUpdate==extend}"
+						"{@filter Cantrips|spells|level=0|class=psion (xua25pu)|source=XUA2025PsionUpdate==extend}",
+						"{@filter Prepared Spells|spells|level=!0|class=psion (xua25pu)|source=XUA2025PsionUpdate==extend}"
 					],
 					"rows": [
 						[
@@ -469,15 +469,15 @@
 				{
 					"title": "Spell Slots per Spell Level",
 					"colLabels": [
-						"{@filter 1st|spells|level=1|class=psion (xua25p)|source=XUA2025PsionUpdate==extend}",
-						"{@filter 2nd|spells|level=2|class=psion (xua25p)|source=XUA2025PsionUpdate==extend}",
-						"{@filter 3rd|spells|level=3|class=psion (xua25p)|source=XUA2025PsionUpdate==extend}",
-						"{@filter 4th|spells|level=4|class=psion (xua25p)|source=XUA2025PsionUpdate==extend}",
-						"{@filter 5th|spells|level=5|class=psion (xua25p)|source=XUA2025PsionUpdate==extend}",
-						"{@filter 6th|spells|level=6|class=psion (xua25p)|source=XUA2025PsionUpdate==extend}",
-						"{@filter 7th|spells|level=7|class=psion (xua25p)|source=XUA2025PsionUpdate==extend}",
-						"{@filter 8th|spells|level=8|class=psion (xua25p)|source=XUA2025PsionUpdate==extend}",
-						"{@filter 9th|spells|level=9|class=psion (xua25p)|source=XUA2025PsionUpdate==extend}"
+						"{@filter 1st|spells|level=1|class=psion (xua25pu)|source=XUA2025PsionUpdate==extend}",
+						"{@filter 2nd|spells|level=2|class=psion (xua25pu)|source=XUA2025PsionUpdate==extend}",
+						"{@filter 3rd|spells|level=3|class=psion (xua25pu)|source=XUA2025PsionUpdate==extend}",
+						"{@filter 4th|spells|level=4|class=psion (xua25pu)|source=XUA2025PsionUpdate==extend}",
+						"{@filter 5th|spells|level=5|class=psion (xua25pu)|source=XUA2025PsionUpdate==extend}",
+						"{@filter 6th|spells|level=6|class=psion (xua25pu)|source=XUA2025PsionUpdate==extend}",
+						"{@filter 7th|spells|level=7|class=psion (xua25pu)|source=XUA2025PsionUpdate==extend}",
+						"{@filter 8th|spells|level=8|class=psion (xua25pu)|source=XUA2025PsionUpdate==extend}",
+						"{@filter 9th|spells|level=9|class=psion (xua25pu)|source=XUA2025PsionUpdate==extend}"
 					],
 					"rowsSpellProgression": [
 						[
@@ -2154,7 +2154,7 @@
 				"amount": 1
 			},
 			"entries": [
-				"When you cast a {@filter a Psion spell from the Necromancy or Transmutation school|spells|class=psion (xua25p)|school=n;t|source=XUA2025PsionUpdate==extend}, you can expend a number of Psionic Energy Dice up to your Intelligence modifier, roll them, and gain a number of {@variantrule Temporary Hit Points|XPHB} equal to the total number rolled plus your Intelligence modifier (minimum of one)."
+				"When you cast a {@filter a Psion spell from the Necromancy or Transmutation school|spells|class=psion (xua25pu)|school=n;t|source=XUA2025PsionUpdate==extend}, you can expend a number of Psionic Energy Dice up to your Intelligence modifier, roll them, and gain a number of {@variantrule Temporary Hit Points|XPHB} equal to the total number rolled plus your Intelligence modifier (minimum of one)."
 			]
 		},
 		{
@@ -2170,7 +2170,7 @@
 				"amountMax": 10
 			},
 			"entries": [
-				"When you cast a {@filter a Psion spell from the Abjuration or Divination school|spells|class=psion (xua25p)|school=a;d|source=XUA2025PsionUpdate==extend}, you can expend one Psionic Energy Die. Roll the die and choose a creature you can see within 60 feet (which can be yourself). Until the end of your next turn, the creature gains a bonus to the next {@variantrule D20 Test|XPHB} it makes equal to the number rolled."
+				"When you cast a {@filter a Psion spell from the Abjuration or Divination school|spells|class=psion (xua25pu)|school=a;d|source=XUA2025PsionUpdate==extend}, you can expend one Psionic Energy Die. Roll the die and choose a creature you can see within 60 feet (which can be yourself). Until the end of your next turn, the creature gains a bonus to the next {@variantrule D20 Test|XPHB} it makes equal to the number rolled."
 			]
 		},
 		{
@@ -2185,7 +2185,7 @@
 				"amount": 1
 			},
 			"entries": [
-				"When you cast a {@filter a Psion spell from the Conjuration or Evocation school|spells|class=psion (xua25p)|school=c;v|source=XUA2025PsionUpdate==extend} that forces a creature you can see to make a saving throw against the spell, you can expend a number of Psionic Energy Dice up to your Intelligence modifier, and roll them. The creature takes Psychic damage equal to the total number rolled plus your Intelligence modifier (minimum of one), regardless of the result of the saving throw."
+				"When you cast a {@filter a Psion spell from the Conjuration or Evocation school|spells|class=psion (xua25pu)|school=c;v|source=XUA2025PsionUpdate==extend} that forces a creature you can see to make a saving throw against the spell, you can expend a number of Psionic Energy Dice up to your Intelligence modifier, and roll them. The creature takes Psychic damage equal to the total number rolled plus your Intelligence modifier (minimum of one), regardless of the result of the saving throw."
 			]
 		},
 		{
@@ -2230,7 +2230,7 @@
 				"amount": 2
 			},
 			"entries": [
-				"When you cast a {@filter a Psion spell from the Enchantment or Illusion school|spells|class=psion (xua25p)|school=e;i|saving throw=strength;dexterity;constitution;intelligence;wisdom;charisma|source=XUA2025PsionUpdate==extend} that forces a creature to make a saving throw, you can expend one Psionic Energy Dice and roll it. One target of the spell you can see subtracts half the number rolled (round up) from its saving throw against the spell."
+				"When you cast a {@filter a Psion spell from the Enchantment or Illusion school|spells|class=psion (xua25pu)|school=e;i|saving throw=strength;dexterity;constitution;intelligence;wisdom;charisma|source=XUA2025PsionUpdate==extend} that forces a creature to make a saving throw, you can expend one Psionic Energy Dice and roll it. One target of the spell you can see subtracts half the number rolled (round up) from its saving throw against the spell."
 			]
 		},
 		{
