@@ -1,0 +1,1771 @@
+{
+	"$schema": "https://raw.githubusercontent.com/TheGiddyLimit/5etools-utils/master/schema/ua-fast/homebrew.json",
+	"_meta": {
+		"sources": [
+			{
+				"json": "XUA2026MysticSubclasses",
+				"abbreviation": "XUA26MS",
+				"full": "Unearthed Arcana 2026: Mystic Subclasses",
+				"authors": [
+					"Wizards of the Coast"
+				],
+				"convertedBy": [
+					"Lyra [he/him]"
+				],
+				"version": "1.0.0",
+				"url": "https://media.dndbeyond.com/compendium-images/ua/mystic-subclasses/mrF6k4xf0yYFJL2m/UA2026-MysticSubclasses.pdf",
+				"dateReleased": "2026-01-15"
+			}
+		],
+		"edition": "one",
+		"status": "ready",
+		"dateAdded": 1768501635,
+		"dateLastModified": 1768501635
+	},
+	"subclass": [
+		{
+			"name": "Magic Stealer",
+			"shortName": "Magic Stealer",
+			"source": "XUA2026MysticSubclasses",
+			"className": "Rogue",
+			"classSource": "XPHB",
+			"page": 4,
+			"additionalSpells": [
+				{
+					"innate": {
+						"13": {
+							"daily": {
+								"1e": [
+									"nondetection|XPHB"
+								]
+							}
+						}
+					}
+				}
+			],
+			"subclassSpells": [
+				"Nondetection|XPHB"
+			],
+			"subclassFeatures": [
+				"Magic Stealer|Rogue|XPHB|Magic Stealer|XUA2026MysticSubclasses|3|XUA2026MysticSubclasses",
+				"Magical Sabotage|Rogue|XPHB|Magic Stealer|XUA2026MysticSubclasses|9|XUA2026MysticSubclasses",
+				"Occult Shroud|Rogue|XPHB|Magic Stealer|XUA2026MysticSubclasses|13|XUA2026MysticSubclasses",
+				"Improved Drain Magic|Rogue|XPHB|Magic Stealer|XUA2026MysticSubclasses|13|XUA2026MysticSubclasses",
+				"Eldritch Implosion|Rogue|XPHB|Magic Stealer|XUA2026MysticSubclasses|17|XUA2026MysticSubclasses"
+			],
+			"hasFluff": true
+		},
+		{
+			"name": "Oath of the Spellguard",
+			"shortName": "Spellguard",
+			"source": "XUA2026MysticSubclasses",
+			"className": "Paladin",
+			"classSource": "XPHB",
+			"page": 3,
+			"additionalSpells": [
+				{
+					"prepared": {
+						"3": [
+							"Detect Magic|XPHB",
+							"Shield|XPHB"
+						],
+						"5": [
+							"See Invisibility|XPHB",
+							"Silence|XPHB"
+						],
+						"9": [
+							"Counterspell|XPHB",
+							"Dispel Magic|XPHB"
+						],
+						"13": [
+							"Freedom of Movement|XPHB",
+							"Otiluke's Resilient Sphere|XPHB"
+						],
+						"17": [
+							"Circle of Power|XPHB",
+							"Hallow|XPHB"
+						]
+					}
+				}
+			],
+			"subclassSpells": [
+				"Detect Magic|XPHB",
+				"Shield|XPHB",
+				"See Invisibility|XPHB",
+				"Silence|XPHB",
+				"Counterspell|XPHB",
+				"Dispel Magic|XPHB",
+				"Freedom of Movement|XPHB",
+				"Otiluke's Resilient Sphere|XPHB",
+				"Circle of Power|XPHB",
+				"Hallow|XPHB"
+			],
+			"subclassFeatures": [
+				"Oath of the Spellguard|Paladin|XPHB|Spellguard|XUA2026MysticSubclasses|3|XUA2026MysticSubclasses",
+				"Aura of Concentration|Paladin|XPHB|Spellguard|XUA2026MysticSubclasses|7|XUA2026MysticSubclasses",
+				"Spell-Breaking Blade|Paladin|XPHB|Spellguard|XUA2026MysticSubclasses|15|XUA2026MysticSubclasses",
+				"Eternal Spellguard|Paladin|XPHB|Spellguard|XUA2026MysticSubclasses|20|XUA2026MysticSubclasses"
+			],
+			"hasFluff": true
+		},
+		{
+			"name": "Vestige Patron",
+			"shortName": "Vestige",
+			"source": "XUA2026MysticSubclasses",
+			"className": "Warlock",
+			"classSource": "XPHB",
+			"page": 5,
+			"additionalSpells": [
+				{
+					"name": "Life",
+					"prepared": {
+						"3": [
+							"aid|xphb",
+							"bless|xphb",
+							"cure wounds|xphb",
+							"lesser restoration|xphb"
+						],
+						"5": [
+							"mass healing word|xphb",
+							"revivify|xphb"
+						],
+						"7": [
+							"aura of life|xphb",
+							"death ward|xphb"
+						],
+						"9": [
+							"greater restoration|xphb",
+							"mass cure wounds|xphb"
+						]
+					},
+					"innate": {
+						"14": {
+							"daily": {
+								"1": [
+									"Summon Celestial|XPHB",
+									"Summon Fiend|XPHB",
+									"Summon Undead|XPHB"
+								]
+							}
+						}
+					}
+				},
+				{
+					"name": "Light",
+					"prepared": {
+						"3": [
+							"burning hands|xphb",
+							"faerie fire|xphb",
+							"scorching ray|xphb",
+							"see invisibility|xphb"
+						],
+						"5": [
+							"daylight|xphb",
+							"fireball|xphb"
+						],
+						"7": [
+							"arcane eye|xphb",
+							"wall of fire|xphb"
+						],
+						"9": [
+							"flame strike|xphb",
+							"scrying|xphb"
+						]
+					},
+					"innate": {
+						"14": {
+							"daily": {
+								"1": [
+									"Summon Celestial|XPHB",
+									"Summon Fiend|XPHB",
+									"Summon Undead|XPHB"
+								]
+							}
+						}
+					}
+				},
+				{
+					"name": "Trickery",
+					"prepared": {
+						"3": [
+							"charm person|xphb",
+							"disguise self|xphb",
+							"invisibility|xphb",
+							"pass without trace|xphb"
+						],
+						"5": [
+							"hypnotic pattern|xphb",
+							"nondetection|xphb"
+						],
+						"7": [
+							"confusion|xphb",
+							"dimension door|xphb"
+						],
+						"9": [
+							"dominate person|xphb",
+							"modify memory|xphb"
+						]
+					},
+					"innate": {
+						"14": {
+							"daily": {
+								"1": [
+									"Summon Celestial|XPHB",
+									"Summon Fiend|XPHB",
+									"Summon Undead|XPHB"
+								]
+							}
+						}
+					}
+				},
+				{
+					"name": "War",
+					"prepared": {
+						"3": [
+							"guiding bolt|xphb",
+							"magic weapon|xphb",
+							"shield of faith|xphb",
+							"spiritual weapon|xphb"
+						],
+						"5": [
+							"crusader's mantle|xphb",
+							"spirit guardians|xphb"
+						],
+						"7": [
+							"fire shield|xphb",
+							"freedom of movement|xphb"
+						],
+						"9": [
+							"hold monster|xphb",
+							"steel wind strike|xphb"
+						]
+					},
+					"innate": {
+						"14": {
+							"daily": {
+								"1": [
+									"Summon Celestial|XPHB",
+									"Summon Fiend|XPHB",
+									"Summon Undead|XPHB"
+								]
+							}
+						}
+					}
+				}
+			],
+			"subclassSpells": [
+				"Summon Celestial|XPHB",
+				"Summon Fiend|XPHB",
+				"Summon Undead|XPHB"
+			],
+			"subSubclassSpells": {
+				"Life": [
+					"aid|xphb",
+					"bless|xphb",
+					"cure wounds|xphb",
+					"lesser restoration|xphb",
+					"mass healing word|xphb",
+					"revivify|xphb",
+					"aura of life|xphb",
+					"death ward|xphb",
+					"greater restoration|xphb",
+					"mass cure wounds|xphb"
+				],
+				"Light": [
+					"burning hands|xphb",
+					"faerie fire|xphb",
+					"scorching ray|xphb",
+					"see invisibility|xphb",
+					"daylight|xphb",
+					"fireball|xphb",
+					"arcane eye|xphb",
+					"wall of fire|xphb",
+					"flame strike|xphb",
+					"scrying|xphb"
+				],
+				"Trickery": [
+					"charm person|xphb",
+					"disguise self|xphb",
+					"invisibility|xphb",
+					"pass without trace|xphb",
+					"hypnotic pattern|xphb",
+					"nondetection|xphb",
+					"confusion|xphb",
+					"dimension door|xphb",
+					"dominate person|xphb",
+					"modify memory|xphb"
+				],
+				"War": [
+					"guiding bolt|xphb",
+					"magic weapon|xphb",
+					"shield of faith|xphb",
+					"spiritual weapon|xphb",
+					"crusader's mantle|xphb",
+					"spirit guardians|xphb",
+					"fire shield|xphb",
+					"freedom of movement|xphb",
+					"hold monster|xphb",
+					"steel wind strike|xphb"
+				]
+			},
+			"subclassFeatures": [
+				"Vestige Patron|Warlock|XPHB|Vestige|XUA2026MysticSubclasses|3|XUA2026MysticSubclasses",
+				"Vestige Recovery|Warlock|XPHB|Vestige|XUA2026MysticSubclasses|6|XUA2026MysticSubclasses",
+				"Aura of Power|Warlock|XPHB|Vestige|XUA2026MysticSubclasses|10|XUA2026MysticSubclasses",
+				"Semblance of Life|Warlock|XPHB|Vestige|XUA2026MysticSubclasses|14|XUA2026MysticSubclasses"
+			],
+			"hasFluff": true
+		},
+		{
+			"name": "Warrior of the Mystic Arts",
+			"shortName": "Mystic Arts",
+			"source": "XUA2026MysticSubclasses",
+			"className": "Monk",
+			"classSource": "XPHB",
+			"page": 1,
+			"edition": "one",
+			"spellcastingAbility": "wis",
+			"casterProgression": "1/3",
+			"preparedSpellsProgression": [
+				0,
+				0,
+				3,
+				4,
+				4,
+				4,
+				5,
+				6,
+				6,
+				7,
+				8,
+				8,
+				9,
+				10,
+				10,
+				11,
+				11,
+				11,
+				12,
+				13
+			],
+			"preparedSpellsChange": "level",
+			"cantripProgression": [
+				0,
+				0,
+				2,
+				2,
+				2,
+				2,
+				2,
+				2,
+				2,
+				3,
+				3,
+				3,
+				3,
+				3,
+				3,
+				3,
+				3,
+				3,
+				3,
+				3
+			],
+			"additionalSpells": [
+				{
+					"expanded": {
+						"3": [
+							{
+								"all": "level=0|class=Sorcerer"
+							},
+							{
+								"all": "level=1|class=Sorcerer"
+							}
+						],
+						"7": [
+							{
+								"all": "level=2|class=Sorcerer"
+							}
+						],
+						"13": [
+							{
+								"all": "level=3|class=Sorcerer"
+							}
+						],
+						"19": [
+							{
+								"all": "level=4|class=Sorcerer"
+							}
+						]
+					},
+					"ability": "wis"
+				}
+			],
+			"subclassSpells": [
+				{
+					"className": "Sorcerer",
+					"classSource": "XPHB"
+				}
+			],
+			"subclassTableGroups": [
+				{
+					"subclasses": [
+						{
+							"name": "Warrior of the Mystic Arts",
+							"source": "XUA2026MysticSubclasses"
+						}
+					],
+					"colLabels": [
+						"{@filter Spells Prepared|spells|subclass=monk: mystic arts (xua26ms)}"
+					],
+					"rows": [
+						[
+							0
+						],
+						[
+							0
+						],
+						[
+							3
+						],
+						[
+							4
+						],
+						[
+							4
+						],
+						[
+							4
+						],
+						[
+							5
+						],
+						[
+							6
+						],
+						[
+							6
+						],
+						[
+							7
+						],
+						[
+							8
+						],
+						[
+							8
+						],
+						[
+							9
+						],
+						[
+							10
+						],
+						[
+							10
+						],
+						[
+							11
+						],
+						[
+							11
+						],
+						[
+							11
+						],
+						[
+							12
+						],
+						[
+							13
+						]
+					]
+				},
+				{
+					"title": "Spell Slots per Spell Level",
+					"subclasses": [
+						{
+							"name": "Warrior of the Mystic Arts",
+							"source": "XUA2026MysticSubclasses"
+						}
+					],
+					"colLabels": [
+						"{@filter 1st|spells|level=1|subclass=monk: mystic arts (xua26ms)}",
+						"{@filter 2nd|spells|level=2|subclass=monk: mystic arts (xua26ms)}",
+						"{@filter 3rd|spells|level=3|subclass=monk: mystic arts (xua26ms)}",
+						"{@filter 4th|spells|level=4|subclass=monk: mystic arts (xua26ms)}"
+					],
+					"rowsSpellProgression": [
+						[
+							0,
+							0,
+							0,
+							0
+						],
+						[
+							0,
+							0,
+							0,
+							0
+						],
+						[
+							2,
+							0,
+							0,
+							0
+						],
+						[
+							3,
+							0,
+							0,
+							0
+						],
+						[
+							3,
+							0,
+							0,
+							0
+						],
+						[
+							3,
+							0,
+							0,
+							0
+						],
+						[
+							4,
+							2,
+							0,
+							0
+						],
+						[
+							4,
+							2,
+							0,
+							0
+						],
+						[
+							4,
+							2,
+							0,
+							0
+						],
+						[
+							4,
+							3,
+							0,
+							0
+						],
+						[
+							4,
+							3,
+							0,
+							0
+						],
+						[
+							4,
+							3,
+							0,
+							0
+						],
+						[
+							4,
+							3,
+							2,
+							0
+						],
+						[
+							4,
+							3,
+							2,
+							0
+						],
+						[
+							4,
+							3,
+							2,
+							0
+						],
+						[
+							4,
+							3,
+							3,
+							0
+						],
+						[
+							4,
+							3,
+							3,
+							0
+						],
+						[
+							4,
+							3,
+							3,
+							0
+						],
+						[
+							4,
+							3,
+							3,
+							1
+						],
+						[
+							4,
+							3,
+							3,
+							1
+						]
+					]
+				}
+			],
+			"subclassFeatures": [
+				"Warrior of the Mystic Arts|Monk|XPHB|Mystic Arts|XUA2026MysticSubclasses|3|XUA2026MysticSubclasses",
+				"Mystic Focus|Monk|XPHB|Mystic Arts|XUA2026MysticSubclasses|6|XUA2026MysticSubclasses",
+				"Mystic Fighting Style|Monk|XPHB|Mystic Arts|XUA2026MysticSubclasses|6|XUA2026MysticSubclasses",
+				"Centered Focus|Monk|XPHB|Mystic Arts|XUA2026MysticSubclasses|11|XUA2026MysticSubclasses",
+				"Improved Mystic Fighting Style|Monk|XPHB|Mystic Arts|XUA2026MysticSubclasses|17|XUA2026MysticSubclasses"
+			],
+			"hasFluff": true
+		}
+	],
+	"subclassFluff": [
+		{
+			"name": "Magic Stealer",
+			"shortName": "Magic Stealer",
+			"source": "XUA2026MysticSubclasses",
+			"className": "Rogue",
+			"classSource": "XPHB",
+			"entries": [
+				"{@i Steal Magical Power to Empower Yourself}"
+			]
+		},
+		{
+			"name": "Oath of the Spellguard",
+			"shortName": "Spellguard",
+			"source": "XUA2026MysticSubclasses",
+			"className": "Paladin",
+			"classSource": "XPHB",
+			"entries": [
+				"{@i Protect Your Allies from Villainous Magic}"
+			]
+		},
+		{
+			"name": "Vestige Patron",
+			"shortName": "Vestige",
+			"source": "XUA2026MysticSubclasses",
+			"className": "Warlock",
+			"classSource": "XPHB",
+			"entries": [
+				"{@i Wield the Remnants of a Dying God's Power}"
+			]
+		},
+		{
+			"name": "Warrior of the Mystic Arts",
+			"shortName": "Mystic Arts",
+			"source": "XUA2026MysticSubclasses",
+			"className": "Monk",
+			"classSource": "XPHB",
+			"entries": [
+				"{@i Weave Martial and Mystic Arts}"
+			]
+		}
+	],
+	"subclassFeature": [
+		{
+			"name": "Warrior of the Mystic Arts",
+			"source": "XUA2026MysticSubclasses",
+			"page": 1,
+			"className": "Monk",
+			"classSource": "XPHB",
+			"subclassShortName": "Mystic Arts",
+			"subclassSource": "XUA2026MysticSubclasses",
+			"level": 3,
+			"header": 1,
+			"entries": [
+				"Warriors of the Mystic Arts wield magic to supplement their martial skill. They harness their supernatural focus to enhance their magical and physical abilities.",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Spellcasting|Monk|XPHB|Mystic Arts|XUA2026MysticSubclasses|3|XUA2026MysticSubclasses"
+				}
+			]
+		},
+		{
+			"name": "Spellcasting",
+			"source": "XUA2026MysticSubclasses",
+			"page": 1,
+			"className": "Monk",
+			"classSource": "XPHB",
+			"subclassShortName": "Mystic Arts",
+			"subclassSource": "XUA2026MysticSubclasses",
+			"level": 3,
+			"header": 2,
+			"entries": [
+				"You have learned to cast spells. See the {@book Player's Handbook|XPHB|7} for the rules on spellcasting. The information below details how you use those rules as a Warrior of the Mystic Arts.",
+				{
+					"type": "entries",
+					"name": "Cantrips",
+					"entries": [
+						"You know two cantrips of your choice from the Sorcerer spell list. {@spell Blade Ward} and {@spell Thunderclap|XPHB} are recommended. Whenever you gain a Monk level, you can replace one of these cantrips with another cantrip of your choice from the Sorcerer spell list.",
+						"When you reach Monk level 10, you learn another Sorcerer cantrip of your choice."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Spell Slots",
+					"entries": [
+						"The Warrior of the Mystic Arts Spellcasting table shows how many spell slots you have to cast your level 1+ spells. You regain all expended slots when you finish a {@variantrule Long Rest|XPHB}."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Prepared Spells of Level 1+",
+					"entries": [
+						"You prepare the list of level 1+ spells that are available for you to cast with this feature. To start, choose three level 1 spells from the Sorcerer spell list. {@spell Jump}, {@spell Magic Missile}, and {@spell Shield} are recommended.",
+						"The number of spells on your list increases as you gain Monk levels, as shown in the Prepared Spells column of the Warrior of the Mystic Arts Spellcasting table. Whenever that number increases, choose additional spells from the Sorcerer spell list until the number of spells on your list matches the number on the table. The chosen spells must be of a level for which you have spell slots. For example, if you're a level 7 Monk, your list of prepared spells can include five Sorcerer spells of levels 1 and 2 in any combination."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Changing Your Prepared Spells",
+					"entries": [
+						"Whenever you gain a Monk level, you can replace one spell on your list with another Sorcerer spell for which you have spell slots."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Spellcasting Ability",
+					"entries": [
+						"Wisdom is your spellcasting ability for your Sorcerer spells."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Spellcasting Focus",
+					"entries": [
+						"You can use an {@item Arcane Focus|XPHB} as a {@variantrule Spellcasting Focus|XPHB} for your Sorcerer spells."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Multiclassing",
+					"entries": [
+						"If you multiclass and have the Spellcasting feature from more than one class, add one third of your Monk levels (round down) to determine your available spell slots."
+					]
+				}
+			]
+		},
+		{
+			"name": "Mystic Fighting Style",
+			"source": "XUA2026MysticSubclasses",
+			"page": 2,
+			"className": "Monk",
+			"classSource": "XPHB",
+			"subclassShortName": "Mystic Arts",
+			"subclassSource": "XUA2026MysticSubclasses",
+			"level": 6,
+			"header": 2,
+			"entries": [
+				"When you take the {@action Attack} action on your turn, you can replace one of the attacks with a casting of {@filter one of your Sorcerer cantrips that has a casting time of an action|spells|level=0|class=sorcerer|cast time=action}."
+			]
+		},
+		{
+			"name": "Mystic Focus",
+			"source": "XUA2026MysticSubclasses",
+			"page": 2,
+			"className": "Monk",
+			"classSource": "XPHB",
+			"subclassShortName": "Mystic Arts",
+			"subclassSource": "XUA2026MysticSubclasses",
+			"level": 6,
+			"header": 2,
+			"consumes": {
+				"name": "Focus Point",
+				"amountMin": 2,
+				"amountMax": 6
+			},
+			"entries": [
+				"You keep your magical power and martial focus in perfect balance, allowing you to convert spell slots into Focus Points, or convert Focus Points into spell slots.",
+				{
+					"type": "entries",
+					"name": "Converting Spell Slots to Focus Points",
+					"entries": [
+						"You can expend a spell slot to regain a number of expended Focus Points equal to the slot's level (no action required)."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Recovering Spell Slots",
+					"entries": [
+						"As a {@variantrule Bonus Action|XPHB}, you can transform unexpended Focus Points to recover one expended spell slot. The {@table Recovering Spell Slots|XUA2026MysticSubclasses} table shows the cost of recovering a spell slot of a given level, and it lists the minimum Monk level you must be to recover a slot. You can recover a spell slot no higher than level 4."
+					]
+				},
+				{
+					"type": "statblock",
+					"tag": "table",
+					"source": "XUA2026MysticSubclasses",
+					"name": "Recovering Spell Slots",
+					"page": 2
+				}
+			]
+		},
+		{
+			"name": "Centered Focus",
+			"source": "XUA2026MysticSubclasses",
+			"page": 2,
+			"className": "Monk",
+			"classSource": "XPHB",
+			"subclassShortName": "Mystic Arts",
+			"subclassSource": "XUA2026MysticSubclasses",
+			"level": 11,
+			"header": 2,
+			"entries": [
+				"Whenever you expend a Focus Point to use {@classFeature Flurry of Blows|Monk|XPHB|2|XPHB}, {@classFeature Patient Defense|Monk|XPHB|2|XPHB}, or {@classFeature Step of the Wind|Monk|XPHB|2|XPHB}, you have {@variantrule Advantage|XPHB} on any saving throw you make to maintain {@status Concentration} until the start of your next turn."
+			]
+		},
+		{
+			"name": "Improved Mystic Fighting Style",
+			"source": "XUA2026MysticSubclasses",
+			"page": 2,
+			"className": "Monk",
+			"classSource": "XPHB",
+			"subclassShortName": "Mystic Arts",
+			"subclassSource": "XUA2026MysticSubclasses",
+			"level": 17,
+			"header": 2,
+			"entries": [
+				"When you take the {@action Attack} action on your turn, you can replace two of the attacks with a casting of {@filter one of your level 1 or 2 Sorcerer spells that has a casting time of an action|spells|level=1;2|class=sorcerer|cast time=action}."
+			]
+		},
+		{
+			"name": "Oath of the Spellguard",
+			"source": "XUA2026MysticSubclasses",
+			"page": 3,
+			"className": "Paladin",
+			"classSource": "XPHB",
+			"subclassShortName": "Spellguard",
+			"subclassSource": "XUA2026MysticSubclasses",
+			"level": 3,
+			"header": 1,
+			"entries": [
+				"Paladins who take the Oath of the Spellguard are sworn to battle those who use magic to harm others. They often serve as bodyguards to upstanding mages, but their most important role is protecting allies from devastating magical attacks. Those who swear this oath ensure that villains who misuse magic are brought to justice.",
+				"These paladins share the following tenets:",
+				{
+					"type": "list",
+					"items": [
+						"Protect the innocent from wicked mages.",
+						"Prevent magic from falling into villains' hands.",
+						"Protect mages who use magic honorably."
+					]
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Guardian Bond|Paladin|XPHB|Spellguard|XUA2026MysticSubclasses|3|XUA2026MysticSubclasses"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Oath of the Spellguard Spells|Paladin|XPHB|Spellguard|XUA2026MysticSubclasses|3|XUA2026MysticSubclasses"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Spellguard Strike|Paladin|XPHB|Spellguard|XUA2026MysticSubclasses|3|XUA2026MysticSubclasses"
+				}
+			]
+		},
+		{
+			"name": "Guardian Bond",
+			"source": "XUA2026MysticSubclasses",
+			"page": 3,
+			"className": "Paladin",
+			"classSource": "XPHB",
+			"subclassShortName": "Spellguard",
+			"subclassSource": "XUA2026MysticSubclasses",
+			"level": 3,
+			"header": 2,
+			"consumes": {
+				"name": "Channel Divinity"
+			},
+			"entries": [
+				"As a {@action Magic|XPHB} Action, you can expend one use of your Channel Divinity to forge a divine bond with a willing creature within 5 feet of yourself. The bond lasts for 1 hour or until you have the {@condition Unconscious} condition. For the duration, while the bonded creature is within your reach and is hit by an attack roll, you can take a {@variantrule Reaction|XPHB} to add your Charisma modifier (minimum of +1) to that creature's AC, possibly causing the attack to miss.",
+				"You can end your divine bond at any time (no action required). If you already have a divine bond when you forge a new one, the previous bond ends."
+			]
+		},
+		{
+			"name": "Oath of the Spellguard Spells",
+			"source": "XUA2026MysticSubclasses",
+			"page": 3,
+			"className": "Paladin",
+			"classSource": "XPHB",
+			"subclassShortName": "Spellguard",
+			"subclassSource": "XUA2026MysticSubclasses",
+			"level": 3,
+			"header": 2,
+			"entries": [
+				"The magic of your oath ensures you always have certain spells ready; when you reach a Paladin level specified in the {@table Oath of the Spellguard Spells|XUA2026MysticSubclasses} table, you thereafter always have the listed spells prepared.",
+				{
+					"type": "statblock",
+					"tag": "table",
+					"source": "XUA2026MysticSubclasses",
+					"name": "Oath of the Spellguard Spells",
+					"page": 3
+				}
+			]
+		},
+		{
+			"name": "Spellguard Strike",
+			"source": "XUA2026MysticSubclasses",
+			"page": 3,
+			"className": "Paladin",
+			"classSource": "XPHB",
+			"subclassShortName": "Spellguard",
+			"subclassSource": "XUA2026MysticSubclasses",
+			"level": 3,
+			"header": 2,
+			"entries": [
+				"When you see a creature within your reach casting a spell with Verbal, Somatic, or Material components, you can take a {@variantrule Reaction|XPHB} to make a melee attack with a weapon or an {@variantrule Unarmed Strike|XPHB} against that creature."
+			]
+		},
+		{
+			"name": "Aura of Concentration",
+			"source": "XUA2026MysticSubclasses",
+			"page": 3,
+			"className": "Paladin",
+			"classSource": "XPHB",
+			"subclassShortName": "Spellguard",
+			"subclassSource": "XUA2026MysticSubclasses",
+			"level": 7,
+			"header": 2,
+			"entries": [
+				"Your aura of protection fosters mental focus. You and your allies have {@variantrule Advantage|XPHB} on Constitution saving throws to maintain {@status Concentration} while in your {@classFeature Aura of Protection|Paladin|XPHB|6|XPHB}."
+			]
+		},
+		{
+			"name": "Spell-Breaking Blade",
+			"source": "XUA2026MysticSubclasses",
+			"page": 3,
+			"className": "Paladin",
+			"classSource": "XPHB",
+			"subclassShortName": "Spellguard",
+			"subclassSource": "XUA2026MysticSubclasses",
+			"level": 15,
+			"header": 2,
+			"entries": [
+				"Immediately after you hit a creature with your {@subclassFeature Spellguard Strike|Paladin|XPHB|Spellguard|XUA2026MysticSubclasses|3|XUA2026MysticSubclasses}, you can cast {@spell Counterspell} as part of the same {@variantrule Reaction|XPHB}.",
+				"When you cast {@spell Counterspell} with a spell slot, that slot isn't expended if the spell fails to stop a spell."
+			]
+		},
+		{
+			"name": "Eternal Spellguard",
+			"source": "XUA2026MysticSubclasses",
+			"page": 3,
+			"className": "Paladin",
+			"classSource": "XPHB",
+			"subclassShortName": "Spellguard",
+			"subclassSource": "XUA2026MysticSubclasses",
+			"level": 20,
+			"header": 2,
+			"entries": [
+				"As a {@variantrule Bonus Action|XPHB}, you can empower your {@classFeature Aura of Protection|Paladin|XPHB|6|XPHB}, granting the benefits below for 1 minute or until you end them (no action required). Once you use this feature, you can't use it again until you finish a {@variantrule Long Rest|XPHB}. You can restore your use of this ability by expending a level 5 spell slot (no action required).",
+				{
+					"type": "entries",
+					"name": "Bodyguard",
+					"entries": [
+						"While the target of your {@subclassFeature Guardian Bond|Paladin|XPHB|Spellguard|XUA2026MysticSubclasses|3|XUA2026MysticSubclasses} is in the aura, that creature has {@variantrule Resistance|XPHB} to all damage."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Protection from Magic",
+					"entries": [
+						"You and your allies in the aura have {@variantrule Advantage|XPHB} on saving throws against spells."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Spell Ward",
+					"entries": [
+						"Spell attack rolls against you and your allies in the aura have {@variantrule Disadvantage|XPHB}."
+					]
+				}
+			]
+		},
+		{
+			"name": "Magic Stealer",
+			"source": "XUA2026MysticSubclasses",
+			"page": 4,
+			"className": "Rogue",
+			"classSource": "XPHB",
+			"subclassShortName": "Magic Stealer",
+			"subclassSource": "XUA2026MysticSubclasses",
+			"level": 3,
+			"header": 1,
+			"entries": [
+				"While ordinary thieves are cutting purses and burgling homes, a Magic Stealer is after a much more valuable prize: magic. The Magic Stealer preys on spellcasters, repurposing their magic and eluding divination spells to take magical power at the point of a knife.",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Empower Sneak Attack|Rogue|XPHB|Magic Stealer|XUA2026MysticSubclasses|3|XUA2026MysticSubclasses"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Drain Magic|Rogue|XPHB|Magic Stealer|XUA2026MysticSubclasses|3|XUA2026MysticSubclasses"
+				}
+			]
+		},
+		{
+			"name": "Drain Magic",
+			"source": "XUA2026MysticSubclasses",
+			"page": 4,
+			"className": "Rogue",
+			"classSource": "XPHB",
+			"subclassShortName": "Magic Stealer",
+			"subclassSource": "XUA2026MysticSubclasses",
+			"level": 3,
+			"header": 2,
+			"entries": [
+				"You can drain power from ongoing spells to recharge your allies' magic. As a {@action Magic|XPHB} Action, you can touch a willing creature and end one ongoing level 1 or level 2 spell on it; the creature immediately recovers one expended spell slot of level 2 or lower (the target's choice).",
+				"Once you use this feature, you can't do so again until you finish a {@variantrule Short Rest|XPHB|Short} or {@variantrule Long Rest|XPHB}."
+			]
+		},
+		{
+			"name": "Empower Sneak Attack",
+			"source": "XUA2026MysticSubclasses",
+			"page": 4,
+			"className": "Rogue",
+			"classSource": "XPHB",
+			"subclassShortName": "Magic Stealer",
+			"subclassSource": "XUA2026MysticSubclasses",
+			"level": 3,
+			"header": 2,
+			"entries": [
+				"Immediately after a creature you can see within 30 feet of you casts a level 1+ spell, you can take a {@variantrule Reaction|XPHB} to absorb magical energy from the spell. When you do so, until the end of your next turn, the next time you hit with your {@classFeature Sneak Attack|Rogue|XPHB|1|PHB} you deal extra Force damage. To determine the extra damage, roll a number of {@dice d6|d6s} equal to the spell's level, and add them together.",
+				"You can take this {@variantrule Reaction|XPHB} a number of times equal to your Intelligence modifier (minimum of once), and you regain all expended uses when you finish a {@variantrule Long Rest|XPHB}."
+			]
+		},
+		{
+			"name": "Magical Sabotage",
+			"source": "XUA2026MysticSubclasses",
+			"page": 4,
+			"className": "Rogue",
+			"classSource": "XPHB",
+			"subclassShortName": "Magic Stealer",
+			"subclassSource": "XUA2026MysticSubclasses",
+			"level": 9,
+			"header": 2,
+			"entries": [
+				"You gain the following Cunning Strike options.",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Spell Susceptibility (Cost: 2d6)|Rogue|XPHB|Magic Stealer|XUA2026MysticSubclasses|9|XUA2026MysticSubclasses"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Disrupt Spell (Cost: 3d6)|Rogue|XPHB|Magic Stealer|XUA2026MysticSubclasses|9|XUA2026MysticSubclasses"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Steal Resistance (Cost: 2d6)|Rogue|XPHB|Magic Stealer|XUA2026MysticSubclasses|9|XUA2026MysticSubclasses"
+				}
+			]
+		},
+		{
+			"name": "Disrupt Spell (Cost: 3d6)",
+			"source": "XUA2026MysticSubclasses",
+			"page": 4,
+			"className": "Rogue",
+			"classSource": "XPHB",
+			"subclassShortName": "Magic Stealer",
+			"subclassSource": "XUA2026MysticSubclasses",
+			"level": 9,
+			"header": 3,
+			"entries": [
+				"The target's magical acuity is disrupted until the start of your next turn. Whenever the target casts a spell during that time, it must succeed on an Intelligence saving throw or the spell dissipates with no effect, and the action, {@variantrule Bonus Action|XPHB}, or {@variantrule Reaction|XPHB} used to cast it is wasted. If that spell was cast with a spell slot, the slot isn't expended."
+			]
+		},
+		{
+			"name": "Spell Susceptibility (Cost: 2d6)",
+			"source": "XUA2026MysticSubclasses",
+			"page": 4,
+			"className": "Rogue",
+			"classSource": "XPHB",
+			"subclassShortName": "Magic Stealer",
+			"subclassSource": "XUA2026MysticSubclasses",
+			"level": 9,
+			"header": 3,
+			"entries": [
+				"The target has {@variantrule Disadvantage|XPHB} on the next saving throw it makes against a spell until the start of your next turn."
+			]
+		},
+		{
+			"name": "Steal Resistance (Cost: 2d6)",
+			"source": "XUA2026MysticSubclasses",
+			"page": 4,
+			"className": "Rogue",
+			"classSource": "XPHB",
+			"subclassShortName": "Magic Stealer",
+			"subclassSource": "XUA2026MysticSubclasses",
+			"level": 9,
+			"header": 3,
+			"entries": [
+				"Choose one kind of damage. If the target has {@variantrule Resistance|XPHB} to that kind of damage, until the start of your next turn, the target loses that {@variantrule Resistance|XPHB} and you gain {@variantrule Resistance|XPHB} to that damage type."
+			]
+		},
+		{
+			"name": "Improved Drain Magic",
+			"source": "XUA2026MysticSubclasses",
+			"page": 4,
+			"className": "Rogue",
+			"classSource": "XPHB",
+			"subclassShortName": "Magic Stealer",
+			"subclassSource": "XUA2026MysticSubclasses",
+			"level": 13,
+			"header": 2,
+			"entries": [
+				"You can now use {@subclassFeature Drain Magic|Rogue|XPHB|MAgic Stealer|XUA2026MysticSubclasses|3|XUA2026MysticSubclasses} as a {@variantrule Bonus Action|XPHB}. In addition, when you use {@subclassFeature Drain Magic|Rogue|XPHB|MAgic Stealer|XUA2026MysticSubclasses|3|XUA2026MysticSubclasses}, you can end one ongoing level 1, level 2, or level 3 spell on the target, and the target recovers one expended spell slot of level 3 or lower (the target's choice)."
+			]
+		},
+		{
+			"name": "Occult Shroud",
+			"source": "XUA2026MysticSubclasses",
+			"page": 4,
+			"className": "Rogue",
+			"classSource": "XPHB",
+			"subclassShortName": "Magic Stealer",
+			"subclassSource": "XUA2026MysticSubclasses",
+			"level": 13,
+			"header": 2,
+			"entries": [
+				"Whenever you finish a {@variantrule Long Rest|XPHB}, you can cast the {@spell Nondetection} spell, using Intelligence as your spellcasting ability. When you do so, you can target only yourself, and the duration increases to 24 hours."
+			]
+		},
+		{
+			"name": "Eldritch Implosion",
+			"source": "XUA2026MysticSubclasses",
+			"page": 4,
+			"className": "Rogue",
+			"classSource": "XPHB",
+			"subclassShortName": "Magic Stealer",
+			"subclassSource": "XUA2026MysticSubclasses",
+			"level": 17,
+			"header": 2,
+			"entries": [
+				"When you use {@subclassFeature Empower Sneak Attack|Rogue|XPHB|MAgic Stealer|XUA2026MysticSubclasses|3|XUA2026MysticSubclasses}, you can force the target to make a Constitution saving throw ({@dc 8} plus your Dexterity modifier and {@table Proficiency Bonus|XPHB}). On a failed save, the spell dissipates with no effect, and the target has the {@condition Stunned} condition until the start of its next turn."
+			]
+		},
+		{
+			"name": "Vestige Patron",
+			"source": "XUA2026MysticSubclasses",
+			"page": 5,
+			"className": "Warlock",
+			"classSource": "XPHB",
+			"subclassShortName": "Vestige",
+			"subclassSource": "XUA2026MysticSubclasses",
+			"level": 3,
+			"header": 1,
+			"entries": [
+				"Your pact draws on the power of a dying god, a being once worshipped by countless followers but now abandoned and forgotten. This dying god, known as a vestige, might have been benevolent, evil, or strange and unknowable, but now it is driven to regain its former power. The vestige needs your help it is willing to share its remaining strength with you.",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Vestige Companion|Warlock|XPHB|Vestige|XUA2026MysticSubclasses|3|XUA2026MysticSubclasses"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Vestige Spells|Warlock|XPHB|Vestige|XUA2026MysticSubclasses|3|XUA2026MysticSubclasses"
+				}
+			]
+		},
+		{
+			"name": "Vestige Companion",
+			"source": "XUA2026MysticSubclasses",
+			"page": 5,
+			"className": "Warlock",
+			"classSource": "XPHB",
+			"subclassShortName": "Vestige",
+			"subclassSource": "XUA2026MysticSubclasses",
+			"level": 3,
+			"header": 2,
+			"entries": [
+				"The vestige manifests, aiding you to do so and drawing strength from your pact. It uses the {@creature Vestige Companion|XUA2026MysticSubclasses} stat block and is a Celestial, Fiend, or Undead (choose when you gain this feature). You determine what the vestige looks like, but regardless of its form, the vestige bears features indicating its supernatural origin. For example, you might decide your vestige is an oversize floating skull etched with sigils, a circle of glowing runes, or a constantly shifting abstract shape. The vestige is {@variantrule Friendly [Attitude]|XPHB|Friendly} to you and your allies and obeys your commands. It vanishes if you die.",
+				{
+					"type": "entries",
+					"name": "The Vestige in Combat",
+					"entries": [
+						"In combat, the vestige acts during your turn. It can move and use its {@variantrule Reaction|XPHB} on its own, but the only action it takes is the {@action Dodge} action unless you take a {@variantrule Bonus Action|XPHB} to command it to take an action in its stat block or some other action. You can also sacrifice one of your attacks when you take the {@action Attack} action to command the vestige to take the Vestige's Strike action. If you have the {@condition Incapacitated} condition, the vestige acts on its own and isn't limited to the {@action Dodge} action."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Disappearance of the Vestige",
+					"entries": [
+						"When the vestige drops to 0 {@variantrule Hit Points|XPHB}, it disappears. You can spend 1 minute performing a magic ceremony to manifest the vestige again; it reappears with its maximum {@variantrule Hit Points|XPHB} in an unoccupied space within 5 feet of you. As a {@action Magic|XPHB} action, you can temporarily dismiss the vestige to a pocket dimension. As a {@action Magic|XPHB} action while it is temporarily dismissed, you can cause the vestige to reappear in an unoccupied space within 30 feet of you. Whenever the vestige drops to 0 {@variantrule Hit Points|XPHB} or disappears into the pocket dimension, it leaves behind in its space anything it was wearing or carrying.",
+						"Whenever you finish a {@variantrule Long Rest|XPHB}, you can summon the vestige in a new form, which appears in an unoccupied space within 5 feet of you. You choose its appearance and whether it is a Celestial, Fiend, or Undead. If the vestige is already manifested from this feature, its form changes to the new one."
+					]
+				},
+				{
+					"type": "statblock",
+					"tag": "creature",
+					"source": "XUA2026MysticSubclasses",
+					"name": "Vestige Companion",
+					"page": 5,
+					"collapsed": true
+				}
+			]
+		},
+		{
+			"name": "Vestige Spells",
+			"source": "XUA2026MysticSubclasses",
+			"page": 5,
+			"className": "Warlock",
+			"classSource": "XPHB",
+			"subclassShortName": "Vestige",
+			"subclassSource": "XUA2026MysticSubclasses",
+			"level": 3,
+			"header": 2,
+			"entries": [
+				"The magic of your {@creature Vestige Companion|XPHB} ensures you always have certain spells ready. Select one of the following {@class Cleric} Domains: {@subclassFeature Life Domain Spells|Cleric|XPHB|Life|XPHB|3|XPHB|Life}, {@subclassFeature Light Domain Spells|Cleric|XPHB|Light|XPHB|3|XPHB|Light}, {@subclassFeature Trickery Domain Spells|Cleric|XPHB|Trickery|XPHB|3|XPHB|Trickery}, or {@subclassFeature War Domain Spells|Cleric|XPHB|War|XPHB|3|XPHB|War}. The Domain Spells of your chosen Domain are Warlock spells for you. When you reach a Warlock level equal to a Cleric Level listed on the Domain Spells table for the Domain you have chosen, you thereafter always have the listed spells prepared.",
+				"For example, if you chose the {@subclassFeature War Domain Spells|Cleric|XPHB|War|XPHB|3|XPHB|War Domain} for this feature, when you reach Warlock level 3, you would have the {@spell Guiding Bolt}, {@spell Magic Weapon}, {@spell Shield of Faith}, and {@spell Spiritual Weapon} spells prepared."
+			]
+		},
+		{
+			"name": "Vestige Recovery",
+			"source": "XUA2026MysticSubclasses",
+			"page": 6,
+			"className": "Warlock",
+			"classSource": "XPHB",
+			"subclassShortName": "Vestige",
+			"subclassSource": "XUA2026MysticSubclasses",
+			"level": 6,
+			"header": 2,
+			"entries": [
+				"Your {@creature Vestige Companion|XUA2026MysticSubclasses} now regains its use of Divine Power whenever you finish a {@variantrule Short Rest|XPHB|Short} or {@variantrule Long Rest|XPHB} or when you use your {@classFeature Magical Cunning|Warlock|XPHB|2|XPHB} feature."
+			]
+		},
+		{
+			"name": "Aura of Power",
+			"source": "XUA2026MysticSubclasses",
+			"page": 6,
+			"className": "Warlock",
+			"classSource": "XPHB",
+			"subclassShortName": "Vestige",
+			"subclassSource": "XUA2026MysticSubclasses",
+			"level": 10,
+			"header": 2,
+			"entries": [
+				"Your {@creature Vestige Companion|XUA2026MysticSubclasses} increases in magical strength. As a {@action Magic|XPHB} Action, you can cause the vestige to manifest an aura in a 30-foot {@variantrule Emanation [Area of Effect]|XPHB|Emanation} that originates from the vestige. The aura lasts a number of hours equal to your Charisma modifier or until the vestige disappears or is temporarily dismissed. You, the vestige, and your allies within the aura gain {@variantrule Resistance|XPHB} to Fire, Necrotic, and Radiant damage and have {@variantrule Immunity|XPHB} to the {@condition Charmed} and {@condition Frightened} conditions. Once you manifest this aura, you can't do so again until you finish a {@variantrule Long Rest|XPHB}.",
+				"In addition, when you drop to 0 {@variantrule Hit Points|XPHB} while within the aura, you instead change your {@variantrule Hit Points|XPHB} to a number equal to your Warlock level plus your Charisma modifier. The vestige is then dismissed into a pocket dimension and can't return until you finish a {@variantrule Long Rest|XPHB}."
+			]
+		},
+		{
+			"name": "Semblance of Life",
+			"source": "XUA2026MysticSubclasses",
+			"page": 6,
+			"className": "Warlock",
+			"classSource": "XPHB",
+			"subclassShortName": "Vestige",
+			"subclassSource": "XUA2026MysticSubclasses",
+			"level": 14,
+			"header": 2,
+			"entries": [
+				"Your {@creature Vestige Companion|XUA2026MysticSubclasses} continues to grow in strength, and with your assistance, it can briefly adopt a more powerful form. Depending on the vestige's type, you can cast one of the following spells while the vestige is within 90 feet of you without expending a spell slot or needing Material components: {@spell Summon Celestial|XPHB} (Celestial vestige), {@spell Summon Fiend|XPHB} (Fiend vestige), or {@spell Summon Undead|XPHB} (Undead vestige). When you cast the spell with this feature, the vestige becomes the summoned creature. Its game statistics are replaced by the summoned creature's stat block, the spell's level is equal to half your Warlock level (round down; maximum level 9), and the spell's duration is 1 minute. When the spell ends, the vestige returns to its previous form.",
+				"Once you have cast the spell in this way, you can't do so again until you finish a {@variantrule Long Rest|XPHB}."
+			]
+		}
+	],
+	"monster": [
+		{
+			"name": "Vestige Companion",
+			"source": "XUA2026MysticSubclasses",
+			"page": 5,
+			"summonedByClass": "Warlock|XPHB",
+			"size": [
+				"S"
+			],
+			"type": {
+				"type": {
+					"choose": [
+						"celestial",
+						"fiend",
+						"undead"
+					]
+				}
+			},
+			"alignment": [
+				"N"
+			],
+			"ac": [
+				{
+					"special": "13 + your Charisma modifier"
+				}
+			],
+			"hp": {
+				"special": "4 + four times your Warlock level (the vestige has a number of Hit Dice [d6s] equal to your Warlock level)"
+			},
+			"speed": {
+				"walk": 5,
+				"fly": {
+					"number": 30,
+					"condition": "(hover)"
+				},
+				"canHover": true
+			},
+			"str": 1,
+			"dex": 14,
+			"con": 10,
+			"int": 15,
+			"wis": 15,
+			"cha": 16,
+			"senses": [
+				"Darkvision 60 ft."
+			],
+			"passive": 11,
+			"resist": [
+				{
+					"resist": [
+						"fire"
+					],
+					"cond": true,
+					"note": "(fiend only)"
+				},
+				{
+					"resist": [
+						"necrotic"
+					],
+					"cond": true,
+					"note": "(undead only)"
+				},
+				{
+					"resist": [
+						"radiant"
+					],
+					"cond": true,
+					"note": "(celestial only)"
+				}
+			],
+			"conditionImmune": [
+				"charmed",
+				"frightened",
+				"prone"
+			],
+			"languages": [
+				"Speaks the languages you know"
+			],
+			"pbNote": "equals your Proficiency Bonus",
+			"trait": [
+				{
+					"name": "Pact Bond",
+					"entries": [
+						"Add your {@variantrule Proficiency|XPHB|Proficiency Bonus} to any ability check or saving throw the vestige makes."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Vestige's Strike",
+					"entries": [
+						"{@atkr m,r} {@hitYourSpellAttack Bonus equals your spell attack modifier}, reach 5 ft. or range 60 ft. {@h}{@damage 1d6 + 3} plus your Charisma modifier Fire (Fiend), Necrotic (Undead), or Radiant (Celestial) damage."
+					]
+				}
+			],
+			"bonus": [
+				{
+					"name": "Divine Power (1/Day)",
+					"entries": [
+						"Your vestige manifests a remnant of its divine power in one of the following ways, based on its form:",
+						{
+							"type": "list",
+							"style": "list-hang-notitle",
+							"items": [
+								{
+									"type": "item",
+									"name": "Cursed Invocation (Undead Only)",
+									"entries": [
+										"The vestige places a curse on a creature you can see within 30 feet of the vestige for 1 minute. While cursed, the target has {@variantrule Disadvantage|XPHB} on attack rolls against you and the vestige."
+									]
+								},
+								{
+									"type": "item",
+									"name": "Fiendish Swap (Fiend Only)",
+									"entries": [
+										"If you and the vestige are within 60 feet of each other, you both teleport, swapping places."
+									]
+								},
+								{
+									"type": "item",
+									"name": "Healing Touch (Celestial Only)",
+									"entries": [
+										"The vestige touches another creature. The target regains {@variantrule Hit Points|XPHB} equal to {@dice 2d8} plus your Charisma modifier and ends one condition on it: {@condition Blinded|XPHB}, {@condition Deafened|XPHB}, or {@condition Poisoned|XPHB}."
+									]
+								}
+							]
+						}
+					]
+				}
+			],
+			"tokenHref": {
+				"type": "external",
+				"url": "https://raw.githubusercontent.com/TheGiddyLimit/unearthed-arcana/master/_img/XUA2026MysticSubclasses/tokens/Vestige Companion.webp"
+			},
+			"senseTags": [
+				"D"
+			],
+			"damageTags": [
+				"F",
+				"N",
+				"R"
+			],
+			"miscTags": [
+				"MA",
+				"RA"
+			],
+			"_versions": [
+				{
+					"name": "Vestige Companion (Celestial)",
+					"source": "XUA2026MysticSubclasses",
+					"_mod": {
+						"action": {
+							"mode": "replaceArr",
+							"replace": "Vestige's Strike",
+							"items": {
+								"name": "Vestige's Strike",
+								"entries": [
+									"{@atkr m,r} {@hitYourSpellAttack Bonus equals your spell attack modifier}, reach 5 ft. or range 60 ft. {@h}{@damage 1d6 + 3} plus your Charisma modifier Radiant damage."
+								]
+							}
+						},
+						"bonus": {
+							"mode": "replaceArr",
+							"replace": "Divine Power (1/Day)",
+							"items": {
+								"name": "Divine Power (1/Day): Healing Touch",
+								"entries": [
+									"The vestige touches another creature. The target regains {@variantrule Hit Points|XPHB} equal to {@dice 2d8} plus your Charisma modifier and ends one condition on it: {@condition Blinded|XPHB}, {@condition Deafened|XPHB}, or {@condition Poisoned|XPHB}."
+								]
+							}
+						}
+					},
+					"type": "celestial",
+					"resist": [
+						"radiant"
+					]
+				},
+				{
+					"name": "Vestige Companion (Fiend)",
+					"source": "XUA2026MysticSubclasses",
+					"_mod": {
+						"action": {
+							"mode": "replaceArr",
+							"replace": "Vestige's Strike",
+							"items": {
+								"name": "Vestige's Strike",
+								"entries": [
+									"{@atkr m,r} {@hitYourSpellAttack Bonus equals your spell attack modifier}, reach 5 ft. or range 60 ft. {@h}{@damage 1d6 + 3} plus your Charisma modifier Fire damage."
+								]
+							}
+						},
+						"bonus": {
+							"mode": "replaceArr",
+							"replace": "Divine Power (1/Day)",
+							"items": {
+								"name": "Divine Power (1/Day): Fiendish Swap",
+								"entries": [
+									"If you and the vestige are within 60 feet of each other, you both teleport, swapping places."
+								]
+							}
+						}
+					},
+					"type": "fiend",
+					"resist": [
+						"fire"
+					]
+				},
+				{
+					"name": "Vestige Companion (Undead)",
+					"source": "XUA2026MysticSubclasses",
+					"_mod": {
+						"action": {
+							"mode": "replaceArr",
+							"replace": "Vestige's Strike",
+							"items": {
+								"name": "Vestige's Strike",
+								"entries": [
+									"{@atkr m,r} {@hitYourSpellAttack Bonus equals your spell attack modifier}, reach 5 ft. or range 60 ft. {@h}{@damage 1d6 + 3} plus your Charisma modifier Necrotic damage."
+								]
+							}
+						},
+						"bonus": {
+							"mode": "replaceArr",
+							"replace": "Divine Power (1/Day)",
+							"items": {
+								"name": "Divine Power (1/Day): Cursed Invocation",
+								"entries": [
+									"The vestige places a curse on a creature you can see within 30 feet of the vestige for 1 minute. While cursed, the target has {@variantrule Disadvantage|XPHB} on attack rolls against you and the vestige."
+								]
+							}
+						}
+					},
+					"type": "undead",
+					"resist": [
+						"necrotic"
+					]
+				}
+			]
+		}
+	],
+	"table": [
+		{
+			"name": "Oath of the Spellguard Spells",
+			"source": "XUA2026MysticSubclasses",
+			"page": 3,
+			"colLabels": [
+				"Paladin Level",
+				"Spells"
+			],
+			"colStyles": [
+				"col-2 text-center",
+				"col-10"
+			],
+			"rows": [
+				[
+					"3",
+					"{@spell Detect Magic|XPHB}, {@spell Shield|XPHB}"
+				],
+				[
+					"5",
+					"{@spell See Invisibility|XPHB}, {@spell Silence|XPHB}"
+				],
+				[
+					"9",
+					"{@spell Counterspell|XPHB}, {@spell Dispel Magic|XPHB}"
+				],
+				[
+					"13",
+					"{@spell Freedom of Movement|XPHB}, {@spell Otiluke's Resilient Sphere|XPHB}"
+				],
+				[
+					"17",
+					"{@spell Circle of Power|XPHB}, {@spell Hallow|XPHB}"
+				]
+			]
+		},
+		{
+			"name": "Recovering Spell Slots",
+			"source": "XUA2026MysticSubclasses",
+			"page": 2,
+			"colLabels": [
+				"Spell Slot Level",
+				"Focus Point Cost",
+				"Minimum Monk Level"
+			],
+			"colStyles": [
+				"col-4 text-center",
+				"col-4 text-center",
+				"col-4 text-center"
+			],
+			"rows": [
+				[
+					"1",
+					"2",
+					"6"
+				],
+				[
+					"2",
+					"3",
+					"7"
+				],
+				[
+					"3",
+					"5",
+					"13"
+				],
+				[
+					"4",
+					"6",
+					"19"
+				]
+			]
+		}
+	],
+	"book": [
+		{
+			"name": "Unearthed Arcana 2026: Mystic Subclasses",
+			"id": "XUA2026MysticSubclasses",
+			"source": "XUA2026MysticSubclasses",
+			"group": "prerelease",
+			"cover": {
+				"type": "external",
+				"url": "https://raw.githubusercontent.com/TheGiddyLimit/unearthed-arcana/refs/heads/master/_img/XUA2026MysticSubclasses/cover.webp"
+			},
+			"published": "2026-01-15",
+			"author": "Wizards of the Coast",
+			"contents": [
+				{
+					"name": "Unearthed Arcana 2026: Mystic Subclasses",
+					"headers": [
+						"What's Inside",
+						"Subclasses",
+						{
+							"header": "Warrior of the Mystic Arts (Monk)",
+							"depth": 1
+						},
+						{
+							"header": "Oath of the Spellguard (Paladin)",
+							"depth": 1
+						},
+						{
+							"header": "Magic Stealer (Rogue)",
+							"depth": 1
+						},
+						{
+							"header": "Vestige Patron (Warlock)",
+							"depth": 1
+						}
+					]
+				}
+			]
+		}
+	],
+	"bookData": [
+		{
+			"id": "XUA2026MysticSubclasses",
+			"source": "XUA2026MysticSubclasses",
+			"data": [
+				{
+					"type": "section",
+					"name": "Unearthed Arcana 2026: Mystic Subclasses",
+					"page": 1,
+					"entries": [
+						"This playtest document is part of a series of {@i Unearthed Arcana} articles that present material designed for upcoming products. The material here uses the rules in the {@book 2024 Player's Handbook|XPHB}.",
+						{
+							"type": "section",
+							"name": "What's Inside",
+							"page": 1,
+							"entries": [
+								"This document presents four new subclasses:",
+								{
+									"type": "list",
+									"items": [
+										"{@class Monk} ({@class Monk|XPHB|Warrior of the Mystic Arts|Mystic Arts|XUA2026MysticSubclasses})",
+										"{@class Paladin} ({@class Paladin|XPHB|Oath of the Spellguard|Spellguard|XUA2026MysticSubclasses})",
+										"{@class Rogue} ({@class Rogue|XPHB|Magic Stealer|Magic Stealer|XUA2026MysticSubclasses})",
+										"{@class Warlock} ({@class Warlock|XPHB|Vestige Patron|Vestige|XUA2026MysticSubclasses})"
+									]
+								},
+								{
+									"type": "inset",
+									"name": "This Is Playtest Material",
+									"page": 1,
+									"entries": [
+										"This article is presented for playtesting and feedback. The options here are experimental and in draft form. They aren't officially part of the game. Your feedback will help determine whether we adopt it as official.",
+										{
+											"type": "list",
+											"style": "list-hang-notitle",
+											"page": 1,
+											"items": [
+												{
+													"type": "item",
+													"name": "How to Playtest This UA",
+													"entries": [
+														"We invite you to try out this material in play. To play with this material, you may either incorporate it into your campaign or run one or more special playtest sessions. For such a session, you may create an adventure of your own or use a short adventure from a source like {@adventure Dragon Delves|DrDe-BD}."
+													]
+												},
+												{
+													"type": "item",
+													"name": "Power Level",
+													"entries": [
+														"The character options you read here might be more or less powerful than options in the {@book 2024 Player's Handbook|XPHB}. If a design survives playtesting, we adjust its power to the desirable level before publication. This means an option could be more or less powerful in its final form."
+													]
+												},
+												{
+													"type": "item",
+													"name": "Feedback",
+													"entries": [
+														"The best way for you to give us feedback on this material is in the survey we'll release on D&D Beyond. If we make this material official, it will be refined based on your feedback, and then it will appear in a D&D book.",
+														"Providing feedback on this document is one way you can help shape the future of D&D!"
+													]
+												}
+											]
+										}
+									]
+								}
+							]
+						},
+						{
+							"type": "section",
+							"name": "Subclasses",
+							"page": 1,
+							"entries": [
+								{
+									"type": "entries",
+									"name": "Warrior of the Mystic Arts (Monk)",
+									"page": 1,
+									"entries": [
+										"{@i Weave Martial and Mystic Arts}",
+										{
+											"type": "statblock",
+											"prop": "subclass",
+											"source": "XUA2026MysticSubclasses",
+											"name": "Mystic Arts",
+											"className": "Monk",
+											"classSource": "XPHB",
+											"page": 1
+										}
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Oath of the Spellguard (Paladin)",
+									"page": 3,
+									"entries": [
+										"{@i Protect Your Allies from Villainous Magic}",
+										{
+											"type": "statblock",
+											"prop": "subclass",
+											"source": "XUA2026MysticSubclasses",
+											"name": "Spellguard",
+											"className": "Paladin",
+											"classSource": "XPHB",
+											"page": 3
+										}
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Magic Stealer (Rogue)",
+									"page": 4,
+									"entries": [
+										"{@i Steal Magical Power to Empower Yourself}",
+										{
+											"type": "statblock",
+											"prop": "subclass",
+											"source": "XUA2026MysticSubclasses",
+											"name": "MAgic Stealer",
+											"className": "Rogue",
+											"classSource": "XPHB",
+											"page": 4
+										}
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Vestige Patron (Warlock)",
+									"page": 5,
+									"entries": [
+										"{@i Wield the Remnants of a Dying God's Power}",
+										{
+											"type": "statblock",
+											"prop": "subclass",
+											"source": "XUA2026MysticSubclasses",
+											"name": "Vestige",
+											"className": "Warlock",
+											"classSource": "XPHB",
+											"page": 5
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	]
+}
