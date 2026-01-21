@@ -2883,6 +2883,10 @@
 					{
 						"name": "Wizard",
 						"source": "XPHB"
+					},
+					{
+						"name": "Psion",
+						"source": "XUA2025PsionUpdate"
 					}
 				]
 			},
@@ -2945,6 +2949,10 @@
 					{
 						"name": "Wizard",
 						"source": "XPHB"
+					},
+					{
+						"name": "Psion",
+						"source": "XUA2025PsionUpdate"
 					}
 				]
 			},
