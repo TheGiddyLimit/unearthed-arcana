@@ -10690,11 +10690,12 @@
 													"type": "statblock",
 													"prop": "subclass",
 													"source": "XUA2023PlayersHandbookP7",
-													"name": "Berserker",
+													"name": "Path of the Berserker",
 													"className": "Barbarian",
 													"classSource": "XUA2023PlayersHandbookP7",
 													"page": 5,
-													"collapsed": true
+													"collapsed": true,
+													"shortName": "Berserker"
 												}
 											],
 											"id": "00b"
@@ -10758,11 +10759,12 @@
 													"type": "statblock",
 													"prop": "subclass",
 													"source": "XUA2023PlayersHandbookP7",
-													"name": "Wild Heart",
+													"name": "Path of the Wild Heart",
 													"className": "Barbarian",
 													"classSource": "XUA2023PlayersHandbookP7",
 													"page": 5,
-													"collapsed": true
+													"collapsed": true,
+													"shortName": "Wild Heart"
 												}
 											],
 											"id": "00d"
@@ -10776,11 +10778,12 @@
 													"type": "statblock",
 													"prop": "subclass",
 													"source": "XUA2023PlayersHandbookP7",
-													"name": "World Tree",
+													"name": "Path of the World Tree",
 													"className": "Barbarian",
 													"classSource": "XUA2023PlayersHandbookP7",
 													"page": 6,
-													"collapsed": true
+													"collapsed": true,
+													"shortName": "World Tree"
 												},
 												{
 													"type": "inset",
@@ -10850,11 +10853,12 @@
 													"type": "statblock",
 													"prop": "subclass",
 													"source": "XUA2023PlayersHandbookP7",
-													"name": "Zealot",
+													"name": "Path of the Zealot",
 													"className": "Barbarian",
 													"classSource": "XUA2023PlayersHandbookP7",
 													"page": 7,
-													"collapsed": true
+													"collapsed": true,
+													"shortName": "Zealot"
 												}
 											],
 											"id": "011"
@@ -11047,7 +11051,8 @@
 													"className": "Fighter",
 													"classSource": "XUA2023PlayersHandbookP7",
 													"page": 12,
-													"collapsed": true
+													"collapsed": true,
+													"shortName": "Battle Master"
 												}
 											],
 											"id": "016"
@@ -11346,7 +11351,8 @@
 													"className": "Fighter",
 													"classSource": "XUA2023PlayersHandbookP7",
 													"page": 14,
-													"collapsed": true
+													"collapsed": true,
+													"shortName": "Brawler"
 												}
 											],
 											"id": "01a"
@@ -11395,7 +11401,8 @@
 													"className": "Fighter",
 													"classSource": "XUA2023PlayersHandbookP7",
 													"page": 15,
-													"collapsed": true
+													"collapsed": true,
+													"shortName": "Champion"
 												}
 											],
 											"id": "01c"
@@ -11452,7 +11459,8 @@
 													"className": "Fighter",
 													"classSource": "XUA2023PlayersHandbookP7",
 													"page": 15,
-													"collapsed": true
+													"collapsed": true,
+													"shortName": "Eldritch Knight"
 												}
 											],
 											"id": "01e"
@@ -11759,12 +11767,13 @@
 													"type": "statblock",
 													"prop": "subclass",
 													"source": "XUA2023PlayersHandbookP7",
-													"name": "Draconic",
+													"name": "Draconic Sorcery",
 													"className": "Sorcerer",
 													"classSource": "XUA2023PlayersHandbookP7",
 													"page": 22,
 													"collapsed": true,
-													"displayName": "Draconic Sorcery"
+													"displayName": "Draconic Sorcery",
+													"shortName": "Draconic"
 												}
 											],
 											"id": "026"
@@ -11825,12 +11834,13 @@
 													"type": "statblock",
 													"prop": "subclass",
 													"source": "XUA2023PlayersHandbookP7",
-													"name": "Wild",
+													"name": "Wild Magic Sorcery",
 													"className": "Sorcerer",
 													"classSource": "XUA2023PlayersHandbookP7",
 													"page": 23,
 													"collapsed": true,
-													"displayName": "Wild Magic Sorcery"
+													"displayName": "Wild Magic Sorcery",
+													"shortName": "Wild"
 												}
 											],
 											"id": "028"
@@ -11844,21 +11854,23 @@
 													"type": "statblock",
 													"prop": "subclass",
 													"source": "XUA2023PlayersHandbookP7",
-													"name": "Aberrant",
+													"name": "Aberrant Sorcery",
 													"className": "Sorcerer",
 													"classSource": "XUA2023PlayersHandbookP7",
 													"collapsed": true,
-													"displayName": "Aberrant Sorcery"
+													"displayName": "Aberrant Sorcery",
+													"shortName": "Aberrant"
 												},
 												{
 													"type": "statblock",
 													"prop": "subclass",
 													"source": "XUA2023PlayersHandbookP7",
-													"name": "Clockwork",
+													"name": "Clockwork Sorcery",
 													"className": "Sorcerer",
 													"classSource": "XUA2023PlayersHandbookP7",
 													"collapsed": true,
-													"displayName": "Clockwork Sorcery"
+													"displayName": "Clockwork Sorcery",
+													"shortName": "Clockwork"
 												}
 											],
 											"id": "02a"
@@ -12470,12 +12482,13 @@
 													"type": "statblock",
 													"prop": "subclass",
 													"source": "XUA2023PlayersHandbookP7",
-													"name": "Archfey",
+													"name": "The Archfey",
 													"className": "Warlock",
 													"classSource": "XUA2023PlayersHandbookP7",
 													"page": 31,
 													"collapsed": true,
-													"displayName": "Archfey Patron"
+													"displayName": "Archfey Patron",
+													"shortName": "Archfey"
 												}
 											],
 											"id": "031"
@@ -12520,12 +12533,13 @@
 													"type": "statblock",
 													"prop": "subclass",
 													"source": "XUA2023PlayersHandbookP7",
-													"name": "Celestial",
+													"name": "Celestial Patron",
 													"className": "Warlock",
 													"classSource": "XUA2023PlayersHandbookP7",
 													"page": 32,
 													"collapsed": true,
-													"displayName": "Celestial Patron"
+													"displayName": "Celestial Patron",
+													"shortName": "Celestial"
 												}
 											],
 											"id": "033"
@@ -12586,12 +12600,13 @@
 													"type": "statblock",
 													"prop": "subclass",
 													"source": "XUA2023PlayersHandbookP7",
-													"name": "Fiend",
+													"name": "Fiend Patron",
 													"className": "Warlock",
 													"classSource": "XUA2023PlayersHandbookP7",
 													"page": 33,
 													"collapsed": true,
-													"displayName": "Fiend Patron"
+													"displayName": "Fiend Patron",
+													"shortName": "Fiend"
 												}
 											],
 											"id": "035"
@@ -12668,12 +12683,13 @@
 													"type": "statblock",
 													"prop": "subclass",
 													"source": "XUA2023PlayersHandbookP7",
-													"name": "Great Old One",
+													"name": "The Great Old One",
 													"className": "Warlock",
 													"classSource": "XUA2023PlayersHandbookP7",
 													"page": 34,
 													"collapsed": true,
-													"displayName": "Great Old One Patron"
+													"displayName": "Great Old One Patron",
+													"shortName": "Great Old One"
 												}
 											],
 											"id": "037"
@@ -12834,7 +12850,8 @@
 													"className": "Wizard",
 													"classSource": "XUA2023PlayersHandbookP7",
 													"page": 39,
-													"collapsed": true
+													"collapsed": true,
+													"shortName": "Abjurer"
 												}
 											],
 											"id": "03c"
@@ -12883,7 +12900,8 @@
 													"className": "Wizard",
 													"classSource": "XUA2023PlayersHandbookP7",
 													"page": 40,
-													"collapsed": true
+													"collapsed": true,
+													"shortName": "Diviner"
 												}
 											],
 											"id": "03e"
@@ -12940,7 +12958,8 @@
 													"className": "Wizard",
 													"classSource": "XUA2023PlayersHandbookP7",
 													"page": 41,
-													"collapsed": true
+													"collapsed": true,
+													"shortName": "Evoker"
 												}
 											],
 											"id": "040"
@@ -13005,7 +13024,8 @@
 													"className": "Wizard",
 													"classSource": "XUA2023PlayersHandbookP7",
 													"page": 42,
-													"collapsed": true
+													"collapsed": true,
+													"shortName": "Illusionist"
 												}
 											],
 											"id": "042"

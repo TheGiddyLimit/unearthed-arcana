@@ -6767,11 +6767,12 @@
 													"type": "statblock",
 													"prop": "subclass",
 													"source": "XUA2023PlayersHandbookP8",
-													"name": "World Tree",
+													"name": "Path of the World Tree",
 													"className": "Barbarian",
 													"classSource": "XUA2023PlayersHandbookP8",
 													"page": 5,
-													"collapsed": true
+													"collapsed": true,
+													"shortName": "World Tree"
 												}
 											],
 											"id": "00b"
@@ -6881,11 +6882,12 @@
 													"type": "statblock",
 													"prop": "subclass",
 													"source": "XUA2023PlayersHandbookP8",
-													"name": "Moon",
+													"name": "Circle of the Moon",
 													"className": "Druid",
 													"classSource": "XUA2023PlayersHandbookP8",
 													"page": 11,
-													"collapsed": true
+													"collapsed": true,
+													"shortName": "Moon"
 												}
 											],
 											"id": "010"
@@ -7098,11 +7100,12 @@
 													"type": "statblock",
 													"prop": "subclass",
 													"source": "XUA2023PlayersHandbookP8",
-													"name": "Hand",
+													"name": "Warrior of the Hand",
 													"className": "Monk",
 													"classSource": "XUA2023PlayersHandbookP8",
 													"page": 17,
-													"collapsed": true
+													"collapsed": true,
+													"shortName": "Hand"
 												}
 											],
 											"id": "015"

@@ -2372,7 +2372,8 @@
 											"name": "Arcane Archer",
 											"className": "Fighter",
 											"classSource": "XPHB",
-											"page": 1
+											"page": 1,
+											"shortName": "Arcane Archer"
 										}
 									]
 								},
@@ -2436,7 +2437,8 @@
 											"name": "Tattooed Warrior",
 											"className": "Monk",
 											"classSource": "XPHB",
-											"page": 4
+											"page": 4,
+											"shortName": "Tattooed Warrior"
 										}
 									]
 								},
@@ -2491,7 +2493,8 @@
 											"name": "Conjurer",
 											"className": "Wizard",
 											"classSource": "XPHB",
-											"page": 5
+											"page": 5,
+											"shortName": "Conjurer"
 										}
 									]
 								},
@@ -2554,7 +2557,8 @@
 											"name": "Enchanter",
 											"className": "Wizard",
 											"classSource": "XPHB",
-											"page": 6
+											"page": 6,
+											"shortName": "Enchanter"
 										}
 									]
 								},
@@ -2617,7 +2621,8 @@
 											"name": "Necromancer",
 											"className": "Wizard",
 											"classSource": "XPHB",
-											"page": 7
+											"page": 7,
+											"shortName": "Necromancer"
 										}
 									]
 								},
@@ -2696,7 +2701,8 @@
 											"name": "Transmuter",
 											"className": "Wizard",
 											"classSource": "XPHB",
-											"page": 9
+											"page": 9,
+											"shortName": "Transmuter"
 										}
 									]
 								}

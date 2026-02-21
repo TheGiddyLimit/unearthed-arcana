@@ -1704,10 +1704,11 @@
 											"type": "statblock",
 											"prop": "subclass",
 											"source": "XUA2026MysticSubclasses",
-											"name": "Mystic Arts",
+											"name": "Warrior of the Mystic Arts",
 											"className": "Monk",
 											"classSource": "XPHB",
-											"page": 1
+											"page": 1,
+											"shortName": "Mystic Arts"
 										}
 									]
 								},
@@ -1721,10 +1722,11 @@
 											"type": "statblock",
 											"prop": "subclass",
 											"source": "XUA2026MysticSubclasses",
-											"name": "Spellguard",
+											"name": "Oath of the Spellguard",
 											"className": "Paladin",
 											"classSource": "XPHB",
-											"page": 3
+											"page": 3,
+											"shortName": "Spellguard"
 										}
 									]
 								},
@@ -1738,10 +1740,11 @@
 											"type": "statblock",
 											"prop": "subclass",
 											"source": "XUA2026MysticSubclasses",
-											"name": "MAgic Stealer",
+											"name": "Magic Stealer",
 											"className": "Rogue",
 											"classSource": "XPHB",
-											"page": 4
+											"page": 4,
+											"shortName": "Magic Stealer"
 										}
 									]
 								},
@@ -1755,10 +1758,11 @@
 											"type": "statblock",
 											"prop": "subclass",
 											"source": "XUA2026MysticSubclasses",
-											"name": "Vestige",
+											"name": "Vestige Patron",
 											"className": "Warlock",
 											"classSource": "XPHB",
-											"page": 5
+											"page": 5,
+											"shortName": "Vestige"
 										}
 									]
 								}

@@ -5143,7 +5143,8 @@
 											"name": "Metamorph",
 											"className": "Psion",
 											"classSource": "XUA2025Psion",
-											"page": 7
+											"page": 7,
+											"shortName": "Metamorph"
 										}
 									]
 								},
@@ -5160,7 +5161,8 @@
 											"name": "Psi Warper",
 											"className": "Psion",
 											"classSource": "XUA2025Psion",
-											"page": 8
+											"page": 8,
+											"shortName": "Psi Warper"
 										}
 									]
 								},
@@ -5177,7 +5179,8 @@
 											"name": "Psykinetic",
 											"className": "Psion",
 											"classSource": "XUA2025Psion",
-											"page": 8
+											"page": 8,
+											"shortName": "Psykinetic"
 										}
 									]
 								},
@@ -5194,7 +5197,8 @@
 											"name": "Telepath",
 											"className": "Psion",
 											"classSource": "XUA2025Psion",
-											"page": 9
+											"page": 9,
+											"shortName": "Telepath"
 										}
 									]
 								}

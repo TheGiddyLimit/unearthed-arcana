@@ -2440,10 +2440,11 @@
 											"type": "statblock",
 											"prop": "subclass",
 											"source": "XUA2025ForgottenRealmsSubclasses",
-											"name": "Moon",
+											"name": "College of the Moon",
 											"className": "Bard",
 											"classSource": "XPHB",
-											"page": 1
+											"page": 1,
+											"shortName": "Moon"
 										}
 									]
 								},
@@ -2511,10 +2512,11 @@
 											"type": "statblock",
 											"prop": "subclass",
 											"source": "XUA2025ForgottenRealmsSubclasses",
-											"name": "Knowledge",
+											"name": "Knowledge Domain",
 											"className": "Cleric",
 											"classSource": "XPHB",
-											"page": 2
+											"page": 2,
+											"shortName": "Knowledge"
 										}
 									]
 								},
@@ -2593,7 +2595,8 @@
 											"name": "Purple Dragon Knight",
 											"className": "Fighter",
 											"classSource": "XPHB",
-											"page": 3
+											"page": 3,
+											"shortName": "Purple Dragon Knight"
 										},
 										{
 											"type": "statblock",
@@ -2615,10 +2618,11 @@
 											"type": "statblock",
 											"prop": "subclass",
 											"source": "XUA2025ForgottenRealmsSubclasses",
-											"name": "Noble Genies",
+											"name": "Oath of the Noble Genies",
 											"className": "Paladin",
 											"classSource": "XPHB",
-											"page": 4
+											"page": 4,
+											"shortName": "Noble Genies"
 										}
 									]
 								},
@@ -2635,7 +2639,8 @@
 											"name": "Winter Walker",
 											"className": "Ranger",
 											"classSource": "XPHB",
-											"page": 5
+											"page": 5,
+											"shortName": "Winter Walker"
 										}
 									]
 								},
@@ -2652,7 +2657,8 @@
 											"name": "Scion of the Three",
 											"className": "Rogue",
 											"classSource": "XPHB",
-											"page": 6
+											"page": 6,
+											"shortName": "Scion of the Three"
 										}
 									]
 								},
@@ -2666,10 +2672,11 @@
 											"type": "statblock",
 											"prop": "subclass",
 											"source": "XUA2025ForgottenRealmsSubclasses",
-											"name": "Spellfire",
+											"name": "Spellfire Sorcery",
 											"className": "Sorcerer",
 											"classSource": "XPHB",
-											"page": 7
+											"page": 7,
+											"shortName": "Spellfire"
 										}
 									]
 								},
@@ -2724,7 +2731,8 @@
 											"name": "Bladesinger",
 											"className": "Wizard",
 											"classSource": "XPHB",
-											"page": 8
+											"page": 8,
+											"shortName": "Bladesinger"
 										}
 									]
 								}

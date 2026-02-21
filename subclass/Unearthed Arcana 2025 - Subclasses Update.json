@@ -1652,10 +1652,11 @@
 											"type": "statblock",
 											"prop": "subclass",
 											"source": "XUA2025SubclassesUpdate",
-											"name": "Spiritual Guardian",
+											"name": "Path of the Spiritual Guardian",
 											"className": "Barbarian",
 											"classSource": "XPHB",
-											"page": 1
+											"page": 1,
+											"shortName": "Spiritual Guardian"
 										}
 									]
 								},
@@ -1699,10 +1700,11 @@
 											"type": "statblock",
 											"prop": "subclass",
 											"source": "XUA2025SubclassesUpdate",
-											"name": "Storm Herald",
+											"name": "Path of the Storm Herald",
 											"className": "Barbarian",
 											"classSource": "XPHB",
-											"page": 2
+											"page": 2,
+											"shortName": "Storm Herald"
 										}
 									]
 								},
@@ -1749,7 +1751,8 @@
 											"name": "Cavalier",
 											"className": "Fighter",
 											"classSource": "XPHB",
-											"page": 3
+											"page": 3,
+											"shortName": "Cavalier"
 										}
 									]
 								},
@@ -1793,10 +1796,11 @@
 											"type": "statblock",
 											"prop": "subclass",
 											"source": "XUA2025SubclassesUpdate",
-											"name": "Intoxication",
+											"name": "Warrior of Intoxication",
 											"className": "Monk",
 											"classSource": "XPHB",
-											"page": 4
+											"page": 4,
+											"shortName": "Intoxication"
 										}
 									]
 								},
@@ -1867,7 +1871,8 @@
 											"name": "Oathbreaker",
 											"className": "Paladin",
 											"classSource": "XPHB",
-											"page": 5
+											"page": 5,
+											"shortName": "Oathbreaker"
 										}
 									]
 								}

@@ -5034,7 +5034,8 @@
 											"name": "Metamorph",
 											"className": "Psion",
 											"classSource": "XUA2025PsionUpdate",
-											"page": 7
+											"page": 7,
+											"shortName": "Metamorph"
 										}
 									]
 								},
@@ -5069,7 +5070,8 @@
 											"name": "Psykinetic",
 											"className": "Psion",
 											"classSource": "XUA2025PsionUpdate",
-											"page": 9
+											"page": 9,
+											"shortName": "Psykinetic"
 										}
 									]
 								},
@@ -5104,7 +5106,8 @@
 											"name": "Telepath",
 											"className": "Psion",
 											"classSource": "XUA2025PsionUpdate",
-											"page": 10
+											"page": 10,
+											"shortName": "Telepath"
 										}
 									]
 								}

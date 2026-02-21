@@ -1339,10 +1339,11 @@
 											"type": "statblock",
 											"prop": "subclass",
 											"source": "XUA2025ApocalypticSubclasses",
-											"name": "Preservation",
+											"name": "Circle of Preservation",
 											"className": "Druid",
 											"classSource": "XPHB",
-											"page": 2
+											"page": 2,
+											"shortName": "Preservation"
 										}
 									]
 								},
@@ -1359,7 +1360,8 @@
 											"name": "Gladiator",
 											"className": "Fighter",
 											"classSource": "XPHB",
-											"page": 3
+											"page": 3,
+											"shortName": "Gladiator"
 										}
 									]
 								},
@@ -1382,10 +1384,11 @@
 											"type": "statblock",
 											"prop": "subclass",
 											"source": "XUA2025ApocalypticSubclasses",
-											"name": "Defiled",
+											"name": "Defiled Sorcery",
 											"className": "Sorcerer",
 											"classSource": "XPHB",
-											"page": 4
+											"page": 4,
+											"shortName": "Defiled"
 										}
 									]
 								},
@@ -1399,10 +1402,11 @@
 											"type": "statblock",
 											"prop": "subclass",
 											"source": "XUA2025ApocalypticSubclasses",
-											"name": "Sorcerer-King",
+											"name": "Sorcerer-King Patron",
 											"className": "Warlock",
 											"classSource": "XPHB",
-											"page": 5
+											"page": 5,
+											"shortName": "Sorcerer-King"
 										}
 									]
 								}

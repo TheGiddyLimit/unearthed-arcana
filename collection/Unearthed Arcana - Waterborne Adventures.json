@@ -968,7 +968,8 @@
 									"name": "Swashbuckler",
 									"className": "Rogue",
 									"classSource": "PHB",
-									"page": 3
+									"page": 3,
+									"shortName": "Swashbuckler"
 								},
 								{
 									"type": "inset",
@@ -989,10 +990,11 @@
 									"type": "statblock",
 									"prop": "subclass",
 									"source": "UAWaterborneAdventures",
-									"name": "Storm",
+									"name": "Storm Sorcery",
 									"className": "Sorcerer",
 									"classSource": "PHB",
-									"page": 4
+									"page": 4,
+									"shortName": "Storm"
 								},
 								{
 									"type": "inset",

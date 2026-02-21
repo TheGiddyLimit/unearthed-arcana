@@ -5036,7 +5036,8 @@
 											"name": "Cartographer",
 											"className": "Artificer",
 											"classSource": "XUA2025EberronUpdates",
-											"page": 6
+											"page": 6,
+											"shortName": "Cartographer"
 										}
 									]
 								}

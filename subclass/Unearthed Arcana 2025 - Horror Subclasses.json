@@ -2719,7 +2719,8 @@
 											"name": "Reanimator",
 											"className": "Artificer",
 											"classSource": "XUA2025EberronUpdates",
-											"page": 1
+											"page": 1,
+											"shortName": "Reanimator"
 										},
 										{
 											"type": "statblock",
@@ -2778,10 +2779,11 @@
 											"type": "statblock",
 											"prop": "subclass",
 											"source": "XUA2025HorrorSubclasses",
-											"name": "Spirits",
+											"name": "College of Spirits",
 											"className": "Bard",
 											"classSource": "XPHB",
-											"page": 3
+											"page": 3,
+											"shortName": "Spirits"
 										}
 									]
 								},
@@ -2849,10 +2851,11 @@
 											"type": "statblock",
 											"prop": "subclass",
 											"source": "XUA2025HorrorSubclasses",
-											"name": "Grave",
+											"name": "Grave Domain",
 											"className": "Cleric",
 											"classSource": "XPHB",
-											"page": 4
+											"page": 4,
+											"shortName": "Grave"
 										}
 									]
 								},
@@ -2869,7 +2872,8 @@
 											"name": "Hollow Warden",
 											"className": "Ranger",
 											"classSource": "XPHB",
-											"page": 5
+											"page": 5,
+											"shortName": "Hollow Warden"
 										}
 									]
 								},
@@ -2932,7 +2936,8 @@
 											"name": "Phantom",
 											"className": "Rogue",
 											"classSource": "XPHB",
-											"page": 6
+											"page": 6,
+											"shortName": "Phantom"
 										}
 									]
 								},
@@ -2992,10 +2997,11 @@
 											"type": "statblock",
 											"prop": "subclass",
 											"source": "XUA2025HorrorSubclasses",
-											"name": "Shadow",
+											"name": "Shadow Sorcery",
 											"className": "Sorcerer",
 											"classSource": "XPHB",
-											"page": 7
+											"page": 7,
+											"shortName": "Shadow"
 										}
 									]
 								},
@@ -3062,10 +3068,11 @@
 											"type": "statblock",
 											"prop": "subclass",
 											"source": "XUA2025HorrorSubclasses",
-											"name": "Hexblade",
+											"name": "Hexblade Patron",
 											"className": "Warlock",
 											"classSource": "XPHB",
-											"page": 7
+											"page": 7,
+											"shortName": "Hexblade"
 										}
 									]
 								},
@@ -3125,10 +3132,11 @@
 											"type": "statblock",
 											"prop": "subclass",
 											"source": "XUA2025HorrorSubclasses",
-											"name": "Undead",
+											"name": "Undead Patron",
 											"className": "Warlock",
 											"classSource": "XPHB",
-											"page": 8
+											"page": 8,
+											"shortName": "Undead"
 										}
 									]
 								}
