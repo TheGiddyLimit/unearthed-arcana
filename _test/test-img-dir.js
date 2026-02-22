@@ -21,7 +21,6 @@ const _ALLOWLIST_DIRS = new Set([
 	"XUA2025Psion",
 	"XUA2025PsionUpdate",
 	"XUA2025SubclassesUpdate",
-	"XUA2026MysticSubclasses",
 ]);
 
 await BrewTester.pTestImgDirectories({

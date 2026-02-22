@@ -1403,7 +1403,7 @@
 			],
 			"tokenHref": {
 				"type": "external",
-				"url": "https://raw.githubusercontent.com/TheGiddyLimit/unearthed-arcana/master/_img/XUA2026MysticSubclasses/tokens/Vestige Companion.webp"
+				"url": "https://raw.githubusercontent.com/TheGiddyLimit/unearthed-arcana-img/main/img/XUA2026MysticSubclasses/tokens/Vestige Companion.webp"
 			},
 			"senseTags": [
 				"D"
@@ -1593,7 +1593,7 @@
 			"group": "prerelease",
 			"cover": {
 				"type": "external",
-				"url": "https://raw.githubusercontent.com/TheGiddyLimit/unearthed-arcana/refs/heads/master/_img/XUA2026MysticSubclasses/cover.webp"
+				"url": "https://raw.githubusercontent.com/TheGiddyLimit/unearthed-arcana-img/main/img/XUA2026MysticSubclasses/cover.webp"
 			},
 			"published": "2026-01-15",
 			"author": "Wizards of the Coast",
