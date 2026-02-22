@@ -7,14 +7,21 @@
 	"scripts": {
 		"build": "npm run build:clean && npm run build:index",
 		"build:index": "node _node/generate-index.js",
-		"build:clean": "node _node/clean-and-test.js",
-		"test:json": "npx test-json-ua",
-		"test:tags": "node _test/test-tags.js",
-		"test:file-locations": "node _test/test-file-locations.js",
-		"test:file-props": "node _test/test-file-props",
+		"build:clean": "npm run build:clean:base",
+		"build:clean:base": "node _node/clean-and-test.js",
+		"build:clean:html": "clean-html",
+		"test:json": "test-json-ua",
+		"test:clean": "npm run build:clean:base -- --dry",
+		"test:file-contents": "test-file-contents --img-repo-name unearthed-arcana-img --url-prefix-expected https://raw.githubusercontent.com/TheGiddyLimit/unearthed-arcana-img/main/",
+		"test:file-locations": "test-file-locations",
+		"test:file-names": "test-file-names --name-regex \"^(?:Unearthed Arcana(?: \\d{4})? - .+|Wayfinder's Guide to Eberron)\\.json$\"",
+		"test:file-props": "test-file-props",
+		"test:edition-sources": "test-edition-sources",
+		"test:img-directories": "node _test/test-img-dir.js",
+		"test:html": "node _test/test-html.js",
 		"test:js": "eslint . --ext .js,.cjs,.mjs",
 		"lint:js": "npm run test:js -- --fix",
-		"test": "npm run build:clean && npm run test:json && npm run test:file-locations && npm run test:file-props && npm run test:tags && npm run test:js",
+		"test": "npm run test:clean && npm run test:json && npm run test:file-locations && npm run test:file-names && npm run test:file-props && npm run test:img-directories && npm run test:file-contents && npm run test:edition-sources && npm run test:html && npm run test:js",
 		"lint": "npm run lint:js"
 	},
 	"author": "Giddy",
@@ -22,6 +29,7 @@
 	"devDependencies": {
 		"@eslint/js": "^10.0.1",
 		"5etools-utils": "^0.15.3",
+		"commander": "^14.0.3",
 		"eslint": "^10.0.1"
 	}
 }
