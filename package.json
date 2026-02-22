@@ -21,7 +21,7 @@
 	"license": "MIT",
 	"devDependencies": {
 		"@eslint/js": "^10.0.1",
-		"5etools-utils": "^0.15.2",
+		"5etools-utils": "^0.15.3",
 		"eslint": "^10.0.1"
 	}
 }
