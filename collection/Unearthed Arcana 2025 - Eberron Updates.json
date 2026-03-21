@@ -6,15 +6,15 @@
 				"json": "XUA2025EberronUpdates",
 				"abbreviation": "XUA2025EU",
 				"full": "Unearthed Arcana 2025: Eberron Updates",
+				"url": "https://media.dndbeyond.com/compendium-images/ua/eberron-updates/Lhg25Ggx5iY3rETH/UA2025-CartographerArtificer.pdf",
+				"version": "1.0.0",
+				"dateReleased": "2025-02-27",
 				"authors": [
 					"Wizards of the Coast"
 				],
 				"convertedBy": [
 					"Lyra [he/him]"
-				],
-				"version": "1.0.0",
-				"url": "https://media.dndbeyond.com/compendium-images/ua/eberron-updates/Lhg25Ggx5iY3rETH/UA2025-CartographerArtificer.pdf",
-				"dateReleased": "2025-02-27"
+				]
 			}
 		],
 		"dependencies": {
@@ -33,6 +33,11 @@
 		"dateAdded": 1740677812,
 		"dateLastModified": 1764502955,
 		"_dateLastModifiedHash": "678f164be1"
+	},
+	"_test": {
+		"references": [
+			"XUA2024Artificer"
+		]
 	},
 	"class": [
 		{
@@ -1797,7 +1802,7 @@
 					"type": "entries",
 					"name": "Improved Intuition",
 					"entries": [
-						"When you use the Medical Intuition benefit of your {@feat Mark of Healing|XPHB} feat, you can roll {@dice 1d6} instead of {@dice 1d4}."
+						"When you use the Medical Intuition benefit of your {@feat Mark of Healing|XUA2025EberronUpdates} feat, you can roll {@dice 1d6} instead of {@dice 1d4}."
 					]
 				},
 				{

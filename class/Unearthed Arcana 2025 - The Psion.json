@@ -6,15 +6,15 @@
 				"json": "XUA2025Psion",
 				"abbreviation": "XUA25P",
 				"full": "Unearthed Arcana 2025: The Psion",
+				"url": "https://media.dndbeyond.com/compendium-images/ua/the-psion/mXCPWlh2yy5tBKqP/UA2025-ThePsion.pdf",
+				"version": "1.1.0",
+				"dateReleased": "2025-05-27",
 				"authors": [
 					"Wizards of the Coast"
 				],
 				"convertedBy": [
 					"Lyra [he/him]"
-				],
-				"version": "1.1.0",
-				"url": "https://media.dndbeyond.com/compendium-images/ua/the-psion/mXCPWlh2yy5tBKqP/UA2025-ThePsion.pdf",
-				"dateReleased": "2025-05-27"
+				]
 			}
 		],
 		"optionalFeatureTypes": {
@@ -25,6 +25,12 @@
 		"dateAdded": 1748424864,
 		"dateLastModified": 1765470073,
 		"_dateLastModifiedHash": "7aa35d9a7a"
+	},
+	"_test": {
+		"references": [
+			"XUA2025EberronUpdates",
+			"XUA2025PsionUpdate"
+		]
 	},
 	"class": [
 		{

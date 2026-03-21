@@ -5,15 +5,15 @@
 				"json": "UAGothicHeroes",
 				"abbreviation": "UAGH",
 				"full": "Unearthed Arcana: Gothic Heroes",
+				"url": "https://media.dnd.wizards.com/upload/articles/UA%20Gothic%20Characters.pdf",
+				"version": "1.0.0",
+				"dateReleased": "2016-04-04",
 				"authors": [
 					"Wizards of the Coast"
 				],
 				"convertedBy": [
 					"Giddy"
-				],
-				"version": "1.0.0",
-				"url": "https://media.dnd.wizards.com/upload/articles/UA%20Gothic%20Characters.pdf",
-				"dateReleased": "2016-04-04"
+				]
 			}
 		],
 		"edition": "classic",

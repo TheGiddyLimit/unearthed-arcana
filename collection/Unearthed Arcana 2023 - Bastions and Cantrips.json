@@ -5,15 +5,15 @@
 				"json": "XUA2023BastionsAndCantrips",
 				"abbreviation": "XUA23BC",
 				"full": "Unearthed Arcana 2023: Bastions and Cantrips",
+				"url": "https://media.dndbeyond.com/compendium-images/ua/bastions-cantrips/BRF3GSu0nTfNu8p4/UA2023-BastionsCantrips.pdf",
+				"version": "1.0.0",
+				"dateReleased": "2023-10-05",
 				"authors": [
 					"Wizards of the Coast"
 				],
 				"convertedBy": [
 					"Lyra"
-				],
-				"version": "1.0.0",
-				"url": "https://media.dndbeyond.com/compendium-images/ua/bastions-cantrips/BRF3GSu0nTfNu8p4/UA2023-BastionsCantrips.pdf",
-				"dateReleased": "2023-10-05"
+				]
 			}
 		],
 		"optionalFeatureTypes": {
@@ -23,6 +23,11 @@
 		"dateAdded": 1696529407,
 		"dateLastModified": 1733837795,
 		"_dateLastModifiedHash": "57e2831a84"
+	},
+	"_test": {
+		"references": [
+			"XUA2023PlayersHandbookP7"
+		]
 	},
 	"optionalfeature": [
 		{

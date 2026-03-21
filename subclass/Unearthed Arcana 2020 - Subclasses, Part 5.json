@@ -5,15 +5,15 @@
 				"json": "UA2020SubclassesPt5",
 				"abbreviation": "UA20S5",
 				"full": "Unearthed Arcana: 2020 Subclasses, Part 5",
+				"url": "https://media.wizards.com/2020/dnd/downloads/UA2020_102620_Subclasses05.pdf",
+				"version": "1.0.0",
+				"dateReleased": "2020-10-26",
 				"authors": [
 					"Wizards of the Coast"
 				],
 				"convertedBy": [
 					"Giddy"
-				],
-				"version": "1.0.0",
-				"url": "https://media.wizards.com/2020/dnd/downloads/UA2020_102620_Subclasses05.pdf",
-				"dateReleased": "2020-10-26"
+				]
 			}
 		],
 		"edition": "classic",

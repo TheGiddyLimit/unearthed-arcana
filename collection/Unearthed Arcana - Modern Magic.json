@@ -5,15 +5,15 @@
 				"json": "UAModernMagic",
 				"abbreviation": "UAMM",
 				"full": "Unearthed Arcana: Modern Magic",
+				"url": "https://media.wizards.com/2015/downloads/dnd/UA_ModernMagic.pdf",
+				"version": "1.0.0",
+				"dateReleased": "2015-08-03",
 				"authors": [
 					"Wizards of the Coast"
 				],
 				"convertedBy": [
 					"Giddy"
-				],
-				"version": "1.0.0",
-				"url": "https://media.wizards.com/2015/downloads/dnd/UA_ModernMagic.pdf",
-				"dateReleased": "2015-08-03"
+				]
 			}
 		],
 		"dependencies": {
@@ -25,6 +25,11 @@
 		"dateAdded": 1701616429,
 		"dateLastModified": 1735770386,
 		"_dateLastModifiedHash": "bec5001844"
+	},
+	"_test": {
+		"references": [
+			"UAClassFeatureVariants"
+		]
 	},
 	"subclass": [
 		{
@@ -207,7 +212,7 @@
 			"level": 1,
 			"header": 1,
 			"entries": [
-				"When you choose this domain at 1st level, you gain the {@spell On/Off (UA)|UAModernMagic|on/off} cantrip in addition to your chosen cantrips."
+				"When you choose this domain at 1st level, you gain the {@spell on/off|UAModernMagic} cantrip in addition to your chosen cantrips."
 			]
 		},
 		{
@@ -314,7 +319,7 @@
 					"type": "entries",
 					"name": "Expanded Spell List",
 					"entries": [
-						"The Ghost in the Machine lets you choose from an expanded list of spells when you learn a warlock spell. You gain the on/off cantrip, and the following new spells are added to the warlock spell list for you.",
+						"The Ghost in the Machine lets you choose from an expanded list of spells when you learn a warlock spell. You gain the {@spell on/off|UAModernMagic} cantrip, and the following new spells are added to the warlock spell list for you.",
 						"Spells marked with an asterisk can be found in Unearthed Arcana: Modern Magic.",
 						{
 							"type": "table",
@@ -1126,7 +1131,7 @@
 			]
 		},
 		{
-			"name": "On/Off (UA)",
+			"name": "On/Off",
 			"source": "UAModernMagic",
 			"page": 7,
 			"level": 0,

@@ -5,21 +5,26 @@
 				"json": "UAEberron",
 				"abbreviation": "UAEB",
 				"full": "Unearthed Arcana: Eberron",
+				"url": "https://media.wizards.com/2015/downloads/dnd/UA_Eberron_v1.1.pdf",
+				"version": "1.0.0",
+				"dateReleased": "2015-02-02",
 				"authors": [
 					"Wizards of the Coast"
 				],
 				"convertedBy": [
 					"Giddy"
-				],
-				"version": "1.0.0",
-				"url": "https://media.wizards.com/2015/downloads/dnd/UA_Eberron_v1.1.pdf",
-				"dateReleased": "2015-02-02"
+				]
 			}
 		],
 		"edition": "classic",
 		"dateAdded": 1701616429,
 		"dateLastModified": 1759315511,
 		"_dateLastModifiedHash": "084ea8311b"
+	},
+	"_test": {
+		"references": [
+			"UARacesOfEberron"
+		]
 	},
 	"subclass": [
 		{

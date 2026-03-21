@@ -5,15 +5,15 @@
 				"json": "UAModifyingClasses",
 				"abbreviation": "UAMC",
 				"full": "Unearthed Arcana: Modifying Classes",
+				"url": "https://media.wizards.com/2015/downloads/dnd/UA3_ClassDesignVariants.pdf",
+				"version": "1.0.0",
+				"dateReleased": "2015-04-06",
 				"authors": [
 					"Wizards of the Coast"
 				],
 				"convertedBy": [
 					"Giddy"
-				],
-				"version": "1.0.0",
-				"url": "https://media.wizards.com/2015/downloads/dnd/UA3_ClassDesignVariants.pdf",
-				"dateReleased": "2015-04-06"
+				]
 			}
 		],
 		"dependencies": {
@@ -27,6 +27,13 @@
 		"dateAdded": 1701616429,
 		"dateLastModified": 1729637619,
 		"_dateLastModifiedHash": "e5840bc030"
+	},
+	"_test": {
+		"references": [
+			"UAClassFeatureVariants",
+			"UALightDarkUnderdark",
+			"UAWaterborneAdventures"
+		]
 	},
 	"class": [
 		{

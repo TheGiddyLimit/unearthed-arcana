@@ -5,15 +5,15 @@
 				"json": "UAFiendishOptions",
 				"abbreviation": "UAFO",
 				"full": "Unearthed Arcana: Fiendish Options",
+				"url": "https://media.wizards.com/2017/dnd/downloads/UA_FiendishOptions.pdf",
+				"version": "1.0.0",
+				"dateReleased": "2017-10-09",
 				"authors": [
 					"Wizards of the Coast"
 				],
 				"convertedBy": [
 					"Giddy"
-				],
-				"version": "1.0.0",
-				"url": "https://media.wizards.com/2017/dnd/downloads/UA_FiendishOptions.pdf",
-				"dateReleased": "2017-10-09"
+				]
 			}
 		],
 		"edition": "classic",

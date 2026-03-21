@@ -5,15 +5,15 @@
 				"json": "UAWizardRevisited",
 				"abbreviation": "UAWR",
 				"full": "Unearthed Arcana: Wizard Revisited",
+				"url": "https://media.wizards.com/2017/dnd/downloads/MJ320UAWizardVF2017.pdf",
+				"version": "1.0.0",
+				"dateReleased": "2017-03-20",
 				"authors": [
 					"Wizards of the Coast"
 				],
 				"convertedBy": [
 					"Giddy"
-				],
-				"version": "1.0.0",
-				"url": "https://media.wizards.com/2017/dnd/downloads/MJ320UAWizardVF2017.pdf",
-				"dateReleased": "2017-03-20"
+				]
 			}
 		],
 		"edition": "classic",

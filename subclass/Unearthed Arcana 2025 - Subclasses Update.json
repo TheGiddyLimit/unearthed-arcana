@@ -6,15 +6,15 @@
 				"json": "XUA2025SubclassesUpdate",
 				"abbreviation": "XUA25SU",
 				"full": "Unearthed Arcana 2025: Subclasses Update",
+				"url": "https://media.dndbeyond.com/compendium-images/ua/subclasses-update/PWtmnmBuM6NVYAXE/UA2025+Updated+Subclasses.pdf",
+				"version": "1.0.0",
+				"dateReleased": "2025-10-30",
 				"authors": [
 					"Wizards of the Coast"
 				],
 				"convertedBy": [
 					"Lyra [he/him]"
-				],
-				"version": "1.0.0",
-				"url": "https://media.dndbeyond.com/compendium-images/ua/subclasses-update/PWtmnmBuM6NVYAXE/UA2025+Updated+Subclasses.pdf",
-				"dateReleased": "2025-10-30"
+				]
 			}
 		],
 		"edition": "one",

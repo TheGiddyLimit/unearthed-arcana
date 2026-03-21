@@ -5,15 +5,15 @@
 				"json": "UABarbarianAndMonk",
 				"abbreviation": "UABAM",
 				"full": "Unearthed Arcana: Barbarian and Monk",
+				"url": "https://media.wizards.com/2019/dnd/downloads/UA-WildAstral.pdf",
+				"version": "1.0.0",
+				"dateReleased": "2019-08-15",
 				"authors": [
 					"Wizards of the Coast"
 				],
 				"convertedBy": [
 					"Giddy"
-				],
-				"version": "1.0.0",
-				"url": "https://media.wizards.com/2019/dnd/downloads/UA-WildAstral.pdf",
-				"dateReleased": "2019-08-15"
+				]
 			}
 		],
 		"edition": "classic",

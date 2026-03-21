@@ -5,15 +5,15 @@
 				"json": "UAOrderDomain",
 				"abbreviation": "UAOD",
 				"full": "Unearthed Arcana: Order Domain",
+				"url": "https://media.wizards.com/2018/dnd/downloads/UA_OrderDomain.pdf",
+				"version": "1.0.0",
+				"dateReleased": "2018-04-09",
 				"authors": [
 					"Wizards of the Coast"
 				],
 				"convertedBy": [
 					"Giddy"
-				],
-				"version": "1.0.0",
-				"url": "https://media.wizards.com/2018/dnd/downloads/UA_OrderDomain.pdf",
-				"dateReleased": "2018-04-09"
+				]
 			}
 		],
 		"dependencies": {
@@ -25,6 +25,11 @@
 		"dateAdded": 1701616429,
 		"dateLastModified": 1729637619,
 		"_dateLastModifiedHash": "863670f01b"
+	},
+	"_test": {
+		"references": [
+			"UAClassFeatureVariants"
+		]
 	},
 	"subclass": [
 		{

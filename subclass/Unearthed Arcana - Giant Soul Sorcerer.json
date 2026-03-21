@@ -5,15 +5,15 @@
 				"json": "UAGiantSoulSorcerer",
 				"abbreviation": "UAGSS",
 				"full": "Unearthed Arcana: Giant Soul Sorcerer",
+				"url": "https://media.wizards.com/2018/dnd/downloads/UA_GiantSoul.pdf",
+				"version": "1.0.0",
+				"dateReleased": "2018-06-11",
 				"authors": [
 					"Wizards of the Coast"
 				],
 				"convertedBy": [
 					"Giddy"
-				],
-				"version": "1.0.0",
-				"url": "https://media.wizards.com/2018/dnd/downloads/UA_GiantSoul.pdf",
-				"dateReleased": "2018-06-11"
+				]
 			}
 		],
 		"edition": "classic",

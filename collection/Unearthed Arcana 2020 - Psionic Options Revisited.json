@@ -5,15 +5,15 @@
 				"json": "UA2020PsionicOptionsRevisited",
 				"abbreviation": "UA20POR",
 				"full": "Unearthed Arcana: 2020 Psionic Options Revisited",
+				"url": "https://media.wizards.com/2020/dnd/downloads/UA2020_PsionicOptions.pdf",
+				"version": "1.0.0",
+				"dateReleased": "2020-04-14",
 				"authors": [
 					"Wizards of the Coast"
 				],
 				"convertedBy": [
 					"Giddy"
-				],
-				"version": "1.0.0",
-				"url": "https://media.wizards.com/2020/dnd/downloads/UA2020_PsionicOptions.pdf",
-				"dateReleased": "2020-04-14"
+				]
 			}
 		],
 		"edition": "classic",

@@ -5,21 +5,27 @@
 				"json": "XUA2023PlayersHandbookP6",
 				"abbreviation": "XUA23P6",
 				"full": "Unearthed Arcana 2023: Player's Handbook Playtest 6",
+				"url": "https://media.dndbeyond.com/compendium-images/ua/ph-playtest6/OJVW7QLuHjEFCCVs/UA-2023-PH-Playtest6.pdf",
+				"version": "1.0.0",
+				"dateReleased": "2023-06-28",
 				"authors": [
 					"Wizards of the Coast"
 				],
 				"convertedBy": [
 					"Giddy"
-				],
-				"version": "1.0.0",
-				"url": "https://media.dndbeyond.com/compendium-images/ua/ph-playtest6/OJVW7QLuHjEFCCVs/UA-2023-PH-Playtest6.pdf",
-				"dateReleased": "2023-06-28"
+				]
 			}
 		],
 		"edition": "classic",
 		"dateAdded": 1691158917,
 		"dateLastModified": 1745663149,
 		"_dateLastModifiedHash": "1ef7ea9923"
+	},
+	"_test": {
+		"references": [
+			"XUA2022ClericAndRevisedSpecies",
+			"XUA2023DruidAndPaladin"
+		]
 	},
 	"class": [
 		{
@@ -103,7 +109,7 @@
 					"simple"
 				],
 				"tools": [
-					"three {@variantrule musical instrument|XUA2023PlayersHandbookP6|musical instruments} of your choice"
+					"three {@item musical instrument|PHB|musical instruments} of your choice"
 				],
 				"toolProficiencies": [
 					{
@@ -3706,10 +3712,10 @@
 				}
 			],
 			"subclassFeatures": [
-				"Arcane Trickster|Rogue|XUA2023PlayersHandbookP6|Trickster|XUA2023PlayersHandbookP6|3",
-				"Magical Ambush|Rogue|XUA2023PlayersHandbookP6|Trickster|XUA2023PlayersHandbookP6|9",
-				"Versatile Trickster|Rogue|XUA2023PlayersHandbookP6|Trickster|XUA2023PlayersHandbookP6|13",
-				"Spell Thief|Rogue|XUA2023PlayersHandbookP6|Trickster|XUA2023PlayersHandbookP6|17"
+				"Arcane Trickster|Rogue|XUA2023PlayersHandbookP6|Arcane Trickster|XUA2023PlayersHandbookP6|3",
+				"Magical Ambush|Rogue|XUA2023PlayersHandbookP6|Arcane Trickster|XUA2023PlayersHandbookP6|9",
+				"Versatile Trickster|Rogue|XUA2023PlayersHandbookP6|Arcane Trickster|XUA2023PlayersHandbookP6|13",
+				"Spell Thief|Rogue|XUA2023PlayersHandbookP6|Arcane Trickster|XUA2023PlayersHandbookP6|17"
 			]
 		},
 		{
@@ -4126,7 +4132,7 @@
 							"protection from energy"
 						],
 						"13": [
-							"banishment",
+							"banishment|XUA2022ClericAndRevisedSpecies",
 							"dimension door"
 						],
 						"17": [
@@ -4507,7 +4513,7 @@
 			"classSource": "XUA2023PlayersHandbookP6",
 			"level": 10,
 			"entries": [
-				"You have collected magical knowledge from a wide spectrum of disciplines. As a result, your Bard Spell list now includes the {@variantrule Arcane Spells|XUA2023PlayersHandbookP6|Arcane}, {@variantrule Divine Spells|XUA2023PlayersHandbookP6|Divine}, or {@variantrule Primal Spells|XUA2023PlayersHandbookP6|Primal}."
+				"You have collected magical knowledge from a wide spectrum of disciplines. As a result, your Bard Spell list now includes the {@variantrule Spell Lists|XUA2023PlayersHandbookP6|Arcane, Divine, and Primal spell lists}."
 			]
 		},
 		{
@@ -6385,7 +6391,7 @@
 			"classSource": "XUA2023PlayersHandbookP6",
 			"level": 18,
 			"entries": [
-				"Your connection to the forces of nature grants you {@feat Blindsight|XUA2023PlayersHandbookP6} with a range of 30 feet."
+				"Your connection to the forces of nature grants you {@sense Blindsight|XUA2023PlayersHandbookP6} with a range of 30 feet."
 			]
 		},
 		{
@@ -6431,7 +6437,7 @@
 			"classSource": "XUA2023PlayersHandbookP6",
 			"level": 1,
 			"entries": [
-				"You know how to turn a subtle attack into a deadly one. Once on each of your turns when you take the {@action Attack|XUA2023PlayersHandbookP6} Action, you can deal extra damage to one creature you hit with an {@variantrule Attack Roll|XUA2023PlayersHandbookP6} if you're attacking with a Finesse Weapon or a Ranged Weapon and if at least one of the following requirements is met:",
+				"You know how to turn a subtle attack into a deadly one. Once on each of your turns when you take the {@action Attack|XUA2023PlayersHandbookP6} Action, you can deal extra damage to one creature you hit with an attack roll if you're attacking with a Finesse Weapon or a Ranged Weapon and if at least one of the following requirements is met:",
 				{
 					"type": "list",
 					"style": "list-hang-notitle",
@@ -6440,7 +6446,7 @@
 							"type": "item",
 							"name": "Advantage",
 							"entries": [
-								"You have Advantage on the {@variantrule Attack Roll|XUA2023PlayersHandbookP6}."
+								"You have Advantage on the attack roll."
 							]
 						},
 						{
@@ -6486,7 +6492,7 @@
 			"classSource": "XUA2023PlayersHandbookP6",
 			"level": 2,
 			"entries": [
-				"Your quick thinking and agility allow you to move and act quickly. On your turn, you can take one of the following Actions as a Bonus Action: {@action Dash|XUA2023PlayersHandbookP6}, {@action Disengage}, or {@action Hide|XUA2023PlayersHandbookP6}."
+				"Your quick thinking and agility allow you to move and act quickly. On your turn, you can take one of the following Actions as a Bonus Action: {@action Dash}, {@action Disengage}, or {@action Hide|XUA2023PlayersHandbookP6}."
 			]
 		},
 		{
@@ -8254,7 +8260,7 @@
 			"subclassSource": "XUA2023PlayersHandbookP6",
 			"level": 3,
 			"entries": [
-				"You have attuned yourself with the elemental forces of the multiverse. You know the Elementalism cantrip.",
+				"You have attuned yourself with the elemental forces of the multiverse. You know the {@spell Elementalism|XUA2023PlayersHandbookP6} cantrip.",
 				"In addition, at the start of your turn, you can spend 1 Discipline Point to imbue yourself with elemental energy. The energy lasts for 10 minutes or until you have the {@condition Incapacitated|XUA2023PlayersHandbookP6} condition. You gain the following benefits for the duration:",
 				{
 					"type": "list",
@@ -9258,7 +9264,7 @@
 						],
 						[
 							"13th",
-							"{@spell Banishment}, {@spell Dimension Door}"
+							"{@spell Banishment|XUA2022ClericAndRevisedSpecies}, {@spell Dimension Door}"
 						],
 						[
 							"17th",
@@ -9389,7 +9395,7 @@
 			"level": 7,
 			"header": 2,
 			"entries": [
-				"When you use your Bonus Action to command your Primal Companion beast to take an action, you can also command it to take the {@action Dash}, Disengage, {@action Dodge}, or {@action Help} action as a Bonus Action.",
+				"When you use your Bonus Action to command your Primal Companion beast to take an action, you can also command it to take the {@action Dash}, {@action Disengage}, {@action Dodge}, or {@action Help} action as a Bonus Action.",
 				"In addition, whenever the beast hits with an attack and deals damage, it can deal your choice of Force damage or its normal damage type."
 			]
 		},
@@ -9761,6 +9767,142 @@
 			"header": 2,
 			"entries": [
 				"You gain another feature option of your choice from the Defensive Tactics feature."
+			]
+		},
+		{
+			"name": "Arcane Trickster",
+			"source": "XUA2023PlayersHandbookP6",
+			"page": 51,
+			"className": "Rogue",
+			"classSource": "XUA2023PlayersHandbookP6",
+			"subclassShortName": "Arcane Trickster",
+			"subclassSource": "XUA2023PlayersHandbookP6",
+			"level": 3,
+			"entries": [
+				"Some Rogues enhance their fine-honed skills of stealth and agility with Arcane spells, learning magical tricks to aid them in their trade. Some Arcane Tricksters use their talents as pickpockets and burglars, while others are pranksters, mischief-makers, or adventurers.",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Spellcasting|Rogue|XUA2023PlayersHandbookP6|Arcane Trickster|XUA2023PlayersHandbookP6|3|XUA2023PlayersHandbookP6"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Mage Hand Legerdemain|Rogue|XUA2023PlayersHandbookP6|Arcane Trickster|XUA2023PlayersHandbookP6|3"
+				}
+			]
+		},
+		{
+			"name": "Mage Hand Legerdemain",
+			"source": "XUA2023PlayersHandbookP6",
+			"page": 52,
+			"className": "Rogue",
+			"classSource": "XUA2023PlayersHandbookP6",
+			"subclassShortName": "Arcane Trickster",
+			"subclassSource": "XUA2023PlayersHandbookP6",
+			"level": 3,
+			"entries": [
+				"When you cast {@spell Mage Hand}, you can make the spectral hand {@condition invisible}. You can control the hand as a Bonus Action, instead of an action, and through it, you can use Thieves' Tools and make Dexterity ({@skill Sleight of Hand}) checks."
+			]
+		},
+		{
+			"name": "Spellcasting",
+			"source": "XUA2023PlayersHandbookP6",
+			"page": 52,
+			"className": "Rogue",
+			"classSource": "XUA2023PlayersHandbookP6",
+			"subclassShortName": "Arcane Trickster",
+			"subclassSource": "XUA2023PlayersHandbookP6",
+			"level": 3,
+			"entries": [
+				"You have learned to cast spells. See the Player's Handbook for the rules on spellcasting. The information below details how you use those rules as an Arcane Trickster.",
+				{
+					"type": "entries",
+					"name": "Cantrips",
+					"entries": [
+						"You know three cantrips: Mage Hand and two other cantrips of your choice from the Arcane spell list.",
+						"Whenever you gain a Rogue level, you can replace one of your cantrips, except Mage Hand, with another cantrip of your choice from the Arcane spell list.",
+						"When you reach 10th level in this class, you learn another Arcane cantrip of your choice."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Spell Slots",
+					"entries": [
+						"The Arcane Trickster Spellcasting table shows how many spell slots you have to cast your spells of 1st level and higher. To cast one of these spells, you must expend a slot of the spell's level or higher. You regain all expended spell slots when you finish a {@variantrule Long Rest|XUA2023PlayersHandbookP6}."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Prepared Spells of 1st+ Level",
+					"entries": [
+						"You prepare a list of spells of 1st level and higher that are available for you to cast with this feature. To start, choose three 1st-level spells from the Arcane spell list, two of which must be from the Enchantment and Illusion schools of magic.",
+						"The number of spells on your list increases as you gain Rogue levels, as shown in the Prepared Spells column of the Arcane Trickster Spellcasting table. Whenever that number increases, choose additional spells from the Arcane spell list until the number of spells on your list matches the number on the table. The chosen spells must be of a level for which you have spell slots. For example, if you're a 7th-level Rogue, your list of prepared spells can include six Arcane spells of 1st or 2nd level, in any combination."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Changing Your Prepared Spells",
+					"entries": [
+						"Whenever you gain a level in this class, you can replace one of the spells you know with another spell of your choice from the Arcane spell list. The new spell must be of a level for which you have spell slots."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Spellcasting Ability",
+					"entries": [
+						"Intelligence is your spellcasting ability for your Arcane Trickster spells."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Spellcasting Focus",
+					"entries": [
+						"You can use an Arcane Focus as a Spellcasting Focus for the spells you prepare for this subclass."
+					]
+				}
+			]
+		},
+		{
+			"name": "Magical Ambush",
+			"source": "XUA2023PlayersHandbookP6",
+			"page": 52,
+			"className": "Rogue",
+			"classSource": "XUA2023PlayersHandbookP6",
+			"subclassShortName": "Arcane Trickster",
+			"subclassSource": "XUA2023PlayersHandbookP6",
+			"level": 9,
+			"header": 2,
+			"entries": [
+				"If you have the {@condition Invisible|XUA2023PlayersHandbookP6} condition when you cast a spell on a creature, it has Disadvantage on any saving throw it makes against the spell on the same turn."
+			]
+		},
+		{
+			"name": "Versatile Trickster",
+			"source": "XUA2023PlayersHandbookP6",
+			"page": 52,
+			"className": "Rogue",
+			"classSource": "XUA2023PlayersHandbookP6",
+			"subclassShortName": "Arcane Trickster",
+			"subclassSource": "XUA2023PlayersHandbookP6",
+			"level": 13,
+			"header": 2,
+			"entries": [
+				"You gain the ability to distract targets with your Mage Hand. When you use the Disarm or Trip options of your Cunning Strike, you can also target that option at a creature within 5 feet of the spectral hand."
+			]
+		},
+		{
+			"name": "Spell Thief",
+			"source": "XUA2023PlayersHandbookP6",
+			"page": 52,
+			"className": "Rogue",
+			"classSource": "XUA2023PlayersHandbookP6",
+			"subclassShortName": "Arcane Trickster",
+			"subclassSource": "XUA2023PlayersHandbookP6",
+			"level": 17,
+			"header": 2,
+			"entries": [
+				"You gain the ability to magically steal the knowledge of how to cast a spell from another spellcaster.",
+				"Immediately after a creature casts a spell that targets you or includes you in its area of effect, you can use your Reaction to force the creature to make a saving throw with its spellcasting ability modifier. The DC equals your Spell Save DC. On a failed save, you negate the spell's effect against you, and you steal the knowledge of the spell if it is at least 1st level and of a level you can cast (it doesn't need to be an Arcane spell). For the next 8 hours, you know the spell and can cast it using your spell slots. The creature can't cast that spell until the 8 hours have passed.",
+				"Once you use this feature, you can't use it again until you finish a {@variantrule Long Rest|XUA2023PlayersHandbookP6}."
 			]
 		},
 		{
@@ -10182,142 +10324,6 @@
 			"entries": [
 				"You are adept at laying ambushes and quickly escaping danger. You can take two turns during the first round of any combat. You take your first turn at your normal Initiative and your second turn at your Initiative minus 10."
 			]
-		},
-		{
-			"name": "Arcane Trickster",
-			"source": "XUA2023PlayersHandbookP6",
-			"page": 51,
-			"className": "Rogue",
-			"classSource": "XUA2023PlayersHandbookP6",
-			"subclassShortName": "Trickster",
-			"subclassSource": "XUA2023PlayersHandbookP6",
-			"level": 3,
-			"entries": [
-				"Some Rogues enhance their fine-honed skills of stealth and agility with Arcane spells, learning magical tricks to aid them in their trade. Some Arcane Tricksters use their talents as pickpockets and burglars, while others are pranksters, mischief-makers, or adventurers.",
-				{
-					"type": "refSubclassFeature",
-					"subclassFeature": "Spellcasting|Rogue|XUA2023PlayersHandbookP6|Trickster|XUA2023PlayersHandbookP6|3"
-				},
-				{
-					"type": "refSubclassFeature",
-					"subclassFeature": "Mage Hand Legerdemain|Rogue|XUA2023PlayersHandbookP6|Trickster|XUA2023PlayersHandbookP6|3"
-				}
-			]
-		},
-		{
-			"name": "Mage Hand Legerdemain",
-			"source": "XUA2023PlayersHandbookP6",
-			"page": 52,
-			"className": "Rogue",
-			"classSource": "XUA2023PlayersHandbookP6",
-			"subclassShortName": "Trickster",
-			"subclassSource": "XUA2023PlayersHandbookP6",
-			"level": 3,
-			"entries": [
-				"When you cast {@spell Mage Hand}, you can make the spectral hand {@condition invisible}. You can control the hand as a Bonus Action, instead of an action, and through it, you can use Thieves' Tools and make Dexterity ({@skill Sleight of Hand}) checks."
-			]
-		},
-		{
-			"name": "Spellcasting",
-			"source": "XUA2023PlayersHandbookP6",
-			"page": 52,
-			"className": "Rogue",
-			"classSource": "XUA2023PlayersHandbookP6",
-			"subclassShortName": "Trickster",
-			"subclassSource": "XUA2023PlayersHandbookP6",
-			"level": 3,
-			"entries": [
-				"You have learned to cast spells. See the Player's Handbook for the rules on spellcasting. The information below details how you use those rules as an Arcane Trickster.",
-				{
-					"type": "entries",
-					"name": "Cantrips",
-					"entries": [
-						"You know three cantrips: Mage Hand and two other cantrips of your choice from the Arcane spell list.",
-						"Whenever you gain a Rogue level, you can replace one of your cantrips, except Mage Hand, with another cantrip of your choice from the Arcane spell list.",
-						"When you reach 10th level in this class, you learn another Arcane cantrip of your choice."
-					]
-				},
-				{
-					"type": "entries",
-					"name": "Spell Slots",
-					"entries": [
-						"The Arcane Trickster Spellcasting table shows how many spell slots you have to cast your spells of 1st level and higher. To cast one of these spells, you must expend a slot of the spell's level or higher. You regain all expended spell slots when you finish a {@variantrule Long Rest|XUA2023PlayersHandbookP6}."
-					]
-				},
-				{
-					"type": "entries",
-					"name": "Prepared Spells of 1st+ Level",
-					"entries": [
-						"You prepare a list of spells of 1st level and higher that are available for you to cast with this feature. To start, choose three 1st-level spells from the Arcane spell list, two of which must be from the Enchantment and Illusion schools of magic.",
-						"The number of spells on your list increases as you gain Rogue levels, as shown in the Prepared Spells column of the Arcane Trickster Spellcasting table. Whenever that number increases, choose additional spells from the Arcane spell list until the number of spells on your list matches the number on the table. The chosen spells must be of a level for which you have spell slots. For example, if you're a 7th-level Rogue, your list of prepared spells can include six Arcane spells of 1st or 2nd level, in any combination."
-					]
-				},
-				{
-					"type": "entries",
-					"name": "Changing Your Prepared Spells",
-					"entries": [
-						"Whenever you gain a level in this class, you can replace one of the spells you know with another spell of your choice from the Arcane spell list. The new spell must be of a level for which you have spell slots."
-					]
-				},
-				{
-					"type": "entries",
-					"name": "Spellcasting Ability",
-					"entries": [
-						"Intelligence is your spellcasting ability for your Arcane Trickster spells."
-					]
-				},
-				{
-					"type": "entries",
-					"name": "Spellcasting Focus",
-					"entries": [
-						"You can use an Arcane Focus as a Spellcasting Focus for the spells you prepare for this subclass."
-					]
-				}
-			]
-		},
-		{
-			"name": "Magical Ambush",
-			"source": "XUA2023PlayersHandbookP6",
-			"page": 52,
-			"className": "Rogue",
-			"classSource": "XUA2023PlayersHandbookP6",
-			"subclassShortName": "Trickster",
-			"subclassSource": "XUA2023PlayersHandbookP6",
-			"level": 9,
-			"header": 2,
-			"entries": [
-				"If you have the {@condition Invisible|XUA2023PlayersHandbookP6} condition when you cast a spell on a creature, it has Disadvantage on any saving throw it makes against the spell on the same turn."
-			]
-		},
-		{
-			"name": "Versatile Trickster",
-			"source": "XUA2023PlayersHandbookP6",
-			"page": 52,
-			"className": "Rogue",
-			"classSource": "XUA2023PlayersHandbookP6",
-			"subclassShortName": "Trickster",
-			"subclassSource": "XUA2023PlayersHandbookP6",
-			"level": 13,
-			"header": 2,
-			"entries": [
-				"You gain the ability to distract targets with your Mage Hand. When you use the Disarm or Trip options of your Cunning Strike, you can also target that option at a creature within 5 feet of the spectral hand."
-			]
-		},
-		{
-			"name": "Spell Thief",
-			"source": "XUA2023PlayersHandbookP6",
-			"page": 52,
-			"className": "Rogue",
-			"classSource": "XUA2023PlayersHandbookP6",
-			"subclassShortName": "Trickster",
-			"subclassSource": "XUA2023PlayersHandbookP6",
-			"level": 17,
-			"header": 2,
-			"entries": [
-				"You gain the ability to magically steal the knowledge of how to cast a spell from another spellcaster.",
-				"Immediately after a creature casts a spell that targets you or includes you in its area of effect, you can use your Reaction to force the creature to make a saving throw with its spellcasting ability modifier. The DC equals your Spell Save DC. On a failed save, you negate the spell's effect against you, and you steal the knowledge of the spell if it is at least 1st level and of a level you can cast (it doesn't need to be an Arcane spell). For the next 8 hours, you know the spell and can cast it using your spell slots. The creature can't cast that spell until the 8 hours have passed.",
-				"Once you use this feature, you can't use it again until you finish a {@variantrule Long Rest|XUA2023PlayersHandbookP6}."
-			]
 		}
 	],
 	"feat": [
@@ -10379,7 +10385,7 @@
 			],
 			"repeatable": false,
 			"entries": [
-				"You gain a +2 bonus to {@variantrule Attack Roll|XUA2023PlayersHandbookP6} you make with Ranged Weapons."
+				"You gain a +2 bonus to attack roll you make with Ranged Weapons."
 			]
 		},
 		{
@@ -10447,7 +10453,7 @@
 			],
 			"repeatable": false,
 			"entries": [
-				"Immediately after a creature you can see makes an {@variantrule Attack Roll|XUA2023PlayersHandbookP6} and hits a target other than you that is within 5 feet of you, you can use your Reaction to interpose your Shield and impose a \u22122 penalty on the {@variantrule Attack Roll|XUA2023PlayersHandbookP6}, potentially turning it into a miss. You must be wielding a Shield to use this Reaction."
+				"Immediately after a creature you can see makes an attack roll and hits a target other than you that is within 5 feet of you, you can use your Reaction to interpose your Shield and impose a \u22122 penalty on the attack roll, potentially turning it into a miss. You must be wielding a Shield to use this Reaction."
 			]
 		},
 		{
@@ -10464,7 +10470,7 @@
 			],
 			"repeatable": false,
 			"entries": [
-				"When you make the extra attack of the {@variantrule Light|XUA2023PlayersHandbookP6} weapon property, you can add your Ability Modifier to the damage of the extra attack."
+				"When you make the extra attack of the {@itemProperty XUA2023PlayersHandbookP6-L|XUA2023PlayersHandbookP6|Light} weapon property, you can add your Ability Modifier to the damage of the extra attack."
 			]
 		}
 	],
@@ -11370,11 +11376,11 @@
 			"source": "XUA2023PlayersHandbookP6",
 			"spellListType": "groups",
 			"spells": [
-				"elementalism",
-				"frostbite",
-				"mind sliver",
-				"thunderclap",
-				"toll the dead",
+				"elementalism|XUA2023PlayersHandbookP6",
+				"frostbite|xge",
+				"mind sliver|tce",
+				"thunderclap|xge",
+				"toll the dead|xge",
 				"acid splash",
 				"blade ward",
 				"chill touch",
@@ -11491,7 +11497,7 @@
 				"vampiric touch",
 				"water breathing",
 				"arcane eye",
-				"banishment",
+				"banishment|XUA2022ClericAndRevisedSpecies",
 				"blight",
 				"compulsion",
 				"confusion",
@@ -11605,11 +11611,11 @@
 			"source": "XUA2023PlayersHandbookP6",
 			"spellListType": "groups",
 			"spells": [
-				"toll the dead",
-				"word of radiance",
+				"toll the dead|xge",
+				"word of radiance|xge",
 				"guidance",
 				"light",
-				"resistance",
+				"resistance|XUA2022ClericAndRevisedSpecies",
 				"sacred flame",
 				"spare the dying",
 				"thaumaturgy",
@@ -11666,7 +11672,7 @@
 				"tongues",
 				"aura of life",
 				"aura of purity",
-				"banishment",
+				"banishment|XUA2022ClericAndRevisedSpecies",
 				"death ward",
 				"divination",
 				"freedom of movement",
@@ -11720,16 +11726,16 @@
 			"source": "XUA2023PlayersHandbookP6",
 			"spellListType": "groups",
 			"spells": [
-				"elementalism",
-				"frostbite",
-				"thunderclap",
+				"elementalism|XUA2023PlayersHandbookP6",
+				"frostbite|xge",
+				"thunderclap|xge",
 				"druidcraft",
 				"guidance",
 				"mending",
 				"message",
 				"poison spray",
 				"produce flame",
-				"resistance",
+				"resistance|XUA2022ClericAndRevisedSpecies",
 				"shillelagh",
 				"spare the dying",
 				"thorn whip",
@@ -11752,7 +11758,7 @@
 				"thunderwave",
 				"animal messenger",
 				"augury",
-				"barkskin",
+				"barkskin|XUA2022ClericAndRevisedSpecies",
 				"beast sense",
 				"cordon of arrows",
 				"darkvision",
@@ -13277,7 +13283,7 @@
 			"page": 72,
 			"entries": [
 				"Expertise is a special feature that enhances your use of a particular Skill Proficiency. If you gain {@variantrule Expertise|XUA2023PlayersHandbookP6}, you gain it in one Skill in which you have Proficiency. You can never have {@variantrule Expertise|XUA2023PlayersHandbookP6} in the same Skill Proficiency more than once.",
-				"When you make an {@variantrule {@variantrule Ability Check|XUA2023PlayersHandbookP6}|XUA2023PlayersHandbookP6} with a Skill Proficiency in which you have {@variantrule Expertise|XUA2023PlayersHandbookP6}, your Proficiency Bonus is doubled for that check."
+				"When you make an {@variantrule Ability Check|XUA2022ClericAndRevisedSpecies} with a Skill Proficiency in which you have {@variantrule Expertise|XUA2023PlayersHandbookP6}, your Proficiency Bonus is doubled for that check."
 			]
 		},
 		{
@@ -13372,7 +13378,7 @@
 											"type": "item",
 											"name": "Exhaustion Reduced",
 											"entries": [
-												"If you are {@condition Exhausted|XUA2023PlayersHandbookP6}, your level of {@condition exhaustion} decreases by 1."
+												"If you are {@condition Exhausted|XUA2023DruidAndPaladin}, your level of exhaustion decreases by 1."
 											]
 										},
 										{
@@ -13461,7 +13467,7 @@
 					"items": [
 						"{@variantrule Armor Training|XUA2023PlayersHandbookP6}",
 						"{@action Attack|XUA2023PlayersHandbookP6}",
-						"{@variantrule Blindsight|XUA2023PlayersHandbookP6}",
+						"{@sense Blindsight|XUA2023PlayersHandbookP6}",
 						"{@variantrule Climb Speed|XUA2023PlayersHandbookP6}",
 						"{@variantrule Creature Type|XUA2023PlayersHandbookP6}",
 						"{@variantrule D20 Tests|XUA2023PlayersHandbookP6}",
@@ -13489,8 +13495,8 @@
 						"{@variantrule Telepathy|XUA2023PlayersHandbookP6}",
 						"{@variantrule Teleportation|XUA2023PlayersHandbookP6}",
 						"{@variantrule Tool Proficiency|XUA2023PlayersHandbookP6}",
-						"{@variantrule Tremorsense|XUA2023PlayersHandbookP6}",
-						"{@variantrule Truesight|XUA2023PlayersHandbookP6}",
+						"{@sense Tremorsense|XUA2023PlayersHandbookP6}",
+						"{@sense Truesight|XUA2023PlayersHandbookP6}",
 						"{@variantrule Unarmed Strike|XUA2023PlayersHandbookP6}",
 						"{@condition Unconscious|XUA2023PlayersHandbookP6}"
 					]
@@ -13619,7 +13625,7 @@
 								],
 								[
 									"0",
-									"{@spell Frostbite}",
+									"{@spell Frostbite|XGE}",
 									"Evocation",
 									"No"
 								],
@@ -13649,7 +13655,7 @@
 								],
 								[
 									"0",
-									"{@spell Mind Sliver}",
+									"{@spell Mind Sliver|TCE}",
 									"Enchantment",
 									"No"
 								],
@@ -13685,13 +13691,13 @@
 								],
 								[
 									"0",
-									"{@spell Thunderclap}",
+									"{@spell Thunderclap|XGE}",
 									"Evocation",
 									"No"
 								],
 								[
 									"0",
-									"{@spell Toll the Dead}",
+									"{@spell Toll the Dead|XGE}",
 									"Necromancy",
 									"No"
 								],
@@ -13883,7 +13889,7 @@
 								],
 								[
 									"1",
-									"{@spell Tenser 's Floating Disk}",
+									"{@spell Tenser's Floating Disk}",
 									"Conjuration",
 									"Yes"
 								],
@@ -14027,7 +14033,7 @@
 								],
 								[
 									"2",
-									"{@spell Magic Aura}",
+									"{@spell Nystul's Magic Aura|PHB|Magic Aura}",
 									"Illusion",
 									"No"
 								],
@@ -14297,7 +14303,7 @@
 								],
 								[
 									"4",
-									"{@spell Banishment}",
+									"{@spell Banishment|XUA2022ClericAndRevisedSpecies}",
 									"Abjuration",
 									"No"
 								],
@@ -14633,7 +14639,7 @@
 								],
 								[
 									"6",
-									"{@spell Instant Summons}",
+									"{@spell Drawmij's Instant Summons|PHB|Instant Summons}",
 									"Conjuration",
 									"Yes"
 								],
@@ -14965,7 +14971,7 @@
 							"rows": [
 								[
 									"0",
-									"{@u {@spell Guidance|XUA2023PlayersHandbookP6}}",
+									"{@u {@spell Guidance|XUA2022ClericAndRevisedSpecies}}",
 									"Divination",
 									"No"
 								],
@@ -14977,7 +14983,7 @@
 								],
 								[
 									"0",
-									"{@u {@spell Resistance|XUA2023PlayersHandbookP6}}",
+									"{@u {@spell Resistance|XUA2022ClericAndRevisedSpecies}}",
 									"Abjuration",
 									"No"
 								],
@@ -15001,13 +15007,13 @@
 								],
 								[
 									"0",
-									"{@spell Toll the Dead}",
+									"{@spell Toll the Dead|XGE}",
 									"Necromancy",
 									"No"
 								],
 								[
 									"0",
-									"{@spell Word of Radiance}",
+									"{@spell Word of Radiance|XGE}",
 									"Evocation",
 									"No"
 								],
@@ -15031,7 +15037,7 @@
 								],
 								[
 									"1",
-									"{@spell Commpelled Duel}",
+									"{@spell Compelled Duel}",
 									"Enchantment",
 									"No"
 								],
@@ -15193,7 +15199,7 @@
 								],
 								[
 									"2",
-									"{@u {@spell Prayer of Healing|XUA2023PlayersHandbookP6}}",
+									"{@u {@spell Prayer of Healing|XUA2022ClericAndRevisedSpecies}}",
 									"Abjuration*",
 									"No"
 								],
@@ -15337,7 +15343,7 @@
 								],
 								[
 									"4",
-									"{@u {@spell Banishment|XUA2023PlayersHandbookP6}}",
+									"{@u {@spell Banishment|XUA2022ClericAndRevisedSpecies}}",
 									"Conjuration*",
 									"No"
 								],
@@ -15663,7 +15669,7 @@
 								],
 								[
 									"0",
-									"{@spell Frostbite}",
+									"{@spell Frostbite|XGE}",
 									"Evocation",
 									"No"
 								],
@@ -15699,7 +15705,7 @@
 								],
 								[
 									"0",
-									"{@u {@spell Resistance|XUA2023PlayersHandbookP6}}",
+									"{@u {@spell Resistance|XUA2022ClericAndRevisedSpecies}}",
 									"Abjuration",
 									"No"
 								],
@@ -15723,7 +15729,7 @@
 								],
 								[
 									"0",
-									"{@spell Thunderclap}",
+									"{@spell Thunderclap|XGE}",
 									"Evocation",
 									"No"
 								],
@@ -15843,7 +15849,7 @@
 								],
 								[
 									"2",
-									"{@u {@spell Barkskin|XUA2023PlayersHandbookP6}}",
+									"{@u {@spell Barkskin|XUA2022ClericAndRevisedSpecies}}",
 									"Transmut.",
 									"No"
 								],
@@ -16957,7 +16963,7 @@
 							"type": "item",
 							"name": "Attacks Affected",
 							"entries": [
-								"{@action Attack|XUA2023PlayersHandbookP6} rolls against you have Disadvantage, and your attack rolls have Advantage. If a creature can somehow see you, as with magic or {@variantrule Blindsight|XUA2023PlayersHandbookP6}, you don't gain this benefit against that creature."
+								"{@action Attack|XUA2023PlayersHandbookP6} rolls against you have Disadvantage, and your attack rolls have Advantage. If a creature can somehow see you, as with magic or {@sense Blindsight|XUA2023PlayersHandbookP6}, you don't gain this benefit against that creature."
 							]
 						}
 					]
@@ -17097,7 +17103,7 @@
 			],
 			"entries": [
 				"With the {@action Hide|XUA2023PlayersHandbookP6} Action, you try to conceal yourself. To do so, you must make a {@dc 15} Dexterity Check ({@skill Stealth}) while you're Heavily Obscured or behind Three-Quarters Cover or Total Cover, and you must be out of any visible enemy's line of sight; if you can see a creature, you can discern whether it can see you.",
-				"On a successful check, you are {@condition Hidden|XUA2023PlayersHandbookP6}. Make note of your check's total, which becomes the DC for a creature to find you with a Wisdom Check ({@skill Perception}).",
+				"On a successful check, you are Hidden. Make note of your check's total, which becomes the DC for a creature to find you with a Wisdom Check ({@skill Perception}).",
 				"The condition ends on you immediately after any of the following occurrences: you make a sound louder than a whisper, an enemy finds you, you make an attack roll, or you cast a spell with a verbal component."
 			]
 		},

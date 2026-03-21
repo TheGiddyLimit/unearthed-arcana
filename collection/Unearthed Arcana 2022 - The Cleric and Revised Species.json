@@ -5,15 +5,15 @@
 				"json": "XUA2022ClericAndRevisedSpecies",
 				"abbreviation": "XUA22CRS",
 				"full": "Unearthed Arcana 2022: The Cleric and Revised Species",
+				"url": "https://media.dndbeyond.com/compendium-images/one-dnd/cleric-and-revised-species/tr8jAj5cc33uQixi/UA-2022-ClericandSpecies.pdf",
+				"version": "1.0.0",
+				"dateReleased": "2022-12-01",
 				"authors": [
 					"Wizards of the Coast"
 				],
 				"convertedBy": [
 					"Giddy"
-				],
-				"version": "1.0.0",
-				"url": "https://media.dndbeyond.com/compendium-images/one-dnd/cleric-and-revised-species/tr8jAj5cc33uQixi/UA-2022-ClericandSpecies.pdf",
-				"dateReleased": "2022-12-01"
+				]
 			}
 		],
 		"dependencies": {
@@ -2315,7 +2315,7 @@
 				"silent image",
 				"sleep",
 				"tasha's hideous laughter",
-				"tenser 's floating disk",
+				"tenser's floating disk",
 				"thunderwave",
 				"unseen servant",
 				"witch bolt",
@@ -2346,7 +2346,7 @@
 				"mirror image",
 				"misty step",
 				"phantasmal force",
-				"ray of enfeeblemen t",
+				"ray of enfeeblement",
 				"rope trick",
 				"scorching ray",
 				"see invisibility",
@@ -3003,7 +3003,7 @@
 			"page": 19,
 			"entries": [
 				"Expertise is a special feature that enhances your use of a particular Skill Proficiency. If you gain Expertise, you gain it in one Skill in which you have Proficiency. You can never have Expertise in the same Skill Proficiency more than once.",
-				"When you make an {@variantrule {@variantrule Ability Check|XUA2022ClericAndRevisedSpecies}|XUA2022ClericAndRevisedSpecies} with a Skill Proficiency in which you have Expertise, your Proficiency Bonus is doubled for that check."
+				"When you make an {@variantrule Ability Check|XUA2022ClericAndRevisedSpecies} with a Skill Proficiency in which you have Expertise, your Proficiency Bonus is doubled for that check."
 			]
 		},
 		{
@@ -3529,7 +3529,7 @@
 								],
 								[
 									"1",
-									"{@spell Tenser 's Floating Disk}",
+									"{@spell Tenser's Floating Disk}",
 									"Conjuration",
 									"Yes"
 								],
@@ -3715,7 +3715,7 @@
 								],
 								[
 									"2",
-									"{@spell Ray of Enfeeblemen t}",
+									"{@spell Ray of Enfeeblement}",
 									"Necromancy",
 									"No"
 								],

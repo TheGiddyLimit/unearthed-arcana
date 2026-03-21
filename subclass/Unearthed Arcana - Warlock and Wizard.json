@@ -5,15 +5,15 @@
 				"json": "UAWarlockAndWizard",
 				"abbreviation": "UAWAW",
 				"full": "Unearthed Arcana: Warlock and Wizard",
+				"url": "https://media.wizards.com/2017/dnd/downloads/20170213_Wizrd_Wrlck_UAv2_i48nf.pdf",
+				"version": "1.0.0",
+				"dateReleased": "2017-02-13",
 				"authors": [
 					"Wizards of the Coast"
 				],
 				"convertedBy": [
 					"Giddy"
-				],
-				"version": "1.0.0",
-				"url": "https://media.wizards.com/2017/dnd/downloads/20170213_Wizrd_Wrlck_UAv2_i48nf.pdf",
-				"dateReleased": "2017-02-13"
+				]
 			}
 		],
 		"edition": "classic",

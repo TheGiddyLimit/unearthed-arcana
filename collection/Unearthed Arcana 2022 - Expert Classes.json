@@ -5,15 +5,15 @@
 				"json": "XUA2022ExpertClasses",
 				"abbreviation": "XUA22EC",
 				"full": "Unearthed Arcana 2022: Expert Classes",
+				"url": "https://media.dndbeyond.com/compendium-images/one-dnd/expert-classes/kpx0MvyfBGHe0XKk/UA2022-Expert-Classes.pdf",
+				"version": "1.0.0",
+				"dateReleased": "2022-09-29",
 				"authors": [
 					"Wizards of the Coast"
 				],
 				"convertedBy": [
 					"Giddy"
-				],
-				"version": "1.0.0",
-				"url": "https://media.dndbeyond.com/compendium-images/one-dnd/expert-classes/kpx0MvyfBGHe0XKk/UA2022-Expert-Classes.pdf",
-				"dateReleased": "2022-09-29"
+				]
 			}
 		],
 		"dependencies": {
@@ -1723,7 +1723,7 @@
 						],
 						[
 							"4th",
-							"{@spell Lesser Restoration|XUA2022ExpertClasses}"
+							"{@spell Lesser Restoration}"
 						],
 						[
 							"6th",
@@ -1731,11 +1731,11 @@
 						],
 						[
 							"8th",
-							"{@spell Freedom of Movement|XUA2022ExpertClasses}"
+							"{@spell Freedom of Movement}"
 						],
 						[
 							"10th",
-							"{@spell Greater Restoration|XUA2022ExpertClasses}"
+							"{@spell Greater Restoration}"
 						]
 					]
 				}
@@ -2152,7 +2152,7 @@
 			"classSource": "XUA2022ExpertClasses",
 			"level": 15,
 			"entries": [
-				"Your connection to the forces of nature grants you {@feat Blindsight|XUA2022ExpertClasses} with a range of 30 feet."
+				"Your connection to the forces of nature grants you {@variantrule Blindsight|XUA2022ExpertClasses} with a range of 30 feet."
 			]
 		},
 		{
@@ -2664,7 +2664,7 @@
 							"type": "item",
 							"name": "Search",
 							"entries": [
-								"Take the {@action Search Action|XUA2022ExpertClasses|Search Action}."
+								"Take the {@action Search|XUA2022ExpertClasses|Search Action}."
 							]
 						},
 						{
@@ -3021,12 +3021,12 @@
 						{
 							"type": "item",
 							"name": "Firing in Melee",
-							"entry": "Being within 5 feet of an enemy doesn't impose Disadvantage on your {@variantrule Attack Rolls|XUA2022ExpertClasses} with crossbows."
+							"entry": "Being within 5 feet of an enemy doesn't impose Disadvantage on your {@variantrule Attack Roll|XUA2022ExpertClasses|Attack Rolls} with crossbows."
 						},
 						{
 							"type": "item",
 							"name": "Dual Wielding",
-							"entry": "When you make the extra attack of the {@variantrule Light|XUA2022ExpertClasses} weapon property, you can add your Ability Modifier to the damage of the extra attack if that attack is with a crossbow that has the {@variantrule Light|XUA2022ExpertClasses} property."
+							"entry": "When you make the extra attack of the {@itemProperty XUA2022ExpertClasses-L|XUA2022ExpertClasses|Light} weapon property, you can add your Ability Modifier to the damage of the extra attack if that attack is with a crossbow that has the {@itemProperty XUA2022ExpertClasses-L|XUA2022ExpertClasses|Light} property."
 						}
 					]
 				}
@@ -3323,7 +3323,7 @@
 			],
 			"repeatable": false,
 			"entries": [
-				"Immediately after you roll a {@dice d20} for a {@variantrule d20 Test|XUA2022ExpertClasses}, you can roll a {@dice d10} and add the number rolled to the test. Once you use this benefit, you can't use it again until you roll Initiative or finish a Short Rest or a {@variantrule Long Rest|XUA2022ExpertClasses}."
+				"Immediately after you roll a {@dice d20} for a {@variantrule D20 Tests|XUA2022ExpertClasses|d20 Test}, you can roll a {@dice d10} and add the number rolled to the test. Once you use this benefit, you can't use it again until you roll Initiative or finish a Short Rest or a {@variantrule Long Rest|XUA2022ExpertClasses}."
 			]
 		},
 		{
@@ -3565,7 +3565,7 @@
 			],
 			"repeatable": false,
 			"entries": [
-				"When you make the extra attack of the {@variantrule Light|XUA2022ExpertClasses} weapon property, you can add your Ability Modifier to the damage of the extra attack."
+				"When you make the extra attack of the {@itemProperty XUA2022ExpertClasses-L|XUA2022ExpertClasses|Light} weapon property, you can add your Ability Modifier to the damage of the extra attack."
 			]
 		},
 		{
@@ -3609,7 +3609,7 @@
 						{
 							"type": "item",
 							"name": "Fast Wrestler",
-							"entry": "You aren't {@variantrule Slowed|XUA2022ExpertClasses} when you move a creature {@condition Grappled|XUA2022ExpertClasses} by you, provided the creature is your Size or smaller."
+							"entry": "You aren't {@condition Slowed|XUA2022ExpertClasses} when you move a creature {@condition Grappled|XUA2022ExpertClasses} by you, provided the creature is your Size or smaller."
 						},
 						{
 							"type": "item",
@@ -5311,7 +5311,7 @@
 			"weaponCategory": "simple",
 			"property": [
 				"F",
-				"XUA2022ClericAndRevisedSpecies-L"
+				"XUA2022ExpertClasses-L"
 			],
 			"dmg1": "1d6",
 			"dmgType": "P",
@@ -5321,7 +5321,7 @@
 	],
 	"itemProperty": [
 		{
-			"abbreviation": "XUA2022ClericAndRevisedSpecies-L",
+			"abbreviation": "XUA2022ExpertClasses-L",
 			"source": "XUA2022ExpertClasses",
 			"page": 21,
 			"entries": [

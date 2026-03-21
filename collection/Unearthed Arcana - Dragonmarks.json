@@ -6,15 +6,15 @@
 				"json": "UADragonmarks",
 				"abbreviation": "UADrgM",
 				"full": "Unearthed Arcana: Dragonmarks",
+				"url": "https://media.wizards.com/2018/dnd/downloads/UA_Dragonmarks.pdf",
+				"version": "1.0.0",
+				"dateReleased": "2018-09-10",
 				"authors": [
 					"Wizards of the Coast"
 				],
 				"convertedBy": [
 					"Lyra [he/him]"
-				],
-				"version": "1.0.0",
-				"url": "https://media.wizards.com/2018/dnd/downloads/UA_Dragonmarks.pdf",
-				"dateReleased": "2018-09-10"
+				]
 			}
 		],
 		"edition": "classic",
@@ -868,7 +868,7 @@
 					"ability": "wis",
 					"innate": {
 						"1": [
-							"bladeward#c"
+							"blade ward#c"
 						]
 					},
 					"known": {
@@ -924,7 +924,7 @@
 			"name": "Elf (Mark of Shadow)",
 			"source": "UADragonmarks",
 			"entries": [
-				"The Mark of Shadows lets an elf weave illusions from shadows, crafting sounds and images to distract or delight. The mark also allows its bearer to draw on the shadows, making it an easy matter to avoid detection or even disappear while in plain sight. It is a valuable tool for an {@background entertainer}, a {@background spy}, or an assassin; each elf who bears it will have to decide which path to follow.",
+				"The Mark of Shadows lets an elf weave illusions from shadows, crafting sounds and images to distract or delight. The mark also allows its bearer to draw on the shadows, making it an easy matter to avoid detection or even disappear while in plain sight. It is a valuable tool for an {@background entertainer}, a {@background Variant Criminal (Spy)|PHB|spy}, or an assassin; each elf who bears it will have to decide which path to follow.",
 				"The Mark of Shadow only manifests on elves. If your character has the Mark of Shadow, this is your elf subrace."
 			]
 		},
@@ -1879,7 +1879,7 @@
 							"name": "The Mark of Shadow",
 							"page": 5,
 							"entries": [
-								"The Mark of Shadows lets an elf weave illusions from shadows, crafting sounds and images to distract or delight. The mark also allows its bearer to draw on the shadows, making it an easy matter to avoid detection or even disappear while in plain sight. It is a valuable tool for an {@background entertainer}, a {@background spy}, or an assassin; each elf who bears it will have to decide which path to follow.",
+								"The Mark of Shadows lets an elf weave illusions from shadows, crafting sounds and images to distract or delight. The mark also allows its bearer to draw on the shadows, making it an easy matter to avoid detection or even disappear while in plain sight. It is a valuable tool for an {@background entertainer}, a {@background Variant Criminal (Spy)|PHB|spy}, or an assassin; each elf who bears it will have to decide which path to follow.",
 								"The Mark of Shadow only manifests on elves. If your character has the Mark of Shadow, this is your elf subrace.",
 								{
 									"type": "statblock",

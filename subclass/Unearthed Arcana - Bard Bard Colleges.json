@@ -5,15 +5,15 @@
 				"json": "UABardBardColleges",
 				"abbreviation": "UABBC",
 				"full": "Unearthed Arcana: Bard: Bard Colleges",
+				"url": "https://media.wizards.com/2016/dnd/downloads/UA_Bard.pdf",
+				"version": "1.0.0",
+				"dateReleased": "2016-11-14",
 				"authors": [
 					"Wizards of the Coast"
 				],
 				"convertedBy": [
 					"Giddy"
-				],
-				"version": "1.0.0",
-				"url": "https://media.wizards.com/2016/dnd/downloads/UA_Bard.pdf",
-				"dateReleased": "2016-11-14"
+				]
 			}
 		],
 		"edition": "classic",
