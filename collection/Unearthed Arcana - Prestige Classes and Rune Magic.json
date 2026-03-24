@@ -5,15 +5,15 @@
 				"json": "UAPrestigeClassesRunMagic",
 				"abbreviation": "UAPCRM",
 				"full": "Unearthed Arcana: Prestige Classes and Rune Magic",
+				"url": "https://media.wizards.com/2015/downloads/dnd/UA_Rune_Magic_Prestige_Class.pdf",
+				"version": "1.0.0",
+				"dateReleased": "2015-10-05",
 				"authors": [
 					"Wizards of the Coast"
 				],
 				"convertedBy": [
 					"Giddy"
-				],
-				"version": "1.0.0",
-				"url": "https://media.wizards.com/2015/downloads/dnd/UA_Rune_Magic_Prestige_Class.pdf",
-				"dateReleased": "2015-10-05"
+				]
 			}
 		],
 		"edition": "classic",

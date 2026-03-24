@@ -5,15 +5,15 @@
 				"json": "UATheRangerRevised",
 				"abbreviation": "UATRR",
 				"full": "Unearthed Arcana: The Ranger, Revised",
+				"url": "https://media.wizards.com/2016/dnd/downloads/UA_RevisedRanger.pdf",
+				"version": "1.0.0",
+				"dateReleased": "2016-09-12",
 				"authors": [
 					"Wizards of the Coast"
 				],
 				"convertedBy": [
 					"Giddy"
-				],
-				"version": "1.0.0",
-				"url": "https://media.wizards.com/2016/dnd/downloads/UA_RevisedRanger.pdf",
-				"dateReleased": "2016-09-12"
+				]
 			}
 		],
 		"dependencies": {
@@ -27,6 +27,13 @@
 		"dateAdded": 1701616429,
 		"dateLastModified": 1729637619,
 		"_dateLastModifiedHash": "cf6005a207"
+	},
+	"_test": {
+		"references": [
+			"UAClassFeatureVariants",
+			"UALightDarkUnderdark",
+			"UAWaterborneAdventures"
+		]
 	},
 	"class": [
 		{

@@ -5,15 +5,15 @@
 				"json": "UAArtificer",
 				"abbreviation": "UAA",
 				"full": "Unearthed Arcana: Artificer",
+				"url": "https://media.wizards.com/2016/dnd/downloads/1_UA_Artificer_20170109.pdf",
+				"version": "1.0.0",
+				"dateReleased": "2017-01-09",
 				"authors": [
 					"Wizards of the Coast"
 				],
 				"convertedBy": [
 					"Giddy"
-				],
-				"version": "1.0.0",
-				"url": "https://media.wizards.com/2016/dnd/downloads/1_UA_Artificer_20170109.pdf",
-				"dateReleased": "2017-01-09"
+				]
 			}
 		],
 		"dependencies": {
@@ -25,6 +25,11 @@
 		"dateAdded": 1701616429,
 		"dateLastModified": 1729637619,
 		"_dateLastModifiedHash": "664abb191a"
+	},
+	"_test": {
+		"references": [
+			"UAClassFeatureVariants"
+		]
 	},
 	"class": [
 		{

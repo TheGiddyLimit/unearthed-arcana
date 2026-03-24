@@ -5,16 +5,16 @@
 				"json": "XUA2023PlayersHandbookP7",
 				"abbreviation": "XUA23P7",
 				"full": "Unearthed Arcana 2023: Player's Handbook Playtest 7",
+				"url": "https://media.dndbeyond.com/compendium-images/ua/ph-playtest7/tsgOb3llF22AL0nU/UA2023-PH-Playtest7.pdf",
+				"version": "1.0.0",
+				"dateReleased": "2023-09-07",
 				"authors": [
 					"Wizards of the Coast"
 				],
 				"convertedBy": [
 					"Giddy",
 					"Lyra"
-				],
-				"version": "1.0.0",
-				"url": "https://media.dndbeyond.com/compendium-images/ua/ph-playtest7/tsgOb3llF22AL0nU/UA2023-PH-Playtest7.pdf",
-				"dateReleased": "2023-09-07"
+				]
 			}
 		],
 		"dependencies": {
@@ -26,6 +26,12 @@
 		"dateAdded": 1691158917,
 		"dateLastModified": 1733837795,
 		"_dateLastModifiedHash": "7bb3ac20d1"
+	},
+	"_test": {
+		"references": [
+			"XUA2022ClericAndRevisedSpecies",
+			"XUA2023PlayersHandbookP7"
+		]
 	},
 	"class": [
 		{
@@ -364,7 +370,7 @@
 					"{@item Crossbow Bolts (20)|phb}",
 					"{@item Quiver|phb}",
 					"{@item Dungeoneer's Pack|phb}",
-					"(a) {@item Greatsword} or (b) {@item Longsword}, {@item shield|phb} and 25 GP",
+					"(a) {@item Greatsword|PHB} or (b) {@item Longsword|PHB}, {@item shield|phb} and 25 GP",
 					"11 GP"
 				],
 				"goldAlternative": "175 GP"
@@ -1513,7 +1519,7 @@
 					"{@item Arcane Focus|phb} (Quarterstaff)",
 					"{@item Scholar's Pack|phb}",
 					"{@item Dagger|phb} (2)",
-					"{@item Robe|phb}",
+					"{@item Robes|phb|Robe}",
 					"5 GP"
 				],
 				"goldAlternative": "55"
@@ -11718,7 +11724,7 @@
 									"name": "Sorcerer Subclasses",
 									"page": 22,
 									"entries": [
-										"A Sorcerer subclass is a specialization that grants you special abilities at certain Sorcerer levels, as specified in the subclass. This section presents the following subclasses: {@class Sorcerer|XUA2023PlayersHandbookP7|Draconic Sorcery|Draconic|XUA2023PlayersHandbookP7} and {@class Sorcerer|XUA2023PlayersHandbookP7|Wild Magic Sorcery|Wild Magic|XUA2023PlayersHandbookP7}. See {@book Tasha's Cauldron of Everything|TCE} for {@class Sorcerer|XUA2023PlayersHandbookP7|Aberrant Sorcery|Aberrant|XUA2023PlayersHandbookP7} (aka {@class Sorcerer|PHB|Aberrant Mind|Aberrant Mind|TCE}) and {@class Sorcerer|XUA2023PlayersHandbookP7|Clockwork Sorcery|Clockwork|XUA2023PlayersHandbookP7} (aka {@class Sorcerer|PHB|Clockwork Soul|Clockwork Soul|TCE}).",
+										"A Sorcerer subclass is a specialization that grants you special abilities at certain Sorcerer levels, as specified in the subclass. This section presents the following subclasses: {@class Sorcerer|XUA2023PlayersHandbookP7|Draconic Sorcery|Draconic|XUA2023PlayersHandbookP7} and {@class Sorcerer|XUA2023PlayersHandbookP7|Wild Magic Sorcery|Wild|XUA2023PlayersHandbookP7}. See {@book Tasha's Cauldron of Everything|TCE} for {@class Sorcerer|XUA2023PlayersHandbookP7|Aberrant Sorcery|Aberrant|XUA2023PlayersHandbookP7} (aka {@class Sorcerer|PHB|Aberrant Mind|Aberrant Mind|TCE}) and {@class Sorcerer|XUA2023PlayersHandbookP7|Clockwork Sorcery|Clockwork|XUA2023PlayersHandbookP7} (aka {@class Sorcerer|PHB|Clockwork Soul|Clockwork Soul|TCE}).",
 										{
 											"type": "entries",
 											"name": "Draconic Sorcery",
@@ -12797,7 +12803,7 @@
 									"name": "Wizard Subclasses",
 									"page": 39,
 									"entries": [
-										"A Wizard subclass is a specialization that grants you special abilities at certain Wizard levels, as specified in the subclass. This section presents the following subclasses: {@class Wizard|XUA2023PlayersHandbookP7|Abjurer|Abjurer|XUA2023PlayersHandbookP7}, {@class Wizard|XUA2023PlayersHandbookP7|Diviner|Diviner|XUA2023PlayersHandbookP7}, {@class Wizard|XUA2023PlayersHandbookP7|Evoker|Evoker|XUA2023PlayersHandbookP7}, and {@class Wizard|XUA2023PlayersHandbookP7|Illusionist|Illusionist|XUA2023PlayersHandbookP7}.",
+										"A Wizard subclass is a specialization that grants you special abilities at certain Wizard levels, as specified in the subclass. This section presents the following subclasses: {@class Wizard|XUA2023PlayersHandbookP7|Abjurer|Abjuration|XUA2023PlayersHandbookP7}, {@class Wizard|XUA2023PlayersHandbookP7|Diviner|Divination|XUA2023PlayersHandbookP7}, {@class Wizard|XUA2023PlayersHandbookP7|Evoker|Evocation|XUA2023PlayersHandbookP7}, and {@class Wizard|XUA2023PlayersHandbookP7|Illusionist|Illusion|XUA2023PlayersHandbookP7}.",
 										{
 											"type": "entries",
 											"name": "Abjurer",
@@ -12851,7 +12857,7 @@
 													"classSource": "XUA2023PlayersHandbookP7",
 													"page": 39,
 													"collapsed": true,
-													"shortName": "Abjurer"
+													"shortName": "Abjuration"
 												}
 											],
 											"id": "03c"
@@ -12901,7 +12907,7 @@
 													"classSource": "XUA2023PlayersHandbookP7",
 													"page": 40,
 													"collapsed": true,
-													"shortName": "Diviner"
+													"shortName": "Divination"
 												}
 											],
 											"id": "03e"
@@ -12959,7 +12965,7 @@
 													"classSource": "XUA2023PlayersHandbookP7",
 													"page": 41,
 													"collapsed": true,
-													"shortName": "Evoker"
+													"shortName": "Evocation"
 												}
 											],
 											"id": "040"
@@ -13025,7 +13031,7 @@
 													"classSource": "XUA2023PlayersHandbookP7",
 													"page": 42,
 													"collapsed": true,
-													"shortName": "Illusionist"
+													"shortName": "Illusion"
 												}
 											],
 											"id": "042"

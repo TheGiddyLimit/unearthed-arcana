@@ -5,15 +5,15 @@
 				"json": "UAWayfindersGuideToEberron",
 				"abbreviation": "WGE",
 				"full": "Wayfinder's Guide to Eberron",
+				"url": "https://www.dmsguild.com/product/247882/Wayfinders-Guide-to-Eberron-5e",
+				"version": "1.0.0",
+				"dateReleased": "2018-07-23",
 				"authors": [
 					"Wizards of the Coast"
 				],
 				"convertedBy": [
 					"Giddy"
-				],
-				"version": "1.0.0",
-				"url": "https://www.dmsguild.com/product/247882/Wayfinders-Guide-to-Eberron-5e",
-				"dateReleased": "2018-07-23"
+				]
 			}
 		],
 		"edition": "classic",

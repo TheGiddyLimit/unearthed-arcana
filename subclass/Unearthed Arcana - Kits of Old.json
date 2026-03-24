@@ -5,15 +5,15 @@
 				"json": "UAKitsOfOld",
 				"abbreviation": "UAKoO",
 				"full": "Unearthed Arcana: Kits of Old",
+				"url": "https://media.wizards.com/2015/downloads/dnd/04_UA_Classics_Revisited.pdf",
+				"version": "1.0.0",
+				"dateReleased": "2016-01-04",
 				"authors": [
 					"Wizards of the Coast"
 				],
 				"convertedBy": [
 					"Giddy"
-				],
-				"version": "1.0.0",
-				"url": "https://media.wizards.com/2015/downloads/dnd/04_UA_Classics_Revisited.pdf",
-				"dateReleased": "2016-01-04"
+				]
 			}
 		],
 		"edition": "classic",

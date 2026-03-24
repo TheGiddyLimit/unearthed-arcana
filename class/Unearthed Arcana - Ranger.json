@@ -5,15 +5,15 @@
 				"json": "UARanger",
 				"abbreviation": "UAR",
 				"full": "Unearthed Arcana: Ranger",
+				"url": "https://media.wizards.com/2015/downloads/dnd/DX_0907_UA_RangerOptions.pdf",
+				"version": "1.0.0",
+				"dateReleased": "2015-09-09",
 				"authors": [
 					"Wizards of the Coast"
 				],
 				"convertedBy": [
 					"Giddy"
-				],
-				"version": "1.0.0",
-				"url": "https://media.wizards.com/2015/downloads/dnd/DX_0907_UA_RangerOptions.pdf",
-				"dateReleased": "2015-09-09"
+				]
 			}
 		],
 		"edition": "classic",
@@ -137,16 +137,16 @@
 			},
 			"classFeatures": [
 				"Ambuscade|Ranger (Ambuscade)|UARanger|1",
-				"Natural Explorer|Ranger||1",
-				"Fighting Style|Ranger||2",
+				"Natural Explorer|Ranger|PHB|1",
+				"Fighting Style|Ranger|PHB|2",
 				"Skirmisher's Stealth|Ranger (Ambuscade)|UARanger|2",
-				"Primeval Awareness|Ranger||3",
+				"Primeval Awareness|Ranger|PHB|3",
 				{
 					"classFeature": "Spirit Path|Ranger (Ambuscade)|UARanger|3",
 					"gainSubclassFeature": true
 				},
-				"Ability Score Improvement|Ranger||4",
-				"Extra Attack|Ranger||5"
+				"Ability Score Improvement|Ranger|PHB|4",
+				"Extra Attack|Ranger|PHB|5"
 			],
 			"subclassTitle": "Ranger Path"
 		}
@@ -226,7 +226,7 @@
 					"name": "Spirit Companion",
 					"entries": [
 						"All rangers gain a spirit companion and the ability to invoke its magical power. (Your spirit companion grants you one benefit you can call on in this playtest version of the revised ranger, with more benefits gained at higher levels.) You regain your ability to call on your spirit companion in this way when you finish a short or long rest.",
-						"Once per day as a bonus action, you can command your spirit companion to materialize as a living creature, determined by the ranger path you choose. Your spirit companion manifests as an animal for 1 minute or until your {@status concentration} is broken (as if you are {@status concentration||concentrating} on a spell). You can also dismiss it as a bonus action.",
+						"Once per day as a bonus action, you can command your spirit companion to materialize as a living creature, determined by the ranger path you choose. Your spirit companion manifests as an animal for 1 minute or until your {@status concentration} is broken (as if you are {@status concentration|PHB|concentrating} on a spell). You can also dismiss it as a bonus action.",
 						"The manifested creature gains a bonus to attack rolls and saving throws equal to your Wisdom modifier. It uses the hit points in the animal's stat block or half your hit point maximum, whichever is higher.",
 						"The manifested creature takes its turn on your initiative and acts immediately after you. You control its actions, even if you are {@condition unconscious} or otherwise unable to act."
 					]

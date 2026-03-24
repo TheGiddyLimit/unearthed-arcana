@@ -5,15 +5,15 @@
 				"json": "UA2020SpellsAndMagicTattoos",
 				"abbreviation": "UA20SMT",
 				"full": "Unearthed Arcana: 2020 Spells and Magic Tattoos",
+				"url": "https://media.wizards.com/2020/dnd/downloads/UA2020-SpellsTattoos.pdf",
+				"version": "1.0.0",
+				"dateReleased": "2020-03-26",
 				"authors": [
 					"Wizards of the Coast"
 				],
 				"convertedBy": [
 					"Giddy"
-				],
-				"version": "1.0.0",
-				"url": "https://media.wizards.com/2020/dnd/downloads/UA2020-SpellsTattoos.pdf",
-				"dateReleased": "2020-03-26"
+				]
 			}
 		],
 		"edition": "classic",

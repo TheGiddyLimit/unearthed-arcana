@@ -5,16 +5,16 @@
 				"json": "XUA2023PlayersHandbookP8",
 				"abbreviation": "XUA23P8",
 				"full": "Unearthed Arcana 2023: Player's Handbook Playtest 8",
+				"url": "https://media.dndbeyond.com/compendium-images/ua/ph-playtest8/gHvtmY50loGLgQUb/UA2023-PH-Playtest8.pdf",
+				"version": "1.0.0",
+				"dateReleased": "2023-11-27",
 				"authors": [
 					"Wizards of the Coast"
 				],
 				"convertedBy": [
 					"Giddy",
 					"Lyra"
-				],
-				"version": "1.0.0",
-				"url": "https://media.dndbeyond.com/compendium-images/ua/ph-playtest8/gHvtmY50loGLgQUb/UA2023-PH-Playtest8.pdf",
-				"dateReleased": "2023-11-27"
+				]
 			}
 		],
 		"dependencies": {
@@ -1361,10 +1361,10 @@
 							"vampiric touch"
 						],
 						"7": [
-							"fount of moonlight"
+							"fount of moonlight|XUA2023PlayersHandbookP8"
 						],
 						"9": [
-							"dawn"
+							"dawn|xge"
 						]
 					}
 				}

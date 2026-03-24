@@ -5,15 +5,15 @@
 				"json": "UAThreePillarExperience",
 				"abbreviation": "UA3PE",
 				"full": "Unearthed Arcana: Three-Pillar Experience",
+				"url": "https://media.wizards.com/2017/dnd/downloads/UA-ThreePillarXP.pdf",
+				"version": "1.0.0",
+				"dateReleased": "2017-08-07",
 				"authors": [
 					"Wizards of the Coast"
 				],
 				"convertedBy": [
 					"Giddy"
-				],
-				"version": "1.0.0",
-				"url": "https://media.wizards.com/2017/dnd/downloads/UA-ThreePillarXP.pdf",
-				"dateReleased": "2017-08-07"
+				]
 			}
 		],
 		"edition": "classic",

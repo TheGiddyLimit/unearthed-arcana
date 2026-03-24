@@ -6,15 +6,15 @@
 				"json": "XUA2025HorrorSubclasses",
 				"abbreviation": "XUA25HS",
 				"full": "Unearthed Arcana 2025: Horror Subclasses",
+				"url": "https://media.dndbeyond.com/compendium-images/ua/horror-subclasses/gPZTjw31gGeVdQKl/UA2025-HorrorSubclasses.pdf",
+				"version": "1.0.0",
+				"dateReleased": "2025-05-06",
 				"authors": [
 					"Wizards of the Coast"
 				],
 				"convertedBy": [
 					"Lyra [he/him]"
-				],
-				"version": "1.0.0",
-				"url": "https://media.dndbeyond.com/compendium-images/ua/horror-subclasses/gPZTjw31gGeVdQKl/UA2025-HorrorSubclasses.pdf",
-				"dateReleased": "2025-05-06"
+				]
 			}
 		],
 		"dependencies": {
@@ -27,6 +27,11 @@
 		"dateAdded": 1746541631,
 		"dateLastModified": 1755811150,
 		"_dateLastModifiedHash": "6d8ba1eb9f"
+	},
+	"_test": {
+		"references": [
+			"XUA2025EberronUpdates"
+		]
 	},
 	"subclass": [
 		{
@@ -2660,7 +2665,7 @@
 							"name": "What's Inside",
 							"page": 1,
 							"entries": [
-								"This document presents eight subclasses: revised subclasses for the {@class Bard|XPHB} ({@class Bard|XPHB|College of Spirits|Spirits|XUA2025HorrorSubclasses}), {@class Cleric|XPHB} ({@class Cleric|XPHB|Grave Domain|Grave|XUA2025HorrorSubclasses}), {@class Rogue|XPHB} ({@class Rogue|XPHB|Phantom|Phantom|XUA2025HorrorSubclasses}), {@class Sorcerer|XPHB} ({@class Sorcerer|XPHB|Shadow Sorcery|Shadow|XUA2025HorrorSubclasses}), and {@class Warlock|XPHB} ({@class Warlock|XPHB|Hexblade Patron|Hexblade|XUA2025HorrorSubclasses} and {@class Warlock|XPHB|Undead Patron|Undead|XUA2025HorrorSubclasses}) as well as new subclasses for the {@class Artificer|XPHB} ({@class Artificer|XPHB|Reanimator|Reanimator|XUA2025HorrorSubclasses}) and {@class Ranger|XPHB} ({@class Ranger|XPHB|Hollow Warden|Hollow Warden|XUA2025HorrorSubclasses}).",
+								"This document presents eight subclasses: revised subclasses for the {@class Bard|XPHB} ({@class Bard|XPHB|College of Spirits|Spirits|XUA2025HorrorSubclasses}), {@class Cleric|XPHB} ({@class Cleric|XPHB|Grave Domain|Grave|XUA2025HorrorSubclasses}), {@class Rogue|XPHB} ({@class Rogue|XPHB|Phantom|Phantom|XUA2025HorrorSubclasses}), {@class Sorcerer|XPHB} ({@class Sorcerer|XPHB|Shadow Sorcery|Shadow|XUA2025HorrorSubclasses}), and {@class Warlock|XPHB} ({@class Warlock|XPHB|Hexblade Patron|Hexblade|XUA2025HorrorSubclasses} and {@class Warlock|XPHB|Undead Patron|Undead|XUA2025HorrorSubclasses}) as well as new subclasses for the {@class Artificer|XUA2025EberronUpdates} ({@class Artificer|XUA2025EberronUpdates|Reanimator|Reanimator|XUA2025HorrorSubclasses}) and {@class Ranger|XPHB} ({@class Ranger|XPHB|Hollow Warden|Hollow Warden|XUA2025HorrorSubclasses}).",
 								{
 									"type": "inset",
 									"name": "This Is Playtest Material",
@@ -2705,7 +2710,7 @@
 							"name": "Subclasses",
 							"page": 1,
 							"entries": [
-								"This section presents the following subclasses: the {@class Artificer|XPHB|Reanimator|Reanimator|XUA2025HorrorSubclasses}, {@class Bard|XPHB|College of Spirits|Spirits|XUA2025HorrorSubclasses}, {@class Cleric|XPHB|Grave Domain|Grave|XUA2025HorrorSubclasses}, {@class Ranger|XPHB|Hollow Warden|Hollow Warden|XUA2025HorrorSubclasses}, {@class Rogue|XPHB|Phantom|Phantom|XUA2025HorrorSubclasses}, {@class Sorcerer|XPHB|Shadow Sorcery|Shadow|XUA2025HorrorSubclasses}, {@class Warlock|XPHB|Hexblade Patron|Hexblade|XUA2025HorrorSubclasses}, and {@class Warlock|XPHB|Undead Patron|Undead|XUA2025HorrorSubclasses}.",
+								"This section presents the following subclasses: the {@class Artificer|XUA2025EberronUpdates|Reanimator|Reanimator|XUA2025HorrorSubclasses}, {@class Bard|XPHB|College of Spirits|Spirits|XUA2025HorrorSubclasses}, {@class Cleric|XPHB|Grave Domain|Grave|XUA2025HorrorSubclasses}, {@class Ranger|XPHB|Hollow Warden|Hollow Warden|XUA2025HorrorSubclasses}, {@class Rogue|XPHB|Phantom|Phantom|XUA2025HorrorSubclasses}, {@class Sorcerer|XPHB|Shadow Sorcery|Shadow|XUA2025HorrorSubclasses}, {@class Warlock|XPHB|Hexblade Patron|Hexblade|XUA2025HorrorSubclasses}, and {@class Warlock|XPHB|Undead Patron|Undead|XUA2025HorrorSubclasses}.",
 								{
 									"type": "entries",
 									"name": "Artificer: Reanimator",

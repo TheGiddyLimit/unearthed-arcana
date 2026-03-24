@@ -5,15 +5,15 @@
 				"json": "UAMassCombat",
 				"abbreviation": "UAMAC",
 				"full": "Unearthed Arcana: Mass Combat",
+				"url": "https://media.wizards.com/2017/dnd/downloads/2017_UAMassCombat_MCUA_v1.pdf",
+				"version": "1.0.0",
+				"dateReleased": "2017-02-21",
 				"authors": [
 					"Wizards of the Coast"
 				],
 				"convertedBy": [
 					"Giddy"
-				],
-				"version": "1.0.0",
-				"url": "https://media.wizards.com/2017/dnd/downloads/2017_UAMassCombat_MCUA_v1.pdf",
-				"dateReleased": "2017-02-21"
+				]
 			}
 		],
 		"edition": "classic",

@@ -6,15 +6,15 @@
 				"json": "XUA2026MysticSubclasses",
 				"abbreviation": "XUA26MS",
 				"full": "Unearthed Arcana 2026: Mystic Subclasses",
+				"url": "https://media.dndbeyond.com/compendium-images/ua/mystic-subclasses/mrF6k4xf0yYFJL2m/UA2026-MysticSubclasses.pdf",
+				"version": "1.0.0",
+				"dateReleased": "2026-01-15",
 				"authors": [
 					"Wizards of the Coast"
 				],
 				"convertedBy": [
 					"Lyra [he/him]"
-				],
-				"version": "1.0.0",
-				"url": "https://media.dndbeyond.com/compendium-images/ua/mystic-subclasses/mrF6k4xf0yYFJL2m/UA2026-MysticSubclasses.pdf",
-				"dateReleased": "2026-01-15"
+				]
 			}
 		],
 		"edition": "one",
@@ -1038,7 +1038,7 @@
 			"level": 3,
 			"header": 2,
 			"entries": [
-				"Immediately after a creature you can see within 30 feet of you casts a level 1+ spell, you can take a {@variantrule Reaction|XPHB} to absorb magical energy from the spell. When you do so, until the end of your next turn, the next time you hit with your {@classFeature Sneak Attack|Rogue|XPHB|1|PHB} you deal extra Force damage. To determine the extra damage, roll a number of {@dice d6|d6s} equal to the spell's level, and add them together.",
+				"Immediately after a creature you can see within 30 feet of you casts a level 1+ spell, you can take a {@variantrule Reaction|XPHB} to absorb magical energy from the spell. When you do so, until the end of your next turn, the next time you hit with your {@classFeature Sneak Attack|Rogue|XPHB|1|XPHB} you deal extra Force damage. To determine the extra damage, roll a number of {@dice d6|d6s} equal to the spell's level, and add them together.",
 				"You can take this {@variantrule Reaction|XPHB} a number of times equal to your Intelligence modifier (minimum of once), and you regain all expended uses when you finish a {@variantrule Long Rest|XPHB}."
 			]
 		},
@@ -1222,7 +1222,7 @@
 			"level": 3,
 			"header": 2,
 			"entries": [
-				"The magic of your {@creature Vestige Companion|XPHB} ensures you always have certain spells ready. Select one of the following {@class Cleric} Domains: {@subclassFeature Life Domain Spells|Cleric|XPHB|Life|XPHB|3|XPHB|Life}, {@subclassFeature Light Domain Spells|Cleric|XPHB|Light|XPHB|3|XPHB|Light}, {@subclassFeature Trickery Domain Spells|Cleric|XPHB|Trickery|XPHB|3|XPHB|Trickery}, or {@subclassFeature War Domain Spells|Cleric|XPHB|War|XPHB|3|XPHB|War}. The Domain Spells of your chosen Domain are Warlock spells for you. When you reach a Warlock level equal to a Cleric Level listed on the Domain Spells table for the Domain you have chosen, you thereafter always have the listed spells prepared.",
+				"The magic of your {@creature Vestige Companion|XUA2026MysticSubclasses} ensures you always have certain spells ready. Select one of the following {@class Cleric} Domains: {@subclassFeature Life Domain Spells|Cleric|XPHB|Life|XPHB|3|XPHB|Life}, {@subclassFeature Light Domain Spells|Cleric|XPHB|Light|XPHB|3|XPHB|Light}, {@subclassFeature Trickery Domain Spells|Cleric|XPHB|Trickery|XPHB|3|XPHB|Trickery}, or {@subclassFeature War Domain Spells|Cleric|XPHB|War|XPHB|3|XPHB|War}. The Domain Spells of your chosen Domain are Warlock spells for you. When you reach a Warlock level equal to a Cleric Level listed on the Domain Spells table for the Domain you have chosen, you thereafter always have the listed spells prepared.",
 				"For example, if you chose the {@subclassFeature War Domain Spells|Cleric|XPHB|War|XPHB|3|XPHB|War Domain} for this feature, when you reach Warlock level 3, you would have the {@spell Guiding Bolt}, {@spell Magic Weapon}, {@spell Shield of Faith}, and {@spell Spiritual Weapon} spells prepared."
 			]
 		},

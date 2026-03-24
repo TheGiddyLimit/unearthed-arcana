@@ -5,15 +5,15 @@
 				"json": "UA2021TravelersOfTheMultiverse",
 				"abbreviation": "UA21TotM",
 				"full": "Unearthed Arcana: 2021 Travelers of the Multiverse",
+				"url": "https://media.wizards.com/2021/dnd/downloads/UA2021_TravelersoftheMultiverse.pdf",
+				"version": "1.0.0",
+				"dateReleased": "2021-10-08",
 				"authors": [
 					"Wizards of the Coast"
 				],
 				"convertedBy": [
 					"Giddy"
-				],
-				"version": "1.0.0",
-				"url": "https://media.wizards.com/2021/dnd/downloads/UA2021_TravelersoftheMultiverse.pdf",
-				"dateReleased": "2021-10-08"
+				]
 			}
 		],
 		"edition": "classic",

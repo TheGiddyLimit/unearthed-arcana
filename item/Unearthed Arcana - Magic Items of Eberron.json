@@ -6,15 +6,15 @@
 				"json": "UAMagicItemsofEberron",
 				"abbreviation": "UAMIoE",
 				"full": "Unearthed Arcana: Magic Items of Eberron",
+				"url": "https://media.wizards.com/2018/dnd/downloads/UA_Magic_Items_of_Eberron.pdf",
+				"version": "1.0.0",
+				"dateReleased": "2018-10-08",
 				"authors": [
 					"Wizards of the Coast"
 				],
 				"convertedBy": [
 					"Lyra [he/him]"
-				],
-				"version": "1.0.0",
-				"url": "https://media.wizards.com/2018/dnd/downloads/UA_Magic_Items_of_Eberron.pdf",
-				"dateReleased": "2018-10-08"
+				]
 			}
 		],
 		"internalCopies": [
@@ -24,6 +24,11 @@
 		"dateAdded": 1732050258,
 		"dateLastModified": 1759315511,
 		"_dateLastModifiedHash": "ba4676ac82"
+	},
+	"_test": {
+		"references": [
+			"UAWayfindersGuideToEberron"
+		]
 	},
 	"item": [
 		{

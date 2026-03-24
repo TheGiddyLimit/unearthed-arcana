@@ -5,15 +5,15 @@
 				"json": "UADowntime",
 				"abbreviation": "UADown",
 				"full": "Unearthed Arcana: Downtime",
+				"url": "https://media.wizards.com/2017/dnd/downloads/UA_Downtime.pdf",
+				"version": "1.0.0",
+				"dateReleased": "2017-04-10",
 				"authors": [
 					"Wizards of the Coast"
 				],
 				"convertedBy": [
 					"Giddy"
-				],
-				"version": "1.0.0",
-				"url": "https://media.wizards.com/2017/dnd/downloads/UA_Downtime.pdf",
-				"dateReleased": "2017-04-10"
+				]
 			}
 		],
 		"edition": "classic",
@@ -152,11 +152,23 @@
 							],
 							"rows": [
 								[
-									"1*",
+									{
+										"type": "cell",
+										"roll": {
+											"exact": 1
+										},
+										"entry": "1*"
+									},
 									"The item is a fake, planted by an enemy."
 								],
 								[
-									"2*",
+									{
+										"type": "cell",
+										"roll": {
+											"exact": 2
+										},
+										"entry": "2*"
+									},
 									"The item is stolen by the party's enemies."
 								],
 								[
@@ -164,7 +176,13 @@
 									"The item is cursed by a god."
 								],
 								[
-									"4*",
+									{
+										"type": "cell",
+										"roll": {
+											"exact": 4
+										},
+										"entry": "4*"
+									},
 									"The item's original owner will kill to reclaim it; the party's enemies spread news of its sale."
 								],
 								[
@@ -172,7 +190,13 @@
 									"The item is at the center of a dark prophecy."
 								],
 								[
-									"6*",
+									{
+										"type": "cell",
+										"roll": {
+											"exact": 6
+										},
+										"entry": "6*"
+									},
 									"The seller is murdered before the sale."
 								],
 								[
@@ -184,7 +208,13 @@
 									"The item is the key to freeing an evil entity."
 								],
 								[
-									"9*",
+									{
+										"type": "cell",
+										"roll": {
+											"exact": 9
+										},
+										"entry": "9*"
+									},
 									"A third party bids on the item, doubling its price."
 								],
 								[
@@ -196,7 +226,13 @@
 									"The item is tied to a cult."
 								],
 								[
-									"12*",
+									{
+										"type": "cell",
+										"roll": {
+											"exact": 12
+										},
+										"entry": "12*"
+									},
 									"The party's enemies spread rumors that the item is an artifact of evil."
 								]
 							],
@@ -282,11 +318,23 @@
 							],
 							"rows": [
 								[
-									"1*",
+									{
+										"type": "cell",
+										"roll": {
+											"exact": 1
+										},
+										"entry": "1*"
+									},
 									"A pickpocket lifts {@dice 1d10 × 10} gp from you."
 								],
 								[
-									"2*",
+									{
+										"type": "cell",
+										"roll": {
+											"exact": 2
+										},
+										"entry": "2*"
+									},
 									"A bar brawl leaves you with a scar."
 								],
 								[
@@ -294,7 +342,13 @@
 									"You have fuzzy memories of doing something very, very illegal, but can't remember exactly what."
 								],
 								[
-									"4*",
+									{
+										"type": "cell",
+										"roll": {
+											"exact": 4
+										},
+										"entry": "4*"
+									},
 									"You are banned from a tavern for obnoxious behavior."
 								],
 								[
@@ -310,7 +364,13 @@
 									"Streaking naked through the streets seemed like a great idea at the time."
 								],
 								[
-									"8*",
+									{
+										"type": "cell",
+										"roll": {
+											"exact": 8
+										},
+										"entry": "8*"
+									},
 									"Everyone is calling you by some weird, embarrassing nickname, like Puddle Drinker or Bench Slayer, and no one will say why."
 								],
 								[
@@ -339,7 +399,13 @@
 							],
 							"rows": [
 								[
-									"1*",
+									{
+										"type": "cell",
+										"roll": {
+											"exact": 1
+										},
+										"entry": "1*"
+									},
 									"You accidentally insult a guild master, and only a public apology will let you do business there again."
 								],
 								[
@@ -347,15 +413,33 @@
 									"You swore to complete some quest on behalf of a temple or guild."
 								],
 								[
-									"3*",
+									{
+										"type": "cell",
+										"roll": {
+											"exact": 3
+										},
+										"entry": "3*"
+									},
 									"A social gaffe has made you the talk of the town."
 								],
 								[
-									"4*",
+									{
+										"type": "cell",
+										"roll": {
+											"exact": 4
+										},
+										"entry": "4*"
+									},
 									"A particularly obnoxious person has taken an intense romantic interest in you."
 								],
 								[
-									"5*",
+									{
+										"type": "cell",
+										"roll": {
+											"exact": 5
+										},
+										"entry": "5*"
+									},
 									"You have made a rival out of a local spellcaster."
 								],
 								[
@@ -388,7 +472,13 @@
 							],
 							"rows": [
 								[
-									"1*",
+									{
+										"type": "cell",
+										"roll": {
+											"exact": 1
+										},
+										"entry": "1*"
+									},
 									"A pushy noble family wants to marry off one of their scions to you."
 								],
 								[
@@ -400,11 +490,23 @@
 									"You have agreed to take on a noble's debts."
 								],
 								[
-									"4*",
+									{
+										"type": "cell",
+										"roll": {
+											"exact": 4
+										},
+										"entry": "4*"
+									},
 									"You have been challenged to a joust by a knight."
 								],
 								[
-									"5*",
+									{
+										"type": "cell",
+										"roll": {
+											"exact": 5
+										},
+										"entry": "5*"
+									},
 									"You have made a rival out of a local noble."
 								],
 								[
@@ -412,7 +514,13 @@
 									"A boring noble insists you visit each day and listen to long, tedious theories of magic."
 								],
 								[
-									"7*",
+									{
+										"type": "cell",
+										"roll": {
+											"exact": 7
+										},
+										"entry": "7*"
+									},
 									"You have become the target of a variety of embarrassing rumors."
 								],
 								[
@@ -587,15 +695,33 @@
 							],
 							"rows": [
 								[
-									"1*",
+									{
+										"type": "cell",
+										"roll": {
+											"exact": 1
+										},
+										"entry": "1*"
+									},
 									"Rumors swirl that what you're working on is unstable and a threat to the entire community."
 								],
 								[
-									"2*",
+									{
+										"type": "cell",
+										"roll": {
+											"exact": 2
+										},
+										"entry": "2*"
+									},
 									"You have no idea why everyone thinks your work requires you to make blood sacrifices, but that's what folk are saying."
 								],
 								[
-									"3*",
+									{
+										"type": "cell",
+										"roll": {
+											"exact": 3
+										},
+										"entry": "3*"
+									},
 									"Your tools are stolen, forcing you to buy new ones."
 								],
 								[
@@ -603,11 +729,23 @@
 									"A local wizard shows keen interest in your work and insists on observing you."
 								],
 								[
-									"5*",
+									{
+										"type": "cell",
+										"roll": {
+											"exact": 5
+										},
+										"entry": "5*"
+									},
 									"A powerful noble offers a hefty price for your work and is not used to hearing no as an answer."
 								],
 								[
-									"6*",
+									{
+										"type": "cell",
+										"roll": {
+											"exact": 6
+										},
+										"entry": "6*"
+									},
 									"A dwarf clan accuses you of stealing their secret lore to fuel your work."
 								],
 								[
@@ -615,7 +753,13 @@
 									"A paladin approaches you and claims that the item you are working on is the key to completing a heroic quest."
 								],
 								[
-									"8*",
+									{
+										"type": "cell",
+										"roll": {
+											"exact": 8
+										},
+										"entry": "8*"
+									},
 									"A rival spreads rumors that your work is shoddy and prone to failure."
 								]
 							],
@@ -749,11 +893,23 @@
 							],
 							"rows": [
 								[
-									"1*",
+									{
+										"type": "cell",
+										"roll": {
+											"exact": 1
+										},
+										"entry": "1*"
+									},
 									"A bounty equal to your earnings is offered for information about your crime."
 								],
 								[
-									"2*",
+									{
+										"type": "cell",
+										"roll": {
+											"exact": 2
+										},
+										"entry": "2*"
+									},
 									"An unknown person contacts you, threatening to reveal your crime if you don't render a service."
 								],
 								[
@@ -761,7 +917,13 @@
 									"Your victim is financially ruined by your crime."
 								],
 								[
-									"4*",
+									{
+										"type": "cell",
+										"roll": {
+											"exact": 4
+										},
+										"entry": "4*"
+									},
 									"Someone who knows of your crime has been arrested on an unrelated crime."
 								],
 								[
@@ -781,11 +943,23 @@
 									"Your victim approaches one of your adventuring companions to solve the crime."
 								],
 								[
-									"9*",
+									{
+										"type": "cell",
+										"roll": {
+											"exact": 9
+										},
+										"entry": "9*"
+									},
 									"A paladin or cleric of justice swears to avenge your robbery."
 								],
 								[
-									"10*",
+									{
+										"type": "cell",
+										"roll": {
+											"exact": 10
+										},
+										"entry": "10*"
+									},
 									"Your victim has a heart of gold; everyone in town is looking for you, the thieving scumbag."
 								]
 							],
@@ -871,11 +1045,23 @@
 							],
 							"rows": [
 								[
-									"1*",
+									{
+										"type": "cell",
+										"roll": {
+											"exact": 1
+										},
+										"entry": "1*"
+									},
 									"You are accused of cheating. You decide whether you actually did or were framed."
 								],
 								[
-									"2*",
+									{
+										"type": "cell",
+										"roll": {
+											"exact": 2
+										},
+										"entry": "2*"
+									},
 									"The town guard raids the gambling hall and throws you in jail."
 								],
 								[
@@ -883,7 +1069,13 @@
 									"You accrue a debt during the game, one that your opponent insists you pay by taking on a task."
 								],
 								[
-									"4*",
+									{
+										"type": "cell",
+										"roll": {
+											"exact": 4
+										},
+										"entry": "4*"
+									},
 									"A noble in town loses badly to you and loudly vows to get revenge."
 								],
 								[
@@ -978,11 +1170,23 @@
 							],
 							"rows": [
 								[
-									"1*",
+									{
+										"type": "cell",
+										"roll": {
+											"exact": 1
+										},
+										"entry": "1*"
+									},
 									"A rival fighter swears to take revenge on you."
 								],
 								[
-									"2*",
+									{
+										"type": "cell",
+										"roll": {
+											"exact": 2
+										},
+										"entry": "2*"
+									},
 									"A crime boss approaches you and offers to pay you to intentionally lose a few matches."
 								],
 								[
@@ -990,11 +1194,23 @@
 									"You defeat a popular local champion, drawing the crowd's ire."
 								],
 								[
-									"4*",
+									{
+										"type": "cell",
+										"roll": {
+											"exact": 4
+										},
+										"entry": "4*"
+									},
 									"You defeat a noble's servant, drawing the wrath of the noble's house."
 								],
 								[
-									"5*",
+									{
+										"type": "cell",
+										"roll": {
+											"exact": 5
+										},
+										"entry": "5*"
+									},
 									"You are accused of cheating. Whether the allegation is true or not, your reputation is tarnished."
 								],
 								[
@@ -1123,7 +1339,13 @@
 							],
 							"rows": [
 								[
-									"1*",
+									{
+										"type": "cell",
+										"roll": {
+											"exact": 1
+										},
+										"entry": "1*"
+									},
 									"You have offended a priest through your words or actions."
 								],
 								[
@@ -1135,7 +1357,13 @@
 									"A secret sect in the temple offers you membership."
 								],
 								[
-									"4*",
+									{
+										"type": "cell",
+										"roll": {
+											"exact": 4
+										},
+										"entry": "4*"
+									},
 									"A rival temple tries to recruit you as a spy."
 								],
 								[
@@ -1238,7 +1466,13 @@
 									"You accidentally damage a rare book."
 								],
 								[
-									"2*",
+									{
+										"type": "cell",
+										"roll": {
+											"exact": 2
+										},
+										"entry": "2*"
+									},
 									"You offend a sage, who demands an extravagant gift."
 								],
 								[
@@ -1246,11 +1480,23 @@
 									"If you had known that book was cursed, you never would have opened it."
 								],
 								[
-									"4*",
+									{
+										"type": "cell",
+										"roll": {
+											"exact": 4
+										},
+										"entry": "4*"
+									},
 									"A sage with strange theories on reality becomes obsessed with convincing you."
 								],
 								[
-									"5*",
+									{
+										"type": "cell",
+										"roll": {
+											"exact": 5
+										},
+										"entry": "5*"
+									},
 									"Your actions cause you to be banned from a library until you make reparations."
 								],
 								[
@@ -1372,7 +1618,13 @@
 									"You buy up the last of the rare ink used to craft scrolls, angering a wizard in town."
 								],
 								[
-									"2*",
+									{
+										"type": "cell",
+										"roll": {
+											"exact": 2
+										},
+										"entry": "2*"
+									},
 									"The priest of a temple of good accuses you of trafficking in dark magic."
 								],
 								[
@@ -1388,7 +1640,13 @@
 									"The rare parchment you bought for your scroll has a barely visible map on it."
 								],
 								[
-									"6*",
+									{
+										"type": "cell",
+										"roll": {
+											"exact": 6
+										},
+										"entry": "6*"
+									},
 									"A thief attempts to break into your workroom."
 								]
 							],
@@ -1503,15 +1761,33 @@
 							],
 							"rows": [
 								[
-									"1*",
+									{
+										"type": "cell",
+										"roll": {
+											"exact": 1
+										},
+										"entry": "1*"
+									},
 									"The characters' enemies secretly arrange to buy the item to use it against them."
 								],
 								[
-									"2*",
+									{
+										"type": "cell",
+										"roll": {
+											"exact": 2
+										},
+										"entry": "2*"
+									},
 									"The item is stolen."
 								],
 								[
-									"3*",
+									{
+										"type": "cell",
+										"roll": {
+											"exact": 3
+										},
+										"entry": "3*"
+									},
 									"A rival circulates rumors that the item is a fake."
 								],
 								[
@@ -1523,7 +1799,13 @@
 									"The item's previous owner, or surviving allies, vow to retake it by force."
 								],
 								[
-									"6*",
+									{
+										"type": "cell",
+										"roll": {
+											"exact": 6
+										},
+										"entry": "6*"
+									},
 									"The buyer is murdered before the sale."
 								],
 								[
@@ -1578,7 +1860,13 @@
 							],
 							"rows": [
 								[
-									"1*",
+									{
+										"type": "cell",
+										"roll": {
+											"exact": 1
+										},
+										"entry": "1*"
+									},
 									"Your instructor disappears, forcing you to spend a workweek finding a new one"
 								],
 								[
@@ -1586,7 +1874,13 @@
 									"Your teacher instructs you in rare, archaic methods, which draw comment from others."
 								],
 								[
-									"3*",
+									{
+										"type": "cell",
+										"roll": {
+											"exact": 3
+										},
+										"entry": "3*"
+									},
 									"Your teacher is a spy sent to learn your plans for the near future."
 								],
 								[
@@ -1683,15 +1977,33 @@
 							],
 							"rows": [
 								[
-									"1*",
+									{
+										"type": "cell",
+										"roll": {
+											"exact": 1
+										},
+										"entry": "1*"
+									},
 									"A difficult customer or a fight with a coworker reduces the lifestyle you earn by one category."
 								],
 								[
-									"2*",
+									{
+										"type": "cell",
+										"roll": {
+											"exact": 2
+										},
+										"entry": "2*"
+									},
 									"Your employer's financial difficulties result in your not being paid."
 								],
 								[
-									"3*",
+									{
+										"type": "cell",
+										"roll": {
+											"exact": 3
+										},
+										"entry": "3*"
+									},
 									"A coworker with ties to an important family in town takes a dislike to you."
 								],
 								[
@@ -1699,11 +2011,23 @@
 									"Your employer is involved with a dark cult or a criminal enterprise."
 								],
 								[
-									"5*",
+									{
+										"type": "cell",
+										"roll": {
+											"exact": 5
+										},
+										"entry": "5*"
+									},
 									"The local crime ring targets your business for a shakedown."
 								],
 								[
-									"6*",
+									{
+										"type": "cell",
+										"roll": {
+											"exact": 6
+										},
+										"entry": "6*"
+									},
 									"You gain a reputation for laziness (unjust or not, your choice), giving you disadvantage on checks made for this downtime activity for 30 days."
 								]
 							],

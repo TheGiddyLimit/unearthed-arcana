@@ -5,15 +5,15 @@
 				"json": "UABarbarianPrimalPaths",
 				"abbreviation": "UABPP",
 				"full": "Unearthed Arcana: Barbarian Primal Paths",
+				"url": "https://media.wizards.com/2016/dnd/downloads/UA_Barbarian.pdf",
+				"version": "1.0.0",
+				"dateReleased": "2016-11-07",
 				"authors": [
 					"Wizards of the Coast"
 				],
 				"convertedBy": [
 					"Giddy"
-				],
-				"version": "1.0.0",
-				"url": "https://media.wizards.com/2016/dnd/downloads/UA_Barbarian.pdf",
-				"dateReleased": "2016-11-07"
+				]
 			}
 		],
 		"edition": "classic",

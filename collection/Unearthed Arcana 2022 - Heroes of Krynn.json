@@ -5,21 +5,26 @@
 				"json": "UA2022HeroesOfKrynn",
 				"abbreviation": "UA22HoK",
 				"full": "Unearthed Arcana: 2022 Heroes of Krynn",
+				"url": "https://media.wizards.com/2022/dnd/downloads/UA2022HeroesofKrynn.pdf",
+				"version": "1.0.0",
+				"dateReleased": "2022-03-08",
 				"authors": [
 					"Wizards of the Coast"
 				],
 				"convertedBy": [
 					"Giddy"
-				],
-				"version": "1.0.0",
-				"url": "https://media.wizards.com/2022/dnd/downloads/UA2022HeroesofKrynn.pdf",
-				"dateReleased": "2022-03-08"
+				]
 			}
 		],
 		"edition": "classic",
 		"dateAdded": 1701616429,
 		"dateLastModified": 1729637619,
 		"_dateLastModifiedHash": "42028c92b2"
+	},
+	"_test": {
+		"references": [
+			"UA2022HeroesOfKrynnRevisited"
+		]
 	},
 	"subclass": [
 		{

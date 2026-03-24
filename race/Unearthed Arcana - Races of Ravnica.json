@@ -5,15 +5,15 @@
 				"json": "UARacesOfRavnica",
 				"abbreviation": "UARoR",
 				"full": "Unearthed Arcana: Races of Ravnica",
+				"url": "https://media.wizards.com/2018/dnd/downloads/UA_RavnicaRaces.pdf",
+				"version": "1.0.0",
+				"dateReleased": "2018-08-13",
 				"authors": [
 					"Wizards of the Coast"
 				],
 				"convertedBy": [
 					"Giddy"
-				],
-				"version": "1.0.0",
-				"url": "https://media.wizards.com/2018/dnd/downloads/UA_RavnicaRaces.pdf",
-				"dateReleased": "2018-08-13"
+				]
 			}
 		],
 		"edition": "classic",

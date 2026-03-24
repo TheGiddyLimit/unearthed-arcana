@@ -5,15 +5,15 @@
 				"json": "UAStarterSpells",
 				"abbreviation": "UASS",
 				"full": "Unearthed Arcana: Starter Spells",
+				"url": "https://media.wizards.com/2017/dnd/downloads/UA-Starter-Spells.pdf",
+				"version": "1.0.0",
+				"dateReleased": "2017-04-03",
 				"authors": [
 					"Wizards of the Coast"
 				],
 				"convertedBy": [
 					"Giddy"
-				],
-				"version": "1.0.0",
-				"url": "https://media.wizards.com/2017/dnd/downloads/UA-Starter-Spells.pdf",
-				"dateReleased": "2017-04-03"
+				]
 			}
 		],
 		"edition": "classic",

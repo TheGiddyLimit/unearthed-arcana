@@ -6,16 +6,16 @@
 				"json": "UAWaterborneAdventures",
 				"abbreviation": "UAWA",
 				"full": "Unearthed Arcana: Waterborne Adventures",
+				"url": "https://media.wizards.com/2015/downloads/dnd/UA_Waterborne_v3.pdf",
+				"version": "1.0.0",
+				"dateReleased": "2015-05-04",
 				"authors": [
 					"Wizards of the Coast"
 				],
 				"convertedBy": [
 					"Giddy",
 					"Lyra [he/him]"
-				],
-				"version": "1.0.0",
-				"url": "https://media.wizards.com/2015/downloads/dnd/UA_Waterborne_v3.pdf",
-				"dateReleased": "2015-05-04"
+				]
 			}
 		],
 		"edition": "classic",

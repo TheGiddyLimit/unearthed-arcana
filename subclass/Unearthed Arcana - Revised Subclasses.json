@@ -5,15 +5,15 @@
 				"json": "UARevisedSubclasses",
 				"abbreviation": "UARSC",
 				"full": "Unearthed Arcana: Revised Subclasses",
+				"url": "https://media.wizards.com/2017/dnd/downloads/UA-RevisedSubclasses.pdf",
+				"version": "1.0.0",
+				"dateReleased": "2017-05-01",
 				"authors": [
 					"Wizards of the Coast"
 				],
 				"convertedBy": [
 					"Giddy"
-				],
-				"version": "1.0.0",
-				"url": "https://media.wizards.com/2017/dnd/downloads/UA-RevisedSubclasses.pdf",
-				"dateReleased": "2017-05-01"
+				]
 			}
 		],
 		"edition": "classic",

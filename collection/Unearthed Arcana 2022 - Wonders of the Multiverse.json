@@ -5,15 +5,15 @@
 				"json": "UA2022WondersOfTheMultiverse",
 				"abbreviation": "UA22WotM",
 				"full": "Unearthed Arcana: 2022 Wonders of the Multiverse",
+				"url": "https://media.wizards.com/2022/dnd/downloads/UA2022-WondersoftheMultiverse.pdf",
+				"version": "1.0.0",
+				"dateReleased": "2022-07-18",
 				"authors": [
 					"Wizards of the Coast"
 				],
 				"convertedBy": [
 					"Giddy"
-				],
-				"version": "1.0.0",
-				"url": "https://media.wizards.com/2022/dnd/downloads/UA2022-WondersoftheMultiverse.pdf",
-				"dateReleased": "2022-07-18"
+				]
 			}
 		],
 		"dependencies": {
@@ -25,6 +25,11 @@
 		"dateAdded": 1701616429,
 		"dateLastModified": 1729637619,
 		"_dateLastModifiedHash": "ecfccfaf9b"
+	},
+	"_test": {
+		"references": [
+			"UAClassFeatureVariants"
+		]
 	},
 	"subclass": [
 		{

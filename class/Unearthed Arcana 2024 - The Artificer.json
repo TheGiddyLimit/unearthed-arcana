@@ -6,15 +6,15 @@
 				"json": "XUA2024Artificer",
 				"abbreviation": "XUA24A",
 				"full": "Unearthed Arcana 2024: The Artificer",
+				"url": "https://media.dndbeyond.com/compendium-images/ua/the-artificer/AzQEA72K8EMf9HmU/UA2024-Artificer.pdf",
+				"version": "1.0.0",
+				"dateReleased": "2024-12-17",
 				"authors": [
 					"Wizards of the Coast"
 				],
 				"convertedBy": [
 					"Lyra [he/him]"
-				],
-				"version": "1.0.0",
-				"url": "https://media.dndbeyond.com/compendium-images/ua/the-artificer/AzQEA72K8EMf9HmU/UA2024-Artificer.pdf",
-				"dateReleased": "2024-12-17"
+				]
 			}
 		],
 		"edition": "one",
@@ -22,6 +22,11 @@
 		"dateAdded": 1734452950,
 		"dateLastModified": 1764502955,
 		"_dateLastModifiedHash": "3c774284fa"
+	},
+	"_test": {
+		"references": [
+			"XUA2025EberronUpdates"
+		]
 	},
 	"class": [
 		{
@@ -1814,7 +1819,7 @@
 			"subclassSource": "XUA2024Artificer",
 			"level": 3,
 			"entries": [
-				"You can customize your Arcane Armor. When you do so, choose one of the following armor models: {@subclassFeature Dreadnaught|Artificer|XUA2024Artificer|Armorer|XUA2024Artificer|3|XUA2024Artificer}, {@subclassFeature Guardian|XUA2024Artificer|Armorer|XUA2024Artificer|3|XUA2024Artificer}, or {@subclassFeature Infiltrator|XUA2024Artificer|Armorer|XUA2024Artificer|3|XUA2024Artificer}. The model you choose gives you special benefits while you wear it.",
+				"You can customize your Arcane Armor. When you do so, choose one of the following armor models: {@subclassFeature Dreadnaught|Artificer|XUA2024Artificer|Armorer|XUA2024Artificer|3|XUA2024Artificer}, {@subclassFeature Guardian|Artificer|XUA2024Artificer|Armorer|XUA2024Artificer|3|XUA2024Artificer}, or {@subclassFeature Infiltrator|Artificer|XUA2024Artificer|Armorer|XUA2024Artificer|3|XUA2024Artificer}. The model you choose gives you special benefits while you wear it.",
 				"Each model includes a special weapon. When you attack with that weapon, you can add your Intelligence modifier, instead of Strength or Dexterity modifier, to the attack and damage rolls.",
 				"You can change the armor's model whenever you finish a {@variantrule Short Rest|XPHB|Short} or {@variantrule Long Rest|XPHB} if you have {@item Smith's Tools|XPHB} in hand.",
 				{

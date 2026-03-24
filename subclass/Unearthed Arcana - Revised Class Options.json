@@ -5,15 +5,15 @@
 				"json": "UARevisedClassOptions",
 				"abbreviation": "UARCO",
 				"full": "Unearthed Arcana: Revised Class Options",
+				"url": "https://media.wizards.com/2017/dnd/downloads/June5UA_RevisedClassOptv1.pdf",
+				"version": "1.0.0",
+				"dateReleased": "2017-06-05",
 				"authors": [
 					"Wizards of the Coast"
 				],
 				"convertedBy": [
 					"Giddy"
-				],
-				"version": "1.0.0",
-				"url": "https://media.wizards.com/2017/dnd/downloads/June5UA_RevisedClassOptv1.pdf",
-				"dateReleased": "2017-06-05"
+				]
 			}
 		],
 		"edition": "classic",

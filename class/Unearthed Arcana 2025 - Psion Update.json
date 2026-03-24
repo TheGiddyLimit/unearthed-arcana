@@ -6,16 +6,16 @@
 				"json": "XUA2025PsionUpdate",
 				"abbreviation": "XUA25PU",
 				"full": "Unearthed Arcana 2025: Psion Update",
+				"url": "https://media.dndbeyond.com/compendium-images/ua/psion-update/kZh2hf4yC7KS45wW/UA2025-Psion+Update.pdf",
+				"version": "1.1.0",
+				"dateReleased": "2025-10-02",
 				"authors": [
 					"Wizards of the Coast"
 				],
 				"convertedBy": [
-					"Lyra [he/him]",
-					"Giddy"
-				],
-				"version": "1.1.0",
-				"url": "https://media.dndbeyond.com/compendium-images/ua/psion-update/kZh2hf4yC7KS45wW/UA2025-Psion+Update.pdf",
-				"dateReleased": "2025-10-02"
+					"Giddy",
+					"Lyra [he/him]"
+				]
 			}
 		],
 		"dependencies": {
@@ -37,6 +37,12 @@
 		"dateAdded": 1759589353,
 		"dateLastModified": 1767560915,
 		"_dateLastModifiedHash": "8f3cac1644"
+	},
+	"_test": {
+		"references": [
+			"XUA2025Psion",
+			"XUA2025EberronUpdates"
+		]
 	},
 	"class": [
 		{
@@ -2590,7 +2596,7 @@
 					"items": [
 						"The target regards all creatures it can see as enemies.",
 						"Whenever the target chooses a creature other than itself for an attack, spell, or other ability, it must choose at random from among the creatures it can see within range of that attack, spell, or other ability.",
-						"The target must make an {@action {@action Opportunity Attack|XPHB|Opportunity Attacks}|XPHB} each time it is able to."
+						"The target must make an {@action Opportunity Attack|XPHB} each time it is able to."
 					]
 				},
 				"Each time the target takes damage, it makes another Intelligence saving throw. On a successful save, the spell ends."

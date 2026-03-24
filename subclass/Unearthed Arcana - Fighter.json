@@ -5,15 +5,15 @@
 				"json": "UAFighter",
 				"abbreviation": "UAF",
 				"full": "Unearthed Arcana: Fighter",
+				"url": "https://media.wizards.com/2016/dnd/downloads/2016_Fighter_UA_1205_1.pdf",
+				"version": "1.0.0",
+				"dateReleased": "2016-12-05",
 				"authors": [
 					"Wizards of the Coast"
 				],
 				"convertedBy": [
 					"Giddy"
-				],
-				"version": "1.0.0",
-				"url": "https://media.wizards.com/2016/dnd/downloads/2016_Fighter_UA_1205_1.pdf",
-				"dateReleased": "2016-12-05"
+				]
 			}
 		],
 		"edition": "classic",
