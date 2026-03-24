@@ -1154,7 +1154,7 @@
 				},
 				{
 					"type": "refClassFeature",
-					"classFeature": "Sorcerous Fortitude|PHB|2|Sorcerer|UAClassFeatureVariants"
+					"classFeature": "Sorcerous Fortitude|Sorcerer|PHB|2|UAClassFeatureVariants"
 				}
 			]
 		},
@@ -1639,7 +1639,7 @@
 			"source": "UAClassFeatureVariants",
 			"page": 10,
 			"className": "Sorcerer",
-			"classSource": "UAClassFeatureVariants",
+			"classSource": "PHB",
 			"level": 2,
 			"isClassFeatureVariant": true,
 			"consumes": {
@@ -1655,7 +1655,7 @@
 			"source": "UAClassFeatureVariants",
 			"page": 10,
 			"className": "Sorcerer",
-			"classSource": "UAClassFeatureVariants",
+			"classSource": "PHB",
 			"level": 2,
 			"isClassFeatureVariant": true,
 			"entries": [
@@ -1667,7 +1667,7 @@
 			"source": "UAClassFeatureVariants",
 			"page": 10,
 			"className": "Sorcerer",
-			"classSource": "UAClassFeatureVariants",
+			"classSource": "PHB",
 			"level": 2,
 			"isClassFeatureVariant": true,
 			"consumes": {
