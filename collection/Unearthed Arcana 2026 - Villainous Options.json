@@ -67,6 +67,67 @@
 			"hasFluff": true
 		},
 		{
+			"name": "Demonic Sorcery",
+			"shortName": "Demonic",
+			"source": "XUA2026VillainousOptions",
+			"className": "Sorcerer",
+			"classSource": "XPHB",
+			"page": 7,
+			"additionalSpells": [
+				{
+					"prepared": {
+						"3": [
+							"Detect Magic|XPHB",
+							"Entangle|XPHB",
+							"Misty Step|XPHB",
+							"Spider Climb|XPHB"
+						],
+						"5": [
+							"Dispel Magic|XPHB",
+							"Gaseous Form|XPHB"
+						],
+						"7": [
+							"Confusion|XPHB",
+							"Hallucinatory Terrain|XPHB"
+						],
+						"9": [
+							"Contact Other Plane|XPHB",
+							"Hallow|XPHB"
+						]
+					},
+					"innate": {
+						"18": {
+							"daily": {
+								"1e": [
+									"Summon Fiend|XPHB"
+								]
+							}
+						}
+					}
+				}
+			],
+			"subclassSpells": [
+				"Detect Magic|XPHB",
+				"Entangle|XPHB",
+				"Misty Step|XPHB",
+				"Spider Climb|XPHB",
+				"Dispel Magic|XPHB",
+				"Gaseous Form|XPHB",
+				"Confusion|XPHB",
+				"Hallucinatory Terrain|XPHB",
+				"Contact Other Plane|XPHB",
+				"Hallow|XPHB",
+				"Summon Fiend|XPHB"
+			],
+			"subclassFeatures": [
+				"Demonic Sorcery|Sorcerer|XPHB|Demonic|XUA2026VillainousOptions|3|XUA2026VillainousOptions",
+				"Abyssal Aura|Sorcerer|XPHB|Demonic|XUA2026VillainousOptions|6|XUA2026VillainousOptions",
+				"Abyssal Conduit|Sorcerer|XPHB|Demonic|XUA2026VillainousOptions|14|XUA2026VillainousOptions",
+				"Fiendish Servant|Sorcerer|XPHB|Demonic|XUA2026VillainousOptions|18|XUA2026VillainousOptions"
+			],
+			"hasFluff": true
+		},
+		{
 			"name": "Hell Knight",
 			"shortName": "Hell Knight",
 			"source": "XUA2026VillainousOptions",
@@ -823,6 +884,166 @@
 			"entries": [
 				"When you roll your Infernal Wound Die, you can treat a roll of 1 as a 6."
 			]
+		},
+		{
+			"name": "Demonic Sorcery",
+			"source": "XUA2026VillainousOptions",
+			"page": 7,
+			"className": "Sorcerer",
+			"classSource": "XPHB",
+			"subclassShortName": "Demonic",
+			"subclassSource": "XUA2026VillainousOptions",
+			"level": 3,
+			"header": 1,
+			"entries": [
+				"The corruptive magic of demons courses through you, making you a conduit for the infinite layers of the Abyss and their horrors. Your gift might stem from a distant demonic ancestry, a fated encounter with a demon that cursed you, or a brush with the dark hunger of the Abyss.",
+				"The Abyss is a plane of wickedness and disorder, and this chaos echoes in your innate magic. Abyssal energy erupts from you, warping your body and surroundings in tandem with your sorcery.",
+				"These Abyssal eruptions manifest in strange and gruesome ways. Roll on or choose from the Abyssal Manifestations table to inspire how your connection to the Abyss might manifest when you channel your demonic power.",
+				{
+					"type": "statblock",
+					"tag": "table",
+					"source": "XUA2026VillainousOptions",
+					"name": "Abyssal Manifestations",
+					"page": 7
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Abyssal Rupture|Sorcerer|XPHB|Demonic|XUA2026VillainousOptions|3|XUA2026VillainousOptions"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Demonic Spells|Sorcerer|XPHB|Demonic|XUA2026VillainousOptions|3|XUA2026VillainousOptions"
+				}
+			]
+		},
+		{
+			"name": "Abyssal Rupture",
+			"source": "XUA2026VillainousOptions",
+			"page": 7,
+			"className": "Sorcerer",
+			"classSource": "XPHB",
+			"subclassShortName": "Demonic",
+			"subclassSource": "XUA2026VillainousOptions",
+			"level": 3,
+			"header": 2,
+			"entries": [
+				"When you spend at least 1 Sorcery Point as part of a {@action Magic|XPHB} action or a {@variantrule Bonus Action|XPHB} on your turn, you can unleash one of the following magical effects of your choice. You can do so only once per turn.",
+				{
+					"type": "list",
+					"style": "list-hang-subtrait",
+					"items": [
+						{
+							"type": "item",
+							"name": "Demonic Lash",
+							"entries": [
+								"One creature you can see within 20 feet of you takes {@damage 1d4} Slashing damage, and if it is Large or smaller, you can pull it up to 10 feet closer to you."
+							]
+						},
+						{
+							"type": "item",
+							"name": "Fiendish Carapace",
+							"entries": [
+								"Until the start of your next turn, attack rolls against you have {@variantrule Disadvantage|XPHB}."
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Demonic Spells",
+			"source": "XUA2026VillainousOptions",
+			"page": 8,
+			"className": "Sorcerer",
+			"classSource": "XPHB",
+			"subclassShortName": "Demonic",
+			"subclassSource": "XUA2026VillainousOptions",
+			"level": 3,
+			"header": 2,
+			"entries": [
+				"When you reach a Sorcerer level specified in the {@table Demonic Spells|XUA2026VillainousOptions} table, you thereafter always have the listed spells prepared.",
+				{
+					"type": "statblock",
+					"tag": "table",
+					"source": "XUA2026VillainousOptions",
+					"name": "Demonic Spells",
+					"page": 8
+				}
+			]
+		},
+		{
+			"name": "Abyssal Aura",
+			"source": "XUA2026VillainousOptions",
+			"page": 8,
+			"className": "Sorcerer",
+			"classSource": "XPHB",
+			"subclassShortName": "Demonic",
+			"subclassSource": "XUA2026VillainousOptions",
+			"level": 6,
+			"header": 2,
+			"consumes": {
+				"name": "Sorcery Point",
+				"amount": 2
+			},
+			"entries": [
+				"When you use {@classFeature Innate Sorcery|Sorcerer|XPHB|1|XPHB}, you can infuse the chaos of the Abyss into your surroundings. While this use of {@classFeature Innate Sorcery|Sorcerer|XPHB|1|XPHB} is active, reality warps in a 10-foot {@variantrule Emanation [Area of Effect]|XPHB|Emanation} originating from you, filling the area with a demonic effect. Roll on the {@table Abyssal Effects|XUA2026VillainousOptions} table to determine the effect. If an effect requires a saving throw, the DC equals {@dcYourSpellSave}.",
+				"Once you use this feature, you can't use it again until you finish a {@variantrule Long Rest|XPHB}. You can also restore your use of it by spending 2 Sorcery Points (no action required).",
+				{
+					"type": "statblock",
+					"tag": "table",
+					"source": "XUA2026VillainousOptions",
+					"name": "Abyssal Effects",
+					"page": 8
+				}
+			]
+		},
+		{
+			"name": "Abyssal Conduit",
+			"source": "XUA2026VillainousOptions",
+			"page": 8,
+			"className": "Sorcerer",
+			"classSource": "XPHB",
+			"subclassShortName": "Demonic",
+			"subclassSource": "XUA2026VillainousOptions",
+			"level": 14,
+			"header": 2,
+			"entries": [
+				"Your Abyssal powers reach their full potential. You gain the following benefits.",
+				{
+					"type": "list",
+					"style": "list-hang-subtrait",
+					"items": [
+						{
+							"type": "item",
+							"name": "Aura Expansion",
+							"entries": [
+								"Your {@subclassFeature Abyssal Aura|Sorcerer|XPHB|Demonic|XUA2026VillainousOptions|6|XUA2026VillainousOptions} is now a 20-foot {@variantrule Emanation [Area of Effect]|XPHB|Emanation}."
+							]
+						},
+						{
+							"type": "item",
+							"name": "Controlled Chaos",
+							"entries": [
+								"Whenever you would roll on the {@table Abyssal Effects|XUA2026VillainousOptions} table, you can roll twice and choose which of the two effects to use. If you roll the same number on both dice, you can instead choose any effect on the table."
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Fiendish Servant",
+			"source": "XUA2026VillainousOptions",
+			"page": 8,
+			"className": "Sorcerer",
+			"classSource": "XPHB",
+			"subclassShortName": "Demonic",
+			"subclassSource": "XUA2026VillainousOptions",
+			"level": 18,
+			"header": 2,
+			"entries": [
+				"You can cast {@spell Summon Fiend|XPHB} without a Material component. You can also cast it once without a spell slot, and you regain the ability to cast it in this way when you finish a {@variantrule Long Rest|XPHB}. When you cast it in this way, you must choose Demon for the summoned Fiend's type."
+			]
 		}
 	],
 	"foundrySubclassFeature": [
@@ -1469,7 +1690,7 @@
 			"source": "XUA2026VillainousOptions",
 			"page": 9,
 			"optionType": [
-				"Path"
+				"PTH"
 			],
 			"entries": [
 				"Death knights are dastards, deserters, and disgraced champions, undead warriors who march toward perdition to fulfill selfish desires and slake their bloodthirst. A death knight's martial prowess is inextricably tied to their evil nature, but their heinous deeds extend far beyond the battlefield.",
@@ -1590,7 +1811,7 @@
 			"source": "XUA2026VillainousOptions",
 			"page": 11,
 			"optionType": [
-				"Path"
+				"PTH"
 			],
 			"entries": [
 				"Liches are powerful spellcasters who have conquered death through the relentless pursuit of arcane power. All liches undergo a ritual that binds their soul to a spirit jar, a personal and well-protected object that allows the lich's destroyed body to re-form as long as the object is intact.",
@@ -2050,6 +2271,150 @@
 	],
 	"table": [
 		{
+			"name": "Abyssal Effects",
+			"source": "XUA2026VillainousOptions",
+			"page": 8,
+			"colLabels": [
+				"1d6",
+				"Effect"
+			],
+			"colStyles": [
+				"col-1 text-center",
+				"11"
+			],
+			"rows": [
+				[
+					"1",
+					{
+						"type": "entries",
+						"entries": [
+							{
+								"type": "entries",
+								"name": "Sticky Webs",
+								"entries": [
+									"Thick webs fill the {@variantrule Emanation [Area of Effect]|XPHB|Emanation}, making it {@variantrule Difficult Terrain|XPHB} for your enemies. Each enemy that starts its turn in the {@variantrule Emanation [Area of Effect]|XPHB|Emanation} must succeed on a Strength saving throw or have the {@condition Restrained|XPHB} condition. A creature {@condition Restrained|XPHB} by the webs can take an action to make a Strength ({@skill Athletics|XPHB}) check against {@dcYourSpellSave}, ending the effect on itself with a successful check."
+								]
+							}
+						]
+					}
+				],
+				[
+					"2",
+					{
+						"type": "entries",
+						"entries": [
+							{
+								"type": "entries",
+								"name": "Caustic Ooze",
+								"entries": [
+									"Slick, oily gunk covers the ground in the {@variantrule Emanation [Area of Effect]|XPHB|Emanation}, making it {@variantrule Difficult Terrain|XPHB} for your enemies. Each enemy that starts its turn on the ground in the {@variantrule Emanation [Area of Effect]|XPHB|Emanation} takes {@damage 1d6} Acid damage and must succeed on a Dexterity saving throw or have the {@condition Prone|XPHB} condition. This damage increases by {@damage 1d6} when you reach Sorcerer levels 11 ({@damage 2d6}) and 16 ({@damage 3d6})."
+								]
+							}
+						]
+					}
+				],
+				[
+					"3",
+					{
+						"type": "entries",
+						"entries": [
+							{
+								"type": "entries",
+								"name": "Terrifying Screams",
+								"entries": [
+									"Each enemy that starts its turn in the {@variantrule Emanation [Area of Effect]|XPHB|Emanation} takes {@damage 1d6} Psychic damage and must succeed on a Wisdom saving throw or have the {@condition Frightened|XPHB} condition until the start of its next turn. This damage increases by {@damage 1d6} when you reach Sorcerer levels 11 ({@damage 2d6}) and 16 ({@damage 3d6})."
+								]
+							}
+						]
+					}
+				],
+				[
+					"4",
+					{
+						"type": "entries",
+						"entries": [
+							{
+								"type": "entries",
+								"name": "Enthralling Spores",
+								"entries": [
+									"Intoxicating spores fill the {@variantrule Emanation [Area of Effect]|XPHB|Emanation}, which is {@variantrule Heavily Obscured|XPHB} for creatures of your choice. When you reach Sorcerer level 11, each enemy that starts its turn in the {@variantrule Emanation [Area of Effect]|XPHB|Emanation} must succeed on a Wisdom saving throw or have the {@condition Charmed|XPHB} condition until the start of its next turn."
+								]
+							}
+						]
+					}
+				],
+				[
+					"5",
+					{
+						"type": "entries",
+						"entries": [
+							{
+								"type": "entries",
+								"name": "Poisonous Foliage",
+								"entries": [
+									"The {@variantrule Emanation [Area of Effect]|XPHB|Emanation} is {@variantrule Lightly Obscured|XPHB} by demonic flora. Each enemy that starts its turn in the {@variantrule Emanation [Area of Effect]|XPHB|Emanation} takes {@damage 1d6} Poison damage and must succeed on a Constitution saving throw or have the {@condition Poisoned|XPHB} condition until the start of its next turn. This damage increases by {@damage 1d6} when you reach Sorcerer levels 11 ({@damage 2d6}) and 16 ({@damage 3d6})."
+								]
+							}
+						]
+					}
+				],
+				[
+					"6",
+					{
+						"type": "entries",
+						"entries": [
+							{
+								"type": "entries",
+								"name": "Enervating Bones",
+								"entries": [
+									"Spectral limbs erupt from the ground, reaching to sap the life around them. Each enemy that starts its turn in the {@variantrule Emanation [Area of Effect]|XPHB|Emanation} takes {@damage 1d10} Necrotic damage and can't regain {@variantrule Hit Points|XPHB} until the start of its next turn. The Necrotic damage increases by {@damage 1d10} when you reach Sorcerer levels 11 ({@damage 2d10}) and 16 ({@damage 3d10})."
+								]
+							}
+						]
+					}
+				]
+			]
+		},
+		{
+			"name": "Abyssal Manifestations",
+			"source": "XUA2026VillainousOptions",
+			"page": 7,
+			"colLabels": [
+				"1d6",
+				"Manifestation"
+			],
+			"colStyles": [
+				"col-2 text-center",
+				"col-10"
+			],
+			"rows": [
+				[
+					"1",
+					"Abyssal fissures mar your flesh, revealing windows into a vast demonic realm."
+				],
+				[
+					"2",
+					"Insects writhe beneath your skin and escape from your mouth, nose, and ears."
+				],
+				[
+					"3",
+					"Sheets of scorched skin peel from your body."
+				],
+				[
+					"4",
+					"Your flesh bubbles and froths like a toxic bog."
+				],
+				[
+					"5",
+					"Your fingers or other extremities discolor as if frostbitten."
+				],
+				[
+					"6",
+					"You grow a second head. (This has no impact on your game statistics.)"
+				]
+			]
+		},
+		{
 			"name": "Circle of the Titan Spells",
 			"source": "XUA2026VillainousOptions",
 			"page": 3,
@@ -2116,6 +2481,37 @@
 				[
 					"6",
 					"Violated a sworn oath."
+				]
+			]
+		},
+		{
+			"name": "Demonic Spells",
+			"source": "XUA2026VillainousOptions",
+			"page": 8,
+			"colLabels": [
+				"Sorcerer Level",
+				"Prepared Spells"
+			],
+			"colStyles": [
+				"col-2 text-center",
+				"col-10"
+			],
+			"rows": [
+				[
+					"3",
+					"{@spell Detect Magic|XPHB}, {@spell Entangle|XPHB}, {@spell Misty Step|XPHB}, {@spell Spider Climb|XPHB}"
+				],
+				[
+					"5",
+					"{@spell Dispel Magic|XPHB}, {@spell Gaseous Form|XPHB}"
+				],
+				[
+					"7",
+					"{@spell Confusion|XPHB}, {@spell Hallucinatory Terrain|XPHB}"
+				],
+				[
+					"9",
+					"{@spell Contact Other Plane|XPHB}, {@spell Hallow|XPHB}"
 				]
 			]
 		},
