@@ -24,6 +24,49 @@
 	},
 	"subclass": [
 		{
+			"name": "Circle of the Titan",
+			"shortName": "Titan",
+			"source": "XUA2026VillainousOptions",
+			"className": "Druid",
+			"classSource": "XPHB",
+			"page": 3,
+			"additionalSpells": [
+				{
+					"prepared": {
+						"3": [
+							"Cure Wounds|XPHB",
+							"Longstrider|XPHB",
+							"Thaumaturgy|XPHB"
+						],
+						"5": [
+							"Fear|XPHB"
+						],
+						"7": [
+							"Stoneskin|XPHB"
+						],
+						"9": [
+							"Destructive Wave|XPHB"
+						]
+					}
+				}
+			],
+			"subclassSpells": [
+				"Cure Wounds|XPHB",
+				"Longstrider|XPHB",
+				"Thaumaturgy|XPHB",
+				"Fear|XPHB",
+				"Stoneskin|XPHB",
+				"Destructive Wave|XPHB"
+			],
+			"subclassFeatures": [
+				"Circle of the Titan|Druid|XPHB|Titan|XUA2026VillainousOptions|3|XUA2026VillainousOptions",
+				"Dire impact|Druid|XPHB|Titan|XUA2026VillainousOptions|6|XUA2026VillainousOptions",
+				"Primal Havoc|Druid|XPHB|Titan|XUA2026VillainousOptions|10|XUA2026VillainousOptions",
+				"Monstrous Appetite|Druid|XPHB|Titan|XUA2026VillainousOptions|14|XUA2026VillainousOptions"
+			],
+			"hasFluff": true
+		},
+		{
 			"name": "Pestilence Domain",
 			"shortName": "Pestilence",
 			"source": "XUA2026VillainousOptions",
@@ -310,6 +353,206 @@
 				},
 				"You revert to your true form after 10 minutes, if you choose to end the transformation (no action required), if you have the {@condition Incapacitated} condition, or if you die.",
 				"Once you use this feature, you can't use it again until you finish a {@variantrule Long Rest|XPHB} unless you expend a level 5+ spell slot (no action required) to restore your use of it."
+			]
+		},
+		{
+			"name": "Circle of the Titan",
+			"source": "XUA2026VillainousOptions",
+			"page": 3,
+			"className": "Druid",
+			"classSource": "XPHB",
+			"subclassShortName": "Titan",
+			"subclassSource": "XUA2026VillainousOptions",
+			"level": 3,
+			"header": 1,
+			"entries": [
+				"When civilization violates the natural world\u2014by deforesting ancient groves, polluting sacred waters, or hunting wildlife to the brink of extinction\u2014Druids of the Circle of the Titan intervene. Druids of this order believe that for nature to thrive, society must sometimes fall. To this end, they assume towering, monstrous forms to mete out cataclysmic retribution and forcibly restore the natural order.",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Circle of the Titan Spells|Druid|XPHB|Titan|XUA2026VillainousOptions|3|XUA2026VillainousOptions"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Titan Form|Druid|XPHB|Titan|XUA2026VillainousOptions|3|XUA2026VillainousOptions"
+				}
+			]
+		},
+		{
+			"name": "Circle of the Titan Spells",
+			"source": "XUA2026VillainousOptions",
+			"page": 3,
+			"className": "Druid",
+			"classSource": "XPHB",
+			"subclassShortName": "Titan",
+			"subclassSource": "XUA2026VillainousOptions",
+			"level": 3,
+			"header": 2,
+			"entries": [
+				"When you reach a Druid level specified in the {@table Circle of the Titan Spells|XUA2026VillainousOptions} table, you thereafter always have the listed spells prepared.",
+				"In addition, you can cast the spells from this feature while you're in your {@subclassFeature Titan Form|Druid|XPHB|Titan|XUA2026VillainousOptions|3|XUA2026VillainousOptions}.",
+				{
+					"type": "statblock",
+					"tag": "table",
+					"source": "XUA2026VillainousOptions",
+					"name": "Circle of the Titan Spells",
+					"page": 3
+				}
+			]
+		},
+		{
+			"name": "Titan Form",
+			"source": "XUA2026VillainousOptions",
+			"page": 3,
+			"className": "Druid",
+			"classSource": "XPHB",
+			"subclassShortName": "Titan",
+			"subclassSource": "XUA2026VillainousOptions",
+			"level": 3,
+			"header": 2,
+			"entries": [
+				"When you use {@classFeature Wild Shape|Druid|XPHB|2|XPHB}, you can adopt a Titan Form, choosing from the {@creature Behemoth|XUA2026VillainousOptions}, {@creature Leviathan|XUA2026VillainousOptions}, and {@creature Insectoid|XUA2026VillainousOptions} stat blocks presented later in this subclass's description.",
+				"You determine what your Titan Form looks like. Roll on or choose from the {@table Titan Appearance|XUA2026VillainousOptions} table to inspire aspects of your form's appearance.",
+				{
+					"type": "statblock",
+					"tag": "table",
+					"source": "XUA2026VillainousOptions",
+					"name": "Titan Appearance",
+					"page": 3
+				},
+				{
+					"type": "statblock",
+					"tag": "creature",
+					"source": "XUA2026VillainousOptions",
+					"name": "Behemoth",
+					"page": 4,
+					"collapsed": true
+				},
+				{
+					"type": "statblock",
+					"tag": "creature",
+					"source": "XUA2026VillainousOptions",
+					"name": "Leviathan",
+					"page": 4,
+					"collapsed": true
+				},
+				{
+					"type": "statblock",
+					"tag": "creature",
+					"source": "XUA2026VillainousOptions",
+					"name": "Insectoid",
+					"page": 5,
+					"collapsed": true
+				}
+			]
+		},
+		{
+			"name": "Dire Impact",
+			"source": "XUA2026VillainousOptions",
+			"page": 3,
+			"className": "Druid",
+			"classSource": "XPHB",
+			"subclassShortName": "Titan",
+			"subclassSource": "XUA2026VillainousOptions",
+			"level": 6,
+			"header": 2,
+			"entries": [
+				"Your Titan Form brings greater devastation. You gain the following benefits.",
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"items": [
+						{
+							"type": "item",
+							"name": "Elemental Rend",
+							"entries": [
+								"Whenever you hit with your Titan Form's Rend attack, you can cause it to deal your choice of Acid, Cold, Fire, Lightning, or Thunder damage rather than its normal damage type."
+							]
+						},
+						{
+							"type": "item",
+							"name": "Shock Wave",
+							"entries": [
+								"Your transformation upheaves your surroundings. Immediately after you assume a Titan Form or by taking a {@variantrule Bonus Action|XPHB} to expend a level 1+ spell slot while in your Titan Form, you can create a shock wave in a 15-foot {@variantrule Emanation [Area of Effect]|XPHB|Emanation} originating from you. Each creature in the {@variantrule Emanation [Area of Effect]|XPHB|Emanation} must succeed on a Constitution saving throw against {@dcYourSpellSave} or have the {@condition Prone} condition."
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Primal Havoc",
+			"source": "XUA2026VillainousOptions",
+			"page": 3,
+			"className": "Druid",
+			"classSource": "XPHB",
+			"subclassShortName": "Titan",
+			"subclassSource": "XUA2026VillainousOptions",
+			"level": 10,
+			"header": 2,
+			"entries": [
+				"The unbridled power of nature surges within you, granting you the following benefits.",
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"items": [
+						{
+							"type": "item",
+							"name": "Improved Titan Form",
+							"entries": [
+								"You can choose to become Huge when assuming your Titan Form. Each Titan Form also gains an additional benefit, as noted in its respective stat block."
+							]
+						},
+						{
+							"type": "item",
+							"name": "Above It All",
+							"entries": [
+								"While you are Huge or larger in your Titan Form, {@variantrule Difficult Terrain|XPHB} caused by heavy snow, ice, rubble, or undergrowth doesn't cost you extra movement."
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Monstrous Appetite",
+			"source": "XUA2026VillainousOptions",
+			"page": 3,
+			"className": "Druid",
+			"classSource": "XPHB",
+			"subclassShortName": "Titan",
+			"subclassSource": "XUA2026VillainousOptions",
+			"level": 14,
+			"header": 2,
+			"entries": [
+				"Your transformation embodies the vast size and terror of nature's titans. You gain the following benefits.",
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"items": [
+						{
+							"type": "item",
+							"name": "Gargantuan Size",
+							"entries": [
+								"You can choose to become Gargantuan when assuming your Titan Form."
+							]
+						},
+						{
+							"type": "item",
+							"name": "Grappling Rend",
+							"entries": [
+								"Once per turn when you are Huge or larger and hit a creature with your Rend attack of your Titan Form, you can give the target the {@condition Grappled} condition (escape DC equals {@dcYourSpellSave}). You can have only one target {@condition grappled} in this way at a time."
+							]
+						},
+						{
+							"type": "item",
+							"name": "Swallow",
+							"entries": [
+								"As a {@variantrule Bonus Action|XPHB} while you are Gargantuan, choose one Large or smaller creature {@condition Grappled} by you. The target makes a Strength saving throw against {@dcYourSpellSave}. On a failure, you swallow the target, and the {@condition Grappled} condition ends on it. A swallowed creature has the {@condition Blinded} and {@condition Restrained} conditions, has {@variantrule Cover|XPHB|Total Cover} against attacks and other effects outside of your stomach, and takes {@damage 2d8} Acid damage at the start of each of your turns.",
+								"The number of creatures you can have swallowed at a time equals your Wisdom modifier (minimum of one creature). You must maintain {@status Concentration} to hold swallowed creatures in your stomach. If you lose {@status Concentration} or leave your Titan Form, you regurgitate all swallowed creatures, each of which falls in a space within 10 feet of you and has the {@condition Prone} condition."
+							]
+						}
+					]
+				}
 			]
 		}
 	],
@@ -1149,7 +1392,375 @@
 			]
 		}
 	],
+	"monster": [
+		{
+			"name": "Behemoth",
+			"source": "XUA2026VillainousOptions",
+			"page": 4,
+			"size": [
+				"L",
+				"H",
+				"G"
+			],
+			"sizeNote": "(Huge Requires Druid Level 10+, Gargantuan Requires Druid Level 14+)",
+			"type": "monstrosity",
+			"alignment": [
+				{
+					"special": "Your Alignment Doesn't Change"
+				}
+			],
+			"ac": [
+				{
+					"special": "11 + your Wisdom modifier"
+				}
+			],
+			"hp": {
+				"special": "2 times your Druid level Temp HP"
+			},
+			"speed": {
+				"walk": 40,
+				"climb": 40
+			},
+			"str": {
+				"special": "Your Strength and Dexterity scores are equal to your Wisdom score in this form."
+			},
+			"dex": {
+				"special": "Your Strength and Dexterity scores are equal to your Wisdom score in this form."
+			},
+			"con": {
+				"special": "Your Constitution, Intelligence, Wisdom, and Charisma don't change."
+			},
+			"int": {
+				"special": "Your Constitution, Intelligence, Wisdom, and Charisma don't change."
+			},
+			"wis": {
+				"special": "Your Constitution, Intelligence, Wisdom, and Charisma don't change."
+			},
+			"cha": {
+				"special": "Your Constitution, Intelligence, Wisdom, and Charisma don't change."
+			},
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"languages": [
+				"Your languages don't change."
+			],
+			"pbNote": "PB is your Proficiency Bonus",
+			"trait": [
+				{
+					"name": "Rampager (Requires Druid Level 10+)",
+					"entries": [
+						"When you enter the space of an enemy that is at least one size smaller than you for the first time on a turn, that creature is subjected to the following effect. {@actSave str} DC equals {@dcYourSpellSave}. {@actSaveFail} The target has the {@condition Prone|XPHB} condition. If the target already has the {@condition Prone|XPHB} condition, it instead takes {@damage 2d6} Bludgeoning damage."
+					]
+				},
+				{
+					"name": "Siege Monster",
+					"entries": [
+						"You deal double damage to objects and structures."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack (Requires Druid Level 5+)",
+					"entries": [
+						"You make two Rend attacks."
+					]
+				},
+				{
+					"name": "Rend",
+					"entries": [
+						"{@atkr m} {@hitYourSpellAttack Bonus equals your spell attack modifier}, reach 10 ft. {@h}{@damage 1d8} plus your Wisdom modifier Slashing damage."
+					]
+				},
+				{
+					"name": "Incandescent Breath",
+					"entries": [
+						"You expend a level 1+ spell slot. {@actSave dex} DC equals {@dcYourSpellSave}, each creature in a 5-foot-wide, 60-foot-long {@variantrule Line [Area of Effect]|XPHB|Line}. {@actSaveFail} {@damage 2d8} Radiant damage per level of the spell slot expended plus your Wisdom modifier. {@actSaveSuccess} Half damage."
+					]
+				}
+			],
+			"tokenHref": {
+				"type": "external",
+				"url": "https://raw.githubusercontent.com/TheGiddyLimit/unearthed-arcana-img/main/img/XUA2026VillainousOptions/tokens/Behemoth.webp"
+			},
+			"traitTags": [
+				"Siege Monster"
+			],
+			"actionTags": [
+				"Breath Weapon",
+				"Multiattack"
+			],
+			"damageTags": [
+				"B",
+				"R",
+				"S"
+			],
+			"miscTags": [
+				"MA",
+				"RCH"
+			],
+			"conditionInflict": [
+				"prone"
+			],
+			"savingThrowForced": [
+				"dexterity",
+				"strength"
+			]
+		},
+		{
+			"name": "Insectoid",
+			"source": "XUA2026VillainousOptions",
+			"page": 5,
+			"size": [
+				"L",
+				"H",
+				"G"
+			],
+			"sizeNote": "(Huge Requires Druid Level 10+, Gargantuan Requires Druid Level 14+)",
+			"type": "monstrosity",
+			"alignment": [
+				{
+					"special": "Your Alignment Doesn't Change"
+				}
+			],
+			"ac": [
+				{
+					"special": "8 + your Wisdom Modifier"
+				}
+			],
+			"hp": {
+				"special": "2 times your Druid level Temp HP"
+			},
+			"speed": {
+				"walk": 40,
+				"fly": 40
+			},
+			"str": {
+				"special": "Your Strength and Dexterity scores are equal to your Wisdom score in this form."
+			},
+			"dex": {
+				"special": "Your Strength and Dexterity scores are equal to your Wisdom score in this form."
+			},
+			"con": {
+				"special": "Your Constitution, Intelligence, Wisdom, and Charisma don't change."
+			},
+			"int": {
+				"special": "Your Constitution, Intelligence, Wisdom, and Charisma don't change."
+			},
+			"wis": {
+				"special": "Your Constitution, Intelligence, Wisdom, and Charisma don't change."
+			},
+			"cha": {
+				"special": "Your Constitution, Intelligence, Wisdom, and Charisma don't change."
+			},
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"languages": [
+				"Your languages don't change."
+			],
+			"pbNote": "PB is your Proficiency Bonus",
+			"trait": [
+				{
+					"name": "Flyby",
+					"entries": [
+						"You don't provoke an {@action Opportunity Attack|XPHB} when you fly out of an enemy's reach."
+					]
+				},
+				{
+					"name": "Hive Mind (Requires Druid Level 10+)",
+					"entries": [
+						"When you assume this form, you forge a telepathic link with a number of creatures of your choice you can see and that can communicate in at least one language; the maximum number of creatures is equal to your Druid level. You and the chosen creatures can communicate telepathically with each other whether or not you share a language as long as you are on the same plane."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack (Requires Level 5+)",
+					"entries": [
+						"You make two Rend attacks."
+					]
+				},
+				{
+					"name": "Rend",
+					"entries": [
+						"{@atkr m} {@hitYourSpellAttack Bonus equals your spell attack modifier}, reach 10 ft. {@h}{@damage 1d8} plus your Wisdom modifier Piercing damage."
+					]
+				},
+				{
+					"name": "Energizing Pollen",
+					"entries": [
+						"You expend a level 1+ spell slot and emit a cloud of healing pollen that can restore a number of {@variantrule Hit Points|XPHB} equal to {@dice 2d8} plus five times the expended spell slot's level. Choose any number of creatures within 15 feet of yourself, and divide those {@variantrule Hit Points|XPHB} among them."
+					]
+				}
+			],
+			"tokenHref": {
+				"type": "external",
+				"url": "https://raw.githubusercontent.com/TheGiddyLimit/unearthed-arcana-img/main/img/XUA2026VillainousOptions/tokens/Insectoid.webp"
+			},
+			"traitTags": [
+				"Flyby"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"damageTags": [
+				"P"
+			],
+			"miscTags": [
+				"MA",
+				"RCH"
+			]
+		},
+		{
+			"name": "Leviathan",
+			"source": "XUA2026VillainousOptions",
+			"page": 4,
+			"size": [
+				"L",
+				"H",
+				"G"
+			],
+			"sizeNote": "(Huge Requires Druid Level 10+, Gargantuan Requires Druid Level 14+)",
+			"type": "monstrosity",
+			"alignment": [
+				{
+					"special": "Your Alignment Doesn't Change"
+				}
+			],
+			"ac": [
+				{
+					"special": "10 + your Wisdom Modifier"
+				}
+			],
+			"hp": {
+				"special": "2 times your Druid level Temp HP"
+			},
+			"speed": {
+				"walk": 40,
+				"swim": 40
+			},
+			"str": {
+				"special": "Your Strength and Dexterity scores are equal to your Wisdom score in this form."
+			},
+			"dex": {
+				"special": "Your Strength and Dexterity scores are equal to your Wisdom score in this form."
+			},
+			"con": {
+				"special": "Your Constitution, Intelligence, Wisdom, and Charisma don't change."
+			},
+			"int": {
+				"special": "Your Constitution, Intelligence, Wisdom, and Charisma don't change."
+			},
+			"wis": {
+				"special": "Your Constitution, Intelligence, Wisdom, and Charisma don't change."
+			},
+			"cha": {
+				"special": "Your Constitution, Intelligence, Wisdom, and Charisma don't change."
+			},
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"languages": [
+				"Your languages don't change."
+			],
+			"pbNote": "PB is your Proficiency Bonus",
+			"trait": [
+				{
+					"name": "Amphibious",
+					"entries": [
+						"You can breathe air and water."
+					]
+				},
+				{
+					"name": "Toxic Stench (Requires Druid Level 10+)",
+					"entries": [
+						"{@actSave con} DC equals {@dcYourSpellSave}, each creature of your choice that starts its turn in a 10-foot {@variantrule Emanation [Area of Effect]|XPHB|Emanation} originating from you. {@actSaveFail} {@damage 2d4} Poison damage, and the target has the {@condition Poisoned|XPHB} condition until the start of its next turn."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack (Requires Druid Level 5+)",
+					"entries": [
+						"You make two Rend attacks."
+					]
+				},
+				{
+					"name": "Rend",
+					"entries": [
+						"{@atkr m} {@hitYourSpellAttack Bonus equals your spell attack modifier}, reach 10 ft. {@h}{@damage 1d8} plus your Wisdom modifier Bludgeoning damage."
+					]
+				}
+			],
+			"reaction": [
+				{
+					"name": "Ink Cloud",
+					"entries": [
+						"{@actTrigger} You take damage. {@actResponse} You expend a level 1+ spell slot and release an inky cloud that fills a 15-foot-radius {@variantrule Cube [Area of Effect]|XPHB|Cube} centered on yourself, and you move up to your {@variantrule Speed|XPHB}. The {@variantrule Cube [Area of Effect]|XPHB|Cube} is {@variantrule Heavily Obscured|XPHB}. It lasts for 1 minute or until a strong current or wind (such as one created by {@spell Gust of Wind|XPHB}) disperses it."
+					]
+				}
+			],
+			"tokenHref": {
+				"type": "external",
+				"url": "https://raw.githubusercontent.com/TheGiddyLimit/unearthed-arcana-img/main/img/XUA2026VillainousOptions/tokens/Leviathan.webp"
+			},
+			"traitTags": [
+				"Amphibious"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"damageTags": [
+				"B",
+				"I"
+			],
+			"miscTags": [
+				"AOE",
+				"MA",
+				"RCH"
+			],
+			"conditionInflict": [
+				"poisoned"
+			],
+			"savingThrowForced": [
+				"constitution"
+			]
+		}
+	],
 	"table": [
+		{
+			"name": "Circle of the Titan Spells",
+			"source": "XUA2026VillainousOptions",
+			"page": 3,
+			"colLabels": [
+				"Druid Level",
+				"Prepared Spells"
+			],
+			"colStyles": [
+				"col-2 text-center",
+				"col-10"
+			],
+			"rows": [
+				[
+					"3",
+					"{@spell Cure Wounds|XPHB}, {@spell Longstrider|XPHB}, {@spell Thaumaturgy|XPHB}"
+				],
+				[
+					"5",
+					"{@spell Fear|XPHB}"
+				],
+				[
+					"7",
+					"{@spell Stoneskin|XPHB}"
+				],
+				[
+					"9",
+					"{@spell Destructive Wave|XPHB}"
+				]
+			]
+		},
 		{
 			"name": "Death Knight Journeys",
 			"source": "XUA2026VillainousOptions",
@@ -1334,6 +1945,49 @@
 				[
 					"6",
 					"A desiccated body part\u2014such as an eye, finger, or horn\u2014that was once part of you or someone you knew."
+				]
+			]
+		},
+		{
+			"name": "Titan Appearance",
+			"source": "XUA2026VillainousOptions",
+			"page": 3,
+			"colLabels": [
+				"1d4",
+				"{@creature Behemoth|XUA2026VillainousOptions}",
+				"{@creature Leviathan|XUA2026VillainousOptions}",
+				"{@creature Insectoid|XUA2026VillainousOptions}"
+			],
+			"colStyles": [
+				"col-3 text-center",
+				"col-3",
+				"col-3",
+				"col-3"
+			],
+			"rows": [
+				[
+					"1",
+					"Reflective scales",
+					"Many-tentacled",
+					"Iridescent wings"
+				],
+				[
+					"2",
+					"Multiple heads",
+					"Translucent and blob-like",
+					"Compound eyes"
+				],
+				[
+					"3",
+					"Reptilian tail",
+					"Lamprey-like mouth",
+					"Chitinous horns"
+				],
+				[
+					"4",
+					"Woolly and simian",
+					"Serpentine body",
+					"Bioluminescent exoskeleton"
 				]
 			]
 		}
