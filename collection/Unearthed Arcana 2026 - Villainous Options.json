@@ -22,6 +22,58 @@
 		"dateAdded": 1775151346,
 		"dateLastModified": 1775151346
 	},
+	"subclass": [
+		{
+			"name": "Pestilence Domain",
+			"shortName": "Pestilence",
+			"source": "XUA2026VillainousOptions",
+			"className": "Cleric",
+			"classSource": "XPHB",
+			"page": 1,
+			"additionalSpells": [
+				{
+					"prepared": {
+						"3": [
+							"Detect Poison and Disease|XPHB",
+							"Protection from Poison|XPHB",
+							"Ray of Enfeeblement|XPHB",
+							"Ray of Sickness|XPHB"
+						],
+						"5": [
+							"Stinking Cloud|XPHB",
+							"Vampiric Touch|XPHB"
+						],
+						"7": [
+							"Blight|XPHB",
+							"Giant Insect|XPHB"
+						],
+						"9": [
+							"Contagion|XPHB",
+							"Insect Plague|XPHB"
+						]
+					}
+				}
+			],
+			"subclassSpells": [
+				"Detect Poison and Disease|XPHB",
+				"Protection from Poison|XPHB",
+				"Ray of Enfeeblement|XPHB",
+				"Ray of Sickness|XPHB",
+				"Stinking Cloud|XPHB",
+				"Vampiric Touch|XPHB",
+				"Blight|XPHB",
+				"Giant Insect|XPHB",
+				"Contagion|XPHB",
+				"Insect Plague|XPHB"
+			],
+			"subclassFeatures": [
+				"Pestilence Domain|Cleric|XPHB|Pestilence|XUA2026VillainousOptions|3|XUA2026VillainousOptions",
+				"Virulent Burst|Cleric|XPHB|Pestilence|XUA2026VillainousOptions|6|XUA2026VillainousOptions",
+				"Vermin Form|Cleric|XPHB|Pestilence|XUA2026VillainousOptions|17|XUA2026VillainousOptions"
+			],
+			"hasFluff": true
+		}
+	],
 	"subclassFluff": [
 		{
 			"name": "Circle of the Titan",
@@ -62,6 +114,223 @@
 			"entries": [
 				"{@i Foment Plague and Rot}"
 			]
+		}
+	],
+	"subclassFeature": [
+		{
+			"name": "Pestilence Domain",
+			"source": "XUA2026VillainousOptions",
+			"page": 1,
+			"className": "Cleric",
+			"classSource": "XPHB",
+			"subclassShortName": "Pestilence",
+			"subclassSource": "XUA2026VillainousOptions",
+			"level": 3,
+			"header": 1,
+			"entries": [
+				"Clerics of the Pestilence Domain harness supernatural plague and decay to erode their enemies' vitality. Though common folk often regard pestilence as a force of rampant destruction, Clerics of this domain wield it with surgical precision.",
+				"The Pestilence Domain is associated with gods of poison, disease, famine, and rot. These deities use blighted crops, magical outbreaks, and swarms of insects and vermin to motivate or punish mortals in accordance with their doctrines. Their followers include apothecaries, doctors, poisoners, and royal tasters. Other followers might devote themselves to a god of pestilence to spare their communities or loved ones from plague.",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Blight Weaver|Cleric|XPHB|Pestilence|XUA2026VillainousOptions|3|XUA2026VillainousOptions"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Pestilence Domain Spells|Cleric|XPHB|Pestilence|XUA2026VillainousOptions|3|XUA2026VillainousOptions"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Plague Blessing|Cleric|XPHB|Pestilence|XUA2026VillainousOptions|3|XUA2026VillainousOptions"
+				}
+			]
+		},
+		{
+			"name": "Blight Weaver",
+			"source": "XUA2026VillainousOptions",
+			"page": 1,
+			"className": "Cleric",
+			"classSource": "XPHB",
+			"subclassShortName": "Pestilence",
+			"subclassSource": "XUA2026VillainousOptions",
+			"level": 3,
+			"header": 2,
+			"entries": [
+				"You gain the following benefits.",
+				{
+					"type": "list",
+					"style": "list-hang-subtrait",
+					"page": 1,
+					"items": [
+						{
+							"type": "item",
+							"name": "Inoculated Soul",
+							"entries": [
+								"You have {@variantrule Resistance|XPHB} to Necrotic and Poison damage, and you can't be infected by magical contagions."
+							]
+						},
+						{
+							"type": "item",
+							"name": "Rot and Fester",
+							"entries": [
+								"Damage from your Cleric spells and Cleric features ignores {@variantrule Resistance|XPHB} to Necrotic and Poison damage. Additionally, when you cast a Cleric spell or use a Cleric feature that deals either Necrotic or Poison damage, you can change that damage to the other type."
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Pestilence Domain Spells",
+			"source": "XUA2026VillainousOptions",
+			"page": 1,
+			"className": "Cleric",
+			"classSource": "XPHB",
+			"subclassShortName": "Pestilence",
+			"subclassSource": "XUA2026VillainousOptions",
+			"level": 3,
+			"header": 2,
+			"entries": [
+				"Your connection to this divine domain ensures you always have certain spells ready. When you reach a Cleric level specified in the {@table Pestilence Domain Spells|XUA2026VillainousOptions} table, you thereafter always have the listed spells prepared.",
+				{
+					"type": "statblock",
+					"tag": "table",
+					"source": "XUA2026VillainousOptions",
+					"name": "Pestilence Domain Spells",
+					"page": 1
+				}
+			]
+		},
+		{
+			"name": "Plague Blessing",
+			"source": "XUA2026VillainousOptions",
+			"page": 2,
+			"className": "Cleric",
+			"classSource": "XPHB",
+			"subclassShortName": "Pestilence",
+			"subclassSource": "XUA2026VillainousOptions",
+			"level": 3,
+			"header": 2,
+			"consumes": {
+				"name": "Channel Divinity"
+			},
+			"entries": [
+				"As a {@action Magic|XPHB} action, you can present your {@item Holy Symbol|XPHB} and expend a use of Channel Divinity to manifest a 5-foot {@variantrule Emanation [Area of Effect]|XPHB|Emanation} of withering plague that surrounds you or one willing creature you touch for 1 minute. It ends early if you dismiss it (no action required), manifest it again, or have the {@condition Incapacitated} condition.",
+				"Each creature of your choice that starts its turn in the {@variantrule Emanation [Area of Effect]|XPHB|Emanation} must succeed on a Constitution saving throw against {@dcYourSpellSave} or gain 1 {@condition Exhaustion} level. This feature can't increase a creature's {@condition Exhaustion} level higher than a level equal to your Wisdom modifier (minimum of 1 {@condition Exhaustion} level). For example, if you have a Wisdom score of 16, this feature can't increase a creature's {@condition Exhaustion} level higher than 3.",
+				"The plague spread by this feature manifests with a specific symptom. Choose it from the {@table Plague Symptoms|XUA2026VillainousOptions} table or determine it randomly.",
+				{
+					"type": "statblock",
+					"tag": "table",
+					"source": "XUA2026VillainousOptions",
+					"name": "Plague Symptoms",
+					"page": 1
+				}
+			]
+		},
+		{
+			"name": "Virulent Burst",
+			"source": "XUA2026VillainousOptions",
+			"page": 2,
+			"className": "Cleric",
+			"classSource": "XPHB",
+			"subclassShortName": "Pestilence",
+			"subclassSource": "XUA2026VillainousOptions",
+			"level": 6,
+			"header": 2,
+			"entries": [
+				"When an enemy within 60 feet of you is reduced to 0 {@variantrule Hit Points|XPHB}, you can take a {@variantrule Reaction|XPHB} to cause plague to burst from that creature, spreading pestilence in a 10-foot {@variantrule Emanation [Area of Effect]|XPHB|Emanation} originating from the enemy; if the enemy had at least 1 {@condition Exhaustion} level, the size of the {@variantrule Emanation [Area of Effect]|XPHB|Emanation} increases to 20 feet.",
+				"Each creature of your choice in the {@variantrule Emanation [Area of Effect]|XPHB|Emanation} makes a Constitution saving throw against {@dcYourSpellSave}. On a failed save, a target suffers one of the following effects:",
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"items": [
+						{
+							"type": "item",
+							"name": "Putrid Shock",
+							"entries": [
+								"The target has the {@condition Incapacitated} condition until the end of its next turn. While {@condition Incapacitated}, the target's {@variantrule Speed|XPHB} is 0."
+							]
+						},
+						{
+							"type": "item",
+							"name": "Toxic Infection",
+							"entries": [
+								"The target takes {@damage 3d6} Necrotic or Poison damage (your choice)."
+							]
+						}
+					]
+				},
+				"You can use this feature a number of times equal to your Wisdom modifier (minimum of once), and you regain all expended uses when you finish a {@variantrule Long Rest|XPHB}."
+			]
+		},
+		{
+			"name": "Vermin Form",
+			"source": "XUA2026VillainousOptions",
+			"page": 2,
+			"className": "Cleric",
+			"classSource": "XPHB",
+			"subclassShortName": "Pestilence",
+			"subclassSource": "XUA2026VillainousOptions",
+			"level": 17,
+			"header": 2,
+			"entries": [
+				"As a {@variantrule Bonus Action|XPHB}, you can shape-shift into a Medium swarm of Tiny pests, such as cockroaches, maggots, or rats. While you're in this form, you retain your general shape, personality, memories, and the ability to speak; any equipment you're wearing or carrying doesn't transform with you, but you can continue using that equipment while in this form. Your game statistics remain the same, apart from the following changes:",
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"items": [
+						{
+							"type": "item",
+							"name": "Condition Immunities",
+							"entries": [
+								"You have Immunity to the {@condition Grappled}, {@condition Paralyzed}, {@condition Prone}, and {@condition Restrained} conditions."
+							]
+						},
+						{
+							"type": "item",
+							"name": "Damage Resistances",
+							"entries": [
+								"You have {@variantrule Resistance|XPHB} to Bludgeoning, Piercing, and Slashing damage."
+							]
+						},
+						{
+							"type": "item",
+							"name": "Movement",
+							"entries": [
+								"You can enter and occupy another creature's space and vice versa. Additionally, you have a {@variantrule Climb Speed|XPHB} equal to your {@variantrule Speed|XPHB}, and you can climb difficult surfaces\u2014including along ceilings\u2014without needing to make an ability check."
+							]
+						},
+						{
+							"type": "item",
+							"name": "Plague Bites",
+							"entries": [
+								"Whenever you enter an enemy's space, that creature takes damage equal to your Wisdom modifier; the damage is Necrotic, Piercing, or Poison (your choice). A creature also takes this damage when it enters your space or ends its turn there. A creature takes this damage only once per turn."
+							]
+						}
+					]
+				},
+				"You revert to your true form after 10 minutes, if you choose to end the transformation (no action required), if you have the {@condition Incapacitated} condition, or if you die.",
+				"Once you use this feature, you can't use it again until you finish a {@variantrule Long Rest|XPHB} unless you expend a level 5+ spell slot (no action required) to restore your use of it."
+			]
+		}
+	],
+	"foundrySubclassFeature": [
+		{
+			"name": "Blight Weaver",
+			"source": "XUA2026VillainousOptions",
+			"className": "Cleric",
+			"classSource": "XPHB",
+			"subclassShortName": "Pestilence",
+			"subclassSource": "XUA2026VillainousOptions",
+			"level": 3,
+			"entryData": {
+				"resist": [
+					"necrotic",
+					"poison"
+				],
+				"conditionImmune": [
+					"disease"
+				]
+			}
 		}
 	],
 	"feat": [
@@ -956,6 +1225,76 @@
 				[
 					"6",
 					"Corrupt your soul so completely no afterlife will accept it."
+				]
+			]
+		},
+		{
+			"name": "Pestilence Domain Spells",
+			"source": "XUA2026VillainousOptions",
+			"page": 1,
+			"colLabels": [
+				"Cleric Level",
+				"Prepared Spells"
+			],
+			"colStyles": [
+				"col-2 text-center",
+				"col-10"
+			],
+			"rows": [
+				[
+					"3",
+					"{@spell Detect Poison and Disease|XPHB}, {@spell Protection from Poison|XPHB}, {@spell Ray of Enfeeblement|XPHB}, {@spell Ray of Sickness|XPHB}"
+				],
+				[
+					"5",
+					"{@spell Stinking Cloud|XPHB}, {@spell Vampiric Touch|XPHB}"
+				],
+				[
+					"7",
+					"{@spell Blight|XPHB}, {@spell Giant Insect|XPHB}"
+				],
+				[
+					"9",
+					"{@spell Contagion|XPHB}, {@spell Insect Plague|XPHB}"
+				]
+			]
+		},
+		{
+			"name": "Plague Symptoms",
+			"source": "XUA2026VillainousOptions",
+			"page": 2,
+			"colLabels": [
+				"1d6",
+				"While Infected, a Creature..."
+			],
+			"colStyles": [
+				"col-2 text-center",
+				"col-10"
+			],
+			"rows": [
+				[
+					"1",
+					"Is drained of all color, appearing in monochromatic grays."
+				],
+				[
+					"2",
+					"Sheds metallic, rust-hued flakes and creaks while moving."
+				],
+				[
+					"3",
+					"Secretes foul-smelling mucus."
+				],
+				[
+					"4",
+					"Is surrounded by a cloud of buzzing insects."
+				],
+				[
+					"5",
+					"Sprouts fungi or other foliage from its flesh."
+				],
+				[
+					"6",
+					"Is covered in glowing pustules."
 				]
 			]
 		},
