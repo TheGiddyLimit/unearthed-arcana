@@ -1,0 +1,2982 @@
+{
+	"$schema": "https://raw.githubusercontent.com/TheGiddyLimit/5etools-utils/master/schema/ua-fast/homebrew.json",
+	"_meta": {
+		"sources": [
+			{
+				"json": "XUA2026VillainousOptions",
+				"abbreviation": "XUA26VO",
+				"full": "Unearthed Arcana 2026: Villainous Options",
+				"url": "https://media.dndbeyond.com/compendium-images/ua/villainous-options/VRQr4YbETAgmpWRj/UA2026-VillainousOptions.pdf",
+				"version": "1.0.0",
+				"dateReleased": "2026-04-02",
+				"authors": [
+					"Wizards of the Coast"
+				],
+				"convertedBy": [
+					"Lyra [he/him]"
+				]
+			}
+		],
+		"edition": "one",
+		"status": "ready",
+		"dateAdded": 1775151346,
+		"dateLastModified": 1775417833,
+		"_dateLastModifiedHash": "2b047c3144"
+	},
+	"subclass": [
+		{
+			"name": "Circle of the Titan",
+			"shortName": "Titan",
+			"source": "XUA2026VillainousOptions",
+			"className": "Druid",
+			"classSource": "XPHB",
+			"page": 3,
+			"additionalSpells": [
+				{
+					"prepared": {
+						"3": [
+							"Cure Wounds|XPHB",
+							"Longstrider|XPHB",
+							"Thaumaturgy|XPHB"
+						],
+						"5": [
+							"Fear|XPHB"
+						],
+						"7": [
+							"Stoneskin|XPHB"
+						],
+						"9": [
+							"Destructive Wave|XPHB"
+						]
+					}
+				}
+			],
+			"subclassSpells": [
+				"Cure Wounds|XPHB",
+				"Longstrider|XPHB",
+				"Thaumaturgy|XPHB",
+				"Fear|XPHB",
+				"Stoneskin|XPHB",
+				"Destructive Wave|XPHB"
+			],
+			"subclassFeatures": [
+				"Circle of the Titan|Druid|XPHB|Titan|XUA2026VillainousOptions|3|XUA2026VillainousOptions",
+				"Dire impact|Druid|XPHB|Titan|XUA2026VillainousOptions|6|XUA2026VillainousOptions",
+				"Primal Havoc|Druid|XPHB|Titan|XUA2026VillainousOptions|10|XUA2026VillainousOptions",
+				"Monstrous Appetite|Druid|XPHB|Titan|XUA2026VillainousOptions|14|XUA2026VillainousOptions"
+			],
+			"hasFluff": true
+		},
+		{
+			"name": "Demonic Sorcery",
+			"shortName": "Demonic",
+			"source": "XUA2026VillainousOptions",
+			"className": "Sorcerer",
+			"classSource": "XPHB",
+			"page": 7,
+			"additionalSpells": [
+				{
+					"prepared": {
+						"3": [
+							"Detect Magic|XPHB",
+							"Entangle|XPHB",
+							"Misty Step|XPHB",
+							"Spider Climb|XPHB"
+						],
+						"5": [
+							"Dispel Magic|XPHB",
+							"Gaseous Form|XPHB"
+						],
+						"7": [
+							"Confusion|XPHB",
+							"Hallucinatory Terrain|XPHB"
+						],
+						"9": [
+							"Contact Other Plane|XPHB",
+							"Hallow|XPHB"
+						]
+					},
+					"innate": {
+						"18": {
+							"daily": {
+								"1e": [
+									"Summon Fiend|XPHB"
+								]
+							}
+						}
+					}
+				}
+			],
+			"subclassSpells": [
+				"Detect Magic|XPHB",
+				"Entangle|XPHB",
+				"Misty Step|XPHB",
+				"Spider Climb|XPHB",
+				"Dispel Magic|XPHB",
+				"Gaseous Form|XPHB",
+				"Confusion|XPHB",
+				"Hallucinatory Terrain|XPHB",
+				"Contact Other Plane|XPHB",
+				"Hallow|XPHB",
+				"Summon Fiend|XPHB"
+			],
+			"subclassFeatures": [
+				"Demonic Sorcery|Sorcerer|XPHB|Demonic|XUA2026VillainousOptions|3|XUA2026VillainousOptions",
+				"Abyssal Aura|Sorcerer|XPHB|Demonic|XUA2026VillainousOptions|6|XUA2026VillainousOptions",
+				"Abyssal Conduit|Sorcerer|XPHB|Demonic|XUA2026VillainousOptions|14|XUA2026VillainousOptions",
+				"Fiendish Servant|Sorcerer|XPHB|Demonic|XUA2026VillainousOptions|18|XUA2026VillainousOptions"
+			],
+			"hasFluff": true
+		},
+		{
+			"name": "Hell Knight",
+			"shortName": "Hell Knight",
+			"source": "XUA2026VillainousOptions",
+			"className": "Fighter",
+			"classSource": "XPHB",
+			"page": 6,
+			"subclassFeatures": [
+				"Hell Knight|Fighter|XPHB|Hell Knight|XUA2026VillainousOptions|3|XUA2026VillainousOptions",
+				"Advanced Wounds|Fighter|XPHB|Hell Knight|XUA2026VillainousOptions|7|XUA2026VillainousOptions",
+				"Hell-Forged Equipment|Fighter|XPHB|Hell Knight|XUA2026VillainousOptions|7|XUA2026VillainousOptions",
+				"Hellfire Surge|Fighter|XPHB|Hell Knight|XUA2026VillainousOptions|10|XUA2026VillainousOptions",
+				"Blister of Avernus|Fighter|XPHB|Hell Knight|XUA2026VillainousOptions|15|XUA2026VillainousOptions",
+				"Hellfire Condemnation|Fighter|XPHB|Hell Knight|XUA2026VillainousOptions|18|XUA2026VillainousOptions",
+				"Infernal Bargain|Fighter|XPHB|Hell Knight|XUA2026VillainousOptions|18|XUA2026VillainousOptions"
+			],
+			"hasFluff": true
+		},
+		{
+			"name": "Pestilence Domain",
+			"shortName": "Pestilence",
+			"source": "XUA2026VillainousOptions",
+			"className": "Cleric",
+			"classSource": "XPHB",
+			"page": 1,
+			"additionalSpells": [
+				{
+					"prepared": {
+						"3": [
+							"Detect Poison and Disease|XPHB",
+							"Protection from Poison|XPHB",
+							"Ray of Enfeeblement|XPHB",
+							"Ray of Sickness|XPHB"
+						],
+						"5": [
+							"Stinking Cloud|XPHB",
+							"Vampiric Touch|XPHB"
+						],
+						"7": [
+							"Blight|XPHB",
+							"Giant Insect|XPHB"
+						],
+						"9": [
+							"Contagion|XPHB",
+							"Insect Plague|XPHB"
+						]
+					}
+				}
+			],
+			"subclassSpells": [
+				"Detect Poison and Disease|XPHB",
+				"Protection from Poison|XPHB",
+				"Ray of Enfeeblement|XPHB",
+				"Ray of Sickness|XPHB",
+				"Stinking Cloud|XPHB",
+				"Vampiric Touch|XPHB",
+				"Blight|XPHB",
+				"Giant Insect|XPHB",
+				"Contagion|XPHB",
+				"Insect Plague|XPHB"
+			],
+			"subclassFeatures": [
+				"Pestilence Domain|Cleric|XPHB|Pestilence|XUA2026VillainousOptions|3|XUA2026VillainousOptions",
+				"Virulent Burst|Cleric|XPHB|Pestilence|XUA2026VillainousOptions|6|XUA2026VillainousOptions",
+				"Vermin Form|Cleric|XPHB|Pestilence|XUA2026VillainousOptions|17|XUA2026VillainousOptions"
+			],
+			"hasFluff": true
+		}
+	],
+	"subclassFluff": [
+		{
+			"name": "Circle of the Titan",
+			"shortName": "Titan",
+			"source": "XUA2026VillainousOptions",
+			"className": "Druid",
+			"classSource": "XPHB",
+			"entries": [
+				"{@i Wreak Colossal Havoc}"
+			]
+		},
+		{
+			"name": "Demonic Sorcery",
+			"shortName": "Demonic",
+			"source": "XUA2026VillainousOptions",
+			"className": "Sorcerer",
+			"classSource": "XPHB",
+			"entries": [
+				"{@i Summon the Powers of the Abyss}"
+			]
+		},
+		{
+			"name": "Hell Knight",
+			"shortName": "Hell Knight",
+			"source": "XUA2026VillainousOptions",
+			"className": "Fighter",
+			"classSource": "XPHB",
+			"entries": [
+				"{@i Inflict Hellish Wounds and Damn Enemies}"
+			]
+		},
+		{
+			"name": "Pestilence Domain",
+			"shortName": "Pestilence",
+			"source": "XUA2026VillainousOptions",
+			"className": "Cleric",
+			"classSource": "XPHB",
+			"entries": [
+				"{@i Foment Plague and Rot}"
+			]
+		}
+	],
+	"subclassFeature": [
+		{
+			"name": "Pestilence Domain",
+			"source": "XUA2026VillainousOptions",
+			"page": 1,
+			"className": "Cleric",
+			"classSource": "XPHB",
+			"subclassShortName": "Pestilence",
+			"subclassSource": "XUA2026VillainousOptions",
+			"level": 3,
+			"header": 1,
+			"entries": [
+				"Clerics of the Pestilence Domain harness supernatural plague and decay to erode their enemies' vitality. Though common folk often regard pestilence as a force of rampant destruction, Clerics of this domain wield it with surgical precision.",
+				"The Pestilence Domain is associated with gods of poison, disease, famine, and rot. These deities use blighted crops, magical outbreaks, and swarms of insects and vermin to motivate or punish mortals in accordance with their doctrines. Their followers include apothecaries, doctors, poisoners, and royal tasters. Other followers might devote themselves to a god of pestilence to spare their communities or loved ones from plague.",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Blight Weaver|Cleric|XPHB|Pestilence|XUA2026VillainousOptions|3|XUA2026VillainousOptions"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Pestilence Domain Spells|Cleric|XPHB|Pestilence|XUA2026VillainousOptions|3|XUA2026VillainousOptions"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Plague Blessing|Cleric|XPHB|Pestilence|XUA2026VillainousOptions|3|XUA2026VillainousOptions"
+				}
+			]
+		},
+		{
+			"name": "Blight Weaver",
+			"source": "XUA2026VillainousOptions",
+			"page": 1,
+			"className": "Cleric",
+			"classSource": "XPHB",
+			"subclassShortName": "Pestilence",
+			"subclassSource": "XUA2026VillainousOptions",
+			"level": 3,
+			"header": 2,
+			"entries": [
+				"You gain the following benefits.",
+				{
+					"type": "list",
+					"style": "list-hang-subtrait",
+					"page": 1,
+					"items": [
+						{
+							"type": "item",
+							"name": "Inoculated Soul",
+							"entries": [
+								"You have {@variantrule Resistance|XPHB} to Necrotic and Poison damage, and you can't be infected by magical contagions."
+							]
+						},
+						{
+							"type": "item",
+							"name": "Rot and Fester",
+							"entries": [
+								"Damage from your Cleric spells and Cleric features ignores {@variantrule Resistance|XPHB} to Necrotic and Poison damage. Additionally, when you cast a Cleric spell or use a Cleric feature that deals either Necrotic or Poison damage, you can change that damage to the other type."
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Pestilence Domain Spells",
+			"source": "XUA2026VillainousOptions",
+			"page": 1,
+			"className": "Cleric",
+			"classSource": "XPHB",
+			"subclassShortName": "Pestilence",
+			"subclassSource": "XUA2026VillainousOptions",
+			"level": 3,
+			"header": 2,
+			"entries": [
+				"Your connection to this divine domain ensures you always have certain spells ready. When you reach a Cleric level specified in the {@table Pestilence Domain Spells|XUA2026VillainousOptions} table, you thereafter always have the listed spells prepared.",
+				{
+					"type": "statblock",
+					"tag": "table",
+					"source": "XUA2026VillainousOptions",
+					"name": "Pestilence Domain Spells",
+					"page": 1
+				}
+			]
+		},
+		{
+			"name": "Plague Blessing",
+			"source": "XUA2026VillainousOptions",
+			"page": 2,
+			"className": "Cleric",
+			"classSource": "XPHB",
+			"subclassShortName": "Pestilence",
+			"subclassSource": "XUA2026VillainousOptions",
+			"level": 3,
+			"header": 2,
+			"consumes": {
+				"name": "Channel Divinity"
+			},
+			"entries": [
+				"As a {@action Magic|XPHB} action, you can present your {@item Holy Symbol|XPHB} and expend a use of Channel Divinity to manifest a 5-foot {@variantrule Emanation [Area of Effect]|XPHB|Emanation} of withering plague that surrounds you or one willing creature you touch for 1 minute. It ends early if you dismiss it (no action required), manifest it again, or have the {@condition Incapacitated} condition.",
+				"Each creature of your choice that starts its turn in the {@variantrule Emanation [Area of Effect]|XPHB|Emanation} must succeed on a Constitution saving throw against {@dcYourSpellSave} or gain 1 {@condition Exhaustion} level. This feature can't increase a creature's {@condition Exhaustion} level higher than a level equal to your Wisdom modifier (minimum of 1 {@condition Exhaustion} level). For example, if you have a Wisdom score of 16, this feature can't increase a creature's {@condition Exhaustion} level higher than 3.",
+				"The plague spread by this feature manifests with a specific symptom. Choose it from the {@table Plague Symptoms|XUA2026VillainousOptions} table or determine it randomly.",
+				{
+					"type": "statblock",
+					"tag": "table",
+					"source": "XUA2026VillainousOptions",
+					"name": "Plague Symptoms",
+					"page": 1
+				}
+			]
+		},
+		{
+			"name": "Virulent Burst",
+			"source": "XUA2026VillainousOptions",
+			"page": 2,
+			"className": "Cleric",
+			"classSource": "XPHB",
+			"subclassShortName": "Pestilence",
+			"subclassSource": "XUA2026VillainousOptions",
+			"level": 6,
+			"header": 2,
+			"entries": [
+				"When an enemy within 60 feet of you is reduced to 0 {@variantrule Hit Points|XPHB}, you can take a {@variantrule Reaction|XPHB} to cause plague to burst from that creature, spreading pestilence in a 10-foot {@variantrule Emanation [Area of Effect]|XPHB|Emanation} originating from the enemy; if the enemy had at least 1 {@condition Exhaustion} level, the size of the {@variantrule Emanation [Area of Effect]|XPHB|Emanation} increases to 20 feet.",
+				"Each creature of your choice in the {@variantrule Emanation [Area of Effect]|XPHB|Emanation} makes a Constitution saving throw against {@dcYourSpellSave}. On a failed save, a target suffers one of the following effects:",
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"items": [
+						{
+							"type": "item",
+							"name": "Putrid Shock",
+							"entries": [
+								"The target has the {@condition Incapacitated} condition until the end of its next turn. While {@condition Incapacitated}, the target's {@variantrule Speed|XPHB} is 0."
+							]
+						},
+						{
+							"type": "item",
+							"name": "Toxic Infection",
+							"entries": [
+								"The target takes {@damage 3d6} Necrotic or Poison damage (your choice)."
+							]
+						}
+					]
+				},
+				"You can use this feature a number of times equal to your Wisdom modifier (minimum of once), and you regain all expended uses when you finish a {@variantrule Long Rest|XPHB}."
+			]
+		},
+		{
+			"name": "Vermin Form",
+			"source": "XUA2026VillainousOptions",
+			"page": 2,
+			"className": "Cleric",
+			"classSource": "XPHB",
+			"subclassShortName": "Pestilence",
+			"subclassSource": "XUA2026VillainousOptions",
+			"level": 17,
+			"header": 2,
+			"entries": [
+				"As a {@variantrule Bonus Action|XPHB}, you can shape-shift into a Medium swarm of Tiny pests, such as cockroaches, maggots, or rats. While you're in this form, you retain your general shape, personality, memories, and the ability to speak; any equipment you're wearing or carrying doesn't transform with you, but you can continue using that equipment while in this form. Your game statistics remain the same, apart from the following changes:",
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"items": [
+						{
+							"type": "item",
+							"name": "Condition Immunities",
+							"entries": [
+								"You have Immunity to the {@condition Grappled}, {@condition Paralyzed}, {@condition Prone}, and {@condition Restrained} conditions."
+							]
+						},
+						{
+							"type": "item",
+							"name": "Damage Resistances",
+							"entries": [
+								"You have {@variantrule Resistance|XPHB} to Bludgeoning, Piercing, and Slashing damage."
+							]
+						},
+						{
+							"type": "item",
+							"name": "Movement",
+							"entries": [
+								"You can enter and occupy another creature's space and vice versa. Additionally, you have a {@variantrule Climb Speed|XPHB} equal to your {@variantrule Speed|XPHB}, and you can climb difficult surfaces\u2014including along ceilings\u2014without needing to make an ability check."
+							]
+						},
+						{
+							"type": "item",
+							"name": "Plague Bites",
+							"entries": [
+								"Whenever you enter an enemy's space, that creature takes damage equal to your Wisdom modifier; the damage is Necrotic, Piercing, or Poison (your choice). A creature also takes this damage when it enters your space or ends its turn there. A creature takes this damage only once per turn."
+							]
+						}
+					]
+				},
+				"You revert to your true form after 10 minutes, if you choose to end the transformation (no action required), if you have the {@condition Incapacitated} condition, or if you die.",
+				"Once you use this feature, you can't use it again until you finish a {@variantrule Long Rest|XPHB} unless you expend a level 5+ spell slot (no action required) to restore your use of it."
+			]
+		},
+		{
+			"name": "Circle of the Titan",
+			"source": "XUA2026VillainousOptions",
+			"page": 3,
+			"className": "Druid",
+			"classSource": "XPHB",
+			"subclassShortName": "Titan",
+			"subclassSource": "XUA2026VillainousOptions",
+			"level": 3,
+			"header": 1,
+			"entries": [
+				"When civilization violates the natural world\u2014by deforesting ancient groves, polluting sacred waters, or hunting wildlife to the brink of extinction\u2014Druids of the Circle of the Titan intervene. Druids of this order believe that for nature to thrive, society must sometimes fall. To this end, they assume towering, monstrous forms to mete out cataclysmic retribution and forcibly restore the natural order.",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Circle of the Titan Spells|Druid|XPHB|Titan|XUA2026VillainousOptions|3|XUA2026VillainousOptions"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Titan Form|Druid|XPHB|Titan|XUA2026VillainousOptions|3|XUA2026VillainousOptions"
+				}
+			]
+		},
+		{
+			"name": "Circle of the Titan Spells",
+			"source": "XUA2026VillainousOptions",
+			"page": 3,
+			"className": "Druid",
+			"classSource": "XPHB",
+			"subclassShortName": "Titan",
+			"subclassSource": "XUA2026VillainousOptions",
+			"level": 3,
+			"header": 2,
+			"entries": [
+				"When you reach a Druid level specified in the {@table Circle of the Titan Spells|XUA2026VillainousOptions} table, you thereafter always have the listed spells prepared.",
+				"In addition, you can cast the spells from this feature while you're in your {@subclassFeature Titan Form|Druid|XPHB|Titan|XUA2026VillainousOptions|3|XUA2026VillainousOptions}.",
+				{
+					"type": "statblock",
+					"tag": "table",
+					"source": "XUA2026VillainousOptions",
+					"name": "Circle of the Titan Spells",
+					"page": 3
+				}
+			]
+		},
+		{
+			"name": "Titan Form",
+			"source": "XUA2026VillainousOptions",
+			"page": 3,
+			"className": "Druid",
+			"classSource": "XPHB",
+			"subclassShortName": "Titan",
+			"subclassSource": "XUA2026VillainousOptions",
+			"level": 3,
+			"header": 2,
+			"entries": [
+				"When you use {@classFeature Wild Shape|Druid|XPHB|2|XPHB}, you can adopt a Titan Form, choosing from the {@creature Behemoth|XUA2026VillainousOptions}, {@creature Leviathan|XUA2026VillainousOptions}, and {@creature Insectoid|XUA2026VillainousOptions} stat blocks presented later in this subclass's description.",
+				"You determine what your Titan Form looks like. Roll on or choose from the {@table Titan Appearance|XUA2026VillainousOptions} table to inspire aspects of your form's appearance.",
+				{
+					"type": "statblock",
+					"tag": "table",
+					"source": "XUA2026VillainousOptions",
+					"name": "Titan Appearance",
+					"page": 3
+				},
+				{
+					"type": "statblock",
+					"tag": "creature",
+					"source": "XUA2026VillainousOptions",
+					"name": "Behemoth",
+					"page": 4,
+					"collapsed": true
+				},
+				{
+					"type": "statblock",
+					"tag": "creature",
+					"source": "XUA2026VillainousOptions",
+					"name": "Leviathan",
+					"page": 4,
+					"collapsed": true
+				},
+				{
+					"type": "statblock",
+					"tag": "creature",
+					"source": "XUA2026VillainousOptions",
+					"name": "Insectoid",
+					"page": 5,
+					"collapsed": true
+				}
+			]
+		},
+		{
+			"name": "Dire Impact",
+			"source": "XUA2026VillainousOptions",
+			"page": 3,
+			"className": "Druid",
+			"classSource": "XPHB",
+			"subclassShortName": "Titan",
+			"subclassSource": "XUA2026VillainousOptions",
+			"level": 6,
+			"header": 2,
+			"entries": [
+				"Your Titan Form brings greater devastation. You gain the following benefits.",
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"items": [
+						{
+							"type": "item",
+							"name": "Elemental Rend",
+							"entries": [
+								"Whenever you hit with your Titan Form's Rend attack, you can cause it to deal your choice of Acid, Cold, Fire, Lightning, or Thunder damage rather than its normal damage type."
+							]
+						},
+						{
+							"type": "item",
+							"name": "Shock Wave",
+							"entries": [
+								"Your transformation upheaves your surroundings. Immediately after you assume a Titan Form or by taking a {@variantrule Bonus Action|XPHB} to expend a level 1+ spell slot while in your Titan Form, you can create a shock wave in a 15-foot {@variantrule Emanation [Area of Effect]|XPHB|Emanation} originating from you. Each creature in the {@variantrule Emanation [Area of Effect]|XPHB|Emanation} must succeed on a Constitution saving throw against {@dcYourSpellSave} or have the {@condition Prone} condition."
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Primal Havoc",
+			"source": "XUA2026VillainousOptions",
+			"page": 3,
+			"className": "Druid",
+			"classSource": "XPHB",
+			"subclassShortName": "Titan",
+			"subclassSource": "XUA2026VillainousOptions",
+			"level": 10,
+			"header": 2,
+			"entries": [
+				"The unbridled power of nature surges within you, granting you the following benefits.",
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"items": [
+						{
+							"type": "item",
+							"name": "Improved Titan Form",
+							"entries": [
+								"You can choose to become Huge when assuming your Titan Form. Each Titan Form also gains an additional benefit, as noted in its respective stat block."
+							]
+						},
+						{
+							"type": "item",
+							"name": "Above It All",
+							"entries": [
+								"While you are Huge or larger in your Titan Form, {@variantrule Difficult Terrain|XPHB} caused by heavy snow, ice, rubble, or undergrowth doesn't cost you extra movement."
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Monstrous Appetite",
+			"source": "XUA2026VillainousOptions",
+			"page": 3,
+			"className": "Druid",
+			"classSource": "XPHB",
+			"subclassShortName": "Titan",
+			"subclassSource": "XUA2026VillainousOptions",
+			"level": 14,
+			"header": 2,
+			"entries": [
+				"Your transformation embodies the vast size and terror of nature's titans. You gain the following benefits.",
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"items": [
+						{
+							"type": "item",
+							"name": "Gargantuan Size",
+							"entries": [
+								"You can choose to become Gargantuan when assuming your Titan Form."
+							]
+						},
+						{
+							"type": "item",
+							"name": "Grappling Rend",
+							"entries": [
+								"Once per turn when you are Huge or larger and hit a creature with your Rend attack of your Titan Form, you can give the target the {@condition Grappled} condition (escape DC equals {@dcYourSpellSave}). You can have only one target {@condition grappled} in this way at a time."
+							]
+						},
+						{
+							"type": "item",
+							"name": "Swallow",
+							"entries": [
+								"As a {@variantrule Bonus Action|XPHB} while you are Gargantuan, choose one Large or smaller creature {@condition Grappled} by you. The target makes a Strength saving throw against {@dcYourSpellSave}. On a failure, you swallow the target, and the {@condition Grappled} condition ends on it. A swallowed creature has the {@condition Blinded} and {@condition Restrained} conditions, has {@variantrule Cover|XPHB|Total Cover} against attacks and other effects outside of your stomach, and takes {@damage 2d8} Acid damage at the start of each of your turns.",
+								"The number of creatures you can have swallowed at a time equals your Wisdom modifier (minimum of one creature). You must maintain {@status Concentration} to hold swallowed creatures in your stomach. If you lose {@status Concentration} or leave your Titan Form, you regurgitate all swallowed creatures, each of which falls in a space within 10 feet of you and has the {@condition Prone} condition."
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Hell Knight",
+			"source": "XUA2026VillainousOptions",
+			"page": 6,
+			"className": "Fighter",
+			"classSource": "XPHB",
+			"subclassShortName": "Hell Knight",
+			"subclassSource": "XUA2026VillainousOptions",
+			"level": 3,
+			"header": 1,
+			"entries": [
+				"Hell Knights are the champions of archdevils and other high-ranking fiends of the Nine Hells, such as cambions and night hags. Armed with the techniques of the Nine Hells' fiercest warriors, Hell Knights inflict infernal wounds and fight with the tenacity of a devil.",
+				"Devils and other sinister figures employ Hell Knights to enact their will across the multiverse. A Hell Knight might serve as a soldier on the front lines of the Blood War, while another might be tasked with punishing creatures that violate infernal contracts or flee their consequences. Others act as interplanar bounty hunters, hastening the journey of wicked souls to the River Styx.",
+				"A Hell Knight's relationship with the Nine Hells is transactional. Archdevils see Hell Knights as an investment, and Hell Knights benefit in turn. The Hell Knight Pursuits table lists reasons why a Fighter might become a Hell Knight.",
+				{
+					"type": "statblock",
+					"tag": "table",
+					"source": "XUA2026VillainousOptions",
+					"name": "Hell Knight Pursuits",
+					"page": 6
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Diabolical Gift|Fighter|XPHB|Hell Knight|XUA2026VillainousOptions|3|XUA2026VillainousOptions"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Hellfire Weapon|Fighter|XPHB|Hell Knight|XUA2026VillainousOptions|3|XUA2026VillainousOptions"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Infernal Wound|Fighter|XPHB|Hell Knight|XUA2026VillainousOptions|3|XUA2026VillainousOptions"
+				}
+			]
+		},
+		{
+			"name": "Diabolical Gift",
+			"source": "XUA2026VillainousOptions",
+			"page": 6,
+			"className": "Fighter",
+			"classSource": "XPHB",
+			"subclassShortName": "Hell Knight",
+			"subclassSource": "XUA2026VillainousOptions",
+			"level": 3,
+			"header": 2,
+			"entries": [
+				"As a soldier for the agents of the Nine Hells, you've been given fiendish powers. You gain the following benefits.",
+				{
+					"type": "list",
+					"style": "list-hang-subtrait",
+					"items": [
+						{
+							"type": "item",
+							"name": "Devil's Sight",
+							"entries": [
+								"You can see normally in {@variantrule Dim Light|XPHB} and {@variantrule Darkness|XPHB}\u2014both magical and nonmagical\u2014within 120 feet of yourself."
+							]
+						},
+						{
+							"type": "item",
+							"name": "Devil's Tongue",
+							"entries": [
+								"You know {@language Infernal}, the language of devils. If you already know {@language Infernal}, you learn another language of your choice."
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Hellfire Weapon",
+			"source": "XUA2026VillainousOptions",
+			"page": 6,
+			"className": "Fighter",
+			"classSource": "XPHB",
+			"subclassShortName": "Hell Knight",
+			"subclassSource": "XUA2026VillainousOptions",
+			"level": 3,
+			"header": 2,
+			"entries": [
+				"When you take the {@action Attack} action, you can imbue one weapon that you are holding with hellfire, transforming it into a Hellfire Weapon. It remains transformed in this way for 10 minutes or until you use this feature again, you die, or the weapon is more than 5 feet away from you for 1 minute or more. You can also end this effect early (no action required).",
+				"While transformed into a Hellfire Weapon, a weapon emits {@variantrule Dim Light|XPHB} in a 5-foot {@variantrule Emanation [Area of Effect]|XPHB|Emanation}, and whenever you deal damage with the weapon, it can deal your choice of Fire damage or its normal damage type."
+			]
+		},
+		{
+			"name": "Infernal Wound",
+			"source": "XUA2026VillainousOptions",
+			"page": 6,
+			"className": "Fighter",
+			"classSource": "XPHB",
+			"subclassShortName": "Hell Knight",
+			"subclassSource": "XUA2026VillainousOptions",
+			"level": 3,
+			"header": 2,
+			"entries": [
+				"Your {@subclassFeature Hellfire Weapon|Fighter|XPHB|Hell Knight|XUA2026VillainousOptions|3|XUA2026VillainousOptions} can inflict infernal wounds.",
+				{
+					"type": "list",
+					"style": "list-hang-subtrait",
+					"items": [
+						{
+							"type": "item",
+							"name": "Infernal Wound Die",
+							"entries": [
+								"You have one Infernal Wound Die, which is a {@dice d6}."
+							]
+						},
+						{
+							"type": "item",
+							"name": "Inflicting Infernal Wounds",
+							"entries": [
+								"Once per turn when you hit a creature with your {@subclassFeature Hellfire Weapon|Fighter|XPHB|Hell Knight|XUA2026VillainousOptions|3|XUA2026VillainousOptions}, you can deal extra Fire damage equal to one roll of your Infernal Wound Die and give the target an infernal wound.",
+								"While wounded in this way, the target takes Fire damage equal to one roll of your Infernal Wound Die at the start of each of its turns. This effect lasts for 1 minute, until the target regains {@variantrule Hit Points|XPHB}, or until the target or a creature within 5 feet of the target takes an action to stanch the wound. A target can be affected by only one instance of this feature at a time.",
+								"You can use this feature a number of times equal to your Constitution modifier (minimum of once). You regain all expended uses when you finish a {@variantrule Short Rest|XPHB|Short} or {@variantrule Long Rest|XPHB}."
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Advanced Wounds",
+			"source": "XUA2026VillainousOptions",
+			"page": 6,
+			"className": "Fighter",
+			"classSource": "XPHB",
+			"subclassShortName": "Hell Knight",
+			"subclassSource": "XUA2026VillainousOptions",
+			"level": 7,
+			"header": 2,
+			"entries": [
+				"When you roll your Infernal Wound Die and roll a 6, you can apply one of the following effects.",
+				{
+					"type": "list",
+					"style": "list-hang-subtrait",
+					"items": [
+						{
+							"type": "item",
+							"name": "Purulence of Minauros",
+							"entries": [
+								"Caustic pus erupts from the wound. Each creature in a 5-foot {@variantrule Emanation [Area of Effect]|XPHB|Emanation} originating from the target takes Acid damage equal to your Constitution modifier, and the target has the {@condition Poisoned|XPHB} condition until the start of its next turn."
+							]
+						},
+						{
+							"type": "item",
+							"name": "Rupture of Cania",
+							"entries": [
+								"The wound ruptures with a spurt of arcane energy. The target takes Force damage equal to your Constitution modifier."
+							]
+						},
+						{
+							"type": "item",
+							"name": "Stygian Gangrene",
+							"entries": [
+								"Infernal rime spreads out from the wound. The target takes Cold damage equal to your Constitution modifier, and it can't take Reactions until the start of its next turn."
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Hell-Forged Equipment",
+			"source": "XUA2026VillainousOptions",
+			"page": 6,
+			"className": "Fighter",
+			"classSource": "XPHB",
+			"subclassShortName": "Hell Knight",
+			"subclassSource": "XUA2026VillainousOptions",
+			"level": 7,
+			"header": 2,
+			"entries": [
+				"Your armor and weapons embody infernal armaments forged in the fires of Avernus, granting you the following benefits.",
+				{
+					"type": "list",
+					"style": "list-hang-subtrait",
+					"items": [
+						{
+							"type": "item",
+							"name": "Fire Resistance",
+							"entries": [
+								"While wearing armor or wielding a {@spell Shield|XPHB}, you have {@variantrule Resistance|XPHB} to Fire damage."
+							]
+						},
+						{
+							"type": "item",
+							"name": "Unholy Fire",
+							"entries": [
+								"{@variantrule Damage|XPHB} from your weapon attacks and Fighter features ignores {@variantrule Resistance|XPHB} to Fire damage."
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Hellfire Surge",
+			"source": "XUA2026VillainousOptions",
+			"page": 7,
+			"className": "Fighter",
+			"classSource": "XPHB",
+			"subclassShortName": "Hell Knight",
+			"subclassSource": "XUA2026VillainousOptions",
+			"level": 10,
+			"header": 2,
+			"entries": [
+				"When you use your {@classFeature Action Surge|Fighter|XPHB|2|XPHB} while wearing armor or wielding a {@item Shield|XPHB}, you can superheat your equipment, causing it to erupt with hellfire in a 10-foot {@variantrule Emanation [Area of Effect]|XPHB|Emanation} originating from you. Each creature of your choice in the {@variantrule Emanation [Area of Effect]|XPHB|Emanation} must succeed on a Dexterity saving throw (DC equals 8 plus your Constitution modifier and Proficiency Bonus). On a failed save, a target takes Fire damage equal to one roll of your Infernal Wound Die and is burning. On a successful save, a target takes half as much damage only."
+			]
+		},
+		{
+			"name": "Blister of Avernus",
+			"source": "XUA2026VillainousOptions",
+			"page": 7,
+			"className": "Fighter",
+			"classSource": "XPHB",
+			"subclassShortName": "Hell Knight",
+			"subclassSource": "XUA2026VillainousOptions",
+			"level": 15,
+			"header": 2,
+			"entries": [
+				"Your hellfire leaves painful, boiling blisters. When you roll a 6 on your Infernal Wound Die, you can roll another {@dice d6} and add it to the damage. The maximum number of {@dice d6|d6s} you can add to the Infernal Wound's damage on a turn is three."
+			]
+		},
+		{
+			"name": "Hellfire Condemnation",
+			"source": "XUA2026VillainousOptions",
+			"page": 7,
+			"className": "Fighter",
+			"classSource": "XPHB",
+			"subclassShortName": "Hell Knight",
+			"subclassSource": "XUA2026VillainousOptions",
+			"level": 18,
+			"header": 2,
+			"entries": [
+				"Whenever damage from your {@subclassFeature Hellfire Weapon|Fighter|XPHB|Hell Knight|XUA2026VillainousOptions|3|XUA2026VillainousOptions} or {@subclassFeature Infernal Wound|Fighter|XPHB|Hell Knight|XUA2026VillainousOptions|3|XUA2026VillainousOptions} reduces a creature to 0 Hit Points, the creature dies, and its soul rises from the River Styx as a {@creature Lemure} in a layer of the Nine Hells of your choice in {@dice 1d4} hours. If the creature isn't revived before then, only a {@spell Wish} spell can return the creature to life."
+			]
+		},
+		{
+			"name": "Infernal Bargain",
+			"source": "XUA2026VillainousOptions",
+			"page": 7,
+			"className": "Fighter",
+			"classSource": "XPHB",
+			"subclassShortName": "Hell Knight",
+			"subclassSource": "XUA2026VillainousOptions",
+			"level": 18,
+			"header": 2,
+			"entries": [
+				"When you roll your Infernal Wound Die, you can treat a roll of 1 as a 6."
+			]
+		},
+		{
+			"name": "Demonic Sorcery",
+			"source": "XUA2026VillainousOptions",
+			"page": 7,
+			"className": "Sorcerer",
+			"classSource": "XPHB",
+			"subclassShortName": "Demonic",
+			"subclassSource": "XUA2026VillainousOptions",
+			"level": 3,
+			"header": 1,
+			"entries": [
+				"The corruptive magic of demons courses through you, making you a conduit for the infinite layers of the Abyss and their horrors. Your gift might stem from a distant demonic ancestry, a fated encounter with a demon that cursed you, or a brush with the dark hunger of the Abyss.",
+				"The Abyss is a plane of wickedness and disorder, and this chaos echoes in your innate magic. Abyssal energy erupts from you, warping your body and surroundings in tandem with your sorcery.",
+				"These Abyssal eruptions manifest in strange and gruesome ways. Roll on or choose from the Abyssal Manifestations table to inspire how your connection to the Abyss might manifest when you channel your demonic power.",
+				{
+					"type": "statblock",
+					"tag": "table",
+					"source": "XUA2026VillainousOptions",
+					"name": "Abyssal Manifestations",
+					"page": 7
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Abyssal Rupture|Sorcerer|XPHB|Demonic|XUA2026VillainousOptions|3|XUA2026VillainousOptions"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Demonic Spells|Sorcerer|XPHB|Demonic|XUA2026VillainousOptions|3|XUA2026VillainousOptions"
+				}
+			]
+		},
+		{
+			"name": "Abyssal Rupture",
+			"source": "XUA2026VillainousOptions",
+			"page": 7,
+			"className": "Sorcerer",
+			"classSource": "XPHB",
+			"subclassShortName": "Demonic",
+			"subclassSource": "XUA2026VillainousOptions",
+			"level": 3,
+			"header": 2,
+			"entries": [
+				"When you spend at least 1 Sorcery Point as part of a {@action Magic|XPHB} action or a {@variantrule Bonus Action|XPHB} on your turn, you can unleash one of the following magical effects of your choice. You can do so only once per turn.",
+				{
+					"type": "list",
+					"style": "list-hang-subtrait",
+					"items": [
+						{
+							"type": "item",
+							"name": "Demonic Lash",
+							"entries": [
+								"One creature you can see within 20 feet of you takes {@damage 1d4} Slashing damage, and if it is Large or smaller, you can pull it up to 10 feet closer to you."
+							]
+						},
+						{
+							"type": "item",
+							"name": "Fiendish Carapace",
+							"entries": [
+								"Until the start of your next turn, attack rolls against you have {@variantrule Disadvantage|XPHB}."
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Demonic Spells",
+			"source": "XUA2026VillainousOptions",
+			"page": 8,
+			"className": "Sorcerer",
+			"classSource": "XPHB",
+			"subclassShortName": "Demonic",
+			"subclassSource": "XUA2026VillainousOptions",
+			"level": 3,
+			"header": 2,
+			"entries": [
+				"When you reach a Sorcerer level specified in the {@table Demonic Spells|XUA2026VillainousOptions} table, you thereafter always have the listed spells prepared.",
+				{
+					"type": "statblock",
+					"tag": "table",
+					"source": "XUA2026VillainousOptions",
+					"name": "Demonic Spells",
+					"page": 8
+				}
+			]
+		},
+		{
+			"name": "Abyssal Aura",
+			"source": "XUA2026VillainousOptions",
+			"page": 8,
+			"className": "Sorcerer",
+			"classSource": "XPHB",
+			"subclassShortName": "Demonic",
+			"subclassSource": "XUA2026VillainousOptions",
+			"level": 6,
+			"header": 2,
+			"consumes": {
+				"name": "Sorcery Point",
+				"amount": 2
+			},
+			"entries": [
+				"When you use {@classFeature Innate Sorcery|Sorcerer|XPHB|1|XPHB}, you can infuse the chaos of the Abyss into your surroundings. While this use of {@classFeature Innate Sorcery|Sorcerer|XPHB|1|XPHB} is active, reality warps in a 10-foot {@variantrule Emanation [Area of Effect]|XPHB|Emanation} originating from you, filling the area with a demonic effect. Roll on the {@table Abyssal Effects|XUA2026VillainousOptions} table to determine the effect. If an effect requires a saving throw, the DC equals {@dcYourSpellSave}.",
+				"Once you use this feature, you can't use it again until you finish a {@variantrule Long Rest|XPHB}. You can also restore your use of it by spending 2 Sorcery Points (no action required).",
+				{
+					"type": "statblock",
+					"tag": "table",
+					"source": "XUA2026VillainousOptions",
+					"name": "Abyssal Effects",
+					"page": 8
+				}
+			]
+		},
+		{
+			"name": "Abyssal Conduit",
+			"source": "XUA2026VillainousOptions",
+			"page": 8,
+			"className": "Sorcerer",
+			"classSource": "XPHB",
+			"subclassShortName": "Demonic",
+			"subclassSource": "XUA2026VillainousOptions",
+			"level": 14,
+			"header": 2,
+			"entries": [
+				"Your Abyssal powers reach their full potential. You gain the following benefits.",
+				{
+					"type": "list",
+					"style": "list-hang-subtrait",
+					"items": [
+						{
+							"type": "item",
+							"name": "Aura Expansion",
+							"entries": [
+								"Your {@subclassFeature Abyssal Aura|Sorcerer|XPHB|Demonic|XUA2026VillainousOptions|6|XUA2026VillainousOptions} is now a 20-foot {@variantrule Emanation [Area of Effect]|XPHB|Emanation}."
+							]
+						},
+						{
+							"type": "item",
+							"name": "Controlled Chaos",
+							"entries": [
+								"Whenever you would roll on the {@table Abyssal Effects|XUA2026VillainousOptions} table, you can roll twice and choose which of the two effects to use. If you roll the same number on both dice, you can instead choose any effect on the table."
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Fiendish Servant",
+			"source": "XUA2026VillainousOptions",
+			"page": 8,
+			"className": "Sorcerer",
+			"classSource": "XPHB",
+			"subclassShortName": "Demonic",
+			"subclassSource": "XUA2026VillainousOptions",
+			"level": 18,
+			"header": 2,
+			"entries": [
+				"You can cast {@spell Summon Fiend|XPHB} without a Material component. You can also cast it once without a spell slot, and you regain the ability to cast it in this way when you finish a {@variantrule Long Rest|XPHB}. When you cast it in this way, you must choose Demon for the summoned Fiend's type."
+			]
+		}
+	],
+	"foundrySubclassFeature": [
+		{
+			"name": "Blight Weaver",
+			"source": "XUA2026VillainousOptions",
+			"className": "Cleric",
+			"classSource": "XPHB",
+			"subclassShortName": "Pestilence",
+			"subclassSource": "XUA2026VillainousOptions",
+			"level": 3,
+			"entryData": {
+				"resist": [
+					"necrotic",
+					"poison"
+				],
+				"conditionImmune": [
+					"disease"
+				]
+			}
+		},
+		{
+			"name": "Diabolical Gift",
+			"source": "XUA2026VillainousOptions",
+			"className": "Fighter",
+			"classSource": "XPHB",
+			"subclassShortName": "Hell Knight",
+			"subclassSource": "XUA2026VillainousOptions",
+			"level": 3,
+			"effects": [
+				{
+					"transfer": true,
+					"changes": [
+						{
+							"key": "system.attributes.senses.darkvision",
+							"mode": "UPGRADE",
+							"value": 120
+						},
+						{
+							"key": "system.attributes.senses.special",
+							"mode": "ADD",
+							"value": "Devil's Sight"
+						}
+					]
+				}
+			],
+			"entryData": {
+				"languageProficiencies": [
+					{
+						"infernal": true
+					},
+					{
+						"any": 1
+					}
+				]
+			}
+		},
+		{
+			"name": "Hell-Forged Equipment",
+			"source": "XUA2026VillainousOptions",
+			"className": "Fighter",
+			"classSource": "XPHB",
+			"subclassShortName": "Hell Knight",
+			"subclassSource": "XUA2026VillainousOptions",
+			"level": 7,
+			"entryData": {
+				"resist": [
+					"fire"
+				]
+			}
+		}
+	],
+	"feat": [
+		{
+			"name": "Arcane Restoration",
+			"source": "XUA2026VillainousOptions",
+			"page": 12,
+			"category": "Path of the Lich",
+			"prerequisite": [
+				{
+					"feat": [
+						"lich initiate|XUA2026VillainousOptions"
+					]
+				}
+			],
+			"ability": [
+				{
+					"choose": {
+						"from": [
+							"int",
+							"wis",
+							"cha"
+						]
+					}
+				}
+			],
+			"entries": [
+				"You gain the following benefits.",
+				{
+					"type": "entries",
+					"name": "Essence Rejuvenation",
+					"entries": [
+						"When you use Soul Siphon to consume a soul, you can choose one or more expended spell slots to recover. The spell slots can have a combined level equal to no more than 4. Once you use this feature, you can't use it again until you finish a {@variantrule Short Rest|XPHB|Short} or {@variantrule Long Rest|XPHB}."
+					]
+				}
+			]
+		},
+		{
+			"name": "Death Knight Ascension",
+			"source": "XUA2026VillainousOptions",
+			"page": 10,
+			"category": "Path of the Death Knight",
+			"prerequisite": [
+				{
+					"level": 12,
+					"featCategory": [
+						{
+							"category": "Path of the Death Knight",
+							"count": 2
+						}
+					]
+				}
+			],
+			"ability": [
+				{
+					"choose": {
+						"from": [
+							"str",
+							"cha"
+						]
+					}
+				}
+			],
+			"resist": [
+				"necrotic",
+				"poison"
+			],
+			"entries": [
+				"Your path to becoming a death knight is complete. You gain the following benefits.",
+				{
+					"type": "entries",
+					"name": "Undead",
+					"entries": [
+						"Your creature type is Undead."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Unholy Anatomy",
+					"entries": [
+						"You have {@variantrule Resistance|XPHB} to Necrotic and Poison damage. You don't gain {@condition Exhaustion|XPHB} levels from dehydration, malnutrition, or suffocation."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Hellfire Orb",
+					"entries": [
+						"As a {@action Magic|XPHB} action, you can expend 1 to 5 Death Points to throw an orb of pure hellfire at a point you can see within 120 feet. Each creature in a 20-foot-radius {@variantrule Sphere [Area of Effect]|XPHB|Sphere} centered on the chosen point makes a Dexterity saving throw ({@dc 8} plus your Charisma modifier and {@variantrule Proficiency|XPHB|Proficiency Bonus}). On a failed save, a target takes {@damage 2d6} Fire damage and {@damage 2d6} Necrotic damage per Death Point expended. On a successful save, the target takes half as much damage."
+					]
+				}
+			]
+		},
+		{
+			"name": "Death Knight Initiate",
+			"source": "XUA2026VillainousOptions",
+			"page": 9,
+			"category": "Path of the Death Knight",
+			"prerequisite": [
+				{
+					"level": 4,
+					"feature": [
+						"Weapon Mastery"
+					]
+				}
+			],
+			"ability": [
+				{
+					"choose": {
+						"from": [
+							"str",
+							"cha"
+						]
+					}
+				}
+			],
+			"additionalSpells": [
+				{
+					"prepared": {
+						"_": {
+							"resource": {
+								"1e": [
+									"Wrathful Smite"
+								]
+							}
+						}
+					},
+					"ability": "cha",
+					"resourceName": "Death Point"
+				}
+			],
+			"entries": [
+				"You gain the following benefits.",
+				{
+					"type": "entries",
+					"name": "Death Points",
+					"entries": [
+						"Your dedication to the path of the Death Knight gives you access to profane powers of undeath. Your ability to use such powers is represented by Death Points. You have a number of Death Points equal to your {@variantrule Proficiency|XPHB|Proficiency Bonus}. You regain all expended Death Points when you finish a {@variantrule Long Rest|XPHB}.",
+						"You can expend Death Points to use certain Path of the Death Knight benefits. This feat gives you one such benefit: Dread Strike."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Dread Strike",
+					"entries": [
+						"You always have the {@spell Wrathful Smite|XPHB} spell prepared. Charisma is your spellcasting ability for this spell. You can cast it without expending a spell slot by expending 1 Death Point. When you expend Death Points to cast {@spell Wrathful Smite|XPHB}, the target has {@variantrule Disadvantage|XPHB} on Wisdom saving throws to avoid or end the spell's effect. You can also cast the spell using any spell slots you have."
+					]
+				}
+			]
+		},
+		{
+			"name": "Deathly Presence",
+			"source": "XUA2026VillainousOptions",
+			"page": 10,
+			"category": "Path of the Death Knight",
+			"prerequisite": [
+				{
+					"level": 8,
+					"feat": [
+						"death knight initiate|XUA2026VillainousOptions"
+					]
+				}
+			],
+			"ability": [
+				{
+					"choose": {
+						"from": [
+							"str",
+							"con",
+							"cha"
+						]
+					}
+				}
+			],
+			"additionalSpells": [
+				{
+					"prepared": {
+						"_": {
+							"resource": {
+								"1e": [
+									"fear"
+								]
+							}
+						}
+					},
+					"ability": "cha",
+					"resourceName": "Death Point"
+				}
+			],
+			"entries": [
+				"You gain the following benefits.",
+				{
+					"type": "entries",
+					"name": "Awful Presence",
+					"entries": [
+						"You always have the {@spell Fear|XPHB} spell prepared. Charisma is your spellcasting ability for this spell. You can cast it without expending a spell slot by expending 1 Death Point. You can also cast the spell using any spell slots you have. When you expend Death Points to cast {@spell Fear|XPHB}, you deal 7 ({@damage 2d6}) Psychic damage to each creature that fails its saving throw against the spell, in addition to the spell's normal effects."
+					]
+				}
+			]
+		},
+		{
+			"name": "Dread Authority",
+			"source": "XUA2026VillainousOptions",
+			"page": 9,
+			"category": "Path of the Death Knight",
+			"prerequisite": [
+				{
+					"feat": [
+						"death knight initiate|XUA2026VillainousOptions"
+					]
+				}
+			],
+			"ability": [
+				{
+					"choose": {
+						"from": [
+							"con",
+							"cha"
+						]
+					}
+				}
+			],
+			"additionalSpells": [
+				{
+					"prepared": {
+						"_": {
+							"resource": {
+								"1e": [
+									"command"
+								]
+							}
+						}
+					},
+					"ability": "cha",
+					"resourceName": "Death Point"
+				}
+			],
+			"entries": [
+				"You gain the following benefits.",
+				{
+					"type": "entries",
+					"name": "Dread Command",
+					"entries": [
+						"You always have the {@spell Command|XPHB} spell prepared. Charisma is your spellcasting ability for this spell. You can cast it without expending a spell slot by expending 1 Death Point. You can also cast the spell using any spell slots you have. When you expend Death Points to cast {@spell Command|XPHB}, Undead targeted by it have {@variantrule Disadvantage|XPHB} on the saving throw against the spell."
+					]
+				}
+			]
+		},
+		{
+			"name": "Harbinger of Doom",
+			"source": "XUA2026VillainousOptions",
+			"page": 10,
+			"category": "Path of the Death Knight",
+			"prerequisite": [
+				{
+					"feat": [
+						"death knight initiate|XUA2026VillainousOptions"
+					]
+				}
+			],
+			"ability": [
+				{
+					"choose": {
+						"from": [
+							"str",
+							"con",
+							"cha"
+						]
+					}
+				}
+			],
+			"additionalSpells": [
+				{
+					"prepared": {
+						"_": {
+							"resource": {
+								"1e": [
+									"bane"
+								]
+							}
+						}
+					},
+					"ability": "cha",
+					"resourceName": "Death Point"
+				}
+			],
+			"entries": [
+				"You gain the following benefits.",
+				{
+					"type": "entries",
+					"name": "Ill Omen",
+					"entries": [
+						"You always have the {@spell Bane|XPHB} spell prepared. Charisma is your spellcasting ability for this spell. You can cast it without expending a spell slot by expending 1 Death Point. You can also cast the spell using any spell slots you have. When you expend Death Points to cast {@spell Bane|XPHB}, affected targets subtract {@dice 1d6} from attack rolls and saving throws instead of {@dice 1d4}."
+					]
+				}
+			]
+		},
+		{
+			"name": "Lich Ascension",
+			"source": "XUA2026VillainousOptions",
+			"page": 12,
+			"category": "Path of the Lich",
+			"prerequisite": [
+				{
+					"level": 12,
+					"featCategory": [
+						{
+							"category": "Path of the Lich",
+							"count": 2
+						}
+					]
+				}
+			],
+			"ability": [
+				{
+					"choose": {
+						"from": [
+							"int",
+							"wis",
+							"cha"
+						]
+					}
+				}
+			],
+			"resist": [
+				"necrotic",
+				"poison"
+			],
+			"additionalSpells": [
+				{
+					"prepared": {
+						"_": {
+							"daily": {
+								"mod": [
+									"fear"
+								]
+							}
+						}
+					},
+					"ability": {
+						"choose": [
+							"int",
+							"wis",
+							"cha"
+						]
+					}
+				}
+			],
+			"entries": [
+				"Your path to lichdom is complete. You gain the following benefits.",
+				{
+					"type": "entries",
+					"name": "Undead",
+					"entries": [
+						"Your creature type is Undead."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Unholy Anatomy",
+					"entries": [
+						"You have {@variantrule Resistance|XPHB} to Necrotic and Poison damage. You don't gain {@condition Exhaustion|XPHB} levels from dehydration, malnutrition, or suffocation."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Frightening Gaze",
+					"entries": [
+						"You learn the {@spell Fear|XPHB} spell if you don't already know it, and you always have it prepared. Intelligence, Wisdom, or Charisma is your spellcasting ability for this spell (choose when you select this feat). You can cast the spell without expending a spell slot a number of times equal to your spellcasting ability modifier (minimum of once), and you regain all expended uses when you finish a {@variantrule Long Rest|XPHB}."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Rejuvenation",
+					"entries": [
+						"If you die, you re-form in {@dice 1d10} days if you have a spirit jar and aren't revived before then. You gain a new body, appearing with all your {@variantrule Hit Points|XPHB} in the nearest unoccupied space within 5 feet of your spirit jar."
+					]
+				}
+			]
+		},
+		{
+			"name": "Lich Initiate",
+			"source": "XUA2026VillainousOptions",
+			"page": 11,
+			"category": "Path of the Lich",
+			"prerequisite": [
+				{
+					"level": 4,
+					"spellcasting2020": true
+				}
+			],
+			"ability": [
+				{
+					"choose": {
+						"from": [
+							"int",
+							"wis",
+							"cha"
+						]
+					}
+				}
+			],
+			"entries": [
+				"You take the first steps toward lichdom, which involve creating your spirit jar, a magical vessel that anchors your soul to the world of the living in the event of your body's destruction.",
+				"You gain the following benefits.",
+				{
+					"type": "entries",
+					"name": "Creating Your Spirit Jar",
+					"entries": [
+						"Choose a Tiny object of great significance to you. Roll on or choose from the {@table Spirit Jars|XUA2026VillainousOptions} table to inspire this object. You spend a {@variantrule Long Rest|XPHB} anchoring your soul to this object, allowing you to consume the souls of the living to bolster your own power. You can have only one spirit jar at a time. If you create a second spirit jar, the old one is destroyed.",
+						{
+							"type": "statblock",
+							"tag": "table",
+							"source": "XUA2026VillainousOptions",
+							"name": "Spirit Jars",
+							"page": 11
+						}
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Spirit Jar Destruction",
+					"entries": [
+						"Your spirit jar's {@variantrule Armor Class|XPHB} equals {@dcYourSpellSave}, and it has a number of {@variantrule Hit Points|XPHB} equal to your spellcasting ability modifier plus your character level. If your spirit jar is destroyed, you gain 2 {@condition Exhaustion|XPHB} levels, and you can't use the Soul Siphon ability until you create a new one."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Soul Siphon",
+					"entries": [
+						"When you reduce a Humanoid enemy to 0 {@variantrule Hit Points|XPHB}, you can consume its soul and gain a boost of arcane energy (no action required). On your next turn, the first creature you hit with an attack takes extra Necrotic damage equal to {@dice 1d6} plus your spellcasting ability modifier. You also gain this benefit if someone else reduces a Humanoid enemy within 10 feet of you to 0 {@variantrule Hit Points|XPHB}. A soul consumed in this way can be restored only by a {@spell True Resurrection|XPHB} or {@spell Wish|XPHB} spell."
+					]
+				}
+			]
+		},
+		{
+			"name": "Transfer Life",
+			"source": "XUA2026VillainousOptions",
+			"page": 12,
+			"category": "Path of the Lich",
+			"prerequisite": [
+				{
+					"feat": [
+						"lich initiate|XUA2026VillainousOptions"
+					]
+				}
+			],
+			"ability": [
+				{
+					"choose": {
+						"from": [
+							"int",
+							"wis",
+							"cha"
+						]
+					}
+				}
+			],
+			"entries": [
+				"You gain the following benefits.",
+				{
+					"type": "entries",
+					"name": "Soul Transference",
+					"entries": [
+						"When you use Soul Siphon to consume a soul, you can choose a creature within 60 feet of yourself to gain {@variantrule Temporary Hit Points|XPHB} equal to your {@variantrule Proficiency|XPHB|Proficiency Bonus} plus your spellcasting ability modifier (minimum of 1 {@variantrule Temporary Hit Points|XPHB|Temporary Hit Point})."
+					]
+				}
+			]
+		},
+		{
+			"name": "Undead Grasp",
+			"source": "XUA2026VillainousOptions",
+			"page": 12,
+			"category": "Path of the Lich",
+			"prerequisite": [
+				{
+					"feat": [
+						"lich initiate|XUA2026VillainousOptions"
+					]
+				}
+			],
+			"ability": [
+				{
+					"choose": {
+						"from": [
+							"int",
+							"wis",
+							"cha"
+						]
+					}
+				}
+			],
+			"additionalSpells": [
+				{
+					"known": {
+						"_": [
+							"chill touch"
+						]
+					},
+					"ability": {
+						"choose": [
+							"int",
+							"wis",
+							"cha"
+						]
+					},
+					"resourceName": "Death Point"
+				}
+			],
+			"entries": [
+				"You gain the following benefits.",
+				{
+					"type": "entries",
+					"name": "Paralyzing Touch",
+					"entries": [
+						"You know the {@spell Chill Touch|XPHB} cantrip. If you already know it, you learn another cantrip of your choice. Intelligence, Wisdom, or Charisma is your spellcasting ability for this spell (choose when you select this feat).",
+						"When you deal damage with {@spell Chill Touch|XPHB}, you can expend a level 1+ spell slot to attempt to paralyze the target. The target takes an extra {@damage 1d10} Necrotic damage per level of the spell slot expended and must succeed on a Constitution saving throw against {@dcYourSpellSave} or have the {@condition Paralyzed|XPHB} condition until the start of your next turn."
+					]
+				}
+			]
+		},
+		{
+			"name": "Unholy Steed",
+			"source": "XUA2026VillainousOptions",
+			"page": 10,
+			"category": "Path of the Death Knight",
+			"prerequisite": [
+				{
+					"level": 8,
+					"feat": [
+						"death knight initiate|XUA2026VillainousOptions"
+					]
+				}
+			],
+			"ability": [
+				{
+					"choose": {
+						"from": [
+							"str",
+							"con"
+						]
+					}
+				}
+			],
+			"additionalSpells": [
+				{
+					"prepared": {
+						"_": {
+							"resource": {
+								"1e": [
+									"Find Steed"
+								]
+							}
+						}
+					},
+					"ability": "cha",
+					"resourceName": "Death Point"
+				}
+			],
+			"entries": [
+				"You gain the following benefits.",
+				{
+					"type": "entries",
+					"name": "Spectral Steed",
+					"entries": [
+						"You always have the {@spell Find Steed|XPHB} spell prepared. Charisma is your spellcasting ability for this spell. You can cast it without expending a spell slot by expending 1 Death Point. When you expend Death Points to cast {@spell Find Steed|XPHB}, the summoned steed is a Fiend, and targets you choose have {@variantrule Disadvantage|XPHB} on the Wisdom saving throw against its Fell Glare. You can also cast the spell using any spell slots you have."
+					]
+				}
+			]
+		}
+	],
+	"charoption": [
+		{
+			"name": "Path of the Death Knight",
+			"source": "XUA2026VillainousOptions",
+			"page": 9,
+			"optionType": [
+				"PTH"
+			],
+			"entries": [
+				"Death knights are dastards, deserters, and disgraced champions, undead warriors who march toward perdition to fulfill selfish desires and slake their bloodthirst. A death knight's martial prowess is inextricably tied to their evil nature, but their heinous deeds extend far beyond the battlefield.",
+				{
+					"type": "entries",
+					"name": "Death Knight Journeys",
+					"page": 9,
+					"entries": [
+						"While each death knight is unique, every death knight's descent into villainy begins with a significant and dishonorable act\u2014a deliberate wrongdoing or shameful mistake that marks their disgrace. You can roll on or choose from the {@table Death Knight Journeys|XUA2026VillainousOptions} table to determine why your character has chosen to walk this path.",
+						{
+							"type": "statblock",
+							"tag": "table",
+							"source": "XUA2026VillainousOptions",
+							"name": "Death Knight Journeys",
+							"page": 9
+						},
+						{
+							"type": "inset",
+							"name": "Death Knights Across yhe Multiverse",
+							"page": 9,
+							"entries": [
+								"The death knights of D&D are dramatic figures whose tragic fates result from equally tragic sins. On many worlds, death knights' misdeeds spell doom not just for themselves and their companions but for entire kingdoms.",
+								"Notable death knights across the multiverse include the following:",
+								{
+									"type": "list",
+									"style": "list-hang-notitle",
+									"page": 9,
+									"items": [
+										{
+											"type": "item",
+											"name": "{@creature Lord Soth|DSotDQ},",
+											"entries": [
+												"Knight of the Black Rose and ruler of Dargaard Keep on the world of Krynn"
+											]
+										},
+										{
+											"type": "item",
+											"name": "Olanthius,",
+											"entries": [
+												"former general of the angel Zariel who became a death knight after Zariel's fall from grace"
+											]
+										},
+										{
+											"type": "item",
+											"name": "Saint Kargoth,",
+											"entries": [
+												"favored servant of the demon lord Demogorgon and Greyhawk's first death knight"
+											]
+										}
+									]
+								},
+								"While most death knights refuse to atone for the acts that made them, it's possible for a death knight to repent and end their curse. Such was the fate of Lord Vanrak Moonstar of Waterdeep, who repented to {@deity Selûne|Forgotten Realms|PHB} for betraying her in favor of her nemesis, {@deity Shar|Forgotten Realms|PHB}.",
+								"For more on {@creature death knight|XMM|death knights}, see the {@book Monster Manual|XMM}."
+							]
+						}
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Path of the Death Knight Feats",
+					"page": 9,
+					"entries": [
+						"The following feats represent one path a character can take to become a death knight. To complete the Path of the Death Knight, begin by taking the {@feat Death Knight Initiate|XUA2026VillainousOptions} feat, followed by any other Path of the Death Knight feat you choose. Finally, when you reach level 12 or higher, take the {@feat Death Knight Ascension|XUA2026VillainousOptions} feat.",
+						{
+							"type": "statblock",
+							"tag": "feat",
+							"source": "XUA2026VillainousOptions",
+							"name": "Death Knight Initiate",
+							"page": 9,
+							"collapsed": true
+						},
+						{
+							"type": "statblock",
+							"tag": "feat",
+							"source": "XUA2026VillainousOptions",
+							"name": "Dread Authority",
+							"page": 9,
+							"collapsed": true
+						},
+						{
+							"type": "statblock",
+							"tag": "feat",
+							"source": "XUA2026VillainousOptions",
+							"name": "Harbinger of Doom",
+							"page": 10,
+							"collapsed": true
+						},
+						{
+							"type": "statblock",
+							"tag": "feat",
+							"source": "XUA2026VillainousOptions",
+							"name": "Deathly Presence",
+							"page": 10,
+							"collapsed": true
+						},
+						{
+							"type": "statblock",
+							"tag": "feat",
+							"source": "XUA2026VillainousOptions",
+							"name": "Unholy Steed",
+							"page": 10,
+							"collapsed": true
+						},
+						{
+							"type": "statblock",
+							"tag": "feat",
+							"source": "XUA2026VillainousOptions",
+							"name": "Death Knight Ascension",
+							"page": 10,
+							"collapsed": true
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Path of the Lich",
+			"source": "XUA2026VillainousOptions",
+			"page": 11,
+			"optionType": [
+				"PTH"
+			],
+			"entries": [
+				"Liches are powerful spellcasters who have conquered death through the relentless pursuit of arcane power. All liches undergo a ritual that binds their soul to a spirit jar, a personal and well-protected object that allows the lich's destroyed body to re-form as long as the object is intact.",
+				{
+					"type": "entries",
+					"name": "Lich Rites",
+					"page": 11,
+					"entries": [
+						"The path to lichdom is unique to each who walks it. To complete the transformation, aspirants must fulfill a personal and often profane ritual. The {@table Lich Rites|XUA2026VillainousOptions} table contains examples of such rituals to inspire your journey.",
+						{
+							"type": "statblock",
+							"tag": "table",
+							"source": "XUA2026VillainousOptions",
+							"name": "Lich Rites",
+							"page": 11
+						}
+					]
+				},
+				{
+					"type": "inset",
+					"name": "Liches Across the Multiverse",
+					"page": 11,
+					"entries": [
+						"While the most infamous liches in D&D represent evil incarnate, liches can vary in alignments, motivations, and deeds. Those who achieve lichdom make their mark on the multiverse as demigods and despots, mentors and protectors, masters and manipulators. These storied beings include the following:",
+						{
+							"type": "list",
+							"style": "list-hang-notitle",
+							"page": 11,
+							"items": [
+								{
+									"type": "item",
+									"name": "{@creature Renwick|PotA|Renwick Caradoon},",
+									"entries": [
+										"founder of the Knights of Samular in the city of Waterdeep"
+									]
+								},
+								{
+									"type": "item",
+									"name": "Szass Tam,",
+									"entries": [
+										"Thay's zulkir of necromancy"
+									]
+								},
+								{
+									"type": "item",
+									"name": "{@creature Vecna the Archlich|VEoR},",
+									"entries": [
+										"Oerthian king and demigod of secrets and evil magic"
+									]
+								},
+								{
+									"type": "item",
+									"name": "Vlaakith the Lich-Queen,",
+									"entries": [
+										"the iron-fisted leader of the githyanki"
+									]
+								},
+								{
+									"type": "item",
+									"name": "{@creature Zlan|FRAiF},",
+									"entries": [
+										"the frozen amalgamation of the seven liches who created the {@i Crystal Shard}"
+									]
+								}
+							]
+						},
+						"All liches have in common their arcane prowess, their undead nature, and the sequestering of their souls. For more on {@creature lich|XMM|liches}, see the {@book Monster Manual|XMM}."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Path of the Lich Feats",
+					"page": 11,
+					"entries": [
+						"The following Path of the Lich feats represent one path a character can take to become a lich. To complete the Path of the Lich, begin by taking the {@feat Lich Initiate|XUA2026VillainousOptions} feat, followed by any other Path of the Lich feat you choose. Finally, when you reach level 12 or higher, take the {@feat Lich Ascension|XUA2026VillainousOptions} feat.",
+						{
+							"type": "statblock",
+							"tag": "feat",
+							"source": "XUA2026VillainousOptions",
+							"name": "Lich Initiate",
+							"page": 11,
+							"collapsed": true
+						},
+						{
+							"type": "statblock",
+							"tag": "feat",
+							"source": "XUA2026VillainousOptions",
+							"name": "Arcane Restoration",
+							"page": 12,
+							"collapsed": true
+						},
+						{
+							"type": "statblock",
+							"tag": "feat",
+							"source": "XUA2026VillainousOptions",
+							"name": "Transfer Life",
+							"page": 12,
+							"collapsed": true
+						},
+						{
+							"type": "statblock",
+							"tag": "feat",
+							"source": "XUA2026VillainousOptions",
+							"name": "Undead Grasp",
+							"page": 12,
+							"collapsed": true
+						},
+						{
+							"type": "statblock",
+							"tag": "feat",
+							"source": "XUA2026VillainousOptions",
+							"name": "Lich Ascension",
+							"page": 12,
+							"collapsed": true
+						}
+					]
+				}
+			]
+		}
+	],
+	"monster": [
+		{
+			"name": "Behemoth",
+			"source": "XUA2026VillainousOptions",
+			"page": 4,
+			"size": [
+				"L",
+				"H",
+				"G"
+			],
+			"sizeNote": "(Huge Requires Druid Level 10+, Gargantuan Requires Druid Level 14+)",
+			"type": "monstrosity",
+			"alignment": [
+				{
+					"special": "Your Alignment Doesn't Change"
+				}
+			],
+			"ac": [
+				{
+					"special": "11 + your Wisdom modifier"
+				}
+			],
+			"hp": {
+				"special": "2 times your Druid level Temp HP"
+			},
+			"speed": {
+				"walk": 40,
+				"climb": 40
+			},
+			"str": {
+				"special": "Your Strength and Dexterity scores are equal to your Wisdom score in this form."
+			},
+			"dex": {
+				"special": "Your Strength and Dexterity scores are equal to your Wisdom score in this form."
+			},
+			"con": {
+				"special": "Your Constitution, Intelligence, Wisdom, and Charisma don't change."
+			},
+			"int": {
+				"special": "Your Constitution, Intelligence, Wisdom, and Charisma don't change."
+			},
+			"wis": {
+				"special": "Your Constitution, Intelligence, Wisdom, and Charisma don't change."
+			},
+			"cha": {
+				"special": "Your Constitution, Intelligence, Wisdom, and Charisma don't change."
+			},
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"languages": [
+				"Your languages don't change."
+			],
+			"pbNote": "PB is your Proficiency Bonus",
+			"trait": [
+				{
+					"name": "Rampager (Requires Druid Level 10+)",
+					"entries": [
+						"When you enter the space of an enemy that is at least one size smaller than you for the first time on a turn, that creature is subjected to the following effect. {@actSave str} DC equals {@dcYourSpellSave}. {@actSaveFail} The target has the {@condition Prone|XPHB} condition. If the target already has the {@condition Prone|XPHB} condition, it instead takes {@damage 2d6} Bludgeoning damage."
+					]
+				},
+				{
+					"name": "Siege Monster",
+					"entries": [
+						"You deal double damage to objects and structures."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack (Requires Druid Level 5+)",
+					"entries": [
+						"You make two Rend attacks."
+					]
+				},
+				{
+					"name": "Rend",
+					"entries": [
+						"{@atkr m} {@hitYourSpellAttack Bonus equals your spell attack modifier}, reach 10 ft. {@h}{@damage 1d8} plus your Wisdom modifier Slashing damage."
+					]
+				},
+				{
+					"name": "Incandescent Breath",
+					"entries": [
+						"You expend a level 1+ spell slot. {@actSave dex} DC equals {@dcYourSpellSave}, each creature in a 5-foot-wide, 60-foot-long {@variantrule Line [Area of Effect]|XPHB|Line}. {@actSaveFail} {@damage 2d8} Radiant damage per level of the spell slot expended plus your Wisdom modifier. {@actSaveSuccess} Half damage."
+					]
+				}
+			],
+			"tokenHref": {
+				"type": "external",
+				"url": "https://raw.githubusercontent.com/TheGiddyLimit/unearthed-arcana-img/main/img/XUA2026VillainousOptions/tokens/Behemoth.webp"
+			},
+			"traitTags": [
+				"Siege Monster"
+			],
+			"actionTags": [
+				"Breath Weapon",
+				"Multiattack"
+			],
+			"damageTags": [
+				"B",
+				"R",
+				"S"
+			],
+			"miscTags": [
+				"MA",
+				"RCH"
+			],
+			"conditionInflict": [
+				"prone"
+			],
+			"savingThrowForced": [
+				"dexterity",
+				"strength"
+			]
+		},
+		{
+			"name": "Insectoid",
+			"source": "XUA2026VillainousOptions",
+			"page": 5,
+			"size": [
+				"L",
+				"H",
+				"G"
+			],
+			"sizeNote": "(Huge Requires Druid Level 10+, Gargantuan Requires Druid Level 14+)",
+			"type": "monstrosity",
+			"alignment": [
+				{
+					"special": "Your Alignment Doesn't Change"
+				}
+			],
+			"ac": [
+				{
+					"special": "8 + your Wisdom Modifier"
+				}
+			],
+			"hp": {
+				"special": "2 times your Druid level Temp HP"
+			},
+			"speed": {
+				"walk": 40,
+				"fly": 40
+			},
+			"str": {
+				"special": "Your Strength and Dexterity scores are equal to your Wisdom score in this form."
+			},
+			"dex": {
+				"special": "Your Strength and Dexterity scores are equal to your Wisdom score in this form."
+			},
+			"con": {
+				"special": "Your Constitution, Intelligence, Wisdom, and Charisma don't change."
+			},
+			"int": {
+				"special": "Your Constitution, Intelligence, Wisdom, and Charisma don't change."
+			},
+			"wis": {
+				"special": "Your Constitution, Intelligence, Wisdom, and Charisma don't change."
+			},
+			"cha": {
+				"special": "Your Constitution, Intelligence, Wisdom, and Charisma don't change."
+			},
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"languages": [
+				"Your languages don't change."
+			],
+			"pbNote": "PB is your Proficiency Bonus",
+			"trait": [
+				{
+					"name": "Flyby",
+					"entries": [
+						"You don't provoke an {@action Opportunity Attack|XPHB} when you fly out of an enemy's reach."
+					]
+				},
+				{
+					"name": "Hive Mind (Requires Druid Level 10+)",
+					"entries": [
+						"When you assume this form, you forge a telepathic link with a number of creatures of your choice you can see and that can communicate in at least one language; the maximum number of creatures is equal to your Druid level. You and the chosen creatures can communicate telepathically with each other whether or not you share a language as long as you are on the same plane."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack (Requires Level 5+)",
+					"entries": [
+						"You make two Rend attacks."
+					]
+				},
+				{
+					"name": "Rend",
+					"entries": [
+						"{@atkr m} {@hitYourSpellAttack Bonus equals your spell attack modifier}, reach 10 ft. {@h}{@damage 1d8} plus your Wisdom modifier Piercing damage."
+					]
+				},
+				{
+					"name": "Energizing Pollen",
+					"entries": [
+						"You expend a level 1+ spell slot and emit a cloud of healing pollen that can restore a number of {@variantrule Hit Points|XPHB} equal to {@dice 2d8} plus five times the expended spell slot's level. Choose any number of creatures within 15 feet of yourself, and divide those {@variantrule Hit Points|XPHB} among them."
+					]
+				}
+			],
+			"tokenHref": {
+				"type": "external",
+				"url": "https://raw.githubusercontent.com/TheGiddyLimit/unearthed-arcana-img/main/img/XUA2026VillainousOptions/tokens/Insectoid.webp"
+			},
+			"traitTags": [
+				"Flyby"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"damageTags": [
+				"P"
+			],
+			"miscTags": [
+				"MA",
+				"RCH"
+			]
+		},
+		{
+			"name": "Leviathan",
+			"source": "XUA2026VillainousOptions",
+			"page": 4,
+			"size": [
+				"L",
+				"H",
+				"G"
+			],
+			"sizeNote": "(Huge Requires Druid Level 10+, Gargantuan Requires Druid Level 14+)",
+			"type": "monstrosity",
+			"alignment": [
+				{
+					"special": "Your Alignment Doesn't Change"
+				}
+			],
+			"ac": [
+				{
+					"special": "10 + your Wisdom Modifier"
+				}
+			],
+			"hp": {
+				"special": "2 times your Druid level Temp HP"
+			},
+			"speed": {
+				"walk": 40,
+				"swim": 40
+			},
+			"str": {
+				"special": "Your Strength and Dexterity scores are equal to your Wisdom score in this form."
+			},
+			"dex": {
+				"special": "Your Strength and Dexterity scores are equal to your Wisdom score in this form."
+			},
+			"con": {
+				"special": "Your Constitution, Intelligence, Wisdom, and Charisma don't change."
+			},
+			"int": {
+				"special": "Your Constitution, Intelligence, Wisdom, and Charisma don't change."
+			},
+			"wis": {
+				"special": "Your Constitution, Intelligence, Wisdom, and Charisma don't change."
+			},
+			"cha": {
+				"special": "Your Constitution, Intelligence, Wisdom, and Charisma don't change."
+			},
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"languages": [
+				"Your languages don't change."
+			],
+			"pbNote": "PB is your Proficiency Bonus",
+			"trait": [
+				{
+					"name": "Amphibious",
+					"entries": [
+						"You can breathe air and water."
+					]
+				},
+				{
+					"name": "Toxic Stench (Requires Druid Level 10+)",
+					"entries": [
+						"{@actSave con} DC equals {@dcYourSpellSave}, each creature of your choice that starts its turn in a 10-foot {@variantrule Emanation [Area of Effect]|XPHB|Emanation} originating from you. {@actSaveFail} {@damage 2d4} Poison damage, and the target has the {@condition Poisoned|XPHB} condition until the start of its next turn."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack (Requires Druid Level 5+)",
+					"entries": [
+						"You make two Rend attacks."
+					]
+				},
+				{
+					"name": "Rend",
+					"entries": [
+						"{@atkr m} {@hitYourSpellAttack Bonus equals your spell attack modifier}, reach 10 ft. {@h}{@damage 1d8} plus your Wisdom modifier Bludgeoning damage."
+					]
+				}
+			],
+			"reaction": [
+				{
+					"name": "Ink Cloud",
+					"entries": [
+						"{@actTrigger} You take damage. {@actResponse} You expend a level 1+ spell slot and release an inky cloud that fills a 15-foot-radius {@variantrule Cube [Area of Effect]|XPHB|Cube} centered on yourself, and you move up to your {@variantrule Speed|XPHB}. The {@variantrule Cube [Area of Effect]|XPHB|Cube} is {@variantrule Heavily Obscured|XPHB}. It lasts for 1 minute or until a strong current or wind (such as one created by {@spell Gust of Wind|XPHB}) disperses it."
+					]
+				}
+			],
+			"tokenHref": {
+				"type": "external",
+				"url": "https://raw.githubusercontent.com/TheGiddyLimit/unearthed-arcana-img/main/img/XUA2026VillainousOptions/tokens/Leviathan.webp"
+			},
+			"traitTags": [
+				"Amphibious"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"damageTags": [
+				"B",
+				"I"
+			],
+			"miscTags": [
+				"AOE",
+				"MA",
+				"RCH"
+			],
+			"conditionInflict": [
+				"poisoned"
+			],
+			"savingThrowForced": [
+				"constitution"
+			]
+		}
+	],
+	"table": [
+		{
+			"name": "Abyssal Effects",
+			"source": "XUA2026VillainousOptions",
+			"page": 8,
+			"colLabels": [
+				"1d6",
+				"Effect"
+			],
+			"colStyles": [
+				"col-1 text-center",
+				"11"
+			],
+			"rows": [
+				[
+					"1",
+					{
+						"type": "entries",
+						"entries": [
+							{
+								"type": "entries",
+								"name": "Sticky Webs",
+								"entries": [
+									"Thick webs fill the {@variantrule Emanation [Area of Effect]|XPHB|Emanation}, making it {@variantrule Difficult Terrain|XPHB} for your enemies. Each enemy that starts its turn in the {@variantrule Emanation [Area of Effect]|XPHB|Emanation} must succeed on a Strength saving throw or have the {@condition Restrained|XPHB} condition. A creature {@condition Restrained|XPHB} by the webs can take an action to make a Strength ({@skill Athletics|XPHB}) check against {@dcYourSpellSave}, ending the effect on itself with a successful check."
+								]
+							}
+						]
+					}
+				],
+				[
+					"2",
+					{
+						"type": "entries",
+						"entries": [
+							{
+								"type": "entries",
+								"name": "Caustic Ooze",
+								"entries": [
+									"Slick, oily gunk covers the ground in the {@variantrule Emanation [Area of Effect]|XPHB|Emanation}, making it {@variantrule Difficult Terrain|XPHB} for your enemies. Each enemy that starts its turn on the ground in the {@variantrule Emanation [Area of Effect]|XPHB|Emanation} takes {@damage 1d6} Acid damage and must succeed on a Dexterity saving throw or have the {@condition Prone|XPHB} condition. This damage increases by {@damage 1d6} when you reach Sorcerer levels 11 ({@damage 2d6}) and 16 ({@damage 3d6})."
+								]
+							}
+						]
+					}
+				],
+				[
+					"3",
+					{
+						"type": "entries",
+						"entries": [
+							{
+								"type": "entries",
+								"name": "Terrifying Screams",
+								"entries": [
+									"Each enemy that starts its turn in the {@variantrule Emanation [Area of Effect]|XPHB|Emanation} takes {@damage 1d6} Psychic damage and must succeed on a Wisdom saving throw or have the {@condition Frightened|XPHB} condition until the start of its next turn. This damage increases by {@damage 1d6} when you reach Sorcerer levels 11 ({@damage 2d6}) and 16 ({@damage 3d6})."
+								]
+							}
+						]
+					}
+				],
+				[
+					"4",
+					{
+						"type": "entries",
+						"entries": [
+							{
+								"type": "entries",
+								"name": "Enthralling Spores",
+								"entries": [
+									"Intoxicating spores fill the {@variantrule Emanation [Area of Effect]|XPHB|Emanation}, which is {@variantrule Heavily Obscured|XPHB} for creatures of your choice. When you reach Sorcerer level 11, each enemy that starts its turn in the {@variantrule Emanation [Area of Effect]|XPHB|Emanation} must succeed on a Wisdom saving throw or have the {@condition Charmed|XPHB} condition until the start of its next turn."
+								]
+							}
+						]
+					}
+				],
+				[
+					"5",
+					{
+						"type": "entries",
+						"entries": [
+							{
+								"type": "entries",
+								"name": "Poisonous Foliage",
+								"entries": [
+									"The {@variantrule Emanation [Area of Effect]|XPHB|Emanation} is {@variantrule Lightly Obscured|XPHB} by demonic flora. Each enemy that starts its turn in the {@variantrule Emanation [Area of Effect]|XPHB|Emanation} takes {@damage 1d6} Poison damage and must succeed on a Constitution saving throw or have the {@condition Poisoned|XPHB} condition until the start of its next turn. This damage increases by {@damage 1d6} when you reach Sorcerer levels 11 ({@damage 2d6}) and 16 ({@damage 3d6})."
+								]
+							}
+						]
+					}
+				],
+				[
+					"6",
+					{
+						"type": "entries",
+						"entries": [
+							{
+								"type": "entries",
+								"name": "Enervating Bones",
+								"entries": [
+									"Spectral limbs erupt from the ground, reaching to sap the life around them. Each enemy that starts its turn in the {@variantrule Emanation [Area of Effect]|XPHB|Emanation} takes {@damage 1d10} Necrotic damage and can't regain {@variantrule Hit Points|XPHB} until the start of its next turn. The Necrotic damage increases by {@damage 1d10} when you reach Sorcerer levels 11 ({@damage 2d10}) and 16 ({@damage 3d10})."
+								]
+							}
+						]
+					}
+				]
+			]
+		},
+		{
+			"name": "Abyssal Manifestations",
+			"source": "XUA2026VillainousOptions",
+			"page": 7,
+			"colLabels": [
+				"1d6",
+				"Manifestation"
+			],
+			"colStyles": [
+				"col-2 text-center",
+				"col-10"
+			],
+			"rows": [
+				[
+					"1",
+					"Abyssal fissures mar your flesh, revealing windows into a vast demonic realm."
+				],
+				[
+					"2",
+					"Insects writhe beneath your skin and escape from your mouth, nose, and ears."
+				],
+				[
+					"3",
+					"Sheets of scorched skin peel from your body."
+				],
+				[
+					"4",
+					"Your flesh bubbles and froths like a toxic bog."
+				],
+				[
+					"5",
+					"Your fingers or other extremities discolor as if frostbitten."
+				],
+				[
+					"6",
+					"You grow a second head. (This has no impact on your game statistics.)"
+				]
+			]
+		},
+		{
+			"name": "Circle of the Titan Spells",
+			"source": "XUA2026VillainousOptions",
+			"page": 3,
+			"colLabels": [
+				"Druid Level",
+				"Prepared Spells"
+			],
+			"colStyles": [
+				"col-2 text-center",
+				"col-10"
+			],
+			"rows": [
+				[
+					"3",
+					"{@spell Cure Wounds|XPHB}, {@spell Longstrider|XPHB}, {@spell Thaumaturgy|XPHB}"
+				],
+				[
+					"5",
+					"{@spell Fear|XPHB}"
+				],
+				[
+					"7",
+					"{@spell Stoneskin|XPHB}"
+				],
+				[
+					"9",
+					"{@spell Destructive Wave|XPHB}"
+				]
+			]
+		},
+		{
+			"name": "Death Knight Journeys",
+			"source": "XUA2026VillainousOptions",
+			"page": 9,
+			"colLabels": [
+				"1d6",
+				"You Fell from Grace When You..."
+			],
+			"colStyles": [
+				"col-2 text-center",
+				"col-10"
+			],
+			"rows": [
+				[
+					"1",
+					"Abandoned your companions in battle."
+				],
+				[
+					"2",
+					"Betrayed a loved one."
+				],
+				[
+					"3",
+					"Intentionally harmed an innocent."
+				],
+				[
+					"4",
+					"Made a pact with a malevolent entity such as a demon lord."
+				],
+				[
+					"5",
+					"Offended a benevolent god."
+				],
+				[
+					"6",
+					"Violated a sworn oath."
+				]
+			]
+		},
+		{
+			"name": "Demonic Spells",
+			"source": "XUA2026VillainousOptions",
+			"page": 8,
+			"colLabels": [
+				"Sorcerer Level",
+				"Prepared Spells"
+			],
+			"colStyles": [
+				"col-2 text-center",
+				"col-10"
+			],
+			"rows": [
+				[
+					"3",
+					"{@spell Detect Magic|XPHB}, {@spell Entangle|XPHB}, {@spell Misty Step|XPHB}, {@spell Spider Climb|XPHB}"
+				],
+				[
+					"5",
+					"{@spell Dispel Magic|XPHB}, {@spell Gaseous Form|XPHB}"
+				],
+				[
+					"7",
+					"{@spell Confusion|XPHB}, {@spell Hallucinatory Terrain|XPHB}"
+				],
+				[
+					"9",
+					"{@spell Contact Other Plane|XPHB}, {@spell Hallow|XPHB}"
+				]
+			]
+		},
+		{
+			"name": "Hell Knight Pursuits",
+			"source": "XUA2026VillainousOptions",
+			"page": 6,
+			"colLabels": [
+				"1d6",
+				"You Became a Hell Knight Because You..."
+			],
+			"colStyles": [
+				"col-2 text-center",
+				"col-10"
+			],
+			"rows": [
+				[
+					"1",
+					"Desired treasures only the Nine Hells could grant you."
+				],
+				[
+					"2",
+					"Hungered for power beyond mortal bounds."
+				],
+				[
+					"3",
+					"Made a wager with a devil\u2014and lost."
+				],
+				[
+					"4",
+					"Sacrificed your soul to spare someone else's."
+				],
+				[
+					"5",
+					"Sought vengeance on an adversary who wronged you deeply."
+				],
+				[
+					"6",
+					"Were fooled by fine print in an infernal contract."
+				]
+			]
+		},
+		{
+			"name": "Lich Rites",
+			"source": "XUA2026VillainousOptions",
+			"page": 11,
+			"colLabels": [
+				"1d6",
+				"To Conduct Your Ritual, You Must..."
+			],
+			"colStyles": [
+				"col-2 text-center",
+				"col-10"
+			],
+			"rows": [
+				[
+					"1",
+					"Consume one hundred souls to strengthen your magic."
+				],
+				[
+					"2",
+					"Decipher and recite a forbidden incantation from a lost tome written in a dead language."
+				],
+				[
+					"3",
+					"Use ancient abjuration magic to conceal yourself from the gods of death."
+				],
+				[
+					"4",
+					"Pen a blasphemous verse and perform it in a defiled temple."
+				],
+				[
+					"5",
+					"Craft a potion from your victims' remains and imbibe it beneath a full moon."
+				],
+				[
+					"6",
+					"Corrupt your soul so completely no afterlife will accept it."
+				]
+			]
+		},
+		{
+			"name": "Pestilence Domain Spells",
+			"source": "XUA2026VillainousOptions",
+			"page": 1,
+			"colLabels": [
+				"Cleric Level",
+				"Prepared Spells"
+			],
+			"colStyles": [
+				"col-2 text-center",
+				"col-10"
+			],
+			"rows": [
+				[
+					"3",
+					"{@spell Detect Poison and Disease|XPHB}, {@spell Protection from Poison|XPHB}, {@spell Ray of Enfeeblement|XPHB}, {@spell Ray of Sickness|XPHB}"
+				],
+				[
+					"5",
+					"{@spell Stinking Cloud|XPHB}, {@spell Vampiric Touch|XPHB}"
+				],
+				[
+					"7",
+					"{@spell Blight|XPHB}, {@spell Giant Insect|XPHB}"
+				],
+				[
+					"9",
+					"{@spell Contagion|XPHB}, {@spell Insect Plague|XPHB}"
+				]
+			]
+		},
+		{
+			"name": "Plague Symptoms",
+			"source": "XUA2026VillainousOptions",
+			"page": 2,
+			"colLabels": [
+				"1d6",
+				"While Infected, a Creature..."
+			],
+			"colStyles": [
+				"col-2 text-center",
+				"col-10"
+			],
+			"rows": [
+				[
+					"1",
+					"Is drained of all color, appearing in monochromatic grays."
+				],
+				[
+					"2",
+					"Sheds metallic, rust-hued flakes and creaks while moving."
+				],
+				[
+					"3",
+					"Secretes foul-smelling mucus."
+				],
+				[
+					"4",
+					"Is surrounded by a cloud of buzzing insects."
+				],
+				[
+					"5",
+					"Sprouts fungi or other foliage from its flesh."
+				],
+				[
+					"6",
+					"Is covered in glowing pustules."
+				]
+			]
+		},
+		{
+			"name": "Spirit Jars",
+			"source": "XUA2026VillainousOptions",
+			"page": 11,
+			"colLabels": [
+				"1d6",
+				"Your Spirit Jar Is..."
+			],
+			"colStyles": [
+				"col-2 text-center",
+				"col-10"
+			],
+			"rows": [
+				[
+					"1",
+					"An acorn from a forest destroyed long ago."
+				],
+				[
+					"2",
+					"A love letter from a deceased paramour."
+				],
+				[
+					"3",
+					"The inkwell that you used to scribe your first spell or prayer."
+				],
+				[
+					"4",
+					"The defaced holy symbol of a god you've denounced."
+				],
+				[
+					"5",
+					"A bell whose toll becomes lower with each soul you collect."
+				],
+				[
+					"6",
+					"A desiccated body part\u2014such as an eye, finger, or horn\u2014that was once part of you or someone you knew."
+				]
+			]
+		},
+		{
+			"name": "Titan Appearance",
+			"source": "XUA2026VillainousOptions",
+			"page": 3,
+			"colLabels": [
+				"1d4",
+				"{@creature Behemoth|XUA2026VillainousOptions}",
+				"{@creature Leviathan|XUA2026VillainousOptions}",
+				"{@creature Insectoid|XUA2026VillainousOptions}"
+			],
+			"colStyles": [
+				"col-3 text-center",
+				"col-3",
+				"col-3",
+				"col-3"
+			],
+			"rows": [
+				[
+					"1",
+					"Reflective scales",
+					"Many-tentacled",
+					"Iridescent wings"
+				],
+				[
+					"2",
+					"Multiple heads",
+					"Translucent and blob-like",
+					"Compound eyes"
+				],
+				[
+					"3",
+					"Reptilian tail",
+					"Lamprey-like mouth",
+					"Chitinous horns"
+				],
+				[
+					"4",
+					"Woolly and simian",
+					"Serpentine body",
+					"Bioluminescent exoskeleton"
+				]
+			]
+		}
+	],
+	"book": [
+		{
+			"name": "Unearthed Arcana 2026: Villainous Options",
+			"id": "XUA2026VillainousOptions",
+			"source": "XUA2026VillainousOptions",
+			"group": "prerelease",
+			"cover": {
+				"type": "external",
+				"url": "https://raw.githubusercontent.com/TheGiddyLimit/unearthed-arcana-img/main/img/XUA2026VillainousOptions/cover.webp"
+			},
+			"published": "2026-04-02",
+			"author": "Wizards of the Coast",
+			"contents": [
+				{
+					"name": "Unearthed Arcana 2026: Villainous Options",
+					"headers": [
+						"What's Inside",
+						{
+							"header": "Content Warning",
+							"depth": 1
+						},
+						"Subclasses",
+						{
+							"header": "Pestilence Domain (Cleric)",
+							"depth": 1
+						},
+						{
+							"header": "Circle of the Titan (Druid)",
+							"depth": 1
+						},
+						{
+							"header": "Hell Knight (Fighter)",
+							"depth": 1
+						},
+						{
+							"header": "Demonic Sorcery (Sorcerer)",
+							"depth": 1
+						},
+						"Paths of Villainy",
+						{
+							"header": "Path of the Death Knight",
+							"depth": 1
+						},
+						{
+							"header": "Path of the Lich",
+							"depth": 1
+						}
+					]
+				}
+			]
+		}
+	],
+	"bookData": [
+		{
+			"id": "XUA2026VillainousOptions",
+			"source": "XUA2026VillainousOptions",
+			"data": [
+				{
+					"type": "section",
+					"name": "Unearthed Arcana 2026: Villainous Options",
+					"page": 1,
+					"entries": [
+						"This playtest document is part of a series of {@i Unearthed Arcana} articles that present material designed for upcoming products. The material here uses the rules in the {@book 2024 Player's Handbook|XPHB}.",
+						{
+							"type": "section",
+							"name": "What's Inside",
+							"page": 1,
+							"entries": [
+								"This document presents four new subclasses:",
+								{
+									"type": "list",
+									"items": [
+										"{@class Cleric} ({@class Cleric|XPHB|Pestilence Domain|Pestilence|XUA2026VillainousOptions})",
+										"{@class Druid} ({@class Druid|XPHB|Circle of the Titan|Titan|XUA2026VillainousOptions})",
+										"{@class Fighter} ({@class Fighter|XPHB|Hell Knight|Hell Knight|XUA2026VillainousOptions})",
+										"{@class Sorcerer} ({@class Sorcerer|XPHB|Demonic Sorcery|Demonic|XUA2026VillainousOptions})"
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Content Warning",
+									"page": 1,
+									"entries": [
+										"This material contains descriptions of body horror, disease, and insects that some readers might find disturbing."
+									]
+								},
+								{
+									"type": "inset",
+									"name": "This Is Playtest Material",
+									"page": 1,
+									"entries": [
+										"This article is presented for playtesting and feedback. The options here are experimental and in draft form. They aren't officially part of the game. Your feedback will help determine whether we adopt it as official.",
+										{
+											"type": "list",
+											"style": "list-hang-notitle",
+											"page": 1,
+											"items": [
+												{
+													"type": "item",
+													"name": "How to Playtest This UA",
+													"entries": [
+														"We invite you to try out this material in play. To play with this material, you may either incorporate it into your campaign or run one or more special playtest sessions. For such a session, you may create an adventure of your own or use a short adventure from a source like {@adventure Dragon Delves|DrDe-BD}."
+													]
+												},
+												{
+													"type": "item",
+													"name": "Power Level",
+													"entries": [
+														"The character options you read here might be more or less powerful than options in the {@book 2024 Player's Handbook|XPHB}. If a design survives playtesting, we adjust its power to the desirable level before publication. This means an option could be more or less powerful in its final form."
+													]
+												},
+												{
+													"type": "item",
+													"name": "Feedback",
+													"entries": [
+														"The best way for you to give us feedback on this material is in the survey we'll release on D&D Beyond. If we make this material official, it will be refined based on your feedback, and then it will appear in a D&D book.",
+														"Providing feedback on this document is one way you can help shape the future of D&D!"
+													]
+												}
+											]
+										}
+									]
+								}
+							]
+						},
+						{
+							"type": "section",
+							"name": "Subclasses",
+							"page": 1,
+							"entries": [
+								"This section presents the following subclasses: {@class Cleric|XPHB|Pestilence Domain|Pestilence|XUA2026VillainousOptions}, {@class Druid|XPHB|Circle of the Titan|Titan|XUA2026VillainousOptions}, {@class Fighter|XPHB|Hell Knight|Hell Knight|XUA2026VillainousOptions}, and {@class Sorcerer|XPHB|Demonic Sorcery|Demonic|XUA2026VillainousOptions}.",
+								{
+									"type": "entries",
+									"name": "Pestilence Domain (Cleric)",
+									"page": 1,
+									"entries": [
+										"{@i Foment Plague and Rot}",
+										{
+											"type": "statblock",
+											"prop": "subclass",
+											"source": "XUA2026VillainousOptions",
+											"name": "Pestilence Domain",
+											"className": "Cleric",
+											"classSource": "XPHB",
+											"page": 1,
+											"shortName": "Pestilence"
+										}
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Circle of the Titan (Druid)",
+									"page": 3,
+									"entries": [
+										"{@i Wreak Colossal Havoc}",
+										{
+											"type": "statblock",
+											"prop": "subclass",
+											"source": "XUA2026VillainousOptions",
+											"name": "Circle of the Titan",
+											"className": "Druid",
+											"classSource": "XPHB",
+											"page": 3,
+											"shortName": "Titan"
+										}
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Hell Knight (Fighter)",
+									"page": 6,
+									"entries": [
+										"{@i Inflict Hellish Wounds and Damn Enemies}",
+										{
+											"type": "statblock",
+											"prop": "subclass",
+											"source": "XUA2026VillainousOptions",
+											"name": "Hell Knight",
+											"className": "Fighter",
+											"classSource": "XPHB",
+											"page": 6,
+											"shortName": "Hell Knight"
+										}
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Demonic Sorcery (Sorcerer)",
+									"page": 5,
+									"entries": [
+										"{@i Summon the Powers of the Abyss}",
+										{
+											"type": "statblock",
+											"prop": "subclass",
+											"source": "XUA2026VillainousOptions",
+											"name": "Demonic Sorcery",
+											"className": "Sorcerer",
+											"classSource": "XPHB",
+											"page": 7,
+											"shortName": "Demonic"
+										}
+									]
+								}
+							]
+						},
+						{
+							"type": "section",
+							"name": "Paths of Villainy",
+							"page": 9,
+							"entries": [
+								"This section includes two paths: the {@charoption Path of the Death Knight|XUA2026VillainousOptions} and the {@charoption Path of the Lich|XUA2026VillainousOptions}. Each path presents a selection of feats that represent a character's transformation into one of these two villainous archetypes.",
+								{
+									"type": "statblock",
+									"tag": "charoption",
+									"source": "XUA2026VillainousOptions",
+									"name": "Path of the Death Knight",
+									"page": 9
+								},
+								{
+									"type": "statblock",
+									"tag": "charoption",
+									"source": "XUA2026VillainousOptions",
+									"name": "Path of the Lich",
+									"page": 11
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	]
+}

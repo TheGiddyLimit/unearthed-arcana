@@ -20,8 +20,8 @@
 		"edition": "one",
 		"status": "ready",
 		"dateAdded": 1761853046,
-		"dateLastModified": 1761853046,
-		"_dateLastModifiedHash": "584a04a25a"
+		"dateLastModified": 1775250696,
+		"_dateLastModifiedHash": "9ef934dcdf"
 	},
 	"subclass": [
 		{
@@ -1156,7 +1156,7 @@
 			"subclassShortName": "Intoxication",
 			"subclassSource": "XUA2025SubclassesUpdate",
 			"level": 17,
-			"header": 3,
+			"header": 2,
 			"entries": [
 				"You make an overwhelming number of attacks against a group of enemies. When you use {@classFeature Flurry of Blows|Monk|XPHB|2|XPHB}, you can make up to three additional {@variantrule Unarmed Strike|XPHB|Unarmed Strikes} with it (up to a total of six {@variantrule Unarmed Strike|XPHB|Unarmed Strikes}), provided that each strike targets a different creature this turn."
 			]
