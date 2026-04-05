@@ -1960,7 +1960,7 @@
 			],
 			"soundClip": {
 				"type": "internal",
-				"path": "races/dragonborn.mp3"
+				"path": "races/dragonborn.opus"
 			},
 			"entries": [
 				{
@@ -2212,7 +2212,7 @@
 			],
 			"soundClip": {
 				"type": "internal",
-				"path": "races/dwarf.mp3"
+				"path": "races/dwarf.opus"
 			},
 			"entries": [
 				{
@@ -2314,7 +2314,7 @@
 			],
 			"soundClip": {
 				"type": "internal",
-				"path": "races/elf.mp3"
+				"path": "races/elf.opus"
 			},
 			"entries": [
 				{
@@ -2662,7 +2662,7 @@
 			"darkvision": 60,
 			"soundClip": {
 				"type": "internal",
-				"path": "races/gnome.mp3"
+				"path": "races/gnome.opus"
 			},
 			"entries": [
 				{
@@ -2844,7 +2844,7 @@
 			],
 			"soundClip": {
 				"type": "internal",
-				"path": "races/halfling.mp3"
+				"path": "races/halfling.opus"
 			},
 			"entries": [
 				{
@@ -2940,7 +2940,7 @@
 			],
 			"soundClip": {
 				"type": "internal",
-				"path": "races/human.mp3"
+				"path": "races/human.opus"
 			},
 			"entries": [
 				{
@@ -3106,7 +3106,7 @@
 			"darkvision": 60,
 			"soundClip": {
 				"type": "internal",
-				"path": "races/Tiefling.mp3"
+				"path": "races/Tiefling.opus"
 			},
 			"additionalSpells": [
 				{

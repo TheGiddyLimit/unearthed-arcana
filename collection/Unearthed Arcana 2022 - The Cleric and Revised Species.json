@@ -1123,7 +1123,7 @@
 			"darkvision": 60,
 			"soundClip": {
 				"type": "internal",
-				"path": "races/dragonborn.mp3"
+				"path": "races/dragonborn.opus"
 			},
 			"entries": [
 				{
@@ -1376,7 +1376,7 @@
 			},
 			"soundClip": {
 				"type": "internal",
-				"path": "races/goliath.mp3"
+				"path": "races/goliath.opus"
 			},
 			"entries": [
 				{
