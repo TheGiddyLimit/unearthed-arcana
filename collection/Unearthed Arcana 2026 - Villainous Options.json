@@ -1160,11 +1160,11 @@
 			"prerequisite": [
 				{
 					"level": 12,
-					"feat": [
-						"death knight initiate|XUA2026VillainousOptions"
-					],
 					"featCategory": [
-						"Path of the Death Knight"
+						{
+							"category": "Path of the Death Knight",
+							"count": 2
+						}
 					]
 				}
 			],
@@ -1419,11 +1419,11 @@
 			"prerequisite": [
 				{
 					"level": 12,
-					"feat": [
-						"lich initiate|XUA2026VillainousOptions"
-					],
 					"featCategory": [
-						"Path of the Lich"
+						{
+							"category": "Path of the Lich",
+							"count": 2
+						}
 					]
 				}
 			],
