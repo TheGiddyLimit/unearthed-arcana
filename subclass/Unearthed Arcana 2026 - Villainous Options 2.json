@@ -1,0 +1,1206 @@
+{
+	"$schema": "https://raw.githubusercontent.com/TheGiddyLimit/5etools-utils/master/schema/ua-fast/homebrew.json",
+	"_meta": {
+		"sources": [
+			{
+				"json": "XUA2026VillainousOptions2",
+				"abbreviation": "XUA26VO2",
+				"full": "Unearthed Arcana 2026: Villainous Options 2",
+				"url": "hhttps://media.dndbeyond.com/compendium-images/ua/villainous-options-2/jjnPv60IoeJEmM8Z/UA2026-VillainousOptions02.pdf",
+				"version": "1.1",
+				"dateReleased": "2026-04-23",
+				"authors": [
+					"Wizards of the Coast"
+				],
+				"convertedBy": [
+					"Lyra [he/him]"
+				]
+			}
+		],
+		"edition": "one",
+		"status": "ready",
+		"dateAdded": 1776966837,
+		"dateLastModified": 1776966837
+	},
+	"subclass": [
+		{
+			"name": "Path of Lament",
+			"shortName": "Lament",
+			"source": "XUA2026VillainousOptions2",
+			"className": "Barbarian",
+			"classSource": "XPHB",
+			"page": 1,
+			"additionalSpells": [
+				{
+					"innate": {
+						"6": {
+							"ritual": [
+								"speak with dead|XPHB"
+							]
+						}
+					},
+					"ability": "wis"
+				}
+			],
+			"subclassSpells": [
+				"speak with dead|XPHB"
+			],
+			"subclassFeatures": [
+				"Path of Lament|Barbarian|XPHB|Lament|XUA2026VillainousOptions2|3|XUA2026VillainousOptions2",
+				"Commune with the Dead|Barbarian|XPHB|Lament|XUA2026VillainousOptions2|6|XUA2026VillainousOptions2",
+				"Horrifying Strike|Barbarian|XPHB|Lament|XUA2026VillainousOptions2|6|XUA2026VillainousOptions2",
+				"Otherworldly Anguish|Barbarian|XPHB|Lament|XUA2026VillainousOptions2|10|XUA2026VillainousOptions2",
+				"Sorrow Form|Barbarian|XPHB|Lament|XUA2026VillainousOptions2|14|XUA2026VillainousOptions2"
+			],
+			"hasFluff": true
+		},
+		{
+			"name": "Primordial Patron",
+			"shortName": "Primordial",
+			"source": "XUA2026VillainousOptions2",
+			"className": "Warlock",
+			"classSource": "XPHB",
+			"page": 4,
+			"additionalSpells": [
+				{
+					"name": "Air",
+					"prepared": {
+						"3": [
+							"Chromatic Orb",
+							"Darkvision",
+							"Feather Fall",
+							"Shatter"
+						],
+						"5": [
+							"Elemental Weapon",
+							"Fly"
+						],
+						"7": [
+							"Summon Elemental|XPHB",
+							"Freedom of Movement"
+						],
+						"9": [
+							"Commune with Nature",
+							"Steel Wind Strike|XPHB"
+						]
+					},
+					"innate": {
+						"14": {
+							"limited": {
+								"1": [
+									"Planar Ally"
+								]
+							}
+						}
+					}
+				},
+				{
+					"name": "Earth",
+					"prepared": {
+						"3": [
+							"Chromatic Orb",
+							"Darkvision",
+							"Entangle",
+							"Knock"
+						],
+						"5": [
+							"Elemental Weapon",
+							"Plant Growth"
+						],
+						"7": [
+							"Summon Elemental|XPHB",
+							"Vitriolic Sphere|XPHB"
+						],
+						"9": [
+							"Commune with Nature",
+							"Wall of Stone"
+						]
+					},
+					"innate": {
+						"14": {
+							"limited": {
+								"1": [
+									"Planar Ally"
+								]
+							}
+						}
+					}
+				},
+				{
+					"name": "Fire",
+					"prepared": {
+						"3": [
+							"Chromatic Orb",
+							"Darkvision",
+							"Burning Hands",
+							"Heat Metal"
+						],
+						"5": [
+							"Elemental Weapon",
+							"Fireball"
+						],
+						"7": [
+							"Summon Elemental|XPHB",
+							"Wall of Fire"
+						],
+						"9": [
+							"Commune with Nature",
+							"Flame Strike"
+						]
+					},
+					"innate": {
+						"14": {
+							"limited": {
+								"1": [
+									"Planar Ally"
+								]
+							}
+						}
+					}
+				},
+				{
+					"name": "Water",
+					"prepared": {
+						"3": [
+							"Chromatic Orb",
+							"Darkvision",
+							"Alter Self",
+							"Ice Knife|XPHB"
+						],
+						"5": [
+							"Elemental Weapon",
+							"Water Walk"
+						],
+						"7": [
+							"Summon Elemental|XPHB",
+							"Control Water"
+						],
+						"9": [
+							"Commune with Nature",
+							"Cone of Cold"
+						]
+					},
+					"innate": {
+						"14": {
+							"limited": {
+								"1": [
+									"Planar Ally"
+								]
+							}
+						}
+					}
+				}
+			],
+			"subclassSpells": [
+				"Chromatic Orb",
+				"Darkvision",
+				"Elemental Weapon",
+				"Summon Elemental|XPHB",
+				"Commune with Nature",
+				"Planar Ally"
+			],
+			"subSubclassSpells": {
+				"Air": [
+					"Feather Fall",
+					"Shatter",
+					"Fly",
+					"Freedom of Movement",
+					"Steel Wind Strike|XPHB"
+				],
+				"Earth": [
+					"Entangle",
+					"Knock",
+					"Plant Growth",
+					"Vitriolic Sphere|XPHB",
+					"Wall of Stone"
+				],
+				"Fire": [
+					"Burning Hands",
+					"Heat Metal",
+					"Fireball",
+					"Wall of Fire",
+					"Flame Strike"
+				],
+				"Water": [
+					"Alter Self",
+					"Ice Knife|XPHB",
+					"Water Walk",
+					"Control Water",
+					"Cone of Cold"
+				]
+			},
+			"subclassFeatures": [
+				"Primordial Patron|Warlock|XPHB|Primordial|XUA2026VillainousOptions2|3|XUA2026VillainousOptions2",
+				"Elemental Haven|Warlock|XPHB|Primordial|XUA2026VillainousOptions2|6|XUA2026VillainousOptions2",
+				"Primeval Protection|Warlock|XPHB|Primordial|XUA2026VillainousOptions2|10|XUA2026VillainousOptions2",
+				"Elemental Harbinger|Warlock|XPHB|Primordial|XUA2026VillainousOptions2|14|XUA2026VillainousOptions2"
+			],
+			"hasFluff": true
+		},
+		{
+			"name": "Warrior of Venom",
+			"shortName": "Venom",
+			"source": "XUA2026VillainousOptions2",
+			"className": "Monk",
+			"classSource": "XPHB",
+			"page": 3,
+			"subclassFeatures": [
+				"Warrior of Venom|Monk|XPHB|Venom|XUA2026VillainousOptions2|3|XUA2026VillainousOptions2",
+				"Toxic Touch|Monk|XPHB|Venom|XUA2026VillainousOptions2|6|XUA2026VillainousOptions2",
+				"Toxin Refiner|Monk|XPHB|Venom|XUA2026VillainousOptions2|11|XUA2026VillainousOptions2",
+				"Toxic Blood|Monk|XPHB|Venom|XUA2026VillainousOptions2|11|XUA2026VillainousOptions2",
+				"Hallucinogenic Breath|Monk|XPHB|Venom|XUA2026VillainousOptions2|17|XUA2026VillainousOptions2"
+			],
+			"hasFluff": true
+		}
+	],
+	"subclassFluff": [
+		{
+			"name": "Path of Lament",
+			"shortName": "Lament",
+			"source": "XUA2026VillainousOptions2",
+			"className": "Barbarian",
+			"classSource": "XPHB",
+			"entries": [
+				"{@i Transform Bitter Anguish into Supernatural Rage}"
+			]
+		},
+		{
+			"name": "Primordial Patron",
+			"shortName": "Primordial",
+			"source": "XUA2026VillainousOptions2",
+			"className": "Warlock",
+			"classSource": "XPHB",
+			"entries": [
+				"{@i Invoke Scions of Elemental Chaos}"
+			]
+		},
+		{
+			"name": "Warrior of Venom",
+			"shortName": "Venom",
+			"source": "XUA2026VillainousOptions2",
+			"className": "Monk",
+			"classSource": "XPHB",
+			"entries": [
+				"{@i Channel the Cauldron of Your Own Toxicity}"
+			]
+		}
+	],
+	"subclassFeature": [
+		{
+			"name": "Path of Lament",
+			"source": "XUA2026VillainousOptions2",
+			"page": 1,
+			"className": "Barbarian",
+			"classSource": "XPHB",
+			"subclassShortName": "Lament",
+			"subclassSource": "XUA2026VillainousOptions2",
+			"level": 3,
+			"header": 1,
+			"entries": [
+				"Barbarians who walk the Path of Lament hone their regrets into deadly weapons and channel their deepest sorrows into rageful action. Propelled by supernatural grief, their fury grants them gifts from beyond the grave.",
+				"A Barbarian may choose the Path of Lament, but more often the path is thrust on the Barbarian by unhappy accident. At the heart of the Barbarian's rage are great trauma and unresolved grief\u2014painful emotions fueled by haunting memories that rise to the surface during adrenaline-filled moments. You can roll on or choose a result from the {@table Path of Lament Origins|XUA2026VillainousOptions2} table to inspire the incident that forms the root of your despair.",
+				{
+					"type": "statblock",
+					"tag": "table",
+					"source": "XUA2026VillainousOptions2",
+					"name": "Path of Lament Origins",
+					"page": 1
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Banshee's Wail|Barbarian|XPHB|Lament|XUA2026VillainousOptions2|3|XUA2026VillainousOptions2"
+				}
+			]
+		},
+		{
+			"name": "Banshee's Wail",
+			"source": "XUA2026VillainousOptions2",
+			"page": 1,
+			"className": "Barbarian",
+			"classSource": "XPHB",
+			"subclassShortName": "Lament",
+			"subclassSource": "XUA2026VillainousOptions2",
+			"level": 3,
+			"header": 2,
+			"entries": [
+				"When you activate your {@classFeature Rage|Barbarian|XPHB|1|XPHB} or as a {@variantrule Bonus Action|XPHB} while your {@classFeature Rage|Barbarian|XPHB|1|XPHB} is active, you can let out a doleful wail. Each creature of your choice in a 30-foot {@variantrule Emanation [Area of Effect]|XPHB|Emanation} originating from you makes a Constitution saving throw ({@dc 8} plus your Constitution modifier and {@table Proficiency Bonus|XPHB}). On a failed save, a creature takes Psychic damage and has the {@condition Deafened|XPHB} condition for 1 minute. On a successful save, a creature takes half as much damage only. To determine the Psychic damage, roll a number of {@dice d12|d12s} equal to your {@classFeature Rage|Barbarian|XPHB|1|XPHB|Rage Damage} bonus, and add them together.",
+				"You can use this feature a number of times equal to your Constitution modifier (minimum of once). You regain all expended uses when you finish a {@variantrule Long Rest|XPHB}. You can also regain all uses by expending a use of your {@classFeature Rage|Barbarian|XPHB|1|XPHB} (no action required)."
+			]
+		},
+		{
+			"name": "Commune with the Dead",
+			"source": "XUA2026VillainousOptions2",
+			"page": 1,
+			"className": "Barbarian",
+			"classSource": "XPHB",
+			"subclassShortName": "Lament",
+			"subclassSource": "XUA2026VillainousOptions2",
+			"level": 6,
+			"header": 2,
+			"entries": [
+				"You can cast the {@spell Speak with Dead|XPHB} spell but only as a {@variantrule Ritual|XPHB}. Wisdom is your spellcasting ability for it."
+			]
+		},
+		{
+			"name": "Horrifying Strike",
+			"source": "XUA2026VillainousOptions2",
+			"page": 2,
+			"className": "Barbarian",
+			"classSource": "XPHB",
+			"subclassShortName": "Lament",
+			"subclassSource": "XUA2026VillainousOptions2",
+			"level": 6,
+			"header": 2,
+			"entries": [
+				"Once per turn when you hit a creature with a Strength-based attack roll while your {@classFeature Rage|Barbarian|XPHB|1|XPHB} is active, you can attempt to horrify the target. The target must succeed on a Wisdom saving throw ({@dc 8} plus your Constitution modifier and {@table Proficiency Bonus|XPHB}) or have the {@condition Frightened|XPHB} condition until the start of your next turn."
+			]
+		},
+		{
+			"name": "Otherworldly Anguish",
+			"source": "XUA2026VillainousOptions2",
+			"page": 2,
+			"className": "Barbarian",
+			"classSource": "XPHB",
+			"subclassShortName": "Lament",
+			"subclassSource": "XUA2026VillainousOptions2",
+			"level": 10,
+			"header": 2,
+			"entries": [
+				"You draw power from a sorrow so deep it extends beyond the boundaries of the realm of the living. You gain the following benefits.",
+				{
+					"type": "entries",
+					"name": "Deathly Wail",
+					"page": 2,
+					"entries": [
+						"If a target fails its saving throw against your {@subclassFeature Banshee's Wail|Barbarian|XPHB|Lament|XUA2026VillainousOptions2|3|XUA2026VillainousOptions2} and it has {@variantrule Hit Points|XPHB} equal to twice your {@class Barbarian|XPHB} level or fewer, it drops to 0 {@variantrule Hit Points|XPHB} instead of taking damage."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Impenetrable Sorrow",
+					"page": 2,
+					"entries": [
+						"You can't be {@variantrule Possession|XPHB|possessed}."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Resistance",
+					"page": 2,
+					"entries": [
+						"You have {@variantrule Resistance|XPHB} to Cold and Necrotic damage while your {@classFeature Rage|Barbarian|XPHB|1|XPHB} is active."
+					]
+				}
+			]
+		},
+		{
+			"name": "Sorrow Form",
+			"source": "XUA2026VillainousOptions2",
+			"page": 2,
+			"className": "Barbarian",
+			"classSource": "XPHB",
+			"subclassShortName": "Lament",
+			"subclassSource": "XUA2026VillainousOptions2",
+			"level": 14,
+			"header": 2,
+			"entries": [
+				"When you activate your {@classFeature Rage|Barbarian|XPHB|1|XPHB}, you can empower yourself with undeath. You gain the benefits below for 1 minute or until you drop to 0 {@variantrule Hit Points|XPHB}. Once you use this feature, you can't do so again until you finish a {@variantrule Long Rest|XPHB}.",
+				{
+					"type": "entries",
+					"name": "Immunities",
+					"page": 2,
+					"entries": [
+						"You have {@variantrule Immunity|XPHB} to the {@condition Charmed|XPHB} and {@condition Frightened|XPHB} conditions. If you're {@condition Charmed|XPHB} or {@condition Frightened|XPHB} when you empower yourself, the condition ends on you. In addition, you can't gain {@condition Exhaustion|XPHB} levels."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Life-Draining Strike",
+					"page": 2,
+					"entries": [
+						"When a creature fails its saving throw against your {@subclassFeature Horrifying Strike|Barbarian|XPHB|Lament|XUA2026VillainousOptions2|6|XUA2026VillainousOptions2}, the creature takes {@damage 2d10} Necrotic damage. You regain {@variantrule Hit Points|XPHB} equal to the Necrotic damage dealt."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Undead",
+					"page": 2,
+					"entries": [
+						"Your creature type is Undead."
+					]
+				}
+			]
+		},
+		{
+			"name": "Warrior of Venom",
+			"source": "XUA2026VillainousOptions2",
+			"page": 3,
+			"className": "Monk",
+			"classSource": "XPHB",
+			"subclassShortName": "Venom",
+			"subclassSource": "XUA2026VillainousOptions2",
+			"level": 3,
+			"header": 1,
+			"entries": [
+				"Warriors of Venom pollute their internal reservoirs of power to become poison incarnate. Through years of focus and the study of poison in all its forms, these Monks learn to harness their own toxicity to impair and envenom foes. Contact with a Warrior of Venom\u2014even the slightest touch or a single drop of blood\u2014can be as deadly as a viper's bite.",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Envenom Weapon|Monk|XPHB|Venom|XUA2026VillainousOptions2|3|XUA2026VillainousOptions2"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Potent Arsenal|Monk|XPHB|Venom|XUA2026VillainousOptions2|3|XUA2026VillainousOptions2"
+				}
+			]
+		},
+		{
+			"name": "Envenom Weapon",
+			"source": "XUA2026VillainousOptions2",
+			"page": 3,
+			"className": "Monk",
+			"classSource": "XPHB",
+			"subclassShortName": "Venom",
+			"subclassSource": "XUA2026VillainousOptions2",
+			"level": 3,
+			"header": 2,
+			"consumes": {
+				"name": "Focus Point"
+			},
+			"entries": [
+				"At the start of your turn, you can expend 1 Focus Point to apply a toxin produced from your blood to one Monk weapon that you're holding. A creature that takes damage from the weapon is subjected to one of the following toxin effects (choose when you apply the toxin):",
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"page": 3,
+					"items": [
+						{
+							"type": "item",
+							"name": "Slowing Toxin",
+							"entries": [
+								"Until the start of your next turn, the target's {@variantrule Speed|XPHB} is halved; it can't take {@variantrule Reaction|XPHB|Reactions}; and it can take either an action or a {@variantrule Bonus Action|XPHB} on its turn, not both."
+							]
+						},
+						{
+							"type": "item",
+							"name": "Venom",
+							"entries": [
+								"The target takes Poison damage equal to two rolls of your {@classFeature Martial Arts|Monk|XPHB|1|XPHB} die."
+							]
+						}
+					]
+				},
+				"The toxin retains potency for 1 minute or until a creature takes damage from the weapon."
+			]
+		},
+		{
+			"name": "Potent Arsenal",
+			"source": "XUA2026VillainousOptions2",
+			"page": 3,
+			"className": "Monk",
+			"classSource": "XPHB",
+			"subclassShortName": "Venom",
+			"subclassSource": "XUA2026VillainousOptions2",
+			"level": 3,
+			"header": 2,
+			"entries": [
+				"You gain a {@item Poisoner's Kit|XPHB}, and you have proficiency with it. When creating a {@item Basic Poison|XPHB}, you can do so over the course of 1 day (8 hours of work). Additionally, whenever you deal Poison damage with a {@class Monk|XPHB} feature or a Monk weapon, you can change that damage type to Acid."
+			]
+		},
+		{
+			"name": "Toxic Touch",
+			"source": "XUA2026VillainousOptions2",
+			"page": 3,
+			"className": "Monk",
+			"classSource": "XPHB",
+			"subclassShortName": "Venom",
+			"subclassSource": "XUA2026VillainousOptions2",
+			"level": 6,
+			"header": 2,
+			"consumes": {
+				"name": "Focus Point"
+			},
+			"entries": [
+				"As a {@action Magic|XPHB} action, you can expend 1 Focus Point to apply a potent toxin to a creature you touch. The target makes a Constitution saving throw. On a failed save, the target has the {@condition Poisoned|XPHB} condition for 1 minute.",
+				"While {@condition Poisoned|XPHB}, the target is affected by one of the following effects of your choice:",
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"page": 3,
+					"items": [
+						{
+							"type": "item",
+							"name": "Intoxicant",
+							"entries": [
+								"The target has the {@condition Charmed|XPHB} condition for the duration or until you or your allies deal damage to the target."
+							]
+						},
+						{
+							"type": "item",
+							"name": "Sedative",
+							"entries": [
+								"The creature falls asleep and has the {@condition Unconscious|XPHB} condition for the duration. Another creature can use an action to shake it awake and remove the condition."
+							]
+						},
+						{
+							"type": "item",
+							"name": "Truth Serum",
+							"entries": [
+								"The target can't knowingly communicate a lie for the duration."
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Toxic Blood",
+			"source": "XUA2026VillainousOptions2",
+			"page": 3,
+			"className": "Monk",
+			"classSource": "XPHB",
+			"subclassShortName": "Venom",
+			"subclassSource": "XUA2026VillainousOptions2",
+			"level": 11,
+			"header": 2,
+			"entries": [
+				"Enemies draw your toxic blood at their own peril. Whenever a creature hits you with a melee attack roll, the attacker takes {@damage 1d6} Poison damage. If you are {@status Bloodied|XPHB}, the attacker instead takes Poison damage equal to one roll of your {@classFeature Martial Arts|Monk|XPHB|1|XPHB} die."
+			]
+		},
+		{
+			"name": "Toxin Refiner",
+			"source": "XUA2026VillainousOptions2",
+			"page": 3,
+			"className": "Monk",
+			"classSource": "XPHB",
+			"subclassShortName": "Venom",
+			"subclassSource": "XUA2026VillainousOptions2",
+			"level": 11,
+			"header": 2,
+			"entries": [
+				"Your body can filter poison. You gain {@variantrule Immunity|XPHB} to Poison damage. Whenever you are subjected to Poison damage, your {@subclassFeature Envenom Weapon|Monk|XPHB|Venom|XUA2026VillainousOptions2|3|XUA2026VillainousOptions2} options each deal extra Poison damage equal to one roll of your {@classFeature Martial Arts|Monk|XPHB|1|XPHB} die, and you can't gain this benefit again until the end of your next turn. In addition, whenever you ingest a poison, you regain a number of {@variantrule Hit Points|XPHB} equal to one roll of your {@classFeature Martial Arts|Monk|XPHB|1|XPHB} die."
+			]
+		},
+		{
+			"name": "Hallucinogenic Breath",
+			"source": "XUA2026VillainousOptions2",
+			"page": 3,
+			"className": "Monk",
+			"classSource": "XPHB",
+			"subclassShortName": "Venom",
+			"subclassSource": "XUA2026VillainousOptions2",
+			"level": 17,
+			"header": 2,
+			"consumes": {
+				"name": "Focus Point",
+				"amount": 2
+			},
+			"entries": [
+				"When you take the {@action Attack|XPHB} action on your turn, you can expend 2 Focus Points and replace one of your attacks with an exhalation of hallucinogenic vapors at one creature you can see within 30 feet. The target must make a Constitution saving throw. On a failed save, the target takes Poison damage equal to three rolls of your {@classFeature Martial Arts|Monk|XPHB|1|XPHB} die and has the {@condition Frightened|XPHB} condition for 1 minute or until the target takes damage. While {@condition Frightened|XPHB}, the target takes the {@action Dash|XPHB} action and moves away from you by the safest route on each of its turns unless there is nowhere to move. On a successful save, a creature takes half as much damage only."
+			]
+		},
+		{
+			"name": "Primordial Patron",
+			"source": "XUA2026VillainousOptions2",
+			"page": 4,
+			"className": "Warlock",
+			"classSource": "XPHB",
+			"subclassShortName": "Primordial",
+			"subclassSource": "XUA2026VillainousOptions2",
+			"level": 3,
+			"header": 1,
+			"entries": [
+				"Your pact draws on the Inner Planes, the realms of elemental forces and the building blocks of the multiverse. Warlocks of this pact act as heralds of ancient and destructive scions of air, earth, fire, and water\u2014such as the Elemental Evils. These Warlocks prepare the way for their patrons' eventual arrival on the Material Plane by creating elemental nodes, areas suffused with energy from the Elemental Planes.",
+				"When you choose this subclass, choose an element from the {@table Primordial Patrons|XUA2026VillainousOptions2} table, which suggests potential patrons and determines the damage type for certain subclass features.",
+				{
+					"type": "statblock",
+					"tag": "table",
+					"source": "XUA2026VillainousOptions2",
+					"name": "Primordial Patrons",
+					"page": 4
+				},
+				"The capricious nature of elemental alliances extends to your pact. You can change your chosen element\u2014and your patron\u2014whenever you gain a level.",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Elemental Node|Warlock|XPHB|Primordial|XUA2026VillainousOptions2|3|XUA2026VillainousOptions2"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Elemental Spells|Warlock|XPHB|Primordial|XUA2026VillainousOptions2|3|XUA2026VillainousOptions2"
+				}
+			]
+		},
+		{
+			"name": "Elemental Node",
+			"source": "XUA2026VillainousOptions2",
+			"page": 4,
+			"className": "Warlock",
+			"classSource": "XPHB",
+			"subclassShortName": "Primordial",
+			"subclassSource": "XUA2026VillainousOptions2",
+			"level": 3,
+			"header": 2,
+			"entries": [
+				"As a {@action Magic|XPHB} action, you can create a 5-foot-radius {@variantrule Sphere [Area of Effect]|XPHB|Sphere} of elemental magic centered on a point you can see within 60 feet of yourself. The magic of this elemental node resembles your chosen element. On later turns, you can take a {@variantrule Bonus Action|XPHB} to move the node up to 30 feet.",
+				"When the node appears, each creature other than you in the node makes a Dexterity saving throw against {@dcYourSpellSave}, taking {@damage 1d6} damage of your chosen element's type on a failed save or half as much damage on a successful one. A creature also makes this save when the node moves into its space and when it enters the node or ends its turn there. A creature makes this save only once per turn.",
+				"The node lasts for 1 minute, until you dismiss it (no action required), or until you use this feature to create another node. Once you use this feature, you can't use it again until you complete a {@variantrule Short Rest|XPHB|Short} or {@variantrule Long Rest|XPHB} unless you expend a {@classFeature Pact Magic|Warlock|XPHB|1|XPHB} spell slot (no action required) to restore your use of it.",
+				"The node's damage increases by {@damage 1d6} when you reach Warlock levels 6 ({@damage 2d6}) and 14 ({@damage 3d6})."
+			]
+		},
+		{
+			"name": "Elemental Spells",
+			"source": "XUA2026VillainousOptions2",
+			"page": 4,
+			"className": "Warlock",
+			"classSource": "XPHB",
+			"subclassShortName": "Primordial",
+			"subclassSource": "XUA2026VillainousOptions2",
+			"level": 3,
+			"header": 2,
+			"entries": [
+				"The magic of your patron ensures you always have certain spells ready; when you reach a {@class Warlock|XPHB} level specified in the {@table Elemental Spells|XUA2026VillainousOptions2} table, you thereafter always have the listed primordial spells prepared, along with the spells corresponding to your chosen element.",
+				{
+					"type": "statblock",
+					"tag": "table",
+					"source": "XUA2026VillainousOptions2",
+					"name": "Elemental Spells",
+					"page": 4
+				}
+			]
+		},
+		{
+			"name": "Elemental Haven",
+			"source": "XUA2026VillainousOptions2",
+			"page": 4,
+			"className": "Warlock",
+			"classSource": "XPHB",
+			"subclassShortName": "Primordial",
+			"subclassSource": "XUA2026VillainousOptions2",
+			"level": 6,
+			"header": 2,
+			"entries": [
+				"Your {@subclassFeature Elemental Node|Warlock|XPHB|Primordial|XUA2026VillainousOptions2|3|XUA2026VillainousOptions2} shields you from harm. You gain the following benefits.",
+				{
+					"type": "entries",
+					"name": "Elemental Protection",
+					"page": 4,
+					"entries": [
+						"While you're within your node, you have a bonus to AC equal to your Charisma modifier (minimum of 1)."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Elemental Teleport",
+					"page": 4,
+					"entries": [
+						"As a {@variantrule Bonus Action|XPHB}, you can {@variantrule Teleportation|XPHB|teleport} into your node or the nearest unoccupied space within 5 feet of it. You can use this benefit a number of times equal to your Charisma modifier (minimum of once), and you regain all expended uses when you finish a {@variantrule Long Rest|XPHB}."
+					]
+				}
+			]
+		},
+		{
+			"name": "Primeval Protection",
+			"source": "XUA2026VillainousOptions2",
+			"page": 5,
+			"className": "Warlock",
+			"classSource": "XPHB",
+			"subclassShortName": "Primordial",
+			"subclassSource": "XUA2026VillainousOptions2",
+			"level": 10,
+			"header": 2,
+			"entries": [
+				"You gain the following benefits.",
+				{
+					"type": "entries",
+					"name": "Elemental Fortitude",
+					"page": 5,
+					"entries": [
+						"You have {@variantrule Resistance|XPHB} to your chosen element's damage type. Additionally, while within your {@subclassFeature Elemental Node|Warlock|XPHB|Primordial|XUA2026VillainousOptions2|3|XUA2026VillainousOptions2}, you have {@variantrule Immunity|XPHB} to that damage type."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Node Improvement",
+					"page": 5,
+					"entries": [
+						"Your {@subclassFeature Elemental Node|Warlock|XPHB|Primordial|XUA2026VillainousOptions2|3|XUA2026VillainousOptions2} is now a 10-foot-radius {@variantrule Sphere [Area of Effect]|XPHB|Sphere}."
+					]
+				}
+			]
+		},
+		{
+			"name": "Elemental Harbinger",
+			"source": "XUA2026VillainousOptions2",
+			"page": 5,
+			"className": "Warlock",
+			"classSource": "XPHB",
+			"subclassShortName": "Primordial",
+			"subclassSource": "XUA2026VillainousOptions2",
+			"level": 14,
+			"header": 2,
+			"entries": [
+				"Your {@subclassFeature Elemental Node|Warlock|XPHB|Primordial|XUA2026VillainousOptions2|3|XUA2026VillainousOptions2} can usher in the mightiest of elementals, granting you the following benefits.",
+				{
+					"type": "entries",
+					"name": "Elemental Vortex",
+					"page": 5,
+					"entries": [
+						"Whenever you expend a {@classFeature Pact Magic|Warlock|XPHB|1|XPHB} spell slot while you're within your {@subclassFeature Elemental Node|Warlock|XPHB|Primordial|XUA2026VillainousOptions2|3|XUA2026VillainousOptions2}, you can attempt to pull a creature into the node. One creature you choose within 30 feet of the node must succeed on a Strength saving throw or be pulled up to 15 feet toward the node's center."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Node Improvement",
+					"page": 5,
+					"entries": [
+						"Your {@subclassFeature Elemental Node|Warlock|XPHB|Primordial|XUA2026VillainousOptions2|3|XUA2026VillainousOptions2} now lasts for up to 1 hour."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Primordial Herald",
+					"page": 5,
+					"entries": [
+						"While you're within your node's area, you can cast the {@spell Planar Ally|XPHB} spell without expending a spell slot. When you cast the spell in this way, you speak the name of your patron. Once you use this benefit, you can't use it again until you finish {@dice 2d4} {@variantrule Long Rest|XPHB|Long Rests}."
+					]
+				}
+			]
+		}
+	],
+	"foundrySubclassFeature": [
+		{
+			"name": "Potent Arsenal",
+			"source": "XUA2026VillainousOptions2",
+			"className": "Monk",
+			"classSource": "XPHB",
+			"subclassShortName": "Venom",
+			"subclassSource": "XUA2026VillainousOptions2",
+			"level": 3,
+			"entryData": {
+				"toolProficiencies": [
+					{
+						"poisoner's kit": true
+					}
+				]
+			}
+		},
+		{
+			"name": "Toxin Refiner",
+			"source": "XUA2026VillainousOptions2",
+			"className": "Monk",
+			"classSource": "XPHB",
+			"subclassShortName": "Venom",
+			"subclassSource": "XUA2026VillainousOptions2",
+			"level": 11,
+			"entryData": {
+				"immune": [
+					"poison"
+				]
+			}
+		},
+		{
+			"name": "Primeval Protection",
+			"source": "XUA2026VillainousOptions2",
+			"className": "Warlock",
+			"classSource": "XPHB",
+			"subclassShortName": "Primordial",
+			"subclassSource": "XUA2026VillainousOptions2",
+			"level": 10,
+			"entryData": {
+				"resist": [
+					{
+						"choose": {
+							"from": [
+								"thunder",
+								"acid",
+								"fire",
+								"cold"
+							],
+							"count": 1
+						}
+					}
+				]
+			}
+		}
+	],
+	"optionalfeature": [
+		{
+			"name": "Elemental Overflow",
+			"source": "XUA2026VillainousOptions2",
+			"page": 5,
+			"featureType": [
+				"EI"
+			],
+			"prerequisite": [
+				{
+					"level": {
+						"level": 5,
+						"class": {
+							"name": "Warlock",
+							"source": "XPHB",
+							"visibleStats": true
+						}
+					}
+				}
+			],
+			"entries": [
+				"Choose a damage type: Acid, Cold, Fire, Lightning, or Thunder. Whenever you cast a spell that deals the chosen damage type, you can cause elemental energy to wreathe you until the end of your next turn. For the duration, whenever a creature within 5 feet of you hits you with a melee attack roll, that creature takes {@damage 1d4} damage of the chosen damage type.",
+				{
+					"type": "entries",
+					"name": "Repeatable",
+					"page": 5,
+					"entries": [
+						"You can gain this invocation more than once. Each time you do so, choose a different damage type."
+					]
+				}
+			]
+		},
+		{
+			"name": "Elemental Transmutation",
+			"source": "XUA2026VillainousOptions2",
+			"page": 5,
+			"featureType": [
+				"EI"
+			],
+			"prerequisite": [
+				{
+					"level": {
+						"level": 2,
+						"class": {
+							"name": "Warlock",
+							"source": "XPHB",
+							"visibleStats": true
+						}
+					}
+				}
+			],
+			"entries": [
+				"Choose a damage type: Acid, Cold, Fire, Lightning, or Thunder. Once per turn, whenever you deal damage of any of the above types, you can deal the chosen damage type instead."
+			]
+		}
+	],
+	"table": [
+		{
+			"name": "Elemental Spells",
+			"source": "XUA2026VillainousOptions2",
+			"page": 4,
+			"colLabels": [
+				"Warlock Level",
+				"Primordial Spells",
+				"Air Spells",
+				"Earth Spells",
+				"Fire Spells",
+				"Water Spells"
+			],
+			"colStyles": [
+				"col-2 text-center",
+				"col-2",
+				"col-2",
+				"col-2",
+				"col-2",
+				"col-2"
+			],
+			"rows": [
+				[
+					"3",
+					"{@spell Chromatic Orb}, {@spell Darkvision}",
+					"{@spell Feather Fall}, {@spell Shatter}",
+					"{@spell Entangle}, {@spell Knock}",
+					"{@spell Burning Hands}, {@spell Heat Metal}",
+					"{@spell Alter Self}, {@spell Ice Knife|XPHB}"
+				],
+				[
+					"5",
+					"{@spell Elemental Weapon}",
+					"{@spell Fly}",
+					"{@spell Plant Growth}",
+					"{@spell Fireball}",
+					"{@spell Water Walk}"
+				],
+				[
+					"7",
+					"{@spell Summon Elemental|XPHB} (the spirit's element matches your chosen element)",
+					"{@spell Freedom of Movement}",
+					"{@spell Vitriolic Sphere|XPHB}",
+					"{@spell Wall of Fire}",
+					"{@spell Control Water}"
+				],
+				[
+					"9",
+					"{@spell Commune with Nature}",
+					"{@spell Steel Wind Strike|XPHB}",
+					"{@spell Wall of Stone}",
+					"{@spell Flame Strike}",
+					"{@spell Cone of Cold}"
+				]
+			]
+		},
+		{
+			"name": "Path of Lament Origins",
+			"source": "XUA2026VillainousOptions2",
+			"page": 1,
+			"colLabels": [
+				"1d6",
+				"Your Rage Stems from the Time..."
+			],
+			"colStyles": [
+				"col-2 text-center",
+				"col-10"
+			],
+			"rows": [
+				[
+					"1",
+					"A lost loved one rose as an undead monster."
+				],
+				[
+					"2",
+					"Enemies slew your animal companion."
+				],
+				[
+					"3",
+					"You (and you alone) escaped brutal captors."
+				],
+				[
+					"4",
+					"You found your family's charred remains."
+				],
+				[
+					"5",
+					"Your decision led to a devastating shipwreck."
+				],
+				[
+					"6",
+					"Your elders banished you from your home."
+				]
+			]
+		},
+		{
+			"name": "Primordial Patrons",
+			"source": "XUA2026VillainousOptions2",
+			"page": 4,
+			"colLabels": [
+				"Element",
+				"Example Patrons",
+				"Damage Type"
+			],
+			"colStyles": [
+				"col-4",
+				"col-4",
+				"col-4"
+			],
+			"rows": [
+				[
+					"Air",
+					"{@deity Akadi|Faerûnian|SCAG}, {@creature Yan-C-Bin|PotA}",
+					"Thunder"
+				],
+				[
+					"Earth",
+					"{@creature Ogrémoch|PotA}, {@deity Grumbar|Faerûnian|SCAG}",
+					"Acid"
+				],
+				[
+					"Fire",
+					"{@creature Imix|PotA}, {@deity Kossuth|Faerûnian|SCAG}, Zaaman Rul",
+					"Fire"
+				],
+				[
+					"Water",
+					"{@deity Istishia|Faerûnian|SCAG}, {@creature Olhydra|PotA}",
+					"Cold"
+				]
+			]
+		}
+	],
+	"book": [
+		{
+			"name": "Unearthed Arcana 2026: Villainous Options 2",
+			"id": "XUA2026VillainousOptions2",
+			"source": "XUA2026VillainousOptions2",
+			"group": "prerelease",
+			"cover": {
+				"type": "external",
+				"url": "https://raw.githubusercontent.com/TheGiddyLimit/unearthed-arcana-img/main/img/XUA2026VillainousOptions2/cover.webp"
+			},
+			"published": "2026-04-23",
+			"author": "Wizards of the Coast",
+			"contents": [
+				{
+					"name": "Unearthed Arcana 2026: Villainous Options 2",
+					"headers": [
+						"What's Inside",
+						"Subclasses",
+						{
+							"header": "Path of Lament (Barbarian)",
+							"depth": 1
+						},
+						{
+							"header": "Warrior of Venom (Monk)",
+							"depth": 1
+						},
+						{
+							"header": "Primordial Patron (Warlock)",
+							"depth": 1
+						},
+						{
+							"header": "Eldritch Invocations",
+							"depth": 1
+						}
+					]
+				}
+			]
+		}
+	],
+	"bookData": [
+		{
+			"id": "XUA2026VillainousOptions2",
+			"source": "XUA2026VillainousOptions2",
+			"data": [
+				{
+					"type": "section",
+					"name": "Unearthed Arcana 2026: Villainous Options 2",
+					"page": 1,
+					"entries": [
+						"This playtest document is part of a series of {@i Unearthed Arcana} articles that present material designed for upcoming products. The material here uses the rules in the {@book Player's Handbook|XPHB}.",
+						{
+							"type": "section",
+							"name": "What's Inside",
+							"page": 1,
+							"entries": [
+								"This document presents four new subclasses:",
+								{
+									"type": "list",
+									"items": [
+										"{@class Barbarian} ({@class Barbarian|XPHB|Path of Lament|Lament|XUA2026VillainousOptions2})",
+										"{@class Monk} ({@class Monk|XPHB|Warrior of Venom|Venom|XUA2026VillainousOptions2})",
+										"{@class Warlock} ({@class Warlock|XPHB|Primordial Patron|Primordial|XUA2026VillainousOptions2})"
+									]
+								},
+								{
+									"type": "inset",
+									"name": "This Is Playtest Material",
+									"page": 1,
+									"entries": [
+										"This article is presented for playtesting and feedback. The options here are experimental and in draft form. They aren't officially part of the game. Your feedback will help determine whether we adopt it as official.",
+										{
+											"type": "list",
+											"style": "list-hang-notitle",
+											"page": 1,
+											"items": [
+												{
+													"type": "item",
+													"name": "How to Playtest This UA",
+													"entries": [
+														"We invite you to try out this material in play. To play with this material, you may either incorporate it into your campaign or run one or more special playtest sessions. For such a session, you may create an adventure of your own or use a short adventure from a source like {@adventure Dragon Delves|DrDe-BD}."
+													]
+												},
+												{
+													"type": "item",
+													"name": "Power Level",
+													"entries": [
+														"The character options you read here might be more or less powerful than options in the {@book Player's Handbook|XPHB}. If a design survives playtesting, we adjust its power to the desirable level before publication. This means an option could be more or less powerful in its final form."
+													]
+												},
+												{
+													"type": "item",
+													"name": "Feedback",
+													"entries": [
+														"The best way for you to give us feedback on this material is in the survey we'll release on D&D Beyond. If we make this material official, it will be refined based on your feedback, and then it will appear in a D&D book.",
+														"Providing feedback on this document is one way you can help shape the future of D&D!"
+													]
+												}
+											]
+										}
+									]
+								}
+							]
+						},
+						{
+							"type": "section",
+							"name": "Subclasses",
+							"page": 1,
+							"entries": [
+								{
+									"type": "entries",
+									"name": "Path of Lament (Barbarian)",
+									"page": 1,
+									"entries": [
+										"{@i Transform Bitter Anguish into Supernatural Rage}",
+										{
+											"type": "statblock",
+											"prop": "subclass",
+											"source": "XUA2026VillainousOptions2",
+											"name": "Path of Lament",
+											"className": "Barbarian",
+											"classSource": "XPHB",
+											"page": 1,
+											"shortName": "Lament"
+										}
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Warrior of Venom (Monk)",
+									"page": 3,
+									"entries": [
+										"{@i Channel the Cauldron of Your Own Toxicity}",
+										{
+											"type": "statblock",
+											"prop": "subclass",
+											"source": "XUA2026VillainousOptions2",
+											"name": "Warrior of Venom",
+											"className": "Monk",
+											"classSource": "XPHB",
+											"page": 3,
+											"shortName": "Venom"
+										}
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Primordial Patron (Warlock)",
+									"page": 4,
+									"entries": [
+										"{@i Invoke Scions of Elemental Chaos}",
+										{
+											"type": "statblock",
+											"prop": "subclass",
+											"source": "XUA2026VillainousOptions2",
+											"name": "Primordial Patron",
+											"className": "Warlock",
+											"classSource": "XPHB",
+											"page": 4,
+											"shortName": "Primordial"
+										}
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Eldritch Invocations",
+									"page": 5,
+									"entries": [
+										"The following two Eldritch Invocations complement the {@class Warlock|XPHB|Primordial Patron|Primordial|XUA2026VillainousOptions2}.",
+										{
+											"type": "statblock",
+											"tag": "optfeature",
+											"source": "XUA2026VillainousOptions2",
+											"name": "Elemental Overflow",
+											"page": 5
+										},
+										{
+											"type": "statblock",
+											"tag": "optfeature",
+											"source": "XUA2026VillainousOptions2",
+											"name": "Elemental Transmutation",
+											"page": 5
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	]
+}
