@@ -1,0 +1,1963 @@
+{
+	"$schema": "https://raw.githack.com/TheGiddyLimit/5etools-utils/master/schema/ua-fast/homebrew.json",
+	"_meta": {
+		"sources": [
+			{
+				"json": "XUA2026UnderdarkOptions2",
+				"abbreviation": "XUA26UO2",
+				"full": "Unearthed Arcana 2026: Underdark Options 2",
+				"url": "https://media.dndbeyond.com/compendium-images/ua/underdark-options-2/6xI5tgR8tUaYviqj/UA2026-UnderdarkOptions02.pdf",
+				"version": "2",
+				"dateReleased": "2026-09-10",
+				"authors": [
+					"Wizards of the Coast"
+				],
+				"convertedBy": [
+					"Lyra [he/him]"
+				]
+			}
+		],
+		"edition": "one",
+		"status": "ready",
+		"dateAdded": 1789065597,
+		"dateLastModified": 1789065597,
+		"_dateLastModifiedHash": "45d4893722"
+	},
+	"subclass": [
+		{
+			"name": "Circle of Spores",
+			"shortName": "Spores",
+			"source": "XUA2026UnderdarkOptions2",
+			"className": "Druid",
+			"classSource": "XPHB",
+			"page": 2,
+			"additionalSpells": [
+				{
+					"prepared": {
+						"3": [
+							"Blindness/Deafness|XPHB",
+							"Charm Person|XPHB",
+							"Chill Touch|XPHB"
+						],
+						"5": [
+							"Animate Dead|XPHB"
+						],
+						"7": [
+							"Confusion|XPHB"
+						],
+						"9": [
+							"Contagion|XPHB"
+						]
+					}
+				}
+			],
+			"subclassSpells": [
+				"Blindness/Deafness|XPHB",
+				"Charm Person|XPHB",
+				"Chill Touch|XPHB",
+				"Animate Dead|XPHB",
+				"Confusion|XPHB",
+				"Contagion|XPHB"
+			],
+			"subclassFeatures": [
+				"Circle of Spores|Druid|XPHB|Spores|XUA2026UnderdarkOptions2|3|XUA2026UnderdarkOptions2",
+				"Fungal Infestation|Druid|XPHB|Spores|XUA2026UnderdarkOptions2|6|XUA2026UnderdarkOptions2",
+				"Explosive Burst|Druid|XPHB|Spores|XUA2026UnderdarkOptions2|10|XUA2026UnderdarkOptions2",
+				"Fungal Body|Druid|XPHB|Spores|XUA2026UnderdarkOptions2|14|XUA2026UnderdarkOptions2"
+			],
+			"hasFluff": true
+		},
+		{
+			"name": "Faerzress Sorcery",
+			"shortName": "Faerzress",
+			"source": "XUA2026UnderdarkOptions2",
+			"className": "Sorcerer",
+			"classSource": "XPHB",
+			"page": 4,
+			"additionalSpells": [
+				{
+					"prepared": {
+						"3": [
+							"Faerie Fire|XPHB",
+							"Magic Weapon|XPHB",
+							"Misty Step|XPHB",
+							"Witch Bolt|XPHB"
+						],
+						"5": [
+							"Nondetection|XPHB",
+							"Sending|XPHB"
+						],
+						"7": [
+							"Arcane Eye|XPHB",
+							"Stone Shape|XPHB"
+						],
+						"9": [
+							"Passwall|XPHB",
+							"Scrying|XPHB"
+						]
+					},
+					"innate": {
+						"14": {
+							"daily": {
+								"1e": [
+									"Teleport|XPHB"
+								]
+							}
+						}
+					}
+				}
+			],
+			"subclassSpells": [
+				"Faerie Fire|XPHB",
+				"Magic Weapon|XPHB",
+				"Misty Step|XPHB",
+				"Witch Bolt|XPHB",
+				"Nondetection|XPHB",
+				"Sending|XPHB",
+				"Arcane Eye|XPHB",
+				"Stone Shape|XPHB",
+				"Passwall|XPHB",
+				"Scrying|XPHB",
+				"Teleport|XPHB"
+			],
+			"subclassFeatures": [
+				"Faerzress Sorcery|Sorcerer|XPHB|Faerzress|XUA2026UnderdarkOptions2|3|XUA2026UnderdarkOptions2",
+				"Faerzress Affinity|Sorcerer|XPHB|Faerzress|XUA2026UnderdarkOptions2|6|XUA2026UnderdarkOptions2",
+				"Faerzress Spell|Sorcerer|XPHB|Faerzress|XUA2026UnderdarkOptions2|14|XUA2026UnderdarkOptions2",
+				"Faerzress Step|Sorcerer|XPHB|Faerzress|XUA2026UnderdarkOptions2|14|XUA2026UnderdarkOptions2",
+				"Faerzress Form|Sorcerer|XPHB|Faerzress|XUA2026UnderdarkOptions2|18|XUA2026UnderdarkOptions2"
+			],
+			"hasFluff": true
+		},
+		{
+			"name": "Freedom Domain",
+			"shortName": "Freedom",
+			"source": "XUA2026UnderdarkOptions2",
+			"className": "Cleric",
+			"classSource": "XPHB",
+			"page": 1,
+			"additionalSpells": [
+				{
+					"prepared": {
+						"3": [
+							"Expeditious Retreat|XPHB",
+							"Jump|XPHB",
+							"Knock|XPHB",
+							"Misty Step|XPHB"
+						],
+						"5": [
+							"Fly|XPHB",
+							"Gaseous Form|XPHB"
+						],
+						"7": [
+							"Dimension Door|XPHB",
+							"Freedom of Movement|XPHB"
+						],
+						"9": [
+							"Passwall|XPHB",
+							"Tree Stride|XPHB"
+						]
+					}
+				}
+			],
+			"subclassSpells": [
+				"Expeditious Retreat|XPHB",
+				"Jump|XPHB",
+				"Knock|XPHB",
+				"Misty Step|XPHB",
+				"Fly|XPHB",
+				"Gaseous Form|XPHB",
+				"Dimension Door|XPHB",
+				"Freedom of Movement|XPHB",
+				"Passwall|XPHB",
+				"Tree Stride|XPHB"
+			],
+			"subclassFeatures": [
+				"Freedom Domain|Cleric|XPHB|Freedom|XUA2026UnderdarkOptions2|3|XUA2026UnderdarkOptions2",
+				"Unstoppable|Cleric|XPHB|Freedom|XUA2026UnderdarkOptions2|6|XUA2026UnderdarkOptions2",
+				"Avatar of Freedom|Cleric|XPHB|Freedom|XUA2026UnderdarkOptions2|17|XUA2026UnderdarkOptions2"
+			],
+			"hasFluff": true
+		}
+	],
+	"subclassFluff": [
+		{
+			"name": "Circle of Spores",
+			"shortName": "Spores",
+			"source": "XUA2026UnderdarkOptions2",
+			"className": "Druid",
+			"classSource": "XPHB",
+			"entries": [
+				"{@i Steward the Cycle of Life, Death, and Decay}",
+				{
+					"type": "inset",
+					"name": "Design Notes: Circle of Spores Updates",
+					"page": 2,
+					"entries": [
+						"Here are the main updates in this subclass since its appearance in {@subclass Spores|Druid|PHB|TCE|Tasha's Cauldron of Everything} (2020):",
+						{
+							"type": "list",
+							"style": "list-hang-notitle",
+							"page": 9,
+							"items": [
+								{
+									"type": "item",
+									"name": "Halo of Spores",
+									"entries": [
+										"{@subclassFeature Halo of Spores|Druid|XPHB|Spores|XUA2026UnderdarkOptions2|3|XUA2026UnderdarkOptions2} is an {@variantrule Emanation [Area of Effect]|XPHB|Emanation} that grants {@variantrule telepathy|XPHB}. It also has a lesser effect on creatures that succeed on their {@variantrule saving throw|XPHB|saving throws}, instead of having no effect."
+									]
+								},
+								{
+									"type": "item",
+									"name": "Symbiotic Entity",
+									"entries": [
+										"Empowering your spores with {@subclassFeature Symbiotic Entity|Druid|XPHB|Spores|XUA2026UnderdarkOptions2|3|XUA2026UnderdarkOptions2} uses a {@variantrule Bonus Action|XPHB} (like {@classFeature Wild Shape|Druid|XPHB|2})."
+									]
+								},
+								{
+									"type": "item",
+									"name": "Fungal Infestation",
+									"entries": [
+										"When you raise zombies with {@subclassFeature Fungal Infestation|Druid|XPHB|Spores|XUA2026UnderdarkOptions2|6|XUA2026UnderdarkOptions2}, you can grant them some of your {@variantrule Temporary Hit Points|XPHB} (since you get a lot of those!)."
+									]
+								},
+								{
+									"type": "item",
+									"name": "Explosive Burst",
+									"entries": [
+										"{@subclassFeature Explosive Burst|Druid|XPHB|Spores|XUA2026UnderdarkOptions2|10|XUA2026UnderdarkOptions2} is a new feature (replacing {@subclassFeature Spreading Spores|Druid|PHB|Spores|TCE|10|TCE}) that causes your zombies to explode when they die, spreading spores around them and dealing damage to enemies."
+									]
+								},
+								{
+									"type": "item",
+									"name": "Fungal Body",
+									"entries": [
+										"{@subclassFeature Fungal Body|Druid|XPHB|Spores|XUA2026UnderdarkOptions2|14|XUA2026UnderdarkOptions2} now allows you to tap into the mycelial network you've cultivated to control your body if you have the {@condition Unconscious|XPHB} condition."
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Faerzress Sorcery",
+			"shortName": "Faerzress",
+			"source": "XUA2026UnderdarkOptions2",
+			"className": "Sorcerer",
+			"classSource": "XPHB",
+			"entries": [
+				"{@i Wield the Weird Radiation of the Underdark.}"
+			]
+		},
+		{
+			"name": "Freedom Domain",
+			"shortName": "Freedom",
+			"source": "XUA2026UnderdarkOptions2",
+			"className": "Cleric",
+			"classSource": "XPHB",
+			"entries": [
+				"{@i Spread Liberty and Break Chains}"
+			]
+		}
+	],
+	"subclassFeature": [
+		{
+			"name": "Freedom Domain",
+			"source": "XUA2026UnderdarkOptions2",
+			"page": 1,
+			"className": "Cleric",
+			"classSource": "XPHB",
+			"subclassShortName": "Freedom",
+			"subclassSource": "XUA2026UnderdarkOptions2",
+			"level": 3,
+			"header": 1,
+			"entries": [
+				"The Freedom Domain provides magic of liberation, movement, and free thought. Clerics use this magic to inspire hope among the oppressed, to help prisoners break free from their cages, and to lead revolutions in which toiling laborers throw off the chains of oppressive rule.",
+				"Gods of freedom embody free will, choice, and rebellion against tyrannical regimes or stifling traditions. These deities protect everyone's right to determine their own destiny. In the Underdark, {@deity Eilistraee|Faerûnian|FRHoF} and {@deity Sehanine Moonbow|Elven|SCAG} both stand for freedom. Surface dwellers devoted to the cause of freedom might worship {@deity Ilmater|Faerûnian|FRHoF} or {@deity Mielikki|Faerûnian|FRHoF|Meilikki} instead.",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "The Meaning of Freedom|Cleric|XPHB|Freedom|XUA2026UnderdarkOptions2|3|XUA2026UnderdarkOptions2"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Freedom Domain Spells|Cleric|XPHB|Freedom|XUA2026UnderdarkOptions2|3|XUA2026UnderdarkOptions2"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Invoke Liberty|Cleric|XPHB|Freedom|XUA2026UnderdarkOptions2|3|XUA2026UnderdarkOptions2"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Unencumbered Grace|Cleric|XPHB|Freedom|XUA2026UnderdarkOptions2|3|XUA2026UnderdarkOptions2"
+				}
+			]
+		},
+		{
+			"name": "Freedom Domain Spells",
+			"source": "XUA2026UnderdarkOptions2",
+			"page": 1,
+			"className": "Cleric",
+			"classSource": "XPHB",
+			"subclassShortName": "Freedom",
+			"subclassSource": "XUA2026UnderdarkOptions2",
+			"level": 3,
+			"header": 2,
+			"entries": [
+				"Your connection to this divine domain ensures you always have certain spells ready. When you reach a Cleric level specified in the {@table Freedom Domain Spells|XUA2026UnderdarkOptions2} table, you thereafter always have the listed spells prepared.",
+				{
+					"type": "statblock",
+					"tag": "table",
+					"source": "XUA2026UnderdarkOptions2",
+					"name": "Freedom Domain Spells",
+					"page": 1,
+					"slotSize": "200"
+				}
+			]
+		},
+		{
+			"name": "Invoke Liberty",
+			"source": "XUA2026UnderdarkOptions2",
+			"page": 2,
+			"className": "Cleric",
+			"classSource": "XPHB",
+			"subclassShortName": "Freedom",
+			"subclassSource": "XUA2026UnderdarkOptions2",
+			"level": 3,
+			"header": 2,
+			"entries": [
+				"As a {@action Magic|XPHB} Action, you present your {@item Holy Symbol|XPHB} and expend a use of your {@classFeature Channel Divinity|Cleric|XPHB|2}. Each allied creature within a 30-foot {@variantrule Emanation [Area of Effect]|XPHB|Emanation} originating from you can end one of the following conditions on itself (its choice): {@condition Frightened|XPHB}, {@condition Grappled|XPHB}, {@condition Paralyzed|XPHB}, or {@condition Restrained|XPHB}. The creature can then use its {@variantrule Reaction|XPHB} to move up to its {@variantrule Speed|XPHB} without provoking {@action Opportunity Attack|XPHB|Opportunity Attacks}.",
+				"When you reach {@class Cleric|XPHB} level 9, the list of conditions your allies can choose to end expands to include {@condition Charmed|XPHB} and {@condition Petrified|XPHB}."
+			]
+		},
+		{
+			"name": "The Meaning of Freedom",
+			"source": "XUA2026UnderdarkOptions2",
+			"page": 1,
+			"className": "Cleric",
+			"classSource": "XPHB",
+			"subclassShortName": "Freedom",
+			"subclassSource": "XUA2026UnderdarkOptions2",
+			"level": 3,
+			"header": 2,
+			"entries": [
+				"\"Freedom\" means different things to different people; when Clerics of the Freedom Domain gather, they often debate which aspect of freedom is most important. You can roll on or choose a result from the {@table Foremost Freedom|XUA2026UnderdarkOptions2} table to inspire your character's stance toward freedom.",
+				{
+					"type": "statblock",
+					"tag": "table",
+					"source": "XUA2026UnderdarkOptions2",
+					"name": "Foremost Freedom",
+					"page": 1,
+					"slotSize": "200"
+				}
+			]
+		},
+		{
+			"name": "Unencumbered Grace",
+			"source": "XUA2026UnderdarkOptions2",
+			"page": 2,
+			"className": "Cleric",
+			"classSource": "XPHB",
+			"subclassShortName": "Freedom",
+			"subclassSource": "XUA2026UnderdarkOptions2",
+			"level": 3,
+			"header": 2,
+			"entries": [
+				"While you aren't wearing armor, your base {@variantrule Armor Class|XPHB} equals 10 plus your Dexterity and Wisdom modifiers. You can use a {@item Shield|XPHB} and still gain this benefit.",
+				"In addition, you gain {@variantrule Proficiency|XPHB} in {@skill Acrobatics|XPHB}. If you already have {@variantrule Proficiency|XPHB} in {@skill Acrobatics|XPHB}, you gain {@variantrule Expertise|XPHB} in it instead."
+			]
+		},
+		{
+			"name": "Unstoppable",
+			"source": "XUA2026UnderdarkOptions2",
+			"page": 2,
+			"className": "Cleric",
+			"classSource": "XPHB",
+			"subclassShortName": "Freedom",
+			"subclassSource": "XUA2026UnderdarkOptions2",
+			"level": 6,
+			"header": 2,
+			"entries": [
+				"You mystical connection to freedom allows you to swiftly navigate obstacles. Your movement is unaffected by {@variantrule Difficult Terrain|XPHB}.",
+				"In addition, you gain proficiency in Dexterity saving throws. If you already have this proficiency, you instead gain proficiency with one saving throw in which you lack it."
+			]
+		},
+		{
+			"name": "Avatar of Freedom",
+			"source": "XUA2026UnderdarkOptions2",
+			"page": 2,
+			"className": "Cleric",
+			"classSource": "XPHB",
+			"subclassShortName": "Freedom",
+			"subclassSource": "XUA2026UnderdarkOptions2",
+			"level": 17,
+			"header": 2,
+			"entries": [
+				"As a {@variantrule Bonus Action|XPHB}, you can manifest a 30-foot {@variantrule Emanation [Area of Effect]|XPHB|Emanation} that surrounds you for 10 minutes. It ends early if you dismiss it (no action required) or have the {@condition Incapacitated|XPHB} condition. This {@variantrule Emanation [Area of Effect]|XPHB|Emanation} has the following effects:",
+				{
+					"type": "list",
+					"items": [
+						"Whenever an ally enters the {@variantrule Emanation [Area of Effect]|XPHB|Emanation} for the first time on a turn or starts its turn there, the ally's {@variantrule Speed|XPHB} increases by 30 feet until the end of the ally's next turn.",
+						"The movement of allies within the {@variantrule Emanation [Area of Effect]|XPHB|Emanation} is unaffected by {@variantrule Difficult Terrain|XPHB}.",
+						"Allies within the {@variantrule Emanation [Area of Effect]|XPHB|Emanation} have {@variantrule Advantage|XPHB} on Dexterity checks."
+					]
+				},
+				"Once you use this ability, you can't do so again until you finish a {@variantrule Short Rest|XPHB|Short} or {@variantrule Long Rest|XPHB}."
+			]
+		},
+		{
+			"name": "Circle of Spores",
+			"source": "XUA2026UnderdarkOptions2",
+			"page": 2,
+			"className": "Druid",
+			"classSource": "XPHB",
+			"subclassShortName": "Spores",
+			"subclassSource": "XUA2026UnderdarkOptions2",
+			"level": 3,
+			"header": 1,
+			"entries": [
+				"Druids of the Circle of Spores find beauty in decay. They revere the ability of mold and other fungi to grow from and transform lifeless material. These Druids believe that life and death are parts of a grand cycle, where each stage feeds into the next.",
+				"Druids of the Circle of Spores also see undeath as a part of this grand cycle so long as it's temporary. But all things must eventually decompose to make room for new life. Undead that seek to replace all life with undeath or that try to avoid passing to a final rest violate the cycle and must be thwarted.",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Fungal Symbiosis|Druid|XPHB|Spores|XUA2026UnderdarkOptions2|3|XUA2026UnderdarkOptions2"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Circle Spells|Druid|XPHB|Spores|XUA2026UnderdarkOptions2|3|XUA2026UnderdarkOptions2"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Halo of Spores|Druid|XPHB|Spores|XUA2026UnderdarkOptions2|3|XUA2026UnderdarkOptions2"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Symbiotic Entity|Druid|XPHB|Spores|XUA2026UnderdarkOptions2|3|XUA2026UnderdarkOptions2"
+				}
+			]
+		},
+		{
+			"name": "Circle Spells",
+			"source": "XUA2026UnderdarkOptions2",
+			"page": 3,
+			"className": "Druid",
+			"classSource": "XPHB",
+			"subclassShortName": "Spores",
+			"subclassSource": "XUA2026UnderdarkOptions2",
+			"level": 3,
+			"header": 2,
+			"entries": [
+				"When you reach a Druid level specified in the {@table Circle of Spores Spells|XUA2026UnderdarkOptions2} table, you thereafter always have the listed spells prepared.",
+				{
+					"type": "statblock",
+					"tag": "table",
+					"source": "XUA2026UnderdarkOptions2",
+					"name": "Circle of Spores Spells",
+					"page": 3,
+					"slotSize": "200"
+				}
+			]
+		},
+		{
+			"name": "Fungal Symbiosis",
+			"source": "XUA2026UnderdarkOptions2",
+			"page": 2,
+			"className": "Druid",
+			"classSource": "XPHB",
+			"subclassShortName": "Spores",
+			"subclassSource": "XUA2026UnderdarkOptions2",
+			"level": 3,
+			"header": 2,
+			"entries": [
+				"Druids of this circle develop a symbiotic relationship with a special type of fungal spore. In exchange for the spores' propagation, they protect the druid and empower their magic. You can roll on or choose a result from the {@table Spore Druid Origins|XUA2026UnderdarkOptions2} table to inspire your first encounter with your spores.",
+				{
+					"type": "statblock",
+					"tag": "table",
+					"source": "XUA2026UnderdarkOptions2",
+					"name": "Spore Druid Origins",
+					"page": 3,
+					"slotSize": "200"
+				}
+			]
+		},
+		{
+			"name": "Halo of Spores",
+			"source": "XUA2026UnderdarkOptions2",
+			"page": 3,
+			"className": "Druid",
+			"classSource": "XPHB",
+			"subclassShortName": "Spores",
+			"subclassSource": "XUA2026UnderdarkOptions2",
+			"level": 3,
+			"header": 2,
+			"entries": [
+				"{@condition Invisible|XPHB} spores fill a 10-foot {@variantrule Emanation [Area of Effect]|XPHB|Emanation} originating from you, providing you with a telepathic link to those who step inside. You have {@variantrule telepathy|XPHB} with a range of 10 feet. If you already have {@variantrule telepathy|XPHB}, your range increases by 10 feet.",
+				"Additionally, when a creature you can see moves into your {@variantrule Emanation [Area of Effect]|XPHB|Emanation} or starts its turn there, you can use your {@variantrule Reaction|XPHB} to infect the creature with your spores. The target makes a Constitution saving throw against {@dcYourSpellSave}. On a failed save, the target takes {@damage 1d4} Necrotic damage. On a success, the target has {@variantrule Disadvantage|XPHB} on its next attack roll before the end of its turn.",
+				"The Necrotic damage increases to {@damage 1d6} at 6th level, {@damage 1d8} at 10th level, and {@damage 1d10} at 14th level."
+			]
+		},
+		{
+			"name": "Symbiotic Entity",
+			"source": "XUA2026UnderdarkOptions2",
+			"page": 3,
+			"className": "Druid",
+			"classSource": "XPHB",
+			"subclassShortName": "Spores",
+			"subclassSource": "XUA2026UnderdarkOptions2",
+			"level": 3,
+			"header": 2,
+			"entries": [
+				"As a {@variantrule Bonus Action|XPHB}, you can expend a use of your {@classFeature Wild Shape|Druid|XPHB|2} feature to waken your spores, rather than for shape-shifting. When you waken your spores, you gain a number of {@variantrule Temporary Hit Points|XPHB} equal to four times your {@creature Druid|XMM} level. This awakening lasts for 10 minutes. It ends early if you dismiss it (no action required), have the {@condition Incapacitated|XPHB} condition, or use this feature again. While your spores are awakened, you gain the following benefits.",
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"page": 3,
+					"items": [
+						{
+							"type": "item",
+							"name": "Deadly Halo",
+							"entries": [
+								"When you deal your {@subclassFeature Halo of Spores|Druid|XPHB|Spores|XUA2026UnderdarkOptions2|3|XUA2026UnderdarkOptions2} damage, roll the damage die a second time and add the number rolled to the total."
+							]
+						},
+						{
+							"type": "item",
+							"name": "Entropic Empowerment",
+							"entries": [
+								"Once per turn, you can deal an extra {@damage 1d6} Necrotic damage to a target you hit with a melee attack roll using a weapon or an {@variantrule Unarmed Strike|XPHB}."
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Fungal Infestation",
+			"source": "XUA2026UnderdarkOptions2",
+			"page": 3,
+			"className": "Druid",
+			"classSource": "XPHB",
+			"subclassShortName": "Spores",
+			"subclassSource": "XUA2026UnderdarkOptions2",
+			"level": 6,
+			"header": 2,
+			"entries": [
+				"Your spores can infest a corpse and animate it. If a Beast or Humanoid that is Small or Medium dies within 10 feet of you, you can take a {@variantrule Reaction|XPHB} to reanimate it, causing it to stand up immediately with 1 {@variantrule Hit Points|XPHB|Hit Point}. If your {@subclassFeature Symbiotic Entity|Druid|XPHB|Spores|XUA2026UnderdarkOptions2|3|XUA2026UnderdarkOptions2} feature is active, you can transfer any number of {@variantrule Temporary Hit Points|XPHB} you have to your reanimated creature as part of this {@variantrule Reaction|XPHB}.",
+				"The creature uses the {@creature Zombie|XMM} stat block in the {@book Player's Handbook|XPHB|9|Zombie}. It remains animate for 1 hour, at which time it dies. The animation ends early if you end it as a {@variantrule Bonus Action|XPHB} or if the {@creature zombie|XMM} drops to 0 {@variantrule Hit Points|XPHB}.",
+				"The zombie is an ally to you and your allies. In combat, the zombie shares your {@variantrule Initiative|XPHB} count, but it takes its turn immediately after yours. It obeys your mental commands (no action required by you). If you don't issue any, it takes the {@action Dodge|XPHB} action and uses its movement to avoid danger.",
+				"You can use this feature a number of times equal to your Wisdom modifier (minimum of once), and you regain all expended uses of it when you finish a {@variantrule Long Rest|XPHB}."
+			]
+		},
+		{
+			"name": "Explosive Burst",
+			"source": "XUA2026UnderdarkOptions2",
+			"page": 3,
+			"className": "Druid",
+			"classSource": "XPHB",
+			"subclassShortName": "Spores",
+			"subclassSource": "XUA2026UnderdarkOptions2",
+			"level": 10,
+			"header": 2,
+			"entries": [
+				"When an Undead creature you created dies, it explodes in a burst of spores. Each creature you choose within 10 feet of the dead creature makes a Constitution saving throw against {@dcYourSpellSave}, taking {@damage 2d8} Necrotic damage on a failure or half as much on a success."
+			]
+		},
+		{
+			"name": "Fungal Body",
+			"source": "XUA2026UnderdarkOptions2",
+			"page": 3,
+			"className": "Druid",
+			"classSource": "XPHB",
+			"subclassShortName": "Spores",
+			"subclassSource": "XUA2026UnderdarkOptions2",
+			"level": 14,
+			"header": 2,
+			"entries": [
+				"You have {@variantrule Immunity|XPHB} to the {@condition Blinded|XPHB}, {@condition Deafened|XPHB}, {@condition Frightened|XPHB}, and {@condition Poisoned|XPHB} conditions. Any {@variantrule Critical Hit|XPHB} against you counts as a normal hit instead, unless you have the {@condition Incapacitated|XPHB} condition.",
+				"Additionally, if you have the {@condition Unconscious|XPHB} condition, your spores take over your body's motor functions to steer you to safety. The {@condition Unconscious|XPHB} condition doesn't make your {@variantrule Speed|XPHB} 0. On your turn, your spores direct your movement, keeping you near allies and away from danger."
+			]
+		},
+		{
+			"name": "Faerzress Sorcery",
+			"source": "XUA2026UnderdarkOptions2",
+			"page": 4,
+			"className": "Sorcerer",
+			"classSource": "XPHB",
+			"subclassShortName": "Faerzress",
+			"subclassSource": "XUA2026UnderdarkOptions2",
+			"level": 3,
+			"header": 1,
+			"entries": [
+				"You have been mutated by faerzress, the uncanny radiation {@deity Lolth|Faerûnian|FRHoF} used to shape the Underdark eons ago. Perhaps you or one of your ancestors was born within a region of the Underdark saturated by faerzress, or you spent many years in such a place.",
+				"Regardless, your body has now adapted to faerzress, which sizzles within your body like fluid electricity. Your senses penetrate the magical static faerzress creates, and you can find pathways through faerzress that allow you to scry and teleport. You are unhindered by faerzress's detrimental effects, and you can throw faerzress at enemies or fill entire chambers with lingering radiation.",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Faerzress Effects|Sorcerer|XPHB|Faerzress|XUA2026UnderdarkOptions2|3|XUA2026UnderdarkOptions2"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Faerzress Side Effects|Sorcerer|XPHB|Faerzress|XUA2026UnderdarkOptions2|3|XUA2026UnderdarkOptions2"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Faerzress Spells|Sorcerer|XPHB|Faerzress|XUA2026UnderdarkOptions2|3|XUA2026UnderdarkOptions2"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Faerzress Zone|Sorcerer|XPHB|Faerzress|XUA2026UnderdarkOptions2|3|XUA2026UnderdarkOptions2"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Immunity to Faerzress|Sorcerer|XPHB|Faerzress|XUA2026UnderdarkOptions2|3|XUA2026UnderdarkOptions2"
+				}
+			]
+		},
+		{
+			"name": "Faerzress Effects",
+			"source": "XUA2026UnderdarkOptions2",
+			"page": 4,
+			"className": "Sorcerer",
+			"classSource": "XPHB",
+			"subclassShortName": "Faerzress",
+			"subclassSource": "XUA2026UnderdarkOptions2",
+			"level": 3,
+			"header": 2,
+			"entries": [
+				"Faerzress is a magical radiation that shapes and protects the Underdark. Faerzress has a number of magical effects, including the following:",
+				{
+					"type": "list",
+					"items": [
+						"Creatures within an area affected by faerzress automatically succeed on saving throws against {@spell Divination|XPHB} effects. Magical sensors and {@condition invisible|XPHB} eyes, such as those created by the {@spell Clairvoyance|XPHB} and {@spell Arcane Eye|XPHB} spells, can't enter an area affected by faerzress.",
+						"A creature teleporting a distance of 1 mile or more can't {@variantrule Teleportation|XPHB|teleport} into or out of an area affected by faerzress.",
+						"An area affected by faerzress is illuminated by {@variantrule Dim Light|XPHB}, but creatures using {@spell Darkvision|XPHB} within such an area see in color and have {@variantrule Advantage|XPHB} on Wisdom ({@skill Perception|XPHB}) checks relying on sight."
+					]
+				}
+			]
+		},
+		{
+			"name": "Faerzress Side Effects",
+			"source": "XUA2026UnderdarkOptions2",
+			"page": 4,
+			"className": "Sorcerer",
+			"classSource": "XPHB",
+			"subclassShortName": "Faerzress",
+			"subclassSource": "XUA2026UnderdarkOptions2",
+			"level": 3,
+			"header": 2,
+			"entries": [
+				"Exposure to faerzress has mutated you, and you continue to emit trace amounts of this weird, invisible, magical radiation. This can have unpredictable effects on the environment or on creatures near you. You can roll on or choose a result from the {@table Faerzress Side Effects|XUA2026UnderdarkOptions2} table to inspire your character.",
+				{
+					"type": "statblock",
+					"tag": "table",
+					"source": "XUA2026UnderdarkOptions2",
+					"name": "Faerzress Side Effects",
+					"page": 4,
+					"slotSize": "200"
+				}
+			]
+		},
+		{
+			"name": "Faerzress Spells",
+			"source": "XUA2026UnderdarkOptions2",
+			"page": 4,
+			"className": "Sorcerer",
+			"classSource": "XPHB",
+			"subclassShortName": "Faerzress",
+			"subclassSource": "XUA2026UnderdarkOptions2",
+			"level": 3,
+			"header": 2,
+			"entries": [
+				"When you reach a {@class Sorcerer|XPHB} level specified in the {@table Faerzress Spells|XUA2026UnderdarkOptions2} table, you thereafter always have the listed spells prepared.",
+				{
+					"type": "statblock",
+					"tag": "table",
+					"source": "XUA2026UnderdarkOptions2",
+					"name": "Faerzress Spells",
+					"page": 4,
+					"slotSize": "200"
+				}
+			]
+		},
+		{
+			"name": "Faerzress Zone",
+			"source": "XUA2026UnderdarkOptions2",
+			"page": 4,
+			"className": "Sorcerer",
+			"classSource": "XPHB",
+			"subclassShortName": "Faerzress",
+			"subclassSource": "XUA2026UnderdarkOptions2",
+			"level": 3,
+			"header": 2,
+			"consumes": {
+				"name": "Sorcery Point",
+				"amount": 3
+			},
+			"entries": [
+				"As a {@action Magic|XPHB} action, you can spend 3 Sorcery Points to fill an area within 120 feet of you and no larger than a 40-foot {@variantrule Cube [Area of Effect]|XPHB|Cube} with faerzress. The faerzress lasts for 24 hours and has the effects in \"{@subclassFeature Faerzress Effects|Sorcerer|XPHB|Faerzress|XUA2026UnderdarkOptions2|3|XUA2026UnderdarkOptions2}\" above. If you fill the same area with faerzress every day for 365 days, the faerzress becomes permanent."
+			]
+		},
+		{
+			"name": "Immunity to Faerzress",
+			"source": "XUA2026UnderdarkOptions2",
+			"page": 4,
+			"className": "Sorcerer",
+			"classSource": "XPHB",
+			"subclassShortName": "Faerzress",
+			"subclassSource": "XUA2026UnderdarkOptions2",
+			"level": 3,
+			"header": 2,
+			"entries": [
+				"You ignore the detrimental effects of faerzress (see \"{@subclassFeature Faerzress Effects|Sorcerer|XPHB|Faerzress|XUA2026UnderdarkOptions2|3|XUA2026UnderdarkOptions2}\").",
+				"Creatures within an area affected by faerzress don't automatically succeed on saving throws against your {@spell Divination|XPHB} spells. Magical sensors and {@condition invisible} eyes created by spells you cast\u2014such as {@spell Clairvoyance|XPHB} and {@spell Arcane Eye|XPHB}\u2014can enter an area affected by faerzress.",
+				"When you {@variantrule Teleportation|XPHB|teleport} yourself or other creatures, the teleporting creatures can {@variantrule Teleportation|XPHB|teleport} into or out of an area affected by faerzress regardless of the distance teleported."
+			]
+		},
+		{
+			"name": "Faerzress Affinity",
+			"source": "XUA2026UnderdarkOptions2",
+			"page": 4,
+			"className": "Sorcerer",
+			"classSource": "XPHB",
+			"subclassShortName": "Faerzress",
+			"subclassSource": "XUA2026UnderdarkOptions2",
+			"level": 6,
+			"header": 2,
+			"entries": [
+				"You gain {@variantrule Resistance|XPHB} to Lightning damage. You also gain {@spell Darkvision|XPHB} with a range of 60 feet. If you already have {@spell Darkvision|XPHB}, its range increases by 30 feet. Unlike with ordinary {@spell Darkvision|XPHB}, you discern color in {@spell Darkness|XPHB}.",
+				"In addition, you have {@variantrule Advantage|XPHB} on Wisdom ({@skill Perception|XPHB}) checks to see in {@variantrule Dim Light|XPHB} or {@variantrule Darkness|XPHB}.",
+				"Finally, your {@subclassFeature Immunity to Faerzress|Sorcerer|XPHB|Faerzress|XUA2026UnderdarkOptions2|3|XUA2026UnderdarkOptions2} feature also applies to allies within 30 feet of you."
+			]
+		},
+		{
+			"name": "Faerzress Spell",
+			"source": "XUA2026UnderdarkOptions2",
+			"page": 5,
+			"className": "Sorcerer",
+			"classSource": "XPHB",
+			"subclassShortName": "Faerzress",
+			"subclassSource": "XUA2026UnderdarkOptions2",
+			"level": 14,
+			"header": 2,
+			"consumes": {
+				"name": "Sorcery Point",
+				"amount": 1
+			},
+			"entries": [
+				"When one or more creatures fails a saving throw against a spell you cast, you can spend 1 Sorcery Point to lace one target that failed the save with faerzress. The target is subject to the following effects for 1 minute:",
+				{
+					"type": "list",
+					"items": [
+						"The creature can't {@variantrule Teleportation|XPHB|teleport}.",
+						"The creature can't cast Divination spells.",
+						"The creature has {@variantrule Disadvantage|XPHB} on saving throws against Divination spells."
+					]
+				}
+			]
+		},
+		{
+			"name": "Faerzress Step",
+			"source": "XUA2026UnderdarkOptions2",
+			"page": 5,
+			"className": "Sorcerer",
+			"classSource": "XPHB",
+			"subclassShortName": "Faerzress",
+			"subclassSource": "XUA2026UnderdarkOptions2",
+			"level": 14,
+			"header": 2,
+			"entries": [
+				"You always have the {@spell Teleport|XPHB} spell prepared and can cast it once without expending a spell slot. You regain the ability to cast the spell in this way when you finish a {@variantrule Long Rest|XPHB}.",
+				"In addition, whenever you roll on the {@spell Teleport|XPHB|Teleportation Outcome} table, you can choose any outcome available for your familiarity."
+			]
+		},
+		{
+			"name": "Faerzress Form",
+			"source": "XUA2026UnderdarkOptions2",
+			"page": 5,
+			"className": "Sorcerer",
+			"classSource": "XPHB",
+			"subclassShortName": "Faerzress",
+			"subclassSource": "XUA2026UnderdarkOptions2",
+			"level": 18,
+			"header": 2,
+			"consumes": {
+				"name": "Sorcery Point",
+				"amount": 7
+			},
+			"entries": [
+				"When you use your {@classFeature Innate Sorcery|Sorcerer|XPHB|1|XPHB}, you can turn yourself into pure faerzress energy. While in this form, you retain your general shape, personality, and memories, as well as the ability to speak; any equipment you're wearing or carrying doesn't transform with you, but you can continue using that equipment while in this form. Your game statistics remain the same, apart from the following changes:",
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"page": 5,
+					"items": [
+						{
+							"type": "item",
+							"name": "Condition Immunities",
+							"entries": [
+								"You have {@variantrule Immunity|XPHB} to the {@condition Grappled|XPHB}, {@condition Paralyzed|XPHB}, {@condition Petrified|XPHB}, {@condition Poisoned|XPHB}, {@condition Prone|XPHB}, and {@condition Restrained|XPHB} conditions."
+							]
+						},
+						{
+							"type": "item",
+							"name": "Damage Resistances",
+							"entries": [
+								"You have {@variantrule Resistance|XPHB} to every damage type except Force and Psychic."
+							]
+						},
+						{
+							"type": "item",
+							"name": "Movement",
+							"entries": [
+								"You have a {@variantrule Fly Speed|XPHB} equal to your {@variantrule Speed|XPHB} and can hover. You can move through other creatures and objects as if they were {@variantrule Difficult Terrain|XPHB}, but you take 5 ({@damage 1d10}) Force damage if you end your turn inside an object."
+							]
+						}
+					]
+				},
+				"You revert to your true form after 1 minute, if you choose to end the transformation (no action required), or if you die.",
+				"Once you have used this ability, you can't do so again until you finish a {@variantrule Long Rest|XPHB} or spend 7 Sorcery Points (no action required) to restore your use of it."
+			]
+		}
+	],
+	"foundrySubclassFeature": [
+		{
+			"name": "Unstoppable",
+			"source": "XUA2026UnderdarkOptions2",
+			"className": "Cleric",
+			"classSource": "XPHB",
+			"subclassShortName": "Freedom",
+			"subclassSource": "XUA2026UnderdarkOptions2",
+			"level": 6,
+			"entryData": {
+				"savingThrowProficiencies": [
+					{
+						"dex": true
+					},
+					{
+						"choose": {
+							"from": [
+								"cha",
+								"con",
+								"int",
+								"str",
+								"wis"
+							]
+						}
+					}
+				]
+			}
+		},
+		{
+			"name": "Fungal Body",
+			"source": "XUA2026UnderdarkOptions2",
+			"className": "Druid",
+			"classSource": "XPHB",
+			"subclassShortName": "Spores",
+			"subclassSource": "XUA2026UnderdarkOptions2",
+			"level": 14,
+			"entryData": {
+				"conditionImmune": [
+					"blinded",
+					"deafened",
+					"frightened",
+					"poisoned"
+				]
+			}
+		},
+		{
+			"name": "Faerzress Affinity",
+			"source": "XUA2026UnderdarkOptions2",
+			"className": "Sorcerer",
+			"classSource": "XPHB",
+			"subclassShortName": "Faerzress",
+			"subclassSource": "XUA2026UnderdarkOptions2",
+			"level": 6,
+			"entryData": {
+				"resist": [
+					"lightning"
+				],
+				"senses": [
+					{
+						"darkvision": 60
+					}
+				]
+			}
+		}
+	],
+	"race": [
+		{
+			"name": "Deep Imaskari",
+			"source": "XUA2026UnderdarkOptions2",
+			"page": 6,
+			"edition": "one",
+			"creatureTypes": [
+				"humanoid"
+			],
+			"size": [
+				"S",
+				"M"
+			],
+			"speed": 30,
+			"traitTags": [
+				"Natural Armor"
+			],
+			"resist": [
+				"radiant"
+			],
+			"sizeEntry": {
+				"type": "item",
+				"name": "Size:",
+				"entries": [
+					"Medium (about 4-6 feet tall) or Small (about 2-4 feet tall), chosen when you select this species"
+				]
+			},
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Photoresistant",
+					"entries": [
+						"You have {@variantrule Resistance|XPHB} to Radiant damage."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Resourceful",
+					"entries": [
+						"You gain {@variantrule Heroic Inspiration|XPHB} whenever you finish a {@variantrule Long Rest|XPHB}."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Unluminescent",
+					"entries": [
+						"As an action, you can will the crystals protruding from your body to glow with Unlight. You shed {@variantrule Bright Light|XPHB} in a 5-foot radius until you use an action to stop the effect. Your crystals stop glowing if you die or have the {@condition Unconscious|XPHB} condition."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Aura of Unlight",
+					"entries": [
+						"When you reach character level 3, you can use a {@variantrule Bonus Action|XPHB} to create an Aura of Unlight that sheds {@variantrule Bright Light|XPHB} in a 10-foot {@variantrule Emanation [Area of Effect]|XPHB|Emanation} originating from you.",
+						"Choose one of the options below each time you create the aura; the aura lasts for 1 minute or until you end it (no action required), and once you create this aura, you can't do so again until you finish a {@variantrule Long Rest|XPHB}:",
+						{
+							"type": "list",
+							"style": "list-hang-notitle",
+							"items": [
+								{
+									"type": "item",
+									"name": "Abjuring Unlight",
+									"entries": [
+										"You and your allies in the aura gain a bonus to AC equal to half your {@variantrule Proficiency|XPHB|Proficiency Bonus} (round down)."
+									]
+								},
+								{
+									"type": "item",
+									"name": "Brilliant Unlight",
+									"entries": [
+										"Creatures other than your allies that start their turn within the {@variantrule Emanation [Area of Effect]|XPHB|Emanation} must succeed on a Constitution saving throw (DC 8 plus your Charisma modifier and {@variantrule Proficiency|XPHB|Proficiency Bonus}) or have the {@condition Blinded|XPHB} condition until the end of your next turn."
+									]
+								},
+								{
+									"type": "item",
+									"name": "Corrupting Unlight",
+									"entries": [
+										"When you deal damage to a creature with an attack or a spell, you can change the damage type to Radiant. Additionally, you can roll one of your unexpended {@variantrule Hit Point Dice|XPHB} and deal extra Radiant damage equal to the number rolled. That die is then expended."
+									]
+								}
+							]
+						}
+					]
+				}
+			],
+			"hasFluff": true
+		},
+		{
+			"name": "Drider",
+			"source": "XUA2026UnderdarkOptions2",
+			"page": 6,
+			"edition": "one",
+			"creatureTypes": [
+				"monstrosity"
+			],
+			"size": [
+				"M"
+			],
+			"speed": {
+				"walk": 30,
+				"climb": 30
+			},
+			"darkvision": 120,
+			"traitTags": [
+				"Powerful Build",
+				"Speed"
+			],
+			"additionalSpells": [
+				{
+					"ability": {
+						"choose": [
+							"int",
+							"wis",
+							"cha"
+						]
+					},
+					"known": {
+						"_": {
+							"_": [
+								"dancing lights|XPHB#c"
+							]
+						}
+					},
+					"prepared": {
+						"3": {
+							"daily": {
+								"1e": [
+									"faerie fire|XPHB"
+								]
+							}
+						},
+						"5": {
+							"daily": {
+								"1e": [
+									"web|XPHB"
+								]
+							}
+						}
+					}
+				}
+			],
+			"sizeEntry": {
+				"type": "item",
+				"name": "Size:",
+				"entries": [
+					"Medium (about 6\u20138 feet tall)"
+				]
+			},
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Arachnid Build",
+					"entries": [
+						"You count as one size larger when determining your carrying capacity."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Darkvision",
+					"entries": [
+						"You have {@sense Darkvision|XPHB} with a range of 120 feet."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Spells of the Spider Queen",
+					"entries": [
+						"You know the {@spell Dancing Lights|XPHB} cantrip. When you reach character level 3, you always have the {@spell Faerie Fire|XPHB} spell prepared. When you reach character level 5, you always have the {@spell Web|XPHB} spell prepared. You can cast each of these spells once without a spell slot. Once you cast either of these spells with this trait, you can't cast that spell with it again until you finish a {@variantrule Long Rest|XPHB}. You can also cast these spells using any spell slots you have of the appropriate level.",
+						"Intelligence, Wisdom, or Charisma is your spellcasting ability for the spells you cast with this trait (choose the ability when you select this species)."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Spider Climb",
+					"entries": [
+						"You have a {@variantrule Climb Speed|XPHB} equal to your {@variantrule Speed|XPHB}. When you reach character level 3, you can move up, down, and across vertical surfaces and along ceilings while leaving your hands free."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Web Walker",
+					"entries": [
+						"You ignore movement restrictions caused by webs, and you know the location of any other creature in contact with the same web."
+					]
+				}
+			],
+			"hasFluff": true
+		},
+		{
+			"name": "Illithidkin",
+			"source": "XUA2026UnderdarkOptions2",
+			"page": 7,
+			"edition": "one",
+			"creatureTypes": [
+				"humanoid"
+			],
+			"size": [
+				"S",
+				"M"
+			],
+			"speed": 30,
+			"darkvision": 120,
+			"resist": [
+				"psychic"
+			],
+			"additionalSpells": [
+				{
+					"ability": {
+						"choose": [
+							"int",
+							"wis",
+							"cha"
+						]
+					},
+					"known": {
+						"_": {
+							"_": [
+								"mage hand|XPHB#c"
+							]
+						}
+					},
+					"prepared": {
+						"3": {
+							"daily": {
+								"1e": [
+									"command|XPHB"
+								]
+							}
+						},
+						"5": {
+							"daily": {
+								"1e": [
+									"levitate|XPHB"
+								]
+							}
+						}
+					}
+				}
+			],
+			"sizeEntry": {
+				"type": "item",
+				"name": "Size:",
+				"entries": [
+					"Medium (about 5-6 feet tall) or Small (about 2-4 feet tall), chosen when you select this species"
+				]
+			},
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Darkvision",
+					"entries": [
+						"You have {@sense Darkvision|XPHB} with a range of 120 feet."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Psionic Aptitude",
+					"entries": [
+						"You know the {@spell Mage Hand|XPHB} cantrip, and you can make the spectral hand {@condition Invisible|XPHB}. When you reach character level 3, you always have the {@spell Command|XPHB} spell prepared. When you reach character level 5, you always have the {@spell Levitate|XPHB} spell prepared. You can cast each of these spells once without a spell slot. Once you cast either of these spells with this trait, you can't cast that spell with it again until you finish a {@variantrule Long Rest|XPHB}. You can also cast the spell using any spell slots you have of the appropriate level.",
+						"Intelligence, Wisdom, or Charisma is your spellcasting ability for the spells you cast with this trait (choose the ability when you select this species)."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Sharpened Mind",
+					"entries": [
+						"You have {@variantrule Resistance|XPHB} to Psychic damage. You also have {@variantrule Advantage|XPHB} on saving throws you make to avoid or end the {@condition Charmed|XPHB} condition."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Telepathy",
+					"entries": [
+						"You have {@variantrule telepathy|XPHB} with a range of 30 feet."
+					]
+				}
+			],
+			"hasFluff": true
+		},
+		{
+			"name": "Kuo-Toa",
+			"source": "XUA2026UnderdarkOptions2",
+			"page": 7,
+			"edition": "one",
+			"creatureTypes": [
+				"humanoid"
+			],
+			"size": [
+				"M"
+			],
+			"speed": {
+				"walk": 30,
+				"swim": 30
+			},
+			"traitTags": [
+				"Amphibious"
+			],
+			"additionalSpells": [
+				{
+					"prepared": {
+						"_": {
+							"daily": {
+								"1e": [
+									"Find Familiar|XPHB"
+								]
+							}
+						}
+					}
+				}
+			],
+			"sizeEntry": {
+				"type": "item",
+				"name": "Size:",
+				"entries": [
+					"Medium (about 5\u20136 feet tall)"
+				]
+			},
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Amphibious",
+					"entries": [
+						"You can breathe both air and water. Additionally, you have a {@variantrule Swim Speed|XPHB} equal to your {@variantrule Speed|XPHB}."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Slippery",
+					"entries": [
+						"You have advantage on saving throws to avoid or end the {@condition Grappled|XPHB} and {@condition Restrained|XPHB} conditions."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Deific Manifestation",
+					"entries": [
+						"You always have the {@spell Find Familiar|XPHB} spell prepared and can cast it without material components. You can cast it once without a spell slot, and you regain the ability to cast it in this way when you finish a {@variantrule Long Rest|XPHB}.",
+						"When you cast the spell, you choose one of the normal forms for your familiar or one of the following special forms: {@creature Homunculus|XMM} or {@creature Myconid Sprout|XMM}. The familiar's creature type is Celestial. Additionally, your familiar's form is a divine blend of multiple creatures. When you cast this spell, choose a second form from the available options. Your familiar gains one action, {@variantrule Reaction|XPHB}, or trait from that second form."
+					]
+				}
+			],
+			"hasFluff": true
+		},
+		{
+			"name": "Myconid",
+			"source": "XUA2026UnderdarkOptions2",
+			"page": 8,
+			"edition": "one",
+			"creatureTypes": [
+				"plant"
+			],
+			"size": [
+				"S",
+				"M"
+			],
+			"speed": 30,
+			"darkvision": 120,
+			"traitTags": [
+				"Skill Proficiency"
+			],
+			"sizeEntry": {
+				"type": "item",
+				"name": "Size:",
+				"entries": [
+					"Medium (about 4-7 feet tall) or Small (about 2-4 feet tall), chosen when you select this species"
+				]
+			},
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Darkvision",
+					"entries": [
+						"You have {@sense Darkvision|XPHB} with a range of 120 feet."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Telepathy",
+					"entries": [
+						"You have {@variantrule telepathy|XPHB} with a range of 30 feet."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Rapport Spores",
+					"entries": [
+						"As an action, you expel spores in a 30-foot {@variantrule Emanation [Area of Effect]|XPHB|Emanation} originating from yourself. Creatures in the area with an Intelligence score of 2 or higher that aren't Constructs, Elementals, or Undead gain {@variantrule telepathy|XPHB} within a range of 30 feet for 1 hour. Once you use this trait, you can't do so again until you finish a {@variantrule Long Rest|XPHB}."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Skill Meld",
+					"entries": [
+						"When you finish a {@variantrule Long Rest|XPHB}, you can perform a melding ritual to share knowledge and experiences. When you do so, choose up to six allies (which can include yourself) within 30 feet of yourself to partake in the ritual and a skill proficiency that at least one participant has proficiency in. The chosen creatures each have proficiency in that skill until they finish a {@variantrule Long Rest|XPHB}."
+					]
+				}
+			],
+			"hasFluff": true
+		}
+	],
+	"raceFluff": [
+		{
+			"name": "Deep Imaskari",
+			"source": "XUA2026UnderdarkOptions2",
+			"entries": [
+				"Millennia ago, remnants of the human empire of Imaskar fled into the bowels of the Underdark and sealed themselves away. To survive in total darkness, they harnessed the power of Unlight to create their Great Seal, which acts as a synthetic sun. Their descendants, the deep imaskari, have spent millennia basking in that sun's radiation and are now infused with its magic.",
+				"Deep imaskari's bodies have been warped by Unlight exposure. Colorless, glowing crystals protrude from their skin. Their eyes are a piercing golden-white, and their hair is often black, white, or gray. Deep imaskari live as long as humans do."
+			]
+		},
+		{
+			"name": "Drider",
+			"source": "XUA2026UnderdarkOptions2",
+			"entries": [
+				"Skulking through Underdark caverns on their eight legs, driders bear the Spider Queen's curse. Each has the head and torso of a drow but the body of a giant spider. Some driders have additional spider-like features, such as eight eyes or small fangs.",
+				"Driders are powerful hunters, capable of climbing along webs and walls, creating webs, and shooting caustic acid. Driders live as long as elves do, around 750 years."
+			]
+		},
+		{
+			"name": "Illithidkin",
+			"source": "XUA2026UnderdarkOptions2",
+			"entries": [
+				"Illithidkin are the wretched byproduct of mind flayer experimentation on humanoid test subjects. These hybrid creatures are bipedal and retain some of the features of their original form, but they also bear some features of a mind flayer\u2014purple skin, wriggling tentacles, and a fledgling psionic aptitude.",
+				"An illithidkin typically has the same life expectancy as their original species , but in some cases the transformation adds years or even decades to\u2014or subtracts as much from\u2014that life expectancy."
+			]
+		},
+		{
+			"name": "Kuo-Toa",
+			"source": "XUA2026UnderdarkOptions2",
+			"entries": [
+				"Kuo-toa's origins are hotly debated, even among kuo-toa themselves. They claim their empires once ruled both land and sea on multiple worlds, though they disagree on what brought their empires to their knees and drove many kuo-toa into the Underdark. Kuo-toa therefore resent all forces that could have ended this empire: civilizations that walk in the light, natural disasters, and any god that leaves their prayers unanswered.",
+				"Kuo-toa are fishlike humanoids with slimy bodies and scales that change color with extreme emotions, such as anger or terror. They often smell of rotting fish, an exquisite scent they magnify with fine perfumes of their own creation. They have a life expectancy of about 60 years.",
+				{
+					"type": "entries",
+					"name": "Mysterious Deities",
+					"page": 7,
+					"entries": [
+						"Most knowledge of the full kuo-toa pantheon has been lost to time. Kuo-toa can't agree on the names of these deities, what forms they take, or what these deities desire. Without a central religious authority, some archpriests invent new idols based on the omens they read. They often lead their villages to venerate krakens, aboleths, or demon lords as the avatars of deities or as deities in their own right. Devotion to such beings often results in the kua-toa's prolonged servitude to a malevolent power or to their outright ruin.",
+						"To placate their deities, kuo-toa assemble bizarre idols with mismatched pieces inspired by crabs, eels, shrimp, or kuo-toa, often adorned with masses of writhing tentacles. Through a process only a few kuo-toa understand, these idols draw the attention of supernatural powers. Sometimes, they even come to life."
+					]
+				}
+			]
+		},
+		{
+			"name": "Myconid",
+			"source": "XUA2026UnderdarkOptions2",
+			"entries": [
+				"Myconids are bipedal fungal folk who live in close-knit, insular circles. Like mushrooms, they come in many different shapes, sizes, and colors. Some myconids whose circles have had contact with other civilizations have developed features resembling those of other species, such as mouths for speaking or bright-colored caps and ruffles that look like clothing.",
+				"Myconids have relatively short lifespans. They might live a 25 years before returning to the soil to fertilize the next generation of their circle."
+			]
+		}
+	],
+	"table": [
+		{
+			"name": "Circle of Spores Spells",
+			"source": "XUA2026UnderdarkOptions2",
+			"page": 3,
+			"colLabels": [
+				"Druid Level",
+				"Prepared Spells"
+			],
+			"colStyles": [
+				"col-2 text-center",
+				"col-10"
+			],
+			"rows": [
+				[
+					"3",
+					"{@spell Blindness/Deafness|XPHB}, {@spell Charm Person|XPHB}, {@spell Chill Touch|XPHB}"
+				],
+				[
+					"5",
+					"{@spell Animate Dead|XPHB}"
+				],
+				[
+					"7",
+					"{@spell Confusion|XPHB}"
+				],
+				[
+					"9",
+					"{@spell Contagion|XPHB}"
+				]
+			]
+		},
+		{
+			"name": "Faerzress Side Effects",
+			"source": "XUA2026UnderdarkOptions2",
+			"page": 4,
+			"colLabels": [
+				"1d6",
+				"You Emit Faerzress Radiation That..."
+			],
+			"colStyles": [
+				"col-2 text-center",
+				"col-10"
+			],
+			"rows": [
+				[
+					"1",
+					"Curdles milk and sours wine."
+				],
+				[
+					"2",
+					"Causes anxiety in animals."
+				],
+				[
+					"3",
+					"Stimulates the growth of Underdark plants."
+				],
+				[
+					"4",
+					"Tints colors toward blue and violet."
+				],
+				[
+					"5",
+					"Sometimes gives you a splitting headache."
+				],
+				[
+					"6",
+					"Can be heard as a faint, high-pitched buzzing noise."
+				]
+			]
+		},
+		{
+			"name": "Faerzress Spells",
+			"source": "XUA2026UnderdarkOptions2",
+			"page": 4,
+			"colLabels": [
+				"Sorcerer Level",
+				"Prepared Spells"
+			],
+			"colStyles": [
+				"col-2 text-center",
+				"col-10"
+			],
+			"rows": [
+				[
+					"3",
+					"{@spell Faerie Fire|XPHB}, {@spell Magic Weapon|XPHB}, {@spell Misty Step|XPHB}, {@spell Witch Bolt|XPHB}"
+				],
+				[
+					"5",
+					"{@spell Nondetection|XPHB}, {@spell Sending|XPHB}"
+				],
+				[
+					"7",
+					"{@spell Arcane Eye|XPHB}, {@spell Stone Shape|XPHB}"
+				],
+				[
+					"9",
+					"{@spell Passwall|XPHB}, {@spell Scrying|XPHB}"
+				]
+			]
+		},
+		{
+			"name": "Foremost Freedom",
+			"source": "XUA2026UnderdarkOptions2",
+			"page": 1,
+			"colLabels": [
+				"1d6",
+				"The Most Important Freedom Is..."
+			],
+			"colStyles": [
+				"col-2 text-center",
+				"col-10"
+			],
+			"rows": [
+				[
+					"1",
+					"Freedom from starvation and poverty."
+				],
+				[
+					"2",
+					"Freedom to choose your own path in life."
+				],
+				[
+					"3",
+					"Freedom from tyranny and oppression."
+				],
+				[
+					"4",
+					"Freedom to control your body and mind."
+				],
+				[
+					"5",
+					"Freedom from nature's physical laws."
+				],
+				[
+					"6",
+					"Freedom from all moral codes."
+				]
+			]
+		},
+		{
+			"name": "Freedom Domain Spells",
+			"source": "XUA2026UnderdarkOptions2",
+			"page": 1,
+			"colLabels": [
+				"Cleric Level",
+				"Prepared Spells"
+			],
+			"colStyles": [
+				"col-2 text-center",
+				"col-10"
+			],
+			"rows": [
+				[
+					"3",
+					"{@spell Expeditious Retreat|XPHB}, {@spell Jump|XPHB}, {@spell Knock|XPHB}, {@spell Misty Step|XPHB}"
+				],
+				[
+					"5",
+					"{@spell Fly|XPHB}, {@spell Gaseous Form|XPHB}"
+				],
+				[
+					"7",
+					"{@spell Dimension Door|XPHB}, {@spell Freedom of Movement|XPHB}"
+				],
+				[
+					"9",
+					"{@spell Passwall|XPHB}, {@spell Tree Stride|XPHB}"
+				]
+			]
+		},
+		{
+			"name": "Spore Druid Origins",
+			"source": "XUA2026UnderdarkOptions2",
+			"page": 3,
+			"colLabels": [
+				"1d6",
+				"You First Encountered Your Spores When..."
+			],
+			"colStyles": [
+				"col-2 text-center",
+				"col-10"
+			],
+			"rows": [
+				[
+					"1",
+					"You ingested a mushroom you definitely should not have."
+				],
+				[
+					"2",
+					"You searched a rotting corpse and inhaled the burst of gas spores that erupted from its chest."
+				],
+				[
+					"3",
+					"An aging archdruid passed their spores\u2014and their duty to propagate said spores\u2014on to you."
+				],
+				[
+					"4",
+					"You participated in a myconid melding ceremony."
+				],
+				[
+					"5",
+					"You died, and a powerful myconid sovereign took pity and reanimated you."
+				],
+				[
+					"6",
+					"Psilofyr the Spore Lord visited your dreams to waken your abilities."
+				]
+			]
+		}
+	],
+	"book": [
+		{
+			"name": "Unearthed Arcana 2026: Underdark Options 2",
+			"id": "XUA2026UnderdarkOptions2",
+			"source": "XUA2026UnderdarkOptions2",
+			"group": "prerelease",
+			"cover": {
+				"type": "external",
+				"url": "https://raw.githubusercontent.com/TheGiddyLimit/unearthed-arcana-img/main/img/XUA2026UnderdarkOptions2/cover.webp"
+			},
+			"published": "2026-09-10",
+			"author": "Wizards of the Coast",
+			"contents": [
+				{
+					"name": "Unearthed Arcana 2026: Underdark Options 2",
+					"headers": [
+						"What's Inside",
+						{
+							"header": "Content Warning",
+							"depth": 1
+						},
+						"Subclasses",
+						{
+							"header": "Freedom Domain (Cleric)",
+							"depth": 1
+						},
+						{
+							"header": "Circle of Spores (Druid)",
+							"depth": 1
+						},
+						{
+							"header": "Faerzress Sorcery (Sorcerer)",
+							"depth": 1
+						},
+						"Species",
+						{
+							"header": "Deep Imaskari",
+							"depth": 1
+						},
+						{
+							"header": "Drider",
+							"depth": 1
+						},
+						{
+							"header": "Illithidkin",
+							"depth": 1
+						},
+						{
+							"header": "Kuo-Toa",
+							"depth": 1
+						},
+						{
+							"header": "Myconid",
+							"depth": 1
+						}
+					]
+				}
+			]
+		}
+	],
+	"bookData": [
+		{
+			"id": "XUA2026UnderdarkOptions2",
+			"source": "XUA2026UnderdarkOptions2",
+			"data": [
+				{
+					"type": "section",
+					"name": "Unearthed Arcana 2026: Underdark Options 2",
+					"page": 1,
+					"entries": [
+						"This playtest document is part of a series of {@i Unearthed Arcana} articles that present material designed for upcoming products. The material here uses the rules in the {@book Player's Handbook|XPHB}.",
+						{
+							"type": "section",
+							"name": "What's Inside",
+							"page": 1,
+							"entries": [
+								"This document presents three new subclasses:",
+								{
+									"type": "list",
+									"items": [
+										"{@class Cleric} ({@class Cleric|XPHB|Freedom Domain|Freedom|XUA2026UnderdarkOptions2})",
+										"{@class Druid} ({@class Druid|XPHB|Circle of Spores|Spores|XUA2026UnderdarkOptions2})",
+										"{@class Sorcerer} ({@class Sorcerer|XPHB|Faerzress Sorcery|Faerzress|XUA2026UnderdarkOptions2})"
+									]
+								},
+								"This document also includes five new species.",
+								{
+									"type": "entries",
+									"name": "Content Warning",
+									"page": 1,
+									"entries": [
+										"This material contains descriptions of body horror and mind control that some readers might find disturbing."
+									],
+									"id": "002"
+								},
+								{
+									"type": "inset",
+									"name": "This Is Playtest Material",
+									"page": 1,
+									"entries": [
+										"This article is presented for playtesting and feedback. The options here are experimental and in draft form. They aren't officially part of the game. Your feedback will help determine whether we adopt it as official.",
+										{
+											"type": "list",
+											"style": "list-hang-notitle",
+											"page": 1,
+											"items": [
+												{
+													"type": "item",
+													"name": "How to Playtest This UA",
+													"entries": [
+														"We invite you to try out this material in play. To play with this material, you may either incorporate it into your campaign or run one or more special playtest sessions. For such a session, you may create an adventure of your own or use a short adventure from a source like {@adventure Dragon Delves|DrDe-BD}."
+													]
+												},
+												{
+													"type": "item",
+													"name": "Power Level",
+													"entries": [
+														"The character options you read here might be more or less powerful than options in the {@book Player's Handbook|XPHB}. If a design survives playtesting, we adjust its power to the desirable level before publication. This means an option could be more or less powerful in its final form."
+													]
+												},
+												{
+													"type": "item",
+													"name": "Feedback",
+													"entries": [
+														"The best way for you to give us feedback on this material is in the survey we'll release on D&D Beyond. If we make this material official, it will be refined based on your feedback, and then it will appear in a D&D book.",
+														"Providing feedback on this document is one way you can help shape the future of D&D!"
+													]
+												}
+											]
+										}
+									],
+									"id": "003"
+								}
+							],
+							"id": "001"
+						},
+						{
+							"type": "section",
+							"name": "Subclasses",
+							"page": 1,
+							"entries": [
+								"This section presents the following subclasses: {@class Cleric|XPHB|Freedom Domain|Freedom|XUA2026UnderdarkOptions2}, {@class Druid|XPHB|Circle of Spores|Spores|XUA2026UnderdarkOptions2}, and {@class Sorcerer|XPHB|Faerzress Sorcery|Faerzress|XUA2026UnderdarkOptions2}.",
+								{
+									"type": "entries",
+									"name": "Freedom Domain (Cleric)",
+									"page": 1,
+									"entries": [
+										"{@i Spread Liberty and Break Chains}",
+										{
+											"type": "statblock",
+											"prop": "subclass",
+											"source": "XUA2026UnderdarkOptions2",
+											"name": "Freedom Domain",
+											"className": "Cleric",
+											"classSource": "XPHB",
+											"page": 1,
+											"shortName": "Freedom",
+											"slotSize": "1000"
+										}
+									],
+									"id": "005"
+								},
+								{
+									"type": "entries",
+									"name": "Circle of Spores (Druid)",
+									"page": 2,
+									"entries": [
+										"{@i Steward the Cycle of Life, Death, and Decay}",
+										{
+											"type": "inset",
+											"name": "Design Notes: Circle of Spores Updates",
+											"page": 2,
+											"entries": [
+												"Here are the main updates in this subclass since its appearance in {@subclass Spores|Druid|PHB|TCE|Tasha's Cauldron of Everything} (2020):",
+												{
+													"type": "list",
+													"style": "list-hang-notitle",
+													"page": 9,
+													"items": [
+														{
+															"type": "item",
+															"name": "Halo of Spores",
+															"entries": [
+																"{@subclassFeature Halo of Spores|Druid|XPHB|Spores|XUA2026UnderdarkOptions2|3|XUA2026UnderdarkOptions2} is an {@variantrule Emanation [Area of Effect]|XPHB|Emanation} that grants {@variantrule telepathy|XPHB}. It also has a lesser effect on creatures that succeed on their {@variantrule saving throw|XPHB|saving throws}, instead of having no effect."
+															]
+														},
+														{
+															"type": "item",
+															"name": "Symbiotic Entity",
+															"entries": [
+																"Empowering your spores with {@subclassFeature Symbiotic Entity|Druid|XPHB|Spores|XUA2026UnderdarkOptions2|3|XUA2026UnderdarkOptions2} uses a {@variantrule Bonus Action|XPHB} (like {@classFeature Wild Shape|Druid|XPHB|2})."
+															]
+														},
+														{
+															"type": "item",
+															"name": "Fungal Infestation",
+															"entries": [
+																"When you raise zombies with {@subclassFeature Fungal Infestation|Druid|XPHB|Spores|XUA2026UnderdarkOptions2|6|XUA2026UnderdarkOptions2}, you can grant them some of your {@variantrule Temporary Hit Points|XPHB} (since you get a lot of those!)."
+															]
+														},
+														{
+															"type": "item",
+															"name": "Explosive Burst",
+															"entries": [
+																"{@subclassFeature Explosive Burst|Druid|XPHB|Spores|XUA2026UnderdarkOptions2|10|XUA2026UnderdarkOptions2} is a new feature (replacing {@subclassFeature Spreading Spores|Druid|PHB|Spores|TCE|10|TCE}) that causes your zombies to explode when they die, spreading spores around them and dealing damage to enemies."
+															]
+														},
+														{
+															"type": "item",
+															"name": "Fungal Body",
+															"entries": [
+																"{@subclassFeature Fungal Body|Druid|XPHB|Spores|XUA2026UnderdarkOptions2|14|XUA2026UnderdarkOptions2} now allows you to tap into the mycelial network you've cultivated to control your body if you have the {@condition Unconscious|XPHB} condition."
+															]
+														}
+													]
+												}
+											],
+											"id": "007"
+										},
+										{
+											"type": "statblock",
+											"prop": "subclass",
+											"source": "XUA2026UnderdarkOptions2",
+											"name": "Circle of Spores",
+											"className": "Druid",
+											"classSource": "XPHB",
+											"page": 2,
+											"shortName": "Spores"
+										}
+									],
+									"id": "006"
+								},
+								{
+									"type": "entries",
+									"name": "Faerzress Sorcery (Sorcerer)",
+									"page": 4,
+									"entries": [
+										"{@i Wield the Weird Radiation of the Underdark.}",
+										{
+											"type": "statblock",
+											"prop": "subclass",
+											"source": "XUA2026UnderdarkOptions2",
+											"name": "Faerzress Sorcery",
+											"className": "Sorcerer",
+											"classSource": "XPHB",
+											"page": 4,
+											"shortName": "Faerzress"
+										}
+									],
+									"id": "008"
+								}
+							],
+							"id": "004"
+						},
+						{
+							"type": "section",
+							"name": "Species",
+							"page": 6,
+							"entries": [
+								"This section presents five new species.",
+								{
+									"type": "entries",
+									"name": "Deep Imaskari",
+									"page": 6,
+									"entries": [
+										{
+											"type": "statblock",
+											"prop": "raceFluff",
+											"source": "XUA2026UnderdarkOptions2",
+											"name": "Deep Imaskari",
+											"page": 6,
+											"data": {
+												"renderCompact": {
+													"isSkipRootName": true
+												}
+											},
+											"slotSize": "200"
+										},
+										{
+											"type": "statblock",
+											"tag": "race",
+											"source": "XUA2026UnderdarkOptions2",
+											"name": "Deep Imaskari",
+											"page": 6,
+											"slotSize": "600"
+										}
+									],
+									"id": "00a"
+								},
+								{
+									"type": "entries",
+									"name": "Drider",
+									"page": 6,
+									"entries": [
+										{
+											"type": "statblock",
+											"prop": "raceFluff",
+											"source": "XUA2026UnderdarkOptions2",
+											"name": "Drider",
+											"page": 6,
+											"data": {
+												"renderCompact": {
+													"isSkipRootName": true
+												}
+											},
+											"slotSize": "200"
+										},
+										{
+											"type": "statblock",
+											"tag": "race",
+											"source": "XUA2026UnderdarkOptions2",
+											"name": "Drider",
+											"page": 6,
+											"slotSize": "600"
+										}
+									],
+									"id": "00b"
+								},
+								{
+									"type": "entries",
+									"name": "Illithidkin",
+									"page": 7,
+									"entries": [
+										{
+											"type": "statblock",
+											"prop": "raceFluff",
+											"source": "XUA2026UnderdarkOptions2",
+											"name": "Illithidkin",
+											"page": 7,
+											"data": {
+												"renderCompact": {
+													"isSkipRootName": true
+												}
+											},
+											"slotSize": "200"
+										},
+										{
+											"type": "statblock",
+											"tag": "race",
+											"source": "XUA2026UnderdarkOptions2",
+											"name": "Illithidkin",
+											"page": 7,
+											"slotSize": "600"
+										}
+									],
+									"id": "00c"
+								},
+								{
+									"type": "entries",
+									"name": "Kuo-Toa",
+									"page": 7,
+									"entries": [
+										{
+											"type": "statblock",
+											"prop": "raceFluff",
+											"source": "XUA2026UnderdarkOptions2",
+											"name": "Kuo-Toa",
+											"page": 7,
+											"data": {
+												"renderCompact": {
+													"isSkipRootName": true
+												}
+											},
+											"slotSize": "600"
+										},
+										{
+											"type": "statblock",
+											"tag": "race",
+											"source": "XUA2026UnderdarkOptions2",
+											"name": "Kuo-Toa",
+											"page": 7
+										}
+									],
+									"id": "00d"
+								},
+								{
+									"type": "entries",
+									"name": "Myconid",
+									"page": 8,
+									"entries": [
+										{
+											"type": "statblock",
+											"prop": "raceFluff",
+											"source": "XUA2026UnderdarkOptions2",
+											"name": "Myconid",
+											"page": 8,
+											"data": {
+												"renderCompact": {
+													"isSkipRootName": true
+												}
+											},
+											"slotSize": "200"
+										},
+										{
+											"type": "statblock",
+											"tag": "race",
+											"source": "XUA2026UnderdarkOptions2",
+											"name": "Myconid",
+											"page": 8,
+											"slotSize": "600"
+										}
+									],
+									"id": "00e"
+								}
+							],
+							"id": "009"
+						}
+					],
+					"id": "000"
+				}
+			]
+		}
+	]
+}
