@@ -197,8 +197,8 @@
 						"Here are the main updates in this subclass since its appearance in {@subclass Spores|Druid|PHB|TCE|Tasha's Cauldron of Everything} (2020):",
 						{
 							"type": "list",
-							"style": "list-hang-notitle",
 							"page": 2,
+							"style": "list-hang-notitle",
 							"items": [
 								{
 									"type": "item",
@@ -309,8 +309,8 @@
 				{
 					"type": "statblock",
 					"tag": "table",
-					"source": "XUA2026UnderdarkOptions2",
 					"name": "Freedom Domain Spells",
+					"source": "XUA2026UnderdarkOptions2",
 					"page": 1,
 					"slotSize": "200"
 				}
@@ -346,8 +346,8 @@
 				{
 					"type": "statblock",
 					"tag": "table",
-					"source": "XUA2026UnderdarkOptions2",
 					"name": "Foremost Freedom",
+					"source": "XUA2026UnderdarkOptions2",
 					"page": 1,
 					"slotSize": "200"
 				}
@@ -452,8 +452,8 @@
 				{
 					"type": "statblock",
 					"tag": "table",
-					"source": "XUA2026UnderdarkOptions2",
 					"name": "Circle of Spores Spells",
+					"source": "XUA2026UnderdarkOptions2",
 					"page": 3,
 					"slotSize": "200"
 				}
@@ -474,8 +474,8 @@
 				{
 					"type": "statblock",
 					"tag": "table",
-					"source": "XUA2026UnderdarkOptions2",
 					"name": "Spore Druid Origins",
+					"source": "XUA2026UnderdarkOptions2",
 					"page": 3,
 					"slotSize": "200"
 				}
@@ -511,8 +511,8 @@
 				"As a {@variantrule Bonus Action|XPHB}, you can expend a use of your {@classFeature Wild Shape|Druid|XPHB|2} feature to waken your spores, rather than for shape-shifting. When you waken your spores, you gain a number of {@variantrule Temporary Hit Points|XPHB} equal to four times your {@class Druid|XPHB} level. This awakening lasts for 10 minutes. It ends early if you dismiss it (no action required), have the {@condition Incapacitated|XPHB} condition, or use this feature again. While your spores are awakened, you gain the following benefits.",
 				{
 					"type": "list",
-					"style": "list-hang-notitle",
 					"page": 3,
+					"style": "list-hang-notitle",
 					"items": [
 						{
 							"type": "item",
@@ -650,8 +650,8 @@
 				{
 					"type": "statblock",
 					"tag": "table",
-					"source": "XUA2026UnderdarkOptions2",
 					"name": "Faerzress Side Effects",
+					"source": "XUA2026UnderdarkOptions2",
 					"page": 4,
 					"slotSize": "200"
 				}
@@ -672,8 +672,8 @@
 				{
 					"type": "statblock",
 					"tag": "table",
-					"source": "XUA2026UnderdarkOptions2",
 					"name": "Faerzress Spells",
+					"source": "XUA2026UnderdarkOptions2",
 					"page": 4,
 					"slotSize": "200"
 				}
@@ -788,8 +788,8 @@
 				"When you use your {@classFeature Innate Sorcery|Sorcerer|XPHB|1|XPHB}, you can turn yourself into pure faerzress energy. While in this form, you retain your general shape, personality, and memories, as well as the ability to speak; any equipment you're wearing or carrying doesn't transform with you, but you can continue using that equipment while in this form. Your game statistics remain the same, apart from the following changes:",
 				{
 					"type": "list",
-					"style": "list-hang-notitle",
 					"page": 5,
+					"style": "list-hang-notitle",
 					"items": [
 						{
 							"type": "item",
@@ -1626,12 +1626,14 @@
 				{
 					"type": "section",
 					"name": "Unearthed Arcana 2026: Underdark Options 2",
+					"id": "000",
 					"page": 1,
 					"entries": [
 						"This playtest document is part of a series of {@i Unearthed Arcana} articles that present material designed for upcoming products. The material here uses the rules in the {@book Player's Handbook|XPHB}.",
 						{
 							"type": "section",
 							"name": "What's Inside",
+							"id": "001",
 							"page": 1,
 							"entries": [
 								"This document presents three new subclasses:",
@@ -1647,22 +1649,23 @@
 								{
 									"type": "entries",
 									"name": "Content Warning",
+									"id": "002",
 									"page": 1,
 									"entries": [
 										"This material contains descriptions of body horror and mind control that some readers might find disturbing."
-									],
-									"id": "002"
+									]
 								},
 								{
 									"type": "inset",
 									"name": "This Is Playtest Material",
+									"id": "003",
 									"page": 1,
 									"entries": [
 										"This article is presented for playtesting and feedback. The options here are experimental and in draft form. They aren't officially part of the game. Your feedback will help determine whether we adopt it as official.",
 										{
 											"type": "list",
-											"style": "list-hang-notitle",
 											"page": 1,
+											"style": "list-hang-notitle",
 											"items": [
 												{
 													"type": "item",
@@ -1688,54 +1691,55 @@
 												}
 											]
 										}
-									],
-									"id": "003"
+									]
 								}
-							],
-							"id": "001"
+							]
 						},
 						{
 							"type": "section",
 							"name": "Subclasses",
+							"id": "004",
 							"page": 1,
 							"entries": [
 								"This section presents the following subclasses: {@class Cleric|XPHB|Freedom Domain|Freedom|XUA2026UnderdarkOptions2}, {@class Druid|XPHB|Circle of Spores|Spores|XUA2026UnderdarkOptions2}, and {@class Sorcerer|XPHB|Faerzress Sorcery|Faerzress|XUA2026UnderdarkOptions2}.",
 								{
 									"type": "entries",
 									"name": "Freedom Domain (Cleric)",
+									"id": "005",
 									"page": 1,
 									"entries": [
 										"{@i Spread Liberty and Break Chains}",
 										{
 											"type": "statblock",
 											"tag": "subclass",
-											"source": "XUA2026UnderdarkOptions2",
 											"name": "Freedom Domain",
+											"shortName": "Freedom",
 											"className": "Cleric",
 											"classSource": "XPHB",
+											"source": "XUA2026UnderdarkOptions2",
 											"page": 1,
-											"shortName": "Freedom",
 											"slotSize": "1000"
 										}
-									],
-									"id": "005"
+									]
 								},
 								{
 									"type": "entries",
 									"name": "Circle of Spores (Druid)",
+									"id": "006",
 									"page": 2,
 									"entries": [
 										"{@i Steward the Cycle of Life, Death, and Decay}",
 										{
 											"type": "inset",
 											"name": "Design Notes: Circle of Spores Updates",
+											"id": "007",
 											"page": 2,
 											"entries": [
 												"Here are the main updates in this subclass since its appearance in {@subclass Spores|Druid|PHB|TCE|Tasha's Cauldron of Everything} (2020):",
 												{
 													"type": "list",
-													"style": "list-hang-notitle",
 													"page": 2,
+													"style": "list-hang-notitle",
 													"items": [
 														{
 															"type": "item",
@@ -1774,199 +1778,195 @@
 														}
 													]
 												}
-											],
-											"id": "007"
+											]
 										},
 										{
 											"type": "statblock",
 											"tag": "subclass",
-											"source": "XUA2026UnderdarkOptions2",
 											"name": "Circle of Spores",
+											"shortName": "Spores",
 											"className": "Druid",
 											"classSource": "XPHB",
-											"page": 2,
-											"shortName": "Spores"
+											"source": "XUA2026UnderdarkOptions2",
+											"page": 2
 										}
-									],
-									"id": "006"
+									]
 								},
 								{
 									"type": "entries",
 									"name": "Faerzress Sorcery (Sorcerer)",
+									"id": "008",
 									"page": 4,
 									"entries": [
 										"{@i Wield the Weird Radiation of the Underdark.}",
 										{
 											"type": "statblock",
 											"tag": "subclass",
-											"source": "XUA2026UnderdarkOptions2",
 											"name": "Faerzress Sorcery",
+											"shortName": "Faerzress",
 											"className": "Sorcerer",
 											"classSource": "XPHB",
-											"page": 4,
-											"shortName": "Faerzress"
+											"source": "XUA2026UnderdarkOptions2",
+											"page": 4
 										}
-									],
-									"id": "008"
+									]
 								}
-							],
-							"id": "004"
+							]
 						},
 						{
 							"type": "section",
 							"name": "Species",
+							"id": "009",
 							"page": 6,
 							"entries": [
 								"This section presents five new species.",
 								{
 									"type": "entries",
 									"name": "Deep Imaskari",
+									"id": "00a",
 									"page": 6,
 									"entries": [
 										{
 											"type": "statblock",
 											"prop": "raceFluff",
-											"source": "XUA2026UnderdarkOptions2",
 											"name": "Deep Imaskari",
+											"source": "XUA2026UnderdarkOptions2",
 											"page": 6,
+											"slotSize": "200",
 											"data": {
 												"renderCompact": {
 													"isSkipRootName": true
 												}
-											},
-											"slotSize": "200"
+											}
 										},
 										{
 											"type": "statblock",
 											"tag": "race",
-											"source": "XUA2026UnderdarkOptions2",
 											"name": "Deep Imaskari",
+											"source": "XUA2026UnderdarkOptions2",
 											"page": 6,
 											"slotSize": "600"
 										}
-									],
-									"id": "00a"
+									]
 								},
 								{
 									"type": "entries",
 									"name": "Drider",
+									"id": "00b",
 									"page": 6,
 									"entries": [
 										{
 											"type": "statblock",
 											"prop": "raceFluff",
-											"source": "XUA2026UnderdarkOptions2",
 											"name": "Drider",
+											"source": "XUA2026UnderdarkOptions2",
 											"page": 6,
+											"slotSize": "200",
 											"data": {
 												"renderCompact": {
 													"isSkipRootName": true
 												}
-											},
-											"slotSize": "200"
+											}
 										},
 										{
 											"type": "statblock",
 											"tag": "race",
-											"source": "XUA2026UnderdarkOptions2",
 											"name": "Drider",
+											"source": "XUA2026UnderdarkOptions2",
 											"page": 6,
 											"slotSize": "600"
 										}
-									],
-									"id": "00b"
+									]
 								},
 								{
 									"type": "entries",
 									"name": "Illithidkin",
+									"id": "00c",
 									"page": 7,
 									"entries": [
 										{
 											"type": "statblock",
 											"prop": "raceFluff",
-											"source": "XUA2026UnderdarkOptions2",
 											"name": "Illithidkin",
+											"source": "XUA2026UnderdarkOptions2",
 											"page": 7,
+											"slotSize": "200",
 											"data": {
 												"renderCompact": {
 													"isSkipRootName": true
 												}
-											},
-											"slotSize": "200"
+											}
 										},
 										{
 											"type": "statblock",
 											"tag": "race",
-											"source": "XUA2026UnderdarkOptions2",
 											"name": "Illithidkin",
+											"source": "XUA2026UnderdarkOptions2",
 											"page": 7,
 											"slotSize": "600"
 										}
-									],
-									"id": "00c"
+									]
 								},
 								{
 									"type": "entries",
 									"name": "Kuo-Toa",
+									"id": "00d",
 									"page": 7,
 									"entries": [
 										{
 											"type": "statblock",
 											"prop": "raceFluff",
-											"source": "XUA2026UnderdarkOptions2",
 											"name": "Kuo-Toa",
+											"source": "XUA2026UnderdarkOptions2",
 											"page": 7,
+											"slotSize": "600",
 											"data": {
 												"renderCompact": {
 													"isSkipRootName": true
 												}
-											},
-											"slotSize": "600"
+											}
 										},
 										{
 											"type": "statblock",
 											"tag": "race",
-											"source": "XUA2026UnderdarkOptions2",
 											"name": "Kuo-Toa",
+											"source": "XUA2026UnderdarkOptions2",
 											"page": 7
 										}
-									],
-									"id": "00d"
+									]
 								},
 								{
 									"type": "entries",
 									"name": "Myconid",
+									"id": "00e",
 									"page": 8,
 									"entries": [
 										{
 											"type": "statblock",
 											"prop": "raceFluff",
-											"source": "XUA2026UnderdarkOptions2",
 											"name": "Myconid",
+											"source": "XUA2026UnderdarkOptions2",
 											"page": 8,
+											"slotSize": "200",
 											"data": {
 												"renderCompact": {
 													"isSkipRootName": true
 												}
-											},
-											"slotSize": "200"
+											}
 										},
 										{
 											"type": "statblock",
 											"tag": "race",
-											"source": "XUA2026UnderdarkOptions2",
 											"name": "Myconid",
+											"source": "XUA2026UnderdarkOptions2",
 											"page": 8,
 											"slotSize": "600"
 										}
-									],
-									"id": "00e"
+									]
 								}
-							],
-							"id": "009"
+							]
 						}
-					],
-					"id": "000"
+					]
 				}
 			]
 		}

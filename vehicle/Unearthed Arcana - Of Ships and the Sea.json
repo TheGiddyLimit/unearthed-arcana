@@ -96,9 +96,9 @@
 			"weapon": [
 				{
 					"name": "Ballistas",
-					"count": 4,
 					"ac": 15,
 					"hp": 50,
+					"count": 4,
 					"entries": [
 						"{@atk rw} {@hit 6} to hit, range 120/480 ft., one target. {@h}16 ({@damage 3d10}) piercing damage."
 					]
@@ -202,18 +202,18 @@
 			"weapon": [
 				{
 					"name": "Ballistas",
-					"count": 4,
 					"ac": 15,
 					"hp": 50,
+					"count": 4,
 					"entries": [
 						"{@atk rw} {@hit 6} to hit, range 120/480 ft., one target. {@h}16 ({@damage 3d10}) piercing damage."
 					]
 				},
 				{
 					"name": "Mangonels",
-					"count": 2,
 					"ac": 15,
 					"hp": 100,
+					"count": 2,
 					"entries": [
 						"{@atk rw} {@hit 5} to hit, range 200/800 ft. (can't hit targets within 60 ft. of it), one target. {@h}27 ({@damage 5d10}) bludgeoning damage."
 					]
@@ -696,18 +696,18 @@
 			"weapon": [
 				{
 					"name": "Ballistas",
-					"count": 2,
 					"ac": 15,
 					"hp": 50,
+					"count": 2,
 					"entries": [
 						"{@atk rw} {@hit 6} to hit, range 120/480 ft., one target. {@h}16 ({@damage 3d10}) piercing damage."
 					]
 				},
 				{
 					"name": "Mangonels",
-					"count": 2,
 					"ac": 15,
 					"hp": 100,
+					"count": 2,
 					"entries": [
 						"{@atk rw} {@hit 5} to hit, range 200/800 ft. (can't hit targets within 60 ft. of it), one target. {@h}27 ({@damage 5d10}) bludgeoning damage."
 					]

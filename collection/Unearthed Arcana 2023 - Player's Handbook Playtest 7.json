@@ -50,15 +50,6 @@
 				"con"
 			],
 			"startingProficiencies": {
-				"armor": [
-					"light",
-					"medium",
-					"shield"
-				],
-				"weapons": [
-					"simple",
-					"martial"
-				],
 				"skills": [
 					{
 						"choose": {
@@ -73,6 +64,15 @@
 							"count": 2
 						}
 					}
+				],
+				"weapons": [
+					"simple",
+					"martial"
+				],
+				"armor": [
+					"light",
+					"medium",
+					"shield"
 				]
 			},
 			"startingEquipment": {
@@ -89,11 +89,11 @@
 					"str": 13
 				},
 				"proficienciesGained": {
-					"armor": [
-						"shield"
-					],
 					"weapons": [
 						"martial"
+					],
+					"armor": [
+						"shield"
 					]
 				}
 			},
@@ -333,16 +333,6 @@
 				}
 			],
 			"startingProficiencies": {
-				"armor": [
-					"light",
-					"medium",
-					"heavy",
-					"shield"
-				],
-				"weapons": [
-					"simple",
-					"martial"
-				],
 				"skills": [
 					{
 						"choose": {
@@ -360,6 +350,16 @@
 							"count": 2
 						}
 					}
+				],
+				"weapons": [
+					"simple",
+					"martial"
+				],
+				"armor": [
+					"light",
+					"medium",
+					"heavy",
+					"shield"
 				]
 			},
 			"startingEquipment": {
@@ -385,13 +385,13 @@
 					]
 				},
 				"proficienciesGained": {
+					"weapons": [
+						"martial"
+					],
 					"armor": [
 						"light",
 						"medium",
 						"shield"
-					],
-					"weapons": [
-						"martial"
 					]
 				}
 			},
@@ -607,9 +607,6 @@
 				}
 			],
 			"startingProficiencies": {
-				"weapons": [
-					"simple"
-				],
 				"skills": [
 					{
 						"choose": {
@@ -624,6 +621,9 @@
 							"count": 2
 						}
 					}
+				],
+				"weapons": [
+					"simple"
 				]
 			},
 			"startingEquipment": {
@@ -1174,12 +1174,6 @@
 				}
 			],
 			"startingProficiencies": {
-				"armor": [
-					"light"
-				],
-				"weapons": [
-					"simple"
-				],
 				"skills": [
 					{
 						"choose": {
@@ -1195,6 +1189,12 @@
 							"count": 2
 						}
 					}
+				],
+				"weapons": [
+					"simple"
+				],
+				"armor": [
+					"light"
 				]
 			},
 			"startingEquipment": {
@@ -1494,9 +1494,6 @@
 				}
 			],
 			"startingProficiencies": {
-				"weapons": [
-					"simple"
-				],
 				"skills": [
 					{
 						"choose": {
@@ -1511,6 +1508,9 @@
 							"count": 2
 						}
 					}
+				],
+				"weapons": [
+					"simple"
 				]
 			},
 			"startingEquipment": {
@@ -9025,9 +9025,9 @@
 				"Here's a list of the game's creature types in alphabetical order:",
 				{
 					"type": "list",
+					"page": 48,
 					"style": "list-no-bullets",
 					"columns": 2,
-					"page": 48,
 					"items": [
 						"Aberration",
 						"Fiend",
@@ -10445,29 +10445,31 @@
 				{
 					"type": "section",
 					"name": "Unearthed Arcana 2023 Player's Handbook Playtest 7",
+					"id": "000",
 					"page": 1,
 					"entries": [
 						"This playtest document is part of a series of {@i Unearthed Arcana} articles that present material designed for the 2024 version of the {@i Player's Handbook}. The material here uses the rules in the 2014 {@book Player's Handbook|PHB}, except where noted.",
 						"After we conclude the public playtest for the {@i Player's Handbook}, {@i Unearthed Arcana} will explore material for the {@i Dungeon Master's Guide} and {@i Monster Manual}.",
 						{
 							"type": "inset",
-							"page": 1,
 							"name": "Learn More on YouTube",
+							"id": "001",
+							"page": 1,
 							"entries": [
 								"To learn more about the design in this article, we invite you to view the videos about it on YouTube ({@link www.youtube.com/DNDWizards})."
-							],
-							"id": "001"
+							]
 						},
 						{
 							"type": "section",
 							"name": "What's Inside",
+							"id": "002",
 							"page": 1,
 							"entries": [
 								"Here are the new and revised elements in this article:",
 								{
 									"type": "list",
-									"style": "list-hang-notitle",
 									"page": 1,
+									"style": "list-hang-notitle",
 									"items": [
 										{
 											"type": "item",
@@ -10509,64 +10511,65 @@
 								},
 								{
 									"type": "inset",
-									"page": 1,
 									"name": "This Is Playtest Material",
+									"id": "003",
+									"page": 1,
 									"entries": [
 										"This article is presented for playtesting and feedback. The options here are experimental and in draft form. They aren't officially part of the game. Your feedback will help determine whether we adopt it as official.",
 										{
 											"type": "entries",
 											"name": "How to Playtest This UA",
+											"id": "004",
 											"page": 1,
 											"entries": [
 												"We invite you to try out this material in play. When you do so, you're welcome to combine this article with the other articles in this series, starting with \"{@loader Character Origins.|collection/Unearthed Arcana 2022 - Character Origins.json|prerelease}\"",
 												"If you do combine this article with any previous one, use only the rules glossary found here. In this {@i Unearthed Arcana} series, the rules glossary of each article supersedes the glossary of any previous article.",
 												"To play with this material, you may either incorporate it into your campaign or run one or more special playtest sessions. For such a session, you may create an adventure of your own or use a short adventure from a source like {@adventure Keys from the Golden Vault|KftGV}, {@adventure Journeys through the Radiant Citadel|JttRC}, or {@adventure Candlekeep Mysteries|CM}."
-											],
-											"id": "004"
+											]
 										},
 										{
 											"type": "entries",
 											"name": "Power Level",
+											"id": "005",
 											"page": 1,
 											"entries": [
 												"The character options you read here might be more or less powerful than options in the 2014 {@book Player's Handbook|PHB}. If a design survives playtesting, we adjust its power to the desirable level before publication. This means an option could be more or less powerful in its final form."
-											],
-											"id": "005"
+											]
 										},
 										{
 											"type": "entries",
 											"name": "Feedback",
+											"id": "006",
 											"page": 1,
 											"entries": [
 												"The best way for you to give us feedback on this material is in the survey we'll release on D&D Beyond. If we make this material official, it will be refined based on your feedback, and then it will appear in a D&D book.",
 												"Providing feedback on this document is one way you can help shape the next generation of D&D!"
-											],
-											"id": "006"
+											]
 										}
-									],
-									"id": "003"
+									]
 								}
-							],
-							"id": "002"
+							]
 						}
-					],
-					"id": "000"
+					]
 				},
 				{
 					"type": "section",
 					"name": "Classes",
+					"id": "007",
 					"page": 1,
 					"entries": [
 						"{@note For full details of all classes including tables, multiclassing, equipment, core stats and fluff, please see {@filter the classes page|classes|source=XUA2023PlayersHandbookP7}.}",
 						{
 							"type": "section",
 							"name": "Barbarian",
+							"id": "008",
 							"page": 1,
 							"entries": [
 								{
 									"type": "inset",
-									"page": 2,
 									"name": "Design Note: Barbarian Updates",
+									"id": "009",
+									"page": 2,
 									"entries": [
 										"Here are the main updates in this class since its last playtest version:",
 										{
@@ -10647,32 +10650,34 @@
 												}
 											]
 										}
-									],
-									"id": "009"
+									]
 								},
 								{
 									"type": "statblock",
 									"tag": "class",
-									"source": "XUA2023PlayersHandbookP7",
 									"name": "Barbarian",
+									"source": "XUA2023PlayersHandbookP7",
 									"page": 1,
 									"collapsed": true
 								},
 								{
 									"type": "entries",
 									"name": "Barbarian Subclasses",
+									"id": "00a",
 									"page": 5,
 									"entries": [
 										"A Barbarian subclass is a specialization that grants you special abilities at certain levels, as specified in the subclass. This section presents the following subclasses: {@class Barbarian|XUA2023PlayersHandbookP7|Path of the Berserker|Berserker|XUA2023PlayersHandbookP7}, {@class Barbarian|XUA2023PlayersHandbookP7|Path of the Wild Heart|Wild Heart|XUA2023PlayersHandbookP7}, {@class Barbarian|XUA2023PlayersHandbookP7|Path of the World Tree|World Tree|XUA2023PlayersHandbookP7}, and {@class Barbarian|XUA2023PlayersHandbookP7|Path of the Zealot|Zealot|XUA2023PlayersHandbookP7}.",
 										{
 											"type": "entries",
 											"name": "Path of the Berserker",
+											"id": "00b",
 											"page": 5,
 											"entries": [
 												{
 													"type": "inset",
-													"page": 5,
 													"name": "Design Note: Path of the Berserker Updates",
+													"id": "00c",
+													"page": 5,
 													"entries": [
 														"Here are the main updates in this subclass since its last playtest version:",
 														{
@@ -10689,32 +10694,32 @@
 																}
 															]
 														}
-													],
-													"id": "00c"
+													]
 												},
 												{
 													"type": "statblock",
 													"prop": "subclass",
-													"source": "XUA2023PlayersHandbookP7",
 													"name": "Path of the Berserker",
+													"shortName": "Berserker",
 													"className": "Barbarian",
 													"classSource": "XUA2023PlayersHandbookP7",
+													"source": "XUA2023PlayersHandbookP7",
 													"page": 5,
-													"collapsed": true,
-													"shortName": "Berserker"
+													"collapsed": true
 												}
-											],
-											"id": "00b"
+											]
 										},
 										{
 											"type": "entries",
 											"name": "Path of the Wild Heart",
+											"id": "00d",
 											"page": 5,
 											"entries": [
 												{
 													"type": "inset",
-													"page": 6,
 													"name": "Design Note: Path of the Wild Heart Updates",
+													"id": "00e",
+													"page": 6,
 													"entries": [
 														"Here are the main updates to the Path of the Wild Heart, formerly called the Path of the Totem Warrior, since the 2014 {@book Player's Handbook|PHB}:",
 														{
@@ -10758,60 +10763,60 @@
 																}
 															]
 														}
-													],
-													"id": "00e"
+													]
 												},
 												{
 													"type": "statblock",
 													"prop": "subclass",
-													"source": "XUA2023PlayersHandbookP7",
 													"name": "Path of the Wild Heart",
+													"shortName": "Wild Heart",
 													"className": "Barbarian",
 													"classSource": "XUA2023PlayersHandbookP7",
+													"source": "XUA2023PlayersHandbookP7",
 													"page": 5,
-													"collapsed": true,
-													"shortName": "Wild Heart"
+													"collapsed": true
 												}
-											],
-											"id": "00d"
+											]
 										},
 										{
 											"type": "entries",
 											"name": "Path of the World Tree",
+											"id": "00f",
 											"page": 6,
 											"entries": [
 												{
 													"type": "statblock",
 													"prop": "subclass",
-													"source": "XUA2023PlayersHandbookP7",
 													"name": "Path of the World Tree",
+													"shortName": "World Tree",
 													"className": "Barbarian",
 													"classSource": "XUA2023PlayersHandbookP7",
+													"source": "XUA2023PlayersHandbookP7",
 													"page": 6,
-													"collapsed": true,
-													"shortName": "World Tree"
+													"collapsed": true
 												},
 												{
 													"type": "inset",
-													"page": 7,
 													"name": "Design Note: Voluntarily Failing s Save",
+													"id": "010",
+													"page": 7,
 													"entries": [
 														"The 2024 {@i Player's Handbook} will clarify that any creature can voluntarily fail any saving throw."
-													],
-													"id": "010"
+													]
 												}
-											],
-											"id": "00f"
+											]
 										},
 										{
 											"type": "entries",
 											"name": "Path of the Zealot",
+											"id": "011",
 											"page": 7,
 											"entries": [
 												{
 													"type": "inset",
-													"page": 7,
 													"name": "Design Note: Path of the Zealot Updates",
+													"id": "012",
+													"page": 7,
 													"entries": [
 														"Here are the main updates in this subclass since its appearance in {@book Xanathar's Guide to Everything|XGE}:",
 														{
@@ -10852,38 +10857,36 @@
 																}
 															]
 														}
-													],
-													"id": "012"
+													]
 												},
 												{
 													"type": "statblock",
 													"prop": "subclass",
-													"source": "XUA2023PlayersHandbookP7",
 													"name": "Path of the Zealot",
+													"shortName": "Zealot",
 													"className": "Barbarian",
 													"classSource": "XUA2023PlayersHandbookP7",
+													"source": "XUA2023PlayersHandbookP7",
 													"page": 7,
-													"collapsed": true,
-													"shortName": "Zealot"
+													"collapsed": true
 												}
-											],
-											"id": "011"
+											]
 										}
-									],
-									"id": "00a"
+									]
 								}
-							],
-							"id": "008"
+							]
 						},
 						{
 							"type": "section",
 							"name": "Fighter",
+							"id": "013",
 							"page": 9,
 							"entries": [
 								{
 									"type": "inset",
-									"page": 9,
 									"name": "Design Note: Fighter Updates",
+									"id": "014",
+									"page": 9,
 									"entries": [
 										"Here are the main updates in this class since its last playtest version:",
 										{
@@ -10988,32 +10991,34 @@
 												}
 											]
 										}
-									],
-									"id": "014"
+									]
 								},
 								{
 									"type": "statblock",
 									"tag": "class",
-									"source": "XUA2023PlayersHandbookP7",
 									"name": "Fighter",
+									"source": "XUA2023PlayersHandbookP7",
 									"page": 9,
 									"collapsed": true
 								},
 								{
 									"type": "entries",
 									"name": "Fighter Subclasses",
+									"id": "015",
 									"page": 11,
 									"entries": [
 										"A Fighter subclass is a specialization that grants you special abilities at certain levels, as specified in the subclass. This section presents the following subclasses: {@class Fighter|XUA2023PlayersHandbookP7|Battle Master|Battle Master|XUA2023PlayersHandbookP7}, {@class Fighter|XUA2023PlayersHandbookP7|Brawler|Brawler|XUA2023PlayersHandbookP7}, {@class Fighter|XUA2023PlayersHandbookP7|Champion|Champion|XUA2023PlayersHandbookP7}, and {@class Fighter|XUA2023PlayersHandbookP7|Eldritch Knight|Eldritch Knight|XUA2023PlayersHandbookP7}.",
 										{
 											"type": "entries",
 											"name": "Battle Master",
+											"id": "016",
 											"page": 12,
 											"entries": [
 												{
 													"type": "inset",
-													"page": 11,
 													"name": "Design Note: Battle Master Updates",
+													"id": "017",
+													"page": 11,
 													"entries": [
 														"Here are the main updates in this subclass since the 2014 {@book Player's Handbook|PHB}:",
 														{
@@ -11046,33 +11051,33 @@
 																}
 															]
 														}
-													],
-													"id": "017"
+													]
 												},
 												{
 													"type": "statblock",
 													"prop": "subclass",
-													"source": "XUA2023PlayersHandbookP7",
 													"name": "Battle Master",
+													"shortName": "Battle Master",
 													"className": "Fighter",
 													"classSource": "XUA2023PlayersHandbookP7",
+													"source": "XUA2023PlayersHandbookP7",
 													"page": 12,
-													"collapsed": true,
-													"shortName": "Battle Master"
+													"collapsed": true
 												}
-											],
-											"id": "016"
+											]
 										},
 										{
 											"type": "entries",
 											"name": "Maneuvers Options",
+											"id": "018",
 											"page": 12,
 											"entries": [
 												"The Maneuvers are presented here in alphabetical order.",
 												{
 													"type": "inset",
-													"page": 12,
 													"name": "Design Note: Maneuver Updates",
+													"id": "019",
+													"page": 12,
 													"entries": [
 														"Here are the main updates to the Maneuvers:",
 														{
@@ -11169,209 +11174,209 @@
 																}
 															]
 														}
-													],
-													"id": "019"
+													]
 												},
 												{
 													"type": "statblock",
 													"tag": "optfeature",
-													"source": "XUA2023PlayersHandbookP7",
 													"name": "Ambush",
+													"source": "XUA2023PlayersHandbookP7",
 													"page": 13,
 													"collapsed": true
 												},
 												{
 													"type": "statblock",
 													"tag": "optfeature",
-													"source": "XUA2023PlayersHandbookP7",
 													"name": "Bait and Switch",
+													"source": "XUA2023PlayersHandbookP7",
 													"page": 13,
 													"collapsed": true
 												},
 												{
 													"type": "statblock",
 													"tag": "optfeature",
-													"source": "XUA2023PlayersHandbookP7",
 													"name": "Commander's Strike",
+													"source": "XUA2023PlayersHandbookP7",
 													"page": 13,
 													"collapsed": true
 												},
 												{
 													"type": "statblock",
 													"tag": "optfeature",
-													"source": "XUA2023PlayersHandbookP7",
 													"name": "Commanding Presence",
+													"source": "XUA2023PlayersHandbookP7",
 													"page": 13,
 													"collapsed": true
 												},
 												{
 													"type": "statblock",
 													"tag": "optfeature",
-													"source": "XUA2023PlayersHandbookP7",
 													"name": "Disarming Attack",
+													"source": "XUA2023PlayersHandbookP7",
 													"page": 13,
 													"collapsed": true
 												},
 												{
 													"type": "statblock",
 													"tag": "optfeature",
-													"source": "XUA2023PlayersHandbookP7",
 													"name": "Distracting Strike",
+													"source": "XUA2023PlayersHandbookP7",
 													"page": 13,
 													"collapsed": true
 												},
 												{
 													"type": "statblock",
 													"tag": "optfeature",
-													"source": "XUA2023PlayersHandbookP7",
 													"name": "Evasive Footwork",
+													"source": "XUA2023PlayersHandbookP7",
 													"page": 13,
 													"collapsed": true
 												},
 												{
 													"type": "statblock",
 													"tag": "optfeature",
-													"source": "XUA2023PlayersHandbookP7",
 													"name": "Feinting Attack",
+													"source": "XUA2023PlayersHandbookP7",
 													"page": 13,
 													"collapsed": true
 												},
 												{
 													"type": "statblock",
 													"tag": "optfeature",
-													"source": "XUA2023PlayersHandbookP7",
 													"name": "Goading Attack",
+													"source": "XUA2023PlayersHandbookP7",
 													"page": 13,
 													"collapsed": true
 												},
 												{
 													"type": "statblock",
 													"tag": "optfeature",
-													"source": "XUA2023PlayersHandbookP7",
 													"name": "Lunging Attack",
+													"source": "XUA2023PlayersHandbookP7",
 													"page": 13,
 													"collapsed": true
 												},
 												{
 													"type": "statblock",
 													"tag": "optfeature",
-													"source": "XUA2023PlayersHandbookP7",
 													"name": "Maneuvering Attack",
+													"source": "XUA2023PlayersHandbookP7",
 													"page": 13,
 													"collapsed": true
 												},
 												{
 													"type": "statblock",
 													"tag": "optfeature",
-													"source": "XUA2023PlayersHandbookP7",
 													"name": "Menacing Attack",
+													"source": "XUA2023PlayersHandbookP7",
 													"page": 13,
 													"collapsed": true
 												},
 												{
 													"type": "statblock",
 													"tag": "optfeature",
-													"source": "XUA2023PlayersHandbookP7",
 													"name": "Parry",
+													"source": "XUA2023PlayersHandbookP7",
 													"page": 13,
 													"collapsed": true
 												},
 												{
 													"type": "statblock",
 													"tag": "optfeature",
-													"source": "XUA2023PlayersHandbookP7",
 													"name": "Precision Attack",
+													"source": "XUA2023PlayersHandbookP7",
 													"page": 14,
 													"collapsed": true
 												},
 												{
 													"type": "statblock",
 													"tag": "optfeature",
-													"source": "XUA2023PlayersHandbookP7",
 													"name": "Pushing Attack",
+													"source": "XUA2023PlayersHandbookP7",
 													"page": 14,
 													"collapsed": true
 												},
 												{
 													"type": "statblock",
 													"tag": "optfeature",
-													"source": "XUA2023PlayersHandbookP7",
 													"name": "Rally",
+													"source": "XUA2023PlayersHandbookP7",
 													"page": 14,
 													"collapsed": true
 												},
 												{
 													"type": "statblock",
 													"tag": "optfeature",
-													"source": "XUA2023PlayersHandbookP7",
 													"name": "Riposte",
+													"source": "XUA2023PlayersHandbookP7",
 													"page": 14,
 													"collapsed": true
 												},
 												{
 													"type": "statblock",
 													"tag": "optfeature",
-													"source": "XUA2023PlayersHandbookP7",
 													"name": "Sweeping Attack",
+													"source": "XUA2023PlayersHandbookP7",
 													"page": 14,
 													"collapsed": true
 												},
 												{
 													"type": "statblock",
 													"tag": "optfeature",
-													"source": "XUA2023PlayersHandbookP7",
 													"name": "Tactical Assessment",
+													"source": "XUA2023PlayersHandbookP7",
 													"page": 14,
 													"collapsed": true
 												},
 												{
 													"type": "statblock",
 													"tag": "optfeature",
-													"source": "XUA2023PlayersHandbookP7",
 													"name": "Trip Attack",
+													"source": "XUA2023PlayersHandbookP7",
 													"page": 14,
 													"collapsed": true
 												}
-											],
-											"id": "018"
+											]
 										},
 										{
 											"type": "entries",
 											"name": "Brawler",
+											"id": "01a",
 											"page": 14,
 											"entries": [
 												{
 													"type": "inset",
-													"page": 14,
 													"name": "Design Note: Magic Items for Unarmed Strikes and Improvised Weapons",
+													"id": "01b",
+													"page": 14,
 													"entries": [
 														"The 2024 Dungeon Master's Guide will include magic items that enhance {@variantrule Unarmed Strike|XUA2023PlayersHandbookP7|Unarmed Strikes} and Improvised Weapons. These items will support the Monk, Brawler Fighter, and College of Dance Bard, along with other characters who rely on {@variantrule Unarmed Strike|XUA2023PlayersHandbookP7|Unarmed Strikes} or Improvised Weapons."
-													],
-													"id": "01b"
+													]
 												},
 												{
 													"type": "statblock",
 													"prop": "subclass",
-													"source": "XUA2023PlayersHandbookP7",
 													"name": "Brawler",
+													"shortName": "Brawler",
 													"className": "Fighter",
 													"classSource": "XUA2023PlayersHandbookP7",
+													"source": "XUA2023PlayersHandbookP7",
 													"page": 14,
-													"collapsed": true,
-													"shortName": "Brawler"
+													"collapsed": true
 												}
-											],
-											"id": "01a"
+											]
 										},
 										{
 											"type": "entries",
 											"name": "Champion",
+											"id": "01c",
 											"page": 15,
 											"entries": [
 												{
 													"type": "inset",
-													"page": 15,
 													"name": "Design Note: Champion Updates",
+													"id": "01d",
+													"page": 15,
 													"entries": [
 														"Here are the main updates in this subclass since its last playtest version:",
 														{
@@ -11396,32 +11401,32 @@
 																}
 															]
 														}
-													],
-													"id": "01d"
+													]
 												},
 												{
 													"type": "statblock",
 													"prop": "subclass",
-													"source": "XUA2023PlayersHandbookP7",
 													"name": "Champion",
+													"shortName": "Champion",
 													"className": "Fighter",
 													"classSource": "XUA2023PlayersHandbookP7",
+													"source": "XUA2023PlayersHandbookP7",
 													"page": 15,
-													"collapsed": true,
-													"shortName": "Champion"
+													"collapsed": true
 												}
-											],
-											"id": "01c"
+											]
 										},
 										{
 											"type": "entries",
 											"name": "Eldritch Knight",
+											"id": "01e",
 											"page": 15,
 											"entries": [
 												{
 													"type": "inset",
-													"page": 15,
 													"name": "Design Note: Eldritch Knight Updates",
+													"id": "01f",
+													"page": 15,
 													"entries": [
 														"Here are the main updates in this subclass since the 2014 {@book Player's Handbook|PHB}:",
 														{
@@ -11454,38 +11459,36 @@
 																}
 															]
 														}
-													],
-													"id": "01f"
+													]
 												},
 												{
 													"type": "statblock",
 													"prop": "subclass",
-													"source": "XUA2023PlayersHandbookP7",
 													"name": "Eldritch Knight",
+													"shortName": "Eldritch Knight",
 													"className": "Fighter",
 													"classSource": "XUA2023PlayersHandbookP7",
+													"source": "XUA2023PlayersHandbookP7",
 													"page": 15,
-													"collapsed": true,
-													"shortName": "Eldritch Knight"
+													"collapsed": true
 												}
-											],
-											"id": "01e"
+											]
 										}
-									],
-									"id": "015"
+									]
 								}
-							],
-							"id": "013"
+							]
 						},
 						{
 							"type": "section",
 							"name": "Sorcerer",
+							"id": "020",
 							"page": 18,
 							"entries": [
 								{
 									"type": "inset",
-									"page": 18,
 									"name": "Design Note: Sorcerer Updates",
+									"id": "021",
+									"page": 18,
 									"entries": [
 										"Here are the main updates in this class since its last playtest version:",
 										{
@@ -11566,30 +11569,32 @@
 												}
 											]
 										}
-									],
-									"id": "021"
+									]
 								},
 								{
 									"type": "statblock",
 									"tag": "class",
-									"source": "XUA2023PlayersHandbookP7",
 									"name": "Sorcerer",
+									"source": "XUA2023PlayersHandbookP7",
 									"page": 18,
 									"collapsed": true
 								},
 								{
 									"type": "entries",
+									"id": "022",
 									"entries": [
 										{
 											"type": "entries",
 											"name": "Metamagic Options",
+											"id": "023",
 											"page": 21,
 											"entries": [
 												"The following options are available to your Metamagic features. The options are presented in alphabetical order.",
 												{
 													"type": "inset",
-													"page": 21,
 													"name": "Design Note: Metamagic Updates",
+													"id": "024",
+													"page": 21,
 													"entries": [
 														"Here are the main updates in the Metamagic options since their last playtest version.",
 														{
@@ -11630,110 +11635,110 @@
 																}
 															]
 														}
-													],
-													"id": "024"
+													]
 												},
 												{
 													"type": "statblock",
 													"tag": "optfeature",
-													"source": "XUA2023PlayersHandbookP7",
 													"name": "Careful Spell",
+													"source": "XUA2023PlayersHandbookP7",
 													"page": 21,
 													"collapsed": true
 												},
 												{
 													"type": "statblock",
 													"tag": "optfeature",
-													"source": "XUA2023PlayersHandbookP7",
 													"name": "Distant Spell",
+													"source": "XUA2023PlayersHandbookP7",
 													"page": 21,
 													"collapsed": true
 												},
 												{
 													"type": "statblock",
 													"tag": "optfeature",
-													"source": "XUA2023PlayersHandbookP7",
 													"name": "Empowered Spell",
+													"source": "XUA2023PlayersHandbookP7",
 													"page": 21,
 													"collapsed": true
 												},
 												{
 													"type": "statblock",
 													"tag": "optfeature",
-													"source": "XUA2023PlayersHandbookP7",
 													"name": "Extended Spell",
+													"source": "XUA2023PlayersHandbookP7",
 													"page": 22,
 													"collapsed": true
 												},
 												{
 													"type": "statblock",
 													"tag": "optfeature",
-													"source": "XUA2023PlayersHandbookP7",
 													"name": "Heightened Spell",
+													"source": "XUA2023PlayersHandbookP7",
 													"page": 22,
 													"collapsed": true
 												},
 												{
 													"type": "statblock",
 													"tag": "optfeature",
-													"source": "XUA2023PlayersHandbookP7",
 													"name": "Quickened Spell",
+													"source": "XUA2023PlayersHandbookP7",
 													"page": 22,
 													"collapsed": true
 												},
 												{
 													"type": "statblock",
 													"tag": "optfeature",
-													"source": "XUA2023PlayersHandbookP7",
 													"name": "Seeking Spell",
+													"source": "XUA2023PlayersHandbookP7",
 													"page": 22,
 													"collapsed": true
 												},
 												{
 													"type": "statblock",
 													"tag": "optfeature",
-													"source": "XUA2023PlayersHandbookP7",
 													"name": "Subtle Spell",
+													"source": "XUA2023PlayersHandbookP7",
 													"page": 22,
 													"collapsed": true
 												},
 												{
 													"type": "statblock",
 													"tag": "optfeature",
-													"source": "XUA2023PlayersHandbookP7",
 													"name": "Transmuted Spell",
+													"source": "XUA2023PlayersHandbookP7",
 													"page": 22,
 													"collapsed": true
 												},
 												{
 													"type": "statblock",
 													"tag": "optfeature",
-													"source": "XUA2023PlayersHandbookP7",
 													"name": "Twinned Spell",
+													"source": "XUA2023PlayersHandbookP7",
 													"page": 22,
 													"collapsed": true
 												}
-											],
-											"id": "023"
+											]
 										}
-									],
-									"id": "022"
+									]
 								},
 								{
 									"type": "entries",
 									"name": "Sorcerer Subclasses",
+									"id": "025",
 									"page": 22,
 									"entries": [
 										"A Sorcerer subclass is a specialization that grants you special abilities at certain Sorcerer levels, as specified in the subclass. This section presents the following subclasses: {@class Sorcerer|XUA2023PlayersHandbookP7|Draconic Sorcery|Draconic|XUA2023PlayersHandbookP7} and {@class Sorcerer|XUA2023PlayersHandbookP7|Wild Magic Sorcery|Wild|XUA2023PlayersHandbookP7}. See {@book Tasha's Cauldron of Everything|TCE} for {@class Sorcerer|XUA2023PlayersHandbookP7|Aberrant Sorcery|Aberrant|XUA2023PlayersHandbookP7} (aka {@class Sorcerer|PHB|Aberrant Mind|Aberrant Mind|TCE}) and {@class Sorcerer|XUA2023PlayersHandbookP7|Clockwork Sorcery|Clockwork|XUA2023PlayersHandbookP7} (aka {@class Sorcerer|PHB|Clockwork Soul|Clockwork Soul|TCE}).",
 										{
 											"type": "entries",
 											"name": "Draconic Sorcery",
+											"id": "026",
 											"page": 22,
 											"entries": [
 												{
 													"type": "inset",
-													"page": 22,
 													"name": "Design Note: Draconic Sorcery Updates",
+													"id": "027",
+													"page": 22,
 													"entries": [
 														"Here are the main updates in this subclass since its last playtest appearance:",
 														{
@@ -11766,33 +11771,33 @@
 																}
 															]
 														}
-													],
-													"id": "027"
+													]
 												},
 												{
 													"type": "statblock",
 													"prop": "subclass",
-													"source": "XUA2023PlayersHandbookP7",
 													"name": "Draconic Sorcery",
+													"shortName": "Draconic",
+													"displayName": "Draconic Sorcery",
 													"className": "Sorcerer",
 													"classSource": "XUA2023PlayersHandbookP7",
+													"source": "XUA2023PlayersHandbookP7",
 													"page": 22,
-													"collapsed": true,
-													"displayName": "Draconic Sorcery",
-													"shortName": "Draconic"
+													"collapsed": true
 												}
-											],
-											"id": "026"
+											]
 										},
 										{
 											"type": "entries",
 											"name": "Wild Magic Sorcery",
+											"id": "028",
 											"page": 23,
 											"entries": [
 												{
 													"type": "inset",
-													"page": 23,
 													"name": "Design Note: Wild Magic Sorcery Updates",
+													"id": "029",
+													"page": 23,
 													"entries": [
 														"Here are the main updates in this subclass since the 2014 {@book Player's Handbook|PHB}:",
 														{
@@ -11833,69 +11838,67 @@
 																}
 															]
 														}
-													],
-													"id": "029"
+													]
 												},
 												{
 													"type": "statblock",
 													"prop": "subclass",
-													"source": "XUA2023PlayersHandbookP7",
 													"name": "Wild Magic Sorcery",
+													"shortName": "Wild",
+													"displayName": "Wild Magic Sorcery",
 													"className": "Sorcerer",
 													"classSource": "XUA2023PlayersHandbookP7",
+													"source": "XUA2023PlayersHandbookP7",
 													"page": 23,
-													"collapsed": true,
-													"displayName": "Wild Magic Sorcery",
-													"shortName": "Wild"
+													"collapsed": true
 												}
-											],
-											"id": "028"
+											]
 										},
 										{
 											"type": "entries",
 											"name": "Aberrant & Clockwork Sorcery",
+											"id": "02a",
 											"entries": [
 												"{@note See {@book Tasha's Cauldron of Everything|TCE} for {@class Sorcerer|XUA2023PlayersHandbookP7|Aberrant Sorcery|Aberrant|XUA2023PlayersHandbookP7} (aka {@class Sorcerer|PHB|Aberrant Mind|Aberrant Mind|TCE}) and {@class Sorcerer|XUA2023PlayersHandbookP7|Clockwork Sorcery|Clockwork|XUA2023PlayersHandbookP7} (aka {@class Sorcerer|PHB|Clockwork Soul|Clockwork Soul|TCE}).}",
 												{
 													"type": "statblock",
 													"prop": "subclass",
-													"source": "XUA2023PlayersHandbookP7",
 													"name": "Aberrant Sorcery",
+													"shortName": "Aberrant",
+													"displayName": "Aberrant Sorcery",
 													"className": "Sorcerer",
 													"classSource": "XUA2023PlayersHandbookP7",
-													"collapsed": true,
-													"displayName": "Aberrant Sorcery",
-													"shortName": "Aberrant"
+													"source": "XUA2023PlayersHandbookP7",
+													"collapsed": true
 												},
 												{
 													"type": "statblock",
 													"prop": "subclass",
-													"source": "XUA2023PlayersHandbookP7",
 													"name": "Clockwork Sorcery",
+													"shortName": "Clockwork",
+													"displayName": "Clockwork Sorcery",
 													"className": "Sorcerer",
 													"classSource": "XUA2023PlayersHandbookP7",
-													"collapsed": true,
-													"displayName": "Clockwork Sorcery",
-													"shortName": "Clockwork"
+													"source": "XUA2023PlayersHandbookP7",
+													"collapsed": true
 												}
-											],
-											"id": "02a"
+											]
 										}
-									],
-									"id": "025"
+									]
 								}
-							],
-							"id": "020"
+							]
 						},
 						{
 							"type": "section",
 							"name": "Warlock",
+							"id": "02b",
 							"page": 25,
 							"entries": [
 								{
 									"type": "inset",
-									"page": 25,
 									"name": "Design Note: Warlock Updates",
+									"id": "02c",
+									"page": 25,
 									"entries": [
 										"Here are the main updates in this class since its last playtest version:",
 										{
@@ -11969,30 +11972,32 @@
 												}
 											]
 										}
-									],
-									"id": "02c"
+									]
 								},
 								{
 									"type": "statblock",
 									"tag": "class",
-									"source": "XUA2023PlayersHandbookP7",
 									"name": "Warlock",
+									"source": "XUA2023PlayersHandbookP7",
 									"page": 25,
 									"collapsed": true
 								},
 								{
 									"type": "entries",
+									"id": "02d",
 									"entries": [
 										{
 											"type": "entries",
 											"name": "Eldritch Invocation Options",
+											"id": "02e",
 											"page": 28,
 											"entries": [
 												"The following options are available to your Eldritch Invocations feature. The options are presented in alphabetical order.",
 												{
 													"type": "inset",
-													"page": 28,
 													"name": "Design Note: Eldritch Invocation Updates",
+													"id": "02f",
+													"page": 28,
 													"entries": [
 														"Here's a summary of the main changes to the invocation options since they appeared in \"{@loader Player's Handbook Playtest 5|collection/Unearthed Arcana 2023 - Player's Handbook Playtest 5.json|prerelease}\":",
 														{
@@ -12193,246 +12198,246 @@
 																}
 															]
 														}
-													],
-													"id": "02f"
+													]
 												},
 												{
 													"type": "statblock",
 													"tag": "optfeature",
-													"source": "XUA2023PlayersHandbookP7",
 													"name": "Agonizing Blast",
+													"source": "XUA2023PlayersHandbookP7",
 													"page": 29,
 													"collapsed": true
 												},
 												{
 													"type": "statblock",
 													"tag": "optfeature",
-													"source": "XUA2023PlayersHandbookP7",
 													"name": "Armor of Shadows",
+													"source": "XUA2023PlayersHandbookP7",
 													"page": 29,
 													"collapsed": true
 												},
 												{
 													"type": "statblock",
 													"tag": "optfeature",
-													"source": "XUA2023PlayersHandbookP7",
 													"name": "Ascendant Step",
+													"source": "XUA2023PlayersHandbookP7",
 													"page": 29,
 													"collapsed": true
 												},
 												{
 													"type": "statblock",
 													"tag": "optfeature",
-													"source": "XUA2023PlayersHandbookP7",
 													"name": "Devil's Sight",
+													"source": "XUA2023PlayersHandbookP7",
 													"page": 29,
 													"collapsed": true
 												},
 												{
 													"type": "statblock",
 													"tag": "optfeature",
-													"source": "XUA2023PlayersHandbookP7",
 													"name": "Eldritch Mind",
+													"source": "XUA2023PlayersHandbookP7",
 													"page": 29,
 													"collapsed": true
 												},
 												{
 													"type": "statblock",
 													"tag": "optfeature",
-													"source": "XUA2023PlayersHandbookP7",
 													"name": "Eldritch Smite",
+													"source": "XUA2023PlayersHandbookP7",
 													"page": 29,
 													"collapsed": true
 												},
 												{
 													"type": "statblock",
 													"tag": "optfeature",
-													"source": "XUA2023PlayersHandbookP7",
 													"name": "Eldritch Spear",
+													"source": "XUA2023PlayersHandbookP7",
 													"page": 29,
 													"collapsed": true
 												},
 												{
 													"type": "statblock",
 													"tag": "optfeature",
-													"source": "XUA2023PlayersHandbookP7",
 													"name": "Fiendish Vigor",
+													"source": "XUA2023PlayersHandbookP7",
 													"page": 29,
 													"collapsed": true
 												},
 												{
 													"type": "statblock",
 													"tag": "optfeature",
-													"source": "XUA2023PlayersHandbookP7",
 													"name": "Gaze of Two Minds",
+													"source": "XUA2023PlayersHandbookP7",
 													"page": 29,
 													"collapsed": true
 												},
 												{
 													"type": "statblock",
 													"tag": "optfeature",
-													"source": "XUA2023PlayersHandbookP7",
 													"name": "Gift of the Depths",
+													"source": "XUA2023PlayersHandbookP7",
 													"page": 29,
 													"collapsed": true
 												},
 												{
 													"type": "statblock",
 													"tag": "optfeature",
-													"source": "XUA2023PlayersHandbookP7",
 													"name": "Gift of the Protectors",
+													"source": "XUA2023PlayersHandbookP7",
 													"page": 29,
 													"collapsed": true
 												},
 												{
 													"type": "statblock",
 													"tag": "optfeature",
-													"source": "XUA2023PlayersHandbookP7",
 													"name": "Investment of the Chain Master",
+													"source": "XUA2023PlayersHandbookP7",
 													"page": 30,
 													"collapsed": true
 												},
 												{
 													"type": "statblock",
 													"tag": "optfeature",
-													"source": "XUA2023PlayersHandbookP7",
 													"name": "Lessons of the First Ones",
+													"source": "XUA2023PlayersHandbookP7",
 													"page": 30,
 													"collapsed": true
 												},
 												{
 													"type": "statblock",
 													"tag": "optfeature",
-													"source": "XUA2023PlayersHandbookP7",
 													"name": "Lifedrinker",
+													"source": "XUA2023PlayersHandbookP7",
 													"page": 30,
 													"collapsed": true
 												},
 												{
 													"type": "statblock",
 													"tag": "optfeature",
-													"source": "XUA2023PlayersHandbookP7",
 													"name": "Mask of Many Faces",
+													"source": "XUA2023PlayersHandbookP7",
 													"page": 30,
 													"collapsed": true
 												},
 												{
 													"type": "statblock",
 													"tag": "optfeature",
-													"source": "XUA2023PlayersHandbookP7",
 													"name": "Master of Myriad Forms",
+													"source": "XUA2023PlayersHandbookP7",
 													"page": 30,
 													"collapsed": true
 												},
 												{
 													"type": "statblock",
 													"tag": "optfeature",
-													"source": "XUA2023PlayersHandbookP7",
 													"name": "Misty Visions",
+													"source": "XUA2023PlayersHandbookP7",
 													"page": 30,
 													"collapsed": true
 												},
 												{
 													"type": "statblock",
 													"tag": "optfeature",
-													"source": "XUA2023PlayersHandbookP7",
 													"name": "One With Shadows",
+													"source": "XUA2023PlayersHandbookP7",
 													"page": 30,
 													"collapsed": true
 												},
 												{
 													"type": "statblock",
 													"tag": "optfeature",
-													"source": "XUA2023PlayersHandbookP7",
 													"name": "Otherworldly Leap",
+													"source": "XUA2023PlayersHandbookP7",
 													"page": 30,
 													"collapsed": true
 												},
 												{
 													"type": "statblock",
 													"tag": "optfeature",
-													"source": "XUA2023PlayersHandbookP7",
 													"name": "Pact of the Blade",
+													"source": "XUA2023PlayersHandbookP7",
 													"page": 30,
 													"collapsed": true
 												},
 												{
 													"type": "statblock",
 													"tag": "optfeature",
-													"source": "XUA2023PlayersHandbookP7",
 													"name": "Pact of the Chain",
+													"source": "XUA2023PlayersHandbookP7",
 													"page": 31,
 													"collapsed": true
 												},
 												{
 													"type": "statblock",
 													"tag": "optfeature",
-													"source": "XUA2023PlayersHandbookP7",
 													"name": "Pact of the Tome",
+													"source": "XUA2023PlayersHandbookP7",
 													"page": 31,
 													"collapsed": true
 												},
 												{
 													"type": "statblock",
 													"tag": "optfeature",
-													"source": "XUA2023PlayersHandbookP7",
 													"name": "Repelling Blast",
+													"source": "XUA2023PlayersHandbookP7",
 													"page": 31,
 													"collapsed": true
 												},
 												{
 													"type": "statblock",
 													"tag": "optfeature",
-													"source": "XUA2023PlayersHandbookP7",
 													"name": "Thirsting Blade",
+													"source": "XUA2023PlayersHandbookP7",
 													"page": 31,
 													"collapsed": true
 												},
 												{
 													"type": "statblock",
 													"tag": "optfeature",
-													"source": "XUA2023PlayersHandbookP7",
 													"name": "Visions of Distant Realms",
+													"source": "XUA2023PlayersHandbookP7",
 													"page": 31,
 													"collapsed": true
 												},
 												{
 													"type": "statblock",
 													"tag": "optfeature",
-													"source": "XUA2023PlayersHandbookP7",
 													"name": "Whispers of the Grave",
+													"source": "XUA2023PlayersHandbookP7",
 													"page": 31,
 													"collapsed": true
 												},
 												{
 													"type": "statblock",
 													"tag": "optfeature",
-													"source": "XUA2023PlayersHandbookP7",
 													"name": "Witch Sight",
+													"source": "XUA2023PlayersHandbookP7",
 													"page": 31,
 													"collapsed": true
 												}
-											],
-											"id": "02e"
+											]
 										}
-									],
-									"id": "02d"
+									]
 								},
 								{
 									"type": "entries",
 									"name": "Warlock Subclasses",
+									"id": "030",
 									"page": 31,
 									"entries": [
 										"A Warlock subclass is a specialization that grants you special abilities at certain Warlock levels, as specified in the subclass. This section presents the following subclasses: {@class Warlock|XUA2023PlayersHandbookP7|Archfey Patron|Archfey|XUA2023PlayersHandbookP7}, {@class Warlock|XUA2023PlayersHandbookP7|Celestial Patron|Celestial|XUA2023PlayersHandbookP7}, {@class Warlock|XUA2023PlayersHandbookP7|Fiend Patron|Fiend|XUA2023PlayersHandbookP7}, and {@class Warlock|XUA2023PlayersHandbookP7|Great Old One Patron|Great Old One|XUA2023PlayersHandbookP7}.",
 										{
 											"type": "entries",
 											"name": "Archfey Patron",
+											"id": "031",
 											"page": 31,
 											"entries": [
 												{
 													"type": "inset",
-													"page": 31,
 													"name": "Design Note: Archfey Patron Updates",
+													"id": "032",
+													"page": 31,
 													"entries": [
 														"Here are the main updates in this subclass since the 2014 {@book Player's Handbook|PHB}:",
 														{
@@ -12481,33 +12486,33 @@
 																}
 															]
 														}
-													],
-													"id": "032"
+													]
 												},
 												{
 													"type": "statblock",
 													"prop": "subclass",
-													"source": "XUA2023PlayersHandbookP7",
 													"name": "The Archfey",
+													"shortName": "Archfey",
+													"displayName": "Archfey Patron",
 													"className": "Warlock",
 													"classSource": "XUA2023PlayersHandbookP7",
+													"source": "XUA2023PlayersHandbookP7",
 													"page": 31,
-													"collapsed": true,
-													"displayName": "Archfey Patron",
-													"shortName": "Archfey"
+													"collapsed": true
 												}
-											],
-											"id": "031"
+											]
 										},
 										{
 											"type": "entries",
 											"name": "Celestial Patron",
+											"id": "033",
 											"page": 32,
 											"entries": [
 												{
 													"type": "inset",
-													"page": 32,
 													"name": "Design Note: Celestial Patron Updates",
+													"id": "034",
+													"page": 32,
 													"entries": [
 														"Here are the main updates in this subclass since its appearance in {@book Xanathar's Guide to Everything|XGE}:",
 														{
@@ -12532,33 +12537,33 @@
 																}
 															]
 														}
-													],
-													"id": "034"
+													]
 												},
 												{
 													"type": "statblock",
 													"prop": "subclass",
-													"source": "XUA2023PlayersHandbookP7",
 													"name": "Celestial Patron",
+													"shortName": "Celestial",
+													"displayName": "Celestial Patron",
 													"className": "Warlock",
 													"classSource": "XUA2023PlayersHandbookP7",
+													"source": "XUA2023PlayersHandbookP7",
 													"page": 32,
-													"collapsed": true,
-													"displayName": "Celestial Patron",
-													"shortName": "Celestial"
+													"collapsed": true
 												}
-											],
-											"id": "033"
+											]
 										},
 										{
 											"type": "entries",
 											"name": "Fiend Patron",
+											"id": "035",
 											"page": 33,
 											"entries": [
 												{
 													"type": "inset",
-													"page": 33,
 													"name": "Design Note: Fiend Patron Updates",
+													"id": "036",
+													"page": 33,
 													"entries": [
 														"Here are the main updates in this subclass since its last playtest version:",
 														{
@@ -12599,33 +12604,33 @@
 																}
 															]
 														}
-													],
-													"id": "036"
+													]
 												},
 												{
 													"type": "statblock",
 													"prop": "subclass",
-													"source": "XUA2023PlayersHandbookP7",
 													"name": "Fiend Patron",
+													"shortName": "Fiend",
+													"displayName": "Fiend Patron",
 													"className": "Warlock",
 													"classSource": "XUA2023PlayersHandbookP7",
+													"source": "XUA2023PlayersHandbookP7",
 													"page": 33,
-													"collapsed": true,
-													"displayName": "Fiend Patron",
-													"shortName": "Fiend"
+													"collapsed": true
 												}
-											],
-											"id": "035"
+											]
 										},
 										{
 											"type": "entries",
 											"name": "Great Old One Patron",
+											"id": "037",
 											"page": 34,
 											"entries": [
 												{
 													"type": "inset",
-													"page": 34,
 													"name": "Design Note: Great Old One Patron Updates",
+													"id": "038",
+													"page": 34,
 													"entries": [
 														"Here are the main updates in this subclass since the 2014 {@book Player's Handbook|PHB}:",
 														{
@@ -12682,39 +12687,37 @@
 																}
 															]
 														}
-													],
-													"id": "038"
+													]
 												},
 												{
 													"type": "statblock",
 													"prop": "subclass",
-													"source": "XUA2023PlayersHandbookP7",
 													"name": "The Great Old One",
+													"shortName": "Great Old One",
+													"displayName": "Great Old One Patron",
 													"className": "Warlock",
 													"classSource": "XUA2023PlayersHandbookP7",
+													"source": "XUA2023PlayersHandbookP7",
 													"page": 34,
-													"collapsed": true,
-													"displayName": "Great Old One Patron",
-													"shortName": "Great Old One"
+													"collapsed": true
 												}
-											],
-											"id": "037"
+											]
 										}
-									],
-									"id": "030"
+									]
 								}
-							],
-							"id": "02b"
+							]
 						},
 						{
 							"type": "section",
 							"name": "Wizard",
+							"id": "039",
 							"page": 36,
 							"entries": [
 								{
 									"type": "inset",
-									"page": 37,
 									"name": "Design Note: Wizard Updates",
+									"id": "03a",
+									"page": 37,
 									"entries": [
 										"Here are the main updates in this class since its last playtest version:",
 										{
@@ -12787,32 +12790,34 @@
 												}
 											]
 										}
-									],
-									"id": "03a"
+									]
 								},
 								{
 									"type": "statblock",
 									"tag": "class",
-									"source": "XUA2023PlayersHandbookP7",
 									"name": "Wizard",
+									"source": "XUA2023PlayersHandbookP7",
 									"page": 36,
 									"collapsed": true
 								},
 								{
 									"type": "entries",
 									"name": "Wizard Subclasses",
+									"id": "03b",
 									"page": 39,
 									"entries": [
 										"A Wizard subclass is a specialization that grants you special abilities at certain Wizard levels, as specified in the subclass. This section presents the following subclasses: {@class Wizard|XUA2023PlayersHandbookP7|Abjurer|Abjuration|XUA2023PlayersHandbookP7}, {@class Wizard|XUA2023PlayersHandbookP7|Diviner|Divination|XUA2023PlayersHandbookP7}, {@class Wizard|XUA2023PlayersHandbookP7|Evoker|Evocation|XUA2023PlayersHandbookP7}, and {@class Wizard|XUA2023PlayersHandbookP7|Illusionist|Illusion|XUA2023PlayersHandbookP7}.",
 										{
 											"type": "entries",
 											"name": "Abjurer",
+											"id": "03c",
 											"page": 39,
 											"entries": [
 												{
 													"type": "inset",
-													"page": 40,
 													"name": "Design Note: Abjurer Updates",
+													"id": "03d",
+													"page": 40,
 													"entries": [
 														"Here are the main updates in this subclass since the 2014 {@book Player's Handbook|PHB}:",
 														{
@@ -12845,32 +12850,32 @@
 																}
 															]
 														}
-													],
-													"id": "03d"
+													]
 												},
 												{
 													"type": "statblock",
 													"prop": "subclass",
-													"source": "XUA2023PlayersHandbookP7",
 													"name": "Abjurer",
+													"shortName": "Abjuration",
 													"className": "Wizard",
 													"classSource": "XUA2023PlayersHandbookP7",
+													"source": "XUA2023PlayersHandbookP7",
 													"page": 39,
-													"collapsed": true,
-													"shortName": "Abjuration"
+													"collapsed": true
 												}
-											],
-											"id": "03c"
+											]
 										},
 										{
 											"type": "entries",
 											"name": "Diviner",
+											"id": "03e",
 											"page": 40,
 											"entries": [
 												{
 													"type": "inset",
-													"page": 40,
 													"name": "Design Note: Diviner Updates",
+													"id": "03f",
+													"page": 40,
 													"entries": [
 														"Here are the main updates in this subclass since the 2014 {@book Player's Handbook|PHB}:",
 														{
@@ -12895,32 +12900,32 @@
 																}
 															]
 														}
-													],
-													"id": "03f"
+													]
 												},
 												{
 													"type": "statblock",
 													"prop": "subclass",
-													"source": "XUA2023PlayersHandbookP7",
 													"name": "Diviner",
+													"shortName": "Divination",
 													"className": "Wizard",
 													"classSource": "XUA2023PlayersHandbookP7",
+													"source": "XUA2023PlayersHandbookP7",
 													"page": 40,
-													"collapsed": true,
-													"shortName": "Divination"
+													"collapsed": true
 												}
-											],
-											"id": "03e"
+											]
 										},
 										{
 											"type": "entries",
 											"name": "Evoker",
+											"id": "040",
 											"page": 41,
 											"entries": [
 												{
 													"type": "inset",
-													"page": 41,
 													"name": "Design Note: Evoker Updates",
+													"id": "041",
+													"page": 41,
 													"entries": [
 														"Here are the main updates in this subclass since its last playtest version:",
 														{
@@ -12953,32 +12958,32 @@
 																}
 															]
 														}
-													],
-													"id": "041"
+													]
 												},
 												{
 													"type": "statblock",
 													"prop": "subclass",
-													"source": "XUA2023PlayersHandbookP7",
 													"name": "Evoker",
+													"shortName": "Evocation",
 													"className": "Wizard",
 													"classSource": "XUA2023PlayersHandbookP7",
+													"source": "XUA2023PlayersHandbookP7",
 													"page": 41,
-													"collapsed": true,
-													"shortName": "Evocation"
+													"collapsed": true
 												}
-											],
-											"id": "040"
+											]
 										},
 										{
 											"type": "entries",
 											"name": "Illusionist",
+											"id": "042",
 											"page": 42,
 											"entries": [
 												{
 													"type": "inset",
-													"page": 42,
 													"name": "Design Note: Illusionist Updates",
+													"id": "043",
+													"page": 42,
 													"entries": [
 														"Here are the main updates in this subclass since the 2014 {@book Player's Handbook|PHB}:",
 														{
@@ -13019,57 +13024,55 @@
 																}
 															]
 														}
-													],
-													"id": "043"
+													]
 												},
 												{
 													"type": "statblock",
 													"prop": "subclass",
-													"source": "XUA2023PlayersHandbookP7",
 													"name": "Illusionist",
+													"shortName": "Illusion",
 													"className": "Wizard",
 													"classSource": "XUA2023PlayersHandbookP7",
+													"source": "XUA2023PlayersHandbookP7",
 													"page": 42,
-													"collapsed": true,
-													"shortName": "Illusion"
+													"collapsed": true
 												}
-											],
-											"id": "042"
+											]
 										}
-									],
-									"id": "03b"
+									]
 								}
-							],
-							"id": "039"
+							]
 						}
-					],
-					"id": "007"
+					]
 				},
 				{
 					"type": "section",
 					"name": "Spells",
+					"id": "044",
 					"page": 43,
 					"entries": [
 						"This section presents new or revised spells for you to playtest.",
 						{
 							"type": "entries",
 							"name": "Class Tags",
+							"id": "045",
 							"page": 43,
 							"entries": [
 								"A spell's description contains one or more tags indicating the class spell lists that contain the spell. For example, if a spell has the \"Wizard\" tag, the spell is on the Wizard spell list."
-							],
-							"id": "045"
+							]
 						},
 						{
 							"type": "entries",
 							"name": "Spell Descriptions",
+							"id": "046",
 							"page": 43,
 							"entries": [
 								"The following spells are presented in alphabetical order.",
 								{
 									"type": "inset",
-									"page": 43,
 									"name": "Design Note: Spell Updates",
+									"id": "047",
+									"page": 43,
 									"entries": [
 										"Here are the main updates in this section since its last playtest version:",
 										{
@@ -13119,63 +13122,62 @@
 												}
 											]
 										}
-									],
-									"id": "047"
+									]
 								},
 								{
 									"type": "statblock",
 									"tag": "spell",
-									"source": "XUA2023PlayersHandbookP7",
 									"name": "Arcane Eruption",
+									"source": "XUA2023PlayersHandbookP7",
 									"page": 43,
 									"collapsed": true
 								},
 								{
 									"type": "statblock",
 									"tag": "spell",
-									"source": "XUA2023PlayersHandbookP7",
 									"name": "Counterspell",
+									"source": "XUA2023PlayersHandbookP7",
 									"page": 43,
 									"collapsed": true
 								},
 								{
 									"type": "statblock",
 									"tag": "spell",
-									"source": "XUA2023PlayersHandbookP7",
 									"name": "Jump",
+									"source": "XUA2023PlayersHandbookP7",
 									"page": 43,
 									"collapsed": true
 								},
 								{
 									"type": "statblock",
 									"tag": "spell",
-									"source": "XUA2023PlayersHandbookP7",
 									"name": "Sorcerous Burst",
+									"source": "XUA2023PlayersHandbookP7",
 									"page": 44,
 									"collapsed": true
 								}
-							],
-							"id": "046"
+							]
 						}
-					],
-					"id": "044"
+					]
 				},
 				{
 					"type": "section",
 					"name": "Feats",
+					"id": "048",
 					"page": 44,
 					"entries": [
 						"This section offers a collection of character feats, which are special features not tied to a single character class.",
 						{
 							"type": "entries",
 							"name": "Parts of a Feat",
+							"id": "049",
 							"page": 44,
 							"entries": [
 								"The description of a feat contains the following parts, which are presented after the feat's name:",
 								{
 									"type": "list",
-									"style": "list-hang-notitle",
 									"page": 44,
+									"style": "list-hang-notitle",
 									"items": [
 										{
 											"type": "item",
@@ -13200,20 +13202,20 @@
 										}
 									]
 								}
-							],
-							"id": "049"
+							]
 						},
 						{
 							"type": "statblock",
 							"tag": "variantrule",
-							"source": "XUA2023PlayersHandbookP7",
 							"name": "Bonus Feats at Level 20",
+							"source": "XUA2023PlayersHandbookP7",
 							"page": 44,
 							"style": "inset"
 						},
 						{
 							"type": "entries",
 							"name": "Feat Descriptions",
+							"id": "04a",
 							"page": 44,
 							"entries": [
 								"Here are descriptions of some feats that are available to characters using this playtest article. Playtest characters can also select feats from previous installments of the 2022 {@i Unearthed Arcana} series.",
@@ -13222,26 +13224,26 @@
 								{
 									"type": "statblock",
 									"tag": "feat",
-									"source": "XUA2023PlayersHandbookP7",
 									"name": "Ability Score Improvement",
+									"source": "XUA2023PlayersHandbookP7",
 									"page": 44
 								}
-							],
-							"id": "04a"
+							]
 						}
-					],
-					"id": "048"
+					]
 				},
 				{
 					"type": "section",
 					"name": "Weapons",
+					"id": "04b",
 					"page": 44,
 					"entries": [
 						"This section contains playtest versions of weapons in the 2014 {@book Player's Handbook|PHB}. Here you'll find weapon tables, revised weapon properties, and a new type of property: Mastery properties.",
 						{
 							"type": "inset",
-							"page": 44,
 							"name": "Design Note: Weapon Updates",
+							"id": "04c",
+							"page": 44,
 							"entries": [
 								"Here are the main changes to this section since its last playtest version:",
 								{
@@ -13259,86 +13261,86 @@
 										"The {@b War Pick} now has the Sap property."
 									]
 								}
-							],
-							"id": "04c"
+							]
 						},
 						{
 							"type": "entries",
 							"name": "Weapon Tables",
+							"id": "04d",
 							"page": 45,
 							"entries": [
 								{
 									"type": "statblock",
 									"tag": "table",
-									"source": "XUA2023PlayersHandbookP7",
 									"name": "Simple Weapons: Melee",
+									"source": "XUA2023PlayersHandbookP7",
 									"page": 45
 								},
 								{
 									"type": "statblock",
 									"tag": "table",
-									"source": "XUA2023PlayersHandbookP7",
 									"name": "Simple Weapons: Ranged",
+									"source": "XUA2023PlayersHandbookP7",
 									"page": 45
 								},
 								{
 									"type": "statblock",
 									"tag": "table",
-									"source": "XUA2023PlayersHandbookP7",
 									"name": "Martial Weapons: Melee",
+									"source": "XUA2023PlayersHandbookP7",
 									"page": 45
 								},
 								{
 									"type": "statblock",
 									"tag": "table",
-									"source": "XUA2023PlayersHandbookP7",
 									"name": "Martial Weapons: Ranged",
+									"source": "XUA2023PlayersHandbookP7",
 									"page": 45
 								}
-							],
-							"id": "04d"
+							]
 						},
 						{
 							"type": "entries",
 							"name": "Weapon Properties",
+							"id": "04e",
 							"page": 46,
 							"entries": [
 								"Here are properties whose definitions have changed for this playtest.",
 								{
 									"type": "entries",
 									"name": "Heavy",
+									"id": "04f",
 									"page": 46,
 									"entries": [
 										"A Heavy weapon is unwieldy compared to other weapons. You have Disadvantage on your attack rolls with a Heavy weapon if it's a melee weapon and your Strength score isn't at least 13 and if it's a ranged weapon and your Dexterity score isn't at least 13."
-									],
-									"id": "04f"
+									]
 								},
 								{
 									"type": "entries",
 									"name": "Light",
+									"id": "050",
 									"page": 46,
 									"entries": [
 										"When you take the {@action Attack|XUA2023PlayersHandbookP7} action on your turn and attack with a Light weapon, you can make one extra attack as a Bonus Action later on the same turn. That extra attack must be made with a different Light weapon, and you don't add your ability modifier to the extra attack's damage, unless that modifier is negative.",
 										"For example, if you take the {@action Attack|XUA2023PlayersHandbookP7} action on your turn and have a Shortsword in one hand and a Dagger in the other\u2014each of which has the Light property\u2014you can make one attack with each weapon, using your action and a Bonus Action, but you don't add your Strength or Dexterity modifier to the damage roll of the Bonus Action, unless that modifier is negative."
-									],
-									"id": "050"
+									]
 								},
 								{
 									"type": "entries",
 									"name": "Thrown",
+									"id": "051",
 									"page": 46,
 									"entries": [
 										"If a weapon has the Thrown property, you can throw the weapon to make a ranged attack, and you can draw that weapon as part of the attack.",
 										"If the weapon is a melee weapon, you use the same ability modifier for that attack roll and damage roll that you would use for a melee attack with the weapon. For example, if you throw a Handaxe, you use your Strength, but if you throw a Dagger, you can use either your Strength or your Dexterity, since the Dagger has the Finesse property."
-									],
-									"id": "051"
+									]
 								}
-							],
-							"id": "04e"
+							]
 						},
 						{
 							"type": "entries",
 							"name": "Mastery Properties",
+							"id": "052",
 							"page": 46,
 							"entries": [
 								"Each weapon now has a Mastery property, as shown in the weapon tables above. That property is usable only by a character who has a feature, such as Weapon Mastery, that unlocks the property for the character.",
@@ -13347,370 +13349,368 @@
 								{
 									"type": "statblock",
 									"tag": "itemMastery",
-									"source": "XUA2023PlayersHandbookP7",
 									"name": "Cleave",
+									"source": "XUA2023PlayersHandbookP7",
 									"page": 46
 								},
 								{
 									"type": "statblock",
 									"tag": "itemMastery",
-									"source": "XUA2023PlayersHandbookP7",
 									"name": "Graze",
+									"source": "XUA2023PlayersHandbookP7",
 									"page": 46
 								},
 								{
 									"type": "statblock",
 									"tag": "itemMastery",
-									"source": "XUA2023PlayersHandbookP7",
 									"name": "Nick",
+									"source": "XUA2023PlayersHandbookP7",
 									"page": 46
 								},
 								{
 									"type": "statblock",
 									"tag": "itemMastery",
-									"source": "XUA2023PlayersHandbookP7",
 									"name": "Push",
+									"source": "XUA2023PlayersHandbookP7",
 									"page": 47
 								},
 								{
 									"type": "statblock",
 									"tag": "itemMastery",
-									"source": "XUA2023PlayersHandbookP7",
 									"name": "Sap",
+									"source": "XUA2023PlayersHandbookP7",
 									"page": 47
 								},
 								{
 									"type": "statblock",
 									"tag": "itemMastery",
-									"source": "XUA2023PlayersHandbookP7",
 									"name": "Slow",
+									"source": "XUA2023PlayersHandbookP7",
 									"page": 47
 								},
 								{
 									"type": "statblock",
 									"tag": "itemMastery",
-									"source": "XUA2023PlayersHandbookP7",
 									"name": "Topple",
+									"source": "XUA2023PlayersHandbookP7",
 									"page": 47
 								},
 								{
 									"type": "statblock",
 									"tag": "itemMastery",
-									"source": "XUA2023PlayersHandbookP7",
 									"name": "Vex",
+									"source": "XUA2023PlayersHandbookP7",
 									"page": 47
 								}
-							],
-							"id": "052"
+							]
 						}
-					],
-					"id": "04b"
+					]
 				},
 				{
 					"type": "section",
 					"name": "Adventuring Gear",
+					"id": "053",
 					"page": 47,
 					"entries": [
 						"Here are descriptions of miscellaneous items whose rules have changed for this playtest.",
 						{
 							"type": "statblock",
 							"tag": "item",
-							"source": "XUA2023PlayersHandbookP7",
 							"name": "Net",
+							"source": "XUA2023PlayersHandbookP7",
 							"page": 47
 						},
 						{
 							"type": "statblock",
 							"tag": "item",
-							"source": "XUA2023PlayersHandbookP7",
 							"name": "Priest's Pack",
+							"source": "XUA2023PlayersHandbookP7",
 							"page": 47
 						}
-					],
-					"id": "053"
+					]
 				},
 				{
 					"type": "section",
 					"name": "Rules Glossary",
+					"id": "054",
 					"page": 47,
 					"entries": [
 						"This glossary includes game terms that have new meaning in this playtest document, as well as terms, such as {@variantrule creature type|XUA2023PlayersHandbookP7}, that aren't defined in the 2014 {@book Player's Handbook|PHB}. The terms are organized alphabetically.",
 						"If a term doesn't appear here, use its definition in the 2014 {@book Player's Handbook|PHB}, and when playtesting this document, don't use the rules glossary of any other {@i Unearthed Arcana} article.",
 						{
 							"type": "inset",
-							"page": 47,
 							"name": "Design Note: Rules Glossary Update",
+							"id": "055",
+							"page": 47,
 							"entries": [
 								"The section on death saving throws has been removed."
-							],
-							"id": "055"
+							]
 						},
 						{
 							"type": "statblock",
 							"tag": "variantrule",
-							"source": "XUA2023PlayersHandbookP7",
 							"name": "Armor Training",
+							"source": "XUA2023PlayersHandbookP7",
 							"page": 47,
 							"collapsed": true
 						},
 						{
 							"type": "statblock",
 							"tag": "action",
-							"source": "XUA2023PlayersHandbookP7",
 							"name": "Attack",
+							"source": "XUA2023PlayersHandbookP7",
 							"page": 48,
 							"collapsed": true
 						},
 						{
 							"type": "statblock",
 							"tag": "sense",
-							"source": "XUA2023PlayersHandbookP7",
 							"name": "Blindsight",
+							"source": "XUA2023PlayersHandbookP7",
 							"page": 48,
 							"collapsed": true
 						},
 						{
 							"type": "statblock",
 							"tag": "variantrule",
-							"source": "XUA2023PlayersHandbookP7",
 							"name": "Climb Speed",
+							"source": "XUA2023PlayersHandbookP7",
 							"page": 48,
 							"collapsed": true
 						},
 						{
 							"type": "statblock",
 							"tag": "variantrule",
-							"source": "XUA2023PlayersHandbookP7",
 							"name": "Creature Type",
+							"source": "XUA2023PlayersHandbookP7",
 							"page": 48,
 							"collapsed": true
 						},
 						{
 							"type": "statblock",
 							"tag": "variantrule",
-							"source": "XUA2023PlayersHandbookP7",
 							"name": "D20 Tests",
+							"source": "XUA2023PlayersHandbookP7",
 							"page": 48,
 							"collapsed": true
 						},
 						{
 							"type": "statblock",
 							"tag": "condition",
-							"source": "XUA2023PlayersHandbookP7",
 							"name": "Dazed",
+							"source": "XUA2023PlayersHandbookP7",
 							"page": 48,
 							"collapsed": true
 						},
 						{
 							"type": "statblock",
 							"tag": "variantrule",
-							"source": "XUA2023PlayersHandbookP7",
 							"name": "Difficult Terrain",
+							"source": "XUA2023PlayersHandbookP7",
 							"page": 48,
 							"collapsed": true
 						},
 						{
 							"type": "statblock",
 							"tag": "variantrule",
-							"source": "XUA2023PlayersHandbookP7",
 							"name": "Expertise",
+							"source": "XUA2023PlayersHandbookP7",
 							"page": 49,
 							"collapsed": true
 						},
 						{
 							"type": "statblock",
 							"tag": "variantrule",
-							"source": "XUA2023PlayersHandbookP7",
 							"name": "Fly Speed",
+							"source": "XUA2023PlayersHandbookP7",
 							"page": 49,
 							"collapsed": true
 						},
 						{
 							"type": "statblock",
 							"tag": "condition",
-							"source": "XUA2023PlayersHandbookP7",
 							"name": "Grappled",
+							"source": "XUA2023PlayersHandbookP7",
 							"page": 49,
 							"collapsed": true
 						},
 						{
 							"type": "statblock",
 							"tag": "action",
-							"source": "XUA2023PlayersHandbookP7",
 							"name": "Help",
+							"source": "XUA2023PlayersHandbookP7",
 							"page": 49,
 							"collapsed": true
 						},
 						{
 							"type": "statblock",
 							"tag": "variantrule",
-							"source": "XUA2023PlayersHandbookP7",
 							"name": "Heroic Advantage",
+							"source": "XUA2023PlayersHandbookP7",
 							"page": 49,
 							"collapsed": true
 						},
 						{
 							"type": "statblock",
 							"tag": "action",
-							"source": "XUA2023PlayersHandbookP7",
 							"name": "Hide",
+							"source": "XUA2023PlayersHandbookP7",
 							"page": 49,
 							"collapsed": true
 						},
 						{
 							"type": "statblock",
 							"tag": "condition",
-							"source": "XUA2023PlayersHandbookP7",
 							"name": "Incapacitated",
+							"source": "XUA2023PlayersHandbookP7",
 							"page": 50,
 							"collapsed": true
 						},
 						{
 							"type": "statblock",
 							"tag": "action",
-							"source": "XUA2023PlayersHandbookP7",
 							"name": "Influence",
+							"source": "XUA2023PlayersHandbookP7",
 							"page": 50,
 							"collapsed": true
 						},
 						{
 							"type": "statblock",
 							"tag": "condition",
-							"source": "XUA2023PlayersHandbookP7",
 							"name": "Invisible",
+							"source": "XUA2023PlayersHandbookP7",
 							"page": 51,
 							"collapsed": true
 						},
 						{
 							"type": "statblock",
 							"tag": "variantrule",
-							"source": "XUA2023PlayersHandbookP7",
 							"name": "Knocking Out a Creature",
+							"source": "XUA2023PlayersHandbookP7",
 							"page": 51,
 							"collapsed": true
 						},
 						{
 							"type": "statblock",
 							"tag": "variantrule",
-							"source": "XUA2023PlayersHandbookP7",
 							"name": "Long Rest",
+							"source": "XUA2023PlayersHandbookP7",
 							"page": 51,
 							"collapsed": true
 						},
 						{
 							"type": "statblock",
 							"tag": "action",
-							"source": "XUA2023PlayersHandbookP7",
 							"name": "Magic",
+							"source": "XUA2023PlayersHandbookP7",
 							"page": 51,
 							"collapsed": true
 						},
 						{
 							"type": "statblock",
 							"tag": "variantrule",
-							"source": "XUA2023PlayersHandbookP7",
 							"name": "Move",
+							"source": "XUA2023PlayersHandbookP7",
 							"page": 51,
 							"collapsed": true
 						},
 						{
 							"type": "statblock",
 							"tag": "variantrule",
-							"source": "XUA2023PlayersHandbookP7",
 							"name": "Ritual Casting",
+							"source": "XUA2023PlayersHandbookP7",
 							"page": 52,
 							"collapsed": true
 						},
 						{
 							"type": "statblock",
 							"tag": "action",
-							"source": "XUA2023PlayersHandbookP7",
 							"name": "Search",
+							"source": "XUA2023PlayersHandbookP7",
 							"page": 52,
 							"collapsed": true
 						},
 						{
 							"type": "statblock",
 							"tag": "variantrule",
-							"source": "XUA2023PlayersHandbookP7",
 							"name": "Short Rest",
+							"source": "XUA2023PlayersHandbookP7",
 							"page": 52,
 							"collapsed": true
 						},
 						{
 							"type": "statblock",
 							"tag": "action",
-							"source": "XUA2023PlayersHandbookP7",
 							"name": "Study",
+							"source": "XUA2023PlayersHandbookP7",
 							"page": 52,
 							"collapsed": true
 						},
 						{
 							"type": "statblock",
 							"tag": "variantrule",
-							"source": "XUA2023PlayersHandbookP7",
 							"name": "Swim Speed",
+							"source": "XUA2023PlayersHandbookP7",
 							"page": 53,
 							"collapsed": true
 						},
 						{
 							"type": "statblock",
 							"tag": "variantrule",
-							"source": "XUA2023PlayersHandbookP7",
 							"name": "Telepathy",
+							"source": "XUA2023PlayersHandbookP7",
 							"page": 53,
 							"collapsed": true
 						},
 						{
 							"type": "statblock",
 							"tag": "variantrule",
-							"source": "XUA2023PlayersHandbookP7",
 							"name": "Teleportation",
+							"source": "XUA2023PlayersHandbookP7",
 							"page": 53,
 							"collapsed": true
 						},
 						{
 							"type": "statblock",
 							"tag": "variantrule",
-							"source": "XUA2023PlayersHandbookP7",
 							"name": "Tool Proficiency",
+							"source": "XUA2023PlayersHandbookP7",
 							"page": 53,
 							"collapsed": true
 						},
 						{
 							"type": "statblock",
 							"tag": "sense",
-							"source": "XUA2023PlayersHandbookP7",
 							"name": "Tremorsense",
+							"source": "XUA2023PlayersHandbookP7",
 							"page": 53,
 							"collapsed": true
 						},
 						{
 							"type": "statblock",
 							"tag": "sense",
-							"source": "XUA2023PlayersHandbookP7",
 							"name": "Truesight",
+							"source": "XUA2023PlayersHandbookP7",
 							"page": 53,
 							"collapsed": true
 						},
 						{
 							"type": "statblock",
 							"tag": "variantrule",
-							"source": "XUA2023PlayersHandbookP7",
 							"name": "Unarmed Strike",
+							"source": "XUA2023PlayersHandbookP7",
 							"page": 54,
 							"collapsed": true
 						},
 						{
 							"type": "statblock",
 							"tag": "condition",
-							"source": "XUA2023PlayersHandbookP7",
 							"name": "Unconscious",
+							"source": "XUA2023PlayersHandbookP7",
 							"page": 54,
 							"collapsed": true
 						}
-					],
-					"id": "054"
+					]
 				}
 			]
 		}

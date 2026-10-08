@@ -211,8 +211,8 @@
 				{
 					"type": "statblock",
 					"tag": "table",
-					"source": "XUA2026VillainousOptionsUpdate",
 					"name": "Circle of the Titan Spells",
+					"source": "XUA2026VillainousOptionsUpdate",
 					"page": 1
 				}
 			]
@@ -234,31 +234,31 @@
 				{
 					"type": "statblock",
 					"tag": "table",
-					"source": "XUA2026VillainousOptionsUpdate",
 					"name": "Titan Appearance",
+					"source": "XUA2026VillainousOptionsUpdate",
 					"page": 2
 				},
 				{
 					"type": "statblock",
 					"tag": "creature",
-					"source": "XUA2026VillainousOptionsUpdate",
 					"name": "Behemoth",
+					"source": "XUA2026VillainousOptionsUpdate",
 					"page": 2,
 					"collapsed": true
 				},
 				{
 					"type": "statblock",
 					"tag": "creature",
-					"source": "XUA2026VillainousOptionsUpdate",
 					"name": "Leviathan",
+					"source": "XUA2026VillainousOptionsUpdate",
 					"page": 3,
 					"collapsed": true
 				},
 				{
 					"type": "statblock",
 					"tag": "creature",
-					"source": "XUA2026VillainousOptionsUpdate",
 					"name": "Insectoid",
+					"source": "XUA2026VillainousOptionsUpdate",
 					"page": 3,
 					"collapsed": true
 				}
@@ -398,8 +398,8 @@
 				{
 					"type": "statblock",
 					"tag": "table",
-					"source": "XUA2026VillainousOptionsUpdate",
 					"name": "Hell Knight Pursuits",
+					"source": "XUA2026VillainousOptionsUpdate",
 					"page": 4
 				},
 				{
@@ -654,8 +654,8 @@
 				{
 					"type": "statblock",
 					"tag": "table",
-					"source": "XUA2026VillainousOptionsUpdate",
 					"name": "Abyssal Manifestations",
+					"source": "XUA2026VillainousOptionsUpdate",
 					"page": 5
 				},
 				{
@@ -717,8 +717,8 @@
 				{
 					"type": "statblock",
 					"tag": "table",
-					"source": "XUA2026VillainousOptionsUpdate",
 					"name": "Demonic Spells",
+					"source": "XUA2026VillainousOptionsUpdate",
 					"page": 6
 				}
 			]
@@ -1776,8 +1776,8 @@
 										"This article is presented for playtesting and feedback. The options here are experimental and in draft form. They aren't officially part of the game. Your feedback will help determine whether we adopt them as official.",
 										{
 											"type": "list",
-											"style": "list-hang-notitle",
 											"page": 1,
+											"style": "list-hang-notitle",
 											"items": [
 												{
 													"type": "item",
@@ -1822,12 +1822,12 @@
 										{
 											"type": "statblock",
 											"prop": "subclass",
-											"source": "XUA2026VillainousOptionsUpdate",
 											"name": "Circle of the Titan",
+											"shortName": "Titan",
 											"className": "Druid",
 											"classSource": "XPHB",
-											"page": 1,
-											"shortName": "Titan"
+											"source": "XUA2026VillainousOptionsUpdate",
+											"page": 1
 										}
 									]
 								},
@@ -1840,12 +1840,12 @@
 										{
 											"type": "statblock",
 											"prop": "subclass",
-											"source": "XUA2026VillainousOptionsUpdate",
 											"name": "Hell Knight",
+											"shortName": "Hell Knight",
 											"className": "Fighter",
 											"classSource": "XPHB",
-											"page": 4,
-											"shortName": "Hell Knight"
+											"source": "XUA2026VillainousOptionsUpdate",
+											"page": 4
 										}
 									]
 								},
@@ -1858,12 +1858,12 @@
 										{
 											"type": "statblock",
 											"prop": "subclass",
-											"source": "XUA2026VillainousOptionsUpdate",
 											"name": "Demonic Sorcery",
+											"shortName": "Demonic",
 											"className": "Sorcerer",
 											"classSource": "XPHB",
-											"page": 5,
-											"shortName": "Demonic"
+											"source": "XUA2026VillainousOptionsUpdate",
+											"page": 5
 										}
 									]
 								}
@@ -1884,29 +1884,29 @@
 										{
 											"type": "statblock",
 											"tag": "feat",
-											"source": "XUA2026VillainousOptionsUpdate",
 											"name": "Atoner's Grace",
+											"source": "XUA2026VillainousOptionsUpdate",
 											"page": 7
 										},
 										{
 											"type": "statblock",
 											"tag": "feat",
-											"source": "XUA2026VillainousOptionsUpdate",
 											"name": "Raised by Cultists",
+											"source": "XUA2026VillainousOptionsUpdate",
 											"page": 7
 										},
 										{
 											"type": "statblock",
 											"tag": "feat",
-											"source": "XUA2026VillainousOptionsUpdate",
 											"name": "Trapper",
+											"source": "XUA2026VillainousOptionsUpdate",
 											"page": 7
 										},
 										{
 											"type": "statblock",
 											"tag": "feat",
-											"source": "XUA2026VillainousOptionsUpdate",
 											"name": "Underhanded",
+											"source": "XUA2026VillainousOptionsUpdate",
 											"page": 7
 										}
 									]
@@ -1920,29 +1920,29 @@
 										{
 											"type": "statblock",
 											"tag": "feat",
-											"source": "XUA2026VillainousOptionsUpdate",
 											"name": "Boon of the Bandit King",
+											"source": "XUA2026VillainousOptionsUpdate",
 											"page": 7
 										},
 										{
 											"type": "statblock",
 											"tag": "feat",
-											"source": "XUA2026VillainousOptionsUpdate",
 											"name": "Boon of the Cleansed Heart",
+											"source": "XUA2026VillainousOptionsUpdate",
 											"page": 7
 										},
 										{
 											"type": "statblock",
 											"tag": "feat",
-											"source": "XUA2026VillainousOptionsUpdate",
 											"name": "Boon of the Hunter's Eye",
+											"source": "XUA2026VillainousOptionsUpdate",
 											"page": 7
 										},
 										{
 											"type": "statblock",
 											"tag": "feat",
-											"source": "XUA2026VillainousOptionsUpdate",
 											"name": "Boon of Unwavering Devotion",
+											"source": "XUA2026VillainousOptionsUpdate",
 											"page": 8
 										}
 									]

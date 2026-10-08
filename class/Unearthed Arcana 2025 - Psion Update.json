@@ -286,9 +286,6 @@
 				}
 			],
 			"startingProficiencies": {
-				"weapons": [
-					"simple"
-				],
 				"skills": [
 					{
 						"choose": {
@@ -304,6 +301,9 @@
 							]
 						}
 					}
+				],
+				"weapons": [
+					"simple"
 				]
 			},
 			"startingEquipment": {
@@ -1536,8 +1536,8 @@
 				{
 					"type": "statblock",
 					"tag": "table",
-					"source": "XUA2025PsionUpdate",
 					"name": "Metamorph Spells",
+					"source": "XUA2025PsionUpdate",
 					"page": 7
 				}
 			]
@@ -1844,8 +1844,8 @@
 				{
 					"type": "statblock",
 					"tag": "table",
-					"source": "XUA2025PsionUpdate",
 					"name": "Psykinetic Spells",
+					"source": "XUA2025PsionUpdate",
 					"page": 9
 				}
 			]
@@ -2036,8 +2036,8 @@
 				{
 					"type": "statblock",
 					"tag": "table",
-					"source": "XUA2025PsionUpdate",
 					"name": "Telepath Spells",
+					"source": "XUA2025PsionUpdate",
 					"page": 10
 				}
 			]
@@ -4690,8 +4690,8 @@
 							"entries": [
 								{
 									"type": "list",
-									"style": "list-hang-notitle",
 									"page": 1,
+									"style": "list-hang-notitle",
 									"items": [
 										{
 											"type": "item",
@@ -4724,8 +4724,8 @@
 										"This article is presented for playtesting and feedback. The options here are experimental and in draft form. They aren't officially part of the game. Your feedback will help determine whether we adopt it as official.",
 										{
 											"type": "list",
-											"style": "list-hang-notitle",
 											"page": 1,
+											"style": "list-hang-notitle",
 											"items": [
 												{
 													"type": "item",
@@ -4774,8 +4774,8 @@
 								{
 									"type": "statblock",
 									"tag": "table",
-									"source": "XUA2025PsionUpdate",
 									"name": "Core Psion Traits",
+									"source": "XUA2025PsionUpdate",
 									"page": 1
 								},
 								{
@@ -4785,8 +4785,8 @@
 									"entries": [
 										{
 											"type": "list",
-											"page": 1,
 											"name": "As a Level 1 Character",
+											"page": 1,
 											"items": [
 												"Gain all the traits in the {@table Core Psion Traits|XUA2025PsionUpdate} table.",
 												"Gain the Psion's level 1 features, which are listed in the Psion Features table."
@@ -4794,8 +4794,8 @@
 										},
 										{
 											"type": "list",
-											"page": 2,
 											"name": "As a Multiclass Character",
+											"page": 2,
 											"items": [
 												"Gain the Hit Point Die from the {@table Core Psion Traits|XUA2025PsionUpdate} table.",
 												"Gain the Psion's level 1 features, which are listed in the Psion Features table. See the {@variantrule Multiclassing|XPHB} rules in the {@book Player's Handbook|XPHB} to determine your available spell slots, adding all your Psion levels."
@@ -4812,8 +4812,8 @@
 										{
 											"type": "statblock",
 											"tag": "class",
-											"source": "XUA2025PsionUpdate",
 											"name": "Psion",
+											"source": "XUA2025PsionUpdate",
 											"page": 2
 										},
 										{
@@ -4862,78 +4862,78 @@
 										{
 											"type": "statblock",
 											"tag": "optfeature",
-											"source": "XUA2025PsionUpdate",
 											"name": "Biofeedback",
+											"source": "XUA2025PsionUpdate",
 											"page": 4
 										},
 										{
 											"type": "statblock",
 											"tag": "optfeature",
-											"source": "XUA2025PsionUpdate",
 											"name": "Bolstering Precognition",
+											"source": "XUA2025PsionUpdate",
 											"page": 4
 										},
 										{
 											"type": "statblock",
 											"tag": "optfeature",
-											"source": "XUA2025PsionUpdate",
 											"name": "Destructive Thoughts",
+											"source": "XUA2025PsionUpdate",
 											"page": 4
 										},
 										{
 											"type": "statblock",
 											"tag": "optfeature",
-											"source": "XUA2025PsionUpdate",
 											"name": "Devilish Tongue",
+											"source": "XUA2025PsionUpdate",
 											"page": 4
 										},
 										{
 											"type": "statblock",
 											"tag": "optfeature",
-											"source": "XUA2025PsionUpdate",
 											"name": "Expanded Awareness",
+											"source": "XUA2025PsionUpdate",
 											"page": 4
 										},
 										{
 											"type": "statblock",
 											"tag": "optfeature",
-											"source": "XUA2025PsionUpdate",
 											"name": "Id Insinuation",
+											"source": "XUA2025PsionUpdate",
 											"page": 4
 										},
 										{
 											"type": "statblock",
 											"tag": "optfeature",
-											"source": "XUA2025PsionUpdate",
 											"name": "Inerrant Aim",
+											"source": "XUA2025PsionUpdate",
 											"page": 5
 										},
 										{
 											"type": "statblock",
 											"tag": "optfeature",
-											"source": "XUA2025PsionUpdate",
 											"name": "Observant Mind",
+											"source": "XUA2025PsionUpdate",
 											"page": 5
 										},
 										{
 											"type": "statblock",
 											"tag": "optfeature",
-											"source": "XUA2025PsionUpdate",
 											"name": "Psionic Backlash",
+											"source": "XUA2025PsionUpdate",
 											"page": 5
 										},
 										{
 											"type": "statblock",
 											"tag": "optfeature",
-											"source": "XUA2025PsionUpdate",
 											"name": "Psionic Guards",
+											"source": "XUA2025PsionUpdate",
 											"page": 5
 										},
 										{
 											"type": "statblock",
 											"tag": "optfeature",
-											"source": "XUA2025PsionUpdate",
 											"name": "Sharpened Mind",
+											"source": "XUA2025PsionUpdate",
 											"page": 5
 										}
 									]
@@ -4990,8 +4990,8 @@
 										{
 											"type": "statblock",
 											"tag": "table",
-											"source": "XUA2025PsionUpdate",
 											"name": "Psion Spell List",
+											"source": "XUA2025PsionUpdate",
 											"page": 5
 										}
 									]
@@ -5036,12 +5036,12 @@
 										{
 											"type": "statblock",
 											"prop": "subclass",
-											"source": "XUA2025PsionUpdate",
 											"name": "Metamorph",
+											"shortName": "Metamorph",
 											"className": "Psion",
 											"classSource": "XUA2025PsionUpdate",
-											"page": 7,
-											"shortName": "Metamorph"
+											"source": "XUA2025PsionUpdate",
+											"page": 7
 										}
 									]
 								},
@@ -5072,12 +5072,12 @@
 										{
 											"type": "statblock",
 											"prop": "subclass",
-											"source": "XUA2025PsionUpdate",
 											"name": "Psykinetic",
+											"shortName": "Psykinetic",
 											"className": "Psion",
 											"classSource": "XUA2025PsionUpdate",
-											"page": 9,
-											"shortName": "Psykinetic"
+											"source": "XUA2025PsionUpdate",
+											"page": 9
 										}
 									]
 								},
@@ -5108,12 +5108,12 @@
 										{
 											"type": "statblock",
 											"prop": "subclass",
-											"source": "XUA2025PsionUpdate",
 											"name": "Telepath",
+											"shortName": "Telepath",
 											"className": "Psion",
 											"classSource": "XUA2025PsionUpdate",
-											"page": 10,
-											"shortName": "Telepath"
+											"source": "XUA2025PsionUpdate",
+											"page": 10
 										}
 									]
 								}
@@ -5169,120 +5169,120 @@
 								{
 									"type": "statblock",
 									"tag": "spell",
-									"source": "XUA2025PsionUpdate",
 									"name": "Abi-Dalzim's Horrid Wilting",
+									"source": "XUA2025PsionUpdate",
 									"page": 11
 								},
 								{
 									"type": "statblock",
 									"tag": "spell",
-									"source": "XUA2025PsionUpdate",
 									"name": "Bleeding Darkness",
+									"source": "XUA2025PsionUpdate",
 									"page": 0
 								},
 								{
 									"type": "statblock",
 									"tag": "spell",
-									"source": "XUA2025PsionUpdate",
 									"name": "Ectoplasmic Trail",
+									"source": "XUA2025PsionUpdate",
 									"page": 0
 								},
 								{
 									"type": "statblock",
 									"tag": "spell",
-									"source": "XUA2025PsionUpdate",
 									"name": "Ego Whip",
+									"source": "XUA2025PsionUpdate",
 									"page": 12
 								},
 								{
 									"type": "statblock",
 									"tag": "spell",
-									"source": "XUA2025PsionUpdate",
 									"name": "Enemies Abound",
+									"source": "XUA2025PsionUpdate",
 									"page": 0
 								},
 								{
 									"type": "statblock",
 									"tag": "spell",
-									"source": "XUA2025PsionUpdate",
 									"name": "Intellect Fortress",
+									"source": "XUA2025PsionUpdate",
 									"page": 0
 								},
 								{
 									"type": "statblock",
 									"tag": "spell",
-									"source": "XUA2025PsionUpdate",
 									"name": "Life Inversion Field",
+									"source": "XUA2025PsionUpdate",
 									"page": 0
 								},
 								{
 									"type": "statblock",
 									"tag": "spell",
-									"source": "XUA2025PsionUpdate",
 									"name": "Life Siphon",
+									"source": "XUA2025PsionUpdate",
 									"page": 0
 								},
 								{
 									"type": "statblock",
 									"tag": "spell",
-									"source": "XUA2025PsionUpdate",
 									"name": "Mental Prison",
+									"source": "XUA2025PsionUpdate",
 									"page": 13
 								},
 								{
 									"type": "statblock",
 									"tag": "spell",
-									"source": "XUA2025PsionUpdate",
 									"name": "Psionic Blast",
+									"source": "XUA2025PsionUpdate",
 									"page": 0
 								},
 								{
 									"type": "statblock",
 									"tag": "spell",
-									"source": "XUA2025PsionUpdate",
 									"name": "Psychic Scream",
+									"source": "XUA2025PsionUpdate",
 									"page": 0
 								},
 								{
 									"type": "statblock",
 									"tag": "spell",
-									"source": "XUA2025PsionUpdate",
 									"name": "Raulothim's Psychic Lance",
+									"source": "XUA2025PsionUpdate",
 									"page": 0
 								},
 								{
 									"type": "statblock",
 									"tag": "spell",
-									"source": "XUA2025PsionUpdate",
 									"name": "Summon Astral Entity",
+									"source": "XUA2025PsionUpdate",
 									"page": 14
 								},
 								{
 									"type": "statblock",
 									"tag": "spell",
-									"source": "XUA2025PsionUpdate",
 									"name": "Tasha's Mind Whip",
+									"source": "XUA2025PsionUpdate",
 									"page": 15
 								},
 								{
 									"type": "statblock",
 									"tag": "spell",
-									"source": "XUA2025PsionUpdate",
 									"name": "Telekinetic Crush",
+									"source": "XUA2025PsionUpdate",
 									"page": 0
 								},
 								{
 									"type": "statblock",
 									"tag": "spell",
-									"source": "XUA2025PsionUpdate",
 									"name": "Telekinetic Fling",
+									"source": "XUA2025PsionUpdate",
 									"page": 0
 								},
 								{
 									"type": "statblock",
 									"tag": "spell",
-									"source": "XUA2025PsionUpdate",
 									"name": "Thought Form",
+									"source": "XUA2025PsionUpdate",
 									"page": 0
 								}
 							]

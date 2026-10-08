@@ -1134,6 +1134,22 @@
 			]
 		},
 		{
+			"name": "Empowering Reserves",
+			"source": "UAClassFeatureVariants",
+			"page": 10,
+			"className": "Sorcerer",
+			"classSource": "PHB",
+			"level": 2,
+			"isClassFeatureVariant": true,
+			"consumes": {
+				"name": "Sorcery Point",
+				"amount": 2
+			},
+			"entries": [
+				"When you make an ability check on your turn, you can spend 2 sorcery points to gain advantage on the check."
+			]
+		},
+		{
 			"name": "Font of Magic Options",
 			"source": "UAClassFeatureVariants",
 			"page": 10,
@@ -1156,6 +1172,33 @@
 					"type": "refClassFeature",
 					"classFeature": "Sorcerous Fortitude|Sorcerer|PHB|2|UAClassFeatureVariants"
 				}
+			]
+		},
+		{
+			"name": "Imbuing Touch",
+			"source": "UAClassFeatureVariants",
+			"page": 10,
+			"className": "Sorcerer",
+			"classSource": "PHB",
+			"level": 2,
+			"isClassFeatureVariant": true,
+			"entries": [
+				"As an action, you can touch one nonmagical weapon and spend 2 sorcery points to imbue it with magic for 1 minute. For the duration, the weapon is considered magical for the purpose of overcoming immunity and resistance to nonmagical attacks."
+			]
+		},
+		{
+			"name": "Sorcerous Fortitude",
+			"source": "UAClassFeatureVariants",
+			"page": 10,
+			"className": "Sorcerer",
+			"classSource": "PHB",
+			"level": 2,
+			"isClassFeatureVariant": true,
+			"consumes": {
+				"name": "Sorcery Point"
+			},
+			"entries": [
+				"As an action, you can spend any number of sorcery points to roll a {@dice d4} for each point expended. You gain a number of temporary hit points equal to the total rolled."
 			]
 		},
 		{
@@ -1632,49 +1675,6 @@
 				"{@i 19th-level feature (enhances Ability Score Improvement)}",
 				"When you gain the Ability Score Improvement feature from your class, you can also replace one of your skill proficiencies with a skill proficiency offered by your class at 1st level (the proficiency you replace needn't be from the class).",
 				"This change represents one of your skills atrophying as you focus on a different skill."
-			]
-		},
-		{
-			"name": "Empowering Reserves",
-			"source": "UAClassFeatureVariants",
-			"page": 10,
-			"className": "Sorcerer",
-			"classSource": "PHB",
-			"level": 2,
-			"isClassFeatureVariant": true,
-			"consumes": {
-				"name": "Sorcery Point",
-				"amount": 2
-			},
-			"entries": [
-				"When you make an ability check on your turn, you can spend 2 sorcery points to gain advantage on the check."
-			]
-		},
-		{
-			"name": "Imbuing Touch",
-			"source": "UAClassFeatureVariants",
-			"page": 10,
-			"className": "Sorcerer",
-			"classSource": "PHB",
-			"level": 2,
-			"isClassFeatureVariant": true,
-			"entries": [
-				"As an action, you can touch one nonmagical weapon and spend 2 sorcery points to imbue it with magic for 1 minute. For the duration, the weapon is considered magical for the purpose of overcoming immunity and resistance to nonmagical attacks."
-			]
-		},
-		{
-			"name": "Sorcerous Fortitude",
-			"source": "UAClassFeatureVariants",
-			"page": 10,
-			"className": "Sorcerer",
-			"classSource": "PHB",
-			"level": 2,
-			"isClassFeatureVariant": true,
-			"consumes": {
-				"name": "Sorcery Point"
-			},
-			"entries": [
-				"As an action, you can spend any number of sorcery points to roll a {@dice d4} for each point expended. You gain a number of temporary hit points equal to the total rolled."
 			]
 		},
 		{

@@ -73,11 +73,11 @@
 			],
 			"entries": [
 				{
+					"type": "entries",
 					"name": "Age",
 					"entries": [
 						"Changelings mature slightly faster than humans but share a similar lifespan\u2014typically a century or less. While a changeling can shapeshift to conceal their age, the effects of aging still catch up to them."
-					],
-					"type": "entries"
+					]
 				},
 				{
 					"type": "entries",
@@ -124,11 +124,11 @@
 					]
 				},
 				{
+					"type": "entries",
 					"name": "Languages",
 					"entries": [
 						"You can speak, read, and write Common and two other languages of your choice."
-					],
-					"type": "entries"
+					]
 				}
 			]
 		},
@@ -145,8 +145,8 @@
 			"speed": 30,
 			"ability": [
 				{
-					"cha": 1,
 					"wis": 1,
+					"cha": 1,
 					"choose": {
 						"from": [
 							"str",
@@ -176,11 +176,11 @@
 			],
 			"entries": [
 				{
+					"type": "entries",
 					"name": "Age",
 					"entries": [
 						"Kalashtar develop physically at the same rate as humans do and have similar lifespans."
-					],
-					"type": "entries"
+					]
 				},
 				{
 					"type": "entries",
@@ -233,11 +233,11 @@
 					]
 				},
 				{
+					"type": "entries",
 					"name": "Languages",
 					"entries": [
 						"You can speak, read, and write Common, Quori, and one other language of your choice."
-					],
-					"type": "entries"
+					]
 				}
 			]
 		},
@@ -271,11 +271,11 @@
 			],
 			"entries": [
 				{
+					"type": "entries",
 					"name": "Age",
 					"entries": [
 						"Shifters are quick to mature both physically and emotionally, reaching young adulthood at age 10. They rarely live to be more than 70 years old."
-					],
-					"type": "entries"
+					]
 				},
 				{
 					"type": "entries",
@@ -292,11 +292,11 @@
 					]
 				},
 				{
+					"type": "entries",
 					"name": "Darkvision",
 					"entries": [
 						"You have superior vision in dark and dim conditions. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray."
-					],
-					"type": "entries"
+					]
 				},
 				{
 					"type": "entries",
@@ -314,11 +314,11 @@
 					]
 				},
 				{
+					"type": "entries",
 					"name": "Languages",
 					"entries": [
 						"You can speak, read, and write Common."
-					],
-					"type": "entries"
+					]
 				}
 			]
 		},
@@ -359,11 +359,11 @@
 			],
 			"entries": [
 				{
+					"type": "entries",
 					"name": "Age",
 					"entries": [
 						"A typical warforged is between two and thirty years old. The maximum lifespan of the warforged remains a mystery; so far, warforged have shown no signs of deterioration due to age."
-					],
-					"type": "entries"
+					]
 				},
 				{
 					"type": "entries",
@@ -442,11 +442,11 @@
 					]
 				},
 				{
+					"type": "entries",
 					"name": "Languages",
 					"entries": [
 						"You can speak, read, and write Common."
-					],
-					"type": "entries"
+					]
 				}
 			]
 		}

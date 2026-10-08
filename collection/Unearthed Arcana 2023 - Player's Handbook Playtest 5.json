@@ -44,15 +44,6 @@
 				"con"
 			],
 			"startingProficiencies": {
-				"armor": [
-					"light",
-					"medium",
-					"shield"
-				],
-				"weapons": [
-					"simple",
-					"martial"
-				],
 				"skills": [
 					{
 						"choose": {
@@ -67,6 +58,15 @@
 							"count": 2
 						}
 					}
+				],
+				"weapons": [
+					"simple",
+					"martial"
+				],
+				"armor": [
+					"light",
+					"medium",
+					"shield"
 				]
 			},
 			"startingEquipment": {
@@ -83,11 +83,11 @@
 					"str": 13
 				},
 				"proficienciesGained": {
-					"armor": [
-						"shield"
-					],
 					"weapons": [
 						"martial"
+					],
+					"armor": [
+						"shield"
 					]
 				}
 			},
@@ -316,16 +316,6 @@
 				"con"
 			],
 			"startingProficiencies": {
-				"armor": [
-					"light",
-					"medium",
-					"heavy",
-					"shield"
-				],
-				"weapons": [
-					"simple",
-					"martial"
-				],
 				"skills": [
 					{
 						"choose": {
@@ -343,6 +333,16 @@
 							"count": 2
 						}
 					}
+				],
+				"weapons": [
+					"simple",
+					"martial"
+				],
+				"armor": [
+					"light",
+					"medium",
+					"heavy",
+					"shield"
 				]
 			},
 			"startingEquipment": {
@@ -368,13 +368,13 @@
 					]
 				},
 				"proficienciesGained": {
+					"weapons": [
+						"martial"
+					],
 					"armor": [
 						"light",
 						"medium",
 						"shield"
-					],
-					"weapons": [
-						"martial"
 					]
 				}
 			},
@@ -586,9 +586,6 @@
 				}
 			],
 			"startingProficiencies": {
-				"weapons": [
-					"simple"
-				],
 				"skills": [
 					{
 						"choose": {
@@ -603,6 +600,9 @@
 							"count": 2
 						}
 					}
+				],
+				"weapons": [
+					"simple"
 				]
 			},
 			"startingEquipment": {
@@ -1155,13 +1155,6 @@
 				}
 			],
 			"startingProficiencies": {
-				"armor": [
-					"light",
-					"medium"
-				],
-				"weapons": [
-					"simple"
-				],
 				"skills": [
 					{
 						"choose": {
@@ -1177,6 +1170,13 @@
 							"count": 2
 						}
 					}
+				],
+				"weapons": [
+					"simple"
+				],
+				"armor": [
+					"light",
+					"medium"
 				]
 			},
 			"startingEquipment": {
@@ -1593,9 +1593,6 @@
 				}
 			],
 			"startingProficiencies": {
-				"weapons": [
-					"simple"
-				],
 				"skills": [
 					{
 						"choose": {
@@ -1610,6 +1607,9 @@
 							"count": 2
 						}
 					}
+				],
+				"weapons": [
+					"simple"
 				]
 			},
 			"startingEquipment": {
@@ -3138,8 +3138,8 @@
 				"Each boon gives you a choice for the spellcasting ability used by your Spellcasting feature, and it gives you a pact spell that you always have prepared.",
 				{
 					"type": "list",
-					"style": "list-hang",
 					"name": "Pact of the Blade",
+					"style": "list-hang",
 					"items": [
 						{
 							"type": "item",
@@ -3155,8 +3155,8 @@
 				},
 				{
 					"type": "list",
-					"style": "list-hang",
 					"name": "Pact of the Chain",
+					"style": "list-hang",
 					"items": [
 						{
 							"type": "item",
@@ -3172,8 +3172,8 @@
 				},
 				{
 					"type": "list",
-					"style": "list-hang",
 					"name": "Pact of the Tome",
+					"style": "list-hang",
 					"items": [
 						{
 							"type": "item",

@@ -442,25 +442,25 @@
 					]
 				},
 				{
+					"type": "entries",
 					"name": "Duplicity",
 					"entries": [
 						"You gain proficiency in the {@skill Deception} skill."
-					],
-					"type": "entries"
+					]
 				},
 				{
+					"type": "entries",
 					"name": "Shapechanger",
 					"entries": [
 						"As an action, you can polymorph into any humanoid of your size that you have seen, or back into your true form. However, your equipment does not change with you. If you die, you revert to your natural appearance."
-					],
-					"type": "entries"
+					]
 				},
 				{
+					"type": "entries",
 					"name": "Languages",
 					"entries": [
 						"You can speak, read, and write Common and two other languages of your choice."
-					],
-					"type": "entries"
+					]
 				}
 			]
 		},
@@ -496,27 +496,27 @@
 					]
 				},
 				{
+					"type": "entries",
 					"name": "Darkvision",
 					"entries": [
 						"Your lycanthropic heritage grants you the ability to see in dark conditions. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray."
-					],
-					"type": "entries"
+					]
 				},
 				{
+					"type": "entries",
 					"name": "Shifting",
 					"entries": [
 						"On your turn, you can shift as a bonus action. Shifting lasts for 1 minute or until you end it on your turn as a bonus action.",
 						"While shifting, you gain temporary hit points equal to your level + your Constitution bonus (minimum of 1). You also gain a feature that depends on your shifter subrace, described below.",
 						"You must finish a short or long rest before you can shift again."
-					],
-					"type": "entries"
+					]
 				},
 				{
+					"type": "entries",
 					"name": "Languages",
 					"entries": [
 						"You can speak, read, and write Common and Sylvan."
-					],
-					"type": "entries"
+					]
 				}
 			]
 		},
@@ -559,26 +559,26 @@
 					]
 				},
 				{
+					"type": "entries",
 					"name": "Composite Plating",
 					"entries": [
 						"Your construction incorporates wood and metal, granting you a +1 bonus to Armor Class."
-					],
-					"type": "entries"
+					]
 				},
 				{
+					"type": "entries",
 					"name": "Living Construct",
 					"entries": [
 						"Even though you were constructed, you are a living creature. You are immune to disease. You do not need to eat or breathe, but you can ingest food and drink if you wish.",
 						"Instead of sleeping, you enter an inactive state for 4 hours each day. You do not dream in this state; you are fully aware of your surroundings and notice approaching enemies and other events as normal."
-					],
-					"type": "entries"
+					]
 				},
 				{
+					"type": "entries",
 					"name": "Languages",
 					"entries": [
 						"You can speak, read, and write Common and one other language of your choice."
-					],
-					"type": "entries"
+					]
 				}
 			]
 		}
@@ -603,11 +603,11 @@
 			],
 			"entries": [
 				{
+					"type": "entries",
 					"name": "Shifting Feature",
 					"entries": [
 						"While shifting, you gain a +1 bonus to AC."
-					],
-					"type": "entries"
+					]
 				}
 			]
 		},
@@ -624,11 +624,11 @@
 			],
 			"entries": [
 				{
+					"type": "entries",
 					"name": "Shifting Feature",
 					"entries": [
 						"While shifting, you gain a climb speed of 30 feet."
-					],
-					"type": "entries"
+					]
 				}
 			]
 		},
@@ -645,11 +645,11 @@
 			],
 			"entries": [
 				{
+					"type": "entries",
 					"name": "Shifting Feature",
 					"entries": [
 						"While shifting, you can use the {@action Dash} action as a bonus action."
-					],
-					"type": "entries"
+					]
 				}
 			]
 		},
@@ -669,11 +669,11 @@
 			],
 			"entries": [
 				{
+					"type": "entries",
 					"name": "Shifting Feature",
 					"entries": [
 						"While shifting, you can make a bite attack as an action. This is a melee weapon attack that uses Strength for its attack roll and damage bonus and deals {@dice 1d6} piercing damage. If this attack hits a target that is your size or smaller, the target is also {@condition grappled}."
-					],
-					"type": "entries"
+					]
 				}
 			]
 		},
@@ -693,11 +693,11 @@
 			],
 			"entries": [
 				{
+					"type": "entries",
 					"name": "Shifting Feature",
 					"entries": [
 						"While shifting, you can make an unarmed strike as a bonus action. You can use your Dexterity for its attack roll and damage bonus, and this attack deals slashing damage."
-					],
-					"type": "entries"
+					]
 				}
 			]
 		},
@@ -717,11 +717,11 @@
 			],
 			"entries": [
 				{
+					"type": "entries",
 					"name": "Shifting Feature",
 					"entries": [
 						"While shifting, you gain advantage on all Wisdom-based checks and saving throws."
-					],
-					"type": "entries"
+					]
 				}
 			]
 		}

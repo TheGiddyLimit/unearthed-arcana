@@ -46,22 +46,6 @@
 				}
 			],
 			"startingProficiencies": {
-				"armor": [
-					"light",
-					"shield"
-				],
-				"weapons": [
-					"simple",
-					"martial"
-				],
-				"tools": [
-					"{@item herbalism kit|PHB}"
-				],
-				"toolProficiencies": [
-					{
-						"herbalism kit": true
-					}
-				],
 				"skills": [
 					{
 						"choose": {
@@ -78,6 +62,22 @@
 							"count": 3
 						}
 					}
+				],
+				"weapons": [
+					"simple",
+					"martial"
+				],
+				"tools": [
+					"{@item herbalism kit|PHB}"
+				],
+				"toolProficiencies": [
+					{
+						"herbalism kit": true
+					}
+				],
+				"armor": [
+					"light",
+					"shield"
 				]
 			},
 			"startingEquipment": {

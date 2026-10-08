@@ -2073,6 +2073,7 @@
 				{
 					"type": "section",
 					"name": "Downtime",
+					"id": "000",
 					"page": 1,
 					"entries": [
 						"In a typical campaign, it's possible for the characters to start at 1st level, dive into an epic story, and reach 10th level and beyond in a short amount of time. While that pace works fine for many campaigns, some DMs prefer a campaign with pauses built into it\u2014times when adventurers do things other than go on adventures.",
@@ -2082,59 +2083,60 @@
 						{
 							"type": "entries",
 							"name": "Overview",
+							"id": "001",
 							"page": 1,
 							"entries": [
 								"The downtime system presented here is built on two basic elements.",
 								"First, it offers short-term activities, ones that can usually be completed in a workweek (5 days) or longer. These activities cover what characters at levels 1\u201310 might do between adventures. It includes buying or creating magic items, pulling off heists, and working a job. Higher level characters can also use these activities, but they have the resources and power to take on greater ambitions beyond the scope of these rules.",
 								"Second, this downtime system introduces the concept of foils. Foils are NPCs who oppose the characters or whose goals put them against the party. A foil might be a villain who wishes to destroy the characters, or a good-aligned cleric who sees the characters as meddlers and troublemakers. Foils work their plots while the characters engage in downtime activities, introducing interesting complications to the campaign."
-							],
-							"id": "001"
+							]
 						},
 						{
 							"type": "entries",
 							"name": "The Basics",
+							"id": "002",
 							"page": 1,
 							"entries": [
 								"The downtime system allows characters to pursue long-term activities between game sessions. A character selects a downtime activity and pays the cost of that activity in time and money. You, as DM, then follow the rules for the activity to resolve it, informing the player of the results and any complications that ensue.",
 								{
 									"type": "entries",
 									"name": "Choosing an Activity",
+									"id": "003",
 									"page": 1,
 									"entries": [
 										"As DM, you should present the players with a list of activities they can pursue. These activities work for characters of any level.",
 										"The activities you allow depend on your campaign and the nature of the area where the characters are. For example, you might disallow the creation of magic items, or decide that the characters are in a town that is too isolated from major markets for them to buy such items. You decide which a ctivities are available, not the players. Consider handling downtime away from the game table. For example, you could have the players pick their activities at the end of a session, by email or text, or when you next see them in person."
-									],
-									"id": "003"
+									]
 								},
 								{
 									"type": "entries",
 									"name": "Resolving Activities",
+									"id": "004",
 									"page": 1,
 									"entries": [
 										"Each activity tells you how to resolve it. Many require a check, so be sure to note the character's bonuses as needed. Follow the steps in the activity and determine the results.",
 										"Most activities require a workweek (5 days) or more to complete. Some activities require days, weeks (7 days apiece), or months (30 days apiece). A character must spend 8 hours of each day engaged in the downtime activity for that day to count toward the activity's completion. The days don't need to be consecutive.",
 										"If you want multiple weeks to pass in the campaign world between sessions, report back the results of any downtime activities and ask for each character's next moves. Otherwise, you can send out the results to each player by text or email, or catch the players up at the start of the next session.",
 										"If an activity requires some decisions, you can have the players decide either before the next session or at the start of it. Some DMs like to focus on the activity, but for some groups it's a good idea to let the players talk things out, so long as it doesn't drag out and eat up too much time at the game table."
-									],
-									"id": "004"
+									]
 								},
 								{
 									"type": "entries",
 									"name": "Complications",
+									"id": "005",
 									"page": 2,
 									"entries": [
 										"Each activity includes complications you can throw at the characters. Complications are meant to add flavor, depth, and drama to the campaign. They might spawn entire adventures, introduce NPCs who vex the party, and give the characters headaches as they try to navigate the politics and social network of the community they're in.",
 										"In general, there is a {@chance 10|10 percent} chance that a given activity has a complication. You can use them more or less often, depending on what you feel is best for your campaign.",
 										"Complications can also come from the party's foils, as described below. In the complication table for an activity, the options that are most likely to involve a foil are marked."
-									],
-									"id": "005"
+									]
 								}
-							],
-							"id": "002"
+							]
 						},
 						{
 							"type": "entries",
 							"name": "Foils",
+							"id": "006",
 							"page": 2,
 							"entries": [
 								"Foils are NPCs who actively oppose the characters. They might be villains you have featured in past adventures or plan to use in the future. They can also include good or neutral folk who are at odds with the characters, whether because they are rivals, they have opposing goals, or they simply dislike one another.",
@@ -2143,6 +2145,7 @@
 								{
 									"type": "entries",
 									"name": "Creating a Foil",
+									"id": "007",
 									"page": 2,
 									"entries": [
 										"The first step in creating a foil is building an NPC or picking one from your current cast of characters.",
@@ -2242,41 +2245,41 @@
 												]
 											]
 										}
-									],
-									"id": "007"
+									]
 								},
 								{
 									"type": "entries",
 									"name": "Motivation",
+									"id": "008",
 									"page": 2,
 									"entries": [
 										"An effective foil has a clear reason for interfering with the characters' plans. Think about what the foil wants, how and why the characters stand in the way, and how the conflict could be resolved.",
 										"Motivation is the why behind a foil's actions. It's the foundation for the NPC's role in the campaign. The Example Foils table offers some examples you can build from."
-									],
-									"id": "008"
+									]
 								},
 								{
 									"type": "entries",
 									"name": "Goals",
+									"id": "009",
 									"page": 3,
 									"entries": [
 										"Once you know a foil's motivation, consider possible goals. What outcome is the foil trying to create? Ideally, this outcome involves the characters or something they care about. The foil might want to take over the town, slay one or all of the characters, or help a certain temple become the center of the most powerful religion in the region."
-									],
-									"id": "009"
+									]
 								},
 								{
 									"type": "entries",
 									"name": "Assets",
+									"id": "00a",
 									"page": 3,
 									"entries": [
 										"Think about the resources that the foil can call upon. Is there money for bribes? Is there a small army of obedient fanatics? Does the foil hold sway over any guilds, temples, or groups?",
 										"Make a list of the foil's assets, and consider how they can be used."
-									],
-									"id": "00a"
+									]
 								},
 								{
 									"type": "entries",
 									"name": "Actions",
+									"id": "00b",
 									"page": 3,
 									"entries": [
 										"With the what and why covered, the meat of a foil's presence in the campaign comes down to actions. Make a list of three or four actions the foil might take.",
@@ -2284,31 +2287,31 @@
 										"Actions should build a path toward achieving the NPC's goals. For each action, make note of NPCs who might change in response to it, what it might change in the town's politics, and so on. Of course, if the characters get involved, those outcomes might change.",
 										"The concept behind actions is simple. They show the characters that the campaign is a living world by making the foils participants in the campaign's action.",
 										"The examples of complications given for downtime activities are ideal plans for a foil to make against the characters. Use them as inspiration for plans of your own creation, or throw them, as written, at the characters when it seems appropriate. You can use a complication in place of a foil's actions, or in addition to one. Not every bad thing that happens to the characters is caused by a foil. Some events might just be due to bad luck."
-									],
-									"id": "00b"
+									]
 								},
 								{
 									"type": "entries",
 									"name": "Events",
+									"id": "00c",
 									"page": 3,
 									"entries": [
 										"In addition to actions, consider how the campaign setting might shift due to the foil's influence. What are the background events, changes in attitudes, and anything else that might occur to illustrate a foil's influence?",
 										"Imagine if the characters do nothing to oppose a foil. What happens next? How does the world change? Introduce such events along with the foil's actions to make your campaign feel alive. You can use an event in place of an action, especially if a session isn't going to involve a foil. Events are also a good way to show the influence of multiple foils, without having all of them take action against the characters at once. Events let foils have their time in the spotlight without causing the other ones to fade away completely."
-									],
-									"id": "00c"
+									]
 								},
 								{
 									"type": "entries",
 									"name": "Revise",
+									"id": "00d",
 									"page": 3,
 									"entries": [
 										"Remember that foils are characters who can change over time. If the characters thwart one plan, a foil might pursue another. A foil might also become an ally, or achieve all goals and thus become inactive. Between sessions, revise your foils as needed to account for how things have progressed in the campaign."
-									],
-									"id": "00d"
+									]
 								},
 								{
 									"type": "entries",
 									"name": "Example Foil: Myron Rodemus",
+									"id": "00e",
 									"page": 3,
 									"entries": [
 										"The Rodemus clan was once a small but powerful family of traders, but thirty years ago, they pulled up stakes and left town overnight. Now, Myron Rodemus, the family's youngest son, has returned to the city to reclaim his family's place of prestige.",
@@ -2316,24 +2319,25 @@
 										{
 											"type": "entries",
 											"name": "Goals",
+											"id": "00f",
 											"page": 4,
 											"entries": [
 												"Myron wants to become the most respected, most important merchant in town, someone to whom even the prince must yield."
-											],
-											"id": "00f"
+											]
 										},
 										{
 											"type": "entries",
 											"name": "Assets",
+											"id": "010",
 											"page": 4,
 											"entries": [
 												"He has a small fortune in gold; his own skills as a wererat, alchemist, and necromancer; a group of wererats that is dedicated to him; the service of twin dwarf sisters who are superb assassins; a shield guardian that protects him; and an alliance with a hobgoblin lord, who lives in the mountains outside of the city."
-											],
-											"id": "010"
+											]
 										},
 										{
 											"type": "entries",
 											"name": "Actions",
+											"id": "011",
 											"page": 4,
 											"entries": [
 												"Myron works to discredit and ruin other merchants. His wererats spy on his rivals and feed information to the hobgoblins, leading them to raid caravans. The wererats sneak into warehouses, unleashing hordes of rats to spoil goods. Myron even throws a few of his own caravans and warehouses away to throw off suspicion.",
@@ -2376,39 +2380,39 @@
 														]
 													]
 												}
-											],
-											"id": "011"
+											]
 										},
 										{
 											"type": "entries",
 											"name": "Example Foil: Temple of Pholtus",
+											"id": "012",
 											"page": 4,
 											"entries": [
 												"The temple of Pholtus, inflexible god of the sun, seeks to impose its strict rules. The high priest, Cheldar, wishes to bring as many folk as possible under the temple's sway. Though only in town for two years, the temple is already a powerful force due to Cheldar's brilliant oration."
-											],
-											"id": "012"
+											]
 										},
 										{
 											"type": "entries",
 											"name": "Goals",
+											"id": "013",
 											"page": 4,
 											"entries": [
 												"Cheldar wants to make the temple of Pholtus the most influential religion in town by bringing about peace and stability for all. He believes keeping adventurers in check or driving them out of town is an important step in that plan."
-											],
-											"id": "013"
+											]
 										},
 										{
 											"type": "entries",
 											"name": "Assets",
+											"id": "014",
 											"page": 4,
 											"entries": [
 												"The high priest Cheldar has his charismatic oration, divine spellcasting ability, and a few hundred common folk recently converted to the temple's cause."
-											],
-											"id": "014"
+											]
 										},
 										{
 											"type": "entries",
 											"name": "Actions",
+											"id": "015",
 											"page": 4,
 											"entries": [
 												"Cheldar is stern, but fundamentally a good person. He seeks to win support by providing charity, promoting peace, and working to enforce law and order. However, he is skeptical of the characters, convinced that adventurers are troublemakers who will ruin the peace. He wants only officials of the town or the temple to be involved in handling any crises that arise. He genuinely believes in his goals, but can be made an ally by sufficiently good-hearted characters.",
@@ -2446,18 +2450,16 @@
 														]
 													]
 												}
-											],
-											"id": "015"
+											]
 										}
-									],
-									"id": "00e"
+									]
 								}
-							],
-							"id": "006"
+							]
 						},
 						{
 							"type": "section",
 							"name": "Sample Downtime Activities",
+							"id": "016",
 							"page": 5,
 							"entries": [
 								"The following activities are available for any character who can afford to pursue them. As DM, you have final say on which activities are available to the characters.",
@@ -2480,11 +2482,9 @@
 										"{@variantrule Work|UADowntime}"
 									]
 								}
-							],
-							"id": "016"
+							]
 						}
-					],
-					"id": "000"
+					]
 				}
 			]
 		}

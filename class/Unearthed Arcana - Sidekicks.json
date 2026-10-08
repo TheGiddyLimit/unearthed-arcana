@@ -559,13 +559,13 @@
 			"source": "UASidekicks",
 			"entries": [
 				{
-					"name": "Expert Sidekick",
 					"type": "section",
+					"name": "Expert Sidekick",
+					"source": "UASidekicks",
+					"page": 3,
 					"entries": [
 						"The expert is a master of certain tasks or knowledge. This sidekick follows a path that favors cunning over brawn or spellcasting. It might be a scout, a musician, a librarian, a clever street kid, a wily merchant, or a burglar."
-					],
-					"source": "UASidekicks",
-					"page": 3
+					]
 				}
 			]
 		},
@@ -574,13 +574,13 @@
 			"source": "UASidekicks",
 			"entries": [
 				{
-					"name": "Spellcaster Sidekick",
 					"type": "section",
+					"name": "Spellcaster Sidekick",
+					"source": "UASidekicks",
+					"page": 4,
 					"entries": [
 						"A sidekick who becomes a spellcaster walks the paths of magic. The sidekick might be a hedge wizard, a priest, a soothsayer, a spell-wielding performer, or a person with magic in their veins."
-					],
-					"source": "UASidekicks",
-					"page": 4
+					]
 				}
 			]
 		},
@@ -589,13 +589,13 @@
 			"source": "UASidekicks",
 			"entries": [
 				{
-					"name": "Warrior Sidekick",
 					"type": "section",
+					"name": "Warrior Sidekick",
+					"source": "UASidekicks",
+					"page": 2,
 					"entries": [
 						"A warrior sidekick grows in martial prowess as it fights by your side. It might be a soldier, a town guard, a battle-trained beast, or any other creature honed for combat."
-					],
-					"source": "UASidekicks",
-					"page": 2
+					]
 				}
 			]
 		}

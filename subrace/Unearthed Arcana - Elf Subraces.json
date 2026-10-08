@@ -39,18 +39,18 @@
 			],
 			"entries": [
 				{
+					"type": "entries",
 					"name": "Extra Language",
 					"entries": [
 						"You can speak, read, and write Auran."
-					],
-					"type": "entries"
+					]
 				},
 				{
+					"type": "entries",
 					"name": "Flight",
 					"entries": [
 						"You have a flying speed of 30 feet. To use this speed, you can't be wearing medium or heavy armor."
-					],
-					"type": "entries"
+					]
 				}
 			]
 		},
@@ -96,28 +96,28 @@
 			],
 			"entries": [
 				{
+					"type": "entries",
 					"name": "Languages",
 					"entries": [
 						"You can speak, read, and write Sylvan, Elvish, and one extra language of your choice. Elvish is fluid, with subtle intonations and intricate grammar. Elven literature is rich and varied, and their songs and poems are famous among other races. Many bards learn their language so they can add Elvish ballads to their repertoires."
 					],
 					"data": {
 						"overwrite": "Languages"
-					},
-					"type": "entries"
+					}
 				},
 				{
+					"type": "entries",
 					"name": "Grugach Weapon Training",
 					"entries": [
 						"You have proficiency with the {@item spear|phb}, {@item shortbow|phb}, {@item longbow|phb}, and {@item net|phb}."
-					],
-					"type": "entries"
+					]
 				},
 				{
+					"type": "entries",
 					"name": "Cantrip",
 					"entries": [
 						"You know one cantrip of your choice from the {@filter druid spell list|spells|class=druid|level=0}. Wisdom is your spellcasting ability for it."
-					],
-					"type": "entries"
+					]
 				}
 			],
 			"overwrite": {
@@ -159,32 +159,32 @@
 			],
 			"entries": [
 				{
+					"type": "entries",
 					"name": "Extra Language",
 					"entries": [
 						"You can speak, read, and write Aquan."
-					],
-					"type": "entries"
+					]
 				},
 				{
+					"type": "entries",
 					"name": "Sea Elf Weapon Training",
 					"entries": [
 						"You have proficiency with the {@item spear|phb}, {@item trident|phb}, {@item light crossbow|phb}, and {@item net|phb}."
-					],
-					"type": "entries"
+					]
 				},
 				{
+					"type": "entries",
 					"name": "Child of the Sea",
 					"entries": [
 						"You have a swimming speed of 30 feet, and you can breathe air and water."
-					],
-					"type": "entries"
+					]
 				},
 				{
+					"type": "entries",
 					"name": "Friend of the Sea",
 					"entries": [
 						"Using gestures and sounds, you can communicate simple ideas with Small or smaller beasts that have an inborn swimming speed."
-					],
-					"type": "entries"
+					]
 				}
 			]
 		},
@@ -237,28 +237,28 @@
 			],
 			"entries": [
 				{
+					"type": "entries",
 					"name": "Languages",
 					"entries": [
 						"You can speak, read, and write Common, Elvish, and one extra language of your choice. Elvish is fluid, with subtle intonations and intricate grammar. Elven literature is rich and varied, and their songs and poems are famous among other races. Many bards learn their language so they can add Elvish ballads to their repertoires."
 					],
 					"data": {
 						"overwrite": "Languages"
-					},
-					"type": "entries"
+					}
 				},
 				{
+					"type": "entries",
 					"name": "Cantrip",
 					"entries": [
 						"You know one of the following cantrips of your choice: {@spell chill touch}, {@spell spare the dying}, or {@spell thaumaturgy}. Charisma is your spellcasting ability for it."
-					],
-					"type": "entries"
+					]
 				},
 				{
+					"type": "entries",
 					"name": "Blessing of the Raven Queen",
 					"entries": [
 						"As a bonus action, you can magically teleport up to 15 feet to an unoccupied space you can see, and you gain resistance to all damage until the start of your next turn. During that time, you appear ghostly and translucent. Once you use this ability, you can't use it again until you finish a short or long rest."
-					],
-					"type": "entries"
+					]
 				}
 			],
 			"overwrite": {

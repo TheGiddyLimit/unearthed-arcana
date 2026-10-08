@@ -190,10 +190,21 @@
 				}
 			],
 			"startingProficiencies": {
-				"armor": [
-					"light",
-					"medium",
-					"shield"
+				"skills": [
+					{
+						"choose": {
+							"from": [
+								"arcana",
+								"history",
+								"investigation",
+								"medicine",
+								"nature",
+								"perception",
+								"sleight of hand"
+							],
+							"count": 2
+						}
+					}
 				],
 				"weapons": [
 					"simple",
@@ -216,21 +227,10 @@
 						"anyArtisansTool": 1
 					}
 				],
-				"skills": [
-					{
-						"choose": {
-							"from": [
-								"arcana",
-								"history",
-								"investigation",
-								"medicine",
-								"nature",
-								"perception",
-								"sleight of hand"
-							],
-							"count": 2
-						}
-					}
+				"armor": [
+					"light",
+					"medium",
+					"shield"
 				]
 			},
 			"startingEquipment": {
@@ -278,11 +278,6 @@
 					"int": 13
 				},
 				"proficienciesGained": {
-					"armor": [
-						"light",
-						"medium",
-						"shield"
-					],
 					"tools": [
 						"{@item thieves' tools|PHB}",
 						"{@item tinker's tools|PHB}"
@@ -292,6 +287,11 @@
 							"thieves' tools": true,
 							"tinker's tools": true
 						}
+					],
+					"armor": [
+						"light",
+						"medium",
+						"shield"
 					]
 				}
 			},
@@ -600,10 +600,10 @@
 			"source": "UAArtificerRevisited",
 			"entries": [
 				{
-					"name": "Artificer",
-					"page": 1,
-					"source": "UAArtificerRevisited",
 					"type": "section",
+					"name": "Artificer",
+					"source": "UAArtificerRevisited",
+					"page": 1,
 					"entries": [
 						"Masters of unlocking magic in everyday objects, artificers are supreme inventors. They see magic as a complex system waiting to be decoded and controlled. Artificers use tools to channel arcane power, crafting temporary and permanent magical objects. To cast a spell, an artificer could use {@item alchemist's supplies|PHB} to create a potent elixir, {@item calligrapher's supplies|PHB} to inscribe a sigil of power on an ally's armor, or {@item tinker's tools|PHB} to craft a temporary charm. The magic of artificers is tied to their tools and their talents.",
 						{

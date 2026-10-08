@@ -30,8 +30,8 @@
 			"page": 1,
 			"ability": [
 				{
-					"cha": 2,
-					"con": 1
+					"con": 1,
+					"cha": 2
 				}
 			],
 			"traitTags": [
@@ -86,6 +86,7 @@
 			],
 			"entries": [
 				{
+					"type": "entries",
 					"name": "Abyssal Arcana",
 					"entries": [
 						"Each time you finish a long rest, you gain the ability to cast cantrips and spells randomly determined from a short list. At 1st level, you can cast a cantrip. When you reach 3rd level, you can also cast a 1st-level spell. At 5th level, you can cast a 2nd-level spell.",
@@ -146,30 +147,29 @@
 							]
 						}
 					],
-					"type": "entries",
 					"data": {
 						"overwrite": "Infernal Legacy"
 					}
 				},
 				{
+					"type": "entries",
 					"name": "Abyssal Fortitude",
 					"entries": [
 						"Your hit point maximum increases by half your level (minimum 1)."
 					],
 					"data": {
 						"overwrite": "Hellish Resistance"
-					},
-					"type": "entries"
+					}
 				},
 				{
+					"type": "entries",
 					"name": "Languages",
 					"entries": [
 						"You can speak, read, and write Common and Abyssal."
 					],
 					"data": {
 						"overwrite": "Languages"
-					},
-					"type": "entries"
+					}
 				}
 			],
 			"overwrite": {

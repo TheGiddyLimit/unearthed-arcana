@@ -47,8 +47,8 @@
 			],
 			"entries": [
 				{
-					"name": "Age",
 					"type": "entries",
+					"name": "Age",
 					"entries": [
 						"Gith reach adulthood in their late teens and live for about a century."
 					]
@@ -61,11 +61,11 @@
 					]
 				},
 				{
+					"type": "entries",
 					"name": "Languages",
 					"entries": [
 						"You can speak, read, and write Common and Gith."
-					],
-					"type": "entries"
+					]
 				}
 			]
 		}
@@ -105,13 +105,14 @@
 			],
 			"entries": [
 				{
+					"type": "entries",
 					"name": "Fey Step",
 					"entries": [
 						"As a bonus action, you can magically teleport up to 30 feet to an unoccupied space you can see. Once you use this trait, you can't do so again until you finish a short or long rest."
-					],
-					"type": "entries"
+					]
 				},
 				{
+					"type": "entries",
 					"name": "Shifting Seasons",
 					"entries": [
 						"At the end of each short or long rest, you can align yourself with the magic of one season, regardless of the season that is dominating your personality. Doing so allows you to cast a certain cantrip, as shown in the Shifting Seasons Cantrips table. When you align yourself with a season's magic, you lose the cantrip associated with the previous season and gain the cantrip associated with the new season.",
@@ -146,8 +147,7 @@
 								]
 							]
 						}
-					],
-					"type": "entries"
+					]
 				}
 			]
 		},
@@ -215,33 +215,33 @@
 			],
 			"entries": [
 				{
-					"name": "Alignment",
 					"type": "entries",
+					"name": "Alignment",
 					"entries": [
 						"Githyanki tend toward lawful evil. They are self-centered, violent, and arrogant, yet they remain the faithful servants of their lich-queen, Vlaakith. Renegade githyanki tend toward chaos as they have forsaken her will."
 					]
 				},
 				{
+					"type": "entries",
 					"name": "Decadent Mastery",
 					"entries": [
 						"You learn one language of your choice, and you are proficient with one skill or {@book tool|phb|5|tools} of your choice. In the timeless city of Tu'narath, githyanki have bountiful time to master odd bits of knowledge."
-					],
-					"type": "entries"
+					]
 				},
 				{
+					"type": "entries",
 					"name": "Martial Prodigy",
 					"entries": [
 						"You are proficient with light and medium armor. Your people are ever ready for war."
-					],
-					"type": "entries"
+					]
 				},
 				{
+					"type": "entries",
 					"name": "Githyanki Psionics",
 					"entries": [
 						"You know the {@spell mage hand} cantrip. When you reach 3rd level, you can cast {@spell jump} once with this trait, and you regain the ability to do so when you finish a long rest. When you reach 5th level, you can cast the {@spell misty step} spell once with this trait, and you regain the ability to do so when you finish a long rest.",
 						"Intelligence is your spellcasting ability for these spells. You can cast all of them without components."
-					],
-					"type": "entries"
+					]
 				}
 			]
 		},
@@ -290,26 +290,26 @@
 			],
 			"entries": [
 				{
-					"name": "Alignment",
 					"type": "entries",
+					"name": "Alignment",
 					"entries": [
 						"Githzerai tend toward lawful neutral. Their rigorous training in psychic abilities requires an implacable mental discipline."
 					]
 				},
 				{
+					"type": "entries",
 					"name": "Monastic Training",
 					"entries": [
 						"You gain a +1 bonus to AC while you aren't wearing medium or heavy armor and aren't using a shield. All githzerai receive basic training from monks, and the monks among them are unmatched in their defensive abilities."
-					],
-					"type": "entries"
+					]
 				},
 				{
+					"type": "entries",
 					"name": "Githzerai Psionics",
 					"entries": [
 						"You know the {@spell mage hand} cantrip. When you reach 3rd level, you can cast {@spell shield} once with this trait, and you regain the ability to do so when you finish a long rest. When you reach 5th level, you can cast the {@spell detect thoughts} spell once with this trait, and you regain the ability to do so when you finish a long rest.",
 						"Wisdom is your spellcasting ability for these spells. You can cast all of them without components."
-					],
-					"type": "entries"
+					]
 				}
 			]
 		}

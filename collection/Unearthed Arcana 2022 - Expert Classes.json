@@ -79,8 +79,10 @@
 				}
 			],
 			"startingProficiencies": {
-				"armor": [
-					"light"
+				"skills": [
+					{
+						"any": 3
+					}
 				],
 				"weapons": [
 					"simple"
@@ -93,10 +95,8 @@
 						"anyMusicalInstrument": 3
 					}
 				],
-				"skills": [
-					{
-						"any": 3
-					}
+				"armor": [
+					"light"
 				]
 			},
 			"startingEquipment": {
@@ -115,17 +115,6 @@
 					"cha": 13
 				},
 				"proficienciesGained": {
-					"armor": [
-						"light"
-					],
-					"tools": [
-						"one {@item musical instrument|PHB} of your choice"
-					],
-					"toolProficiencies": [
-						{
-							"anyMusicalInstrument": 1
-						}
-					],
 					"skills": [
 						{
 							"choose": {
@@ -152,6 +141,17 @@
 								"count": 1
 							}
 						}
+					],
+					"tools": [
+						"one {@item musical instrument|PHB} of your choice"
+					],
+					"toolProficiencies": [
+						{
+							"anyMusicalInstrument": 1
+						}
+					],
+					"armor": [
+						"light"
 					]
 				}
 			},
@@ -751,14 +751,6 @@
 				}
 			],
 			"startingProficiencies": {
-				"armor": [
-					"medium",
-					"light"
-				],
-				"weapons": [
-					"simple",
-					"martial"
-				],
 				"skills": [
 					{
 						"choose": {
@@ -775,6 +767,14 @@
 							"count": 3
 						}
 					}
+				],
+				"weapons": [
+					"simple",
+					"martial"
+				],
+				"armor": [
+					"medium",
+					"light"
 				]
 			},
 			"startingEquipment": {
@@ -796,14 +796,6 @@
 					"wis": 13
 				},
 				"proficienciesGained": {
-					"weapons": [
-						"martial"
-					],
-					"armor": [
-						"light",
-						"medium",
-						"shield"
-					],
 					"skills": [
 						{
 							"choose": {
@@ -830,6 +822,14 @@
 								"count": 1
 							}
 						}
+					],
+					"weapons": [
+						"martial"
+					],
+					"armor": [
+						"light",
+						"medium",
+						"shield"
 					]
 				}
 			},
@@ -1110,21 +1110,6 @@
 			"spellcastingAbility": "wis",
 			"casterProgression": "full",
 			"startingProficiencies": {
-				"armor": [
-					"light"
-				],
-				"weapons": [
-					"simple",
-					"martial"
-				],
-				"tools": [
-					"{@item thieves' tools|PHB}"
-				],
-				"toolProficiencies": [
-					{
-						"thieves' tools": true
-					}
-				],
 				"skills": [
 					{
 						"choose": {
@@ -1143,6 +1128,21 @@
 							"count": 4
 						}
 					}
+				],
+				"weapons": [
+					"simple",
+					"martial"
+				],
+				"tools": [
+					"{@item thieves' tools|PHB}"
+				],
+				"toolProficiencies": [
+					{
+						"thieves' tools": true
+					}
+				],
+				"armor": [
+					"light"
 				]
 			},
 			"startingEquipment": {
@@ -1164,20 +1164,6 @@
 					"dex": 13
 				},
 				"proficienciesGained": {
-					"weapons": [
-						"martial"
-					],
-					"armor": [
-						"light"
-					],
-					"tools": [
-						"{@item thieves' tools|PHB}"
-					],
-					"toolProficiencies": [
-						{
-							"thieves' tools": true
-						}
-					],
 					"skills": [
 						{
 							"choose": {
@@ -1196,6 +1182,20 @@
 								"count": 4
 							}
 						}
+					],
+					"weapons": [
+						"martial"
+					],
+					"tools": [
+						"{@item thieves' tools|PHB}"
+					],
+					"toolProficiencies": [
+						{
+							"thieves' tools": true
+						}
+					],
+					"armor": [
+						"light"
 					]
 				}
 			},

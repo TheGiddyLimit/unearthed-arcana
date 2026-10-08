@@ -55,6 +55,7 @@
 				{
 					"type": "section",
 					"name": "Quick Characters",
+					"id": "000",
 					"page": 1,
 					"entries": [
 						"Sometimes you need quick characters for a D&D session. Whether you're running an impromptu game with limited time for character creation, you want to get a new player into an established game quickly, or you need a new PC to replace a dead adventurer, these optional rules are for you. These rules can be used instead of the normal process of character creation, replacing the choice and creativity of that process with a series of tables that quickly generate a 1st-level character.",
@@ -62,6 +63,7 @@
 						{
 							"type": "entries",
 							"name": "Alignment",
+							"id": "001",
 							"page": 1,
 							"entries": [
 								"Roll a {@dice d6} to determine your character's alignment.",
@@ -102,12 +104,12 @@
 										]
 									]
 								}
-							],
-							"id": "001"
+							]
 						},
 						{
 							"type": "entries",
 							"name": "Background",
+							"id": "002",
 							"page": 1,
 							"entries": [
 								"Backgrounds already make use of random tables to flesh out your character, and are easy to apply. You can roll a {@dice d6} to determine your character's background if you're using the Basic Rules, or roll a {@dice d20} to use the full list of backgrounds from the Player's Handbook.",
@@ -308,12 +310,12 @@
 									]
 								},
 								"In place of a background feature, once during any game session, you can pick a nonplayer character you meet and declare that your character knows that NPC. The relationship is respectful but not necessarily friendly. The DM determines the exact nature of your relationship."
-							],
-							"id": "002"
+							]
 						},
 						{
 							"type": "entries",
 							"name": "Class and Abilities",
+							"id": "003",
 							"page": 2,
 							"entries": [
 								"Roll a {@dice d6} to determine your class from the following table, which is more likely to generate a fighter or cleric than a rogue or wizard. Especially if you're randomly generating an entire party, tilting the odds in favor of fighters and clerics can help shore up a group's ability to survive in combat. Alternatively (or if you're generating a single character joining an already balanced party), you can roll a {@dice d4} and give each class an equal chance of being generated.",
@@ -392,54 +394,54 @@
 								},
 								{
 									"type": "entries",
+									"id": "004",
 									"entries": [
 										{
 											"type": "entries",
 											"name": "Cleric",
+											"id": "005",
 											"page": 2,
 											"entries": [
 												"Wisdom, Strength, Constitution, Charisma, Dexterity, Intelligence."
-											],
-											"id": "005"
+											]
 										},
 										{
 											"type": "entries",
 											"name": "Fighter",
+											"id": "006",
 											"page": 2,
 											"entries": [
 												"Strength, Constitution, Dexterity, Wisdom, Intelligence, Charisma."
-											],
-											"id": "006"
+											]
 										},
 										{
 											"type": "entries",
 											"name": "Rogue",
+											"id": "007",
 											"page": 2,
 											"entries": [
 												"Dexterity, Charisma, Intelligence, Constitution, Strength, Wisdom."
-											],
-											"id": "007"
+											]
 										},
 										{
 											"type": "entries",
 											"name": "Wizard",
+											"id": "008",
 											"page": 2,
 											"entries": [
 												"Intelligence, Dexterity, Wisdom, Charisma, Constitution, Strength.",
 												"For example, a player creating a cleric rolls a 4 for the character's ability score array\u201416, 12, 12, 12, 10, and 8. Those numbers are assigned in that order to the ability scores listed for clerics, yielding a character with Strength 12, Dexterity 10, Constitution 12, Intelligence 8, Wisdom 16, and Charisma 12.",
 												"After you assign your character's ability scores, but before applying any modifiers for your race (see below), you can swap any two scores."
-											],
-											"id": "008"
+											]
 										}
-									],
-									"id": "004"
+									]
 								}
-							],
-							"id": "003"
+							]
 						},
 						{
 							"type": "entries",
 							"name": "Equipment",
+							"id": "009",
 							"page": 2,
 							"entries": [
 								"Your class also determines your equipment. Select gear from your class's quick equipment choices, except for any of the prebuilt packs such as the explorer's pack or the priest's pack (see below). Alternatively, you can select one of the following default equipment packages:",
@@ -481,12 +483,14 @@
 								{
 									"type": "entries",
 									"name": "Cleric Spells",
+									"id": "00a",
 									"page": 2,
 									"entries": [
 										"Randomly determining spells can speed up the process of creating a 1st-level cleric.",
 										{
 											"type": "entries",
 											"name": "Cantrips",
+											"id": "00b",
 											"page": 2,
 											"entries": [
 												"Roll a {@dice d6} three times to determine your cleric cantrips, rerolling any duplicate results.",
@@ -527,12 +531,12 @@
 														]
 													]
 												}
-											],
-											"id": "00b"
+											]
 										},
 										{
 											"type": "entries",
 											"name": "Spells",
+											"id": "00c",
 											"page": 2,
 											"entries": [
 												"Roll a {@dice d10} for each cleric spell you can prepare, rerolling any duplicate results.",
@@ -585,15 +589,14 @@
 														]
 													]
 												}
-											],
-											"id": "00c"
+											]
 										}
-									],
-									"id": "00a"
+									]
 								},
 								{
 									"type": "entries",
 									"name": "Fighter Fighting Style",
+									"id": "00d",
 									"page": 3,
 									"entries": [
 										"Roll a {@dice d6} to determine your fighting style, and make the indicated adjustments if you selected the default equipment package.",
@@ -634,12 +637,12 @@
 												]
 											]
 										}
-									],
-									"id": "00d"
+									]
 								},
 								{
 									"type": "entries",
 									"name": "Rogue Proficiencies",
+									"id": "00e",
 									"page": 3,
 									"entries": [
 										"Roll a {@dice d12} four times to determine your skills, rerolling any duplicate results. In addition, reroll any results that duplicate skills granted by your background.",
@@ -700,18 +703,19 @@
 												]
 											]
 										}
-									],
-									"id": "00e"
+									]
 								},
 								{
 									"type": "entries",
 									"name": "Wizard Spells",
+									"id": "00f",
 									"page": 3,
 									"entries": [
 										"Randomly determining spells can speed up the process of creating a 1st-level wizard.",
 										{
 											"type": "entries",
 											"name": "Cantrips",
+											"id": "010",
 											"page": 3,
 											"entries": [
 												"Roll a {@dice d10} three times to determine your wizard cantrips, rerolling any duplicate results.",
@@ -768,12 +772,12 @@
 														]
 													]
 												}
-											],
-											"id": "010"
+											]
 										},
 										{
 											"type": "entries",
 											"name": "Spells",
+											"id": "011",
 											"page": 3,
 											"entries": [
 												"Roll a {@dice d12} six times to determine the contents of your wizard spellbook, rerolling any duplicate results.",
@@ -838,18 +842,16 @@
 														]
 													]
 												}
-											],
-											"id": "011"
+											]
 										}
-									],
-									"id": "00f"
+									]
 								}
-							],
-							"id": "009"
+							]
 						},
 						{
 							"type": "entries",
 							"name": "Race",
+							"id": "012",
 							"page": 3,
 							"entries": [
 								"Finally, roll a {@dice d12} to determine your character's race. The following table is weighted heavily toward humans, both to reflect typical D&D demographics and to push players toward the easiest option.",
@@ -894,11 +896,9 @@
 										]
 									]
 								}
-							],
-							"id": "012"
+							]
 						}
-					],
-					"id": "000"
+					]
 				}
 			]
 		}

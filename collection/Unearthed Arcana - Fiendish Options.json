@@ -69,11 +69,11 @@
 			],
 			"entries": [
 				{
+					"type": "entries",
 					"name": "Legacy of Maladomini",
 					"entries": [
 						"You know the {@spell thaumaturgy} cantrip. When you reach 3rd level, you can cast the {@spell ray of sickness} spell as a 2nd-level spell once with this trait and regain the ability to do so when you finish a long rest. When you reach 5th level, you can cast the {@spell crown of madness} spell once with this trait and regain the ability to do so when you finish a long rest. Charisma is your spellcasting ability for these spells."
 					],
-					"type": "entries",
 					"data": {
 						"overwrite": "Infernal Legacy"
 					}
@@ -91,8 +91,8 @@
 			],
 			"ability": [
 				{
-					"cha": 2,
-					"dex": 1
+					"dex": 1,
+					"cha": 2
 				}
 			],
 			"additionalSpells": [
@@ -123,11 +123,11 @@
 			],
 			"entries": [
 				{
+					"type": "entries",
 					"name": "Legacy of Dis",
 					"entries": [
 						"You know the {@spell thaumaturgy} cantrip. When you reach 3rd level, you can cast the {@spell disguise self} spell once with this trait and regain the ability to do so when you finish a long rest. When you reach 5th level, you can cast the {@spell invisibility} spell once with this trait and regain the ability to do so when you finish a long rest. Charisma is your spellcasting ability for these spells."
 					],
-					"type": "entries",
 					"data": {
 						"overwrite": "Infernal Legacy"
 					}
@@ -148,8 +148,8 @@
 			],
 			"ability": [
 				{
-					"cha": 2,
-					"wis": 1
+					"wis": 1,
+					"cha": 2
 				}
 			],
 			"additionalSpells": [
@@ -180,11 +180,11 @@
 			],
 			"entries": [
 				{
+					"type": "entries",
 					"name": "Legacy of Phlegethos",
 					"entries": [
 						"You know the {@spell friends} cantrip. When you reach 3rd level, you can cast the {@spell charm person} spell as a 2nd-level spell once with this trait and regain the ability to do so when you finish a long rest. When you reach 5th level, you can cast the {@spell suggestion} spell once with this trait and regain the ability to do so when you finish a long rest. Charisma is your spellcasting ability for these spells."
 					],
-					"type": "entries",
 					"data": {
 						"overwrite": "Infernal Legacy"
 					}
@@ -205,8 +205,8 @@
 			],
 			"ability": [
 				{
-					"cha": 2,
-					"dex": 1
+					"dex": 1,
+					"cha": 2
 				}
 			],
 			"additionalSpells": [
@@ -237,11 +237,11 @@
 			],
 			"entries": [
 				{
+					"type": "entries",
 					"name": "Legacy of Malbolge",
 					"entries": [
 						"You know the {@spell minor illusion} cantrip. When you reach 3rd level, you can cast the {@spell disguise self} spell once with this trait and regain the ability to do so when you finish a long rest. When you reach 5th level, you can cast the {@spell invisibility} spell once with this trait and regain the ability to do so when you finish a long rest. Charisma is your spellcasting ability for these spells."
 					],
-					"type": "entries",
 					"data": {
 						"overwrite": "Infernal Legacy"
 					}
@@ -262,8 +262,8 @@
 			],
 			"ability": [
 				{
-					"cha": 2,
-					"con": 1
+					"con": 1,
+					"cha": 2
 				}
 			],
 			"additionalSpells": [
@@ -294,11 +294,11 @@
 			],
 			"entries": [
 				{
+					"type": "entries",
 					"name": "Legacy of Stygia",
 					"entries": [
 						"You know the {@spell ray of frost} cantrip. When you reach 3rd level, you can cast the {@spell armor of Agathys} spell as a 2nd-level spell once with this trait and regain the ability to do so when you finish a long rest. When you reach 5th level, you can cast the {@spell darkness} spell once with this trait and regain the ability to do so when you finish a long rest. Charisma is your spellcasting ability for these spells."
 					],
-					"type": "entries",
 					"data": {
 						"overwrite": "Infernal Legacy"
 					}
@@ -345,11 +345,11 @@
 			],
 			"entries": [
 				{
+					"type": "entries",
 					"name": "Legacy of Minauros",
 					"entries": [
 						"You know the {@spell mage hand} cantrip. When you reach 3rd level, you can cast the {@spell Tenser's floating disk} spell once with this trait and regain the ability to do so when you finish a short or long rest. When you reach 5th level, you can cast the {@spell arcane lock} spell once with this trait, requiring no material component, and regain the ability to do so when you finish a long rest. Charisma is your spellcasting ability for these spells."
 					],
-					"type": "entries",
 					"data": {
 						"overwrite": "Infernal Legacy"
 					}
@@ -393,11 +393,11 @@
 			],
 			"entries": [
 				{
+					"type": "entries",
 					"name": "Legacy of Cania",
 					"entries": [
 						"You know the {@spell mage hand} cantrip. When you reach 3rd level, you can cast the {@spell magic missile} spell as a 2nd-level spell once with this trait and regain the ability to do so when you finish a long rest. When you reach 5th level, you can cast the {@spell web} spell once with this trait and regain the ability to do so when you finish a long rest. Charisma is your spellcasting ability for these spells."
 					],
-					"type": "entries",
 					"data": {
 						"overwrite": "Infernal Legacy"
 					}
@@ -415,8 +415,8 @@
 			],
 			"ability": [
 				{
-					"cha": 2,
-					"str": 1
+					"str": 1,
+					"cha": 2
 				}
 			],
 			"additionalSpells": [
@@ -447,11 +447,11 @@
 			],
 			"entries": [
 				{
+					"type": "entries",
 					"name": "Legacy of Avernus",
 					"entries": [
 						"You know the {@spell thaumaturgy} cantrip. When you reach 3rd level, you can cast the {@spell searing smite} spell as a 2nd-level spell once with this trait and regain the ability to do so when you finish a long rest. When you reach 5th level, you can cast the {@spell branding smite} spell once with this trait and regain the ability to do so when you finish a long rest. Charisma is your spellcasting ability for these spells."
 					],
-					"type": "entries",
 					"data": {
 						"overwrite": "Infernal Legacy"
 					}

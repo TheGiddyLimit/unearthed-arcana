@@ -114,25 +114,6 @@
 				"water walk|phb"
 			],
 			"startingProficiencies": {
-				"armor": [
-					"light",
-					"medium"
-				],
-				"weapons": [
-					"simple"
-				],
-				"tools": [
-					"{@item Thieves' tools|PHB}",
-					"{@item tinker's tools|PHB}",
-					"one type of {@item artisan's tools|PHB} of your choice"
-				],
-				"toolProficiencies": [
-					{
-						"thieves' tools": true,
-						"tinker's tools": true,
-						"anyArtisansTool": 1
-					}
-				],
 				"skills": [
 					{
 						"choose": {
@@ -149,6 +130,25 @@
 							"count": 2
 						}
 					}
+				],
+				"weapons": [
+					"simple"
+				],
+				"tools": [
+					"{@item Thieves' tools|PHB}",
+					"{@item tinker's tools|PHB}",
+					"one type of {@item artisan's tools|PHB} of your choice"
+				],
+				"toolProficiencies": [
+					{
+						"thieves' tools": true,
+						"tinker's tools": true,
+						"anyArtisansTool": 1
+					}
+				],
+				"armor": [
+					"light",
+					"medium"
 				]
 			},
 			"startingEquipment": {

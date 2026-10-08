@@ -335,10 +335,10 @@
 								{
 									"type": "abilityGeneric",
 									"name": "Initiative",
-									"entry": "10 + unit morale rating + commander's",
 									"attributes": [
 										"cha"
-									]
+									],
+									"entry": "10 + unit morale rating + commander's"
 								},
 								"Units act in order of initiative, from highest to lowest as normal. In the event of a tie, randomly determine the order in which the tied units act. Determine this once, and then use that order for the rest of the combat.",
 								"As in the regular combat rules, a unit can move and take one action on its turn (see \"Action Options\" below). A unit can use some or all of its movement before taking its action, and can then use the rest of its movement after acting"
@@ -443,8 +443,8 @@
 								"The attacker can gain advantage or suffer disadvantage on its BR roll, based on the following factors:",
 								{
 									"type": "list",
-									"style": "list-hang",
 									"name": "Advantage",
+									"style": "list-hang",
 									"items": [
 										"The attacker is on higher ground, such as uphill from the defender.",
 										"The defender is adjacent to at least one enemy unit, other than the attacker."
@@ -452,8 +452,8 @@
 								},
 								{
 									"type": "list",
-									"style": "list-hang",
 									"name": "Disadvantage",
+									"style": "list-hang",
 									"items": [
 										"The defender is partially behind a wall or similar cover.",
 										"The defender is adjacent to at least two friendly units."

@@ -311,8 +311,8 @@
 				{
 					"type": "statblock",
 					"tag": "table",
-					"source": "XUA2025ApocalypticSubclasses",
 					"name": "Circle of Preservation Spells",
+					"source": "XUA2025ApocalypticSubclasses",
 					"page": 2
 				}
 			]
@@ -332,8 +332,8 @@
 				"Whenever a creature (including you) ends its turn in the {@variantrule Cube [Area of Effect]|XPHB|Cube}, you can grant the creature one of the following benefits:",
 				{
 					"type": "list",
-					"style": "list-hang-notitle",
 					"page": 2,
+					"style": "list-hang-notitle",
 					"items": [
 						{
 							"type": "item",
@@ -369,8 +369,8 @@
 				"Your studies have improved your understanding of the order and resilience of nature, granting you the following benefits.",
 				{
 					"type": "list",
-					"style": "list-hang-notitle",
 					"page": 2,
+					"style": "list-hang-notitle",
 					"items": [
 						{
 							"type": "item",
@@ -405,8 +405,8 @@
 				"Your {@subclassFeature Preserved Land|Druid|XPHB|Preservation|XUA2025ApocalypticSubclasses|3|XUA2025ApocalypticSubclasses} becomes more powerful in the following ways.",
 				{
 					"type": "list",
-					"style": "list-hang-notitle",
 					"page": 2,
+					"style": "list-hang-notitle",
 					"items": [
 						{
 							"type": "item",
@@ -517,8 +517,8 @@
 				"You've honed your combat skills to entertain, devastating opponents and dazzling onlookers. You gain the following benefits.",
 				{
 					"type": "list",
-					"style": "list-hang-notitle",
 					"page": 3,
+					"style": "list-hang-notitle",
 					"items": [
 						{
 							"type": "item",
@@ -699,8 +699,8 @@
 				"When you hit a {@status Bloodied|XPHB} creature with an attack roll, you can attempt to critically injure it. The target makes a Constitution saving throw ({@dc 8} plus your Charisma modifier and {@table Proficiency Bonus|XPHB}). On a failed save, the target suffers the following effects:",
 				{
 					"type": "list",
-					"style": "list-hang-notitle",
 					"page": 3,
+					"style": "list-hang-notitle",
 					"items": [
 						{
 							"type": "item",
@@ -786,8 +786,8 @@
 				{
 					"type": "statblock",
 					"tag": "table",
-					"source": "XUA2025ApocalypticSubclasses",
 					"name": "Defiler Spells",
+					"source": "XUA2025ApocalypticSubclasses",
 					"page": 4
 				}
 			]
@@ -806,8 +806,8 @@
 				"You learn further ways to tap into the corrupting magic within yourself, granting you the following benefits.",
 				{
 					"type": "list",
-					"style": "list-hang-notitle",
 					"page": 4,
+					"style": "list-hang-notitle",
 					"items": [
 						{
 							"type": "item",
@@ -842,8 +842,8 @@
 				"When you use your {@classFeature Innate Sorcery|Sorcerer|XPHB|1|XPHB}, an aura of defiling magic fills a 15-foot {@variantrule Emanation [Area of Effect]|XPHB|Emanation} originating from you while your {@classFeature Innate Sorcery|Sorcerer|XPHB|1|XPHB} is active, granting you the following additional benefits.",
 				{
 					"type": "list",
-					"style": "list-hang-notitle",
 					"page": 4,
+					"style": "list-hang-notitle",
 					"items": [
 						{
 							"type": "item",
@@ -877,8 +877,8 @@
 				"You've perfected your ability to control and channel defiling magic, granting you the following benefits.",
 				{
 					"type": "list",
-					"style": "list-hang-notitle",
 					"page": 4,
+					"style": "list-hang-notitle",
 					"items": [
 						{
 							"type": "item",
@@ -943,8 +943,8 @@
 				{
 					"type": "statblock",
 					"tag": "table",
-					"source": "XUA2025ApocalypticSubclasses",
 					"name": "Sorcerer-King Spells",
+					"source": "XUA2025ApocalypticSubclasses",
 					"page": 5
 				}
 			]
@@ -963,8 +963,8 @@
 				"You gain the following benefits.",
 				{
 					"type": "list",
-					"style": "list-hang-notitle",
 					"page": 5,
+					"style": "list-hang-notitle",
 					"items": [
 						{
 							"type": "item",
@@ -998,8 +998,8 @@
 				"Your patron's power surges through you, allowing you to rally your allies and subjugate your enemies. When you cast a spell using a {@classFeature Pact Magic|Warlock|XPHB|1|XPHB} spell slot, you can cause profane power to erupt in a 30-foot {@variantrule Emanation [Area of Effect]|XPHB|Emanation} originating from you. For each creature you can see in the {@variantrule Emanation [Area of Effect]|XPHB|Emanation}, choose one of the following effects:",
 				{
 					"type": "list",
-					"style": "list-hang-notitle",
 					"page": 5,
+					"style": "list-hang-notitle",
 					"items": [
 						{
 							"type": "item",
@@ -1291,8 +1291,8 @@
 										"This article is presented for playtesting and feedback. The options here are experimental and in draft form. They aren't officially part of the game. Your feedback will help determine whether we adopt it as official.",
 										{
 											"type": "list",
-											"style": "list-hang-notitle",
 											"page": 1,
+											"style": "list-hang-notitle",
 											"items": [
 												{
 													"type": "item",
@@ -1338,12 +1338,12 @@
 										{
 											"type": "statblock",
 											"prop": "subclass",
-											"source": "XUA2025ApocalypticSubclasses",
 											"name": "Circle of Preservation",
+											"shortName": "Preservation",
 											"className": "Druid",
 											"classSource": "XPHB",
-											"page": 2,
-											"shortName": "Preservation"
+											"source": "XUA2025ApocalypticSubclasses",
+											"page": 2
 										}
 									]
 								},
@@ -1356,12 +1356,12 @@
 										{
 											"type": "statblock",
 											"prop": "subclass",
-											"source": "XUA2025ApocalypticSubclasses",
 											"name": "Gladiator",
+											"shortName": "Gladiator",
 											"className": "Fighter",
 											"classSource": "XPHB",
-											"page": 3,
-											"shortName": "Gladiator"
+											"source": "XUA2025ApocalypticSubclasses",
+											"page": 3
 										}
 									]
 								},
@@ -1383,12 +1383,12 @@
 										{
 											"type": "statblock",
 											"prop": "subclass",
-											"source": "XUA2025ApocalypticSubclasses",
 											"name": "Defiled Sorcery",
+											"shortName": "Defiled",
 											"className": "Sorcerer",
 											"classSource": "XPHB",
-											"page": 4,
-											"shortName": "Defiled"
+											"source": "XUA2025ApocalypticSubclasses",
+											"page": 4
 										}
 									]
 								},
@@ -1401,12 +1401,12 @@
 										{
 											"type": "statblock",
 											"prop": "subclass",
-											"source": "XUA2025ApocalypticSubclasses",
 											"name": "Sorcerer-King Patron",
+											"shortName": "Sorcerer-King",
 											"className": "Warlock",
 											"classSource": "XPHB",
-											"page": 5,
-											"shortName": "Sorcerer-King"
+											"source": "XUA2025ApocalypticSubclasses",
+											"page": 5
 										}
 									]
 								}

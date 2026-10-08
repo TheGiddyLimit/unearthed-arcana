@@ -1138,8 +1138,8 @@
 				{
 					"type": "statblock",
 					"tag": "table",
-					"source": "XUA2025ArcaneSubclasses",
 					"name": "Arcana Domain Spells",
+					"source": "XUA2025ArcaneSubclasses",
 					"page": 2
 				}
 			]
@@ -1734,8 +1734,8 @@
 				{
 					"type": "statblock",
 					"tag": "table",
-					"source": "XUA2025ArcaneSubclasses",
 					"name": "Lineage Spells",
+					"source": "XUA2025ArcaneSubclasses",
 					"page": 5
 				}
 			]
@@ -1852,8 +1852,8 @@
 				{
 					"type": "statblock",
 					"tag": "table",
-					"source": "XUA2025ArcaneSubclasses",
 					"name": "Hexblade Spells",
+					"source": "XUA2025ArcaneSubclasses",
 					"page": 6
 				}
 			]
@@ -3766,8 +3766,8 @@
 										"This article is presented for playtesting and feedback. The options here are experimental and in draft form. They aren't officially part of the game. Your feedback will help determine whether we adopt it as official.",
 										{
 											"type": "list",
-											"style": "list-hang-notitle",
 											"page": 1,
+											"style": "list-hang-notitle",
 											"items": [
 												{
 													"type": "item",
@@ -3866,12 +3866,12 @@
 										{
 											"type": "statblock",
 											"prop": "subclass",
-											"source": "XUA2025ArcaneSubclasses",
 											"name": "Arcana Domain",
+											"shortName": "Arcana",
 											"className": "Cleric",
 											"classSource": "XPHB",
-											"page": 1,
-											"shortName": "Arcana"
+											"source": "XUA2025ArcaneSubclasses",
+											"page": 1
 										}
 									]
 								},
@@ -3930,12 +3930,12 @@
 										{
 											"type": "statblock",
 											"prop": "subclass",
-											"source": "XUA2025ArcaneSubclasses",
 											"name": "Arcane Archer",
+											"shortName": "Arcane Archer",
 											"className": "Fighter",
 											"classSource": "XPHB",
-											"page": 2,
-											"shortName": "Arcane Archer"
+											"source": "XUA2025ArcaneSubclasses",
+											"page": 2
 										}
 									]
 								},
@@ -3948,12 +3948,12 @@
 										{
 											"type": "statblock",
 											"prop": "subclass",
-											"source": "XUA2025ArcaneSubclasses",
 											"name": "Tattooed Warrior",
+											"shortName": "Tattooed Warrior",
 											"className": "Monk",
 											"classSource": "XPHB",
-											"page": 4,
-											"shortName": "Tattooed Warrior"
+											"source": "XUA2025ArcaneSubclasses",
+											"page": 4
 										}
 									]
 								},
@@ -3966,12 +3966,12 @@
 										{
 											"type": "statblock",
 											"prop": "subclass",
-											"source": "XUA2025ArcaneSubclasses",
 											"name": "Ancestral Sorcery",
+											"shortName": "Ancestral Sorcery",
 											"className": "Sorcerer",
 											"classSource": "XPHB",
-											"page": 5,
-											"shortName": "Ancestral Sorcery"
+											"source": "XUA2025ArcaneSubclasses",
+											"page": 5
 										}
 									]
 								},
@@ -4046,12 +4046,12 @@
 										{
 											"type": "statblock",
 											"prop": "subclass",
-											"source": "XUA2025ArcaneSubclasses",
 											"name": "Hexblade Patron",
+											"shortName": "Hexblade",
 											"className": "Warlock",
 											"classSource": "XPHB",
-											"page": 6,
-											"shortName": "Hexblade"
+											"source": "XUA2025ArcaneSubclasses",
+											"page": 6
 										}
 									]
 								},
@@ -4102,12 +4102,12 @@
 										{
 											"type": "statblock",
 											"prop": "subclass",
-											"source": "XUA2025ArcaneSubclasses",
 											"name": "Conjurer",
+											"shortName": "Conjurer",
 											"className": "Wizard",
 											"classSource": "XPHB",
-											"page": 6,
-											"shortName": "Conjurer"
+											"source": "XUA2025ArcaneSubclasses",
+											"page": 6
 										}
 									]
 								},
@@ -4166,12 +4166,12 @@
 										{
 											"type": "statblock",
 											"prop": "subclass",
-											"source": "XUA2025ArcaneSubclasses",
 											"name": "Enchanter",
+											"shortName": "Enchanter",
 											"className": "Wizard",
 											"classSource": "XPHB",
-											"page": 8,
-											"shortName": "Enchanter"
+											"source": "XUA2025ArcaneSubclasses",
+											"page": 8
 										}
 									]
 								},
@@ -4230,12 +4230,12 @@
 										{
 											"type": "statblock",
 											"prop": "subclass",
-											"source": "XUA2025ArcaneSubclasses",
 											"name": "Necromancer",
+											"shortName": "Necromancer",
 											"className": "Wizard",
 											"classSource": "XPHB",
-											"page": 9,
-											"shortName": "Necromancer"
+											"source": "XUA2025ArcaneSubclasses",
+											"page": 9
 										}
 									]
 								},
@@ -4302,12 +4302,12 @@
 										{
 											"type": "statblock",
 											"prop": "subclass",
-											"source": "XUA2025ArcaneSubclasses",
 											"name": "Transmuter",
+											"shortName": "Transmuter",
 											"className": "Wizard",
 											"classSource": "XPHB",
-											"page": 10,
-											"shortName": "Transmuter"
+											"source": "XUA2025ArcaneSubclasses",
+											"page": 10
 										}
 									]
 								}

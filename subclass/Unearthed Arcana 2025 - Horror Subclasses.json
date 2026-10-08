@@ -864,8 +864,8 @@
 				{
 					"type": "statblock",
 					"tag": "table",
-					"source": "XUA2025HorrorSubclasses",
 					"name": "Spirits from Beyond",
+					"source": "XUA2025HorrorSubclasses",
 					"page": 3
 				}
 			]
@@ -983,8 +983,8 @@
 				{
 					"type": "statblock",
 					"tag": "table",
-					"source": "XUA2025HorrorSubclasses",
 					"name": "Grave Domain Spells",
+					"source": "XUA2025HorrorSubclasses",
 					"page": 4
 				}
 			]
@@ -1090,8 +1090,8 @@
 				{
 					"type": "statblock",
 					"tag": "table",
-					"source": "XUA2025HorrorSubclasses",
 					"name": "Hollow Warden Spells",
+					"source": "XUA2025HorrorSubclasses",
 					"page": 5
 				}
 			]
@@ -1463,8 +1463,8 @@
 				{
 					"type": "statblock",
 					"tag": "table",
-					"source": "XUA2025HorrorSubclasses",
 					"name": "Shadow Spells",
+					"source": "XUA2025HorrorSubclasses",
 					"page": 7
 				}
 			]
@@ -1625,8 +1625,8 @@
 				{
 					"type": "statblock",
 					"tag": "table",
-					"source": "XUA2025HorrorSubclasses",
 					"name": "Hexblade Spells",
+					"source": "XUA2025HorrorSubclasses",
 					"page": 8
 				}
 			]
@@ -1773,8 +1773,8 @@
 				{
 					"type": "statblock",
 					"tag": "table",
-					"source": "XUA2025HorrorSubclasses",
 					"name": "Undead Spells",
+					"source": "XUA2025HorrorSubclasses",
 					"page": 9
 				}
 			]
@@ -1938,8 +1938,8 @@
 				{
 					"type": "statblock",
 					"tag": "creature",
-					"source": "XUA2025HorrorSubclasses",
 					"name": "Reanimated Companion",
+					"source": "XUA2025HorrorSubclasses",
 					"page": 2,
 					"collapsed": true
 				}
@@ -1960,8 +1960,8 @@
 				{
 					"type": "statblock",
 					"tag": "table",
-					"source": "XUA2025HorrorSubclasses",
 					"name": "Reanimator Spells",
+					"source": "XUA2025HorrorSubclasses",
 					"page": 1
 				}
 			]
@@ -2674,8 +2674,8 @@
 										"This article is presented for playtesting and feedback. The options here are experimental and in draft form. They aren't officially part of the game. Your feedback will help determine whether we adopt it as official.",
 										{
 											"type": "list",
-											"style": "list-hang-notitle",
 											"page": 1,
+											"style": "list-hang-notitle",
 											"items": [
 												{
 													"type": "item",
@@ -2720,18 +2720,18 @@
 										{
 											"type": "statblock",
 											"prop": "subclass",
-											"source": "XUA2025HorrorSubclasses",
 											"name": "Reanimator",
+											"shortName": "Reanimator",
 											"className": "Artificer",
 											"classSource": "XUA2025EberronUpdates",
-											"page": 1,
-											"shortName": "Reanimator"
+											"source": "XUA2025HorrorSubclasses",
+											"page": 1
 										},
 										{
 											"type": "statblock",
 											"tag": "creature",
-											"source": "XUA2025HorrorSubclasses",
 											"name": "Reanimated Companion",
+											"source": "XUA2025HorrorSubclasses",
 											"page": 2
 										}
 									]
@@ -2783,12 +2783,12 @@
 										{
 											"type": "statblock",
 											"prop": "subclass",
-											"source": "XUA2025HorrorSubclasses",
 											"name": "College of Spirits",
+											"shortName": "Spirits",
 											"className": "Bard",
 											"classSource": "XPHB",
-											"page": 3,
-											"shortName": "Spirits"
+											"source": "XUA2025HorrorSubclasses",
+											"page": 3
 										}
 									]
 								},
@@ -2855,12 +2855,12 @@
 										{
 											"type": "statblock",
 											"prop": "subclass",
-											"source": "XUA2025HorrorSubclasses",
 											"name": "Grave Domain",
+											"shortName": "Grave",
 											"className": "Cleric",
 											"classSource": "XPHB",
-											"page": 4,
-											"shortName": "Grave"
+											"source": "XUA2025HorrorSubclasses",
+											"page": 4
 										}
 									]
 								},
@@ -2873,12 +2873,12 @@
 										{
 											"type": "statblock",
 											"prop": "subclass",
-											"source": "XUA2025HorrorSubclasses",
 											"name": "Hollow Warden",
+											"shortName": "Hollow Warden",
 											"className": "Ranger",
 											"classSource": "XPHB",
-											"page": 5,
-											"shortName": "Hollow Warden"
+											"source": "XUA2025HorrorSubclasses",
+											"page": 5
 										}
 									]
 								},
@@ -2937,12 +2937,12 @@
 										{
 											"type": "statblock",
 											"prop": "subclass",
-											"source": "XUA2025HorrorSubclasses",
 											"name": "Phantom",
+											"shortName": "Phantom",
 											"className": "Rogue",
 											"classSource": "XPHB",
-											"page": 6,
-											"shortName": "Phantom"
+											"source": "XUA2025HorrorSubclasses",
+											"page": 6
 										}
 									]
 								},
@@ -3001,12 +3001,12 @@
 										{
 											"type": "statblock",
 											"prop": "subclass",
-											"source": "XUA2025HorrorSubclasses",
 											"name": "Shadow Sorcery",
+											"shortName": "Shadow",
 											"className": "Sorcerer",
 											"classSource": "XPHB",
-											"page": 7,
-											"shortName": "Shadow"
+											"source": "XUA2025HorrorSubclasses",
+											"page": 7
 										}
 									]
 								},
@@ -3072,12 +3072,12 @@
 										{
 											"type": "statblock",
 											"prop": "subclass",
-											"source": "XUA2025HorrorSubclasses",
 											"name": "Hexblade Patron",
+											"shortName": "Hexblade",
 											"className": "Warlock",
 											"classSource": "XPHB",
-											"page": 7,
-											"shortName": "Hexblade"
+											"source": "XUA2025HorrorSubclasses",
+											"page": 7
 										}
 									]
 								},
@@ -3136,12 +3136,12 @@
 										{
 											"type": "statblock",
 											"prop": "subclass",
-											"source": "XUA2025HorrorSubclasses",
 											"name": "Undead Patron",
+											"shortName": "Undead",
 											"className": "Warlock",
 											"classSource": "XPHB",
-											"page": 8,
-											"shortName": "Undead"
+											"source": "XUA2025HorrorSubclasses",
+											"page": 8
 										}
 									]
 								}

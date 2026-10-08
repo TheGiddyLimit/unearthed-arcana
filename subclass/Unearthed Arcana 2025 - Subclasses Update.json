@@ -967,8 +967,8 @@
 				},
 				{
 					"type": "list",
-					"style": "list-hang-notitle",
 					"page": 5,
+					"style": "list-hang-notitle",
 					"items": [
 						{
 							"type": "refSubclassFeature",
@@ -1104,8 +1104,8 @@
 				"You learn more complex flavors. The following beverages are added to your {@subclassFeature Mystic Brew|Monk|XPHB|Intoxication|XUA2025SubclassesUpdate|6|XUA2025SubclassesUpdate} options.",
 				{
 					"type": "list",
-					"style": "list-hang-notitle",
 					"page": 5,
+					"style": "list-hang-notitle",
 					"items": [
 						{
 							"type": "refSubclassFeature",
@@ -1250,8 +1250,8 @@
 				{
 					"type": "statblock",
 					"tag": "table",
-					"source": "XUA2025SubclassesUpdate",
 					"name": "Oathbreaker Spells",
+					"source": "XUA2025SubclassesUpdate",
 					"page": 6
 				}
 			]
@@ -1298,8 +1298,8 @@
 				"As a {@variantrule Bonus Action|XPHB}, you can imbue your {@classFeature Aura of Protection|Paladin|XPHB|6|XPHB} with unholy gloom, granting the benefits below for 10 minutes or until you end them (no action required). Once you use this feature, you can't use it again until you finish a {@variantrule Long Rest|XPHB}. You can also restore your use of it by expending a level 5 spell slot (no action required).",
 				{
 					"type": "list",
-					"style": "list-hang-notitle",
 					"page": 6,
+					"style": "list-hang-notitle",
 					"items": [
 						{
 							"type": "item",
@@ -1567,8 +1567,8 @@
 										"This article is presented for playtesting and feedback. The options here are experimental and in draft form. They aren't officially part of the game. Your feedback will help determine whether we adopt it as official.",
 										{
 											"type": "list",
-											"style": "list-hang-notitle",
 											"page": 1,
+											"style": "list-hang-notitle",
 											"items": [
 												{
 													"type": "item",
@@ -1651,12 +1651,12 @@
 										{
 											"type": "statblock",
 											"prop": "subclass",
-											"source": "XUA2025SubclassesUpdate",
 											"name": "Path of the Spiritual Guardian",
+											"shortName": "Spiritual Guardian",
 											"className": "Barbarian",
 											"classSource": "XPHB",
-											"page": 1,
-											"shortName": "Spiritual Guardian"
+											"source": "XUA2025SubclassesUpdate",
+											"page": 1
 										}
 									]
 								},
@@ -1699,12 +1699,12 @@
 										{
 											"type": "statblock",
 											"prop": "subclass",
-											"source": "XUA2025SubclassesUpdate",
 											"name": "Path of the Storm Herald",
+											"shortName": "Storm Herald",
 											"className": "Barbarian",
 											"classSource": "XPHB",
-											"page": 2,
-											"shortName": "Storm Herald"
+											"source": "XUA2025SubclassesUpdate",
+											"page": 2
 										}
 									]
 								},
@@ -1747,12 +1747,12 @@
 										{
 											"type": "statblock",
 											"prop": "subclass",
-											"source": "XUA2025SubclassesUpdate",
 											"name": "Cavalier",
+											"shortName": "Cavalier",
 											"className": "Fighter",
 											"classSource": "XPHB",
-											"page": 3,
-											"shortName": "Cavalier"
+											"source": "XUA2025SubclassesUpdate",
+											"page": 3
 										}
 									]
 								},
@@ -1795,12 +1795,12 @@
 										{
 											"type": "statblock",
 											"prop": "subclass",
-											"source": "XUA2025SubclassesUpdate",
 											"name": "Warrior of Intoxication",
+											"shortName": "Intoxication",
 											"className": "Monk",
 											"classSource": "XPHB",
-											"page": 4,
-											"shortName": "Intoxication"
+											"source": "XUA2025SubclassesUpdate",
+											"page": 4
 										}
 									]
 								},
@@ -1867,12 +1867,12 @@
 										{
 											"type": "statblock",
 											"prop": "subclass",
-											"source": "XUA2025SubclassesUpdate",
 											"name": "Oathbreaker",
+											"shortName": "Oathbreaker",
 											"className": "Paladin",
 											"classSource": "XPHB",
-											"page": 5,
-											"shortName": "Oathbreaker"
+											"source": "XUA2025SubclassesUpdate",
+											"page": 5
 										}
 									]
 								}

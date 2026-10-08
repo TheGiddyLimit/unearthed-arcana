@@ -332,8 +332,8 @@
 			},
 			"ability": [
 				{
-					"cha": 1,
 					"dex": 1,
+					"cha": 1,
 					"choose": {
 						"from": [
 							"str",
@@ -699,8 +699,8 @@
 			],
 			"ability": [
 				{
-					"int": 1,
 					"dex": 1,
+					"int": 1,
 					"choose": {
 						"from": [
 							"str",
@@ -1385,8 +1385,8 @@
 				{
 					"type": "statblock",
 					"tag": "table",
-					"source": "UADragonmarks",
 					"name": "Greater Dragonmark Benefits",
+					"source": "UADragonmarks",
 					"page": 7
 				}
 			],
@@ -1404,8 +1404,8 @@
 				{
 					"type": "statblock",
 					"tag": "table",
-					"source": "UADragonmarks",
 					"name": "Aberrant Mark Flaw",
+					"source": "UADragonmarks",
 					"page": 8
 				}
 			]
@@ -1660,23 +1660,25 @@
 				{
 					"type": "section",
 					"name": "Unearthed Arcana: Dragonmarks",
+					"id": "000",
 					"page": 1,
 					"entries": [
 						"This document presents dragonmarks, a playtest option from the D&D world of Eberron that can be incorporated when you choose your character's race. For more information about Eberron, see the {@loader Wayfinder's Guide to Eberron|collection/Wayfinder's Guide to Eberron.json|prerelease}, available on the Dungeon Master's Guild ({@link DMsGuild.com|https://www.dmsguild.com/product/247882/Wayfinders-Guide-to-Eberron-5e}).",
 						{
 							"type": "inset",
 							"name": "This Is Playtest Content",
+							"id": "001",
 							"page": 1,
 							"entries": [
 								"The material here is presented for playtesting and to spark your imagination. These game mechanics are in draft form, usable in your campaign but not refined by final game design and editing. They aren't officially part of the game and aren't permitted in D&D Adventurers League events.",
 								"If we decide to make this material official, it will be refined based on your feedback, and then it will appear in a D&D book."
-							],
-							"id": "001"
+							]
 						},
 						"A dragonmark is a mystic sigil that appears on the skin. The mark is a source of mystical power and enhances the bearer's ability to perform certain tasks. In Eberron, each mark is tied to specific bloodlines. The families that carry these marks joined together to form the Dragonmarked Houses, powerful forces that dominate different industries. Not every member of a given family possesses a dragonmark; conversely, merely possessing a dragonmark does not grant special status within the house. In creating a dragonmarked character, your background can help to establish your relationship to the house. A dragonmarked {@background noble} may be part of the ruling family. A {@background guild artisan} or {@background entertainer} can work in one of the house guilds. A {@background criminal} may have been exiled from their house, while an {@background urchin} could be an orphan who never knew they had a tie to one of the dragonmarked families.",
 						{
 							"type": "section",
 							"name": "Creating a Dragonmarked Character",
+							"id": "002",
 							"page": 1,
 							"entries": [
 								"Dragonmarks are associated with race and are represented by a combination of variant races and subraces.",
@@ -1692,21 +1694,21 @@
 								{
 									"type": "entries",
 									"name": "Intuition Dice",
+									"id": "003",
 									"page": 1,
 									"entries": [
 										"A dragonmark improves your ability to perform a specific type of task. The Mark of Finding sharpens your senses and improves your {@skill perception}, while the Mark of Making guides your hands when you work with artisan's tools.",
 										"Each dragonmark has a trait that allows you to roll an {@b Intuition die}, a {@dice d4}, when you perform an ability check with a particular skill or tool. You add the number rolled to the ability check. You don't have to be proficient with the skill or tool to gain this benefit.",
 										"Feats, magic items, and other features may improve your Intuition die. This increases the type of die you roll by one size ({@dice d6}, {@dice d8}, {@dice d10}) to a maximum of a {@dice d10}. You can only roll one Intuition die for a check; if you receive Intuition dice from multiple sources, increase one die by one type and roll that one.",
 										"For example, if a dragonmarked trait and feat both grant intuition with Dexterity ({@skill Stealth}) checks, you roll a {@dice d6}, instead of a {@dice d4}. Three instances would increase your Intuition Die to a {@dice d8}, and so on."
-									],
-									"id": "003"
+									]
 								}
-							],
-							"id": "002"
+							]
 						},
 						{
 							"type": "section",
 							"name": "Dragonmark Appearance",
+							"id": "004",
 							"page": 2,
 							"entries": [
 								"A dragonmark is a distinctive symbol that appears on the skin. There are twelve known dragonmarks, each unique in design and power. A dragonmark can appear on any part of the body. One half-elf could have the Mark of Detection across an eye, while another has it in the palm of their hand. Dragonmarks are painted in vivid shades of blue and purple and seem to shimmer or even move slightly. When used, they grow warm to the touch and may glow (though this doesn't produce useful illumination). A dragonmark can't be removed\u2014even if a limb bearing a dragonmark is cut away, the mark eventually manifests on another part of the bearer's body. All dragonmarks share the same initial appearance but a dragonmark can grow in size and complexity if a character takes the {@feat Greater Dragonmark|UADragonmarks} feat or if the mark is tied to class abilities.",
@@ -1714,16 +1716,16 @@
 								{
 									"type": "statblock",
 									"tag": "table",
-									"source": "UADragonmarks",
 									"name": "Dragonmark Quirks",
+									"source": "UADragonmarks",
 									"page": 2
 								}
-							],
-							"id": "004"
+							]
 						},
 						{
 							"type": "section",
 							"name": "The Mark of Detection",
+							"id": "005",
 							"page": 2,
 							"entries": [
 								"The Mark of Detection is an inquisitive's dream. It sharpens powers of observation and intuition, allowing the bearer to draw connections and interpret clues others might miss. By actively drawing on its powers, the bearer can detect poisons and study the energies of magic.",
@@ -1731,16 +1733,16 @@
 								{
 									"type": "statblock",
 									"tag": "race",
-									"source": "UADragonmarks",
 									"name": "Half-Elf (Variant; Mark of Detection)",
+									"source": "UADragonmarks",
 									"page": 2
 								}
-							],
-							"id": "005"
+							]
 						},
 						{
 							"type": "section",
 							"name": "The Mark of Finding",
+							"id": "006",
 							"page": 2,
 							"entries": [
 								"The Mark of Finding sharpens the senses of those who carry it, guiding the hunter to their prey. In Eberron, it first appeared in the Shadow Marches, where clan hunters used it to find their prey. The mark helped unite humans and orcs in the Marches and brought House Tharashk to the Five Nations.",
@@ -1748,16 +1750,16 @@
 								{
 									"type": "statblock",
 									"tag": "race",
-									"source": "UADragonmarks",
 									"name": "Half-Orc (Variant; Mark of Finding)",
+									"source": "UADragonmarks",
 									"page": 2
 								}
-							],
-							"id": "006"
+							]
 						},
 						{
 							"type": "section",
 							"name": "The Mark of Handling",
+							"id": "007",
 							"page": 3,
 							"entries": [
 								"The Mark of Handling gives its bearer a primal connection to beasts and the natural world, granting the power to calm and coax. This extends beyond purely natural animals; the mark allows its bearer to guide a {@creature hippogriff} as easily as a {@creature riding horse||horse}.",
@@ -1765,16 +1767,16 @@
 								{
 									"type": "statblock",
 									"tag": "race",
-									"source": "UADragonmarks",
 									"name": "Human (Mark of Handling)",
+									"source": "UADragonmarks",
 									"page": 3
 								}
-							],
-							"id": "007"
+							]
 						},
 						{
 							"type": "section",
 							"name": "The Mark of Healing",
+							"id": "008",
 							"page": 3,
 							"entries": [
 								"A halfling with the Mark of Healing can save a life with a touch, restoring vitality and the will to live. When dealing with mundane medicine, the mark helps its bearer sense the nature of maladies and afflictions and find the best solution. When enhanced by dragonshard focus items, the mark can even draw the dead back to life.",
@@ -1782,16 +1784,16 @@
 								{
 									"type": "statblock",
 									"tag": "race",
-									"source": "UADragonmarks",
 									"name": "Halfling (Mark of Healing)",
+									"source": "UADragonmarks",
 									"page": 3
 								}
-							],
-							"id": "008"
+							]
 						},
 						{
 							"type": "section",
 							"name": "The Mark of Hospitality",
+							"id": "009",
 							"page": 4,
 							"entries": [
 								"They may not always have gold, but a halfling with the Mark of Hospitality is sure to be rich in friends. The magic of the mark allows the bearer to keep a place clean, and to heat, chill, and season food. But it also helps the bearer connect with others, setting troubled minds at ease\u2014a powerful tool, though it can cause anger if abused.",
@@ -1799,16 +1801,16 @@
 								{
 									"type": "statblock",
 									"tag": "race",
-									"source": "UADragonmarks",
 									"name": "Halfling (Mark of Hospitality)",
+									"source": "UADragonmarks",
 									"page": 4
 								}
-							],
-							"id": "009"
+							]
 						},
 						{
 							"type": "section",
 							"name": "The Mark of Making",
+							"id": "00a",
 							"page": 4,
 							"entries": [
 								"The Mark of Making guides its bearer through any act of creation. The bearer of the mark can mend broken things with a touch, and always has a minor magic item they've been working on. An artificer or a wizard will get the most out of the mark, but anyone can find a use for an enchanted blade.",
@@ -1816,16 +1818,16 @@
 								{
 									"type": "statblock",
 									"tag": "race",
-									"source": "UADragonmarks",
 									"name": "Human (Mark of Making)",
+									"source": "UADragonmarks",
 									"page": 4
 								}
-							],
-							"id": "00a"
+							]
 						},
 						{
 							"type": "section",
 							"name": "The Mark of Passage",
+							"id": "00b",
 							"page": 4,
 							"entries": [
 								"The Mark of Passage governs motion, allowing its bearer to move with uncanny speed and precision. Running, leaping, climbing\u2014the Mark of Passage enhances every form of movement. The bearer of the mark can even slip through space, leaping from point to point in the blink of an eye.",
@@ -1833,16 +1835,16 @@
 								{
 									"type": "statblock",
 									"tag": "race",
-									"source": "UADragonmarks",
 									"name": "Human (Mark of Passage)",
+									"source": "UADragonmarks",
 									"page": 4
 								}
-							],
-							"id": "00b"
+							]
 						},
 						{
 							"type": "section",
 							"name": "The Mark of Scribing",
+							"id": "00c",
 							"page": 5,
 							"entries": [
 								"The Mark of Scribing deals with communication\u2014both the written and spoken word. A gnome who bears the mark can feel words as though they are living creatures, struggling to make their meaning known. The mark provides a range of gifts. It translates languages, but it also allows its bearer to speak to others at a distance and to inscribe their words wherever they wish.",
@@ -1850,16 +1852,16 @@
 								{
 									"type": "statblock",
 									"tag": "race",
-									"source": "UADragonmarks",
 									"name": "Gnome (Mark of Scribing)",
+									"source": "UADragonmarks",
 									"page": 5
 								}
-							],
-							"id": "00c"
+							]
 						},
 						{
 							"type": "section",
 							"name": "The Mark of Sentinel",
+							"id": "00d",
 							"page": 5,
 							"entries": [
 								"The Mark of Sentinel warns and protects. It heightens senses and reflexes, allowing an heir to respond to threats with uncanny speed. It can shield its bearer from harm. Whether on the battlefield or the ballroom, someone who carries the Mark of Sentinel is always prepared for danger.",
@@ -1867,16 +1869,16 @@
 								{
 									"type": "statblock",
 									"tag": "race",
-									"source": "UADragonmarks",
 									"name": "Human (Mark of Sentinel)",
+									"source": "UADragonmarks",
 									"page": 5
 								}
-							],
-							"id": "00d"
+							]
 						},
 						{
 							"type": "section",
 							"name": "The Mark of Shadow",
+							"id": "00e",
 							"page": 5,
 							"entries": [
 								"The Mark of Shadows lets an elf weave illusions from shadows, crafting sounds and images to distract or delight. The mark also allows its bearer to draw on the shadows, making it an easy matter to avoid detection or even disappear while in plain sight. It is a valuable tool for an {@background entertainer}, a {@background Variant Criminal (Spy)|PHB|spy}, or an assassin; each elf who bears it will have to decide which path to follow.",
@@ -1884,16 +1886,16 @@
 								{
 									"type": "statblock",
 									"tag": "race",
-									"source": "UADragonmarks",
 									"name": "Elf (Mark of Shadow)",
+									"source": "UADragonmarks",
 									"page": 6
 								}
-							],
-							"id": "00e"
+							]
 						},
 						{
 							"type": "section",
 							"name": "The Mark of Storm",
+							"id": "00f",
 							"page": 5,
 							"entries": [
 								"Wind and water welcome the half-elf who carries the Mark of Storms. The wind catches them when they fall, and they swim with remarkable speed. Those who possess the Greater Dragonmark and dragonshard focus items can call on even greater powers, shaping the weather and calling on the power of the storm.",
@@ -1901,23 +1903,23 @@
 								{
 									"type": "statblock",
 									"tag": "race",
-									"source": "UADragonmarks",
 									"name": "Half-Elf (Variant; Mark of Storm)",
+									"source": "UADragonmarks",
 									"page": 6
 								},
 								{
 									"type": "statblock",
 									"tag": "spell",
-									"source": "XGE",
 									"name": "Gust",
+									"source": "XGE",
 									"page": 6
 								}
-							],
-							"id": "00f"
+							]
 						},
 						{
 							"type": "section",
 							"name": "The Mark of Warding",
+							"id": "010",
 							"page": 6,
 							"entries": [
 								"The Mark of Warding helps its bearers protect things of value. Using the mark, a dwarf can weave wards and seal portals with mystic force. It also provides its bearer with an intuitive understanding of locks and mechanisms used to protect and seal. The decision each heir has to make is whether they'll use this power to keep things safe, or whether they're more interested in opening locks and taking what's inside.",
@@ -1925,16 +1927,16 @@
 								{
 									"type": "statblock",
 									"tag": "race",
-									"source": "UADragonmarks",
 									"name": "Dwarf (Mark of Warding)",
+									"source": "UADragonmarks",
 									"page": 7
 								}
-							],
-							"id": "010"
+							]
 						},
 						{
 							"type": "section",
 							"name": "New Feat: Greater Dragonmarks",
+							"id": "011",
 							"page": 7,
 							"entries": [
 								"The {@feat Greater Dragonmark|UADragonmarks} feat represents the evolution of a dragonmark\u2014an exponential increase in both the size of the dragonmark and the powers it bestows.",
@@ -1942,23 +1944,23 @@
 								{
 									"type": "statblock",
 									"tag": "feat",
-									"source": "UADragonmarks",
 									"name": "Greater Dragonmark",
+									"source": "UADragonmarks",
 									"page": 7
 								},
 								{
 									"type": "statblock",
 									"tag": "spell",
-									"source": "XGE",
 									"name": "Control Winds",
+									"source": "XGE",
 									"page": 8
 								}
-							],
-							"id": "011"
+							]
 						},
 						{
 							"type": "section",
 							"name": "Aberrant Dragonmarks",
+							"id": "012",
 							"page": 8,
 							"entries": [
 								"The twelve dragonmarks are tied to specific bloodlines and passed down through families. They are reliable and predictable, and their powers are constructive. They create; they heal; they protect.",
@@ -1967,22 +1969,20 @@
 								{
 									"type": "statblock",
 									"tag": "table",
-									"source": "UADragonmarks",
 									"name": "Aberrant Mark Flaw",
+									"source": "UADragonmarks",
 									"page": 8
 								},
 								{
 									"type": "statblock",
 									"tag": "feat",
-									"source": "UADragonmarks",
 									"name": "Aberrant Dragonmark",
+									"source": "UADragonmarks",
 									"page": 9
 								}
-							],
-							"id": "012"
+							]
 						}
-					],
-					"id": "000"
+					]
 				}
 			]
 		}

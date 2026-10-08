@@ -788,8 +788,8 @@
 				{
 					"type": "statblock",
 					"tag": "table",
-					"source": "XUA2025ForgottenRealmsSubclasses",
 					"name": "Knowledge Domain Spells",
+					"source": "XUA2025ForgottenRealmsSubclasses",
 					"page": 2
 				}
 			]
@@ -884,11 +884,11 @@
 				{
 					"type": "statblock",
 					"tag": "creature",
-					"source": "XUA2025ForgottenRealmsSubclasses",
 					"name": "Purple Dragon Companion",
+					"source": "XUA2025ForgottenRealmsSubclasses",
 					"page": 4,
-					"collapsed": true,
-					"style": "inset"
+					"style": "inset",
+					"collapsed": true
 				}
 			]
 		},
@@ -1156,8 +1156,8 @@
 				{
 					"type": "statblock",
 					"tag": "table",
-					"source": "XUA2025ForgottenRealmsSubclasses",
 					"name": "Genie Spells",
+					"source": "XUA2025ForgottenRealmsSubclasses",
 					"page": 5
 				}
 			]
@@ -1371,8 +1371,8 @@
 				{
 					"type": "statblock",
 					"tag": "table",
-					"source": "XUA2025ForgottenRealmsSubclasses",
 					"name": "Winter Walker Spells",
+					"source": "XUA2025ForgottenRealmsSubclasses",
 					"page": 6
 				}
 			]
@@ -1667,8 +1667,8 @@
 				{
 					"type": "statblock",
 					"tag": "table",
-					"source": "XUA2025ForgottenRealmsSubclasses",
 					"name": "Spellfire Spells",
+					"source": "XUA2025ForgottenRealmsSubclasses",
 					"page": 8
 				}
 			]
@@ -2393,8 +2393,8 @@
 										"This article is presented for playtesting and feedback. The options here are experimental and in draft form. They aren't officially part of the game. Your feedback will help determine whether we adopt it as official.",
 										{
 											"type": "list",
-											"style": "list-hang-notitle",
 											"page": 1,
+											"style": "list-hang-notitle",
 											"items": [
 												{
 													"type": "item",
@@ -2439,12 +2439,12 @@
 										{
 											"type": "statblock",
 											"prop": "subclass",
-											"source": "XUA2025ForgottenRealmsSubclasses",
 											"name": "College of the Moon",
+											"shortName": "Moon",
 											"className": "Bard",
 											"classSource": "XPHB",
-											"page": 1,
-											"shortName": "Moon"
+											"source": "XUA2025ForgottenRealmsSubclasses",
+											"page": 1
 										}
 									]
 								},
@@ -2511,12 +2511,12 @@
 										{
 											"type": "statblock",
 											"prop": "subclass",
-											"source": "XUA2025ForgottenRealmsSubclasses",
 											"name": "Knowledge Domain",
+											"shortName": "Knowledge",
 											"className": "Cleric",
 											"classSource": "XPHB",
-											"page": 2,
-											"shortName": "Knowledge"
+											"source": "XUA2025ForgottenRealmsSubclasses",
+											"page": 2
 										}
 									]
 								},
@@ -2591,18 +2591,18 @@
 										{
 											"type": "statblock",
 											"prop": "subclass",
-											"source": "XUA2025ForgottenRealmsSubclasses",
 											"name": "Purple Dragon Knight",
+											"shortName": "Purple Dragon Knight",
 											"className": "Fighter",
 											"classSource": "XPHB",
-											"page": 3,
-											"shortName": "Purple Dragon Knight"
+											"source": "XUA2025ForgottenRealmsSubclasses",
+											"page": 3
 										},
 										{
 											"type": "statblock",
 											"tag": "creature",
-											"source": "XUA2025ForgottenRealmsSubclasses",
 											"name": "Purple Dragon Companion",
+											"source": "XUA2025ForgottenRealmsSubclasses",
 											"page": 4,
 											"style": "inset"
 										}
@@ -2617,12 +2617,12 @@
 										{
 											"type": "statblock",
 											"prop": "subclass",
-											"source": "XUA2025ForgottenRealmsSubclasses",
 											"name": "Oath of the Noble Genies",
+											"shortName": "Noble Genies",
 											"className": "Paladin",
 											"classSource": "XPHB",
-											"page": 4,
-											"shortName": "Noble Genies"
+											"source": "XUA2025ForgottenRealmsSubclasses",
+											"page": 4
 										}
 									]
 								},
@@ -2635,12 +2635,12 @@
 										{
 											"type": "statblock",
 											"prop": "subclass",
-											"source": "XUA2025ForgottenRealmsSubclasses",
 											"name": "Winter Walker",
+											"shortName": "Winter Walker",
 											"className": "Ranger",
 											"classSource": "XPHB",
-											"page": 5,
-											"shortName": "Winter Walker"
+											"source": "XUA2025ForgottenRealmsSubclasses",
+											"page": 5
 										}
 									]
 								},
@@ -2653,12 +2653,12 @@
 										{
 											"type": "statblock",
 											"prop": "subclass",
-											"source": "XUA2025ForgottenRealmsSubclasses",
 											"name": "Scion of the Three",
+											"shortName": "Scion of the Three",
 											"className": "Rogue",
 											"classSource": "XPHB",
-											"page": 6,
-											"shortName": "Scion of the Three"
+											"source": "XUA2025ForgottenRealmsSubclasses",
+											"page": 6
 										}
 									]
 								},
@@ -2671,12 +2671,12 @@
 										{
 											"type": "statblock",
 											"prop": "subclass",
-											"source": "XUA2025ForgottenRealmsSubclasses",
 											"name": "Spellfire Sorcery",
+											"shortName": "Spellfire",
 											"className": "Sorcerer",
 											"classSource": "XPHB",
-											"page": 7,
-											"shortName": "Spellfire"
+											"source": "XUA2025ForgottenRealmsSubclasses",
+											"page": 7
 										}
 									]
 								},
@@ -2727,12 +2727,12 @@
 										{
 											"type": "statblock",
 											"prop": "subclass",
-											"source": "XUA2025ForgottenRealmsSubclasses",
 											"name": "Bladesinger",
+											"shortName": "Bladesinger",
 											"className": "Wizard",
 											"classSource": "XPHB",
-											"page": 8,
-											"shortName": "Bladesinger"
+											"source": "XUA2025ForgottenRealmsSubclasses",
+											"page": 8
 										}
 									]
 								}

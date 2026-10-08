@@ -2276,8 +2276,8 @@
 										"This article is presented for playtesting and feedback. The options here are experimental and in draft form. They aren't officially part of the game. Your feedback will help determine whether we adopt it as official.",
 										{
 											"type": "list",
-											"style": "list-hang-notitle",
 											"page": 1,
+											"style": "list-hang-notitle",
 											"items": [
 												{
 													"type": "item",
@@ -2376,12 +2376,12 @@
 										{
 											"type": "statblock",
 											"prop": "subclass",
-											"source": "XUA2025ArcaneUpdates",
 											"name": "Arcane Archer",
+											"shortName": "Arcane Archer",
 											"className": "Fighter",
 											"classSource": "XPHB",
-											"page": 1,
-											"shortName": "Arcane Archer"
+											"source": "XUA2025ArcaneUpdates",
+											"page": 1
 										}
 									]
 								},
@@ -2441,12 +2441,12 @@
 										{
 											"type": "statblock",
 											"prop": "subclass",
-											"source": "XUA2025ArcaneUpdates",
 											"name": "Tattooed Warrior",
+											"shortName": "Tattooed Warrior",
 											"className": "Monk",
 											"classSource": "XPHB",
-											"page": 4,
-											"shortName": "Tattooed Warrior"
+											"source": "XUA2025ArcaneUpdates",
+											"page": 4
 										}
 									]
 								},
@@ -2497,12 +2497,12 @@
 										{
 											"type": "statblock",
 											"prop": "subclass",
-											"source": "XUA2025ArcaneUpdates",
 											"name": "Conjurer",
+											"shortName": "Conjurer",
 											"className": "Wizard",
 											"classSource": "XPHB",
-											"page": 5,
-											"shortName": "Conjurer"
+											"source": "XUA2025ArcaneUpdates",
+											"page": 5
 										}
 									]
 								},
@@ -2561,12 +2561,12 @@
 										{
 											"type": "statblock",
 											"prop": "subclass",
-											"source": "XUA2025ArcaneUpdates",
 											"name": "Enchanter",
+											"shortName": "Enchanter",
 											"className": "Wizard",
 											"classSource": "XPHB",
-											"page": 6,
-											"shortName": "Enchanter"
+											"source": "XUA2025ArcaneUpdates",
+											"page": 6
 										}
 									]
 								},
@@ -2625,12 +2625,12 @@
 										{
 											"type": "statblock",
 											"prop": "subclass",
-											"source": "XUA2025ArcaneUpdates",
 											"name": "Necromancer",
+											"shortName": "Necromancer",
 											"className": "Wizard",
 											"classSource": "XPHB",
-											"page": 7,
-											"shortName": "Necromancer"
+											"source": "XUA2025ArcaneUpdates",
+											"page": 7
 										}
 									]
 								},
@@ -2705,12 +2705,12 @@
 										{
 											"type": "statblock",
 											"prop": "subclass",
-											"source": "XUA2025ArcaneUpdates",
 											"name": "Transmuter",
+											"shortName": "Transmuter",
 											"className": "Wizard",
 											"classSource": "XPHB",
-											"page": 9,
-											"shortName": "Transmuter"
+											"source": "XUA2025ArcaneUpdates",
+											"page": 9
 										}
 									]
 								}

@@ -223,8 +223,8 @@
 				{
 					"type": "statblock",
 					"tag": "table",
-					"source": "XUA2026UnderdarkOptions",
 					"name": "Unlight Manifestation",
+					"source": "XUA2026UnderdarkOptions",
 					"page": 2
 				}
 			]
@@ -272,8 +272,8 @@
 				"Damage you deal with {@classFeature Brutal Strike|Barbarian|XPHB|9|XPHB} can be Radiant or the usual type (your choice). The following effect is now among your {@classFeature Brutal Strike|Barbarian|XPHB|9|XPHB} options.",
 				{
 					"type": "list",
-					"style": "list-hang-subtrait",
 					"page": 2,
+					"style": "list-hang-subtrait",
 					"items": [
 						{
 							"type": "item",
@@ -357,8 +357,8 @@
 				"You gain a magical token in the form of a brooch or coin that marks you as an agent of your sponsor and that bears their heraldry. While you have this insignia, you can cast certain spells with it. Charisma is your spellcasting ability for spells you cast with your insignia.",
 				{
 					"type": "list",
-					"style": "list-hang-subtrait",
 					"page": 3,
+					"style": "list-hang-subtrait",
 					"items": [
 						{
 							"type": "item",
@@ -382,8 +382,8 @@
 								{
 									"type": "statblock",
 									"tag": "table",
-									"source": "XUA2026UnderdarkOptions",
 									"name": "Insignia Spells",
+									"source": "XUA2026UnderdarkOptions",
 									"page": 3
 								}
 							]
@@ -414,8 +414,8 @@
 				{
 					"type": "statblock",
 					"tag": "table",
-					"source": "XUA2026UnderdarkOptions",
 					"name": "House Agent Origins",
+					"source": "XUA2026UnderdarkOptions",
 					"page": 2
 				},
 				{
@@ -442,8 +442,8 @@
 				"You have {@variantrule Advantage|XPHB} on attack rolls against creatures within 5 feet of you that are {@variantrule Friendly [Attitude]|XPHB|Friendly} to you or have the {@condition Charmed|XPHB} Condition. You also gain the following {@classFeature Cunning Strike|Rogue|XPHB|5|XPHB} option.",
 				{
 					"type": "list",
-					"style": "list-hang-subtrait",
 					"page": 3,
+					"style": "list-hang-subtrait",
 					"items": [
 						{
 							"type": "item",
@@ -499,8 +499,8 @@
 				"You gain the following {@classFeature Cunning Strike|Rogue|XPHB|5|XPHB} option.",
 				{
 					"type": "list",
-					"style": "list-hang-subtrait",
 					"page": 3,
+					"style": "list-hang-subtrait",
 					"items": [
 						{
 							"type": "item",
@@ -556,8 +556,8 @@
 				{
 					"type": "statblock",
 					"tag": "table",
-					"source": "XUA2026UnderdarkOptions",
 					"name": "Secrets of Unlight",
+					"source": "XUA2026UnderdarkOptions",
 					"page": 4
 				}
 			]
@@ -620,8 +620,8 @@
 				"Your research into the secrets of the Imaskarcana grants you the following benefits.",
 				{
 					"type": "list",
-					"style": "list-hang-subtrait",
 					"page": 4,
+					"style": "list-hang-subtrait",
 					"items": [
 						{
 							"type": "item",
@@ -801,8 +801,8 @@
 				"You grow four tentacles around your mouth, your head elongates, and your skin becomes purple and slick with mucus. Your transformation into a mind flayer is complete. You gain the following benefits.",
 				{
 					"type": "list",
-					"style": "list-hang",
 					"page": 6,
+					"style": "list-hang",
 					"items": [
 						{
 							"type": "item",
@@ -825,8 +825,8 @@
 								"You excel at a particular illithid talent. Choose one of the following benefits:",
 								{
 									"type": "list",
-									"style": "list-hang",
 									"page": 6,
+									"style": "list-hang",
 									"items": [
 										{
 											"type": "item",
@@ -898,8 +898,8 @@
 				"You have honed your psionic ability to become a master manipulator. You gain the following benefits.",
 				{
 					"type": "list",
-					"style": "list-hang",
 					"page": 6,
+					"style": "list-hang",
 					"items": [
 						{
 							"type": "item",
@@ -955,8 +955,8 @@
 				"You begin a symbiotic relationship with the mind flayer tadpole in your body. You gain the following benefits.",
 				{
 					"type": "list",
-					"style": "list-hang",
 					"page": 5,
+					"style": "list-hang",
 					"items": [
 						{
 							"type": "item",
@@ -1027,8 +1027,8 @@
 				"Your tadpole has a vested interest in protecting its shell while it incubates. You gain the following benefits.",
 				{
 					"type": "list",
-					"style": "list-hang",
 					"page": 6,
+					"style": "list-hang",
 					"items": [
 						{
 							"type": "item",
@@ -1082,8 +1082,8 @@
 				"The tadpole you ingested is mutating you into an {@creature ulitharid|MPMM}, a rare type of illithid that boasts great physical strength and mental power, as well as two additional tentacles.",
 				{
 					"type": "list",
-					"style": "list-hang",
 					"page": 6,
+					"style": "list-hang",
 					"items": [
 						{
 							"type": "item",
@@ -1133,8 +1133,8 @@
 						{
 							"type": "statblock",
 							"tag": "table",
-							"source": "XUA2026UnderdarkOptions",
 							"name": "Ceremorphosis Variables",
+							"source": "XUA2026UnderdarkOptions",
 							"page": 5,
 							"slotSize": "360"
 						},
@@ -1166,40 +1166,40 @@
 						{
 							"type": "statblock",
 							"tag": "feat",
-							"source": "XUA2026UnderdarkOptions",
 							"name": "Tadpole Host",
+							"source": "XUA2026UnderdarkOptions",
 							"page": 5,
 							"collapsed": true
 						},
 						{
 							"type": "statblock",
 							"tag": "feat",
-							"source": "XUA2026UnderdarkOptions",
 							"name": "Illithid Thrallmaker",
+							"source": "XUA2026UnderdarkOptions",
 							"page": 6,
 							"collapsed": true
 						},
 						{
 							"type": "statblock",
 							"tag": "feat",
-							"source": "XUA2026UnderdarkOptions",
 							"name": "Tadpole's Safeguard",
+							"source": "XUA2026UnderdarkOptions",
 							"page": 6,
 							"collapsed": true
 						},
 						{
 							"type": "statblock",
 							"tag": "feat",
-							"source": "XUA2026UnderdarkOptions",
 							"name": "Ulitharid's Might",
+							"source": "XUA2026UnderdarkOptions",
 							"page": 6,
 							"collapsed": true
 						},
 						{
 							"type": "statblock",
 							"tag": "feat",
-							"source": "XUA2026UnderdarkOptions",
 							"name": "Full Ceremorphosis",
+							"source": "XUA2026UnderdarkOptions",
 							"page": 6,
 							"collapsed": true
 						},
@@ -1212,8 +1212,8 @@
 								{
 									"type": "statblock",
 									"tag": "spell",
-									"source": "XUA2026UnderdarkOptions",
 									"name": "Mind Blast",
+									"source": "XUA2026UnderdarkOptions",
 									"page": 7,
 									"slotSize": "360"
 								}
@@ -1563,8 +1563,8 @@
 										"This article is presented for playtesting and feedback. The options here are experimental and in draft form. They aren't officially part of the game. Your feedback will help determine whether we adopt it as official.",
 										{
 											"type": "list",
-											"style": "list-hang-notitle",
 											"page": 1,
+											"style": "list-hang-notitle",
 											"items": [
 												{
 													"type": "item",
@@ -1618,12 +1618,12 @@
 										{
 											"type": "statblock",
 											"prop": "subclass",
-											"source": "XUA2026UnderdarkOptions",
 											"name": "Path of Unlight",
+											"shortName": "Unlight",
 											"className": "Barbarian",
 											"classSource": "XPHB",
-											"page": 1,
-											"shortName": "Unlight"
+											"source": "XUA2026UnderdarkOptions",
+											"page": 1
 										}
 									]
 								},
@@ -1636,12 +1636,12 @@
 										{
 											"type": "statblock",
 											"prop": "subclass",
-											"source": "XUA2026UnderdarkOptions",
 											"name": "House Agent",
+											"shortName": "House Agent",
 											"className": "Rogue",
 											"classSource": "XPHB",
-											"page": 2,
-											"shortName": "House Agent"
+											"source": "XUA2026UnderdarkOptions",
+											"page": 2
 										}
 									]
 								},
@@ -1654,12 +1654,12 @@
 										{
 											"type": "statblock",
 											"prop": "subclass",
-											"source": "XUA2026UnderdarkOptions",
 											"name": "Imaskarcanist",
+											"shortName": "Imaskarcanist",
 											"className": "Wizard",
 											"classSource": "XPHB",
-											"page": 4,
-											"shortName": "Imaskarcanist"
+											"source": "XUA2026UnderdarkOptions",
+											"page": 4
 										}
 									]
 								},
@@ -1672,15 +1672,15 @@
 										{
 											"type": "statblock",
 											"tag": "optfeature",
-											"source": "XUA2026UnderdarkOptions",
 											"name": "Elemental Overflow",
+											"source": "XUA2026UnderdarkOptions",
 											"page": 5
 										},
 										{
 											"type": "statblock",
 											"tag": "optfeature",
-											"source": "XUA2026UnderdarkOptions",
 											"name": "Elemental Transmutation",
+											"source": "XUA2026UnderdarkOptions",
 											"page": 5
 										}
 									]
@@ -1695,8 +1695,8 @@
 								{
 									"type": "statblock",
 									"tag": "charoption",
-									"source": "XUA2026UnderdarkOptions",
 									"name": "Path of Ceremorphosis",
+									"source": "XUA2026UnderdarkOptions",
 									"page": 5,
 									"slotSize": "1000"
 								}

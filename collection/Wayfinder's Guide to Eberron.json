@@ -66,25 +66,25 @@
 			],
 			"entries": [
 				{
+					"type": "entries",
 					"name": "Aereni Training",
 					"entries": [
 						"Choose one skill or {@book tool|phb|5|tools} proficiency. Your proficiency bonus is doubled for any ability check you make that uses this chosen proficiency."
-					],
-					"type": "entries"
+					]
 				},
 				{
+					"type": "entries",
 					"name": "Cantrip",
 					"entries": [
 						"You know one {@filter cantrip of your choice from the wizard spell list|spells|level=0|class=Wizard}. Intelligence is your spellcasting ability for it."
-					],
-					"type": "entries"
+					]
 				},
 				{
+					"type": "entries",
 					"name": "Extra Language",
 					"entries": [
 						"You can speak, read, and write one extra language of your choosing."
-					],
-					"type": "entries"
+					]
 				}
 			]
 		},
@@ -124,25 +124,25 @@
 			],
 			"entries": [
 				{
+					"type": "entries",
 					"name": "Valenar Weapon Training",
 					"entries": [
 						"A Valenar elf gains proficiency with the {@item scimitar|phb}, {@item Double-Bladed Scimitar|erlw|double scimitar}, {@item longbow|phb}, and {@item shortbow|phb}."
-					],
-					"type": "entries"
+					]
 				},
 				{
+					"type": "entries",
 					"name": "Cantrip",
 					"entries": [
 						"You know one {@filter cantrip of your choice from the wizard spell list|spells|level=0|class=Wizard}. Intelligence is your spellcasting ability for it."
-					],
-					"type": "entries"
+					]
 				},
 				{
+					"type": "entries",
 					"name": "Extra Language",
 					"entries": [
 						"You can speak, read, and write one extra language of your choosing."
-					],
-					"type": "entries"
+					]
 				}
 			]
 		},
@@ -160,25 +160,25 @@
 			],
 			"entries": [
 				{
+					"type": "entries",
 					"name": "Aereni Training",
 					"entries": [
 						"Choose one skill or {@book tool|phb|5|tools} proficiency. Your proficiency bonus is doubled for any ability check you make that uses this chosen proficiency."
-					],
-					"type": "entries"
+					]
 				},
 				{
+					"type": "entries",
 					"name": "Fleet of Foot",
 					"entries": [
 						"Your base walking speed increases to 35 feet."
-					],
-					"type": "entries"
+					]
 				},
 				{
+					"type": "entries",
 					"name": "Mask of the Wild",
 					"entries": [
 						"You can attempt to hide even when you are only lightly obscured by foliage, heavy rain, falling snow, mist, and other natural phenomena."
-					],
-					"type": "entries"
+					]
 				}
 			]
 		},
@@ -204,25 +204,25 @@
 			],
 			"entries": [
 				{
+					"type": "entries",
 					"name": "Valenar Weapon Training",
 					"entries": [
 						"A Valenar elf gains proficiency with the {@item scimitar|phb}, {@item Double-Bladed Scimitar|erlw|double scimitar}, {@item longbow|phb}, and {@item shortbow|phb}."
-					],
-					"type": "entries"
+					]
 				},
 				{
+					"type": "entries",
 					"name": "Fleet of Foot",
 					"entries": [
 						"Your base walking speed increases to 35 feet."
-					],
-					"type": "entries"
+					]
 				},
 				{
+					"type": "entries",
 					"name": "Mask of the Wild",
 					"entries": [
 						"You can attempt to hide even when you are only lightly obscured by foliage, heavy rain, falling snow, mist, and other natural phenomena."
-					],
-					"type": "entries"
+					]
 				}
 			]
 		}

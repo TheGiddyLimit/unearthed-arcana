@@ -379,8 +379,8 @@
 				"The {@classFeature Wild Shape|Druid||2} feature in the {@book Player's Handbook|PHB} lets you transform into a beast that you've seen before. That rule gives you a tremendous amount of flexibility, making it easy to amass a large of array of beast form options for yourself, assuming you abide by the limitations in the Beast Shapes table in that book.",
 				"The optional rule presented here is designed for the player and DM who would like to trade some of that flexibility for ease of use. The rules here also create a clear in-world method for learning new beast shapes.",
 				{
-					"name": "Known Beast Shapes",
 					"type": "entries",
+					"name": "Known Beast Shapes",
 					"entries": [
 						"When you gain the {@classFeature Wild Shape|Druid||2} feature at 2nd level, you are deeply familiar with three beasts of your choice and can transform into them.",
 						"To choose the three beast shapes, you first need to determine whether your druid grew up in a temperate or a tropical region, consulting with your DM. Then refer to the Common Beast Shapes table that corresponds to the region you selected. That table lists the beasts you can choose from, based on your druid level. The table presents the animals that a druid is most likely to have seen as a novice, to have learned about through mystic research, or to have a special affinity with.",
@@ -481,8 +481,8 @@
 					]
 				},
 				{
-					"name": "Gaining Extra Beast Shapes",
 					"type": "entries",
+					"name": "Gaining Extra Beast Shapes",
 					"entries": [
 						"In addition to the beast shapes you gain for free when you level up, you can acquire new shapes on your adventures. Do you see a dinosaur, a saber-toothed tiger, a giant eagle, or some other exotic critter that you want to turn into? This rule gives you a method for learning how to do so. It requires you to abide by the limitations in the {@classFeature Wild Shape|Druid||2} feature (see the Beast Shapes table in the {@book Player's Handbook|PHB}, page 66).",
 						"When you see a beast whose shape you'd like to learn, you have two options:",

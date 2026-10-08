@@ -290,8 +290,8 @@
 				"You gain the following benefits.",
 				{
 					"type": "list",
-					"style": "list-hang-subtrait",
 					"page": 1,
+					"style": "list-hang-subtrait",
 					"items": [
 						{
 							"type": "item",
@@ -326,8 +326,8 @@
 				{
 					"type": "statblock",
 					"tag": "table",
-					"source": "XUA2026VillainousOptions",
 					"name": "Pestilence Domain Spells",
+					"source": "XUA2026VillainousOptions",
 					"page": 1
 				}
 			]
@@ -352,8 +352,8 @@
 				{
 					"type": "statblock",
 					"tag": "table",
-					"source": "XUA2026VillainousOptions",
 					"name": "Plague Symptoms",
+					"source": "XUA2026VillainousOptions",
 					"page": 1
 				}
 			]
@@ -482,8 +482,8 @@
 				{
 					"type": "statblock",
 					"tag": "table",
-					"source": "XUA2026VillainousOptions",
 					"name": "Circle of the Titan Spells",
+					"source": "XUA2026VillainousOptions",
 					"page": 3
 				}
 			]
@@ -504,31 +504,31 @@
 				{
 					"type": "statblock",
 					"tag": "table",
-					"source": "XUA2026VillainousOptions",
 					"name": "Titan Appearance",
+					"source": "XUA2026VillainousOptions",
 					"page": 3
 				},
 				{
 					"type": "statblock",
 					"tag": "creature",
-					"source": "XUA2026VillainousOptions",
 					"name": "Behemoth",
+					"source": "XUA2026VillainousOptions",
 					"page": 4,
 					"collapsed": true
 				},
 				{
 					"type": "statblock",
 					"tag": "creature",
-					"source": "XUA2026VillainousOptions",
 					"name": "Leviathan",
+					"source": "XUA2026VillainousOptions",
 					"page": 4,
 					"collapsed": true
 				},
 				{
 					"type": "statblock",
 					"tag": "creature",
-					"source": "XUA2026VillainousOptions",
 					"name": "Insectoid",
+					"source": "XUA2026VillainousOptions",
 					"page": 5,
 					"collapsed": true
 				}
@@ -661,8 +661,8 @@
 				{
 					"type": "statblock",
 					"tag": "table",
-					"source": "XUA2026VillainousOptions",
 					"name": "Hell Knight Pursuits",
+					"source": "XUA2026VillainousOptions",
 					"page": 6
 				},
 				{
@@ -912,8 +912,8 @@
 				{
 					"type": "statblock",
 					"tag": "table",
-					"source": "XUA2026VillainousOptions",
 					"name": "Abyssal Manifestations",
+					"source": "XUA2026VillainousOptions",
 					"page": 7
 				},
 				{
@@ -975,8 +975,8 @@
 				{
 					"type": "statblock",
 					"tag": "table",
-					"source": "XUA2026VillainousOptions",
 					"name": "Demonic Spells",
+					"source": "XUA2026VillainousOptions",
 					"page": 8
 				}
 			]
@@ -1001,8 +1001,8 @@
 				{
 					"type": "statblock",
 					"tag": "table",
-					"source": "XUA2026VillainousOptions",
 					"name": "Abyssal Effects",
+					"source": "XUA2026VillainousOptions",
 					"page": 8
 				}
 			]
@@ -1536,8 +1536,8 @@
 						{
 							"type": "statblock",
 							"tag": "table",
-							"source": "XUA2026VillainousOptions",
 							"name": "Spirit Jars",
+							"source": "XUA2026VillainousOptions",
 							"page": 11
 						}
 					]
@@ -1713,8 +1713,8 @@
 						{
 							"type": "statblock",
 							"tag": "table",
-							"source": "XUA2026VillainousOptions",
 							"name": "Death Knight Journeys",
+							"source": "XUA2026VillainousOptions",
 							"page": 9
 						},
 						{
@@ -1726,8 +1726,8 @@
 								"Notable death knights across the multiverse include the following:",
 								{
 									"type": "list",
-									"style": "list-hang-notitle",
 									"page": 9,
+									"style": "list-hang-notitle",
 									"items": [
 										{
 											"type": "item",
@@ -1767,48 +1767,48 @@
 						{
 							"type": "statblock",
 							"tag": "feat",
-							"source": "XUA2026VillainousOptions",
 							"name": "Death Knight Initiate",
+							"source": "XUA2026VillainousOptions",
 							"page": 9,
 							"collapsed": true
 						},
 						{
 							"type": "statblock",
 							"tag": "feat",
-							"source": "XUA2026VillainousOptions",
 							"name": "Dread Authority",
+							"source": "XUA2026VillainousOptions",
 							"page": 9,
 							"collapsed": true
 						},
 						{
 							"type": "statblock",
 							"tag": "feat",
-							"source": "XUA2026VillainousOptions",
 							"name": "Harbinger of Doom",
+							"source": "XUA2026VillainousOptions",
 							"page": 10,
 							"collapsed": true
 						},
 						{
 							"type": "statblock",
 							"tag": "feat",
-							"source": "XUA2026VillainousOptions",
 							"name": "Deathly Presence",
+							"source": "XUA2026VillainousOptions",
 							"page": 10,
 							"collapsed": true
 						},
 						{
 							"type": "statblock",
 							"tag": "feat",
-							"source": "XUA2026VillainousOptions",
 							"name": "Unholy Steed",
+							"source": "XUA2026VillainousOptions",
 							"page": 10,
 							"collapsed": true
 						},
 						{
 							"type": "statblock",
 							"tag": "feat",
-							"source": "XUA2026VillainousOptions",
 							"name": "Death Knight Ascension",
+							"source": "XUA2026VillainousOptions",
 							"page": 10,
 							"collapsed": true
 						}
@@ -1834,8 +1834,8 @@
 						{
 							"type": "statblock",
 							"tag": "table",
-							"source": "XUA2026VillainousOptions",
 							"name": "Lich Rites",
+							"source": "XUA2026VillainousOptions",
 							"page": 11
 						}
 					]
@@ -1848,8 +1848,8 @@
 						"While the most infamous liches in D&D represent evil incarnate, liches can vary in alignments, motivations, and deeds. Those who achieve lichdom make their mark on the multiverse as demigods and despots, mentors and protectors, masters and manipulators. These storied beings include the following:",
 						{
 							"type": "list",
-							"style": "list-hang-notitle",
 							"page": 11,
+							"style": "list-hang-notitle",
 							"items": [
 								{
 									"type": "item",
@@ -1900,40 +1900,40 @@
 						{
 							"type": "statblock",
 							"tag": "feat",
-							"source": "XUA2026VillainousOptions",
 							"name": "Lich Initiate",
+							"source": "XUA2026VillainousOptions",
 							"page": 11,
 							"collapsed": true
 						},
 						{
 							"type": "statblock",
 							"tag": "feat",
-							"source": "XUA2026VillainousOptions",
 							"name": "Arcane Restoration",
+							"source": "XUA2026VillainousOptions",
 							"page": 12,
 							"collapsed": true
 						},
 						{
 							"type": "statblock",
 							"tag": "feat",
-							"source": "XUA2026VillainousOptions",
 							"name": "Transfer Life",
+							"source": "XUA2026VillainousOptions",
 							"page": 12,
 							"collapsed": true
 						},
 						{
 							"type": "statblock",
 							"tag": "feat",
-							"source": "XUA2026VillainousOptions",
 							"name": "Undead Grasp",
+							"source": "XUA2026VillainousOptions",
 							"page": 12,
 							"collapsed": true
 						},
 						{
 							"type": "statblock",
 							"tag": "feat",
-							"source": "XUA2026VillainousOptions",
 							"name": "Lich Ascension",
+							"source": "XUA2026VillainousOptions",
 							"page": 12,
 							"collapsed": true
 						}
@@ -2859,8 +2859,8 @@
 										"This article is presented for playtesting and feedback. The options here are experimental and in draft form. They aren't officially part of the game. Your feedback will help determine whether we adopt it as official.",
 										{
 											"type": "list",
-											"style": "list-hang-notitle",
 											"page": 1,
+											"style": "list-hang-notitle",
 											"items": [
 												{
 													"type": "item",
@@ -2905,12 +2905,12 @@
 										{
 											"type": "statblock",
 											"prop": "subclass",
-											"source": "XUA2026VillainousOptions",
 											"name": "Pestilence Domain",
+											"shortName": "Pestilence",
 											"className": "Cleric",
 											"classSource": "XPHB",
-											"page": 1,
-											"shortName": "Pestilence"
+											"source": "XUA2026VillainousOptions",
+											"page": 1
 										}
 									]
 								},
@@ -2923,12 +2923,12 @@
 										{
 											"type": "statblock",
 											"prop": "subclass",
-											"source": "XUA2026VillainousOptions",
 											"name": "Circle of the Titan",
+											"shortName": "Titan",
 											"className": "Druid",
 											"classSource": "XPHB",
-											"page": 3,
-											"shortName": "Titan"
+											"source": "XUA2026VillainousOptions",
+											"page": 3
 										}
 									]
 								},
@@ -2941,12 +2941,12 @@
 										{
 											"type": "statblock",
 											"prop": "subclass",
-											"source": "XUA2026VillainousOptions",
 											"name": "Hell Knight",
+											"shortName": "Hell Knight",
 											"className": "Fighter",
 											"classSource": "XPHB",
-											"page": 6,
-											"shortName": "Hell Knight"
+											"source": "XUA2026VillainousOptions",
+											"page": 6
 										}
 									]
 								},
@@ -2959,12 +2959,12 @@
 										{
 											"type": "statblock",
 											"prop": "subclass",
-											"source": "XUA2026VillainousOptions",
 											"name": "Demonic Sorcery",
+											"shortName": "Demonic",
 											"className": "Sorcerer",
 											"classSource": "XPHB",
-											"page": 7,
-											"shortName": "Demonic"
+											"source": "XUA2026VillainousOptions",
+											"page": 7
 										}
 									]
 								}
@@ -2979,15 +2979,15 @@
 								{
 									"type": "statblock",
 									"tag": "charoption",
-									"source": "XUA2026VillainousOptions",
 									"name": "Path of the Death Knight",
+									"source": "XUA2026VillainousOptions",
 									"page": 9
 								},
 								{
 									"type": "statblock",
 									"tag": "charoption",
-									"source": "XUA2026VillainousOptions",
 									"name": "Path of the Lich",
+									"source": "XUA2026VillainousOptions",
 									"page": 11
 								}
 							]

@@ -1026,8 +1026,8 @@
 			],
 			"entriesHigherLevel": [
 				{
-					"name": "At Higher Levels",
 					"type": "entries",
+					"name": "At Higher Levels",
 					"entries": [
 						"When you cast this spell using a spell slot of 3rd level or higher, you can target one additional creature for each slot level above 2nd. The creatures must be within 30 feet of each other when you target them."
 					]
@@ -1099,8 +1099,8 @@
 			],
 			"entriesHigherLevel": [
 				{
-					"name": "At Higher Levels",
 					"type": "entries",
+					"name": "At Higher Levels",
 					"entries": [
 						"When you cast this spell using a spell slot of 4th level or higher, the damage increases by {@dice 1d8} for each slot level above 3rd."
 					]

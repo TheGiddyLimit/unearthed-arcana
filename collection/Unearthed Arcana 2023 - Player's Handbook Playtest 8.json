@@ -44,15 +44,6 @@
 				"con"
 			],
 			"startingProficiencies": {
-				"armor": [
-					"light",
-					"medium",
-					"shield"
-				],
-				"weapons": [
-					"simple",
-					"martial"
-				],
 				"skills": [
 					{
 						"choose": {
@@ -67,6 +58,15 @@
 							"count": 2
 						}
 					}
+				],
+				"weapons": [
+					"simple",
+					"martial"
+				],
+				"armor": [
+					"light",
+					"medium",
+					"shield"
 				]
 			},
 			"startingEquipment": {
@@ -83,11 +83,11 @@
 					"str": 13
 				},
 				"proficienciesGained": {
-					"armor": [
-						"shield"
-					],
 					"weapons": [
 						"martial"
+					],
+					"armor": [
+						"shield"
 					]
 				}
 			},
@@ -371,21 +371,6 @@
 				}
 			],
 			"startingProficiencies": {
-				"armor": [
-					"light",
-					"shield"
-				],
-				"weapons": [
-					"simple"
-				],
-				"tools": [
-					"{@item Herbalism kit|PHB}"
-				],
-				"toolProficiencies": [
-					{
-						"herbalism kit": true
-					}
-				],
 				"skills": [
 					{
 						"choose": {
@@ -402,6 +387,21 @@
 							"count": 2
 						}
 					}
+				],
+				"weapons": [
+					"simple"
+				],
+				"tools": [
+					"{@item Herbalism kit|PHB}"
+				],
+				"toolProficiencies": [
+					{
+						"herbalism kit": true
+					}
+				],
+				"armor": [
+					"light",
+					"shield"
 				]
 			},
 			"startingEquipment": {
@@ -824,20 +824,6 @@
 				"dex"
 			],
 			"startingProficiencies": {
-				"weapons": [
-					"simple"
-				],
-				"tools": [
-					"Choose one type of {@item Artisan's Tools|PHB} or {@item Musical Instrument|PHB}"
-				],
-				"toolProficiencies": [
-					{
-						"anyArtisansTool": 1
-					},
-					{
-						"anyMusicalInstrument": 1
-					}
-				],
 				"skills": [
 					{
 						"choose": {
@@ -851,6 +837,20 @@
 							],
 							"count": 2
 						}
+					}
+				],
+				"weapons": [
+					"simple"
+				],
+				"tools": [
+					"Choose one type of {@item Artisan's Tools|PHB} or {@item Musical Instrument|PHB}"
+				],
+				"toolProficiencies": [
+					{
+						"anyArtisansTool": 1
+					},
+					{
+						"anyMusicalInstrument": 1
 					}
 				]
 			},
@@ -2832,8 +2832,8 @@
 				"After the target teleports, you can reduce its Speed to 0 until the end of the current turn.",
 				{
 					"type": "inset",
-					"page": 6,
 					"name": "Design Note: Voluntarily Failing a Save",
+					"page": 6,
 					"entries": [
 						"The 2024 {@i Player's Handbook} will clarify that any creature can voluntarily fail any saving throw."
 					]
@@ -5123,9 +5123,9 @@
 				"Here's a list of the game's creature types in alphabetical order:",
 				{
 					"type": "list",
+					"page": 25,
 					"style": "list-no-bullets",
 					"columns": 2,
-					"page": 25,
 					"items": [
 						"Aberration",
 						"Fiend",
@@ -6533,28 +6533,30 @@
 				{
 					"type": "section",
 					"name": "Unearthed Arcana 2023 Player's Handbook Playtest 8",
+					"id": "000",
 					"page": 1,
 					"entries": [
 						"This playtest document is part of a series of {@i Unearthed Arcana} articles that present material designed for the 2024 version of the {@i Player's Handbook}. The material here uses the rules in the 2014 {@book Player's Handbook|PHB}, except where noted.",
 						{
 							"type": "inset",
-							"page": 1,
 							"name": "Learn More on YouTube",
+							"id": "001",
+							"page": 1,
 							"entries": [
 								"To learn more about the design in this article, we invite you to view the videos about it on YouTube ({@link www.youtube.com/DNDWizards})."
-							],
-							"id": "001"
+							]
 						},
 						{
 							"type": "section",
 							"name": "What's Inside",
+							"id": "002",
 							"page": 1,
 							"entries": [
 								"Here are the new and revised elements in this article:",
 								{
 									"type": "list",
-									"style": "list-hang-notitle",
 									"page": 1,
+									"style": "list-hang-notitle",
 									"items": [
 										{
 											"type": "item",
@@ -6596,64 +6598,65 @@
 								},
 								{
 									"type": "inset",
-									"page": 1,
 									"name": "This Is Playtest Material",
+									"id": "003",
+									"page": 1,
 									"entries": [
 										"This article is presented for playtesting and feedback. The options here are experimental and in draft form. They aren't officially part of the game. Your feedback will help determine whether we adopt it as official.",
 										{
 											"type": "entries",
 											"name": "How to Playtest This UA",
+											"id": "004",
 											"page": 1,
 											"entries": [
 												"We invite you to try out this material in play. When you do so, you're welcome to combine this article with the other articles in this series, starting with \"{@loader Character Origins.|collection/Unearthed Arcana 2022 - Character Origins.json|prerelease}\"",
 												"If you do combine this article with any previous one, use only the rules glossary found here. In this {@i Unearthed Arcana} series, the rules glossary of each article supersedes the glossary of any previous article.",
 												"To play with this material, you may either incorporate it into your campaign or run one or more special playtest sessions. For such a session, you may create an adventure of your own or use a short adventure from a source like {@adventure Keys from the Golden Vault|KftGV}, {@adventure Journeys through the Radiant Citadel|JttRC}, or {@adventure Candlekeep Mysteries|CM}."
-											],
-											"id": "004"
+											]
 										},
 										{
 											"type": "entries",
 											"name": "Power Level",
+											"id": "005",
 											"page": 1,
 											"entries": [
 												"The character options you read here might be more or less powerful than options in the 2014 {@book Player's Handbook|PHB}. If a design survives playtesting, we adjust its power to the desirable level before publication. This means an option could be more or less powerful in its final form."
-											],
-											"id": "005"
+											]
 										},
 										{
 											"type": "entries",
 											"name": "Feedback",
+											"id": "006",
 											"page": 1,
 											"entries": [
 												"The best way for you to give us feedback on this material is in the survey we'll release on D&D Beyond. If we make this material official, it will be refined based on your feedback, and then it will appear in a D&D book.",
 												"Providing feedback on this document is one way you can help shape the next generation of D&D!"
-											],
-											"id": "006"
+											]
 										}
-									],
-									"id": "003"
+									]
 								}
-							],
-							"id": "002"
+							]
 						}
-					],
-					"id": "000"
+					]
 				},
 				{
 					"type": "section",
 					"name": "Classes",
+					"id": "007",
 					"page": 1,
 					"entries": [
 						"{@note For full details of all classes including tables, multiclassing, equipment, core stats and fluff, please see {@filter the classes page|classes|source=XUA2023PlayersHandbookP8}.}",
 						{
 							"type": "section",
 							"name": "Barbarian",
+							"id": "008",
 							"page": 1,
 							"entries": [
 								{
 									"type": "inset",
-									"page": 2,
 									"name": "Design Note: Barbarian Updates",
+									"id": "009",
+									"page": 2,
 									"entries": [
 										"Here are the main updates in this class since its last playtest version:",
 										{
@@ -6694,32 +6697,34 @@
 												}
 											]
 										}
-									],
-									"id": "009"
+									]
 								},
 								{
 									"type": "statblock",
 									"tag": "class",
-									"source": "XUA2023PlayersHandbookP8",
 									"name": "Barbarian",
+									"source": "XUA2023PlayersHandbookP8",
 									"page": 1,
 									"collapsed": true
 								},
 								{
 									"type": "entries",
 									"name": "Barbarian Subclasses",
+									"id": "00a",
 									"page": 5,
 									"entries": [
 										"A Barbarian subclass is a specialization that grants you special abilities at certain levels, as specified in the subclass. This section presents the {@class Barbarian|XUA2023PlayersHandbookP8|Path of the World Tree|World Tree|XUA2023PlayersHandbookP8} subclass.",
 										{
 											"type": "entries",
 											"name": "Path of the World Tree",
+											"id": "00b",
 											"page": 5,
 											"entries": [
 												{
 													"type": "inset",
-													"page": 5,
 													"name": "Design Note: Path of the World Tree Updates",
+													"id": "00c",
+													"page": 5,
 													"entries": [
 														"Here are the main updates in this subclass since its last playtest version:",
 														{
@@ -6760,38 +6765,36 @@
 																}
 															]
 														}
-													],
-													"id": "00c"
+													]
 												},
 												{
 													"type": "statblock",
 													"prop": "subclass",
-													"source": "XUA2023PlayersHandbookP8",
 													"name": "Path of the World Tree",
+													"shortName": "World Tree",
 													"className": "Barbarian",
 													"classSource": "XUA2023PlayersHandbookP8",
+													"source": "XUA2023PlayersHandbookP8",
 													"page": 5,
-													"collapsed": true,
-													"shortName": "World Tree"
+													"collapsed": true
 												}
-											],
-											"id": "00b"
+											]
 										}
-									],
-									"id": "00a"
+									]
 								}
-							],
-							"id": "008"
+							]
 						},
 						{
 							"type": "section",
 							"name": "Druid",
+							"id": "00d",
 							"page": 7,
 							"entries": [
 								{
 									"type": "inset",
-									"page": 8,
 									"name": "Design Note: Druid Updates",
+									"id": "00e",
+									"page": 8,
 									"entries": [
 										"Here are the main updates in this class since its last playtest version:",
 										{
@@ -6808,20 +6811,20 @@
 												}
 											]
 										}
-									],
-									"id": "00e"
+									]
 								},
 								{
 									"type": "statblock",
 									"tag": "class",
-									"source": "XUA2023PlayersHandbookP8",
 									"name": "Druid",
+									"source": "XUA2023PlayersHandbookP8",
 									"page": 7,
 									"collapsed": true
 								},
 								{
 									"type": "entries",
 									"name": "Druid Subclasses",
+									"id": "00f",
 									"page": 11,
 									"entries": [
 										"A Druid subclass is a specialization that grants you special abilities at certain Druid levels, as specified in the subclass.",
@@ -6829,12 +6832,14 @@
 										{
 											"type": "entries",
 											"name": "Circle of the Moon",
+											"id": "010",
 											"page": 11,
 											"entries": [
 												{
 													"type": "inset",
-													"page": 11,
 													"name": "Design Note: Circle of the Moon Updates",
+													"id": "011",
+													"page": 11,
 													"entries": [
 														"Here are the main updates in this subclass since its last playtest version:",
 														{
@@ -6875,38 +6880,36 @@
 																}
 															]
 														}
-													],
-													"id": "011"
+													]
 												},
 												{
 													"type": "statblock",
 													"prop": "subclass",
-													"source": "XUA2023PlayersHandbookP8",
 													"name": "Circle of the Moon",
+													"shortName": "Moon",
 													"className": "Druid",
 													"classSource": "XUA2023PlayersHandbookP8",
+													"source": "XUA2023PlayersHandbookP8",
 													"page": 11,
-													"collapsed": true,
-													"shortName": "Moon"
+													"collapsed": true
 												}
-											],
-											"id": "010"
+											]
 										}
-									],
-									"id": "00f"
+									]
 								}
-							],
-							"id": "00d"
+							]
 						},
 						{
 							"type": "section",
 							"name": "Monk",
+							"id": "012",
 							"page": 13,
 							"entries": [
 								{
 									"type": "inset",
-									"page": 13,
 									"name": "Design Note: Monk Updates",
+									"id": "013",
+									"page": 13,
 									"entries": [
 										"Here are the main updates in this class since its last playtest version:",
 										{
@@ -7027,32 +7030,34 @@
 												}
 											]
 										}
-									],
-									"id": "013"
+									]
 								},
 								{
 									"type": "statblock",
 									"tag": "class",
-									"source": "XUA2023PlayersHandbookP8",
 									"name": "Monk",
+									"source": "XUA2023PlayersHandbookP8",
 									"page": 13,
 									"collapsed": true
 								},
 								{
 									"type": "entries",
 									"name": "Monk Subclasses",
+									"id": "014",
 									"page": 16,
 									"entries": [
 										"A Monk subclass is a specialization that grants you special abilities at certain levels, as specified in the subclass. This section presents the {@class Monk|XUA2023PlayersHandbookP8|Warrior of the Hand subclass|Hand|XUA2023PlayersHandbookP8}.",
 										{
 											"type": "entries",
 											"name": "Warrior of the Hand",
+											"id": "015",
 											"page": 17,
 											"entries": [
 												{
 													"type": "inset",
-													"page": 17,
 													"name": "Design Note: Warrior of the Hand Updates",
+													"id": "016",
+													"page": 17,
 													"entries": [
 														"Here are the main updates in this subclass since its last playtest version:",
 														{
@@ -7093,57 +7098,55 @@
 																}
 															]
 														}
-													],
-													"id": "016"
+													]
 												},
 												{
 													"type": "statblock",
 													"prop": "subclass",
-													"source": "XUA2023PlayersHandbookP8",
 													"name": "Warrior of the Hand",
+													"shortName": "Hand",
 													"className": "Monk",
 													"classSource": "XUA2023PlayersHandbookP8",
+													"source": "XUA2023PlayersHandbookP8",
 													"page": 17,
-													"collapsed": true,
-													"shortName": "Hand"
+													"collapsed": true
 												}
-											],
-											"id": "015"
+											]
 										}
-									],
-									"id": "014"
+									]
 								}
-							],
-							"id": "012"
+							]
 						}
-					],
-					"id": "007"
+					]
 				},
 				{
 					"type": "section",
 					"name": "Spells",
+					"id": "017",
 					"page": 18,
 					"entries": [
 						"This section presents new or revised spells for you to playtest.",
 						{
 							"type": "entries",
 							"name": "Class Tags",
+							"id": "018",
 							"page": 18,
 							"entries": [
 								"A spell's description contains one or more tags indicating the class spell lists that contain the spell. For example, if a spell has the \"Wizard\" tag, the spell is on the Wizard spell list."
-							],
-							"id": "018"
+							]
 						},
 						{
 							"type": "entries",
 							"name": "Spell Descriptions",
+							"id": "019",
 							"page": 18,
 							"entries": [
 								"The following spells are presented in alphabetical order.",
 								{
 									"type": "inset",
-									"page": 18,
 									"name": "Design Note: Spell Updates",
+									"id": "01a",
+									"page": 18,
 									"entries": [
 										"Here are the main updates in this section since its last playtest version:",
 										{
@@ -7216,134 +7219,133 @@
 												}
 											]
 										}
-									],
-									"id": "01a"
+									]
 								},
 								{
 									"type": "statblock",
 									"tag": "spell",
-									"source": "XUA2023PlayersHandbookP8",
 									"name": "Conjure Animals",
+									"source": "XUA2023PlayersHandbookP8",
 									"page": 18,
 									"collapsed": true
 								},
 								{
 									"type": "statblock",
 									"tag": "spell",
-									"source": "XUA2023PlayersHandbookP8",
 									"name": "Conjure Celestial",
+									"source": "XUA2023PlayersHandbookP8",
 									"page": 18,
 									"collapsed": true
 								},
 								{
 									"type": "statblock",
 									"tag": "spell",
-									"source": "XUA2023PlayersHandbookP8",
 									"name": "Conjure Elemental",
+									"source": "XUA2023PlayersHandbookP8",
 									"page": 19,
 									"collapsed": true
 								},
 								{
 									"type": "statblock",
 									"tag": "spell",
-									"source": "XUA2023PlayersHandbookP8",
 									"name": "Conjure Fey",
+									"source": "XUA2023PlayersHandbookP8",
 									"page": 19,
 									"collapsed": true
 								},
 								{
 									"type": "statblock",
 									"tag": "spell",
-									"source": "XUA2023PlayersHandbookP8",
 									"name": "Conjure Minor Elementals",
+									"source": "XUA2023PlayersHandbookP8",
 									"page": 19,
 									"collapsed": true
 								},
 								{
 									"type": "statblock",
 									"tag": "spell",
-									"source": "XUA2023PlayersHandbookP8",
 									"name": "Conjure Woodland Beings",
+									"source": "XUA2023PlayersHandbookP8",
 									"page": 19,
 									"collapsed": true
 								},
 								{
 									"type": "statblock",
 									"tag": "spell",
-									"source": "XUA2023PlayersHandbookP8",
 									"name": "Cure Wounds",
+									"source": "XUA2023PlayersHandbookP8",
 									"page": 19,
 									"collapsed": true
 								},
 								{
 									"type": "statblock",
 									"tag": "spell",
-									"source": "XUA2023PlayersHandbookP8",
 									"name": "Fount of Moonlight",
+									"source": "XUA2023PlayersHandbookP8",
 									"page": 20,
 									"collapsed": true
 								},
 								{
 									"type": "statblock",
 									"tag": "spell",
-									"source": "XUA2023PlayersHandbookP8",
 									"name": "Healing Word",
+									"source": "XUA2023PlayersHandbookP8",
 									"page": 20,
 									"collapsed": true
 								},
 								{
 									"type": "statblock",
 									"tag": "spell",
-									"source": "XUA2023PlayersHandbookP8",
 									"name": "Mass Cure Wounds",
+									"source": "XUA2023PlayersHandbookP8",
 									"page": 20,
 									"collapsed": true
 								},
 								{
 									"type": "statblock",
 									"tag": "spell",
-									"source": "XUA2023PlayersHandbookP8",
 									"name": "Mass Healing Word",
+									"source": "XUA2023PlayersHandbookP8",
 									"page": 20,
 									"collapsed": true
 								},
 								{
 									"type": "statblock",
 									"tag": "spell",
-									"source": "XUA2023PlayersHandbookP8",
 									"name": "Power Word Fortify",
+									"source": "XUA2023PlayersHandbookP8",
 									"page": 20,
 									"collapsed": true
 								},
 								{
 									"type": "statblock",
 									"tag": "spell",
-									"source": "XUA2023PlayersHandbookP8",
 									"name": "Starry Wisp",
+									"source": "XUA2023PlayersHandbookP8",
 									"page": 20,
 									"collapsed": true
 								}
-							],
-							"id": "019"
+							]
 						}
-					],
-					"id": "017"
+					]
 				},
 				{
 					"type": "section",
 					"name": "Feats",
+					"id": "01b",
 					"page": 21,
 					"entries": [
 						{
 							"type": "entries",
 							"name": "Parts of a Feat",
+							"id": "01c",
 							"page": 21,
 							"entries": [
 								"The description of a feat contains the following parts, which are presented after the feat's name:",
 								{
 									"type": "list",
-									"style": "list-hang-notitle",
 									"page": 21,
+									"style": "list-hang-notitle",
 									"items": [
 										{
 											"type": "item",
@@ -7375,12 +7377,12 @@
 										}
 									]
 								}
-							],
-							"id": "01c"
+							]
 						},
 						{
 							"type": "entries",
 							"name": "Feat Descriptions",
+							"id": "01d",
 							"page": 21,
 							"entries": [
 								"Here are descriptions of some feats that are available to characters using this playtest article. Playtest characters can also select feats from previous installments of the 2022 {@i Unearthed Arcana} series.",
@@ -7388,99 +7390,99 @@
 								{
 									"type": "statblock",
 									"tag": "feat",
-									"source": "XUA2023PlayersHandbookP8",
 									"name": "Ability Score Improvement",
+									"source": "XUA2023PlayersHandbookP8",
 									"page": 21
 								}
-							],
-							"id": "01d"
+							]
 						}
-					],
-					"id": "01b"
+					]
 				},
 				{
 					"type": "section",
 					"name": "Weapons",
+					"id": "01e",
 					"page": 21,
 					"entries": [
 						"This section contains playtest versions of weapons in the 2014 {@book Player's Handbook|PHB}. Here you'll find weapon tables, revised weapon properties, and a new type of property: Mastery properties.",
 						{
 							"type": "entries",
 							"name": "Weapon Tables",
+							"id": "01f",
 							"page": 21,
 							"entries": [
 								{
 									"type": "statblock",
 									"tag": "table",
-									"source": "XUA2023PlayersHandbookP8",
 									"name": "Simple Weapons: Melee",
+									"source": "XUA2023PlayersHandbookP8",
 									"page": 21
 								},
 								{
 									"type": "statblock",
 									"tag": "table",
-									"source": "XUA2023PlayersHandbookP8",
 									"name": "Simple Weapons: Ranged",
+									"source": "XUA2023PlayersHandbookP8",
 									"page": 21
 								},
 								{
 									"type": "statblock",
 									"tag": "table",
-									"source": "XUA2023PlayersHandbookP8",
 									"name": "Martial Weapons: Melee",
+									"source": "XUA2023PlayersHandbookP8",
 									"page": 22
 								},
 								{
 									"type": "statblock",
 									"tag": "table",
-									"source": "XUA2023PlayersHandbookP8",
 									"name": "Martial Weapons: Ranged",
+									"source": "XUA2023PlayersHandbookP8",
 									"page": 22
 								}
-							],
-							"id": "01f"
+							]
 						},
 						{
 							"type": "entries",
 							"name": "Weapon Properties",
+							"id": "020",
 							"page": 22,
 							"entries": [
 								"Here are properties whose definitions have changed for this playtest.",
 								{
 									"type": "entries",
 									"name": "Heavy",
+									"id": "021",
 									"page": 22,
 									"entries": [
 										"A Heavy weapon is unwieldy compared to other weapons. You have Disadvantage on your attack rolls with a Heavy weapon if it's a melee weapon and your Strength score isn't at least 13 and if it's a ranged weapon and your Dexterity score isn't at least 13."
-									],
-									"id": "021"
+									]
 								},
 								{
 									"type": "entries",
 									"name": "Light",
+									"id": "022",
 									"page": 22,
 									"entries": [
 										"When you take the {@action Attack|XUA2023PlayersHandbookP8} action on your turn and attack with a Light weapon, you can make one extra attack as a Bonus Action later on the same turn. That extra attack must be made with a different Light weapon, and you don't add your ability modifier to the extra attack's damage, unless that modifier is negative.",
 										"For example, if you take the {@action Attack|XUA2023PlayersHandbookP8} action on your turn and have a Shortsword in one hand and a Dagger in the other\u2014each of which has the Light property\u2014you can make one attack with each weapon, using your action and a Bonus Action, but you don't add your Strength or Dexterity modifier to the damage roll of the Bonus Action, unless that modifier is negative."
-									],
-									"id": "022"
+									]
 								},
 								{
 									"type": "entries",
 									"name": "Thrown",
+									"id": "023",
 									"page": 22,
 									"entries": [
 										"If a weapon has the Thrown property, you can throw the weapon to make a ranged attack, and you can draw that weapon as part of the attack.",
 										"If the weapon is a melee weapon, you use the same ability modifier for that attack roll and damage roll that you would use for a melee attack with the weapon. For example, if you throw a Handaxe, you use your Strength, but if you throw a Dagger, you can use either your Strength or your Dexterity, since the Dagger has the Finesse property."
-									],
-									"id": "023"
+									]
 								}
-							],
-							"id": "020"
+							]
 						},
 						{
 							"type": "entries",
 							"name": "Mastery Properties",
+							"id": "024",
 							"page": 23,
 							"entries": [
 								"Each weapon now has a Mastery property, as shown in the weapon tables above. That property is usable only by a character who has a feature, such as Weapon Mastery, that unlocks the property for the character.",
@@ -7489,91 +7491,90 @@
 								{
 									"type": "statblock",
 									"tag": "itemMastery",
-									"source": "XUA2023PlayersHandbookP8",
 									"name": "Cleave",
+									"source": "XUA2023PlayersHandbookP8",
 									"page": 23
 								},
 								{
 									"type": "statblock",
 									"tag": "itemMastery",
-									"source": "XUA2023PlayersHandbookP8",
 									"name": "Graze",
+									"source": "XUA2023PlayersHandbookP8",
 									"page": 23
 								},
 								{
 									"type": "statblock",
 									"tag": "itemMastery",
-									"source": "XUA2023PlayersHandbookP8",
 									"name": "Nick",
+									"source": "XUA2023PlayersHandbookP8",
 									"page": 23
 								},
 								{
 									"type": "statblock",
 									"tag": "itemMastery",
-									"source": "XUA2023PlayersHandbookP8",
 									"name": "Push",
+									"source": "XUA2023PlayersHandbookP8",
 									"page": 23
 								},
 								{
 									"type": "statblock",
 									"tag": "itemMastery",
-									"source": "XUA2023PlayersHandbookP8",
 									"name": "Sap",
+									"source": "XUA2023PlayersHandbookP8",
 									"page": 23
 								},
 								{
 									"type": "statblock",
 									"tag": "itemMastery",
-									"source": "XUA2023PlayersHandbookP8",
 									"name": "Slow",
+									"source": "XUA2023PlayersHandbookP8",
 									"page": 23
 								},
 								{
 									"type": "statblock",
 									"tag": "itemMastery",
-									"source": "XUA2023PlayersHandbookP8",
 									"name": "Topple",
+									"source": "XUA2023PlayersHandbookP8",
 									"page": 23
 								},
 								{
 									"type": "statblock",
 									"tag": "itemMastery",
-									"source": "XUA2023PlayersHandbookP8",
 									"name": "Vex",
+									"source": "XUA2023PlayersHandbookP8",
 									"page": 23
 								}
-							],
-							"id": "024"
+							]
 						}
-					],
-					"id": "01e"
+					]
 				},
 				{
 					"type": "section",
 					"name": "Adventuring Gear",
+					"id": "025",
 					"page": 24,
 					"entries": [
 						"Here are descriptions of miscellaneous items whose rules have changed for this playtest.",
 						{
 							"type": "statblock",
 							"tag": "item",
-							"source": "XUA2023PlayersHandbookP8",
 							"name": "Net",
+							"source": "XUA2023PlayersHandbookP8",
 							"page": 24
 						},
 						{
 							"type": "statblock",
 							"tag": "item",
-							"source": "XUA2023PlayersHandbookP8",
 							"name": "Priest's Pack",
+							"source": "XUA2023PlayersHandbookP8",
 							"page": 24
 						}
-					],
-					"id": "025"
+					]
 				},
 				{
 					"type": "section",
 					"name": "Rules Glossary",
+					"id": "026",
 					"page": 24,
 					"entries": [
 						"This glossary includes game terms that have new meaning in this playtest document, as well as terms, such as {@variantrule creature type|XUA2023PlayersHandbookP8}, that aren't defined in the 2014 {@book Player's Handbook|PHB}. The terms are organized alphabetically.",
@@ -7581,269 +7582,268 @@
 						{
 							"type": "statblock",
 							"tag": "variantrule",
-							"source": "XUA2023PlayersHandbookP8",
 							"name": "Armor Training",
+							"source": "XUA2023PlayersHandbookP8",
 							"page": 24,
 							"collapsed": true
 						},
 						{
 							"type": "statblock",
 							"tag": "action",
-							"source": "XUA2023PlayersHandbookP8",
 							"name": "Attack",
+							"source": "XUA2023PlayersHandbookP8",
 							"page": 24,
 							"collapsed": true
 						},
 						{
 							"type": "statblock",
 							"tag": "sense",
-							"source": "XUA2023PlayersHandbookP8",
 							"name": "Blindsight",
+							"source": "XUA2023PlayersHandbookP8",
 							"page": 24,
 							"collapsed": true
 						},
 						{
 							"type": "statblock",
 							"tag": "variantrule",
-							"source": "XUA2023PlayersHandbookP8",
 							"name": "Climb Speed",
+							"source": "XUA2023PlayersHandbookP8",
 							"page": 24,
 							"collapsed": true
 						},
 						{
 							"type": "statblock",
 							"tag": "variantrule",
-							"source": "XUA2023PlayersHandbookP8",
 							"name": "Creature Type",
+							"source": "XUA2023PlayersHandbookP8",
 							"page": 24,
 							"collapsed": true
 						},
 						{
 							"type": "statblock",
 							"tag": "variantrule",
-							"source": "XUA2023PlayersHandbookP8",
 							"name": "D20 Tests",
+							"source": "XUA2023PlayersHandbookP8",
 							"page": 25,
 							"collapsed": true
 						},
 						{
 							"type": "statblock",
 							"tag": "condition",
-							"source": "XUA2023PlayersHandbookP8",
 							"name": "Dazed",
+							"source": "XUA2023PlayersHandbookP8",
 							"page": 25,
 							"collapsed": true
 						},
 						{
 							"type": "statblock",
 							"tag": "variantrule",
-							"source": "XUA2023PlayersHandbookP8",
 							"name": "Difficult Terrain",
+							"source": "XUA2023PlayersHandbookP8",
 							"page": 25,
 							"collapsed": true
 						},
 						{
 							"type": "statblock",
 							"tag": "variantrule",
-							"source": "XUA2023PlayersHandbookP8",
 							"name": "Expertise",
+							"source": "XUA2023PlayersHandbookP8",
 							"page": 25,
 							"collapsed": true
 						},
 						{
 							"type": "statblock",
 							"tag": "variantrule",
-							"source": "XUA2023PlayersHandbookP8",
 							"name": "Fly Speed",
+							"source": "XUA2023PlayersHandbookP8",
 							"page": 25,
 							"collapsed": true
 						},
 						{
 							"type": "statblock",
 							"tag": "condition",
-							"source": "XUA2023PlayersHandbookP8",
 							"name": "Grappled",
+							"source": "XUA2023PlayersHandbookP8",
 							"page": 25,
 							"collapsed": true
 						},
 						{
 							"type": "statblock",
 							"tag": "action",
-							"source": "XUA2023PlayersHandbookP8",
 							"name": "Help",
+							"source": "XUA2023PlayersHandbookP8",
 							"page": 25,
 							"collapsed": true
 						},
 						{
 							"type": "statblock",
 							"tag": "variantrule",
-							"source": "XUA2023PlayersHandbookP8",
 							"name": "Heroic Advantage",
+							"source": "XUA2023PlayersHandbookP8",
 							"page": 26,
 							"collapsed": true
 						},
 						{
 							"type": "statblock",
 							"tag": "action",
-							"source": "XUA2023PlayersHandbookP8",
 							"name": "Hide",
+							"source": "XUA2023PlayersHandbookP8",
 							"page": 26,
 							"collapsed": true
 						},
 						{
 							"type": "statblock",
 							"tag": "condition",
-							"source": "XUA2023PlayersHandbookP8",
 							"name": "Incapacitated",
+							"source": "XUA2023PlayersHandbookP8",
 							"page": 26,
 							"collapsed": true
 						},
 						{
 							"type": "statblock",
 							"tag": "action",
-							"source": "XUA2023PlayersHandbookP8",
 							"name": "Influence",
+							"source": "XUA2023PlayersHandbookP8",
 							"page": 26,
 							"collapsed": true
 						},
 						{
 							"type": "statblock",
 							"tag": "condition",
-							"source": "XUA2023PlayersHandbookP8",
 							"name": "Invisible",
+							"source": "XUA2023PlayersHandbookP8",
 							"page": 27,
 							"collapsed": true
 						},
 						{
 							"type": "statblock",
 							"tag": "variantrule",
-							"source": "XUA2023PlayersHandbookP8",
 							"name": "Knocking Out a Creature",
+							"source": "XUA2023PlayersHandbookP8",
 							"page": 27,
 							"collapsed": true
 						},
 						{
 							"type": "statblock",
 							"tag": "variantrule",
-							"source": "XUA2023PlayersHandbookP8",
 							"name": "Long Rest",
+							"source": "XUA2023PlayersHandbookP8",
 							"page": 27,
 							"collapsed": true
 						},
 						{
 							"type": "statblock",
 							"tag": "action",
-							"source": "XUA2023PlayersHandbookP8",
 							"name": "Magic",
+							"source": "XUA2023PlayersHandbookP8",
 							"page": 28,
 							"collapsed": true
 						},
 						{
 							"type": "statblock",
 							"tag": "variantrule",
-							"source": "XUA2023PlayersHandbookP8",
 							"name": "Move",
+							"source": "XUA2023PlayersHandbookP8",
 							"page": 28,
 							"collapsed": true
 						},
 						{
 							"type": "statblock",
 							"tag": "variantrule",
-							"source": "XUA2023PlayersHandbookP8",
 							"name": "Ritual Casting",
+							"source": "XUA2023PlayersHandbookP8",
 							"page": 28,
 							"collapsed": true
 						},
 						{
 							"type": "statblock",
 							"tag": "action",
-							"source": "XUA2023PlayersHandbookP8",
 							"name": "Search",
+							"source": "XUA2023PlayersHandbookP8",
 							"page": 28,
 							"collapsed": true
 						},
 						{
 							"type": "statblock",
 							"tag": "variantrule",
-							"source": "XUA2023PlayersHandbookP8",
 							"name": "Short Rest",
+							"source": "XUA2023PlayersHandbookP8",
 							"page": 29,
 							"collapsed": true
 						},
 						{
 							"type": "statblock",
 							"tag": "action",
-							"source": "XUA2023PlayersHandbookP8",
 							"name": "Study",
+							"source": "XUA2023PlayersHandbookP8",
 							"page": 29,
 							"collapsed": true
 						},
 						{
 							"type": "statblock",
 							"tag": "variantrule",
-							"source": "XUA2023PlayersHandbookP8",
 							"name": "Swim Speed",
+							"source": "XUA2023PlayersHandbookP8",
 							"page": 29,
 							"collapsed": true
 						},
 						{
 							"type": "statblock",
 							"tag": "variantrule",
-							"source": "XUA2023PlayersHandbookP8",
 							"name": "Telepathy",
+							"source": "XUA2023PlayersHandbookP8",
 							"page": 29,
 							"collapsed": true
 						},
 						{
 							"type": "statblock",
 							"tag": "variantrule",
-							"source": "XUA2023PlayersHandbookP8",
 							"name": "Teleportation",
+							"source": "XUA2023PlayersHandbookP8",
 							"page": 29,
 							"collapsed": true
 						},
 						{
 							"type": "statblock",
 							"tag": "variantrule",
-							"source": "XUA2023PlayersHandbookP8",
 							"name": "Tool Proficiency",
+							"source": "XUA2023PlayersHandbookP8",
 							"page": 30,
 							"collapsed": true
 						},
 						{
 							"type": "statblock",
 							"tag": "sense",
-							"source": "XUA2023PlayersHandbookP8",
 							"name": "Tremorsense",
+							"source": "XUA2023PlayersHandbookP8",
 							"page": 30,
 							"collapsed": true
 						},
 						{
 							"type": "statblock",
 							"tag": "sense",
-							"source": "XUA2023PlayersHandbookP8",
 							"name": "Truesight",
+							"source": "XUA2023PlayersHandbookP8",
 							"page": 30,
 							"collapsed": true
 						},
 						{
 							"type": "statblock",
 							"tag": "variantrule",
-							"source": "XUA2023PlayersHandbookP8",
 							"name": "Unarmed Strike",
+							"source": "XUA2023PlayersHandbookP8",
 							"page": 30,
 							"collapsed": true
 						},
 						{
 							"type": "statblock",
 							"tag": "condition",
-							"source": "XUA2023PlayersHandbookP8",
 							"name": "Unconscious",
+							"source": "XUA2023PlayersHandbookP8",
 							"page": 30,
 							"collapsed": true
 						}
-					],
-					"id": "026"
+					]
 				}
 			]
 		}

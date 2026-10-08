@@ -143,8 +143,8 @@
 				{
 					"type": "statblock",
 					"tag": "table",
-					"source": "XUA2023BastionsAndCantrips",
 					"name": "Reference Books",
+					"source": "XUA2023BastionsAndCantrips",
 					"page": 8
 				},
 				{
@@ -343,8 +343,8 @@
 				{
 					"type": "statblock",
 					"tag": "table",
-					"source": "XUA2023BastionsAndCantrips",
 					"name": "Gambling Den Winnings",
+					"source": "XUA2023BastionsAndCantrips",
 					"page": 9
 				}
 			]
@@ -423,8 +423,8 @@
 				{
 					"type": "statblock",
 					"tag": "table",
-					"source": "XUA2023BastionsAndCantrips",
 					"name": "Garden Harvest",
+					"source": "XUA2023BastionsAndCantrips",
 					"page": 10
 				},
 				{
@@ -537,8 +537,8 @@
 				{
 					"type": "statblock",
 					"tag": "table",
-					"source": "XUA2023BastionsAndCantrips",
 					"name": "Sample Guilds",
+					"source": "XUA2023BastionsAndCantrips",
 					"page": 11
 				}
 			]
@@ -605,8 +605,8 @@
 								{
 									"type": "statblock",
 									"tag": "table",
-									"source": "XUA2023BastionsAndCantrips",
 									"name": "Craft Potion",
+									"source": "XUA2023BastionsAndCantrips",
 									"page": 12
 								}
 							]
@@ -702,8 +702,8 @@
 								{
 									"type": "statblock",
 									"tag": "table",
-									"source": "XUA2023BastionsAndCantrips",
 									"name": "Fortified Saves",
+									"source": "XUA2023BastionsAndCantrips",
 									"page": 12
 								}
 							]
@@ -753,16 +753,16 @@
 				{
 					"type": "statblock",
 					"tag": "table",
-					"source": "XUA2023BastionsAndCantrips",
 					"name": "Menagerie Creatures",
+					"source": "XUA2023BastionsAndCantrips",
 					"page": 13
 				},
 				"At the DM's option, you can add different creatures than those shown to your Menagerie. The cost of a creature depends on its Challenge Rating, as shown on the {@table Menagerie Creatures by Challenge Rating|XUA2023BastionsAndCantrips} table. Only Beasts and some Monstrosities (with the DM's approval) can be kept in a Menagerie.",
 				{
 					"type": "statblock",
 					"tag": "table",
-					"source": "XUA2023BastionsAndCantrips",
 					"name": "Menagerie Creatures By Challenge Rating",
+					"source": "XUA2023BastionsAndCantrips",
 					"page": 13
 				}
 			]
@@ -847,8 +847,8 @@
 				{
 					"type": "statblock",
 					"tag": "table",
-					"source": "XUA2023BastionsAndCantrips",
 					"name": "Pub Special",
+					"source": "XUA2023BastionsAndCantrips",
 					"page": 14
 				},
 				{
@@ -1147,8 +1147,8 @@
 								{
 									"type": "statblock",
 									"tag": "table",
-									"source": "XUA2023BastionsAndCantrips",
 									"name": "Craft Scroll",
+									"source": "XUA2023BastionsAndCantrips",
 									"page": 16
 								}
 							]
@@ -1456,8 +1456,8 @@
 				{
 					"type": "statblock",
 					"tag": "table",
-					"source": "XUA2023BastionsAndCantrips",
 					"name": "Expert Trainers",
+					"source": "XUA2023BastionsAndCantrips",
 					"page": 18
 				}
 			]
@@ -2300,8 +2300,8 @@
 						{
 							"type": "statblock",
 							"tag": "table",
-							"source": "XUA2023BastionsAndCantrips",
 							"name": "Bastion Events",
+							"source": "XUA2023BastionsAndCantrips",
 							"page": 20
 						},
 						{
@@ -2351,8 +2351,8 @@
 										{
 											"type": "statblock",
 											"tag": "table",
-											"source": "XUA2023BastionsAndCantrips",
 											"name": "Honored Guests",
+											"source": "XUA2023BastionsAndCantrips",
 											"page": 21
 										}
 									]
@@ -2409,8 +2409,8 @@
 						{
 							"type": "statblock",
 							"tag": "table",
-							"source": "XUA2023BastionsAndCantrips",
 							"name": "Facility Space",
+							"source": "XUA2023BastionsAndCantrips",
 							"page": 4
 						},
 						{
@@ -2421,8 +2421,8 @@
 								"A player is encouraged to create a floor plan of their character's Bastion, configuring the Bastion's basic and special facilities as they see fit. In addition to those facilities (described below), the Bastion can have the following features:",
 								{
 									"type": "list",
-									"style": "list-hang-notitle",
 									"page": 4,
+									"style": "list-hang-notitle",
 									"items": [
 										{
 											"type": "item",
@@ -2478,9 +2478,9 @@
 								"A character's Bastion starts with two free basic facilities, which the character's player chooses from the Basic Facilities list below. One of the chosen facilities is Cramped, and the other is Roomy. A Bastion can have more than one of each basic facility.",
 								{
 									"type": "list",
-									"style": "list-no-bullets",
-									"page": 4,
 									"name": "Basic Facilities",
+									"page": 4,
+									"style": "list-no-bullets",
 									"items": [
 										"Bedroom",
 										"Courtyard",
@@ -2502,8 +2502,8 @@
 										{
 											"type": "statblock",
 											"tag": "table",
-											"source": "XUA2023BastionsAndCantrips",
 											"name": "Adding Basic Facilities",
+											"source": "XUA2023BastionsAndCantrips",
 											"page": 5
 										}
 									]
@@ -2518,8 +2518,8 @@
 										{
 											"type": "statblock",
 											"tag": "table",
-											"source": "XUA2023BastionsAndCantrips",
 											"name": "Enlarging Basic Facilities",
+											"source": "XUA2023BastionsAndCantrips",
 											"page": 5
 										}
 									]
@@ -2538,8 +2538,8 @@
 								{
 									"type": "statblock",
 									"tag": "table",
-									"source": "XUA2023BastionsAndCantrips",
 									"name": "Special Facility Acquisition",
+									"source": "XUA2023BastionsAndCantrips",
 									"page": 5
 								},
 								{
@@ -2579,8 +2579,8 @@
 										"The orders are as follows:",
 										{
 											"type": "list",
-											"style": "list-hang-notitle",
 											"page": 6,
+											"style": "list-hang-notitle",
 											"items": [
 												{
 													"type": "item",
@@ -2671,8 +2671,8 @@
 								{
 									"type": "statblock",
 									"tag": "table",
-									"source": "XUA2023BastionsAndCantrips",
 									"name": "Spending Bastion Points",
+									"source": "XUA2023BastionsAndCantrips",
 									"page": 3
 								},
 								"Characters who have reached level 20 can use Bastion Points to acquire a magic item each time they earn a bonus feat (every 30,000 XP above 355,000 XP)."
@@ -2739,8 +2739,8 @@
 				"Most importantly, a Bastion is a creative playground for a player and a shared storytelling space in the campaign. DMs should be as permissive as possible with the stories players tell in their Bastions, but players should know their control goes only as far as the campaign's larger story, which the DM strives to make fun for everyone.",
 				{
 					"type": "inset",
-					"page": 2,
 					"name": "Design Notes",
+					"page": 2,
 					"entries": [
 						"Keep the following notes in mind as you review this document.",
 						{
@@ -2762,32 +2762,32 @@
 				{
 					"type": "statblock",
 					"tag": "variantrule",
-					"source": "XUA2023BastionsAndCantrips",
 					"name": "Gaining a Bastion",
+					"source": "XUA2023BastionsAndCantrips",
 					"page": 2,
 					"collapsed": true
 				},
 				{
 					"type": "statblock",
 					"tag": "variantrule",
-					"source": "XUA2023BastionsAndCantrips",
 					"name": "Bastion Turns",
+					"source": "XUA2023BastionsAndCantrips",
 					"page": 2,
 					"collapsed": true
 				},
 				{
 					"type": "statblock",
 					"tag": "variantrule",
-					"source": "XUA2023BastionsAndCantrips",
 					"name": "Bastion Points",
+					"source": "XUA2023BastionsAndCantrips",
 					"page": 3,
 					"collapsed": true
 				},
 				{
 					"type": "statblock",
 					"tag": "variantrule",
-					"source": "XUA2023BastionsAndCantrips",
 					"name": "Bastion Facilities",
+					"source": "XUA2023BastionsAndCantrips",
 					"page": 3,
 					"collapsed": true
 				},
@@ -2795,24 +2795,24 @@
 				{
 					"type": "statblock",
 					"tag": "table",
-					"source": "XUA2023BastionsAndCantrips",
 					"name": "Special Facilities",
+					"source": "XUA2023BastionsAndCantrips",
 					"page": 6,
 					"collapsed": true
 				},
 				{
 					"type": "statblock",
 					"tag": "variantrule",
-					"source": "XUA2023BastionsAndCantrips",
 					"name": "Fall of a Bastion",
+					"source": "XUA2023BastionsAndCantrips",
 					"page": 19,
 					"collapsed": true
 				},
 				{
 					"type": "statblock",
 					"tag": "variantrule",
-					"source": "XUA2023BastionsAndCantrips",
 					"name": "Bastion Events",
+					"source": "XUA2023BastionsAndCantrips",
 					"page": 20,
 					"collapsed": true
 				}
@@ -3825,29 +3825,31 @@
 				{
 					"type": "section",
 					"name": "Unearthed Arcana 2023: Bastions And Cantrips",
+					"id": "000",
 					"page": 1,
 					"entries": [
 						"This playtest document presents material designed for the 2024 version of the core rulebooks. The material here uses the rules in the 2014 core rulebooks, except where noted.",
 						"While the public playtest for the {@i Player's Handbook} continues, we want to give you this early taste of material slated for the revised {@i Dungeon Master's Guide}.",
 						{
 							"type": "inset",
-							"page": 1,
 							"name": "Learn More on YouTube",
+							"id": "001",
+							"page": 1,
 							"entries": [
 								"To learn more about the design in this article, we invite you to view the videos about it on YouTube ({@link www.youtube.com/DNDWizards})."
-							],
-							"id": "001"
+							]
 						},
 						{
 							"type": "section",
 							"name": "What's Inside",
+							"id": "002",
 							"page": 1,
 							"entries": [
 								"This article has two sections:",
 								{
 									"type": "list",
-									"style": "list-hang-notitle",
 									"page": 1,
+									"style": "list-hang-notitle",
 									"items": [
 										{
 											"type": "item",
@@ -3867,42 +3869,41 @@
 								},
 								{
 									"type": "inset",
-									"page": 1,
 									"name": "This Is Playtest Material",
+									"id": "003",
+									"page": 1,
 									"entries": [
 										"This article is presented for playtesting and feedback. The options here are experimental and in draft form. They aren't officially part of the game. Your feedback will help determine whether we adopt them as official.",
 										{
 											"type": "entries",
 											"name": "How to Playtest This UA",
+											"id": "004",
 											"page": 1,
 											"entries": [
 												"We invite you to try out this material in play. When you do so, you can use characters created using the {@book 2014 Player's Handbook|PHB} or ones made with the \"Player's Handbook Playtest\" series, starting with \"{@loader Character Origins.|collection/Unearthed Arcana 2022 - Character Origins.json|prerelease}\"",
 												"To play with this material, you may either incorporate it into your campaign or run one or more special playtest sessions. For a session testing the Bastion rules, you don't need an adventure prepared; just focus on creating Bastions and resolving Bastion turns. For testing the cantrips, you may create an adventure of your own or use a short adventure from a source like {@adventure Keys from the Golden Vault|KftGV}, {@adventure Journeys through the Radiant Citadel|JttRC}, or {@adventure Candlekeep Mysteries|CM}."
-											],
-											"id": "004"
+											]
 										},
 										{
 											"type": "entries",
 											"name": "Feedback",
+											"id": "005",
 											"page": 1,
 											"entries": [
 												"The best way for you to give us feedback on this material is in the survey we'll release on D&D Beyond. If we make this material official, it will be refined based on your feedback, and then it will appear in a D&D book.",
 												"Providing feedback on this document is one way you can help shape the next generation of D&D!"
-											],
-											"id": "005"
+											]
 										}
-									],
-									"id": "003"
+									]
 								}
-							],
-							"id": "002"
+							]
 						}
-					],
-					"id": "000"
+					]
 				},
 				{
 					"type": "section",
 					"name": "Bastions",
+					"id": "006",
 					"page": 1,
 					"entries": [
 						"A Bastion is a location that belongs to a player character: a home, a stronghold, and a place of power that the character nurtures and develops over the course of a campaign. A Bastion offers a character temporary refuge from the dangerous world of adventuring, and it provides opportunities for a character to craft magic items, conduct research, harvest poisons, build ships, and carry out a broad range of other activities.",
@@ -3912,93 +3913,95 @@
 						"Most importantly, a Bastion is a creative playground for a player and a shared storytelling space in the campaign. DMs should be as permissive as possible with the stories players tell in their Bastions, but players should know their control goes only as far as the campaign's larger story, which the DM strives to make fun for everyone.",
 						{
 							"type": "inset",
-							"page": 2,
 							"name": "Design Notes",
+							"id": "007",
+							"page": 2,
 							"entries": [
 								"Keep the following notes in mind as you review this document.",
 								{
 									"type": "entries",
 									"name": "Defenders and Hirelings",
+									"id": "008",
 									"entries": [
 										"To ease the burden on players, we don't present or require statistics for Bastion hirelings and defenders. All a player needs to track is the number of each in their Bastion. Players can assign names and personalities to their Bastions' occupants as they see fit."
-									],
-									"id": "008"
+									]
 								},
 								{
 									"type": "entries",
 									"name": "GP Expenditure",
+									"id": "009",
 									"entries": [
 										"Bastions give characters new ways to spend their gold, but we want the gold they spend to make them happy (as opposed to feeling like mortgage payments)."
-									],
-									"id": "009"
+									]
 								}
-							],
-							"id": "007"
+							]
 						},
 						{
 							"type": "section",
 							"name": "Gaining a Bastion",
+							"id": "00a",
 							"page": 2,
 							"entries": [
 								{
 									"type": "statblock",
 									"tag": "variantrule",
-									"source": "XUA2023BastionsAndCantrips",
 									"name": "Gaining a Bastion",
+									"source": "XUA2023BastionsAndCantrips",
 									"page": 2,
 									"collapsed": true
 								}
-							],
-							"id": "00a"
+							]
 						},
 						{
 							"type": "section",
 							"name": "Bastion Turns",
+							"id": "00b",
 							"page": 2,
 							"entries": [
 								{
 									"type": "statblock",
 									"tag": "variantrule",
-									"source": "XUA2023BastionsAndCantrips",
 									"name": "Bastion Turns",
+									"source": "XUA2023BastionsAndCantrips",
 									"page": 2,
 									"collapsed": true
 								}
-							],
-							"id": "00b"
+							]
 						},
 						{
 							"type": "section",
 							"name": "Bastion Points",
+							"id": "00c",
 							"page": 3,
 							"entries": [
 								{
 									"type": "statblock",
 									"tag": "variantrule",
-									"source": "XUA2023BastionsAndCantrips",
 									"name": "Bastion Points",
+									"source": "XUA2023BastionsAndCantrips",
 									"page": 3,
 									"collapsed": true
 								}
-							],
-							"id": "00c"
+							]
 						},
 						{
 							"type": "section",
 							"name": "Bastion Facilities",
+							"id": "00d",
 							"page": 3,
 							"entries": [
 								{
 									"type": "statblock",
 									"tag": "variantrule",
-									"source": "XUA2023BastionsAndCantrips",
 									"name": "Bastion Facilities",
+									"source": "XUA2023BastionsAndCantrips",
 									"page": 3,
 									"collapsed": true
 								},
 								{
 									"type": "entries",
 									"name": "Special Facility Descriptions",
+									"id": "00e",
 									"page": 6,
 									"entries": [
 										"Special facilities are presented in alphabetical order. The Special Facilities table lists all the special facilities presented in this section, along with their prerequisites and orders.",
@@ -4006,76 +4009,76 @@
 										{
 											"type": "statblock",
 											"tag": "table",
-											"source": "XUA2023BastionsAndCantrips",
 											"name": "Special Facilities",
+											"source": "XUA2023BastionsAndCantrips",
 											"page": 6
 										}
-									],
-									"id": "00e"
+									]
 								}
-							],
-							"id": "00d"
+							]
 						},
 						{
 							"type": "section",
 							"name": "Fall of a Bastion",
+							"id": "00f",
 							"page": 19,
 							"entries": [
 								{
 									"type": "statblock",
 									"tag": "variantrule",
-									"source": "XUA2023BastionsAndCantrips",
 									"name": "Fall of a Bastion",
+									"source": "XUA2023BastionsAndCantrips",
 									"page": 19,
 									"collapsed": true
 								}
-							],
-							"id": "00f"
+							]
 						},
 						{
 							"type": "section",
 							"name": "Bastion Events",
+							"id": "010",
 							"page": 20,
 							"entries": [
 								{
 									"type": "statblock",
 									"tag": "variantrule",
-									"source": "XUA2023BastionsAndCantrips",
 									"name": "Bastion Events",
+									"source": "XUA2023BastionsAndCantrips",
 									"page": 20,
 									"collapsed": true
 								}
-							],
-							"id": "010"
+							]
 						}
-					],
-					"id": "006"
+					]
 				},
 				{
 					"type": "section",
 					"name": "Revised Cantrips",
+					"id": "011",
 					"page": 21,
 					"entries": [
 						"This section presents revised spells to playtest.",
 						{
 							"type": "entries",
 							"name": "Class Tags",
+							"id": "012",
 							"page": 21,
 							"entries": [
 								"A spell's description contains one or more tags indicating the class spell lists that contain the spell. For example, if a spell has the \"Wizard\" tag, the spell is on the Wizard spell list."
-							],
-							"id": "012"
+							]
 						},
 						{
 							"type": "entries",
 							"name": "Spell Descriptions",
+							"id": "013",
 							"page": 21,
 							"entries": [
 								"The following spells are presented in alphabetical order.",
 								{
 									"type": "inset",
-									"page": 21,
 									"name": "Design Note: Spell Updates",
+									"id": "014",
+									"page": 21,
 									"entries": [
 										"Here are the main updates to the spells in this section:",
 										{
@@ -4164,94 +4167,91 @@
 												}
 											]
 										}
-									],
-									"id": "014"
+									]
 								},
 								{
 									"type": "statblock",
 									"tag": "spell",
-									"source": "XUA2023BastionsAndCantrips",
 									"name": "Acid Splash",
+									"source": "XUA2023BastionsAndCantrips",
 									"page": 22,
 									"collapsed": true
 								},
 								{
 									"type": "statblock",
 									"tag": "spell",
-									"source": "XUA2023BastionsAndCantrips",
 									"name": "Blade Ward",
+									"source": "XUA2023BastionsAndCantrips",
 									"page": 22,
 									"collapsed": true
 								},
 								{
 									"type": "statblock",
 									"tag": "spell",
-									"source": "XUA2023BastionsAndCantrips",
 									"name": "Chill Touch",
+									"source": "XUA2023BastionsAndCantrips",
 									"page": 22,
 									"collapsed": true
 								},
 								{
 									"type": "statblock",
 									"tag": "spell",
-									"source": "XUA2023BastionsAndCantrips",
 									"name": "Friends",
+									"source": "XUA2023BastionsAndCantrips",
 									"page": 22,
 									"collapsed": true
 								},
 								{
 									"type": "statblock",
 									"tag": "spell",
-									"source": "XUA2023BastionsAndCantrips",
 									"name": "Poison Spray",
+									"source": "XUA2023BastionsAndCantrips",
 									"page": 22,
 									"collapsed": true
 								},
 								{
 									"type": "statblock",
 									"tag": "spell",
-									"source": "XUA2023BastionsAndCantrips",
 									"name": "Produce Flame",
+									"source": "XUA2023BastionsAndCantrips",
 									"page": 23,
 									"collapsed": true
 								},
 								{
 									"type": "statblock",
 									"tag": "spell",
-									"source": "XUA2023BastionsAndCantrips",
 									"name": "Shillelagh",
+									"source": "XUA2023BastionsAndCantrips",
 									"page": 23,
 									"collapsed": true
 								},
 								{
 									"type": "statblock",
 									"tag": "spell",
-									"source": "XUA2023BastionsAndCantrips",
 									"name": "Shocking Grasp",
+									"source": "XUA2023BastionsAndCantrips",
 									"page": 23,
 									"collapsed": true
 								},
 								{
 									"type": "statblock",
 									"tag": "spell",
-									"source": "XUA2023BastionsAndCantrips",
 									"name": "Spare the Dying",
+									"source": "XUA2023BastionsAndCantrips",
 									"page": 23,
 									"collapsed": true
 								},
 								{
 									"type": "statblock",
 									"tag": "spell",
-									"source": "XUA2023BastionsAndCantrips",
 									"name": "True Strike",
+									"source": "XUA2023BastionsAndCantrips",
 									"page": 23,
 									"collapsed": true
 								}
-							],
-							"id": "013"
+							]
 						}
-					],
-					"id": "011"
+					]
 				}
 			]
 		}

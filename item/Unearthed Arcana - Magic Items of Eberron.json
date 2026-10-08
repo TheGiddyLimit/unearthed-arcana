@@ -1505,23 +1505,25 @@
 				{
 					"type": "section",
 					"name": "Unearthed Arcana: Dragonmarks",
+					"id": "000",
 					"page": 1,
 					"entries": [
 						"This document a selection of magic items drawn from the D&D world of Eberron that can be incorporated into your campaign. For more information about Eberron, see the {@loader Wayfinder's Guide to Eberron|collection/Wayfinder's Guide to Eberron.json|prerelease}, available on the Dungeon Master's Guild ({@link DMsGuild.com|https://www.dmsguild.com/product/247882/Wayfinders-Guide-to-Eberron-5e}).",
 						{
 							"type": "inset",
 							"name": "This Is Playtest Content",
+							"id": "001",
 							"page": 1,
 							"entries": [
 								"The material here is presented for playtesting and to spark your imagination. These game mechanics are in draft form, usable in your campaign but not refined by final game design and editing. They aren't officially part of the game and aren't permitted in D&D Adventurers League events.",
 								"If we decide to make this material official, it will be refined based on your feedback, and then it will appear in a D&D book."
-							],
-							"id": "001"
+							]
 						},
 						"Arcane magic plays a vital role in the world of Eberron. Common magic items are part of everyday life. In the nation of Aundair, wandslingers are beginning to outnumber those who use swords and bows.",
 						{
 							"type": "section",
 							"name": "Arcane Focuses",
+							"id": "002",
 							"page": 1,
 							"entries": [
 								"Go to the Bazaar in Sharn or any enclave of House Cannith and you'll find a wide selection of arcane focuses to choose from. For a wandslinger, the choice of an arcane focus carries the same weight as a duelist deciding between a rapier or a maul. Do you use a {@item Imbued Wood (Fernian Ash)|UAMagicItemsofEberron|wand of Fernian ash} to focus your {@spell fire bolt}, or do you harness defensive energies with a {@item Orb of Shielding (Risian Shale)|UAMagicItemsofEberron|Risian orb}?",
@@ -1530,90 +1532,90 @@
 								{
 									"type": "statblock",
 									"tag": "item",
-									"source": "UAMagicItemsofEberron",
 									"name": "Imbued Wood",
+									"source": "UAMagicItemsofEberron",
 									"page": 1
 								},
 								{
 									"type": "statblock",
 									"tag": "item",
-									"source": "UAMagicItemsofEberron",
 									"name": "Orb of Shielding",
+									"source": "UAMagicItemsofEberron",
 									"page": 1
 								},
 								{
 									"type": "statblock",
 									"tag": "variantrule",
-									"source": "UAMagicItemsofEberron",
 									"name": "Two-Handed Arcane Focuses",
+									"displayName": "Optional Rule: Two-Handed Arcane Focuses",
+									"source": "UAMagicItemsofEberron",
 									"page": 2,
-									"style": "inset",
-									"displayName": "Optional Rule: Two-Handed Arcane Focuses"
+									"style": "inset"
 								}
-							],
-							"id": "002"
+							]
 						},
 						{
 							"type": "section",
 							"name": "Common Magic Items",
+							"id": "003",
 							"page": 2,
 							"entries": [
 								"Arcane magic is a part of everyday life in the Five Nations of Khorvaire. Powerful magic items remain rare and remarkable, but the streets are lit with everbright lanterns and nobles flaunt their wealth with fine glamerweave clothing. These are just a few examples of common items you might find in Eberron.",
 								{
 									"type": "statblock",
 									"tag": "item",
-									"source": "UAMagicItemsofEberron",
 									"name": "Band of Loyalty",
+									"source": "UAMagicItemsofEberron",
 									"page": 2
 								},
 								{
 									"type": "statblock",
 									"tag": "item",
-									"source": "UAMagicItemsofEberron",
 									"name": "Cleansing Stone",
+									"source": "UAMagicItemsofEberron",
 									"page": 2
 								},
 								{
 									"type": "statblock",
 									"tag": "item",
-									"source": "UAMagicItemsofEberron",
 									"name": "Everbright Lantern",
+									"source": "UAMagicItemsofEberron",
 									"page": 2
 								},
 								{
 									"type": "statblock",
 									"tag": "item",
-									"source": "UAMagicItemsofEberron",
 									"name": "Feather Token",
+									"source": "UAMagicItemsofEberron",
 									"page": 2
 								},
 								{
 									"type": "statblock",
 									"tag": "item",
-									"source": "UAMagicItemsofEberron",
 									"name": "Glamerweave",
+									"source": "UAMagicItemsofEberron",
 									"page": 2
 								},
 								{
 									"type": "statblock",
 									"tag": "item",
-									"source": "UAMagicItemsofEberron",
 									"name": "Shiftweave",
+									"source": "UAMagicItemsofEberron",
 									"page": 2
 								},
 								{
 									"type": "statblock",
 									"tag": "item",
-									"source": "UAMagicItemsofEberron",
 									"name": "Spellshard",
+									"source": "UAMagicItemsofEberron",
 									"page": 3
 								}
-							],
-							"id": "003"
+							]
 						},
 						{
 							"type": "section",
 							"name": "Warforged Components",
+							"id": "004",
 							"page": 3,
 							"entries": [
 								"The {@race warforged|ERLW} are living constructs. House Cannith has designed a number of magic items that can interface directly with the body of a {@race warforged|ERLW}. Once attached, a component cannot be removed unless the {@race warforged|ERLW} allows it.",
@@ -1621,38 +1623,36 @@
 								{
 									"type": "statblock",
 									"tag": "item",
-									"source": "UAMagicItemsofEberron",
 									"name": "Armblade",
+									"source": "UAMagicItemsofEberron",
 									"page": 3
 								},
 								{
 									"type": "inset",
 									"name": "Magic Armblades",
+									"id": "005",
 									"page": 3,
 									"entries": [
 										"An {@item armblade|UAMagicItemsofEberron} isn't inherently considered to be a magic weapon for purposes of overcoming damage resistance. However, any sort of magical melee weapon could be created as an armblade, so you could acquire a {@item vicious armblade|UAMagicItemsofEberron} or a {@item vorpal armblade|UAMagicItemsofEberron}."
-									],
-									"id": "005"
+									]
 								},
 								{
 									"type": "statblock",
 									"tag": "item",
-									"source": "UAMagicItemsofEberron",
 									"name": "Docent",
+									"source": "UAMagicItemsofEberron",
 									"page": 3
 								},
 								{
 									"type": "statblock",
 									"tag": "item",
-									"source": "UAMagicItemsofEberron",
 									"name": "Wand Sheath",
+									"source": "UAMagicItemsofEberron",
 									"page": 4
 								}
-							],
-							"id": "004"
+							]
 						}
-					],
-					"id": "000"
+					]
 				}
 			]
 		}

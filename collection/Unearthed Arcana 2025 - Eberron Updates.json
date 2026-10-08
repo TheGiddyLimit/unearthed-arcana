@@ -218,10 +218,21 @@
 				}
 			],
 			"startingProficiencies": {
-				"armor": [
-					"light",
-					"medium",
-					"shield"
+				"skills": [
+					{
+						"choose": {
+							"from": [
+								"arcana",
+								"history",
+								"investigation",
+								"medicine",
+								"nature",
+								"perception",
+								"sleight of hand"
+							],
+							"count": 2
+						}
+					}
 				],
 				"weapons": [
 					"simple"
@@ -238,21 +249,10 @@
 						"anyArtisansTool": 1
 					}
 				],
-				"skills": [
-					{
-						"choose": {
-							"from": [
-								"arcana",
-								"history",
-								"investigation",
-								"medicine",
-								"nature",
-								"perception",
-								"sleight of hand"
-							],
-							"count": 2
-						}
-					}
+				"armor": [
+					"light",
+					"medium",
+					"shield"
 				]
 			},
 			"startingEquipment": {
@@ -292,19 +292,6 @@
 			},
 			"multiclassing": {
 				"proficienciesGained": {
-					"armor": [
-						"light",
-						"medium",
-						"shield"
-					],
-					"tools": [
-						"{@item tinker's tools|PHB}"
-					],
-					"toolProficiencies": [
-						{
-							"tinker's tools": true
-						}
-					],
 					"skills": [
 						{
 							"choose": {
@@ -320,6 +307,19 @@
 								"count": 1
 							}
 						}
+					],
+					"tools": [
+						"{@item tinker's tools|PHB}"
+					],
+					"toolProficiencies": [
+						{
+							"tinker's tools": true
+						}
+					],
+					"armor": [
+						"light",
+						"medium",
+						"shield"
 					]
 				}
 			},
@@ -898,9 +898,9 @@
 				"As a {@action Magic|XPHB} action while holding {@item Tinker's Tools|XPHB}, you can create one item in an unoccupied space within 5 feet of yourself, choosing the item from the following list:",
 				{
 					"type": "list",
+					"page": 2,
 					"style": "list-hang",
 					"columns": 4,
-					"page": 2,
 					"items": [
 						"{@item Ball Bearings|XPHB}",
 						"{@item Basket|XPHB}",
@@ -987,32 +987,32 @@
 						{
 							"type": "statblock",
 							"tag": "table",
-							"source": "XUA2025EberronUpdates",
 							"name": "Magic Item Plans (Artificer Level 2+)",
+							"source": "XUA2025EberronUpdates",
 							"page": 4,
 							"collapsed": true
 						},
 						{
 							"type": "statblock",
 							"tag": "table",
-							"source": "XUA2025EberronUpdates",
 							"name": "Magic Item Plans (Artificer Level 6+)",
+							"source": "XUA2025EberronUpdates",
 							"page": 4,
 							"collapsed": true
 						},
 						{
 							"type": "statblock",
 							"tag": "table",
-							"source": "XUA2025EberronUpdates",
 							"name": "Magic Item Plans (Artificer Level 10+)",
+							"source": "XUA2025EberronUpdates",
 							"page": 4,
 							"collapsed": true
 						},
 						{
 							"type": "statblock",
 							"tag": "table",
-							"source": "XUA2025EberronUpdates",
 							"name": "Magic Item Plans (Artificer Level 14+)",
+							"source": "XUA2025EberronUpdates",
 							"page": 4,
 							"collapsed": true
 						}
@@ -1218,8 +1218,8 @@
 				{
 					"type": "statblock",
 					"tag": "table",
-					"source": "XUA2025EberronUpdates",
 					"name": "Cartographer Spells",
+					"source": "XUA2025EberronUpdates",
 					"page": 7
 				}
 			]
@@ -4833,8 +4833,8 @@
 							"entries": [
 								{
 									"type": "list",
-									"style": "list-hang-notitle",
 									"page": 1,
+									"style": "list-hang-notitle",
 									"items": [
 										{
 											"type": "item",
@@ -4874,8 +4874,8 @@
 										"This article is presented for playtesting and feedback. The options here are experimental and in draft form. They aren't officially part of the game. Your feedback will help determine whether we adopt it as official.",
 										{
 											"type": "list",
-											"style": "list-hang-notitle",
 											"page": 1,
+											"style": "list-hang-notitle",
 											"items": [
 												{
 													"type": "item",
@@ -4915,8 +4915,8 @@
 								{
 									"type": "statblock",
 									"tag": "table",
-									"source": "XUA2024Artificer",
 									"name": "Core Artificer Traits",
+									"source": "XUA2024Artificer",
 									"page": 1
 								},
 								{
@@ -4926,8 +4926,8 @@
 									"entries": [
 										{
 											"type": "list",
-											"page": 1,
 											"name": "As a Level 1 Character",
+											"page": 1,
 											"items": [
 												"Gain all the traits in the Core Artificer Traits table.",
 												"Gain the Artificer's level 1 features, which are listed in the Artificer Features table."
@@ -4935,8 +4935,8 @@
 										},
 										{
 											"type": "list",
-											"page": 1,
 											"name": "As a Multiclass Character",
+											"page": 1,
 											"items": [
 												"Gain the following traits from the {@table Core Artificer Traits|XUA2024Artificer} table: Hit Point Die, proficiency with {@item Tinker's Tools|XPHB}, proficiency in one skill of your choice from the Artificer's skill list, and training with Light and Medium armor and Shields.",
 												"Gain the Artificer's level 1 features, which are listed in the Artificer Features table. See the multiclassing rules in the {@book Player's Handbook|XPHB|2|Multiclassing} to determine your available spell slots, adding half your Artificer levels (round up)."
@@ -4999,8 +4999,8 @@
 										{
 											"type": "statblock",
 											"tag": "class",
-											"source": "XUA2025EberronUpdates",
 											"name": "Artificer",
+											"source": "XUA2025EberronUpdates",
 											"page": 2
 										}
 									]
@@ -5014,8 +5014,8 @@
 										{
 											"type": "statblock",
 											"tag": "table",
-											"source": "XUA2025EberronUpdates",
 											"name": "Artificer Spell List",
+											"source": "XUA2025EberronUpdates",
 											"page": 5
 										}
 									]
@@ -5037,12 +5037,12 @@
 										{
 											"type": "statblock",
 											"prop": "subclass",
-											"source": "XUA2025EberronUpdates",
 											"name": "Cartographer",
+											"shortName": "Cartographer",
 											"className": "Artificer",
 											"classSource": "XUA2025EberronUpdates",
-											"page": 6,
-											"shortName": "Cartographer"
+											"source": "XUA2025EberronUpdates",
+											"page": 6
 										}
 									]
 								}
@@ -5057,8 +5057,8 @@
 								{
 									"type": "statblock",
 									"tag": "spell",
-									"source": "XUA2024Artificer",
 									"name": "Homunculus Servant",
+									"source": "XUA2024Artificer",
 									"page": 7
 								}
 							]
@@ -5072,64 +5072,64 @@
 								{
 									"type": "statblock",
 									"tag": "item",
-									"source": "XUA2024Artificer",
 									"name": "Boots of the Winding Path",
+									"source": "XUA2024Artificer",
 									"page": 8
 								},
 								{
 									"type": "statblock",
 									"tag": "item",
-									"source": "XUA2024Artificer",
 									"name": "Helm of Awareness",
+									"source": "XUA2024Artificer",
 									"page": 8
 								},
 								{
 									"type": "statblock",
 									"tag": "item",
-									"source": "XUA2025EberronUpdates",
 									"name": "Manifold Tool",
+									"source": "XUA2025EberronUpdates",
 									"page": 8
 								},
 								{
 									"type": "statblock",
 									"tag": "item",
-									"source": "XUA2024Artificer",
 									"name": "Mind Sharpener",
+									"source": "XUA2024Artificer",
 									"page": 8
 								},
 								{
 									"type": "statblock",
 									"tag": "item",
-									"source": "XUA2024Artificer",
 									"name": "Radiant Weapon",
+									"source": "XUA2024Artificer",
 									"page": 8
 								},
 								{
 									"type": "statblock",
 									"tag": "item",
-									"source": "XUA2024Artificer",
 									"name": "Repeating Shot",
+									"source": "XUA2024Artificer",
 									"page": 8
 								},
 								{
 									"type": "statblock",
 									"tag": "item",
-									"source": "XUA2024Artificer",
 									"name": "Repulsion Shield",
+									"source": "XUA2024Artificer",
 									"page": 8
 								},
 								{
 									"type": "statblock",
 									"tag": "item",
-									"source": "XUA2024Artificer",
 									"name": "Returning Weapon",
+									"source": "XUA2024Artificer",
 									"page": 8
 								},
 								{
 									"type": "statblock",
 									"tag": "item",
-									"source": "XUA2024Artificer",
 									"name": "Spell-Refueling Ring",
+									"source": "XUA2024Artificer",
 									"page": 8
 								}
 							]
@@ -5143,8 +5143,8 @@
 								{
 									"type": "statblock",
 									"tag": "table",
-									"source": "XUA2025EberronUpdates",
 									"name": "Feat List",
+									"source": "XUA2025EberronUpdates",
 									"page": 9
 								},
 								{
@@ -5156,92 +5156,92 @@
 										{
 											"type": "statblock",
 											"tag": "feat",
-											"source": "XUA2025EberronUpdates",
 											"name": "Aberrant Dragonmark",
+											"source": "XUA2025EberronUpdates",
 											"page": 9
 										},
 										{
 											"type": "statblock",
 											"tag": "feat",
-											"source": "XUA2025EberronUpdates",
 											"name": "Mark of Detection",
+											"source": "XUA2025EberronUpdates",
 											"page": 9
 										},
 										{
 											"type": "statblock",
 											"tag": "feat",
-											"source": "XUA2025EberronUpdates",
 											"name": "Mark of Finding",
+											"source": "XUA2025EberronUpdates",
 											"page": 10
 										},
 										{
 											"type": "statblock",
 											"tag": "feat",
-											"source": "XUA2025EberronUpdates",
 											"name": "Mark of Handling",
+											"source": "XUA2025EberronUpdates",
 											"page": 10
 										},
 										{
 											"type": "statblock",
 											"tag": "feat",
-											"source": "XUA2025EberronUpdates",
 											"name": "Mark of Healing",
+											"source": "XUA2025EberronUpdates",
 											"page": 10
 										},
 										{
 											"type": "statblock",
 											"tag": "feat",
-											"source": "XUA2025EberronUpdates",
 											"name": "Mark of Hospitality",
+											"source": "XUA2025EberronUpdates",
 											"page": 11
 										},
 										{
 											"type": "statblock",
 											"tag": "feat",
-											"source": "XUA2025EberronUpdates",
 											"name": "Mark of Making",
+											"source": "XUA2025EberronUpdates",
 											"page": 11
 										},
 										{
 											"type": "statblock",
 											"tag": "feat",
-											"source": "XUA2025EberronUpdates",
 											"name": "Mark of Passage",
+											"source": "XUA2025EberronUpdates",
 											"page": 11
 										},
 										{
 											"type": "statblock",
 											"tag": "feat",
-											"source": "XUA2025EberronUpdates",
 											"name": "Mark of Scribing",
+											"source": "XUA2025EberronUpdates",
 											"page": 11
 										},
 										{
 											"type": "statblock",
 											"tag": "feat",
-											"source": "XUA2025EberronUpdates",
 											"name": "Mark of Sentinel",
+											"source": "XUA2025EberronUpdates",
 											"page": 12
 										},
 										{
 											"type": "statblock",
 											"tag": "feat",
-											"source": "XUA2025EberronUpdates",
 											"name": "Mark of Shadow",
+											"source": "XUA2025EberronUpdates",
 											"page": 12
 										},
 										{
 											"type": "statblock",
 											"tag": "feat",
-											"source": "XUA2025EberronUpdates",
 											"name": "Mark of Storm",
+											"source": "XUA2025EberronUpdates",
 											"page": 12
 										},
 										{
 											"type": "statblock",
 											"tag": "feat",
-											"source": "XUA2025EberronUpdates",
 											"name": "Mark of Warding",
+											"source": "XUA2025EberronUpdates",
 											"page": 13
 										}
 									]
@@ -5255,99 +5255,99 @@
 										{
 											"type": "statblock",
 											"tag": "feat",
-											"source": "XUA2025EberronUpdates",
 											"name": "Greater Aberrant Mark",
+											"source": "XUA2025EberronUpdates",
 											"page": 13
 										},
 										{
 											"type": "statblock",
 											"tag": "feat",
-											"source": "XUA2025EberronUpdates",
 											"name": "Greater Mark of Detection",
+											"source": "XUA2025EberronUpdates",
 											"page": 13
 										},
 										{
 											"type": "statblock",
 											"tag": "feat",
-											"source": "XUA2025EberronUpdates",
 											"name": "Greater Mark of Finding",
+											"source": "XUA2025EberronUpdates",
 											"page": 13
 										},
 										{
 											"type": "statblock",
 											"tag": "feat",
-											"source": "XUA2025EberronUpdates",
 											"name": "Greater Mark of Handling",
+											"source": "XUA2025EberronUpdates",
 											"page": 13
 										},
 										{
 											"type": "statblock",
 											"tag": "feat",
-											"source": "XUA2025EberronUpdates",
 											"name": "Greater Mark of Healing",
+											"source": "XUA2025EberronUpdates",
 											"page": 14
 										},
 										{
 											"type": "statblock",
 											"tag": "feat",
-											"source": "XUA2025EberronUpdates",
 											"name": "Greater Mark of Hospitality",
+											"source": "XUA2025EberronUpdates",
 											"page": 14
 										},
 										{
 											"type": "statblock",
 											"tag": "feat",
-											"source": "XUA2025EberronUpdates",
 											"name": "Greater Mark of Making",
+											"source": "XUA2025EberronUpdates",
 											"page": 14
 										},
 										{
 											"type": "statblock",
 											"tag": "feat",
-											"source": "XUA2025EberronUpdates",
 											"name": "Greater Mark of Passage",
+											"source": "XUA2025EberronUpdates",
 											"page": 14
 										},
 										{
 											"type": "statblock",
 											"tag": "feat",
-											"source": "XUA2025EberronUpdates",
 											"name": "Greater Mark of Scribing",
+											"source": "XUA2025EberronUpdates",
 											"page": 14
 										},
 										{
 											"type": "statblock",
 											"tag": "feat",
-											"source": "XUA2025EberronUpdates",
 											"name": "Greater Mark of Sentinel",
+											"source": "XUA2025EberronUpdates",
 											"page": 14
 										},
 										{
 											"type": "statblock",
 											"tag": "feat",
-											"source": "XUA2025EberronUpdates",
 											"name": "Greater Mark of Shadow",
+											"source": "XUA2025EberronUpdates",
 											"page": 15
 										},
 										{
 											"type": "statblock",
 											"tag": "feat",
-											"source": "XUA2025EberronUpdates",
 											"name": "Greater Mark of Storm",
+											"source": "XUA2025EberronUpdates",
 											"page": 15
 										},
 										{
 											"type": "statblock",
 											"tag": "feat",
-											"source": "XUA2025EberronUpdates",
 											"name": "Greater Mark of Warding",
+											"source": "XUA2025EberronUpdates",
 											"page": 15
 										},
 										{
 											"type": "statblock",
 											"tag": "feat",
-											"source": "XUA2025EberronUpdates",
 											"name": "Potent Dragonmark",
+											"source": "XUA2025EberronUpdates",
 											"page": 15
 										}
 									]
@@ -5361,8 +5361,8 @@
 										{
 											"type": "statblock",
 											"tag": "feat",
-											"source": "XUA2025EberronUpdates",
 											"name": "Boon of Siberys",
+											"source": "XUA2025EberronUpdates",
 											"page": 15
 										}
 									]
