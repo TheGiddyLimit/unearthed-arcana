@@ -335,7 +335,7 @@
 								{
 									"type": "abilityGeneric",
 									"name": "Initiative",
-									"text": "10 + unit morale rating + commander's",
+									"entry": "10 + unit morale rating + commander's",
 									"attributes": [
 										"cha"
 									]
