@@ -589,7 +589,11 @@
 			],
 			"classSpells": [
 				{
-					"groupName": "Arcane",
+					"className": "Sorcerer",
+					"classSource": "PHB"
+				},
+				{
+					"groupName": "Sorcerer",
 					"groupSource": "XUA2023PlayersHandbookP7"
 				}
 			],
@@ -3346,9 +3350,9 @@
 							"type": "entries",
 							"name": "Cantrips",
 							"entries": [
-								"You know four cantrips of your choice from the Arcane spell list. Rather than choosing, you may start with Light, Message, Prestidigitation, and Shocking Grasp.",
-								"Whenever you gain a Sorcerer level, you can replace one of your cantrips with another Arcane cantrip of your choice.",
-								"When you reach 4th and 10th level in this class, you learn another Arcane cantrip of your choice, as shown in the Cantrips column of the Sorcerer table."
+								"You know four cantrips of your choice from the Sorcerer spell list. Rather than choosing, you may start with Light, Prestidigitation, Shocking Grasp, and {@spell Sorcerous Burst|XUA2023PlayersHandbookP7}.",
+								"Whenever you gain a Sorcerer level, you can replace one of your cantrips from this feature with another Sorcerer cantrip of your choice.",
+								"When you reach levels 4 and 10 in this class, you learn another Sorcerer cantrip of your choice, as shown in the Cantrips column of the Sorcerer table."
 							]
 						},
 						{
@@ -3362,16 +3366,16 @@
 							"type": "entries",
 							"name": "Prepared Spells of 1st+ Level",
 							"entries": [
-								"You prepare the list of spells of 1st level and higher that are available for you to cast with this feature. To start, choose two 1st-level spells from the Arcane spell list. Rather than choosing, you may start with Burning Hands and Detect Magic.",
-								"The number of spells on your list also increases as you gain Sorcerer levels, as shown in the Prepared Spells column of the Sorcerer table. Whenever that number increases, choose additional spells from the Arcane spell list until the number of spells on your list matches the number on the table. The chosen spells must be of a level for which you have Spell Slots. For example, if you're a 3rd-level Sorcerer, your list of prepared spells can include six Arcane spells of 1st or 2nd level, in any combination.",
-								"If another Sorcerer feature, such as Innate Sorcery, gives spells that you always have prepared, those spells don't count against the number of spells on the list you prepare with this Spellcasting feature, but those spells otherwise follow the rules in this feature."
+								"You prepare the list of spells of 1st level and higher that are available for you to cast with this feature. To start, choose two 1st-level spells from the Sorcerer spell list. Rather than choosing, you may start with Burning Hands and Detect Magic.",
+								"The number of spells on your list also increases as you gain Sorcerer levels, as shown in the Prepared Spells column of the Sorcerer table. Whenever that number increases, choose additional spells from the Sorcerer spell list until the number of spells on your list matches the number on the table. The chosen spells must be of a level for which you have Spell Slots. For example, if you're a 3rd-level Sorcerer, your list of prepared spells can include six Sorcerer spells of 1st or 2nd level, in any combination.",
+								"If another Sorcerer feature gives spells that you always have prepared, those spells don't count against the number of spells on the list you prepare with this Spellcasting feature, but those spells otherwise follow the rules in this feature."
 							]
 						},
 						{
 							"type": "entries",
 							"name": "Changing Your Prepared Spells",
 							"entries": [
-								"Whenever you gain a Sorcerer Level, you can replace one spell on your list with another Arcane spell for which you have Spell Slots."
+								"Whenever you gain a Sorcerer level, you can replace one spell on your list with another Sorcerer spell for which you have Spell Slots."
 							]
 						},
 						{
